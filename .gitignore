@@ -1,0 +1,34 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Data / outputs
+*.sqlite
+*.sqlite3
+*.db
+outputs/
+folk_run_log.jsonl
+folk_final_scores.json
+folk_final_scores.xlsx
+folk_adjustment_log.xlsx
+folk_reference_library.json
+folk_validation_report.json
+folk_validation_report.txt
+
+# IDE / OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,110 @@
+# Framework -> FOLK dimension mapping ("the common signal beneath five frameworks").
+#
+# Each entry maps a raw framework column to one or more FOLK dimensions with:
+#   dimension: D1|D2|D3|D4
+#   polarity:  direct  (high column value -> high pole: Self/Open/Certain/Striving)
+#              inverse (high column value -> low pole: Social/Restrained/Fluid/Accepting)
+#   weight:    relative contribution (0-1) of this column to that dimension's signal
+#
+# Values are normalised per-column using dataset-wide min/max at runtime, so raw
+# scales (Hofstede 0-100, GLOBE 1-7, Schwartz 1-7, Trompenaars/WVS) need not match.
+#
+# AUTHORITATIVE OVERRIDES (do not change without sign-off):
+#   - globe_performance_orientation -> D4 only (never D2).
+#   - globe_uncertainty_avoidance   -> D1 (not D3).
+
+mappings:
+  # ---- Hofstede ----
+  hofstede_individualism:
+    - {dimension: D1, polarity: direct, weight: 1.0}
+  hofstede_power_distance:
+    - {dimension: D1, polarity: inverse, weight: 0.7}
+  hofstede_uncertainty_avoidance:
+    - {dimension: D3, polarity: direct, weight: 1.0}
+  hofstede_indulgence:
+    - {dimension: D2, polarity: direct, weight: 1.0}
+  hofstede_masculinity:
+    - {dimension: D4, polarity: direct, weight: 1.0}
+  hofstede_long_term_orientation:
+    - {dimension: D4, polarity: direct, weight: 0.5}
+    - {dimension: D2, polarity: inverse, weight: 0.3}
+
+  # ---- GLOBE (practices) ----
+  globe_performance_orientation:
+    - {dimension: D4, polarity: direct, weight: 1.0, override: true}
+  globe_assertiveness:
+    - {dimension: D2, polarity: direct, weight: 0.6}
+  globe_future_orientation:
+    - {dimension: D3, polarity: direct, weight: 0.5}
+  globe_humane_orientation:
+    - {dimension: D4, polarity: inverse, weight: 0.5}
+  globe_institutional_collectivism:
+    - {dimension: D1, polarity: inverse, weight: 0.7}
+  globe_in_group_collectivism:
+    - {dimension: D1, polarity: inverse, weight: 0.8}
+  globe_gender_egalitarianism:
+    - {dimension: D1, polarity: direct, weight: 0.4}
+  globe_power_distance:
+    - {dimension: D1, polarity: inverse, weight: 0.6}
+  globe_uncertainty_avoidance:
+    - {dimension: D1, polarity: direct, weight: 0.5, override: true}
+
+  # ---- Schwartz ----
+  schwartz_affective_autonomy:
+    - {dimension: D1, polarity: direct, weight: 0.8}
+  schwartz_intellectual_autonomy:
+    - {dimension: D1, polarity: direct, weight: 0.8}
+  schwartz_egalitarianism:
+    - {dimension: D1, polarity: direct, weight: 0.5}
+  schwartz_embeddedness:
+    - {dimension: D1, polarity: inverse, weight: 0.8}
+  schwartz_hierarchy:
+    - {dimension: D1, polarity: inverse, weight: 0.6}
+  schwartz_mastery:
+    - {dimension: D4, polarity: direct, weight: 0.8}
+  schwartz_harmony:
+    - {dimension: D3, polarity: inverse, weight: 0.5}
+
+  # ---- World Values Survey ----
+  wvs_autonomy:
+    - {dimension: D1, polarity: direct, weight: 0.8}
+  wvs_choice:
+    - {dimension: D1, polarity: direct, weight: 0.8}
+  wvs_voice:
+    - {dimension: D1, polarity: direct, weight: 0.7}
+  wvs_equality:
+    - {dimension: D1, polarity: direct, weight: 0.6}
+  wvs_defiance:
+    - {dimension: D1, polarity: direct, weight: 0.4}
+  wvs_disbelief:
+    - {dimension: D3, polarity: inverse, weight: 0.5}
+  wvs_relativism:
+    - {dimension: D3, polarity: inverse, weight: 0.5}
+  wvs_scepticism:
+    - {dimension: D3, polarity: inverse, weight: 0.5}
+
+  # ---- Trompenaars (8 columns; identity-loading + expression) ----
+  trompenaars_communitarianism_individualism:
+    - {dimension: D1, polarity: direct, weight: 0.7}
+  trompenaars_particularism_universalism:
+    - {dimension: D1, polarity: direct, weight: 0.5}
+  trompenaars_diffuse_specific:
+    - {dimension: D1, polarity: direct, weight: 0.5}
+  trompenaars_ascription_achievement:
+    - {dimension: D4, polarity: direct, weight: 0.5}
+  trompenaars_affective_neutral:
+    - {dimension: D2, polarity: direct, weight: 0.6}
+  trompenaars_future_past:
+    - {dimension: D3, polarity: direct, weight: 0.3}
+  trompenaars_synchronic_sequential:
+    - {dimension: D3, polarity: direct, weight: 0.3}
+  trompenaars_external_internal:
+    - {dimension: D4, polarity: direct, weight: 0.3}
+
+# Per-dimension anchoring strength (Cultural Intelligence Framework: D1/D2 strongly
+# anchored, D3/D4 moderately). Multiplies into confidence.
+dimension_anchor_strength:
+  D1: 1.00
+  D2: 1.00
+  D3: 0.80
+  D4: 0.80

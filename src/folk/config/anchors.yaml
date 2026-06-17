@@ -1,0 +1,41 @@
+# Immutable calibration anchors. These dimensions are locked to exactly 50 and
+# processed first. All other country reasoning is relative to these.
+anchors:
+  KOR:
+    country: South Korea
+    locked:
+      d1: 50
+    rationale: Post-traditional collectivism coexisting with growing professional individualism.
+  TUR:
+    country: Turkey
+    locked:
+      d2: 50
+      d4: 50
+    rationale: >-
+      Warm interpersonal norms but hierarchical professional restraint (D2);
+      aspirational achievement balanced against strong family harmony values (D4).
+  COL:
+    country: Colombia
+    locked:
+      d3: 50
+    rationale: High Hofstede UAI=80 but improvised, adaptive practical business culture.
+
+# Tolerance for the pre-batch calibration run (anchors must land within +/- this).
+calibration_tolerance: 2
+
+# Directional reference countries used to sanity-check the calibration run.
+reference_countries:
+  NLD:
+    country: Netherlands
+    expected:
+      d1: [85, 92]
+      d2: [60, 68]
+      d3: [50, 58]
+      d4: [32, 40]
+  JPN:
+    country: Japan
+    expected:
+      d1: [44, 52]
+      d2: [26, 34]
+      d3: [72, 80]
+      d4: [78, 86]
