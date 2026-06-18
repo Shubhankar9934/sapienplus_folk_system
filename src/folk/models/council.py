@@ -112,6 +112,50 @@ class AgentAssessment(BaseModel):
         return data
 
 
+class ChallengeRecord(BaseModel):
+    """An adversarial cross-critique raised by one agent against another (Phase 2).
+
+    Produced during the Cross-Critique phase. ``accepted``/``rejected`` are set
+    after the Revision phase by comparing the target's revised position with the
+    challenger's claim; ``impact`` records the resulting score movement.
+    """
+
+    challenger: str = ""
+    target: str = ""
+    dimension: Dimension | None = None
+    claim: str = ""
+    critique: str = ""
+    accepted: bool = False
+    rejected: bool = False
+    impact: float = 0.0  # absolute score movement attributable to the challenge
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coalesce(cls, data):
+        if not isinstance(data, dict):
+            return data
+        if not data.get("critique"):
+            for k in ("critique", "argument", "concern", "reasoning", "detail"):
+                if data.get(k):
+                    data["critique"] = str(data[k])
+                    break
+        if not data.get("claim"):
+            data["claim"] = str(data.get("issue") or data.get("critique") or "")[:120]
+        return data
+
+
+class CouncilDiversityReport(BaseModel):
+    """Spread of agent positions on one dimension, before and after consensus."""
+
+    iso3: str = ""
+    dimension: Dimension | None = None
+    stage: str = "before"  # before | after
+    score_std: float = 0.0
+    max_difference: float = 0.0
+    disagreement_index: float = 0.0  # 0-1 normalised dispersion
+    consensus_strength: float = 0.0  # 0-1, 1 = perfect agreement
+
+
 class AnchorPosition(BaseModel):
     dimension: Dimension | None = None
     anchor_iso3: str = ""

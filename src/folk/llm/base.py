@@ -33,14 +33,32 @@ class LLMError(Exception):
 
 
 def extract_json(text: str) -> dict:
-    """Pull the first JSON object out of a model response."""
+    """Pull the first JSON object out of a model response.
+
+    Tries strict parsing first; on failure, falls back to a tolerant repair
+    pass (json_repair) so a single malformed delimiter, trailing comma, or a
+    truncated tail in a long research response degrades gracefully instead of
+    aborting the whole run.
+    """
     m = _JSON_FENCE.search(text)
     candidate = m.group(1) if m else text
     start = candidate.find("{")
     end = candidate.rfind("}")
-    if start == -1 or end == -1 or end < start:
+    if start == -1:
         raise LLMError("No JSON object found in response")
-    return json.loads(candidate[start : end + 1])
+    snippet = candidate[start : end + 1] if end > start else candidate[start:]
+    try:
+        return json.loads(snippet)
+    except json.JSONDecodeError:
+        try:
+            import json_repair
+
+            repaired = json_repair.loads(snippet)
+        except Exception as exc:  # noqa: BLE001
+            raise LLMError(f"Could not parse JSON from response: {exc}") from exc
+        if not isinstance(repaired, dict):
+            raise LLMError("Repaired JSON is not an object")
+        return repaired
 
 
 class BaseLLMProvider(ABC):

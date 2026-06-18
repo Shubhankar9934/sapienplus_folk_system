@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+from folk.analysis.dashboard import CouncilQualityDashboardBuilder
+from folk.analysis.impact import CouncilImpactAnalyzer
+from folk.analysis.quality import ResearchQualityAnalyzer
 from folk.anchors import anchor_iso3s, calibration_tolerance, reference_countries
 from folk.calibration.global_calibration import GlobalCalibrator
 from folk.data.loader import ExcelLoader
@@ -16,8 +19,10 @@ from folk.models.validation import (
 )
 from folk.pipeline.processor import CountryProcessor
 from folk.reference.engine import ReferenceLibraryBuilder
+from folk.research.validation import plan_seats
 from folk.storage.repositories import Repositories
 from folk.utils.logging import get_logger
+from folk.validation_engine.external import ExternalValidationEngine
 
 log = get_logger()
 
@@ -65,6 +70,17 @@ class Pipeline:
     # ------------------------------------------------------------------ #
     def run(self, isos: list[str] | None = None, limit: int | None = None,
             resume: bool = True) -> ValidationReport:
+        # Startup validation gate: probe each provider's native web search and
+        # assign the three specialist seats ONCE. Raises ConfigurationError (and
+        # stops the whole run) only when zero providers are available - naming
+        # which providers failed and why. Never substitutes a search backend.
+        availability, assignment, diversity, assignments = plan_seats(
+            self.processor.settings, self.processor.research_factory)
+        self.processor.set_seat_plan(availability, assignment, diversity, assignments)
+        log.info(f"Research providers available: {availability.available_providers}; "
+                 f"seat assignment: {assignment.assignments}; "
+                 f"provider diversity: {diversity.provider_diversity}")
+
         records = processing_order(self.records)
         if isos:
             wanted = {i.upper() for i in isos}
@@ -77,9 +93,14 @@ class Pipeline:
             ckpt = self.repos.checkpoints.get(CHECKPOINT_KEY)
             processed = set(ckpt.get("isos", [])) if ckpt else set()
 
+        total = len(records)
+        log.info(f"Processing {total} country(ies): "
+                 f"{', '.join(r.iso3 for r in records)}")
         for idx, record in enumerate(records, start=1):
             if resume and record.iso3 in processed and self.repos.profiles.exists(record.iso3):
+                log.info(f"[{idx}/{total}] Skipping {record.iso3} ({record.country}) - already processed")
                 continue
+            log.info(f"[{idx}/{total}] Processing {record.iso3} ({record.country})...")
             try:
                 self._process_one(record)
                 processed.add(record.iso3)
@@ -168,16 +189,53 @@ class Pipeline:
                 report.anchor_violations.extend(f"{p.iso3}:{v}" for v in cal.anchor_violations)
                 if cal.flat_profile:
                     report.flat_profiles.append(p.iso3)
-                if cal.midpoint_dimensions:
-                    report.midpoint_reviews.append(
-                        f"{p.iso3}:{','.join(d.value for d in cal.midpoint_dimensions)}")
                 report.discrimination_flags.extend(
                     f"{f.iso3_a}~{f.iso3_b}({f.distance})" for f in cal.discrimination_flags)
+            # Midpoint reviews now come from the confidence-gated detector, not the
+            # raw 40-60 scan (the calibration math is unchanged - this only changes
+            # what is *flagged for review*).
+            mid_dims = [m.dimension.value for m in p.midpoint_confidence if m.needs_review]
+            if mid_dims:
+                report.midpoint_reviews.append(f"{p.iso3}:{','.join(mid_dims)}")
             if p.record_type == RecordType.EXTENSION and p.constructed_ci:
                 report.extension_constructed_cis[p.iso3] = [c.model_dump(mode="json")
                                                             for c in p.constructed_ci]
             if p.requires_human_review:
                 report.human_review_queue.append(
                     HumanReviewItem(iso3=p.iso3, country=p.country, reasons=p.review_reasons))
+            if p.advisory_reasons:
+                report.advisory_queue.append(
+                    HumanReviewItem(iso3=p.iso3, country=p.country, reasons=p.advisory_reasons))
         report.outliers = list(global_result.outliers)
+
+        self._attach_phase2_analytics(report, profiles)
         return report
+
+    # ------------------------------------------------------------------ #
+    def _attach_phase2_analytics(self, report: ValidationReport, profiles) -> None:
+        """Objectives 4-6: external validation, council impact, research quality.
+        All read-only over the finalised profiles + input records."""
+        external = ExternalValidationEngine().validate(profiles, self.records)
+        analyzer = CouncilImpactAnalyzer()
+        impact = analyzer.council_impact(profiles)
+        contributions = analyzer.agent_contributions(profiles)
+        counterfactual = analyzer.counterfactual(
+            profiles, self.records,
+            human_review_queue_size=len(report.human_review_queue),
+            with_external=external.mean_abs_pearson)
+        quality = ResearchQualityAnalyzer().assess(report, profiles, external, impact)
+
+        report.external_validation = external
+        report.council_impact = impact
+        report.agent_contributions = contributions
+        report.counterfactual = counterfactual
+        report.research_quality = quality
+
+        # --- Council intelligence upgrade analytics (Req 4, 5, 7) ---
+        external_v2 = ExternalValidationEngine().validate_v2(profiles, self.records)
+        council_value = analyzer.council_impact_v2(
+            profiles, counterfactual,
+            human_review_queue_size=len(report.human_review_queue))
+        report.external_validation_v2 = external_v2
+        report.council_impact_v2 = council_value
+        report.council_quality_dashboard = CouncilQualityDashboardBuilder().build(report, profiles)

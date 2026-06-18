@@ -120,9 +120,14 @@ class BaseAgent:
             notes=f"{self.role.value} phase {phase} assessment.",
         )
 
+    # Four-phase convergence. Phase 2 (cross-critique) holds positions so the
+    # critiques are computed against intact stances; revision/consensus converge
+    # only partially to preserve meaningful disagreement (Objective 3).
+    _REVISION_FRACTION = {2: 0.0, 3: 0.25, 4: 0.4}
+
     def _revise(self, pack, prior, phase) -> dict[Dimension, float]:
-        """Default convergence: move toward cross-agent mean."""
-        frac = 0.3 if phase == 2 else 0.5
+        """Partial convergence toward the cross-agent mean (dampened by phase)."""
+        frac = self._REVISION_FRACTION.get(phase, 0.3)
         mine = next((a for a in prior if a.agent == self.role), None)
         out = {}
         for d in DIMENSIONS:
@@ -141,19 +146,51 @@ class BaseAgent:
     def _flags(self, pack, scores) -> list[str]:
         return []
 
-    def _build_user(self, pack, evidence, phase, prior) -> str:
+    # ---- information separation (Objective 3) ---- #
+    # Each agent only sees the inputs it is allowed to reason over. The
+    # deterministic _compute hint is unchanged, so mock mode is unaffected; this
+    # only governs what context the live LLM receives, decoupling the agents.
+    def _context_blocks(self, pack, evidence) -> list[str]:
+        """Override per role. Base sees nothing extra."""
+        return []
+
+    @staticmethod
+    def _framework_block(pack) -> str:
+        return ("FRAMEWORK_SIGNALS: "
+                + json.dumps({d.value: s.model_dump() for d, s in pack.framework_signals.items()}))
+
+    @staticmethod
+    def _ci_block(pack) -> str:
+        return ("CONFIDENCE_INTERVALS: "
+                + json.dumps({d.value: {"lo": ci.lo, "hi": ci.hi}
+                              for d, ci in pack.confidence_intervals.items()}))
+
+    @staticmethod
+    def _regional_block(pack) -> str:
+        rc = pack.regional_context
+        neighbours = [{"iso3": n.iso3, "country": n.country, "d1": n.d1, "d2": n.d2,
+                       "d3": n.d3, "d4": n.d4} for n in pack.neighbours]
+        anchors = [a.model_dump(mode="json") for a in pack.anchor_comparisons]
+        return (f"REGIONAL_CONTEXT: {rc.model_dump_json()}\n"
+                f"NEIGHBOURS: {json.dumps(neighbours)[:1500]}\n"
+                f"ANCHOR_COUNTRIES: {json.dumps(anchors)[:1500]}")
+
+    @staticmethod
+    def _evidence_block(pack, evidence) -> str:
         ev_compact = {
             d.value: [
                 {"id": i.evidence_id, "cat": i.category.value, "strength": i.strength.value,
                  "stmt": i.statement} for i in evidence[d].items
             ] for d in DIMENSIONS if d in evidence
         }
+        return f"COUNTRY_EVIDENCE: {json.dumps(ev_compact)[:3000]}"
+
+    def _build_user(self, pack, evidence, phase, prior) -> str:
         parts = [
             self.prompts.agent_prompt(self.role, phase),
             f"\nCOUNTRY: {pack.country} ({pack.iso3}) | DATA_STATUS: {pack.data_status}",
-            f"FRAMEWORK_SIGNALS: {json.dumps({d.value: s.model_dump() for d, s in pack.framework_signals.items()})}",
-            f"EVIDENCE: {json.dumps(ev_compact)[:3000]}",
         ]
+        parts.extend(self._context_blocks(pack, evidence))
         if prior:
             parts.append(f"PRIOR_PHASE: {json.dumps([a.model_dump(mode='json') for a in prior])[:3000]}")
         return "\n".join(parts)
@@ -161,6 +198,11 @@ class BaseAgent:
 
 class StatisticianAgent(BaseAgent):
     role = AgentRole.STATISTICIAN
+
+    # Allowed: framework scores, confidence intervals, signal strength.
+    # Forbidden: regional narratives, country specialist notes.
+    def _context_blocks(self, pack, evidence) -> list[str]:
+        return [self._framework_block(pack), self._ci_block(pack)]
 
     def _phase1_value(self, pack, evidence, dim) -> float:
         # Baseline-anchored, nudged slightly toward the framework-signal consensus.
@@ -179,6 +221,11 @@ class StatisticianAgent(BaseAgent):
 class ComparativistAgent(BaseAgent):
     role = AgentRole.COMPARATIVIST
 
+    # Allowed: regional clusters, neighbouring countries, anchor countries.
+    # Forbidden: framework calculations.
+    def _context_blocks(self, pack, evidence) -> list[str]:
+        return [self._regional_block(pack)]
+
     def _phase1_value(self, pack, evidence, dim) -> float:
         base = _base_value(pack, dim)
         region_mean = getattr(pack.regional_context, f"mean_{dim.field}", None)
@@ -193,6 +240,11 @@ class ComparativistAgent(BaseAgent):
 
 class CountrySpecialistAgent(BaseAgent):
     role = AgentRole.COUNTRY_SPECIALIST
+
+    # Allowed: country evidence, historical context, qualitative references.
+    # Forbidden: regional averages, framework calculations.
+    def _context_blocks(self, pack, evidence) -> list[str]:
+        return [self._evidence_block(pack, evidence)]
 
     def _phase1_value(self, pack, evidence, dim) -> float:
         base = _base_value(pack, dim)
@@ -212,6 +264,12 @@ class CountrySpecialistAgent(BaseAgent):
 
 class DevilsAdvocateAgent(BaseAgent):
     role = AgentRole.DEVILS_ADVOCATE
+
+    # The Skeptic receives ALL outputs and challenges overconfidence, framework
+    # conflict, profile compression, unsupported assumptions, regional inconsistency.
+    def _context_blocks(self, pack, evidence) -> list[str]:
+        return [self._framework_block(pack), self._ci_block(pack),
+                self._regional_block(pack), self._evidence_block(pack, evidence)]
 
     def _phase1_value(self, pack, evidence, dim) -> float:
         base = _base_value(pack, dim)

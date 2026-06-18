@@ -1,13 +1,23 @@
-"""Layer 8.5 - Human Review Queue trigger logic.
+"""Layer 8.5 - Human Review Queue trigger logic (Phase 2 severity rebuild).
 
-Determines whether a finalised country must be flagged for human review before
-publication, per the brief's trigger set.
+Each potential issue is classified into a ``ReviewSeverity``:
+
+* HIGH   -> enters the Human Review Queue (anchor/CI violation, judge rejection,
+            severe narrative inconsistency, discriminant failure)
+* MEDIUM -> Advisory Queue only (judge disagreement, moderate framework conflict,
+            insufficient references)
+* LOW    -> informational only, never queued (midpoint warning, flat profile,
+            qualitative-only country)
+
+Goal: keep the Human Review Queue under 10% by reserving it for HIGH severity.
 """
 
 from __future__ import annotations
 
 from folk.models.calibration import CalibrationResult
+from folk.models.enums import ReviewSeverity
 from folk.models.judges import JudgeAssessment
+from folk.models.review import ReviewFlag, ReviewOutcome
 
 
 class HumanReviewEvaluator:
@@ -16,29 +26,55 @@ class HumanReviewEvaluator:
         country_calibration: CalibrationResult,
         judge_assessments: list[JudgeAssessment],
         references_ok: bool,
-        midpoint_justified: bool,
-        qualitative_only: bool,
-    ) -> tuple[bool, list[str]]:
-        reasons: list[str] = []
+        narrative_passed: bool,
+        *,
+        qualitative_only: bool = False,
+        midpoint_review_needed: bool = False,
+        moderate_framework_conflict: bool = False,
+    ) -> ReviewOutcome:
+        flags: list[ReviewFlag] = []
+        cc = country_calibration
 
-        if country_calibration.discrimination_flags:
-            reasons.append(
-                f"discriminant_flag: {len(country_calibration.discrimination_flags)} near-duplicates")
-        if country_calibration.flat_profile:
-            reasons.append(f"flat_profile: range={country_calibration.profile_range}")
-        if not midpoint_justified:
-            reasons.append("midpoint_justification_failure")
-        if not references_ok:
-            reasons.append("insufficient_references")
+        # ---- HIGH ----
+        if cc.anchor_violations:
+            flags.append(ReviewFlag(code="anchor_violation", severity=ReviewSeverity.HIGH,
+                                    detail="; ".join(cc.anchor_violations)))
+        if cc.ci_violations:
+            flags.append(ReviewFlag(code="ci_violation", severity=ReviewSeverity.HIGH,
+                                    detail="; ".join(cc.ci_violations)))
+        if cc.discrimination_flags:
+            flags.append(ReviewFlag(code="discriminant_failure", severity=ReviewSeverity.HIGH,
+                                    detail=f"{len(cc.discrimination_flags)} near-duplicates"))
+        if not narrative_passed:
+            flags.append(ReviewFlag(code="narrative_inconsistency", severity=ReviewSeverity.HIGH,
+                                    detail="narrative validation failed"))
 
         verdicts = {j.judge.value: j.verdict.value for j in judge_assessments}
         approvals = [j.approved for j in judge_assessments]
-        if any(approvals) and not all(approvals):
-            reasons.append(f"judge_disagreement: {verdicts}")
-        elif judge_assessments and not any(approvals):
-            reasons.append(f"judge_rejection: {verdicts}")
+        if judge_assessments and not any(approvals):
+            flags.append(ReviewFlag(code="judge_rejection", severity=ReviewSeverity.HIGH,
+                                    detail=str(verdicts)))
+        elif any(approvals) and not all(approvals):
+            # ---- MEDIUM ----
+            flags.append(ReviewFlag(code="judge_disagreement", severity=ReviewSeverity.MEDIUM,
+                                    detail=str(verdicts)))
 
+        # ---- MEDIUM ----
+        if not references_ok:
+            flags.append(ReviewFlag(code="insufficient_references", severity=ReviewSeverity.MEDIUM,
+                                    detail="below source minimums"))
+        if moderate_framework_conflict:
+            flags.append(ReviewFlag(code="moderate_framework_conflict", severity=ReviewSeverity.MEDIUM,
+                                    detail="frameworks disagree on direction"))
+
+        # ---- LOW ----
+        if midpoint_review_needed:
+            flags.append(ReviewFlag(code="midpoint_warning", severity=ReviewSeverity.LOW,
+                                    detail="weakly-supported near-50 score"))
+        if cc.flat_profile:
+            flags.append(ReviewFlag(code="weak_flat_profile", severity=ReviewSeverity.LOW,
+                                    detail=f"range={cc.profile_range}"))
         if qualitative_only:
-            reasons.append("qualitative_only_country")
+            flags.append(ReviewFlag(code="qualitative_only_country", severity=ReviewSeverity.LOW))
 
-        return bool(reasons), reasons
+        return ReviewOutcome(flags=flags)

@@ -51,6 +51,7 @@ provider (no API keys needed) - used by the test suite.
 
 ```bash
 pytest
+```
 
 You're fully set up for a live run. All three providers (Anthropic `claude-sonnet-4-6`, OpenAI `gpt-4o`, DeepSeek `deepseek-chat`) connect, config resolves to **live**, the SDKs are installed, per-country failures are now non-fatal, and `outputs/` is clean.
 
@@ -82,13 +83,39 @@ python -m folk.cli run --isos "KOR,DEU" --no-resume
 
 Check the files in `outputs/` look right before the big run.
 
-**4. Full run — all 197 countries:**
+> Note: the report aggregates **every** profile in the DB, not just the ISOs you
+> passed. If older runs are still saved, a 2-country smoke test will report all of
+> them. Reset first (step 4) if you want the report to reflect only this run.
+
+**4. Reset to a clean slate (optional, before a fresh full run):**
+
+Wipe the database, the resume checkpoint, and stale `folk_*` report files so the
+next run starts from scratch:
+
+```powershell
+python -m folk.cli reset
+```
+
+Add `--keep-outputs` to clear the database only and leave existing report files in place:
+
+```powershell
+python -m folk.cli reset --keep-outputs
+```
+
+**5. Full run — all 197 countries:**
 
 ```powershell
 python -m folk.cli run
 ```
 
-**5. Re-export anytime from the saved DB (no API calls):**
+To wipe everything and run from scratch in a single command, use `--fresh`
+(equivalent to `reset` then `run`):
+
+```powershell
+python -m folk.cli run --fresh
+```
+
+**6. Re-export anytime from the saved DB (no API calls):**
 
 ```powershell
 python -m folk.cli export
@@ -106,10 +133,7 @@ Everything writes to **`outputs/`** automatically:
 
 ## Important notes
 - **Scale/cost:** ~17 LLM calls per country (12 council + 1 integrator + 2 judges + 1 narrative + 1 validator) × 197 ≈ **~3,350 real API calls** across the three providers. It will take a while and cost real money — that's why I suggest the 2-country test first.
-- **Resumable:** if the run is interrupted, just run `python -m folk.cli run` again — it skips countries already in the DB and continues (checkpoints every 10). Use `--no-resume` only for a clean restart (delete `outputs/folk.sqlite` first if you want a fully fresh DB).
+- **Resumable:** if the run is interrupted, just run `python -m folk.cli run` again — it skips countries already in the DB and continues (checkpoints every 10). For a fully fresh DB, use `python -m folk.cli reset` (or `python -m folk.cli run --fresh`) instead of deleting `outputs/folk.sqlite` by hand.
 - **Failures don't abort:** any country whose model output can't be parsed is logged, added to `failed_countries` in the report, and the batch keeps going.
 - **Rotate your keys** after this, since they were shared in chat.
-
-Want me to launch the full live run now (it'll stream progress and I'll monitor for failures), or would you prefer to run the 2-country test yourself first?
-```
 

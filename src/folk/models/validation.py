@@ -5,7 +5,16 @@ from __future__ import annotations
 from pydantic import BaseModel, Field
 
 from folk.models.calibration import CalibrationResult, RegionalCalibrationMemory
+from folk.models.dashboard import CouncilQualityDashboard
+from folk.models.external import ExternalValidationReport, ExternalValidationV2
+from folk.models.impact import (
+    AgentContributionReport,
+    CounterfactualComparison,
+    CouncilImpactReport,
+    CouncilImpactV2,
+)
 from folk.models.metrics import RunMetrics
+from folk.models.quality import ResearchQualityReport
 
 
 class CalibrationRunResult(BaseModel):
@@ -40,8 +49,21 @@ class ValidationReport(BaseModel):
     outliers: list[str] = Field(default_factory=list)
 
     human_review_queue: list[HumanReviewItem] = Field(default_factory=list)
+    advisory_queue: list[HumanReviewItem] = Field(default_factory=list)
     calibration_run: CalibrationRunResult | None = None
     global_calibration: CalibrationResult | None = None
     regional_memory: list[RegionalCalibrationMemory] = Field(default_factory=list)
     extension_constructed_cis: dict[str, list[dict]] = Field(default_factory=dict)
     run_metrics: RunMetrics | None = None
+
+    # --- Phase 2 analytics ---
+    external_validation: ExternalValidationReport | None = None
+    council_impact: CouncilImpactReport | None = None
+    agent_contributions: AgentContributionReport | None = None
+    counterfactual: CounterfactualComparison | None = None
+    research_quality: ResearchQualityReport | None = None
+
+    # --- Council intelligence upgrade analytics ---
+    external_validation_v2: ExternalValidationV2 | None = None
+    council_impact_v2: CouncilImpactV2 | None = None
+    council_quality_dashboard: CouncilQualityDashboard | None = None

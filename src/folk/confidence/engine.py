@@ -86,6 +86,24 @@ class ConfidenceEngine:
         return ConfidenceAssessment(iso3=pack.iso3, dimensions=dims)
 
     # ------------------------------------------------------------------ #
+    def apply_provider_diversity_penalty(
+        self, assessment: ConfidenceAssessment, penalty: float
+    ) -> ConfidenceAssessment:
+        """Bounded, post-hoc confidence reduction when < 3 unique providers fill
+        the specialist seats. Can only hold or lower a level, never raise it."""
+        if penalty <= 0:
+            return assessment
+        penalty = min(0.5, penalty)  # hard cap so the penalty can never dominate
+        for dc in assessment.dimensions.values():
+            dc.score = round(dc.score * (1.0 - penalty), 4)
+            new_level = self._bucket(dc.score)
+            if new_level != dc.level:
+                dc.level = new_level
+                note = f"provider-diversity penalty ({penalty:.2f})"
+                dc.capped_reason = f"{dc.capped_reason}; {note}" if dc.capped_reason else note
+        return assessment
+
+    # ------------------------------------------------------------------ #
     @staticmethod
     def _agreement(values: list[float]) -> float:
         if len(values) < 2:

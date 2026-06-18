@@ -4,11 +4,27 @@ from __future__ import annotations
 
 from pydantic import BaseModel, Field
 
+from folk.models.adversarial import SpecialistChallengeRecord, SpecialistPosition
 from folk.models.calibration import CalibrationResult
 from folk.models.confidence import ConfidenceAssessment
-from folk.models.council import AgentAssessment, IntegratorOutput
+from folk.models.council import (
+    AgentAssessment,
+    ChallengeRecord,
+    CouncilDiversityReport,
+    IntegratorOutput,
+)
+from folk.models.decision import DecisionExplanation
+from folk.models.diversity import CouncilDiversityV2
 from folk.models.enums import Dimension
+from folk.models.influence import SpecialistInfluenceRecord
 from folk.models.judges import JudgeAssessment
+from folk.models.research import (
+    ProviderAssignmentReport,
+    ProviderAvailabilityReport,
+    ProviderDiversityAssessment,
+    SpecialistAssessment,
+    SpecialistEvidencePack,
+)
 
 
 class AuditTrace(BaseModel):
@@ -29,6 +45,24 @@ class AuditTrace(BaseModel):
     judge_assessments: list[JudgeAssessment] = Field(default_factory=list)
     calibration_events: list[CalibrationResult] = Field(default_factory=list)
     confidence: ConfidenceAssessment | None = None
+
+    # --- Adversarial deliberation + decision intelligence (Phase 2) ---
+    challenge_records: list[ChallengeRecord] = Field(default_factory=list)
+    diversity_reports: list[CouncilDiversityReport] = Field(default_factory=list)
+    decision_explanations: list[DecisionExplanation] = Field(default_factory=list)
+
+    # --- Council intelligence upgrade (specialist influence + adversarial) ---
+    specialist_influence_records: list[SpecialistInfluenceRecord] = Field(default_factory=list)
+    specialist_positions: list[SpecialistPosition] = Field(default_factory=list)
+    specialist_challenges: list[SpecialistChallengeRecord] = Field(default_factory=list)
+    council_diversity_v2: CouncilDiversityV2 | None = None
+
+    # --- Web-enabled specialist research (Phase 3) ---
+    specialist_evidence_packs: list[SpecialistEvidencePack] = Field(default_factory=list)
+    specialist_assessments: list[SpecialistAssessment] = Field(default_factory=list)
+    provider_availability_report: ProviderAvailabilityReport | None = None
+    provider_assignment_report: ProviderAssignmentReport | None = None
+    provider_diversity_assessment: ProviderDiversityAssessment | None = None
 
     human_review_status: str = "none"  # none | queued | cleared
     review_reasons: list[str] = Field(default_factory=list)

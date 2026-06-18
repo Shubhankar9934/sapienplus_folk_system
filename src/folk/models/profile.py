@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 
 from pydantic import BaseModel, Field
 
+from folk.models.adversarial import SpecialistChallengeRecord, SpecialistPosition
 from folk.models.audit import AuditTrace
 from folk.models.calibration import CalibrationResult
 from folk.models.council import (
@@ -15,11 +16,25 @@ from folk.models.council import (
     DissentRecord,
     PrimaryAnalogue,
 )
+from folk.models.diversity import CouncilDiversityV2
+from folk.models.influence import SpecialistInfluenceRecord
 from folk.models.country import ConfidenceInterval
-from folk.models.enums import ConfidenceLevel, DataStatus, Dimension, RecordType
+from folk.models.decision import DecisionExplanation
+from folk.models.enums import ConfidenceLevel, DataStatus, Dimension, RecordType, ReviewSeverity
 from folk.models.knowledge import NeighbourScore
 from folk.models.narrative import CountryNarrative, NarrativeValidationReport
 from folk.models.reference import VerifiedReference
+from folk.models.research import (
+    CountryIntelligenceCard,
+    CountryIntelligenceReport,
+    EvidenceIntelligenceReport,
+    ProviderAssignmentReport,
+    ProviderAvailabilityReport,
+    ProviderDiversityAssessment,
+    SpecialistAssessment,
+    SpecialistEvidencePack,
+)
+from folk.models.review import MidpointConfidenceScore
 
 
 class FinalScore(BaseModel):
@@ -59,8 +74,30 @@ class CountryProfile(BaseModel):
     narrative_validation: NarrativeValidationReport | None = None
     references: list[VerifiedReference] = Field(default_factory=list)
 
+    # --- Decision intelligence (Phase 2) ---
+    decision_explanations: list[DecisionExplanation] = Field(default_factory=list)
+    midpoint_confidence: list[MidpointConfidenceScore] = Field(default_factory=list)
+
+    # --- Council intelligence upgrade ---
+    specialist_influence_records: list[SpecialistInfluenceRecord] = Field(default_factory=list)
+    specialist_positions: list[SpecialistPosition] = Field(default_factory=list)
+    specialist_challenges: list[SpecialistChallengeRecord] = Field(default_factory=list)
+    council_diversity_v2: CouncilDiversityV2 | None = None
+
+    # --- Web-enabled specialist research (Phase 3) ---
+    specialist_evidence_packs: list[SpecialistEvidencePack] = Field(default_factory=list)
+    specialist_assessments: list[SpecialistAssessment] = Field(default_factory=list)
+    evidence_intelligence_report: EvidenceIntelligenceReport | None = None
+    country_intelligence_report: CountryIntelligenceReport | None = None
+    intelligence_card: CountryIntelligenceCard | None = None
+    provider_availability: ProviderAvailabilityReport | None = None
+    provider_assignment: ProviderAssignmentReport | None = None
+    provider_diversity: ProviderDiversityAssessment | None = None
+
     # --- Audit & review ---
     audit_trace: AuditTrace | None = None
     requires_human_review: bool = False
     review_reasons: list[str] = Field(default_factory=list)
+    advisory_reasons: list[str] = Field(default_factory=list)
+    review_severity: ReviewSeverity = ReviewSeverity.LOW
     flags: list[str] = Field(default_factory=list)

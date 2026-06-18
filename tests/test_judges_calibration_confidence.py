@@ -99,7 +99,7 @@ def test_confidence_engine_levels(pipeline_ctx):
     ev, council, integ = _run(pack)
     cal = CountryCalibrator().calibrate(pack, integ.final_scores, existing_vectors=[])
     refs = references_for_frameworks(pack.framework_coverage)
-    by_dim = {d: [a.scores[d].value for a in council.phase3.values()] for d in DIMENSIONS}
+    by_dim = {d: [a.scores[d].value for a in council.final_positions.values()] for d in DIMENSIONS}
     conf = ConfidenceEngine().assess(pack, by_dim, ev, cal, refs,
                                      record_type=RecordType.BASE.value, qualitative_only=False)
     assert set(conf.dimensions.keys()) == set(DIMENSIONS)
@@ -114,17 +114,32 @@ def test_confidence_cap_for_qualitative_only(pipeline_ctx):
     ev, council, integ = _run(pack)
     cal = CountryCalibrator().calibrate(pack, integ.final_scores, existing_vectors=[])
     refs = references_for_frameworks(pack.framework_coverage)
-    by_dim = {d: [a.scores[d].value for a in council.phase3.values()] for d in DIMENSIONS}
+    by_dim = {d: [a.scores[d].value for a in council.final_positions.values()] for d in DIMENSIONS}
     conf = ConfidenceEngine().assess(pack, by_dim, ev, cal, refs,
                                      record_type=RecordType.EXTENSION.value, qualitative_only=True)
     for d in DIMENSIONS:
         assert conf.dimensions[d].level != ConfidenceLevel.HIGH
 
 
-def test_human_review_qualitative_trigger():
+def test_human_review_severity_tiers():
     from folk.models.calibration import CalibrationResult
+
+    # Qualitative-only is now LOW severity -> NOT queued for human review.
     cal = CalibrationResult(scope="country", iso3="XYZ")
-    requires, reasons = HumanReviewEvaluator().evaluate(
-        cal, [], references_ok=True, midpoint_justified=True, qualitative_only=True)
-    assert requires
-    assert "qualitative_only_country" in reasons
+    low = HumanReviewEvaluator().evaluate(
+        cal, [], references_ok=True, narrative_passed=True, qualitative_only=True)
+    assert not low.requires_human_review
+    assert any("qualitative_only_country" in r for r in low.low_reasons)
+
+    # An anchor violation is HIGH severity -> enters the human review queue.
+    cal_bad = CalibrationResult(scope="country", iso3="XYZ", anchor_violations=["d1!=50"])
+    high = HumanReviewEvaluator().evaluate(
+        cal_bad, [], references_ok=True, narrative_passed=True)
+    assert high.requires_human_review
+    assert any("anchor_violation" in r for r in high.high_reasons)
+
+    # A failed narrative is HIGH; insufficient references is MEDIUM (advisory only).
+    advisory = HumanReviewEvaluator().evaluate(
+        cal, [], references_ok=False, narrative_passed=True)
+    assert not advisory.requires_human_review
+    assert any("insufficient_references" in r for r in advisory.advisory_reasons)

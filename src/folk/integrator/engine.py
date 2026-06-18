@@ -37,9 +37,13 @@ class Integrator:
         self.settings = get_settings()
 
     def integrate(
-        self, pack: CountryKnowledgePack, council: CouncilResult
+        self, pack: CountryKnowledgePack, council: CouncilResult,
+        disagreement_by_dim: dict[Dimension, float] | None = None,
+        influence_by_dim: dict[Dimension, float] | None = None,
     ) -> tuple[IntegratorOutput, CallMetric]:
-        hint = self._compute(pack, council)
+        eff = {d: self._effective_influence(d, disagreement_by_dim, influence_by_dim)
+               for d in DIMENSIONS}
+        hint = self._compute(pack, council, eff)
         system = self.prompts.preamble()
         user = self.prompts.agent_prompt(AgentRole.INTEGRATOR, 1) + f"\nCOUNTRY: {pack.iso3}"
         out, metric = self.provider.generate_structured(
@@ -48,11 +52,35 @@ class Integrator:
             temperature=self.factory.temperature_for(AgentRole.INTEGRATOR.value),
             role=AgentRole.INTEGRATOR.value, iso3=pack.iso3, phase="integration",
         )
-        return self._enforce_invariants(out, hint, pack, council), metric
+        return self._enforce_invariants(out, hint, pack, council, eff), metric
+
+    def _effective_influence(
+        self, d: Dimension,
+        disagreement_by_dim: dict[Dimension, float] | None,
+        influence_by_dim: dict[Dimension, float] | None = None,
+    ) -> float:
+        """How far the council/specialists may pull the score off baseline.
+
+        When the SpecialistInfluenceEngine supplies a per-dimension weight
+        (Req 1), it is used directly (bounded to ``specialist_influence_max``).
+        Otherwise we fall back to the legacy disagreement-scaled formula
+        ``min(cap, base + disagreement_factor * bonus)``. Either way the blend
+        formula, clamping, anchors, calibration and CI logic downstream are
+        untouched - only the *weight* changes.
+        """
+        s = self.settings
+        if influence_by_dim is not None and d in influence_by_dim:
+            cap = getattr(s, "specialist_influence_max", 0.50)
+            return round(min(cap, max(0.0, influence_by_dim[d])), 4)
+        base = getattr(s, "base_influence", 0.4)
+        bonus = getattr(s, "specialist_bonus", 0.4)
+        cap = getattr(s, "council_influence_max", 0.75)
+        dis = (disagreement_by_dim or {}).get(d, 0.0)
+        return round(min(cap, base + dis * bonus), 4)
 
     def _enforce_invariants(
         self, out: IntegratorOutput, hint: IntegratorOutput, pack: CountryKnowledgePack,
-        council: CouncilResult,
+        council: CouncilResult, eff: dict[Dimension, float] | None = None,
     ) -> IntegratorOutput:
         """Re-apply the deterministic guarantees the LLM is not allowed to break:
         every dimension present, anchor locks honoured, and scores clamped inside
@@ -80,8 +108,8 @@ class Integrator:
         out.final_scores = fixed
         # Recompute provenance from the enforced scores so they stay consistent.
         out.anchor_positions = self._anchor_positions(pack, fixed)
-        out.adjustment_log = self._adjustments(pack, fixed)
-        out.dissent_record = self._dissent(council.phase3, fixed)
+        out.adjustment_log = self._adjustments(pack, fixed, eff)
+        out.dissent_record = self._dissent(council.final_positions, fixed)
         return out
 
     # ------------------------------------------------------------------ #
@@ -89,20 +117,29 @@ class Integrator:
         return clamp_to_ci_int(value, self.settings.score_min, self.settings.score_max,
                                pack.confidence_intervals.get(dim))
 
-    def _compute(self, pack: CountryKnowledgePack, council: CouncilResult) -> IntegratorOutput:
-        phase3 = council.phase3
+    def _compute(self, pack: CountryKnowledgePack, council: CouncilResult,
+                 eff: dict[Dimension, float] | None = None) -> IntegratorOutput:
+        final_positions = council.final_positions
         locks = locks_for(pack.iso3)
+        eff = eff or {}
         final: dict[Dimension, int] = {}
 
         for d in DIMENSIONS:
             pairs = [(a.scores[d].value, a.scores[d].confidence_self)
-                     for a in phase3.values() if d in a.scores]
+                     for a in final_positions.values() if d in a.scores]
             if not pairs:
                 final[d] = self._clamp(50, pack, d)
                 continue
             wsum = sum(w for _, w in pairs) or len(pairs)
-            weighted = sum(v * w for v, w in pairs) / wsum
-            value = self._clamp(weighted, pack, d)
+            consensus = sum(v * w for v, w in pairs) / wsum
+            # Dynamic, disagreement-scaled blend toward the quantitative baseline.
+            baseline = pack.baselines[d].baseline if d in pack.baselines else None
+            if baseline is None:
+                blended = consensus
+            else:
+                influence = eff.get(d, getattr(self.settings, "base_influence", 0.4))
+                blended = baseline + influence * (consensus - baseline)
+            value = self._clamp(blended, pack, d)
             if d in locks:  # immutable anchor
                 value = int(locks[d])
             final[d] = value
@@ -111,11 +148,11 @@ class Integrator:
             iso3=pack.iso3,
             final_scores=final,
             anchor_positions=self._anchor_positions(pack, final),
-            adjustment_log=self._adjustments(pack, final),
-            dissent_record=self._dissent(phase3, final),
+            adjustment_log=self._adjustments(pack, final, eff),
+            dissent_record=self._dissent(final_positions, final),
             constructed_ci=self._constructed_ci(pack, council),
             primary_analogues=self._primary_analogues(pack),
-            notes="Integrator synthesis of Phase 3 positions.",
+            notes="Integrator synthesis: disagreement-scaled specialist influence within legal range.",
         )
 
     def _dissent(self, phase3, final: dict[Dimension, int]) -> list[DissentRecord]:
@@ -155,8 +192,9 @@ class Integrator:
             ))
         return out
 
-    def _adjustments(self, pack, final) -> list[AdjustmentLog]:
+    def _adjustments(self, pack, final, eff: dict[Dimension, float] | None = None) -> list[AdjustmentLog]:
         out = []
+        eff = eff or {}
         for d in DIMENSIONS:
             baseline = pack.baselines[d].baseline if d in pack.baselines else None
             if baseline is None:
@@ -165,11 +203,17 @@ class Integrator:
             if abs(mag) < 0.5:
                 continue
             refs = [r.citation for r in references_for_frameworks(pack.framework_coverage, d)]
+            influence = eff.get(d)
+            cap = getattr(self.settings, "council_influence_max", 0.75)
+            infl_note = (f" Specialist influence {influence:.2f} (cap {cap:.2f}), "
+                         f"disagreement-scaled; final kept within the legal range."
+                         if influence is not None else "")
             out.append(AdjustmentLog(
                 iso3=pack.iso3, dimension=d, baseline=baseline, final=final[d],
                 direction="up" if mag > 0 else "down", magnitude=abs(mag),
                 reason=(f"{d.label} adjusted from baseline {baseline:.1f} to {final[d]} after "
-                        f"council deliberation on framework signals and anchor-relative evidence."),
+                        f"council deliberation on framework signals and anchor-relative evidence."
+                        + infl_note),
                 references=refs,
                 anchor_relative_reasoning=(
                     f"Final {final[d]} keeps {d.label} on the "
@@ -185,7 +229,7 @@ class Integrator:
             return []
         out = []
         for d in DIMENSIONS:
-            vals = [a.scores[d].value for a in council.phase3.values() if d in a.scores]
+            vals = [a.scores[d].value for a in council.final_positions.values() if d in a.scores]
             if not vals:
                 continue
             out.append(ConstructedCI(

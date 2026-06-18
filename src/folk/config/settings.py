@@ -61,6 +61,43 @@ class Settings(BaseSettings):
     max_redeliberations: int = 2
     max_narrative_retries: int = 2
 
+    # --- Phase 2: midpoint detector (rebuild) ---
+    midpoint_band: float = 10.0            # |score-50| <= band counts as "near 50"
+    midpoint_agreement_max: float = 0.5    # framework agreement below this = "low"
+    midpoint_variance_min: float = 4.0     # agent score std above this = unsettled
+
+    # --- Phase 2: research-quality grade boundaries (success criteria) ---
+    target_human_review_pct: float = 10.0
+    target_midpoint_review_pct: float = 15.0
+    target_narrative_failure_pct: float = 3.0
+    target_judge_disagreement_pct: float = 5.0
+
+    # --- Phase 3: web-enabled specialist research ---
+    enable_url_verification: bool = Field(default=False, alias="FOLK_ENABLE_URL_VERIFICATION")
+    research_max_uses: int = 5              # native web-search calls per seat
+    research_timeout_seconds: float = 30.0
+    deepseek_anthropic_base_url: str = Field(
+        default="https://api.deepseek.com/anthropic", alias="DEEPSEEK_ANTHROPIC_BASE_URL")
+
+    # Dynamic, disagreement-scaled specialist influence (within the legal range).
+    base_influence: float = 0.4
+    specialist_bonus: float = 0.4
+    council_influence_max: float = 0.75
+
+    # Council intelligence upgrade: SpecialistInfluenceEngine cap + adversarial flag.
+    specialist_influence_max: float = 0.50      # hard cap on specialist_influence_weight
+    enable_adversarial_protocol: bool = True    # build specialist positions + critiques
+
+    # Provider-diversity penalty: applied when < 3 unique providers fill the seats.
+    diversity_penalty: float = 0.1
+
+    # Anti-flatline investigation targets (Req 4).
+    anti_flatline_isos: list[str] = Field(default_factory=lambda: [
+        "TZA", "TJK", "FJI", "OMN", "HND", "KEN", "DOM", "SYR", "BIH", "SLE",
+        "BFA", "LUX", "POL", "MAR", "BTN", "MNG", "QAT", "AUT", "KAZ", "VNM",
+        "ZMB", "GEO", "MYS", "MWI", "MMR",
+    ])
+
     @property
     def is_mock(self) -> bool:
         return self.provider_mode.strip().lower() == "mock"

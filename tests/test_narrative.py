@@ -37,7 +37,7 @@ def germany_full():
     integ, _ = Integrator().integrate(pack, council)
     cal = CountryCalibrator().calibrate(pack, integ.final_scores, [])
     refs = references_for_frameworks(pack.framework_coverage)
-    by_dim = {d: [a.scores[d].value for a in council.phase3.values()] for d in DIMENSIONS}
+    by_dim = {d: [a.scores[d].value for a in council.final_positions.values()] for d in DIMENSIONS}
     conf = ConfidenceEngine().assess(pack, by_dim, ev, cal, refs, RecordType.BASE.value, False)
     return pack, ev, integ, conf
 

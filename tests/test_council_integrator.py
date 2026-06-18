@@ -32,31 +32,46 @@ def _pack(by_iso, builder, iso):
     return builder.build(by_iso[iso], scored_vectors=scored)
 
 
-def test_council_runs_three_phases(context):
+def test_council_runs_four_phases(context):
     _, by_iso, builder = context
     pack = _pack(by_iso, builder, "DEU")
     ev = EvidenceEngine().build(pack)
     result = ResearchCouncil().deliberate(pack, ev)
     assert len(result.phase1) == 4
-    assert len(result.phase3) == 4
-    assert set(result.phase3.keys()) == {
+    assert len(result.phase4) == 4
+    assert set(result.phase4.keys()) == {
         AgentRole.STATISTICIAN, AgentRole.COMPARATIVIST,
         AgentRole.COUNTRY_SPECIALIST, AgentRole.DEVILS_ADVOCATE,
     }
-    # Metrics: 4 agents * 3 phases = 12 calls.
-    assert len(result.metrics) == 12
+    # Metrics: 4 agents * 4 phases (incl. cross-critique) = 16 calls.
+    assert len(result.metrics) == 16
+    # final_positions is the consensus hand-off to the Integrator.
+    assert result.final_positions is result.phase4
 
 
-def test_phase3_scores_within_ci(context):
+def test_consensus_scores_within_ci(context):
     _, by_iso, builder = context
     pack = _pack(by_iso, builder, "DEU")
     ev = EvidenceEngine().build(pack)
     result = ResearchCouncil().deliberate(pack, ev)
-    for a in result.phase3.values():
+    for a in result.final_positions.values():
         for d in DIMENSIONS:
             ci = pack.confidence_intervals.get(d)
             if ci:
                 assert ci.contains(a.scores[d].value)
+
+
+def test_cross_critique_and_diversity_recorded(context):
+    _, by_iso, builder = context
+    pack = _pack(by_iso, builder, "DEU")
+    ev = EvidenceEngine().build(pack)
+    result = ResearchCouncil().deliberate(pack, ev)
+    # Diversity tracked before (independent) and after (consensus).
+    stages = {r.stage for r in result.diversity_reports}
+    assert stages == {"before", "after"}
+    # Challenge records carry an accepted/rejected verdict.
+    for ch in result.challenge_records:
+        assert ch.accepted != ch.rejected
 
 
 def test_integrator_produces_final_scores(context):
