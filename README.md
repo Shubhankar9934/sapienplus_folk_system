@@ -88,21 +88,4 @@ uvicorn folk.api.app:app --host 0.0.0.0 --port 8000 --reload
 
 ```
 
-Notes:
 
-- Run both from the project root `c:\Users\Shubhankar\Desktop\FOLK`).
-- `pip install -e ".[api]"` makes the `folk` package importable (handles the `src/` layout) and installs `fastapi` + `uvicorn[standard]`.
-- `--reload` auto-restarts on code changes; drop it for production.
-- If you'd rather not install the package, you can instead set the source path:
-
-```powershell
-
-$env:PYTHONPATH="src"; uvicorn [folk.api.app](http://folk.api.app):app --port 8000 --reload
-
-```
-
-Want me to run it for you?
-
-python scripts/generate_baseline_vs_[final.py](http://final.py)
-
-python -m folk.cli run --isos "TZA,TJK,FJI,OMN,HND,KEN,DOM,SYR,BIH,SLE,BFA,LUX,POL,MAR,BTN,MNG,QAT,AUT,KAZ,VNM,ZMB,GEO,MYS,MWI,MMR" --audit
