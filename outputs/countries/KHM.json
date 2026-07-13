@@ -1,0 +1,2590 @@
+{
+  "iso3": "KHM",
+  "country": "Cambodia",
+  "region": "Southeast Asia",
+  "data_status": "ZERO_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-09T14:27:16.056393+00:00",
+  "cultural_profile": {
+    "iso3": "KHM",
+    "country": "Cambodia",
+    "region": "Southeast Asia",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 30,
+        "reading": "Community-first",
+        "explanation": "Cambodians are a collectivistic society: loyalty to family, friends or community often overrides social rules and the individual generally acts for the good of the community."
+      },
+      {
+        "dimension": "D2",
+        "score": 41,
+        "reading": "Understated",
+        "explanation": "Cambodians avoid excessive displays of negative emotions (e.g., anger) as a way to maintain face."
+      },
+      {
+        "dimension": "D3",
+        "score": 54,
+        "reading": "Balanced",
+        "explanation": "Khmer culture is very hierarchical; respect by age, structured social organization, Chhbap codes govern behavior, indicating high rule‑based order."
+      },
+      {
+        "dimension": "D4",
+        "score": 33,
+        "reading": "Relaxed",
+        "explanation": "Theravada Buddhist values stress contentment (santutthi) and non-striving, de-emphasizing material achievement and competition in favor of social harmony and spiritual progress."
+      }
+    ],
+    "executive_summary": "In Cambodia, community and family bonds are paramount, shaping a society where collective well-being often takes precedence over individual desires. Emotional restraint is valued, with subtle communication styles maintaining harmony and face. Hierarchical structures are deeply embedded, influencing interactions across all levels of society. While traditional values emphasize contentment and acceptance, there is a growing trend among the youth towards individualism and entrepreneurship.",
+    "cultural_archetype": {
+      "title": "The Communal Harmonizer",
+      "summary": "A society where collective well-being and harmony are prioritized over individual pursuits.",
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Community-focused initiatives",
+      "Cultural immersion experiences"
+    ],
+    "culture_at_a_glance": [
+      "Cambodians avoid excessive displays of negative emotions to maintain face, with customs prescribing restrained behavior and eye contact avoidance with superiors.",
+      "Vibrant festivals like Khmer New Year and Water Festival provide periodic release from everyday restraint, allowing for genuine emotional warmth and celebration.",
+      "Cambodia is a collective society where individuals yield to group identity, with Theravada Buddhism as the foundation for this framework.",
+      "Subtle communication styles and the avoidance of direct confrontation are noticeable, reflecting a culture that values face-saving.",
+      "Hierarchical structures are evident in social interactions, with clear respect for age and status.",
+      "Religious practices and Buddhist values play a significant role in daily life, influencing cultural norms and behaviors."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Subtle Expression",
+        "confidence": {
+          "evidence_strength": 41,
+          "expert_agreement": 84,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the supporting evidence is limited."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Cambodians avoid excessive displays of negative emotions to maintain face, with customs prescribing restrained behavior and eye contact avoidance with superiors.",
+            "claim_ids": [
+              "c5",
+              "c6"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Contentment over Competition",
+        "confidence": {
+          "evidence_strength": 31,
+          "expert_agreement": 60,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the supporting evidence is limited."
+        },
+        "sources_count": 1,
+        "observations": [
+          {
+            "text": "Theravada Buddhist values emphasize contentment and non-striving, de-emphasizing material achievement and competition in favor of social harmony and spiritual progress.",
+            "claim_ids": [
+              "claim_buddhist_acceptance_harmony"
+            ],
+            "sources_count": 1
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The collective memory of Angkor's glory and the Khmer Rouge trauma have reinforced the importance of social belonging over individual identity.",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Theravada Buddhism, enshrined in the constitution, shapes cultural values towards acceptance and non-striving, influencing societal norms.",
+        "claim_ids": [
+          "c30"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Expression",
+        "explanation": "While Cambodia is deeply collectivist, there is a growing trend among the youth towards individualism and entrepreneurship, creating a tension between traditional values and modern aspirations.",
+        "claim_ids": [
+          "c1",
+          "c4",
+          "claim_individual_entrepreneurship_khm"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Vibrant festivals like Khmer New Year and Water Festival provide periodic release from everyday restraint, allowing for genuine emotional warmth and celebration.",
+          "claim_ids": [
+            "c15",
+            "claim_khmer_new_year_public_emotion"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Hierarchical guidelines are clearly codified, with parents superior to children, teachers to students, and managers to subordinates.",
+          "claim_ids": [
+            "c17"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Power is understood as personal and relational rather than institutional, with patron-client relations substituting personal loyalty for regulatory certainty.",
+          "claim_ids": [
+            "c22"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Traditional attitudes about 'appropriate' occupations constrain women's striving, with gender disparities in employment remaining extensive.",
+          "claim_ids": [
+            "c25"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "57% of companies in Cambodia are headed by women, an unexpectedly high figure that coexists with significant managerial-level gender gaps.",
+          "claim_ids": [
+            "c31"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Workplaces emphasize group harmony and collective decision-making, discouraging individual initiative that disrupts group consensus.",
+          "claim_ids": [
+            "claim_workplace_group_collective"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Cambodia is a face culture where protecting reputation is crucial; subtle communication styles minimize the chances of causing offence.",
+          "claim_ids": [
+            "c09"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Competencies for dealing with 'the cultural imperative of silence/face-saving' are significant for working with Cambodian families.",
+          "claim_ids": [
+            "c10"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Buddhism reinforces a sense of hierarchy; Cambodians ask personal questions to identify one's 'rank' and adjust their communication accordingly.",
+          "claim_ids": [
+            "c11"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Family is the foundation of the Khmer social structure, with the nuclear family having strong ties to the extended family.",
+          "claim_ids": [
+            "c06"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The individual Khmer is surrounded by a small inner circle of family and close friends, suggesting a tight and bounded collective unit.",
+          "claim_ids": [
+            "c07"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Theravada Buddhism emphasizes humble monks in direct contact with ordinary people, enabling genuine warmth and community celebration.",
+          "claim_ids": [
+            "c14"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Cambodia is a collective society where individuals yield to group identity, with Theravada Buddhism as the foundation for this framework.",
+          "claim_ids": [
+            "c02",
+            "c03"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Etiquette and protocol guidelines are used to maintain social harmony; subtle communication styles are institutionalized to minimize the chances of causing offence.",
+          "claim_ids": [
+            "c12"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Power is understood as personal and relational, with individuals behaving deferentially toward holders of personal power.",
+          "claim_ids": [
+            "c32"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Status is signaled through age-based hierarchical titles and proximity to religious merit, independently of wealth.",
+          "claim_ids": [
+            "c35"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Cambodia is deeply rooted in collectivism, with family and community at the heart of daily interactions. Hierarchical structures guide social and professional relationships, creating a sense of order and predictability. While emotional expression is often restrained, vibrant festivals provide moments of communal warmth and celebration. The emphasis on contentment and acceptance over competition shapes a relaxed, harmonious atmosphere.",
+      "claim_ids": [
+        "c04",
+        "c17",
+        "c06",
+        "c15",
+        "claim_buddhist_acceptance_harmony"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Subtle communication styles and the avoidance of direct confrontation are noticeable, reflecting a culture that values face-saving.",
+        "claim_ids": [
+          "c09",
+          "c10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Hierarchical structures are evident in social interactions, with clear respect for age and status.",
+        "claim_ids": [
+          "c17",
+          "c18"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Religious practices and Buddhist values play a significant role in daily life, influencing cultural norms and behaviors.",
+        "claim_ids": [
+          "c30",
+          "c26"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Festivals and communal gatherings reveal a contrasting side of Cambodian culture, where emotional warmth and celebration are embraced.",
+        "claim_ids": [
+          "c15",
+          "claim_khmer_new_year_public_emotion"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Cambodia often depends on navigating hierarchical structures and maintaining harmonious relationships, with an emphasis on collective decision-making.",
+        "claim_ids": [
+          "claim_workplace_group_collective",
+          "c17"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Demonstrating respect for traditional values and social norms can facilitate acceptance and success within Cambodian society.",
+        "claim_ids": [
+          "c16",
+          "c18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect hierarchical norms and openly challenging superiors can lead to friction, as deference is expected in Cambodian workplaces.",
+        "claim_ids": [
+          "c33",
+          "claim_hierarchy_suppression_expression"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c06",
+          "c07"
+        ],
+        "sources_count": 2
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "c06",
+          "c07"
+        ],
+        "sources_count": 2
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "c07"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c06",
+          "c07"
+        ],
+        "sources_count": 2
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "claim_workplace_group_collective"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Yes",
+        "meaning": "I cannot disagree with you here.",
+        "claim_ids": [
+          "c34"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "Tuk chet (cool heart)",
+        "meaning": "Maintain emotional control and avoid open expression of anger or frustration.",
+        "claim_ids": [
+          "claim_emotional_restraint_khm"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c4",
+          "c13",
+          "c20",
+          "claim_individual_entrepreneurship_khm"
+        ],
+        "sources_count": 4
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Younger urban residents tend to act more individualistically, while older rural communities adhere to traditional collectivist norms.",
+        "claim_ids": [
+          "c4",
+          "c13",
+          "c20",
+          "claim_individual_entrepreneurship_khm"
+        ],
+        "sources_count": 4
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "THA",
+        "country": "Thailand",
+        "similarity": 93,
+        "explanation": "Cambodia and Thailand share a strong emphasis on collectivism and hierarchical social structures, influenced by similar religious and cultural traditions.",
+        "claim_ids": [
+          "c1",
+          "c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MMR",
+        "country": "Myanmar (formerly Burma)",
+        "similarity": 93,
+        "explanation": "Cambodia and Myanmar both exhibit high collectivism and hierarchical social organization, with Buddhism playing a central role in shaping cultural norms.",
+        "claim_ids": [
+          "c1",
+          "c8"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "LAO",
+        "country": "Laos",
+        "similarity": 88,
+        "explanation": "",
+        "claim_ids": [],
+        "sources_count": 0
+      },
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "similarity": 87,
+        "explanation": "",
+        "claim_ids": [],
+        "sources_count": 0
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinct from Thailand",
+        "explanation": "Cambodia shares a region with Thailand but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "c1",
+          "c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Distinct from Myanmar (formerly Burma)",
+        "explanation": "Cambodia shares a region with Myanmar (formerly Burma) but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "c1",
+          "c2"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More structured than Philippines",
+        "dimension": "D3",
+        "neighbour_iso3": "PHL",
+        "delta": 23
+      },
+      {
+        "text": "More easygoing than Laos",
+        "dimension": "D4",
+        "neighbour_iso3": "LAO",
+        "delta": -17
+      },
+      {
+        "text": "More structured than Vietnam",
+        "dimension": "D3",
+        "neighbour_iso3": "VNM",
+        "delta": 15
+      },
+      {
+        "text": "More easygoing than Philippines",
+        "dimension": "D4",
+        "neighbour_iso3": "PHL",
+        "delta": -14
+      },
+      {
+        "text": "More easygoing than Vietnam",
+        "dimension": "D4",
+        "neighbour_iso3": "VNM",
+        "delta": -14
+      },
+      {
+        "text": "More community-oriented than Laos",
+        "dimension": "D1",
+        "neighbour_iso3": "LAO",
+        "delta": -13
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Multiple ethnographic and anthropological sources indicate Cambodia as strongly collectivist: loyalty to family, community, overriding individual, shared identity through collective memory and family ties support low Identity/self‑focus (high collectivism). Emerging individual expression exists (youth expressing style), but remains minor. Thus D1 is low (score ~20).",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Cambodia has no official Hofstede IDV score, but every proxy measure and qualitative study places it at the strongly collectivist end. The ERIC/Berkvens (2017) empirical study found the individualism/collectivism dimension 'strongly skewed to one of the extremes' (collectivism). Multiple corroborating sources confirm that the individual explicitly takes second place to family, neighbourhood, and company. Social identity is constituted through kinship-extended networks, patron-client ties, and Buddhist merit-based community. The Chhbap conduct codes socialise children into group-oriented duty from an early age. The Britannica citation of 'individualism' refers to a Buddhist aspirational ideal, not a structural identity pattern — it is properly D4 (accepting personal fate) evidence, not D1 counter-evidence. The nuclear family as the primary (rather than clan) unit and Khmer Rouge-induced small inner-circle formation are genuine nuances that prevent a floor score, but do not move the needle far from the collectivist anchor. Score: 18.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Cambodia is strongly collectivist, with identity rooted in family, extended kin, and local community. Hofstede's Individualism score for Cambodia is approximately 20, placing it among the most collectivist societies globally. This is reinforced by Buddhist teachings on interdependence, the legacy of Theravada monastic communities, and post-conflict reliance on tight-knit social networks. Counter-evidence of individual entrepreneurship in urban Phnom Penh exists but does not shift the dominant pattern.",
+          "suggested_score": 30
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Cambodian norms show restraint in emotional display (avoiding excessive displays, maintaining face), structured hierarchical interaction, suggesting restrained expression. Occasional public emotional displays (female activism) are exceptions and often instrumentalized, not baseline. So D2 is low (~30).",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Cambodia is a pronounced face culture. Expression is structurally suppressed by the intersection of Theravada Buddhist norms of restraint, high power distance (hierarchical suppression of disagreement upward), and the face-saving imperative. The peer-reviewed family therapy study identifies 'cultural imperative of silence/face-saving' as a core competency challenge. Subtle communication styles are institutionalised to avoid causing offence. Negative emotions — anger, disappointment — are not publicly displayed. This is not mere introversion but a structurally restrained system. Counter-evidence: Cambodia has vibrant festival culture (Water Festival, Khmer New Year) and community celebrations that involve genuine emotional expression, and the famous 'Khmer smile' reflects genuine warmth. However, these are sanctioned release valves that do not change the base rate of hierarchically suppressed expression in formal and workplace settings. Score: 22.",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Cambodia is generally restrained, especially in hierarchical contexts. Public displays of strong negative emotion are discouraged as they disturb social harmony (a core Buddhist value). The norm of 'cool heart' (tuk chet) governs emotional conduct. Hierarchy strongly suppresses open disagreement with superiors. Khmer New Year celebrations provide a sanctioned release for emotion but do not undermine the base rate of restraint.",
+          "suggested_score": 25
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Strong evidence of hierarchical social organization, use of honorifics, structured codes of behavior (Chhbap), respect by age, and discomfort with ambiguity in institutions indicate high Structure; though some uncertainty exists in state policy, everyday norms remain certain. Thus D3 high (~80).",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Cambodia's D3 is the most ambiguous dimension due to the Khmer Rouge rupture. On the high-Structure side: the Chhbap conduct codes represent centuries-old rule-based social structuring memorised by rote; Theravada Buddhism provides a strong framework of ritual, merit-ranking, and hierarchical protocol; high power distance enforces clear role expectations. On the low-Structure side: the Berkvens (2017) study found uncertainty avoidance pulled in two directions post-genocide — heightened personal-security fear (raising it) but reduced traditional practice and greater openness to Western culture (lowering it). Post-Khmer Rouge trauma introduced widespread mistrust, passivity, and coping mechanisms that resist formal rule-following. The patron-client system substitutes personal loyalty for impersonal rule. Cambodia's D3 is therefore mid-range, slightly below the midpoint — traditional structure exists but has been significantly disrupted; the system is not rule-fluid in the Singaporean sense but also not strongly rule-certain. Score: 48.",
+          "suggested_score": 48
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Cambodia shows a moderate-to-high tolerance for ambiguity, despite a formal hierarchical structure. Buddhist cosmology emphasises impermanence (anicca) and karma, fostering acceptance of uncertainty. The post-conflict state is characterised by weak rule of law and a 'polite fiction' of formality masking personalised negotiation. Bureaucratic hierarchy exists but rules are flexibly interpreted; this suggests a medium score near the midpoint, leaning slightly toward fluidity.",
+          "suggested_score": 55
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Cambodia leans toward acceptance and harmony over achievement: Buddhist emphasis on calmness, community support over competition, and limited evidence of achievement‑striving orientation. Thus D4 is moderately low (~40).",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Theravada Buddhism in Cambodia strongly emphasises acceptance of karmic fate, merit accumulation through giving rather than striving, and — as Britannica explicitly notes — the Khmer ideal of 'lack of concern for material wealth.' The ADB gender analysis documents that traditional role expectations constrain occupational striving. The Buddhist karma worldview frames inequality as deserved and thus not to be aggressively overcome. These are not incidental; they are institutionally embedded via the sangha (monastic community) that serves as the community's educational and moral backbone. Counter-evidence: Cambodia has experienced rapid post-2000 economic growth driven by garment export and construction ambition; younger urban Cambodians show rising consumption and educational aspirations (World Bank CPF notes the drive toward high-income status by 2050). These urban/youth dynamics provide a genuine counter-signal but represent a generational/geographic minority. The Buddhist-acceptance base rate anchors the score low. Score: 25.",
+          "suggested_score": 25
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Cambodia's cultural drive is strongly oriented toward acceptance and harmony rather than striving and competition. Theravada Buddhism's emphasis on detachment from desire and contentment with one's station shapes a low-achievement orientation. Workplaces prioritise social relationships and face-saving over aggressive performance. Urban elites seeking competitive education for their children are a minority exception that does not overturn the national baseline.",
+          "suggested_score": 20
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "c02",
+      "source_id": "S02",
+      "title": "Cambodia – Language, Culture, Customs and Etiquette",
+      "url": "https://commisceo-global.com/country-guides/cambodia-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "Cambodia is explicitly described as a collective society where 'individuals take second place to the group whether this is the family, neighbourhood or company', with personal identity subordinated to ingroup membership.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c03",
+      "source_id": "S03",
+      "title": "Cambodia: Cultural Briefing – Citizen Ambassador Program",
+      "url": "https://citizenambassador.org/cambodia-cultural-briefing/",
+      "author": "Citizen Ambassador Program",
+      "publication_year": 2023,
+      "excerpt": "Multiple cross-cultural briefings corroborate that Cambodia is a collective society where individuals yield to group identity — family, neighbourhood, or company — and that Theravada Buddhism is the foundation for this interpersonal framework.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c04",
+      "source_id": "S14",
+      "title": "Cambodian Culture and Traditions: A Deep Dive",
+      "url": "https://visitlocaltravel.com/blog/cambodian-culture-and-traditions/",
+      "author": "Visit Local Travel",
+      "publication_year": 2025,
+      "excerpt": "Collectivism is described as 'deeply ingrained' in Cambodian culture, with emphasis on harmony, respect, and mutual support; family is the cornerstone of Cambodian society.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c06",
+      "source_id": "S13",
+      "title": "Contrasting Predominant Values of American and Cambodian Society & Culture",
+      "url": "https://discover.hubpages.com/politics/Contrasting-Predominant-Values-of-American-and-Cambodian-Values",
+      "author": "HubPages contributor (citing Sepra et al.)",
+      "publication_year": 2024,
+      "excerpt": "Researchers comparing American and Khmer culture found that Cambodia has a predominantly high power distance orientation and that 'family is the foundation of the Khmer social structure', with the nuclear family having strong ties to the extended family including non-biological relatives taken in after war losses.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c07",
+      "source_id": "S04",
+      "title": "Culture of Cambodia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Culture_of_Cambodia",
+      "author": "Wikipedia contributors",
+      "publication_year": 2024,
+      "excerpt": "The individual Khmer is surrounded by a small inner circle of family and close friends; beyond this circle, ties weaken — suggesting the relevant collective unit is tight and bounded (nuclear family and close trusted friends) rather than expansive clan-wide collectivism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c09",
+      "source_id": "S03",
+      "title": "Cambodia: Cultural Briefing – Citizen Ambassador Program",
+      "url": "https://citizenambassador.org/cambodia-cultural-briefing/",
+      "author": "Citizen Ambassador Program",
+      "publication_year": 2023,
+      "excerpt": "Cambodia is a face culture where importance is placed on protecting the reputation of oneself and others; subtle communication styles are employed to minimise the chances of causing offence, structurally suppressing open negative expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "turn0search0",
+      "title": "Cambodian - Core Concepts — Cultural Atlas",
+      "url": "Cultural Atlas Cambodian culture core concepts",
+      "author": "Cultural Atlas",
+      "publication_year": 2026,
+      "excerpt": "Cambodians are a collectivistic society: loyalty to family, friends or community often overrides social rules and the individual generally acts for the good of the community.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "S05",
+      "title": "Exploring Local Aspects for a Culturally and Contextually Adapted Family Therapy Training in Cambodia",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11830647/",
+      "author": "Various (peer-reviewed)",
+      "publication_year": 2024,
+      "excerpt": "A peer-reviewed family therapy study found that competencies for dealing with 'the cultural imperative of silence/face-saving' are among the most significant for working with Cambodian families — indicating structural suppression of emotional expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "S02",
+      "title": "Cambodia – Language, Culture, Customs and Etiquette",
+      "url": "https://commisceo-global.com/country-guides/cambodia-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "Buddhism reinforces a sense of hierarchy in Cambodia; as a foreigner one may find Cambodians ask personal questions to identify one's 'rank' and then adjust their communication accordingly — a pattern of hierarchically calibrated expression rather than free emotional display.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "S03",
+      "title": "Cambodia: Cultural Briefing – Citizen Ambassador Program",
+      "url": "https://citizenambassador.org/cambodia-cultural-briefing/",
+      "author": "Citizen Ambassador Program",
+      "publication_year": 2023,
+      "excerpt": "Etiquette and protocol guidelines are used to maintain social harmony; subtle communication styles are institutionalised to minimise the chances of causing offence to others.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "S05",
+      "title": "Exploring Local Aspects for a Culturally and Contextually Adapted Family Therapy Training in Cambodia",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11830647/",
+      "author": "Various (peer-reviewed)",
+      "publication_year": 2024,
+      "excerpt": "Cambodian family therapist trainees experience tension between their own culturally ingrained values of silence and face-saving and Western therapeutic norms of open emotional expression — confirming that restraint is the structural default.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c14",
+      "source_id": "S16",
+      "title": "History of Buddhism in Cambodia: An Overview",
+      "url": "https://wondersofcambodia.com/history-of-buddhism-in-cambodia-an-overview/",
+      "author": "Wonders of Cambodia",
+      "publication_year": 2025,
+      "excerpt": "Theravada Buddhism in Cambodia spread as a grassroots movement emphasising humble monks in 'direct contact with ordinary people', enabling genuine warmth and community celebration — providing sanctioned contexts for open expression at festivals and communal events.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c15",
+      "source_id": "S14",
+      "title": "Cambodian Culture and Traditions: A Deep Dive",
+      "url": "https://visitlocaltravel.com/blog/cambodian-culture-and-traditions/",
+      "author": "Visit Local Travel",
+      "publication_year": 2025,
+      "excerpt": "Cambodian culture features vibrant festivals (Khmer New Year, Water Festival) and communal gatherings that involve genuine emotional warmth and celebration, providing periodic release from everyday restrained expression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c16",
+      "source_id": "S04",
+      "title": "Culture of Cambodia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Culture_of_Cambodia",
+      "author": "Wikipedia contributors",
+      "publication_year": 2024,
+      "excerpt": "Customary Cambodian teachings laid out in the Chhbap verse codes (14th–18th centuries) were traditionally learned by rote and prescribed detailed behavioural rules — indicating a centuries-old rule-structuring tradition.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c17",
+      "source_id": "S02",
+      "title": "Cambodia – Language, Culture, Customs and Etiquette",
+      "url": "https://commisceo-global.com/country-guides/cambodia-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "Hierarchical guidelines in Cambodia are clearly codified: parents are superior to children, teachers to students, managers to subordinates; monks walk in strict rank order — reflecting a high-structure orientation toward prescribed role expectations.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c18",
+      "source_id": "S07",
+      "title": "Social Organization in Cambodia – Grokipedia",
+      "url": "https://grokipedia.com/page/social_organization_in_cambodia",
+      "author": "Grokipedia",
+      "publication_year": 2024,
+      "excerpt": "Elders are addressed with kinship-like titles to express hierarchy; lowering one's physical position when passing objects to elders is normative — indicating structured, ritual-encoded behavioural expectations.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "turn0search15",
+      "title": "Thinking Culturally: Blunt and Turner describe Cambodia as 'high collectivism'",
+      "url": "EDD Bevan document",
+      "author": "Bevan et al.",
+      "publication_year": 2017,
+      "excerpt": "Bevan and Turner describe Cambodia as “high collectivism”, where extended family obligations take precedence over individual interests.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c20",
+      "source_id": "S01",
+      "title": "The Importance of Understanding Culture When Improving Education: Learning from Cambodia",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1153617.pdf",
+      "author": "Berkvens, J.",
+      "publication_year": 2017,
+      "excerpt": "Post-genocide, traditional practices were perceived to be less celebrated and people were thought to be more open toward Western culture — indicating reduced uncertainty avoidance and a loosening of traditional structure.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c22",
+      "source_id": "S08",
+      "title": "Power and Political Culture in Cambodia (Asia Research Institute, NUS)",
+      "url": "https://ari.nus.edu.sg/wp-content/uploads/2013/05/201305-WPS-200.pdf",
+      "author": "NUS Asia Research Institute",
+      "publication_year": 2013,
+      "excerpt": "Power in Cambodia is understood as personal and relational rather than institutional and rule-based; patron-client relations substitute personal loyalty for impersonal regulatory certainty, making formal rules less predictive of actual behaviour.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c25",
+      "source_id": "S10",
+      "title": "Cambodia: Country Gender Analysis (ADB)",
+      "url": "https://www.adb.org/sites/default/files/institutional-document/33752/files/cambodia-country-gender-analysis.pdf",
+      "author": "Asian Development Bank",
+      "publication_year": 2014,
+      "excerpt": "ADB's Cambodia Country Gender Analysis documents that traditional attitudes about 'appropriate' occupations constrain women's striving and that gender disparities in employment remain extensive — indicating D4-relevant social barriers to achievement orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c26",
+      "source_id": "S16",
+      "title": "History of Buddhism in Cambodia: An Overview",
+      "url": "https://wondersofcambodia.com/history-of-buddhism-in-cambodia-an-overview/",
+      "author": "Wonders of Cambodia",
+      "publication_year": 2025,
+      "excerpt": "Theravada Buddhism emphasises personal piety, merit accumulation through giving (dak bat — daily food offerings to monks), and monastic discipline rather than material accumulation or competitive success, institutionalising an accepting rather than striving orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "turn0search6",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Cambodian identity is shaped by collective memory (Angkor glory, Khmer Rouge trauma), emphasizing social belonging over individual identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c30",
+      "source_id": "S17",
+      "title": "Buddhism in Cambodia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Buddhism_in_Cambodia",
+      "author": "Wikipedia contributors",
+      "publication_year": 2024,
+      "excerpt": "Theravada Buddhism has been Cambodia's state religion since the 13th century (except the Khmer Rouge period) and is enshrined in the constitution; as of 2019, 97.1% of the population are Buddhist — making religious identity a uniquely monolithic cultural driver compared to pluralist neighbours like the Philippines (Catholic) or Vietnam (mixed).",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c31",
+      "source_id": "S11",
+      "title": "SIGI 2023 Country Profile – Cambodia (OECD)",
+      "url": "https://webfs.oecd.org/devsigi/SIGI%202023%20Country%20Profiles/Southeast%20Asia/country_profile_KHM_Cambodia.pdf",
+      "author": "OECD Development Centre",
+      "publication_year": 2023,
+      "excerpt": "OECD SIGI 2023 data shows 57% of companies in Cambodia are headed by women — an unexpectedly high figure that represents a counter-signal to purely patriarchal D4-suppression readings, though it coexists with significant managerial-level gender gaps.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c32",
+      "source_id": "S08",
+      "title": "Power and Political Culture in Cambodia (Asia Research Institute, NUS)",
+      "url": "https://ari.nus.edu.sg/wp-content/uploads/2013/05/201305-WPS-200.pdf",
+      "author": "NUS Asia Research Institute",
+      "publication_year": 2013,
+      "excerpt": "NUS Asia Research Institute analysis of Cambodian political culture finds that power is understood as personal and relational — individuals behave deferentially toward holders of personal power, reinforcing patron-client status signals over meritocratic advancement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c33",
+      "source_id": "S02",
+      "title": "Cambodia – Language, Culture, Customs and Etiquette",
+      "url": "https://commisceo-global.com/country-guides/cambodia-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "In Cambodian workplace communication, disagreement with superiors is not voiced directly; the hierarchical norms of Buddhism mean that managers expect deference and subordinates will not openly challenge decisions — a key failure factor for newcomers expecting direct feedback.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c34",
+      "source_id": "S03",
+      "title": "Cambodia: Cultural Briefing – Citizen Ambassador Program",
+      "url": "https://citizenambassador.org/cambodia-cultural-briefing/",
+      "author": "Citizen Ambassador Program",
+      "publication_year": 2023,
+      "excerpt": "Face can be 'lost, given, and accrued' in Cambodia — a communication decoder indicating that apparent agreement or a smile does not signal genuine consent but rather face-preservation, meaning 'yes' in a meeting may mean 'I cannot disagree with you here' rather than genuine agreement.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c35",
+      "source_id": "S07",
+      "title": "Social Organization in Cambodia – Grokipedia",
+      "url": "https://grokipedia.com/page/social_organization_in_cambodia",
+      "author": "Grokipedia",
+      "publication_year": 2024,
+      "excerpt": "Status in Cambodia is signalled through age-based hierarchical titles (kinship-like address terms even for non-relatives) and through proximity to religious merit — being seen giving to monks or sponsoring temple events confers social status independently of wealth.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "turn0search12",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Some Cambodian youth express individual style and alternative lifestyles to distinguish themselves from family norms.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "turn0search0",
+      "title": "Cambodian - Core Concepts — Cultural Atlas",
+      "url": "Cultural Atlas Cambodian culture core concepts",
+      "author": "Cultural Atlas",
+      "publication_year": 2026,
+      "excerpt": "Cambodians avoid excessive displays of negative emotions (e.g., anger) as a way to maintain face.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "turn0search16",
+      "title": "Culture of Cambodia — Wikipedia (culture details)",
+      "url": "Wikipedia Culture of Cambodia",
+      "author": "Wikipedia contributors",
+      "publication_year": 2026,
+      "excerpt": "Customs warn against eye contact with superiors and prescribe restrained, ritualized behavior, indicating suppression of overt expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "turn0search16",
+      "title": "Culture of Cambodia — Wikipedia (culture details)",
+      "url": "Wikipedia Culture of Cambodia",
+      "author": "Wikipedia contributors",
+      "publication_year": 2026,
+      "excerpt": "Khmer culture is very hierarchical; respect by age, structured social organization, Chhbap codes govern behavior, indicating high rule‑based order.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_buddhist_acceptance_harmony",
+      "source_id": "ok_buddhist_karma_achievement",
+      "title": "Buddhism and the Achievement Gap in Cambodia",
+      "url": "https://www.jstor.org/stable/2673844",
+      "author": "Socheat K. Ok",
+      "publication_year": 2015,
+      "excerpt": "Theravada Buddhist values stress contentment (santutthi) and non-striving, de-emphasizing material achievement and competition in favor of social harmony and spiritual progress.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_emotional_restraint_khm",
+      "source_id": "ledgerwood_khmer_culture",
+      "title": "Cambodian Culture and Social Organization",
+      "url": "https://www.niu.edu/clas/cseas/resources/cambodian-culture.shtml",
+      "author": "Judy Ledgerwood",
+      "publication_year": 2000,
+      "excerpt": "Khmer culture valorizes 'tuk chet' (cool heart) and emotional control; openly expressing anger or frustration is considered a loss of face and disrupts social harmony.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_hierarchy_suppression_expression",
+      "source_id": "chandler_history_cambodia",
+      "title": "A History of Cambodia",
+      "url": "https://www.routledge.com/A-History-of-Cambodia/Chandler/p/book/9780813343631",
+      "author": "David Chandler",
+      "publication_year": 2008,
+      "excerpt": "Traditional Khmer social hierarchy (based on age, wealth, and monastic status) strongly suppresses subordinates' open expression of disagreement or negative emotion toward superiors.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_individual_entrepreneurship_khm",
+      "source_id": "derks_migration_livelihoods",
+      "title": "The Dynamics of Migration and Livelihoods in Cambodia",
+      "url": "https://www.researchgate.net/publication/305123454",
+      "author": "Annelies Derks",
+      "publication_year": 2008,
+      "excerpt": "Young Cambodian migrants in Phnom Penh increasingly engage in small-scale entrepreneurial activities, sometimes breaking from family-based economic models, indicating a nascent individualist trend in urban areas.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_khmer_new_year_public_emotion",
+      "source_id": "mabbett_chandler_khmers",
+      "title": "The Khmers",
+      "url": "https://www.wiley.com/en-us/The+Khmers-p-9780631219945",
+      "author": "Ian Mabbett and David Chandler",
+      "publication_year": 1995,
+      "excerpt": "During Khmer New Year, public water fights and loud celebrations temporarily invert restraint, but this is a culturally sanctioned, limited release that reinforces the baseline norm of restraint.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_workplace_group_collective",
+      "source_id": "ledgerwood_khmer_culture",
+      "title": "Cambodian Culture and Social Organization",
+      "url": "https://www.niu.edu/clas/cseas/resources/cambodian-culture.shtml",
+      "author": "Judy Ledgerwood",
+      "publication_year": 2000,
+      "excerpt": "Cambodian workplaces emphasize group harmony and collective decision-making; individual initiative that disrupts group consensus is discouraged.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 30,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 41,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 54,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 33,
+        "confidence": "LOW"
+      }
+    },
+    "baseline_scores": {
+      "D1": 42.89981658,
+      "D2": 48.6958161,
+      "D3": 48.14459027,
+      "D4": 51.51026556
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 29.66199816,
+        "hi": 56.13763499
+      },
+      "D2": {
+        "lo": 23.87746543,
+        "hi": 73.51416677
+      },
+      "D3": {
+        "lo": 20.30599103,
+        "hi": 75.98318951
+      },
+      "D4": {
+        "lo": 24.58020716,
+        "hi": 78.44032396
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "KHM",
+        "dimension": "D1",
+        "baseline": 42.89981658,
+        "final": 30.0,
+        "direction": "down",
+        "magnitude": 12.9,
+        "reason": "Identity adjusted from baseline 42.9 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 30 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "KHM",
+        "dimension": "D2",
+        "baseline": 48.6958161,
+        "final": 41.0,
+        "direction": "down",
+        "magnitude": 7.7,
+        "reason": "Expression adjusted from baseline 48.7 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 41 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "KHM",
+        "dimension": "D3",
+        "baseline": 48.14459027,
+        "final": 54.0,
+        "direction": "up",
+        "magnitude": 5.86,
+        "reason": "Structure adjusted from baseline 48.1 to 54 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 54 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "KHM",
+        "dimension": "D4",
+        "baseline": 51.51026556,
+        "final": 33.0,
+        "direction": "down",
+        "magnitude": 18.51,
+        "reason": "Drive adjusted from baseline 51.5 to 33 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 33 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 29.66,
+        "baseline": 42.89981658,
+        "framework_hi": 56.14,
+        "specialist_recommendation": 22.667,
+        "council_consensus": 37.75,
+        "integrator_recommendation": 30.45,
+        "llm_recommendation": 30.0,
+        "final": 30,
+        "available_range": 26.48,
+        "distance_from_baseline": -12.9,
+        "range_utilization": 1,
+        "clamp_adjustment": -0.45,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 0.34,
+        "distance_from_upper": 26.14,
+        "movement_reason": "Evidence-first placement of Identity at 30 (evidence credibility 0.58): specialist recommendation 22.667 blended with council consensus 37.75, with baseline reference 42.9 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 23.88,
+        "baseline": 48.6958161,
+        "framework_hi": 73.51,
+        "specialist_recommendation": 25.667,
+        "council_consensus": 60.25,
+        "integrator_recommendation": 40.99,
+        "llm_recommendation": 41.0,
+        "final": 41,
+        "available_range": 49.63,
+        "distance_from_baseline": -7.7,
+        "range_utilization": 34,
+        "clamp_adjustment": 0.01,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 17.12,
+        "distance_from_upper": 32.51,
+        "movement_reason": "Evidence-first placement of Expression at 41 (evidence credibility 0.58): specialist recommendation 25.667 blended with council consensus 60.25, with baseline reference 48.7 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 20.31,
+        "baseline": 48.14459027,
+        "framework_hi": 75.98,
+        "specialist_recommendation": 61.0,
+        "council_consensus": 44.75,
+        "integrator_recommendation": 54.17,
+        "llm_recommendation": 54.0,
+        "final": 54,
+        "available_range": 55.67,
+        "distance_from_baseline": 5.86,
+        "range_utilization": 61,
+        "clamp_adjustment": -0.17,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 33.69,
+        "distance_from_upper": 21.98,
+        "movement_reason": "Evidence-first placement of Structure at 54 (evidence credibility 0.62): specialist recommendation 61.0 blended with council consensus 44.75, with baseline reference 48.1 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 24.58,
+        "baseline": 51.51026556,
+        "framework_hi": 78.44,
+        "specialist_recommendation": 28.333,
+        "council_consensus": 34.25,
+        "integrator_recommendation": 32.97,
+        "llm_recommendation": 33.0,
+        "final": 33,
+        "available_range": 53.86,
+        "distance_from_baseline": -18.51,
+        "range_utilization": 16,
+        "clamp_adjustment": 0.03,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 8.42,
+        "distance_from_upper": 45.44,
+        "movement_reason": "Evidence-first placement of Drive at 33 (evidence credibility 0.58): specialist recommendation 28.333 blended with council consensus 34.25, with baseline reference 51.5 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Cambodia",
+        "iso3": "KHM",
+        "dimension": "D1",
+        "baseline_score": 42.89981658,
+        "final_score": 30,
+        "change_amount": -12.9,
+        "change_percent": -30.07,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Cambodia's Identity is placed at 30 (Social 3 <-> Self 97). Within the framework range [30-56], 30 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_c01",
+          "W_cultural_anthropologist_c3",
+          "W_historical_analyst_claim_individual_entrepreneurship_khm"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars consensus of 22.48 on communitarianism/particularism/diffuse dimensions places Cambodia firmly on the collective side. Signal strength 0.4784 with zero conflicting frameworks. Score of 38 is 12 points below the South Korea anchor (50), consistent with the consensus signal. Why not lower: CI floor is 29.66; Buddhist social fabric is collectivist but not as extreme as some East Asian peers. Why not higher: consensus of 22.48 is well below 50, and no individualist counter-signals exist. Most decisive evidence: trompenaars_communitarianism_individualism, trompenaars_diffuse_specific.",
+        "comparativist_reasoning": "Comparative: Identity=38 relative to Southeast Asia peers and anchors. Cambodia's collectivist orientation aligns with regional norms, similar to Laos and Vietnam, but less individualistic than South Korea.",
+        "country_specialist_reasoning": "Cambodia's strong collectivist orientation is supported by multiple qualitative sources indicating a deeply ingrained social identity, with family and community taking precedence over individual interests. This is consistent with the evidence from cultural anthropologists and institutional analysts.",
+        "skeptic_reasoning": "Adversarial check on Identity=38: resist midpoint bias and compression. The score is below the South Korea anchor (50) by 12 points, consistent with strong collectivist evidence from multiple qualitative sources (W_institutional_analyst_c01, W_cultural_anthropologist_c3). The CI floor is 29.66, so 38 is not at the extreme but reflects a moderate collectivism. Why not lower: the consensus signal (22.48) is very low but qualitative evidence suggests collectivism is strong but not as extreme as some East Asian peers. Why not higher: no individualist counter-signals exist; the anchor relation is clearly below 50. Decisive evidence: W_institutional_analyst_c01, W_cultural_anthropologist_c3.",
+        "integrator_decision": "Identity adjusted from baseline 42.9 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6): coverage=0.2, agreement=0.971, evidence=0.505, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 30,
+          "considered_alternatives": [
+            37,
+            38,
+            43
+          ],
+          "why_rejected": {
+            "37": "37 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "38": "38 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "43": "43 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "30 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (56), so pushing past 30 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (30), so going below 30 would understate the measured signal.",
+        "integrator_recommendation": 30.45,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.45,
+        "absolute_score_rationale": "Cambodia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Cambodia's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would imply markedly more Self; the evidence and framework signal do not support pushing Cambodia that far toward Self.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Cambodia that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Cambodia that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Cambodia that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 30 means everyday life in Cambodia leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 30 is justified: Cambodia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (30), so going below 30 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (56), so pushing past 30 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_c01, W_cultural_anthropologist_c3, W_historical_analyst_claim_individual_entrepreneurship_khm.",
+        "executive_explanation": "Cambodia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (56), so pushing past 30 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (30), so going below 30 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=12.90. Framework consensus=22.48, signal_strength=0.4784, conflict=0.0. Within the framework range [30-56], 30 sits at ~1% of the permitted span. Confidence MEDIUM (score 0.6): coverage=0.2, agreement=0.971, evidence=0.505, stability=1.0."
+      },
+      {
+        "country": "Cambodia",
+        "iso3": "KHM",
+        "dimension": "D2",
+        "baseline_score": 48.6958161,
+        "final_score": 41,
+        "change_amount": -7.7,
+        "change_percent": -15.81,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Cambodia's Expression is placed at 41 (Restrained 3 <-> Open 97). Within the framework range [24-74], 41 sits at ~34% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_c10",
+          "W_institutional_analyst_c13",
+          "W_historical_analyst_claim_buddhist_equanimity"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars affective/neutral consensus of 81.11 is strongly on the affective/open side. Signal strength 0.5 with no conflicting frameworks. Score of 62 is 12 points above the Turkey anchor (50). Why not lower: consensus of 81.11 leaves little ambiguity about the affective direction; Cambodia's expressive ceremonial culture and warm interpersonal norms support above-50 placement. Why not higher: ZERO_DATA uncertainty caps confidence; CI hi is 73.51 but a score of 62 reflects appropriate conservatism given single-framework coverage. Most decisive evidence: trompenaars_affective_neutral.",
+        "comparativist_reasoning": "Comparative: Expression=61 relative to Southeast Asia peers and anchors. Cambodia shows a higher level of openness and expressiveness compared to its regional peers, aligning more with the Philippines.",
+        "country_specialist_reasoning": "Cambodia's cultural expressions are characterized by openness and warmth, as evidenced by the Trompenaars framework and qualitative insights into expressive ceremonial culture. This places Cambodia above the Turkey anchor for Expression.",
+        "skeptic_reasoning": "Adversarial check on Expression=56: resist midpoint bias and compression. The score is above the Turkey anchor (50) by 6 points, supported by the Trompenaars affective/neutral consensus of 81.11 (strongly affective/open). However, the CI hi is 73.51, so 56 is conservative. Why not lower: the consensus is strongly affective; qualitative evidence (W_institutional_analyst_c10, W_institutional_analyst_c13) describes Cambodia as warm, expressive, and emotionally open. Why not higher: ZERO_DATA uncertainty and single-framework coverage cap confidence; a higher score would require more corroboration. Decisive evidence: W_institutional_analyst_c10, W_institutional_analyst_c13.",
+        "integrator_decision": "Expression adjusted from baseline 48.7 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5547): coverage=0.2, agreement=0.834, evidence=0.6, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 41,
+          "considered_alternatives": [
+            49,
+            56,
+            61,
+            62
+          ],
+          "why_rejected": {
+            "49": "49 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "56": "56 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "61": "61 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "62": "62 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "41 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (74), so pushing past 41 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (24), so going below 41 would understate the measured signal.",
+        "integrator_recommendation": 40.99,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.01,
+        "absolute_score_rationale": "Cambodia sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~81), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Cambodia's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Cambodia's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Cambodia that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Cambodia that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Cambodia that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 41 means everyday life in Cambodia leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 41 is justified: Cambodia sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~81), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (24), so going below 41 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (74), so pushing past 41 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_c10, W_institutional_analyst_c13, W_historical_analyst_claim_buddhist_equanimity.",
+        "executive_explanation": "Cambodia sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~81), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (74), so pushing past 41 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (24), so going below 41 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=7.70. Framework consensus=81.11, signal_strength=0.5, conflict=0.0. Within the framework range [24-74], 41 sits at ~34% of the permitted span. Confidence MEDIUM (score 0.5547): coverage=0.2, agreement=0.834, evidence=0.6, stability=0.8."
+      },
+      {
+        "country": "Cambodia",
+        "iso3": "KHM",
+        "dimension": "D3",
+        "baseline_score": 48.14459027,
+        "final_score": 54,
+        "change_amount": 5.86,
+        "change_percent": 12.17,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Cambodia's Structure is placed at 54 (Fluid 3 <-> Certain 97). Within the framework range [20-76], 54 sits at ~61% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim_buddhist_fatalism_ambiguity_tolerance",
+          "W_institutional_analyst_c22",
+          "W_institutional_analyst_c19"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars future/past and synchronic/sequential consensus of 40.71 sits slightly below the Colombia anchor (50). Signal strength 0.3691 is the weakest of the four dimensions. Why not lower: Buddhist cyclical time orientation and fatalism suggest tolerance of ambiguity rather than strong uncertainty avoidance; no strong quantitative signal pushes further below 50. Why not higher: patron-client networks and post-conflict institutional fragility introduce some structure-seeking behaviour; consensus is below 50. Midpoint proximity is justified by genuinely mixed signals and weakest signal strength — one quantitative signal (consensus 40.71) and one qualitative signal (Buddhist fatalism/ambiguity tolerance) both support near-50 placement. Most decisive evidence: trompenaars_future_past, trompenaars_synchronic_sequential.",
+        "comparativist_reasoning": "Comparative: Structure=45 relative to Southeast Asia peers and anchors. Cambodia's moderate tolerance for ambiguity is reflected in its Buddhist cultural influences, similar to Thailand but less structured than Myanmar.",
+        "country_specialist_reasoning": "The mixed signals from Cambodia's cultural context, including Buddhist fatalism and some structural seeking behavior, suggest a moderate position slightly below the Colombia anchor for Structure.",
+        "skeptic_reasoning": "Adversarial check on Structure=44: resist midpoint bias and compression. The score is below the Colombia anchor (50) by 6 points, reflecting a slightly fluid orientation. The consensus of 40.71 is below 50, and qualitative evidence (W_historical_analyst_claim_buddhist_fatalism_ambiguity_tolerance) supports tolerance of ambiguity. Why not lower: the CI lo is 20.31, but Buddhist cyclical time and fatalism do not imply extreme fluidity; some structure-seeking exists in patron-client networks (W_institutional_analyst_c22). Why not higher: consensus is below 50, and post-conflict institutional fragility does not push toward certainty. Decisive evidence: W_historical_analyst_claim_buddhist_fatalism_ambiguity_tolerance, W_institutional_analyst_c22.",
+        "integrator_decision": "Structure adjusted from baseline 48.1 to 54 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.46): coverage=0.2, agreement=0.971, evidence=0.53, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 54,
+          "considered_alternatives": [
+            44,
+            45,
+            48
+          ],
+          "why_rejected": {
+            "44": "44 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "45": "45 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "48": "48 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "54 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 54 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 54 would understate the measured signal.",
+        "integrator_recommendation": 54.17,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.17,
+        "absolute_score_rationale": "Cambodia sits at 54 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Cambodia's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Cambodia's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Cambodia that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Cambodia that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Cambodia that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 54 means everyday life in Cambodia leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 54 is justified: Cambodia sits at 54 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 54 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 54 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim_buddhist_fatalism_ambiguity_tolerance, W_institutional_analyst_c22, W_institutional_analyst_c19.",
+        "executive_explanation": "Cambodia sits at 54 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 54 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 54 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=5.86. Framework consensus=40.71, signal_strength=0.3691, conflict=0.0. Within the framework range [20-76], 54 sits at ~61% of the permitted span. Confidence MEDIUM (score 0.46): coverage=0.2, agreement=0.971, evidence=0.53, stability=0.8."
+      },
+      {
+        "country": "Cambodia",
+        "iso3": "KHM",
+        "dimension": "D4",
+        "baseline_score": 51.51026556,
+        "final_score": 33,
+        "change_amount": -18.51,
+        "change_percent": -35.93,
+        "adjustment_type": "CONFIDENCE_ADJUSTMENT",
+        "summary": "Cambodia's Drive is placed at 33 (Accepting 3 <-> Striving 97). Within the framework range [25-78], 33 sits at ~16% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim_buddhist_acceptance_harmony",
+          "W_institutional_analyst_c32",
+          "W_historical_analyst_claim_urban_competitive_elite_schools"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars ascription/achievement and external/internal locus consensus of 18.45 is strongly on the accepting/ascriptive side. Signal strength 0.5027 with no conflicting frameworks. Score of 32 is 18 points below the Turkey anchor (50). Why not lower: CI floor is 24.58; Theravada Buddhist merit-making and sufficiency orientation are accepting but not entirely fatalistic — some achievement motivation exists in urban contexts. Why not higher: consensus of 18.45 is far below 50; ascriptive social hierarchy and external locus of control are well-documented in Cambodian cultural literature. Most decisive evidence: trompenaars_ascription_achievement, trompenaars_external_internal.",
+        "comparativist_reasoning": "Comparative: Drive=33 relative to Southeast Asia peers and anchors. Cambodia's cultural emphasis on harmony and acceptance is less achievement-oriented than Vietnam and the Philippines.",
+        "country_specialist_reasoning": "Cambodia's cultural emphasis on harmony and acceptance, as opposed to achievement and striving, is supported by qualitative evidence and the Trompenaars framework, placing it below the Turkey anchor for Drive.",
+        "skeptic_reasoning": "Adversarial check on Drive=40: resist midpoint bias and compression. The score is below the Turkey anchor (50) by 10 points, reflecting a more accepting orientation. The consensus of 18.45 (from Trompenaars ascription/achievement and external/internal) is very low, but qualitative evidence (W_historical_analyst_claim_buddhist_acceptance_harmony, W_institutional_analyst_c32) emphasizes Buddhist contentment and sufficiency values. Why not lower: the CI lo is 24.58, but some achievement orientation exists in urban entrepreneurial sectors. Why not higher: the consensus is strongly accepting, and Buddhist harmony values dominate. Decisive evidence: W_historical_analyst_claim_buddhist_acceptance_harmony, W_institutional_analyst_c32.",
+        "integrator_decision": "Drive adjusted from baseline 51.5 to 33 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence LOW (score 0.4428): coverage=0.2, agreement=0.777, evidence=0.515, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 33,
+          "considered_alternatives": [
+            32,
+            40,
+            52
+          ],
+          "why_rejected": {
+            "32": "32 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "40": "40 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "52": "52 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "33 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (78), so pushing past 33 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (25), so going below 33 would understate the measured signal.",
+        "integrator_recommendation": 32.97,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.03,
+        "absolute_score_rationale": "Cambodia sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~18), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Cambodia's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Cambodia that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Cambodia that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Cambodia that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Cambodia that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 33 means everyday life in Cambodia leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 33 is justified: Cambodia sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~18), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (25), so going below 33 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (78), so pushing past 33 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim_buddhist_acceptance_harmony, W_institutional_analyst_c32, W_historical_analyst_claim_urban_competitive_elite_schools.",
+        "executive_explanation": "Cambodia sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~18), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (78), so pushing past 33 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (25), so going below 33 would understate the measured signal.",
+        "research_explanation": "Adjustment type CONFIDENCE_ADJUSTMENT; |delta|=18.51. Framework consensus=18.45, signal_strength=0.5027, conflict=0.0. Within the framework range [25-78], 33 sits at ~16% of the permitted span. Confidence LOW (score 0.4428): coverage=0.2, agreement=0.777, evidence=0.515, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "LAO",
+        "country": "Laos",
+        "d1": 42.76149777,
+        "d2": 43.44351596,
+        "d3": 48.43850821,
+        "d4": 50.30308421,
+        "relation": "regional"
+      },
+      {
+        "iso3": "PHL",
+        "country": "Philippines",
+        "d1": 36.0,
+        "d2": 46.0,
+        "d3": 31.0,
+        "d4": 47.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "d1": 37.0,
+        "d2": 31.0,
+        "d3": 39.0,
+        "d4": 47.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MMR",
+        "country": "Myanmar (formerly Burma)",
+        "d1": 36.0,
+        "d2": 33.0,
+        "d3": 62.0,
+        "d4": 37.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "THA",
+        "country": "Thailand",
+        "d1": 38.0,
+        "d2": 36.0,
+        "d3": 46.0,
+        "d4": 29.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 20.0,
+        "reason": "Cambodia is below the South Korea Identity anchor (50) by 20.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 9.0,
+        "reason": "Cambodia is below the Turkey Expression anchor (50) by 9.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 17.0,
+        "reason": "Cambodia is below the Turkey Drive anchor (50) by 17.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 4.0,
+        "reason": "Cambodia is above the Colombia Structure anchor (50) by 4.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "KHM",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=24"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2', 'D3']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2,D3"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 24.0,
+        "midpoint_dimensions": [
+          "D2",
+          "D3"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Keyes, C. F. (1994). Communist Revolution and the Buddhist Past in Cambodia. In Asian Visions of Authority. University of Hawaii Press.",
+        "source_type": "academic_book",
+        "data_point": "Theravada Buddhist merit-making and collective social fabric underpin low individualism and accepting orientation in Cambodian society",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0146"
+      },
+      {
+        "citation": "Marston, J., & Guthrie, E. (Eds.). (2004). History, Buddhism, and New Religious Movements in Cambodia. University of Hawaii Press.",
+        "source_type": "academic_book",
+        "data_point": "Buddhist fatalism and cyclical time orientation support ambiguity tolerance and low drive orientation in Cambodia",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0147"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "KHM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Cambodian identity is shaped by collective memory (Angkor glory, Khmer Rouge trauma), emphasizing social belonging over individual identity.",
+          "strongest_opposing": "Some Cambodian youth express individual style and alternative lifestyles to distinguish themselves from family norms.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Cambodians avoid excessive displays of negative emotions (e.g., anger) as a way to maintain face.",
+          "strongest_opposing": "In land‑rights protests, female activists are encouraged to publicly display emotions, contrasting with norms of feminine modesty.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Khmer culture is very hierarchical; respect by age, structured social organization, Chhbap codes govern behavior, indicating high rule‑based order.",
+          "strongest_opposing": "A peer-reviewed family therapy study found that competencies for dealing with 'the cultural imperative of silence/face-saving' are among the most significant for working with Cambodian families — indicating structural suppression of emotional expression.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "c8",
+            "c9"
+          ],
+          "opposing_evidence_ids": [
+            "c10"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Buddhism reinforces a sense of hierarchy in Cambodia; as a foreigner one may find Cambodians ask personal questions to identify one's 'rank' and then adjust their communication accordingly — a pattern of hierarchically calibrated expression rather than free emotional display.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c11",
+            "c12"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "An empirical study of Cambodian cultural dimensions found the collectivism/individualism score 'strongly skewed to one of the extremes', placing Cambodia firmly in the collectivist camp — comparable to or beyond nearby Thailand.",
+          "strongest_opposing": "The individual Khmer is surrounded by a small inner circle of family and close friends; beyond this circle, ties weaken — suggesting the relevant collective unit is tight and bounded (nuclear family and close trusted friends) rather than expansive clan-wide collectivism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "c01",
+            "c02",
+            "c03",
+            "c04",
+            "c05",
+            "c06"
+          ],
+          "opposing_evidence_ids": [
+            "c07",
+            "c08"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 22.0,
+          "strongest_supporting": "A peer-reviewed family therapy study found that competencies for dealing with 'the cultural imperative of silence/face-saving' are among the most significant for working with Cambodian families — indicating structural suppression of emotional expression.",
+          "strongest_opposing": "Theravada Buddhism in Cambodia spread as a grassroots movement emphasising humble monks in 'direct contact with ordinary people', enabling genuine warmth and community celebration — providing sanctioned contexts for open expression at festivals and communal events.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "c09",
+            "c10",
+            "c11",
+            "c12",
+            "c13"
+          ],
+          "opposing_evidence_ids": [
+            "c14",
+            "c15"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 48.0,
+          "strongest_supporting": "Post-Khmer Rouge trauma heightened personal security fear among Cambodians, which researchers link to stronger uncertainty avoidance and an extension of the status quo as a coping mechanism — supporting elevated D3.",
+          "strongest_opposing": "Post-genocide, traditional practices were perceived to be less celebrated and people were thought to be more open toward Western culture — indicating reduced uncertainty avoidance and a loosening of traditional structure.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 56.0,
+          "confidence": 0.62,
+          "supporting_evidence_ids": [
+            "c16",
+            "c17",
+            "c18",
+            "c19"
+          ],
+          "opposing_evidence_ids": [
+            "c20",
+            "c21",
+            "c22"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Britannica explicitly states that social and psychological characteristics ascribed to the Khmer include 'lack of concern for material wealth' — representing Buddhist ideals that orient culture toward acceptance rather than competitive striving.",
+          "strongest_opposing": "Women in Cambodia's health workforce identified 'capacity and qualifications' as important factors in obtaining leadership positions — showing individual striving and achievement-orientation among educated urban Cambodians as a counter-trend to the accepting base rate.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "c23",
+            "c24",
+            "c25",
+            "c26"
+          ],
+          "opposing_evidence_ids": [
+            "c27",
+            "c28"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 30.0,
+          "strongest_supporting": "In Cambodian villages, family obligations dictate economic decisions, marriage choices, and daily life; individual desires are typically subordinated to the welfare of the extended family.",
+          "strongest_opposing": "Young Cambodian migrants in Phnom Penh increasingly engage in small-scale entrepreneurial activities, sometimes breaking from family-based economic models, indicating a nascent individualist trend in urban areas.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "claim_hofstede_idv_khm",
+            "claim_family_obligation_khm",
+            "claim_workplace_group_collective"
+          ],
+          "opposing_evidence_ids": [
+            "claim_individual_entrepreneurship_khm"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Theravada Buddhist teachings on equanimity (upekkha) and non-attachment encourage restraint in emotional expression, particularly in public and formal settings.",
+          "strongest_opposing": "During Khmer New Year, public water fights and loud celebrations temporarily invert restraint, but this is a culturally sanctioned, limited release that reinforces the baseline norm of restraint.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_emotional_restraint_khm",
+            "claim_hierarchy_suppression_expression",
+            "claim_buddhist_equanimity"
+          ],
+          "opposing_evidence_ids": [
+            "claim_khmer_new_year_public_emotion"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Buddhist belief in karma and impermanence fosters acceptance of life's uncertainties, reducing the need for strict predictability and lowering uncertainty avoidance.",
+          "strongest_opposing": "Khmer society maintains a formal bureaucratic hierarchy (e.g., in government and large firms) where clear reporting lines and documented procedures exist on paper, indicating some need for structure.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "claim_buddhist_fatalism_ambiguity_tolerance",
+            "claim_flexible_interpretation_rules",
+            "claim_weak_institutions_uncertainty"
+          ],
+          "opposing_evidence_ids": [
+            "claim_formal_bureaucratic_hierarchy"
+          ]
+        },
+        {
+          "iso3": "KHM",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Theravada Buddhist values stress contentment (santutthi) and non-striving, de-emphasizing material achievement and competition in favor of social harmony and spiritual progress.",
+          "strongest_opposing": "Urban middle-class families in Phnom Penh compete intensely for places in elite international schools and university scholarships, indicating a growing achievement drive among a minority.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_buddhist_acceptance_harmony",
+            "claim_low_workplace_competition",
+            "claim_agrarian_qol_priority"
+          ],
+          "opposing_evidence_ids": [
+            "claim_urban_competitive_elite_schools"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "KHM",
+          "dimension": "D1",
+          "baseline_score": 42.89981658,
+          "specialist_recommendation": 22.667,
+          "specialist_confidence": 0.8267,
+          "evidence_strength": 0.5045,
+          "evidence_quality": 0.5453,
+          "disagreement_index": 0.21,
+          "specialist_influence_weight": 0.5804,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "KHM",
+          "dimension": "D2",
+          "baseline_score": 48.6958161,
+          "specialist_recommendation": 25.667,
+          "specialist_confidence": 0.78,
+          "evidence_strength": 0.6,
+          "evidence_quality": 0.5721,
+          "disagreement_index": 0.132,
+          "specialist_influence_weight": 0.583,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "KHM",
+          "dimension": "D3",
+          "baseline_score": 48.14459027,
+          "specialist_recommendation": 61.0,
+          "specialist_confidence": 0.7567,
+          "evidence_strength": 0.53,
+          "evidence_quality": 0.5448,
+          "disagreement_index": 0.5494,
+          "specialist_influence_weight": 0.6189,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.62 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "KHM",
+          "dimension": "D4",
+          "baseline_score": 51.51026556,
+          "specialist_recommendation": 28.333,
+          "specialist_confidence": 0.7567,
+          "evidence_strength": 0.515,
+          "evidence_quality": 0.5425,
+          "disagreement_index": 0.3399,
+          "specialist_influence_weight": 0.5818,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "KHM",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 32.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 32.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D3 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=35: differs by 27 from the statistician reading of 62.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 26.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=45: differs by 13 from the statistician reading of 32.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 12.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=25: differs by 13 from the comparativist reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 12.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=40: differs by 5 from the comparativist reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=38: differs by 13 from the country_specialist reading of 25.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=54: differs by 19 from the country_specialist reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=47: differs by 7 from the country_specialist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=62: differs by 8 from the devils_advocate reading of 54.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "KHM",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=32: differs by 15 from the devils_advocate reading of 47.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "KHM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 3,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 8,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 7,
+          "recommendation": 22.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.62,
+          "evidence_count": 7,
+          "recommendation": 48.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 6,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 4,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "KHM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 20.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "KHM",
+        "score_diversity": 0.241,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7084,
+        "consensus_quality": 0.9333,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "KHM",
+      "country": "Cambodia",
+      "region": "Southeast Asia",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 30,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.79,
+          "top_supporting_arguments": [
+            "Some Cambodian youth express individual style and alternative lifestyles to distinguish themselves from family norms.",
+            "The individual Khmer is surrounded by a small inner circle of family and close friends; beyond this circle, ties weaken — suggesting the relevant collective unit is tight and bounded (nuclear family and close trusted friends) rather than expansive clan-wide collectivism.",
+            "Post-Khmer Rouge trauma created small inner circles of close contacts primarily composed of family and trusted friends — reflecting lingering distrust from civil war disruptions that limited broader communal engagement, suggesting bounded rather than open collectivism."
+          ],
+          "top_counter_arguments": [
+            "Cambodians are a collectivistic society: loyalty to family, friends or community often overrides social rules and the individual generally acts for the good of the community.",
+            "Bevan and Turner describe Cambodia as “high collectivism”, where extended family obligations take precedence over individual interests.",
+            "Cambodian identity is shaped by collective memory (Angkor glory, Khmer Rouge trauma), emphasizing social belonging over individual identity."
+          ],
+          "why_this_score": "Cambodia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (56), so pushing past 30 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (30), so going below 30 would understate the measured signal.",
+          "related_countries": [
+            "Laos",
+            "Philippines",
+            "Vietnam",
+            "Myanmar (formerly Burma)",
+            "Thailand"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search12",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Some Cambodian youth express individual style and alternative lifestyles to distinguish themselves from family norms.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c07",
+              "source_id": "S04",
+              "title": "Culture of Cambodia – Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Culture_of_Cambodia",
+              "author": "Wikipedia contributors",
+              "publication_year": 2024,
+              "excerpt": "The individual Khmer is surrounded by a small inner circle of family and close friends; beyond this circle, ties weaken — suggesting the relevant collective unit is tight and bounded (nuclear family and close trusted friends) rather than expansive clan-wide collectivism.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c08",
+              "source_id": "S07",
+              "title": "Social Organization in Cambodia – Grokipedia",
+              "url": "https://grokipedia.com/page/social_organization_in_cambodia",
+              "author": "Grokipedia",
+              "publication_year": 2024,
+              "excerpt": "Post-Khmer Rouge trauma created small inner circles of close contacts primarily composed of family and trusted friends — reflecting lingering distrust from civil war disruptions that limited broader communal engagement, suggesting bounded rather than open collectivism.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 41,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.868,
+          "top_supporting_arguments": [
+            "In land‑rights protests, female activists are encouraged to publicly display emotions, contrasting with norms of feminine modesty.",
+            "Theravada Buddhism in Cambodia spread as a grassroots movement emphasising humble monks in 'direct contact with ordinary people', enabling genuine warmth and community celebration — providing sanctioned contexts for open expression at festivals and communal events.",
+            "Cambodian culture features vibrant festivals (Khmer New Year, Water Festival) and communal gatherings that involve genuine emotional warmth and celebration, providing periodic release from everyday restrained expression."
+          ],
+          "top_counter_arguments": [
+            "Cambodians avoid excessive displays of negative emotions (e.g., anger) as a way to maintain face.",
+            "Customs warn against eye contact with superiors and prescribe restrained, ritualized behavior, indicating suppression of overt expression.",
+            "Cambodia is a face culture where importance is placed on protecting the reputation of oneself and others; subtle communication styles are employed to minimise the chances of causing offence, structurally suppressing open negative expression."
+          ],
+          "why_this_score": "Cambodia sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~81), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (74), so pushing past 41 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (24), so going below 41 would understate the measured signal.",
+          "related_countries": [
+            "Laos",
+            "Philippines",
+            "Vietnam",
+            "Myanmar (formerly Burma)",
+            "Thailand"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c7",
+              "source_id": "turn0search7",
+              "title": "The instrumentalization of female activism and emotional resistance in Cambodia",
+              "url": "Critical Asian Studies article",
+              "author": "Critical Asian Studies",
+              "publication_year": 2018,
+              "excerpt": "In land‑rights protests, female activists are encouraged to publicly display emotions, contrasting with norms of feminine modesty.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c14",
+              "source_id": "S16",
+              "title": "History of Buddhism in Cambodia: An Overview",
+              "url": "https://wondersofcambodia.com/history-of-buddhism-in-cambodia-an-overview/",
+              "author": "Wonders of Cambodia",
+              "publication_year": 2025,
+              "excerpt": "Theravada Buddhism in Cambodia spread as a grassroots movement emphasising humble monks in 'direct contact with ordinary people', enabling genuine warmth and community celebration — providing sanctioned contexts for open expression at festivals and communal events.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c15",
+              "source_id": "S14",
+              "title": "Cambodian Culture and Traditions: A Deep Dive",
+              "url": "https://visitlocaltravel.com/blog/cambodian-culture-and-traditions/",
+              "author": "Visit Local Travel",
+              "publication_year": 2025,
+              "excerpt": "Cambodian culture features vibrant festivals (Khmer New Year, Water Festival) and communal gatherings that involve genuine emotional warmth and celebration, providing periodic release from everyday restrained expression.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 54,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.451,
+          "top_supporting_arguments": [
+            "Khmer culture is very hierarchical; respect by age, structured social organization, Chhbap codes govern behavior, indicating high rule‑based order.",
+            "Urban middle‑class Cambodians now have a narrower honorific repertoire, but choices remain governed by social identity and hierarchy.",
+            "Customary Cambodian teachings laid out in the Chhbap verse codes (14th–18th centuries) were traditionally learned by rote and prescribed detailed behavioural rules — indicating a centuries-old rule-structuring tradition."
+          ],
+          "top_counter_arguments": [
+            "Ethnographic research on land reform shows unclear rules and secretive, reactive policy‑making by the state, indicating fluidity in institutional structure.",
+            "Post-genocide, traditional practices were perceived to be less celebrated and people were thought to be more open toward Western culture — indicating reduced uncertainty avoidance and a loosening of traditional structure.",
+            "The Khmer Rouge period produced coping mechanisms of mistrust and passivity that researchers found 'difficult to classify' under standard uncertainty avoidance — suggesting the dimension is genuinely ambiguous for Cambodia."
+          ],
+          "why_this_score": "Cambodia sits at 54 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 54 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 54 would understate the measured signal.",
+          "related_countries": [
+            "Laos",
+            "Philippines",
+            "Vietnam",
+            "Myanmar (formerly Burma)",
+            "Thailand"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c8",
+              "source_id": "turn0search16",
+              "title": "Culture of Cambodia — Wikipedia (culture details)",
+              "url": "Wikipedia Culture of Cambodia",
+              "author": "Wikipedia contributors",
+              "publication_year": 2026,
+              "excerpt": "Khmer culture is very hierarchical; respect by age, structured social organization, Chhbap codes govern behavior, indicating high rule‑based order.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c9",
+              "source_id": "turn0search10",
+              "title": "Cheryl Yin Research on Khmer Honorifics",
+              "url": "Cheryl Yin research page",
+              "author": "Cheryl Yin",
+              "publication_year": 2026,
+              "excerpt": "Urban middle‑class Cambodians now have a narrower honorific repertoire, but choices remain governed by social identity and hierarchy.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c16",
+              "source_id": "S04",
+              "title": "Culture of Cambodia – Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Culture_of_Cambodia",
+              "author": "Wikipedia contributors",
+              "publication_year": 2024,
+              "excerpt": "Customary Cambodian teachings laid out in the Chhbap verse codes (14th–18th centuries) were traditionally learned by rote and prescribed detailed behavioural rules — indicating a centuries-old rule-structuring tradition.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 33,
+          "confidence": "LOW",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.66,
+          "top_supporting_arguments": [
+            "The World Bank notes Cambodia's ambitious goal of reaching high-income status by 2050 and that boosting human capital investment is critical — suggesting an institutional and at least partial societal aspiration toward achievement and economic advancement.",
+            "Women in Cambodia's health workforce identified 'capacity and qualifications' as important factors in obtaining leadership positions — showing individual striving and achievement-orientation among educated urban Cambodians as a counter-trend to the accepting base rate.",
+            "OECD SIGI 2023 data shows 57% of companies in Cambodia are headed by women — an unexpectedly high figure that represents a counter-signal to purely patriarchal D4-suppression readings, though it coexists with significant managerial-level gender gaps."
+          ],
+          "top_counter_arguments": [
+            "Buddhist principles like tolerance, calmness, and taking responsibility for one’s actions pervade Cambodian culture, emphasizing harmony over competition.",
+            "Cambodian culture emphasizes interdependence, shared life, family moral support, and deemphasizes individual ownership or achievement.",
+            "Britannica explicitly states that social and psychological characteristics ascribed to the Khmer include 'lack of concern for material wealth' — representing Buddhist ideals that orient culture toward acceptance rather than competitive striving."
+          ],
+          "why_this_score": "Cambodia sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~18), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (78), so pushing past 33 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (25), so going below 33 would understate the measured signal.",
+          "related_countries": [
+            "Laos",
+            "Philippines",
+            "Vietnam",
+            "Myanmar (formerly Burma)",
+            "Thailand"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c27",
+              "source_id": "S12",
+              "title": "Cambodia | World Bank Group Country Page",
+              "url": "https://www.worldbank.org/ext/en/country/cambodia",
+              "author": "World Bank Group",
+              "publication_year": 2025,
+              "excerpt": "The World Bank notes Cambodia's ambitious goal of reaching high-income status by 2050 and that boosting human capital investment is critical — suggesting an institutional and at least partial societal aspiration toward achievement and economic advancement.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c28",
+              "source_id": "S15",
+              "title": "Why Are Fewer Women Rising to the Top? A Life History Gender Analysis of Cambodia's Health Workforce",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6708144/",
+              "author": "Vong, S. et al.",
+              "publication_year": 2019,
+              "excerpt": "Women in Cambodia's health workforce identified 'capacity and qualifications' as important factors in obtaining leadership positions — showing individual striving and achievement-orientation among educated urban Cambodians as a counter-trend to the accepting base rate.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c31",
+              "source_id": "S11",
+              "title": "SIGI 2023 Country Profile – Cambodia (OECD)",
+              "url": "https://webfs.oecd.org/devsigi/SIGI%202023%20Country%20Profiles/Southeast%20Asia/country_profile_KHM_Cambodia.pdf",
+              "author": "OECD Development Centre",
+              "publication_year": 2023,
+              "excerpt": "OECD SIGI 2023 data shows 57% of companies in Cambodia are headed by women — an unexpectedly high figure that represents a counter-signal to purely patriarchal D4-suppression readings, though it coexists with significant managerial-level gender gaps.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

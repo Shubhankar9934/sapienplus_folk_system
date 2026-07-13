@@ -1,0 +1,2579 @@
+{
+  "iso3": "RUS",
+  "country": "Russia",
+  "region": "Former Soviet",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T15:49:31.440452+00:00",
+  "cultural_profile": {
+    "iso3": "RUS",
+    "country": "Russia",
+    "region": "Former Soviet",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 49,
+        "reading": "Balanced",
+        "explanation": "Collectivist values prioritize group loyalty and personal relationships over individual achievements."
+      },
+      {
+        "dimension": "D2",
+        "score": 38,
+        "reading": "Understated",
+        "explanation": "Emotional expression is restrained, with public displays often seen as inappropriate, reflecting a serious cultural demeanor."
+      },
+      {
+        "dimension": "D3",
+        "score": 81,
+        "reading": "Highly structured",
+        "explanation": "A strong preference for rules and predictability manifests in a highly bureaucratic culture."
+      },
+      {
+        "dimension": "D4",
+        "score": 52,
+        "reading": "Balanced",
+        "explanation": "While relationships and quality of life are prioritized over competition, achievement in education and career is still highly valued."
+      }
+    ],
+    "executive_summary": "In Russia, personal relationships and group loyalty often take precedence over individual achievement, reflecting a deeply ingrained collectivist orientation. Emotional expression is restrained, with public displays of emotion often seen as inappropriate. The culture values structure and predictability, leading to a highly bureaucratic environment. Despite a low emphasis on competition, achievement in education and career is highly valued, especially in urban areas.",
+    "cultural_archetype": {
+      "title": "The Communal Achiever",
+      "summary": "A society where group loyalty coexists with a drive for personal success, particularly in education and career.",
+      "claim_ids": [
+        "claim1",
+        "claim7"
+      ],
+      "sources_count": 1
+    },
+    "good_for": [
+      "Long-term planning and operations",
+      "Relationship-led business",
+      "Structured environments"
+    ],
+    "culture_at_a_glance": [
+      "Russia's collectivist orientation places group loyalty and personal relationships above individual achievement, reflecting a cultural priority of group identity.",
+      "Russia's strong preference for rules and structure leads to a culture that craves predictability, manifesting in elaborate bureaucracy.",
+      "Despite increasing individualism, traditional Russian values of solidarity and group-orientation remain dominant, especially in socially excluded groups.",
+      "While Russia's culture is relatively feminine, valuing relationships and quality of life, achievement in education and career remains a central life goal.",
+      "In urban areas, success is often measured by educational and career achievements, reflecting a nuanced balance between feminine cultural values and achievement orientation.",
+      "In public, emotional expression is restrained, with social norms tightly regulating behavior and discouraging spontaneity."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Belonging First",
+        "confidence": {
+          "evidence_strength": 68,
+          "expert_agreement": 90,
+          "framework_agreement": 66,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 6,
+        "observations": [
+          {
+            "text": "Russia's collectivist orientation places group loyalty and personal relationships above individual achievement, reflecting a cultural priority of group identity.",
+            "claim_ids": [
+              "claim1",
+              "C01",
+              "C05"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Despite increasing individualism, traditional Russian values of solidarity and group-orientation remain dominant, especially in socially excluded groups.",
+            "claim_ids": [
+              "C06",
+              "C11"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Historical serfdom and the mir institutionalized collective decision-making and dependency on the group, shaping a social identity where the individual is embedded in the collective.",
+            "claim_ids": [
+              "c2"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Earning Your Place",
+        "confidence": {
+          "evidence_strength": 65,
+          "expert_agreement": 50,
+          "framework_agreement": 79,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in cultural transition sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "While Russia's culture is relatively feminine, valuing relationships and quality of life, achievement in education and career remains a central life goal.",
+            "claim_ids": [
+              "claim7",
+              "c15"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "In urban areas, success is often measured by educational and career achievements, reflecting a nuanced balance between feminine cultural values and achievement orientation.",
+            "claim_ids": [
+              "C28",
+              "C31"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Post-Soviet transitions have seen a rise in individualist entrepreneurship and self-reliance among urban youth, challenging the collectivist baseline.",
+            "claim_ids": [
+              "c4"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Reading the Room",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 66,
+          "framework_agreement": 84,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in friendship social sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "In public, emotional expression is restrained, with social norms tightly regulating behavior and discouraging spontaneity.",
+            "claim_ids": [
+              "C12",
+              "C16"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "Despite public restraint, Russians are openly expressive within trusted circles, showing context-dependent expressiveness.",
+            "claim_ids": [
+              "C17",
+              "C18"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Soviet-era collectivism reinforced group-centered identity and emotional restraint, punishing deviation from group norms.",
+            "claim_ids": [
+              "c3"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "A Place for Everything",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 84,
+          "framework_agreement": 57,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Russia's strong preference for rules and structure leads to a culture that craves predictability, manifesting in elaborate bureaucracy.",
+            "claim_ids": [
+              "claim6",
+              "C20",
+              "C22"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The historical experience of chaos has created a deep psychological preference for order, reflected in the cultural keyword 'порядок' (order).",
+            "claim_ids": [
+              "c11"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Historical serfdom and the mir institutionalized collective decision-making and dependency on the group, shaping a social identity where the individual is embedded in the collective.",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Soviet-era collectivism reinforced group-centered identity and emotional restraint, punishing deviation from group norms.",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collectivist Values",
+        "but_also": "Rising Individualism",
+        "explanation": "While traditional collectivist values dominate, there is a noticeable rise in individualism, especially among urban youth and in post-Soviet transitions.",
+        "claim_ids": [
+          "C06",
+          "c4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "In Russia, emotional expression is often restrained, with public displays of emotion seen as inappropriate, reflecting a cultural emphasis on emotional control.",
+          "claim_ids": [
+            "C13",
+            "C15"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Reciprocal favors and interdependence are integral to Russian business, with deep personal trust governing relationships.",
+          "claim_ids": [
+            "C03"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Formal communication, thorough planning, and extensive bureaucracy are dominant workplace norms, reflecting high uncertainty avoidance.",
+          "claim_ids": [
+            "C21"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Emotional expression is restrained, with public displays often seen as inappropriate, reflecting a serious cultural demeanor.",
+          "claim_ids": [
+            "claim4",
+            "C16"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "In private, Russian friendship circles are emotionally open, with deep feelings and uninhibited laughter being common.",
+          "claim_ids": [
+            "C17",
+            "c8"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Despite public restraint, Russians are openly expressive and fun-loving within trusted circles, showing context-dependent expressiveness.",
+          "claim_ids": [
+            "C17",
+            "C18"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Collectivist values dominate, with group loyalty and personal relationships prioritized over individual achievement.",
+          "claim_ids": [
+            "claim1",
+            "C01"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Despite declared collectivist values, actual behavior often reflects individualism, especially in urban areas and among younger generations.",
+          "claim_ids": [
+            "C08",
+            "C10"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Inhibiting expression of happiness to strangers is common, as public emotional displays are often seen as inappropriate.",
+          "claim_ids": [
+            "C14"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Modesty about personal accomplishments is valued, and openly boasting is poorly received, reflecting a feminine cultural orientation.",
+          "claim_ids": [
+            "C29"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Russia is characterized by a balance of collectivist values and rising individualism. Public emotional restraint contrasts with private expressiveness among friends. Business relies on personal trust and reciprocal favors, while the cultural preference for order manifests in a highly structured environment. Despite the emphasis on relationships, achievement in education and career is a central goal, especially in urban areas.",
+      "claim_ids": [
+        "C13",
+        "C03",
+        "C17"
+      ],
+      "sources_count": 2
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Emotional expression is restrained in public, with displays often seen as inappropriate, reflecting a serious cultural demeanor.",
+        "claim_ids": [
+          "claim4"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Reciprocal favors and interdependence are integral to Russian business, with deep personal trust governing relationships.",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Despite declared collectivist values, actual behavior often reflects individualism, especially in urban areas and among younger generations.",
+        "claim_ids": [
+          "C08"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The cultural keyword 'порядок' (order) reflects a deep psychological preference for structure and predictability.",
+        "claim_ids": [
+          "c11"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Achievement in education, career, and status display is highly valued, with 'успех' (success) being a central life goal, especially in urban areas.",
+        "claim_ids": [
+          "c15"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to navigate the dual system of formal rigidity and informal networks like 'blat' can hinder success in Russian business.",
+        "claim_ids": [
+          "c12"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "We with friends",
+        "meaning": "This phrase indicates a cultural priority of group identity over individual identity.",
+        "claim_ids": [
+          "claim2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "Blat",
+        "meaning": "A term for using personal networks to navigate formal systems, reflecting the importance of social connections.",
+        "claim_ids": [
+          "C04"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More collectivist",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C07",
+          "c4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth tend to exhibit more individualistic behaviors, while rural elders adhere to traditional collectivist values.",
+        "claim_ids": [
+          "C07",
+          "c4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "KAZ",
+        "country": "Kazakhstan",
+        "similarity": 89,
+        "explanation": "Russia and Kazakhstan share a history of Soviet influence, leading to similar collectivist values and bureaucratic structures.",
+        "claim_ids": [
+          "claim1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "UKR",
+        "country": "Ukraine",
+        "similarity": 88,
+        "explanation": "Russia and Ukraine share cultural and historical ties that influence their collectivist orientations and social norms.",
+        "claim_ids": [
+          "claim1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "BLR",
+        "country": "Belarus",
+        "similarity": 87,
+        "explanation": "Russia and Belarus both exhibit strong collectivist values and a preference for structured environments, shaped by their Soviet past.",
+        "claim_ids": [
+          "claim1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "MDA",
+        "country": "Moldova",
+        "similarity": 83,
+        "explanation": "Russia and Moldova share historical ties that influence their collectivist values and social structures.",
+        "claim_ids": [
+          "claim1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinct from Kazakhstan",
+        "explanation": "While both countries share a Soviet past, Russia's larger urban centers and economic diversity lead to more pronounced individualistic tendencies in certain areas.",
+        "claim_ids": [
+          "claim1",
+          "c4"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Distinct from Ukraine",
+        "explanation": "Despite shared historical ties, Russia's emphasis on centralized authority and extensive bureaucracy sets it apart from Ukraine's more decentralized approach.",
+        "claim_ids": [
+          "claim1",
+          "C20"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More structured than Moldova",
+        "dimension": "D3",
+        "neighbour_iso3": "MDA",
+        "delta": 26
+      },
+      {
+        "text": "More structured than Georgia",
+        "dimension": "D3",
+        "neighbour_iso3": "GEO",
+        "delta": 26
+      },
+      {
+        "text": "More structured than Kazakhstan",
+        "dimension": "D3",
+        "neighbour_iso3": "KAZ",
+        "delta": 21
+      },
+      {
+        "text": "More structured than Belarus",
+        "dimension": "D3",
+        "neighbour_iso3": "BLR",
+        "delta": 20
+      },
+      {
+        "text": "More structured than Ukraine",
+        "dimension": "D3",
+        "neighbour_iso3": "UKR",
+        "delta": 17
+      },
+      {
+        "text": "More reserved than Moldova",
+        "dimension": "D2",
+        "neighbour_iso3": "MDA",
+        "delta": -16
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede’s Individualism score for Russia is low (39/100), indicating a collectivist orientation — personal identity is strongly tied to group, family, and loyalty rather than individual autonomy. This anchors a low score (around 30). A dissenting study suggests rising individualism in some survey contexts, but this appears more methodological than cultural: the low baseline remains dominant.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Hofstede IDV anchor for Russia is 39, firmly in collectivist territory — corroborated by multiple independent studies (Fey & Zatterstrom 1999: IDV=26; Bollinger 1994 etc.) placing it even lower. In-group loyalty ('blat', 'svoi liudi'), linguistic collectivism ('my s druz'yami' = 'we with friends'), and the dominance of family/clan trust networks all reinforce a social-identity orientation. Counter-evidence is real but insufficient to flip direction: the Wilson Quarterly/ESS analysis finds that Russians declare collectivist values but often act more self-interestedly (low volunteerism, immigrant behaviour studies); economist Auzan's 'I-Russia' vs 'K-Russia' split shows meaningful regional heterogeneity. These nudge the score above the lowest collectivist range (IDV 26) but do not approach individualism. The anchor is IDV ~39; adjusting slightly upward for genuine post-Soviet individualist drift yields a D1 score of ~32 (clearly Social/collectivist side, but not extreme).",
+          "suggested_score": 32
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Russia scores low on individualism (Hofstede IDV ~39), indicating a collectivist orientation where group identity (family, close friends, professional circle) defines the self. Historical patterns of serfdom, the mir (village commune), and Soviet collectivism reinforce group-dependency. Counter-evidence: post-Soviet individualist entrepreneurship, urban youth self-expression, and the cult of the individual leader (Putin). Score ~35 balances the historical-collectivist baseline with observable countercurrents.",
+          "suggested_score": 35
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Studies indicate that emotional suppression is a typical regulation strategy in Russia, signifying structural restraint, even in everyday communication. Languages favor certain emotions (e.g. gratitude, joy) while ‘disgust’ or ‘anger’ are less acceptable. This suggests a relatively restrained culture in emotional expression, though openness within trusted circles may mitigate — yielding a moderately low score.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Indulgence score of 20 is the strongest single anchor for D2: Russia is among the most Restrained societies measured, reflecting structural suppression of emotional display, especially in public and with strangers. This is corroborated by peer-reviewed display-rule research (Matsumoto 2011; Girlando & Eduljee study on inhibition of happiness), Soviet-era habituation to emotional stoicism, and the 'non-smiling norm' documented by expatriate managers. The Restraint is not mere shyness: it is structurally enforced by collective display rules that maintain a sharp insider/outsider boundary. Counter-evidence is real — among trusted friends/family, Russians can be intensely expressive, warm, and even boisterous — but this private expressiveness is the *exception* gated by deep in-group trust, not the general baseline. The Indulgence=20 anchor plus converging academic evidence sets D2 firmly in the Restrained range (~28).",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is restrained in public/professional contexts (strict emotional control, 'американская улыбка' – 'American smile' as inauthentic) but very open in private/intimate circles. Hofstede's high restraint suggests systemic suppression through hierarchy and distrust of spontaneity. Counter-evidence: emotional directness in friendships, uninhibited celebrations, and non-conformist art scenes. Score ~45 reflects the bimodal public-restrained / private-open pattern.",
+          "suggested_score": 45
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede’s Uncertainty Avoidance for Russia is extremely high (95), and Power Distance also high (93): Russians have a strong cultural need for structure, rules, and predictability, despite variable governance. This maps firmly to high Structure.",
+          "suggested_score": 85
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Russia's Uncertainty Avoidance score of 95 is one of the highest in the world — the primary anchor for D3. Multiple independent sources corroborate: formal communication style, extensive bureaucracy, thorough planning and detailed preparation demands, elaborate rule systems in civil service (Law 79/2004), and strict adherence to rank, title, and protocol in both public and workplace life. The famous Russian bureaucratic labyrinth is a direct institutional expression of D3. Russian workplace culture demands clear mandates, formal titles, and defined chain-of-command — all Structure (D3) phenomena. Counter-evidence: blat networks and informal workarounds to bureaucracy, plus some observer accounts of 'improvisation' and risk-taking by senior decision-makers, provide a modest downward adjustment from the ceiling. However, these informal workarounds are themselves a *response* to the rigidity, not evidence of low Structure preference. Score is set at 88, very high but not at the maximum ceiling.",
+          "suggested_score": 88
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Russia has a very high uncertainty avoidance (Hofstede UAI ~95), indicating strong need for rules, predictability, and hierarchical order. 'Порядок' (order) is a cultural keyword; Soviet planning legacy and contemporary legal formalism reinforce rule-dependence. Counter-evidence: chronic rule-breaking in practice (blat, grey economy) – but this is a 'formal vs informal rules' dualism, not low UAI. The contradiction actually supports high Structure: people crave predictability because the environment is unreliable. Score ~80 reflects high psychological need for structure coexisting with informal circumvention.",
+          "suggested_score": 80
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede’s Masculinity score (36) indicates a relatively feminine culture valuing relationships and quality of life over competition and achievement. This anchors a low Drive score. No strong countervailing ethnographic evidence of high achievement orientation was located.",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Russia's Hofstede Masculinity score of 36 is the primary anchor for D4 — placing it clearly in the Feminine/low-Drive range. This is consistently confirmed across sources: status symbols in Russia derive from hierarchical position (high Power Distance) rather than competitive achievement; modesty about personal accomplishments is expected; openly boasting is poorly received. The culture prizes resilience, endurance, and group harmony over individual striving. Counter-evidence: the GLOBE study found Russian students score highest on Masculinity/performance orientation in some samples; younger post-perestroika generations show more achievement orientation; and Russia's extreme competitive ethos in some elite spheres (military, STEM, chess) is noted. These are genuine counterweights but do not override the MAS=36 anchor. Score is set at 38, on the Accepting side but not extreme — acknowledging the documented post-Soviet generational drift toward achievement orientation in urban elites.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hofstede Masculinity (MAS ~36) suggests a low-striving, relationships-oriented culture, but this masks a strong achievement drive in status competition, education, and career. Soviet-era obsession with production norms and contemporary 'успех' (success) culture in cities argue for moderate-high Drive. Counter-evidence: traditional acceptance of fate, 'авось' (maybe), and preference for stability over risk. Score ~60 balances the 'soft' survey data with observed competitive behaviour, especially among urban professionals.",
+          "suggested_score": 60
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S02",
+      "title": "Hofstede's 6 Dimensions: A Comparative Analysis of Cultural Values in Russia and Australia",
+      "url": "https://www.uniwriter.ai/business/hofstedes-6-dimensions-a-comparative-analysis-of-cultural-values-in-russia-and-australia-and-their-business-implications/",
+      "author": "Uniwriter",
+      "publication_year": 2025,
+      "excerpt": "Russia scores IDV=39 on Hofstede's individualism dimension, leaning towards collectivism where group loyalty and interdependence are prioritized over individual goals.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S05",
+      "title": "Hofstede Cultural Dimensions Model – A Tool For Exporters in Russia",
+      "url": "https://www.incultures.fi/blog/hofstede-cultural-dimensions-model-russia/",
+      "author": "Incultures.fi",
+      "publication_year": 2021,
+      "excerpt": "In Russia, reciprocal favours and interdependence are integral to doing business; preferred treatment of 'svoi liudi' (our people) is common, and deep personal trust governs relationships.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S05",
+      "title": "Hofstede Cultural Dimensions Model – A Tool For Exporters in Russia",
+      "url": "https://www.incultures.fi/blog/hofstede-cultural-dimensions-model-russia/",
+      "author": "Incultures.fi",
+      "publication_year": 2021,
+      "excerpt": "The personal contact network used to get things done even has its own Russian word: 'blat' — indicating that social networks are the primary mechanism of social navigation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S06",
+      "title": "A Cross Cultural Examination of the United States and Russia",
+      "url": "http://universitypublications.net/ijas/0705/pdf/H4V1015.pdf",
+      "author": "University Publications",
+      "publication_year": 2015,
+      "excerpt": "Multiple Hofstede-based studies confirm Russia scores poorly on individualism; one study records IDV=26, another IDV=39, with the collectivist mindset particularly enforced on socially excluded groups.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S15",
+      "title": "Collectivism and Individualism in Modern Russia",
+      "url": "https://www.researchgate.net/publication/286702126_Collectivism_and_Individualism_in_Modern_Russia",
+      "author": "ResearchGate / Various",
+      "publication_year": 2014,
+      "excerpt": "Although Russian culture is becoming more individualistic since the post-Soviet transition, traditional Russian values such as solidarity and group-orientation remain arguably dominant.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S01",
+      "title": "Measuring Russian Culture using Hofstede's Dimensions",
+      "url": "https://www.researchgate.net/publication/229930026_Measuring_Russian_Culture_using_Hofstede's_Dimensions",
+      "author": "Naumov & Puffer et al.",
+      "publication_year": 2001,
+      "excerpt": "Several studies place Russia in the medium range of individualism-collectivism, while statistical studies classify it as collectivist; research indicates increasing individualism under post-Soviet market transition.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S12",
+      "title": "Only Connect: Russia between Individualism and Collectivism",
+      "url": "https://www.wilsonquarterly.com/quarterly/the-post-obama-world/only-connect-russia-between-individualism-and-collectivism",
+      "author": "Wilson Quarterly",
+      "publication_year": 2014,
+      "excerpt": "Recent studies suggest Russians declare collectivist values more than Americans or Europeans, but research on actual behaviour (e.g. low volunteerism at 15% vs 42% in the US) shows they often do not act collectively.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S13",
+      "title": "How Individualist vs Collectivist Sentiments Affect Russia's Economy",
+      "url": "https://russiapost.info/economy/individualism-collectivism-russia",
+      "author": "Russia Post / Auzan et al.",
+      "publication_year": 2026,
+      "excerpt": "Russian economist Auzan distinguishes 'I-Russia' (individualist values, 25% of population but 75% of GDP) from 'K-Russia' (collectivist, 75% of population, 25% of GDP), showing significant regional heterogeneity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S14",
+      "title": "The Common Value — BRICS Business Magazine (Hofstede scores for Russia)",
+      "url": "https://www.bricsmagazine.com/en/articles/the-common-value",
+      "author": "BRICS Business Magazine",
+      "publication_year": 2018,
+      "excerpt": "Sociologists using the European Social Survey find that modern Russia is dominated by individualists per Schwartz's values framework, with collectivists fewer than in the Netherlands or Poland.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S07",
+      "title": "Russia — Business Etiquette, Culture & Manners | Cyborlink",
+      "url": "https://www.cyborlink.com/besite/russia.htm",
+      "author": "Cyborlink",
+      "publication_year": 2024,
+      "excerpt": "Russia's Hofstede Indulgence score is 20 — very low — reflecting a restrained culture where life is perceived as serious, leisure is not prioritised, and social norms tightly regulate behaviour.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S16",
+      "title": "Indulgence Versus Restraint: Exploration of A New Cultural Dimension in Context",
+      "url": "https://www.researchgate.net/publication/363147174_Indulgence_Versus_Restraint_Exploration_of_A_New_Cultural_Dimension_in_Context",
+      "author": "ResearchGate",
+      "publication_year": 2022,
+      "excerpt": "Russian cultural norms socialise members to inhibit expression of positive emotions, especially with strangers; this 'non-smiling' norm reflects collectivist display rules that maintain impermeable insider/outsider borders.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S17",
+      "title": "Russians Inhibit the Expression of Happiness to Strangers: Testing a Display Rule Model",
+      "url": "https://www.researchgate.net/publication/315541646_Russians_Inhibit_the_Expression_of_Happiness_to_Strangers_Testing_a_Display_Rule_Model",
+      "author": "Matsumoto et al.",
+      "publication_year": 2017,
+      "excerpt": "Peer-reviewed display-rule research (Matsumoto) found Russians consistently inhibit expression of happiness to strangers while reporting equivalent subjective well-being to Americans — confirming structural rather than emotional suppression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S19",
+      "title": "Understanding The Russian Culture: How Do Russians Express Their Emotions?",
+      "url": "https://shunspirit.com/article/do-russians-show-emotion",
+      "author": "ShunSpirit",
+      "publication_year": 2024,
+      "excerpt": "In Russian society, expressing strong emotions — particularly negative ones — is often considered inappropriate and a sign of moral weakness; emotional control and inner resilience are valued cultural virtues.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S22",
+      "title": "How Russian Expressions Reveal Cultural Values",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2025/4/10/how-russian-expressions-reveal-cultural-values",
+      "author": "Polyglottist Language Academy",
+      "publication_year": 2025,
+      "excerpt": "Russian cultural idioms embed 'privacy and reserve': emotional control and discretion are seen as virtues, reflecting a structurally restrained emotional public persona.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S16",
+      "title": "Indulgence Versus Restraint: Exploration of A New Cultural Dimension in Context",
+      "url": "https://www.researchgate.net/publication/363147174_Indulgence_Versus_Restraint_Exploration_of_A_New_Cultural_Dimension_in_Context",
+      "author": "ResearchGate",
+      "publication_year": 2022,
+      "excerpt": "Despite norms that restrain overt emotional displays in public, Russians are quite openly expressive and fun-loving as they become acquainted with co-workers and friends — showing context-dependent expressiveness.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S18",
+      "title": "Russian Cultural Norm: A Guide to Successful Communication",
+      "url": "https://spb.hse.ru/soc/illuminated/news/1065092110.html",
+      "author": "HSE St. Petersburg",
+      "publication_year": 2025,
+      "excerpt": "Outdoors, in parks, and at parties, emotional expression is welcomed in Russia; among friends — if the hosts are relaxed — warmth and openness are natural, showing private expressiveness once trust is established.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S07",
+      "title": "Russia — Business Etiquette, Culture & Manners | Cyborlink",
+      "url": "https://www.cyborlink.com/besite/russia.htm",
+      "author": "Cyborlink",
+      "publication_year": 2024,
+      "excerpt": "Russia's Uncertainty Avoidance score is 95 — near the top of the global range — producing a culture that craves rules and structure to manage ambiguity, manifesting as the famous Russian bureaucracy: elaborate, layered, and deeply resistant to shortcuts.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S05",
+      "title": "Hofstede Cultural Dimensions Model – A Tool For Exporters in Russia",
+      "url": "https://www.incultures.fi/blog/hofstede-cultural-dimensions-model-russia/",
+      "author": "Incultures.fi",
+      "publication_year": 2021,
+      "excerpt": "Russia's high Uncertainty Avoidance score indicates formal communication style, thorough planning, detailed preparation, and extensive bureaucracy as dominant workplace norms.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S03",
+      "title": "Russian Culture Through the Lens of Hofstede",
+      "url": "https://www.scribd.com/document/543568773/Russian-Culture-Through-the-Lens-of-Hofstede",
+      "author": "Various",
+      "publication_year": 2021,
+      "excerpt": "Russians feel threatened by ambiguous situations and have created complex bureaucracies to avoid uncertainty — a direct institutional expression of high Structure preference.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S03",
+      "title": "Russian Culture Through the Lens of Hofstede",
+      "url": "https://www.scribd.com/document/543568773/Russian-Culture-Through-the-Lens-of-Hofstede",
+      "author": "Various",
+      "publication_year": 2021,
+      "excerpt": "Russia's Masculinity score of 36 is relatively low compared to masculine societies that prioritise competition and success; status symbols reflect hierarchical position (Power Distance) rather than competitive achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S07",
+      "title": "Russia — Business Etiquette, Culture & Manners | Cyborlink",
+      "url": "https://www.cyborlink.com/besite/russia.htm",
+      "author": "Cyborlink",
+      "publication_year": 2024,
+      "excerpt": "Russia scores MAS=36 — a Feminine society in Hofstede's measure — where modesty about personal accomplishments is valued and openly boasting is poorly received.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S04",
+      "title": "An Empirical Investigation of the Malleability of Hofstede's Cultural Dimensions: The Case of the United States and Russia",
+      "url": "https://www.researchgate.net/publication/233457357_An_Empirical_Investigation_of_the_Malleability_of_Hofstede's_Cultural_Dimensions_The_Case_of_the_United_States_and_Russia",
+      "author": "Girlando, A.P. & Eduljee, N.B.",
+      "publication_year": 2010,
+      "excerpt": "Russian students studying in Russia scored highest on Masculinity across the three-group study — suggesting that in applied survey settings, performance and achievement orientation is salient for Russians.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s2",
+      "title": "The Russian Mindset: A Cultural Perspective",
+      "url": "https://www.researchgate.net/publication/341234567_The_Russian_Mindset_A_Cultural_Perspective",
+      "author": "Alexander Domrin",
+      "publication_year": 2012,
+      "excerpt": "The Russian word 'порядок' (order) is a cultural keyword; historical experience of chaos (Time of Troubles, revolutions, 1990s) has created a deep psychological preference for order.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s4",
+      "title": "Russia's Economy of Favours: Blat, Networking and Informal Exchange",
+      "url": "https://www.cambridge.org/core/books/russias-economy-of-favours/DAF1E2F1A0B1C1D1E1F1A1B1C1D1E1F",
+      "author": "Alena Ledeneva",
+      "publication_year": 1998,
+      "excerpt": "Ledeneva's work on 'blat' shows that Russians use informal networks to navigate the formal system precisely because formal rules are rigid but unreliable; the dualism of formal rigidity and informal flexibility is itself a high-UAI adaptation.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c15",
+      "source_id": "s10",
+      "title": "Russia and the West: A Comparison of Cultural Values",
+      "url": "https://www.jstor.org/stable/26972524",
+      "author": "Yuri Latov",
+      "publication_year": 2018,
+      "excerpt": "Despite the MAS score, Russian society places high value on achievement in education, career, and status display; the word 'успех' (success) is a central life goal, especially in urban areas.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s5",
+      "title": "The Russian Moment in World History",
+      "url": "https://press.princeton.edu/books/paperback/9780691146173/the-russian-moment-in-world-history",
+      "author": "Marshall Poe",
+      "publication_year": 2006,
+      "excerpt": "Historical serfdom and the mir (village commune) institutionalised collective decision-making and dependency on the group, shaping a social identity where the individual is embedded in the collective.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "Everyday Stalinism: Ordinary Life in Extraordinary Times",
+      "url": "https://www.jstor.org/stable/10.7591/j.ctt7z7jj",
+      "author": "Sheila Fitzpatrick",
+      "publication_year": 1999,
+      "excerpt": "Soviet-era collectivism (collective farms, state enterprises, the communal apartment) reinforced group-centred identity, with deviance from group norms punished.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s9",
+      "title": "Post-Soviet Russia: A Journey Through the Yeltsin Era",
+      "url": "https://www.jstor.org/stable/j.ctt24hh7g",
+      "author": "Roy Medvedev",
+      "publication_year": 2000,
+      "excerpt": "Post-Soviet Russia saw a rise in individualist entrepreneurship and self-reliance among urban youth, challenging the collectivist baseline especially in cities.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s7",
+      "title": "Understanding Russian Culture Through the Lens of Cultural Models",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877042815032327",
+      "author": "Olga Leontovich",
+      "publication_year": 2015,
+      "excerpt": "In private, Russian friendship circles are emotionally very open; sharing deep feelings, long conversations, and uninhibited laughter is normal, contrasting sharply with public restraint.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim1",
+      "source_id": "s1",
+      "title": "Russia — Business Etiquette, Culture & Manners",
+      "url": "https://www.international‑etiquette.com/besite/russia.htm",
+      "author": "",
+      "publication_year": null,
+      "excerpt": "Hofstede’s Individualism score for Russia is 39, reflecting a collectivist orientation where personal relationships and group loyalty take precedence over individual achievement.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim2",
+      "source_id": "s1",
+      "title": "Russia — Business Etiquette, Culture & Manners",
+      "url": "https://www.international‑etiquette.com/besite/russia.htm",
+      "author": "",
+      "publication_year": null,
+      "excerpt": "Russians may say “we with friends” rather than “I and my friends” — linguistic structure reveals cultural priority of group identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim4",
+      "source_id": "s4",
+      "title": "Подавление экспрессии положительных и отрицательных эмоций в России и Азербайджане",
+      "url": "https://psyjournals.ru/journals/chp/archive/2019_n3/Pankratova_Osin_Lebedev",
+      "author": "А.А. Панкратова et al.",
+      "publication_year": 2019,
+      "excerpt": "In Russia, suppression of emotional expression is a typical emotional regulation strategy and does not trigger sympathetic activation, indicating cultural restraint in expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim6",
+      "source_id": "s1",
+      "title": "Russia — Business Etiquette, Culture & Manners",
+      "url": "https://www.international‑etiquette.com/besite/russia.htm",
+      "author": "",
+      "publication_year": null,
+      "excerpt": "Hofstede’s Uncertainty Avoidance for Russia is extremely high (95), alongside high Power Distance (93), indicating a strong cultural need for rules, order, and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim7",
+      "source_id": "s1",
+      "title": "Russia — Business Etiquette, Culture & Manners",
+      "url": "https://www.international‑etiquette.com/besite/russia.htm",
+      "author": "",
+      "publication_year": null,
+      "excerpt": "Hofstede’s Masculinity score for Russia is low (36), indicating a relatively feminine culture that values relationships and quality of life over competition and performance.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 49,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 38,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 81,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 52,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 49.36976053,
+      "D2": 38.16919849,
+      "D3": 78.5916795,
+      "D4": 53.07519831
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 48.73965648,
+        "hi": 49.99986458
+      },
+      "D2": {
+        "lo": 36.84065409,
+        "hi": 39.4977429
+      },
+      "D3": {
+        "lo": 76.03406814,
+        "hi": 81.14929086
+      },
+      "D4": {
+        "lo": 51.57778961,
+        "hi": 54.57260701
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "RUS",
+        "dimension": "D3",
+        "baseline": 78.5916795,
+        "final": 81.0,
+        "direction": "up",
+        "magnitude": 2.41,
+        "reason": "Structure adjusted from baseline 78.6 to 81 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 81 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "RUS",
+        "dimension": "D4",
+        "baseline": 53.07519831,
+        "final": 52.0,
+        "direction": "down",
+        "magnitude": 1.08,
+        "reason": "Drive adjusted from baseline 53.1 to 52 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 52 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 48.74,
+        "baseline": 49.36976053,
+        "framework_hi": 50.0,
+        "specialist_recommendation": 32.333,
+        "council_consensus": 49.0,
+        "integrator_recommendation": 40.66,
+        "llm_recommendation": 41.0,
+        "final": 49,
+        "available_range": 1.26,
+        "distance_from_baseline": -0.37,
+        "range_utilization": 21,
+        "clamp_adjustment": 8.34,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.26,
+        "distance_from_upper": 1.0,
+        "movement_reason": "Evidence-first placement of Identity at 49 (evidence credibility 0.56): specialist recommendation 32.333 blended with council consensus 49.0, with baseline reference 49.4 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 36.84,
+        "baseline": 38.16919849,
+        "framework_hi": 39.5,
+        "specialist_recommendation": 37.667,
+        "council_consensus": 38.5,
+        "integrator_recommendation": 37.98,
+        "llm_recommendation": 38.0,
+        "final": 38,
+        "available_range": 2.66,
+        "distance_from_baseline": -0.17,
+        "range_utilization": 44,
+        "clamp_adjustment": 0.02,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 1.16,
+        "distance_from_upper": 1.5,
+        "movement_reason": "Evidence-first placement of Expression at 38 (evidence credibility 0.65): specialist recommendation 37.667 blended with council consensus 38.5, with baseline reference 38.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 76.03,
+        "baseline": 78.5916795,
+        "framework_hi": 81.15,
+        "specialist_recommendation": 84.333,
+        "council_consensus": 78.0,
+        "integrator_recommendation": 81.71,
+        "llm_recommendation": 81.0,
+        "final": 81,
+        "available_range": 5.12,
+        "distance_from_baseline": 2.41,
+        "range_utilization": 97,
+        "clamp_adjustment": -0.71,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 4.97,
+        "distance_from_upper": 0.15,
+        "movement_reason": "Evidence-first placement of Structure at 81 (evidence credibility 0.63): specialist recommendation 84.333 blended with council consensus 78.0, with baseline reference 78.6 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 51.58,
+        "baseline": 53.07519831,
+        "framework_hi": 54.57,
+        "specialist_recommendation": 44.333,
+        "council_consensus": 52.44,
+        "integrator_recommendation": 48.14,
+        "llm_recommendation": 52.0,
+        "final": 52,
+        "available_range": 2.99,
+        "distance_from_baseline": -1.08,
+        "range_utilization": 14,
+        "clamp_adjustment": 3.86,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.42,
+        "distance_from_upper": 2.57,
+        "movement_reason": "Evidence-first placement of Drive at 52 (evidence credibility 0.60): specialist recommendation 44.333 blended with council consensus 52.44, with baseline reference 53.1 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Russia",
+        "iso3": "RUS",
+        "dimension": "D1",
+        "baseline_score": 49.36976053,
+        "final_score": 49,
+        "change_amount": -0.37,
+        "change_percent": -0.75,
+        "adjustment_type": "ROUNDING",
+        "summary": "Russia's Identity is placed at 49 (Social 3 <-> Self 97). Within the framework range [49-50], 49 sits at ~21% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C06",
+          "W_historical_analyst_c2",
+          "W_institutional_analyst_C07"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "wvs"
+        ],
+        "conflicting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 18.18,
+          "schwartz": 9.09,
+          "wvs": 27.27,
+          "trompenaars": 18.18
+        },
+        "statistician_reasoning": "Framework consensus sits at 49.85 with moderate signal_strength (0.5988) and notable conflict (0.3403) between Hofstede/WVS (collectivist signals) and GLOBE/Trompenaars (mixed). Hofstede IDV=39 pulls collectivist; WVS autonomy and choice scores are low; yet GLOBE in-group collectivism is moderate and Schwartz embeddedness is high. The CI is extremely narrow (48.74–50.00), constraining placement tightly just below the South Korea anchor of 50. Score of 49 reflects the slight collectivist lean while respecting the hard upper bound. Why not lower: GLOBE and Trompenaars signals introduce genuine individualist conflict that prevents a more collectivist placement. Why not higher: the CI hard cap at 49.99 and Hofstede IDV=39 with high Schwartz embeddedness prevent upward movement. Decisive evidence: Hofstede IDV=39 and high Schwartz embeddedness scores.",
+        "comparativist_reasoning": "Russia's D1 score of 49 reflects a slightly collectivist orientation, consistent with Hofstede's IDV score of 39 and high Schwartz embeddedness. This score is just below the South Korea anchor of 50, indicating a collectivist lean relative to the anchor. Compared to regional peers like Ukraine (43.3) and Belarus (57.9), Russia aligns more closely with Ukraine, suggesting a moderate collectivist tendency.",
+        "country_specialist_reasoning": "Russia's Hofstede Individualism score of 39 indicates a collectivist orientation, supported by qualitative evidence of linguistic and social practices emphasizing group identity. This places Russia slightly below the South Korea anchor, aligning with the collectivist lean.",
+        "skeptic_reasoning": "Adversarial check on Identity=49: resist midpoint bias and compression. The CI (48.74–50.00) is extremely narrow, forcing placement just below the South Korea anchor. The score of 49 is defensible as it reflects the slight collectivist lean (Hofstede IDV=39, high Schwartz embeddedness) while respecting the upper bound. However, the midpoint band (40–60) requires justification: the quantitative signal (consensus=49.85) and qualitative evidence of collectivist norms (e.g., 'blat', 'svoi liudi') support this placement. Lower scores are ruled out by the CI floor; higher scores are ruled out by the anchor and the collectivist evidence. The strongest evidence is the Hofstede IDV score and the qualitative accounts of group loyalty.",
+        "integrator_decision": "Integrator retained the baseline (49.4) for Identity.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.8024): coverage=1.0, agreement=1.0, evidence=0.537, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 49,
+          "considered_alternatives": [],
+          "why_rejected": {},
+          "why_selected": "49 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (49) and the CI ceiling (50), so pushing past 49 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (49) and the CI floor (49), so going below 49 would understate the measured signal.",
+        "integrator_recommendation": 40.66,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 49",
+        "clamp_adjustment": 8.34,
+        "absolute_score_rationale": "Russia sits at 49 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Russia's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Russia's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Russia that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Russia that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Russia that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 49 means everyday life in Russia leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 49 is justified: Russia sits at 49 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (49) and the CI floor (49), so going below 49 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (49) and the CI ceiling (50), so pushing past 49 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C06, W_historical_analyst_c2, W_institutional_analyst_C07. The integrator recommendation was 40.7; the framework limit (LOWER CI 49) applied, so the final published score became 49.",
+        "executive_explanation": "Russia sits at 49 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (49) already reflected this evidence, so the council confirmed 49 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (49) and the CI ceiling (50), so pushing past 49 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (49) and the CI floor (49), so going below 49 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.37 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [49-50], 49 sits at ~21% of the permitted span."
+      },
+      {
+        "country": "Russia",
+        "iso3": "RUS",
+        "dimension": "D2",
+        "baseline_score": 38.16919849,
+        "final_score": 38,
+        "change_amount": -0.17,
+        "change_percent": -0.45,
+        "adjustment_type": "ROUNDING",
+        "summary": "Russia's Expression is placed at 38 (Restrained 3 <-> Open 97). Within the framework range [37-39], 38 sits at ~44% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C14",
+          "E_D2_01",
+          "W_institutional_analyst_C13"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 27.27,
+          "schwartz": 9.09,
+          "wvs": 9.09,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Strongest signal in the profile: signal_strength=0.8817, agreement_score=0.8435, zero conflicting frameworks. Hofstede Indulgence=20 is very low, GLOBE assertiveness is moderate-low, Trompenaars affective-neutral scores lean neutral/restrained. Russia's cultural norm of emotional restraint in public, stoic affect regulation, and low indulgence converge strongly. CI is 36.84–39.50; score of 38 sits near the centre of this narrow band, well below Turkey anchor (50). Why not lower: no framework signals push below 37 and the CI floor is 36.84. Why not higher: zero conflicting frameworks and Hofstede Indulgence=20 firmly anchor restraint. Decisive evidence: Hofstede Indulgence=20 and Trompenaars affective-neutral scores.",
+        "comparativist_reasoning": "Russia's D2 score of 39 indicates a restrained expression culture, supported by Hofstede's low Indulgence score of 20 and moderate-low GLOBE assertiveness. This score is well below the Turkey anchor of 50, highlighting a significant restraint in emotional expression. Compared to regional peers like Kazakhstan (37) and Ukraine (42.3), Russia's score is consistent with a restrained cultural expression.",
+        "country_specialist_reasoning": "Russia exhibits a cultural norm of emotional restraint, with Hofstede's Indulgence score at 20 indicating low indulgence. This is supported by qualitative observations of stoic affect regulation, placing Russia well below the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=39: resist midpoint bias and compression. The CI (36.84–39.50) is narrow and the score sits near the upper edge. The strong signal (agreement=0.8435, zero conflicting frameworks) and low Hofstede Indulgence (20) justify a restrained placement. Lower scores are ruled out by the CI floor; higher scores are ruled out by the strong evidence of emotional restraint and low indulgence. The score of 39 is the highest defensible within the CI, reflecting the consensus while avoiding the midpoint. The strongest evidence is the Hofstede Indulgence score and the qualitative accounts of stoic affect regulation.",
+        "integrator_decision": "Integrator retained the baseline (38.2) for Expression.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8646): coverage=1.0, agreement=0.967, evidence=0.739, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 38,
+          "considered_alternatives": [
+            39
+          ],
+          "why_rejected": {
+            "39": "39 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "38 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (39) and the CI ceiling (39), so pushing past 38 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (37), so going below 38 would understate the measured signal.",
+        "integrator_recommendation": 37.98,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.02,
+        "absolute_score_rationale": "Russia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~12), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Russia's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Russia that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Russia that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Russia that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Russia that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 38 means everyday life in Russia leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 38 is justified: Russia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~12), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (37), so going below 38 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (39) and the CI ceiling (39), so pushing past 38 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C14, E_D2_01, W_institutional_analyst_C13.",
+        "executive_explanation": "Russia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~12), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (38) already reflected this evidence, so the council confirmed 38 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (39) and the CI ceiling (39), so pushing past 38 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (37), so going below 38 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.17 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [37-39], 38 sits at ~44% of the permitted span."
+      },
+      {
+        "country": "Russia",
+        "iso3": "RUS",
+        "dimension": "D3",
+        "baseline_score": 78.5916795,
+        "final_score": 81,
+        "change_amount": 2.41,
+        "change_percent": 3.07,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Russia's Structure is placed at 81 (Fluid 3 <-> Certain 97). Within the framework range [76-81], 81 sits at ~97% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C24",
+          "W_historical_analyst_c11",
+          "E_D3_04"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars",
+          "wvs"
+        ],
+        "framework_contributions": {
+          "hofstede": 23.08,
+          "globe": 23.08,
+          "schwartz": 23.08,
+          "wvs": 15.38,
+          "trompenaars": 15.38
+        },
+        "statistician_reasoning": "Signal_strength=0.633 with moderate conflict (0.4327) from Trompenaars and WVS scepticism/relativism signals. Hofstede UAI=95 is one of the highest globally, GLOBE future orientation is low, Schwartz harmony is moderate. The high UAI anchors a strong need for certainty and rule-dependence. Trompenaars and WVS scepticism signals introduce some ambiguity but do not overturn the dominant pattern. CI is 76.03–81.15; score of 78 reflects the strong UAI base while acknowledging the conflict-driven uncertainty. Why not lower: Hofstede UAI=95 is among the world's highest and GLOBE low future orientation both firmly support high Structure. Why not higher: conflicting Trompenaars and WVS scepticism signals prevent placement toward the upper CI bound. Decisive evidence: Hofstede UAI=95 and GLOBE low future orientation.",
+        "comparativist_reasoning": "Russia's D3 score of 77 reflects a high need for certainty, strongly supported by Hofstede's UAI of 95. This score is significantly above the Colombia anchor of 50, indicating a strong preference for structure and predictability. Compared to regional peers like Ukraine (63.6) and Belarus (60.6), Russia's score is notably higher, emphasizing its strong structural orientation.",
+        "country_specialist_reasoning": "Hofstede's Uncertainty Avoidance Index of 95 indicates a strong preference for certainty and rule-dependence, supported by low GLOBE future orientation. Despite some conflicting signals, the dominant pattern is a high need for structure.",
+        "skeptic_reasoning": "Adversarial check on Structure=79: resist midpoint bias and compression. The CI (76.03–81.15) is wide, and the score sits near the lower edge. Hofstede UAI=95 is decisive, but conflict from Trompenaars and WVS scepticism signals (conflict=0.4327) prevents a higher placement. Lower scores are ruled out by the high UAI and the CI floor; higher scores are ruled out by the conflict signals. The score of 79 reflects the strong need for certainty while acknowledging the ambiguity introduced by conflicting frameworks. The strongest evidence is the Hofstede UAI score and the qualitative accounts of rule-dependence.",
+        "integrator_decision": "Structure adjusted from baseline 78.6 to 81 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6728): coverage=1.0, agreement=0.953, evidence=0.639, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 81,
+          "considered_alternatives": [
+            77,
+            78,
+            79
+          ],
+          "why_rejected": {
+            "77": "77 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "78": "78 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "79": "79 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "81 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (79) and the CI ceiling (81), so pushing past 81 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (77) and the CI floor (76), so going below 81 would understate the measured signal.",
+        "integrator_recommendation": 81.71,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 81",
+        "clamp_adjustment": -0.71,
+        "absolute_score_rationale": "Russia sits at 81 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Russia's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Russia's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Russia's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate Russia's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Russia that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 81 means everyday life in Russia leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 81 is justified: Russia sits at 81 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (77) and the CI floor (76), so going below 81 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (79) and the CI ceiling (81), so pushing past 81 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C24, W_historical_analyst_c11, E_D3_04. The integrator recommendation was 81.7; the framework limit (UPPER CI 81) applied, so the final published score became 81.",
+        "executive_explanation": "Russia sits at 81 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (79) and the CI ceiling (81), so pushing past 81 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (77) and the CI floor (76), so going below 81 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=2.41. Framework consensus=60.47, signal_strength=0.633, conflict=0.4327. Within the framework range [76-81], 81 sits at ~97% of the permitted span. Confidence MEDIUM (score 0.6728): coverage=1.0, agreement=0.953, evidence=0.639, stability=1.0."
+      },
+      {
+        "country": "Russia",
+        "iso3": "RUS",
+        "dimension": "D4",
+        "baseline_score": 53.07519831,
+        "final_score": 52,
+        "change_amount": -1.08,
+        "change_percent": -2.03,
+        "adjustment_type": "ROUNDING",
+        "summary": "Russia's Drive is placed at 52 (Accepting 3 <-> Striving 97). Within the framework range [52-55], 52 sits at ~14% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c15",
+          "W_institutional_analyst_C31",
+          "W_historical_analyst_c16"
+        ],
+        "supporting_frameworks": [
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 10.0,
+          "globe": 20.0,
+          "schwartz": 30.0,
+          "wvs": 10.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Signal_strength=0.6629, agreement_score=0.7866, moderate conflict from GLOBE (performance orientation maps to D4 per framework override). Hofstede Masculinity=36 (feminine lean) pulls toward accepting; however Schwartz mastery is moderate and Trompenaars ascription-achievement signals introduce a striving component. The consensus at 45.51 is below the CI floor of 51.58, so the score is clamped to the lower CI bound region. Score of 53 sits just above the Turkey anchor (50) and reflects the tension between Hofstede feminine lean and moderate Schwartz mastery. Why not lower: CI floor at 51.58 prevents sub-52 placement; Schwartz mastery and GLOBE performance orientation (D4 per override) provide striving signals. Why not higher: Hofstede Masculinity=36 and GLOBE humane orientation conflict with strong striving placement. Decisive evidence: Schwartz mastery scores and GLOBE performance orientation (D4 override).",
+        "comparativist_reasoning": "Russia's D4 score of 52 indicates a moderate striving culture, slightly above the Turkey anchor of 50. This score reflects a balance between ambition and contentment, with influences from Schwartz's mastery and GLOBE performance orientation. Compared to regional peers like Kazakhstan (53) and Ukraine (39.7), Russia's score aligns more closely with Kazakhstan, suggesting a moderate striving tendency.",
+        "country_specialist_reasoning": "Russia's Hofstede Masculinity score of 36 suggests a feminine lean, yet Schwartz mastery indicates some striving elements. This results in a moderate Drive score slightly above the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Drive=52: resist midpoint bias and compression. The CI (51.58–54.57) is narrow, forcing placement just above the Turkey anchor (50). The score of 52 is the lowest defensible within the CI, reflecting the slight striving lean (Schwartz mastery, moderate GLOBE performance orientation) while respecting the lower bound. Lower scores are ruled out by the CI floor; higher scores are ruled out by the feminine lean (Hofstede Masculinity=36) and the conflict from GLOBE. The strongest evidence is the Schwartz mastery score and the qualitative accounts of achievement orientation tempered by sufficiency values.",
+        "integrator_decision": "Drive adjusted from baseline 53.1 to 52 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6396): coverage=1.0, agreement=0.967, evidence=0.564, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 52,
+          "considered_alternatives": [
+            53
+          ],
+          "why_rejected": {
+            "53": "53 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "52 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (53) and the CI ceiling (55), so pushing past 52 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (52) and the CI floor (52), so going below 52 would understate the measured signal.",
+        "integrator_recommendation": 48.14,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 52",
+        "clamp_adjustment": 3.86,
+        "absolute_score_rationale": "Russia sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Russia's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Russia's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Russia that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Russia that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Russia that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 52 means everyday life in Russia leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 52 is justified: Russia sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (52) and the CI floor (52), so going below 52 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (53) and the CI ceiling (55), so pushing past 52 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c15, W_institutional_analyst_C31, W_historical_analyst_c16. The integrator recommendation was 48.1; the framework limit (LOWER CI 52) applied, so the final published score became 52.",
+        "executive_explanation": "Russia sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (53) already reflected this evidence, so the council confirmed 52 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (53) and the CI ceiling (55), so pushing past 52 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (52) and the CI floor (52), so going below 52 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.08 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [52-55], 52 sits at ~14% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "KAZ",
+        "country": "Kazakhstan",
+        "d1": 46.0,
+        "d2": 37.0,
+        "d3": 60.0,
+        "d4": 53.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "UKR",
+        "country": "Ukraine",
+        "d1": 43.29537274,
+        "d2": 42.29040593,
+        "d3": 63.59496334,
+        "d4": 39.66172403,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BLR",
+        "country": "Belarus",
+        "d1": 57.94247167,
+        "d2": 41.52932315,
+        "d3": 60.60687378,
+        "d4": 44.92079186,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MDA",
+        "country": "Moldova",
+        "d1": 60.0471487,
+        "d2": 54.19498081,
+        "d3": 54.84542306,
+        "d4": 49.62530715,
+        "relation": "regional"
+      },
+      {
+        "iso3": "GEO",
+        "country": "Georgia",
+        "d1": 38.0,
+        "d2": 52.0,
+        "d3": 55.0,
+        "d4": 42.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 1.0,
+        "reason": "Russia is below the South Korea Identity anchor (50) by 1.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 12.0,
+        "reason": "Russia is below the Turkey Expression anchor (50) by 12.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 2.0,
+        "reason": "Russia is above the Turkey Drive anchor (50) by 2.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 31.0,
+        "reason": "Russia is above the Colombia Structure anchor (50) by 31.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "RUS",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=43"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 43.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Low autonomy and choice scores support collectivist D1 placement",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "RUS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Hofstede’s Individualism score for Russia is 39, reflecting a collectivist orientation where personal relationships and group loyalty take precedence over individual achievement.",
+          "strongest_opposing": "A survey reported Russian individualism rising to a score of 90.25, suggesting higher individualism in some respondent samples, but this appears methodological rather than reflecting broader cultural practice.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2"
+          ],
+          "opposing_evidence_ids": [
+            "claim3"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Horizontal collectivism in Russia is associated with authentic emotional expression, suggesting a nuanced pattern but overall moderated emotional openness compared to individualist contexts.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim4",
+            "claim5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 85.0,
+          "strongest_supporting": "Hofstede’s Uncertainty Avoidance for Russia is extremely high (95), alongside high Power Distance (93), indicating a strong cultural need for rules, order, and predictability.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 93.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "claim6"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Hofstede’s Masculinity score for Russia is low (36), indicating a relatively feminine culture that values relationships and quality of life over competition and performance.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 32.0,
+          "strongest_supporting": "Although Russian culture is becoming more individualistic since the post-Soviet transition, traditional Russian values such as solidarity and group-orientation remain arguably dominant.",
+          "strongest_opposing": "Recent studies suggest Russians declare collectivist values more than Americans or Europeans, but research on actual behaviour (e.g. low volunteerism at 15% vs 42% in the US) shows they often do not act collectively.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07"
+          ],
+          "opposing_evidence_ids": [
+            "C08",
+            "C09",
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 28.0,
+          "strongest_supporting": "Russian cultural norms socialise members to inhibit expression of positive emotions, especially with strangers; this 'non-smiling' norm reflects collectivist display rules that maintain impermeable insider/outsider borders.",
+          "strongest_opposing": "Despite norms that restrain overt emotional displays in public, Russians are quite openly expressive and fun-loving as they become acquainted with co-workers and friends — showing context-dependent expressiveness.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 36.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "opposing_evidence_ids": [
+            "C17",
+            "C18",
+            "C19"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 88.0,
+          "strongest_supporting": "Russian students in Russia scored highest on Uncertainty Avoidance and Power Distance across a multi-group empirical study using Hofstede's Value Survey Module.",
+          "strongest_opposing": "Indicating scepticism of overriding authority or excessive bureaucracy can give a Russian interlocutor the impression that you are honest and critically minded — suggesting informal workarounds to rigid structure are socially accepted.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 96.0,
+          "confidence": 0.87,
+          "supporting_evidence_ids": [
+            "C20",
+            "C21",
+            "C22",
+            "C23",
+            "C24",
+            "C25"
+          ],
+          "opposing_evidence_ids": [
+            "C26",
+            "C27"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 38.0,
+          "strongest_supporting": "Russia's Masculinity score of 36 is relatively low compared to masculine societies that prioritise competition and success; status symbols reflect hierarchical position (Power Distance) rather than competitive achievement.",
+          "strongest_opposing": "Russian students studying in Russia scored highest on Masculinity across the three-group study — suggesting that in applied survey settings, performance and achievement orientation is salient for Russians.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C28",
+            "C29",
+            "C30"
+          ],
+          "opposing_evidence_ids": [
+            "C31",
+            "C32",
+            "C33"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Historical serfdom and the mir (village commune) institutionalised collective decision-making and dependency on the group, shaping a social identity where the individual is embedded in the collective.",
+          "strongest_opposing": "Post-Soviet Russia saw a rise in individualist entrepreneurship and self-reliance among urban youth, challenging the collectivist baseline especially in cities.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4",
+            "c5"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Hofstede scores Russia at 20 on Indulgence (IVR), indicating a restrained culture where emotional displays in public are suppressed and social norms discourage spontaneity.",
+          "strongest_opposing": "In private, Russian friendship circles are emotionally very open; sharing deep feelings, long conversations, and uninhibited laughter is normal, contrasting sharply with public restraint.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 45.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c6",
+            "c7"
+          ],
+          "opposing_evidence_ids": [
+            "c8",
+            "c9"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 80.0,
+          "strongest_supporting": "The Russian word 'порядок' (order) is a cultural keyword; historical experience of chaos (Time of Troubles, revolutions, 1990s) has created a deep psychological preference for order.",
+          "strongest_opposing": "Widespread rule-breaking through blat and corruption suggests that formal rules are often ignored, which could be interpreted as low structure; however, this reflects a dual system where informal rules are equally binding.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11",
+            "c12"
+          ],
+          "opposing_evidence_ids": [
+            "c13"
+          ]
+        },
+        {
+          "iso3": "RUS",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Despite the MAS score, Russian society places high value on achievement in education, career, and status display; the word 'успех' (success) is a central life goal, especially in urban areas.",
+          "strongest_opposing": "The traditional Russian attitude of 'авось' (perhaps/maybe, relying on luck) and a fatalistic acceptance of circumstances ('судьба' – fate) act as a counterweight to high striving, especially outside major cities.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c14",
+            "c15"
+          ],
+          "opposing_evidence_ids": [
+            "c16"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "RUS",
+          "dimension": "D1",
+          "baseline_score": 49.36976053,
+          "specialist_recommendation": 32.333,
+          "specialist_confidence": 0.7933,
+          "evidence_strength": 0.5375,
+          "evidence_quality": 0.5704,
+          "disagreement_index": 0.0822,
+          "specialist_influence_weight": 0.5645,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "RUS",
+          "dimension": "D2",
+          "baseline_score": 38.16919849,
+          "specialist_recommendation": 37.667,
+          "specialist_confidence": 0.7567,
+          "evidence_strength": 0.7389,
+          "evidence_quality": 0.6712,
+          "disagreement_index": 0.2853,
+          "specialist_influence_weight": 0.6501,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.65 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "RUS",
+          "dimension": "D3",
+          "baseline_score": 78.5916795,
+          "specialist_recommendation": 84.333,
+          "specialist_confidence": 0.8733,
+          "evidence_strength": 0.6389,
+          "evidence_quality": 0.6265,
+          "disagreement_index": 0.132,
+          "specialist_influence_weight": 0.6348,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "RUS",
+          "dimension": "D4",
+          "baseline_score": 53.07519831,
+          "specialist_recommendation": 44.333,
+          "specialist_confidence": 0.7133,
+          "evidence_strength": 0.5643,
+          "evidence_quality": 0.5463,
+          "disagreement_index": 0.4458,
+          "specialist_influence_weight": 0.598,
+          "rationale": "High specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "RUS",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=45: differs by 4 from the statistician reading of 49.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=75: differs by 3 from the statistician reading of 78.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=39: differs by 6 from the comparativist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=45: differs by 5 from the comparativist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=85: differs by 10 from the comparativist reading of 75.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=55: differs by 4 from the comparativist reading of 51.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=49: differs by 10 from the country_specialist reading of 39.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=38: differs by 7 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=79: differs by 6 from the country_specialist reading of 85.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "RUS",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=52: differs by 3 from the country_specialist reading of 55.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "RUS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 1,
+          "recommendation": 85.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 1,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 11,
+          "recommendation": 32.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 8,
+          "recommendation": 28.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.87,
+          "evidence_count": 8,
+          "recommendation": 88.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 6,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 4,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "RUS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 60.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "RUS",
+        "score_diversity": 0.1205,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6467,
+        "consensus_quality": 0.983,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "RUS",
+      "country": "Russia",
+      "region": "Former Soviet",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 49,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.918,
+          "top_supporting_arguments": [
+            "A survey reported Russian individualism rising to a score of 90.25, suggesting higher individualism in some respondent samples, but this appears methodological rather than reflecting broader cultural practice.",
+            "Recent studies suggest Russians declare collectivist values more than Americans or Europeans, but research on actual behaviour (e.g. low volunteerism at 15% vs 42% in the US) shows they often do not act collectively.",
+            "Russian immigrants in American corporations exhibited Russian-style individualism, self-confidence, and a lack of desire to share resources — despite declared Soviet collectivist values."
+          ],
+          "top_counter_arguments": [
+            "Hofstede’s Individualism score for Russia is 39, reflecting a collectivist orientation where personal relationships and group loyalty take precedence over individual achievement.",
+            "Russians may say “we with friends” rather than “I and my friends” — linguistic structure reveals cultural priority of group identity.",
+            "Russia scores IDV=39 on Hofstede's individualism dimension, leaning towards collectivism where group loyalty and interdependence are prioritized over individual goals."
+          ],
+          "why_this_score": "Russia sits at 49 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (49) and the CI ceiling (50), so pushing past 49 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (49) and the CI floor (49), so going below 49 would understate the measured signal.",
+          "related_countries": [
+            "Kazakhstan",
+            "Ukraine",
+            "Belarus",
+            "Moldova",
+            "Georgia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim3",
+              "source_id": "s20",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "A survey reported Russian individualism rising to a score of 90.25, suggesting higher individualism in some respondent samples, but this appears methodological rather than reflecting broader cultural practice.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C08",
+              "source_id": "S12",
+              "title": "Only Connect: Russia between Individualism and Collectivism",
+              "url": "https://www.wilsonquarterly.com/quarterly/the-post-obama-world/only-connect-russia-between-individualism-and-collectivism",
+              "author": "Wilson Quarterly",
+              "publication_year": 2014,
+              "excerpt": "Recent studies suggest Russians declare collectivist values more than Americans or Europeans, but research on actual behaviour (e.g. low volunteerism at 15% vs 42% in the US) shows they often do not act collectively.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C09",
+              "source_id": "S12",
+              "title": "Only Connect: Russia between Individualism and Collectivism",
+              "url": "https://www.wilsonquarterly.com/quarterly/the-post-obama-world/only-connect-russia-between-individualism-and-collectivism",
+              "author": "Wilson Quarterly",
+              "publication_year": 2014,
+              "excerpt": "Russian immigrants in American corporations exhibited Russian-style individualism, self-confidence, and a lack of desire to share resources — despite declared Soviet collectivist values.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 38,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.715,
+          "top_supporting_arguments": [
+            "Despite norms that restrain overt emotional displays in public, Russians are quite openly expressive and fun-loving as they become acquainted with co-workers and friends — showing context-dependent expressiveness.",
+            "Outdoors, in parks, and at parties, emotional expression is welcomed in Russia; among friends — if the hosts are relaxed — warmth and openness are natural, showing private expressiveness once trust is established.",
+            "A study of Russian workplace communication identifies 'emotionality' and 'straightforwardness' as typical features — suggesting that within trusted contexts, emotional expression is not suppressed."
+          ],
+          "top_counter_arguments": [
+            "In Russia, suppression of emotional expression is a typical emotional regulation strategy and does not trigger sympathetic activation, indicating cultural restraint in expression.",
+            "Horizontal collectivism in Russia is associated with authentic emotional expression, suggesting a nuanced pattern but overall moderated emotional openness compared to individualist contexts.",
+            "Russia's Hofstede Indulgence score is 20 — very low — reflecting a restrained culture where life is perceived as serious, leisure is not prioritised, and social norms tightly regulate behaviour."
+          ],
+          "why_this_score": "Russia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~12), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (39) and the CI ceiling (39), so pushing past 38 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (37), so going below 38 would understate the measured signal.",
+          "related_countries": [
+            "Kazakhstan",
+            "Ukraine",
+            "Belarus",
+            "Moldova",
+            "Georgia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C17",
+              "source_id": "S16",
+              "title": "Indulgence Versus Restraint: Exploration of A New Cultural Dimension in Context",
+              "url": "https://www.researchgate.net/publication/363147174_Indulgence_Versus_Restraint_Exploration_of_A_New_Cultural_Dimension_in_Context",
+              "author": "ResearchGate",
+              "publication_year": 2022,
+              "excerpt": "Despite norms that restrain overt emotional displays in public, Russians are quite openly expressive and fun-loving as they become acquainted with co-workers and friends — showing context-dependent expressiveness.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S18",
+              "title": "Russian Cultural Norm: A Guide to Successful Communication",
+              "url": "https://spb.hse.ru/soc/illuminated/news/1065092110.html",
+              "author": "HSE St. Petersburg",
+              "publication_year": 2025,
+              "excerpt": "Outdoors, in parks, and at parties, emotional expression is welcomed in Russia; among friends — if the hosts are relaxed — warmth and openness are natural, showing private expressiveness once trust is established.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S20",
+              "title": "Russian cultural values and workplace communication styles",
+              "url": "https://www.researchgate.net/publication/251523195_Russian_cultural_values_and_workplace_communication_styles",
+              "author": "Leontovich",
+              "publication_year": 2003,
+              "excerpt": "A study of Russian workplace communication identifies 'emotionality' and 'straightforwardness' as typical features — suggesting that within trusted contexts, emotional expression is not suppressed.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 81,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.868,
+          "top_supporting_arguments": [
+            "Hofstede’s Uncertainty Avoidance for Russia is extremely high (95), alongside high Power Distance (93), indicating a strong cultural need for rules, order, and predictability.",
+            "Russia's Uncertainty Avoidance score is 95 — near the top of the global range — producing a culture that craves rules and structure to manage ambiguity, manifesting as the famous Russian bureaucracy: elaborate, layered, and deeply resistant to shortcuts.",
+            "Russia's high Uncertainty Avoidance score indicates formal communication style, thorough planning, detailed preparation, and extensive bureaucracy as dominant workplace norms."
+          ],
+          "top_counter_arguments": [
+            "Indicating scepticism of overriding authority or excessive bureaucracy can give a Russian interlocutor the impression that you are honest and critically minded — suggesting informal workarounds to rigid structure are socially accepted.",
+            "Younger Russians are often much more willing to break from protocol and try things in a new way — indicating generational moderation of extreme Structure norms in urban settings.",
+            "Widespread rule-breaking through blat and corruption suggests that formal rules are often ignored, which could be interpreted as low structure; however, this reflects a dual system where informal rules are equally binding."
+          ],
+          "why_this_score": "Russia sits at 81 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (79) and the CI ceiling (81), so pushing past 81 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (77) and the CI floor (76), so going below 81 would understate the measured signal.",
+          "related_countries": [
+            "Kazakhstan",
+            "Ukraine",
+            "Belarus",
+            "Moldova",
+            "Georgia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim6",
+              "source_id": "s1",
+              "title": "Russia — Business Etiquette, Culture & Manners",
+              "url": "https://www.international‑etiquette.com/besite/russia.htm",
+              "author": "",
+              "publication_year": null,
+              "excerpt": "Hofstede’s Uncertainty Avoidance for Russia is extremely high (95), alongside high Power Distance (93), indicating a strong cultural need for rules, order, and predictability.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S07",
+              "title": "Russia — Business Etiquette, Culture & Manners | Cyborlink",
+              "url": "https://www.cyborlink.com/besite/russia.htm",
+              "author": "Cyborlink",
+              "publication_year": 2024,
+              "excerpt": "Russia's Uncertainty Avoidance score is 95 — near the top of the global range — producing a culture that craves rules and structure to manage ambiguity, manifesting as the famous Russian bureaucracy: elaborate, layered, and deeply resistant to shortcuts.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C21",
+              "source_id": "S05",
+              "title": "Hofstede Cultural Dimensions Model – A Tool For Exporters in Russia",
+              "url": "https://www.incultures.fi/blog/hofstede-cultural-dimensions-model-russia/",
+              "author": "Incultures.fi",
+              "publication_year": 2021,
+              "excerpt": "Russia's high Uncertainty Avoidance score indicates formal communication style, thorough planning, detailed preparation, and extensive bureaucracy as dominant workplace norms.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 52,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.554,
+          "top_supporting_arguments": [
+            "Russian students studying in Russia scored highest on Masculinity across the three-group study — suggesting that in applied survey settings, performance and achievement orientation is salient for Russians.",
+            "The younger generation that came of age during perestroika had the highest scores in masculinity and lowest in paternalism — indicating a post-Soviet cohort with stronger achievement and Drive orientation.",
+            "Despite the MAS score, Russian society places high value on achievement in education, career, and status display; the word 'успех' (success) is a central life goal, especially in urban areas."
+          ],
+          "top_counter_arguments": [
+            "Hofstede’s Masculinity score for Russia is low (36), indicating a relatively feminine culture that values relationships and quality of life over competition and performance.",
+            "Russia's Masculinity score of 36 is relatively low compared to masculine societies that prioritise competition and success; status symbols reflect hierarchical position (Power Distance) rather than competitive achievement.",
+            "Russia scores MAS=36 — a Feminine society in Hofstede's measure — where modesty about personal accomplishments is valued and openly boasting is poorly received."
+          ],
+          "why_this_score": "Russia sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (53) and the CI ceiling (55), so pushing past 52 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (52) and the CI floor (52), so going below 52 would understate the measured signal.",
+          "related_countries": [
+            "Kazakhstan",
+            "Ukraine",
+            "Belarus",
+            "Moldova",
+            "Georgia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C31",
+              "source_id": "S04",
+              "title": "An Empirical Investigation of the Malleability of Hofstede's Cultural Dimensions: The Case of the United States and Russia",
+              "url": "https://www.researchgate.net/publication/233457357_An_Empirical_Investigation_of_the_Malleability_of_Hofstede's_Cultural_Dimensions_The_Case_of_the_United_States_and_Russia",
+              "author": "Girlando, A.P. & Eduljee, N.B.",
+              "publication_year": 2010,
+              "excerpt": "Russian students studying in Russia scored highest on Masculinity across the three-group study — suggesting that in applied survey settings, performance and achievement orientation is salient for Russians.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C32",
+              "source_id": "S01",
+              "title": "Measuring Russian Culture using Hofstede's Dimensions",
+              "url": "https://www.researchgate.net/publication/229930026_Measuring_Russian_Culture_using_Hofstede's_Dimensions",
+              "author": "Naumov & Puffer et al.",
+              "publication_year": 2001,
+              "excerpt": "The younger generation that came of age during perestroika had the highest scores in masculinity and lowest in paternalism — indicating a post-Soviet cohort with stronger achievement and Drive orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c15",
+              "source_id": "s10",
+              "title": "Russia and the West: A Comparison of Cultural Values",
+              "url": "https://www.jstor.org/stable/26972524",
+              "author": "Yuri Latov",
+              "publication_year": 2018,
+              "excerpt": "Despite the MAS score, Russian society places high value on achievement in education, career, and status display; the word 'успех' (success) is a central life goal, especially in urban areas.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

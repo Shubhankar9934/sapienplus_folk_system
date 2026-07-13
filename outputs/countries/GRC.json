@@ -1,0 +1,2360 @@
+{
+  "iso3": "GRC",
+  "country": "Greece",
+  "region": "Southern Europe",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T11:07:24.910595+00:00",
+  "cultural_profile": {
+    "iso3": "GRC",
+    "country": "Greece",
+    "region": "Southern Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 56,
+        "reading": "Balanced",
+        "explanation": "Greece is a collectivist society with strong family ties and group loyalty."
+      },
+      {
+        "dimension": "D2",
+        "score": 58,
+        "reading": "Expressive",
+        "explanation": "Greek communication is characterized by emotional expressiveness and directness, with low hierarchical inhibition."
+      },
+      {
+        "dimension": "D3",
+        "score": 82,
+        "reading": "Highly structured",
+        "explanation": "Greece has a strong preference for rules and predictability, with a low tolerance for ambiguity."
+      },
+      {
+        "dimension": "D4",
+        "score": 82,
+        "reading": "Strongly achievement-oriented",
+        "explanation": "Greece has a moderate emphasis on achievement and performance, balanced by a strong focus on relationships."
+      }
+    ],
+    "executive_summary": "In Greece, life revolves around strong family ties and social networks, where personal relationships often drive both daily life and business. Greeks are known for their expressive communication style, which is direct and energetic, yet they place a high value on maintaining harmony. The culture is deeply rooted in tradition, with a strong preference for stability and predictability, yet younger generations are increasingly embracing individualistic values.",
+    "cultural_archetype": {
+      "title": "The Loyal Networker",
+      "summary": "A society where personal connections and family loyalty underpin both social and professional life.",
+      "claim_ids": [
+        "claim1",
+        "C03",
+        "C05"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Relationship-oriented professionals",
+      "Those valuing family and social ties",
+      "People comfortable with expressive communication"
+    ],
+    "culture_at_a_glance": [
+      "Greece’s Uncertainty Avoidance Index is extremely high (~112), reflecting strong cultural need for rules, predictability, low tolerance of ambiguity.",
+      "Greek communication is characterized by emotional expressiveness, loudness, and directness in both public and private settings, with low hierarchical inhibition.",
+      "In Greece, personal relationships within a close circle of family and friends drive day-to-day life, and people routinely call upon a 'meso' (intermediary/connection) to help accomplish things, reflecting a collectivist society.",
+      "In Greece, people are integrated from birth into a strong, cohesive in-group — especially the extended family — which protects its members in exchange for loyalty.",
+      "Greece is a collectivist society with strong loyalty to familial and social groups; personal relationships within a close circle of family and friends drive day-to-day life.",
+      "Greek bureaucracy is notoriously inefficient, with rules often bypassed through personal connections (meson), leading to a fluid application of rules."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Structured Stability",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 0,
+          "framework_agreement": 45,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Low",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is mixed, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Greece’s Uncertainty Avoidance Index is extremely high (~112), reflecting strong cultural need for rules, predictability, low tolerance of ambiguity.",
+            "claim_ids": [
+              "claim4",
+              "C16"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Greece's turbulent history has contributed to its high uncertainty avoidance, as stability and predictability became culturally valued.",
+            "claim_ids": [
+              "C17"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "The Power of Connection",
+        "confidence": {
+          "evidence_strength": 51,
+          "expert_agreement": 0,
+          "framework_agreement": 66,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "In Greece, personal relationships within a close circle of family and friends drive day-to-day life, and people routinely call upon a 'meso' (intermediary/connection) to help accomplish things, reflecting a collectivist society.",
+            "claim_ids": [
+              "C03",
+              "C04"
+            ],
+            "sources_count": 1
+          },
+          {
+            "text": "In Greece, people are integrated from birth into a strong, cohesive in-group — especially the extended family — which protects its members in exchange for loyalty.",
+            "claim_ids": [
+              "C05"
+            ],
+            "sources_count": 1
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The collectivist nature of Greek society has roots in its historical emphasis on family and community as central social units.",
+            "claim_ids": [
+              "C02"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Expressive Communication",
+        "confidence": {
+          "evidence_strength": 47,
+          "expert_agreement": 84,
+          "framework_agreement": 66,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is limited and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Greek communication is characterized by emotional expressiveness, loudness, and directness in both public and private settings, with low hierarchical inhibition.",
+            "claim_ids": [
+              "C10",
+              "c3"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Greece's collectivist culture is deeply rooted in its historical emphasis on family and community as central social units.",
+        "claim_ids": [
+          "C02"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The country's turbulent history has contributed to its high uncertainty avoidance, as stability and predictability became culturally valued.",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collectivist Traditions",
+        "but_also": "Individualistic Shifts",
+        "explanation": "While Greece remains a collectivist society, there is a noticeable shift towards individualism among younger generations, particularly in urban areas.",
+        "claim_ids": [
+          "claim3",
+          "C08"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Greece is a collectivist society with strong loyalty to familial and social groups; personal relationships within a close circle of family and friends drive day-to-day life.",
+          "claim_ids": [
+            "C03"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Greek bureaucracy is notoriously inefficient, with rules often bypassed through personal connections (meson), leading to a fluid application of rules.",
+          "claim_ids": [
+            "c5"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Greek workplace culture places strong emphasis on open communication and personal relationships; employees are encouraged to contribute ideas and collaborate openly across teams.",
+          "claim_ids": [
+            "C12"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "In traditional Greek business settings, formal attire and titles/surnames are expected until a personal relationship forms, indicating that hierarchy introduces some situational restraint on full emotional openness with strangers.",
+          "claim_ids": [
+            "C14"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Greek communication is described as expressive, energetic, personal, and discussion-led; people use direct eye contact, strong opinions, animated gestures, overlapping speech, and lively debate.",
+          "claim_ids": [
+            "C10"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Despite openness, Greeks maintain formal distance with strangers initially, showing a restrained layer in new social encounters.",
+          "claim_ids": [
+            "c4"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "In Greece, people are integrated from birth into a strong, cohesive in-group — especially the extended family — which protects its members in exchange for loyalty.",
+          "claim_ids": [
+            "C05"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Greeks generally do not like admitting mistakes in professional settings and will become evasive or silent if pressured, suggesting that emotional expression is partially suppressed around face-protection and honour norms.",
+          "claim_ids": [
+            "C15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In Greece, honour and reputation play an important role in professional settings; status is signalled through the significant and prosperous people one knows — a social achievement dimension.",
+          "claim_ids": [
+            "C27"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Greece is deeply intertwined with personal relationships and social networks, where family and friends play a central role in daily activities. The expressive nature of Greek communication adds vibrancy to interactions, although maintaining harmony is key, especially in professional settings. While tradition and stability are valued, younger generations are slowly embracing more individualistic values, creating a dynamic cultural landscape.",
+      "claim_ids": [
+        "C03",
+        "C10",
+        "C15",
+        "C08"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The strong emphasis on family and social connections is immediately noticeable, with personal relationships often driving interactions.",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Greek communication is lively and expressive, characterized by direct eye contact and animated gestures.",
+        "claim_ids": [
+          "C10"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "There is a noticeable preference for maintaining harmony and avoiding public shaming in professional settings.",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The importance of honour and reputation is evident, with status often signalled through influential contacts.",
+        "claim_ids": [
+          "C27"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Building and maintaining strong personal networks is crucial for success, as the meso system of intermediaries is widely used to achieve both personal and professional goals.",
+        "claim_ids": [
+          "C04"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Expressive and direct communication can facilitate clearer understanding and stronger relationships, which are vital in Greek society.",
+        "claim_ids": [
+          "C10"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect the importance of personal relationships and social networks can hinder both personal and professional progress.",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Pressuring individuals to admit mistakes publicly can damage relationships and lead to evasive behaviour, as face-saving is a cultural norm.",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Open",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Broad",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C12"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Arpa cola",
+        "meaning": "A tendency toward improvised, last-minute action in the workplace, where tasks may accelerate only near the deadline.",
+        "claim_ids": [
+          "C22"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More collectivist",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C08",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals often embrace more individualistic and direct communication styles, while rural communities maintain traditional collectivist values.",
+        "claim_ids": [
+          "C08",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "ITA",
+        "country": "Italy",
+        "similarity": 91,
+        "explanation": "Greece and Italy share a Mediterranean lifestyle characterized by strong family ties, expressive communication, and a blend of tradition and modernity.",
+        "claim_ids": [
+          "C03",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "PRT",
+        "country": "Portugal",
+        "similarity": 86,
+        "explanation": "Both Greece and Portugal emphasize family and social networks, with a shared cultural appreciation for expressive communication and hospitality.",
+        "claim_ids": [
+          "C03",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "CYP",
+        "country": "Cyprus",
+        "similarity": 79,
+        "explanation": "Greece and Cyprus share cultural similarities in their collectivist values, strong family ties, and expressive communication styles.",
+        "claim_ids": [
+          "C03",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MLT",
+        "country": "Malta",
+        "similarity": 79,
+        "explanation": "Both Greece and Malta have a Mediterranean culture that values family, social networks, and expressive communication.",
+        "claim_ids": [
+          "C03",
+          "C10"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinctive Collectivism",
+        "explanation": "Greece's unique blend of collectivist values and expressive communication sets it apart from its Mediterranean neighbours.",
+        "claim_ids": [
+          "C03",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Cultural Stability",
+        "explanation": "Greece's high uncertainty avoidance and emphasis on stability and predictability differentiate it from countries with more fluid cultural norms.",
+        "claim_ids": [
+          "C16",
+          "C19"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More achievement-oriented than Spain",
+        "dimension": "D4",
+        "neighbour_iso3": "ESP",
+        "delta": 38
+      },
+      {
+        "text": "More achievement-oriented than Malta",
+        "dimension": "D4",
+        "neighbour_iso3": "MLT",
+        "delta": 36
+      },
+      {
+        "text": "More achievement-oriented than Cyprus",
+        "dimension": "D4",
+        "neighbour_iso3": "CYP",
+        "delta": 26
+      },
+      {
+        "text": "More structured than Cyprus",
+        "dimension": "D3",
+        "neighbour_iso3": "CYP",
+        "delta": 25
+      },
+      {
+        "text": "More achievement-oriented than Portugal",
+        "dimension": "D4",
+        "neighbour_iso3": "PRT",
+        "delta": 19
+      },
+      {
+        "text": "More reserved than Portugal",
+        "dimension": "D2",
+        "neighbour_iso3": "PRT",
+        "delta": -18
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Starting from Hofstede’s Individualism score for Greece of 35 (on 0–100, where lower = collectivist) suggests a collectivist orientation, indicating low Identity (i.e. social‐identity focus) (~25). Ethnographic critique: Doumanis’s study ‘Mothering in Greece: From Collectivism to Individualism’ signals some movement but is dated (1986), insufficient to shift the strong baseline. Thus the score remains low, with minor upward minor adjustment if current trends show individualist shifts, but evidence too thin.",
+          "suggested_score": 25
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Greece's Hofstede Individualism score of 35 is the primary anchor: it firmly places Greece in the collectivist half of the spectrum. Multiple independent sources corroborate the same pattern — identity is constructed through extended family, in-group loyalty, and long-term social networks rather than through personal achievement or autonomous self-definition. The 'meso' (intermediary/connection) system is a concrete institutional expression of this: accomplishing tasks depends on who you know in your social web, not on individual initiative alone. The OCAI research on Greek organisations further shows that both public and private sectors aspire to 'clan culture' — explicitly group-relational rather than achievement-individualist. A peer-reviewed study (Georgas 1989) does note an urban/generational drift toward nuclear-family individualism in Athens, and a later dyadic well-being study (Kafetsios et al.) confirms the collectivist baseline while noting within-group variance; these serve as a mild upward nudge but do not flip the direction. Score of 22 reflects: strong collectivism well below midpoint, with a small nudge upward for documented urban modernisation pressure.",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Greece scores moderately high on Hofstede Individualism (IDV~35, i.e. collectivist) but this is shaped by strong family bonds. In modern urban contexts, especially among younger generations, individual autonomy and personal career goals are increasingly valued, shifting identity toward the self. The baseline measure (IDV 35) is moderate collectivism; contemporary trends nudge it up but not to individualist extremes.",
+          "suggested_score": 80
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "High Uncertainty Avoidance score (~100–112) indicates strong cultural preference for predictability, rules, formal procedures—typical high‑Structure traits. Multiple sources confirm this as standout dimension for Greece; no substantial counter‑evidence found.",
+          "suggested_score": 85
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Greece holds the highest Uncertainty Avoidance Index score in Hofstede's dataset at 112 (some sources report it as 100 on a normalised 0–100 scale, others retain the raw 112). Either way, Greece is the global extreme on this dimension — the anchor is extraordinarily strong. Multiple independent institutional and academic sources confirm: preference for strict rules, detailed contracts, reliance on firm procedures to create psychological security, stress linked to ambiguity, and a turbulent history reinforcing security-seeking. An NCBI/PMC peer-reviewed study on Greek organisational culture further corroborates that the public sector is dominated by 'hierarchy culture', directly consistent with high D3. The sole documented counter-signal is the 'arpa cola' tendency toward improvised last-minute action — a well-attested Greek workplace pattern that looks superficially fluid. However, this is better read as deadline-avoidance within a high-anxiety culture (consistent with UAI 112: risk of uncertainty generates avoidance behaviour, not comfort with ambiguity). Many Greek professionals in international firms are described as highly organised — confirming arpa cola is a sub-cultural exception, not a population baseline. Score 88 reflects the near-maximal Certain anchor, with a modest downward nudge for documented improvisation behaviour.",
+          "suggested_score": 88
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Greece exhibits low Uncertainty Avoidance (UAI 100 in Hofstede but with large exception: the public sector/state is chaotic). The strong preference for rules coexists with high tolerance for ambiguity in daily life (e.g. flexible time, bureaucracy bypassed via personal connections). Hence the score is low, reflecting fluid everyday structure despite high UAI.",
+          "suggested_score": 30
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede Masculinity score (approx. 57) indicates moderately high emphasis on achievement, performance orientation. This supports a somewhat striving orientation in Drive; ethnographic accounts of status via success (e.g. referencing prominent people) align. No counter evidence suggesting a low‑Drive culture.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Greece's Hofstede Masculinity score of 57 sits moderately above the midpoint — the anchor places Greece in the Striving half but well away from the extremes. Supporting evidence for Drive includes: success-orientation described as a cultural value, status displayed through social connections and name-dropping of influential people, family achievement carrying group honour, and hard work being a source of pride. These are genuine achievement-orientation signals. However, strong counter-evidence pushes the score back toward centre: maintaining harmonious relationships is explicitly described as more important than meeting deadlines; disagreement is managed very carefully to protect face/reputation (filotimo and honour dynamics); and the OCAI research shows both sectors prefer 'clan culture' — which is relationship-harmony oriented, not pure-performance oriented. The peer-reviewed organisational culture study notes that relationship maintenance can override task completion. This combination — moderate institutional Masculinity alongside strong relational and harmony values — is best captured at a moderate Striving score just above mid. Score 58 reflects the moderate MAS anchor (57) with minimal adjustment: the striving and harmony signals roughly balance, keeping the score close to the Hofstede baseline.",
+          "suggested_score": 58
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Greece is moderately Accepting: work-life balance and enjoyment of life (philotimo, philoxenia) are strong, while economic pressures create a pragmatic striving. Hofstede Masculinity is 57 (moderate) but the cultural emphasis on relationships tempers pure achievement orientation.",
+          "suggested_score": 45
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Evidence consistently characterises Greek communication as expressive, animated, and emotionally free: direct eye contact, gestures, overlapping speech, lively debate, and a culturally sanctioned norm of displaying emotion openly — all point toward the Open end of D2. The Hofstede Insights own commentary on Greece explicitly notes Greeks are known for emotional display via body language and facial expressions. This is structurally enabled: unlike East Asian high-context cultures where hierarchical suppression of emotion is strong, Greek hierarchy coexists with emotional expressiveness (hierarchy is a D3/D1 signal, not a suppressor of D2 here). The counter is that Greek hierarchy (PDI 60) introduces some restraint in formal settings — subordinates wait their turn in meetings and formal address is used until rapport is established — which is a mild downward nudge from a theoretical maximum. Score 78 reflects clearly Open culture with mild formal-context restraint.",
+          "suggested_score": 78
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Greek communication is emotionally open, with high expressiveness in public and private. Criticism may be direct but is not suppressed by hierarchy; there is low power distance (Hofstede PDI 60) which allows free emotional expression. However, formality with strangers tempers openness in initial encounters.",
+          "suggested_score": 70
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C02",
+      "source_id": "S02",
+      "title": "Taking it like a Greek: How national culture informs your organisation's response to crisis",
+      "url": "https://achieveperformance.gr/taking-it-like-a-greek-how-national-culture-informs-your-organisations-response-to-crisis/",
+      "author": "Achieve Performance",
+      "publication_year": 2020,
+      "excerpt": "Greece is a collectivist culture in which dependence on and loyalty to a peer system tends to be more important than individual achievement and success; the social unit closest to Greeks is their extended family.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S18",
+      "title": "Greek Culture – Core Concepts (Cultural Atlas, SBS)",
+      "url": "https://culturalatlas.sbs.com.au/greek-culture/greek-culture-core-concepts",
+      "author": "SBS Cultural Atlas",
+      "publication_year": 2023,
+      "excerpt": "Greece is a collectivist society with strong loyalty to familial and social groups; personal relationships within a close circle of family and friends drive day-to-day life, and people routinely call upon a 'meso' (intermediary/connection) to help accomplish things.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S18",
+      "title": "Greek Culture – Core Concepts (Cultural Atlas, SBS)",
+      "url": "https://culturalatlas.sbs.com.au/greek-culture/greek-culture-core-concepts",
+      "author": "SBS Cultural Atlas",
+      "publication_year": 2023,
+      "excerpt": "The meso (intermediary/connection) system is widely used in Greece: it is common to call on social contacts to act as go-betweens to accomplish personal and professional goals, reflecting identity embedded in social networks.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S03",
+      "title": "HOFSTEDE'S CULTURAL DIMENSIONS APPLIED TO GREECE",
+      "url": "https://www.researchgate.net/publication/355889619_HOFSTEDE'S_CULTURAL_DIMENSIONS_APPLIED_TO_GREECE",
+      "author": "ResearchGate contributors",
+      "publication_year": 2020,
+      "excerpt": "In Greece, people are integrated from birth into a strong, cohesive in-group — especially the extended family — which protects its members in exchange for loyalty; the relationship comes first rather than task fulfilment.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S17",
+      "title": "Changing Family Values in Greece (Journal of Cross-Cultural Psychology)",
+      "url": "https://journals.sagepub.com/doi/10.1177/0022022189201005",
+      "author": "James Georgas",
+      "publication_year": 1989,
+      "excerpt": "Georgas (1989, Journal of Cross-Cultural Psychology) documents a shift in Greek family values from collectivist toward individualist, linked to urbanisation and transition from extended to nuclear family — particularly visible in Athens versus rural communities.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S11",
+      "title": "Greek Business Culture Guide: Doing Business In Greece (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/greece-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Younger Greek professionals tend to be more comfortable with direct international business communication and digital norms, suggesting a generational drift toward more individually-oriented professional identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S11",
+      "title": "Greek Business Culture Guide: Doing Business In Greece (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/greece-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Greek communication is described as expressive, energetic, personal, and discussion-led; people use direct eye contact, strong opinions, animated gestures, overlapping speech, and lively debate.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S09",
+      "title": "Greece Culture & Holidays – Employer Guide (Safeguard Global)",
+      "url": "https://www.safeguardglobal.com/country/greece/culture/",
+      "author": "Safeguard Global",
+      "publication_year": 2025,
+      "excerpt": "Greek workplace culture places strong emphasis on open communication and personal relationships; employees are encouraged to contribute ideas and collaborate openly across teams.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S13",
+      "title": "Greek Work Culture: Everything You Need to Know (Medium/Lauren Seberos)",
+      "url": "https://medium.com/@lauren_64337/greek-work-culture-everything-you-need-to-know-about-working-in-greece-b8b94f8313bf",
+      "author": "Lauren Seberos",
+      "publication_year": 2023,
+      "excerpt": "In traditional Greek business settings, formal attire and titles/surnames are expected until a personal relationship forms, indicating that hierarchy introduces some situational restraint on full emotional openness with strangers.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S12",
+      "title": "Managing In Greece – Management Style & Workplace Culture (Commisceo Global)",
+      "url": "https://commisceo-global.com/management-guides/greece-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Greeks generally do not like admitting mistakes in professional settings and will become evasive or silent if pressured, suggesting that emotional expression is partially suppressed around face-protection and honour norms.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S04",
+      "title": "Results of Hofstede's study for the Greek Culture (ResearchGate scientific diagram)",
+      "url": "https://www.researchgate.net/figure/Results-of-Hofstede-s-study-for-the-Greek-Culture-3_fig2_284726411",
+      "author": "ResearchGate",
+      "publication_year": 2016,
+      "excerpt": "Hofstede's study assigns Greece the highest Uncertainty Avoidance Index score in the dataset at 112, meaning Greeks have an extremely low tolerance for ambiguous or unknown situations.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S02",
+      "title": "Taking it like a Greek: How national culture informs your organisation's response to crisis",
+      "url": "https://achieveperformance.gr/taking-it-like-a-greek-how-national-culture-informs-your-organisations-response-to-crisis/",
+      "author": "Achieve Performance",
+      "publication_year": 2020,
+      "excerpt": "Greece scores 100/100 on Uncertainty Avoidance (normalised scale); a sense of security and stability are very important to the Greek psyche, shaped by the nation's turbulent history.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S20",
+      "title": "Hofstede's Cultural Dimensions Theory (Simply Psychology)",
+      "url": "https://www.simplypsychology.org/hofstedes-cultural-dimensions-theory.html",
+      "author": "Simply Psychology",
+      "publication_year": 2025,
+      "excerpt": "In high uncertainty-avoidance countries like Greece, businesses invest significant time in creating detailed contracts and protocols before taking action; strong social expectations around etiquette and behaviour reinforce predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S11",
+      "title": "Greek Business Culture Guide: Doing Business In Greece (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/greece-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "The term 'arpa cola' describes a Greek workplace tendency toward improvised, last-stage action — tasks may accelerate only near the deadline and plans may change late in the process, suggesting a tolerance for fluid execution.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S05",
+      "title": "Hellenic Cultural Identity – Hofstede Study",
+      "url": "https://www.georgiostergiou.com/post/hellenic-cultural-identity-hofstede-study",
+      "author": "Georgios Stergiou",
+      "publication_year": 2021,
+      "excerpt": "In Greece, honour and reputation play an important role in professional settings; status is signalled through the significant and prosperous people one knows — a social achievement dimension.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "Communication Styles in Greece: Expressiveness and Directness",
+      "url": "https://www.culturalsavvy.com/greek-communication-style/",
+      "author": "Cultural Savvy",
+      "publication_year": 2020,
+      "excerpt": "Greek communication is characterized by emotional expressiveness, loudness, and directness in both public and private settings, with low hierarchical inhibition.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s4",
+      "title": "Greek Hospitality: Philoxenia as a Core Value",
+      "url": "https://www.greece-is.com/philoxenia-the-ancient-greek-art-of-hospitality/",
+      "author": "Kouremenos, A.",
+      "publication_year": 2019,
+      "excerpt": "Despite openness, Greeks maintain formal distance with strangers initially, showing a restrained layer in new social encounters.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s5",
+      "title": "Bureaucracy and Personal Connections in Greece",
+      "url": "https://www.bbc.com/news/world-europe-11353567",
+      "author": "BBC News",
+      "publication_year": 2010,
+      "excerpt": "Greek bureaucracy is notoriously inefficient, with rules often bypassed through personal connections (meson), leading to a fluid application of rules.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim1",
+      "source_id": "turn1search11",
+      "title": "Hofstede’s cultural values for Greece",
+      "url": "",
+      "author": "",
+      "publication_year": null,
+      "excerpt": "Greece has a low Individualism score of 35 (on Hofstede’s scale), indicating a collectivist society.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim3",
+      "source_id": "turn0search9",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Doumanis (1986) ethnographic article titled ‘Mothering in Greece: From Collectivism to Individualism’ suggests some cultural shift toward individualism since the 1980s.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim4",
+      "source_id": "turn1search1",
+      "title": "Uncertainty Avoidance Index Greece 112",
+      "url": "",
+      "author": "Clearly Cultural",
+      "publication_year": null,
+      "excerpt": "Greece’s Uncertainty Avoidance Index is extremely high (~112), reflecting strong cultural need for rules, predictability, low tolerance of ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 56,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 58,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 82,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 82,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 56.25699674,
+      "D2": 57.19068864,
+      "D3": 83.96585606,
+      "D4": 84.39165959
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 55.44246859,
+        "hi": 57.07152488
+      },
+      "D2": {
+        "lo": 55.73147737,
+        "hi": 58.64989991
+      },
+      "D3": {
+        "lo": 81.00225974,
+        "hi": 86.92945238
+      },
+      "D4": {
+        "lo": 81.86719695,
+        "hi": 86.91612223
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "GRC",
+        "dimension": "D2",
+        "baseline": 57.19068864,
+        "final": 58.0,
+        "direction": "up",
+        "magnitude": 0.81,
+        "reason": "Expression adjusted from baseline 57.2 to 58 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.54 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 58 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "GRC",
+        "dimension": "D3",
+        "baseline": 83.96585606,
+        "final": 82.0,
+        "direction": "down",
+        "magnitude": 1.97,
+        "reason": "Structure adjusted from baseline 84.0 to 82 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.73 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 82 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "GRC",
+        "dimension": "D4",
+        "baseline": 84.39165959,
+        "final": 82.0,
+        "direction": "down",
+        "magnitude": 2.39,
+        "reason": "Drive adjusted from baseline 84.4 to 82 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 82 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 55.44,
+        "baseline": 56.25699674,
+        "framework_hi": 57.07,
+        "specialist_recommendation": 42.333,
+        "council_consensus": 56.0,
+        "integrator_recommendation": 46.89,
+        "llm_recommendation": 56.0,
+        "final": 56,
+        "available_range": 1.63,
+        "distance_from_baseline": -0.26,
+        "range_utilization": 34,
+        "clamp_adjustment": 9.11,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.56,
+        "distance_from_upper": 1.07,
+        "movement_reason": "Evidence-first placement of Identity at 56 (evidence credibility 0.72): specialist recommendation 42.333 blended with council consensus 56.0, with baseline reference 56.3 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 55.73,
+        "baseline": 57.19068864,
+        "framework_hi": 58.65,
+        "specialist_recommendation": 74.0,
+        "council_consensus": 57.0,
+        "integrator_recommendation": 65.19,
+        "llm_recommendation": 58.0,
+        "final": 58,
+        "available_range": 2.92,
+        "distance_from_baseline": 0.81,
+        "range_utilization": 78,
+        "clamp_adjustment": -7.19,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 2.27,
+        "distance_from_upper": 0.65,
+        "movement_reason": "Evidence-first placement of Expression at 58 (evidence credibility 0.54): specialist recommendation 74.0 blended with council consensus 57.0, with baseline reference 57.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 81.0,
+        "baseline": 83.96585606,
+        "framework_hi": 86.93,
+        "specialist_recommendation": 67.667,
+        "council_consensus": 84.0,
+        "integrator_recommendation": 72.88,
+        "llm_recommendation": 82.0,
+        "final": 82,
+        "available_range": 5.93,
+        "distance_from_baseline": -1.97,
+        "range_utilization": 17,
+        "clamp_adjustment": 9.12,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 1.0,
+        "distance_from_upper": 4.93,
+        "movement_reason": "Evidence-first placement of Structure at 82 (evidence credibility 0.73): specialist recommendation 67.667 blended with council consensus 84.0, with baseline reference 84.0 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 81.87,
+        "baseline": 84.39165959,
+        "framework_hi": 86.92,
+        "specialist_recommendation": 54.333,
+        "council_consensus": 82.35,
+        "integrator_recommendation": 67.53,
+        "llm_recommendation": 82.0,
+        "final": 82,
+        "available_range": 5.05,
+        "distance_from_baseline": -2.39,
+        "range_utilization": 3,
+        "clamp_adjustment": 14.47,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.13,
+        "distance_from_upper": 4.92,
+        "movement_reason": "Evidence-first placement of Drive at 82 (evidence credibility 0.60): specialist recommendation 54.333 blended with council consensus 82.35, with baseline reference 84.4 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Greece",
+        "iso3": "GRC",
+        "dimension": "D1",
+        "baseline_score": 56.25699674,
+        "final_score": 56,
+        "change_amount": -0.26,
+        "change_percent": -0.46,
+        "adjustment_type": "ROUNDING",
+        "summary": "Greece's Identity is placed at 56 (Social 3 <-> Self 97). Within the framework range [55-57], 56 sits at ~34% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C01",
+          "W_institutional_analyst_C05",
+          "W_institutional_analyst_C06"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 18.18,
+          "globe": 27.27,
+          "schwartz": 27.27,
+          "wvs": 9.09,
+          "trompenaars": 18.18
+        },
+        "statistician_reasoning": "Framework consensus of 52.08 with signal_strength=0.6097 and conflict_score=0.3428. Hofstede IDV=35 pulls collectivist, but GLOBE in-group collectivism and Schwartz autonomy scores plus WVS voice/choice push upward. The CI is extremely narrow (55.44-57.07), constraining placement tightly. Score of 56 sits just above the South Korea anchor (50) by 6 points, reflecting mild individualist lean within a relationally oriented culture. Why not lower: CI floor is 55.44; Schwartz affective/intellectual autonomy and WVS choice/voice indicators rule out sub-55 placement. Why not higher: Hofstede IDV=35 and Trompenaars communitarianism signals cap upward movement; CI ceiling is 57.07. Most decisive evidence: hofstede_individualism (IDV=35 as anchor conflict), schwartz_affective_autonomy, wvs_choice.",
+        "comparativist_reasoning": "Greece's D1 score of 56 reflects a balance between individualist and collectivist tendencies, aligning closely with Southern European peers like Spain (59) and Portugal (61.78), but higher than Cyprus (42.46). Hofstede's IDV of 35 suggests a collectivist orientation, but GLOBE and Schwartz data indicate a more nuanced identity with relational autonomy.",
+        "country_specialist_reasoning": "Greece exhibits a collectivist culture with strong familial and social group loyalty, as evidenced by Hofstede's low Individualism score and qualitative insights into Greek social structures. This places Greece above the South Korea anchor but still within a collectivist context.",
+        "skeptic_reasoning": "Adversarial check on Identity=56: resist midpoint bias and compression.",
+        "integrator_decision": "Integrator retained the baseline (56.3) for Identity.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.8244): coverage=1.0, agreement=1.0, evidence=0.647, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 56,
+          "considered_alternatives": [],
+          "why_rejected": {},
+          "why_selected": "56 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (56) and the CI ceiling (57), so pushing past 56 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (55), so going below 56 would understate the measured signal.",
+        "integrator_recommendation": 46.89,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 55",
+        "clamp_adjustment": 9.11,
+        "absolute_score_rationale": "Greece sits at 56 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Greece's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Greece's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Greece's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Greece that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Greece that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 56 means everyday life in Greece leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 56 is justified: Greece sits at 56 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (55), so going below 56 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (56) and the CI ceiling (57), so pushing past 56 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C01, W_institutional_analyst_C05, W_institutional_analyst_C06. The integrator recommendation was 46.9; the framework limit (LOWER CI 55) applied, so the final published score became 56.",
+        "executive_explanation": "Greece sits at 56 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (56) already reflected this evidence, so the council confirmed 56 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (56) and the CI ceiling (57), so pushing past 56 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (55), so going below 56 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.26 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [55-57], 56 sits at ~34% of the permitted span."
+      },
+      {
+        "country": "Greece",
+        "iso3": "GRC",
+        "dimension": "D2",
+        "baseline_score": 57.19068864,
+        "final_score": 58,
+        "change_amount": 0.81,
+        "change_percent": 1.42,
+        "adjustment_type": "ROUNDING",
+        "summary": "Greece's Expression is placed at 58 (Restrained 3 <-> Open 97). Within the framework range [56-59], 58 sits at ~78% of the permitted span.",
+        "evidence_used": [
+          "E_D2_01",
+          "W_institutional_analyst_C10",
+          "W_institutional_analyst_C14"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 11.11,
+          "globe": 33.33,
+          "schwartz": 11.11,
+          "wvs": 11.11,
+          "trompenaars": 33.33
+        },
+        "statistician_reasoning": "Framework consensus of 34.76 is low but signal_strength=0.6893 is moderate with no conflicting frameworks. Hofstede Indulgence and GLOBE Assertiveness point toward moderate-to-open expression. Greece's Mediterranean cultural profile supports animated public discourse and relatively low hierarchy-driven emotional suppression. CI range (55.73-58.65) is narrow; 57 sits near centre. Why not lower: no conflicting frameworks listed; Hofstede Indulgence and GLOBE Assertiveness both support open-side placement above Turkey anchor. Why not higher: low consensus score (34.76) and Hofstede Long-Term Orientation moderate signal prevent upper-bound placement. Most decisive evidence: hofstede_indulgence, globe_assertiveness.",
+        "comparativist_reasoning": "Greece's D2 score of 57 indicates a moderate level of openness in emotional expression, consistent with its Mediterranean cultural context. This places Greece above the Turkey anchor (50) and aligns with Italy (66.66) and Spain (71), but below Portugal (75.79). Hofstede's Indulgence and GLOBE Assertiveness support this placement.",
+        "country_specialist_reasoning": "Greece's Mediterranean culture supports open expression, with Hofstede's Indulgence and GLOBE Assertiveness indicating a tendency towards more open emotional expression compared to the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=57: resist midpoint bias and compression.",
+        "integrator_decision": "Expression adjusted from baseline 57.2 to 58 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.54 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7966): coverage=1.0, agreement=1.0, evidence=0.508, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 58,
+          "considered_alternatives": [
+            57
+          ],
+          "why_rejected": {
+            "57": "57 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "58 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (57) and the CI ceiling (59), so pushing past 58 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (57) and the CI floor (56), so going below 58 would understate the measured signal.",
+        "integrator_recommendation": 65.19,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 59",
+        "clamp_adjustment": -7.19,
+        "absolute_score_rationale": "Greece sits at 58 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Greece's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Greece's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Greece's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Greece that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Greece that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 58 means everyday life in Greece leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 58 is justified: Greece sits at 58 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (57) and the CI floor (56), so going below 58 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (57) and the CI ceiling (59), so pushing past 58 would lack evidentiary support. Strongest supporting evidence: E_D2_01, W_institutional_analyst_C10, W_institutional_analyst_C14. The integrator recommendation was 65.2; the framework limit (UPPER CI 59) applied, so the final published score became 58.",
+        "executive_explanation": "Greece sits at 58 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (57) already reflected this evidence, so the council confirmed 58 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (57) and the CI ceiling (59), so pushing past 58 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (57) and the CI floor (56), so going below 58 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.81 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [56-59], 58 sits at ~78% of the permitted span."
+      },
+      {
+        "country": "Greece",
+        "iso3": "GRC",
+        "dimension": "D3",
+        "baseline_score": 83.96585606,
+        "final_score": 82,
+        "change_amount": -1.97,
+        "change_percent": -2.35,
+        "adjustment_type": "ROUNDING",
+        "summary": "Greece's Structure is placed at 82 (Fluid 3 <-> Certain 97). Within the framework range [81-87], 82 sits at ~17% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C16",
+          "W_cultural_anthropologist_claim5",
+          "W_institutional_analyst_C20"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "wvs"
+        ],
+        "conflicting_frameworks": [
+          "schwartz",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 23.08,
+          "globe": 23.08,
+          "schwartz": 15.38,
+          "wvs": 23.08,
+          "trompenaars": 15.38
+        },
+        "statistician_reasoning": "Hofstede UAI=112 for Greece is among the highest globally, strongly anchoring high D3. GLOBE Future Orientation and WVS disbelief/scepticism also support high uncertainty avoidance. Conflict from Schwartz Harmony and Trompenaars (conflict_score=0.5529) is noted but does not override the dominant Hofstede UAI signal. CI range (81.00-86.93). Why not lower: Hofstede UAI=112 is the single most decisive anchor for D3 globally; no credible evidence places Greece below 81. Why not higher: conflict_score=0.5529 is the highest of all four dimensions, with Schwartz Harmony and Trompenaars signals pulling against the upper bound; 84 reflects this tension. Most decisive evidence: hofstede_uncertainty_avoidance, globe_future_orientation, wvs_disbelief.",
+        "comparativist_reasoning": "Greece's D3 score of 84 reflects a high need for certainty, strongly supported by Hofstede's UAI of 112, one of the highest globally. This score is consistent with regional peers like Italy (82.95) and Spain (81), indicating a cultural preference for structure and predictability.",
+        "country_specialist_reasoning": "Greece's high Uncertainty Avoidance Index from Hofstede strongly anchors it in the Certain end of the spectrum. This is supported by GLOBE's Future Orientation and WVS's scepticism indicators, despite some conflicting signals.",
+        "skeptic_reasoning": "Adversarial check on Structure=84: resist midpoint bias and compression.",
+        "integrator_decision": "Structure adjusted from baseline 84.0 to 82 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.73 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6891): coverage=1.0, agreement=1.0, evidence=0.682, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 82,
+          "considered_alternatives": [
+            84
+          ],
+          "why_rejected": {
+            "84": "84 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "82 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (84) and the CI floor (81), so going below 82 would understate the measured signal.",
+        "integrator_recommendation": 72.88,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 81",
+        "clamp_adjustment": 9.12,
+        "absolute_score_rationale": "Greece sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Greece's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Greece's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Greece's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate Greece's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Greece that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 82 means everyday life in Greece leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 82 is justified: Greece sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (84) and the CI floor (81), so going below 82 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C16, W_cultural_anthropologist_claim5, W_institutional_analyst_C20. The integrator recommendation was 72.9; the framework limit (LOWER CI 81) applied, so the final published score became 82.",
+        "executive_explanation": "Greece sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (84) already reflected this evidence, so the council confirmed 82 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (84) and the CI floor (81), so going below 82 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.97 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [81-87], 82 sits at ~17% of the permitted span."
+      },
+      {
+        "country": "Greece",
+        "iso3": "GRC",
+        "dimension": "D4",
+        "baseline_score": 84.39165959,
+        "final_score": 82,
+        "change_amount": -2.39,
+        "change_percent": -2.83,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Greece's Drive is placed at 82 (Accepting 3 <-> Striving 97). Within the framework range [82-87], 82 sits at ~3% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C24",
+          "W_institutional_analyst_C30",
+          "E_D4_04"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 10.0,
+          "globe": 30.0,
+          "schwartz": 30.0,
+          "wvs": 10.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "Framework consensus of 58.55 with signal_strength=0.6627 and low conflict_score=0.2954. GLOBE Performance Orientation and Schwartz Mastery both support high Drive. Hofstede Masculinity and Long-Term Orientation contribute additional striving signals. CI range (81.87-86.92). Why not lower: GLOBE Performance Orientation and Schwartz Mastery consistently place Greece on the high-striving side; CI floor is 81.87. Why not higher: Trompenaars ascription-achievement conflict and moderate consensus (58.55) prevent placement at the CI ceiling; 84 reflects the dominant signal without overclaiming. Most decisive evidence: globe_performance_orientation, schwartz_mastery, hofstede_masculinity.",
+        "comparativist_reasoning": "Greece's D4 score of 82 indicates a strong cultural drive and achievement orientation, aligning with Italy (72.08) and surpassing Spain (44) and Portugal (63.08). This is supported by GLOBE Performance Orientation and Hofstede's Masculinity index.",
+        "country_specialist_reasoning": "Greece demonstrates a striving culture with a strong emphasis on achievement and mastery, as indicated by GLOBE's Performance Orientation and Hofstede's Masculinity score. This places Greece well above the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Drive=82: resist midpoint bias and compression.",
+        "integrator_decision": "Drive adjusted from baseline 84.4 to 82 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6751): coverage=1.0, agreement=0.942, evidence=0.667, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 82,
+          "considered_alternatives": [
+            84
+          ],
+          "why_rejected": {
+            "84": "84 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "82 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (82) and the CI floor (82), so going below 82 would understate the measured signal.",
+        "integrator_recommendation": 67.53,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 82",
+        "clamp_adjustment": 14.47,
+        "absolute_score_rationale": "Greece sits at 82 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Greece's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Greece's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Greece's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "65": "A 65 would understate Greece's Striving tendencies; peer and framework evidence place it above 65 on Drive.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Greece that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 82 means everyday life in Greece leans toward Striving: institutions, norms and expression skew toward Striving.",
+        "final_rationale": "Why 82 is justified: Greece sits at 82 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (82) and the CI floor (82), so going below 82 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C24, W_institutional_analyst_C30, E_D4_04. The integrator recommendation was 67.5; the framework limit (LOWER CI 82) applied, so the final published score became 82.",
+        "executive_explanation": "Greece sits at 82 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (82) and the CI floor (82), so going below 82 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=2.39. Framework consensus=58.55, signal_strength=0.6627, conflict=0.2954. Within the framework range [82-87], 82 sits at ~3% of the permitted span. Confidence MEDIUM (score 0.6751): coverage=1.0, agreement=0.942, evidence=0.667, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "ITA",
+        "country": "Italy",
+        "d1": 65.59919949,
+        "d2": 66.65982967,
+        "d3": 82.95801738,
+        "d4": 72.08889222,
+        "relation": "regional"
+      },
+      {
+        "iso3": "PRT",
+        "country": "Portugal",
+        "d1": 61.78179178,
+        "d2": 75.79544589,
+        "d3": 79.80195354,
+        "d4": 63.07790991,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CYP",
+        "country": "Cyprus",
+        "d1": 42.46361884,
+        "d2": 51.40290818,
+        "d3": 57.37532167,
+        "d4": 56.38304144,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MLT",
+        "country": "Malta",
+        "d1": 57.81106683,
+        "d2": 60.58002008,
+        "d3": 64.95107964,
+        "d4": 46.47225626,
+        "relation": "regional"
+      },
+      {
+        "iso3": "ESP",
+        "country": "Spain",
+        "d1": 59.0,
+        "d2": 71.0,
+        "d3": 81.0,
+        "d4": 44.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 6.0,
+        "reason": "Greece is above the South Korea Identity anchor (50) by 6.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 8.0,
+        "reason": "Greece is above the Turkey Expression anchor (50) by 8.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 32.0,
+        "reason": "Greece is above the Turkey Drive anchor (50) by 32.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 32.0,
+        "reason": "Greece is above the Colombia Structure anchor (50) by 32.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "GRC",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=26"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D2']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D2"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 26.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D2"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Low autonomy and choice scores support collectivist D1 placement",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "GRC",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Network‐analysis‑based cultural profiling shows Greece is characterized by low individualism compared to EU average.",
+          "strongest_opposing": "Doumanis (1986) ethnographic article titled ‘Mothering in Greece: From Collectivism to Individualism’ suggests some cultural shift toward individualism since the 1980s.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2"
+          ],
+          "opposing_evidence_ids": [
+            "claim3"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.2,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 85.0,
+          "strongest_supporting": "Recent study confirms very high uncertainty avoidance in Greek culture alongside low individualism.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 93.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "claim4",
+            "claim5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Greece’s Masculinity score of ~57 suggests moderate emphasis on achievement and performance orientation.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim6"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 22.0,
+          "strongest_supporting": "Hofstede's study gives Greece a low Individualism score of 35 (IDV), placing it firmly in the collectivist category.",
+          "strongest_opposing": "Georgas (1989, Journal of Cross-Cultural Psychology) documents a shift in Greek family values from collectivist toward individualist, linked to urbanisation and transition from extended to nuclear family — particularly visible in Athens versus rural communities.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07"
+          ],
+          "opposing_evidence_ids": [
+            "C08",
+            "C09"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 78.0,
+          "strongest_supporting": "Greek communication is described as expressive, energetic, personal, and discussion-led; people use direct eye contact, strong opinions, animated gestures, overlapping speech, and lively debate.",
+          "strongest_opposing": "In traditional Greek business settings, formal attire and titles/surnames are expected until a personal relationship forms, indicating that hierarchy introduces some situational restraint on full emotional openness with strangers.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 86.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 88.0,
+          "strongest_supporting": "Hofstede's study assigns Greece the highest Uncertainty Avoidance Index score in the dataset at 112, meaning Greeks have an extremely low tolerance for ambiguous or unknown situations.",
+          "strongest_opposing": "The term 'arpa cola' describes a Greek workplace tendency toward improvised, last-stage action — tasks may accelerate only near the deadline and plans may change late in the process, suggesting a tolerance for fluid execution.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 96.0,
+          "confidence": 0.92,
+          "supporting_evidence_ids": [
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20",
+            "C21"
+          ],
+          "opposing_evidence_ids": [
+            "C22",
+            "C23"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 58.0,
+          "strongest_supporting": "Greece is a masculine society oriented toward success; in Collectivistic and Masculine cultures, the success of a family member gives social importance to the entire group, and Greeks frequently name-drop influential contacts when meeting newcomers.",
+          "strongest_opposing": "Both public and private sector Greek organisations prefer 'clan culture' as a future ideal — a relationship- and cohesion-oriented model that prioritises harmony over competition or performance.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 66.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "C24",
+            "C25",
+            "C26",
+            "C27"
+          ],
+          "opposing_evidence_ids": [
+            "C28",
+            "C29",
+            "C30"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Hofstede Individualism for Greece is 35, indicating a collectivist society with strong family ties and group loyalty.",
+          "strongest_opposing": "Younger urban Greeks increasingly prioritize personal autonomy and career ambitions, reducing traditional family collectivism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c1"
+          ],
+          "opposing_evidence_ids": [
+            "c2"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Greek communication is characterized by emotional expressiveness, loudness, and directness in both public and private settings, with low hierarchical inhibition.",
+          "strongest_opposing": "Despite openness, Greeks maintain formal distance with strangers initially, showing a restrained layer in new social encounters.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Greek bureaucracy is notoriously inefficient, with rules often bypassed through personal connections (meson), leading to a fluid application of rules.",
+          "strongest_opposing": "Hofstede Uncertainty Avoidance for Greece is 100, indicating a strong preference for formal rules and structure, yet daily life is flexible.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "GRC",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Hofstede Masculinity for Greece is 57, indicating a moderate achievement orientation, but balanced by emphasis on relationships.",
+          "strongest_opposing": "Core Greek values like philotimo (honor and social interconnectedness) and philoxenia (hospitality) prioritize relationships and quality of life over competitive achievement.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 45.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c7"
+          ],
+          "opposing_evidence_ids": [
+            "c8"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "GRC",
+          "dimension": "D1",
+          "baseline_score": 56.25699674,
+          "specialist_recommendation": 42.333,
+          "specialist_confidence": 0.7933,
+          "evidence_strength": 0.6474,
+          "evidence_quality": 0.5956,
+          "disagreement_index": 1.0,
+          "specialist_influence_weight": 0.7184,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.72 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "GRC",
+          "dimension": "D2",
+          "baseline_score": 57.19068864,
+          "specialist_recommendation": 74.0,
+          "specialist_confidence": 0.75,
+          "evidence_strength": 0.5083,
+          "evidence_quality": 0.5135,
+          "disagreement_index": 0.16,
+          "specialist_influence_weight": 0.5423,
+          "rationale": "High specialist confidence -> evidence credibility 0.54 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "GRC",
+          "dimension": "D3",
+          "baseline_score": 83.96585606,
+          "specialist_recommendation": 67.667,
+          "specialist_confidence": 0.8067,
+          "evidence_strength": 0.6824,
+          "evidence_quality": 0.6355,
+          "disagreement_index": 1.0,
+          "specialist_influence_weight": 0.7302,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.73 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "GRC",
+          "dimension": "D4",
+          "baseline_score": 84.39165959,
+          "specialist_recommendation": 54.333,
+          "specialist_confidence": 0.6833,
+          "evidence_strength": 0.6667,
+          "evidence_quality": 0.6095,
+          "disagreement_index": 0.266,
+          "specialist_influence_weight": 0.5966,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "GRC",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 58.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 58.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 58.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 58.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 55.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 55.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 55.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 55.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=62: differs by 5 from the statistician reading of 57.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=80: differs by 4 from the statistician reading of 84.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=60: differs by 24 from the statistician reading of 84.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 22.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=40: differs by 15 from the comparativist reading of 55.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 16.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=75: differs by 5 from the comparativist reading of 80.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=65: differs by 5 from the comparativist reading of 60.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=57: differs by 17 from the country_specialist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=56: differs by 4 from the country_specialist reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=84: differs by 9 from the country_specialist reading of 75.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "GRC",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=84: differs by 19 from the country_specialist reading of 65.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "GRC",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "Insufficient ethnographic evidence on emotional openness vs restraint in contemporary Greece; ancient and ritual-focused studies (e.g. lamentation rituals) don’t clearly map to everyday expressive freedom structure.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.2,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "GRC",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 2,
+          "recommendation": 85.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 1,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 9,
+          "recommendation": 22.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 6,
+          "recommendation": 78.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.92,
+          "evidence_count": 8,
+          "recommendation": 88.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 7,
+          "recommendation": 58.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "GRC",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 45.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "GRC",
+        "score_diversity": 0.2395,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7506,
+        "consensus_quality": 0.9912,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "GRC",
+      "country": "Greece",
+      "region": "Southern Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 56,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.0,
+          "top_supporting_arguments": [
+            "Doumanis (1986) ethnographic article titled ‘Mothering in Greece: From Collectivism to Individualism’ suggests some cultural shift toward individualism since the 1980s.",
+            "Georgas (1989, Journal of Cross-Cultural Psychology) documents a shift in Greek family values from collectivist toward individualist, linked to urbanisation and transition from extended to nuclear family — particularly visible in Athens versus rural communities.",
+            "Younger Greek professionals tend to be more comfortable with direct international business communication and digital norms, suggesting a generational drift toward more individually-oriented professional identity."
+          ],
+          "top_counter_arguments": [
+            "Greece has a low Individualism score of 35 (on Hofstede’s scale), indicating a collectivist society.",
+            "Network‐analysis‑based cultural profiling shows Greece is characterized by low individualism compared to EU average.",
+            "Hofstede's study gives Greece a low Individualism score of 35 (IDV), placing it firmly in the collectivist category."
+          ],
+          "why_this_score": "Greece sits at 56 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (56) and the CI ceiling (57), so pushing past 56 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (55), so going below 56 would understate the measured signal.",
+          "related_countries": [
+            "Italy",
+            "Portugal",
+            "Cyprus",
+            "Malta",
+            "Spain"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim3",
+              "source_id": "turn0search9",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Doumanis (1986) ethnographic article titled ‘Mothering in Greece: From Collectivism to Individualism’ suggests some cultural shift toward individualism since the 1980s.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C08",
+              "source_id": "S17",
+              "title": "Changing Family Values in Greece (Journal of Cross-Cultural Psychology)",
+              "url": "https://journals.sagepub.com/doi/10.1177/0022022189201005",
+              "author": "James Georgas",
+              "publication_year": 1989,
+              "excerpt": "Georgas (1989, Journal of Cross-Cultural Psychology) documents a shift in Greek family values from collectivist toward individualist, linked to urbanisation and transition from extended to nuclear family — particularly visible in Athens versus rural communities.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C09",
+              "source_id": "S11",
+              "title": "Greek Business Culture Guide: Doing Business In Greece (Commisceo Global)",
+              "url": "https://commisceo-global.com/country-guides/greece-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Younger Greek professionals tend to be more comfortable with direct international business communication and digital norms, suggesting a generational drift toward more individually-oriented professional identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 58,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.84,
+          "top_supporting_arguments": [
+            "Greek communication is described as expressive, energetic, personal, and discussion-led; people use direct eye contact, strong opinions, animated gestures, overlapping speech, and lively debate.",
+            "Greeks are known for showing a lot of emotion whether through body language or facial expressions — a culturally recognised pattern of open emotional display.",
+            "Greek workplace culture places strong emphasis on open communication and personal relationships; employees are encouraged to contribute ideas and collaborate openly across teams."
+          ],
+          "top_counter_arguments": [
+            "In traditional Greek business settings, formal attire and titles/surnames are expected until a personal relationship forms, indicating that hierarchy introduces some situational restraint on full emotional openness with strangers.",
+            "Greeks generally do not like admitting mistakes in professional settings and will become evasive or silent if pressured, suggesting that emotional expression is partially suppressed around face-protection and honour norms.",
+            "Despite openness, Greeks maintain formal distance with strangers initially, showing a restrained layer in new social encounters."
+          ],
+          "why_this_score": "Greece sits at 58 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (57) and the CI ceiling (59), so pushing past 58 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (57) and the CI floor (56), so going below 58 would understate the measured signal.",
+          "related_countries": [
+            "Italy",
+            "Portugal",
+            "Cyprus",
+            "Malta",
+            "Spain"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C10",
+              "source_id": "S11",
+              "title": "Greek Business Culture Guide: Doing Business In Greece (Commisceo Global)",
+              "url": "https://commisceo-global.com/country-guides/greece-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Greek communication is described as expressive, energetic, personal, and discussion-led; people use direct eye contact, strong opinions, animated gestures, overlapping speech, and lively debate.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S07",
+              "title": "Hofstede's Values – καλωσόρισμα (Hannah Brauer)",
+              "url": "https://hannahbrauer.wordpress.com/hofstedes-values/",
+              "author": "Hannah Brauer",
+              "publication_year": 2013,
+              "excerpt": "Greeks are known for showing a lot of emotion whether through body language or facial expressions — a culturally recognised pattern of open emotional display.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C12",
+              "source_id": "S09",
+              "title": "Greece Culture & Holidays – Employer Guide (Safeguard Global)",
+              "url": "https://www.safeguardglobal.com/country/greece/culture/",
+              "author": "Safeguard Global",
+              "publication_year": 2025,
+              "excerpt": "Greek workplace culture places strong emphasis on open communication and personal relationships; employees are encouraged to contribute ideas and collaborate openly across teams.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 82,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.0,
+          "top_supporting_arguments": [
+            "Greece’s Uncertainty Avoidance Index is extremely high (~112), reflecting strong cultural need for rules, predictability, low tolerance of ambiguity.",
+            "Recent study confirms very high uncertainty avoidance in Greek culture alongside low individualism.",
+            "Hofstede's study assigns Greece the highest Uncertainty Avoidance Index score in the dataset at 112, meaning Greeks have an extremely low tolerance for ambiguous or unknown situations."
+          ],
+          "top_counter_arguments": [
+            "The term 'arpa cola' describes a Greek workplace tendency toward improvised, last-stage action — tasks may accelerate only near the deadline and plans may change late in the process, suggesting a tolerance for fluid execution.",
+            "Many Greek professionals in international firms are described as highly organised and deadline-focused, indicating that the arpa cola pattern is contextual rather than universal.",
+            "Greek bureaucracy is notoriously inefficient, with rules often bypassed through personal connections (meson), leading to a fluid application of rules."
+          ],
+          "why_this_score": "Greece sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (84) and the CI floor (81), so going below 82 would understate the measured signal.",
+          "related_countries": [
+            "Italy",
+            "Portugal",
+            "Cyprus",
+            "Malta",
+            "Spain"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim4",
+              "source_id": "turn1search1",
+              "title": "Uncertainty Avoidance Index Greece 112",
+              "url": "",
+              "author": "Clearly Cultural",
+              "publication_year": null,
+              "excerpt": "Greece’s Uncertainty Avoidance Index is extremely high (~112), reflecting strong cultural need for rules, predictability, low tolerance of ambiguity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "claim5",
+              "source_id": "turn1search5",
+              "title": "Study on Greek culture high uncertainty avoidance low individualism",
+              "url": "",
+              "author": "PMC article",
+              "publication_year": 2022,
+              "excerpt": "Recent study confirms very high uncertainty avoidance in Greek culture alongside low individualism.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C16",
+              "source_id": "S04",
+              "title": "Results of Hofstede's study for the Greek Culture (ResearchGate scientific diagram)",
+              "url": "https://www.researchgate.net/figure/Results-of-Hofstede-s-study-for-the-Greek-Culture-3_fig2_284726411",
+              "author": "ResearchGate",
+              "publication_year": 2016,
+              "excerpt": "Hofstede's study assigns Greece the highest Uncertainty Avoidance Index score in the dataset at 112, meaning Greeks have an extremely low tolerance for ambiguous or unknown situations.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 82,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.734,
+          "top_supporting_arguments": [
+            "Greece’s Masculinity score of ~57 suggests moderate emphasis on achievement and performance orientation.",
+            "Greece is a masculine society oriented toward success; in Collectivistic and Masculine cultures, the success of a family member gives social importance to the entire group, and Greeks frequently name-drop influential contacts when meeting newcomers.",
+            "Greece scores 57 on the Masculinity dimension — a medium-ranking masculine society, meaning it is success-oriented and driven; the success of a family member gives social value to the whole group."
+          ],
+          "top_counter_arguments": [
+            "Maintaining harmonious working relationships is explicitly described as more important than accomplishing something at a specific time — placing relational harmony above task-performance drive.",
+            "Greek managers qualify ideas gently to protect the reputation of those raising them, and public shaming is actively avoided — indicating that harmony and face-saving temper competitive drive in group settings.",
+            "Both public and private sector Greek organisations prefer 'clan culture' as a future ideal — a relationship- and cohesion-oriented model that prioritises harmony over competition or performance."
+          ],
+          "why_this_score": "Greece sits at 82 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 84 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (84) and the CI ceiling (87), so pushing past 82 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (82) and the CI floor (82), so going below 82 would understate the measured signal.",
+          "related_countries": [
+            "Italy",
+            "Portugal",
+            "Cyprus",
+            "Malta",
+            "Spain"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim6",
+              "source_id": "turn1search11",
+              "title": "Hofstede’s cultural values for Greece",
+              "url": "",
+              "author": "",
+              "publication_year": null,
+              "excerpt": "Greece’s Masculinity score of ~57 suggests moderate emphasis on achievement and performance orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C24",
+              "source_id": "S03",
+              "title": "HOFSTEDE'S CULTURAL DIMENSIONS APPLIED TO GREECE",
+              "url": "https://www.researchgate.net/publication/355889619_HOFSTEDE'S_CULTURAL_DIMENSIONS_APPLIED_TO_GREECE",
+              "author": "ResearchGate contributors",
+              "publication_year": 2020,
+              "excerpt": "Greece is a masculine society oriented toward success; in Collectivistic and Masculine cultures, the success of a family member gives social importance to the entire group, and Greeks frequently name-drop influential contacts when meeting newcomers.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C25",
+              "source_id": "S01",
+              "title": "Hofstede's Value Dimensions, Greek Culture and My Culture",
+              "url": "https://jhagan92.wordpress.com/2013/09/18/hofstedes-value-dimensions-greek-culture-and-my-culture/",
+              "author": "Jacob Hagan",
+              "publication_year": 2013,
+              "excerpt": "Greece scores 57 on the Masculinity dimension — a medium-ranking masculine society, meaning it is success-oriented and driven; the success of a family member gives social value to the whole group.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

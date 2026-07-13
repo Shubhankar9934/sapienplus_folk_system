@@ -1,0 +1,2729 @@
+{
+  "iso3": "ERI",
+  "country": "Eritrea",
+  "region": "East Africa",
+  "data_status": "ZERO_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-09T11:07:13.520465+00:00",
+  "cultural_profile": {
+    "iso3": "ERI",
+    "country": "Eritrea",
+    "region": "East Africa",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 32,
+        "reading": "Group-oriented",
+        "explanation": "Eritrean society is deeply rooted in collective identity, with kinship networks and national unity shaping social interactions."
+      },
+      {
+        "dimension": "D2",
+        "score": 40,
+        "reading": "Understated",
+        "explanation": "Public expression in Eritrea is restrained, with indirect communication and a focus on harmony prevailing."
+      },
+      {
+        "dimension": "D3",
+        "score": 45,
+        "reading": "Balanced",
+        "explanation": "Eritrea's social and political structures are highly ordered, with national service and state control imposing a rigid framework."
+      },
+      {
+        "dimension": "D4",
+        "score": 33,
+        "reading": "Relaxed",
+        "explanation": "The culture values resilience and endurance, with a focus on collective achievement and national pride."
+      }
+    ],
+    "executive_summary": "Eritrea is a land where collective identity and kinship networks define social life, while national service and state control impose a rigid structure. Communication is indirect and harmony-focused, with public expression tightly controlled. Despite these constraints, Eritrean culture is rich in hospitality, storytelling, and community celebrations.",
+    "cultural_archetype": {
+      "title": "The Collective Custodian",
+      "summary": "A society deeply rooted in kinship and collective identity, where community bonds and national unity are paramount.",
+      "claim_ids": [
+        "C1",
+        "C3",
+        "d1-c1"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Community-focused initiatives",
+      "Cultural preservation projects",
+      "Humanitarian efforts"
+    ],
+    "culture_at_a_glance": [
+      "Communication in Eritrea is indirect, focusing on harmony and avoiding confrontation, while public expression is tightly controlled.",
+      "The Gezauti lineage system interlinks individuals and villages into an intricate kinship network, emphasizing collective identity and social hierarchy.",
+      "Nation-building efforts have promoted a unifying national identity over individual identities, reinforcing a collective ethos.",
+      "The Eritrean diaspora (estimated 1.2 million, larger than the domestic population) exhibits strong individual achievement orientation, with high remittance flows (£100m+ annually) and education at Wes, which is why economic regulation is heavy but selectively enforced; a large informal economy (estimated 40% of GDP) thrives through improvisation.",
+      "Eritrean unaccompanied refugee minors emphasize relationships, spirituality, and daily integration rather than achievement or competition.",
+      "Eritrea has a rich cultural heritage with strong traditions of storytelling, music, and dance across its nine ethnic groups, indicating expressive outlets that function within community settings."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Kinship and Collective Identity",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 0,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "The Gezauti lineage system interlinks individuals and villages into an intricate kinship network, emphasizing collective identity and social hierarchy.",
+            "claim_ids": [
+              "C1",
+              "d1-c1"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "Nation-building efforts have promoted a unifying national identity over individual identities, reinforcing a collective ethos.",
+            "claim_ids": [
+              "C3",
+              "d1-cnt1"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Eritrea's liberation struggle forged a strong national identity, which continues to shape collective consciousness.",
+            "claim_ids": [
+              "d1-cnt1"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Harmony and Indirect Communication",
+        "confidence": {
+          "evidence_strength": 55,
+          "expert_agreement": 56,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Communication in Eritrea is indirect, focusing on harmony and avoiding confrontation, while public expression is tightly controlled.",
+            "claim_ids": [
+              "d2-c1",
+              "d2-c2",
+              "d2-c3"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Cultural traditions of storytelling, music, and dance provide expressive outlets within community settings.",
+            "claim_ids": [
+              "d2-cnt2"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Eritrea's 30-year liberation struggle forged a strong pan-Eritrean national identity, shaping collective consciousness and suppressing sub-national identities.",
+        "claim_ids": [
+          "d1-cnt1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The Gezauti lineage system in highland Eritrea interlinks individuals and villages into an intricate kinship network, emphasizing collective identity.",
+        "claim_ids": [
+          "C1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Achievement",
+        "explanation": "While Eritrea emphasizes collective identity, the diaspora exhibits strong individual achievement orientation, creating a tension between community and personal success.",
+        "claim_ids": [
+          "C1",
+          "d1_support_2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "pulls_toward": "Structured Society",
+        "but_also": "Informal Adaptation",
+        "explanation": "Despite a highly structured society, Eritrea's informal economy thrives through improvisation and adaptation, highlighting a contrast between order and flexibility.",
+        "claim_ids": [
+          "d3-c3",
+          "d3_support_4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Eritrean unaccompanied refugee minors emphasize relationships, spirituality, and daily integration rather than achievement or competition.",
+          "claim_ids": [
+            "C8"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Eritrea has a rich cultural heritage with strong traditions of storytelling, music, and dance across its nine ethnic groups, indicating expressive outlets that function within community settings.",
+          "claim_ids": [
+            "d2-cnt2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The traditional Baito system (village council) still mediates many local decisions, emphasizing consensus and collective responsibility.",
+          "claim_ids": [
+            "d1_counter_1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "During festivals (e.g. Ethiopian Orthodox Epiphany, weddings), Eritreans engage in uninhibited dancing, singing, and emotional joy.",
+          "claim_ids": [
+            "d2_counter_1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Military service is indefinite (years, not months); there is no fixed schedule, creating a culture of waiting and fluid time orientation.",
+          "claim_ids": [
+            "d3_support_3"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "The Tigrinya concept of community (meetse/gheez) shapes Eritrean workplaces: team cohesion often trumps individualism, and interviewers probe collaborative skills rather than individual achievement.",
+          "claim_ids": [
+            "d1-c5"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Communication in the Eritrean workplace often values indirectness and politeness, particularly in formal settings; direct challenges to authority are uncommon and can be viewed as disrespectful.",
+          "claim_ids": [
+            "d2-c1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Eritrean workplaces often emphasize hierarchy and discipline, with respect for authority valued—a consistent, rule-ordered environment where roles are clearly defined.",
+          "claim_ids": [
+            "d3-c1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Decisions flow from the top down; clear direction from management is usually preferred; the final decision-making power rests with senior leadership—reflecting a high-structure, low-ambiguity work environment.",
+          "claim_ids": [
+            "d3-c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Bureaucratic encounters are scripted and formulaic; any emotional display is seen as unprofessional or dangerous.",
+          "claim_ids": [
+            "d2_support_3"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Communication in Eritrea is indirect, focusing on harmony and avoiding confrontation—a pattern that diffuses tension and prioritizes collective harmony over direct individual expression.",
+          "claim_ids": [
+            "d2-c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Eritreans are reserved in public, avoiding direct eye contact with superiors, and lowering their voice in the presence of elders or officials.",
+          "claim_ids": [
+            "d2_support_2"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity.",
+          "claim_ids": [
+            "C2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Gift-giving and hospitality express social bonds and reciprocity, privileging relational harmony over performance.",
+          "claim_ids": [
+            "C9"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Eritreans are noted for their hospitality and welcoming nature, with visitors often receiving a warm reception and generous hospitality, indicating openness and warmth in private/social contexts.",
+          "claim_ids": [
+            "d2-cnt1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Family loyalty is paramount: extended family members often live together or in proximity, and decisions (marriage, career) are family consultations.",
+          "claim_ids": [
+            "d1_counter_2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Eritrean refugees in Australia report that direct emotional expression (anger, frustration) is culturally suppressed and only expressed in private trusted circles.",
+          "claim_ids": [
+            "d2_support_4"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "The lineage and/or clan hold an organizing function in terms of social duties and obligations and as a level of identity across Eritrea's ethnic groups.",
+          "claim_ids": [
+            "d1-c1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Colonial-era Eritrean intellectuals described 'the center of social life in Eritrea—outside large European centers—is, on the plateau, the family group; to which corresponds in the lowland, the tribe', documenting the primacy of group-based identity.",
+          "claim_ids": [
+            "d1-c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The family-based clan system is described as 'the basic social entity of Eritreans, the basic social entity keeping all the secrets of Eritrean identity and history', indicating clan/family as the core unit of self-definition.",
+          "claim_ids": [
+            "d1-c3"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The social organization of the Saho ethnic group in Eritrea is based on kinship and descent, with sub-tribes as genealogical branches from a common ancestor—a pattern repeated across Eritrean ethnic groups.",
+          "claim_ids": [
+            "d1-c4"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "About 60% of Eritrea's population lives in rural areas maintaining close ties to agriculture, pastoralism, and communal practices, reinforcing group-oriented identity as the norm.",
+          "claim_ids": [
+            "d1-c6"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Eritrean greeting rituals are elaborate and emotionally expressive—ululation, hugging, kissing, and tears feature prominently in social greetings.",
+          "claim_ids": [
+            "C5"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Greetings are ritualized and failing to greet someone is a breach of social norms, indicating structured expectations in everyday interaction.",
+          "claim_ids": [
+            "C7"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Day to day, life in Eritrea is shaped by how eritrean unaccompanied refugee minors emphasize relationships, spirituality and daily integration rather than achievement or competition; the Tigrinya concept of community (meetse/gheez) shapes Eritrean workplaces: team cohesion often trumps individualism, and interviewers probe collaborative skills rather than individual achievement; eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity. Together these patterns set the rhythm a newcomer adjusts to first.",
+      "claim_ids": [
+        "C8",
+        "d1-c5",
+        "C2"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity.",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Eritrean greeting rituals are elaborate and emotionally expressive—ululation, hugging, kissing and tears feature prominently in social greetings.",
+        "claim_ids": [
+          "C5"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Eritrean unaccompanied refugee minors emphasize relationships, spirituality and daily integration rather than achievement or competition.",
+        "claim_ids": [
+          "C8"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The lineage and/or clan hold an organising function in terms of social duties and obligations and as a level of identity across Eritrea's ethnic groups.",
+        "claim_ids": [
+          "d1-c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The Tigrinya concept of community (meetse/gheez) shapes Eritrean workplaces: team cohesion often trumps individualism, and interviewers probe collaborative skills rather than individual achievement.",
+        "claim_ids": [
+          "d1-c5"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Communication in Eritrea is indirect, focusing on harmony and avoiding confrontation—a pattern that diffuses tension and prioritises collective harmony over direct individual expression.",
+        "claim_ids": [
+          "d2-c2"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "The Eritrean diaspora (estimated 1.2 million, larger than the domestic population) exhibits strong individual achievement orientation, with high remittance flows (£100m+ annually) and education at Wes, which is why economic regulation is heavy but selectively enforced; a large informal economy (estimated 40% of GDP) thrives through improvisation. This means eritrean diaspora invests heavily in education: 80% of diaspora households in the US have at least one university degree.",
+        "claim_ids": [
+          "d1_support_2",
+          "d3_support_4",
+          "d4_support_1"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "National service is compulsory and indefinite; many young Eritreans are stuck in a 'waiting' limbo, suppressing ambition.",
+        "claim_ids": [
+          "d4_counter_1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Cultural emphasis on punctuality for religious events (Orthodox Church) but not ",
+        "meaning": "Cultural emphasis on punctuality for religious events (Orthodox Church) but not for secular appointments.",
+        "claim_ids": [
+          "d3_counter_2"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "d1_support_3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "d2_counter_2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "d4_support_4"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Norms differ across generations and places, which is why younger urban residents tend to act more individualistically. This means newcomers meet very different expectations depending on who they are with.",
+        "claim_ids": [
+          "d1_support_3",
+          "d2_counter_2",
+          "d4_support_4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "MDG",
+        "country": "Madagascar",
+        "similarity": 89,
+        "explanation": "Eritrea and Madagascar share several of the same everyday patterns.",
+        "claim_ids": [
+          "C1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "RWA",
+        "country": "Rwanda",
+        "similarity": 88,
+        "explanation": "Eritrea and Rwanda share several of the same everyday patterns.",
+        "claim_ids": [
+          "C1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "SSD",
+        "country": "South Sudan",
+        "similarity": 88,
+        "explanation": "Eritrea and South Sudan share several of the same everyday patterns.",
+        "claim_ids": [
+          "C1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "KEN",
+        "country": "Kenya",
+        "similarity": 88,
+        "explanation": "Eritrea and Kenya share several of the same everyday patterns.",
+        "claim_ids": [
+          "C1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinct from Madagascar",
+        "explanation": "Eritrea shares a region with Madagascar but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "C1",
+          "C3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Distinct from Rwanda",
+        "explanation": "Eritrea shares a region with Rwanda but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "C1",
+          "C3"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More easygoing than Kenya",
+        "dimension": "D4",
+        "neighbour_iso3": "KEN",
+        "delta": -23
+      },
+      {
+        "text": "More easygoing than Rwanda",
+        "dimension": "D4",
+        "neighbour_iso3": "RWA",
+        "delta": -20
+      },
+      {
+        "text": "More easygoing than Somalia",
+        "dimension": "D4",
+        "neighbour_iso3": "SOM",
+        "delta": -20
+      },
+      {
+        "text": "More easygoing than Madagascar",
+        "dimension": "D4",
+        "neighbour_iso3": "MDG",
+        "delta": -18
+      },
+      {
+        "text": "More easygoing than South Sudan",
+        "dimension": "D4",
+        "neighbour_iso3": "SSD",
+        "delta": -18
+      },
+      {
+        "text": "More community-oriented than Somalia",
+        "dimension": "D1",
+        "neighbour_iso3": "SOM",
+        "delta": -10
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Multiple ethnographic sources emphasize strong communal and kinship-based identity in Eritrea. Tronvoll’s study of Mai Weini describes how Gezauti lineage systems interlink individuals into an intricate web of kinship, structuring land access and social hierarchy—a collectivist foundation ([books.google.no](https://books.google.no/books?hl=no&id=GWbjAAAAMAAJ&utm_source=openai)). Diaspora studies observe that Eritrean friendships and social circles tend to center almost exclusively around fellow Eritreans, reinforcing group identity over individuality ([journals.sagepub.com](https://journals.sagepub.com/doi/10.1177/00020397251382247?utm_source=openai)). National identity itself has been deliberately constructed via EPLF-era nation-building policies to subsume individual identity into a pan-national collective, especially through national service and state mobilization ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eritrean_nationalism?utm_source=openai)). A comparative educational study also explicitly notes that Eritrea’s dominant social ethos is collective rather than individualistic ([brage.inn.no](https://brage.inn.no/inn-xmlui/bitstream/handle/11250/132010/Munden_J_How%20students%20in%20Eritrea%20and%20Norway.pdf?isAllowed=y&sequence=3&utm_source=openai)). Thus, the evidence consistently supports low D1 (social identity).",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Eritrea has no direct Hofstede IDV score, but every available institutional and ethnographic signal points to deep collectivism. The family-based clan system is documented as 'the basic social entity' keeping Eritrean identity and history (Tandfonline/colonial study); clan and lineage hold explicit organising functions for social duties and identity across all nine ethnic groups (EveryculturE); kinship-based social structures are documented in each ethnic sub-group (Saho, Bilen, Afar, etc.); the Tigrinya concept of community (meetse/gheez) explicitly frames workplace expectations (ResumeFlex); and 60% of the population lives rurally in communal agriculture/pastoralist settings reinforcing group-over-individual identity (Grokipedia). Corroborating this, Horn of Africa neighbours Ethiopia and Somalia are well-established as deeply collectivist (IDV ~20 or lower). The counter-evidence—a forced, state-imposed national identity that could be read as supra-clan—is a governance/political artefact, not an individualism signal, and does not raise D1. Score: 16, reflecting deeply collectivist profile consistent with Horn of Africa baseline, with slight upward nudge from the documented tension between sub-clan identity and state-imposed national unity.",
+          "suggested_score": 16
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Eritrea's identity is markedly more individualist than its collectivist regional neighbours, driven by the 30-year independence struggle that atomised traditional clan structures and created a self-reliant, survivalist ethic. The diaspora (over 20% of population) reinforces an individual-achievement narrative. However, strong family ties and the Baito system provide counter-evidence of collective identity.",
+          "suggested_score": 75
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "There is limited ethnographic evidence directly addressing emotional expressiveness versus restraint. One vivid example of expressive social behavior is the elaborate greeting rituals—ululation, kissing, hugging, tears—that accompany social encounters ([shabait.com](https://shabait.com/2016/09/21/culture-of-greeting-from-loud-smack-kisses-to-the-shoulder-bump/?utm_source=openai)). However, without further data on whether these displays occur freely across contexts or are socially regulated (i.e. structurally permitted or suppressed), we cannot definitively place Eritrea as culturally open or restrained. Thus a neutral mid-level score is appropriate.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression in Eritrea is heavily structurally suppressed along two independent axes. First, culturally: communication is documented across multiple workplace and business sources as indirect, harmony-preserving, and deferential—direct challenges to authority are uncommon and viewed as disrespectful (Rivermate); indirect communication focusing on harmony and avoiding confrontation is explicitly described (ClickUp). Second, politically: since 2001, all independent media has been shut down (Freedom House 2022); civil society is blanket-suppressed with no public space for political discussion (HRW/Dan Connell); dissent invites swift retribution (Horn Review). The state actively produces what researchers call 'pervasive fear, uncertainty and lack of opportunity' (Horn Review), which suppresses public emotional and political expression structurally. The counter-evidence is the warmth and hospitality Eritreans are noted for in private settings (360Nations, ClickUp), and the documented tradition of storytelling, music, and dance—but these are socially approved expressive outlets, not evidence of freedom from hierarchical suppression. The structural suppression of expression at both cultural and political levels is the dominant, corroborated pattern. Score: 28, restrained but not the floor, acknowledging warm in-group social expressiveness in private contexts.",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is restrained due to authoritarian governance, pervasive surveillance, and strict social hierarchy (especially towards elders and officials). Emotional display is suppressed in public, and humour/topical talk is guarded. Yet in private settings and during festivals, expression can be open, creating a dual pattern.",
+          "suggested_score": 40
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ethnographic accounts suggest a structured society: kinship systems like Gezauti impose ordered lineage structures on social life ([books.google.no](https://books.google.no/books?hl=no&id=GWbjAAAAMAAJ&utm_source=openai)). Furthermore, the greeting norms in Eritrea are highly ritualized—failing to greet someone is considered a social offense, and even unintended slips in greetings can cause personal friction ([shabait.com](https://shabait.com/2016/09/21/culture-of-greeting-from-loud-smack-kisses-to-the-shoulder-bump/?utm_source=openai)). These indicate a cultural preference for predictability, conventional behaviors, and sanctioning of ambiguity. Thus, Eritrean culture leans toward high Structure, but without evidence of extreme rigidity, a mid-high score is appropriate.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Eritrea scores high on Structure (Certain) via multiple independent, corroborated signals. The entire society is organised around highly formalised, codified clan/lineage hierarchy across all nine ethnic groups (EveryculturE; Shabait on Saho; Shabait on Bilen). Workplace culture explicitly 'emphasises hierarchy and discipline' (Microcoms); top-down decision flow with clear respect for authority is documented across multiple business sources (Rivermate, ResumeFlex). The PFDJ-state has imposed a uniquely total military/civil national service system—indefinite conscription of all adults—enforcing behavioural compliance and eliminating ambiguity about social role (HRW; UK Gov CPIN 2025; Freedom House). This is the defining D3 differentiator from regional neighbours: the degree of imposed behavioural regularity through state militarism is extreme even by regional standards. Counter-evidence: the state's constitutionalist rhetoric has never been implemented (rule of law is suspended), and many Eritreans flee the system—indicating the cultural-psychological experience of ambiguity and precarity under authoritarianism. This is scored as a negative-D3 nudge: the state forces structure externally but creates existential uncertainty for individuals. Net score: 72, clearly Certain but not at the extreme end, acknowledging the lived ambiguity and precarity that accompanies the state's rigid impositions.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Structure is fluid: ambiguous legal frameworks, unpredictable bureaucracy, endemic informal negotiation, and a 'wait-and-see' cultural approach to rules. The state is interventionist but enforcement is erratic, fostering low trust in fixed procedures. Counter-evidence from Orthodox Christian ritual calendar and military discipline provides some structure.",
+          "suggested_score": 20
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Although direct evidence on achievement orientation versus harmony is scarce, indirect signals suggest a moderate leaning toward harmony and relationships. Ethnographic research on Eritrean refugee minors highlights centralities of relationships, spirituality, and integration into new social ecologies, with emphasis on relational support rather than performance or competition ([research-portal.najah.edu](https://research-portal.najah.edu/migrant/9306/?utm_source=openai)). Additionally, gift-giving and hospitality in Tigrinya society are core success factors, emphasizing social bonds and reciprocal care over achievement displays ([real.mtak.hu](https://real.mtak.hu/44847/?utm_source=openai)). These indicate a culture valuing harmony over striving, though not entirely eschewing achievement, so a somewhat lower-mid score is warranted.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D4 (Drive: Striving vs Accepting) is the most difficult dimension to score for Eritrea with confidence. On the Striving side: the entire liberation-war identity of Eritrea is built on self-reliance, sacrifice, and national achievement—PFDJ ideology explicitly valorises hard work and national development (HRW/Connell on EPLF-PFDJ; Asmarino). The national service system channels labour into construction and agriculture projects framed as national achievement. On the Accepting/relational side: community harmony (meetse), relationship-driven business negotiations, emphasis on patience and process over outcomes (Rivermate; ClickUp), and the rurally-dominant communal/agricultural economy all push toward the relational, quality-of-life, harmony end. The Horn of Africa regional baseline leans toward community-over-competition (Ethiopia, Djibouti, Somalia are all moderate-low Masculinity). The liberation-struggle ethos introduces a genuine Striving signal not present in neighbours like Madagascar or South Sudan, but it is state-imposed rather than market-competitive. No direct Hofstede MAS score exists for Eritrea. On balance, the relational/communal signals are culturally deeper and broader; the Striving signals are largely state-ideological and militaristic rather than individual-achievement-oriented. Score: 42, marginally below midpoint, reflecting the pull between state-driven collective achievement orientation and the underlying communal, relationship-first culture.",
+          "suggested_score": 42
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Drive is moderate-high: a survivalist achievement orientation, high educational aspirations (especially among diaspora), and competitive entrepreneurship in the informal economy. However, the chronic lack of economic opportunity and 'waiting' culture in national service temper this to a pragmatic, not aspirational, striving.",
+          "suggested_score": 65
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C1",
+      "source_id": "S1",
+      "title": "Mai Weini, a Highland Village in Eritrea: A Study of the People, Their Livelihood, and Land Tenure During Times of Turbulence",
+      "url": "https://books.google.no/books?hl=no&id=GWbjAAAAMAAJ",
+      "author": "Kjetil Tronvoll",
+      "publication_year": 1998,
+      "excerpt": "The Gezauti lineage system in highland Eritrea interlinks individuals and villages into an intricate kinship network shaping land access and social hierarchy, emphasizing collective identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C2",
+      "source_id": "S2",
+      "title": "Diaspora Formations in the Horn of Africa",
+      "url": "https://journals.sagepub.com/doi/10.1177/00020397251382247",
+      "author": "Oliver Bakewell",
+      "publication_year": 2025,
+      "excerpt": "Eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C3",
+      "source_id": "S3",
+      "title": "Eritrean nationalism",
+      "url": "https://en.wikipedia.org/wiki/Eritrean_nationalism",
+      "author": "Wikipedia contributors",
+      "publication_year": 2024,
+      "excerpt": "Nation‑building efforts by the EPLF/PFDJ have promoted a unifying national identity over individual identities.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C5",
+      "source_id": "S6",
+      "title": "Culture of Greeting: From loud Smack kisses to the Shoulder‑bump!",
+      "url": "https://shabait.com/2016/09/21/culture-of-greeting-from-loud-smack-kisses-to-the-shoulder-bump/",
+      "author": "Eritrea Ministry Of Information",
+      "publication_year": 2016,
+      "excerpt": "Eritrean greeting rituals are elaborate and emotionally expressive—ululation, hugging, kissing and tears feature prominently in social greetings.",
+      "dimension": "D2",
+      "support_direction": "supports_neutral"
+    },
+    {
+      "claim_id": "C7",
+      "source_id": "S6",
+      "title": "Culture of Greeting: From loud Smack kisses to the Shoulder‑bump!",
+      "url": "https://shabait.com/2016/09/21/culture-of-greeting-from-loud-smack-kisses-to-the-shoulder-bump/",
+      "author": "Eritrea Ministry Of Information",
+      "publication_year": 2016,
+      "excerpt": "Greetings are ritualized and failing to greet someone is a breach of social norms, indicating structured expectations in everyday interaction.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C8",
+      "source_id": "S8",
+      "title": "Eritrean Unaccompanied Refugee Minors in Transition: A Focused Ethnography of Challenges and Needs",
+      "url": "https://research-portal.najah.edu/migrant/9306/",
+      "author": "unknown",
+      "publication_year": 2025,
+      "excerpt": "Eritrean unaccompanied refugee minors emphasize relationships, spirituality and daily integration rather than achievement or competition.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C9",
+      "source_id": "S7",
+      "title": "Gift‑giving and hospitality in Eritrean Tigrinya society",
+      "url": "http://dx.doi.org/10.1556/022.2016.61.1.5",
+      "author": "Sába Tesfay",
+      "publication_year": 2016,
+      "excerpt": "Gift‑giving and hospitality express social bonds and reciprocity, privileging relational harmony over performance.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c1",
+      "source_id": "src-01",
+      "title": "Culture of Eritrea - history, people, clothing, women, beliefs, food, customs, family, social",
+      "url": "https://www.everyculture.com/Cr-Ga/Eritrea.html",
+      "author": "Countries and Their Cultures / EveryculturE",
+      "publication_year": 2023,
+      "excerpt": "The lineage and/or clan hold an organising function in terms of social duties and obligations and as a level of identity across Eritrea's ethnic groups.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c2",
+      "source_id": "src-02",
+      "title": "Colonialism and the Construction of National Identities: The Case of Eritrea",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17531050701452556",
+      "author": "Tandfonline / Journal of Eastern African Studies",
+      "publication_year": 2007,
+      "excerpt": "Colonial-era Eritrean intellectuals described 'the centre of social life in Eritrea—outside large European centres—is, on the plateau, the family group; to which corresponds in the lowland, the tribe', documenting the primacy of group-based identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c3",
+      "source_id": "src-03",
+      "title": "Eritrean Social Groupings, Grievances, internal politics and Remedy for a Sustainable freedom – The Case of Blin Speaking Communities",
+      "url": "https://tesredie.wordpress.com/2018/09/04/eritrean-social-groupings-grievances-internal-politics-and-remedy-for-a-sustainable-freedom-the-case-of-blin-speaking-communities-part-i-iiii/",
+      "author": "Tesredie (Eritrean political commentary)",
+      "publication_year": 2018,
+      "excerpt": "The family-based clan system is described as 'the basic social entity of Eritreans, the basic social entity keeping all the secrets of Eritrean identity and history', indicating clan/family as the core unit of self-definition.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c4",
+      "source_id": "src-04",
+      "title": "The 'Animal Caretakers': The Saho of Eritrea",
+      "url": "https://shabait.com/2016/08/26/the-animal-caretakers-the-saho-of-eritrea/",
+      "author": "Shabait (Eritrean government cultural outlet)",
+      "publication_year": 2016,
+      "excerpt": "The social organisation of the Saho ethnic group in Eritrea is based on kinship and descent, with sub-tribes as genealogical branches from a common ancestor—a pattern repeated across Eritrean ethnic groups.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c5",
+      "source_id": "src-07",
+      "title": "Eritrea Job Interview Guide: Cultural Tips & Etiquette",
+      "url": "https://resumeflex.com/how-to-prepare-for-eritrea-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "The Tigrinya concept of community (meetse/gheez) shapes Eritrean workplaces: team cohesion often trumps individualism, and interviewers probe collaborative skills rather than individual achievement.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c6",
+      "source_id": "src-18",
+      "title": "Culture of Eritrea — Grokipedia",
+      "url": "https://grokipedia.com/page/Culture_of_Eritrea",
+      "author": "Grokipedia",
+      "publication_year": 2026,
+      "excerpt": "About 60% of Eritrea's population lives in rural areas maintaining close ties to agriculture, pastoralism, and communal practices, reinforcing group-oriented identity as the norm.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-cnt1",
+      "source_id": "src-18",
+      "title": "Culture of Eritrea — Grokipedia",
+      "url": "https://grokipedia.com/page/Culture_of_Eritrea",
+      "author": "Grokipedia",
+      "publication_year": 2026,
+      "excerpt": "Eritrea's 30-year liberation struggle forged a strong pan-Eritrean national identity that the PFDJ government uses to suppress sub-national (clan/ethnic) identities and foster national unity, introducing a supra-clan collective identity layer.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d1_counter_1",
+      "source_id": "source_18",
+      "title": "Eritrea: The Baito System of Local Governance",
+      "url": "https://www.academia.edu/37715214/The_Baito_System_of_Local_Governance_in_Eritrea",
+      "author": "Woldemariam, Yohannes",
+      "publication_year": 2018,
+      "excerpt": "The traditional Baito system (village council) still mediates many local decisions, emphasising consensus and collective responsibility.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1_counter_2",
+      "source_id": "source_4",
+      "title": "Culture and Customs of Eritrea",
+      "url": "https://books.google.com/books?id=9P8mAQAACAAJ",
+      "author": "Tekle, Habtom",
+      "publication_year": 2005,
+      "excerpt": "Family loyalty is paramount: extended family members often live together or in proximity, and decisions (marriage, career) are family consultations.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1_support_2",
+      "source_id": "source_5",
+      "title": "The Eritrean Diaspora: Bridge or Barrier?",
+      "url": "https://www.files.ethz.ch/isn/138574/EritreanDiaspora.pdf",
+      "author": "Hirt, Nicole",
+      "publication_year": 2010,
+      "excerpt": "The Eritrean diaspora (estimated 1.2 million, larger than the domestic population) exhibits strong individual achievement orientation, with high remittance flows (£100m+ annually) and education at Western universities.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d1_support_3",
+      "source_id": "source_2",
+      "title": "Against All Odds: The Struggle for Freedom in Eritrea",
+      "url": "https://www.cambridge.org/core/books/eritrea/",
+      "author": "Keller, Edmond J.",
+      "publication_year": 2014,
+      "excerpt": "The 30-year independence struggle (1961-1991) atomised traditional clan loyalties, replacing them with individual self-reliance and a 'survival of the fittest' ethic.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2-c1",
+      "source_id": "src-06",
+      "title": "Cultural Considerations in Eritrea",
+      "url": "https://rivermate.com/guides/eritrea/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Communication in the Eritrean workplace often values indirectness and politeness, particularly in formal settings; direct challenges to authority are uncommon and can be viewed as disrespectful.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d2-c2",
+      "source_id": "src-08",
+      "title": "A Guide to Business Etiquette in Eritrea",
+      "url": "https://clickup.com/p/business-etiquette/eritrea",
+      "author": "ClickUp",
+      "publication_year": 2024,
+      "excerpt": "Communication in Eritrea is indirect, focusing on harmony and avoiding confrontation—a pattern that diffuses tension and prioritises collective harmony over direct individual expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d2-c3",
+      "source_id": "src-12",
+      "title": "Eritrea: Freedom in the World 2022 Country Report",
+      "url": "https://freedomhouse.org/country/eritrea/freedom-world/2022",
+      "author": "Freedom House",
+      "publication_year": 2022,
+      "excerpt": "The Eritrean government shut down all independent media in 2001 and maintains blanket suppression of civil society, with no public space for political discussion or protest, structurally suppressing public expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d2-cnt1",
+      "source_id": "src-19",
+      "title": "Eritrea Culture - Food, Traditions & Etiquette | 360 Nations",
+      "url": "https://360nations.com/africa/eritrea/culture.html",
+      "author": "360 Nations",
+      "publication_year": 2024,
+      "excerpt": "Eritreans are noted for their hospitality and welcoming nature, with visitors often receiving a warm reception and generous hospitality, indicating openness and warmth in private/social contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2-cnt2",
+      "source_id": "src-19",
+      "title": "Eritrea Culture - Food, Traditions & Etiquette | 360 Nations",
+      "url": "https://360nations.com/africa/eritrea/culture.html",
+      "author": "360 Nations",
+      "publication_year": 2024,
+      "excerpt": "Eritrea has a rich cultural heritage with strong traditions of storytelling, music, and dance across its nine ethnic groups, indicating expressive outlets that function within community settings.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2_counter_1",
+      "source_id": "source_4",
+      "title": "Culture and Customs of Eritrea",
+      "url": "https://books.google.com/books?id=9P8mAQAACAAJ",
+      "author": "Tekle, Habtom",
+      "publication_year": 2005,
+      "excerpt": "During festivals (e.g. Ethiopian Orthodox Epiphany, weddings), Eritreans engage in uninhibited dancing, singing, and emotional joy.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2_counter_2",
+      "source_id": "source_16",
+      "title": "Eritrea's Cultural Transition: Youth and Social Media",
+      "url": "https://www.dw.com/en/eritrea-youth-digital-migration/a-60234567",
+      "author": "Deutsche Welle",
+      "publication_year": 2022,
+      "excerpt": "Young urban Eritreans, especially in Asmara, increasingly express themselves through social media and music, showing an opening trend.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2_support_2",
+      "source_id": "source_14",
+      "title": "Eritrea: A Cultural Profile - Centre for Intercultural Learning",
+      "url": "https://www.international.gc.ca/cil-cai/country_insights-apercus_pays/eritrea.aspx?lang=eng",
+      "author": "Government of Canada",
+      "publication_year": 2021,
+      "excerpt": "Eritreans are reserved in public, avoiding direct eye contact with superiors, and lowering their voice in the presence of elders or officials.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d2_support_3",
+      "source_id": "source_10",
+      "title": "Globally Rotated: The Everyday Bureaucracy of Eritrea",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00472336.2020.1818232",
+      "author": "Poole, Amanda L.",
+      "publication_year": 2020,
+      "excerpt": "Bureaucratic encounters are scripted and formulaic; any emotional display is seen as unprofessional or dangerous.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d2_support_4",
+      "source_id": "source_13",
+      "title": "Eritrean (Horn of Africa) Refugee Experiences in Australia",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1369183X.2019.1620555",
+      "author": "Kassa, Michael",
+      "publication_year": 2020,
+      "excerpt": "Eritrean refugees in Australia report that direct emotional expression (anger, frustration) is culturally suppressed and only expressed in private trusted circles.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d3-c1",
+      "source_id": "src-09",
+      "title": "Workplace Norms in Eritrea",
+      "url": "https://www.microcoms.net/employer-of-record-services-in-eritrea/",
+      "author": "Microcoms",
+      "publication_year": 2025,
+      "excerpt": "Eritrean workplaces often emphasise hierarchy and discipline, with respect for authority valued—a consistent, rule-ordered environment where roles are clearly defined.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d3-c2",
+      "source_id": "src-06",
+      "title": "Cultural Considerations in Eritrea",
+      "url": "https://rivermate.com/guides/eritrea/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Decisions flow from the top down; clear direction from management is usually preferred; the final decision-making power rests with senior leadership—reflecting a high-structure, low-ambiguity work environment.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d3-c3",
+      "source_id": "src-11",
+      "title": "Country policy and information note: national service and illegal exit, Eritrea, December 2025",
+      "url": "https://www.gov.uk/government/publications/eritrea-country-policy-and-information-notes/country-policy-and-information-note-national-service-and-illegal-exit-eritrea-december-2025-accessible",
+      "author": "UK Home Office",
+      "publication_year": 2025,
+      "excerpt": "The UK Government's 2025 country policy note confirms Eritrea has created a highly militarised society through mandatory conscription of indefinite length, imposing a total structure on adult life with minimal individual autonomy over one's social role.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d3_counter_2",
+      "source_id": "source_4",
+      "title": "Culture and Customs of Eritrea",
+      "url": "https://books.google.com/books?id=9P8mAQAACAAJ",
+      "author": "Tekle, Habtom",
+      "publication_year": 2005,
+      "excerpt": "Cultural emphasis on punctuality for religious events (Orthodox Church) but not for secular appointments.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d3_support_3",
+      "source_id": "source_6",
+      "title": "Eritrea: The Siege State",
+      "url": "https://www.hrw.org/reports/2023/eritrea",
+      "author": "Human Rights Watch",
+      "publication_year": 2023,
+      "excerpt": "Military service is indefinite (years, not months); there is no fixed schedule, creating a culture of waiting and fluid time orientation.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d3_support_4",
+      "source_id": "source_17",
+      "title": "Eritrea: A Country Profile - Congressional Research Service",
+      "url": "https://crsreports.congress.gov/product/pdf/IF/IF10118",
+      "author": "Congressional Research Service",
+      "publication_year": 2023,
+      "excerpt": "Economic regulation is heavy but selectively enforced; a large informal economy (estimated 40% of GDP) thrives through improvisation.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d4_counter_1",
+      "source_id": "source_6",
+      "title": "Eritrea: The Siege State",
+      "url": "https://www.hrw.org/reports/2023/eritrea",
+      "author": "Human Rights Watch",
+      "publication_year": 2023,
+      "excerpt": "National service is compulsory and indefinite; many young Eritreans are stuck in a 'waiting' limbo, suppressing ambition.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d4_support_1",
+      "source_id": "source_5",
+      "title": "The Eritrean Diaspora: Bridge or Barrier?",
+      "url": "https://www.files.ethz.ch/isn/138574/EritreanDiaspora.pdf",
+      "author": "Hirt, Nicole",
+      "publication_year": 2010,
+      "excerpt": "Eritrean diaspora invests heavily in education: 80% of diaspora households in the US have at least one university degree.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d4_support_4",
+      "source_id": "source_2",
+      "title": "Against All Odds: The Struggle for Freedom in Eritrea",
+      "url": "https://www.cambridge.org/core/books/eritrea/",
+      "author": "Keller, Edmond J.",
+      "publication_year": 2014,
+      "excerpt": "The independence struggle valorised sacrifice and hard work; achievement is tied to survival, not status.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 32,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 40,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 45,
+        "confidence": "LOW"
+      },
+      "D4": {
+        "score": 33,
+        "confidence": "LOW"
+      }
+    },
+    "baseline_scores": {
+      "D1": 37.90652362,
+      "D2": 47.35162121,
+      "D3": 41.75948989,
+      "D4": 49.88211611
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 26.35886451,
+        "hi": 49.45418274
+      },
+      "D2": {
+        "lo": 22.96065205,
+        "hi": 71.74259037
+      },
+      "D3": {
+        "lo": 12.82345994,
+        "hi": 70.69551983
+      },
+      "D4": {
+        "lo": 16.69297249,
+        "hi": 83.07125973
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "ERI",
+        "dimension": "D1",
+        "baseline": 37.90652362,
+        "final": 32.0,
+        "direction": "down",
+        "magnitude": 5.91,
+        "reason": "Identity adjusted from baseline 37.9 to 32 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.72 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 32 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "ERI",
+        "dimension": "D2",
+        "baseline": 47.35162121,
+        "final": 40.0,
+        "direction": "down",
+        "magnitude": 7.35,
+        "reason": "Expression adjusted from baseline 47.4 to 40 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 40 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "ERI",
+        "dimension": "D3",
+        "baseline": 41.75948989,
+        "final": 45.0,
+        "direction": "up",
+        "magnitude": 3.24,
+        "reason": "Structure adjusted from baseline 41.8 to 45 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.69 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 45 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "ERI",
+        "dimension": "D4",
+        "baseline": 49.88211611,
+        "final": 33.0,
+        "direction": "down",
+        "magnitude": 16.88,
+        "reason": "Drive adjusted from baseline 49.9 to 33 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 33 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 26.36,
+        "baseline": 37.90652362,
+        "framework_hi": 49.45,
+        "specialist_recommendation": 37.0,
+        "council_consensus": 32.89,
+        "integrator_recommendation": 35.98,
+        "llm_recommendation": 32.0,
+        "final": 32,
+        "available_range": 23.09,
+        "distance_from_baseline": -5.91,
+        "range_utilization": 24,
+        "clamp_adjustment": -3.98,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 5.64,
+        "distance_from_upper": 17.45,
+        "movement_reason": "Evidence-first placement of Identity at 32 (evidence credibility 0.72): specialist recommendation 37.0 blended with council consensus 32.89, with baseline reference 37.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 22.96,
+        "baseline": 47.35162121,
+        "framework_hi": 71.74,
+        "specialist_recommendation": 39.333,
+        "council_consensus": 38.67,
+        "integrator_recommendation": 39.96,
+        "llm_recommendation": 40.0,
+        "final": 40,
+        "available_range": 48.78,
+        "distance_from_baseline": -7.35,
+        "range_utilization": 35,
+        "clamp_adjustment": 0.04,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 17.04,
+        "distance_from_upper": 31.74,
+        "movement_reason": "Evidence-first placement of Expression at 40 (evidence credibility 0.56): specialist recommendation 39.333 blended with council consensus 38.67, with baseline reference 47.4 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 12.82,
+        "baseline": 41.75948989,
+        "framework_hi": 70.7,
+        "specialist_recommendation": 50.667,
+        "council_consensus": 43.89,
+        "integrator_recommendation": 48.06,
+        "llm_recommendation": 45.0,
+        "final": 45,
+        "available_range": 57.88,
+        "distance_from_baseline": 3.24,
+        "range_utilization": 56,
+        "clamp_adjustment": -3.06,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 32.18,
+        "distance_from_upper": 25.7,
+        "movement_reason": "Evidence-first placement of Structure at 45 (evidence credibility 0.69): specialist recommendation 50.667 blended with council consensus 43.89, with baseline reference 41.8 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 16.69,
+        "baseline": 49.88211611,
+        "framework_hi": 83.07,
+        "specialist_recommendation": 49.0,
+        "council_consensus": 32.22,
+        "integrator_recommendation": 42.58,
+        "llm_recommendation": 33.0,
+        "final": 33,
+        "available_range": 66.38,
+        "distance_from_baseline": -16.88,
+        "range_utilization": 25,
+        "clamp_adjustment": -9.58,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 16.31,
+        "distance_from_upper": 50.07,
+        "movement_reason": "Evidence-first placement of Drive at 33 (evidence credibility 0.56): specialist recommendation 49.0 blended with council consensus 32.22, with baseline reference 49.9 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Eritrea",
+        "iso3": "ERI",
+        "dimension": "D1",
+        "baseline_score": 37.90652362,
+        "final_score": 32,
+        "change_amount": -5.91,
+        "change_percent": -15.59,
+        "adjustment_type": "CALIBRATION_ADJUSTMENT",
+        "summary": "Eritrea's Identity is placed at 32 (Social 3 <-> Self 97). Within the framework range [26-49], 32 sits at ~24% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_d1-c2",
+          "W_cultural_anthropologist_C2",
+          "W_historical_analyst_d1_counter_1"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars consensus=26.54 (signal_strength=0.4541, zero conflict) anchors this firmly on the collectivist side. Score of 32 sits above the CI floor (26.35) to reflect ZERO_DATA uncertainty while remaining well below the South Korea anchor of 50. Qualitative reinforcement: communal agrarian society, clan/ethnic group identity, liberation struggle collective sacrifice, mandatory national service culture all point to strong collectivism. Why not lower: CI floor is 26.35; dropping further would require stronger directional evidence. Why not higher: consensus signal at 26.54 and all qualitative indicators point well below 50; moving toward midpoint would contradict the evidence.",
+        "comparativist_reasoning": "Comparative: Identity=32 relative to East Africa peers and anchors. Eritrea's collectivist orientation is supported by its communal agrarian society and strong group identity, similar to regional peers like Rwanda and Somalia, which also exhibit collectivist traits.",
+        "country_specialist_reasoning": "The Eritrean culture is characterized by a strong collectivist ethos, as evidenced by the Gezauti lineage system and the emphasis on group-based identity among the Eritrean diaspora. These cultural traits align with a lower score on the Identity dimension, reflecting a social orientation.",
+        "skeptic_reasoning": "Adversarial check on Identity=36: resist midpoint bias and compression.",
+        "integrator_decision": "Identity adjusted from baseline 37.9 to 32 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.72 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Identity: ZERO_DATA country requires ≥4 qualitative references; fewer than 4 qualifying references found for this dimension.",
+        "calibration_effect": "Calibration: profile-compression check applied.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5651): coverage=0.2, agreement=0.885, evidence=0.588, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 32,
+          "considered_alternatives": [
+            36,
+            38
+          ],
+          "why_rejected": {
+            "36": "36 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "38": "38 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "32 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (49), so pushing past 32 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (32) and the CI floor (26), so going below 32 would understate the measured signal.",
+        "integrator_recommendation": 35.98,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -3.98,
+        "absolute_score_rationale": "Eritrea sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Eritrea's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Eritrea that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Eritrea that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Eritrea that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Eritrea that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 32 means everyday life in Eritrea leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 32 is justified: Eritrea sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (32) and the CI floor (26), so going below 32 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (49), so pushing past 32 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_d1-c2, W_cultural_anthropologist_C2, W_historical_analyst_d1_counter_1.",
+        "executive_explanation": "Eritrea sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (49), so pushing past 32 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (32) and the CI floor (26), so going below 32 would understate the measured signal.",
+        "research_explanation": "Adjustment type CALIBRATION_ADJUSTMENT; |delta|=5.91. Framework consensus=26.54, signal_strength=0.4541, conflict=0.0. Within the framework range [26-49], 32 sits at ~24% of the permitted span. Confidence MEDIUM (score 0.5651): coverage=0.2, agreement=0.885, evidence=0.588, stability=0.8."
+      },
+      {
+        "country": "Eritrea",
+        "iso3": "ERI",
+        "dimension": "D2",
+        "baseline_score": 47.35162121,
+        "final_score": 40,
+        "change_amount": -7.35,
+        "change_percent": -15.52,
+        "adjustment_type": "CALIBRATION_ADJUSTMENT",
+        "summary": "Eritrea's Expression is placed at 40 (Restrained 3 <-> Open 97). Within the framework range [23-72], 40 sits at ~35% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_d2_support_2",
+          "W_historical_analyst_d2_support_1",
+          "W_historical_analyst_d2_support_3"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars affective_neutral consensus=42.22 (signal_strength=0.36, no conflict) places Eritrea on the restrained side of Turkey anchor (50). Wide CI (22.96-71.74) reflects thin coverage. Score of 38 is below the Turkey anchor by 12 points, consistent with Horn of Africa stoicism, hierarchical emotional restraint, and dignity-in-hardship cultural norms. Why not lower: no quantitative signal pushes below 38; the consensus at 42.22 does not support extreme restraint. Why not higher: the neutral/restrained Trompenaars signal and regional cultural patterns do not support crossing the Turkey anchor of 50.",
+        "comparativist_reasoning": "Comparative: Expression=38 relative to East Africa peers and anchors. Eritrea's cultural norms of stoicism and hierarchical emotional restraint align with the restrained expression observed in the Horn of Africa, differentiating it from more open cultures.",
+        "country_specialist_reasoning": "Eritrea's cultural norms emphasize emotional restraint and hierarchical suppression, consistent with a lower score on the Expression dimension. This is supported by the regional cultural patterns of stoicism and dignity in hardship.",
+        "skeptic_reasoning": "Adversarial check on Expression=41: resist midpoint bias and compression.",
+        "integrator_decision": "Expression adjusted from baseline 47.4 to 40 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Expression: ZERO_DATA country requires ≥4 qualitative references; fewer than 4 qualifying references found for this dimension.",
+        "calibration_effect": "Calibration: flagged near midpoint, profile-compression check applied.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5223): coverage=0.2, agreement=0.913, evidence=0.489, stability=0.6.",
+        "counterfactual": {
+          "selected_score": 40,
+          "considered_alternatives": [
+            38,
+            41,
+            47
+          ],
+          "why_rejected": {
+            "38": "38 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "41": "41 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "47": "47 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "40 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (41) and the CI ceiling (72), so pushing past 40 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (23), so going below 40 would understate the measured signal.",
+        "integrator_recommendation": 39.96,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.04,
+        "absolute_score_rationale": "Eritrea sits at 40 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Eritrea's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Eritrea's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Eritrea that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Eritrea that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Eritrea that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 40 means everyday life in Eritrea leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 40 is justified: Eritrea sits at 40 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (23), so going below 40 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (41) and the CI ceiling (72), so pushing past 40 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_d2_support_2, W_historical_analyst_d2_support_1, W_historical_analyst_d2_support_3.",
+        "executive_explanation": "Eritrea sits at 40 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (41) and the CI ceiling (72), so pushing past 40 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (23), so going below 40 would understate the measured signal.",
+        "research_explanation": "Adjustment type CALIBRATION_ADJUSTMENT; |delta|=7.35. Framework consensus=42.22, signal_strength=0.36, conflict=0.0. Within the framework range [23-72], 40 sits at ~35% of the permitted span. Confidence MEDIUM (score 0.5223): coverage=0.2, agreement=0.913, evidence=0.489, stability=0.6."
+      },
+      {
+        "country": "Eritrea",
+        "iso3": "ERI",
+        "dimension": "D3",
+        "baseline_score": 41.75948989,
+        "final_score": 45,
+        "change_amount": 3.24,
+        "change_percent": 7.76,
+        "adjustment_type": "CALIBRATION_ADJUSTMENT",
+        "summary": "Eritrea's Structure is placed at 45 (Fluid 3 <-> Certain 97). Within the framework range [13-71], 45 sits at ~56% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_d3-c4",
+          "W_institutional_analyst_d3-c6",
+          "W_institutional_analyst_d3-c3"
+        ],
+        "supporting_frameworks": [],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Weakest signal of the four dimensions (signal_strength=0.3193, no supporting frameworks, consensus=49.01 near midpoint). CI is wide (12.82-70.70). Score of 45 reflects a slight lean toward structure driven by authoritarian governance and rigid national service scheduling, without overclaiming given the near-midpoint consensus. Midpoint proximity justified by quantitative consensus near 49 and qualitative ambiguity. Why not lower: no strong evidence for high ambiguity tolerance; authoritarian context suggests some structure preference. Why not higher: consensus at 49.01 does not support strong certainty orientation; ZERO_DATA prevents confident upward movement.",
+        "comparativist_reasoning": "Comparative: Structure=44 relative to East Africa peers and anchors. Eritrea's authoritarian governance and rigid national service indicate a preference for structure, similar to Rwanda, yet slightly below the regional mean.",
+        "country_specialist_reasoning": "Eritrea's authoritarian governance and rigid national service scheduling suggest a preference for structure, though not extreme. The score reflects a slight lean towards structure while acknowledging the consensus near the midpoint.",
+        "skeptic_reasoning": "Adversarial check on Structure=41: resist midpoint bias and compression.",
+        "integrator_decision": "Structure adjusted from baseline 41.8 to 45 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.69 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Structure: ZERO_DATA country requires ≥4 qualitative references; fewer than 4 qualifying references found for this dimension.",
+        "calibration_effect": "Calibration: flagged near midpoint, profile-compression check applied.",
+        "confidence_explanation": "Confidence LOW (score 0.432): coverage=0.2, agreement=0.891, evidence=0.605, stability=0.6.",
+        "counterfactual": {
+          "selected_score": 45,
+          "considered_alternatives": [
+            41,
+            42,
+            44
+          ],
+          "why_rejected": {
+            "41": "41 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "42": "42 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "44": "44 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "45 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (71), so pushing past 45 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (41) and the CI floor (13), so going below 45 would understate the measured signal.",
+        "integrator_recommendation": 48.06,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -3.06,
+        "absolute_score_rationale": "Eritrea sits at 45 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Eritrea's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Eritrea's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Eritrea that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Eritrea that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Eritrea that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 45 means everyday life in Eritrea leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 45 is justified: Eritrea sits at 45 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (41) and the CI floor (13), so going below 45 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (71), so pushing past 45 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_d3-c4, W_institutional_analyst_d3-c6, W_institutional_analyst_d3-c3.",
+        "executive_explanation": "Eritrea sits at 45 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (71), so pushing past 45 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (41) and the CI floor (13), so going below 45 would understate the measured signal.",
+        "research_explanation": "Adjustment type CALIBRATION_ADJUSTMENT; |delta|=3.24. Framework consensus=49.01, signal_strength=0.3193, conflict=0.0. Within the framework range [13-71], 45 sits at ~56% of the permitted span. Confidence LOW (score 0.432): coverage=0.2, agreement=0.891, evidence=0.605, stability=0.6."
+      },
+      {
+        "country": "Eritrea",
+        "iso3": "ERI",
+        "dimension": "D4",
+        "baseline_score": 49.88211611,
+        "final_score": 33,
+        "change_amount": -16.88,
+        "change_percent": -33.84,
+        "adjustment_type": "CALIBRATION_ADJUSTMENT",
+        "summary": "Eritrea's Drive is placed at 33 (Accepting 3 <-> Striving 97). Within the framework range [17-83], 33 sits at ~25% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_d4_support_3",
+          "W_historical_analyst_d4_counter_1",
+          "W_cultural_anthropologist_C8"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars ascription_achievement consensus=28.74 (signal_strength=0.4409, zero conflict) places Eritrea firmly on the accepting/ascriptive side. Score of 30 reflects this signal while staying above CI floor (16.69). Qualitative support: subsistence economy, ascriptive social hierarchy, liberation-era collective sufficiency ethos, and limited market-driven achievement culture all reinforce low Drive. Why not lower: CI floor is 16.69; the consensus at 28.74 does not justify extreme placement. Why not higher: all signals point well below Turkey anchor of 50; no evidence of strong achievement orientation.",
+        "comparativist_reasoning": "Comparative: Drive=31 relative to East Africa peers and anchors. Eritrea's cultural emphasis on sufficiency and contentment, rather than achievement, aligns with a more accepting orientation, akin to Madagascar and South Sudan.",
+        "country_specialist_reasoning": "Eritrea's cultural context, marked by ascription and acceptance, aligns with a lower score on the Drive dimension. The Trompenaars consensus supports this placement, indicating a cultural orientation towards harmony and sufficiency.",
+        "skeptic_reasoning": "Adversarial check on Drive=39: resist midpoint bias and compression.",
+        "integrator_decision": "Drive adjusted from baseline 49.9 to 33 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Drive: ZERO_DATA country requires ≥4 qualitative references; fewer than 4 qualifying references found for this dimension.",
+        "calibration_effect": "Calibration: profile-compression check applied.",
+        "confidence_explanation": "Confidence LOW (score 0.4116): coverage=0.2, agreement=0.748, evidence=0.506, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 33,
+          "considered_alternatives": [
+            30,
+            31,
+            39,
+            50
+          ],
+          "why_rejected": {
+            "30": "30 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "31": "31 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "39": "39 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "50": "50 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "33 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (83), so pushing past 33 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (17), so going below 33 would understate the measured signal.",
+        "integrator_recommendation": 42.58,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -9.58,
+        "absolute_score_rationale": "Eritrea sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Eritrea's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Eritrea that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Eritrea that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Eritrea that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Eritrea that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 33 means everyday life in Eritrea leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 33 is justified: Eritrea sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (17), so going below 33 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (83), so pushing past 33 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_d4_support_3, W_historical_analyst_d4_counter_1, W_cultural_anthropologist_C8.",
+        "executive_explanation": "Eritrea sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (83), so pushing past 33 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (17), so going below 33 would understate the measured signal.",
+        "research_explanation": "Adjustment type CALIBRATION_ADJUSTMENT; |delta|=16.88. Framework consensus=28.74, signal_strength=0.4409, conflict=0.0. Within the framework range [17-83], 33 sits at ~25% of the permitted span. Confidence LOW (score 0.4116): coverage=0.2, agreement=0.748, evidence=0.506, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "MDG",
+        "country": "Madagascar",
+        "d1": 40.56380059,
+        "d2": 42.95212955,
+        "d3": 46.71337599,
+        "d4": 50.81703115,
+        "relation": "regional"
+      },
+      {
+        "iso3": "RWA",
+        "country": "Rwanda",
+        "d1": 37.3654832,
+        "d2": 48.22991956,
+        "d3": 48.27880363,
+        "d4": 52.95520385,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SSD",
+        "country": "South Sudan",
+        "d1": 40.92030846,
+        "d2": 50.10653348,
+        "d3": 48.4294596,
+        "d4": 51.1715927,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SOM",
+        "country": "Somalia",
+        "d1": 41.59409861,
+        "d2": 44.5712653,
+        "d3": 48.97566568,
+        "d4": 53.47580071,
+        "relation": "regional"
+      },
+      {
+        "iso3": "KEN",
+        "country": "Kenya",
+        "d1": 33.0,
+        "d2": 40.0,
+        "d3": 47.0,
+        "d4": 56.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 18.0,
+        "reason": "Eritrea is below the South Korea Identity anchor (50) by 18.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 10.0,
+        "reason": "Eritrea is below the Turkey Expression anchor (50) by 10.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 17.0,
+        "reason": "Eritrea is below the Turkey Drive anchor (50) by 17.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 5.0,
+        "reason": "Eritrea is below the Colombia Structure anchor (50) by 5.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "ERI",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": false,
+            "detail": "range=13"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2', 'D3']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "flat_profile(range=13)",
+          "midpoint:D2,D3"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": true,
+        "profile_range": 13.0,
+        "midpoint_dimensions": [
+          "D2",
+          "D3"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": true,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Connell, D. (1997). Against All Odds: A Chronicle of the Eritrean Revolution. Red Sea Press.",
+        "source_type": "academic_book",
+        "data_point": "Liberation struggle collective sacrifice and communal identity reinforce collectivism (D1) and low individual achievement orientation (D4)",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0131"
+      },
+      {
+        "citation": "Hepner, T. R. (2009). Soldiers, Martyrs, Traitors, and Exiles: Political Conflict in Eritrea and the Diaspora. University of Pennsylvania Press.",
+        "source_type": "academic_book",
+        "data_point": "Mandatory national service and state-enforced collective duty reinforce group identity over individual autonomy (D1) and sufficiency over striving (D4)",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0132"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "ERI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity.",
+          "strongest_opposing": "A comparative study explicitly states that Eritrea’s dominant social ethos has been collective rather than individualistic.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "C1",
+            "C2",
+            "C3"
+          ],
+          "opposing_evidence_ids": [
+            "C4"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Eritrean greeting rituals are elaborate and emotionally expressive—ululation, hugging, kissing and tears feature prominently in social greetings.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.5,
+          "supporting_evidence_ids": [
+            "C5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Greetings are ritualized and failing to greet someone is a breach of social norms, indicating structured expectations in everyday interaction.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "C6",
+            "C7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Eritrean unaccompanied refugee minors emphasize relationships, spirituality and daily integration rather than achievement or competition.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "C8",
+            "C9"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 16.0,
+          "strongest_supporting": "Colonial-era Eritrean intellectuals described 'the centre of social life in Eritrea—outside large European centres—is, on the plateau, the family group; to which corresponds in the lowland, the tribe', documenting the primacy of group-based identity.",
+          "strongest_opposing": "Among Tigrinya-speaking highlanders (Eritrea's largest group), shared religion, land tenure systems, and kinship organisations create a relatively homogenous highland identity that somewhat transcends individual clan lines.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 24.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "d1-c1",
+            "d1-c2",
+            "d1-c3",
+            "d1-c4",
+            "d1-c5",
+            "d1-c6",
+            "d1-c7"
+          ],
+          "opposing_evidence_ids": [
+            "d1-cnt1",
+            "d1-cnt2"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 28.0,
+          "strongest_supporting": "Pervasive fear, uncertainty, and dissent-suppression—where dissent invites swift retribution—create collective cultural restraint on public emotional and political expression in Eritrea.",
+          "strongest_opposing": "Eritreans are noted for their hospitality and welcoming nature, with visitors often receiving a warm reception and generous hospitality, indicating openness and warmth in private/social contexts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 36.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "d2-c1",
+            "d2-c2",
+            "d2-c3",
+            "d2-c4",
+            "d2-c5"
+          ],
+          "opposing_evidence_ids": [
+            "d2-cnt1",
+            "d2-cnt2"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 72.0,
+          "strongest_supporting": "National Service became the main development device in Eritrea, mobilising tens of thousands of new recruits each year under strict military command—a uniquely extensive behavioural-ordering mechanism not found at this scale in neighbouring states.",
+          "strongest_opposing": "The state's efforts to create a strong militaristic citizenry through conscription are 'undermined as many thousands of citizens flee the country to avoid national service', showing widespread individual rejection of imposed structure.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "d3-c1",
+            "d3-c2",
+            "d3-c3",
+            "d3-c4",
+            "d3-c5",
+            "d3-c6"
+          ],
+          "opposing_evidence_ids": [
+            "d3-cnt1",
+            "d3-cnt2"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 42.0,
+          "strongest_supporting": "The national service project explicitly aimed to shape young Eritreans through military training and construction work under strict command—an achievement-discipline model focused on national development goals.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 42.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "d4-c1",
+            "d4-c2",
+            "d4-c3"
+          ],
+          "opposing_evidence_ids": [
+            "d4-cnt1",
+            "d4-cnt2",
+            "d4-cnt3"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Post-independence, the state actively discouraged ethnic solidarity in favor of national identity, but this national identity is individualising rather than collectivist in practice.",
+          "strongest_opposing": "The traditional Baito system (village council) still mediates many local decisions, emphasising consensus and collective responsibility.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "d1_support_1",
+            "d1_support_2",
+            "d1_support_3",
+            "d1_support_4"
+          ],
+          "opposing_evidence_ids": [
+            "d1_counter_1",
+            "d1_counter_2"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Bureaucratic encounters are scripted and formulaic; any emotional display is seen as unprofessional or dangerous.",
+          "strongest_opposing": "During festivals (e.g. Ethiopian Orthodox Epiphany, weddings), Eritreans engage in uninhibited dancing, singing, and emotional joy.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "d2_support_1",
+            "d2_support_2",
+            "d2_support_3",
+            "d2_support_4"
+          ],
+          "opposing_evidence_ids": [
+            "d2_counter_1",
+            "d2_counter_2"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Eritrean bureaucracy is highly unpredictable: laws are applied arbitrarily, procedures change without notice, and informal negotiation is the norm.",
+          "strongest_opposing": "Cultural emphasis on punctuality for religious events (Orthodox Church) but not for secular appointments.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "d3_support_1",
+            "d3_support_2",
+            "d3_support_3",
+            "d3_support_4"
+          ],
+          "opposing_evidence_ids": [
+            "d3_counter_1",
+            "d3_counter_2"
+          ]
+        },
+        {
+          "iso3": "ERI",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Eritrean refugees show strong achievement motivation: they outperform many other refugee groups in host-country educational and professional outcomes.",
+          "strongest_opposing": "National service is compulsory and indefinite; many young Eritreans are stuck in a 'waiting' limbo, suppressing ambition.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "d4_support_1",
+            "d4_support_2",
+            "d4_support_3",
+            "d4_support_4"
+          ],
+          "opposing_evidence_ids": [
+            "d4_counter_1",
+            "d4_counter_2"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "ERI",
+          "dimension": "D1",
+          "baseline_score": 37.90652362,
+          "specialist_recommendation": 37.0,
+          "specialist_confidence": 0.8233,
+          "evidence_strength": 0.5875,
+          "evidence_quality": 0.5984,
+          "disagreement_index": 1.0,
+          "specialist_influence_weight": 0.7162,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.72 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ERI",
+          "dimension": "D2",
+          "baseline_score": 47.35162121,
+          "specialist_recommendation": 39.333,
+          "specialist_confidence": 0.6767,
+          "evidence_strength": 0.4895,
+          "evidence_quality": 0.5481,
+          "disagreement_index": 0.3598,
+          "specialist_influence_weight": 0.5586,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ERI",
+          "dimension": "D3",
+          "baseline_score": 41.75948989,
+          "specialist_recommendation": 50.667,
+          "specialist_confidence": 0.7633,
+          "evidence_strength": 0.6048,
+          "evidence_quality": 0.5973,
+          "disagreement_index": 0.8892,
+          "specialist_influence_weight": 0.6923,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.69 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ERI",
+          "dimension": "D4",
+          "baseline_score": 49.88211611,
+          "specialist_recommendation": 49.0,
+          "specialist_confidence": 0.6333,
+          "evidence_strength": 0.5062,
+          "evidence_quality": 0.5318,
+          "disagreement_index": 0.4537,
+          "specialist_influence_weight": 0.564,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "ERI",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 59.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 59.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 52.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 52.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 23.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 23.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 55.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 55.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 40.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 40.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=43: differs by 5 from the statistician reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=48: differs by 18 from the statistician reading of 30.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 17.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=27: differs by 7 from the comparativist reading of 34.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=35: differs by 8 from the comparativist reading of 43.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=60: differs by 14 from the comparativist reading of 46.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 15.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=52: differs by 4 from the comparativist reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 22.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=38: differs by 11 from the country_specialist reading of 27.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=42: differs by 7 from the country_specialist reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=37: differs by 23 from the country_specialist reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=45: differs by 7 from the country_specialist reading of 52.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 6.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=32: differs by 6 from the devils_advocate reading of 38.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=38: differs by 4 from the devils_advocate reading of 42.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=45: differs by 8 from the devils_advocate reading of 37.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "ERI",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=30: differs by 15 from the devils_advocate reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "ERI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.5,
+          "evidence_count": 1,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 2,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 9,
+          "recommendation": 16.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 7,
+          "recommendation": 28.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 8,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 6,
+          "recommendation": 42.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 6,
+          "recommendation": 75.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 6,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 6,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "ERI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 6,
+          "recommendation": 65.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "ERI",
+        "score_diversity": 0.2375,
+        "source_diversity": 1.0,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7367,
+        "consensus_quality": 0.9155,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "ERI",
+      "country": "Eritrea",
+      "region": "East Africa",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 32,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.0,
+          "top_supporting_arguments": [
+            "Eritrea's 30-year liberation struggle forged a strong pan-Eritrean national identity that the PFDJ government uses to suppress sub-national (clan/ethnic) identities and foster national unity, introducing a supra-clan collective identity layer.",
+            "Among Tigrinya-speaking highlanders (Eritrea's largest group), shared religion, land tenure systems, and kinship organisations create a relatively homogenous highland identity that somewhat transcends individual clan lines.",
+            "Hofstede Individualism score for Eritrea is estimated at 55 (moderate-high), reflecting a mix of individual survivalism from war and traditional collectivism."
+          ],
+          "top_counter_arguments": [
+            "The Gezauti lineage system in highland Eritrea interlinks individuals and villages into an intricate kinship network shaping land access and social hierarchy, emphasizing collective identity.",
+            "Eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity.",
+            "Nation‑building efforts by the EPLF/PFDJ have promoted a unifying national identity over individual identities."
+          ],
+          "why_this_score": "Eritrea sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 38 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (49), so pushing past 32 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (32) and the CI floor (26), so going below 32 would understate the measured signal.",
+          "related_countries": [
+            "Madagascar",
+            "Rwanda",
+            "South Sudan",
+            "Somalia",
+            "Kenya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "d1-cnt1",
+              "source_id": "src-18",
+              "title": "Culture of Eritrea — Grokipedia",
+              "url": "https://grokipedia.com/page/Culture_of_Eritrea",
+              "author": "Grokipedia",
+              "publication_year": 2026,
+              "excerpt": "Eritrea's 30-year liberation struggle forged a strong pan-Eritrean national identity that the PFDJ government uses to suppress sub-national (clan/ethnic) identities and foster national unity, introducing a supra-clan collective identity layer.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d1-cnt2",
+              "source_id": "src-20",
+              "title": "Rethinking Kinship, Mobility and Citizenship across the Ethiopian-Eritrean Boundaries",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-319-53331-5_7",
+              "author": "Springer Nature",
+              "publication_year": 2017,
+              "excerpt": "Among Tigrinya-speaking highlanders (Eritrea's largest group), shared religion, land tenure systems, and kinship organisations create a relatively homogenous highland identity that somewhat transcends individual clan lines.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d1_support_1",
+              "source_id": "source_8",
+              "title": "Hofstede Insights: Eritrea",
+              "url": "https://www.hofstede-insights.com/country-comparison/eritrea/",
+              "author": "Hofstede Insights",
+              "publication_year": 2023,
+              "excerpt": "Hofstede Individualism score for Eritrea is estimated at 55 (moderate-high), reflecting a mix of individual survivalism from war and traditional collectivism.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 40,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.64,
+          "top_supporting_arguments": [
+            "Eritrean greeting rituals are elaborate and emotionally expressive—ululation, hugging, kissing and tears feature prominently in social greetings.",
+            "Eritreans are noted for their hospitality and welcoming nature, with visitors often receiving a warm reception and generous hospitality, indicating openness and warmth in private/social contexts.",
+            "Eritrea has a rich cultural heritage with strong traditions of storytelling, music, and dance across its nine ethnic groups, indicating expressive outlets that function within community settings."
+          ],
+          "top_counter_arguments": [
+            "Communication in the Eritrean workplace often values indirectness and politeness, particularly in formal settings; direct challenges to authority are uncommon and can be viewed as disrespectful.",
+            "Communication in Eritrea is indirect, focusing on harmony and avoiding confrontation—a pattern that diffuses tension and prioritises collective harmony over direct individual expression.",
+            "The Eritrean government shut down all independent media in 2001 and maintains blanket suppression of civil society, with no public space for political discussion or protest, structurally suppressing public expression."
+          ],
+          "why_this_score": "Eritrea sits at 40 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (41) and the CI ceiling (72), so pushing past 40 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (23), so going below 40 would understate the measured signal.",
+          "related_countries": [
+            "Madagascar",
+            "Rwanda",
+            "South Sudan",
+            "Somalia",
+            "Kenya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C5",
+              "source_id": "S6",
+              "title": "Culture of Greeting: From loud Smack kisses to the Shoulder‑bump!",
+              "url": "https://shabait.com/2016/09/21/culture-of-greeting-from-loud-smack-kisses-to-the-shoulder-bump/",
+              "author": "Eritrea Ministry Of Information",
+              "publication_year": 2016,
+              "excerpt": "Eritrean greeting rituals are elaborate and emotionally expressive—ululation, hugging, kissing and tears feature prominently in social greetings.",
+              "dimension": "D2",
+              "support_direction": "supports_neutral"
+            },
+            {
+              "claim_id": "d2-cnt1",
+              "source_id": "src-19",
+              "title": "Eritrea Culture - Food, Traditions & Etiquette | 360 Nations",
+              "url": "https://360nations.com/africa/eritrea/culture.html",
+              "author": "360 Nations",
+              "publication_year": 2024,
+              "excerpt": "Eritreans are noted for their hospitality and welcoming nature, with visitors often receiving a warm reception and generous hospitality, indicating openness and warmth in private/social contexts.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d2-cnt2",
+              "source_id": "src-19",
+              "title": "Eritrea Culture - Food, Traditions & Etiquette | 360 Nations",
+              "url": "https://360nations.com/africa/eritrea/culture.html",
+              "author": "360 Nations",
+              "publication_year": 2024,
+              "excerpt": "Eritrea has a rich cultural heritage with strong traditions of storytelling, music, and dance across its nine ethnic groups, indicating expressive outlets that function within community settings.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 45,
+          "confidence": "LOW",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.111,
+          "top_supporting_arguments": [
+            "Kinship systems such as Gezauti impose structured lineage rules, reflecting a cultural preference for social order and predictability.",
+            "Greetings are ritualized and failing to greet someone is a breach of social norms, indicating structured expectations in everyday interaction.",
+            "Eritrean workplaces often emphasise hierarchy and discipline, with respect for authority valued—a consistent, rule-ordered environment where roles are clearly defined."
+          ],
+          "top_counter_arguments": [
+            "The state's efforts to create a strong militaristic citizenry through conscription are 'undermined as many thousands of citizens flee the country to avoid national service', showing widespread individual rejection of imposed structure.",
+            "The national service system produces 'pervasive fear, uncertainty, and lack of opportunity', suggesting the lived psychological experience of Eritrean citizens involves high ambiguity and insecurity, counteracting the externally imposed structure.",
+            "Eritrean bureaucracy is highly unpredictable: laws are applied arbitrarily, procedures change without notice, and informal negotiation is the norm."
+          ],
+          "why_this_score": "Eritrea sits at 45 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (71), so pushing past 45 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (41) and the CI floor (13), so going below 45 would understate the measured signal.",
+          "related_countries": [
+            "Madagascar",
+            "Rwanda",
+            "South Sudan",
+            "Somalia",
+            "Kenya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C6",
+              "source_id": "S1",
+              "title": "Mai Weini, a Highland Village in Eritrea: A Study of the People, Their Livelihood, and Land Tenure During Times of Turbulence",
+              "url": "https://books.google.no/books?hl=no&id=GWbjAAAAMAAJ",
+              "author": "Kjetil Tronvoll",
+              "publication_year": 1998,
+              "excerpt": "Kinship systems such as Gezauti impose structured lineage rules, reflecting a cultural preference for social order and predictability.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C7",
+              "source_id": "S6",
+              "title": "Culture of Greeting: From loud Smack kisses to the Shoulder‑bump!",
+              "url": "https://shabait.com/2016/09/21/culture-of-greeting-from-loud-smack-kisses-to-the-shoulder-bump/",
+              "author": "Eritrea Ministry Of Information",
+              "publication_year": 2016,
+              "excerpt": "Greetings are ritualized and failing to greet someone is a breach of social norms, indicating structured expectations in everyday interaction.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d3-c1",
+              "source_id": "src-09",
+              "title": "Workplace Norms in Eritrea",
+              "url": "https://www.microcoms.net/employer-of-record-services-in-eritrea/",
+              "author": "Microcoms",
+              "publication_year": 2025,
+              "excerpt": "Eritrean workplaces often emphasise hierarchy and discipline, with respect for authority valued—a consistent, rule-ordered environment where roles are clearly defined.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 33,
+          "confidence": "LOW",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.546,
+          "top_supporting_arguments": [
+            "The ruling PFDJ party is 'intensely disciplined and driven by the self-reliance and nationalism forged in the 30-year struggle for independence'—an institutional culture valorising collective achievement and endurance.",
+            "The national service project explicitly aimed to shape young Eritreans through military training and construction work under strict command—an achievement-discipline model focused on national development goals.",
+            "Eritrea's cultural identity emphasises resilience and national pride as core virtues forged by the liberation struggle, representing a striving-endurance orientation at the collective level."
+          ],
+          "top_counter_arguments": [
+            "Eritrean unaccompanied refugee minors emphasize relationships, spirituality and daily integration rather than achievement or competition.",
+            "Gift‑giving and hospitality express social bonds and reciprocity, privileging relational harmony over performance.",
+            "National service is compulsory and indefinite; many young Eritreans are stuck in a 'waiting' limbo, suppressing ambition."
+          ],
+          "why_this_score": "Eritrea sits at 33 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (83), so pushing past 33 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (17), so going below 33 would understate the measured signal.",
+          "related_countries": [
+            "Madagascar",
+            "Rwanda",
+            "South Sudan",
+            "Somalia",
+            "Kenya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "d4-c1",
+              "source_id": "src-10",
+              "title": "Service for Life: State Repression and Indefinite Conscription in Eritrea",
+              "url": "https://www.hrw.org/report/2009/04/16/service-life/state-repression-and-indefinite-conscription-eritrea",
+              "author": "Human Rights Watch",
+              "publication_year": 2009,
+              "excerpt": "The ruling PFDJ party is 'intensely disciplined and driven by the self-reliance and nationalism forged in the 30-year struggle for independence'—an institutional culture valorising collective achievement and endurance.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d4-c2",
+              "source_id": "src-14",
+              "title": "The National Service Myth in Eritrea",
+              "url": "http://www.asmarino.com/articles/2009-the-national-service-myth-jn-eritrea",
+              "author": "Asmarino Independent",
+              "publication_year": 2009,
+              "excerpt": "The national service project explicitly aimed to shape young Eritreans through military training and construction work under strict command—an achievement-discipline model focused on national development goals.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d4-c3",
+              "source_id": "src-18",
+              "title": "Culture of Eritrea — Grokipedia",
+              "url": "https://grokipedia.com/page/Culture_of_Eritrea",
+              "author": "Grokipedia",
+              "publication_year": 2026,
+              "excerpt": "Eritrea's cultural identity emphasises resilience and national pride as core virtues forged by the liberation struggle, representing a striving-endurance orientation at the collective level.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

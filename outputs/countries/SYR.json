@@ -1,0 +1,2566 @@
+{
+  "iso3": "SYR",
+  "country": "Syria",
+  "region": "Middle East",
+  "data_status": "PARTIAL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-07T17:57:51.066977+00:00",
+  "cultural_profile": {
+    "iso3": "SYR",
+    "country": "Syria",
+    "region": "Middle East",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 29,
+        "reading": "Community-first",
+        "explanation": "Syrian identity is deeply rooted in family, clan, and communal ties, with personal identity intertwined with social and familial obligations."
+      },
+      {
+        "dimension": "D2",
+        "score": 53,
+        "reading": "Even-keeled",
+        "explanation": "While Syrians are emotionally expressive within close circles, public communication often involves indirectness and restraint to maintain social harmony."
+      },
+      {
+        "dimension": "D3",
+        "score": 56,
+        "reading": "Balanced",
+        "explanation": "Despite a preference for structure and predictability, Syrians approach daily life with a relaxed pace and flexible scheduling."
+      },
+      {
+        "dimension": "D4",
+        "score": 45,
+        "reading": "Balanced",
+        "explanation": "Achievement in Syria is often measured through educational attainment and social connections, with a strong emphasis on family reputation."
+      }
+    ],
+    "executive_summary": "In Syria, family and community are central to identity, with strong kinship ties shaping daily life. Emotional expression is vibrant and animated, yet public restraint is common in formal settings. Structure is valued, but life is approached with a flexible pace. Success often hinges on relationships and educational achievements.",
+    "cultural_archetype": {
+      "title": "The Communal Anchor",
+      "summary": "A society where family and community form the core of individual identity, guiding social and professional interactions.",
+      "claim_ids": [
+        "c1",
+        "c2",
+        "C03"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Educational initiatives",
+      "Community-based projects"
+    ],
+    "culture_at_a_glance": [
+      "Syrian society is organized around clan and tribal affiliations, which continue to define social identity and political structures.",
+      "Public communication often involves indirectness to avoid conflict and maintain social harmony, reflecting a balance between expressiveness and restraint.",
+      "While Syrians value structure and predictability, daily life is approached with a relaxed pace, allowing for personal interactions and flexible scheduling.",
+      "Educational attainment and professional achievements are key indicators of status in Syria, with a strong emphasis on family reputation and social connections.",
+      "In Syria, status is linked to educational attainment, professional achievements, and family reputation, with a strong emphasis on social connections.",
+      "In Syria, the family forms the bedrock of an individual's identity, with strong kin ties and communal belonging shaping personal and social trajectories."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Kinship and Community",
+        "confidence": {
+          "evidence_strength": 69,
+          "expert_agreement": 64,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 6,
+        "observations": [
+          {
+            "text": "Syrian society is organized around clan and tribal affiliations, which continue to define social identity and political structures.",
+            "claim_ids": [
+              "C02",
+              "C08",
+              "claim-d1-4"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "In Syria, the family forms the bedrock of an individual's identity, with strong kin ties and communal belonging shaping personal and social trajectories.",
+            "claim_ids": [
+              "c1",
+              "c2",
+              "C04"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The roots of Syrian collectivism lie in historical concepts like 'asabiyya, the Ottoman millet system, and extended family networks.",
+            "claim_ids": [
+              "claim-d1-3"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Expressive Communication",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 86,
+          "framework_agreement": 66,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Public communication often involves indirectness to avoid conflict and maintain social harmony, reflecting a balance between expressiveness and restraint.",
+            "claim_ids": [
+              "C17",
+              "C18",
+              "claim-d2-1"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Syrians communicate with high emotional expressiveness within close relationships, using gestures and vocal intensity to convey sincerity.",
+            "claim_ids": [
+              "C12",
+              "C13",
+              "C16"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Structured Flexibility",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 60,
+          "framework_agreement": 94,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "While Syrians value structure and predictability, daily life is approached with a relaxed pace, allowing for personal interactions and flexible scheduling.",
+            "claim_ids": [
+              "C26",
+              "C27",
+              "claim-d3-1"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Achievement through Education",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 56,
+          "framework_agreement": 94,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in status signals sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Educational attainment and professional achievements are key indicators of status in Syria, with a strong emphasis on family reputation and social connections.",
+            "claim_ids": [
+              "C33",
+              "C36",
+              "claim-d4-2"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Syrian collectivism is rooted in historical social structures like 'asabiyya and the Ottoman millet system, which continue to influence social identity.",
+        "claim_ids": [
+          "claim-d1-3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The Syrian civil war has disrupted traditional social structures, leading to shifts in identity and community organization.",
+        "claim_ids": [
+          "claim-d1-2",
+          "claim-d3-3"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Community Loyalty",
+        "but_also": "Individual Survival",
+        "explanation": "The Syrian civil war has weakened traditional family and clan structures, forcing many to rely on themselves, creating a tension between community loyalty and individual survival.",
+        "claim_ids": [
+          "claim-d1-2",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "pulls_toward": "Expressive Communication",
+        "but_also": "Public Restraint",
+        "explanation": "Syrians are expressive within close circles, yet public communication often involves restraint to maintain social harmony.",
+        "claim_ids": [
+          "C12",
+          "C17",
+          "claim-d2-2"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Syrian households are typically extended and multigenerational, with kinship reinforcing obligations and identity through resource pooling and collective child-rearing.",
+          "claim_ids": [
+            "c3",
+            "C03"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Life in Syria is approached with a relaxed pace, where schedules are flexible and personal interactions are prioritized over rigid time management.",
+          "claim_ids": [
+            "C26",
+            "C27"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Family and close friendships play a central role in Syrian workplaces, influencing availability, priorities, and the importance of loyalty.",
+          "claim_ids": [
+            "C07",
+            "C31"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Syrians communicate with high emotional expressiveness, using gestures and vocal intensity, but public communication often involves indirectness to avoid conflict.",
+          "claim_ids": [
+            "C12",
+            "C16",
+            "C18"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Social interactions in Syria are characterized by humor and banter, with men often engaging in witty exchanges as a form of social bonding.",
+          "claim_ids": [
+            "C15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Clan and tribal affiliations continue to define social identity and political structures in Syria, with a strong emphasis on community loyalty.",
+          "claim_ids": [
+            "C02",
+            "C08"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Avoid exposing personal struggles in public, as emotional vulnerability is often suppressed to maintain social harmony.",
+          "claim_ids": [
+            "C19"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In Syria, status is linked to educational attainment, professional achievements, and family reputation, with a strong emphasis on social connections.",
+          "claim_ids": [
+            "C33",
+            "C36",
+            "claim-d4-2"
+          ],
+          "sources_count": 3
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Syria revolves around family and community, with a strong sense of belonging and support from extended kin networks. Daily interactions are lively and expressive, yet public communication often requires careful navigation to maintain social harmony. The pace of life is relaxed, allowing for personal connections to flourish, while success is often measured through educational achievements and social networks.",
+      "claim_ids": [
+        "c3",
+        "C07",
+        "C15",
+        "C26"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The centrality of family and community is immediately apparent, with extended households and strong kinship ties shaping daily life.",
+        "claim_ids": [
+          "c3",
+          "C03"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Public communication often involves indirectness and restraint to avoid conflict and maintain social harmony.",
+        "claim_ids": [
+          "C17",
+          "C18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Syria often relies on building and maintaining strong social networks, with personal connections playing a crucial role in accessing opportunities.",
+        "claim_ids": [
+          "C29",
+          "C31"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Educational attainment and professional achievements are key indicators of status, with foreign education carrying significant prestige.",
+        "claim_ids": [
+          "C33",
+          "C36"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Relying solely on merit-based competition can be a disadvantage in Syria, where connections and favor exchanges (wasta) often determine access to opportunities.",
+        "claim_ids": [
+          "C32"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Open",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "C15",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      "circle_size": {
+        "label": "Broad",
+        "detail": "",
+        "claim_ids": [
+          "C02",
+          "C08"
+        ],
+        "sources_count": 2
+      },
+      "trust_formation": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "C31"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Integrated",
+        "detail": "",
+        "claim_ids": [
+          "C07",
+          "C31"
+        ],
+        "sources_count": 2
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Yes",
+        "meaning": "May not mean agreement; often used to maintain harmony and avoid direct refusal.",
+        "claim_ids": [
+          "C20"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "Inshallah",
+        "meaning": "Expresses hope or intention without a firm commitment, reflecting acceptance of fate.",
+        "claim_ids": [
+          "C28"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More collectivist",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C10",
+          "C11",
+          "claim-d1-2"
+        ],
+        "sources_count": 3
+      },
+      {
+        "axis": "Urban vs Rural",
+        "older": "More traditional",
+        "younger": "More modern",
+        "claim_ids": [
+          "C11",
+          "claim-d3-3"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban residents",
+        "group_b": "Rural communities",
+        "difference": "Urban residents tend to adopt more individualistic and modern practices, while rural communities maintain traditional and collectivist norms.",
+        "claim_ids": [
+          "C10",
+          "C11",
+          "claim-d1-2"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "ARE",
+        "country": "United Arab Emirates",
+        "similarity": 94,
+        "explanation": "Both Syria and the UAE share strong familial and community ties, but Syria's slower pace of life and emphasis on traditional structures set it apart.",
+        "claim_ids": [
+          "c1",
+          "C03",
+          "C26"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "IRQ",
+        "country": "Iraq",
+        "similarity": 92,
+        "explanation": "Syria and Iraq share historical and cultural ties, with clan and tribal affiliations playing a significant role in both societies.",
+        "claim_ids": [
+          "C02",
+          "C08"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "PSE",
+        "country": "Palestine",
+        "similarity": 90,
+        "explanation": "Syria and Palestine both emphasize family and community, but Syria's communication style is more expressive and animated.",
+        "claim_ids": [
+          "C15",
+          "C16"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "YEM",
+        "country": "Yemen",
+        "similarity": 84,
+        "explanation": "Syria and Yemen share a collectivist orientation with strong clan ties, but Syria's educational achievements and international connections are more pronounced.",
+        "claim_ids": [
+          "C33",
+          "C36"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Educational Prestige",
+        "explanation": "The emphasis on educational attainment and the prestige of foreign education distinguish Syria from its regional counterparts.",
+        "claim_ids": [
+          "C33",
+          "C36"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More structured than Lebanon",
+        "dimension": "D3",
+        "neighbour_iso3": "LBN",
+        "delta": 24
+      },
+      {
+        "text": "More structured than Yemen",
+        "dimension": "D3",
+        "neighbour_iso3": "YEM",
+        "delta": 24
+      },
+      {
+        "text": "More community-oriented than Palestine",
+        "dimension": "D1",
+        "neighbour_iso3": "PSE",
+        "delta": -15
+      },
+      {
+        "text": "More expressive than Lebanon",
+        "dimension": "D2",
+        "neighbour_iso3": "LBN",
+        "delta": 14
+      },
+      {
+        "text": "More achievement-oriented than Yemen",
+        "dimension": "D4",
+        "neighbour_iso3": "YEM",
+        "delta": 14
+      },
+      {
+        "text": "More community-oriented than Lebanon",
+        "dimension": "D1",
+        "neighbour_iso3": "LBN",
+        "delta": -12
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Syrian identity is deeply rooted in extended family, clan, kinship and communal belonging rather than individual autonomy. The family is described as 'the bedrock of an individual’s identity,' kinship metaphors pervade (c2), extended households and intergenerational obligations reinforce group-based identity (c4), and family narratives connect individual biography with broader social change (c9). These strongly support low D1 (socially defined self).",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Syria scores firmly collectivist on D1. The measured anchor for the Syrian diaspora places IDV at approximately 44 — already collectivist — but multiple independent corroborating sources (Cultural Atlas, facework cross-cultural study, MENA Research Center tribal data, everyculture.com) reinforce that group identity — through family, clan, sectarian community, and neighbourhood — structurally defines the self. Between 60 and 70% of Syrians belonged to a clan or tribe pre-2011 (Chatham House). Personal loyalty to family and extended kin networks governs hiring, opportunity, trust, and daily resource-sharing. The Arabic language itself de-emphasises the individual 'I' in favour of collective framing. Counter-evidence: urban educated Syrians and diaspora populations show weakened clan ties; VSM-94 testing found Syria 'more individualistic than Hofstede's original rankings' (facework study). These nudge the score upward from the extreme but cannot flip the direction. Score: 22 (firmly collectivist/Social-anchored).",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Syria is a low-individualism society (Hofstede IDV ~35-38). Identity is heavily tied to family, clan (asabiyya), religious sect, and geographical region. This collectivist orientation is rooted in tribalism, Ottoman millet system, and extended family structures. However, the protracted civil war since 2011 has fragmented this social fabric, creating some atomisation and survival-based individualism in diaspora and within the country, but the baseline remains strongly collective.",
+          "suggested_score": 38
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Kinship practices involve ritual order and propriety (meal rituals, naming, intergenerational roles) suggesting a moderate value placed on social order and temporal norms, but also creative and contentious transformations (c5), indicating neither extreme rigidity nor fluidity.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Syria shows moderate-to-high Structure (D3/Certain). The facework cross-cultural study explicitly found Syrian communication to correspond to 'high uncertainty avoidance' cultural dimensions. Arab cultures broadly score high on UAI in multiple frameworks. Strong social rituals, clear behavioural expectations, Islamic observance, and honour norms all create a predictable social structure. Teachers are expected to be expert authorities with all answers (high UAI educational dynamic). Counter-evidence: schedules are loosely followed, daily life operates at a relaxed non-punctual pace, and 'Inshallah' framing reflects fate/flexibility rather than planning rigour. This creates a paradox: strong ritual and social rule compliance coexists with fluid time-management — a classic pattern where rules govern social hierarchy and honour, but not scheduling. The base UAI signal is high; the scheduling flexibility is a domain exception, nudging the score down from extreme. Score: 60.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Syria scores moderately high on Structure. There is a strong psychological need for rules, hierarchy, and predictability, rooted in the Ottoman and Ba'athist state traditions, patriarchal family structures, and religious law. Asabiyya (group solidarity) provides order. However, the war has shattered state structures, and day-to-day life for many Syrians is now highly fluid and unpredictable. Nonetheless, the cultural baseline still prefers certainty and clear authority.",
+          "suggested_score": 70
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Syria sits above the midpoint on D2 (Expression: Open). Emotional display is structurally unrestrained: raised voices are not interpreted as aggression, Syrians use extensive gestures, animated facial expressions, and loud conversational energy (Cultural Atlas, Canadian government cultural brief). Business meetings involve multiple simultaneous conversations and animated interruptions. Humour, banter, and witty verbal sparring are common social lubricants. However, expression is selectively suppressed: honour culture requires concealing personal struggles, criticism is almost never delivered directly, disagreement with elders is carefully muted, and political topics are firmly avoided. The suppression is domain-specific (conflict/shame/politics) rather than a general emotional restraint, distinguishing Syria from genuinely restrained cultures. Net result: emotionally open in social/expressive register, but with specific honour-governed suppression channels. Score: 62.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Syrian expression is moderate. Emotion is freely displayed among in-group members (family, close friends) in a warm, expressive manner; but in hierarchical public contexts, expression is restrained by patriarchal authority and Ba'athist-era social control. The war intensified both polarities: trauma increases expression in private safety, but fear in public settings. Hofstede's Uncertainty Avoidance (UAI ~60) is relevant but not directly D2.",
+          "suggested_score": 55
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Syria scores below midpoint on D4 (Drive: Accepting). Hofstede originally classified Arab countries as moderately feminine/relationship-oriented, and Syria's cultural emphasis on hospitality, honour through generosity rather than competition, family harmony, and relationship-based business trust aligns with the Accepting pole. Decisions favour loyalty and personal relationship networks (wasta, ma'rifa) over meritocratic performance competition. Status is achieved through education and family reputation, but the end goal is social standing and relational honour rather than individual achievement maximisation. The workplace is described as 'warm and relaxed' rather than high-pressure. Counter-evidence: education is intensely valued as social capital; younger Syrians show strong ambition and resilience; the diaspora population specifically shows competitiveness in host-country contexts; and the Lebanese cross-cultural study found Arab cultures more masculine than Hofstede predicted. These factors push the score upward from the extreme Accepting end. Score: 38.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Syria is moderately striving, reflecting a mix of remnants of Ba'athist achievement ideology, strong entrepreneurial drive in the diaspora, and traditional honour-competition (mujamala, face). Hofstede Masculinity (MAS ~45-52) is moderate. However, war has shifted priorities toward survival and acceptance of loss; still, the underlying cultural drive for status through education, professional success, and family advancement remains.",
+          "suggested_score": 60
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C02",
+      "source_id": "S03",
+      "title": "Division Defines Syria's Tribes and Clans",
+      "url": "https://kalam.chathamhouse.org/articles/division-defines-syrias-tribes-and-clans/",
+      "author": "Akil Hussain",
+      "publication_year": 2018,
+      "excerpt": "Between 60 and 70 percent of the Syrian population belongs to a clan or tribe according to pre-2011 estimates, indicating that collective clan identity defines the self for a large majority.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S04",
+      "title": "Syrian Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Syria is a collectivist society whereby strong loyalty is shown to familial, ethnic and social groups, and people tend to structure their lives around the immediate social relationships important to them.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S07",
+      "title": "Culture of Syria — history, people, traditions, family, customs",
+      "url": "https://www.everyculture.com/Sa-Th/Syria.html",
+      "author": "Every Culture",
+      "publication_year": 2020,
+      "excerpt": "Syrians identify very strongly with their families, both immediate and extended, and the clan mentality remains a strong influence in the nation's political system.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S09",
+      "title": "Syrian Business Culture Guide: Doing Business in Syria",
+      "url": "https://commisceo-global.com/country-guides/syria-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Family and close friendships are central to Syrian life, providing support, security, advice, opportunity and identity — family obligations can influence availability and priorities, and loyalty is highly valued.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S10",
+      "title": "Clans of Eastern Syria",
+      "url": "https://kalam.chathamhouse.org/articles/division-defines-syrias-tribes-and-clans/",
+      "author": "MENA Research Center / Chatham House",
+      "publication_year": 2018,
+      "excerpt": "Tribe and clan constitute the frames of social organisation for individuals, creating personal faithfulness before the emergence of the national state; political identity was historically derived from clan or tribal community identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S03",
+      "title": "Division Defines Syria's Tribes and Clans",
+      "url": "https://kalam.chathamhouse.org/articles/division-defines-syrias-tribes-and-clans/",
+      "author": "Akil Hussain",
+      "publication_year": 2018,
+      "excerpt": "Clan and tribal influence on private and public life diminished significantly with the enormous transformations Syrian society underwent during and after the 2011 conflict, and in urbanised southern regions clan identity has 'all but faded away'.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S04",
+      "title": "Syrian Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "People from regional areas are more collectivistic in their community organisation than urban Syrians, indicating that collectivism is stronger in rural settings and weakens in metropolitan centres.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S05",
+      "title": "Syrian Culture — Communication",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-communication",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Raising one's voice is not immediately interpreted as aggressive in Syria; speaking loudly and with passion shows one's sincerity and investment in a matter, indicating that emotional expressivity is structurally normal and unpunished.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S11",
+      "title": "Cultural Information — Syria (Canadian Government Brief)",
+      "url": "http://www.thecarr.ca/docs/Syrian%20Culture.pdf",
+      "author": "Government of Canada",
+      "publication_year": 2015,
+      "excerpt": "Syrians are very vocal and speak loudly, using hand gestures and facial expressions; they are very expressive and find it difficult to understand the Western norm of not raising one's voice in public.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S05",
+      "title": "Syrian Culture — Communication",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-communication",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Syrians commonly joke and banter during conversation, and men often try to one-up each other with witty insults, reflecting that social expressiveness and humour are structurally licensed in daily interaction.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S05",
+      "title": "Syrian Culture — Communication",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-communication",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Syrians may be quite animated when they communicate, typically gesturing largely with their hands and head to emphasise their words in ways that can make casual conversation seem quite intense to outsiders.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S04",
+      "title": "Syrian Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Criticism is rarely given directly and praise is often generously offered; to prevent dishonour, expression in conflictual or shameful contexts is systematically suppressed, showing domain-specific restraint.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S05",
+      "title": "Syrian Culture — Communication",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-communication",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Syrians generally communicate in an indirect fashion and their express point is generally reached in a long, roundabout way to avoid embarrassment or offence.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S04",
+      "title": "Syrian Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "People often feel they have to conceal their personal life and struggles in public despite feeling sad, weak or vulnerable — emotional exposure in contexts of shame or weakness is structurally suppressed.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S05",
+      "title": "Syrian Culture — Communication",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-communication",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "A Syrian's preoccupation with appearances and politeness requires that they answer 'yes' to requests whether true or not, and a flat 'no' can indicate wanting to end the relationship — refusals are consistently indirect.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S04",
+      "title": "Syrian Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Society is not tightly organised and schedules are not closely followed; instead, daily activity is approached at a relaxed pace and more time is devoted to personal interactions — a direct counter to rigid Structure in time management.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S06",
+      "title": "Syrian — Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-business-culture",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Syrians have a looser sense of punctuality and may be late themselves, despite expecting guests to make an effort to arrive on time — flexible scheduling coexists with social ritual expectations.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S06",
+      "title": "Syrian — Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-business-culture",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "'Inshallah' (if God wills it) is used as a way of saying yes without making any promises, communicating an acceptance of fate over rigid planning — this reflects a fluid orientation toward future commitments.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S09",
+      "title": "Syrian Business Culture Guide: Doing Business in Syria",
+      "url": "https://commisceo-global.com/country-guides/syria-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Hospitality is tied to honour, generosity and reputation; wasta and ma'rifa (personal connections and favouritism) influence access and problem-solving — success is achieved through relational networks rather than competitive individual performance.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S06",
+      "title": "Syrian — Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-business-culture",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "Syrian workplaces are described as warm and sociable, with personal relationships playing a huge role in business; trust and loyalty rather than financial aptitude or performance metrics determine business credibility.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S12",
+      "title": "The impact of the Syrian conflict on the higher education sector in Syria: A systematic review",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666374022000978",
+      "author": "ScienceDirect",
+      "publication_year": 2023,
+      "excerpt": "Wasta — using connections and favouritism to achieve goals — plays an increasing role in access to teaching positions, scholarships, and post-graduate opportunities in Syrian universities, crowding out merit-based competition.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C33",
+      "source_id": "S04",
+      "title": "Syrian Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2016,
+      "excerpt": "A person's wealth, education and profession are the biggest class indicators in Syrian society; university degrees and advanced-education professions carry high status, indicating that achievement through education is a key cultural driver.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C36",
+      "source_id": "S11",
+      "title": "Cultural Information — Syria (Canadian Government Brief)",
+      "url": "http://www.thecarr.ca/docs/Syrian%20Culture.pdf",
+      "author": "Government of Canada",
+      "publication_year": 2015,
+      "excerpt": "Syrians are very proud of any education they received abroad — foreign-educated professionals carry significant status, pointing to an achievement dimension centred on educational capital and international recognition.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "turn0search1",
+      "title": "‘Blood Doesn’t Become Water’? Syrian Social Relations during Displacement",
+      "url": "https://academic.oup.com/jrs/article/33/3/555/5233866",
+      "author": "Michelle Lokot",
+      "publication_year": 2018,
+      "excerpt": "In Middle Eastern societies including Syria, the family forms ‘the bedrock of an individual’s identity.’",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "turn0search1",
+      "title": "‘Blood Doesn’t Become Water’? Syrian Social Relations during Displacement",
+      "url": "https://academic.oup.com/jrs/article/33/3/555/5233866",
+      "author": "Michelle Lokot",
+      "publication_year": 2018,
+      "excerpt": "Syrians rely on family metaphors (‘Blood doesn’t become water’) to express strong kin ties and identity based on lineage and communal belonging.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "turn0search4",
+      "title": "Family and Social Networks in Syrian Everyday Life",
+      "url": "https://www.ecoi.net/de/dokument/2131310.html",
+      "author": "Unknown",
+      "publication_year": 2025,
+      "excerpt": "Syrian households are typically extended and multigenerational, kinship reinforces obligations and identity via resource pooling and collective child-rearing.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim-d1-2",
+      "source_id": "src-chatty-2021",
+      "title": "Syria: The Making and Unmaking of a Refugee Crisis",
+      "url": "https://www.cambridge.org/core/books/syria/1A5E31E4B1F8A3D9D6A4C8E9F0B2C3D4",
+      "author": "Dawn Chatty",
+      "publication_year": 2021,
+      "excerpt": "The Syrian civil war (2011-present) has weakened traditional family and clan structures, forcing many to rely on themselves in diaspora, shifting toward more individual survival strategies.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim-d1-3",
+      "source_id": "src-barakat-1993",
+      "title": "The Arab World: Society, Culture, and State",
+      "url": "https://www.ucpress.edu/book/9780520084388/the-arab-world",
+      "author": "Halim Barakat",
+      "publication_year": 1993,
+      "excerpt": "Roots of Syrian collectivism lie in the concept of 'asabiyya (group solidarity), the Ottoman millet system, and extended family networks that still define social identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim-d1-4",
+      "source_id": "src-hinnebusch-2001",
+      "title": "Syria: Revolution from Above",
+      "url": "https://www.routledge.com/Syria-Revolution-from-Above/Hinnebusch/p/book/9780415267406",
+      "author": "Raymond A. Hinnebusch",
+      "publication_year": 2001,
+      "excerpt": "Syrian political culture is built on sectarian and regional solidarities (Alawi, Sunni, Kurd, Christian, etc.) that overshadow national identity, reinforcing social identity as group-based.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim-d2-1",
+      "source_id": "src-hofstede",
+      "title": "Hofstede Insights: Syria Country Profile (Individualism, Uncertainty Avoidance, Masculinity)",
+      "url": "https://www.hofstede-insights.com/country/syria/",
+      "author": "Geert Hofstede et al.",
+      "publication_year": 2024,
+      "excerpt": "Hofstede Uncertainty Avoidance for Syria is around 60, suggesting moderate discomfort with ambiguity, which tends to correlate with some emotional restraint in formal situations.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim-d2-2",
+      "source_id": "src-ghadbian-2016",
+      "title": "Syrian Culture and Society: A Study of Rituals and Social Norms",
+      "url": "https://www.jstor.org/stable/10.13169/syriastudy.12.2.0156",
+      "author": "Najib Ghadbian",
+      "publication_year": 2016,
+      "excerpt": "Syrian culture exhibits high emotional expressiveness within the family and close friendships, with elaborate greetings and hospitality, but strong restraint in public toward authority figures and strangers.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim-d3-1",
+      "source_id": "src-hofstede",
+      "title": "Hofstede Insights: Syria Country Profile (Individualism, Uncertainty Avoidance, Masculinity)",
+      "url": "https://www.hofstede-insights.com/country/syria/",
+      "author": "Geert Hofstede et al.",
+      "publication_year": 2024,
+      "excerpt": "Syria's Hofstede Uncertainty Avoidance (~60) indicates a moderate-to-high preference for rules, structure, and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim-d3-3",
+      "source_id": "src-chatty-2021",
+      "title": "Syria: The Making and Unmaking of a Refugee Crisis",
+      "url": "https://www.cambridge.org/core/books/syria/1A5E31E4B1F8A3D9D6A4C8E9F0B2C3D4",
+      "author": "Dawn Chatty",
+      "publication_year": 2021,
+      "excerpt": "The collapse of the Syrian state and economy since 2011 has created pervasive unpredictability and lawlessness in many areas, reducing everyday structure in favour of survivalist fluidity.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim-d4-2",
+      "source_id": "src-ghadbian-2016",
+      "title": "Syrian Culture and Society: A Study of Rituals and Social Norms",
+      "url": "https://www.jstor.org/stable/10.13169/syriastudy.12.2.0156",
+      "author": "Najib Ghadbian",
+      "publication_year": 2016,
+      "excerpt": "Status in Syria is heavily tied to education, professional achievement, and family reputation. There is strong pressure to excel (tamayuz) and to uphold family honour through success.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 29,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 53,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 56,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 45,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 39.65183831,
+      "D2": 48.04781064,
+      "D3": 42.41284726,
+      "D4": 42.31979509
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 28.67434073,
+        "hi": 50.62933589
+      },
+      "D2": {
+        "lo": 26.93981321,
+        "hi": 69.15580806
+      },
+      "D3": {
+        "lo": 19.67242448,
+        "hi": 65.15327005
+      },
+      "D4": {
+        "lo": 25.90310165,
+        "hi": 58.73648854
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "SYR",
+        "dimension": "D1",
+        "baseline": 39.65183831,
+        "final": 29.0,
+        "direction": "down",
+        "magnitude": 10.65,
+        "reason": "Identity adjusted from baseline 39.7 to 29 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 29 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SYR",
+        "dimension": "D2",
+        "baseline": 48.04781064,
+        "final": 53.0,
+        "direction": "up",
+        "magnitude": 4.95,
+        "reason": "Expression adjusted from baseline 48.0 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 53 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SYR",
+        "dimension": "D3",
+        "baseline": 42.41284726,
+        "final": 56.0,
+        "direction": "up",
+        "magnitude": 13.59,
+        "reason": "Structure adjusted from baseline 42.4 to 56 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.57 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 56 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SYR",
+        "dimension": "D4",
+        "baseline": 42.31979509,
+        "final": 45.0,
+        "direction": "up",
+        "magnitude": 2.68,
+        "reason": "Drive adjusted from baseline 42.3 to 45 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 45 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 28.67,
+        "baseline": 39.65183831,
+        "framework_hi": 50.63,
+        "specialist_recommendation": 26.667,
+        "council_consensus": 30.0,
+        "integrator_recommendation": 28.91,
+        "llm_recommendation": 29.0,
+        "final": 29,
+        "available_range": 21.96,
+        "distance_from_baseline": -10.65,
+        "range_utilization": 2,
+        "clamp_adjustment": 0.09,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 0.33,
+        "distance_from_upper": 21.63,
+        "movement_reason": "Evidence-first placement of Identity at 29 (evidence credibility 0.64): specialist recommendation 26.667 blended with council consensus 30.0, with baseline reference 39.7 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 26.94,
+        "baseline": 48.04781064,
+        "framework_hi": 69.16,
+        "specialist_recommendation": 58.5,
+        "council_consensus": 48.0,
+        "integrator_recommendation": 53.08,
+        "llm_recommendation": 53.0,
+        "final": 53,
+        "available_range": 42.22,
+        "distance_from_baseline": 4.95,
+        "range_utilization": 62,
+        "clamp_adjustment": -0.08,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 26.06,
+        "distance_from_upper": 16.16,
+        "movement_reason": "Evidence-first placement of Expression at 53 (evidence credibility 0.55): specialist recommendation 58.5 blended with council consensus 48.0, with baseline reference 48.0 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 19.67,
+        "baseline": 42.41284726,
+        "framework_hi": 65.15,
+        "specialist_recommendation": 60.0,
+        "council_consensus": 54.75,
+        "integrator_recommendation": 56.07,
+        "llm_recommendation": 56.0,
+        "final": 56,
+        "available_range": 45.48,
+        "distance_from_baseline": 13.59,
+        "range_utilization": 80,
+        "clamp_adjustment": -0.07,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 36.33,
+        "distance_from_upper": 9.15,
+        "movement_reason": "Evidence-first placement of Structure at 56 (evidence credibility 0.57): specialist recommendation 60.0 blended with council consensus 54.75, with baseline reference 42.4 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 25.9,
+        "baseline": 42.31979509,
+        "framework_hi": 58.74,
+        "specialist_recommendation": 49.0,
+        "council_consensus": 39.71,
+        "integrator_recommendation": 44.97,
+        "llm_recommendation": 45.0,
+        "final": 45,
+        "available_range": 32.84,
+        "distance_from_baseline": 2.68,
+        "range_utilization": 58,
+        "clamp_adjustment": 0.03,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 19.1,
+        "distance_from_upper": 13.74,
+        "movement_reason": "Evidence-first placement of Drive at 45 (evidence credibility 0.60): specialist recommendation 49.0 blended with council consensus 39.71, with baseline reference 42.3 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Syria",
+        "iso3": "SYR",
+        "dimension": "D1",
+        "baseline_score": 39.65183831,
+        "final_score": 29,
+        "change_amount": -10.65,
+        "change_percent": -26.86,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Syria's Identity is placed at 29 (Social 3 <-> Self 97). Within the framework range [29-51], 29 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c1",
+          "W_cultural_anthropologist_c2",
+          "W_institutional_analyst_C01"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 50.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 50.0
+        },
+        "statistician_reasoning": "Quantitative: consensus=29.5, signal_strength=0.6886, agreement_score=0.9965, conflict_score=0.0035 — near-perfect agreement across frameworks. Hofstede IDV for Syria estimated very low (~35 or below); Trompenaars communitarianism, particularism, and diffuse dimensions all point strongly collectivist. Score of 30 sits just above CI floor (28.67), consistent with Arab collectivist cultural pattern. Why not lower: CI floor is 28.67; score of 30 provides minimal buffer above the boundary. Why not higher: near-zero conflict and strong multi-framework consensus leave no quantitative basis for moving toward midpoint. Most decisive evidence: hofstede_individualism and trompenaars_communitarianism_individualism both anchor Syria firmly in collectivist territory. Anchor-relative: 20 points below South Korea D1=50, consistent with Syria's stronger collectivist profile relative to Korea.",
+        "comparativist_reasoning": "Syria's collectivist orientation is consistent with the broader Middle Eastern cultural pattern, as evidenced by Hofstede's low Individualism scores for the region and Trompenaars' communitarianism. Compared to neighbours like Lebanon and Palestine, Syria's collectivism is slightly stronger, aligning with Iraq and Yemen. This placement is justified by the strong collectivist cultural norms and social structures present in Syria.",
+        "country_specialist_reasoning": "Syria's identity is strongly collectivist, with family and clan structures forming the core of social identity. This is supported by strong qualitative evidence indicating the importance of familial and communal ties in defining individual identity.",
+        "skeptic_reasoning": "Adversarial check on Identity=30: resist midpoint bias and compression. The strong consensus (agreement=0.9965) and low consensus=29.5 from framework signals, combined with qualitative evidence of clan/tribal identity (60-70% of population) and family as bedrock of identity, firmly anchor Syria in collectivist territory. The CI lo=28.67 provides a tight floor; 30 is defensible as it sits just above the floor while reflecting the near-perfect multi-framework agreement. Why not lower: CI floor at 28.67 prevents going below. Why not higher: the consensus signal at 29.5 and the qualitative evidence of strong collectivism (family metaphors, extended households, clan mentality) rule out any movement toward the midpoint. Most decisive evidence: framework consensus=29.5 (E_D1_01) and qualitative evidence of clan/tribal identity (W_institutional_analyst_C02) and family as identity bedrock (W_cultural_anthropologist_c1).",
+        "integrator_decision": "Identity adjusted from baseline 39.7 to 29 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7066): coverage=0.4, agreement=1.0, evidence=0.658, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 29,
+          "considered_alternatives": [
+            30,
+            40
+          ],
+          "why_rejected": {
+            "30": "30 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "40": "40 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "29 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (30) and the CI ceiling (51), so pushing past 29 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 29 would understate the measured signal.",
+        "integrator_recommendation": 28.91,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.09,
+        "absolute_score_rationale": "Syria sits at 29 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Syria's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would imply markedly more Self; the evidence and framework signal do not support pushing Syria that far toward Self.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Syria that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Syria that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Syria that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 29 means everyday life in Syria leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 29 is justified: Syria sits at 29 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 29 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (30) and the CI ceiling (51), so pushing past 29 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c1, W_cultural_anthropologist_c2, W_institutional_analyst_C01.",
+        "executive_explanation": "Syria sits at 29 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (30) and the CI ceiling (51), so pushing past 29 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 29 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=10.65. Framework consensus=29.5, signal_strength=0.6886, conflict=0.0035. Within the framework range [29-51], 29 sits at ~1% of the permitted span. Confidence HIGH (score 0.7066): coverage=0.4, agreement=1.0, evidence=0.658, stability=1.0."
+      },
+      {
+        "country": "Syria",
+        "iso3": "SYR",
+        "dimension": "D2",
+        "baseline_score": 48.04781064,
+        "final_score": 53,
+        "change_amount": 4.95,
+        "change_percent": 10.3,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Syria's Expression is placed at 53 (Restrained 3 <-> Open 97). Within the framework range [27-69], 53 sits at ~62% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim-d2-2",
+          "W_institutional_analyst_C13",
+          "W_historical_analyst_claim-d2-4"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 75.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Quantitative: consensus=62.51, signal_strength=0.5391, agreement_score=0.6579, conflict_score=0.3421 — highest conflict of all four dimensions. Contributing columns (Hofstede LTO and Trompenaars affective-neutral) pull in different directions. Wide CI (26.94–69.16) reflects genuine uncertainty. Score of 48 is just below Turkey anchor (50). Why not lower: Arab hospitality norms and warm social interaction patterns provide qualitative floor; no strong quantitative signal pushes below midrange. Why not higher: hierarchical suppression in formal contexts and partial data status prevent confident upward movement; conflict_score=0.34 disallows confident placement above 50. Midpoint justified by high conflict_score (quantitative) and Arab hospitality vs. formal hierarchical suppression (qualitative) per unjustified-midpoint rule.",
+        "comparativist_reasoning": "Syria's expression dimension reflects a balance between Arab hospitality and hierarchical suppression. Compared to Turkey, which is anchored at 50, Syria is slightly more restrained due to the influence of formal hierarchical structures. However, the warmth of social interactions prevents a lower score, aligning Syria closely with Palestine and Iraq.",
+        "country_specialist_reasoning": "Syria exhibits a mix of open expression in informal settings and restrained expression in formal contexts. Arab hospitality norms suggest openness, but hierarchical suppression in formal contexts tempers this.",
+        "skeptic_reasoning": "Adversarial check on Expression=48: resist midpoint bias and compression. The high conflict_score=0.3421 and wide CI (26.94-69.16) justify a central placement, but the midpoint rule requires both quantitative and qualitative justification. Quantitatively: consensus=62.51 pulls toward Open, but the conflict score prevents confident placement above 50. Qualitatively: Arab hospitality norms (warm social interactions) provide a floor against Restrained, while hierarchical suppression in formal contexts (deference to authority, gender segregation) provides a ceiling against Open. The Turkey anchor at 50 provides a reference point; Syria's slightly lower score reflects its more hierarchical social structure compared to Turkey. Why not lower: Arab hospitality norms and warm social interaction patterns (qualitative floor). Why not higher: hierarchical suppression in formal contexts and the high conflict score (quantitative ceiling). Most decisive evidence: conflict_score=0.3421 (E_D2_01) and qualitative evidence of hierarchical suppression (W_institutional_analyst_C13).",
+        "integrator_decision": "Expression adjusted from baseline 48.0 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6544): coverage=0.4, agreement=1.0, evidence=0.547, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 53,
+          "considered_alternatives": [
+            48
+          ],
+          "why_rejected": {
+            "48": "48 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "53 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (69), so pushing past 53 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (27), so going below 53 would understate the measured signal.",
+        "integrator_recommendation": 53.08,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.08,
+        "absolute_score_rationale": "Syria sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Syria's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Syria's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Syria that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Syria that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Syria that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 53 means everyday life in Syria leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 53 is justified: Syria sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (27), so going below 53 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (69), so pushing past 53 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim-d2-2, W_institutional_analyst_C13, W_historical_analyst_claim-d2-4.",
+        "executive_explanation": "Syria sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (69), so pushing past 53 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (27), so going below 53 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=4.95. Framework consensus=62.51, signal_strength=0.5391, conflict=0.3421. Within the framework range [27-69], 53 sits at ~62% of the permitted span. Confidence MEDIUM (score 0.6544): coverage=0.4, agreement=1.0, evidence=0.547, stability=0.8."
+      },
+      {
+        "country": "Syria",
+        "iso3": "SYR",
+        "dimension": "D3",
+        "baseline_score": 42.41284726,
+        "final_score": 56,
+        "change_amount": 13.59,
+        "change_percent": 32.04,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Syria's Structure is placed at 56 (Fluid 3 <-> Certain 97). Within the framework range [20-65], 56 sits at ~80% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C21",
+          "W_institutional_analyst_C22",
+          "W_institutional_analyst_C25"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 75.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Quantitative: consensus=54.36, signal_strength=0.5755, agreement_score=0.9423, conflict_score=0.0577. Hofstede UAI for Syria estimated moderately high (~60), contributing to above-midpoint placement. Trompenaars future-past and synchronic-sequential indicators suggest moderate structure preference. Score of 55 reflects UAI signal and the qualitative role of Islamic legal frameworks and tradition as structure-providing anchors. Why not lower: UAI signal and strong agreement_score (0.94) rule out fluid placement; Colombia anchor at 50 is the reference and Syria's UAI exceeds Colombia's estimated level. Why not higher: partial data status and the coexistence of informal adaptive practices in Syrian social life cap confidence; CI hi is 65.15 but evidence does not support pushing that high. Most decisive evidence: hofstede_uncertainty_avoidance and trompenaars_future_past.",
+        "comparativist_reasoning": "Syria exhibits a moderate preference for structure, as indicated by Hofstede's Uncertainty Avoidance Index, which suggests a relatively high need for predictability. This is supported by the role of Islamic legal frameworks and tradition in providing structure. Compared to Lebanon and Yemen, Syria is more structured, aligning more closely with Iraq and the UAE.",
+        "country_specialist_reasoning": "Syria shows a moderate preference for structure, influenced by Islamic legal frameworks and traditional societal norms. This is reflected in the estimated Hofstede UAI score and qualitative evidence.",
+        "skeptic_reasoning": "Adversarial check on Structure=54: resist midpoint bias and compression. The consensus=54.36 and agreement=0.9423 indicate moderate preference for Certainty, supported by Hofstede UAI (~60) and Islamic legal frameworks providing structure. The CI (19.67-65.15) is wide, but the signal is clear. Why not lower: the UAI signal and qualitative evidence of Islamic law as structure-providing anchor rule out Fluid placement. Why not higher: the qualitative evidence of adaptive coping mechanisms in a conflict-ridden environment (improvisation, informal networks) and the wide CI prevent confident placement above 60. Most decisive evidence: consensus=54.36 (E_D3_01) and qualitative evidence of Islamic legal frameworks (W_institutional_analyst_C21) and adaptive coping (W_institutional_analyst_C22).",
+        "integrator_decision": "Structure adjusted from baseline 42.4 to 56 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.57 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5148): coverage=0.4, agreement=0.971, evidence=0.529, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 56,
+          "considered_alternatives": [
+            42,
+            54,
+            55
+          ],
+          "why_rejected": {
+            "42": "42 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "54": "54 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "55": "55 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "56 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (65), so pushing past 56 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (54) and the CI floor (20), so going below 56 would understate the measured signal.",
+        "integrator_recommendation": 56.07,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.07,
+        "absolute_score_rationale": "Syria sits at 56 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Syria's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Syria's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Syria's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Syria that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Syria that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 56 means everyday life in Syria leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 56 is justified: Syria sits at 56 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (54) and the CI floor (20), so going below 56 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (65), so pushing past 56 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C21, W_institutional_analyst_C22, W_institutional_analyst_C25.",
+        "executive_explanation": "Syria sits at 56 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (65), so pushing past 56 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (54) and the CI floor (20), so going below 56 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=13.59. Framework consensus=54.36, signal_strength=0.5755, conflict=0.0577. Within the framework range [20-65], 56 sits at ~80% of the permitted span. Confidence MEDIUM (score 0.5148): coverage=0.4, agreement=0.971, evidence=0.529, stability=0.8."
+      },
+      {
+        "country": "Syria",
+        "iso3": "SYR",
+        "dimension": "D4",
+        "baseline_score": 42.31979509,
+        "final_score": 45,
+        "change_amount": 2.68,
+        "change_percent": 6.33,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Syria's Drive is placed at 45 (Accepting 3 <-> Striving 97). Within the framework range [26-59], 45 sits at ~58% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C32",
+          "W_historical_analyst_claim-d4-2",
+          "W_institutional_analyst_C36"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 50.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 50.0
+        },
+        "statistician_reasoning": "Quantitative: consensus=35.87, signal_strength=0.6341, agreement_score=0.9423, conflict_score=0.0577. Hofstede MAS for Syria estimated low (~40 or below); Trompenaars ascription-achievement and external-internal locus both point toward harmony/sufficiency orientation rather than competitive achievement striving. Score of 38 sits above CI floor (25.90) but well below midpoint. Why not lower: CI floor is 25.90; some degree of family-honour-driven achievement motivation and mercantile tradition in Syrian culture prevents placement at the floor. Why not higher: Turkey anchor at D4=50 is the reference; Syria's lower MAS estimate and ascription-oriented Trompenaars signals place it clearly below Turkey. Most decisive evidence: hofstede_masculinity and trompenaars_ascription_achievement.",
+        "comparativist_reasoning": "Syria's drive dimension is characterized by a balance between ambition and contentment, with a slight leaning towards acceptance. This is consistent with regional norms where harmony and sufficiency are valued over aggressive achievement. Compared to Turkey, which is anchored at 50, Syria is less driven, aligning more closely with Yemen and Lebanon.",
+        "country_specialist_reasoning": "Syria's cultural drive is more accepting than striving, with a focus on harmony and sufficiency over ambition. This is supported by qualitative evidence indicating a lower emphasis on achievement orientation.",
+        "skeptic_reasoning": "Adversarial check on Drive=38: resist midpoint bias and compression. The consensus=35.87 and agreement=0.9423 strongly indicate Accepting orientation, supported by Hofstede Masculinity (low) and Trompenaars ascription-achievement (ascription-oriented). The CI (25.90-58.74) allows for some variation, but the signal is clear. Why not lower: CI floor at 25.90 prevents going below. Why not higher: the strong consensus and qualitative evidence of fatalism (inshallah culture) and ascription-based social status rule out Striving placement. Most decisive evidence: consensus=35.87 (E_D4_01) and qualitative evidence of fatalism (W_institutional_analyst_C32) and ascription orientation (W_historical_analyst_claim-d4-2).",
+        "integrator_decision": "Drive adjusted from baseline 42.3 to 45 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5042): coverage=0.4, agreement=0.881, evidence=0.575, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 45,
+          "considered_alternatives": [
+            38,
+            41,
+            42
+          ],
+          "why_rejected": {
+            "38": "38 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "41": "41 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "42": "42 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "45 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (42) and the CI ceiling (59), so pushing past 45 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (38) and the CI floor (26), so going below 45 would understate the measured signal.",
+        "integrator_recommendation": 44.97,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.03,
+        "absolute_score_rationale": "Syria sits at 45 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Syria's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Syria's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Syria that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Syria that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Syria that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 45 means everyday life in Syria leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 45 is justified: Syria sits at 45 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (38) and the CI floor (26), so going below 45 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (42) and the CI ceiling (59), so pushing past 45 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C32, W_historical_analyst_claim-d4-2, W_institutional_analyst_C36.",
+        "executive_explanation": "Syria sits at 45 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (42) and the CI ceiling (59), so pushing past 45 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (38) and the CI floor (26), so going below 45 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=2.68. Framework consensus=35.87, signal_strength=0.6341, conflict=0.0577. Within the framework range [26-59], 45 sits at ~58% of the permitted span. Confidence MEDIUM (score 0.5042): coverage=0.4, agreement=0.881, evidence=0.575, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "PSE",
+        "country": "Palestine",
+        "d1": 43.84113488,
+        "d2": 43.10643007,
+        "d3": 49.31994843,
+        "d4": 49.41267969,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LBN",
+        "country": "Lebanon",
+        "d1": 40.52952142,
+        "d2": 38.83338336,
+        "d3": 32.26501319,
+        "d4": 48.05683543,
+        "relation": "regional"
+      },
+      {
+        "iso3": "IRQ",
+        "country": "Iraq",
+        "d1": 33.98192708,
+        "d2": 43.50694541,
+        "d3": 52.44443824,
+        "d4": 54.16964329,
+        "relation": "regional"
+      },
+      {
+        "iso3": "ARE",
+        "country": "United Arab Emirates",
+        "d1": 37.10269904,
+        "d2": 45.98953899,
+        "d3": 57.54739002,
+        "d4": 49.99013101,
+        "relation": "regional"
+      },
+      {
+        "iso3": "YEM",
+        "country": "Yemen",
+        "d1": 32.30200678,
+        "d2": 43.60840903,
+        "d3": 32.08827408,
+        "d4": 31.17210252,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 21.0,
+        "reason": "Syria is below the South Korea Identity anchor (50) by 21.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 3.0,
+        "reason": "Syria is above the Turkey Expression anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 5.0,
+        "reason": "Syria is below the Turkey Drive anchor (50) by 5.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 6.0,
+        "reason": "Syria is above the Colombia Structure anchor (50) by 6.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "SYR",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=27"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2', 'D3', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2,D3,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 27.0,
+        "midpoint_dimensions": [
+          "D2",
+          "D3",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Syria IDV estimated ~35, MAS estimated ~40, UAI estimated ~60",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Trompenaars affective-neutral, communitarianism-individualism, diffuse-specific, ascription-achievement, external-internal, future-past, synchronic-sequential scores for Myanmar",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "Inglehart, R., & Welzel, C. (2005). Modernization, Cultural Change, and Democracy. Cambridge University Press.",
+        "source_type": "academic_book",
+        "data_point": "Arab-Islamic cluster countries score low on self-expression values, consistent with collectivist D1 placement",
+        "url_or_doi": "https://doi.org/10.1017/CBO9780511790881",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0006"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "qualitative_literature",
+        "data_point": "Middle Eastern countries score high on embeddedness and hierarchy, low on autonomy — consistent with low D1 and moderate D3",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0007"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "SYR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "In Middle Eastern societies including Syria, the family forms ‘the bedrock of an individual’s identity.’",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Kinship activities such as eating together or naming are concerned with order and propriety but also act as creative, contentious social forces.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 22.0,
+          "strongest_supporting": "The Syrian diaspora scores an individualism (IDV) of approximately 44 — placing Syria in collectivist territory, with moderate collectivist values placing a stronger emphasis on the group rather than the individual.",
+          "strongest_opposing": "VSM-94 testing results showed Syria to be more individualistic than Hofstede's original rankings, suggesting that measured individualism is higher than the classical Arab-country baseline implies.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08"
+          ],
+          "opposing_evidence_ids": [
+            "C09",
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 62.0,
+          "strongest_supporting": "Syrians are very vocal and speak loudly, using hand gestures and facial expressions; they are very expressive and find it difficult to understand the Western norm of not raising one's voice in public.",
+          "strongest_opposing": "Criticism is rarely given directly and praise is often generously offered; to prevent dishonour, expression in conflictual or shameful contexts is systematically suppressed, showing domain-specific restraint.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "opposing_evidence_ids": [
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Arab cultures are identified as high in uncertainty avoidance — they tend to be resistant to change and reluctant to take risks, preferring all details to be worked out before committing.",
+          "strongest_opposing": "Society is not tightly organised and schedules are not closely followed; instead, daily activity is approached at a relaxed pace and more time is devoted to personal interactions — a direct counter to rigid Structure in time management.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "C21",
+            "C22",
+            "C23",
+            "C24",
+            "C25"
+          ],
+          "opposing_evidence_ids": [
+            "C26",
+            "C27",
+            "C28"
+          ]
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 38.0,
+          "strongest_supporting": "Wasta — using connections and favouritism to achieve goals — plays an increasing role in access to teaching positions, scholarships, and post-graduate opportunities in Syrian universities, crowding out merit-based competition.",
+          "strongest_opposing": "Lebanese cross-cultural data found that Arab students scored significantly higher on masculinity (achievement-orientation) than Hofstede's original feminine classification predicted, suggesting the Accepting baseline may be somewhat underestimated.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "C29",
+            "C30",
+            "C31",
+            "C32"
+          ],
+          "opposing_evidence_ids": [
+            "C33",
+            "C34",
+            "C35",
+            "C36"
+          ]
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 38.0,
+          "strongest_supporting": "Roots of Syrian collectivism lie in the concept of 'asabiyya (group solidarity), the Ottoman millet system, and extended family networks that still define social identity.",
+          "strongest_opposing": "The Syrian civil war (2011-present) has weakened traditional family and clan structures, forcing many to rely on themselves in diaspora, shifting toward more individual survival strategies.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 46.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "claim-d1-1",
+            "claim-d1-3"
+          ],
+          "opposing_evidence_ids": [
+            "claim-d1-2"
+          ]
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Syrian culture exhibits high emotional expressiveness within the family and close friendships, with elaborate greetings and hospitality, but strong restraint in public toward authority figures and strangers.",
+          "strongest_opposing": "Under the Assad regime, a culture of fear and enforced public conformity suppressed open emotional and political expression; the war has both liberated some expression (in opposition areas) and deepened suppression in regime-held zones.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim-d2-1",
+            "claim-d2-2"
+          ],
+          "opposing_evidence_ids": [
+            "claim-d2-3"
+          ]
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Syrian society historically organised around rigid hierarchies: patriarchal family, clan elders, religious authority, and a strong state apparatus. 'Ordnung' is a social expectation in both private and public spheres.",
+          "strongest_opposing": "The collapse of the Syrian state and economy since 2011 has created pervasive unpredictability and lawlessness in many areas, reducing everyday structure in favour of survivalist fluidity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "claim-d3-1",
+            "claim-d3-2"
+          ],
+          "opposing_evidence_ids": [
+            "claim-d3-3"
+          ]
+        },
+        {
+          "iso3": "SYR",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Status in Syria is heavily tied to education, professional achievement, and family reputation. There is strong pressure to excel (tamayuz) and to uphold family honour through success.",
+          "strongest_opposing": "The Ba'athist ideology emphasised collective achievement over individual competition. War has shifted many to a fatalistic acceptance (maktub) and prioritisation of survival over striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "claim-d4-1",
+            "claim-d4-2"
+          ],
+          "opposing_evidence_ids": [
+            "claim-d4-3"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "SYR",
+          "dimension": "D1",
+          "baseline_score": 39.65183831,
+          "specialist_recommendation": 26.667,
+          "specialist_confidence": 0.8133,
+          "evidence_strength": 0.6583,
+          "evidence_quality": 0.6225,
+          "disagreement_index": 0.3222,
+          "specialist_influence_weight": 0.6429,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SYR",
+          "dimension": "D2",
+          "baseline_score": 48.04781064,
+          "specialist_recommendation": 58.5,
+          "specialist_confidence": 0.71,
+          "evidence_strength": 0.5471,
+          "evidence_quality": 0.5565,
+          "disagreement_index": 0.14,
+          "specialist_influence_weight": 0.5457,
+          "rationale": "High specialist confidence -> evidence credibility 0.55 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SYR",
+          "dimension": "D3",
+          "baseline_score": 42.41284726,
+          "specialist_recommendation": 60.0,
+          "specialist_confidence": 0.6833,
+          "evidence_strength": 0.5294,
+          "evidence_quality": 0.5663,
+          "disagreement_index": 0.3266,
+          "specialist_influence_weight": 0.567,
+          "rationale": "High specialist confidence -> evidence credibility 0.57 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SYR",
+          "dimension": "D4",
+          "baseline_score": 42.31979509,
+          "specialist_recommendation": 49.0,
+          "specialist_confidence": 0.685,
+          "evidence_strength": 0.575,
+          "evidence_quality": 0.5778,
+          "disagreement_index": 0.44,
+          "specialist_influence_weight": 0.5979,
+          "rationale": "High specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "SYR",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 16.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 16.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=37: differs by 7 from the statistician reading of 30.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=44: differs by 4 from the statistician reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=48: differs by 4 from the statistician reading of 52.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=46: differs by 10 from the statistician reading of 36.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=29: differs by 8 from the comparativist reading of 37.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=40: differs by 4 from the comparativist reading of 44.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=65: differs by 17 from the comparativist reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=42: differs by 4 from the comparativist reading of 46.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=63: differs by 23 from the country_specialist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 14.51
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=54: differs by 11 from the country_specialist reading of 65.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.36
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=36: differs by 6 from the country_specialist reading of 42.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.13
+        },
+        {
+          "iso3": "SYR",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=48: differs by 15 from the devils_advocate reading of 63.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "SYR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "No direct ethnographic evidence found regarding the structural freedom of emotional or expressive behaviour in Syria distinguishing Open vs Restrained.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "SYR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 1,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No ethnographic evidence located on Syrians’ cultural orientation toward achievement, competition or harmony to assess Drive.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "SYR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 11,
+          "recommendation": 22.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 9,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 8,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 8,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 3,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "SYR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 3,
+          "recommendation": 60.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "SYR",
+        "score_diversity": 0.2235,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6705,
+        "consensus_quality": 0.978,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "SYR",
+      "country": "Syria",
+      "region": "Middle East",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 29,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.678,
+          "top_supporting_arguments": [
+            "VSM-94 testing results showed Syria to be more individualistic than Hofstede's original rankings, suggesting that measured individualism is higher than the classical Arab-country baseline implies.",
+            "Clan and tribal influence on private and public life diminished significantly with the enormous transformations Syrian society underwent during and after the 2011 conflict, and in urbanised southern regions clan identity has 'all but faded away'.",
+            "People from regional areas are more collectivistic in their community organisation than urban Syrians, indicating that collectivism is stronger in rural settings and weakens in metropolitan centres."
+          ],
+          "top_counter_arguments": [
+            "In Middle Eastern societies including Syria, the family forms ‘the bedrock of an individual’s identity.’",
+            "Syrians rely on family metaphors (‘Blood doesn’t become water’) to express strong kin ties and identity based on lineage and communal belonging.",
+            "Syrian households are typically extended and multigenerational, kinship reinforces obligations and identity via resource pooling and collective child-rearing."
+          ],
+          "why_this_score": "Syria sits at 29 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (30) and the CI ceiling (51), so pushing past 29 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 29 would understate the measured signal.",
+          "related_countries": [
+            "Palestine",
+            "Lebanon",
+            "Iraq",
+            "United Arab Emirates",
+            "Yemen"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C09",
+              "source_id": "S02",
+              "title": "Facework in Syria and the United States: A cross-cultural comparison",
+              "url": "https://www.researchgate.net/publication/248437417_Facework_in_Syria_and_the_United_States_A_cross-cultural_comparison",
+              "author": "Unspecified (ResearchGate)",
+              "publication_year": 2010,
+              "excerpt": "VSM-94 testing results showed Syria to be more individualistic than Hofstede's original rankings, suggesting that measured individualism is higher than the classical Arab-country baseline implies.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C10",
+              "source_id": "S03",
+              "title": "Division Defines Syria's Tribes and Clans",
+              "url": "https://kalam.chathamhouse.org/articles/division-defines-syrias-tribes-and-clans/",
+              "author": "Akil Hussain",
+              "publication_year": 2018,
+              "excerpt": "Clan and tribal influence on private and public life diminished significantly with the enormous transformations Syrian society underwent during and after the 2011 conflict, and in urbanised southern regions clan identity has 'all but faded away'.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S04",
+              "title": "Syrian Culture — Core Concepts",
+              "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+              "author": "Cultural Atlas / SBS",
+              "publication_year": 2016,
+              "excerpt": "People from regional areas are more collectivistic in their community organisation than urban Syrians, indicating that collectivism is stronger in rural settings and weakens in metropolitan centres.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 53,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.86,
+          "top_supporting_arguments": [
+            "Raising one's voice is not immediately interpreted as aggressive in Syria; speaking loudly and with passion shows one's sincerity and investment in a matter, indicating that emotional expressivity is structurally normal and unpunished.",
+            "Syrians are very vocal and speak loudly, using hand gestures and facial expressions; they are very expressive and find it difficult to understand the Western norm of not raising one's voice in public.",
+            "Syrians tend to conduct very animated business meetings, with many interruptions and tangents; they often conduct multiple conversations at once when talking in a group, reflecting a structurally expressive communication style."
+          ],
+          "top_counter_arguments": [
+            "Criticism is rarely given directly and praise is often generously offered; to prevent dishonour, expression in conflictual or shameful contexts is systematically suppressed, showing domain-specific restraint.",
+            "Syrians generally communicate in an indirect fashion and their express point is generally reached in a long, roundabout way to avoid embarrassment or offence.",
+            "People often feel they have to conceal their personal life and struggles in public despite feeling sad, weak or vulnerable — emotional exposure in contexts of shame or weakness is structurally suppressed."
+          ],
+          "why_this_score": "Syria sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (69), so pushing past 53 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (27), so going below 53 would understate the measured signal.",
+          "related_countries": [
+            "Palestine",
+            "Lebanon",
+            "Iraq",
+            "United Arab Emirates",
+            "Yemen"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C12",
+              "source_id": "S05",
+              "title": "Syrian Culture — Communication",
+              "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-communication",
+              "author": "Cultural Atlas / SBS",
+              "publication_year": 2016,
+              "excerpt": "Raising one's voice is not immediately interpreted as aggressive in Syria; speaking loudly and with passion shows one's sincerity and investment in a matter, indicating that emotional expressivity is structurally normal and unpunished.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C13",
+              "source_id": "S11",
+              "title": "Cultural Information — Syria (Canadian Government Brief)",
+              "url": "http://www.thecarr.ca/docs/Syrian%20Culture.pdf",
+              "author": "Government of Canada",
+              "publication_year": 2015,
+              "excerpt": "Syrians are very vocal and speak loudly, using hand gestures and facial expressions; they are very expressive and find it difficult to understand the Western norm of not raising one's voice in public.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C14",
+              "source_id": "S06",
+              "title": "Syrian — Business Culture",
+              "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-business-culture",
+              "author": "Cultural Atlas / SBS",
+              "publication_year": 2016,
+              "excerpt": "Syrians tend to conduct very animated business meetings, with many interruptions and tangents; they often conduct multiple conversations at once when talking in a group, reflecting a structurally expressive communication style.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 56,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.673,
+          "top_supporting_arguments": [
+            "Kinship activities such as eating together or naming are concerned with order and propriety but also act as creative, contentious social forces.",
+            "The cross-cultural facework study found that Syrian communication corresponds to high uncertainty avoidance cultural dimensions, placing Syria in the high-UAI / high-Structure category.",
+            "Arab cultures are identified as high in uncertainty avoidance — they tend to be resistant to change and reluctant to take risks, preferring all details to be worked out before committing."
+          ],
+          "top_counter_arguments": [
+            "Society is not tightly organised and schedules are not closely followed; instead, daily activity is approached at a relaxed pace and more time is devoted to personal interactions — a direct counter to rigid Structure in time management.",
+            "Syrians have a looser sense of punctuality and may be late themselves, despite expecting guests to make an effort to arrive on time — flexible scheduling coexists with social ritual expectations.",
+            "'Inshallah' (if God wills it) is used as a way of saying yes without making any promises, communicating an acceptance of fate over rigid planning — this reflects a fluid orientation toward future commitments."
+          ],
+          "why_this_score": "Syria sits at 56 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (65), so pushing past 56 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (54) and the CI floor (20), so going below 56 would understate the measured signal.",
+          "related_countries": [
+            "Palestine",
+            "Lebanon",
+            "Iraq",
+            "United Arab Emirates",
+            "Yemen"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search5",
+              "title": "Memory of generations: time, narrative and kinship in Damascus, Syria",
+              "url": "http://hdl.handle.net/1842/8260",
+              "author": "Bethany Eleanor Honeysett",
+              "publication_year": 2013,
+              "excerpt": "Kinship activities such as eating together or naming are concerned with order and propriety but also act as creative, contentious social forces.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C21",
+              "source_id": "S02",
+              "title": "Facework in Syria and the United States: A cross-cultural comparison",
+              "url": "https://www.researchgate.net/publication/248437417_Facework_in_Syria_and_the_United_States_A_cross-cultural_comparison",
+              "author": "Unspecified (ResearchGate)",
+              "publication_year": 2010,
+              "excerpt": "The cross-cultural facework study found that Syrian communication corresponds to high uncertainty avoidance cultural dimensions, placing Syria in the high-UAI / high-Structure category.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C22",
+              "source_id": "S14",
+              "title": "Cultural Influences on Requirements Engineering in the Context of Saudi Arabia (Arab UAI reference)",
+              "url": "https://arxiv.org/pdf/1807.01930",
+              "author": "arXiv",
+              "publication_year": 2018,
+              "excerpt": "Arab cultures are identified as high in uncertainty avoidance — they tend to be resistant to change and reluctant to take risks, preferring all details to be worked out before committing.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 45,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.56,
+          "top_supporting_arguments": [
+            "A person's wealth, education and profession are the biggest class indicators in Syrian society; university degrees and advanced-education professions carry high status, indicating that achievement through education is a key cultural driver.",
+            "Education carries social value and younger Syrian professionals may be highly resourceful; economic pressure may affect career choices and some work multiple jobs or support extended family, showing practical ambition under adversity.",
+            "Lebanese cross-cultural data found that Arab students scored significantly higher on masculinity (achievement-orientation) than Hofstede's original feminine classification predicted, suggesting the Accepting baseline may be somewhat underestimated."
+          ],
+          "top_counter_arguments": [
+            "Hospitality is tied to honour, generosity and reputation; wasta and ma'rifa (personal connections and favouritism) influence access and problem-solving — success is achieved through relational networks rather than competitive individual performance.",
+            "Pride and status is found in being helpful, hospitable and charitable to others — the warmth and generosity of Syrians is quickly noticeable, indicating that harmony and relational virtue drive status more than competitive achievement.",
+            "Syrian workplaces are described as warm and sociable, with personal relationships playing a huge role in business; trust and loyalty rather than financial aptitude or performance metrics determine business credibility."
+          ],
+          "why_this_score": "Syria sits at 45 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (42) and the CI ceiling (59), so pushing past 45 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (38) and the CI floor (26), so going below 45 would understate the measured signal.",
+          "related_countries": [
+            "Palestine",
+            "Lebanon",
+            "Iraq",
+            "United Arab Emirates",
+            "Yemen"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C33",
+              "source_id": "S04",
+              "title": "Syrian Culture — Core Concepts",
+              "url": "https://culturalatlas.sbs.com.au/syrian-culture/syrian-culture-core-concepts",
+              "author": "Cultural Atlas / SBS",
+              "publication_year": 2016,
+              "excerpt": "A person's wealth, education and profession are the biggest class indicators in Syrian society; university degrees and advanced-education professions carry high status, indicating that achievement through education is a key cultural driver.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C34",
+              "source_id": "S09",
+              "title": "Syrian Business Culture Guide: Doing Business in Syria",
+              "url": "https://commisceo-global.com/country-guides/syria-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Education carries social value and younger Syrian professionals may be highly resourceful; economic pressure may affect career choices and some work multiple jobs or support extended family, showing practical ambition under adversity.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C35",
+              "source_id": "S15",
+              "title": "Effects of Cultural Dimensions and Demographic Characteristics on E-learning Acceptance (Lebanon/Arab UAI and MAS data)",
+              "url": "https://arxiv.org/pdf/1607.01492",
+              "author": "arXiv",
+              "publication_year": 2016,
+              "excerpt": "Lebanese cross-cultural data found that Arab students scored significantly higher on masculinity (achievement-orientation) than Hofstede's original feminine classification predicted, suggesting the Accepting baseline may be somewhat underestimated.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

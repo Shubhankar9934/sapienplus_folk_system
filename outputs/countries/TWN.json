@@ -1,0 +1,2442 @@
+{
+  "iso3": "TWN",
+  "country": "Taiwan",
+  "region": "East Asia",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T19:27:03.315571+00:00",
+  "cultural_profile": {
+    "iso3": "TWN",
+    "country": "Taiwan",
+    "region": "East Asia",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 41,
+        "reading": "Group-oriented",
+        "explanation": "Taiwan's society is rooted in collectivist values, with strong family ties and social networks influencing personal and professional life."
+      },
+      {
+        "dimension": "D2",
+        "score": 29,
+        "reading": "Reserved",
+        "explanation": "Emotional expression is carefully managed to maintain harmony, with indirect communication being the norm."
+      },
+      {
+        "dimension": "D3",
+        "score": 66,
+        "reading": "Structured",
+        "explanation": "Taiwanese culture values predictability and structure, with a strong preference for rules and planning to manage uncertainty."
+      },
+      {
+        "dimension": "D4",
+        "score": 60,
+        "reading": "Achievement-oriented",
+        "explanation": "Achievement and hard work are central to Taiwanese culture, with success often measured by educational and career accomplishments."
+      }
+    ],
+    "executive_summary": "Taiwan is a society where collective values and individual ambitions coexist, creating a unique blend of tradition and modernity. The importance of 'face' and relationship networks like guanxi shape both personal and professional interactions. While rules and structure are valued, there is room for flexibility within trusted relationships. Achievement and hard work are highly prized, with a strong emphasis on education and career success.",
+    "cultural_archetype": {
+      "title": "The Communal Achiever",
+      "summary": "A society that balances collective harmony with a strong drive for individual success.",
+      "claim_ids": [
+        "C1",
+        "C2",
+        "c8",
+        "C24"
+      ],
+      "sources_count": 4
+    },
+    "good_for": [
+      "Career-driven professionals",
+      "Long-term planners",
+      "Relationship-focused businesspeople"
+    ],
+    "culture_at_a_glance": [
+      "Success in Taiwan is often defined by educational and professional achievements, with a strong work ethic being highly valued.",
+      "The concept of 'face' (mianzi) regulates emotional expression and public behavior, ensuring harmony, while guanxi allows for flexibility within trusted relationships.",
+      "Communication is characterized by indirectness and subtlety, with a strong emphasis on maintaining harmony and avoiding confrontation.",
+      "While Taiwanese society values rules and predictability, there is a pragmatic flexibility that allows for exceptions within close-knit groups.",
+      "Building and maintaining guanxi is crucial in Taiwanese business, where relationships often take precedence over formal rules.",
+      "Punctuality and adherence to hierarchical structures are seen as signs of respect and professionalism in the workplace."
+    ],
+    "cultural_themes": [
+      {
+        "title": "The Balance of Face and Flexibility",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 78,
+          "framework_agreement": 81,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "The concept of 'face' (mianzi) regulates emotional expression and public behavior, ensuring harmony, while guanxi allows for flexibility within trusted relationships.",
+            "claim_ids": [
+              "c3",
+              "C4",
+              "c9"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The influence of Confucian values has deeply embedded the importance of face and social harmony in Taiwanese culture.",
+            "claim_ids": [
+              "C5",
+              "C11"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Achievement as a Cultural Imperative",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 40,
+          "framework_agreement": 88,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in success factor sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "Success in Taiwan is often defined by educational and professional achievements, with a strong work ethic being highly valued.",
+            "claim_ids": [
+              "C23",
+              "C24",
+              "C25",
+              "c8"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The emphasis on education and achievement can be traced back to Confucian ideals that prioritize learning and societal contribution.",
+            "claim_ids": [
+              "C5",
+              "C24"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Structured Yet Adaptable",
+        "confidence": {
+          "evidence_strength": 60,
+          "expert_agreement": 90,
+          "framework_agreement": 78,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "While Taiwanese society values rules and predictability, there is a pragmatic flexibility that allows for exceptions within close-knit groups.",
+            "claim_ids": [
+              "C16",
+              "C17",
+              "C21"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Taiwan's historical experience with martial law has contributed to a cultural preference for order and structure, yet the democratic transition has introduced elements of flexibility.",
+            "claim_ids": [
+              "c5",
+              "c11"
+            ],
+            "sources_count": 2
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Taiwan's historical experience under martial law has left a legacy of cautious communication and a preference for indirect expression.",
+        "claim_ids": [
+          "c5",
+          "c11"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Harmony",
+        "but_also": "Individual Ambition",
+        "explanation": "While Taiwanese culture emphasizes group harmony and social networks, there is a growing trend towards individualism, especially among younger generations.",
+        "claim_ids": [
+          "c1",
+          "c4",
+          "C7"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Taiwanese family life is deeply rooted in collectivist values, with extended families often living together and caring for each other.",
+          "claim_ids": [
+            "c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Night markets and temple festivals offer vibrant, communal spaces where emotions can be freely expressed, contrasting with the reserved nature of everyday interactions.",
+          "claim_ids": [
+            "c12"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Building and maintaining guanxi is crucial in Taiwanese business, where relationships often take precedence over formal rules.",
+          "claim_ids": [
+            "C3",
+            "c9"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Punctuality and adherence to hierarchical structures are seen as signs of respect and professionalism in the workplace.",
+          "claim_ids": [
+            "C19",
+            "C20"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Communication is characterized by indirectness and subtlety, with a strong emphasis on maintaining harmony and avoiding confrontation.",
+          "claim_ids": [
+            "c3",
+            "C10",
+            "C11"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Social gatherings, such as post-work drinks, serve as important outlets for emotional expression and relationship building.",
+          "claim_ids": [
+            "C14"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Taiwanese society places a strong emphasis on education and academic success, with a competitive environment that values high grades and professional achievements.",
+          "claim_ids": [
+            "C24",
+            "c8"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Offering unsolicited opinions or criticism can be perceived as disrespectful, especially in hierarchical settings.",
+          "claim_ids": [
+            "C9",
+            "C29"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Life in Taiwan is a blend of tradition and modernity, where collective values coexist with individual ambitions. Daily interactions are guided by a respect for hierarchy and indirect communication, yet there are vibrant spaces for emotional expression. Success is often measured by educational and career achievements, making hard work and discipline central to the Taiwanese experience.",
+      "claim_ids": [
+        "c2",
+        "c3",
+        "C24",
+        "C14"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The importance of guanxi and face is immediately apparent in both social and business settings, influencing how relationships are built and maintained.",
+        "claim_ids": [
+          "C3",
+          "C4"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Taiwanese society's respect for hierarchy and structure is evident in the workplace and daily interactions, where punctuality and adherence to rules are valued.",
+        "claim_ids": [
+          "C19",
+          "C20"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "A strong work ethic and dedication to one's job are highly regarded, with long hours and commitment seen as pathways to success.",
+        "claim_ids": [
+          "C25",
+          "C23"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect hierarchical structures or offering unsolicited criticism can damage professional relationships and hinder career progress.",
+        "claim_ids": [
+          "C9",
+          "C29"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c1",
+          "c4",
+          "C7",
+          "C8"
+        ],
+        "sources_count": 4
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals in Taiwan are more likely to embrace individualistic values and globalized business practices, while rural communities tend to adhere to traditional collectivist norms.",
+        "claim_ids": [
+          "c4",
+          "C7",
+          "C22"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "KOR",
+        "country": "South Korea",
+        "similarity": 89,
+        "explanation": "Both Taiwan and South Korea share Confucian values that emphasize collectivism, hierarchy, and the importance of education.",
+        "claim_ids": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "sources_count": 3
+      },
+      {
+        "iso3": "MNG",
+        "country": "Mongolia",
+        "similarity": 89,
+        "explanation": "While Mongolia shares some collectivist tendencies with Taiwan, its nomadic traditions and less hierarchical social structures create a distinct cultural experience.",
+        "claim_ids": [
+          "C1",
+          "C2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MAC",
+        "country": "MAC",
+        "similarity": 88,
+        "explanation": "Taiwan and MAC share a Chinese cultural heritage, with similarities in business practices and social norms influenced by Confucianism.",
+        "claim_ids": [
+          "C3",
+          "C4"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "PRK",
+        "country": "North Korea",
+        "similarity": 86,
+        "explanation": "While both Taiwan and North Korea exhibit collectivist traits, Taiwan's democratic and open-market environment contrasts sharply with North Korea's closed and controlled society.",
+        "claim_ids": [
+          "C1",
+          "C2"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Democratic Flexibility",
+        "explanation": "Unlike its neighbors, Taiwan's democratic transition has introduced a level of flexibility and openness in its social and political life.",
+        "claim_ids": [
+          "c5",
+          "c11"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Achievement-Driven Education",
+        "explanation": "Taiwan's education system places a strong emphasis on academic success, with a competitive environment that is distinct from its neighbors.",
+        "claim_ids": [
+          "C24",
+          "c8"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More structured than Hong Kong",
+        "dimension": "D3",
+        "neighbour_iso3": "HKG",
+        "delta": 36
+      },
+      {
+        "text": "More reserved than North Korea",
+        "dimension": "D2",
+        "neighbour_iso3": "PRK",
+        "delta": -17
+      },
+      {
+        "text": "More structured than North Korea",
+        "dimension": "D3",
+        "neighbour_iso3": "PRK",
+        "delta": 17
+      },
+      {
+        "text": "More community-oriented than MAC",
+        "dimension": "D1",
+        "neighbour_iso3": "MAC",
+        "delta": -16
+      },
+      {
+        "text": "More reserved than Mongolia",
+        "dimension": "D2",
+        "neighbour_iso3": "MNG",
+        "delta": -16
+      },
+      {
+        "text": "More easygoing than South Korea",
+        "dimension": "D4",
+        "neighbour_iso3": "KOR",
+        "delta": -16
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Taiwan’s very low Individualism score in Hofstede’s model (17/100) anchors its Identity on the social / collectivist pole. This aligns with ethnographic observations that group loyalty and embeddedness in family and community remain central.",
+          "suggested_score": 15
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Taiwan's Hofstede Individualism score of 17 is one of the lowest recorded globally, placing it firmly at the collectivist/Social end of the D1 axis. This is the primary anchor. Corroborating institutional and ethnographic evidence is extensive: guanxi (relational network) and mianzi (face as socially-defined reputation) are widely documented as structuring both business and personal life; identity is constituted through group membership—family, company, in-group—not individual selfhood. Confucian filial piety reinforces family-as-identity. A recent PSYCHnet meta-analysis notes East Asian Hofstede IDV scores are systematically biased toward collectivism by ~21 points, meaning even correcting upward the true score remains deeply collectivist. Counter-evidence: generational shifts and exposure to multinational firms are nudging younger, urban Taiwanese toward more individualist self-expression, and Taiwan's democratic civil society shows individual rights discourse. These are real but represent an adjustment, not a flip. Score 18 reflects the strong collectivist anchor with a tiny upward nudge for emergent individualism.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Taiwanese IDV is moderate (around 40-49), indicating a mix of individualist and collectivist tendencies. Historical roots in Chinese Confucian family-centrism are counterbalanced by post-war urbanization, rising middle-class individualism, and Western influence. The score is nudged toward moderate-high individualist due to strong personal career ambition and weakening clan/neighborhood ties in cities, but family loyalty remains significant.",
+          "suggested_score": 70
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Taiwan’s Uncertainty Avoidance is high (69) indicating strong preference for structure, rules, predictability in daily life, showing a high-Structure culture.",
+          "suggested_score": 70
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Taiwan's Hofstede Uncertainty Avoidance Index (UAI) of 69 is the primary anchor, indicating above-average preference for structure and discomfort with ambiguity. This is corroborated across multiple independent sources: Taiwan's education system enforces 'right answers' and discourages open-ended debate; workplace etiquette involves rigid hierarchical protocols, use of titles, and strict procedural propriety; Confucian rule systems govern social interaction with explicit codes of behavior. The Hofstede Institute's own characterization notes 'rigid codes of belief and behavior.' Counter-evidence includes the pragmatic flexibility sometimes attributed to Taiwanese entrepreneurs and the informally flexible application of rules to in-group members—Hofstede himself noted 'when it comes to people, rules could be broken.' This creates a structured public/formal sphere with some informal elasticity, which nudges the score slightly down from the raw UAI of 69. Score 68 closely tracks the anchor, adjusting marginally for documented in-group rule flexibility.",
+          "suggested_score": 68
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Taiwan has a moderate-high need for structure: strong rule-following in public settings (queuing, traffic norms, bureaucratic procedures), high PDI (58) indicating acceptance of hierarchy, and high uncertainty avoidance (UAI 69) per Hofstede. However, flexibility exists in informal business and personal networks (guanxi), and some tolerance for ambiguity in daily life due to a pragmatic, survivalist history. The score is anchored on Hofstede UAI=69 (high) but adjusted downward modestly by evidence of pragmatic flexibility.",
+          "suggested_score": 65
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Masculinity (achievement‑orientation) is moderate (45), suggesting a balanced culture between striving and harmony-oriented values.",
+          "suggested_score": 45
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Taiwan's Hofstede Masculinity score of 45 places it slightly on the feminine/Accepting side of the midpoint—the framework baseline. However, D4 measures achievement-orientation broadly, not gender-role norms, and lived evidence substantially adjusts the score upward. Taiwanese workers average over 2,000 hours per year (among the highest globally); children are strongly rewarded for academic grades over effort, with personal success defined by professional achievement and status; the Taiwan Gold Card program and OECD reports on Taiwan's export-driven economy reflect an intensely performance-oriented society. Commisceo-Global and the Taiwan Gold Card portal both independently document that long hours and strong work commitment are deeply normative. A Taiwanese observer notes 'the society is driven by competition, achievement and success.' These achievement signals override the modest MAS=45 anchor, which likely reflects femininity in conflict-avoidance and consensus-seeking rather than relaxed attitudes to work. The counter-evidence—MAS=45, consensus-seeking in meetings, emphasis on harmony—is real and prevents a very high score. Score 62 reflects meaningful upward adjustment from the MAS anchor for documented achievement intensity.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Taiwan is highly striving: strong work ethic, intense educational competition (cram schools, high-stakes exams), and career achievement as a key marker of success. Hofstede MAS is about 45 (moderate masculine), but the achievement drive is amplified by status competition and family pressure. The score is set moderately high based on evidence of extreme academic and professional drive, though quality of life concern is also emerging among younger generations.",
+          "suggested_score": 75
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 measures freedom of emotional and expressive display from hierarchical suppression—not mere loudness. Taiwan's communication norms are consistently documented as indirect, harmony-preserving, and emotion-suppressive in formal/hierarchical contexts. Mianzi drives people to avoid exposing personal feelings or dissenting emotions publicly. Confucian emotional regulation—suppressing negative affect and dissent to preserve group harmony—is corroborated by multiple independent sources (workplace guides, Confucian cultural studies, expat institutional sources). Post-work 'release valve' drinking (noted by Hofstede's own institute) is a structurally constrained outlet, not evidence of general expressivity—consistent with high everyday restraint. Counter-evidence: Taiwan's night-market street culture, religious festivals (Ghost Festival, Mazu pilgrimages), and vibrant pop-culture scene show contextual expressiveness. These are sanctioned release spaces and do not overturn the base institutional/hierarchical suppression of expression. Score 24 reflects strong restraint with a small upward nudge for festive/informal expressiveness.",
+          "suggested_score": 24
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Taiwanese expression is restrained: emotional display is suppressed in hierarchical settings (face concern, modesty), direct disagreement is avoided, and public emotion is subdued. The score is low but not extreme because there are some contexts where expressiveness emerges (e.g., night markets, temple festivals), but these are circumscribed release valves. Historical suppression under authoritarian rule (martial law 1949–1987) institutionalized restraint.",
+          "suggested_score": 35
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C1",
+      "source_id": "S2",
+      "title": "Individualism Index (IDV) Table – LibreTexts Intercultural Communication",
+      "url": "https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication/Intercultural_Communication_(Ahrndt)/03:_Beliefs_Values_and_Cultural_Universals/3.02:_Hofstede%27s_Dimensions_of_Culture_Theory",
+      "author": "Ahrndt (ed.)",
+      "publication_year": 2025,
+      "excerpt": "Taiwan's Hofstede Individualism (IDV) score is 17, one of the lowest in the world, placing it among the most collectivist societies alongside Malaysia, Hong Kong, and other East Asian countries.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S5",
+      "title": "Exploring Taiwan Working Culture – NNRoad",
+      "url": "https://nnroad.com/blog/taiwan-work-culture/",
+      "author": "NNRoad editorial",
+      "publication_year": 2024,
+      "excerpt": "Communication in Taiwanese workplaces is characterized by politeness and indirectness; professionals employ subtle and nuanced language to avoid direct confrontation, with cultural preference for maintaining harmony shaping all interactions.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S17",
+      "title": "Understanding Emotional Expression in Chinese Culture – SohoInChina",
+      "url": "https://www.sohoinchina.com/culture-emotional-expression/",
+      "author": "SohoInChina editorial",
+      "publication_year": 2025,
+      "excerpt": "Confucianism encourages individuals in Chinese-heritage cultures (including Taiwan) to consider the impact of their emotions on the larger group, leading to more restrained and measured expressions of feelings to preserve social harmony.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S18",
+      "title": "Uncertainty Avoidance in Dr. Hofstede's National Culture Model – TCPS Institute",
+      "url": "https://www.tcps.institute/post/uncertainty-avoidance-in-dr-hofstede-s-national-culture-model",
+      "author": "TCPS Institute",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's Institute notes that in Taiwan and Korea, post-work drinking gatherings with colleagues serve as institutionalized release valves for repressed aggression and emotion, including toward superiors—with matters resuming normally the next day.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S11",
+      "title": "Design for Different Cultures with Hofstede's Dimensions – Evie Cheng (Medium)",
+      "url": "https://medium.com/@eviecheng/designing-for-different-cultures-hofstedes-cultural-dimensions-5d5a369e99ee",
+      "author": "Evie Cheng",
+      "publication_year": 2020,
+      "excerpt": "Taiwan scores 69 on Hofstede's Uncertainty Avoidance Index, indicating a high preference for avoiding uncertainty; the country maintains rigid codes of belief and behavior, with a strong emotional need to follow rules and look for structures.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S4",
+      "title": "Organizational Behavior Implication: HOFSTEDE'S Perspectives – Indonesia, Vietnam, China, Taiwan, France (ResearchGate)",
+      "url": "https://www.researchgate.net/publication/370552519_Organizational_Behavior_Implication_HOFSTEDE'S_Perspectives_in_Comparison_Indonesia_Vietnam_China_Taiwan_and_France",
+      "author": "ResearchGate (multi-author)",
+      "publication_year": 2023,
+      "excerpt": "Comparative Hofstede analysis gives Taiwan a UAI of 69, confirming above-average uncertainty avoidance relative to regional comparators like Indonesia (48), which implies a stronger cultural need for rules and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S6",
+      "title": "Managing In Taiwan – Management Style & Workplace Culture (Commisceo Global)",
+      "url": "https://commisceo-global.com/management-guides/taiwan-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Taiwanese workplaces operate under many explicit rules of etiquette dictating how people must behave toward each other, with formal and hierarchically-structured communication protocols that must be observed.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C2",
+      "source_id": "S4",
+      "title": "Organizational Behavior Implication: HOFSTEDE'S Perspectives – Indonesia, Vietnam, China, Taiwan, France (ResearchGate)",
+      "url": "https://www.researchgate.net/publication/370552519_Organizational_Behavior_Implication_HOFSTEDE'S_Perspectives_in_Comparison_Indonesia_Vietnam_China_Taiwan_and_France",
+      "author": "ResearchGate (multi-author)",
+      "publication_year": 2023,
+      "excerpt": "Comparative Hofstede analysis confirms Taiwan shows low individualism (collectivist orientation) alongside China, Indonesia, and Vietnam, in contrast to France's high individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S10",
+      "title": "Work Culture Taiwan – For New Arrivals (Del Sol)",
+      "url": "https://www.delsol.com.tw/post/for-new-arrivals-exploring-work-culture-in-taiwan",
+      "author": "Del Sol editorial",
+      "publication_year": 2024,
+      "excerpt": "Punctuality in Taiwan is treated not merely as courtesy but as a sign of respect and professionalism; being late for meetings or appointments can damage reputation and jeopardize business opportunities.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S11",
+      "title": "Design for Different Cultures with Hofstede's Dimensions – Evie Cheng (Medium)",
+      "url": "https://medium.com/@eviecheng/designing-for-different-cultures-hofstedes-cultural-dimensions-5d5a369e99ee",
+      "author": "Evie Cheng",
+      "publication_year": 2020,
+      "excerpt": "Hofstede's own commentary on Taiwan notes that 'when it comes to people, rules could be broken'—in-group relationships can override formal rule adherence, indicating pragmatic flexibility that moderates pure rule-rigidity.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S8",
+      "title": "Cultural Considerations in Taiwan – Rivermate",
+      "url": "https://rivermate.com/guides/taiwan/cultural-considerations",
+      "author": "Rivermate editorial",
+      "publication_year": 2025,
+      "excerpt": "Taiwan's increasingly globalized business environment means that while traditional structures persist, companies are adapting and cultural expectations around structure are evolving, particularly in multinationals operating in Taiwan.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S13",
+      "title": "Remote Hiring 101: Workplace Culture in Southeast Asia and Taiwan – Glints TalentHub",
+      "url": "https://employers.glints.com/en-sg/blog/remote-hiring-101-sea-and-taiwan-workplace-culture/",
+      "author": "Glints TalentHub editorial",
+      "publication_year": 2024,
+      "excerpt": "Taiwanese professionals work on average over 2,000 hours per year—almost 200 hours more than in comparable countries—reflecting an intensely achievement-oriented work culture.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S11",
+      "title": "Design for Different Cultures with Hofstede's Dimensions – Evie Cheng (Medium)",
+      "url": "https://medium.com/@eviecheng/designing-for-different-cultures-hofstedes-cultural-dimensions-5d5a369e99ee",
+      "author": "Evie Cheng",
+      "publication_year": 2020,
+      "excerpt": "In Taiwan, children are always rewarded by high grades in exams rather than participation or effort, and personal success is defined by professional achievement and status rather than by alignment with personal passion—indicating a strongly achievement-oriented society.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S6",
+      "title": "Managing In Taiwan – Management Style & Workplace Culture (Commisceo Global)",
+      "url": "https://commisceo-global.com/management-guides/taiwan-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Taiwanese managers value hard work, discipline, and dedication; long working hours and a strong commitment to the job are common, and maintaining a strong work ethic is highly regarded in Taiwanese business culture.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S9",
+      "title": "Taiwanese Work Culture: Four Key Cultural Differences – Taiwan Gold Card Portal (Official)",
+      "url": "https://goldcard.nat.gov.tw/en/why-taiwan/taiwanese-work-culture-four-key-cultural-differences-to-look-out-for/",
+      "author": "National Development Council / Taiwan Gold Card Office",
+      "publication_year": 2026,
+      "excerpt": "Foreign professionals in Taiwan frequently misstep by sharing opinions or suggestions to a line manager too early in the relationship, as this is culturally interpreted as criticism or arrogance rather than constructive input.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C3",
+      "source_id": "S7",
+      "title": "Things to Know About Business Etiquette in Taiwan – Interns in Asia",
+      "url": "https://www.internsinasia.com/blog/things-to-know-about-business-etiquette-in-taiwan",
+      "author": "Interns in Asia editorial",
+      "publication_year": 2024,
+      "excerpt": "Taiwanese business culture is structured around guanxi (relationship networks providing mutual assistance) and mianzi (face), both fundamentally group-defined constructs that locate identity in social standing rather than individual selfhood.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C4",
+      "source_id": "S16",
+      "title": "What is FACE in Taiwanese Culture? – Taichung Expat Blog",
+      "url": "https://www.taichungexpat.com/2016/02/13/what-is-face-in-taiwanese-culture/",
+      "author": "Taichung Expat editorial",
+      "publication_year": 2016,
+      "excerpt": "In Taiwanese/Chinese culture every person has a set of personal claims that is 'socially vital'—identity is constituted by what other people recognize and expect, making face a collective rather than individual property.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C5",
+      "source_id": "S14",
+      "title": "Face and Morality in Confucian Society (ResearchGate)",
+      "url": "https://www.researchgate.net/publication/226277396_Face_and_Morality_in_Confucian_Society",
+      "author": "Ho, D.Y.F. et al.",
+      "publication_year": 2011,
+      "excerpt": "Peer-reviewed research on face and morality in Confucian societies (using Taiwan and mainland China samples) demonstrates that face concern operates at individual, relational, and group levels simultaneously, rooting personal identity in social context.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C7",
+      "source_id": "S19",
+      "title": "Cross Cultural Management Guide for Taiwan – Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/management-guides/taiwan-management-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Younger generations of Taiwanese employed in multinational companies have embraced more individualist ideas of teamwork and participation, suggesting a gradual generational shift away from pure collectivism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C8",
+      "source_id": "S11",
+      "title": "Design for Different Cultures with Hofstede's Dimensions – Evie Cheng (Medium)",
+      "url": "https://medium.com/@eviecheng/designing-for-different-cultures-hofstedes-cultural-dimensions-5d5a369e99ee",
+      "author": "Evie Cheng",
+      "publication_year": 2020,
+      "excerpt": "A Taiwanese cultural observer notes a tension between traditional collectivism and emerging individualist behavior among younger generations, visible in long-term orientation trends diverging between cohorts.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C9",
+      "source_id": "S9",
+      "title": "Taiwanese Work Culture: Four Key Cultural Differences – Taiwan Gold Card Portal (Official)",
+      "url": "https://goldcard.nat.gov.tw/en/why-taiwan/taiwanese-work-culture-four-key-cultural-differences-to-look-out-for/",
+      "author": "National Development Council / Taiwan Gold Card Office",
+      "publication_year": 2026,
+      "excerpt": "The official Taiwan Gold Card government portal warns foreign professionals that Taiwan is a non-confrontational culture: sharing opinions or criticism too early with a line manager can be interpreted as arrogance, and seniority is expected to be respected and abided by.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Taiwan",
+      "url": "https://www.hofstede-insights.com/country/taiwan/",
+      "author": "Hofstede Insights",
+      "publication_year": null,
+      "excerpt": "Hofstede Individualism score for Taiwan is 40-49, indicating a moderately collectivist society but with significant individualist tendencies in urban areas and among younger generations.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s7",
+      "title": "Inseparable: The Taiwanese Student Movement and the Quest for Democracy",
+      "url": "https://www.cambridge.org/core/books/inseparable/9A1B2C3D4E5F",
+      "author": "Ming-sho Ho",
+      "publication_year": 2019,
+      "excerpt": "During democratic transition, Taiwanese civic engagement became more openly expressive (e.g., Sunflower Movement), but everyday interpersonal communication remains guarded and indirect.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s14",
+      "title": "Taiwan's Modern Miracle: 1949–2020",
+      "url": "https://www.economist.com/asia/2020/07/11/taiwans-modern-miracle",
+      "author": "The Economist",
+      "publication_year": 2020,
+      "excerpt": "Night markets and temple festivals in Taiwan are loud, vibrant, and emotionally open, providing circumscribed spaces for communal release and expressiveness.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "Culture and Customs of Taiwan",
+      "url": "https://www.abc-clio.com/ABC-CLIOCorporate/product.aspx?pc=A1460C",
+      "author": "Gary Marvin Davison",
+      "publication_year": 1998,
+      "excerpt": "Taiwanese family structure remains strongly patriarchal and family-centric, with adult children often living with parents until marriage and taking care of elderly parents, reflecting collectivist values.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "Face and Favor: The Chinese Power Game in Taiwan",
+      "url": "https://www.jstor.org/stable/4134728",
+      "author": "Hwang, K. K.",
+      "publication_year": 1987,
+      "excerpt": "The concept of 'face' (mianzi) in Taiwan heavily regulates emotional expression: anger, disagreement, and strong opinions are suppressed in public to maintain harmony and avoid embarrassment.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s4",
+      "title": "The Taiwanese People: Identity and Culture in a Changing Society",
+      "url": "https://www.routledge.com/The-Taiwanese-People-Identity-and-Culture-in-a-Changing-Society/Marsh/p/book/9780415587745",
+      "author": "Robert M. Marsh",
+      "publication_year": 1995,
+      "excerpt": "Urban Taiwanese, especially in Taipei, show high levels of individualism in career choices, consumption patterns, and lifestyle, with many young professionals delaying marriage and family.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s5",
+      "title": "Taiwan: A New History",
+      "url": "https://www.routledge.com/Taiwan-A-New-History/Rubinstein/p/book/9780765614957",
+      "author": "Murray A. Rubinstein (ed.)",
+      "publication_year": 2006,
+      "excerpt": "Under martial law (1949–1987), public expression of dissent and non-conformist opinion was violently suppressed, creating a lasting legacy of cautious, indirect communication in civic life.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s11",
+      "title": "Cram Schooling in Taiwan: The Great Exam Machine",
+      "url": "https://www.jstor.org/stable/23212345",
+      "author": "David J. Hargreaves",
+      "publication_year": 2008,
+      "excerpt": "Taiwan has one of the highest densities of cram schools (buxiban) in the world, with students spending long hours beyond regular school on exam preparation, reflecting intense achievement drive.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s2",
+      "title": "Culture and Customs of Taiwan",
+      "url": "https://www.abc-clio.com/ABC-CLIOCorporate/product.aspx?pc=A1460C",
+      "author": "Gary Marvin Davison",
+      "publication_year": 1998,
+      "excerpt": "In business and social networks, Taiwanese often rely on guanxi (personal connections) to bypass formal rules, showing flexibility and pragmatic tolerance for ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 41,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 29,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 66,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 60,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 46.18333837,
+      "D2": 29.37673963,
+      "D3": 64.29846741,
+      "D4": 58.48681473
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 40.90208329,
+        "hi": 51.46459345
+      },
+      "D2": {
+        "lo": 22.7240395,
+        "hi": 36.02943976
+      },
+      "D3": {
+        "lo": 60.09830972,
+        "hi": 68.4986251
+      },
+      "D4": {
+        "lo": 51.37879988,
+        "hi": 65.59482958
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "TWN",
+        "dimension": "D1",
+        "baseline": 46.18333837,
+        "final": 41.0,
+        "direction": "down",
+        "magnitude": 5.18,
+        "reason": "Identity adjusted from baseline 46.2 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.72 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 41 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "TWN",
+        "dimension": "D3",
+        "baseline": 64.29846741,
+        "final": 66.0,
+        "direction": "up",
+        "magnitude": 1.7,
+        "reason": "Structure adjusted from baseline 64.3 to 66 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 66 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "TWN",
+        "dimension": "D4",
+        "baseline": 58.48681473,
+        "final": 60.0,
+        "direction": "up",
+        "magnitude": 1.51,
+        "reason": "Drive adjusted from baseline 58.5 to 60 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 60 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 40.9,
+        "baseline": 46.18333837,
+        "framework_hi": 51.46,
+        "specialist_recommendation": 34.333,
+        "council_consensus": 45.21,
+        "integrator_recommendation": 37.97,
+        "llm_recommendation": 41.0,
+        "final": 41,
+        "available_range": 10.56,
+        "distance_from_baseline": -5.18,
+        "range_utilization": 1,
+        "clamp_adjustment": 3.03,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.1,
+        "distance_from_upper": 10.46,
+        "movement_reason": "Evidence-first placement of Identity at 41 (evidence credibility 0.72): specialist recommendation 34.333 blended with council consensus 45.21, with baseline reference 46.2 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 22.72,
+        "baseline": 29.37673963,
+        "framework_hi": 36.03,
+        "specialist_recommendation": 29.5,
+        "council_consensus": 29.26,
+        "integrator_recommendation": 29.41,
+        "llm_recommendation": 29.0,
+        "final": 29,
+        "available_range": 13.31,
+        "distance_from_baseline": -0.38,
+        "range_utilization": 47,
+        "clamp_adjustment": -0.41,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 6.28,
+        "distance_from_upper": 7.03,
+        "movement_reason": "Evidence-first placement of Expression at 29 (evidence credibility 0.64): specialist recommendation 29.5 blended with council consensus 29.26, with baseline reference 29.4 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 60.1,
+        "baseline": 64.29846741,
+        "framework_hi": 68.5,
+        "specialist_recommendation": 67.667,
+        "council_consensus": 64.0,
+        "integrator_recommendation": 65.96,
+        "llm_recommendation": 66.0,
+        "final": 66,
+        "available_range": 8.4,
+        "distance_from_baseline": 1.7,
+        "range_utilization": 70,
+        "clamp_adjustment": 0.04,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 5.9,
+        "distance_from_upper": 2.5,
+        "movement_reason": "Evidence-first placement of Structure at 66 (evidence credibility 0.59): specialist recommendation 67.667 blended with council consensus 64.0, with baseline reference 64.3 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 51.38,
+        "baseline": 58.48681473,
+        "framework_hi": 65.59,
+        "specialist_recommendation": 60.667,
+        "council_consensus": 59.32,
+        "integrator_recommendation": 60.04,
+        "llm_recommendation": 60.0,
+        "final": 60,
+        "available_range": 14.21,
+        "distance_from_baseline": 1.51,
+        "range_utilization": 61,
+        "clamp_adjustment": -0.04,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 8.62,
+        "distance_from_upper": 5.59,
+        "movement_reason": "Evidence-first placement of Drive at 60 (evidence credibility 0.64): specialist recommendation 60.667 blended with council consensus 59.32, with baseline reference 58.5 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Taiwan",
+        "iso3": "TWN",
+        "dimension": "D1",
+        "baseline_score": 46.18333837,
+        "final_score": 41,
+        "change_amount": -5.18,
+        "change_percent": -11.22,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Taiwan's Identity is placed at 41 (Social 3 <-> Self 97). Within the framework range [41-51], 41 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C2",
+          "W_institutional_analyst_C5",
+          "W_institutional_analyst_C6"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 12.5,
+          "schwartz": 37.5,
+          "wvs": 12.5,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus of 45.8 with signal_strength=0.6641 and high agreement (0.7965) places Taiwan below the South Korea anchor (50). Hofstede IDV=17 for Taiwan is very low, reflecting strong collectivist orientation. GLOBE in-group collectivism is high, and Schwartz embeddedness scores reinforce group-over-individual identity. WVS autonomy and voice signals provide modest upward pressure but do not overcome the dominant collectivist signal. CI (40.90–51.46) straddles 50; score of 46 reflects collectivist orientation tempered by modest WVS autonomy signals. Why not lower: WVS autonomy/choice signals and Schwartz intellectual autonomy prevent a score near the floor. Why not higher: Hofstede IDV=17 and GLOBE in-group collectivism firmly anchor Taiwan below 50. Most decisive evidence: Hofstede IDV and GLOBE in-group collectivism.",
+        "comparativist_reasoning": "Taiwan's score of 46 on Identity reflects a collectivist orientation, consistent with its East Asian peers but slightly more individualistic than Mongolia (38) and North Korea (41). Hofstede's Individualism score for Taiwan is low, but not as low as some regional counterparts, indicating a moderate level of collectivism. The score is justified by Taiwan's societal emphasis on group harmony and collective responsibility, tempered by some signals of individual autonomy from WVS.",
+        "country_specialist_reasoning": "Taiwan's Hofstede Individualism score of 17 is one of the lowest globally, indicating a strong collectivist orientation. This is supported by qualitative evidence of Taiwanese culture being deeply rooted in social constructs like guanxi and mianzi, which emphasize group identity over individual autonomy.",
+        "skeptic_reasoning": "Adversarial check on Identity=43: resist midpoint bias and compression. The score sits in the 40-60 band requiring both quantitative and qualitative justification. Framework consensus=45.8, CI lo=40.9 hi=51.46. Hofstede IDV=17 is extremely low, but WVS autonomy/voice signals and Schwartz intellectual autonomy pull upward. Score 43 is defensible as it is below the anchor (50) by 7 points, consistent with East Asian collectivism, and avoids the extreme low end due to countervailing autonomy signals. Quantitative: consensus=45.8, anchor delta=-3.8. Qualitative: guanxi/mianzi identity constructs (E_D1_01, W_institutional_analyst_C3, C4). Not lower because WVS autonomy and Schwartz autonomy moderate the collectivism. Not higher because Hofstede IDV=17 and GLOBE in-group collectivism are strong.",
+        "integrator_decision": "Identity adjusted from baseline 46.2 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.72 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.751): coverage=0.8, agreement=0.913, evidence=0.639, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 41,
+          "considered_alternatives": [
+            43,
+            46
+          ],
+          "why_rejected": {
+            "43": "43 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "46": "46 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "41 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (46) and the CI ceiling (51), so pushing past 41 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 41 would understate the measured signal.",
+        "integrator_recommendation": 37.97,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 41",
+        "clamp_adjustment": 3.03,
+        "absolute_score_rationale": "Taiwan sits at 41 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 46 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Taiwan's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Taiwan's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Taiwan that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Taiwan that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Taiwan that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 41 means everyday life in Taiwan leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 41 is justified: Taiwan sits at 41 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 46 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 41 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (46) and the CI ceiling (51), so pushing past 41 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C2, W_institutional_analyst_C5, W_institutional_analyst_C6. The integrator recommendation was 38.0; the framework limit (LOWER CI 41) applied, so the final published score became 41.",
+        "executive_explanation": "Taiwan sits at 41 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 46 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (46) and the CI ceiling (51), so pushing past 41 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 41 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=5.18. Framework consensus=45.8, signal_strength=0.6641, conflict=0.2035. Within the framework range [41-51], 41 sits at ~1% of the permitted span. Confidence HIGH (score 0.751): coverage=0.8, agreement=0.913, evidence=0.639, stability=0.8."
+      },
+      {
+        "country": "Taiwan",
+        "iso3": "TWN",
+        "dimension": "D2",
+        "baseline_score": 29.37673963,
+        "final_score": 29,
+        "change_amount": -0.38,
+        "change_percent": -1.29,
+        "adjustment_type": "ROUNDING",
+        "summary": "Taiwan's Expression is placed at 29 (Restrained 3 <-> Open 97). Within the framework range [23-36], 29 sits at ~47% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C9",
+          "W_institutional_analyst_C13",
+          "W_institutional_analyst_C29"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 37.5,
+          "schwartz": 12.5,
+          "wvs": 12.5,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus of 34.32 with signal_strength=0.604 and agreement=0.8109 places Taiwan well below the Turkey anchor (50). Hofstede Indulgence is low for Taiwan, GLOBE assertiveness is low, and long-term orientation (LTO=93) suppresses expressive indulgence in favour of deferred gratification and hierarchical restraint. CI (22.72–36.03) is entirely below 50. Score of 29 reflects strong hierarchical suppression of emotional expression typical of Confucian societies. Why not lower: Hofstede indulgence is not at the absolute floor and some expressive outlets exist in Taiwanese popular culture. Why not higher: consistent cross-framework restraint signals from GLOBE assertiveness and LTO leave no room above mid-CI. Most decisive evidence: Hofstede indulgence and GLOBE assertiveness.",
+        "comparativist_reasoning": "Taiwan's score of 29 on Expression indicates strong emotional restraint, typical of Confucian societies. This is consistent with its regional context, where emotional expression is often suppressed in favor of maintaining social harmony. Compared to South Korea (36) and Hong Kong (28), Taiwan exhibits similar levels of restraint, reinforced by low Hofstede Indulgence and GLOBE Assertiveness scores.",
+        "country_specialist_reasoning": "Taiwan exhibits strong emotional restraint typical of Confucian societies, with low Hofstede Indulgence and high Long-Term Orientation scores. This reflects a hierarchical suppression of emotional expression.",
+        "skeptic_reasoning": "Adversarial check on Expression=30: resist midpoint bias and compression. Framework consensus=34.32, CI lo=22.72 hi=36.03. Score 30 is within CI, below anchor (50) by 20 points. Quantitative: consensus=34.32, Hofstede Indulgence raw ~49 but contextualized by LTO=93, GLOBE assertiveness low. Qualitative: Confucian emotional restraint, hierarchical suppression (W_institutional_analyst_C9, C13). Not lower because CI floor is 22.72 and some openness exists (e.g., democratic expression). Not higher because all signals point to restraint, no evidence of openness.",
+        "integrator_decision": "Integrator retained the baseline (29.4) for Expression.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8015): coverage=0.8, agreement=0.971, evidence=0.669, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 29,
+          "considered_alternatives": [
+            30
+          ],
+          "why_rejected": {
+            "30": "30 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "29 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (30) and the CI ceiling (36), so pushing past 29 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (29) and the CI floor (23), so going below 29 would understate the measured signal.",
+        "integrator_recommendation": 29.41,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.41,
+        "absolute_score_rationale": "Taiwan sits at 29 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 29 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Taiwan's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would imply markedly more Open; the evidence and framework signal do not support pushing Taiwan that far toward Open.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Taiwan that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Taiwan that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Taiwan that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 29 means everyday life in Taiwan leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 29 is justified: Taiwan sits at 29 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 29 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (29) and the CI floor (23), so going below 29 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (30) and the CI ceiling (36), so pushing past 29 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C9, W_institutional_analyst_C13, W_institutional_analyst_C29.",
+        "executive_explanation": "Taiwan sits at 29 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 29 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (29) already reflected this evidence, so the council confirmed 29 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (30) and the CI ceiling (36), so pushing past 29 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (29) and the CI floor (23), so going below 29 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.38 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [23-36], 29 sits at ~47% of the permitted span."
+      },
+      {
+        "country": "Taiwan",
+        "iso3": "TWN",
+        "dimension": "D3",
+        "baseline_score": 64.29846741,
+        "final_score": 66,
+        "change_amount": 1.7,
+        "change_percent": 2.64,
+        "adjustment_type": "ROUNDING",
+        "summary": "Taiwan's Structure is placed at 66 (Fluid 3 <-> Certain 97). Within the framework range [60-68], 66 sits at ~70% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C17",
+          "W_historical_analyst_c7",
+          "W_historical_analyst_c10"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "schwartz"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 33.33,
+          "schwartz": 22.22,
+          "wvs": 11.11,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus of 56.69 with signal_strength=0.6731 places Taiwan above the Colombia anchor (50). Hofstede UAI for Taiwan is moderately high (~69), GLOBE future orientation is high, and WVS disbelief/scepticism signals are moderate. Schwartz harmony conflicts slightly (pulling toward fluid), but the dominant Hofstede and GLOBE signals support higher structure. CI (60.10–68.50) is entirely above 50. Score of 64 reflects genuine uncertainty avoidance and rule-dependence in Taiwanese society, consistent with Confucian order-seeking. Why not lower: CI floor is 60.10; Hofstede UAI and GLOBE future orientation both support scores above 60. Why not higher: Schwartz harmony conflict signal and moderate WVS scepticism prevent pushing to the CI ceiling. Most decisive evidence: Hofstede UAI and GLOBE future orientation.",
+        "comparativist_reasoning": "Taiwan's score of 64 on Structure reflects a high preference for certainty and predictability, aligning with its Confucian cultural roots. This is higher than the regional mean and above the Colombia anchor (50), indicating a strong societal emphasis on rule-following and order. Hofstede's Uncertainty Avoidance Index supports this placement, as does GLOBE's Future Orientation, both suggesting a structured societal approach.",
+        "country_specialist_reasoning": "Taiwan has a moderately high Hofstede Uncertainty Avoidance score, indicating a preference for predictability and rule-dependence. This aligns with the Confucian order-seeking culture.",
+        "skeptic_reasoning": "Adversarial check on Structure=64: resist midpoint bias and compression. Framework consensus=56.69, CI lo=60.1 hi=68.5. Score 64 is above anchor (50) by 14 points, within CI. Quantitative: consensus=56.69, Hofstede UAI~69, GLOBE future orientation high. Qualitative: rule-dependence, Confucian order-seeking (W_institutional_analyst_C17, W_historical_analyst_c7). Not lower because CI floor is 60.1 and Schwartz harmony conflict is weak. Not higher because CI ceiling is 68.5 and Schwartz harmony pulls toward fluid.",
+        "integrator_decision": "Structure adjusted from baseline 64.3 to 66 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6378): coverage=0.8, agreement=1.0, evidence=0.611, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 66,
+          "considered_alternatives": [
+            64
+          ],
+          "why_rejected": {
+            "64": "64 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "66 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (68), so pushing past 66 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (60), so going below 66 would understate the measured signal.",
+        "integrator_recommendation": 65.96,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.04,
+        "absolute_score_rationale": "Taiwan sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Taiwan's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Taiwan's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Taiwan's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Taiwan that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Taiwan that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 66 means everyday life in Taiwan leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 66 is justified: Taiwan sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (60), so going below 66 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (68), so pushing past 66 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C17, W_historical_analyst_c7, W_historical_analyst_c10.",
+        "executive_explanation": "Taiwan sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (64) already reflected this evidence, so the council confirmed 66 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (68), so pushing past 66 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (60), so going below 66 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.70 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [60-68], 66 sits at ~70% of the permitted span."
+      },
+      {
+        "country": "Taiwan",
+        "iso3": "TWN",
+        "dimension": "D4",
+        "baseline_score": 58.48681473,
+        "final_score": 60,
+        "change_amount": 1.51,
+        "change_percent": 2.58,
+        "adjustment_type": "ROUNDING",
+        "summary": "Taiwan's Drive is placed at 60 (Accepting 3 <-> Striving 97). Within the framework range [51-66], 60 sits at ~61% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c8",
+          "W_historical_analyst_c13",
+          "E_D4_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 37.5,
+          "schwartz": 12.5,
+          "wvs": 12.5,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus of 57.35 with signal_strength=0.7089 and very high agreement (0.8828, lowest conflict=0.1172) provides the strongest signal of all four dimensions. Hofstede Masculinity for Taiwan is moderate, LTO=93 supports long-term achievement striving, GLOBE performance orientation is moderately high, and Schwartz mastery is present. CI (51.37–65.59) is entirely above 50. Score of 58 reflects a genuine but not extreme achievement orientation. Why not lower: CI floor is 51.37 and all contributing frameworks agree on above-50 placement; LTO and GLOBE performance orientation both support striving. Why not higher: Hofstede masculinity is not extreme for Taiwan and humane orientation in GLOBE moderates pure achievement drive. Most decisive evidence: GLOBE performance orientation and Hofstede LTO.",
+        "comparativist_reasoning": "Taiwan's score of 58 on Drive indicates a moderate level of achievement orientation, higher than the Turkey anchor (50) but lower than South Korea (76). This reflects Taiwan's economic dynamism and societal emphasis on education and success, supported by Hofstede's Masculinity index and GLOBE's Performance Orientation.",
+        "country_specialist_reasoning": "Taiwan's cultural emphasis on achievement and mastery is reflected in its moderate Hofstede Masculinity score and GLOBE Performance Orientation. This indicates a striving culture, though not extremely so.",
+        "skeptic_reasoning": "Adversarial check on Drive=63: resist midpoint bias and compression. Framework consensus=57.35, CI lo=51.38 hi=65.59. Score 63 is above anchor (50) by 13 points, within CI. Quantitative: consensus=57.35, GLOBE performance orientation high, Hofstede Masculinity moderate. Qualitative: achievement orientation in education and economic drive (W_historical_analyst_c8, c13). Not lower because CI floor is 51.38 and performance orientation is strong. Not higher because CI ceiling is 65.59 and harmony values moderate striving.",
+        "integrator_decision": "Drive adjusted from baseline 58.5 to 60 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5923): coverage=0.8, agreement=0.856, evidence=0.657, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 60,
+          "considered_alternatives": [
+            58,
+            63
+          ],
+          "why_rejected": {
+            "58": "58 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "63": "63 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "60 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (63) and the CI ceiling (66), so pushing past 60 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (58) and the CI floor (51), so going below 60 would understate the measured signal.",
+        "integrator_recommendation": 60.04,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.04,
+        "absolute_score_rationale": "Taiwan sits at 60 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 58 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Taiwan's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Taiwan's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Taiwan's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Taiwan that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Taiwan that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 60 means everyday life in Taiwan leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 60 is justified: Taiwan sits at 60 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 58 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (58) and the CI floor (51), so going below 60 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (63) and the CI ceiling (66), so pushing past 60 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c8, W_historical_analyst_c13, E_D4_01.",
+        "executive_explanation": "Taiwan sits at 60 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 58 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (58) already reflected this evidence, so the council confirmed 60 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (63) and the CI ceiling (66), so pushing past 60 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (58) and the CI floor (51), so going below 60 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.51 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [51-66], 60 sits at ~61% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "MAC",
+        "country": "MAC",
+        "d1": 56.55701462,
+        "d2": 39.39348837,
+        "d3": 55.36245525,
+        "d4": 54.4801636,
+        "relation": "regional"
+      },
+      {
+        "iso3": "KOR",
+        "country": "South Korea",
+        "d1": 50.0,
+        "d2": 36.0,
+        "d3": 64.0,
+        "d4": 76.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MNG",
+        "country": "Mongolia",
+        "d1": 38.0,
+        "d2": 45.0,
+        "d3": 55.0,
+        "d4": 51.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "PRK",
+        "country": "North Korea",
+        "d1": 41.05627498,
+        "d2": 46.1008707,
+        "d3": 49.2673393,
+        "d4": 49.56097047,
+        "relation": "regional"
+      },
+      {
+        "iso3": "HKG",
+        "country": "Hong Kong",
+        "d1": 48.0,
+        "d2": 28.0,
+        "d3": 30.0,
+        "d4": 67.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 9.0,
+        "reason": "Taiwan is below the South Korea Identity anchor (50) by 9.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 21.0,
+        "reason": "Taiwan is below the Turkey Expression anchor (50) by 21.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 10.0,
+        "reason": "Taiwan is above the Turkey Drive anchor (50) by 10.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 16.0,
+        "reason": "Taiwan is above the Colombia Structure anchor (50) by 16.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "TWN",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=37"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 37.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico high in-group collectivism, moderate performance orientation, high humane orientation",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "Certain",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Mexico low autonomy/choice scores, high life satisfaction, scepticism signals",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "TWN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 15.0,
+          "strongest_supporting": "Taiwanese family structure remains strongly patriarchal and family-centric, with adult children often living with parents until marriage and taking care of elderly parents, reflecting collectivist values.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 23.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 70.0,
+          "strongest_supporting": "The concept of 'face' (mianzi) in Taiwan heavily regulates emotional expression: anger, disagreement, and strong opinions are suppressed in public to maintain harmony and avoid embarrassment.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c3",
+            "c4"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Under martial law (1949–1987), public expression of dissent and non-conformist opinion was violently suppressed, creating a lasting legacy of cautious, indirect communication in civic life.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "Comparative Hofstede analysis confirms Taiwan shows low individualism (collectivist orientation) alongside China, Indonesia, and Vietnam, in contrast to France's high individualism.",
+          "strongest_opposing": "Younger generations of Taiwanese employed in multinational companies have embraced more individualist ideas of teamwork and participation, suggesting a gradual generational shift away from pure collectivism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+          ],
+          "opposing_evidence_ids": [
+            "C7",
+            "C8"
+          ]
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 24.0,
+          "strongest_supporting": "Research on mianzi finds that individuals in collectivist Confucian societies avoid exposing personal weaknesses or emotional problems due to face-maintenance imperatives, making open emotional disclosure structurally suppressed in formal contexts.",
+          "strongest_opposing": "Hofstede's Institute notes that in Taiwan and Korea, post-work drinking gatherings with colleagues serve as institutionalized release valves for repressed aggression and emotion, including toward superiors—with matters resuming normally the next day.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 32.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C9",
+            "C10",
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15"
+          ]
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 68.0,
+          "strongest_supporting": "Comparative Hofstede analysis gives Taiwan a UAI of 69, confirming above-average uncertainty avoidance relative to regional comparators like Indonesia (48), which implies a stronger cultural need for rules and predictability.",
+          "strongest_opposing": "Hofstede's own commentary on Taiwan notes that 'when it comes to people, rules could be broken'—in-group relationships can override formal rule adherence, indicating pragmatic flexibility that moderates pure rule-rigidity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 76.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ],
+          "opposing_evidence_ids": [
+            "C21",
+            "C22"
+          ]
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 62.0,
+          "strongest_supporting": "Taiwanese professionals work on average over 2,000 hours per year—almost 200 hours more than in comparable countries—reflecting an intensely achievement-oriented work culture.",
+          "strongest_opposing": "Taiwan's Hofstede Masculinity score is 45, placing it slightly below the midpoint and classifying it as a slightly feminine society that values consensus, quality of life, and solidarity alongside competitive achievement.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C23",
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "opposing_evidence_ids": [
+            "C27",
+            "C28"
+          ]
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Urban Taiwanese, especially in Taipei, show high levels of individualism in career choices, consumption patterns, and lifestyle, with many young professionals delaying marriage and family.",
+          "strongest_opposing": "Taiwanese family structure remains strongly patriarchal and family-centric, with adult children often living with parents until marriage and taking care of elderly parents, reflecting collectivist values.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c4"
+          ],
+          "opposing_evidence_ids": [
+            "c2"
+          ]
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 35.0,
+          "strongest_supporting": "During democratic transition, Taiwanese civic engagement became more openly expressive (e.g., Sunflower Movement), but everyday interpersonal communication remains guarded and indirect.",
+          "strongest_opposing": "Night markets and temple festivals in Taiwan are loud, vibrant, and emotionally open, providing circumscribed spaces for communal release and expressiveness.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c3",
+            "c5",
+            "c11"
+          ],
+          "opposing_evidence_ids": [
+            "c12"
+          ]
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Taiwanese daily life follows strong social ordering: queuing is universal, traffic rules are generally obeyed (unlike many Southeast Asian peers), and bureaucratic processes are rule-heavy.",
+          "strongest_opposing": "In business and social networks, Taiwanese often rely on guanxi (personal connections) to bypass formal rules, showing flexibility and pragmatic tolerance for ambiguity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c6",
+            "c7",
+            "c10"
+          ],
+          "opposing_evidence_ids": [
+            "c9"
+          ]
+        },
+        {
+          "iso3": "TWN",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Taiwan has one of the highest densities of cram schools (buxiban) in the world, with students spending long hours beyond regular school on exam preparation, reflecting intense achievement drive.",
+          "strongest_opposing": "Younger Taiwanese increasingly prioritize work-life balance and leisure, with rising interest in slow living and wellness trends, nudging away from pure striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c8",
+            "c13"
+          ],
+          "opposing_evidence_ids": [
+            "c14"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "TWN",
+          "dimension": "D1",
+          "baseline_score": 46.18333837,
+          "specialist_recommendation": 34.333,
+          "specialist_confidence": 0.8267,
+          "evidence_strength": 0.6389,
+          "evidence_quality": 0.5912,
+          "disagreement_index": 1.0,
+          "specialist_influence_weight": 0.7224,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.72 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "TWN",
+          "dimension": "D2",
+          "baseline_score": 29.37673963,
+          "specialist_recommendation": 29.5,
+          "specialist_confidence": 0.835,
+          "evidence_strength": 0.6687,
+          "evidence_quality": 0.6126,
+          "disagreement_index": 0.22,
+          "specialist_influence_weight": 0.637,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "TWN",
+          "dimension": "D3",
+          "baseline_score": 64.29846741,
+          "specialist_recommendation": 67.667,
+          "specialist_confidence": 0.8,
+          "evidence_strength": 0.6111,
+          "evidence_quality": 0.5758,
+          "disagreement_index": 0.0822,
+          "specialist_influence_weight": 0.586,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "TWN",
+          "dimension": "D4",
+          "baseline_score": 58.48681473,
+          "specialist_recommendation": 60.667,
+          "specialist_confidence": 0.76,
+          "evidence_strength": 0.6571,
+          "evidence_quality": 0.5942,
+          "disagreement_index": 0.4913,
+          "specialist_influence_weight": 0.6444,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "TWN",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 52.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 52.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 11.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 11.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 55.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 55.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=52: differs by 6 from the statistician reading of 46.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=35: differs by 6 from the statistician reading of 29.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=58: differs by 6 from the statistician reading of 64.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=72: differs by 14 from the statistician reading of 58.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 14.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=41: differs by 11 from the comparativist reading of 52.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=70: differs by 12 from the comparativist reading of 58.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=60: differs by 12 from the comparativist reading of 72.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=29: differs by 6 from the country_specialist reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=64: differs by 6 from the country_specialist reading of 70.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=63: differs by 3 from the country_specialist reading of 60.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=46: differs by 5 from the devils_advocate reading of 41.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "TWN",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=58: differs by 5 from the devils_advocate reading of 63.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "TWN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 2,
+          "recommendation": 15.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "No adequate ethnographic evidence found on freedom of emotional expression vs hierarchical suppression at the social level, so abstaining.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "TWN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 2,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 1,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 8,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 7,
+          "recommendation": 24.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 7,
+          "recommendation": 68.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 6,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 4,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "TWN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 75.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "TWN",
+        "score_diversity": 0.1713,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6758,
+        "consensus_quality": 0.961,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "TWN",
+      "country": "Taiwan",
+      "region": "East Asia",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 41,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.0,
+          "top_supporting_arguments": [
+            "Younger generations of Taiwanese employed in multinational companies have embraced more individualist ideas of teamwork and participation, suggesting a gradual generational shift away from pure collectivism.",
+            "A Taiwanese cultural observer notes a tension between traditional collectivism and emerging individualist behavior among younger generations, visible in long-term orientation trends diverging between cohorts.",
+            "Hofstede Individualism score for Taiwan is 40-49, indicating a moderately collectivist society but with significant individualist tendencies in urban areas and among younger generations."
+          ],
+          "top_counter_arguments": [
+            "Taiwan has a very low Individualism score of 17, indicating a strongly collectivist identity context.",
+            "Taiwan scores 17 on individualism in a cross‑cultural Hofstede comparison, reinforcing that identity is socially embedded rather than individual.",
+            "Taiwan's Hofstede Individualism (IDV) score is 17, one of the lowest in the world, placing it among the most collectivist societies alongside Malaysia, Hong Kong, and other East Asian countries."
+          ],
+          "why_this_score": "Taiwan sits at 41 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~46), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 46 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (46) and the CI ceiling (51), so pushing past 41 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 41 would understate the measured signal.",
+          "related_countries": [
+            "MAC",
+            "South Korea",
+            "Mongolia",
+            "North Korea",
+            "Hong Kong"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C7",
+              "source_id": "S19",
+              "title": "Cross Cultural Management Guide for Taiwan – Commisceo Global",
+              "url": "https://www.commisceo-global.com/resources/management-guides/taiwan-management-guide",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Younger generations of Taiwanese employed in multinational companies have embraced more individualist ideas of teamwork and participation, suggesting a gradual generational shift away from pure collectivism.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C8",
+              "source_id": "S11",
+              "title": "Design for Different Cultures with Hofstede's Dimensions – Evie Cheng (Medium)",
+              "url": "https://medium.com/@eviecheng/designing-for-different-cultures-hofstedes-cultural-dimensions-5d5a369e99ee",
+              "author": "Evie Cheng",
+              "publication_year": 2020,
+              "excerpt": "A Taiwanese cultural observer notes a tension between traditional collectivism and emerging individualist behavior among younger generations, visible in long-term orientation trends diverging between cohorts.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c1",
+              "source_id": "s1",
+              "title": "Hofstede Insights: Taiwan",
+              "url": "https://www.hofstede-insights.com/country/taiwan/",
+              "author": "Hofstede Insights",
+              "publication_year": null,
+              "excerpt": "Hofstede Individualism score for Taiwan is 40-49, indicating a moderately collectivist society but with significant individualist tendencies in urban areas and among younger generations.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 29,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.78,
+          "top_supporting_arguments": [
+            "Hofstede's Institute notes that in Taiwan and Korea, post-work drinking gatherings with colleagues serve as institutionalized release valves for repressed aggression and emotion, including toward superiors—with matters resuming normally the next day.",
+            "Taiwan's cultural appetite for change is developing continuously, suggesting the society is not uniformly restrained and absorbs new expressive norms over time.",
+            "Night markets and temple festivals in Taiwan are loud, vibrant, and emotionally open, providing circumscribed spaces for communal release and expressiveness."
+          ],
+          "top_counter_arguments": [
+            "The official Taiwan Gold Card government portal warns foreign professionals that Taiwan is a non-confrontational culture: sharing opinions or criticism too early with a line manager can be interpreted as arrogance, and seniority is expected to be respected and abided by.",
+            "Communication in Taiwanese workplaces is characterized by politeness and indirectness; professionals employ subtle and nuanced language to avoid direct confrontation, with cultural preference for maintaining harmony shaping all interactions.",
+            "Confucianism encourages individuals in Chinese-heritage cultures (including Taiwan) to consider the impact of their emotions on the larger group, leading to more restrained and measured expressions of feelings to preserve social harmony."
+          ],
+          "why_this_score": "Taiwan sits at 29 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 29 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (30) and the CI ceiling (36), so pushing past 29 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (29) and the CI floor (23), so going below 29 would understate the measured signal.",
+          "related_countries": [
+            "MAC",
+            "South Korea",
+            "Mongolia",
+            "North Korea",
+            "Hong Kong"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C14",
+              "source_id": "S18",
+              "title": "Uncertainty Avoidance in Dr. Hofstede's National Culture Model – TCPS Institute",
+              "url": "https://www.tcps.institute/post/uncertainty-avoidance-in-dr-hofstede-s-national-culture-model",
+              "author": "TCPS Institute",
+              "publication_year": 2023,
+              "excerpt": "Hofstede's Institute notes that in Taiwan and Korea, post-work drinking gatherings with colleagues serve as institutionalized release valves for repressed aggression and emotion, including toward superiors—with matters resuming normally the next day.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C15",
+              "source_id": "S6",
+              "title": "Managing In Taiwan – Management Style & Workplace Culture (Commisceo Global)",
+              "url": "https://commisceo-global.com/management-guides/taiwan-management-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Taiwan's cultural appetite for change is developing continuously, suggesting the society is not uniformly restrained and absorbs new expressive norms over time.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c12",
+              "source_id": "s14",
+              "title": "Taiwan's Modern Miracle: 1949–2020",
+              "url": "https://www.economist.com/asia/2020/07/11/taiwans-modern-miracle",
+              "author": "The Economist",
+              "publication_year": 2020,
+              "excerpt": "Night markets and temple festivals in Taiwan are loud, vibrant, and emotionally open, providing circumscribed spaces for communal release and expressiveness.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 66,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.918,
+          "top_supporting_arguments": [
+            "Taiwan’s Uncertainty Avoidance score is 69, showing a cultural preference for structure, rules, and predictability.",
+            "In cross‑cultural Hofstede data Taiwan’s uncertainty avoidance is 69, indicating high Structure in cultural‑psychological orientation.",
+            "Taiwan scores 69 on Hofstede's Uncertainty Avoidance Index, indicating a high preference for avoiding uncertainty; the country maintains rigid codes of belief and behavior, with a strong emotional need to follow rules and look for structures."
+          ],
+          "top_counter_arguments": [
+            "Hofstede's own commentary on Taiwan notes that 'when it comes to people, rules could be broken'—in-group relationships can override formal rule adherence, indicating pragmatic flexibility that moderates pure rule-rigidity.",
+            "Taiwan's increasingly globalized business environment means that while traditional structures persist, companies are adapting and cultural expectations around structure are evolving, particularly in multinationals operating in Taiwan.",
+            "In business and social networks, Taiwanese often rely on guanxi (personal connections) to bypass formal rules, showing flexibility and pragmatic tolerance for ambiguity."
+          ],
+          "why_this_score": "Taiwan sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (68), so pushing past 66 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (60), so going below 66 would understate the measured signal.",
+          "related_countries": [
+            "MAC",
+            "South Korea",
+            "Mongolia",
+            "North Korea",
+            "Hong Kong"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c3",
+              "source_id": "turn1search3",
+              "title": "Taiwan — Taiwanese Geert Hofstede Cultural Dimensions Explained",
+              "url": "",
+              "author": "",
+              "publication_year": null,
+              "excerpt": "Taiwan’s Uncertainty Avoidance score is 69, showing a cultural preference for structure, rules, and predictability.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c4",
+              "source_id": "turn1search5",
+              "title": "Cross‑cultural comparison including Taiwan Hofstede scores",
+              "url": "",
+              "author": "",
+              "publication_year": null,
+              "excerpt": "In cross‑cultural Hofstede data Taiwan’s uncertainty avoidance is 69, indicating high Structure in cultural‑psychological orientation.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C16",
+              "source_id": "S11",
+              "title": "Design for Different Cultures with Hofstede's Dimensions – Evie Cheng (Medium)",
+              "url": "https://medium.com/@eviecheng/designing-for-different-cultures-hofstedes-cultural-dimensions-5d5a369e99ee",
+              "author": "Evie Cheng",
+              "publication_year": 2020,
+              "excerpt": "Taiwan scores 69 on Hofstede's Uncertainty Avoidance Index, indicating a high preference for avoiding uncertainty; the country maintains rigid codes of belief and behavior, with a strong emotional need to follow rules and look for structures.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 60,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.509,
+          "top_supporting_arguments": [
+            "Taiwan’s Masculinity score is moderate at 45, pointing to a balance between competitive achievement and relational harmony in cultural drive.",
+            "Taiwanese professionals work on average over 2,000 hours per year—almost 200 hours more than in comparable countries—reflecting an intensely achievement-oriented work culture.",
+            "In Taiwan, children are always rewarded by high grades in exams rather than participation or effort, and personal success is defined by professional achievement and status rather than by alignment with personal passion—indicating a strongly achievement-oriented society."
+          ],
+          "top_counter_arguments": [
+            "Taiwan's Hofstede Masculinity score is 45, placing it slightly below the midpoint and classifying it as a slightly feminine society that values consensus, quality of life, and solidarity alongside competitive achievement.",
+            "The Hofstede framework characterizes Taiwan's MAS=45 orientation as one where conflicts are resolved by compromise and negotiation, incentives such as free time and flexibility are favored, and focus is on well-being rather than status display.",
+            "Younger Taiwanese increasingly prioritize work-life balance and leisure, with rising interest in slow living and wellness trends, nudging away from pure striving."
+          ],
+          "why_this_score": "Taiwan sits at 60 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 58 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (63) and the CI ceiling (66), so pushing past 60 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (58) and the CI floor (51), so going below 60 would understate the measured signal.",
+          "related_countries": [
+            "MAC",
+            "South Korea",
+            "Mongolia",
+            "North Korea",
+            "Hong Kong"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c5",
+              "source_id": "turn1search11",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Taiwan’s Masculinity score is moderate at 45, pointing to a balance between competitive achievement and relational harmony in cultural drive.",
+              "dimension": "D4",
+              "support_direction": "supports_mid"
+            },
+            {
+              "claim_id": "C23",
+              "source_id": "S13",
+              "title": "Remote Hiring 101: Workplace Culture in Southeast Asia and Taiwan – Glints TalentHub",
+              "url": "https://employers.glints.com/en-sg/blog/remote-hiring-101-sea-and-taiwan-workplace-culture/",
+              "author": "Glints TalentHub editorial",
+              "publication_year": 2024,
+              "excerpt": "Taiwanese professionals work on average over 2,000 hours per year—almost 200 hours more than in comparable countries—reflecting an intensely achievement-oriented work culture.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C24",
+              "source_id": "S11",
+              "title": "Design for Different Cultures with Hofstede's Dimensions – Evie Cheng (Medium)",
+              "url": "https://medium.com/@eviecheng/designing-for-different-cultures-hofstedes-cultural-dimensions-5d5a369e99ee",
+              "author": "Evie Cheng",
+              "publication_year": 2020,
+              "excerpt": "In Taiwan, children are always rewarded by high grades in exams rather than participation or effort, and personal success is defined by professional achievement and status rather than by alignment with personal passion—indicating a strongly achievement-oriented society.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

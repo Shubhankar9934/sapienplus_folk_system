@@ -1,0 +1,2291 @@
+{
+  "iso3": "KAZ",
+  "country": "Kazakhstan",
+  "region": "Former Soviet",
+  "data_status": "PARTIAL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-07T14:13:17.320303+00:00",
+  "cultural_profile": {
+    "iso3": "KAZ",
+    "country": "Kazakhstan",
+    "region": "Former Soviet",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Kazakhstan's society is deeply rooted in collectivism, with family and clan ties influencing major life decisions."
+      },
+      {
+        "dimension": "D2",
+        "score": 37,
+        "reading": "Understated",
+        "explanation": "Public emotional expression is restrained, reflecting a culture that values controlled and reserved interactions."
+      },
+      {
+        "dimension": "D3",
+        "score": 60,
+        "reading": "Structured",
+        "explanation": "Kazakhstan exhibits a preference for hierarchical respect and structured decision-making, though informal networks introduce some fluidity."
+      },
+      {
+        "dimension": "D4",
+        "score": 53,
+        "reading": "Balanced",
+        "explanation": "While traditional values persist, there's a growing emphasis on personal achievement and career success, particularly among the youth."
+      }
+    ],
+    "executive_summary": "Kazakhstan is a land where communal ties and individual aspirations coexist. Family and clan loyalties often guide life choices, yet there's a growing push towards personal success and self-expression among the youth. Hierarchical respect and long-term relationships define business interactions, while hospitality and generosity are key social markers. Public emotional restraint contrasts with the warmth shown within close circles.",
+    "cultural_archetype": {
+      "title": "The Communal Achiever",
+      "summary": "A society balancing deep-rooted collectivism with emerging individual aspirations.",
+      "claim_ids": [
+        "c1",
+        "C01",
+        "c5"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Building long-term relationships",
+      "Navigating hierarchical structures",
+      "Community-focused projects"
+    ],
+    "culture_at_a_glance": [
+      "While traditional values persist, there's a noticeable shift towards individualism among the youth, who increasingly value personal success and self-reliance.",
+      "In Kazakhstani workplaces, hierarchical respect dictates interactions, with decisions often made at the top and public disagreement with seniors avoided.",
+      "In Kazakhstani workplaces, tribal loyalties often outweigh formal reporting structures, with long-term relationships and hierarchical respect being prioritized.",
+      "Kazakhstan's communication style in professional settings is reserved and procedural, with a preference for personal interaction over written communication.",
+      "Kazakhs value loyalty and mutual support within their groups, fostering relationships where everyone takes care of each other.",
+      "Kazakhstan's society is evolving towards secular-rational and self-expression values, yet strong family ties and community support remain central."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Emerging Individualism",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 0,
+          "framework_agreement": 79,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in cultural transition sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "While traditional values persist, there's a noticeable shift towards individualism among the youth, who increasingly value personal success and self-reliance.",
+            "claim_ids": [
+              "c5",
+              "C09",
+              "C10"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Hierarchical Respect",
+        "confidence": {
+          "evidence_strength": 41,
+          "expert_agreement": 90,
+          "framework_agreement": 92,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is limited and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "In Kazakhstani workplaces, hierarchical respect dictates interactions, with decisions often made at the top and public disagreement with seniors avoided.",
+            "claim_ids": [
+              "C13",
+              "C30"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Kazakhstan's collectivist culture is deeply rooted in its nomadic heritage and the zhuz clan system, which structured social relations and obligations.",
+        "claim_ids": [
+          "claim_4",
+          "C07"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Emerging Individualism",
+        "explanation": "Kazakhstan balances strong family and clan ties with a growing emphasis on personal success and self-expression among the younger generation.",
+        "claim_ids": [
+          "c1",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "In Kazakhstan, public emotional displays are generally suppressed, reflecting a legacy of Soviet social control and hierarchical deference.",
+          "claim_ids": [
+            "claim_6"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "In Kazakhstani workplaces, tribal loyalties often outweigh formal reporting structures, with long-term relationships and hierarchical respect being prioritized.",
+          "claim_ids": [
+            "C06",
+            "C08"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Kazakhstan's communication style in professional settings is reserved and procedural, with a preference for personal interaction over written communication.",
+          "claim_ids": [
+            "C14",
+            "C16"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Kazakhs value loyalty and mutual support within their groups, fostering relationships where everyone takes care of each other.",
+          "claim_ids": [
+            "C04",
+            "claim_3"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Kazakhstan's society is evolving towards secular-rational and self-expression values, yet strong family ties and community support remain central.",
+          "claim_ids": [
+            "c5",
+            "C05"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Refusing hospitality, such as tea or snacks, can be seen as disinterest and negatively impact social or professional interactions.",
+          "claim_ids": [
+            "C18"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In Kazakhstan, hospitality and generosity are key status signals, with lavish hosting reflecting social rank.",
+          "claim_ids": [
+            "C35"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Kazakhstan feels like a balance between collective support and individual aspirations. Emotional restraint is common in public, but within close circles, warmth and loyalty are deeply valued. In the workplace, hierarchical respect and long-term relationships guide interactions, while the younger generation increasingly seeks personal success and self-expression.",
+      "claim_ids": [
+        "claim_6",
+        "C06",
+        "C04",
+        "C09"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Kazakhstan's society is marked by a strong sense of community and mutual support, with family and clan ties influencing social interactions.",
+        "claim_ids": [
+          "C04",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Public emotional restraint is noticeable, a legacy of Soviet influence, yet within close circles, warmth and hospitality are prominent.",
+        "claim_ids": [
+          "claim_6",
+          "C17"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "In professional settings, hierarchical respect and long-term relationships are prioritized, with decisions often made at the top.",
+        "claim_ids": [
+          "C13",
+          "C30"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Leveraging personal cultural capital and bilingual skills, particularly in Russian, can enhance social mobility and professional success in Kazakhstan.",
+        "claim_ids": [
+          "c4",
+          "C37"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect hierarchical norms or neglecting the importance of long-term relationships can hinder professional success in Kazakhstan.",
+        "claim_ids": [
+          "C13",
+          "C29"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C04"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C04"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C04"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C04"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C04"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c2",
+          "c3",
+          "C09",
+          "C10"
+        ],
+        "sources_count": 4
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Younger urban residents in Kazakhstan tend to embrace more individualistic values, whereas older rural communities adhere to traditional collectivist norms.",
+        "claim_ids": [
+          "c2",
+          "c3",
+          "C09",
+          "claim_3"
+        ],
+        "sources_count": 4
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "UKR",
+        "country": "Ukraine",
+        "similarity": 92,
+        "explanation": "Kazakhstan and Ukraine share a post-Soviet legacy that influences their hierarchical and collectivist social structures, though Kazakhstan retains stronger clan-based social ties.",
+        "claim_ids": [
+          "c1",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "BLR",
+        "country": "Belarus",
+        "similarity": 92,
+        "explanation": "Both Kazakhstan and Belarus exhibit restrained expression and hierarchical respect, but Kazakhstan's clan system adds a unique layer to its social dynamics.",
+        "claim_ids": [
+          "C12",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "AZE",
+        "country": "Azerbaijan",
+        "similarity": 90,
+        "explanation": "Kazakhstan and Azerbaijan share a strong emphasis on hospitality and collectivism, though Kazakhstan's nomadic heritage influences its clan-based social structure.",
+        "claim_ids": [
+          "C17",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "TKM",
+        "country": "Turkmenistan",
+        "similarity": 89,
+        "explanation": "Kazakhstan and Turkmenistan both value hierarchical respect and community ties, yet Kazakhstan's evolving individualism among youth sets it apart.",
+        "claim_ids": [
+          "C13",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Clan-based Social Structure",
+        "explanation": "Kazakhstan's unique social organization through the 'zhuz' clan system deeply influences its collectivist culture and social interactions.",
+        "claim_ids": [
+          "C07",
+          "claim_4"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Balancing Tradition and Modernity",
+        "explanation": "Kazakhstan stands out for its blend of traditional collectivist values and a growing trend towards individualism, particularly among the youth.",
+        "claim_ids": [
+          "c5",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More reserved than Moldova",
+        "dimension": "D2",
+        "neighbour_iso3": "MDA",
+        "delta": -17
+      },
+      {
+        "text": "More structured than Azerbaijan",
+        "dimension": "D3",
+        "neighbour_iso3": "AZE",
+        "delta": 15
+      },
+      {
+        "text": "More community-oriented than Moldova",
+        "dimension": "D1",
+        "neighbour_iso3": "MDA",
+        "delta": -14
+      },
+      {
+        "text": "More structured than Turkmenistan",
+        "dimension": "D3",
+        "neighbour_iso3": "TKM",
+        "delta": 14
+      },
+      {
+        "text": "More reserved than Turkmenistan",
+        "dimension": "D2",
+        "neighbour_iso3": "TKM",
+        "delta": -13
+      },
+      {
+        "text": "More achievement-oriented than Ukraine",
+        "dimension": "D4",
+        "neighbour_iso3": "UKR",
+        "delta": 13
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Although traditional Kazakh society has strong group-based identity (e.g., honor-based Qozha lineage influencing life choices, collectivist private-space norms), more recent trends show rising individualism—especially among younger generations and returnee communities—suggesting a moderate collectivist orientation with increasing individualist tendencies.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Kazakhstan's collectivist identity is among the most strongly measured in the available literature. Hofstede Insights places IDV at 20 — near the extreme collectivist end of the global scale — and this is independently corroborated by Nezhina & Ibrayeva (2013) and by Minkov et al. (2017), whose revised national I-C index places Kazakhstan at -106 (49th of 56, deep collectivist). The core social unit is the group: loyalty, mutual obligation, in-group solidarity, and clan/zhuz affiliation define the self. This is further embedded in nomadic heritage (communal survival on the steppe), Soviet-era collectivism, and Islam's communal ethos. The one genuine counter-signal is a documented, data-backed shift among urban youth toward personal career aspiration and self-expression (WVS Wave 7 / Frontiers 2025); this is real but is a generational adjustment at the margins, not a reversal. The anchor measure (IDV ≈ 20) is multiply corroborated and points unambiguously to a very low D1 score. Counter-evidence nudges the score slightly upward from the absolute floor (IDV = 20 → D1 ≈ 18) but does not flip its direction.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Kazakhstan's identity is moderately individualist, shaped by its Soviet legacy of urban atomization and a post-independence push toward personal achievement, but counterbalanced by strong clan and family loyalties that persist especially in rural areas. Hofstede's Individualism score for Kazakhstan is not officially published but proxies from neighboring Russia (IDV 39) and Turkey (IDV 37) suggest a collectivist baseline; however, ethnographic work and surveys show a distinct urban-rural split, with urban Kazakhs increasingly self-oriented. I anchor on the strongest signal: the 2018 World Values Survey wave 6 for Kazakhstan shows 34% prioritize individual responsibility over state provision, a figure close to Russia's 36%, indicating moderate collectivism. But given the rapid market-driven individualization in Almaty and Nur-Sultan, I place the score at 70 (self-oriented) rather than the lower Russian range, acknowledging the tension.",
+          "suggested_score": 70
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede Indulgence (IVR) for Kazakhstan is 22 — deeply Restrained — indicating strong cultural suppression of spontaneous emotional expression and gratification. This is consistent with the broader pattern: public disagreement with seniors is avoided; emotional restraint is expected in hierarchical settings; the Soviet-era norm of stoic public behaviour reinforced pre-existing nomadic reserve with strangers. However, D2 is about freedom from hierarchical suppression of expression, not mere quietness. In private, within the in-group, Kazakhs display warm hospitality, open generosity, and expressive social warmth — the dastarkhan culture of lavish communal feasting is a genuine counter-signal. Additionally, Kazakh communication 'blends directness with subtlety' (commisceo). The key distinction: warmth inside the in-group coexists with emotional restraint in public/formal settings. On balance, the structural suppression of public emotional expression — rooted in hierarchy, Soviet legacy, and Restrained Hofstede score — places Kazakhstan clearly in the Restrained half (D2 ~ 30), with the in-group warmth nudging the score modestly above the absolute floor.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Kazakhstan is restrained, reflecting a Soviet-era legacy of emotional reserve in public and a strong hierarchical deference that suppresses open emotional display. Hofstede's equivalent dimension (Indulgence vs. Restraint) is not directly measured for Kazakhstan, but the region (Russia indulgence 20, Turkey 49) suggests restrained norms. Ethnographic accounts (Werner, 1997) describe how Kazakhs rarely show anger or disagreement directly, especially with elders or superiors. The counter-evidence of lively toi (wedding) celebrations does not contradict this: permitted release valves exist but do not lower everyday restraint. I set the score at 35 (restrained), in line with the regional pattern.",
+          "suggested_score": 35
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede Uncertainty Avoidance (UAI) for Kazakhstan is reported as HIGH by Hofstede Insights and corroborated by Nezhina & Ibrayeva (2013). High UAI directly maps to D3 Structure (Certain). This aligns with multiple institutional signals: strict bureaucratic processes inherited from the Soviet system; reliance on formal approvals and documentation; strong rule-following norms in hierarchical workplaces; the importance of titles, seniority, and established procedure. The rival source (Kainazarov 2013) disputes the high UAI claim, which prevents a fully confident top score. Additionally, tribal loyalties (zhuz) sometimes override formal rules, introducing pragmatic flexibility. High Long-Term Orientation (85) also signals a pragmatic, adaptive culture that can work around formal rules. Balancing the majority corroborated signal (high UAI confirmed by multiple sources) against these genuine counter-signals, D3 lands at ~72 — clearly Certain but not at the extreme end.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Kazakhstan's structure is moderately high—leaning toward rule-bound and planning-oriented—but with a fluid undercurrent from corruption and improvisation in daily life. Hofstede's Uncertainty Avoidance for Russia (95) and Turkey (85) would predict high structure, but Kazakhstan shows a lower, more ambiguous pattern. The 2020 World Bank governance indicators show rule of law in the 35th percentile, suggesting formal rules are weak, but cultural norms for punctuality and order in formal settings (especially in business) are strong. The counter-evidence of corruption and informal networks (blat) creates a dual reality. I set the score at 50 (midpoint), reflecting the tension between a desire for order (Soviet planning legacy) and a lived reality of fluid rule-following.",
+          "suggested_score": 50
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede Masculinity (MAS) for Kazakhstan is reported as 'average' or mid-range by Hofstede Insights — the weakest measured signal in the profile. This is genuinely contested: Kainazarov (2013) finds it diametrically opposed to Hofstede Insights data. On the Drive dimension specifically (achievement/competition vs. harmony/relationships/quality-of-life), Kazakhstan shows cross-cutting pressures. Counter-Drive signals are strong: a deeply relationship-centred business culture where trust and personal bonds outweigh performance metrics; decisions made slowly through consultation; harmony preservation over individual assertiveness. Supporting-Drive signals exist but are more recent and generational: urban Kazakhstani youth increasingly prioritise career growth, self-reliance, and achievement (PMC 2025); the state's ambitious 'Kazakhstan 2050' development strategy signals institutional drive; re-traditionalisation also reinforces male breadwinner/achiever norms. The contested MAS anchor, combined with cross-cutting evidence, places D4 near the midpoint — slightly below 50 (Accepting-leaning) given the dominant relationship-over-performance orientation in actual workplace behaviour, while acknowledging a real upward trend in achievement aspiration.",
+          "suggested_score": 45
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Kazakhstan is moderately striving, driven by a post-independence economic push and a cultural valuation of hard work and material success, but tempered by lingering Soviet-era preference for security and acceptance of modest means. Hofstede's Masculinity for Russia (36) and Turkey (45) would suggest low striving, but Kazakhstan's oil-driven economy and entrepreneurial boom among younger generations show higher achievement orientation. The 2018 WVS shows 58% of Kazakhs agree that 'hard work brings success' (vs. 50% global average). Counter-evidence: elderly and rural Kazakhs still value relationship harmony over competition. I set the score at 65 (striving-leaning), reflecting the generational and urban-rural divide.",
+          "suggested_score": 65
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "The Beautiful Country of Kazakhstan: Kazakh Culture",
+      "url": "https://ivypanda.com/essays/the-beautiful-country-of-kazakhstan-kazakh-culture/",
+      "author": "IvyPanda",
+      "publication_year": 2024,
+      "excerpt": "Hofstede Insights places Kazakhstan's Individualism score at 20, near the extreme collectivist end of the global scale, defining it as a collectivist culture.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S01",
+      "title": "The Beautiful Country of Kazakhstan: Kazakh Culture",
+      "url": "https://ivypanda.com/essays/the-beautiful-country-of-kazakhstan-kazakh-culture/",
+      "author": "IvyPanda",
+      "publication_year": 2024,
+      "excerpt": "Kazakhs tend to foster relationships where everyone takes care of each other within the group; people of this country value loyalty above all and are willing to help each other at any given moment.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S12",
+      "title": "Kazakhstan Focus Group Discussions – Spring 2022 (IRI/CISR National Identity)",
+      "url": "https://www.iri.org/wp-content/uploads/2022/11/CISR-FGD-National-Identity-KZ_ENG_FINAL.pdf",
+      "author": "International Republican Institute / CISR",
+      "publication_year": 2022,
+      "excerpt": "Ethnic Kazakhs identify themselves as a group committed to mutual support and strong family ties; the word 'free' in Kazakh self-description references nomadic communal heritage rather than individual liberty.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S07",
+      "title": "Managing In Kazakhstan – Management Style & Work Culture",
+      "url": "https://commisceo-global.com/management-guides/kazakhstan-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Tribal loyalties (zhuz clan system) are often more important than formal reporting relationships; supervisors may confer with someone with whom they feel a bond rather than the person with technical expertise.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S18",
+      "title": "Comparative Study Of Cultural Dimensions In One Country (Yakutia / Kazakh zhuz)",
+      "url": "https://www.europeanproceedings.com/article/10.15405/epsbs.2017.01.02.13",
+      "author": "European Proceedings",
+      "publication_year": 2017,
+      "excerpt": "The Kazakh system of social relations is presented by the 'zhuz' clan grouping, a kin-based social organisation structuring collective identity and obligation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S09",
+      "title": "Kazakhstan Job Interview: Cultural Tips & Preparation",
+      "url": "https://resumeflex.com/how-to-prepare-for-kazakhstan-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "Local Kazakhstani firms often prioritise long-term relationships and hierarchical respect, mirroring the country's nomadic traditions of collective decision-making (kene).",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S05",
+      "title": "Between traditions and globalization: value orientations of Kazakhstani youth",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12066626/",
+      "author": "PMC / Frontiers in Sociology",
+      "publication_year": 2025,
+      "excerpt": "Recent studies indicate Kazakhstani youth strongly value close family ties and community, yet at the same time increasingly aspire to personal success, self-reliance, and career achievement — a documented generational tension.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S04",
+      "title": "Cultural memory and the transformation of traditional values in Post-Soviet Kazakhstan: a hybrid model of national identity",
+      "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2026.1837180/full",
+      "author": "Frontiers in Communication",
+      "publication_year": 2026,
+      "excerpt": "WVS data indicate that post-Soviet societies including Kazakhstan are gradually moving from traditional values toward more secular-rational and self-expression values.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S01",
+      "title": "The Beautiful Country of Kazakhstan: Kazakh Culture",
+      "url": "https://ivypanda.com/essays/the-beautiful-country-of-kazakhstan-kazakh-culture/",
+      "author": "IvyPanda",
+      "publication_year": 2024,
+      "excerpt": "Kazakhstan scores 22 on Hofstede's Indulgence vs. Restraint dimension — a deeply Restrained score indicating strong cultural suppression of spontaneous gratification and emotional expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S06",
+      "title": "Kazakh Business Culture Guide: Doing Business In Kazakhstan",
+      "url": "https://commisceo-global.com/country-guides/kazakhstan-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Public disagreement with senior people is usually avoided in Kazakhstani workplaces; rank influences communication style, seating, and decision-making, suppressing open expression in formal settings.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S06",
+      "title": "Kazakh Business Culture Guide: Doing Business In Kazakhstan",
+      "url": "https://commisceo-global.com/country-guides/kazakhstan-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Soviet influence remains visible in institutional habits, reinforcing a stoic, procedural, emotionally reserved style in professional and public communication.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S08",
+      "title": "Cultural Considerations in Business – Kazakhstan",
+      "url": "https://rivermate.com/guides/kazakhstan/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2025,
+      "excerpt": "Important discussions or decisions in Kazakhstan often require personal interaction rather than written channels; direct emotional confrontation in formal settings is avoided.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S06",
+      "title": "Kazakh Business Culture Guide: Doing Business In Kazakhstan",
+      "url": "https://commisceo-global.com/country-guides/kazakhstan-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Hospitality is deeply rooted and highly valued in Kazakh culture; generosity remains an important social marker and guests are treated with visible warmth and care — signalling expressive openness within the in-group.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S09",
+      "title": "Kazakhstan Job Interview: Cultural Tips & Preparation",
+      "url": "https://resumeflex.com/how-to-prepare-for-kazakhstan-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "Hospitality (konakasy) in Kazakhstan is a professional expectation as well as a social custom; refusing tea or snacks can be interpreted as disinterest and derail negotiations — expression of warmth is structurally required.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S08",
+      "title": "Cultural Considerations in Business – Kazakhstan",
+      "url": "https://rivermate.com/guides/kazakhstan/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2025,
+      "excerpt": "Relationship-building and trust are the foundation of Kazakhstani business; personal connections significantly influence negotiation, with patience and long-term relationship orientation dominating over performance-driven quick results.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S07",
+      "title": "Managing In Kazakhstan – Management Style & Work Culture",
+      "url": "https://commisceo-global.com/management-guides/kazakhstan-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Decisions in Kazakhstani workplaces are reached slowly and patience is key; decisions are made at the top, often with little input from below — prioritising consensus and stability over competitive individual achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C35",
+      "source_id": "S06",
+      "title": "Kazakh Business Culture Guide: Doing Business In Kazakhstan",
+      "url": "https://commisceo-global.com/country-guides/kazakhstan-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Hospitality and generosity are important social markers and status signals in Kazakhstan; how lavishly one hosts a guest signals social rank — a concrete status indicator distinct from pure material wealth.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C37",
+      "source_id": "S12",
+      "title": "Kazakhstan Focus Group Discussions – Spring 2022 (IRI/CISR National Identity)",
+      "url": "https://www.iri.org/wp-content/uploads/2022/11/CISR-FGD-National-Identity-KZ_ENG_FINAL.pdf",
+      "author": "International Republican Institute / CISR",
+      "publication_year": 2022,
+      "excerpt": "Russian language plays an important role in social mobility for both non-Kazakhs and Kazakhs in Kazakhstan — a legacy of Soviet rule that creates a practical bilingual professional norm.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "turn0search9",
+      "title": "Honor, Bureaucracy, and Coal Stoves: A Case Study of Late Soviet Islam in Kazakhstan",
+      "url": "https://research.nu.edu.kz/en/publications/honor-bureaucracy-and-coal-stoves-a-case-study-of-late-soviet-isl/",
+      "author": "Ulan Bigozhin",
+      "publication_year": 2022,
+      "excerpt": "In traditional Kazakh society, family identity and honor—especially in Qozha lineages—influenced major life decisions such as education and career.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "turn0search1",
+      "title": "Private Space in the Value System of a Traditional Society",
+      "url": "https://eo.iea.ras.ru/en/article/8448/",
+      "author": "O.B. Naumova",
+      "publication_year": 2014,
+      "excerpt": "Traditional Kazakh norms minimize private space and privacy, reflecting collectivist values, though younger generations increasingly value privacy.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "turn0search5",
+      "title": "Changing Values in the Context of Generational Approach in the Kazakhstan",
+      "url": "http://dx.doi.org/10.5539/ass.v11n14p181",
+      "author": "Abdikakimov Mukhtar",
+      "publication_year": 2015,
+      "excerpt": "Since post-Soviet transitions, modernist and individualistic values have become more prevalent in Kazakhstan, especially among youth.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "turn0search11",
+      "title": "Adaptation Strategies and Identity Formation Among Xinjiang Kazakhs in Kazakhstan",
+      "url": "http://nur.nu.edu.kz/handle/123456789/6290",
+      "author": "Ayikailin Saiken",
+      "publication_year": 2022,
+      "excerpt": "Xinjiang Kazakhs who repatriated to Kazakhstan form hybrid identities and leverage personal cultural capital to find jobs, emphasizing personal over collective identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "turn0search16",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Kazakhstan's evolving national identity integrates secular-rational and self-expression values, pointing to a movement toward individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_3",
+      "source_id": "src_3",
+      "title": "The Moral Economy of the Kazakh Steppe: Kinship, Morality and Capitalism in Post-Soviet Kazakhstan",
+      "url": "https://www.cambridge.org/core/journals/central-asian-survey/article/moral-economy-of-the-kazakh-steppe/",
+      "author": "Werner, Cynthia",
+      "publication_year": 1997,
+      "excerpt": "Werner (1997) describes how in rural Kazakh communities, family and clan loyalty still determine social identity and economic obligations, showing persistent collectivism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_4",
+      "source_id": "src_7",
+      "title": "The Kazakhs: A Modern History",
+      "url": "https://www.stanford.edu/group/ps/kazakhs-modern-history.html",
+      "author": "Olcott, Martha Brill",
+      "publication_year": 1995,
+      "excerpt": "Olcott (1995) notes the historical importance of the zhuz (horde) system where identity was rooted in lineage and clan, a deep cultural layer against individualist norms.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_6",
+      "source_id": "src_5",
+      "title": "Blat and the Informal Economy in Kazakhstan: A Sociological Analysis",
+      "url": "https://www.researchgate.net/publication/228742358_Blat_and_the_Informal_Economy_in_Kazakhstan",
+      "author": "Ledeneva, Alena",
+      "publication_year": 2008,
+      "excerpt": "Ledeneva (2008) notes that in Kazakhstan, open emotional displays in public settings are suppressed, a legacy of Soviet social control and hierarchical deference.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 46,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 37,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 60,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 53,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 53.12306169,
+      "D2": 43.84542405,
+      "D3": 49.10746371,
+      "D4": 42.69710415
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 45.05355754,
+        "hi": 61.19256585
+      },
+      "D2": {
+        "lo": 30.69375965,
+        "hi": 56.99708846
+      },
+      "D3": {
+        "lo": 22.92154797,
+        "hi": 75.29337946
+      },
+      "D4": {
+        "lo": 14.73229582,
+        "hi": 70.66191249
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "KAZ",
+        "dimension": "D1",
+        "baseline": 53.12306169,
+        "final": 46.0,
+        "direction": "down",
+        "magnitude": 7.12,
+        "reason": "Identity adjusted from baseline 53.1 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.69 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 46 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if globe, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "KAZ",
+        "dimension": "D2",
+        "baseline": 43.84542405,
+        "final": 37.0,
+        "direction": "down",
+        "magnitude": 6.85,
+        "reason": "Expression adjusted from baseline 43.8 to 37 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.54 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 37 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if globe, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "KAZ",
+        "dimension": "D3",
+        "baseline": 49.10746371,
+        "final": 60.0,
+        "direction": "up",
+        "magnitude": 10.89,
+        "reason": "Structure adjusted from baseline 49.1 to 60 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.57 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 60 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if globe, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "KAZ",
+        "dimension": "D4",
+        "baseline": 42.69710415,
+        "final": 53.0,
+        "direction": "up",
+        "magnitude": 10.3,
+        "reason": "Drive adjusted from baseline 42.7 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.57 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 53 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if globe, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 45.05,
+        "baseline": 53.12306169,
+        "framework_hi": 61.19,
+        "specialist_recommendation": 42.667,
+        "council_consensus": 48.0,
+        "integrator_recommendation": 45.01,
+        "llm_recommendation": 46.0,
+        "final": 46,
+        "available_range": 16.14,
+        "distance_from_baseline": -7.12,
+        "range_utilization": 6,
+        "clamp_adjustment": 0.99,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.95,
+        "distance_from_upper": 15.19,
+        "movement_reason": "Evidence-first placement of Identity at 46 (evidence credibility 0.69): specialist recommendation 42.667 blended with council consensus 48.0, with baseline reference 53.1 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 30.69,
+        "baseline": 43.84542405,
+        "framework_hi": 57.0,
+        "specialist_recommendation": 32.5,
+        "council_consensus": 40.0,
+        "integrator_recommendation": 36.82,
+        "llm_recommendation": 37.0,
+        "final": 37,
+        "available_range": 26.31,
+        "distance_from_baseline": -6.85,
+        "range_utilization": 24,
+        "clamp_adjustment": 0.18,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 6.31,
+        "distance_from_upper": 20.0,
+        "movement_reason": "Evidence-first placement of Expression at 37 (evidence credibility 0.54): specialist recommendation 32.5 blended with council consensus 40.0, with baseline reference 43.8 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 22.92,
+        "baseline": 49.10746371,
+        "framework_hi": 75.29,
+        "specialist_recommendation": 61.0,
+        "council_consensus": 60.77,
+        "integrator_recommendation": 59.62,
+        "llm_recommendation": 60.0,
+        "final": 60,
+        "available_range": 52.37,
+        "distance_from_baseline": 10.89,
+        "range_utilization": 71,
+        "clamp_adjustment": 0.38,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 37.08,
+        "distance_from_upper": 15.29,
+        "movement_reason": "Evidence-first placement of Structure at 60 (evidence credibility 0.57): specialist recommendation 61.0 blended with council consensus 60.77, with baseline reference 49.1 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 14.73,
+        "baseline": 42.69710415,
+        "framework_hi": 70.66,
+        "specialist_recommendation": 55.0,
+        "council_consensus": 53.5,
+        "integrator_recommendation": 53.11,
+        "llm_recommendation": 53.0,
+        "final": 53,
+        "available_range": 55.93,
+        "distance_from_baseline": 10.3,
+        "range_utilization": 68,
+        "clamp_adjustment": -0.11,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 38.27,
+        "distance_from_upper": 17.66,
+        "movement_reason": "Evidence-first placement of Drive at 53 (evidence credibility 0.57): specialist recommendation 55.0 blended with council consensus 53.5, with baseline reference 42.7 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Kazakhstan",
+        "iso3": "KAZ",
+        "dimension": "D1",
+        "baseline_score": 53.12306169,
+        "final_score": 46,
+        "change_amount": -7.12,
+        "change_percent": -13.4,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Kazakhstan's Identity is placed at 46 (Social 3 <-> Self 97). Within the framework range [45-61], 46 sits at ~6% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c1",
+          "W_institutional_analyst_C07",
+          "W_institutional_analyst_C09"
+        ],
+        "supporting_frameworks": [
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 25.0,
+          "schwartz": 0.0,
+          "wvs": 37.5,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "Framework consensus=47.02, signal_strength=0.6534, agreement_score=0.7851. WVS autonomy/choice/voice scores for Kazakhstan are moderate-to-low, consistent with collectivist orientation. Trompenaars communitarianism signal pulls below 50. GLOBE in-group collectivism is high, conflicting with some WVS signals (conflict_score=0.2149). Score of 48 sits just below the South Korea anchor (50), reflecting slight collectivist lean supported by Trompenaars and WVS, partially offset by GLOBE conflict. Why not lower: CI floor is 45.05; WVS defiance/scepticism signals prevent a strongly collectivist reading. Why not higher: GLOBE in-group collectivism and Trompenaars communitarianism consistently pull below 50. Most decisive: globe_in_group_collectivism and trompenaars_communitarianism_individualism.",
+        "comparativist_reasoning": "Kazakhstan's identity dimension is slightly below the South Korea anchor, reflecting a moderate collectivist orientation. This is supported by GLOBE's in-group collectivism and Trompenaars' communitarianism signals, which are consistent with a collectivist culture. The WVS autonomy/choice/voice scores for Kazakhstan are moderate-to-low, aligning with this placement.",
+        "country_specialist_reasoning": "Kazakhstan's collectivist tendencies are supported by Hofstede's low Individualism score and qualitative insights into traditional Kazakh society emphasizing family and group identity. However, modern influences and youth trends towards individualism prevent a lower score.",
+        "skeptic_reasoning": "Adversarial check on Identity=48: resist midpoint bias and compression.",
+        "integrator_decision": "Identity adjusted from baseline 53.1 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.69 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6963): coverage=0.6, agreement=1.0, evidence=0.6, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 46,
+          "considered_alternatives": [
+            48,
+            53
+          ],
+          "why_rejected": {
+            "48": "48 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "53": "53 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "46 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (48) and the CI ceiling (61), so pushing past 46 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (48) and the CI floor (45), so going below 46 would understate the measured signal.",
+        "integrator_recommendation": 45.01,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 45",
+        "clamp_adjustment": 0.99,
+        "absolute_score_rationale": "Kazakhstan sits at 46 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Kazakhstan's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Kazakhstan's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Kazakhstan that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Kazakhstan that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Kazakhstan that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 46 means everyday life in Kazakhstan leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 46 is justified: Kazakhstan sits at 46 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (48) and the CI floor (45), so going below 46 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (48) and the CI ceiling (61), so pushing past 46 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c1, W_institutional_analyst_C07, W_institutional_analyst_C09. The integrator recommendation was 45.0; the framework limit (LOWER CI 45) applied, so the final published score became 46.",
+        "executive_explanation": "Kazakhstan sits at 46 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (48) and the CI ceiling (61), so pushing past 46 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (48) and the CI floor (45), so going below 46 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=7.12. Framework consensus=47.02, signal_strength=0.6534, conflict=0.2149. Within the framework range [45-61], 46 sits at ~6% of the permitted span. Confidence MEDIUM (score 0.6963): coverage=0.6, agreement=1.0, evidence=0.6, stability=0.8."
+      },
+      {
+        "country": "Kazakhstan",
+        "iso3": "KAZ",
+        "dimension": "D2",
+        "baseline_score": 43.84542405,
+        "final_score": 37,
+        "change_amount": -6.85,
+        "change_percent": -15.62,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Kazakhstan's Expression is placed at 37 (Restrained 3 <-> Open 97). Within the framework range [31-57], 37 sits at ~24% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C19",
+          "W_historical_analyst_claim_6",
+          "W_historical_analyst_claim_5"
+        ],
+        "supporting_frameworks": [
+          "globe"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 60.0,
+          "schwartz": 0.0,
+          "wvs": 20.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "Framework consensus=44.84, signal_strength=0.5733, agreement_score=0.919 (highest agreement, zero conflicting frameworks). GLOBE assertiveness is moderate-low for Kazakhstan; Trompenaars affective-neutral signal indicates emotional restraint. Post-Soviet cultural norms suppress public emotional expression. Why not lower: CI floor is 30.69; no evidence of extreme suppression comparable to East Asian outliers. Why not higher: high agreement score with no conflicting frameworks firmly anchors below Turkey (50); assertiveness and affective-neutral signals both point restrained. Most decisive: globe_assertiveness and trompenaars_affective_neutral.",
+        "comparativist_reasoning": "Kazakhstan's expression dimension is characterized by emotional restraint, as indicated by GLOBE's moderate-low assertiveness and Trompenaars' affective-neutral signals. This places Kazakhstan below the Turkey anchor, reflecting post-Soviet cultural norms that suppress public emotional expression.",
+        "country_specialist_reasoning": "Kazakhstan exhibits emotional restraint, influenced by post-Soviet norms and moderate-low assertiveness. This places it below the Turkey anchor, with no evidence of extreme suppression.",
+        "skeptic_reasoning": "Adversarial check on Expression=40: resist midpoint bias and compression.",
+        "integrator_decision": "Expression adjusted from baseline 43.8 to 37 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.54 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.715): coverage=0.6, agreement=1.0, evidence=0.544, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 37,
+          "considered_alternatives": [
+            40,
+            44
+          ],
+          "why_rejected": {
+            "40": "40 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "44": "44 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "37 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (57), so pushing past 37 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (31), so going below 37 would understate the measured signal.",
+        "integrator_recommendation": 36.82,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.18,
+        "absolute_score_rationale": "Kazakhstan sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 44 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Kazakhstan's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Kazakhstan that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Kazakhstan that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Kazakhstan that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Kazakhstan that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 37 means everyday life in Kazakhstan leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 37 is justified: Kazakhstan sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 44 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (31), so going below 37 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (57), so pushing past 37 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C19, W_historical_analyst_claim_6, W_historical_analyst_claim_5.",
+        "executive_explanation": "Kazakhstan sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 44 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (57), so pushing past 37 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (31), so going below 37 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=6.85. Framework consensus=44.84, signal_strength=0.5733, conflict=0.081. Within the framework range [31-57], 37 sits at ~24% of the permitted span. Confidence HIGH (score 0.715): coverage=0.6, agreement=1.0, evidence=0.544, stability=1.0."
+      },
+      {
+        "country": "Kazakhstan",
+        "iso3": "KAZ",
+        "dimension": "D3",
+        "baseline_score": 49.10746371,
+        "final_score": 60,
+        "change_amount": 10.89,
+        "change_percent": 22.18,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Kazakhstan's Structure is placed at 60 (Fluid 3 <-> Certain 97). Within the framework range [23-75], 60 sits at ~71% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C22",
+          "E_D3_01",
+          "W_institutional_analyst_C20"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 42.86,
+          "schwartz": 0.0,
+          "wvs": 14.29,
+          "trompenaars": 42.86
+        },
+        "statistician_reasoning": "Framework consensus=59.99, signal_strength=0.7202 (highest of four dimensions), agreement_score=0.8674, no conflicting frameworks. GLOBE future orientation and Trompenaars future-past/synchronic-sequential signals indicate moderate-to-high structure preference. WVS disbelief/relativism/scepticism are moderate, not strongly fluid. Post-Soviet institutional legacy fosters rule-dependence and low ambiguity tolerance. Why not lower: strong signal strength and high agreement with no conflicts; consensus of ~60 is well above Colombia anchor (50). Why not higher: WVS scepticism and relativism signals introduce some fluidity; CI ceiling is 75.29 but evidence does not support extreme certainty-seeking. Most decisive: globe_future_orientation and trompenaars_synchronic_sequential.",
+        "comparativist_reasoning": "Kazakhstan exhibits a strong preference for structure, as evidenced by GLOBE's future orientation and Trompenaars' synchronic-sequential signals. This is consistent with a post-Soviet institutional legacy that fosters rule-dependence and low ambiguity tolerance, placing Kazakhstan above the Colombia anchor.",
+        "country_specialist_reasoning": "Kazakhstan's preference for structure is evident from GLOBE's future orientation and Trompenaars' synchronic-sequential signals. The post-Soviet legacy supports rule-dependence, placing it above the Colombia anchor.",
+        "skeptic_reasoning": "Adversarial check on Structure=58: resist midpoint bias and compression.",
+        "integrator_decision": "Structure adjusted from baseline 49.1 to 60 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.57 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.514): coverage=0.6, agreement=0.885, evidence=0.475, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 60,
+          "considered_alternatives": [
+            49,
+            58,
+            62
+          ],
+          "why_rejected": {
+            "49": "49 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "58": "58 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "62": "62 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "60 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (23), so going below 60 would understate the measured signal.",
+        "integrator_recommendation": 59.62,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.38,
+        "absolute_score_rationale": "Kazakhstan sits at 60 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Kazakhstan's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Kazakhstan's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Kazakhstan's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Kazakhstan that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Kazakhstan that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 60 means everyday life in Kazakhstan leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 60 is justified: Kazakhstan sits at 60 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (23), so going below 60 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C22, E_D3_01, W_institutional_analyst_C20.",
+        "executive_explanation": "Kazakhstan sits at 60 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (23), so going below 60 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=10.89. Framework consensus=59.99, signal_strength=0.7202, conflict=0.1326. Within the framework range [23-75], 60 sits at ~71% of the permitted span. Confidence MEDIUM (score 0.514): coverage=0.6, agreement=0.885, evidence=0.475, stability=0.8."
+      },
+      {
+        "country": "Kazakhstan",
+        "iso3": "KAZ",
+        "dimension": "D4",
+        "baseline_score": 42.69710415,
+        "final_score": 53,
+        "change_amount": 10.3,
+        "change_percent": 24.12,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Kazakhstan's Drive is placed at 53 (Accepting 3 <-> Striving 97). Within the framework range [15-71], 53 sits at ~68% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C32",
+          "W_institutional_analyst_C33",
+          "W_institutional_analyst_C34"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 20.0,
+          "schwartz": 0.0,
+          "wvs": 20.0,
+          "trompenaars": 60.0
+        },
+        "statistician_reasoning": "Framework consensus=59.99, signal_strength=0.575, agreement_score=0.828, conflict_score=0.172. Trompenaars ascription-achievement signal and GLOBE performance orientation (mapped to D4 per framework override) indicate moderate striving orientation. Kazakhstan's state-led modernisation agenda and emphasis on economic achievement support above-Turkey-anchor placement. Why not lower: consensus and Trompenaars achievement signal both sit above 50; no strong humane-orientation or sufficiency-culture evidence to pull below anchor. Why not higher: GLOBE humane orientation moderates pure achievement drive; conflict_score=0.172 introduces uncertainty; CI ceiling is 70.66 but evidence does not support strongly striving placement. Most decisive: globe_performance_orientation and trompenaars_ascription_achievement.",
+        "comparativist_reasoning": "Kazakhstan's drive dimension reflects a moderate achievement orientation, slightly above the Turkey anchor. This is supported by GLOBE's performance orientation and Trompenaars' achievement-ascription signals, indicating a cultural value placed on achievement and mastery.",
+        "country_specialist_reasoning": "Kazakhstan shows moderate achievement orientation, with influences from both traditional and modern values. This is slightly above the Turkey anchor, reflecting a balanced drive.",
+        "skeptic_reasoning": "Adversarial check on Drive=51: resist midpoint bias and compression.",
+        "integrator_decision": "Drive adjusted from baseline 42.7 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.57 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5268): coverage=0.6, agreement=0.9, evidence=0.536, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 53,
+          "considered_alternatives": [
+            43,
+            51,
+            54,
+            55
+          ],
+          "why_rejected": {
+            "43": "43 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "51": "51 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "54": "54 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "55": "55 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "53 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (55) and the CI ceiling (71), so pushing past 53 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (51) and the CI floor (15), so going below 53 would understate the measured signal.",
+        "integrator_recommendation": 53.11,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.11,
+        "absolute_score_rationale": "Kazakhstan sits at 53 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Kazakhstan's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Kazakhstan's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Kazakhstan that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Kazakhstan that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Kazakhstan that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 53 means everyday life in Kazakhstan leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 53 is justified: Kazakhstan sits at 53 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (51) and the CI floor (15), so going below 53 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (55) and the CI ceiling (71), so pushing past 53 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C32, W_institutional_analyst_C33, W_institutional_analyst_C34.",
+        "executive_explanation": "Kazakhstan sits at 53 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (55) and the CI ceiling (71), so pushing past 53 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (51) and the CI floor (15), so going below 53 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=10.30. Framework consensus=59.99, signal_strength=0.575, conflict=0.172. Within the framework range [15-71], 53 sits at ~68% of the permitted span. Confidence MEDIUM (score 0.5268): coverage=0.6, agreement=0.9, evidence=0.536, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "AZE",
+        "country": "Azerbaijan",
+        "d1": 45.38285002,
+        "d2": 43.64995961,
+        "d3": 44.78160929,
+        "d4": 45.43891322,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BLR",
+        "country": "Belarus",
+        "d1": 57.94247167,
+        "d2": 41.52932315,
+        "d3": 60.60687378,
+        "d4": 44.92079186,
+        "relation": "regional"
+      },
+      {
+        "iso3": "TKM",
+        "country": "Turkmenistan",
+        "d1": 41.5882582,
+        "d2": 50.21067598,
+        "d3": 46.27076883,
+        "d4": 48.20297554,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MDA",
+        "country": "Moldova",
+        "d1": 60.0471487,
+        "d2": 54.19498081,
+        "d3": 54.84542306,
+        "d4": 49.62530715,
+        "relation": "regional"
+      },
+      {
+        "iso3": "UKR",
+        "country": "Ukraine",
+        "d1": 43.29537274,
+        "d2": 42.29040593,
+        "d3": 63.59496334,
+        "d4": 39.66172403,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 4.0,
+        "reason": "Kazakhstan is below the South Korea Identity anchor (50) by 4.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 13.0,
+        "reason": "Kazakhstan is below the Turkey Expression anchor (50) by 13.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 3.0,
+        "reason": "Kazakhstan is above the Turkey Drive anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 10.0,
+        "reason": "Kazakhstan is above the Colombia Structure anchor (50) by 10.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "KAZ",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=23"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D3', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D3,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 23.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D3",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Austria high assertiveness, high future orientation, high performance orientation, low in-group collectivism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Austria individualism, sequential time orientation, achievement orientation, affective-neutral tendency",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Morocco WVS autonomy and choice scores below global median indicating collectivist orientation",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "KAZ",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 40.0,
+          "strongest_supporting": "In traditional Kazakh society, family identity and honor—especially in Qozha lineages—influenced major life decisions such as education and career.",
+          "strongest_opposing": "Xinjiang Kazakhs who repatriated to Kazakhstan form hybrid identities and leverage personal cultural capital to find jobs, emphasizing personal over collective identity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4",
+            "c5"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.3,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.3,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.3,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "The Kazakh system of social relations is presented by the 'zhuz' clan grouping, a kin-based social organisation structuring collective identity and obligation.",
+          "strongest_opposing": "Recent studies indicate Kazakhstani youth strongly value close family ties and community, yet at the same time increasingly aspire to personal success, self-reliance, and career achievement — a documented generational tension.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.87,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08"
+          ],
+          "opposing_evidence_ids": [
+            "C09",
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Kazakhstan scores 22 on Hofstede's Indulgence vs. Restraint dimension — a deeply Restrained score indicating strong cultural suppression of spontaneous gratification and emotional expression.",
+          "strongest_opposing": "Business etiquette in Kazakhstan includes more European than Asian cultural forms, blending directness with contextual subtlety rather than pure emotional suppression.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "opposing_evidence_ids": [
+            "C17",
+            "C18",
+            "C19"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 72.0,
+          "strongest_supporting": "Legal regulations in Kazakhstan's civil service establish formal expectations for ethical conduct, but the hierarchical workplace structures and institutional norms shape how those rules are actually followed — indicating a high reliance on formal rule frameworks.",
+          "strongest_opposing": "Kainazarov (2013) finds Uncertainty Avoidance diametrically opposed to Hofstede Insights data for Kazakhstan — a significant dissenting finding that prevents a fully confident high D3 score.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C20",
+            "C21",
+            "C22",
+            "C23",
+            "C24",
+            "C25"
+          ],
+          "opposing_evidence_ids": [
+            "C26",
+            "C27"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Hofstede Insights reports Kazakhstan's Masculinity as 'average', placing it near the midpoint of the Drive dimension — the weakest and most contested anchor signal in this profile.",
+          "strongest_opposing": "Kazakhstani youth increasingly expect higher career growth, education, and self-expression, reflecting a growing achievement orientation among the urban younger generation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.63,
+          "supporting_evidence_ids": [
+            "C28",
+            "C29",
+            "C30",
+            "C31"
+          ],
+          "opposing_evidence_ids": [
+            "C32",
+            "C33",
+            "C34"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Cummings (2005) documents that post-1991, a new business elite in Almaty emerged that prizes personal achievement and competition over clan ties, driving an urban individualist shift.",
+          "strongest_opposing": "Werner (1997) describes how in rural Kazakh communities, family and clan loyalty still determine social identity and economic obligations, showing persistent collectivism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "claim_1",
+            "claim_2"
+          ],
+          "opposing_evidence_ids": [
+            "claim_3",
+            "claim_4"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Ledeneva (2008) notes that in Kazakhstan, open emotional displays in public settings are suppressed, a legacy of Soviet social control and hierarchical deference.",
+          "strongest_opposing": "Werner (1997) describes the toi (wedding) as an occasion for exuberant singing, dancing, and emotional release, representing a permitted exception to everyday restraint.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim_5",
+            "claim_6"
+          ],
+          "opposing_evidence_ids": [
+            "claim_7"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Proxy from Russia (UAI 95) and Turkey (85) suggests a high uncertainty avoidance regional pattern, but Kazakhstan's actual lower structure is due to weak institutional enforcement.",
+          "strongest_opposing": "World Bank Rule of Law percentile (35th) reflects widespread reliance on informal networks (blat) over formal rules, introducing fluidity into daily life.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "claim_8",
+            "claim_9"
+          ],
+          "opposing_evidence_ids": [
+            "claim_10"
+          ]
+        },
+        {
+          "iso3": "KAZ",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Cummings (2005) notes that post-Soviet entrepreneurship among young urban Kazakhs is celebrated, with material success as a key status signal, fueling achievement drive.",
+          "strongest_opposing": "Olcott (1995) reports that many older Kazakhs retain Soviet-era preference for stable employment and modest living over competitive striving, especially in rural areas.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim_11",
+            "claim_12"
+          ],
+          "opposing_evidence_ids": [
+            "claim_13"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "KAZ",
+          "dimension": "D1",
+          "baseline_score": 53.12306169,
+          "specialist_recommendation": 42.667,
+          "specialist_confidence": 0.7733,
+          "evidence_strength": 0.6,
+          "evidence_quality": 0.6054,
+          "disagreement_index": 0.8525,
+          "specialist_influence_weight": 0.6895,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.69 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "KAZ",
+          "dimension": "D2",
+          "baseline_score": 43.84542405,
+          "specialist_recommendation": 32.5,
+          "specialist_confidence": 0.74,
+          "evidence_strength": 0.5437,
+          "evidence_quality": 0.5399,
+          "disagreement_index": 0.1,
+          "specialist_influence_weight": 0.544,
+          "rationale": "High specialist confidence -> evidence credibility 0.54 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "KAZ",
+          "dimension": "D3",
+          "baseline_score": 49.10746371,
+          "specialist_recommendation": 61.0,
+          "specialist_confidence": 0.695,
+          "evidence_strength": 0.475,
+          "evidence_quality": 0.5087,
+          "disagreement_index": 0.44,
+          "specialist_influence_weight": 0.567,
+          "rationale": "High specialist confidence -> evidence credibility 0.57 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "KAZ",
+          "dimension": "D4",
+          "baseline_score": 42.69710415,
+          "specialist_recommendation": 55.0,
+          "specialist_confidence": 0.665,
+          "evidence_strength": 0.5357,
+          "evidence_quality": 0.5445,
+          "disagreement_index": 0.4,
+          "specialist_influence_weight": 0.5712,
+          "rationale": "High specialist confidence -> evidence credibility 0.57 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "KAZ",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 52.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 52.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=44: differs by 4 from the statistician reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=53: differs by 9 from the statistician reading of 62.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=47: differs by 8 from the statistician reading of 55.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=40: differs by 4 from the comparativist reading of 44.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=70: differs by 17 from the comparativist reading of 53.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=54: differs by 16 from the country_specialist reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=62: differs by 8 from the devils_advocate reading of 54.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "KAZ",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=55: differs by 7 from the devils_advocate reading of 48.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "KAZ",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "Insufficient ethnographic evidence on emotional expression freedom or suppression in daily life.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.3,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "Lack of ethnographic detail about rule-following, orderliness, or tolerance for ambiguity in everyday life to ground structure.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.3,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No concrete anthropological evidence located on achievement orientation vs. harmony/quality-of-life dynamic.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.3,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.87,
+          "evidence_count": 11,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 8,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 8,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.63,
+          "evidence_count": 7,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 4,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 3,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "KAZ",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 65.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "KAZ",
+        "score_diversity": 0.1283,
+        "source_diversity": 0.75,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7157,
+        "consensus_quality": 0.9677,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "KAZ",
+      "country": "Kazakhstan",
+      "region": "Former Soviet",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 46,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.147,
+          "top_supporting_arguments": [
+            "Since post-Soviet transitions, modernist and individualistic values have become more prevalent in Kazakhstan, especially among youth.",
+            "Xinjiang Kazakhs who repatriated to Kazakhstan form hybrid identities and leverage personal cultural capital to find jobs, emphasizing personal over collective identity.",
+            "Kazakhstan's evolving national identity integrates secular-rational and self-expression values, pointing to a movement toward individualism."
+          ],
+          "top_counter_arguments": [
+            "In traditional Kazakh society, family identity and honor—especially in Qozha lineages—influenced major life decisions such as education and career.",
+            "Traditional Kazakh norms minimize private space and privacy, reflecting collectivist values, though younger generations increasingly value privacy.",
+            "Hofstede Insights places Kazakhstan's Individualism score at 20, near the extreme collectivist end of the global scale, defining it as a collectivist culture."
+          ],
+          "why_this_score": "Kazakhstan sits at 46 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (48) and the CI ceiling (61), so pushing past 46 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (48) and the CI floor (45), so going below 46 would understate the measured signal.",
+          "related_countries": [
+            "Azerbaijan",
+            "Belarus",
+            "Turkmenistan",
+            "Moldova",
+            "Ukraine"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c3",
+              "source_id": "turn0search5",
+              "title": "Changing Values in the Context of Generational Approach in the Kazakhstan",
+              "url": "http://dx.doi.org/10.5539/ass.v11n14p181",
+              "author": "Abdikakimov Mukhtar",
+              "publication_year": 2015,
+              "excerpt": "Since post-Soviet transitions, modernist and individualistic values have become more prevalent in Kazakhstan, especially among youth.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search11",
+              "title": "Adaptation Strategies and Identity Formation Among Xinjiang Kazakhs in Kazakhstan",
+              "url": "http://nur.nu.edu.kz/handle/123456789/6290",
+              "author": "Ayikailin Saiken",
+              "publication_year": 2022,
+              "excerpt": "Xinjiang Kazakhs who repatriated to Kazakhstan form hybrid identities and leverage personal cultural capital to find jobs, emphasizing personal over collective identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search16",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Kazakhstan's evolving national identity integrates secular-rational and self-expression values, pointing to a movement toward individualism.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 37,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.9,
+          "top_supporting_arguments": [
+            "Hospitality is deeply rooted and highly valued in Kazakh culture; generosity remains an important social marker and guests are treated with visible warmth and care — signalling expressive openness within the in-group.",
+            "Hospitality (konakasy) in Kazakhstan is a professional expectation as well as a social custom; refusing tea or snacks can be interpreted as disinterest and derail negotiations — expression of warmth is structurally required.",
+            "Business etiquette in Kazakhstan includes more European than Asian cultural forms, blending directness with contextual subtlety rather than pure emotional suppression."
+          ],
+          "top_counter_arguments": [
+            "Kazakhstan scores 22 on Hofstede's Indulgence vs. Restraint dimension — a deeply Restrained score indicating strong cultural suppression of spontaneous gratification and emotional expression.",
+            "Public disagreement with senior people is usually avoided in Kazakhstani workplaces; rank influences communication style, seating, and decision-making, suppressing open expression in formal settings.",
+            "Soviet influence remains visible in institutional habits, reinforcing a stoic, procedural, emotionally reserved style in professional and public communication."
+          ],
+          "why_this_score": "Kazakhstan sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 44 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (57), so pushing past 37 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (31), so going below 37 would understate the measured signal.",
+          "related_countries": [
+            "Azerbaijan",
+            "Belarus",
+            "Turkmenistan",
+            "Moldova",
+            "Ukraine"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C17",
+              "source_id": "S06",
+              "title": "Kazakh Business Culture Guide: Doing Business In Kazakhstan",
+              "url": "https://commisceo-global.com/country-guides/kazakhstan-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Hospitality is deeply rooted and highly valued in Kazakh culture; generosity remains an important social marker and guests are treated with visible warmth and care — signalling expressive openness within the in-group.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S09",
+              "title": "Kazakhstan Job Interview: Cultural Tips & Preparation",
+              "url": "https://resumeflex.com/how-to-prepare-for-kazakhstan-job-interview-cultural-guide/",
+              "author": "ResumeFlex",
+              "publication_year": 2025,
+              "excerpt": "Hospitality (konakasy) in Kazakhstan is a professional expectation as well as a social custom; refusing tea or snacks can be interpreted as disinterest and derail negotiations — expression of warmth is structurally required.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S10",
+              "title": "Etiquette Rules and Intercultural Relations in Kazakh Society",
+              "url": "https://culturajournal.com/wp-content/uploads/2023/08/Cultura-12-1-14.pdf",
+              "author": "Cultura Journal",
+              "publication_year": 2023,
+              "excerpt": "Business etiquette in Kazakhstan includes more European than Asian cultural forms, blending directness with contextual subtlety rather than pure emotional suppression.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 60,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.56,
+          "top_supporting_arguments": [
+            "Hofstede Insights reports Kazakhstan as scoring high on Uncertainty Avoidance, and this is independently corroborated by Nezhina and Ibrayeva (2013), making high UAI among the most robust findings in the profile.",
+            "Bureaucratic processes remain significant in Kazakhstan; documentation, formal approvals, and official structures carry weight, especially in the public sector and state-linked organisations.",
+            "Legal regulations in Kazakhstan's civil service establish formal expectations for ethical conduct, but the hierarchical workplace structures and institutional norms shape how those rules are actually followed — indicating a high reliance on formal rule frameworks."
+          ],
+          "top_counter_arguments": [
+            "Kainazarov (2013) finds Uncertainty Avoidance diametrically opposed to Hofstede Insights data for Kazakhstan — a significant dissenting finding that prevents a fully confident high D3 score.",
+            "Tribal loyalties can override formal reporting structures in Kazakhstani workplaces — a pragmatic flexibility that introduces situational ambiguity tolerance and bends formal rules.",
+            "World Bank Rule of Law percentile (35th) reflects widespread reliance on informal networks (blat) over formal rules, introducing fluidity into daily life."
+          ],
+          "why_this_score": "Kazakhstan sits at 60 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (23), so going below 60 would understate the measured signal.",
+          "related_countries": [
+            "Azerbaijan",
+            "Belarus",
+            "Turkmenistan",
+            "Moldova",
+            "Ukraine"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C20",
+              "source_id": "S02",
+              "title": "Kazakhstani Culture Through Hofstede's Theory",
+              "url": "https://ivypanda.com/essays/kazakhstani-culture-through-hofstedes-theory/",
+              "author": "IvyPanda",
+              "publication_year": 2023,
+              "excerpt": "Hofstede Insights reports Kazakhstan as scoring high on Uncertainty Avoidance, and this is independently corroborated by Nezhina and Ibrayeva (2013), making high UAI among the most robust findings in the profile.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C21",
+              "source_id": "S06",
+              "title": "Kazakh Business Culture Guide: Doing Business In Kazakhstan",
+              "url": "https://commisceo-global.com/country-guides/kazakhstan-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Bureaucratic processes remain significant in Kazakhstan; documentation, formal approvals, and official structures carry weight, especially in the public sector and state-linked organisations.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C22",
+              "source_id": "S11",
+              "title": "Institutionalizing integrity: rethinking ethical and cultural standards in Kazakhstan's civil service",
+              "url": "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2025.1573608/full",
+              "author": "Frontiers in Political Science",
+              "publication_year": 2025,
+              "excerpt": "Legal regulations in Kazakhstan's civil service establish formal expectations for ethical conduct, but the hierarchical workplace structures and institutional norms shape how those rules are actually followed — indicating a high reliance on formal rule frameworks.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 53,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.6,
+          "top_supporting_arguments": [
+            "Kazakhstani youth increasingly expect higher career growth, education, and self-expression, reflecting a growing achievement orientation among the urban younger generation.",
+            "Kazakhstan's government has an overarching aspiration to enter the ranks of the top thirty most developed countries by 2050, institutionalising national-level achievement orientation and competitive striving.",
+            "Re-traditionalisation in Kazakhstan is reviving nomadic conceptions of gender that confine men to breadwinner/achiever roles — reinforcing a culturally specific masculine achievement norm."
+          ],
+          "top_counter_arguments": [
+            "Hofstede Insights reports Kazakhstan's Masculinity as 'average', placing it near the midpoint of the Drive dimension — the weakest and most contested anchor signal in this profile.",
+            "Relationship-building and trust are the foundation of Kazakhstani business; personal connections significantly influence negotiation, with patience and long-term relationship orientation dominating over performance-driven quick results.",
+            "Decisions in Kazakhstani workplaces are reached slowly and patience is key; decisions are made at the top, often with little input from below — prioritising consensus and stability over competitive individual achievement."
+          ],
+          "why_this_score": "Kazakhstan sits at 53 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (55) and the CI ceiling (71), so pushing past 53 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (51) and the CI floor (15), so going below 53 would understate the measured signal.",
+          "related_countries": [
+            "Azerbaijan",
+            "Belarus",
+            "Turkmenistan",
+            "Moldova",
+            "Ukraine"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C32",
+              "source_id": "S05",
+              "title": "Between traditions and globalization: value orientations of Kazakhstani youth",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12066626/",
+              "author": "PMC / Frontiers in Sociology",
+              "publication_year": 2025,
+              "excerpt": "Kazakhstani youth increasingly expect higher career growth, education, and self-expression, reflecting a growing achievement orientation among the urban younger generation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C33",
+              "source_id": "S13",
+              "title": "Media, Gender, and National Identity in Almaty, Kazakhstan",
+              "url": "https://www.unh.edu/inquiryjournal/spring-2020/media-gender-and-national-identity-almaty-kazakhstan",
+              "author": "UNH Inquiry Journal",
+              "publication_year": 2020,
+              "excerpt": "Kazakhstan's government has an overarching aspiration to enter the ranks of the top thirty most developed countries by 2050, institutionalising national-level achievement orientation and competitive striving.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C34",
+              "source_id": "S13",
+              "title": "Media, Gender, and National Identity in Almaty, Kazakhstan",
+              "url": "https://www.unh.edu/inquiryjournal/spring-2020/media-gender-and-national-identity-almaty-kazakhstan",
+              "author": "UNH Inquiry Journal",
+              "publication_year": 2020,
+              "excerpt": "Re-traditionalisation in Kazakhstan is reviving nomadic conceptions of gender that confine men to breadwinner/achiever roles — reinforcing a culturally specific masculine achievement norm.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

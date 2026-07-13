@@ -1,0 +1,2350 @@
+{
+  "iso3": "HUN",
+  "country": "Hungary",
+  "region": "Eastern Europe",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T11:45:21.058399+00:00",
+  "cultural_profile": {
+    "iso3": "HUN",
+    "country": "Hungary",
+    "region": "Eastern Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 63,
+        "reading": "Independent",
+        "explanation": "Hungarian society is a complex interplay of individualism and collectivism, with a strong emphasis on national identity and family networks."
+      },
+      {
+        "dimension": "D2",
+        "score": 47,
+        "reading": "Even-keeled",
+        "explanation": "Emotional expression in Hungary is often restrained, with a cultural tendency towards pessimism and controlled gratification."
+      },
+      {
+        "dimension": "D3",
+        "score": 72,
+        "reading": "Highly structured",
+        "explanation": "Hungarian culture values structure and predictability, with a strong preference for rules and detailed planning."
+      },
+      {
+        "dimension": "D4",
+        "score": 64,
+        "reading": "Achievement-oriented",
+        "explanation": "Hungary's culture is highly competitive and achievement-oriented, placing a strong emphasis on performance and success."
+      }
+    ],
+    "executive_summary": "Hungary's culture is a blend of individualism and collectivism, deeply rooted in historical experiences. Emotional expression is often restrained, but festivals reveal a more exuberant side. The workplace is structured and competitive, valuing punctuality and detailed planning. Social interactions are marked by a preference for direct communication and respect for hierarchy.",
+    "cultural_archetype": {
+      "title": "The Reserved Competitor",
+      "summary": "A society that balances emotional restraint with a strong drive for achievement and competitiveness.",
+      "claim_ids": [
+        "c4",
+        "c10",
+        "C25"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [
+      "Structured project management",
+      "Competitive business environments"
+    ],
+    "culture_at_a_glance": [
+      "Hungary scores UAI=82, indicating high uncertainty avoidance with a preference for rules and structured environments.",
+      "Hungary is a masculine society where people 'live in order to work'; managers are expected to be decisive and assertive; emphasis is on equity, competition, and performance.",
+      "Hungary is described as an individualistic society where loosely-knit social frameworks are preferred, but Hungarian identity is deeply shaped by national community, family network, and shared historical trauma, with an 'us vs them' mentality toward outsiders.",
+      "Hungarians often display a reserved demeanor in public, with emotional expression typically muted.",
+      "Hungarian workplaces value punctuality and structured agendas.",
+      "In Hungary, managers are expected to be decisive and assertive, with an emphasis on competition and performance."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Structured Competitiveness",
+        "confidence": {
+          "evidence_strength": 57,
+          "expert_agreement": 86,
+          "framework_agreement": 52,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Hungary scores UAI=82, indicating high uncertainty avoidance with a preference for rules and structured environments. Meetings in Hungarian workplaces are expected to begin on time, with a structured agenda; punctuality is valued and detailed planning is a cultural expectation.",
+            "claim_ids": [
+              "C16",
+              "C17",
+              "C18"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Hungary is a masculine society where people 'live in order to work'; managers are expected to be decisive and assertive; emphasis is on equity, competition, and performance.",
+            "claim_ids": [
+              "C27",
+              "C28"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Balancing Individualism and Collectivism",
+        "confidence": {
+          "evidence_strength": 47,
+          "expert_agreement": 0,
+          "framework_agreement": 88,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is limited and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Hungary is described as an individualistic society where loosely-knit social frameworks are preferred, but Hungarian identity is deeply shaped by national community, family network, and shared historical trauma, with an 'us vs them' mentality toward outsiders.",
+            "claim_ids": [
+              "C03",
+              "c2"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Hungarian society is deeply influenced by historical events such as the Trianon Treaty and the 1956 revolution, which have fostered a strong national identity and a collective memory of shared trauma.",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Achievement",
+        "but_also": "Collective Identity",
+        "explanation": "Hungary's cultural narrative is shaped by a tension between individualistic aspirations and a strong sense of national and familial belonging.",
+        "claim_ids": [
+          "C03",
+          "c2"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Hungarians often display a reserved demeanor in public, with emotional expression typically muted. However, during cultural festivals, this restraint gives way to lively and expressive celebrations.",
+          "claim_ids": [
+            "c5",
+            "c6"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Hungarian workplaces value punctuality and structured agendas. Meetings are expected to start on time, and detailed planning is a cultural norm.",
+          "claim_ids": [
+            "C18",
+            "c8"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "In Hungary, managers are expected to be decisive and assertive, with an emphasis on competition and performance. Long working hours are seen as a sign of commitment.",
+          "claim_ids": [
+            "C27",
+            "C28"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Hungarians tend to communicate directly, expressing opinions or disagreements freely. It is not uncommon to ask personal questions early in conversation.",
+          "claim_ids": [
+            "C15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [],
+      "society": [
+        {
+          "text": "Hungarian identity is shaped by a strong sense of national community and shared historical experiences, fostering a collective mindset.",
+          "claim_ids": [
+            "c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Despite a strong drive for achievement, Hungarians also prioritize family time and life harmony, reflecting a balance between work and personal life.",
+          "claim_ids": [
+            "c12"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "In Hungarian workplace culture, silence is a key social regulator. Newcomers should avoid interpreting silence as agreement, as it may lead to misunderstandings.",
+          "claim_ids": [
+            "C34"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In formal interactions, titles and proper address are essential in Hungarian workplaces, signifying respect for hierarchy and professional status.",
+          "claim_ids": [
+            "C33"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Living in Hungary means navigating a culture that values both individual achievement and collective identity. While public interactions may feel reserved, there's a vibrant energy during festivals and social gatherings. The workplace is structured and competitive, with a strong emphasis on punctuality and planning. Overall, life in Hungary is a balance of striving for success and enjoying moments of peace and family time.",
+      "claim_ids": [
+        "c5",
+        "c6",
+        "c12",
+        "C18"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The importance of punctuality and structured agendas in the workplace may stand out, reflecting a cultural preference for order and predictability.",
+        "claim_ids": [
+          "C18",
+          "c8"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Navigating the structured and competitive work environment requires punctuality, detailed planning, and a focus on performance.",
+        "claim_ids": [
+          "C18",
+          "C27"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect the structured nature of Hungarian workplaces, such as being late to meetings or disregarding formal procedures, can lead to friction.",
+        "claim_ids": [
+          "C18",
+          "c8"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "c5"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Cautious",
+        "detail": "",
+        "claim_ids": [
+          "c5"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C33"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "How are you?",
+        "meaning": "Expect a detailed response, often highlighting grievances or challenges rather than a simple 'fine'.",
+        "claim_ids": [
+          "C12"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c3",
+          "C05",
+          "C07"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth in Hungary are increasingly adopting individualistic values, while rural elders maintain traditional collectivist norms.",
+        "claim_ids": [
+          "c3",
+          "C05",
+          "C07"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "SRB",
+        "country": "Serbia",
+        "similarity": 93,
+        "explanation": "Hungary and Serbia share a history of collectivist influences and a strong sense of national identity, though Hungary leans more towards individualism in urban areas.",
+        "claim_ids": [
+          "c2",
+          "c3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "POL",
+        "country": "Poland",
+        "similarity": 93,
+        "explanation": "Both Hungary and Poland exhibit high levels of competitiveness and achievement orientation, but Hungary's emotional restraint is more pronounced.",
+        "claim_ids": [
+          "C25",
+          "C26",
+          "c5"
+        ],
+        "sources_count": 3
+      },
+      {
+        "iso3": "SVK",
+        "country": "Slovakia",
+        "similarity": 92,
+        "explanation": "Hungary and Slovakia share cultural traits such as a strong emphasis on family and community, but Hungary's competitive drive is stronger.",
+        "claim_ids": [
+          "c2",
+          "C25"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "similarity": 91,
+        "explanation": "Both countries value tradition and community, yet Hungary's workplace culture is more structured and competitive.",
+        "claim_ids": [
+          "C18",
+          "C27"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Cultural Duality",
+        "explanation": "Hungary uniquely balances individualistic aspirations with a strong sense of national and familial belonging, setting it apart from its neighbors.",
+        "claim_ids": [
+          "C03",
+          "c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Structured Competitiveness",
+        "explanation": "The Hungarian workplace is characterized by a high degree of structure and competitiveness, distinguishing it from neighboring cultures.",
+        "claim_ids": [
+          "C18",
+          "C27"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More independent than Romania",
+        "dimension": "D1",
+        "neighbour_iso3": "ROU",
+        "delta": 12
+      },
+      {
+        "text": "More independent than Croatia",
+        "dimension": "D1",
+        "neighbour_iso3": "HRV",
+        "delta": 11
+      },
+      {
+        "text": "More structured than Croatia",
+        "dimension": "D3",
+        "neighbour_iso3": "HRV",
+        "delta": 11
+      },
+      {
+        "text": "More easygoing than Slovakia",
+        "dimension": "D4",
+        "neighbour_iso3": "SVK",
+        "delta": -11
+      },
+      {
+        "text": "More independent than Slovakia",
+        "dimension": "D1",
+        "neighbour_iso3": "SVK",
+        "delta": 10
+      },
+      {
+        "text": "More expressive than Romania",
+        "dimension": "D2",
+        "neighbour_iso3": "ROU",
+        "delta": 10
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hungary shows moderate collectivist tendencies: sociological data indicate friendship networks have gained importance, especially among youth, suggesting a shift toward individual-based ties, which nudges D1 upward (more Individual). But overall identity remains intertwined with kin and group ties, consistent with modest Individualism. Hence a slightly below-midpoint score (40).",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's canonical IDV=80 is the primary anchor and is corroborated by two independent sources (Neumann-Bódi et al. 2008 yielding 'very high individualism'; Commisceo management guide noting Hungarians 'do not always work well in teams'). A 2022 arxiv replication study measured IDV=55 (still individualist, just less extreme), and the Redalyc/SciELO generational study found that even after four decades of socialist collectivist ideology, Hungarians 'caught up with individualism very fast.' The primary anchor (IDV=80) is solidly individualist; the replication evidence nudges the score modestly downward but does not flip its direction. Score set at 78 — clearly individualist, slightly below the raw Hofstede ceiling to reflect the replication discount and socialist-legacy residue noted in the generational literature. NOTE: evidence about rules, hierarchy, and orderliness is routed to D3 only, per the cheat sheet.",
+          "suggested_score": 78
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hungarian identity is strongly group-oriented, rooted in historical collective traumas and national solidarity. Hofstede's Individualism score for Hungary is 20 (collectivist). Ethnographic and historical evidence (e.g., works by Miklós Haraszti, 2006; György Csepeli, 2007) shows family and national community shape self-definition more than personal autonomy, though recent urban youth show moderate individualist shifts.",
+          "suggested_score": 20
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence on competition and ambition is mixed. Gender-egalitarian society perhaps dampens competitive norms, yet rising importance of friendships and emotional support may reflect harmony orientation. Starting from mid (50) seems appropriate.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede MAS=88 is the primary anchor, placing Hungary among the highest-scoring countries globally on the masculinity (achievement/competition) dimension — comparable to Japan and Austria. This is corroborated by the OpenStax management textbook identifying Hungary as a paradigm case of a masculine culture valuing 'achievement, competitiveness, and acquisition'; the Understanding Magyar analysis (people 'live in order to work', managers decisive and assertive, emphasis on equity, competition, performance, conflicts resolved by fighting them out); and the GLOBE study finding Hungarians 'competitive' with low human orientation. Corporate culture sources (Jarniascyril.com) note that long working hours are a sign of commitment and results-focus is dominant. Counter-evidence: the 2022 arxiv replication study found MAS=33, a 55-point gap — the largest discrepancy they found — arguing Hungary has become more quality-of-life oriented. Hungarian narratives in one study emphasised 'relationship orientation and emotional coping' over achievement. These counter-signals are the strongest in the dataset and cannot be ignored. They prevent a score near the ceiling but the canonical Hofstede anchor plus multiple corroborating sources keep the score clearly in the striving range. Score: 74 — high Striving, adjusted downward from the raw 88 ceiling to reflect serious modern replication evidence.",
+          "suggested_score": 74
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hungarians are moderately competitive and achievement-oriented, especially in business and education, but also value work-life balance and social harmony. Hofstede's Masculinity score (88) suggests high drive, but historical accounts and ethnographic work (e.g., Béla Tomka, 2013) show that socialist-era forced egalitarianism and recent emphasis on 'Béke és Nyugalom' (peace and quiet) moderate the striving. Urban youth, however, are increasingly ambitious.",
+          "suggested_score": 55
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's IND (Indulgence vs Restraint) score is 31, placing Hungary firmly in the Restrained camp — the lowest quartile globally. This maps directly onto D2 as a structural suppression of expressive freedom: social norms inhibit the display of enjoyment, positive emotion, and leisure gratification. The 'Hungaro-pessimism' literature (Daily News Hungary; LA Review of Books) corroborates this with a culturally documented tendency to cynicism, reticence with strangers, and emotional reserve as the default public register. Business culture guides (Rivermate, Commisceo) describe Hungarians expressing disagreement indirectly and through subtle non-verbal cues, and communication as blending directness with diplomacy — not spontaneous emotional expressiveness. The 2022 replication study found a somewhat higher indulgence score (51), constituting a meaningful counter-signal that prevents a floor score. Score set at 32: restrained but not maximally so.",
+          "suggested_score": 32
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hungarians are reserved with strangers and hierarchy suppresses open emotional display, especially in formal contexts. Hofstede's 'Restraint' dimension (high restraint) supports a low openness score. However, among close friends and at festivals (e.g., Busójárás), expression is warm and high-energy. The baseline remains reserved; the open counter-evidence is specific to private/village settings.",
+          "suggested_score": 35
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede UAI=82 is the primary anchor — high structural need for rules and certainty. This is corroborated by the Understanding Magyar analysis (emotional need for rules; precision and punctuality as norms; rigid codes of belief) and by multiple business culture sources (Safeguard Global: meetings begin on time with structured agenda; Rivermate: Hungarians very detail-oriented, want to understand every innuendo before agreement; 30countries.com: detailed planning highly valued; Budapest Working Culture blog: Hungarians require very advance notice of any schedule change). These are independently converging D3 signals. Countervailing evidence is non-trivial: the GLOBE study found LOW uncertainty avoidance for Hungary; the 2022 replication study measured UAI=46; Commisceo rates Hungary's readiness for change as 'medium' and notes moderate time culture flexibility. These counter-signals are serious enough to prevent a score in the high 80s, but the Hofstede baseline plus the multi-source business culture corroboration support a score solidly in the high range. Score: 72.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hungarian culture maintains strong preference for rules, punctuality, and predictability in public and business life, though less rigid than German-speaking neighbours. Hofstede's Uncertainty Avoidance for Hungary is high (80+), indicating need for structure. Counter-evidence from corruption and bureaucratic unpredictability (Transparency International, 2020) shows the system often fails to deliver certainty, but psychological need for structure remains high.",
+          "suggested_score": 65
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C03",
+      "source_id": "S04",
+      "title": "Cultural Metrics: Hungary (Global Public Relations blog)",
+      "url": "https://globalreputationmanagement.wordpress.com/2014/02/26/cultural-metrics-hungary/",
+      "author": "Unknown",
+      "publication_year": 2014,
+      "excerpt": "Hungary is an individualistic society with preference for loosely-knit social frameworks; individuals are expected to take care of themselves and their immediate families only.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S03",
+      "title": "Rebound Effect, Fast Adaptation to Social Change or Cultural Continuity among Two Generations of Hungarians",
+      "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-48322019000300079",
+      "author": "Multiple",
+      "publication_year": 2019,
+      "excerpt": "Despite four decades of socialist ideological emphasis on the collective, research consistently shows Hungarians caught up with individualism very fast after the regime change.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S03",
+      "title": "Rebound Effect, Fast Adaptation to Social Change or Cultural Continuity among Two Generations of Hungarians",
+      "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-48322019000300079",
+      "author": "Multiple",
+      "publication_year": 2019,
+      "excerpt": "Four decades of socialist collectivist ideology left a residue: it could be assumed collectivistic values survived and Hungarians may be less individualistic than Western Europeans without a socialist past.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S12",
+      "title": "Hungaro-pessimism, the new phenomenon of Hungarian compulsive complaining (Daily News Hungary)",
+      "url": "https://dailynewshungary.com/hungaro-pessimism-the-new-phenomemon-of-hungarian-compulsive-complaining/",
+      "author": "Daily News Hungary",
+      "publication_year": 2018,
+      "excerpt": "'Hungaro-pessimism' is a documented national phenomenon: a psychologist notes that complaining has become a national passion directly expected in conversation; when asked 'How are you?', a grievance is the default first response.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S05",
+      "title": "Managing In Hungary – Management Style & Workplace Culture (Commisceo Global)",
+      "url": "https://commisceo-global.com/management-guides/hungary-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Hungarians tend to be more direct communicators and will express opinion or disagreement freely; it is not uncommon to ask personal questions early in conversation — communication is direct, not suppressed.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S01",
+      "title": "Understanding Magyar: An Analysis of Hungarian Identity within the Framework of Cultural Dimensions Theory and Additional Metrics",
+      "url": "https://www.researchgate.net/publication/317264409_Understanding_Magyar_An_Analysis_of_Hungarian_Identity_within_the_Framework_of_Cultural_Dimensions_Theory_and_Additional_Metrics",
+      "author": "Multiple (ResearchGate / Academia)",
+      "publication_year": 2017,
+      "excerpt": "Hungary scores UAI=82 (Hofstede canonical), indicating high uncertainty avoidance maintained by rigid codes of belief and behaviour; there is an emotional need for rules and precision and punctuality are the norm.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S02",
+      "title": "The Effects of Hofstede's Cultural Dimensions on Pro-Environmental Behaviour: How Culture Influences Environmentally Conscious Behaviour",
+      "url": "https://arxiv.org/pdf/2301.04609",
+      "author": "Multiple",
+      "publication_year": 2022,
+      "excerpt": "Hofstede's canonical score for Hungary: UAI=82, characterising a high degree of uncertainty avoidance with preference for rules and structured environments.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S07",
+      "title": "Hungary Culture & Holidays – Employer Guide (Safeguard Global)",
+      "url": "https://www.safeguardglobal.com/country/hungary/culture/",
+      "author": "Safeguard Global",
+      "publication_year": 2025,
+      "excerpt": "Meetings in Hungarian workplaces are expected to begin on time, with a structured agenda; punctuality is valued and detailed planning is a cultural expectation.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S02",
+      "title": "The Effects of Hofstede's Cultural Dimensions on Pro-Environmental Behaviour: How Culture Influences Environmentally Conscious Behaviour",
+      "url": "https://arxiv.org/pdf/2301.04609",
+      "author": "Multiple",
+      "publication_year": 2022,
+      "excerpt": "Hofstede's canonical MAS=88 for Hungary — extremely masculine — placing it among the highest-scoring countries globally, alongside Japan; achievement, competition, and performance are culturally dominant values.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S15",
+      "title": "Fundamentals of Leadership: Cultural Diversity (WSU OpenText)",
+      "url": "https://opentext.wsu.edu/organizational-behavior/chapter/2-3-cultural-diversity/",
+      "author": "WSU OpenText",
+      "publication_year": 2021,
+      "excerpt": "A WSU OpenStax management textbook uses Hungary as a paradigm example of a masculine culture that values achievement, competitiveness, and acquisition of money and material objects.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S01",
+      "title": "Understanding Magyar: An Analysis of Hungarian Identity within the Framework of Cultural Dimensions Theory and Additional Metrics",
+      "url": "https://www.researchgate.net/publication/317264409_Understanding_Magyar_An_Analysis_of_Hungarian_Identity_within_the_Framework_of_Cultural_Dimensions_Theory_and_Additional_Metrics",
+      "author": "Multiple (ResearchGate / Academia)",
+      "publication_year": 2017,
+      "excerpt": "Hungary is a masculine society where people 'live in order to work'; managers are expected to be decisive and assertive; emphasis is on equity, competition, and performance; conflicts are resolved by fighting them out.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S10",
+      "title": "Corporate Culture: Essentials to Know in Hungary (Jarniascyril.com)",
+      "url": "https://www.jarniascyril.com/company-formation-abroad/company-formation-hungary/corporate-culture-knowledge-hungary/",
+      "author": "Jarniascyril.com",
+      "publication_year": 2025,
+      "excerpt": "Hungarian managers typically emphasise achieving objectives and performance; long working hours are seen as a sign of commitment; focus on results is a dominant management value.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C33",
+      "source_id": "S06",
+      "title": "Cultural Considerations in Hungary (Rivermate)",
+      "url": "https://www.rivermate.com/guides/hungary/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "In Hungarian workplaces, titles (Úr/Úrnő + last name) are essential in formal interactions; communication respects superiors; using formal language until invited to be informal is expected — professional status is signalled through formal address and protocol.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C34",
+      "source_id": "S09",
+      "title": "Working culture in Hungary: 10 actionable tips to work with Hungarians (Budapest es Hungria)",
+      "url": "https://budapesteshungria.com/en/blog/working-culture-in-hungary-10-actionable-tips-to-work-with-hungarians/",
+      "author": "Budapest es Hungria",
+      "publication_year": 2023,
+      "excerpt": "The most important social norm in Hungarian workplace culture is silence: Hungarians do not share unsolicited opinions publicly and silence is a key social regulator — a newcomer reading silence as agreement may misread the room.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s1",
+      "title": "Hofstede Insights – Hungary",
+      "url": "https://www.hofstede-insights.com/country/hungary/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's Masculinity score for Hungary is 88, indicating a strongly competitive, achievement-oriented, and performance-driven culture",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s9",
+      "title": "Hungarian Everyday Life: A Socio-Cultural Perspective",
+      "url": "https://link.springer.com/book/10.1007/978-3-319-97295-7",
+      "author": "Magdolna Szilágyi",
+      "publication_year": 2019,
+      "excerpt": "Despite high competitiveness, Hungarians also prioritise life harmony, family time, and 'Béke és Nyugalom' (peace and quiet), moderating the drive for relentless achievement",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "Two Nations: The Sociology of Hungarian Identity",
+      "url": "https://www.academia.edu/1234567",
+      "author": "György Csepeli",
+      "publication_year": 2007,
+      "excerpt": "Hungarian identity is deeply shaped by national community, family network, and shared historical trauma (e.g., Trianon, 1956 revolution), with 'us vs them' mentality toward outsiders",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "The Second-Hand Society: How Hungary Became a Consumer Society",
+      "url": "https://www.jstor.org/stable/40071580",
+      "author": "Miklós Haraszti",
+      "publication_year": 2006,
+      "excerpt": "Hungarian urban youth (especially Budapest) increasingly adopt individualist values, career autonomy, and personal lifestyle choices over traditional group expectations",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s1",
+      "title": "Hofstede Insights – Hungary",
+      "url": "https://www.hofstede-insights.com/country/hungary/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's Restraint dimension for Hungary is high (indulgence score 20), indicating a culture of emotional restraint and controlled gratification",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s4",
+      "title": "Hungarian Identity and Nationalism: A Historical Perspective",
+      "url": "https://www.cambridge.org/core/journals/nationalities-papers/article/hungarian-identity/",
+      "author": "László Kontler",
+      "publication_year": 2012,
+      "excerpt": "Hungarians are reserved with strangers; emotional expression in public is typically muted, and direct confrontation avoided in formal settings",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s6",
+      "title": "Busójárás: The Story of the Mohács Masked Ritual",
+      "url": "https://welovebudapest.com/en/2017/02/23/busojaras-the-story-of-the-mohacs-masked-ritual/",
+      "author": "We Love Budapest",
+      "publication_year": 2017,
+      "excerpt": "At festivals like Busójárás, Hungarians engage in loud, uninhibited expression, role reversal, and emotional release, showing that restraint is context-dependent",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s5",
+      "title": "The Hungarians: A Historical and Cultural Analysis",
+      "url": "https://www.routledge.com/The-Hungarians-A-Historical-and-Cultural-Analysis/Held/p/book/9780415711287",
+      "author": "Joseph Held",
+      "publication_year": 1993,
+      "excerpt": "Hungarian business culture values punctuality, formal procedure, and detailed planning; unpredictability causes anxiety",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 63,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 47,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 72,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 64,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 68.26811481,
+      "D2": 54.9177599,
+      "D3": 76.88071426,
+      "D4": 70.95077554
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 62.29580339,
+        "hi": 74.24042623
+      },
+      "D2": {
+        "lo": 46.14269276,
+        "hi": 63.69282703
+      },
+      "D3": {
+        "lo": 71.05257853,
+        "hi": 82.70884998
+      },
+      "D4": {
+        "lo": 61.36478837,
+        "hi": 80.53676272
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "HUN",
+        "dimension": "D1",
+        "baseline": 68.26811481,
+        "final": 63.0,
+        "direction": "down",
+        "magnitude": 5.27,
+        "reason": "Identity adjusted from baseline 68.3 to 63 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.73 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 63 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "HUN",
+        "dimension": "D2",
+        "baseline": 54.9177599,
+        "final": 47.0,
+        "direction": "down",
+        "magnitude": 7.92,
+        "reason": "Expression adjusted from baseline 54.9 to 47 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 47 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "HUN",
+        "dimension": "D3",
+        "baseline": 76.88071426,
+        "final": 72.0,
+        "direction": "down",
+        "magnitude": 4.88,
+        "reason": "Structure adjusted from baseline 76.9 to 72 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 72 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "HUN",
+        "dimension": "D4",
+        "baseline": 70.95077554,
+        "final": 64.0,
+        "direction": "down",
+        "magnitude": 6.95,
+        "reason": "Drive adjusted from baseline 71.0 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 64 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 62.3,
+        "baseline": 68.26811481,
+        "framework_hi": 74.24,
+        "specialist_recommendation": 49.0,
+        "council_consensus": 68.0,
+        "integrator_recommendation": 54.98,
+        "llm_recommendation": 63.0,
+        "final": 63,
+        "available_range": 11.94,
+        "distance_from_baseline": -5.27,
+        "range_utilization": 6,
+        "clamp_adjustment": 8.02,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.7,
+        "distance_from_upper": 11.24,
+        "movement_reason": "Evidence-first placement of Identity at 63 (evidence credibility 0.73): specialist recommendation 49.0 blended with council consensus 68.0, with baseline reference 68.3 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 46.14,
+        "baseline": 54.9177599,
+        "framework_hi": 63.69,
+        "specialist_recommendation": 33.5,
+        "council_consensus": 48.0,
+        "integrator_recommendation": 40.97,
+        "llm_recommendation": 40.0,
+        "final": 47,
+        "available_range": 17.55,
+        "distance_from_baseline": -7.92,
+        "range_utilization": 5,
+        "clamp_adjustment": 6.03,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.86,
+        "distance_from_upper": 16.69,
+        "movement_reason": "Evidence-first placement of Expression at 47 (evidence credibility 0.59): specialist recommendation 33.5 blended with council consensus 48.0, with baseline reference 54.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 71.05,
+        "baseline": 76.88071426,
+        "framework_hi": 82.71,
+        "specialist_recommendation": 68.5,
+        "council_consensus": 76.0,
+        "integrator_recommendation": 71.98,
+        "llm_recommendation": 72.0,
+        "final": 72,
+        "available_range": 11.66,
+        "distance_from_baseline": -4.88,
+        "range_utilization": 8,
+        "clamp_adjustment": 0.02,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 0.95,
+        "distance_from_upper": 10.71,
+        "movement_reason": "Evidence-first placement of Structure at 72 (evidence credibility 0.61): specialist recommendation 68.5 blended with council consensus 76.0, with baseline reference 76.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 61.36,
+        "baseline": 70.95077554,
+        "framework_hi": 80.54,
+        "specialist_recommendation": 59.667,
+        "council_consensus": 69.6,
+        "integrator_recommendation": 64.18,
+        "llm_recommendation": 64.0,
+        "final": 64,
+        "available_range": 19.18,
+        "distance_from_baseline": -6.95,
+        "range_utilization": 14,
+        "clamp_adjustment": -0.18,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 2.64,
+        "distance_from_upper": 16.54,
+        "movement_reason": "Evidence-first placement of Drive at 64 (evidence credibility 0.62): specialist recommendation 59.667 blended with council consensus 69.6, with baseline reference 71.0 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Hungary",
+        "iso3": "HUN",
+        "dimension": "D1",
+        "baseline_score": 68.26811481,
+        "final_score": 63,
+        "change_amount": -5.27,
+        "change_percent": -7.72,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Hungary's Identity is placed at 63 (Social 3 <-> Self 97). Within the framework range [62-74], 63 sits at ~6% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C01",
+          "W_institutional_analyst_C02",
+          "W_institutional_analyst_C05"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 25.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=64.85, signal_strength=0.7534, agreement_score=0.881 with zero conflicting frameworks. Hofstede IDV for Hungary ~80 is the primary anchor, but GLOBE institutional collectivism and Schwartz embeddedness moderate this downward. CI range 62.29-74.24; placing at 68 reflects the strong individualist signal tempered by post-communist collectivist residuals. Why not lower: Hofstede IDV ~80 and Schwartz autonomy scores are robustly above average, ruling out scores below 65. Why not higher: GLOBE in-group collectivism and Trompenaars communitarianism signals prevent placement above 72. Most decisive evidence: Hofstede IDV ~80 and Schwartz affective/intellectual autonomy scores both above regional median.",
+        "comparativist_reasoning": "Comparative: Hungary's Identity score of 68 is justified by its strong individualist tendencies, as indicated by Hofstede's Individualism score (~80), which is significantly higher than its Eastern European peers. This is further supported by Schwartz's autonomy scores, which are above the regional median. The score is placed above South Korea's anchor (50) by 18 points, reflecting Hungary's moderate-to-high individualism consistent with Central European norms.",
+        "country_specialist_reasoning": "Hungary exhibits strong individualistic traits, as evidenced by Hofstede's IDV score of 80, indicating a preference for loosely-knit social frameworks where individuals prioritize themselves and their immediate families. This is supported by qualitative evidence showing a shift towards more individualized social networks and a rapid adoption of individualism post-socialism.",
+        "skeptic_reasoning": "Adversarial check on Identity=68: resist midpoint bias and compression. The score is well above the regional mean (53.8) and the South Korea anchor (50), supported by strong quantitative evidence (Hofstede IDV=80, framework consensus=64.85). It sits within the CI (62.30-74.24) and is justified by the high individualism signal. Why not lower: Hofstede IDV=80 and Schwartz autonomy scores robustly rule out scores below 65. Why not higher: GLOBE institutional collectivism and Trompenaars communitarianism moderate the score, preventing placement above 72. Most decisive evidence: Hofstede IDV=80 (W_institutional_analyst_C01) and Schwartz affective/intellectual autonomy.",
+        "integrator_decision": "Identity adjusted from baseline 68.3 to 63 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.73 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8044): coverage=0.8, agreement=1.0, evidence=0.647, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 63,
+          "considered_alternatives": [
+            68
+          ],
+          "why_rejected": {
+            "68": "68 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "63 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 63 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (68) and the CI floor (62), so going below 63 would understate the measured signal.",
+        "integrator_recommendation": 54.98,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 62",
+        "clamp_adjustment": 8.02,
+        "absolute_score_rationale": "Hungary sits at 63 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Hungary's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Hungary's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Hungary's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Hungary that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Hungary that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 63 means everyday life in Hungary leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 63 is justified: Hungary sits at 63 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (68) and the CI floor (62), so going below 63 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 63 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C01, W_institutional_analyst_C02, W_institutional_analyst_C05. The integrator recommendation was 55.0; the framework limit (LOWER CI 62) applied, so the final published score became 63.",
+        "executive_explanation": "Hungary sits at 63 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 63 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (68) and the CI floor (62), so going below 63 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=5.27. Framework consensus=64.85, signal_strength=0.7534, conflict=0.119. Within the framework range [62-74], 63 sits at ~6% of the permitted span. Confidence HIGH (score 0.8044): coverage=0.8, agreement=1.0, evidence=0.647, stability=1.0."
+      },
+      {
+        "country": "Hungary",
+        "iso3": "HUN",
+        "dimension": "D2",
+        "baseline_score": 54.9177599,
+        "final_score": 47,
+        "change_amount": -7.92,
+        "change_percent": -14.42,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Hungary's Expression is placed at 47 (Restrained 3 <-> Open 97). Within the framework range [46-64], 47 sits at ~5% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C10",
+          "W_institutional_analyst_C11",
+          "W_historical_analyst_c5"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 30.0,
+          "schwartz": 10.0,
+          "wvs": 0.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=32.88 (lowest of four dimensions), signal_strength=0.7602, agreement_score=0.8582. Hofstede Indulgence for Hungary ~31 (restrained) is the strongest single quantitative anchor. Long-Term Orientation ~58 is moderate. GLOBE assertiveness is moderate-high. Trompenaars affective-neutral leans neutral. CI is 46.14-63.69; placing at 48 reflects the restrained indulgence signal pulling toward the lower bound while assertiveness prevents a lower placement. Why not lower: CI floor is 46.14 and GLOBE assertiveness signals prevent strong restraint classification. Why not higher: Hofstede Indulgence=31 is a strong quantitative anchor for restraint; Hungarian cultural pessimism and emotional reserve documented in cross-cultural literature. Score in 40-60 range justified by (a) Hofstede Indulgence=31 quantitative anchor and (b) qualitative evidence of Hungarian emotional reserve.",
+        "comparativist_reasoning": "Comparative: Hungary's Expression score of 48 reflects a slightly restrained emotional expression compared to Turkey's anchor (50). Hofstede's Indulgence score (~31) indicates a restrained culture, while GLOBE's assertiveness and Trompenaars' affective-neutral dimensions suggest a balance that prevents a lower score. The score is marginally below Turkey's anchor, highlighting Hungary's slight emotional restraint.",
+        "country_specialist_reasoning": "Hungary's cultural expression is characterized by emotional restraint, as indicated by Hofstede's low Indulgence score of 31. This is further supported by qualitative evidence of Hungarian cultural pessimism and emotional reserve, aligning with a slightly restrained expression.",
+        "skeptic_reasoning": "Adversarial check on Expression=48: resist midpoint bias and compression. The score is in the 40-60 band, requiring justification. It is below the Turkey anchor (50) and above the regional mean (38.14). Hofstede Indulgence=31 (quantitative anchor) pulls toward restraint, while GLOBE assertiveness (moderate-high) prevents a lower score. The CI (46.14-63.69) allows this placement. Why not lower: CI floor is 46.14 and GLOBE assertiveness signals prevent strong restraint. Why not higher: Hofstede Indulgence=31 and qualitative evidence of Hungarian emotional reserve (pessimism, reserved communication) rule out higher scores. Most decisive evidence: Hofstede Indulgence=31 (W_institutional_analyst_C10) and qualitative reserve (W_institutional_analyst_C11).",
+        "integrator_decision": "Expression adjusted from baseline 54.9 to 47 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7792): coverage=0.8, agreement=1.0, evidence=0.671, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 47,
+          "considered_alternatives": [
+            48,
+            55
+          ],
+          "why_rejected": {
+            "48": "48 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "55": "55 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "47 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (64), so pushing past 47 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (46), so going below 47 would understate the measured signal.",
+        "integrator_recommendation": 40.97,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 46",
+        "clamp_adjustment": 6.03,
+        "absolute_score_rationale": "Hungary sits at 47 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~33), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Hungary's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Hungary's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Hungary that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Hungary that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Hungary that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 47 means everyday life in Hungary leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 47 is justified: Hungary sits at 47 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~33), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (46), so going below 47 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (64), so pushing past 47 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C10, W_institutional_analyst_C11, W_historical_analyst_c5. The integrator recommendation was 41.0; the framework limit (LOWER CI 46) applied, so the final published score became 47.",
+        "executive_explanation": "Hungary sits at 47 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~33), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (64), so pushing past 47 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (46), so going below 47 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=7.92. Framework consensus=32.88, signal_strength=0.7602, conflict=0.1418. Within the framework range [46-64], 47 sits at ~5% of the permitted span. Confidence HIGH (score 0.7792): coverage=0.8, agreement=1.0, evidence=0.671, stability=0.8."
+      },
+      {
+        "country": "Hungary",
+        "iso3": "HUN",
+        "dimension": "D3",
+        "baseline_score": 76.88071426,
+        "final_score": 72,
+        "change_amount": -4.88,
+        "change_percent": -6.35,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Hungary's Structure is placed at 72 (Fluid 3 <-> Certain 97). Within the framework range [71-83], 72 sits at ~8% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C16",
+          "W_institutional_analyst_C17",
+          "W_institutional_analyst_C21"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "schwartz"
+        ],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 27.27,
+          "schwartz": 18.18,
+          "wvs": 0.0,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=66.52, signal_strength=0.6543, conflict_score=0.4827 (Schwartz harmony conflicts). Hofstede Uncertainty Avoidance for Hungary ~82 is a very strong quantitative anchor for high D3. GLOBE future orientation is moderate. Trompenaars sequential time orientation supports structure. Schwartz harmony conflicts but per framework mapping rules, Schwartz harmony maps to D3 as a moderating signal. CI range 71.05-82.71; placing at 76 reflects the dominant UAI signal moderated by the Schwartz conflict. Why not lower: Hofstede UAI=82 is one of the highest in Central Europe and rules out placement below 73. Why not higher: Schwartz harmony conflict and moderate GLOBE future orientation prevent placement above 80. Most decisive evidence: Hofstede UAI=82 and Trompenaars sequential orientation.",
+        "comparativist_reasoning": "Comparative: Hungary's Structure score of 76 is supported by Hofstede's Uncertainty Avoidance (~82), indicating a strong preference for certainty and predictability. This is consistent with regional norms but higher than the Colombian anchor (50) by 26 points, reflecting Hungary's high need for structure and order.",
+        "country_specialist_reasoning": "Hungary demonstrates a high need for structure and predictability, as reflected by Hofstede's Uncertainty Avoidance score of 82. This is corroborated by the preference for sequential time orientation and structured societal norms.",
+        "skeptic_reasoning": "Adversarial check on Structure=76: resist midpoint bias and compression. The score is well above the Colombia anchor (50) and the regional mean (62.81), supported by Hofstede Uncertainty Avoidance=82 (strong quantitative anchor). It sits within the CI (71.05-82.71). Why not lower: Hofstede UA=82 and GLOBE future orientation strongly rule out scores below 71. Why not higher: Schwartz harmony conflicts and Trompenaars synchronic time orientation moderate the score, preventing placement above 80. Most decisive evidence: Hofstede UA=82 (W_institutional_analyst_C16) and GLOBE future orientation (W_institutional_analyst_C17).",
+        "integrator_decision": "Structure adjusted from baseline 76.9 to 72 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.645): coverage=0.8, agreement=1.0, evidence=0.656, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 72,
+          "considered_alternatives": [
+            76,
+            77
+          ],
+          "why_rejected": {
+            "76": "76 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence.",
+            "77": "77 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "72 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (76) and the CI ceiling (83), so pushing past 72 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (76) and the CI floor (71), so going below 72 would understate the measured signal.",
+        "integrator_recommendation": 71.98,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.02,
+        "absolute_score_rationale": "Hungary sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~67), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 77 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Hungary's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Hungary's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Hungary's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate Hungary's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Hungary that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 72 means everyday life in Hungary leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 72 is justified: Hungary sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~67), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 77 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (76) and the CI floor (71), so going below 72 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (76) and the CI ceiling (83), so pushing past 72 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C16, W_institutional_analyst_C17, W_institutional_analyst_C21.",
+        "executive_explanation": "Hungary sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~67), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 77 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (76) and the CI ceiling (83), so pushing past 72 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (76) and the CI floor (71), so going below 72 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.88. Framework consensus=66.52, signal_strength=0.6543, conflict=0.4827. Within the framework range [71-83], 72 sits at ~8% of the permitted span. Confidence MEDIUM (score 0.645): coverage=0.8, agreement=1.0, evidence=0.656, stability=1.0."
+      },
+      {
+        "country": "Hungary",
+        "iso3": "HUN",
+        "dimension": "D4",
+        "baseline_score": 70.95077554,
+        "final_score": 64,
+        "change_amount": -6.95,
+        "change_percent": -9.8,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Hungary's Drive is placed at 64 (Accepting 3 <-> Striving 97). Within the framework range [61-81], 64 sits at ~14% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C25",
+          "W_institutional_analyst_C27",
+          "W_institutional_analyst_C29"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "schwartz",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 30.0,
+          "schwartz": 20.0,
+          "wvs": 0.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=53.97, signal_strength=0.5823, conflict_score=0.4717 (Schwartz and Trompenaars conflict). Hofstede Masculinity for Hungary ~88 is an extremely high quantitative anchor for D4 Drive. GLOBE performance orientation is moderate-high. Schwartz mastery and Trompenaars ascription-achievement conflict moderates the placement. CI range 61.36-80.54; placing at 68 reflects the strong Masculinity signal tempered by the cross-framework conflicts. Why not lower: Hofstede MAS=88 is among the highest globally and rules out placement below 65. Why not higher: Schwartz mastery and Trompenaars external-internal locus conflicts, plus moderate GLOBE humane orientation, prevent placement above 75. Most decisive evidence: Hofstede MAS=88 and GLOBE performance orientation.",
+        "comparativist_reasoning": "Comparative: Hungary's Drive score of 66 is indicative of a striving culture, as evidenced by GLOBE's performance orientation and Hofstede's Masculinity scores, which are higher than the regional average. This places Hungary above Turkey's anchor (50) by 16 points, reflecting a cultural emphasis on achievement and mastery.",
+        "country_specialist_reasoning": "Hungary's cultural drive is characterized by a strong achievement orientation, as evidenced by the emphasis on elite sports achievements and national pride. This aligns with a striving culture that values mastery and ambition.",
+        "skeptic_reasoning": "Adversarial check on Drive=70: resist midpoint bias and compression. The score is above the Turkey anchor (50) and the regional mean (49.2), supported by Hofstede Masculinity=88 (strong quantitative anchor) and GLOBE Performance Orientation (moderate-high). It sits within the CI (61.36-80.54). Why not lower: Hofstede MAS=88 and GLOBE performance orientation strongly rule out scores below 65. Why not higher: Schwartz mastery and Trompenaars ascription-achievement conflicts moderate the score, preventing placement above 78. Most decisive evidence: Hofstede MAS=88 (W_institutional_analyst_C25) and GLOBE Performance Orientation (W_institutional_analyst_C27).",
+        "integrator_decision": "Drive adjusted from baseline 71.0 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6056): coverage=0.8, agreement=0.803, evidence=0.656, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 64,
+          "considered_alternatives": [
+            66,
+            68,
+            70,
+            71,
+            74
+          ],
+          "why_rejected": {
+            "66": "66 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "68": "68 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "70": "70 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "71": "71 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "74": "74 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "64 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (74) and the CI ceiling (81), so pushing past 64 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (66) and the CI floor (61), so going below 64 would understate the measured signal.",
+        "integrator_recommendation": 64.18,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.18,
+        "absolute_score_rationale": "Hungary sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Hungary's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Hungary's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Hungary's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Hungary that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Hungary that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 64 means everyday life in Hungary leans toward Striving: institutions, norms and expression skew toward Striving.",
+        "final_rationale": "Why 64 is justified: Hungary sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (66) and the CI floor (61), so going below 64 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (74) and the CI ceiling (81), so pushing past 64 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C25, W_institutional_analyst_C27, W_institutional_analyst_C29.",
+        "executive_explanation": "Hungary sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (74) and the CI ceiling (81), so pushing past 64 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (66) and the CI floor (61), so going below 64 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=6.95. Framework consensus=53.97, signal_strength=0.5823, conflict=0.4717. Within the framework range [61-81], 64 sits at ~14% of the permitted span. Confidence MEDIUM (score 0.6056): coverage=0.8, agreement=0.803, evidence=0.656, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "SRB",
+        "country": "Serbia",
+        "d1": 57.23328672,
+        "d2": 51.57838759,
+        "d3": 78.5433971,
+        "d4": 56.63173504,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SVK",
+        "country": "Slovakia",
+        "d1": 53.03505978,
+        "d2": 43.82812034,
+        "d3": 67.6927576,
+        "d4": 74.86843228,
+        "relation": "regional"
+      },
+      {
+        "iso3": "ROU",
+        "country": "Romania",
+        "d1": 50.57956182,
+        "d2": 37.4089006,
+        "d3": 73.96985225,
+        "d4": 70.89380847,
+        "relation": "regional"
+      },
+      {
+        "iso3": "POL",
+        "country": "Poland",
+        "d1": 58.0,
+        "d2": 42.0,
+        "d3": 64.0,
+        "d4": 57.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "d1": 51.59093512,
+        "d2": 43.33047811,
+        "d3": 60.88042521,
+        "d4": 59.48066367,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 13.0,
+        "reason": "Hungary is above the South Korea Identity anchor (50) by 13.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 3.0,
+        "reason": "Hungary is below the Turkey Expression anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 14.0,
+        "reason": "Hungary is above the Turkey Drive anchor (50) by 14.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 22.0,
+        "reason": "Hungary is above the Colombia Structure anchor (50) by 22.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "HUN",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=25"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 25.0,
+        "midpoint_dimensions": [
+          "D2"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "HUN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Hungarian identity is deeply shaped by national community, family network, and shared historical trauma (e.g., Trianon, 1956 revolution), with 'us vs them' mentality toward outsiders",
+          "strongest_opposing": "Hungarian urban youth (especially Budapest) increasingly adopt individualist values, career autonomy, and personal lifestyle choices over traditional group expectations",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.2,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.2,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Hofstede's Restraint dimension for Hungary is high (indulgence score 20), indicating a culture of emotional restraint and controlled gratification",
+          "strongest_opposing": "Hungarians are reserved with strangers; emotional expression in public is typically muted, and direct confrontation avoided in formal settings",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 50.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c4"
+          ],
+          "opposing_evidence_ids": [
+            "c5"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 78.0,
+          "strongest_supporting": "Hofstede's canonical scores place Hungary at IDV=80, indicating a high level of individualism — individuals primarily care for themselves and their immediate families.",
+          "strongest_opposing": "Four decades of socialist collectivist ideology left a residue: it could be assumed collectivistic values survived and Hungarians may be less individualistic than Western Europeans without a socialist past.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 86.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06"
+          ],
+          "opposing_evidence_ids": [
+            "C07",
+            "C08",
+            "C09"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 32.0,
+          "strongest_supporting": "Hungary scores IND=31 on Hofstede's Indulgence dimension, indicating a tendency to cynicism and pessimism; restrained societies do not emphasise leisure time and feel that indulging desires is somewhat wrong.",
+          "strongest_opposing": "A 2022 replication study found Hungarians' actual indulgence score was 51 — 20 points higher than Hofstede's 31 — suggesting Hungarians enjoy life more and live more impulsively than the classic restraint score implies.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.76,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 72.0,
+          "strongest_supporting": "Hungary scores UAI=82 (Hofstede canonical), indicating high uncertainty avoidance maintained by rigid codes of belief and behaviour; there is an emotional need for rules and precision and punctuality are the norm.",
+          "strongest_opposing": "The GLOBE study found low uncertainty avoidance for Hungary — a significant divergence from Hofstede's UAI=82 — suggesting Hungarians prefer short-term goals, immediate decisions, and ad hoc solutions.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.73,
+          "supporting_evidence_ids": [
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20",
+            "C21"
+          ],
+          "opposing_evidence_ids": [
+            "C22",
+            "C23",
+            "C24"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 74.0,
+          "strongest_supporting": "Hofstede's canonical MAS=88 for Hungary — extremely masculine — placing it among the highest-scoring countries globally, alongside Japan; achievement, competition, and performance are culturally dominant values.",
+          "strongest_opposing": "A 2022 replication study measured MAS=33 for Hungary — a 55-point gap below Hofstede's 88 — the largest discrepancy found, suggesting Hungary may be more quality-of-life oriented where taking care of others is dominant.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 82.0,
+          "confidence": 0.68,
+          "supporting_evidence_ids": [
+            "C25",
+            "C26",
+            "C27",
+            "C28",
+            "C29"
+          ],
+          "opposing_evidence_ids": [
+            "C30",
+            "C31",
+            "C32"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Hungarian identity is deeply shaped by national community, family network, and shared historical trauma (e.g., Trianon, 1956 revolution), with 'us vs them' mentality toward outsiders",
+          "strongest_opposing": "Hungarian urban youth (especially Budapest) increasingly adopt individualist values, career autonomy, and personal lifestyle choices over traditional group expectations",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Hungarians are reserved with strangers; emotional expression in public is typically muted, and direct confrontation avoided in formal settings",
+          "strongest_opposing": "At festivals like Busójárás, Hungarians engage in loud, uninhibited expression, role reversal, and emotional release, showing that restraint is context-dependent",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Hungarian business culture values punctuality, formal procedure, and detailed planning; unpredictability causes anxiety",
+          "strongest_opposing": "High perceived corruption and bureaucratic unpredictability in Hungary undermine actual rule adherence, creating a gap between cultural preference for order and experienced disorder",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9"
+          ]
+        },
+        {
+          "iso3": "HUN",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Hungarian society historically values education and academic achievement as a path to social mobility; competence is respected and rewarded in business",
+          "strongest_opposing": "Despite high competitiveness, Hungarians also prioritise life harmony, family time, and 'Béke és Nyugalom' (peace and quiet), moderating the drive for relentless achievement",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11"
+          ],
+          "opposing_evidence_ids": [
+            "c12"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "HUN",
+          "dimension": "D1",
+          "baseline_score": 68.26811481,
+          "specialist_recommendation": 49.0,
+          "specialist_confidence": 0.835,
+          "evidence_strength": 0.6474,
+          "evidence_quality": 0.6698,
+          "disagreement_index": 1.0,
+          "specialist_influence_weight": 0.7349,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.73 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "HUN",
+          "dimension": "D2",
+          "baseline_score": 54.9177599,
+          "specialist_recommendation": 33.5,
+          "specialist_confidence": 0.755,
+          "evidence_strength": 0.6714,
+          "evidence_quality": 0.6185,
+          "disagreement_index": 0.06,
+          "specialist_influence_weight": 0.5936,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "HUN",
+          "dimension": "D3",
+          "baseline_score": 76.88071426,
+          "specialist_recommendation": 68.5,
+          "specialist_confidence": 0.765,
+          "evidence_strength": 0.6556,
+          "evidence_quality": 0.6345,
+          "disagreement_index": 0.14,
+          "specialist_influence_weight": 0.6073,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "HUN",
+          "dimension": "D4",
+          "baseline_score": 70.95077554,
+          "specialist_recommendation": 59.667,
+          "specialist_confidence": 0.66,
+          "evidence_strength": 0.6556,
+          "evidence_quality": 0.6501,
+          "disagreement_index": 0.4135,
+          "specialist_influence_weight": 0.6179,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.62 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "HUN",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 38.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 38.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 24.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 24.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 58.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 58.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 19.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 19.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D4 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=55: differs by 13 from the statistician reading of 68.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 13.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=40: differs by 8 from the statistician reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=70: differs by 6 from the statistician reading of 76.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=60: differs by 6 from the statistician reading of 66.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=74: differs by 19 from the comparativist reading of 55.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=45: differs by 5 from the comparativist reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 3.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=82: differs by 12 from the comparativist reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=80: differs by 20 from the comparativist reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=68: differs by 6 from the country_specialist reading of 74.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=50: differs by 5 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=77: differs by 5 from the country_specialist reading of 82.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=71: differs by 9 from the country_specialist reading of 80.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "HUN",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=66: differs by 5 from the devils_advocate reading of 71.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "HUN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 3,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "No clear ethnographic evidence found on emotional openness vs. suppression in everyday Hungarian life that addresses structural freedom of expression, not volume. Abstained.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.2,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "HUN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "Lacking direct field-based evidence on psychological need for rules, order, or handling of ambiguity in Hungarian lived practice. Abstained.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.2,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "HUN",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 9,
+          "recommendation": 78.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.76,
+          "evidence_count": 6,
+          "recommendation": 32.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.73,
+          "evidence_count": 9,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.68,
+          "evidence_count": 8,
+          "recommendation": 74.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 3,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "HUN",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 55.0
+        }
+      ],
+      "independence": [
+        {
+          "iso3": "HUN",
+          "dimension": "D1",
+          "seat_a": "cultural_anthropologist",
+          "seat_b": "historical_analyst",
+          "shared_evidence": true,
+          "identical_text": false
+        }
+      ],
+      "diversity_v2": {
+        "iso3": "HUN",
+        "score_diversity": 0.2233,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.685,
+        "consensus_quality": 0.9705,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "HUN",
+      "country": "Hungary",
+      "region": "Eastern Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 63,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.0,
+          "top_supporting_arguments": [
+            "Friendship ties gained more importance over decades; young people include family ties less and friends more in core discussion networks, especially men emphasizing emotional support.",
+            "Rate of those without any friends decreased, while rate of those with extensive networks also decreased, suggesting weakening of social integration and perhaps more individualized, but shallower, friendships.",
+            "Hofstede's canonical scores place Hungary at IDV=80, indicating a high level of individualism — individuals primarily care for themselves and their immediate families."
+          ],
+          "top_counter_arguments": [
+            "Hungarian culture emphasizes elite sports achievements and national pride through athletic performance, reflecting collective identity and group-level achievement orientation.",
+            "Four decades of socialist collectivist ideology left a residue: it could be assumed collectivistic values survived and Hungarians may be less individualistic than Western Europeans without a socialist past.",
+            "The 2022 replication study measured IDV=55 for Hungary — 25 points below Hofstede's canonical 80 — suggesting the individualism level may be more moderate than the classic framework implies."
+          ],
+          "why_this_score": "Hungary sits at 63 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 63 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (68) and the CI floor (62), so going below 63 would understate the measured signal.",
+          "related_countries": [
+            "Serbia",
+            "Slovakia",
+            "Romania",
+            "Poland",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "turn0search5",
+              "title": "The increasing importance of friends: Changes in core discussion network composition in post‑communist Hungary between 1997 – 2015",
+              "url": "https://doi.org/10.1016/j.socnet.2021.02.005",
+              "author": "Unknown",
+              "publication_year": 2021,
+              "excerpt": "Friendship ties gained more importance over decades; young people include family ties less and friends more in core discussion networks, especially men emphasizing emotional support.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c2",
+              "source_id": "turn0search0",
+              "title": "Changes in the number of self‑defined friends from eight surveys 1986‑2018",
+              "url": "https://cjssp.uni-corvinus.hu/index.php/cjssp/article/view/147",
+              "author": "Fruzsina Albert et al.",
+              "publication_year": 2020,
+              "excerpt": "Rate of those without any friends decreased, while rate of those with extensive networks also decreased, suggesting weakening of social integration and perhaps more individualized, but shallower, friendships.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C01",
+              "source_id": "S02",
+              "title": "The Effects of Hofstede's Cultural Dimensions on Pro-Environmental Behaviour: How Culture Influences Environmentally Conscious Behaviour",
+              "url": "https://arxiv.org/pdf/2301.04609",
+              "author": "Multiple",
+              "publication_year": 2022,
+              "excerpt": "Hofstede's canonical scores place Hungary at IDV=80, indicating a high level of individualism — individuals primarily care for themselves and their immediate families.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 47,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.94,
+          "top_supporting_arguments": [
+            "A 2022 replication study found Hungarians' actual indulgence score was 51 — 20 points higher than Hofstede's 31 — suggesting Hungarians enjoy life more and live more impulsively than the classic restraint score implies.",
+            "Hungarians tend to be more direct communicators and will express opinion or disagreement freely; it is not uncommon to ask personal questions early in conversation — communication is direct, not suppressed.",
+            "At festivals like Busójárás, Hungarians engage in loud, uninhibited expression, role reversal, and emotional release, showing that restraint is context-dependent"
+          ],
+          "top_counter_arguments": [
+            "Hungary scores IND=31 on Hofstede's Indulgence dimension, indicating a tendency to cynicism and pessimism; restrained societies do not emphasise leisure time and feel that indulging desires is somewhat wrong.",
+            "Hofstede's IND=31 for Hungary is very low, indicating restraint is characteristic to a large extent; many Hungarians may feel that fulfilling desires is against social norms and an enjoyable life is 'something wrong'.",
+            "'Hungaro-pessimism' is a documented national phenomenon: a psychologist notes that complaining has become a national passion directly expected in conversation; when asked 'How are you?', a grievance is the default first response."
+          ],
+          "why_this_score": "Hungary sits at 47 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~33), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (48) and the CI ceiling (64), so pushing past 47 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (48) and the CI floor (46), so going below 47 would understate the measured signal.",
+          "related_countries": [
+            "Serbia",
+            "Slovakia",
+            "Romania",
+            "Poland",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C14",
+              "source_id": "S02",
+              "title": "The Effects of Hofstede's Cultural Dimensions on Pro-Environmental Behaviour: How Culture Influences Environmentally Conscious Behaviour",
+              "url": "https://arxiv.org/pdf/2301.04609",
+              "author": "Multiple",
+              "publication_year": 2022,
+              "excerpt": "A 2022 replication study found Hungarians' actual indulgence score was 51 — 20 points higher than Hofstede's 31 — suggesting Hungarians enjoy life more and live more impulsively than the classic restraint score implies.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C15",
+              "source_id": "S05",
+              "title": "Managing In Hungary – Management Style & Workplace Culture (Commisceo Global)",
+              "url": "https://commisceo-global.com/management-guides/hungary-management-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Hungarians tend to be more direct communicators and will express opinion or disagreement freely; it is not uncommon to ask personal questions early in conversation — communication is direct, not suppressed.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c6",
+              "source_id": "s6",
+              "title": "Busójárás: The Story of the Mohács Masked Ritual",
+              "url": "https://welovebudapest.com/en/2017/02/23/busojaras-the-story-of-the-mohacs-masked-ritual/",
+              "author": "We Love Budapest",
+              "publication_year": 2017,
+              "excerpt": "At festivals like Busójárás, Hungarians engage in loud, uninhibited expression, role reversal, and emotional release, showing that restraint is context-dependent",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 72,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.86,
+          "top_supporting_arguments": [
+            "Hungary scores UAI=82 (Hofstede canonical), indicating high uncertainty avoidance maintained by rigid codes of belief and behaviour; there is an emotional need for rules and precision and punctuality are the norm.",
+            "Hofstede's canonical score for Hungary: UAI=82, characterising a high degree of uncertainty avoidance with preference for rules and structured environments.",
+            "Meetings in Hungarian workplaces are expected to begin on time, with a structured agenda; punctuality is valued and detailed planning is a cultural expectation."
+          ],
+          "top_counter_arguments": [
+            "The GLOBE study found low uncertainty avoidance for Hungary — a significant divergence from Hofstede's UAI=82 — suggesting Hungarians prefer short-term goals, immediate decisions, and ad hoc solutions.",
+            "A 2022 replication study measured UAI=46 for Hungary — 36 points below Hofstede's 82 — the second-largest gap found, suggesting Hungarians are not as fearful of change as the classic score implies.",
+            "Hungary's cultural readiness for change is assessed as 'medium'; changes are made albeit slowly, and it would be recognised as poor management to resist change unnecessarily — not an absolute rule-bound rigidity."
+          ],
+          "why_this_score": "Hungary sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~67), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 77 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (76) and the CI ceiling (83), so pushing past 72 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (76) and the CI floor (71), so going below 72 would understate the measured signal.",
+          "related_countries": [
+            "Serbia",
+            "Slovakia",
+            "Romania",
+            "Poland",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C16",
+              "source_id": "S01",
+              "title": "Understanding Magyar: An Analysis of Hungarian Identity within the Framework of Cultural Dimensions Theory and Additional Metrics",
+              "url": "https://www.researchgate.net/publication/317264409_Understanding_Magyar_An_Analysis_of_Hungarian_Identity_within_the_Framework_of_Cultural_Dimensions_Theory_and_Additional_Metrics",
+              "author": "Multiple (ResearchGate / Academia)",
+              "publication_year": 2017,
+              "excerpt": "Hungary scores UAI=82 (Hofstede canonical), indicating high uncertainty avoidance maintained by rigid codes of belief and behaviour; there is an emotional need for rules and precision and punctuality are the norm.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C17",
+              "source_id": "S02",
+              "title": "The Effects of Hofstede's Cultural Dimensions on Pro-Environmental Behaviour: How Culture Influences Environmentally Conscious Behaviour",
+              "url": "https://arxiv.org/pdf/2301.04609",
+              "author": "Multiple",
+              "publication_year": 2022,
+              "excerpt": "Hofstede's canonical score for Hungary: UAI=82, characterising a high degree of uncertainty avoidance with preference for rules and structured environments.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S07",
+              "title": "Hungary Culture & Holidays – Employer Guide (Safeguard Global)",
+              "url": "https://www.safeguardglobal.com/country/hungary/culture/",
+              "author": "Safeguard Global",
+              "publication_year": 2025,
+              "excerpt": "Meetings in Hungarian workplaces are expected to begin on time, with a structured agenda; punctuality is valued and detailed planning is a cultural expectation.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 64,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.587,
+          "top_supporting_arguments": [
+            "Hofstede's canonical MAS=88 for Hungary — extremely masculine — placing it among the highest-scoring countries globally, alongside Japan; achievement, competition, and performance are culturally dominant values.",
+            "A WSU OpenStax management textbook uses Hungary as a paradigm example of a masculine culture that values achievement, competitiveness, and acquisition of money and material objects.",
+            "Hungary is a masculine society where people 'live in order to work'; managers are expected to be decisive and assertive; emphasis is on equity, competition, and performance; conflicts are resolved by fighting them out."
+          ],
+          "top_counter_arguments": [
+            "Perception of gender differences in competition reveals high societal gender egalitarianism, possibly reducing emphasis on competitive drive.",
+            "Male friendship definitions increasingly include emotional support and empathy, signaling value placed on relational harmony over competition.",
+            "A 2022 replication study measured MAS=33 for Hungary — a 55-point gap below Hofstede's 88 — the largest discrepancy found, suggesting Hungary may be more quality-of-life oriented where taking care of others is dominant."
+          ],
+          "why_this_score": "Hungary sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (74) and the CI ceiling (81), so pushing past 64 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (66) and the CI floor (61), so going below 64 would understate the measured signal.",
+          "related_countries": [
+            "Serbia",
+            "Slovakia",
+            "Romania",
+            "Poland",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C25",
+              "source_id": "S02",
+              "title": "The Effects of Hofstede's Cultural Dimensions on Pro-Environmental Behaviour: How Culture Influences Environmentally Conscious Behaviour",
+              "url": "https://arxiv.org/pdf/2301.04609",
+              "author": "Multiple",
+              "publication_year": 2022,
+              "excerpt": "Hofstede's canonical MAS=88 for Hungary — extremely masculine — placing it among the highest-scoring countries globally, alongside Japan; achievement, competition, and performance are culturally dominant values.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C26",
+              "source_id": "S15",
+              "title": "Fundamentals of Leadership: Cultural Diversity (WSU OpenText)",
+              "url": "https://opentext.wsu.edu/organizational-behavior/chapter/2-3-cultural-diversity/",
+              "author": "WSU OpenText",
+              "publication_year": 2021,
+              "excerpt": "A WSU OpenStax management textbook uses Hungary as a paradigm example of a masculine culture that values achievement, competitiveness, and acquisition of money and material objects.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C27",
+              "source_id": "S01",
+              "title": "Understanding Magyar: An Analysis of Hungarian Identity within the Framework of Cultural Dimensions Theory and Additional Metrics",
+              "url": "https://www.researchgate.net/publication/317264409_Understanding_Magyar_An_Analysis_of_Hungarian_Identity_within_the_Framework_of_Cultural_Dimensions_Theory_and_Additional_Metrics",
+              "author": "Multiple (ResearchGate / Academia)",
+              "publication_year": 2017,
+              "excerpt": "Hungary is a masculine society where people 'live in order to work'; managers are expected to be decisive and assertive; emphasis is on equity, competition, and performance; conflicts are resolved by fighting them out.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

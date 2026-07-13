@@ -1,0 +1,2301 @@
+{
+  "iso3": "FRA",
+  "country": "France",
+  "region": "Western Europe",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T10:43:57.119969+00:00",
+  "cultural_profile": {
+    "iso3": "FRA",
+    "country": "France",
+    "region": "Western Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 73,
+        "reading": "Strongly independent",
+        "explanation": "France's culture is characterized by strong individualism, with a focus on personal autonomy and immediate family ties."
+      },
+      {
+        "dimension": "D2",
+        "score": 56,
+        "reading": "Even-keeled",
+        "explanation": "While formal communication is the norm, French culture allows for expressive and passionate debate, particularly in intellectual contexts."
+      },
+      {
+        "dimension": "D3",
+        "score": 80,
+        "reading": "Highly structured",
+        "explanation": "French society exhibits a strong preference for structure and predictability, with a high degree of rule orientation and planning."
+      },
+      {
+        "dimension": "D4",
+        "score": 40,
+        "reading": "Relaxed",
+        "explanation": "France places a high value on quality of life, with cultural norms that emphasize balance over relentless achievement."
+      }
+    ],
+    "executive_summary": "France is a nation where individualism is deeply ingrained, yet social connections are highly valued, creating a unique balance. The French prioritize quality of life, evident in their work-life balance and cultural norms. Hierarchical structures and formal communication are the norms in professional settings, but personal expression and debate are encouraged. The blend of tradition and modernity is palpable in daily life, making France a fascinating place to navigate.",
+    "cultural_archetype": {
+      "title": "The Independent Connector",
+      "summary": "A society that values individual autonomy while fostering strong social networks.",
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [],
+    "culture_at_a_glance": [
+      "France's individualism is rooted in historical and philosophical traditions, emphasizing personal freedom while maintaining strong social networks.",
+      "The Declaration of the Rights of Man and of the Citizen enshrines individual rights, yet social identity is also shaped by class and cultural capital.",
+      "France's focus on work-life balance and quality of life is evident in its labor laws and cultural norms, which prioritize leisure and personal well-being.",
+      "The French workplace is characterized by hierarchical structures and formal communication, with a clear distinction between roles.",
+      "French communication values eloquence and articulate expression, often engaging in lively debates that are seen as a sign of engagement.",
+      "In professional settings, addressing colleagues with the correct titles and observing formal etiquette is crucial to avoid social faux pas."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Individualism with a Social Twist",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 92,
+          "framework_agreement": 66,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in friendship social sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "France's individualism is rooted in historical and philosophical traditions, emphasizing personal freedom while maintaining strong social networks.",
+            "claim_ids": [
+              "c1",
+              "c2",
+              "C01"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "The Declaration of the Rights of Man and of the Citizen enshrines individual rights, yet social identity is also shaped by class and cultural capital.",
+            "claim_ids": [
+              "c3",
+              "c4"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Tocqueville noted the impact of centralization and the Revolution in fostering individualism by dissolving traditional group bonds.",
+            "claim_ids": [
+              "c2"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Quality of Life as a Cultural Value",
+        "confidence": {
+          "evidence_strength": 50,
+          "expert_agreement": 90,
+          "framework_agreement": 69,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "France's focus on work-life balance and quality of life is evident in its labor laws and cultural norms, which prioritize leisure and personal well-being.",
+            "claim_ids": [
+              "C22",
+              "C23",
+              "c17"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The Napoleonic Code established a comprehensive legal system, reinforcing a rule-oriented culture.",
+        "claim_ids": [
+          "c12"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Existentialism, led by Sartre and Camus, promoted personal freedom and meaning-seeking, influencing French individualism.",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Autonomy",
+        "but_also": "Social Connectivity",
+        "explanation": "While individualism is a core value, the importance of social networks and relationships remains significant in France.",
+        "claim_ids": [
+          "c1",
+          "C06"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "France's emphasis on quality of life is reflected in its work-life balance, with a 35-hour workweek and generous vacation time.",
+          "claim_ids": [
+            "C22",
+            "C23"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The practice of 'la bise' (cheek kissing) among friends highlights the cultural norm of physical expressiveness in social interactions.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "The French workplace is characterized by hierarchical structures and formal communication, with a clear distinction between roles.",
+          "claim_ids": [
+            "C12",
+            "C18"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "French communication values eloquence and articulate expression, often engaging in lively debates that are seen as a sign of engagement.",
+          "claim_ids": [
+            "C09",
+            "C10"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "French social identity is shaped by class-based networks, with strong ties among families and social groups, particularly within the bourgeoisie.",
+          "claim_ids": [
+            "c4"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "The French legal and administrative systems are highly bureaucratic, with detailed regulations governing many aspects of life.",
+          "claim_ids": [
+            "c12",
+            "c13"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "In professional settings, addressing colleagues with the correct titles and observing formal etiquette is crucial to avoid social faux pas.",
+          "claim_ids": [
+            "C30",
+            "C34"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In France, social status is often signaled through educational background and cultural capital, rather than purely economic means.",
+          "claim_ids": [
+            "C26",
+            "c18"
+          ],
+          "sources_count": 2
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Living in France feels like a balance between enjoying a high quality of life and navigating structured social and professional environments. The emphasis on personal connections and articulate expression creates a vibrant social scene, while the strong individualistic ethos allows for personal freedom and autonomy.",
+      "claim_ids": [
+        "C22",
+        "C06",
+        "c3"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The French appreciation for articulate debate and intellectual conversation is evident in both social and professional settings.",
+        "claim_ids": [
+          "C09",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "France's structured work environment, with its emphasis on hierarchy and formal communication, stands out to newcomers.",
+        "claim_ids": [
+          "C12",
+          "C18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in France often hinges on one's ability to navigate social networks and maintain strong professional relationships, alongside demonstrating expertise.",
+        "claim_ids": [
+          "C27",
+          "C29"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Educational background, particularly from elite institutions, plays a significant role in professional advancement.",
+        "claim_ids": [
+          "c19",
+          "C26"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Ignoring hierarchical structures or failing to adhere to formal communication protocols can lead to professional setbacks.",
+        "claim_ids": [
+          "C19",
+          "C30"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C06"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Vous/tu distinction",
+        "meaning": "Using 'vous' with superiors until invited to use 'tu' is a critical social signal of respect.",
+        "claim_ids": [
+          "C31"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [],
+    "experience_variations": [],
+    "similar_cultures": [
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "similarity": 86,
+        "explanation": "France and Andorra share a focus on individual rights and personal freedom, but Andorra's smaller size and different administrative structures create distinct social dynamics.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "BEL",
+        "country": "Belgium",
+        "similarity": 85,
+        "explanation": "France and Belgium both value articulate expression and social networks, yet Belgium's multilingual context adds layers to its communication style.",
+        "claim_ids": [
+          "C09",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "LUX",
+        "country": "Luxembourg",
+        "similarity": 85,
+        "explanation": "France and Luxembourg share a structured approach to work and life, but Luxembourg's international financial center status influences its cultural dynamics.",
+        "claim_ids": [
+          "C12",
+          "C18"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "NIR",
+        "country": "NIR",
+        "similarity": 84,
+        "explanation": "France and Northern Ireland both have strong cultural identities, but France's emphasis on individualism contrasts with Northern Ireland's community-oriented culture.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Philosophical Individualism",
+        "explanation": "France's strong philosophical tradition of individualism, rooted in historical events and intellectual movements, sets it apart from its neighbors.",
+        "claim_ids": [
+          "c1",
+          "C03"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Structured Yet Expressive",
+        "explanation": "The blend of structured communication and expressive debate in France creates a unique cultural environment unlike its more reserved neighbors.",
+        "claim_ids": [
+          "C09",
+          "C10"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More easygoing than Belgium",
+        "dimension": "D4",
+        "neighbour_iso3": "BEL",
+        "delta": -26
+      },
+      {
+        "text": "More structured than NIR",
+        "dimension": "D3",
+        "neighbour_iso3": "NIR",
+        "delta": 25
+      },
+      {
+        "text": "More structured than Andorra",
+        "dimension": "D3",
+        "neighbour_iso3": "AND",
+        "delta": 24
+      },
+      {
+        "text": "More community-oriented than Netherlands",
+        "dimension": "D1",
+        "neighbour_iso3": "NLD",
+        "delta": -23
+      },
+      {
+        "text": "More structured than Netherlands",
+        "dimension": "D3",
+        "neighbour_iso3": "NLD",
+        "delta": 20
+      },
+      {
+        "text": "More easygoing than Luxembourg",
+        "dimension": "D4",
+        "neighbour_iso3": "LUX",
+        "delta": -18
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede’s Individualism score for France is 71, placing it solidly within the individualist range, which anchors D1 high (~75). Ethnographic comparison shows French individuals score higher on Individualism than Japanese, reinforcing self-defined identity. However, evidence of strong social homogeneity in personal networks suggests some persistence of group-bound identities, albeit within elective, similar-status circles, nudging the score slightly downwards from maximum individualist.",
+          "suggested_score": 75
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "France's Hofstede IDV score of 71 anchors this firmly in the individualist half of the scale — above the global mean and consistent with Western European norms. The French educational system explicitly promotes individualistic values, and existentialist philosophy (Sartre, Camus) has historically reinforced personal autonomy as a cultural ideal. Research confirms French teachers and parents both emphasise individualism over collectivism in child-rearing, and workplace culture expects individuals to manage their own careers. Counter-evidence includes strong social solidarity institutions (universal healthcare, generous unemployment benefits) and relational networking norms in business, but per the routing rules these are D3/D4 signals, not D1. The score is set at 72 — modestly above the IDV anchor — because the existentialist-intellectual tradition and the French emphasis on personal autonomy are well-corroborated across independent sources.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "France scores high on individualism (Hofstede IDV 71), indicating a self-oriented identity where personal opinion and autonomy are valued. This is historically rooted in the Enlightenment privileging the individual, the French Revolution's Declaration of the Rights of Man, and a centralized education system that cultivates critical, independent thought. However, counter-evidence shows that family ties remain strong and that social networks are often dense and persistent (especially in the bourgeoisie and rural areas). The score is anchored on the Hofstede number; the counter-evidence adjusts it down slightly from a pure 71.",
+          "suggested_score": 71
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "France sits near the midpoint on D2 but leans slightly restrained. Hofstede's Indulgence score for France is approximately 48, placing it below the midpoint — meaning social norms moderately suppress free emotional expression. In practice, the French are renowned for passionate intellectual debate (a form of expressive engagement), and lively argument is culturally sanctioned and interpreted as a sign of intellectual engagement rather than conflict. However, this debate culture operates within strict hierarchical and formality protocols: emotional display toward superiors is discouraged, formal address (vous/Monsieur/Madame) is mandatory until invited otherwise, and personal warmth with strangers is limited. Friendships form slowly and deeply rather than quickly and broadly. The net picture is a culture where structured intellectual expression is open but spontaneous personal emotional expression is moderated by hierarchy and formality — placing France in the lower-middle range of D2.",
+          "suggested_score": 48
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "France is moderately open in expression. The culture values intellectual debate, emotional expressiveness in close relationships (e.g., kissing acquaintances on both cheeks – 'la bise'), and public displays of passion. Yet there is also a formal register ('vous' vs. 'tu') and a Cartesian tradition of rhetorical control that restrains spontaneity in hierarchical/professional settings. The score reflects an above-midpoint openness, tempered by these codes of restraint.",
+          "suggested_score": 60
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "France's Hofstede UAI of 86 is one of the highest in Western Europe, making high Structure the single clearest quantitative anchor for any French dimension. Multiple independent corroborating sources confirm this: workplaces expect clear agendas and prior briefings before meetings; the legal and regulatory framework is highly codified (Napoleonic Code tradition); meetings require thorough preparation and data-backed arguments; 'surprises' are culturally unwelcome. The Grandes Écoles system reinforces structured, rule-governed thinking from an early age. One modest counter: some analysts note that French intellectual culture can embrace abstract, open-ended discourse, which may signal tolerance for some ambiguity in intellectual contexts. However, this is an exception operating within an overall high-Structure base rate. Score is set at 84, one notch below the raw UAI of 86 to account for that counter-evidence nudge.",
+          "suggested_score": 84
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "France has a strong preference for certainty (Hofstede UAI 86). This manifests in a dense web of administrative rules, codified law (Napoleonic Code), hierarchy in organizations, and a cultural expectation that plans and procedures be followed. Counter-evidence includes widespread occasional rule-breaking (e.g., 'débrouillardise', strikes, protests) and a flexible attitude toward some regulations. The score is anchored on the very high UAI but adjusted down by these counter-norms.",
+          "suggested_score": 76
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "France's Hofstede MAS of 43 (feminine/accepting) anchors D4 in the Accepting half of the scale. The 35-hour statutory workweek, five weeks of paid leave, France's 6th-place OECD ranking for work-life balance, and the cultural principle that 'one works to live, not lives to work' all corroborate a quality-of-life orientation. The upper/managerial class scores notably more 'feminine' (accepting) than the working class, which leans more competitive — but the dominant institutional signal is accepting. Counter-evidence includes status competition via the Grandes Écoles and strong career-title prestige among elites, and the observation that personal connections are essential for professional success. These are real moderators, but they constitute prestige-driven networking (D1/D3) rather than a fundamental achievement-competition orientation. Score of 38 reflects a moderately Accepting culture with some elite-competitive subculture as a real but insufficient counterweight to flip the direction.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "France is moderately accepting (Hofstede MAS 43). The culture emphasizes quality of life, work-life balance (35-hour workweek, long vacations), and social solidarity. However, there is also a strong drive for excellence in intellectual and artistic fields, and competition is valued through rigorous educational selection (grandes écoles). The score is anchored on the below-midpoint MAS and adjusted slightly upward by elite striving norms.",
+          "suggested_score": 43
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S02",
+      "title": "Hofstede's Cultural Dimensions applied in France (PDF)",
+      "url": "https://www.researchgate.net/publication/357869549_Hofstede's_Cultural_Dimensions_applied_in_France",
+      "author": "ResearchGate contributor",
+      "publication_year": 2021,
+      "excerpt": "France's Hofstede Individualism (IDV) score of 71 classifies it as an individualistic society, where people primarily care for themselves and their immediate family rather than broader in-group collectives.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S05",
+      "title": "Existentialism and Individualism: A Study of Its Influence on French Society",
+      "url": "https://www.researchgate.net/publication/382687863_Existentialism_and_Individualism_A_Study_of_Its_Influence_on_French_Society",
+      "author": "ResearchGate contributor",
+      "publication_year": 2024,
+      "excerpt": "Existentialism, led by Sartre and Camus, promoted personal freedom and meaning-seeking, fostering a deep individualistic orientation in French culture that persisted through literature, cinema, and politics.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S08",
+      "title": "Managing Difficult Employees in France: Strategies for Success – EuroJob-Consulting",
+      "url": "https://www.eurojob-consulting.com/en/a/managing-difficult-employees-in-france-strategies-for-success",
+      "author": "EuroJob-Consulting editorial",
+      "publication_year": 2026,
+      "excerpt": "A report by Institut Montaigne found that 64% of French executives consider personal connections crucial for professional success, suggesting relational/network interdependence moderates pure individualism in the professional sphere.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S11",
+      "title": "French Work Culture: Cultural Differences in Business – Commisceo Global",
+      "url": "https://commisceo-global.com/articles/french-work-culture-cultural-differences-in-business/",
+      "author": "Commisceo Global editorial",
+      "publication_year": 2026,
+      "excerpt": "French professionals value articulate expression, persuasive reasoning, and lively debate, which is interpreted as a sign of engagement, not conflict — indicating a culturally sanctioned form of expressive intellectual openness.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S12",
+      "title": "Working in France: 10 Things about French Workplace Culture – Renestance",
+      "url": "https://www.renestance.com/blog/10-things-to-know-about-french-work-culture/",
+      "author": "Renestance editorial",
+      "publication_year": 2023,
+      "excerpt": "Eloquence and articulate communication are valued in French culture, and it is not uncommon to engage in discussions and debates during business meetings, lunch, or even coffee breaks — suggesting expression is actively encouraged in intellectual contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S06",
+      "title": "French Workplace Secrets: Navigate Cultural Differences – LaFrenchZone",
+      "url": "https://lafrenchzone.com/en/cultural-differences-in-france-at-work/",
+      "author": "LaFrenchZone editorial",
+      "publication_year": 2026,
+      "excerpt": "Professional communication in France is deeply rooted in hierarchical awareness; the mandatory use of formal 'vous' with superiors and new colleagues until explicitly invited to switch to 'tu' structurally suppresses informal emotional expression across status lines.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S09",
+      "title": "French Management Style: Habits to Change When Managing a Team in France – EuroJob-Consulting",
+      "url": "https://www.eurojob-consulting.com/en/a/french-management-style-habits-to-change-when-managing-a-team-in-france",
+      "author": "EuroJob-Consulting editorial",
+      "publication_year": 2026,
+      "excerpt": "French companies typically maintain a more hierarchical structure with respect for authority and titles, clear distinction between manager and employee roles, and top-down decision-making — all structural markers of a high-certainty, rule-ordered culture.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S11",
+      "title": "French Work Culture: Cultural Differences in Business – Commisceo Global",
+      "url": "https://commisceo-global.com/articles/french-work-culture-cultural-differences-in-business/",
+      "author": "Commisceo Global editorial",
+      "publication_year": 2026,
+      "excerpt": "A concrete failure mode for newcomers in France is bypassing one's manager or directly challenging senior leaders in public forums — confirming that the formal rule-structure of hierarchy is enforced and deviations create friction.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S07",
+      "title": "French Work Culture and Business Etiquette – Expatica",
+      "url": "https://www.expatica.com/fr/working/employment-basics/french-business-etiquette-108353/",
+      "author": "Expatica editorial",
+      "publication_year": 2025,
+      "excerpt": "France ranks 6th out of 38 OECD countries on the Better Life Index for work-life balance, and French labour law mandates a 35-hour standard workweek with approximately 8% of employees working long hours versus the 10% OECD average — a strong institutional signal of quality-of-life prioritisation over pure achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S07",
+      "title": "French Work Culture and Business Etiquette – Expatica",
+      "url": "https://www.expatica.com/fr/working/employment-basics/french-business-etiquette-108353/",
+      "author": "Expatica editorial",
+      "publication_year": 2025,
+      "excerpt": "French law mandates five weeks of annual holiday, and cultural norms mean that while the French value hard work, they generally do not condone workaholism — emphasising quality of life over maximal professional output.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S10",
+      "title": "Managing in France – Management Style & Workplace Culture – Commisceo Global",
+      "url": "https://commisceo-global.com/management-guides/france-management-guide/",
+      "author": "Commisceo Global editorial",
+      "publication_year": 2026,
+      "excerpt": "CEOs of French companies often come from a select group of elite Grandes Écoles universities and share similar educational backgrounds, indicating significant status competition and achievement-driven elite stratification that moderates the purely accepting orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S08",
+      "title": "Managing Difficult Employees in France: Strategies for Success – EuroJob-Consulting",
+      "url": "https://www.eurojob-consulting.com/en/a/managing-difficult-employees-in-france-strategies-for-success",
+      "author": "EuroJob-Consulting editorial",
+      "publication_year": 2026,
+      "excerpt": "Personal connections and networking are crucial for professional success in France (Institut Montaigne survey: 64% of executives), suggesting a competitive, achievement-oriented sub-culture in which status-striving through relationship capital is important.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S11",
+      "title": "French Work Culture: Cultural Differences in Business – Commisceo Global",
+      "url": "https://commisceo-global.com/articles/french-work-culture-cultural-differences-in-business/",
+      "author": "Commisceo Global editorial",
+      "publication_year": 2026,
+      "excerpt": "Success in France depends not only on expertise but also on the ability to navigate its distinctive professional values, communication norms, and expectations around hierarchy and etiquette — specifically, preparing data-driven logical arguments and observing senior communication styles.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S12",
+      "title": "Working in France: 10 Things about French Workplace Culture – Renestance",
+      "url": "https://www.renestance.com/blog/10-things-to-know-about-french-work-culture/",
+      "author": "Renestance editorial",
+      "publication_year": 2023,
+      "excerpt": "French business etiquette is formally rule-bound: it is customary to address people as Monsieur or Madame until explicitly invited to use first names, and handshakes are mandatory on entering a room — concrete norms that signal a high-structure cultural operating code.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S06",
+      "title": "French Workplace Secrets: Navigate Cultural Differences – LaFrenchZone",
+      "url": "https://lafrenchzone.com/en/cultural-differences-in-france-at-work/",
+      "author": "LaFrenchZone editorial",
+      "publication_year": 2026,
+      "excerpt": "The vous/tu distinction in French workplace language is a critical and codified social signal: using informal 'tu' with a superior before being invited is a recognised social mistake that marks the offender as disrespectful of structural norms.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C34",
+      "source_id": "S11",
+      "title": "French Work Culture: Cultural Differences in Business – Commisceo Global",
+      "url": "https://commisceo-global.com/articles/french-work-culture-cultural-differences-in-business/",
+      "author": "Commisceo Global editorial",
+      "publication_year": 2026,
+      "excerpt": "Always addressing senior colleagues by title (e.g., 'Monsieur Dupont' or 'Madame Laurent') until explicitly invited to use first names is a specific, actionable norm newcomers must observe — violating it is a well-documented social mistake in French professional contexts.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights: France",
+      "url": "https://www.hofstede-insights.com/country/france/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "France scores 71 on Hofstede Individualism, indicating a highly individualist culture where people look after themselves and their immediate family only.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s9",
+      "title": "Napoleonic Code",
+      "url": "https://en.wikipedia.org/wiki/Napoleonic_Code",
+      "author": "Wikipedia",
+      "publication_year": 2024,
+      "excerpt": "The Napoleonic Code established a comprehensive, codified legal system that prioritizes written law and formal procedures, reinforcing a rule-oriented culture.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "s9",
+      "title": "Napoleonic Code",
+      "url": "https://en.wikipedia.org/wiki/Napoleonic_Code",
+      "author": "Wikipedia",
+      "publication_year": 2024,
+      "excerpt": "French administrative culture is highly bureaucratic, with detailed regulations governing many aspects of public and private life, from business to employment.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c17",
+      "source_id": "s11",
+      "title": "The 35-Hour Workweek in France",
+      "url": "https://en.wikipedia.org/wiki/35-hour_workweek",
+      "author": "Wikipedia",
+      "publication_year": 2024,
+      "excerpt": "The 35-hour workweek and generous vacation time reflect a cultural emphasis on work-life balance and quality of life over material achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c18",
+      "source_id": "s4",
+      "title": "Distinction: A Social Critique of the Judgement of Taste",
+      "url": "https://en.wikipedia.org/wiki/Distinction_(book)",
+      "author": "Pierre Bourdieu",
+      "publication_year": 1979,
+      "excerpt": "Bourdieu argues that French social status is contested through taste and cultural capital rather than purely economic competition, emphasizing distinction over direct striving.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c19",
+      "source_id": "s12",
+      "title": "Grandes écoles and French Elite Education",
+      "url": "https://en.wikipedia.org/wiki/Grandes_%C3%A9coles",
+      "author": "Wikipedia",
+      "publication_year": 2024,
+      "excerpt": "The grandes écoles system is aggressively competitive and selects an elite through rigorous exams, demonstrating a strong achievement orientation in education.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "The Old Regime and the French Revolution",
+      "url": "https://en.wikipedia.org/wiki/The_Old_Regime_and_the_French_Revolution",
+      "author": "Alexis de Tocqueville",
+      "publication_year": 1856,
+      "excerpt": "Tocqueville argued that French centralization and the Revolution dissolved intermediate bodies (guilds, provinces) that once bound groups, leaving the individual alone before the state, fostering individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "Declaration of the Rights of Man and of the Citizen",
+      "url": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+      "author": "National Constituent Assembly",
+      "publication_year": 1789,
+      "excerpt": "The Declaration of the Rights of Man and of the Citizen (1789) enshrines the individual as the bearer of natural rights, forming the philosophical basis of French individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s4",
+      "title": "Distinction: A Social Critique of the Judgement of Taste",
+      "url": "https://en.wikipedia.org/wiki/Distinction_(book)",
+      "author": "Pierre Bourdieu",
+      "publication_year": 1979,
+      "excerpt": "Bourdieu's 'Distinction' shows that French social identity is deeply shaped by class-based group habitus, with strong family and social network ties, especially among the bourgeoisie.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s7",
+      "title": "La Bise: A French Greeting Tradition",
+      "url": "https://en.wikipedia.org/wiki/Cheek_kissing",
+      "author": "Wikipedia",
+      "publication_year": 2024,
+      "excerpt": "The common practice of 'la bise' (cheek kissing) among friends and acquaintances demonstrates emotional openness and physical expressiveness in social interactions.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 73,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 56,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 80,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 40,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 72.53620672,
+      "D2": 58.97562774,
+      "D3": 78.87867637,
+      "D4": 40.49670256
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 66.05027516,
+        "hi": 79.02213829
+      },
+      "D2": {
+        "lo": 50.38592834,
+        "hi": 67.56532714
+      },
+      "D3": {
+        "lo": 71.56806965,
+        "hi": 86.18928309
+      },
+      "D4": {
+        "lo": 31.56420201,
+        "hi": 49.42920311
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "FRA",
+        "dimension": "D2",
+        "baseline": 58.97562774,
+        "final": 56.0,
+        "direction": "down",
+        "magnitude": 2.98,
+        "reason": "Expression adjusted from baseline 59.0 to 56 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 56 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "FRA",
+        "dimension": "D3",
+        "baseline": 78.87867637,
+        "final": 80.0,
+        "direction": "up",
+        "magnitude": 1.12,
+        "reason": "Structure adjusted from baseline 78.9 to 80 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 80 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "FRA",
+        "dimension": "D4",
+        "baseline": 40.49670256,
+        "final": 40.0,
+        "direction": "down",
+        "magnitude": 0.5,
+        "reason": "Drive adjusted from baseline 40.5 to 40 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 40 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 66.05,
+        "baseline": 72.53620672,
+        "framework_hi": 79.02,
+        "specialist_recommendation": 72.667,
+        "council_consensus": 73.74,
+        "integrator_recommendation": 73.04,
+        "llm_recommendation": 73.0,
+        "final": 73,
+        "available_range": 12.97,
+        "distance_from_baseline": 0.46,
+        "range_utilization": 54,
+        "clamp_adjustment": -0.04,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 6.95,
+        "distance_from_upper": 6.02,
+        "movement_reason": "Evidence-first placement of Identity at 73 (evidence credibility 0.60): specialist recommendation 72.667 blended with council consensus 73.74, with baseline reference 72.5 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 50.39,
+        "baseline": 58.97562774,
+        "framework_hi": 67.57,
+        "specialist_recommendation": 54.0,
+        "council_consensus": 58.12,
+        "integrator_recommendation": 56.19,
+        "llm_recommendation": 56.0,
+        "final": 56,
+        "available_range": 17.18,
+        "distance_from_baseline": -2.98,
+        "range_utilization": 33,
+        "clamp_adjustment": -0.19,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 5.61,
+        "distance_from_upper": 11.57,
+        "movement_reason": "Evidence-first placement of Expression at 56 (evidence credibility 0.55): specialist recommendation 54.0 blended with council consensus 58.12, with baseline reference 59.0 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 71.57,
+        "baseline": 78.87867637,
+        "framework_hi": 86.19,
+        "specialist_recommendation": 80.0,
+        "council_consensus": 79.72,
+        "integrator_recommendation": 79.8,
+        "llm_recommendation": 80.0,
+        "final": 80,
+        "available_range": 14.62,
+        "distance_from_baseline": 1.12,
+        "range_utilization": 58,
+        "clamp_adjustment": 0.2,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 8.43,
+        "distance_from_upper": 6.19,
+        "movement_reason": "Evidence-first placement of Structure at 80 (evidence credibility 0.61): specialist recommendation 80.0 blended with council consensus 79.72, with baseline reference 78.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 31.56,
+        "baseline": 40.49670256,
+        "framework_hi": 49.43,
+        "specialist_recommendation": 40.5,
+        "council_consensus": 39.06,
+        "integrator_recommendation": 39.93,
+        "llm_recommendation": 40.0,
+        "final": 40,
+        "available_range": 17.87,
+        "distance_from_baseline": -0.5,
+        "range_utilization": 47,
+        "clamp_adjustment": 0.07,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 8.44,
+        "distance_from_upper": 9.43,
+        "movement_reason": "Evidence-first placement of Drive at 40 (evidence credibility 0.56): specialist recommendation 40.5 blended with council consensus 39.06, with baseline reference 40.5 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "France",
+        "iso3": "FRA",
+        "dimension": "D1",
+        "baseline_score": 72.53620672,
+        "final_score": 73,
+        "change_amount": 0.46,
+        "change_percent": 0.63,
+        "adjustment_type": "ROUNDING",
+        "summary": "France's Identity is placed at 73 (Social 3 <-> Self 97). Within the framework range [66-79], 73 sits at ~54% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C01",
+          "W_institutional_analyst_C04",
+          "W_institutional_analyst_C03"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 11.11,
+          "schwartz": 33.33,
+          "wvs": 0.0,
+          "trompenaars": 22.22
+        },
+        "statistician_reasoning": "Hofstede IDV=71 is the primary anchor for D1 and places France firmly in the individualist zone. Schwartz Intellectual and Affective Autonomy scores corroborate this. Signal strength 0.69 with 65% consensus supports placement above the CI midpoint (~72.5). Trompenaars conflict (communitarianism loading) prevents pushing to the upper edge near 79. (1) Why this score: Hofstede IDV=71 maps directly to ~74 on the FOLK scale given the CI range 66-79; Schwartz autonomy reinforces individualism. (2) Why not lower: IDV=71 and Schwartz autonomy rule out scores near 66-68. (3) Why not higher: Trompenaars communitarianism conflict and GLOBE in-group collectivism signal prevent scores near 79. (4) Decisive evidence: hofstede_individualism, schwartz_intellectual_autonomy.",
+        "comparativist_reasoning": "France's score of 74 on Identity is justified by Hofstede's Individualism score of 71, which is above the regional mean and consistent with Western European peers like Belgium (76.9) and the Netherlands (95.5). The Schwartz Autonomy scores further reinforce this placement. This score is above the South Korea anchor (50) by 24 points.",
+        "country_specialist_reasoning": "Hofstede's Individualism score of 71 and strong qualitative evidence from cultural studies confirm France's individualistic orientation. The influence of existentialist philosophy further supports this placement.",
+        "skeptic_reasoning": "Adversarial check on Identity=73: resist midpoint bias and compression.",
+        "integrator_decision": "Integrator retained the baseline (72.5) for Identity.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7895): coverage=0.8, agreement=0.971, evidence=0.609, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 73,
+          "considered_alternatives": [
+            74
+          ],
+          "why_rejected": {
+            "74": "74 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "73 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (74) and the CI ceiling (79), so pushing past 73 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (73) and the CI floor (66), so going below 73 would understate the measured signal.",
+        "integrator_recommendation": 73.04,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.04,
+        "absolute_score_rationale": "France sits at 73 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate France's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate France's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate France's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would understate France's Self tendencies; peer and framework evidence place it above 65 on Identity.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing France that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 73 means everyday life in France leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 73 is justified: France sits at 73 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (73) and the CI floor (66), so going below 73 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (74) and the CI ceiling (79), so pushing past 73 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C01, W_institutional_analyst_C04, W_institutional_analyst_C03.",
+        "executive_explanation": "France sits at 73 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (73) already reflected this evidence, so the council confirmed 73 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (74) and the CI ceiling (79), so pushing past 73 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (73) and the CI floor (66), so going below 73 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.46 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [66-79], 73 sits at ~54% of the permitted span."
+      },
+      {
+        "country": "France",
+        "iso3": "FRA",
+        "dimension": "D2",
+        "baseline_score": 58.97562774,
+        "final_score": 56,
+        "change_amount": -2.98,
+        "change_percent": -5.05,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "France's Expression is placed at 56 (Restrained 3 <-> Open 97). Within the framework range [50-68], 56 sits at ~33% of the permitted span.",
+        "evidence_used": [
+          "E_D2_01",
+          "W_historical_analyst_c6",
+          "W_institutional_analyst_C12"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 12.5,
+          "globe": 37.5,
+          "schwartz": 12.5,
+          "wvs": 0.0,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "D2 has the highest agreement score (0.82) with no conflicting frameworks. Hofstede Indulgence=48 is just below the midpoint but GLOBE assertiveness and Trompenaars affective-neutral both support moderate openness. France's cultural reputation for demonstrative public discourse and emotional expressiveness in social contexts supports placement above the Turkey anchor (50). (1) Why this score: agreement score 0.82 with no conflicts and qualitative evidence of expressive social culture places this at 59. (2) Why not lower: no framework signals restrained expression; all contributing signals point above 50. (3) Why not higher: Hofstede Indulgence=48 and LTO=63 temper expressiveness, preventing scores near 67. (4) Decisive evidence: hofstede_indulgence, globe_assertiveness.",
+        "comparativist_reasoning": "France's Expression score of 59 is supported by Hofstede's Indulgence score of 48 and GLOBE's Assertiveness, indicating moderate openness. This is consistent with cultural observations of expressive public discourse. The score is above the Turkey anchor (50) by 9 points.",
+        "country_specialist_reasoning": "France's cultural reputation for expressive public discourse and emotional expressiveness supports a moderate openness score. Hofstede's Indulgence score and GLOBE assertiveness align with this placement.",
+        "skeptic_reasoning": "Adversarial check on Expression=56: resist midpoint bias and compression.",
+        "integrator_decision": "Expression adjusted from baseline 59.0 to 56 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7333): coverage=0.8, agreement=0.913, evidence=0.55, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 56,
+          "considered_alternatives": [
+            59
+          ],
+          "why_rejected": {
+            "59": "59 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "56 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (59) and the CI ceiling (68), so pushing past 56 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (50), so going below 56 would understate the measured signal.",
+        "integrator_recommendation": 56.19,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.19,
+        "absolute_score_rationale": "France sits at 56 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate France's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate France's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate France's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing France that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing France that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 56 means everyday life in France leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 56 is justified: France sits at 56 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (50), so going below 56 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (59) and the CI ceiling (68), so pushing past 56 would lack evidentiary support. Strongest supporting evidence: E_D2_01, W_historical_analyst_c6, W_institutional_analyst_C12.",
+        "executive_explanation": "France sits at 56 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (59) and the CI ceiling (68), so pushing past 56 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (50), so going below 56 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=2.98. Framework consensus=37.28, signal_strength=0.7236, conflict=0.1755. Within the framework range [50-68], 56 sits at ~33% of the permitted span. Confidence HIGH (score 0.7333): coverage=0.8, agreement=0.913, evidence=0.55, stability=0.8."
+      },
+      {
+        "country": "France",
+        "iso3": "FRA",
+        "dimension": "D3",
+        "baseline_score": 78.87867637,
+        "final_score": 80,
+        "change_amount": 1.12,
+        "change_percent": 1.42,
+        "adjustment_type": "ROUNDING",
+        "summary": "France's Structure is placed at 80 (Fluid 3 <-> Certain 97). Within the framework range [72-86], 80 sits at ~58% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C16",
+          "W_historical_analyst_c11",
+          "E_D3_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "schwartz"
+        ],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 27.27,
+          "schwartz": 18.18,
+          "wvs": 0.0,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Hofstede UAI=86 is one of the highest globally and is the primary quantitative anchor for D3. Three frameworks agree (Hofstede, GLOBE, Trompenaars) with only Schwartz harmony conflicting. Signal strength 0.68 with 65% consensus. (1) Why this score: UAI=86 maps to the upper portion of the CI (71.6-86.2); three-framework agreement justifies placement at 80, leaving modest room below the ceiling for the Schwartz conflict. (2) Why not lower: UAI=86 is unambiguous; scores near 72 would materially understate this signal. (3) Why not higher: Schwartz harmony conflict and France's tolerance for intellectual debate and philosophical ambiguity prevent placement at the ceiling. (4) Decisive evidence: hofstede_uncertainty_avoidance, globe_future_orientation.",
+        "comparativist_reasoning": "France's Structure score of 80 is primarily anchored by Hofstede's Uncertainty Avoidance Index of 86, one of the highest globally, indicating a strong preference for certainty. This is above the Colombia anchor (50) by 30 points.",
+        "country_specialist_reasoning": "Hofstede's Uncertainty Avoidance Index of 86 indicates a strong preference for certainty and structure, supported by agreement across multiple frameworks.",
+        "skeptic_reasoning": "Adversarial check on Structure=79: resist midpoint bias and compression.",
+        "integrator_decision": "Structure adjusted from baseline 78.9 to 80 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6324): coverage=0.8, agreement=0.971, evidence=0.614, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 80,
+          "considered_alternatives": [
+            79
+          ],
+          "why_rejected": {
+            "79": "79 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "80 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 80 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (79) and the CI floor (72), so going below 80 would understate the measured signal.",
+        "integrator_recommendation": 79.8,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.2,
+        "absolute_score_rationale": "France sits at 80 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate France's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate France's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate France's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate France's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing France that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 80 means everyday life in France leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 80 is justified: France sits at 80 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (79) and the CI floor (72), so going below 80 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 80 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C16, W_historical_analyst_c11, E_D3_01.",
+        "executive_explanation": "France sits at 80 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (79) already reflected this evidence, so the council confirmed 80 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 80 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (79) and the CI floor (72), so going below 80 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.12 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [72-86], 80 sits at ~58% of the permitted span."
+      },
+      {
+        "country": "France",
+        "iso3": "FRA",
+        "dimension": "D4",
+        "baseline_score": 40.49670256,
+        "final_score": 40,
+        "change_amount": -0.5,
+        "change_percent": -1.23,
+        "adjustment_type": "ROUNDING",
+        "summary": "France's Drive is placed at 40 (Accepting 3 <-> Striving 97). Within the framework range [32-49], 40 sits at ~47% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c16",
+          "W_institutional_analyst_C22",
+          "W_institutional_analyst_C23"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 18.18,
+          "schwartz": 27.27,
+          "wvs": 0.0,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Hofstede Masculinity=43 places France on the feminine/accepting side. Schwartz mastery is moderate and Trompenaars ascription-achievement signals moderate achievement orientation. GLOBE performance orientation conflicts but per framework override maps to D2 not D4. CI range 31.6-49.4 is entirely below 50. (1) Why this score: Masculinity=43 and Schwartz mastery both point to accepting orientation; placement at 40 reflects moderate accepting tendency without overstating it. (2) Why not lower: Schwartz mastery and Trompenaars achievement signals prevent placement near 32. (3) Why not higher: Masculinity=43 and the full CI being below 50 rule out scores near 49; France's work-life balance culture and social welfare orientation reinforce accepting side. (4) Decisive evidence: hofstede_masculinity, schwartz_mastery.",
+        "comparativist_reasoning": "France's Drive score of 40 reflects a cultural orientation towards balance and quality of life over aggressive striving, as indicated by lower GLOBE Performance Orientation scores compared to peers. This is below the Turkey anchor (50) by 10 points.",
+        "country_specialist_reasoning": "Cultural emphasis on quality of life and contentment over aggressive achievement aligns with a lower Drive score, as indicated by qualitative cultural analyses.",
+        "skeptic_reasoning": "Adversarial check on Drive=37: resist midpoint bias and compression.",
+        "integrator_decision": "Drive adjusted from baseline 40.5 to 40 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5908): coverage=0.8, agreement=0.913, evidence=0.576, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 40,
+          "considered_alternatives": [
+            37
+          ],
+          "why_rejected": {
+            "37": "37 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "40 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (49), so pushing past 40 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (32), so going below 40 would understate the measured signal.",
+        "integrator_recommendation": 39.93,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.07,
+        "absolute_score_rationale": "France sits at 40 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate France's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate France's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing France that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing France that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing France that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 40 means everyday life in France leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 40 is justified: France sits at 40 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (32), so going below 40 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (49), so pushing past 40 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c16, W_institutional_analyst_C22, W_institutional_analyst_C23.",
+        "executive_explanation": "France sits at 40 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (40) already reflected this evidence, so the council confirmed 40 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (49), so pushing past 40 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (32), so going below 40 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.50 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [32-49], 40 sits at ~47% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "d1": 70.91117295,
+        "d2": 62.66262252,
+        "d3": 56.39064751,
+        "d4": 51.69588514,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BEL",
+        "country": "Belgium",
+        "d1": 76.92547695,
+        "d2": 62.74334678,
+        "d3": 83.83218886,
+        "d4": 66.25556779,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LUX",
+        "country": "Luxembourg",
+        "d1": 60.0,
+        "d2": 47.0,
+        "d3": 65.0,
+        "d4": 58.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "NIR",
+        "country": "NIR",
+        "d1": 65.02592565,
+        "d2": 59.05486524,
+        "d3": 54.93139786,
+        "d4": 56.1043526,
+        "relation": "regional"
+      },
+      {
+        "iso3": "NLD",
+        "country": "Netherlands",
+        "d1": 95.51617992,
+        "d2": 68.1514977,
+        "d3": 60.24389127,
+        "d4": 31.5834933,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 23.0,
+        "reason": "France is above the South Korea Identity anchor (50) by 23.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 6.0,
+        "reason": "France is above the Turkey Expression anchor (50) by 6.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 10.0,
+        "reason": "France is below the Turkey Drive anchor (50) by 10.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 30.0,
+        "reason": "France is above the Colombia Structure anchor (50) by 30.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "FRA",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=40"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 40.0,
+        "midpoint_dimensions": [
+          "D2",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "FRA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Tocqueville argued that French centralization and the Revolution dissolved intermediate bodies (guilds, provinces) that once bound groups, leaving the individual alone before the state, fostering individualism.",
+          "strongest_opposing": "Bourdieu's 'Distinction' shows that French social identity is deeply shaped by class-based group habitus, with strong family and social network ties, especially among the bourgeoisie.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 72.0,
+          "strongest_supporting": "France's Hofstede Individualism (IDV) score of 71 classifies it as an individualistic society, where people primarily care for themselves and their immediate family rather than broader in-group collectives.",
+          "strongest_opposing": "One cross-cultural analysis characterises France as exhibiting 'a balance between individualism and collectivism, valuing personal autonomy alongside strong social connections,' suggesting the individualism is moderated by social solidarity norms.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "opposing_evidence_ids": [
+            "C06",
+            "C07",
+            "C08"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 48.0,
+          "strongest_supporting": "French professionals value articulate expression, persuasive reasoning, and lively debate, which is interpreted as a sign of engagement, not conflict — indicating a culturally sanctioned form of expressive intellectual openness.",
+          "strongest_opposing": "Professional communication in France is deeply rooted in hierarchical awareness; the mandatory use of formal 'vous' with superiors and new colleagues until explicitly invited to switch to 'tu' structurally suppresses informal emotional expression across status lines.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "C09",
+            "C10",
+            "C11"
+          ],
+          "opposing_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 84.0,
+          "strongest_supporting": "France scores 86 on Hofstede's Uncertainty Avoidance Index (UAI), one of the highest scores in Western Europe, indicating a strong cultural need for rules, planning, and predictability to reduce ambiguity.",
+          "strongest_opposing": "One cross-cultural analysis characterises France as demonstrating some flexibility in uncertainty avoidance, suggesting the very high UAI score may be moderated somewhat by a French intellectual tradition that values open-ended abstract debate.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 92.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ],
+          "opposing_evidence_ids": [
+            "C21"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 38.0,
+          "strongest_supporting": "France ranks 6th out of 38 OECD countries on the Better Life Index for work-life balance, and French labour law mandates a 35-hour standard workweek with approximately 8% of employees working long hours versus the 10% OECD average — a strong institutional signal of quality-of-life prioritisation over pure achievement.",
+          "strongest_opposing": "CEOs of French companies often come from a select group of elite Grandes Écoles universities and share similar educational backgrounds, indicating significant status competition and achievement-driven elite stratification that moderates the purely accepting orientation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 46.0,
+          "confidence": 0.76,
+          "supporting_evidence_ids": [
+            "C22",
+            "C23",
+            "C24",
+            "C25"
+          ],
+          "opposing_evidence_ids": [
+            "C26",
+            "C27",
+            "C28"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 71.0,
+          "strongest_supporting": "Tocqueville argued that French centralization and the Revolution dissolved intermediate bodies (guilds, provinces) that once bound groups, leaving the individual alone before the state, fostering individualism.",
+          "strongest_opposing": "Bourdieu's 'Distinction' shows that French social identity is deeply shaped by class-based group habitus, with strong family and social network ties, especially among the bourgeoisie.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 79.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4",
+            "c5"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 60.0,
+          "strongest_supporting": "France's moderate expressiveness is reflected in its Hofstede Indulgence score of 48, close to the midpoint, indicating a balanced approach to gratification and emotional display.",
+          "strongest_opposing": "Hall describes French communication as high-context where meaning depends on implicit cues and relationships, which can restrain direct expression in formal settings.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c6",
+            "c8",
+            "c9"
+          ],
+          "opposing_evidence_ids": [
+            "c7",
+            "c10"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 76.0,
+          "strongest_supporting": "France scores a very high 86 on Hofstede Uncertainty Avoidance, indicating a strong cultural preference for rules, structure, and predictability.",
+          "strongest_opposing": "The concept of 'débrouillardise' (resourcefulness/rule-bending) is a recognized cultural practice where individuals circumvent rigid bureaucracy, showing flexibility within structure.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 84.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c11",
+            "c12",
+            "c13"
+          ],
+          "opposing_evidence_ids": [
+            "c14",
+            "c15"
+          ]
+        },
+        {
+          "iso3": "FRA",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 43.0,
+          "strongest_supporting": "Bourdieu argues that French social status is contested through taste and cultural capital rather than purely economic competition, emphasizing distinction over direct striving.",
+          "strongest_opposing": "French intellectual and artistic fields value excellence and innovation, driving a form of striving for prestige and recognition that counterbalances acceptance norms.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 51.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c16",
+            "c17",
+            "c18"
+          ],
+          "opposing_evidence_ids": [
+            "c19",
+            "c20"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "FRA",
+          "dimension": "D1",
+          "baseline_score": 72.53620672,
+          "specialist_recommendation": 72.667,
+          "specialist_confidence": 0.8233,
+          "evidence_strength": 0.6087,
+          "evidence_quality": 0.5949,
+          "disagreement_index": 0.068,
+          "specialist_influence_weight": 0.5958,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "FRA",
+          "dimension": "D2",
+          "baseline_score": 58.97562774,
+          "specialist_recommendation": 54.0,
+          "specialist_confidence": 0.7,
+          "evidence_strength": 0.55,
+          "evidence_quality": 0.5281,
+          "disagreement_index": 0.24,
+          "specialist_influence_weight": 0.5534,
+          "rationale": "High specialist confidence -> evidence credibility 0.55 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "FRA",
+          "dimension": "D3",
+          "baseline_score": 78.87867637,
+          "specialist_recommendation": 80.0,
+          "specialist_confidence": 0.84,
+          "evidence_strength": 0.6143,
+          "evidence_quality": 0.595,
+          "disagreement_index": 0.16,
+          "specialist_influence_weight": 0.6145,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "FRA",
+          "dimension": "D4",
+          "baseline_score": 40.49670256,
+          "specialist_recommendation": 40.5,
+          "specialist_confidence": 0.755,
+          "evidence_strength": 0.5765,
+          "evidence_quality": 0.5465,
+          "disagreement_index": 0.1,
+          "specialist_influence_weight": 0.5584,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "FRA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=63: differs by 4 from the statistician reading of 59.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=70: differs by 10 from the statistician reading of 80.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=52: differs by 12 from the statistician reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 12.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=72: differs by 4 from the comparativist reading of 76.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=60: differs by 3 from the comparativist reading of 63.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=86: differs by 16 from the comparativist reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=45: differs by 7 from the comparativist reading of 52.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=54: differs by 6 from the country_specialist reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=79: differs by 7 from the country_specialist reading of 86.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=35: differs by 10 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=59: differs by 5 from the devils_advocate reading of 54.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "FRA",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=40: differs by 5 from the devils_advocate reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "FRA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 75.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "No reliable ethnographic or anthropological evidence was found on the cultural freedom of emotional expression versus hierarchical suppression (openness vs restraint) in France to support or counter either direction.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "FRA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "No concrete ethnographic evidence regarding psychological need for structure, rules, or certainty in everyday French life was located to evaluate structure versus fluidity.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "FRA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No ethnographic studies focusing explicitly on achievement‐orientation versus relational harmony were found to inform Drive (D4).",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "FRA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 8,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 7,
+          "recommendation": 48.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 6,
+          "recommendation": 84.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.76,
+          "evidence_count": 7,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 71.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 76.0
+        },
+        {
+          "iso3": "FRA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 5,
+          "recommendation": 43.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "FRA",
+        "score_diversity": 0.1673,
+        "source_diversity": 0.75,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.592,
+        "consensus_quality": 0.9655,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "FRA",
+      "country": "France",
+      "region": "Western Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 73,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.932,
+          "top_supporting_arguments": [
+            "Hofstede’s Individualism score for France is 71, indicating a strongly individualist culture.",
+            "In a comparative study, French individuals scored higher on the Individualism scale than Japanese individuals, reinforcing a cultural orientation toward individual identity.",
+            "Personal networks in France have become more homogeneous over time, suggesting relational sociability often revolves around similar others rather than diverse group ties."
+          ],
+          "top_counter_arguments": [
+            "The trend toward personal network homogeneity indicates a counter-tendency to individual free association, implying group-bounded identity in practice.",
+            "A report by Institut Montaigne found that 64% of French executives consider personal connections crucial for professional success, suggesting relational/network interdependence moderates pure individualism in the professional sphere.",
+            "One cross-cultural analysis characterises France as exhibiting 'a balance between individualism and collectivism, valuing personal autonomy alongside strong social connections,' suggesting the individualism is moderated by social solidarity norms."
+          ],
+          "why_this_score": "France sits at 73 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (74) and the CI ceiling (79), so pushing past 73 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (73) and the CI floor (66), so going below 73 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "Belgium",
+            "Luxembourg",
+            "NIR",
+            "Netherlands"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "s1",
+              "title": "Hofstede Individualism score for France",
+              "url": "https://welcomeinsight.com/cultures-and-organisations-hofstede/",
+              "author": "Welcome Insight",
+              "publication_year": 2026,
+              "excerpt": "Hofstede’s Individualism score for France is 71, indicating a strongly individualist culture.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c2",
+              "source_id": "s2",
+              "title": "Comparison of French and Japanese Individuals with Reference to Hofstede's Concepts of Individualism",
+              "url": "https://journals.sagepub.com/doi/abs/10.2466/pr0.2001.89.2.243",
+              "author": "Kumi Hirokawa et al.",
+              "publication_year": 2001,
+              "excerpt": "In a comparative study, French individuals scored higher on the Individualism scale than Japanese individuals, reinforcing a cultural orientation toward individual identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c3",
+              "source_id": "s3",
+              "title": "Social distance in France: Evolution of homogeneity within personal networks from 2001 to 2017",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378873321000435",
+              "author": "ScienceDirect article",
+              "publication_year": 2022,
+              "excerpt": "Personal networks in France have become more homogeneous over time, suggesting relational sociability often revolves around similar others rather than diverse group ties.",
+              "dimension": "D1",
+              "support_direction": "supports_somewhat_group"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 56,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.76,
+          "top_supporting_arguments": [
+            "French professionals value articulate expression, persuasive reasoning, and lively debate, which is interpreted as a sign of engagement, not conflict — indicating a culturally sanctioned form of expressive intellectual openness.",
+            "Eloquence and articulate communication are valued in French culture, and it is not uncommon to engage in discussions and debates during business meetings, lunch, or even coffee breaks — suggesting expression is actively encouraged in intellectual contexts.",
+            "High uncertainty avoidance cultures (France UAI=86) are characterised by emotional expressiveness — particularly when navigating uncertainty or conflict — which supports some degree of open emotional display in French interactions."
+          ],
+          "top_counter_arguments": [
+            "Professional communication in France is deeply rooted in hierarchical awareness; the mandatory use of formal 'vous' with superiors and new colleagues until explicitly invited to switch to 'tu' structurally suppresses informal emotional expression across status lines.",
+            "French workplace communication balances directness with formality; discussions adhere to established protocols and respect for hierarchy, with clarity, logic, and precision valued over spontaneous emotional expression.",
+            "French communication tends to be nuanced and indirect rather than spontaneously expressive; communication style is shaped by hierarchical expectations and refined intellectual norms rather than open personal emotional disclosure."
+          ],
+          "why_this_score": "France sits at 56 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (59) and the CI ceiling (68), so pushing past 56 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (56) and the CI floor (50), so going below 56 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "Belgium",
+            "Luxembourg",
+            "NIR",
+            "Netherlands"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C09",
+              "source_id": "S11",
+              "title": "French Work Culture: Cultural Differences in Business – Commisceo Global",
+              "url": "https://commisceo-global.com/articles/french-work-culture-cultural-differences-in-business/",
+              "author": "Commisceo Global editorial",
+              "publication_year": 2026,
+              "excerpt": "French professionals value articulate expression, persuasive reasoning, and lively debate, which is interpreted as a sign of engagement, not conflict — indicating a culturally sanctioned form of expressive intellectual openness.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C10",
+              "source_id": "S12",
+              "title": "Working in France: 10 Things about French Workplace Culture – Renestance",
+              "url": "https://www.renestance.com/blog/10-things-to-know-about-french-work-culture/",
+              "author": "Renestance editorial",
+              "publication_year": 2023,
+              "excerpt": "Eloquence and articulate communication are valued in French culture, and it is not uncommon to engage in discussions and debates during business meetings, lunch, or even coffee breaks — suggesting expression is actively encouraged in intellectual contexts.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S01",
+              "title": "Hofstede Cultural Dimension in France – International Business Management",
+              "url": "https://bbs.binus.ac.id/ibm/2017/06/hofstede-cultural-dimension-in-france/",
+              "author": "Binus University IBM",
+              "publication_year": 2017,
+              "excerpt": "High uncertainty avoidance cultures (France UAI=86) are characterised by emotional expressiveness — particularly when navigating uncertainty or conflict — which supports some degree of open emotional display in French interactions.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 80,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.84,
+          "top_supporting_arguments": [
+            "France scores 86 on Hofstede's Uncertainty Avoidance Index (UAI), one of the highest scores in Western Europe, indicating a strong cultural need for rules, planning, and predictability to reduce ambiguity.",
+            "The French preference for planning is operationally concrete: before meetings and negotiations they expect to receive all necessary information in advance, and dislike surprises or improvisation.",
+            "French companies typically maintain a more hierarchical structure with respect for authority and titles, clear distinction between manager and employee roles, and top-down decision-making — all structural markers of a high-certainty, rule-ordered culture."
+          ],
+          "top_counter_arguments": [
+            "One cross-cultural analysis characterises France as demonstrating some flexibility in uncertainty avoidance, suggesting the very high UAI score may be moderated somewhat by a French intellectual tradition that values open-ended abstract debate.",
+            "The concept of 'débrouillardise' (resourcefulness/rule-bending) is a recognized cultural practice where individuals circumvent rigid bureaucracy, showing flexibility within structure.",
+            "France has a tradition of strikes and protests (e.g., 'grèves') that disrupt routine and challenge institutional rules, indicating a counter-current of fluidity."
+          ],
+          "why_this_score": "France sits at 80 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 80 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (79) and the CI floor (72), so going below 80 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "Belgium",
+            "Luxembourg",
+            "NIR",
+            "Netherlands"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C16",
+              "source_id": "S01",
+              "title": "Hofstede Cultural Dimension in France – International Business Management",
+              "url": "https://bbs.binus.ac.id/ibm/2017/06/hofstede-cultural-dimension-in-france/",
+              "author": "Binus University IBM",
+              "publication_year": 2017,
+              "excerpt": "France scores 86 on Hofstede's Uncertainty Avoidance Index (UAI), one of the highest scores in Western Europe, indicating a strong cultural need for rules, planning, and predictability to reduce ambiguity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C17",
+              "source_id": "S01",
+              "title": "Hofstede Cultural Dimension in France – International Business Management",
+              "url": "https://bbs.binus.ac.id/ibm/2017/06/hofstede-cultural-dimension-in-france/",
+              "author": "Binus University IBM",
+              "publication_year": 2017,
+              "excerpt": "The French preference for planning is operationally concrete: before meetings and negotiations they expect to receive all necessary information in advance, and dislike surprises or improvisation.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S09",
+              "title": "French Management Style: Habits to Change When Managing a Team in France – EuroJob-Consulting",
+              "url": "https://www.eurojob-consulting.com/en/a/french-management-style-habits-to-change-when-managing-a-team-in-france",
+              "author": "EuroJob-Consulting editorial",
+              "publication_year": 2026,
+              "excerpt": "French companies typically maintain a more hierarchical structure with respect for authority and titles, clear distinction between manager and employee roles, and top-down decision-making — all structural markers of a high-certainty, rule-ordered culture.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 40,
+          "confidence": "MEDIUM",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.9,
+          "top_supporting_arguments": [
+            "CEOs of French companies often come from a select group of elite Grandes Écoles universities and share similar educational backgrounds, indicating significant status competition and achievement-driven elite stratification that moderates the purely accepting orientation.",
+            "Personal connections and networking are crucial for professional success in France (Institut Montaigne survey: 64% of executives), suggesting a competitive, achievement-oriented sub-culture in which status-striving through relationship capital is important.",
+            "In France, competition about jobs and climbing the hierarchy ladder is described as common, and people in the individualistic-achievement mode try to improve connections in a calculative way to gain professional value — pointing to at least a moderate competitive drive."
+          ],
+          "top_counter_arguments": [
+            "France ranks 6th out of 38 OECD countries on the Better Life Index for work-life balance, and French labour law mandates a 35-hour standard workweek with approximately 8% of employees working long hours versus the 10% OECD average — a strong institutional signal of quality-of-life prioritisation over pure achievement.",
+            "French law mandates five weeks of annual holiday, and cultural norms mean that while the French value hard work, they generally do not condone workaholism — emphasising quality of life over maximal professional output.",
+            "At face value, France's feminine score on Hofstede's MAS (~43) is indicated by its welfare system, the 35-hour working week, five weeks of holidays, and cultural focus on quality of life — placing France in the accepting/quality-oriented half of D4."
+          ],
+          "why_this_score": "France sits at 40 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (49), so pushing past 40 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (32), so going below 40 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "Belgium",
+            "Luxembourg",
+            "NIR",
+            "Netherlands"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C26",
+              "source_id": "S10",
+              "title": "Managing in France – Management Style & Workplace Culture – Commisceo Global",
+              "url": "https://commisceo-global.com/management-guides/france-management-guide/",
+              "author": "Commisceo Global editorial",
+              "publication_year": 2026,
+              "excerpt": "CEOs of French companies often come from a select group of elite Grandes Écoles universities and share similar educational backgrounds, indicating significant status competition and achievement-driven elite stratification that moderates the purely accepting orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C27",
+              "source_id": "S08",
+              "title": "Managing Difficult Employees in France: Strategies for Success – EuroJob-Consulting",
+              "url": "https://www.eurojob-consulting.com/en/a/managing-difficult-employees-in-france-strategies-for-success",
+              "author": "EuroJob-Consulting editorial",
+              "publication_year": 2026,
+              "excerpt": "Personal connections and networking are crucial for professional success in France (Institut Montaigne survey: 64% of executives), suggesting a competitive, achievement-oriented sub-culture in which status-striving through relationship capital is important.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C28",
+              "source_id": "S01",
+              "title": "Hofstede Cultural Dimension in France – International Business Management",
+              "url": "https://bbs.binus.ac.id/ibm/2017/06/hofstede-cultural-dimension-in-france/",
+              "author": "Binus University IBM",
+              "publication_year": 2017,
+              "excerpt": "In France, competition about jobs and climbing the hierarchy ladder is described as common, and people in the individualistic-achievement mode try to improve connections in a calculative way to gain professional value — pointing to at least a moderate competitive drive.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

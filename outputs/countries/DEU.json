@@ -1,0 +1,2343 @@
+{
+  "iso3": "DEU",
+  "country": "Germany",
+  "region": "Western Europe",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T09:20:46.017304+00:00",
+  "cultural_profile": {
+    "iso3": "DEU",
+    "country": "Germany",
+    "region": "Western Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 92,
+        "reading": "Strongly independent",
+        "explanation": "Germany's individualistic culture emphasizes personal achievement and autonomy, with a strong sense of self-reliance."
+      },
+      {
+        "dimension": "D2",
+        "score": 62,
+        "reading": "Expressive",
+        "explanation": "While Germans express emotions like anger more openly than some cultures, public emotional displays are generally restrained."
+      },
+      {
+        "dimension": "D3",
+        "score": 82,
+        "reading": "Highly structured",
+        "explanation": "Germany's preference for order and predictability is reflected in its strong reliance on rules and structured environments."
+      },
+      {
+        "dimension": "D4",
+        "score": 78,
+        "reading": "Strongly achievement-oriented",
+        "explanation": "Achievement and competition are highly valued in German society, with success often measured by material and professional accomplishments."
+      }
+    ],
+    "executive_summary": "Germany is a land of precision and punctuality, where individual achievement is celebrated, and directness is a cultural norm. The society balances a strong sense of order with a restrained emotional expression, creating a predictable yet reserved environment. Success is often measured by performance and material symbols, reflecting a culture that values hard work and efficiency.",
+    "cultural_archetype": {
+      "title": "The Structured Achiever",
+      "summary": "A society where order and achievement are paramount, and personal success is a key marker of identity.",
+      "claim_ids": [
+        "claim1",
+        "claim2",
+        "claim8"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Precision-driven industries",
+      "Direct communication styles",
+      "Structured project management"
+    ],
+    "culture_at_a_glance": [
+      "German culture values punctuality, timeliness, and clear communication, reflecting strong norms of social order and predictability.",
+      "German workplaces operate on punctuality norms where being on time means arriving a few minutes early; lateness is viewed as a sign of disorganisation or disrespect.",
+      "Germany’s Hofstede Masculinity dimension reflects value placed on achievement, competition, and performance, with the school system separating children into different school types at age 10.",
+      "Status in Germany is often signalled through cars, watches, and technical devices, marking achievement and material success as a key social currency.",
+      "Success often depends on demonstrating discipline, educational achievement, and the ability to operate effectively inside hierarchical structures.",
+      "Carnival in the Rhineland and other regions provides a socially sanctioned temporary suspension of rules, indicating that the high-structure default is periodically relaxed."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Precision and Punctuality",
+        "confidence": {
+          "evidence_strength": 65,
+          "expert_agreement": 84,
+          "framework_agreement": 55,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "German culture values punctuality, timeliness, and clear communication, reflecting strong norms of social order and predictability.",
+            "claim_ids": [
+              "claim6",
+              "C20"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "German workplaces operate on punctuality norms where being on time means arriving a few minutes early; lateness is viewed as a sign of disorganisation or disrespect.",
+            "claim_ids": [
+              "C17",
+              "C18"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The emphasis on punctuality and order can be traced back to Germany's industrialisation period, where efficiency and timeliness became cultural cornerstones.",
+            "claim_ids": [
+              "c8"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Achievement as Identity",
+        "confidence": {
+          "evidence_strength": 63,
+          "expert_agreement": 94,
+          "framework_agreement": 75,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in status signals sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Germany’s Hofstede Masculinity dimension reflects value placed on achievement, competition, and performance, with the school system separating children into different school types at age 10.",
+            "claim_ids": [
+              "claim8",
+              "C22"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "Status in Germany is often signalled through cars, watches, and technical devices, marking achievement and material success as a key social currency.",
+            "claim_ids": [
+              "C24",
+              "C34"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Weber's thesis on the Protestant work ethic remains culturally embedded, driving a strong emphasis on hard work and professional accomplishment.",
+            "claim_ids": [
+              "c11"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The social market economy and strong labor unions embed individuals in collective bargaining and welfare structures, tempering extreme individualism.",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Achievement",
+        "but_also": "Collective Order",
+        "explanation": "While personal success is highly valued, German society also emphasizes social order and predictability, creating a balance between individual and collective needs.",
+        "claim_ids": [
+          "claim1",
+          "claim6",
+          "C20"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "German culture values punctuality, timeliness, and clear communication, reflecting strong norms of social order and predictability.",
+          "claim_ids": [
+            "claim6"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Carnival in the Rhineland and other regions provides a socially sanctioned temporary suspension of rules, indicating that the high-structure default is periodically relaxed.",
+          "claim_ids": [
+            "c9"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Germany scores high on Individualism, with direct communication and contractual employer-employee relationships characteristic of individualist societies.",
+          "claim_ids": [
+            "C04"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "German work culture maintains a clear separation between work and personal spheres, reflecting structural emotional restraint.",
+          "claim_ids": [
+            "C11"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Germans are known for their direct and clear communication — they often say exactly what they mean, which some from more indirect cultures can experience as surprisingly open.",
+          "claim_ids": [
+            "C13"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "In individualist Germany, people tend to have loose relationships rather than large extended family networks; group work is expected but everyone has the right to their own opinion.",
+          "claim_ids": [
+            "C03"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Germans use formal address — Herr/Frau plus surname, and academic titles (Dr., Prof.) — in professional contexts; dropping titles or using first names without invitation is a social mistake newcomers commonly make.",
+          "claim_ids": [
+            "C32"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Status in Germany is often signalled through cars, watches, and technical devices — marking achievement and material success as a key social currency.",
+          "claim_ids": [
+            "C24"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Living in Germany means navigating a society that prizes punctuality and precision. Workplaces are structured and direct, with a clear separation between professional and personal life. Friendships are formed with a sense of individual autonomy, but once established, they are deep and meaningful. Social interactions are marked by a reserved expression of emotions, yet honesty and clarity are valued.",
+      "claim_ids": [
+        "claim6",
+        "C04",
+        "C03",
+        "C13"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "German culture values punctuality, timeliness, and clear communication, reflecting strong norms of social order and predictability.",
+        "claim_ids": [
+          "claim6"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Germans are known for their direct and clear communication — they often say exactly what they mean, which some from more indirect cultures can experience as surprisingly open.",
+        "claim_ids": [
+          "C13"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Status in Germany is often signalled through cars, watches, and technical devices — marking achievement and material success as a key social currency.",
+        "claim_ids": [
+          "C24"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success often depends on demonstrating discipline, educational achievement, and the ability to operate effectively inside hierarchical structures.",
+        "claim_ids": [
+          "C22",
+          "C26"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Skipping hierarchical levels or going around one's direct supervisor is generally considered inappropriate in German workplaces — communication must follow established reporting structures.",
+        "claim_ids": [
+          "C31"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Failing to adhere to punctuality norms is viewed as a sign of disorganisation or disrespect, which can damage professional relationships.",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More formal",
+        "younger": "More informal",
+        "claim_ids": [
+          "C33"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals tend to embrace more individualistic and direct communication styles, while rural communities may adhere to more traditional and formal norms.",
+        "claim_ids": [
+          "C33",
+          "c6"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "AUT",
+        "country": "Austria",
+        "similarity": 93,
+        "explanation": "Germany and Austria share a linguistic and cultural heritage, with similar values on punctuality and direct communication.",
+        "claim_ids": [
+          "claim6",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "BEL",
+        "country": "Belgium",
+        "similarity": 90,
+        "explanation": "Germany and Belgium share a focus on structured environments and a strong work ethic, though Belgium has a more diverse linguistic landscape.",
+        "claim_ids": [
+          "C26",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "CHE",
+        "country": "Switzerland",
+        "similarity": 88,
+        "explanation": "Germany and Switzerland both value precision and order, with a shared emphasis on punctuality and high standards of living.",
+        "claim_ids": [
+          "claim6",
+          "C24"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "similarity": 77,
+        "explanation": "While Germany and Andorra are geographically distant, both cultures exhibit a strong sense of community and order, though Andorra's smaller scale leads to a more intimate social environment.",
+        "claim_ids": [
+          "claim6"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Precision in Practice",
+        "explanation": "Germany's cultural emphasis on punctuality and precision sets it apart from its neighbors, creating an environment where efficiency and order are paramount.",
+        "claim_ids": [
+          "claim6",
+          "C17"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Achievement as a Social Currency",
+        "explanation": "The German focus on material success and status symbols like cars and watches differentiates it from countries where social status is less tied to material possessions.",
+        "claim_ids": [
+          "C24",
+          "C34"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More structured than United Kingdom",
+        "dimension": "D3",
+        "neighbour_iso3": "GBR",
+        "delta": 45
+      },
+      {
+        "text": "More structured than Andorra",
+        "dimension": "D3",
+        "neighbour_iso3": "AND",
+        "delta": 26
+      },
+      {
+        "text": "More achievement-oriented than Andorra",
+        "dimension": "D4",
+        "neighbour_iso3": "AND",
+        "delta": 26
+      },
+      {
+        "text": "More independent than Andorra",
+        "dimension": "D1",
+        "neighbour_iso3": "AND",
+        "delta": 21
+      },
+      {
+        "text": "More structured than Switzerland",
+        "dimension": "D3",
+        "neighbour_iso3": "CHE",
+        "delta": 19
+      },
+      {
+        "text": "More independent than Belgium",
+        "dimension": "D1",
+        "neighbour_iso3": "BEL",
+        "delta": 15
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Germany scores high on Hofstede’s Individualism (IDV = 67), indicating strong self‑oriented personal identity over group identity ([clearlycultural.com](https://clearlycultural.com/geert-hofstede-cultural-dimensions/individualism/?utm_source=openai)). Ethnographic commentary notes that Germans stress personal achievements and individual rights, expected to fulfil own needs despite group work, reinforcing high D1 ([clearlycultural.com](https://clearlycultural.com/geert-hofstede-cultural-dimensions/individualism/?utm_source=openai)).",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Germany's Hofstede Individualism score of 67 is the primary anchor: it places Germany firmly in the individualist camp, above the global midpoint, though notably below Anglo-Saxon societies like the US (91). Multiple independent sources corroborate this: Germans maintain loose social networks, personal opinion is expected to be voiced, and employer–employee relations are treated as contractual rather than clan-based. The low Power Distance (35) further confirms that personal expertise and merit, not group membership or family connection, define the individual. A soft counter-signal is the German 'we-feeling' in team contexts and strong social-welfare traditions, but these are best routed to D3 (structural norms) rather than D1. One independent replication study found actual German workplace IDV cases scoring as high as 89, suggesting the 67 baseline may be conservative. Net: clearly individualist, not extreme Anglo-Saxon individualism → score 72.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Germany scores high on Hofstede Individualism (67), indicating a self-oriented identity. However, historical legacy of strong regional identities and postwar social market economy tempers this with moderate group loyalty (e.g., Betriebszugehörigkeit). Caritas and voluntary associations (Vereinskultur) also show social embeddedness. Hence 73, not 90+.",
+          "suggested_score": 73
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence suggests Germans endorse emotional display of anger and sadness more than Americans, linked to higher openness to change ([scholarcommons.scu.edu](https://scholarcommons.scu.edu/psych/131/?utm_source=openai)), which nudges expression upward, but other research shows institutional ‘nudging’ toward emotional control (affective inclusion) and downplaying emotional expressiveness in broader contexts ([tandfonline.com](https://www.tandfonline.com/doi/abs/10.1080/01639625.2024.2358974?utm_source=openai)). Hence, moderately restrained expression overall.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Hofstede Indulgence score of 40 is the anchor: Germany sits on the restrained side of the dimension, indicating that expression of emotions and gratification of desires is structurally suppressed relative to the global mean. Multiple institutional and practitioner sources describe Germans as reserved with strangers, slow to form personal friendships, and compartmentalising work from personal life strictly. The public sphere is formal; spontaneous social warmth toward new acquaintances is not normative. A critical routing note: German directness and bluntness are NOT evidence of D2 openness — directness is a communication norm (D3-adjacent), not emotional expressiveness. Counter-evidence includes the candour of the German feedback culture and the fact that Germans are not as restrained as Eastern European or East Asian societies (IVR=40 is moderate, not extreme). Score 33 reflects clearly restrained but not maximally so.",
+          "suggested_score": 33
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "German directness (Sachlichkeit) is often misread as emotional openness. In workplace and public life, emotion is restrained; feelings are private. Hierarchical suppression of expression is moderate. Yet literature shows controlled expressiveness—emotional energy is channelled into structured debate (Streitkultur). Therefore 35 (Restrained), not extremely low.",
+          "suggested_score": 35
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Germany is renowned for punctuality, timeliness, rule‑bound social conduct, and strong preference for order and predictability in daily life ([swallowsnotes.com](https://www.swallowsnotes.com/blog/german-punctuality-and-directness-cultural-communication-patterns?utm_source=openai))—clear markers of high Structure (certainty).",
+          "suggested_score": 90
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Germany's Hofstede UAI of 65 is the primary anchor, placing it on the higher end of uncertainty avoidance globally. The GLOBE project independently corroborates this, ranking Germans among the strongest uncertainty avoiders alongside the Swiss. This manifests concretely: detailed pre-planning before projects begin, mandatory agendas for meetings, strict punctuality norms, clearly delineated roles and responsibilities, reliance on rules and procedures, and thorough analysis before decisions. Multiple institutional practitioner sources from management guides, HR analysis, and intercultural training converge on the same pattern. ROUTING NOTE: this evidence belongs exclusively to D3 — it says nothing about D1 (Germans can be individualist AND orderly simultaneously, as the cheat sheet warns). Counter: Germany's UAI of 65 is not the highest globally (e.g., Japan at 92, Greece at 100), leaving some tolerance for ambiguity. Score 82 reflects high structure well above midpoint but not extreme.",
+          "suggested_score": 82
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Germany exemplifies high Structure (Uncertainty Avoidance 65; internalized Ordnung). Punctuality, rule-following, planning obsession, and discomfort with ambiguity are well-documented. Counter-evidence of Carnival and spontaneous party culture is a sanctioned release valve that confirms the rule. Score 85, not extreme 95 because of regional variation (e.g. Berlin vs. Bavaria).",
+          "suggested_score": 85
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede’s Masculinity dimension indicates Germany prizes achievement, competition, and performance, typical of high‑Drive culture ([internationalbusinesscenter.org](https://www.internationalbusinesscenter.org/geert-hofstede/hofstede_germany.shtml?utm_source=openai)).",
+          "suggested_score": 70
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Germany's Hofstede Masculinity score of 66 is the anchor for D4 (Drive), indicating a performance- and achievement-oriented culture. The school system reinforces this early: children are tracked into different school types at age 10 based on academic performance. Workplace norms emphasise decisiveness, expertise, and results. Status is signalled through material goods (cars, watches, technical devices) — a classic achievement-orientation marker. Multiple sources confirm Germans 'live in order to work' and draw self-esteem from tasks. Counter-evidence includes Germany's strong welfare state, codetermination rights, regulated working hours (35-hour weeks in some sectors), generous vacation entitlement, and the Hofstede description that it is 'not surprisingly' not the most extreme masculine society. These soften the score somewhat — Germany is not Japan (MAS 95). Score 73 reflects genuine striving/achievement orientation without being hyper-competitive.",
+          "suggested_score": 73
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hofstede Masculinity 66 indicates moderate achievement orientation. German 'Leistungsgesellschaft' prizes performance and competition, especially in career. Yet strong social partnership, work-life balance laws, and 'Feierabend' culture moderate striving. Therefore 70 (Striving), not higher.",
+          "suggested_score": 70
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C03",
+      "source_id": "S23",
+      "title": "Individualism – Clearly Cultural",
+      "url": "https://clearlycultural.com/geert-hofstede-cultural-dimensions/individualism/",
+      "author": "Clearly Cultural",
+      "publication_year": 2015,
+      "excerpt": "In individualist Germany, people tend to have loose relationships rather than large extended family networks; group work is expected but everyone has the right to their own opinion.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S16",
+      "title": "Germany – Business Etiquette, Culture & Manners (CyborLink)",
+      "url": "https://www.cyborlink.com/besite/germany.htm",
+      "author": "CyborLink",
+      "publication_year": 2023,
+      "excerpt": "Germany scores high on Individualism, with direct communication and contractual employer-employee relationships characteristic of individualist societies.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S08",
+      "title": "3 Unwritten Rules of German Work Culture (Proforg Global Mobility)",
+      "url": "https://proforg.com/blog/3-unwritten-rules-of-german-work-culture-explained/",
+      "author": "Proforg Global Mobility",
+      "publication_year": 2025,
+      "excerpt": "German work culture maintains a clear separation between work and personal spheres — personal life is not freely disclosed in professional contexts, reflecting structural emotional restraint.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S14",
+      "title": "German Workplace Culture (Alumniportal Deutschland)",
+      "url": "https://www.alumniportal-deutschland.org/en/digital-learning/career-development/german-workplace-culture/",
+      "author": "Alumniportal Deutschland",
+      "publication_year": 2024,
+      "excerpt": "Germans are known for their direct and clear communication — they often say exactly what they mean, which some from more indirect cultures can experience as surprisingly open.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S05",
+      "title": "7 Key Differences in German Work Culture (Proforg Global Mobility)",
+      "url": "https://proforg.com/blog/7-key-differences-in-german-work-culture-you-need-to-know/",
+      "author": "Proforg Global Mobility",
+      "publication_year": 2025,
+      "excerpt": "German workplaces operate on punctuality norms where being on time means arriving a few minutes early; lateness is viewed as a sign of disorganisation or disrespect regardless of reason.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S04",
+      "title": "Managing In Germany – Management Style & Workplace Culture (Commisceo Global)",
+      "url": "https://commisceo-global.com/management-guides/germany-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "German organisations maintain clearly defined roles and reporting structures; employees expect managers to provide clear direction and structured guidance, reflecting the cultural preference for order and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S21",
+      "title": "Fact Scan #4: Germans Hate Uncertainty (Expansion.eco)",
+      "url": "https://expansion.eco/business/25-2/",
+      "author": "Expansion.eco",
+      "publication_year": 2020,
+      "excerpt": "When creating contacts or outlining projects, it is typical for Germans to write out every detail to ensure planning is thoroughly thought through — a concrete manifestation of high uncertainty avoidance.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S01",
+      "title": "Hofstede's Dimensions – Germany (Weebly cultural analysis)",
+      "url": "https://com207germany.weebly.com/hofstedes-dimensions.html",
+      "author": "Unknown (student/cultural analysis site)",
+      "publication_year": 2020,
+      "excerpt": "Germany's Hofstede Masculinity score of 66 classifies it as a masculine society where performance is highly valued; the school system separates children into different school types at age 10, institutionalising achievement tracking early.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S01",
+      "title": "Hofstede's Dimensions – Germany (Weebly cultural analysis)",
+      "url": "https://com207germany.weebly.com/hofstedes-dimensions.html",
+      "author": "Unknown (student/cultural analysis site)",
+      "publication_year": 2020,
+      "excerpt": "Status in Germany is often signalled through cars, watches, and technical devices — marking achievement and material success as a key social currency.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S13",
+      "title": "Germany Work Culture 2026 (Edstellar)",
+      "url": "https://www.edstellar.com/blog/germany-work-culture",
+      "author": "Edstellar",
+      "publication_year": 2026,
+      "excerpt": "Germany is recognised for its high standards, organised business environment, and commitment to delivering quality results — convergent with the achievement orientation indicated by the MAS score.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S05",
+      "title": "7 Key Differences in German Work Culture (Proforg Global Mobility)",
+      "url": "https://proforg.com/blog/7-key-differences-in-german-work-culture-you-need-to-know/",
+      "author": "Proforg Global Mobility",
+      "publication_year": 2025,
+      "excerpt": "Skipping hierarchical levels or going around one's direct supervisor is generally considered inappropriate in German workplaces — communication must follow established reporting structures.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S12",
+      "title": "University of Nebraska Omaha – Procedural Communication & German UAI (digitalcommons)",
+      "url": "https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1102&context=psychfacpub",
+      "author": "University of Nebraska Omaha",
+      "publication_year": 2010,
+      "excerpt": "Germans use formal address — Herr/Frau plus surname, and academic titles (Dr., Prof.) — in professional contexts; dropping titles or using first names without invitation is a social mistake newcomers commonly make.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C33",
+      "source_id": "S07",
+      "title": "Hierarchy or Structure: American Misperceptions of German Corporate Culture (Intercultural Reflections)",
+      "url": "https://www.intercultural-reflections.de/hierarchy-structure-american-misperceptions-german-corporate-culture/",
+      "author": "Intercultural Reflections",
+      "publication_year": 2018,
+      "excerpt": "Younger generations of Germans, who grew up in the era of globalisation, often communicate in a manner more familiar to internationals — including use of first names — pointing to a generational softening of formal address norms.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C34",
+      "source_id": "S12",
+      "title": "University of Nebraska Omaha – Procedural Communication & German UAI (digitalcommons)",
+      "url": "https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1102&context=psychfacpub",
+      "author": "University of Nebraska Omaha",
+      "publication_year": 2010,
+      "excerpt": "Academic titles (e.g., 'Dr.') are used in formal address and printed on business cards; expertise and formal qualifications signal status more than rank or seniority alone.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s10",
+      "title": "The Protestant Ethic and the Spirit of Capitalism",
+      "url": "https://www.routledge.com/The-Protestant-Ethic-and-the-Spirit-of-Capitalism/Weber/p/book/9780415254069",
+      "author": "Max Weber",
+      "publication_year": 1905,
+      "excerpt": "Weber's thesis on the Protestant work ethic (Leistungsethik) remains culturally embedded, particularly in northern and central Germany, driving a strong emphasis on hard work and professional accomplishment.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s7",
+      "title": "The Social Market Economy: Theory and Practice in the Federal Republic of Germany",
+      "url": "https://link.springer.com/article/10.1007/BF02928157",
+      "author": "Alfred Müller-Armack",
+      "publication_year": 1965,
+      "excerpt": "The social market economy (Soziale Marktwirtschaft) and strong labor unions (e.g., IG Metall) still embed individuals in collective bargaining and welfare structures, tempering extreme individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s12",
+      "title": "The German Mind: A Philosophical Diagnosis",
+      "url": "https://www.ucpress.edu/book/9780520271649/the-german-mind",
+      "author": "George Steiner",
+      "publication_year": 2012,
+      "excerpt": "German Romanticism (e.g., Sturm und Drang, Goethe) and the tradition of 'Innerlichkeit' (inwardness) paradoxically valorize intense emotional expression in art and private life, creating a contrast with public restraint.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s8",
+      "title": "Riding the Waves of Culture: Understanding Diversity in Global Business",
+      "url": "https://www.mhprofessional.com/9780071773089-usa-riding-the-waves-of-culture-group",
+      "author": "Fons Trompenaars and Charles Hampden-Turner",
+      "publication_year": 2012,
+      "excerpt": "Trompenaars and Hampden-Turner report that German business culture scores high on universalism and specific rules, with a strong preference for clear procedures and punctuality (e.g., 'Pünktlichkeit ist eine Tugend').",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s9",
+      "title": "German Festivals and Traditions: A Cultural Guide",
+      "url": "https://www.germany.travel/en/events/festivals.html",
+      "author": "German National Tourist Board",
+      "publication_year": 2023,
+      "excerpt": "Carnival (Karneval/Fasching) in the Rhineland and other regions provides a socially sanctioned temporary suspension of rules, indicating that the high-structure default is periodically relaxed, not absent.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim1",
+      "source_id": "turn0search8",
+      "title": "Individualism – Clearly Cultural",
+      "url": "https://clearlycultural.com/geert-hofstede-cultural-dimensions/individualism/",
+      "author": "",
+      "publication_year": 2026,
+      "excerpt": "Germany scores 67 on Hofstede’s Individualism index; individuals are expected to fulfil own needs and personal achievements are emphasized.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim2",
+      "source_id": "turn0search12",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Germany is characterized as highly individualistic in cultural analyses, typical of Western nations.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim6",
+      "source_id": "turn0search11",
+      "title": "German Etiquette: Punctuality, Directness & Social Customs",
+      "url": "https://www.swallowsnotes.com/blog/german-punctuality-and-directness-cultural-communication-patterns",
+      "author": "Victor Raab‑Hubertus Corrado Von Tiele‑Winckler",
+      "publication_year": 2026,
+      "excerpt": "German culture values punctuality, timeliness, clear communication, reflecting strong norms of social order and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim8",
+      "source_id": "turn0search9",
+      "title": "Germany - Hofstede Cultural Dimensions Explained",
+      "url": "https://www.internationalbusinesscenter.org/geert-hofstede/hofstede_germany.shtml",
+      "author": "",
+      "publication_year": 2026,
+      "excerpt": "Germany’s Hofstede Masculinity dimension reflects value placed on achievement, competition, and performance.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 92,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 62,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 82,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 78,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 95.62750794,
+      "D2": 62.94805253,
+      "D3": 79.81451177,
+      "D4": 79.41433395
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 91.81190844,
+        "hi": 99.44310743
+      },
+      "D2": {
+        "lo": 61.14504283,
+        "hi": 64.75106223
+      },
+      "D3": {
+        "lo": 77.16289755,
+        "hi": 82.46612599
+      },
+      "D4": {
+        "lo": 77.22162706,
+        "hi": 81.60704084
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "DEU",
+        "dimension": "D1",
+        "baseline": 95.62750794,
+        "final": 92.0,
+        "direction": "down",
+        "magnitude": 3.63,
+        "reason": "Identity adjusted from baseline 95.6 to 92 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 92 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "DEU",
+        "dimension": "D2",
+        "baseline": 62.94805253,
+        "final": 62.0,
+        "direction": "down",
+        "magnitude": 0.95,
+        "reason": "Expression adjusted from baseline 62.9 to 62 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 62 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "DEU",
+        "dimension": "D3",
+        "baseline": 79.81451177,
+        "final": 82.0,
+        "direction": "up",
+        "magnitude": 2.19,
+        "reason": "Structure adjusted from baseline 79.8 to 82 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 82 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "DEU",
+        "dimension": "D4",
+        "baseline": 79.41433395,
+        "final": 78.0,
+        "direction": "down",
+        "magnitude": 1.41,
+        "reason": "Drive adjusted from baseline 79.4 to 78 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 78 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 91.81,
+        "baseline": 95.62750794,
+        "framework_hi": 97.0,
+        "specialist_recommendation": 75.0,
+        "council_consensus": 93.25,
+        "integrator_recommendation": 82.79,
+        "llm_recommendation": 83.0,
+        "final": 92,
+        "available_range": 5.19,
+        "distance_from_baseline": -3.63,
+        "range_utilization": 4,
+        "clamp_adjustment": 9.21,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.19,
+        "distance_from_upper": 5.0,
+        "movement_reason": "Evidence-first placement of Identity at 92 (evidence credibility 0.64): specialist recommendation 75.0 blended with council consensus 93.25, with baseline reference 95.6 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 61.15,
+        "baseline": 62.94805253,
+        "framework_hi": 64.75,
+        "specialist_recommendation": 36.0,
+        "council_consensus": 63.0,
+        "integrator_recommendation": 49.93,
+        "llm_recommendation": 50.0,
+        "final": 62,
+        "available_range": 3.6,
+        "distance_from_baseline": -0.95,
+        "range_utilization": 24,
+        "clamp_adjustment": 12.07,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.85,
+        "distance_from_upper": 2.75,
+        "movement_reason": "Evidence-first placement of Expression at 62 (evidence credibility 0.55): specialist recommendation 36.0 blended with council consensus 63.0, with baseline reference 62.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 77.16,
+        "baseline": 79.81451177,
+        "framework_hi": 82.47,
+        "specialist_recommendation": 85.667,
+        "council_consensus": 80.0,
+        "integrator_recommendation": 83.22,
+        "llm_recommendation": 82.0,
+        "final": 82,
+        "available_range": 5.31,
+        "distance_from_baseline": 2.19,
+        "range_utilization": 91,
+        "clamp_adjustment": -1.22,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 4.84,
+        "distance_from_upper": 0.47,
+        "movement_reason": "Evidence-first placement of Structure at 82 (evidence credibility 0.63): specialist recommendation 85.667 blended with council consensus 80.0, with baseline reference 79.8 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 77.22,
+        "baseline": 79.41433395,
+        "framework_hi": 81.61,
+        "specialist_recommendation": 71.0,
+        "council_consensus": 78.53,
+        "integrator_recommendation": 74.67,
+        "llm_recommendation": 75.0,
+        "final": 78,
+        "available_range": 4.39,
+        "distance_from_baseline": -1.41,
+        "range_utilization": 18,
+        "clamp_adjustment": 3.33,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.78,
+        "distance_from_upper": 3.61,
+        "movement_reason": "Evidence-first placement of Drive at 78 (evidence credibility 0.58): specialist recommendation 71.0 blended with council consensus 78.53, with baseline reference 79.4 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Germany",
+        "iso3": "DEU",
+        "dimension": "D1",
+        "baseline_score": 95.62750794,
+        "final_score": 92,
+        "change_amount": -3.63,
+        "change_percent": -3.8,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Germany's Identity is placed at 92 (Social 3 <-> Self 97). Within the framework range [92-99], 92 sits at ~2% of the permitted span.",
+        "evidence_used": [
+          "E_D1_02",
+          "W_institutional_analyst_C01",
+          "E_D1_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 20.0,
+          "globe": 20.0,
+          "schwartz": 20.0,
+          "wvs": 20.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "All five frameworks converge on high individualism for Germany with zero conflicting frameworks (signal_strength=0.7959, agreement_score=0.7626). Hofstede IDV=67 is the anchor measure but the cross-framework signal is substantially stronger. Schwartz shows high Intellectual and Affective Autonomy; WVS shows high autonomy, choice, voice, and equality scores; GLOBE shows low in-group and institutional collectivism; Trompenaars loads individualist. The CI floor is 91.81, placing the entire permissible range in the high-individualist zone. Why not lower: no framework places Germany below high-individualist; CI floor is 91.81. Why not higher: Nordic and Anglo clusters score marginally higher on some sub-indices; 93 reflects strong but not extreme placement. Most decisive evidence: Hofstede IDV, Schwartz autonomy indices, WVS autonomy/choice.",
+        "comparativist_reasoning": "Germany exhibits high individualism, supported by Hofstede's IDV=67, strong signals from Schwartz's autonomy dimensions, and WVS autonomy and choice indicators. It is positioned above South Korea (D1=50) by 43 points, reflecting a strong self-orientation relative to Western Europe peers.",
+        "country_specialist_reasoning": "Germany's cultural identity is characterized by high individualism, as evidenced by Hofstede's Individualism score of 67 and supported by strong framework signals across multiple studies. This places Germany well above the South Korea anchor of 50, reflecting a strong emphasis on individual autonomy and personal achievement.",
+        "skeptic_reasoning": "Adversarial check on Identity=94: resist midpoint bias and compression. The CI floor is 91.81, and the baseline is 95.6. A score of 94 is well above the anchor (50) and within the CI, supported by strong cross-framework consensus (agreement=0.7626, zero conflicting frameworks). The evidence for high individualism is overwhelming: Hofstede IDV=67 (conservative lower bound), Schwartz autonomy, WVS autonomy/choice/voice, GLOBE low collectivism, Trompenaars individualist. Lowering to 93 would be defensible but 94 better reflects the consistent high signal without overextending to the extreme (97). Not higher because Nordic and Anglo clusters score marginally higher on some sub-indices. Not lower because all frameworks converge on high Self pole.",
+        "integrator_decision": "Identity adjusted from baseline 95.6 to 92 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8496): coverage=1.0, agreement=0.971, evidence=0.659, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 92,
+          "considered_alternatives": [
+            93,
+            94,
+            96
+          ],
+          "why_rejected": {
+            "93": "93 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "94": "94 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "96": "96 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "92 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (94) and the CI ceiling (99), so pushing past 92 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (93) and the CI floor (92), so going below 92 would understate the measured signal.",
+        "integrator_recommendation": 82.79,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 92",
+        "clamp_adjustment": 9.21,
+        "absolute_score_rationale": "Germany sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Germany's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Germany's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Germany's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would understate Germany's Self tendencies; peer and framework evidence place it above 65 on Identity.",
+          "80": "A 80 would understate Germany's Self tendencies; peer and framework evidence place it above 80 on Identity."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 92 means everyday life in Germany leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 92 is justified: Germany sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (93) and the CI floor (92), so going below 92 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (94) and the CI ceiling (99), so pushing past 92 would lack evidentiary support. Strongest supporting evidence: E_D1_02, W_institutional_analyst_C01, E_D1_01. The integrator recommendation was 82.8; the framework limit (LOWER CI 92) applied, so the final published score became 92.",
+        "executive_explanation": "Germany sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (94) and the CI ceiling (99), so pushing past 92 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (93) and the CI floor (92), so going below 92 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=3.63. Framework consensus=77.85, signal_strength=0.7959, conflict=0.2374. Within the framework range [92-99], 92 sits at ~2% of the permitted span. Confidence HIGH (score 0.8496): coverage=1.0, agreement=0.971, evidence=0.659, stability=1.0."
+      },
+      {
+        "country": "Germany",
+        "iso3": "DEU",
+        "dimension": "D2",
+        "baseline_score": 62.94805253,
+        "final_score": 62,
+        "change_amount": -0.95,
+        "change_percent": -1.51,
+        "adjustment_type": "ROUNDING",
+        "summary": "Germany's Expression is placed at 62 (Restrained 3 <-> Open 97). Within the framework range [61-65], 62 sits at ~24% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_claim3",
+          "W_cultural_anthropologist_claim5",
+          "W_historical_analyst_c6"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 30.0,
+          "schwartz": 10.0,
+          "wvs": 10.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "D2 has the highest conflict score (0.6248) and lowest agreement (0.3752) of all four dimensions, with Trompenaars conflicting against Hofstede and GLOBE. Hofstede Indulgence ~40 pulls toward Restrained; Hofstede LTO ~83 also pulls Restrained. GLOBE Assertiveness is high, contributing to D2-Open under framework mapping. The CI is narrow (61.1-64.8), entirely above 50, indicating the cross-framework synthesis places Germany modestly on the Open side. German communication is direct and low-context but not emotionally expressive in the warm/affective sense; emotional display is regulated but not suppressed by hierarchy. Why not lower: CI floor is 61.1; cross-framework synthesis places Germany above Turkey anchor of 50. Why not higher: Hofstede Indulgence is below average; LTO is high (restraint signal); CI ceiling is 64.8. Score of 63 sits near centre of narrow CI reflecting genuine conflict.",
+        "comparativist_reasoning": "Germany's expression is moderately open, with Hofstede's Indulgence indicating restraint (~40) but GLOBE Assertiveness suggesting openness. Positioned above Turkey (D2=50) by 13 points, reflecting moderate openness amidst internal framework conflicts.",
+        "country_specialist_reasoning": "Germany's expression dimension reflects moderate openness. Hofstede's Indulgence score suggests restraint, while GLOBE's Assertiveness indicates openness. The cultural communication style is direct but not highly emotionally expressive, placing Germany modestly above the Turkey anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Expression=63: resist midpoint bias and compression. The CI is narrow (61.1-64.8) and entirely above 50, indicating modest Openness. Conflict score is high (0.6248) with Trompenaars conflicting against Hofstede and GLOBE, but the cross-framework synthesis places Germany modestly on the Open side. Hofstede Indulgence moderate-low (~40) and LTO high (~83) pull toward Restrained, while GLOBE Assertiveness high pulls toward Open. German communication is direct and low-context but not emotionally expressive in the warm/affective sense; emotional display is regulated but not suppressed by hierarchy. Score of 63 sits near the centre of the narrow CI, reflecting genuine conflict and moderate evidence for modest openness above the Turkey anchor of 50. Not higher because of the Restrained pull from Indulgence and LTO. Not lower because the CI floor is 61.1 and all frameworks except Trompenaars support Open side.",
+        "integrator_decision": "Expression adjusted from baseline 62.9 to 62 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8274): coverage=1.0, agreement=1.0, evidence=0.512, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 62,
+          "considered_alternatives": [
+            63
+          ],
+          "why_rejected": {
+            "63": "63 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "62 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (63) and the CI ceiling (65), so pushing past 62 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (63) and the CI floor (61), so going below 62 would understate the measured signal.",
+        "integrator_recommendation": 49.93,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 61",
+        "clamp_adjustment": 12.07,
+        "absolute_score_rationale": "Germany sits at 62 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Germany's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Germany's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Germany's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Germany that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Germany that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 62 means everyday life in Germany leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 62 is justified: Germany sits at 62 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (63) and the CI floor (61), so going below 62 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (63) and the CI ceiling (65), so pushing past 62 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_claim3, W_cultural_anthropologist_claim5, W_historical_analyst_c6. The integrator recommendation was 49.9; the framework limit (LOWER CI 61) applied, so the final published score became 62.",
+        "executive_explanation": "Germany sits at 62 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (63) already reflected this evidence, so the council confirmed 62 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (63) and the CI ceiling (65), so pushing past 62 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (63) and the CI floor (61), so going below 62 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.95 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [61-65], 62 sits at ~24% of the permitted span."
+      },
+      {
+        "country": "Germany",
+        "iso3": "DEU",
+        "dimension": "D3",
+        "baseline_score": 79.81451177,
+        "final_score": 82,
+        "change_amount": 2.19,
+        "change_percent": 2.74,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Germany's Structure is placed at 82 (Fluid 3 <-> Certain 97). Within the framework range [77-82], 82 sits at ~91% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C15",
+          "W_institutional_analyst_C32",
+          "W_institutional_analyst_C19"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [
+          "schwartz"
+        ],
+        "framework_contributions": {
+          "hofstede": 21.43,
+          "globe": 21.43,
+          "schwartz": 14.29,
+          "wvs": 21.43,
+          "trompenaars": 21.43
+        },
+        "statistician_reasoning": "Germany is a canonical high-uncertainty-avoidance culture. Hofstede UAI=65 maps to D3-Certain; GLOBE Future Orientation is high; Trompenaars sequential/future-past orientation is strong; WVS disbelief/scepticism scores are moderate. Schwartz Harmony conflicts slightly (pulling toward lower D3) but is outweighed by the other four frameworks. German rule-following, procedural precision, planning culture, and institutional formalism are well-documented. Why not lower: four of five frameworks support high D3; Hofstede UAI=65 is above global mean; CI floor is 77.2. Why not higher: Schwartz Harmony signal provides a modest counterweight; some WVS scepticism/relativism scores moderate the placement; CI ceiling is 82.5. Score of 80 sits in the upper-middle of the CI reflecting strong but not maximal evidence.",
+        "comparativist_reasoning": "Germany is characterized by high certainty, with Hofstede's UAI=65 and GLOBE's Future Orientation supporting a structured culture. Positioned above Colombia (D3=50) by 30 points, reflecting a strong preference for predictability.",
+        "country_specialist_reasoning": "Germany is known for its high uncertainty avoidance, as indicated by Hofstede's UAI score of 65. This cultural preference for structure and predictability is further supported by GLOBE's Future Orientation and Trompenaars' sequential orientation, placing Germany well above the midpoint.",
+        "skeptic_reasoning": "Adversarial check on Structure=80: resist midpoint bias and compression. The CI is 77.2-82.5, entirely above 50, indicating high Certainty. Germany is a canonical high-uncertainty-avoidance culture: Hofstede UAI=65 (maps to D3), GLOBE Future Orientation high, Trompenaars sequential/future-past orientation strong, WVS disbelief/scepticism moderate. Schwartz Harmony conflicts slightly (pulling toward lower D3) but is outweighed by the other frameworks. The score of 80 sits near the centre of the CI, reflecting strong but not extreme preference for structure. Not higher because Schwartz Harmony and some WVS indicators suggest moderate tolerance for ambiguity in certain domains (e.g., intellectual debate). Not lower because the CI floor is 77.2 and the consensus across frameworks (agreement=0.5458) supports high Certainty.",
+        "integrator_decision": "Structure adjusted from baseline 79.8 to 82 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6818): coverage=1.0, agreement=1.0, evidence=0.636, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 82,
+          "considered_alternatives": [
+            80
+          ],
+          "why_rejected": {
+            "80": "80 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "82 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 82 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (80) and the CI floor (77), so going below 82 would understate the measured signal.",
+        "integrator_recommendation": 83.22,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 82",
+        "clamp_adjustment": -1.22,
+        "absolute_score_rationale": "Germany sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Germany's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Germany's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Germany's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate Germany's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Germany that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 82 means everyday life in Germany leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 82 is justified: Germany sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (80) and the CI floor (77), so going below 82 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 82 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C15, W_institutional_analyst_C32, W_institutional_analyst_C19. The integrator recommendation was 83.2; the framework limit (UPPER CI 82) applied, so the final published score became 82.",
+        "executive_explanation": "Germany sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 82 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (80) and the CI floor (77), so going below 82 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=2.19. Framework consensus=54.34, signal_strength=0.5898, conflict=0.4542. Within the framework range [77-82], 82 sits at ~91% of the permitted span. Confidence MEDIUM (score 0.6818): coverage=1.0, agreement=1.0, evidence=0.636, stability=1.0."
+      },
+      {
+        "country": "Germany",
+        "iso3": "DEU",
+        "dimension": "D4",
+        "baseline_score": 79.41433395,
+        "final_score": 78,
+        "change_amount": -1.41,
+        "change_percent": -1.78,
+        "adjustment_type": "ROUNDING",
+        "summary": "Germany's Drive is placed at 78 (Accepting 3 <-> Striving 97). Within the framework range [77-82], 78 sits at ~18% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C34",
+          "W_historical_analyst_c10",
+          "E_D4_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "schwartz"
+        ],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 25.0,
+          "schwartz": 16.67,
+          "wvs": 8.33,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Germany scores high on Drive/Striving. Hofstede Masculinity=66 (above global mean) supports D4-Striving; GLOBE Performance Orientation is high (maps to D4 per framework override); Trompenaars achievement orientation is strong. Schwartz Mastery conflicts slightly, pulling toward lower D4, but is outweighed by three other frameworks. German engineering excellence culture, export-driven economy, and strong achievement norms in education and career are well-documented. Why not lower: three frameworks support Striving pole; Hofstede MAS=66; CI floor is 77.2. Why not higher: Schwartz Mastery provides a counterweight; Germany also has strong work-life balance norms and codetermination culture that moderate pure striving; CI ceiling is 81.6. Score of 78 sits just above CI floor reflecting solid but not extreme evidence.",
+        "comparativist_reasoning": "Germany's drive is high, with Hofstede's Masculinity and GLOBE's Performance Orientation indicating a striving culture. Positioned above Turkey (D4=50) by 28 points, reflecting a strong achievement orientation.",
+        "country_specialist_reasoning": "Germany's cultural drive is characterized by a strong achievement orientation, as evidenced by Hofstede's Masculinity score and GLOBE's Performance Orientation. This reflects a cultural emphasis on mastery and ambition, placing Germany well above the midpoint.",
+        "skeptic_reasoning": "Adversarial check on Drive=78: resist midpoint bias and compression. The CI is 77.2-81.6, entirely above 50, indicating high Striving. Germany scores high on Hofstede Masculinity (66, maps to D4), GLOBE Performance Orientation high, Trompenaars achievement orientation strong. Schwartz Mastery conflicts slightly (pulling toward lower D4) but is outweighed by the other frameworks. The score of 78 sits near the lower end of the CI, reflecting strong but not extreme achievement orientation. Not higher because Schwartz Mastery and some WVS indicators suggest a balance with harmony values (e.g., work-life balance emphasis). Not lower because the CI floor is 77.2 and the consensus across frameworks (agreement=0.7483) supports high Striving.",
+        "integrator_decision": "Drive adjusted from baseline 79.4 to 78 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.671): coverage=1.0, agreement=0.942, evidence=0.641, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 78,
+          "considered_alternatives": [
+            79,
+            80
+          ],
+          "why_rejected": {
+            "79": "79 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "80": "80 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "78 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 78 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (78) and the CI floor (77), so going below 78 would understate the measured signal.",
+        "integrator_recommendation": 74.67,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 77",
+        "clamp_adjustment": 3.33,
+        "absolute_score_rationale": "Germany sits at 78 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Germany's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Germany's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Germany's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "65": "A 65 would understate Germany's Striving tendencies; peer and framework evidence place it above 65 on Drive.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Germany that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 78 means everyday life in Germany leans toward Striving: institutions, norms and expression skew toward Striving.",
+        "final_rationale": "Why 78 is justified: Germany sits at 78 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (78) and the CI floor (77), so going below 78 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 78 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C34, W_historical_analyst_c10, E_D4_01. The integrator recommendation was 74.7; the framework limit (LOWER CI 77) applied, so the final published score became 78.",
+        "executive_explanation": "Germany sits at 78 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (79) already reflected this evidence, so the council confirmed 78 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 78 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (78) and the CI floor (77), so going below 78 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.41 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [77-82], 78 sits at ~18% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "AUT",
+        "country": "Austria",
+        "d1": 83.0,
+        "d2": 69.0,
+        "d3": 76.0,
+        "d4": 73.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CHE",
+        "country": "Switzerland",
+        "d1": 88.0,
+        "d2": 61.0,
+        "d3": 63.0,
+        "d4": 67.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BEL",
+        "country": "Belgium",
+        "d1": 76.92547695,
+        "d2": 62.74334678,
+        "d3": 83.83218886,
+        "d4": 66.25556779,
+        "relation": "regional"
+      },
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "d1": 70.91117295,
+        "d2": 62.66262252,
+        "d3": 56.39064751,
+        "d4": 51.69588514,
+        "relation": "regional"
+      },
+      {
+        "iso3": "GBR",
+        "country": "United Kingdom",
+        "d1": 89.01136751,
+        "d2": 68.0903876,
+        "d3": 37.08611891,
+        "d4": 68.69479212,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 42.0,
+        "reason": "Germany is above the South Korea Identity anchor (50) by 42.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 12.0,
+        "reason": "Germany is above the Turkey Expression anchor (50) by 12.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 28.0,
+        "reason": "Germany is above the Turkey Drive anchor (50) by 28.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 32.0,
+        "reason": "Germany is above the Colombia Structure anchor (50) by 32.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "DEU",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=30"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "[]"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 30.0,
+        "midpoint_dimensions": [],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Low autonomy and choice scores support collectivist D1 placement",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "DEU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Germany is characterized as highly individualistic in cultural analyses, typical of Western nations.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Germans endorse anger and sadness emotional expressions more than Americans, reflecting higher openness to expressing emotion.",
+          "strongest_opposing": "Institutional programs in Germany nudge individuals toward emotional control, integrating them into a prevailing emotion culture (affective inclusion).",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim3",
+            "claim4"
+          ],
+          "opposing_evidence_ids": [
+            "claim5"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 90.0,
+          "strongest_supporting": "German culture values punctuality, timeliness, clear communication, reflecting strong norms of social order and predictability.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 97.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim6",
+            "claim7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Germany’s Hofstede Masculinity dimension reflects value placed on achievement, competition, and performance.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim8"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 72.0,
+          "strongest_supporting": "Hofstede's data table shows Germany's Individualism score at 67, confirming a moderately individualist cultural orientation.",
+          "strongest_opposing": "Teamwork is highly emphasised in German workplaces, with a focus on a 'we-feeling' where each employee's contribution is considered vital for collective efficiency.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "opposing_evidence_ids": [
+            "C06",
+            "C07"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 33.0,
+          "strongest_supporting": "Germany's Hofstede Indulgence score of 40 classifies German culture as Restrained, with a tendency toward suppression of gratification and constraint by social norms.",
+          "strongest_opposing": "Germans value open and honest feedback and appreciate direct communication that allows for constructive criticism — indicating that within established relationships, candour about views is socially sanctioned.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 41.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "C08",
+            "C09",
+            "C10",
+            "C11"
+          ],
+          "opposing_evidence_ids": [
+            "C12",
+            "C13"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 82.0,
+          "strongest_supporting": "The GLOBE project independently found that Germans have a much higher tendency to avoid uncertainty than Spaniards, corroborating Hofstede's earlier cross-cultural research.",
+          "strongest_opposing": "Germany's UAI score of 65 is moderate compared to maximum uncertainty-avoiding societies such as Greece (100) or Japan (92), indicating that Germany is not at the extreme end of the Structure dimension.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 90.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C14",
+            "C15",
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ],
+          "opposing_evidence_ids": [
+            "C21"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 73.0,
+          "strongest_supporting": "Germany's Hofstede Masculinity score of 66 classifies it as a masculine society where performance is highly valued; the school system separates children into different school types at age 10, institutionalising achievement tracking early.",
+          "strongest_opposing": "The German workforce is well protected with rights to 35-hour working weeks, substantial vacation days, and parental leave — structural features that moderate pure achievement-striving with quality-of-life protections.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 81.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "C22",
+            "C23",
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "opposing_evidence_ids": [
+            "C27",
+            "C28"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 73.0,
+          "strongest_supporting": "Historical regionalism (e.g., Bavaria, Saxony) and postwar federalism have fostered a 'patchwork' identity where local and national loyalties coexist with individual autonomy, but the dominant trend since 1945 has been toward a self-oriented, post-national identity.",
+          "strongest_opposing": "The social market economy (Soziale Marktwirtschaft) and strong labor unions (e.g., IG Metall) still embed individuals in collective bargaining and welfare structures, tempering extreme individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 81.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Norbert Elias describes a historical 'civilizing process' in German society that internalized emotional restraint, especially in the middle class, leading to a controlled public demeanor.",
+          "strongest_opposing": "German Romanticism (e.g., Sturm und Drang, Goethe) and the tradition of 'Innerlichkeit' (inwardness) paradoxically valorize intense emotional expression in art and private life, creating a contrast with public restraint.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 85.0,
+          "strongest_supporting": "Trompenaars and Hampden-Turner report that German business culture scores high on universalism and specific rules, with a strong preference for clear procedures and punctuality (e.g., 'Pünktlichkeit ist eine Tugend').",
+          "strongest_opposing": "Carnival (Karneval/Fasching) in the Rhineland and other regions provides a socially sanctioned temporary suspension of rules, indicating that the high-structure default is periodically relaxed, not absent.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 93.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9"
+          ]
+        },
+        {
+          "iso3": "DEU",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Hofstede Masculinity score for Germany is 66, indicating a moderately striving culture that values achievement, competition, and career success.",
+          "strongest_opposing": "Legislative frameworks (e.g., right to part-time work, generous parental leave) and cultural value of 'Feierabend' (evening leisure) promote work-life balance and temper the achievement drive, especially among younger generations.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11"
+          ],
+          "opposing_evidence_ids": [
+            "c12"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "DEU",
+          "dimension": "D1",
+          "baseline_score": 95.62750794,
+          "specialist_recommendation": 75.0,
+          "specialist_confidence": 0.8567,
+          "evidence_strength": 0.6588,
+          "evidence_quality": 0.6551,
+          "disagreement_index": 0.1424,
+          "specialist_influence_weight": 0.6423,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "DEU",
+          "dimension": "D2",
+          "baseline_score": 62.94805253,
+          "specialist_recommendation": 36.0,
+          "specialist_confidence": 0.75,
+          "evidence_strength": 0.5118,
+          "evidence_quality": 0.5537,
+          "disagreement_index": 0.1178,
+          "specialist_influence_weight": 0.5457,
+          "rationale": "High specialist confidence -> evidence credibility 0.55 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "DEU",
+          "dimension": "D3",
+          "baseline_score": 79.81451177,
+          "specialist_recommendation": 85.667,
+          "specialist_confidence": 0.86,
+          "evidence_strength": 0.6364,
+          "evidence_quality": 0.6265,
+          "disagreement_index": 0.132,
+          "specialist_influence_weight": 0.63,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "DEU",
+          "dimension": "D4",
+          "baseline_score": 79.41433395,
+          "specialist_recommendation": 71.0,
+          "specialist_confidence": 0.7667,
+          "evidence_strength": 0.6412,
+          "evidence_quality": 0.5995,
+          "disagreement_index": 0.0566,
+          "specialist_influence_weight": 0.5848,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "DEU",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=85: differs by 8 from the statistician reading of 93.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=75: differs by 5 from the statistician reading of 80.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=70: differs by 9 from the statistician reading of 79.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=95: differs by 10 from the comparativist reading of 85.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=60: differs by 4 from the comparativist reading of 64.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=82: differs by 7 from the comparativist reading of 75.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=81: differs by 11 from the comparativist reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=63: differs by 3 from the country_specialist reading of 60.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "DEU",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=93: differs by 3 from the devils_advocate reading of 96.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "DEU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 2,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 2,
+          "recommendation": 90.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 1,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 7,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 6,
+          "recommendation": 33.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 8,
+          "recommendation": 82.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 7,
+          "recommendation": 73.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 3,
+          "recommendation": 73.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 3,
+          "recommendation": 85.0
+        },
+        {
+          "iso3": "DEU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 70.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "DEU",
+        "score_diversity": 0.1268,
+        "source_diversity": 0.75,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.592,
+        "consensus_quality": 0.987,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "DEU",
+      "country": "Germany",
+      "region": "Western Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 92,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.858,
+          "top_supporting_arguments": [
+            "Germany scores 67 on Hofstede’s Individualism index; individuals are expected to fulfil own needs and personal achievements are emphasized.",
+            "Germany is characterized as highly individualistic in cultural analyses, typical of Western nations.",
+            "Hofstede's data table shows Germany's Individualism score at 67, confirming a moderately individualist cultural orientation."
+          ],
+          "top_counter_arguments": [
+            "Teamwork is highly emphasised in German workplaces, with a focus on a 'we-feeling' where each employee's contribution is considered vital for collective efficiency.",
+            "Germans like working in teams and collaborate quite well across hierarchical lines, suggesting some collectivist orientation within professional contexts.",
+            "The social market economy (Soziale Marktwirtschaft) and strong labor unions (e.g., IG Metall) still embed individuals in collective bargaining and welfare structures, tempering extreme individualism."
+          ],
+          "why_this_score": "Germany sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (94) and the CI ceiling (99), so pushing past 92 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (93) and the CI floor (92), so going below 92 would understate the measured signal.",
+          "related_countries": [
+            "Austria",
+            "Switzerland",
+            "Belgium",
+            "Andorra",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim1",
+              "source_id": "turn0search8",
+              "title": "Individualism – Clearly Cultural",
+              "url": "https://clearlycultural.com/geert-hofstede-cultural-dimensions/individualism/",
+              "author": "",
+              "publication_year": 2026,
+              "excerpt": "Germany scores 67 on Hofstede’s Individualism index; individuals are expected to fulfil own needs and personal achievements are emphasized.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "claim2",
+              "source_id": "turn0search12",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Germany is characterized as highly individualistic in cultural analyses, typical of Western nations.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C01",
+              "source_id": "S03",
+              "title": "Data Mining Cultural Aspects of Social Media Marketing (arXiv)",
+              "url": "https://arxiv.org/pdf/1401.5726",
+              "author": "Various",
+              "publication_year": 2014,
+              "excerpt": "Hofstede's data table shows Germany's Individualism score at 67, confirming a moderately individualist cultural orientation.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 62,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.882,
+          "top_supporting_arguments": [
+            "Germans endorse anger and sadness emotional expressions more than Americans, reflecting higher openness to expressing emotion.",
+            "German participants perceive and endorse anger expression more intensely than US participants, pointing to comparatively less restraint.",
+            "Germans value open and honest feedback and appreciate direct communication that allows for constructive criticism — indicating that within established relationships, candour about views is socially sanctioned."
+          ],
+          "top_counter_arguments": [
+            "Institutional programs in Germany nudge individuals toward emotional control, integrating them into a prevailing emotion culture (affective inclusion).",
+            "Germany's Hofstede Indulgence score of 40 classifies German culture as Restrained, with a tendency toward suppression of gratification and constraint by social norms.",
+            "In restrained cultures such as Germany, positive emotions are less freely expressed and happiness, freedom, and leisure are not given the same emphasis as in indulgent cultures."
+          ],
+          "why_this_score": "Germany sits at 62 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (63) and the CI ceiling (65), so pushing past 62 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (63) and the CI floor (61), so going below 62 would understate the measured signal.",
+          "related_countries": [
+            "Austria",
+            "Switzerland",
+            "Belgium",
+            "Andorra",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim3",
+              "source_id": "turn0search10",
+              "title": "Values and display rules for specific emotions",
+              "url": "https://scholarcommons.scu.edu/psych/131/",
+              "author": "Birgit Koopmann‑Holm & David Matsumoto",
+              "publication_year": 2011,
+              "excerpt": "Germans endorse anger and sadness emotional expressions more than Americans, reflecting higher openness to expressing emotion.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "claim4",
+              "source_id": "turn0search4",
+              "title": "A cross‑cultural study on emotion expression and the learning of social norms",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4591479/",
+              "author": "",
+              "publication_year": 2015,
+              "excerpt": "German participants perceive and endorse anger expression more intensely than US participants, pointing to comparatively less restraint.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C12",
+              "source_id": "S06",
+              "title": "Understanding the German Work Culture (Life-in-Germany.de)",
+              "url": "https://en.life-in-germany.de/understanding-the-german-work-culture/",
+              "author": "Life-in-Germany editorial team",
+              "publication_year": 2025,
+              "excerpt": "Germans value open and honest feedback and appreciate direct communication that allows for constructive criticism — indicating that within established relationships, candour about views is socially sanctioned.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 82,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.868,
+          "top_supporting_arguments": [
+            "German culture values punctuality, timeliness, clear communication, reflecting strong norms of social order and predictability.",
+            "In Germany there are strong cultural orientation models around emotional norms, downplaying emotional dimensions in public spheres.",
+            "Germany's Hofstede Uncertainty Avoidance Index score of 65 places it on the higher end, indicating that German society relies on rules, laws, and regulations, and prefers to reduce risk through step-by-step change."
+          ],
+          "top_counter_arguments": [
+            "Germany's UAI score of 65 is moderate compared to maximum uncertainty-avoiding societies such as Greece (100) or Japan (92), indicating that Germany is not at the extreme end of the Structure dimension.",
+            "Younger generations of Germans, who grew up in the era of globalisation, often communicate in a manner more familiar to internationals — including use of first names — pointing to a generational softening of formal address norms.",
+            "Carnival (Karneval/Fasching) in the Rhineland and other regions provides a socially sanctioned temporary suspension of rules, indicating that the high-structure default is periodically relaxed, not absent."
+          ],
+          "why_this_score": "Germany sits at 82 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 82 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (80) and the CI floor (77), so going below 82 would understate the measured signal.",
+          "related_countries": [
+            "Austria",
+            "Switzerland",
+            "Belgium",
+            "Andorra",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim6",
+              "source_id": "turn0search11",
+              "title": "German Etiquette: Punctuality, Directness & Social Customs",
+              "url": "https://www.swallowsnotes.com/blog/german-punctuality-and-directness-cultural-communication-patterns",
+              "author": "Victor Raab‑Hubertus Corrado Von Tiele‑Winckler",
+              "publication_year": 2026,
+              "excerpt": "German culture values punctuality, timeliness, clear communication, reflecting strong norms of social order and predictability.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "claim7",
+              "source_id": "turn0search1",
+              "title": "Fault Lines of Emotion Cultures: On the Clash of Feeling Rules in the Context of Migration",
+              "url": "https://www.eth.mpg.de/3501745/project_roettger_2",
+              "author": "Birgitt Röttger‑Rössler",
+              "publication_year": 2026,
+              "excerpt": "In Germany there are strong cultural orientation models around emotional norms, downplaying emotional dimensions in public spheres.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C14",
+              "source_id": "S09",
+              "title": "Uncertainty Avoidance – Clearly Cultural",
+              "url": "https://clearlycultural.com/geert-hofstede-cultural-dimensions/uncertainty-avoidance-index/",
+              "author": "Clearly Cultural",
+              "publication_year": 2015,
+              "excerpt": "Germany's Hofstede Uncertainty Avoidance Index score of 65 places it on the higher end, indicating that German society relies on rules, laws, and regulations, and prefers to reduce risk through step-by-step change.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 78,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.943,
+          "top_supporting_arguments": [
+            "Germany’s Hofstede Masculinity dimension reflects value placed on achievement, competition, and performance.",
+            "Germany's Hofstede Masculinity score of 66 classifies it as a masculine society where performance is highly valued; the school system separates children into different school types at age 10, institutionalising achievement tracking early.",
+            "In Germany, people 'live in order to work' and draw a lot of self-esteem from their tasks; managers are expected to be decisive and assertive."
+          ],
+          "top_counter_arguments": [
+            "The German workforce is well protected with rights to 35-hour working weeks, substantial vacation days, and parental leave — structural features that moderate pure achievement-striving with quality-of-life protections.",
+            "German managers focus on performance alongside high autonomy and high employee participation — suggesting that achievement culture is balanced by participative norms rather than pure top-down striving.",
+            "Legislative frameworks (e.g., right to part-time work, generous parental leave) and cultural value of 'Feierabend' (evening leisure) promote work-life balance and temper the achievement drive, especially among younger generations."
+          ],
+          "why_this_score": "Germany sits at 78 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 79 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (80) and the CI ceiling (82), so pushing past 78 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (78) and the CI floor (77), so going below 78 would understate the measured signal.",
+          "related_countries": [
+            "Austria",
+            "Switzerland",
+            "Belgium",
+            "Andorra",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim8",
+              "source_id": "turn0search9",
+              "title": "Germany - Hofstede Cultural Dimensions Explained",
+              "url": "https://www.internationalbusinesscenter.org/geert-hofstede/hofstede_germany.shtml",
+              "author": "",
+              "publication_year": 2026,
+              "excerpt": "Germany’s Hofstede Masculinity dimension reflects value placed on achievement, competition, and performance.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C22",
+              "source_id": "S01",
+              "title": "Hofstede's Dimensions – Germany (Weebly cultural analysis)",
+              "url": "https://com207germany.weebly.com/hofstedes-dimensions.html",
+              "author": "Unknown (student/cultural analysis site)",
+              "publication_year": 2020,
+              "excerpt": "Germany's Hofstede Masculinity score of 66 classifies it as a masculine society where performance is highly valued; the school system separates children into different school types at age 10, institutionalising achievement tracking early.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C23",
+              "source_id": "S01",
+              "title": "Hofstede's Dimensions – Germany (Weebly cultural analysis)",
+              "url": "https://com207germany.weebly.com/hofstedes-dimensions.html",
+              "author": "Unknown (student/cultural analysis site)",
+              "publication_year": 2020,
+              "excerpt": "In Germany, people 'live in order to work' and draw a lot of self-esteem from their tasks; managers are expected to be decisive and assertive.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2689 @@
+{
+  "iso3": "SOM",
+  "country": "Somalia",
+  "region": "East Africa",
+  "data_status": "ZERO_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-09T23:39:06.551948+00:00",
+  "cultural_profile": {
+    "iso3": "SOM",
+    "country": "Somalia",
+    "region": "East Africa",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 28,
+        "reading": "Community-first",
+        "explanation": "Clan identity and lineage are central to personal and social identity, overshadowing individual achievements."
+      },
+      {
+        "dimension": "D2",
+        "score": 53,
+        "reading": "Even-keeled",
+        "explanation": "Somalis are expressive and direct in communication, yet emotional restraint is practiced in hierarchical settings."
+      },
+      {
+        "dimension": "D3",
+        "score": 39,
+        "reading": "Adaptable",
+        "explanation": "Somalia operates with a high tolerance for ambiguity, relying on clan-based customary laws over formal institutions."
+      },
+      {
+        "dimension": "D4",
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Entrepreneurialism and achievement are highly valued, with a strong drive for success evident even in challenging circumstances."
+      }
+    ],
+    "executive_summary": "Somalia's identity is deeply rooted in clan affiliations, which shape social, political, and economic interactions. Open and direct communication is common, yet respect for hierarchy and emotional restraint is expected in formal settings. The entrepreneurial spirit thrives amidst a backdrop of fluid social alliances and adaptable customs.",
+    "cultural_archetype": {
+      "title": "The Clan Navigator",
+      "summary": "A society where clan ties are the compass for social and economic navigation.",
+      "claim_ids": [
+        "clan_identity_core",
+        "C01",
+        "C06"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Entrepreneurs seeking resilient and adaptable markets",
+      "Cultural researchers interested in clan dynamics"
+    ],
+    "culture_at_a_glance": [
+      "Clan identity is a core aspect of Somali culture, influencing social obligations, political alignment, and economic cooperation.",
+      "Clan affiliations can shift quickly, demonstrating fluidity in social bonding and alliances.",
+      "In formal settings, especially with elders, emotional restraint is expected to maintain respect and social harmony.",
+      "Entrepreneurialism is a key feature of Somali culture, driven by necessity and a desire for self-sufficiency.",
+      "Customary law (xeer) and clan elders play a crucial role in governance, providing structure in the absence of formal state institutions.",
+      "Somalis are generally animated and direct in their communication, valuing open expression in personal interactions."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Clan-Centric Society",
+        "confidence": {
+          "evidence_strength": 69,
+          "expert_agreement": 74,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 6,
+        "observations": [
+          {
+            "text": "Clan identity is a core aspect of Somali culture, influencing social obligations, political alignment, and economic cooperation.",
+            "claim_ids": [
+              "clan_identity_core",
+              "C01",
+              "c3"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Clan affiliations can shift quickly, demonstrating fluidity in social bonding and alliances.",
+            "claim_ids": [
+              "fluid_identity_alliances",
+              "C07",
+              "C19"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The clan system has historically been the primary means of social organization for pastoralist communities in Somalia.",
+            "claim_ids": [
+              "C07",
+              "C03"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Expressive Communication",
+        "confidence": {
+          "evidence_strength": 66,
+          "expert_agreement": 80,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "In formal settings, especially with elders, emotional restraint is expected to maintain respect and social harmony.",
+            "claim_ids": [
+              "emotional_restraint_public",
+              "c8",
+              "C16"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Somalis are generally animated and direct in their communication, valuing open expression in personal interactions.",
+            "claim_ids": [
+              "animated_expression",
+              "open_direct_communication",
+              "C12"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Entrepreneurial Spirit",
+        "confidence": {
+          "evidence_strength": 65,
+          "expert_agreement": 80,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in success factor sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "Entrepreneurialism is a key feature of Somali culture, driven by necessity and a desire for self-sufficiency.",
+            "claim_ids": [
+              "entrepreneurialism_adaptability",
+              "C28",
+              "C29"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Women entrepreneurs in Somalia are motivated by the desire to generate income and independence, highlighting a drive for achievement.",
+            "claim_ids": [
+              "C30",
+              "c13"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The clan system has been a foundational social structure, shaping Somali identity and governance throughout history.",
+        "claim_ids": [
+          "C07",
+          "C03",
+          "C04"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Clan Loyalty",
+        "but_also": "Individual Initiative",
+        "explanation": "While clan identity is paramount, there is also a strong sense of individualism and self-reliance, especially among the diaspora.",
+        "claim_ids": [
+          "clan_identity_core",
+          "individualism_noted",
+          "c4"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Clan membership is like a social compass, guiding interactions and providing a safety net in Somali society.",
+          "claim_ids": [
+            "C06",
+            "C01"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Entrepreneurialism is not just a choice but a necessity, with adaptability being key to navigating daily challenges.",
+          "claim_ids": [
+            "entrepreneurialism_adaptability",
+            "c10"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Clan affiliations influence business relationships, but merit is gaining importance in formal sectors.",
+          "claim_ids": [
+            "C08",
+            "c4"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "A paternalistic management style is common, with a focus on relational harmony over strict hierarchy.",
+          "claim_ids": [
+            "C31",
+            "C20"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Somalis communicate openly and directly, often using animated gestures and expressions.",
+          "claim_ids": [
+            "animated_expression",
+            "open_direct_communication",
+            "C12"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Blessings and curses are part of everyday conversation, reflecting a rich emotional verbal register.",
+          "claim_ids": [
+            "C15",
+            "c6"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Clan boundaries are permeable in daily practice, with strangers easily integrated into communities.",
+          "claim_ids": [
+            "C11",
+            "C13"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Customary law (xeer) and clan elders play a crucial role in governance, providing structure in the absence of formal state institutions.",
+          "claim_ids": [
+            "customary_law_xeer",
+            "clan_structured_rules",
+            "C24"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Avoid discussing clan rivalries or politics in mixed company to prevent tension.",
+          "claim_ids": [
+            "C16",
+            "C17"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Oral poetry and clan ties are significant markers of social status and recognition.",
+          "claim_ids": [
+            "achievement_poetry_role",
+            "C02"
+          ],
+          "sources_count": 2
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Somalia feels like navigating a complex web of clan ties and social alliances. Communication is open and expressive, yet respect for hierarchy and emotional restraint is expected in formal settings. The entrepreneurial spirit is palpable, driven by necessity and a desire for self-sufficiency.",
+      "claim_ids": [
+        "clan_identity_core",
+        "open_direct_communication",
+        "entrepreneurialism_adaptability"
+      ],
+      "sources_count": 2
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Clan identity is immediately apparent, influencing social interactions and providing a sense of belonging.",
+        "claim_ids": [
+          "clan_identity_core",
+          "C01"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The absence of strong formal institutions is offset by the presence of clan elders and customary law.",
+        "claim_ids": [
+          "customary_law_xeer",
+          "clan_structured_rules"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Entrepreneurial success is driven by adaptability, a proactive approach, and leveraging clan networks for support.",
+        "claim_ids": [
+          "entrepreneurialism_adaptability",
+          "C28"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect clan dynamics and social hierarchies can lead to misunderstandings and social friction.",
+        "claim_ids": [
+          "clan_identity_core",
+          "C16"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Open",
+        "detail": "",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Broad",
+        "detail": "",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Quick",
+        "detail": "",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Fluid",
+        "detail": "",
+        "claim_ids": [
+          "C31"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Blessings and curses",
+        "meaning": "Expressions of goodwill or disapproval, commonly used in daily interactions.",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C10"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth tend to embrace more individualistic and modern values, while rural elders adhere to traditional clan-based norms.",
+        "claim_ids": [
+          "C10",
+          "c4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "UGA",
+        "country": "Uganda",
+        "similarity": 92,
+        "explanation": "Both Somalia and Uganda have strong clan systems that influence social and political structures, but Somalia's clan influence is more pervasive in everyday life.",
+        "claim_ids": [
+          "clan_identity_core",
+          "C01"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "SSD",
+        "country": "South Sudan",
+        "similarity": 91,
+        "explanation": "Somalia and South Sudan both rely on clan-based governance, though Somalia's system is more fluid and adaptable.",
+        "claim_ids": [
+          "clan_identity_core",
+          "C19"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "KEN",
+        "country": "Kenya",
+        "similarity": 90,
+        "explanation": "Kenya and Somalia share a pastoralist heritage and clan influences, but Somalia's clan dynamics are more entrenched in social identity.",
+        "claim_ids": [
+          "clan_identity_core",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MDG",
+        "country": "Madagascar",
+        "similarity": 88,
+        "explanation": "While both countries have diverse social structures, Somalia's clan system is more central to its social organization.",
+        "claim_ids": [
+          "clan_identity_core",
+          "C01"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Clan-Centric Identity",
+        "explanation": "Unlike its neighbors, Somalia's social and political life is deeply intertwined with clan affiliations, making it unique in its reliance on these structures.",
+        "claim_ids": [
+          "clan_identity_core",
+          "C04"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More expressive than Ethiopia",
+        "dimension": "D2",
+        "neighbour_iso3": "ETH",
+        "delta": 21
+      },
+      {
+        "text": "More flexible than Madagascar",
+        "dimension": "D3",
+        "neighbour_iso3": "MDG",
+        "delta": -14
+      },
+      {
+        "text": "More flexible than Ethiopia",
+        "dimension": "D3",
+        "neighbour_iso3": "ETH",
+        "delta": -14
+      },
+      {
+        "text": "More community-oriented than South Sudan",
+        "dimension": "D1",
+        "neighbour_iso3": "SSD",
+        "delta": -13
+      },
+      {
+        "text": "More expressive than Kenya",
+        "dimension": "D2",
+        "neighbour_iso3": "KEN",
+        "delta": 13
+      },
+      {
+        "text": "More expressive than Madagascar",
+        "dimension": "D2",
+        "neighbour_iso3": "MDG",
+        "delta": 13
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Somali personal identity is strongly tied to clan, genealogy, and extended-family identity, indicating a low Identity–Self score (i.e. collectivist). Although some rhetoric notes individualism and independence rooted in pastoral individualism, the dominant lived identity remains clan-based.",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Somalia is one of the most strongly collectivist societies documented in the academic literature. No Hofstede IDV score exists for Somalia, but every available institutional proxy — clan-based legal pluralism, the 4.5 power-sharing formula, genealogical identity, diya (blood-money) group obligations, and the persistence of xeer — points to an extreme collectivist anchor. The individual's identity, security, livelihood, and political representation are all mediated through the clan group. The diya-paying group makes collective payments on behalf of members; the clan provides the social safety net in the absence of a functioning state. The Cultural Atlas, UK government DFID research synthesis, peer-reviewed Tandfonline analysis of the 4.5 system, and Macalester/Bildhaan academic volume all independently corroborate this. The only counter-evidence is the noted capacity for flexible individual negotiation within nomadic pastoral contexts and diaspora hybridity, but these are modulating factors, not reversals: they nudge the score slightly above the absolute floor. Score 12 — extreme collectivist, among the lowest possible on D1.",
+          "suggested_score": 12
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Somalia is strongly collectivist. Clan identity defines the individual, with loyalty to the clan paramount over personal goals. Hofstede Individualism estimate for East Africa is very low (IDV ~20), and Somali clanship reinforces this. Counter-evidence of individual achievement in the diaspora shows some shift, but the baseline remains group-based.",
+          "suggested_score": 25
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Somalis tend to be animated and expressive in speech and gesture, suggesting relatively high Expression, but emotional restraint in public settings (especially regarding emotional weakness) moderates the openness.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Evidence consistently places Somali expressive style above the global midpoint. Cultural Atlas documents animated facial expression, open emotional display, and warm physical contact among same-gender peers. Oral poetry (gabay/geeraar) and elaborate verbal blessing/curse registers indicate a structurally high tolerance for emotional performance. However, expression is strongly gender-coded and context-coded: discussion of clan rivalries is actively suppressed in mixed company, women's emotional expression is regulated by Islamic norms, and the concept of 'heshiis' (face-saving consensus) restrains open confrontation. These contextual constraints prevent a very high score. The balance — open by default in social and relational registers, restrained in cross-gender and politically sensitive domains — places Somalia moderately above the midpoint at 62.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Somalia is relatively Open in expression. Poetry, oral debate, and public oratory are deeply valued; emotional expression is not suppressed. Lewis (1961) describes a culture of verbal artistry and open emotion. Counter-evidence of restraint in hierarchical settings with elders tempers the score slightly.",
+          "suggested_score": 70
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Everyday life relies on clan-based customary law and elder adjudication, indicating medium to high Structure. Yet alliances shift flexibly depending on context, suggesting fluidity offsets rigid structure.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Somalia presents a paradox that must be disentangled carefully: the xeer customary law system is a 'highly structured and rigorously codified system' (UNESCO) that imposes strong normative order — but this is D1 group-loyalty evidence and D4 consensus-seeking evidence, not D3 uncertainty-avoidance in the Hofstede sense. The Hofstede D3 question is whether people are psychologically uncomfortable with ambiguity and novelty. Multiple independent sources point toward a genuinely fluid orientation: (a) the pastoral nomadic base requires rapid individual adaptation to environmental uncertainty; (b) workplace hierarchies are described as 'not strongly defined' by Cultural Atlas, with managers interacting as peers; (c) the legal system operates under uncodified oral xeer, Sharia, and secular law simultaneously — legal pluralism is the base rate, not an exception; (d) political authority is described as 'inherently decentralized' with 'flexible alliances.' Counter-evidence includes the strong normative structure of xeer itself and the deep Islamic behavioural codes that regulate daily conduct, which do impose certainty in certain domains. Net score: moderately fluid — 38.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Somalia is Very Low Structure. Ambiguity tolerance is high; rules are fluid, negotiated through clan politics and xeer (customary law) rather than fixed codes. Hofstede Uncertainty Avoidance for East Africa is ~50, but Somali-specific evidence shows lower due to pastoral nomad heritage and weak formal institutions. Counter-evidence of structured Islamic law and xeer provides predictability within the clan, but overall uncertainty is high.",
+          "suggested_score": 25
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Somali culture values poetic achievement, entrepreneurial adaptation, and striving communicated in art and survival, but also deeply values communal harmony and resilience, yielding a slightly above midline Drive.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Drive evidence is genuinely mixed. The academic study on Somali workplace culture (dpublication.com, 2023) identifies competitive masculine norms in the workplace and male-dominated business leadership. The Noyam 2023 study documents 'remarkable achievements and competitiveness' of Somali entrepreneurs in a difficult environment, and the Supply Chain Lab notes that Somali traders choose entrepreneurship proactively rather than by necessity — a striving orientation. Diaspora entrepreneurial success is widely documented. Against this, the harmony-seeking consensus norms of xeer, the paternalistic management style, the priority given to relationship-building over transactional achievement, and the gendered suppression of women's economic performance (found in both Banadir women-entrepreneur studies) pull toward the accepting end. No Hofstede MAS score exists for Somalia. The balance — strong individual competitive drive among men in business contexts, moderated by strong relational/communal orientation — places Somalia slightly above the midpoint at 55.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Somalia is moderate-high Drive. Achievement orientation is strong, especially through entrepreneurial success (diaspora remittances, business networks) and competitive clan-based resource gathering. Hofstede Masculinity for East Africa is ~60, aligning with striving. Counter-evidence of acceptance in pastoralist traditionalism and fatalistic religious elements moderate the score.",
+          "suggested_score": 65
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S05",
+      "title": "Somali Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-core-concepts",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Familial genealogy is a core aspect of Somali culture, deeply informing people's personal identity and sense of self; most Somalis belong to a clan based on shared ancestry that connects them with a large network of extended families, with clan ties determined by paternal lineage.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S05",
+      "title": "Somali Culture — Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-core-concepts",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Clan ties act as a social identifier, providing a foundation for individuals to establish mutual connections and are also important signifiers of social status and reputation; Somalis often instinctively determine the appropriate level of respect to show a person based on their name and clan affiliation alone.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S01",
+      "title": "Somali identity and the logic of layered resilience",
+      "url": "https://www.hiiraan.com/op4/2026/May/205149/somali_identity_and_the_logic_of_layered_resilience.aspx",
+      "author": "Hiiraan Online",
+      "publication_year": 2026,
+      "excerpt": "Somali identity is shaped by three dominant forces: a deeply embedded Islamic worldview, an enduring clan-based social structure, and diaspora influences — these layers coexist, creating a complex identity system that continues to define Somalia's political and social trajectory.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S04",
+      "title": "Beyond the 4.5 clan quotas: evaluating the feasibility of a merit-based and inclusive federal power-sharing model in Somalia",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/23311886.2025.2544066",
+      "author": "Tandfonline / Cogent Social Sciences",
+      "publication_year": 2025,
+      "excerpt": "Somalia's 4.5 clan-based power-sharing formula divides government roles among the four major clans, with a '.5' reserved for minority groups, institutionalizing group identity at the highest political level.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S14",
+      "title": "Clan Culture in Somalia: History, Identity, and Modern Dynamics",
+      "url": "https://www.nkenne.com/blog/clan-culture-in-somalia-history-identity-and-modern-dynamics",
+      "author": "NKENNE",
+      "publication_year": 2025,
+      "excerpt": "In Somali society, a clan is more than a last name — it is a social compass and family safety net; clan membership is ascribed at birth through patrilineal descent, with detailed oral histories tracing back dozens of generations.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S08",
+      "title": "Reinvigoration of Somali Traditional Justice through Inclusive Conflict Resolution Approaches",
+      "url": "https://www.accord.org.za/conflict-trends/reinvigoration-somali-traditional-justice-inclusive-conflict-resolution-approaches/",
+      "author": "ACCORD (African Centre for the Constructive Resolution of Disputes)",
+      "publication_year": 2018,
+      "excerpt": "Clans and their subdivisions have traditionally been the primary means of social organisation for pastoralist and agro-pastoralist communities in Somalia, as well as the building blocks for intercommunity alliances and disputes.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S12",
+      "title": "Cultural Considerations in Somalia — Rivermate Guide",
+      "url": "https://rivermate.com/guides/somalia/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Clan affiliations can play a role in business relationships and hiring in Somalia, though merit is increasingly important in formal sectors — indicating that group identity remains a baseline for social navigation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S21",
+      "title": "Cultural Norm Transmission/Disruption amongst Somali Refugee Women",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12302913/",
+      "author": "NCBI / PubMed Central",
+      "publication_year": 2025,
+      "excerpt": "Diaspora Somali women recalibrate definitions of family and navigate new roles in settlement countries, with research showcasing both continuity and change in cultural practices — suggesting meaningful individual negotiation of collective norms in migration contexts.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S02",
+      "title": "Somali networks: structures of clan and society",
+      "url": "https://assets.publishing.service.gov.uk/media/57a089fce5274a31e000036c/hdq949.pdf",
+      "author": "UK Department for International Development (DFID)",
+      "publication_year": 2012,
+      "excerpt": "Strangers are easily adopted into communities and descent is referred to only 'for defining social identity at the highest level and strengthening collective security' — suggesting that clan boundaries can be permeable in daily practice.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S07",
+      "title": "Somali — Communication",
+      "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Somalis are generally quite animated people; their emotions are openly expressed through their facial expressions.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S07",
+      "title": "Somali — Communication",
+      "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "People are usually comfortable hugging and touching friends of the same gender; physical contact between same-gender peers is socially sanctioned and common.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S07",
+      "title": "Somali — Communication",
+      "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Blesses and curses are said on a daily basis in Somalia — short Arabic expressions wishing for God's intervention — including blessings said instead of a simple 'Thank you', indicating a rich, emotionally loaded verbal register.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S19",
+      "title": "Culture of Somalia — Grokipedia",
+      "url": "https://grokipedia.com/page/Culture_of_Somalia",
+      "author": "Grokipedia",
+      "publication_year": 2026,
+      "excerpt": "Discussions of clan rivalries or politics are tactfully avoided in mixed company to prevent tension — indicating structured suppression of certain emotional-political expression in public contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S07",
+      "title": "Somali — Communication",
+      "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Physical contact between two people of opposite genders is inappropriate in Somalia and should be avoided altogether unless the counterpart is accustomed to it — a structural constraint on cross-gender expressive behaviour.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S02",
+      "title": "Somali networks: structures of clan and society",
+      "url": "https://assets.publishing.service.gov.uk/media/57a089fce5274a31e000036c/hdq949.pdf",
+      "author": "UK Department for International Development (DFID)",
+      "publication_year": 2012,
+      "excerpt": "The clan system is characterised by complexity and fluidity of power; experts attribute the lack of predictable power knowledge to the 'complexity and fluidity' of the system — indicating that ambiguity is a lived baseline, not something culturally resisted.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S06",
+      "title": "Somali — Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-business-culture",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Workplace hierarchies are not strongly defined in Somalia and there may not always be a great respect for top-down authority; managers generally interact with their employees as peers.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S10",
+      "title": "Silent Cry of Somali Customary Law 'Xeer'",
+      "url": "https://www.dpublication.com/wp-content/uploads/2018/12/ICSHE-2-V-202.pdf",
+      "author": "DPublication / ICSHE Conference",
+      "publication_year": 2018,
+      "excerpt": "Xeer's persistence through years of civil war was primarily due to its core position underpinning legitimacy of Somali traditional structures, especially in justice and arbitration — suggesting a strong cultural preference for ordered, rule-governed dispute resolution.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S17",
+      "title": "Small business lessons I learned from Somali traders",
+      "url": "https://thesupplychainlab.blog/2022/09/12/business-lessons-i-have-learned-from-somali-traders/",
+      "author": "The Supply Chain Lab",
+      "publication_year": 2022,
+      "excerpt": "Unlike local retailers who enter business out of necessity, Somali entrepreneurs proactively choose entrepreneurship — a distinction that underscores a striving, achievement-oriented motivation rather than mere survivalist participation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S16",
+      "title": "A Paradigm of Entrepreneurship: Entrepreneurship Management Practices and Youth Empowerment Programs in Mogadishu",
+      "url": "https://pubs.sciepub.com/jbms/13/4/5/index.html",
+      "author": "Journal of Business and Management Sciences",
+      "publication_year": 2025,
+      "excerpt": "Research in Mogadishu finds that fostering an entrepreneurship culture significantly drives youth empowerment programs, and local leaders are encouraged to enhance the entrepreneurial spirit among the youth to drive economic growth and self-sufficiency.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S15",
+      "title": "Motivational Factors and Performance of Women Entrepreneurs in Somalia",
+      "url": "https://www.academia.edu/69759893/Motivational_Factors_and_Performance_of_Women_Entrepreneurs_in_Somalia",
+      "author": "Academia.edu / Banadir University",
+      "publication_year": 2022,
+      "excerpt": "Women entrepreneurs in Somalia are motivated by the desire to generate income and become independent — self-recognition and economic necessity are the major motivational factors — indicating an achievement drive even among structurally disadvantaged groups.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S12",
+      "title": "Cultural Considerations in Somalia — Rivermate Guide",
+      "url": "https://rivermate.com/guides/somalia/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Effective management in Somalia often involves a paternalistic approach, showing care for employees' well-being beyond just work tasks — indicating that relational harmony, not pure performance, is the primary management currency.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "achievement_poetry_role",
+      "source_id": "turn0news40",
+      "title": "Somalia's poets keep hope alive for storytelling and for peace",
+      "url": "",
+      "author": "AP News",
+      "publication_year": 2025,
+      "excerpt": "Poets play a vital, prestigious role in Somali society, with oral poetry acting as a form of achievement and social recognition.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "animated_expression",
+      "source_id": "turn0search0",
+      "title": "Somali - Communication — Cultural Atlas",
+      "url": "",
+      "author": "Nina Evason",
+      "publication_year": 2019,
+      "excerpt": "Somalis are generally quite animated people with large hand and arm gestures and open facial expression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s4",
+      "title": "Somalia: From The Dawn of Civilization To The Modern Age",
+      "url": "https://www.books.google.com",
+      "author": "I.M. Lewis",
+      "publication_year": 2002,
+      "excerpt": "Pastoral nomadic traditions require adaptability and improvisation over rigid rule-following.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "s7",
+      "title": "Somalia: Diaspora entrepreneurship and economic resilience",
+      "url": "https://www.brookings.edu/articles/somalia-diaspora-entrepreneurship/",
+      "author": "J. R. Shackleton",
+      "publication_year": 2018,
+      "excerpt": "Somali diaspora entrepreneurs are highly driven, creating successful businesses globally, reflecting strong achievement orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s9",
+      "title": "The Somali clan system: lessons for foreign policy",
+      "url": "https://www.somaliweyn.org/pdfs/Clan_System.pdf",
+      "author": "Ken Menkhaus",
+      "publication_year": 2008,
+      "excerpt": "Clan loyalty and lineage determine social obligations, political alignment, and even economic cooperation in Somalia.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s7",
+      "title": "Somalia: Diaspora entrepreneurship and economic resilience",
+      "url": "https://www.brookings.edu/articles/somalia-diaspora-entrepreneurship/",
+      "author": "J. R. Shackleton",
+      "publication_year": 2018,
+      "excerpt": "Somali diaspora entrepreneurs show strong individual initiative and self-reliance, suggesting some individualist traits.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s8",
+      "title": "Somali Oral Poetry and the Somali Heritage",
+      "url": "https://www.poetryfoundation.org/articles/69416/somali-oral-poetry",
+      "author": "Mohamed Diriye Abdullahi",
+      "publication_year": 2009,
+      "excerpt": "Public oratory and debate are highly valued; emotion is openly expressed in these settings.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s13",
+      "title": "Somalia: The Untold Story — The War Through the Eyes of Somali Women",
+      "url": "https://www.lse.ac.uk/research/somalia-the-untold-story",
+      "author": "Judith Gardner, Judy El Bushra",
+      "publication_year": 2004,
+      "excerpt": "In formal or hierarchical settings, especially with elders, emotional restraint is expected.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "clan_identity_core",
+      "source_id": "turn0search4",
+      "title": "Somali - Core Concepts — Cultural Atlas",
+      "url": "",
+      "author": "Nina Evason",
+      "publication_year": 2024,
+      "excerpt": "Familial genealogy and the clan system deeply inform personal identity and sense of self among Somalis.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "clan_structured_rules",
+      "source_id": "turn0search4",
+      "title": "Somali - Core Concepts — Cultural Atlas",
+      "url": "",
+      "author": "Nina Evason",
+      "publication_year": 2024,
+      "excerpt": "Somali society relies on clan elders and customary adjudication (xeer), with elders’ decisions sometimes carrying the strength of law.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "customary_law_xeer",
+      "source_id": "turn0search21",
+      "title": "History of Somalia (1991–2006)",
+      "url": "",
+      "author": "Wikipedia",
+      "publication_year": 2026,
+      "excerpt": "Pastoralist Somali social organization operates via xeer, a customary law system that governed in absence of formal state institutions.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "emotional_restraint_public",
+      "source_id": "turn0search2",
+      "title": "Understanding Emotional Expression Among Somali Immigrants",
+      "url": "",
+      "author": "College Sidekick (citing Bhui et al.)",
+      "publication_year": 2025,
+      "excerpt": "Somali culture emphasizes social unity and respect via emotional control in public, with men often discouraged from showing weakness.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "entrepreneurialism_adaptability",
+      "source_id": "turn0search4",
+      "title": "Somali - Core Concepts — Cultural Atlas",
+      "url": "",
+      "author": "Nina Evason",
+      "publication_year": 2024,
+      "excerpt": "Entrepreneurialism and adaptability have become key features of Somali culture, instilled by necessity to navigate instability.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "fluid_identity_alliances",
+      "source_id": "turn0search4",
+      "title": "Somali - Core Concepts — Cultural Atlas",
+      "url": "",
+      "author": "Nina Evason",
+      "publication_year": 2024,
+      "excerpt": "Clan alliances can shift quickly depending on context, demonstrating fluidity in social bonding.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "individualism_noted",
+      "source_id": "turn0search12",
+      "title": "Culture of Somalia",
+      "url": "",
+      "author": "Wikipedia",
+      "publication_year": 2026,
+      "excerpt": "Culture of Somalia is distinguished by a strong sense of independence and individualism as well as generosity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "open_direct_communication",
+      "source_id": "turn0search0",
+      "title": "Somali - Communication — Cultural Atlas",
+      "url": "",
+      "author": "Nina Evason",
+      "publication_year": 2019,
+      "excerpt": "Somalis generally communicate openly and directly, speaking straight to the point, though criticism may be moderated to avoid offense.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 28,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 53,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 39,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 46,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 41.59409861,
+      "D2": 44.5712653,
+      "D3": 48.97566568,
+      "D4": 53.47580071
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 27.7482094,
+        "hi": 55.43998783
+      },
+      "D2": {
+        "lo": 22.6680997,
+        "hi": 66.4744309
+      },
+      "D3": {
+        "lo": 26.80161824,
+        "hi": 71.14971312
+      },
+      "D4": {
+        "lo": 28.83826998,
+        "hi": 78.11333144
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "SOM",
+        "dimension": "D1",
+        "baseline": 41.59409861,
+        "final": 28.0,
+        "direction": "down",
+        "magnitude": 13.59,
+        "reason": "Identity adjusted from baseline 41.6 to 28 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 28 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SOM",
+        "dimension": "D2",
+        "baseline": 44.5712653,
+        "final": 53.0,
+        "direction": "up",
+        "magnitude": 8.43,
+        "reason": "Expression adjusted from baseline 44.6 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.51 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 53 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SOM",
+        "dimension": "D3",
+        "baseline": 48.97566568,
+        "final": 39.0,
+        "direction": "down",
+        "magnitude": 9.98,
+        "reason": "Structure adjusted from baseline 49.0 to 39 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 39 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SOM",
+        "dimension": "D4",
+        "baseline": 53.47580071,
+        "final": 46.0,
+        "direction": "down",
+        "magnitude": 7.48,
+        "reason": "Drive adjusted from baseline 53.5 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.51 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 46 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 27.75,
+        "baseline": 41.59409861,
+        "framework_hi": 55.44,
+        "specialist_recommendation": 19.0,
+        "council_consensus": 28.0,
+        "integrator_recommendation": 24.44,
+        "llm_recommendation": 28.0,
+        "final": 28,
+        "available_range": 27.69,
+        "distance_from_baseline": -13.59,
+        "range_utilization": 1,
+        "clamp_adjustment": 3.56,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.25,
+        "distance_from_upper": 27.44,
+        "movement_reason": "Evidence-first placement of Identity at 28 (evidence credibility 0.60): specialist recommendation 19.0 blended with council consensus 28.0, with baseline reference 41.6 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 22.67,
+        "baseline": 44.5712653,
+        "framework_hi": 66.47,
+        "specialist_recommendation": 64.0,
+        "council_consensus": 44.0,
+        "integrator_recommendation": 53.1,
+        "llm_recommendation": 53.0,
+        "final": 53,
+        "available_range": 43.8,
+        "distance_from_baseline": 8.43,
+        "range_utilization": 69,
+        "clamp_adjustment": -0.1,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 30.33,
+        "distance_from_upper": 13.47,
+        "movement_reason": "Evidence-first placement of Expression at 53 (evidence credibility 0.51): specialist recommendation 64.0 blended with council consensus 44.0, with baseline reference 44.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 26.8,
+        "baseline": 48.97566568,
+        "framework_hi": 71.15,
+        "specialist_recommendation": 37.667,
+        "council_consensus": 38.0,
+        "integrator_recommendation": 39.03,
+        "llm_recommendation": 39.0,
+        "final": 39,
+        "available_range": 44.35,
+        "distance_from_baseline": -9.98,
+        "range_utilization": 28,
+        "clamp_adjustment": -0.03,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 12.2,
+        "distance_from_upper": 32.15,
+        "movement_reason": "Evidence-first placement of Structure at 39 (evidence credibility 0.56): specialist recommendation 37.667 blended with council consensus 38.0, with baseline reference 49.0 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 28.84,
+        "baseline": 53.47580071,
+        "framework_hi": 78.11,
+        "specialist_recommendation": 58.333,
+        "council_consensus": 30.0,
+        "integrator_recommendation": 45.53,
+        "llm_recommendation": 46.0,
+        "final": 46,
+        "available_range": 49.27,
+        "distance_from_baseline": -7.48,
+        "range_utilization": 35,
+        "clamp_adjustment": 0.47,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 17.16,
+        "distance_from_upper": 32.11,
+        "movement_reason": "Evidence-first placement of Drive at 46 (evidence credibility 0.51): specialist recommendation 58.333 blended with council consensus 30.0, with baseline reference 53.5 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Somalia",
+        "iso3": "SOM",
+        "dimension": "D1",
+        "baseline_score": 41.59409861,
+        "final_score": 28,
+        "change_amount": -13.59,
+        "change_percent": -32.67,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Somalia's Identity is placed at 28 (Social 3 <-> Self 97). Within the framework range [28-55], 28 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C04",
+          "W_institutional_analyst_C05",
+          "W_historical_analyst_c3"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "Trompenaars signal consensus=26.54, signal_strength=0.4541, no conflicting frameworks. Score of 28 sits just above the CI floor (27.75), justified by Somalia's well-documented clan-based collectivism, communal identity, and particularist social norms. Qualitative evidence (clan solidarity, collective resource governance, xeer customary law) reinforces the lower bound. Midpoint (50) is ruled out: no individualist signals present. Score is 22 points below South Korea anchor (D1=50), consistent with one of the most collectivist profiles globally. Not lower: CI floor is 27.75. Not higher: no evidence of individualist orientation; all frameworks signal strong collectivism. ZERO_DATA cap applies; confidence capped at MEDIUM.",
+        "comparativist_reasoning": "Somalia's score of 28 on Identity reflects its strong collectivist orientation, similar to other East African countries like Uganda (25) and Ethiopia (26). The clan-based social structure and communal identity are key factors. This score is well below the South Korea anchor (50), indicating a much more collectivist society.",
+        "country_specialist_reasoning": "Somalia's clan-based social structure and collectivist identity are deeply embedded in its culture, as evidenced by the clan power-sharing formula and the importance of familial genealogy. This positions Somalia well below the South Korea anchor on Identity.",
+        "skeptic_reasoning": "Adversarial check on Identity=28: resist midpoint bias and compression. The score is strongly supported by qualitative evidence of clan-based collectivism and institutionalized group identity (4.5 power-sharing formula). No individualist signals exist. The CI floor (27.75) prevents a lower score, and the anchor (KOR=50) is far above. The score is defensible and no challenge is raised.",
+        "integrator_decision": "Identity adjusted from baseline 41.6 to 28 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Identity: Adjustment rationale does not meet the ≥2 references with anchor-relative reasoning requirement. No explicit comparison to South Korea D1=50 anchor is made.; Score does not align with known cultural profile of Somalia..",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.645): coverage=0.2, agreement=1.0, evidence=0.6, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 28,
+          "considered_alternatives": [
+            42
+          ],
+          "why_rejected": {
+            "42": "42 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "28 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (28) and the CI ceiling (55), so pushing past 28 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (28) and the CI floor (28), so going below 28 would understate the measured signal.",
+        "integrator_recommendation": 24.44,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 28",
+        "clamp_adjustment": 3.56,
+        "absolute_score_rationale": "Somalia sits at 28 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Somalia's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would imply markedly more Self; the evidence and framework signal do not support pushing Somalia that far toward Self.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Somalia that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Somalia that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Somalia that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 28 means everyday life in Somalia leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 28 is justified: Somalia sits at 28 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (28) and the CI floor (28), so going below 28 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (28) and the CI ceiling (55), so pushing past 28 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C04, W_institutional_analyst_C05, W_historical_analyst_c3. The integrator recommendation was 24.4; the framework limit (LOWER CI 28) applied, so the final published score became 28.",
+        "executive_explanation": "Somalia sits at 28 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (28) and the CI ceiling (55), so pushing past 28 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (28) and the CI floor (28), so going below 28 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=13.59. Framework consensus=26.54, signal_strength=0.4541, conflict=0.0. Within the framework range [28-55], 28 sits at ~1% of the permitted span. Confidence MEDIUM (score 0.645): coverage=0.2, agreement=1.0, evidence=0.6, stability=1.0."
+      },
+      {
+        "country": "Somalia",
+        "iso3": "SOM",
+        "dimension": "D2",
+        "baseline_score": 44.5712653,
+        "final_score": 53,
+        "change_amount": 8.43,
+        "change_percent": 18.91,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Somalia's Expression is placed at 53 (Restrained 3 <-> Open 97). Within the framework range [23-66], 53 sits at ~69% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C12",
+          "W_institutional_analyst_C17",
+          "W_historical_analyst_c6"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "Trompenaars affective-neutral consensus=42.22, signal_strength=0.36. Wide CI (22.67-66.47) reflects genuine uncertainty. Score of 44 placed slightly below Turkey anchor (50), reflecting mild restraint tendency from Islamic public-emotional norms, balanced against expressive oral culture and clan gathering traditions. Not lower: oral poetry (gabay tradition) and clan assembly expressiveness argue against strong restraint. Not higher: Islamic public decorum and formal hierarchy suppress open emotional display in public contexts. ZERO_DATA cap applies; confidence capped at MEDIUM.",
+        "comparativist_reasoning": "Somalia's Expression score of 44 is slightly below the Turkey anchor (50), indicating mild restraint. This is consistent with the Islamic cultural norms that moderate public emotional expression, yet it remains more open than Ethiopia (32) due to the expressive oral traditions.",
+        "country_specialist_reasoning": "Somalia exhibits a mild restraint in expression due to Islamic norms and public decorum, yet maintains expressive traditions such as oral poetry and clan gatherings, placing it slightly below the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=44: resist midpoint bias and compression. The score sits in the 40-60 band, requiring quantitative and qualitative justification. Quantitative: Trompenaars affective-neutral consensus=42.22. Qualitative: Islamic public-emotional decorum (restraint) balanced against expressive oral poetry (gabay) and clan gatherings. The score is placed below Turkey anchor (50) due to Islamic restraint, but not lower due to expressive traditions. The rationale is sufficient, but the challenge remains unresolved pending explicit quantitative evidence from the statistician.",
+        "integrator_decision": "Expression adjusted from baseline 44.6 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.51 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Expression: References cited are insufficient for ZERO_DATA status (requires ≥4 qualitative sources). Anchor-relative reasoning against Turkey D2=50 is absent..",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5928): coverage=0.2, agreement=1.0, evidence=0.489, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 53,
+          "considered_alternatives": [
+            44,
+            45
+          ],
+          "why_rejected": {
+            "44": "44 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "45": "45 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "53 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (44) and the CI ceiling (66), so pushing past 53 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (44) and the CI floor (23), so going below 53 would understate the measured signal.",
+        "integrator_recommendation": 53.1,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.1,
+        "absolute_score_rationale": "Somalia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Somalia's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Somalia's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Somalia that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Somalia that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Somalia that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 53 means everyday life in Somalia leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 53 is justified: Somalia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (44) and the CI floor (23), so going below 53 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (44) and the CI ceiling (66), so pushing past 53 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C12, W_institutional_analyst_C17, W_historical_analyst_c6.",
+        "executive_explanation": "Somalia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (44) and the CI ceiling (66), so pushing past 53 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (44) and the CI floor (23), so going below 53 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=8.43. Framework consensus=42.22, signal_strength=0.36, conflict=0.0. Within the framework range [23-66], 53 sits at ~69% of the permitted span. Confidence MEDIUM (score 0.5928): coverage=0.2, agreement=1.0, evidence=0.489, stability=0.8."
+      },
+      {
+        "country": "Somalia",
+        "iso3": "SOM",
+        "dimension": "D3",
+        "baseline_score": 48.97566568,
+        "final_score": 39,
+        "change_amount": -9.98,
+        "change_percent": -20.38,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Somalia's Structure is placed at 39 (Fluid 3 <-> Certain 97). Within the framework range [27-71], 39 sits at ~28% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c9",
+          "W_institutional_analyst_C24",
+          "W_institutional_analyst_C19"
+        ],
+        "supporting_frameworks": [],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "Weakest signal (signal_strength=0.3193, no confirmed supporting frameworks, consensus=49.01 near midpoint). Score of 38 placed below Colombia anchor (50) based on qualitative evidence of Somalia's prolonged statelessness, adaptive clan governance, and demonstrated tolerance for structural ambiguity. Not lower: Islamic legal tradition (Sharia) and clan customary law (xeer) provide normative structure, preventing extreme fluidity. Not higher: decades of state collapse and fluid governance arrangements argue against high structure-certainty. The 49.01 consensus is treated as a weak signal, overridden by qualitative evidence of ambiguity tolerance. ZERO_DATA cap applies; confidence capped at MEDIUM.",
+        "comparativist_reasoning": "The Structure score of 38 reflects Somalia's tolerance for ambiguity, influenced by its historical statelessness and adaptive clan governance. This score is below the Colombia anchor (50) and aligns with the fluid governance seen in the region, like Uganda (42).",
+        "country_specialist_reasoning": "The prolonged statelessness and adaptive clan governance in Somalia indicate a tolerance for ambiguity and fluidity, placing it below the Colombia anchor on Structure.",
+        "skeptic_reasoning": "Adversarial check on Structure=38: resist midpoint bias and compression. The score is below Colombia anchor (50) by 12, justified by qualitative evidence of statelessness, adaptive clan governance, and tolerance for ambiguity. The weak signal (consensus=49.01) is overridden. Not lower: Islamic law and xeer provide normative structure. Not higher: state collapse argues against certainty. The score is defensible and no challenge is raised.",
+        "integrator_decision": "Structure adjusted from baseline 49.0 to 39 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Structure: Any score in the 40–60 midpoint range requires ≥1 quantitative AND ≥1 qualitative justification. If D3 falls in this range, this requirement is not demonstrably met. No explicit anchor comparison to Colombia D3=50.; Score may not reflect the high uncertainty and fluidity in Somalia..",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4992): coverage=0.2, agreement=1.0, evidence=0.495, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 39,
+          "considered_alternatives": [
+            38,
+            49
+          ],
+          "why_rejected": {
+            "38": "38 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "49": "49 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "39 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (38) and the CI ceiling (71), so pushing past 39 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (38) and the CI floor (27), so going below 39 would understate the measured signal.",
+        "integrator_recommendation": 39.03,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.03,
+        "absolute_score_rationale": "Somalia sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Somalia's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Somalia that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Somalia that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Somalia that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Somalia that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 39 means everyday life in Somalia leans toward Fluid: institutions, norms and expression skew toward Fluid.",
+        "final_rationale": "Why 39 is justified: Somalia sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (38) and the CI floor (27), so going below 39 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (38) and the CI ceiling (71), so pushing past 39 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c9, W_institutional_analyst_C24, W_institutional_analyst_C19.",
+        "executive_explanation": "Somalia sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (38) and the CI ceiling (71), so pushing past 39 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (38) and the CI floor (27), so going below 39 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=9.98. Framework consensus=49.01, signal_strength=0.3193, conflict=0.0. Within the framework range [27-71], 39 sits at ~28% of the permitted span. Confidence MEDIUM (score 0.4992): coverage=0.2, agreement=1.0, evidence=0.495, stability=1.0."
+      },
+      {
+        "country": "Somalia",
+        "iso3": "SOM",
+        "dimension": "D4",
+        "baseline_score": 53.47580071,
+        "final_score": 46,
+        "change_amount": -7.48,
+        "change_percent": -13.99,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Somalia's Drive is placed at 46 (Accepting 3 <-> Striving 97). Within the framework range [29-78], 46 sits at ~35% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C27",
+          "W_institutional_analyst_C30",
+          "W_historical_analyst_c14"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "Trompenaars ascription-achievement and external-internal locus consensus=28.74, signal_strength=0.4409, no conflicting frameworks. Score of 30 reflects ascription-based social hierarchy (status by clan lineage, age, gender) and external locus of control consistent with fatalistic orientation in Islamic pastoral culture. Not lower: CI floor is 28.84; some entrepreneurial and trade-oriented behaviour in Somali diaspora and informal economy prevents extreme accepting placement. Not higher: ascription dominates over achievement; clan-based status allocation and external locus signal low individual striving orientation. Score is 20 points below Turkey anchor (D4=50). ZERO_DATA cap applies; confidence capped at MEDIUM.",
+        "comparativist_reasoning": "Somalia's Drive score of 30 is indicative of a less achievement-oriented culture compared to regional peers like Kenya (56) and Uganda (55). This score is 20 points below the Turkey anchor (50), reflecting a cultural emphasis on survival and sufficiency over ambition.",
+        "country_specialist_reasoning": "Somalia's cultural emphasis on ascription and external locus of control, along with a lack of strong achievement orientation, positions it below the Turkey anchor on Drive.",
+        "skeptic_reasoning": "Adversarial check on Drive=30: resist midpoint bias and compression. The score is strongly supported by Trompenaars ascription-achievement consensus=28.74, indicating a cultural preference for ascribed status over achievement. Qualitative evidence: clan-based social hierarchy, pastoralist sufficiency ethos, and Islamic fatalism. Not lower: CI floor is 28.84. Not higher: no achievement-oriented signals. The score is defensible and no challenge is raised.",
+        "integrator_decision": "Drive adjusted from baseline 53.5 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.51 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=REJECT. Open issue(s) on Drive: Adjustment to D4 lacks ≥2 references and explicit change_conditions. No anchor-relative reasoning against Turkey D4=50 is documented..",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4787): coverage=0.2, agreement=1.0, evidence=0.517, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 46,
+          "considered_alternatives": [
+            30,
+            53
+          ],
+          "why_rejected": {
+            "30": "30 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "53": "53 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "46 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (30) and the CI ceiling (78), so pushing past 46 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 46 would understate the measured signal.",
+        "integrator_recommendation": 45.53,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.47,
+        "absolute_score_rationale": "Somalia sits at 46 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Somalia's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Somalia's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Somalia that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Somalia that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Somalia that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 46 means everyday life in Somalia leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 46 is justified: Somalia sits at 46 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 46 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (30) and the CI ceiling (78), so pushing past 46 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C27, W_institutional_analyst_C30, W_historical_analyst_c14.",
+        "executive_explanation": "Somalia sits at 46 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (30) and the CI ceiling (78), so pushing past 46 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 46 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=7.48. Framework consensus=28.74, signal_strength=0.4409, conflict=0.0. Within the framework range [29-78], 46 sits at ~35% of the permitted span. Confidence MEDIUM (score 0.4787): coverage=0.2, agreement=1.0, evidence=0.517, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "SSD",
+        "country": "South Sudan",
+        "d1": 40.92030846,
+        "d2": 50.10653348,
+        "d3": 48.4294596,
+        "d4": 51.1715927,
+        "relation": "regional"
+      },
+      {
+        "iso3": "KEN",
+        "country": "Kenya",
+        "d1": 33.0,
+        "d2": 40.0,
+        "d3": 47.0,
+        "d4": 56.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MDG",
+        "country": "Madagascar",
+        "d1": 35.0,
+        "d2": 40.0,
+        "d3": 53.0,
+        "d4": 38.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "UGA",
+        "country": "Uganda",
+        "d1": 25.0,
+        "d2": 41.0,
+        "d3": 42.0,
+        "d4": 55.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "ETH",
+        "country": "Ethiopia",
+        "d1": 26.0,
+        "d2": 32.0,
+        "d3": 53.0,
+        "d4": 51.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 22.0,
+        "reason": "Somalia is below the South Korea Identity anchor (50) by 22.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 3.0,
+        "reason": "Somalia is above the Turkey Expression anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 4.0,
+        "reason": "Somalia is below the Turkey Drive anchor (50) by 4.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 11.0,
+        "reason": "Somalia is below the Colombia Structure anchor (50) by 11.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "SOM",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=25"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 25.0,
+        "midpoint_dimensions": [
+          "D2",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism-individualism, particularism-universalism, diffuse-specific scores for Sudan",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "Lewis, I. M. (1994). Blood and Bone: The Call of Kinship in Somali Society. Red Sea Press.",
+        "source_type": "academic_book",
+        "data_point": "Clan-based collectivism, xeer customary law, communal identity as primary social organising principle in Somalia",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      },
+      {
+        "citation": "Kapteijns, L. (2013). Clan Cleansing in Somalia: The Ruinous Legacy of 1991. University of Pennsylvania Press.",
+        "source_type": "academic_book",
+        "data_point": "Clan solidarity and collective identity as dominant social force; particularist norms over universalist rules",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0006"
+      },
+      {
+        "citation": "Johnson, J. W. (1996). Heellooy Heelleellooy: The Development of the Genre Heello in Modern Somali Poetry. Indiana University Press.",
+        "source_type": "academic_book",
+        "data_point": "Gabay oral poetry tradition reflects expressive public emotional culture in clan assemblies",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "neutral",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0007"
+      },
+      {
+        "citation": "Besteman, C. (1999). Unraveling Somalia: Race, Violence, and the Legacy of Slavery. University of Pennsylvania Press.",
+        "source_type": "academic_book",
+        "data_point": "Islamic public decorum and hierarchical suppression of emotional display in formal contexts",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0008"
+      },
+      {
+        "citation": "Menkhaus, K. (2006). Governance without Government in Somalia: Spoilers, State Building, and the Politics of Coping. International Security, 31(3), 74-106.",
+        "source_type": "academic_journal",
+        "data_point": "Prolonged statelessness and adaptive clan governance demonstrate tolerance for structural ambiguity",
+        "url_or_doi": "https://doi.org/10.1162/isec.2007.31.3.74",
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0009"
+      },
+      {
+        "citation": "Little, P. D. (2003). Somalia: Economy Without State. Indiana University Press.",
+        "source_type": "academic_book",
+        "data_point": "Informal economy and fluid governance arrangements persist across decades of state collapse, indicating ambiguity tolerance",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0010"
+      },
+      {
+        "citation": "Cassanelli, L. V. (1982). The Shaping of Somali Society: Reconstructing the History of a Pastoral People. University of Pennsylvania Press.",
+        "source_type": "academic_book",
+        "data_point": "Ascription-based status via clan lineage, age, and gender; external locus of control in pastoral Islamic culture",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0011"
+      },
+      {
+        "citation": "Lindley, A. (2010). The Early Morning Phone Call: Somali Refugees' Remittances. Berghahn Books.",
+        "source_type": "academic_book",
+        "data_point": "Diaspora entrepreneurialism provides partial counter-signal to extreme accepting placement but does not override ascriptive base culture",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "neutral",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0012"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "SOM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Familial genealogy and the clan system deeply inform personal identity and sense of self among Somalis.",
+          "strongest_opposing": "Culture of Somalia is distinguished by a strong sense of independence and individualism as well as generosity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "clan_identity_core",
+            "collectivist_self_description"
+          ],
+          "opposing_evidence_ids": [
+            "individualism_noted"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Somalis are generally quite animated people with large hand and arm gestures and open facial expression.",
+          "strongest_opposing": "Somali culture emphasizes social unity and respect via emotional control in public, with men often discouraged from showing weakness.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "animated_expression",
+            "open_direct_communication"
+          ],
+          "opposing_evidence_ids": [
+            "emotional_restraint_public"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Somali society relies on clan elders and customary adjudication (xeer), with elders’ decisions sometimes carrying the strength of law.",
+          "strongest_opposing": "Clan alliances can shift quickly depending on context, demonstrating fluidity in social bonding.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "clan_structured_rules",
+            "customary_law_xeer"
+          ],
+          "opposing_evidence_ids": [
+            "fluid_identity_alliances"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Poets play a vital, prestigious role in Somali society, with oral poetry acting as a form of achievement and social recognition.",
+          "strongest_opposing": "Community support during bereavement—cooking, financial aid, communal visits—underscores Somali values of harmony and collective resilience.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.5,
+          "supporting_evidence_ids": [
+            "achievement_poetry_role",
+            "entrepreneurialism_adaptability"
+          ],
+          "opposing_evidence_ids": [
+            "harmony_resilience"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 12.0,
+          "strongest_supporting": "Somalia's 4.5 clan-based power-sharing formula divides government roles among the four major clans, with a '.5' reserved for minority groups, institutionalizing group identity at the highest political level.",
+          "strongest_opposing": "Diaspora Somali women recalibrate definitions of family and navigate new roles in settlement countries, with research showcasing both continuity and change in cultural practices — suggesting meaningful individual negotiation of collective norms in migration contexts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 20.0,
+          "confidence": 0.87,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08"
+          ],
+          "opposing_evidence_ids": [
+            "C09",
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 62.0,
+          "strongest_supporting": "Somalis are generally quite animated people; their emotions are openly expressed through their facial expressions.",
+          "strongest_opposing": "Discussions of clan rivalries or politics are tactfully avoided in mixed company to prevent tension — indicating structured suppression of certain emotional-political expression in public contexts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15"
+          ],
+          "opposing_evidence_ids": [
+            "C16",
+            "C17",
+            "C18"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 38.0,
+          "strongest_supporting": "The clan system is characterised by complexity and fluidity of power; experts attribute the lack of predictable power knowledge to the 'complexity and fluidity' of the system — indicating that ambiguity is a lived baseline, not something culturally resisted.",
+          "strongest_opposing": "Xeer's persistence through years of civil war was primarily due to its core position underpinning legitimacy of Somali traditional structures, especially in justice and arbitration — suggesting a strong cultural preference for ordered, rule-governed dispute resolution.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.62,
+          "supporting_evidence_ids": [
+            "C19",
+            "C20",
+            "C21",
+            "C22"
+          ],
+          "opposing_evidence_ids": [
+            "C23",
+            "C24",
+            "C25",
+            "C26"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Somali workplace culture reflects a norm of male-dominated organisations; the majority of organisations and businesses are typically run and chaired by men due to the cultural belief in male superiority, indicating competitive masculine achievement norms.",
+          "strongest_opposing": "Effective management in Somalia often involves a paternalistic approach, showing care for employees' well-being beyond just work tasks — indicating that relational harmony, not pure performance, is the primary management currency.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.58,
+          "supporting_evidence_ids": [
+            "C27",
+            "C28",
+            "C29",
+            "C30"
+          ],
+          "opposing_evidence_ids": [
+            "C31",
+            "C32",
+            "C33"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Clan loyalty and lineage determine social obligations, political alignment, and even economic cooperation in Somalia.",
+          "strongest_opposing": "Somali diaspora entrepreneurs show strong individual initiative and self-reliance, suggesting some individualist traits.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Public oratory and debate are highly valued; emotion is openly expressed in these settings.",
+          "strongest_opposing": "In formal or hierarchical settings, especially with elders, emotional restraint is expected.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6",
+            "c7"
+          ],
+          "opposing_evidence_ids": [
+            "c8"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Somali customary law (xeer) is flexible, negotiable, and varies by clan, reflecting high tolerance for ambiguity.",
+          "strongest_opposing": "Islamic shari'a and xeer provide structured predictability within clan contexts, offering a counter to overall fluidity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c9",
+            "c10",
+            "c11"
+          ],
+          "opposing_evidence_ids": [
+            "c12"
+          ]
+        },
+        {
+          "iso3": "SOM",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Hofstede Masculinity score for East Africa is around 60, indicating a moderately high drive for achievement and success.",
+          "strongest_opposing": "Traditional pastoralist culture values acceptance of the natural environment and fate, tempering pure striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c13",
+            "c14",
+            "c15"
+          ],
+          "opposing_evidence_ids": [
+            "c16"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "SOM",
+          "dimension": "D1",
+          "baseline_score": 41.59409861,
+          "specialist_recommendation": 19.0,
+          "specialist_confidence": 0.79,
+          "evidence_strength": 0.6,
+          "evidence_quality": 0.6021,
+          "disagreement_index": 0.2142,
+          "specialist_influence_weight": 0.6046,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SOM",
+          "dimension": "D2",
+          "baseline_score": 44.5712653,
+          "specialist_recommendation": 64.0,
+          "specialist_confidence": 0.6667,
+          "evidence_strength": 0.4895,
+          "evidence_quality": 0.5128,
+          "disagreement_index": 0.1728,
+          "specialist_influence_weight": 0.514,
+          "rationale": "High specialist confidence -> evidence credibility 0.51 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SOM",
+          "dimension": "D3",
+          "baseline_score": 48.97566568,
+          "specialist_recommendation": 37.667,
+          "specialist_confidence": 0.6733,
+          "evidence_strength": 0.495,
+          "evidence_quality": 0.5241,
+          "disagreement_index": 0.4084,
+          "specialist_influence_weight": 0.5626,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SOM",
+          "dimension": "D4",
+          "baseline_score": 53.47580071,
+          "specialist_recommendation": 58.333,
+          "specialist_confidence": 0.5933,
+          "evidence_strength": 0.5167,
+          "evidence_quality": 0.5481,
+          "disagreement_index": 0.1886,
+          "specialist_influence_weight": 0.5088,
+          "rationale": "Moderate signal -> evidence credibility 0.51 (placement balances recommendation and council consensus)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "SOM",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D2 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D3 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D4 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=35: differs by 9 from the statistician reading of 44.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=50: differs by 12 from the statistician reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 12.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=45: differs by 15 from the statistician reading of 30.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 15.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=27: differs by 3 from the comparativist reading of 30.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=45: differs by 10 from the comparativist reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=35: differs by 15 from the comparativist reading of 50.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=60: differs by 15 from the comparativist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 30.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=37: differs by 10 from the country_specialist reading of 27.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=40: differs by 5 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=44: differs by 9 from the country_specialist reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=48: differs by 12 from the country_specialist reading of 60.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=28: differs by 9 from the devils_advocate reading of 37.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=44: differs by 4 from the devils_advocate reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=38: differs by 6 from the devils_advocate reading of 44.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "SOM",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=30: differs by 18 from the devils_advocate reading of 48.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "SOM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.5,
+          "evidence_count": 3,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.87,
+          "evidence_count": 11,
+          "recommendation": 12.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 7,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.62,
+          "evidence_count": 8,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.58,
+          "evidence_count": 7,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 4,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "SOM",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 65.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "SOM",
+        "score_diversity": 0.2425,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6736,
+        "consensus_quality": 1.0,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "SOM",
+      "country": "Somalia",
+      "region": "East Africa",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 28,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.786,
+          "top_supporting_arguments": [
+            "Culture of Somalia is distinguished by a strong sense of independence and individualism as well as generosity.",
+            "Among nomadic clans, the system allows for flexible alliances and individual freedom, and 'suits pastoral nomads who have to act quickly and often individually in pursuit of pasture' — indicating scope for individual agency within the collective framework.",
+            "Diaspora Somali women recalibrate definitions of family and navigate new roles in settlement countries, with research showcasing both continuity and change in cultural practices — suggesting meaningful individual negotiation of collective norms in migration contexts."
+          ],
+          "top_counter_arguments": [
+            "Familial genealogy and the clan system deeply inform personal identity and sense of self among Somalis.",
+            "Somalis in diaspora often define themselves in social roles (e.g. brother, son) more than individual traits, indicating interdependent self-construal.",
+            "Familial genealogy is a core aspect of Somali culture, deeply informing people's personal identity and sense of self; most Somalis belong to a clan based on shared ancestry that connects them with a large network of extended families, with clan ties determined by paternal lineage."
+          ],
+          "why_this_score": "Somalia sits at 28 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (28) and the CI ceiling (55), so pushing past 28 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (28) and the CI floor (28), so going below 28 would understate the measured signal.",
+          "related_countries": [
+            "South Sudan",
+            "Kenya",
+            "Madagascar",
+            "Uganda",
+            "Ethiopia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "individualism_noted",
+              "source_id": "turn0search12",
+              "title": "Culture of Somalia",
+              "url": "",
+              "author": "Wikipedia",
+              "publication_year": 2026,
+              "excerpt": "Culture of Somalia is distinguished by a strong sense of independence and individualism as well as generosity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C09",
+              "source_id": "S02",
+              "title": "Somali networks: structures of clan and society",
+              "url": "https://assets.publishing.service.gov.uk/media/57a089fce5274a31e000036c/hdq949.pdf",
+              "author": "UK Department for International Development (DFID)",
+              "publication_year": 2012,
+              "excerpt": "Among nomadic clans, the system allows for flexible alliances and individual freedom, and 'suits pastoral nomads who have to act quickly and often individually in pursuit of pasture' — indicating scope for individual agency within the collective framework.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C10",
+              "source_id": "S21",
+              "title": "Cultural Norm Transmission/Disruption amongst Somali Refugee Women",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12302913/",
+              "author": "NCBI / PubMed Central",
+              "publication_year": 2025,
+              "excerpt": "Diaspora Somali women recalibrate definitions of family and navigate new roles in settlement countries, with research showcasing both continuity and change in cultural practices — suggesting meaningful individual negotiation of collective norms in migration contexts.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 53,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.827,
+          "top_supporting_arguments": [
+            "Somalis are generally quite animated people with large hand and arm gestures and open facial expression.",
+            "Somalis generally communicate openly and directly, speaking straight to the point, though criticism may be moderated to avoid offense.",
+            "Somalis are generally quite animated people; their emotions are openly expressed through their facial expressions."
+          ],
+          "top_counter_arguments": [
+            "Somali culture emphasizes social unity and respect via emotional control in public, with men often discouraged from showing weakness.",
+            "Discussions of clan rivalries or politics are tactfully avoided in mixed company to prevent tension — indicating structured suppression of certain emotional-political expression in public contexts.",
+            "Physical contact between two people of opposite genders is inappropriate in Somalia and should be avoided altogether unless the counterpart is accustomed to it — a structural constraint on cross-gender expressive behaviour."
+          ],
+          "why_this_score": "Somalia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (44) and the CI ceiling (66), so pushing past 53 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (44) and the CI floor (23), so going below 53 would understate the measured signal.",
+          "related_countries": [
+            "South Sudan",
+            "Kenya",
+            "Madagascar",
+            "Uganda",
+            "Ethiopia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "animated_expression",
+              "source_id": "turn0search0",
+              "title": "Somali - Communication — Cultural Atlas",
+              "url": "",
+              "author": "Nina Evason",
+              "publication_year": 2019,
+              "excerpt": "Somalis are generally quite animated people with large hand and arm gestures and open facial expression.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "open_direct_communication",
+              "source_id": "turn0search0",
+              "title": "Somali - Communication — Cultural Atlas",
+              "url": "",
+              "author": "Nina Evason",
+              "publication_year": 2019,
+              "excerpt": "Somalis generally communicate openly and directly, speaking straight to the point, though criticism may be moderated to avoid offense.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C12",
+              "source_id": "S07",
+              "title": "Somali — Communication",
+              "url": "https://culturalatlas.sbs.com.au/somali-culture/somali-culture-communication",
+              "author": "Cultural Atlas / SBS Australia",
+              "publication_year": 2023,
+              "excerpt": "Somalis are generally quite animated people; their emotions are openly expressed through their facial expressions.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 39,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.592,
+          "top_supporting_arguments": [
+            "Somali society relies on clan elders and customary adjudication (xeer), with elders’ decisions sometimes carrying the strength of law.",
+            "Pastoralist Somali social organization operates via xeer, a customary law system that governed in absence of formal state institutions.",
+            "Xeer Ciise is described by UNESCO as 'a highly structured and rigorously codified system of democratic governance' with a political constitution, penal code, and code of social conduct — indicating a strong normative appetite for codified order within the clan framework."
+          ],
+          "top_counter_arguments": [
+            "Clan alliances can shift quickly depending on context, demonstrating fluidity in social bonding.",
+            "The clan system is characterised by complexity and fluidity of power; experts attribute the lack of predictable power knowledge to the 'complexity and fluidity' of the system — indicating that ambiguity is a lived baseline, not something culturally resisted.",
+            "Workplace hierarchies are not strongly defined in Somalia and there may not always be a great respect for top-down authority; managers generally interact with their employees as peers."
+          ],
+          "why_this_score": "Somalia sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 49 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (38) and the CI ceiling (71), so pushing past 39 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (38) and the CI floor (27), so going below 39 would understate the measured signal.",
+          "related_countries": [
+            "South Sudan",
+            "Kenya",
+            "Madagascar",
+            "Uganda",
+            "Ethiopia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "clan_structured_rules",
+              "source_id": "turn0search4",
+              "title": "Somali - Core Concepts — Cultural Atlas",
+              "url": "",
+              "author": "Nina Evason",
+              "publication_year": 2024,
+              "excerpt": "Somali society relies on clan elders and customary adjudication (xeer), with elders’ decisions sometimes carrying the strength of law.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "customary_law_xeer",
+              "source_id": "turn0search21",
+              "title": "History of Somalia (1991–2006)",
+              "url": "",
+              "author": "Wikipedia",
+              "publication_year": 2026,
+              "excerpt": "Pastoralist Somali social organization operates via xeer, a customary law system that governed in absence of formal state institutions.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C23",
+              "source_id": "S09",
+              "title": "Xeer Ciise: Oral customary laws of Somali-Issa communities",
+              "url": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087",
+              "author": "UNESCO Intangible Cultural Heritage",
+              "publication_year": 2022,
+              "excerpt": "Xeer Ciise is described by UNESCO as 'a highly structured and rigorously codified system of democratic governance' with a political constitution, penal code, and code of social conduct — indicating a strong normative appetite for codified order within the clan framework.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 46,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.811,
+          "top_supporting_arguments": [
+            "Poets play a vital, prestigious role in Somali society, with oral poetry acting as a form of achievement and social recognition.",
+            "Entrepreneurialism and adaptability have become key features of Somali culture, instilled by necessity to navigate instability.",
+            "Somali workplace culture reflects a norm of male-dominated organisations; the majority of organisations and businesses are typically run and chaired by men due to the cultural belief in male superiority, indicating competitive masculine achievement norms."
+          ],
+          "top_counter_arguments": [
+            "Community support during bereavement—cooking, financial aid, communal visits—underscores Somali values of harmony and collective resilience.",
+            "Effective management in Somalia often involves a paternalistic approach, showing care for employees' well-being beyond just work tasks — indicating that relational harmony, not pure performance, is the primary management currency.",
+            "Building strong, personal relationships is fundamental to successful business in Somalia; hospitality, respect for religious practices, and understanding social etiquette are crucial — relationship primacy moderates transactional drive."
+          ],
+          "why_this_score": "Somalia sits at 46 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (30) and the CI ceiling (78), so pushing past 46 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 46 would understate the measured signal.",
+          "related_countries": [
+            "South Sudan",
+            "Kenya",
+            "Madagascar",
+            "Uganda",
+            "Ethiopia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "achievement_poetry_role",
+              "source_id": "turn0news40",
+              "title": "Somalia's poets keep hope alive for storytelling and for peace",
+              "url": "",
+              "author": "AP News",
+              "publication_year": 2025,
+              "excerpt": "Poets play a vital, prestigious role in Somali society, with oral poetry acting as a form of achievement and social recognition.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "entrepreneurialism_adaptability",
+              "source_id": "turn0search4",
+              "title": "Somali - Core Concepts — Cultural Atlas",
+              "url": "",
+              "author": "Nina Evason",
+              "publication_year": 2024,
+              "excerpt": "Entrepreneurialism and adaptability have become key features of Somali culture, instilled by necessity to navigate instability.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C27",
+              "source_id": "S11",
+              "title": "How is Somali culture in Workplace? An Analysis based upon the Dimensions of Hofstede",
+              "url": "https://www.dpublication.com/wp-content/uploads/2023/07/36-10356.pdf",
+              "author": "DPublication",
+              "publication_year": 2023,
+              "excerpt": "Somali workplace culture reflects a norm of male-dominated organisations; the majority of organisations and businesses are typically run and chaired by men due to the cultural belief in male superiority, indicating competitive masculine achievement norms.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

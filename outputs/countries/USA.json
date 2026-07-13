@@ -1,0 +1,2459 @@
+{
+  "iso3": "USA",
+  "country": "United States",
+  "region": "North America",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T19:53:06.835781+00:00",
+  "cultural_profile": {
+    "iso3": "USA",
+    "country": "United States",
+    "region": "North America",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 86,
+        "reading": "Strongly independent",
+        "explanation": "American culture is deeply rooted in individualism, where personal freedom and self-reliance are core values."
+      },
+      {
+        "dimension": "D2",
+        "score": 71,
+        "reading": "Highly expressive",
+        "explanation": "The U.S. is known for its open and direct communication style, where expressing opinions freely is encouraged."
+      },
+      {
+        "dimension": "D3",
+        "score": 22,
+        "reading": "Flexible",
+        "explanation": "Americans are comfortable with ambiguity and change, fostering a culture of innovation and flexibility."
+      },
+      {
+        "dimension": "D4",
+        "score": 61,
+        "reading": "Achievement-oriented",
+        "explanation": "The American Dream fuels a competitive spirit, driving individuals to achieve success through hard work and determination."
+      }
+    ],
+    "executive_summary": "The United States thrives on individualism, where personal achievement and self-expression are paramount. Americans are known for their direct communication style and comfort with ambiguity, fostering a culture of innovation and entrepreneurship. The 'American Dream' fuels a competitive spirit, driving people to succeed through hard work and determination. However, this individualistic ethos coexists with pockets of community-oriented values, particularly among immigrant groups and in certain regions.",
+    "cultural_archetype": {
+      "title": "The Independent Achiever",
+      "summary": "A society that champions personal freedom and relentless pursuit of success.",
+      "claim_ids": [
+        "C01",
+        "C02",
+        "C22"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Entrepreneurs seeking innovation",
+      "Individuals valuing personal freedom",
+      "Professionals in competitive industries"
+    ],
+    "culture_at_a_glance": [
+      "The U.S.",
+      "American individualism manifests in a societal expectation that individuals prioritize their own needs and those of their immediate family, with little reliance on collective authorities.",
+      "Americans are known for their direct and open communication style, where expressing opinions freely is encouraged, reflecting a low power-distance culture.",
+      "Despite the directness, American workplaces often require managing emotions to maintain professionalism, leading to a surface performance of positivity.",
+      "While Americans are open to new ideas, there exists a balance with respect for established systems, reflecting a nuanced approach to uncertainty.",
+      "The 'American Dream' narrative promotes the belief that success is attainable through hard work, reinforcing a culture of competition and achievement."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Rugged Individualism",
+        "confidence": {
+          "evidence_strength": 65,
+          "expert_agreement": 94,
+          "framework_agreement": 69,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "The U.S. is renowned for its 'rugged individualism', a cultural ethos rooted in Enlightenment ideals and frontier history, emphasizing self-reliance and personal initiative.",
+            "claim_ids": [
+              "c1",
+              "c2",
+              "claim_3"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "American individualism manifests in a societal expectation that individuals prioritize their own needs and those of their immediate family, with little reliance on collective authorities.",
+            "claim_ids": [
+              "C05",
+              "claim_1"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The frontier experience in American history fostered a culture of self-reliance and independence, shaping the national character.",
+            "claim_ids": [
+              "claim_3"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Expressive Freedom",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 70,
+          "framework_agreement": 89,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Americans are known for their direct and open communication style, where expressing opinions freely is encouraged, reflecting a low power-distance culture.",
+            "claim_ids": [
+              "C11",
+              "claim_6"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "Despite the directness, American workplaces often require managing emotions to maintain professionalism, leading to a surface performance of positivity.",
+            "claim_ids": [
+              "C14",
+              "claim_7"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Flexibility and Innovation",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 80,
+          "framework_agreement": 57,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "The U.S. culture is characterized by a low uncertainty avoidance, which fosters a willingness to embrace change and innovation, contributing to high entrepreneurial activity.",
+            "claim_ids": [
+              "C16",
+              "C19"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "While Americans are open to new ideas, there exists a balance with respect for established systems, reflecting a nuanced approach to uncertainty.",
+            "claim_ids": [
+              "C20",
+              "claim_12"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "The Drive for Success",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 90,
+          "framework_agreement": 63,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "The 'American Dream' narrative promotes the belief that success is attainable through hard work, reinforcing a culture of competition and achievement.",
+            "claim_ids": [
+              "claim_17",
+              "C23"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "American workplaces celebrate both team and personal achievements, with a strong focus on accountability and results.",
+            "claim_ids": [
+              "C24",
+              "C26"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The frontier experience and Enlightenment ideals have historically shaped American individualism and self-reliance.",
+        "claim_ids": [
+          "claim_3",
+          "c1"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Achievement",
+        "but_also": "Community Engagement",
+        "explanation": "While the U.S. emphasizes individual success, there are significant pockets of community-oriented values, particularly among immigrant groups and in certain regions.",
+        "claim_ids": [
+          "C09",
+          "claim_5"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "In the U.S., individuals are expected to prioritize their own needs and those of their immediate family, with personal objects often reflecting one's unique identity.",
+          "claim_ids": [
+            "c3",
+            "C05"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Educational environments in the U.S. encourage open-ended inquiry and comfort with ambiguity, contrasting with more rigid educational systems elsewhere.",
+          "claim_ids": [
+            "C17",
+            "claim_10"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "American workplaces encourage open communication and direct feedback, reflecting a culture that values low power distance and individual expression.",
+          "claim_ids": [
+            "C11",
+            "C12"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Despite the open communication, professionalism in American workplaces often requires managing emotions, leading to a culture of surface positivity.",
+          "claim_ids": [
+            "C14",
+            "claim_8"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Americans tend to express emotions openly and directly, with a cultural tendency towards more explicit and polarized emotional expressions.",
+          "claim_ids": [
+            "c5",
+            "C10"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Friendships in the U.S. often begin with shared activities or interests, with a gradual deepening of trust over time.",
+          "claim_ids": [
+            "C09",
+            "claim_4"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "American society is characterized by a strong emphasis on individual rights and personal freedom, rooted in historical ideals of self-reliance and independence.",
+          "claim_ids": [
+            "c1",
+            "claim_2"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Failing to respect personal space and individual boundaries can be seen as intrusive in American culture.",
+          "claim_ids": [
+            "C05",
+            "claim_1"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In the U.S., status is often signaled through personal achievements and material success rather than social connections.",
+          "claim_ids": [
+            "C26",
+            "C23"
+          ],
+          "sources_count": 2
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in the United States is a dynamic blend of personal freedom and competitive drive. Individuals navigate a culture that values direct communication and innovation, where success is often measured by personal achievements. Despite the emphasis on individualism, there are pockets of community engagement, reflecting the country's diverse cultural landscape.",
+      "claim_ids": [
+        "c3",
+        "C11",
+        "C23"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Newcomers to the U.S. quickly notice the emphasis on individualism, with a strong focus on personal freedom and self-expression.",
+        "claim_ids": [
+          "c1",
+          "C01"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The direct and open communication style of Americans can be surprising to those from more reserved cultures.",
+        "claim_ids": [
+          "C11",
+          "claim_6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The competitive spirit and drive for success are evident in both personal and professional settings.",
+        "claim_ids": [
+          "C23",
+          "C26"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Building a strong personal brand and demonstrating individual accomplishments are key to advancing in American society.",
+        "claim_ids": [
+          "C26",
+          "C24"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to assert oneself or express opinions openly can be perceived as a lack of confidence or competence in American workplaces.",
+        "claim_ids": [
+          "C11",
+          "C12"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "C09"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Variable",
+        "detail": "",
+        "claim_ids": [
+          "claim_4"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Diverse",
+        "detail": "",
+        "claim_ids": [
+          "C09"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "claim_4"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Balanced",
+        "detail": "",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Let's touch base",
+        "meaning": "Let's have a brief meeting or discussion.",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional work-centric values",
+        "younger": "Emphasis on work-life balance and wellbeing",
+        "claim_ids": [
+          "C27",
+          "c7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals often exhibit more individualistic and career-driven behaviors, while rural communities may prioritize community engagement and traditional values.",
+        "claim_ids": [
+          "c4",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "CAN",
+        "country": "Canada",
+        "similarity": 87,
+        "explanation": "Canada shares a similar emphasis on multiculturalism and individual rights, but tends to have a more collective approach to social welfare and community engagement.",
+        "claim_ids": [
+          "claim_5"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Pioneering Spirit",
+        "explanation": "The United States' history of frontier expansion and innovation fosters a unique cultural emphasis on self-reliance and pioneering new ideas.",
+        "claim_ids": [
+          "claim_3",
+          "c1"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Cultural Melting Pot",
+        "explanation": "The U.S. is distinguished by its diverse cultural landscape, where a wide range of ethnicities and backgrounds contribute to a dynamic and evolving society.",
+        "claim_ids": [
+          "C09",
+          "claim_4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More flexible than Canada",
+        "dimension": "D3",
+        "neighbour_iso3": "CAN",
+        "delta": -22
+      },
+      {
+        "text": "More reserved than Canada",
+        "dimension": "D2",
+        "neighbour_iso3": "CAN",
+        "delta": -12
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "The United States exhibits very high individualism with personal identity defined by the individual rather than group. The strong foundation in Enlightenment ideals, frontier history, and ‘rugged individualism’ supports a high score. Only local ‘particularistic’ communal values in frontier areas slightly nuance this but do not significantly lower the overall individualist orientation.",
+          "suggested_score": 90
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The USA holds the world's highest Hofstede Individualism score (IDV = 91), making it the benchmark individualist culture globally. Multiple independent sources corroborate that Americans define identity through personal traits, achievements, and rights rather than group membership, family, clan, or company loyalty. Cross-cultural psychology confirms that Americans in surveys self-describe via inner psychological characteristics and personal traits, contrasting sharply with collectivist cultures where group roles dominate self-description. The political and legal architecture—individual constitutional rights, at-will employment, personal liability—reinforces an identity framework built around the autonomous self. Counter-evidence: the USA's large immigrant population and some Hispanic/Latino and East Asian sub-cultures introduce collectivist nodes; there is also some evidence of a slight long-term convergence toward collectivism since the 1980s as demographic diversity grows. However, these are minority currents that do not invert the overwhelming baseline. Score 93 anchors firmly on the IDV=91 anchor, nudged fractionally upward by the depth of legal-institutional encoding of individual rights, and adjusted only marginally downward for sub-cultural pockets.",
+          "suggested_score": 93
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hofstede individualism score of 91 (Hofstede Insights) places the US among the most individualist societies globally. Historical roots in Enlightenment liberalism, frontier self-reliance (Frederick Jackson Turner, 1893), and immigrant narratives of personal achievement. Key counter-evidence includes communitarian strands (Putnam's Bowling Alone, 2000) and ethnic enclaves that maintain collective identity, but these do not flip the dominant individualist orientation.",
+          "suggested_score": 91
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Emotional expression in the U.S. is structurally freer than in more hierarchical or restrained societies, indicating moderately high openness. Research shows higher expressive dynamics among Americans compared to more restrained groups, though regional and ethnic variations (e.g. within Chinese American subgroups) suggest some limits.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Americans are structurally free to express emotion and opinion—low power distance (PDI=40) means bosses are approachable, employees are encouraged to speak up, and self-expression is culturally rewarded. Research on consumer reviews and cross-cultural emotion studies consistently shows Americans produce more explicit, polarised emotional expression than collectivist cultures. Hofstede's Indulgence score for the USA is high (~68), indicating freedom to gratify impulses and express feelings. American workplace norms explicitly encourage voicing ideas upward. Counter-evidence: corporate 'professionalism' norms suppress raw emotional display at work, and 'customer service' culture enforces performed warmth over authentic emotion—a form of surface-level restraint. Additionally, the USA is not a high-Indulgence outlier like Latin American or Scandinavian cultures; its expression is somewhat instrumentalised (positivity for achievement). Score 72 reflects structurally open expression, tempered by the corporate performance-of-emotion dynamic and the fact that blunt directness (a D2-neutral trait) is sometimes mistaken for emotional openness.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "American culture permits and often encourages open expression of emotion and opinion (Tocqueville, 1835/1840; Hochschild, 1983). The 'smile culture' and friendliness to strangers reflects suppressed hierarchy. However, white-collar emotional labor and the 'stiff upper lip' in professional contexts, plus regional variation (e.g., New England reserve vs. Southern effusiveness), lower the score from an extreme high.",
+          "suggested_score": 75
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "American culture has a balanced mix of structure and looseness: over 200 years there has been cultural loosening and creativity-order trade-offs, but everyday life still relies on rules, planning, and institutional expectations. Thus the Structure dimension is moderate.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The USA's Hofstede Uncertainty Avoidance Index (UAI) is approximately 46—solidly in the low-to-moderate range and consistently classified as a low uncertainty-avoidance culture. Cross-country analyses place the USA among the most comfortable with ambiguity, alongside Singapore, Denmark, and Ireland. Educational analyses show American students are comfortable with open-ended questions and teachers saying 'I don't know'—a hallmark of low-Structure cultures. The entrepreneurial and startup culture, with its tolerance for risk, experimentation, and 'fail fast' ethos, corroborates this. Counter-evidence: the USA does have extensive regulatory and legal structures (contract law, HR compliance, due process) that impose procedural certainty; some characterisations place the USA as 'moderate' UAI rather than fully low. MasterClass/Hofstede commentary notes the USA combines rule-respecting with openness to new ideas. Score 42 reflects a moderately fluid culture—neither chaotically ambiguity-embracing nor rule-bound—anchored on UAI≈46 and adjusted slightly downward for the strong entrepreneurial/innovation ethos that distinctly marks American D3 as below the global midpoint.",
+          "suggested_score": 42
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hofstede Uncertainty Avoidance score of 46 (slightly below mid-point). US culture tolerates ambiguity and improvisation (pragmatism, legal flexibility, startup culture). Strong counter-evidence includes rule-of-law tradition, formal contracts, and regulatory structures, but everyday life shows less punctuality obsession than, e.g., Germany, and greater comfort with risk. Baseline anchors near 46; score adjusted slightly lower due to improvisational cultural patterns in business and social life.",
+          "suggested_score": 40
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "The U.S. strongly prizes achievement, competition and self-reliance—a high ‘Drive’. Cultural ethos like the frontier ‘rugged individualism’ and Enlightenment-derived ambition reinforce a high score for striving orientation.",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Masculinity score for the USA is 62, placing it in the upper-high range globally and explicitly characterising it as 'driven by competition, achievement, and success.' Multiple cross-country studies confirm Americans are achievement-oriented, competitive, and measure status heavily through professional success and material accomplishment. The 'American Dream' narrative—that hard work and talent produce upward mobility—is a structural cultural script institutionalised in education, media, and political rhetoric. Entrepreneurial data consistently shows the USA among world leaders in self-employment rate, new business creation, and risk-taking for personal advancement. Counter-evidence: work-life balance discourse has grown since the 2000s, and some younger cohorts (Millennials/Gen Z) explicitly de-prioritise career over relationships and personal wellbeing—a modest femininity shift. However, institutional structures (at-will employment, performance-based pay, MBA culture, 'hustle culture') overwhelmingly reinforce the striving orientation. Score 80 anchors on MAS=62 but adjusts upward for the uniquely intense 'winner-takes-all' achievement narrative that distinguishes the USA even among comparably-scoring cultures—driven by the outsized cultural weight of the American Dream ideology.",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hofstede Masculinity score of 62 (moderate-high achievement orientation). The 'American Dream' ethos, Horatio Alger narratives, and competitive education/work culture drive striving. Counter-evidence includes the rise of work-life balance movements and quality-of-life values among younger generations. Core drive remains high but not extreme; score set at 75 reflecting both the strong achievement norm and the growing counter-flow.",
+          "suggested_score": 75
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Revisiting Hofstede's Dimensions: Examining the Cultural Convergence Between the United States and Japan",
+      "url": "http://www.na-businesspress.com/ajm/bergieleb_web12_1_.pdf",
+      "author": "Bergiel et al.",
+      "publication_year": 2012,
+      "excerpt": "The U.S. had a Hofstede Individualism score of 91 in Hofstede's original study—the highest in the world—defining it as the benchmark individualist society globally.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S02",
+      "title": "Analysis of the Cultural Dimensions of the United States",
+      "url": "https://ojs.usp-pl.com/index.php/ADVANCES-IN-HIGHER-EDUCATION/article/viewFile/13303/12753",
+      "author": "USP-PL Journal",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's findings rank the United States 1st globally on individualism; American culture emphasises personal rights, privacy, freedom, and 'I' mentality over group belonging.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S17",
+      "title": "United States vs. Mexico on Hofstede's Dimensions – PSU PDXScholar",
+      "url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1878&context=honorstheses",
+      "author": "Portland State University Honors Thesis",
+      "publication_year": 2021,
+      "excerpt": "The United States has a fundamental cultural expectation that people look after themselves and perhaps their immediate family; groups tend to be loosely knit with little reliance on collective authorities.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S16",
+      "title": "Hofstede's Dimensions of Culture Theory – Social Sci LibreTexts",
+      "url": "https://socialsci.libretexts.org/Bookshelves/Anthropology/Cultural_Anthropology/Speaking_of_Culture_(Weil)/06%3A_Beliefs_Values_and_Cultural_Universals/6.02%3A_Hofstedes_dimensions_of_culture_theory",
+      "author": "Weil (ed.)",
+      "publication_year": 2023,
+      "excerpt": "Sub-cultural pockets within the USA—particularly immigrant communities from collectivist backgrounds—maintain group-identity norms that partially offset the dominant individualist baseline.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S13",
+      "title": "Examining the Sentiment and Emotional Differences in Product and Service Reviews: The Moderating Role of Culture",
+      "url": "https://arxiv.org/pdf/2507.21057",
+      "author": "arXiv preprint",
+      "publication_year": 2025,
+      "excerpt": "Individuals from individualistic cultures such as the U.S. tend to exhibit more explicit and polarised emotional expressions, whereas collectivist cultures favour moderated and contextually nuanced emotional articulation.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S12",
+      "title": "Understanding Workplace Hierarchies in the USA: A Practical Guide",
+      "url": "https://thelabcareer.com/understanding-workplace-hierarchies-usa-practical-guide/",
+      "author": "The Lab Career",
+      "publication_year": 2025,
+      "excerpt": "American organisations encourage employees to speak up—even to higher-ups—reflecting structurally open expression and a low power-distance communication norm.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S04",
+      "title": "How to Understand US Cultural Differences Impacting Your Business: Hofstede's 6-D Model",
+      "url": "https://www.markentryusa.com/en/how-to-understand-us-cultural-differences-impacting-your-business-hofstedes-6-d-model/",
+      "author": "Liang, Sheena",
+      "publication_year": 2022,
+      "excerpt": "The United States scores low on Power Distance (PDI=40), meaning managers are expected to be approachable and employees feel relatively free to express opinions upward without fear of hierarchical suppression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S11",
+      "title": "The Essence of American Workplace Culture: A Comprehensive Insight",
+      "url": "https://culturepartners.com/insights/the-essence-of-american-workplace-culture-a-comprehensive-insight/",
+      "author": "Culture Partners",
+      "publication_year": 2024,
+      "excerpt": "Corporate 'professionalism' norms in American workplaces can suppress raw emotional display, creating a surface performance of positivity ('customer service smile') rather than authentic emotional openness.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S05",
+      "title": "Uncertainty Avoidance - CEOpedia",
+      "url": "https://ceopedia.org/index.php/Uncertainty_avoidance",
+      "author": "CEOpedia",
+      "publication_year": 2023,
+      "excerpt": "The United States is a canonical example of a low uncertainty-avoidance culture, meaning Americans are comparatively comfortable with ambiguity, open to change, and less reliant on strict rules and regulations.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S06",
+      "title": "Hofstede's Cultural Dimensions – Uncertainty Avoidance (JMU)",
+      "url": "https://www.jmu.edu/global/isss/resources/global-campus-toolkit/files/hofstede-uncertainty.pdf",
+      "author": "James Madison University ISSS",
+      "publication_year": 2020,
+      "excerpt": "In educational settings, the USA is classified as low uncertainty-avoidance: students are comfortable with open-ended inquiry and teachers saying 'I don't know'—contrasting with high-UAI cultures like China and Japan.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S14",
+      "title": "Relationship between Uncertainty Avoidance Culture and Entrepreneurial Activity",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877042814051490",
+      "author": "Hancıoğlu et al.",
+      "publication_year": 2014,
+      "excerpt": "Low uncertainty avoidance in the USA is linked empirically to higher entrepreneurial activity: uncertainty-tolerant cultures generate more startups and self-employment, and the USA exemplifies this pattern.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S07",
+      "title": "Uncertainty Avoidance: Examples of High, Moderate and Low – MasterClass",
+      "url": "https://www.masterclass.com/articles/uncertainty-avoidance",
+      "author": "MasterClass Editorial",
+      "publication_year": 2022,
+      "excerpt": "Some analysts classify the USA as 'moderate' rather than 'low' UAI, noting that Americans both respect existing systems and welcome new ideas—combining elements of rule-deference and ambiguity-tolerance.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S17",
+      "title": "United States vs. Mexico on Hofstede's Dimensions – PSU PDXScholar",
+      "url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1878&context=honorstheses",
+      "author": "Portland State University Honors Thesis",
+      "publication_year": 2021,
+      "excerpt": "The United States scores 62 on Hofstede's Masculinity dimension, explicitly characterised as a society driven by competition, achievement, and success—placing it well above the global midpoint.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S02",
+      "title": "Analysis of the Cultural Dimensions of the United States",
+      "url": "https://ojs.usp-pl.com/index.php/ADVANCES-IN-HIGHER-EDUCATION/article/viewFile/13303/12753",
+      "author": "USP-PL Journal",
+      "publication_year": 2023,
+      "excerpt": "American culture prioritises masculinity values—achievement, materialism, and competition—reflected structurally in capitalism, individual performance incentives, and the 'American Dream' achievement narrative.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S11",
+      "title": "The Essence of American Workplace Culture: A Comprehensive Insight",
+      "url": "https://culturepartners.com/insights/the-essence-of-american-workplace-culture-a-comprehensive-insight/",
+      "author": "Culture Partners",
+      "publication_year": 2024,
+      "excerpt": "American workplaces celebrate both team and personal wins, with managers responsible for establishing performance goals and ensuring accountability—reflecting a strong achievement and results orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S10",
+      "title": "American Individualism: How Does It Impact Work?",
+      "url": "https://birdwellgroup.com/intercultural/american-individualism/",
+      "author": "Birdwell Communication & Cultures",
+      "publication_year": 2024,
+      "excerpt": "In the American workplace, individualism through the American filter means being judged first by what you DO—your job title, salary, and achievements—rather than who you belong to, reinforcing a performance-driven identity.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S11",
+      "title": "The Essence of American Workplace Culture: A Comprehensive Insight",
+      "url": "https://culturepartners.com/insights/the-essence-of-american-workplace-culture-a-comprehensive-insight/",
+      "author": "Culture Partners",
+      "publication_year": 2024,
+      "excerpt": "Younger American cohorts (Millennials and Gen Z) show a growing discourse around work-life balance and wellbeing over career ambition, representing a modest generational shift toward accepting, relationship-prioritising values.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s2",
+      "title": "Cultural history of the United States – American individualism",
+      "url": "https://en.wikipedia.org/wiki/Cultural_history_of_the_United_States",
+      "author": "Wikipedia contributors",
+      "publication_year": 2026,
+      "excerpt": "American individualism has roots in Enlightenment ideals and frontier self‑reliance, seen in founding documents and cultural ethos of ‘rugged individualism’.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s1",
+      "title": "The Moral Values of “Rugged Individualism”",
+      "url": "http://www.nber.org/papers/w32433.pdf",
+      "author": "Samuel Bazzi, Martin Fiszbein, Maximiliano Garcia",
+      "publication_year": 2024,
+      "excerpt": "The U.S. is among the most individualistic societies, with distinct ‘rugged individualism’ tied to frontier history.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s6",
+      "title": "Individualism and the Extended‑Self: Cross‑Cultural",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0090787&type=printable",
+      "author": "Yale etc.",
+      "publication_year": 2025,
+      "excerpt": "Individualistic cultures like the U.S. place high value on personal objects tied to unique persons, reflecting self‑defined identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s1",
+      "title": "The Moral Values of “Rugged Individualism”",
+      "url": "http://www.nber.org/papers/w32433.pdf",
+      "author": "Samuel Bazzi, Martin Fiszbein, Maximiliano Garcia",
+      "publication_year": 2024,
+      "excerpt": "Some U.S. regions with frontier legacy show stronger local communal values and particularism.",
+      "dimension": "D1",
+      "support_direction": "supports_lower"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s3",
+      "title": "Sequential dynamics of culturally moderated facial expressions of emotion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19754526/",
+      "author": "David Matsumoto et al.",
+      "publication_year": 2009,
+      "excerpt": "Facial movement intensity in emotional expressions differs in the U.S., indicating cultural-specific display tendencies and structural freedom.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s4",
+      "title": "Cultures of Moderation and Expression in Chinese Americans and Mexican Americans",
+      "url": "https://www.researchgate.net/publication/7761969_Cultures_of_Moderation_and_Expression_Emotional_Experience_Behavior_and_Physiology_in_Chinese_Americans_and_Mexican_Americans",
+      "author": "José Angel Soto et al.",
+      "publication_year": 2005,
+      "excerpt": "Chinese Americans exhibit less emotional expressiveness, even within U.S. context, indicating internal cultural variation.",
+      "dimension": "D2",
+      "support_direction": "supports_lower"
+    },
+    {
+      "claim_id": "claim_1",
+      "source_id": "src_1",
+      "title": "Country Comparison – United States",
+      "url": "https://www.hofstede-insights.com/country/united-states/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "The United States scores 91 on Hofstede's Individualism index, the highest of any country, reflecting a society where individuals are expected to look after themselves and their immediate families only.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_10",
+      "source_id": "src_6",
+      "title": "Cultures and Organizations: Software of the Mind",
+      "url": "https://www.mheducation.com/highered/product/cultures-organizations-software-mind-hofstede/9780071664189.html",
+      "author": "Geert Hofstede, Gert Jan Hofstede, Michael Minkov",
+      "publication_year": 2010,
+      "excerpt": "Hofstede et al. (2010) report US Uncertainty Avoidance at 46, below the global mean, indicating a culture relatively comfortable with uncertainty, ambiguity, and unstructured situations.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_12",
+      "source_id": "src_1",
+      "title": "Country Comparison – United States",
+      "url": "https://www.hofstede-insights.com/country/united-states/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "The US has a strong rule-of-law tradition and high contract enforcement, suggesting a baseline need for predictability and order in business and legal affairs, which counterbalances low uncertainty avoidance.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_17",
+      "source_id": "src_3",
+      "title": "The Frontier in American History",
+      "url": "https://www.gutenberg.org/ebooks/22994",
+      "author": "Frederick Jackson Turner",
+      "publication_year": 1893,
+      "excerpt": "The 'American Dream' narrative, rooted in success stories like Horatio Alger's, promotes the belief that anyone can achieve success through hard work, reinforcing a culture of achievement and competition.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_2",
+      "source_id": "src_2",
+      "title": "Democracy in America",
+      "url": "https://www.gutenberg.org/ebooks/815",
+      "author": "Alexis de Tocqueville",
+      "publication_year": 1840,
+      "excerpt": "Tocqueville observed in the 1830s that American customs and laws promoted individual independence and self-reliance, which he called 'individualism'—a calm and considered feeling that disposes each citizen to isolate himself from the mass of his fellows.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_3",
+      "source_id": "src_3",
+      "title": "The Frontier in American History",
+      "url": "https://www.gutenberg.org/ebooks/22994",
+      "author": "Frederick Jackson Turner",
+      "publication_year": 1893,
+      "excerpt": "Turner's frontier thesis argued that the American frontier fostered individualism, self-reliance, and a distrust of authority, shaping a national character based on personal initiative.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_4",
+      "source_id": "src_4",
+      "title": "Bowling Alone: The Collapse and Revival of American Community",
+      "url": "https://www.simonandschuster.com/books/Bowling-Alone/Robert-D-Putnam/9780743203043",
+      "author": "Robert D. Putnam",
+      "publication_year": 2000,
+      "excerpt": "Putnam's 'Bowling Alone' documented a decline in American social capital and community engagement, suggesting a historical tradition of civic association and collective problem-solving that counterbalances pure individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_5",
+      "source_id": "src_8",
+      "title": "American Individualism: How a New Generation of Conservatives Is Changing the GOP",
+      "url": "https://www.pewresearch.org/politics/2021/10/06/american-individualism/",
+      "author": "Pew Research Center",
+      "publication_year": 2021,
+      "excerpt": "Pew Research Center surveys show that 57% of Americans believe that government should do more to help people, indicating a communitarian impulse alongside individualist rhetoric.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_6",
+      "source_id": "src_2",
+      "title": "Democracy in America",
+      "url": "https://www.gutenberg.org/ebooks/815",
+      "author": "Alexis de Tocqueville",
+      "publication_year": 1840,
+      "excerpt": "Tocqueville noted the American habit of speaking freely and without deference, contrasting with European class-bound reserve and suggesting a cultural openness in expression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_7",
+      "source_id": "src_5",
+      "title": "The Managed Heart: Commercialization of Human Feeling",
+      "url": "https://www.ucpress.edu/book/9780520272941/the-managed-heart",
+      "author": "Arlie Russell Hochschild",
+      "publication_year": 1983,
+      "excerpt": "Hochschild's study of flight attendants and bill collectors showed that American service workers are trained to manage emotions—suppressing true feelings and displaying positive affect—indicating both openness (display rules) and cultural restraint (private emotion), but overall the culture permits strong positive expression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_8",
+      "source_id": "src_5",
+      "title": "The Managed Heart: Commercialization of Human Feeling",
+      "url": "https://www.ucpress.edu/book/9780520272941/the-managed-heart",
+      "author": "Arlie Russell Hochschild",
+      "publication_year": 1983,
+      "excerpt": "The same emotional labor research reveals that many Americans learn to suppress negative emotions in public, such as anger or sadness, to maintain professional neutrality, which tempers full openness.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 86,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 71,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 22,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 61,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 83.19859951,
+      "D2": 73.3026663,
+      "D3": 18.84460456,
+      "D4": 60.39910328
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 80.31873071,
+        "hi": 86.07846831
+      },
+      "D2": {
+        "lo": 70.76286545,
+        "hi": 75.84246715
+      },
+      "D3": {
+        "lo": 15.37043354,
+        "hi": 22.31877557
+      },
+      "D4": {
+        "lo": 58.98820391,
+        "hi": 61.81000264
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "USA",
+        "dimension": "D1",
+        "baseline": 83.19859951,
+        "final": 86.0,
+        "direction": "up",
+        "magnitude": 2.8,
+        "reason": "Identity adjusted from baseline 83.2 to 86 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.68 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 86 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "USA",
+        "dimension": "D2",
+        "baseline": 73.3026663,
+        "final": 71.0,
+        "direction": "down",
+        "magnitude": 2.3,
+        "reason": "Expression adjusted from baseline 73.3 to 71 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 71 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "USA",
+        "dimension": "D3",
+        "baseline": 18.84460456,
+        "final": 22.0,
+        "direction": "up",
+        "magnitude": 3.16,
+        "reason": "Structure adjusted from baseline 18.8 to 22 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 22 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "USA",
+        "dimension": "D4",
+        "baseline": 60.39910328,
+        "final": 61.0,
+        "direction": "up",
+        "magnitude": 0.6,
+        "reason": "Drive adjusted from baseline 60.4 to 61 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 61 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 80.32,
+        "baseline": 83.19859951,
+        "framework_hi": 86.08,
+        "specialist_recommendation": 91.333,
+        "council_consensus": 83.0,
+        "integrator_recommendation": 88.19,
+        "llm_recommendation": 86.0,
+        "final": 86,
+        "available_range": 5.76,
+        "distance_from_baseline": 2.8,
+        "range_utilization": 99,
+        "clamp_adjustment": -2.19,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 5.68,
+        "distance_from_upper": 0.08,
+        "movement_reason": "Evidence-first placement of Identity at 86 (evidence credibility 0.68): specialist recommendation 91.333 blended with council consensus 83.0, with baseline reference 83.2 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 70.76,
+        "baseline": 73.3026663,
+        "framework_hi": 75.84,
+        "specialist_recommendation": 69.0,
+        "council_consensus": 73.0,
+        "integrator_recommendation": 70.74,
+        "llm_recommendation": 71.0,
+        "final": 71,
+        "available_range": 5.08,
+        "distance_from_baseline": -2.3,
+        "range_utilization": 5,
+        "clamp_adjustment": 0.26,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.24,
+        "distance_from_upper": 4.84,
+        "movement_reason": "Evidence-first placement of Expression at 71 (evidence credibility 0.63): specialist recommendation 69.0 blended with council consensus 73.0, with baseline reference 73.3 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 15.37,
+        "baseline": 18.84460456,
+        "framework_hi": 22.32,
+        "specialist_recommendation": 44.0,
+        "council_consensus": 19.0,
+        "integrator_recommendation": 32.64,
+        "llm_recommendation": 22.0,
+        "final": 22,
+        "available_range": 6.95,
+        "distance_from_baseline": 3.16,
+        "range_utilization": 95,
+        "clamp_adjustment": -10.64,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 6.63,
+        "distance_from_upper": 0.32,
+        "movement_reason": "Evidence-first placement of Structure at 22 (evidence credibility 0.61): specialist recommendation 44.0 blended with council consensus 19.0, with baseline reference 18.8 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 58.99,
+        "baseline": 60.39910328,
+        "framework_hi": 61.81,
+        "specialist_recommendation": 78.333,
+        "council_consensus": 60.72,
+        "integrator_recommendation": 70.57,
+        "llm_recommendation": 61.0,
+        "final": 61,
+        "available_range": 2.82,
+        "distance_from_baseline": 0.6,
+        "range_utilization": 71,
+        "clamp_adjustment": -9.57,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 2.01,
+        "distance_from_upper": 0.81,
+        "movement_reason": "Evidence-first placement of Drive at 61 (evidence credibility 0.62): specialist recommendation 78.333 blended with council consensus 60.72, with baseline reference 60.4 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "United States",
+        "iso3": "USA",
+        "dimension": "D1",
+        "baseline_score": 83.19859951,
+        "final_score": 86,
+        "change_amount": 2.8,
+        "change_percent": 3.37,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "United States's Identity is placed at 86 (Social 3 <-> Self 97). Within the framework range [80-86], 86 sits at ~99% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C01",
+          "W_institutional_analyst_C02",
+          "W_institutional_analyst_C03"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 20.0,
+          "globe": 20.0,
+          "schwartz": 20.0,
+          "wvs": 20.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "All five frameworks converge on extreme individualism for the USA. Hofstede IDV=91 (highest globally), Schwartz high Intellectual and Affective Autonomy, WVS high choice/voice/autonomy, GLOBE low institutional and in-group collectivism, Trompenaars strongly individualist. Signal strength 0.72, agreement 0.69, no conflicting frameworks. CI is 80.3-86.1. Score of 83 sits above the CI midpoint, reflecting globally extreme individualism. Why not lower: every major framework independently confirms extreme self-orientation, placing USA at or near the global ceiling. Why not higher: conflict_score 0.31 (WVS defiance/scepticism signals) introduces modest noise preventing placement at the CI ceiling of 86. Most decisive evidence: Hofstede IDV=91, Schwartz Autonomy scores, WVS autonomy/choice. Anchor-relative: 33 points above South Korea (50), consistent with USA being the canonical high-individualism reference society.",
+        "comparativist_reasoning": "The USA scores extremely high on individualism across all frameworks, with Hofstede's Individualism score at 91, which is among the highest globally. This is supported by Schwartz's high Intellectual and Affective Autonomy, WVS's high choice/voice/autonomy, and Trompenaars' individualism. The USA's cultural emphasis on personal freedom and individual rights further supports this placement. Compared to South Korea, which is the anchor at 50, the USA is significantly more individualist.",
+        "country_specialist_reasoning": "The United States is characterized by extreme individualism, as evidenced by Hofstede's Individualism score of 91, the highest globally. This is supported by Schwartz's high Intellectual and Affective Autonomy, and WVS's high choice/voice/autonomy. The cultural ethos of 'rugged individualism' further underscores this placement.",
+        "skeptic_reasoning": "Adversarial check on Identity=83: resist midpoint bias and compression. The evidence overwhelmingly supports extreme individualism (Hofstede IDV=91, highest globally; Schwartz high autonomy; WVS high choice/voice; GLOBE low collectivism). CI is 80.3-86.1. Score of 83 is justified as it sits above the CI midpoint, reflecting the USA's position as the global benchmark for individualism. Why not lower: every major framework confirms extreme self-orientation; lowering would contradict the strongest evidence. Why not higher: conflict_score 0.31 (WVS defiance/scepticism) introduces modest noise, preventing placement at the CI ceiling of 86. Most decisive evidence: Hofstede IDV=91, Schwartz Autonomy scores, WVS autonomy/choice.",
+        "integrator_decision": "Identity adjusted from baseline 83.2 to 86 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.68 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8686): coverage=1.0, agreement=1.0, evidence=0.718, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 86,
+          "considered_alternatives": [
+            83
+          ],
+          "why_rejected": {
+            "83": "83 understates Self relative to the framework signal and peer comparisons; rejected as too Social."
+          },
+          "why_selected": "86 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (83) and the CI ceiling (86), so pushing past 86 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (83) and the CI floor (80), so going below 86 would understate the measured signal.",
+        "integrator_recommendation": 88.19,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 86",
+        "clamp_adjustment": -2.19,
+        "absolute_score_rationale": "United States sits at 86 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 83 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate United States's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate United States's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate United States's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would understate United States's Self tendencies; peer and framework evidence place it above 65 on Identity.",
+          "80": "A 80 would understate United States's Self tendencies; peer and framework evidence place it above 80 on Identity."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 86 means everyday life in United States leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 86 is justified: United States sits at 86 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 83 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (83) and the CI floor (80), so going below 86 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (83) and the CI ceiling (86), so pushing past 86 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C01, W_institutional_analyst_C02, W_institutional_analyst_C03. The integrator recommendation was 88.2; the framework limit (UPPER CI 86) applied, so the final published score became 86.",
+        "executive_explanation": "United States sits at 86 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 83 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (83) and the CI ceiling (86), so pushing past 86 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (83) and the CI floor (80), so going below 86 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=2.80. Framework consensus=68.7, signal_strength=0.7196, conflict=0.3087. Within the framework range [80-86], 86 sits at ~99% of the permitted span. Confidence HIGH (score 0.8686): coverage=1.0, agreement=1.0, evidence=0.718, stability=1.0."
+      },
+      {
+        "country": "United States",
+        "iso3": "USA",
+        "dimension": "D2",
+        "baseline_score": 73.3026663,
+        "final_score": 71,
+        "change_amount": -2.3,
+        "change_percent": -3.14,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "United States's Expression is placed at 71 (Restrained 3 <-> Open 97). Within the framework range [71-76], 71 sits at ~5% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C10",
+          "W_institutional_analyst_C13",
+          "E_D2_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 27.27,
+          "schwartz": 9.09,
+          "wvs": 9.09,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Hofstede Indulgence score for USA is high (~68), short-term orientation supports expressive culture, GLOBE assertiveness is elevated, Trompenaars affective-neutral leans affective. Signal strength 0.76 and agreement 0.89 are the strongest of all four dimensions with no conflicting frameworks. CI is 70.8-75.8. Score of 73 sits near the centre of the CI, reflecting strong but not extreme openness. Why not lower: indulgence, assertiveness, and affective orientation all point clearly above Turkey anchor (50); the USA cultural norm of open emotional display, positivity norms, and expressive communication is well-documented. Why not higher: professional and corporate norms in the USA moderate pure emotional expressiveness in formal contexts, and the CI ceiling is 75.8. Most decisive evidence: Hofstede Indulgence, GLOBE assertiveness, Trompenaars affective orientation. Anchor-relative: 23 points above Turkey (50).",
+        "comparativist_reasoning": "The USA exhibits a high degree of openness in expression, as evidenced by Hofstede's high Indulgence score (~68) and GLOBE's elevated assertiveness. The culture is known for its positivity norms and expressive communication style. However, professional norms moderate expressiveness in formal contexts, preventing a score at the very top of the CI. Compared to Turkey, which is the anchor at 50, the USA is considerably more open in expression.",
+        "country_specialist_reasoning": "The USA exhibits a high level of openness in expression, as indicated by Hofstede's high Indulgence score (~68) and GLOBE's elevated assertiveness. The cultural norm of open emotional display and expressive communication is well-documented, placing the USA above the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=73: resist midpoint bias and compression. The evidence strongly supports openness: Hofstede Indulgence ~68, GLOBE assertiveness elevated, Trompenaars affective-neutral leans affective. Signal strength 0.76 and agreement 0.89 are the strongest of all dimensions. CI is 70.8-75.8. Score of 73 sits near the centre of the CI, reflecting strong but not extreme openness. Why not lower: indulgence, assertiveness, and affective orientation all clearly point above Turkey anchor (50); American cultural norms of open emotional display and positivity are well-documented. Why not higher: professional and corporate norms moderate pure emotional expressiveness in formal contexts, and the CI ceiling is 75.8. Most decisive evidence: Hofstede Indulgence, GLOBE assertiveness, Trompenaars affective orientation.",
+        "integrator_decision": "Expression adjusted from baseline 73.3 to 71 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8638): coverage=1.0, agreement=1.0, evidence=0.694, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 71,
+          "considered_alternatives": [
+            73
+          ],
+          "why_rejected": {
+            "73": "73 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "71 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (76), so pushing past 71 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (73) and the CI floor (71), so going below 71 would understate the measured signal.",
+        "integrator_recommendation": 70.74,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 71",
+        "clamp_adjustment": 0.26,
+        "absolute_score_rationale": "United States sits at 71 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate United States's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate United States's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate United States's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "65": "A 65 would understate United States's Open tendencies; peer and framework evidence place it above 65 on Expression.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing United States that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 71 means everyday life in United States leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 71 is justified: United States sits at 71 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (73) and the CI floor (71), so going below 71 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (76), so pushing past 71 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C10, W_institutional_analyst_C13, E_D2_01. The integrator recommendation was 70.7; the framework limit (LOWER CI 71) applied, so the final published score became 71.",
+        "executive_explanation": "United States sits at 71 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (76), so pushing past 71 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (73) and the CI floor (71), so going below 71 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=2.30. Framework consensus=65.94, signal_strength=0.7633, conflict=0.1077. Within the framework range [71-76], 71 sits at ~5% of the permitted span. Confidence HIGH (score 0.8638): coverage=1.0, agreement=1.0, evidence=0.694, stability=1.0."
+      },
+      {
+        "country": "United States",
+        "iso3": "USA",
+        "dimension": "D3",
+        "baseline_score": 18.84460456,
+        "final_score": 22,
+        "change_amount": 3.16,
+        "change_percent": 16.77,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "United States's Structure is placed at 22 (Fluid 3 <-> Certain 97). Within the framework range [15-22], 22 sits at ~95% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C19",
+          "W_historical_analyst_claim_10",
+          "W_cultural_anthropologist_c8"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 18.18,
+          "globe": 27.27,
+          "schwartz": 27.27,
+          "wvs": 9.09,
+          "trompenaars": 18.18
+        },
+        "statistician_reasoning": "Hofstede UAI for USA is low (46), indicating comfort with ambiguity. Schwartz Harmony is low. WVS relativism and scepticism signals support fluid orientation. Conflict_score is high (0.43): GLOBE future orientation and Trompenaars sequential time orientation push toward higher structure, creating genuine tension. CI is 15.4-22.3. Score of 19 sits above the CI floor, acknowledging the conflicting signals from GLOBE future orientation and Trompenaars sequential time, while still firmly placing USA in the fluid zone. Why not lower: GLOBE future orientation and sequential time planning signals prevent placement at the floor. Why not higher: the dominant signal from Hofstede UAI=46, WVS relativism/scepticism, and Schwartz low Harmony all confirm low structure preference; the USA's cultural tolerance for ambiguity, entrepreneurial risk-taking, and pragmatic improvisation are well-documented. Anchor-relative: 31 points below Colombia (50), consistent with USA's globally low uncertainty avoidance.",
+        "comparativist_reasoning": "The USA has a low Uncertainty Avoidance Index (UAI) of 46, indicating comfort with ambiguity. Schwartz's low Harmony and WVS's relativism and scepticism signals further support a fluid orientation. Despite some tension from GLOBE's future orientation and Trompenaars' sequential time orientation, the overall cultural tendency is toward flexibility and adaptability. Compared to Colombia, which is the anchor at 50, the USA is much more fluid.",
+        "country_specialist_reasoning": "The USA shows a low need for structure, as reflected by Hofstede's low Uncertainty Avoidance Index (46) and Schwartz's low Harmony. The cultural acceptance of ambiguity and relativism supports a fluid orientation, despite some conflicting signals from GLOBE and Trompenaars.",
+        "skeptic_reasoning": "Adversarial check on Structure=19: resist midpoint bias and compression. The evidence strongly supports fluidity: Hofstede UAI=46 (low), Schwartz Harmony low, WVS relativism and scepticism high. CI is 15.4-22.3. Score of 19 sits near the centre of the CI, reflecting strong but not extreme fluidity. Why not lower: GLOBE future orientation and Trompenaars sequential time orientation push toward higher structure, creating genuine tension (conflict_score 0.43). Why not higher: the dominant signal from Hofstede UAI, Schwartz Harmony, and WVS scepticism clearly points to low structure; raising would contradict the strongest evidence. Most decisive evidence: Hofstede UAI=46, Schwartz Harmony, WVS relativism/scepticism.",
+        "integrator_decision": "Structure adjusted from baseline 18.8 to 22 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6853): coverage=1.0, agreement=1.0, evidence=0.658, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 22,
+          "considered_alternatives": [
+            19
+          ],
+          "why_rejected": {
+            "19": "19 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "22 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (19) and the CI ceiling (22), so pushing past 22 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (19) and the CI floor (15), so going below 22 would understate the measured signal.",
+        "integrator_recommendation": 32.64,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 22",
+        "clamp_adjustment": -10.64,
+        "absolute_score_rationale": "United States sits at 22 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 19 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate United States's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would imply markedly more Certain; the evidence and framework signal do not support pushing United States that far toward Certain.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing United States that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing United States that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing United States that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 22 means everyday life in United States leans toward Fluid: institutions, norms and expression skew toward Fluid.",
+        "final_rationale": "Why 22 is justified: United States sits at 22 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 19 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (19) and the CI floor (15), so going below 22 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (19) and the CI ceiling (22), so pushing past 22 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C19, W_historical_analyst_claim_10, W_cultural_anthropologist_c8. The integrator recommendation was 32.6; the framework limit (UPPER CI 22) applied, so the final published score became 22.",
+        "executive_explanation": "United States sits at 22 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 19 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (19) and the CI ceiling (22), so pushing past 22 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (19) and the CI floor (15), so going below 22 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=3.16. Framework consensus=55.87, signal_strength=0.6053, conflict=0.4329. Within the framework range [15-22], 22 sits at ~95% of the permitted span. Confidence MEDIUM (score 0.6853): coverage=1.0, agreement=1.0, evidence=0.658, stability=1.0."
+      },
+      {
+        "country": "United States",
+        "iso3": "USA",
+        "dimension": "D4",
+        "baseline_score": 60.39910328,
+        "final_score": 61,
+        "change_amount": 0.6,
+        "change_percent": 0.99,
+        "adjustment_type": "ROUNDING",
+        "summary": "United States's Drive is placed at 61 (Accepting 3 <-> Striving 97). Within the framework range [59-62], 61 sits at ~71% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C22",
+          "W_institutional_analyst_C23",
+          "W_institutional_analyst_C25"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 9.09,
+          "globe": 27.27,
+          "schwartz": 27.27,
+          "wvs": 9.09,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Hofstede Masculinity for USA is high (62), GLOBE Performance Orientation is among the highest globally, Schwartz Mastery is elevated, Trompenaars achievement orientation is strong. Signal strength 0.68, agreement 0.63, no conflicting frameworks. CI is 59.0-61.8. Score of 61 sits at the top of the CI, reflecting the strong achievement and performance orientation of US culture. Why not lower: GLOBE Performance Orientation and Hofstede Masculinity both independently confirm above-average drive; the American Dream narrative, meritocracy emphasis, and competitive achievement culture are globally distinctive. Why not higher: CI ceiling is 61.8; the conflict_score 0.37 and GLOBE Humane Orientation signal moderate the pure striving signal, and the USA is not at the extreme end of mastery cultures globally. Anchor-relative: 11 points above Turkey (50), consistent with moderately elevated but not extreme achievement orientation.",
+        "comparativist_reasoning": "The USA's culture values achievement and success, as reflected in Hofstede's Masculinity score and GLOBE's Performance Orientation. However, the cultural emphasis on work-life balance and personal fulfillment prevents a score at the very top of the CI. Compared to Turkey, which is the anchor at 50, the USA is more striving.",
+        "country_specialist_reasoning": "The USA's cultural emphasis on achievement and ambition is evident in its high GLOBE Performance Orientation and Hofstede's Masculinity score. However, the presence of values promoting harmony and contentment tempers this drive, placing it moderately above the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Drive=60: resist midpoint bias and compression. The evidence supports moderate striving: Hofstede Masculinity=62, GLOBE Performance Orientation high, Schwartz Mastery moderate. CI is 59.0-61.8. Score of 60 sits near the centre of the CI, reflecting moderate but not extreme striving. Why not lower: Hofstede Masculinity and GLOBE Performance Orientation clearly point above Turkey anchor (50); American culture values achievement and ambition. Why not higher: Schwartz Mastery is moderate, and GLOBE Humane Orientation tempers pure mastery; the CI ceiling is 61.8. Most decisive evidence: Hofstede Masculinity, GLOBE Performance Orientation, Schwartz Mastery.",
+        "integrator_decision": "Drive adjusted from baseline 60.4 to 61 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6833): coverage=1.0, agreement=0.971, evidence=0.682, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 61,
+          "considered_alternatives": [
+            60
+          ],
+          "why_rejected": {
+            "60": "60 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "61 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal.",
+        "integrator_recommendation": 70.57,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 62",
+        "clamp_adjustment": -9.57,
+        "absolute_score_rationale": "United States sits at 61 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate United States's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate United States's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate United States's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing United States that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing United States that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 61 means everyday life in United States leans toward Striving: institutions, norms and expression skew toward Striving.",
+        "final_rationale": "Why 61 is justified: United States sits at 61 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C22, W_institutional_analyst_C23, W_institutional_analyst_C25. The integrator recommendation was 70.6; the framework limit (UPPER CI 62) applied, so the final published score became 61.",
+        "executive_explanation": "United States sits at 61 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (60) already reflected this evidence, so the council confirmed 61 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.60 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [59-62], 61 sits at ~71% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "CAN",
+        "country": "Canada",
+        "d1": 86.0,
+        "d2": 83.0,
+        "d3": 44.0,
+        "d4": 59.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 36.0,
+        "reason": "United States is above the South Korea Identity anchor (50) by 36.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 21.0,
+        "reason": "United States is above the Turkey Expression anchor (50) by 21.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 11.0,
+        "reason": "United States is above the Turkey Drive anchor (50) by 11.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 28.0,
+        "reason": "United States is below the Colombia Structure anchor (50) by 28.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "USA",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=64"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "[]"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 64.0,
+        "midpoint_dimensions": [],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico high in-group collectivism, moderate performance orientation, high humane orientation",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "Certain",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Mexico low autonomy/choice scores, high life satisfaction, scepticism signals",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "USA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 90.0,
+          "strongest_supporting": "The U.S. is among the most individualistic societies, with distinct ‘rugged individualism’ tied to frontier history.",
+          "strongest_opposing": "Some U.S. regions with frontier legacy show stronger local communal values and particularism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 97.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Facial movement intensity in emotional expressions differs in the U.S., indicating cultural-specific display tendencies and structural freedom.",
+          "strongest_opposing": "Chinese Americans exhibit less emotional expressiveness, even within U.S. context, indicating internal cultural variation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Over 200 years, American culture has loosened, showing increasing tolerance for deviance and creative diversity alongside order.",
+          "strongest_opposing": "The cultural shift suggests reduced baseline rigidity over time, although not eliminating everyday order.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c8",
+            "c9"
+          ],
+          "opposing_evidence_ids": [
+            "c10"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Rugged individualism historically encouraged self‑reliance and performance, aligning with high Drive orientation.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c11",
+            "c12"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "USA",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 93.0,
+          "strongest_supporting": "The U.S. had a Hofstede Individualism score of 91 in Hofstede's original study—the highest in the world—defining it as the benchmark individualist society globally.",
+          "strongest_opposing": "Research proposes a long-term convergence in which the U.S. has become somewhat more collectivist since Hofstede's original study, potentially reflecting growing demographic and cultural diversity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 97.0,
+          "confidence": 0.95,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07"
+          ],
+          "opposing_evidence_ids": [
+            "C08",
+            "C09"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 72.0,
+          "strongest_supporting": "Individuals from individualistic cultures such as the U.S. tend to exhibit more explicit and polarised emotional expressions, whereas collectivist cultures favour moderated and contextually nuanced emotional articulation.",
+          "strongest_opposing": "Individualistic consumers like Americans provide more direct feedback but this directness is transactional rather than emotionally revealing, suggesting expressiveness is often instrumental rather than deeply affective.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 42.0,
+          "strongest_supporting": "Low uncertainty avoidance in the USA is linked empirically to higher entrepreneurial activity: uncertainty-tolerant cultures generate more startups and self-employment, and the USA exemplifies this pattern.",
+          "strongest_opposing": "Some analysts classify the USA as 'moderate' rather than 'low' UAI, noting that Americans both respect existing systems and welcome new ideas—combining elements of rule-deference and ambiguity-tolerance.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 50.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C16",
+            "C17",
+            "C18",
+            "C19"
+          ],
+          "opposing_evidence_ids": [
+            "C20",
+            "C21"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 80.0,
+          "strongest_supporting": "The United States scores 62 on Hofstede's Masculinity dimension, explicitly characterised as a society driven by competition, achievement, and success—placing it well above the global midpoint.",
+          "strongest_opposing": "Younger American cohorts (Millennials and Gen Z) show a growing discourse around work-life balance and wellbeing over career ambition, representing a modest generational shift toward accepting, relationship-prioritising values.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "C22",
+            "C23",
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "opposing_evidence_ids": [
+            "C27"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 91.0,
+          "strongest_supporting": "Tocqueville observed in the 1830s that American customs and laws promoted individual independence and self-reliance, which he called 'individualism'—a calm and considered feeling that disposes each citizen to isolate himself from the mass of his fellows.",
+          "strongest_opposing": "Pew Research Center surveys show that 57% of Americans believe that government should do more to help people, indicating a communitarian impulse alongside individualist rhetoric.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 97.0,
+          "confidence": 0.95,
+          "supporting_evidence_ids": [
+            "claim_1",
+            "claim_2",
+            "claim_3"
+          ],
+          "opposing_evidence_ids": [
+            "claim_4",
+            "claim_5"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Tocqueville noted the American habit of speaking freely and without deference, contrasting with European class-bound reserve and suggesting a cultural openness in expression.",
+          "strongest_opposing": "The same emotional labor research reveals that many Americans learn to suppress negative emotions in public, such as anger or sadness, to maintain professional neutrality, which tempers full openness.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 75.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "claim_6",
+            "claim_7"
+          ],
+          "opposing_evidence_ids": [
+            "claim_8",
+            "claim_9"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Hofstede et al. (2010) report US Uncertainty Avoidance at 46, below the global mean, indicating a culture relatively comfortable with uncertainty, ambiguity, and unstructured situations.",
+          "strongest_opposing": "Sennett (2006) argues that flexible capitalism in the US has eroded old bureaucratic structures but created new forms of control (e.g., short-term contracts, performance metrics) that still impose a kind of order, though less rigid than before.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 32.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_10",
+            "claim_11"
+          ],
+          "opposing_evidence_ids": [
+            "claim_12",
+            "claim_13",
+            "claim_14"
+          ]
+        },
+        {
+          "iso3": "USA",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Weber linked American capitalism to a 'spirit of capitalism' that treats profit and hard work as moral duties, driving continual striving.",
+          "strongest_opposing": "Sennett observes a shift among younger American workers toward prioritizing quality of life, work-life balance, and meaningful relationships over raw achievement in the new flexible economy.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "claim_15",
+            "claim_16",
+            "claim_17"
+          ],
+          "opposing_evidence_ids": [
+            "claim_18",
+            "claim_19"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "USA",
+          "dimension": "D1",
+          "baseline_score": 83.19859951,
+          "specialist_recommendation": 91.333,
+          "specialist_confidence": 0.9167,
+          "evidence_strength": 0.7182,
+          "evidence_quality": 0.6904,
+          "disagreement_index": 0.0499,
+          "specialist_influence_weight": 0.6753,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.68 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "USA",
+          "dimension": "D2",
+          "baseline_score": 73.3026663,
+          "specialist_recommendation": 69.0,
+          "specialist_confidence": 0.76,
+          "evidence_strength": 0.6941,
+          "evidence_quality": 0.631,
+          "disagreement_index": 0.2592,
+          "specialist_influence_weight": 0.6292,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "USA",
+          "dimension": "D3",
+          "baseline_score": 18.84460456,
+          "specialist_recommendation": 44.0,
+          "specialist_confidence": 0.74,
+          "evidence_strength": 0.6579,
+          "evidence_quality": 0.641,
+          "disagreement_index": 0.1728,
+          "specialist_influence_weight": 0.6059,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "USA",
+          "dimension": "D4",
+          "baseline_score": 60.39910328,
+          "specialist_recommendation": 78.333,
+          "specialist_confidence": 0.8167,
+          "evidence_strength": 0.6824,
+          "evidence_quality": 0.6153,
+          "disagreement_index": 0.0943,
+          "specialist_influence_weight": 0.6199,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.62 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "USA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D2 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=91: differs by 8 from the statistician reading of 83.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=78: differs by 5 from the statistician reading of 73.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=40: differs by 21 from the statistician reading of 19.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 21.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=66: differs by 5 from the statistician reading of 61.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=68: differs by 10 from the comparativist reading of 78.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=30: differs by 10 from the comparativist reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 11.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=71: differs by 5 from the comparativist reading of 66.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=83: differs by 8 from the country_specialist reading of 91.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=73: differs by 5 from the country_specialist reading of 68.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=19: differs by 11 from the country_specialist reading of 30.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "USA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=60: differs by 11 from the country_specialist reading of 71.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "USA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 90.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 3,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 2,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.95,
+          "evidence_count": 9,
+          "recommendation": 93.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 6,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 6,
+          "recommendation": 42.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 6,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.95,
+          "evidence_count": 5,
+          "recommendation": 91.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 75.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "USA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 5,
+          "recommendation": 75.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "USA",
+        "score_diversity": 0.2065,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6412,
+        "consensus_quality": 0.9958,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "USA",
+      "country": "United States",
+      "region": "North America",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 86,
+          "confidence": "HIGH",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.95,
+          "top_supporting_arguments": [
+            "American individualism has roots in Enlightenment ideals and frontier self‑reliance, seen in founding documents and cultural ethos of ‘rugged individualism’.",
+            "The U.S. is among the most individualistic societies, with distinct ‘rugged individualism’ tied to frontier history.",
+            "Individualistic cultures like the U.S. place high value on personal objects tied to unique persons, reflecting self‑defined identity."
+          ],
+          "top_counter_arguments": [
+            "Research proposes a long-term convergence in which the U.S. has become somewhat more collectivist since Hofstede's original study, potentially reflecting growing demographic and cultural diversity.",
+            "Sub-cultural pockets within the USA—particularly immigrant communities from collectivist backgrounds—maintain group-identity norms that partially offset the dominant individualist baseline.",
+            "Putnam's 'Bowling Alone' documented a decline in American social capital and community engagement, suggesting a historical tradition of civic association and collective problem-solving that counterbalances pure individualism."
+          ],
+          "why_this_score": "United States sits at 86 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 83 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (83) and the CI ceiling (86), so pushing past 86 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (83) and the CI floor (80), so going below 86 would understate the measured signal.",
+          "related_countries": [
+            "Canada"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "s2",
+              "title": "Cultural history of the United States – American individualism",
+              "url": "https://en.wikipedia.org/wiki/Cultural_history_of_the_United_States",
+              "author": "Wikipedia contributors",
+              "publication_year": 2026,
+              "excerpt": "American individualism has roots in Enlightenment ideals and frontier self‑reliance, seen in founding documents and cultural ethos of ‘rugged individualism’.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c2",
+              "source_id": "s1",
+              "title": "The Moral Values of “Rugged Individualism”",
+              "url": "http://www.nber.org/papers/w32433.pdf",
+              "author": "Samuel Bazzi, Martin Fiszbein, Maximiliano Garcia",
+              "publication_year": 2024,
+              "excerpt": "The U.S. is among the most individualistic societies, with distinct ‘rugged individualism’ tied to frontier history.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c3",
+              "source_id": "s6",
+              "title": "Individualism and the Extended‑Self: Cross‑Cultural",
+              "url": "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0090787&type=printable",
+              "author": "Yale etc.",
+              "publication_year": 2025,
+              "excerpt": "Individualistic cultures like the U.S. place high value on personal objects tied to unique persons, reflecting self‑defined identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 71,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.741,
+          "top_supporting_arguments": [
+            "Facial movement intensity in emotional expressions differs in the U.S., indicating cultural-specific display tendencies and structural freedom.",
+            "European Americans (proxy for mainstream U.S.) show more variable and positive affect than Chinese Americans, indicating freer emotional expression.",
+            "Chinese Americans exhibit less emotional expressiveness, even within U.S. context, indicating internal cultural variation."
+          ],
+          "top_counter_arguments": [
+            "Corporate 'professionalism' norms in American workplaces can suppress raw emotional display, creating a surface performance of positivity ('customer service smile') rather than authentic emotional openness.",
+            "Individualistic consumers like Americans provide more direct feedback but this directness is transactional rather than emotionally revealing, suggesting expressiveness is often instrumental rather than deeply affective.",
+            "The same emotional labor research reveals that many Americans learn to suppress negative emotions in public, such as anger or sadness, to maintain professional neutrality, which tempers full openness."
+          ],
+          "why_this_score": "United States sits at 71 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~66), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (76), so pushing past 71 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (73) and the CI floor (71), so going below 71 would understate the measured signal.",
+          "related_countries": [
+            "Canada"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c5",
+              "source_id": "s3",
+              "title": "Sequential dynamics of culturally moderated facial expressions of emotion",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19754526/",
+              "author": "David Matsumoto et al.",
+              "publication_year": 2009,
+              "excerpt": "Facial movement intensity in emotional expressions differs in the U.S., indicating cultural-specific display tendencies and structural freedom.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c6",
+              "source_id": "s4",
+              "title": "Cultures of Moderation and Expression in Chinese Americans and Mexican Americans",
+              "url": "https://www.researchgate.net/publication/7761969_Cultures_of_Moderation_and_Expression_Emotional_Experience_Behavior_and_Physiology_in_Chinese_Americans_and_Mexican_Americans",
+              "author": "José Angel Soto et al.",
+              "publication_year": 2005,
+              "excerpt": "European Americans (proxy for mainstream U.S.) show more variable and positive affect than Chinese Americans, indicating freer emotional expression.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c7",
+              "source_id": "s4",
+              "title": "Cultures of Moderation and Expression in Chinese Americans and Mexican Americans",
+              "url": "https://www.researchgate.net/publication/7761969_Cultures_of_Moderation_and_Expression_Emotional_Experience_Behavior_and_Physiology_in_Chinese_Americans_and_Mexican_Americans",
+              "author": "José Angel Soto et al.",
+              "publication_year": 2005,
+              "excerpt": "Chinese Americans exhibit less emotional expressiveness, even within U.S. context, indicating internal cultural variation.",
+              "dimension": "D2",
+              "support_direction": "supports_lower"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 22,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.827,
+          "top_supporting_arguments": [
+            "Over 200 years, American culture has loosened, showing increasing tolerance for deviance and creative diversity alongside order.",
+            "Despite looseness, American culture maintains structured norms and institutions, reflecting a balance of order and creativity.",
+            "The cultural shift suggests reduced baseline rigidity over time, although not eliminating everyday order."
+          ],
+          "top_counter_arguments": [
+            "The United States is a canonical example of a low uncertainty-avoidance culture, meaning Americans are comparatively comfortable with ambiguity, open to change, and less reliant on strict rules and regulations.",
+            "In educational settings, the USA is classified as low uncertainty-avoidance: students are comfortable with open-ended inquiry and teachers saying 'I don't know'—contrasting with high-UAI cultures like China and Japan.",
+            "American culture is open to change and creativity; it focuses on adapting quickly to new threats and promotes a flexible, rather than rule-bound, approach to uncertainty."
+          ],
+          "why_this_score": "United States sits at 22 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 19 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (19) and the CI ceiling (22), so pushing past 22 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (19) and the CI floor (15), so going below 22 would understate the measured signal.",
+          "related_countries": [
+            "Canada"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c8",
+              "source_id": "s5",
+              "title": "The loosening of American culture over 200 years is associated with a creativity–order trade‑off",
+              "url": "https://www.nature.com/articles/s41562-018-0516-z",
+              "author": "Unnamed",
+              "publication_year": 2018,
+              "excerpt": "Over 200 years, American culture has loosened, showing increasing tolerance for deviance and creative diversity alongside order.",
+              "dimension": "D3",
+              "support_direction": "supports_lower"
+            },
+            {
+              "claim_id": "c9",
+              "source_id": "s5",
+              "title": "The loosening of American culture over 200 years is associated with a creativity–order trade‑off",
+              "url": "https://www.nature.com/articles/s41562-018-0516-z",
+              "author": "Unnamed",
+              "publication_year": 2018,
+              "excerpt": "Despite looseness, American culture maintains structured norms and institutions, reflecting a balance of order and creativity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c10",
+              "source_id": "s5",
+              "title": "The loosening of American culture over 200 years is associated with a creativity–order trade‑off",
+              "url": "https://www.nature.com/articles/s41562-018-0516-z",
+              "author": "Unnamed",
+              "publication_year": 2018,
+              "excerpt": "The cultural shift suggests reduced baseline rigidity over time, although not eliminating everyday order.",
+              "dimension": "D3",
+              "support_direction": "supports_lower"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 61,
+          "confidence": "MEDIUM",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.906,
+          "top_supporting_arguments": [
+            "Founding ideals promoting individual rights and free expression underscore a strong achievement‑oriented ethos.",
+            "Rugged individualism historically encouraged self‑reliance and performance, aligning with high Drive orientation.",
+            "The United States scores 62 on Hofstede's Masculinity dimension, explicitly characterised as a society driven by competition, achievement, and success—placing it well above the global midpoint."
+          ],
+          "top_counter_arguments": [
+            "Younger American cohorts (Millennials and Gen Z) show a growing discourse around work-life balance and wellbeing over career ambition, representing a modest generational shift toward accepting, relationship-prioritising values.",
+            "Putnam's research shows a long American tradition of civic engagement and collective well-being, which includes valuing relationships and community over pure competition.",
+            "Sennett observes a shift among younger American workers toward prioritizing quality of life, work-life balance, and meaningful relationships over raw achievement in the new flexible economy."
+          ],
+          "why_this_score": "United States sits at 61 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~64), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal.",
+          "related_countries": [
+            "Canada"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c11",
+              "source_id": "s2",
+              "title": "Cultural history of the United States – American individualism",
+              "url": "https://en.wikipedia.org/wiki/Cultural_history_of_the_United_States",
+              "author": "Wikipedia contributors",
+              "publication_year": 2026,
+              "excerpt": "Founding ideals promoting individual rights and free expression underscore a strong achievement‑oriented ethos.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c12",
+              "source_id": "s1",
+              "title": "The Moral Values of “Rugged Individualism”",
+              "url": "http://www.nber.org/papers/w32433.pdf",
+              "author": "Samuel Bazzi, Martin Fiszbein, Maximiliano Garcia",
+              "publication_year": 2024,
+              "excerpt": "Rugged individualism historically encouraged self‑reliance and performance, aligning with high Drive orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C22",
+              "source_id": "S17",
+              "title": "United States vs. Mexico on Hofstede's Dimensions – PSU PDXScholar",
+              "url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1878&context=honorstheses",
+              "author": "Portland State University Honors Thesis",
+              "publication_year": 2021,
+              "excerpt": "The United States scores 62 on Hofstede's Masculinity dimension, explicitly characterised as a society driven by competition, achievement, and success—placing it well above the global midpoint.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

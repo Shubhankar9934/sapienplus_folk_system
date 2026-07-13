@@ -1,0 +1,2434 @@
+{
+  "iso3": "MYS",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-07T12:15:05.228811+00:00",
+  "cultural_profile": {
+    "iso3": "MYS",
+    "country": "Malaysia",
+    "region": "Southeast Asia",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 34,
+        "reading": "Group-oriented",
+        "explanation": "Malaysia's identity is deeply collectivist, with group loyalty and ethnic identity defining the self."
+      },
+      {
+        "dimension": "D2",
+        "score": 38,
+        "reading": "Understated",
+        "explanation": "Emotional expression is restrained, with an emphasis on patience and respect in public interactions."
+      },
+      {
+        "dimension": "D3",
+        "score": 28,
+        "reading": "Flexible",
+        "explanation": "A relaxed approach to time and rules reflects a cultural comfort with ambiguity and low need for strict structure."
+      },
+      {
+        "dimension": "D4",
+        "score": 41,
+        "reading": "Relaxed",
+        "explanation": "While some ethnic groups exhibit strong achievement drive, the overall cultural orientation balances striving with quality of life."
+      }
+    ],
+    "executive_summary": "Malaysia is a tapestry of ethnic diversity, where collective identity and social harmony are paramount. Emotional restraint and indirect communication are cultural norms, while a relaxed attitude towards time reflects a low need for strict structure. The country's multi-ethnic festivals and communal activities highlight its vibrant social life.",
+    "cultural_archetype": {
+      "title": "The Communal Improviser",
+      "summary": "A society that thrives on collective identity and flexibility, balancing tradition with modernity.",
+      "claim_ids": [
+        "claim1",
+        "claim2"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Cross-cultural communication training",
+      "Community-focused initiatives"
+    ],
+    "culture_at_a_glance": [
+      "While formal structures exist, especially in business contexts, everyday life often prioritizes adaptability over strict adherence to rules.",
+      "Indirect communication is the norm, with strategic use of silence and polite phrasing to maintain harmony and avoid conflict.",
+      "Islamic principles and ethnic identity strongly influence societal norms, reinforcing a collective orientation.",
+      "Malaysia's low uncertainty avoidance is reflected in a relaxed attitude towards time and rules, with 'tidak apa' embodying a cultural acceptance of imperfections.",
+      "A relaxed approach to time is common, with flexible punctuality and a 'tidak apa' attitude prevalent in daily interactions.",
+      "Multi-ethnic festivals are vibrant and open, showcasing Malaysia's cultural diversity and context-dependent emotional openness."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Flexible Structure",
+        "confidence": {
+          "evidence_strength": 64,
+          "expert_agreement": 60,
+          "framework_agreement": 57,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "While formal structures exist, especially in business contexts, everyday life often prioritizes adaptability over strict adherence to rules.",
+            "claim_ids": [
+              "C26",
+              "c11",
+              "c15"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Malaysia's low uncertainty avoidance is reflected in a relaxed attitude towards time and rules, with 'tidak apa' embodying a cultural acceptance of imperfections.",
+            "claim_ids": [
+              "C21",
+              "C22",
+              "C23"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "British colonial policies reinforced ethnic divisions, shaping Malaysia's collective identity and institutional structures.",
+        "claim_ids": [
+          "C28"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Achievement",
+        "explanation": "While Malaysia is deeply collectivist, individual achievement, especially among certain ethnic groups, is also highly valued.",
+        "claim_ids": [
+          "c17",
+          "C11"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "A relaxed approach to time is common, with flexible punctuality and a 'tidak apa' attitude prevalent in daily interactions.",
+          "claim_ids": [
+            "C22",
+            "c11"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Multi-ethnic festivals are vibrant and open, showcasing Malaysia's cultural diversity and context-dependent emotional openness.",
+          "claim_ids": [
+            "c9",
+            "c20"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Relationships and trust are central in Malaysian workplaces, where colleagues often form close personal bonds.",
+          "claim_ids": [
+            "C07",
+            "C08"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Hierarchy is respected, with indirect communication and harmony being prioritized in professional interactions.",
+          "claim_ids": [
+            "C14",
+            "C15"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Indirect communication is the norm, with strategic use of silence and polite phrasing to maintain harmony and avoid conflict.",
+          "claim_ids": [
+            "claim6",
+            "C13",
+            "c5"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Friendships are deeply tied to ethnic and religious identities, with language flexibility being a valuable social asset.",
+          "claim_ids": [
+            "c2",
+            "C19",
+            "c14"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Islamic principles and ethnic identity strongly influence societal norms, reinforcing a collective orientation.",
+          "claim_ids": [
+            "C05",
+            "C06",
+            "c3"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Public displays of emotion or conflict are frowned upon, with face-saving being crucial in maintaining social harmony.",
+          "claim_ids": [
+            "C17",
+            "c7"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Life in Malaysia flows at a relaxed pace, with a 'tidak apa' attitude towards time and imperfections. Relationships are central, with trust and personal bonds forming the backbone of both social and professional interactions. Ethnic diversity enriches daily life, with multi-ethnic festivals providing vibrant expressions of cultural identity.",
+      "claim_ids": [
+        "C22",
+        "C07",
+        "c9"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The strategic use of silence and indirect communication can initially confuse newcomers accustomed to directness.",
+        "claim_ids": [
+          "claim6",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The strong emphasis on ethnic and religious identity is immediately noticeable in social and professional settings.",
+        "claim_ids": [
+          "c2",
+          "C06"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "A relaxed approach to time and rules, embodied by the 'tidak apa' mentality, is evident in daily interactions.",
+        "claim_ids": [
+          "C22",
+          "C23"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Building strong personal relationships and trust is key to success in Malaysian business and social contexts.",
+        "claim_ids": [
+          "C07",
+          "C08"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Understanding and respecting ethnic and religious identities can facilitate smoother social interactions and professional collaborations.",
+        "claim_ids": [
+          "c2",
+          "C19"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to navigate the indirect communication style and face-saving norms can lead to misunderstandings and social friction.",
+        "claim_ids": [
+          "C12",
+          "C17"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C19"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C19"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C19"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C19"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C07"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Tidak apa",
+        "meaning": "A pervasive attitude of 'never mind' or 'it's okay', reflecting acceptance of imperfections and a relaxed approach to rules.",
+        "claim_ids": [
+          "C23"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C10",
+          "c4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals tend to exhibit more individualistic traits, while rural communities maintain stronger traditional and collectivist values.",
+        "claim_ids": [
+          "C10",
+          "c4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "PHL",
+        "country": "Philippines",
+        "similarity": 95,
+        "explanation": "Malaysia and the Philippines share a collectivist orientation and a relaxed approach to time, but Malaysia's stronger emphasis on ethnic identity sets it apart.",
+        "claim_ids": [
+          "claim1",
+          "c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "similarity": 94,
+        "explanation": "Both Malaysia and Vietnam value social harmony and indirect communication, yet Malaysia's multi-ethnic composition adds a layer of complexity to its social fabric.",
+        "claim_ids": [
+          "claim6",
+          "c14"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "IDN",
+        "country": "Indonesia",
+        "similarity": 92,
+        "explanation": "Malaysia and Indonesia share Islamic influences and a collectivist culture, but Malaysia's legal and institutional frameworks create distinct societal dynamics.",
+        "claim_ids": [
+          "C05",
+          "C06"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MMR",
+        "country": "Myanmar (formerly Burma)",
+        "similarity": 89,
+        "explanation": "Malaysia and Myanmar both have diverse ethnic groups, but Malaysia's institutionalized ethnic policies and stronger economic development differentiate it.",
+        "claim_ids": [
+          "C28",
+          "c3"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Ethnic and Religious Integration",
+        "explanation": "Malaysia's unique integration of ethnic and religious identities into its national framework sets it apart from its neighbors.",
+        "claim_ids": [
+          "C06",
+          "c3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Relaxed Structural Approach",
+        "explanation": "The 'tidak apa' mentality and flexible approach to time and rules distinguish Malaysia from more structured societies like Vietnam.",
+        "claim_ids": [
+          "C22",
+          "C23"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More flexible than Myanmar (formerly Burma)",
+        "dimension": "D3",
+        "neighbour_iso3": "MMR",
+        "delta": -19
+      },
+      {
+        "text": "More expressive than Indonesia",
+        "dimension": "D2",
+        "neighbour_iso3": "IDN",
+        "delta": 15
+      },
+      {
+        "text": "More community-oriented than Singapore",
+        "dimension": "D1",
+        "neighbour_iso3": "SGP",
+        "delta": -14
+      },
+      {
+        "text": "More easygoing than Singapore",
+        "dimension": "D4",
+        "neighbour_iso3": "SGP",
+        "delta": -14
+      },
+      {
+        "text": "More structured than Singapore",
+        "dimension": "D3",
+        "neighbour_iso3": "SGP",
+        "delta": 11
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede’s Individualism score for Malaysia is very low (around 20–26), indicating a strongly collectivist society where identity is defined by group—family, ethnicity, community—over the individual; ethnographic evidence among Temiar groups further supports strong collective self-representation, especially among traditional and Muslim converts compared to Christian converts.",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Malaysia's Hofstede Individualism score of 26 is among the lowest globally, firmly anchoring D1 at the collectivist end. This is corroborated by the GLOBE project's high in-group collectivism (5.51 practiced) and experimental self-concept data showing Malaysians produce significantly more group-referenced self-descriptions than British or Australian subjects. The dominant Malay ethnic identity is structurally fused with Islam through constitutional law (being Malay legally requires being Muslim), reinforcing a religio-ethnic collective self. The Chinese-Malaysian sub-community adds a Confucian in-group layer, and Indian-Malaysians maintain caste/community ties; all three major ethnic groups converge on group-over-individual identity, though through different cultural vehicles. British colonialism imported a race-based administrative framework (Bumiputera/non-Bumiputera) that institutionalised group identity into law, employment, and education policy (NEP), further cementing collective rather than individual self-conception. Counter-evidence: urbanisation and a growing youth cohort (Gen Z) show measurably lower power-distance adherence; the Malaysian Chinese business culture shows individual entrepreneurship; and diaspora studies find second-generation Malaysians shift toward higher individualism. These are real but marginal adjustments — the structural and measured signal is overwhelmingly collectivist. Score set at 18 (well below midpoint, confirming near-collective end), consistent with Hofstede IDV=26.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Malaysia is strongly collectivist, anchored by Hofstede's Individualism score of 26 (one of the lowest globally). Ethnic identity (Malay, Chinese, Indian) and religious group (Islam, Buddhism, Hinduism) profoundly shape personal identity. Family, community, and ethnic loyalty are paramount, and individual achievement is typically framed in service to the group. A small, urban-educated professional class shows somewhat more individualist leanings, but the baseline remains heavily social.",
+          "suggested_score": 20
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Malaysian display rules emphasize culturally normative emotional restraint: the study of Malay emotion concepts (marah, sabar, hormat) suggests structured emotional hierarchy; findings about ethnic differences (e.g. Minangkabau more expressive than Malay) point to variable but generally restrained emotional expression; the value of silence in interactions further indicates restraint rather than open affect.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Multiple converging institutional and ethnographic sources describe Malaysian communication as structurally indirect, harmony-oriented, and face-preserving. The combination of high power distance (PDI=100) with collectivism creates a strong structural suppressor of expressive disagreement: subordinates 'may struggle to express opinions that differ from their leaders' (Cultural Atlas); indirect communication is the documented workplace norm across Malay, Chinese, and Indian sub-cultures. Face-saving (maruah for Malays, mianzi for Chinese) constrains public emotional expression, especially negative or contentious affect. The Hofstede Indulgence score is relatively high (57), which is a counter-signal — it captures hedonic enjoyment and suggests emotional life is not fully suppressed in casual/festive contexts. Malaysia's multi-ethnic setting also means expressive norms vary: Malaysian Chinese business culture tends toward more direct commercial communication; the Indian community is more expressively demonstrative in family/social contexts. Nonetheless, the dominant institutional and public sphere norm is restrained, especially in mixed-ethnic settings where no single community's expressive style dominates, leading to a cautious, moderating middle ground. Score 30 reflects clearly restrained baseline (not rock-bottom like Japan or Singapore) with upward adjustment for the high indulgence score and the ethnic diversity that produces pockets of more open expression.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Malaysia is moderately restrained. Emotional expression is hierarchical: open and warm within the in-group (family, close friends) but reserved and polite with strangers, elders, and authority figures. The concept of 'budi' (courtesy, propriety) and 'menjaga air muka' (saving face) suppresses direct emotional display in public and formal settings. However, the multi-ethnic public sphere allows for more emotional variety than in purely Confucian cultures, and festivals (Hari Raya, Chinese New Year, Deepavali) are lively, sanctioned release valves. Openness is context-dependent, not universal.",
+          "suggested_score": 45
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence such as strong collectivist structures implies high reliance on social norms and conformity, and cultural pressures against cohabitation indicate a need for order and predictability in social behavior, suggesting moderate-to-high Structure.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Uncertainty Avoidance Index for Malaysia is 36, placing it squarely in the low-UAI cluster — a genuinely measured signal of high tolerance for ambiguity. GLOBE data complicates this with higher practiced uncertainty avoidance (4.87), suggesting real-world institutional behaviour involves more rule-following than the value survey captures; this is an important nuance but does not flip the direction. The locally-famous 'tidak apa' (never mind / it doesn't matter) attitude is documented in Malaysian public discourse — political commentators, consumer associations, and op-eds describe a pervasive cultural tolerance for incomplete rules, lax enforcement, and acceptance of ambiguity. The weak-UAI also manifests in flexible timekeeping and a relaxed attitude toward procedural norms in daily life, noted in cross-cultural management studies. Counter-evidence: the ethnic Chinese sub-community scores higher on UAI and prefers meticulous planning; the Bumiputera NEP framework generates extensive institutional rule structures; and Islamic governance of Malay personal law creates a dense rule environment. However, these counter-signals belong partly to governance quality (not a dimension) or to sub-ethnic variance. The base rate for the national aggregate remains low-structure. Score 40 reflects genuinely low-to-moderate Structure (below midpoint, consistent with UAI=36), with mild upward adjustment for the GLOBE discrepancy and the Chinese-Malaysian high-UAI sub-culture.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Malaysia sits near the midpoint. Malay bureaucratic culture has moderate certainty needs: punctuality is valued but not rigidly enforced ('jam karet' or rubber time is common). Islamic rules provide structure for Muslims, and ethnic communalism creates predictable social codes. Yet the multi-ethnic, multi-religious composition forces constant negotiation and flexibility, making the society accustomed to ambiguity. The legal system is pluralistic (civil, Sharia, customary), and enforcement is inconsistent. Counter-evidence (relaxed enforcement, ad-hoc problem-solving) balances the predictability of ethnic-religious sorting.",
+          "suggested_score": 50
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Masculinity score for Malaysia is 50, sitting precisely at the global midpoint — the strongest measured anchor. GLOBE assertiveness data shows Malaysia below average. Self-reported national culture studies find participants describing Malaysian culture as 'tend to be feminine but could still be considered masculine,' reflecting the ambivalence in the data. There is genuine differentiation by sub-ethnic community: Malaysian Chinese business culture emphasises strong achievement orientation, hard work, and competitive performance — consistent with high Drive. Malay cultural values (influenced by Islamic concepts of rezeki — God-given livelihood — and community obligation via zakat) de-emphasise individual striving and competition, aligning with lower Drive. The 'tidak apa' attitude documented across multiple sources is also a D4 counter-signal: it reflects an accepting, non-striving orientation toward outcomes. The NEP/Bumiputera affirmative action system structurally reduces incentives for competitive achievement among the Malay majority. Against this, Malaysia's Vision 2020 development project and rapid economic growth have generated institutional achievement norms; the professional class in KL/Penang shows high career aspiration. On balance, the midpoint anchor holds with a slight downward nudge for the accepting-orientation evidence from Malay-dominant cultural norms. Score 42 sits just below midpoint, consistent with MAS=50 but adjusting modestly for the documented accepting orientation and sub-ethnic complexity.",
+          "suggested_score": 42
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Malaysia is moderately striving, reflecting Hofstede's Masculinity of 50 (midpoint). The major ethnic groups show different drives: Chinese-Malaysians are strongly achievement-oriented (business, education), while the Malay-Muslim majority has a more balanced work-life orientation, supported by Islamic values of contentment. The state-led affirmative action (NEP/Bumiputera) both drives achievement among targeted Malays but also introduces non-meritocratic elements. Overall work ethic is high, especially in urban areas, but not at the level of Northeast Asian 'drive' cultures. The counter-evidence includes a slower pace and stronger valuation of leisure and family time.",
+          "suggested_score": 60
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C05",
+      "source_id": "S05",
+      "title": "Cultural Dimensions of Malay Cultures: Performance of IT (IJRTE)",
+      "url": "https://www.ijrte.org/wp-content/uploads/papers/v8i2S2/B10040782S219.pdf",
+      "author": "",
+      "publication_year": 2019,
+      "excerpt": "Islamic teaching (emphasis on societal over individual welfare, the zakat wealth-redistribution mechanism) and the Malay concept of 'budi' (collective well-being over personal desires) both structurally reinforce collectivism among the Malay ethnic majority.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S17",
+      "title": "What are the similarities and differences between Indonesia, Malaysia, and the Philippines? — Quora",
+      "url": "https://www.quora.com/What-are-the-similarities-and-differences-between-Indonesia-Malaysia-and-the-Philippines",
+      "author": "Multiple contributors",
+      "publication_year": 2023,
+      "excerpt": "In Malaysia, Malay identity is constitutionally bound to Islam, making religion, ethnicity, and group identity legally and institutionally inseparable — a unique structural reinforcement of collective identity not found in Indonesia or the Philippines.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S11",
+      "title": "Ethnicity at workplace: Value and culture of Malaysian Malay tradition in organization (ResearchGate)",
+      "url": "https://researchgate.net/publication/342655756_Ethnicity_at_workplace_Value_and_culture_of_Malaysian_Malay_tradition_in_organization",
+      "author": "",
+      "publication_year": 2019,
+      "excerpt": "Malaysian organisational culture emphasises high importance of human relationships and trust; employees do not solely regard colleagues as workmates but also as friends, reflecting a collectivist orientation where personal relationships surface within work.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S07",
+      "title": "Cross Cultural Management Guide for Malaysia — Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/management-guides/malaysia-management-guide",
+      "author": "",
+      "publication_year": 2022,
+      "excerpt": "It is still common for Malaysian employees to behave harmoniously and subjugate their personal desires to the needs of the group; Malaysian managers take a paternalistic view of their role, extending concern for employees beyond the workplace to family, housing, and health.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S09",
+      "title": "Malaysian Business Culture — Cultural Atlas (SBS)",
+      "url": "https://culturalatlas.sbs.com.au/malaysian-culture/malaysian-culture-business-culture",
+      "author": "",
+      "publication_year": 2022,
+      "excerpt": "A study of Generation Z university students in Malaysia found their effective Power Distance score was 63, substantially lower than Hofstede's national score of 100, indicating that younger urban Malaysians are shifting toward more autonomous, less deferential orientations.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S12",
+      "title": "Impact of Hofstede's cultural dimensions on sustainable competitive advantage among Malaysian ethnic entrepreneurs (ScienceDirect)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001691824004165",
+      "author": "",
+      "publication_year": 2024,
+      "excerpt": "Research on Malaysian ethnic entrepreneurs finds indulgence, collectivism, and low power distance positively influence entrepreneurial innovativeness across all three ethnic groups (Malay, Chinese, Indian), suggesting entrepreneurial individual agency coexists with collectivist identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S07",
+      "title": "Cross Cultural Management Guide for Malaysia — Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/management-guides/malaysia-management-guide",
+      "author": "",
+      "publication_year": 2022,
+      "excerpt": "The Malaysian communication style is characterised as indirect, soft, and conflict-avoiding; losing one's temper in a professional or social context causes loss of face and signals unworthiness of respect and trust.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S10",
+      "title": "Malaysia Work Culture 2023 — NNRoad",
+      "url": "https://nnroad.com/blog/malaysia-work-culture/",
+      "author": "",
+      "publication_year": 2023,
+      "excerpt": "Malaysians tend to be indirect in communication, preferring a polite and respectful approach; this indirect style can lead to ambiguity in information exchange, which is a recognised challenge for foreign professionals.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S09",
+      "title": "Malaysian Business Culture — Cultural Atlas (SBS)",
+      "url": "https://culturalatlas.sbs.com.au/malaysian-culture/malaysian-culture-business-culture",
+      "author": "",
+      "publication_year": 2022,
+      "excerpt": "Malaysian workplaces are strongly tiered by age and position; given the depth of hierarchy, subordinates may struggle to express opinions that differ from those of leaders — structural hierarchy suppresses expressive disagreement.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S11",
+      "title": "Ethnicity at workplace: Value and culture of Malaysian Malay tradition in organization (ResearchGate)",
+      "url": "https://researchgate.net/publication/342655756_Ethnicity_at_workplace_Value_and_culture_of_Malaysian_Malay_tradition_in_organization",
+      "author": "",
+      "publication_year": 2019,
+      "excerpt": "Indirect communication, respect for hierarchy, and the importance of maintaining harmony are documented as the core cultural norms shaping organisational interaction across Malaysia's multi-ethnic workforce.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S07",
+      "title": "Cross Cultural Management Guide for Malaysia — Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/management-guides/malaysia-management-guide",
+      "author": "",
+      "publication_year": 2022,
+      "excerpt": "Face-saving (maruah) is explicitly important in Malaysian professional interactions: decisions require consensus first, and public display of negative emotion or conflict is actively avoided to preserve group harmony.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S19",
+      "title": "Cross-Cultural Differences and Their Impact on Organizational Management (EcoHumanism)",
+      "url": "https://ecohumanism.co.uk/joe/ecohumanism/article/download/5594/5382/14105",
+      "author": "",
+      "publication_year": 2024,
+      "excerpt": "In Malaysia's multicultural environment, speaking multiple languages is a significant social asset; language flexibility signals cultural sensitivity and facilitates expressive connection with colleagues from diverse backgrounds.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S06",
+      "title": "The Consequence of Malaysian National Culture Values (Procedia Social and Behavioral Sciences)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877042814042050",
+      "author": "Sumaco et al.",
+      "publication_year": 2014,
+      "excerpt": "Malaysia scores 36 on Hofstede's Uncertainty Avoidance Index, indicating a low preference for avoiding uncertainty; low-UAI societies maintain a relaxed attitude where practice counts more than principles.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S06",
+      "title": "The Consequence of Malaysian National Culture Values (Procedia Social and Behavioral Sciences)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877042814042050",
+      "author": "Sumaco et al.",
+      "publication_year": 2014,
+      "excerpt": "Malaysian participants in a national culture self-assessment study acknowledged high tolerance for lack of timeliness ('people are not on time'), procrastination, and a 'tidak apa' (it's okay) mentality that accepts things as they are rather than seeking change — consistent with weak uncertainty avoidance.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S14",
+      "title": "'Tidak apa' attitudes that lead to negligence — Free Malaysia Today",
+      "url": "https://www.freemalaysiatoday.com/category/nation/2016/06/19/tidak-apa-attitudes-that-lead-to-negligence",
+      "author": "",
+      "publication_year": 2016,
+      "excerpt": "The 'tidak apa' (never mind / it doesn't matter) attitude is documented by Malaysian civil society organisations and journalists as a pervasive national pattern of non-action and acceptance of substandard outcomes, including professional negligence — a concrete marker of low structure and low drive to enforce norms.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S07",
+      "title": "Cross Cultural Management Guide for Malaysia — Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/management-guides/malaysia-management-guide",
+      "author": "",
+      "publication_year": 2022,
+      "excerpt": "Malaysian corporate culture includes strict rules of behaviour governing specific business situations, and formal management styles with adherence to rules and regulations are reported as common in many sectors — a moderate structure counter-signal.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S17",
+      "title": "What are the similarities and differences between Indonesia, Malaysia, and the Philippines? — Quora",
+      "url": "https://www.quora.com/What-are-the-similarities-and-differences-between-Indonesia-Malaysia-and-the-Philippines",
+      "author": "Multiple contributors",
+      "publication_year": 2023,
+      "excerpt": "British colonialism established race-based administrative and legal frameworks in Malaysia (Bumiputera/non-Bumiputera distinctions, NEP quotas) that created a dense bureaucratic institutional structure shaping economic and educational life.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s3",
+      "title": "Doing Business in Malaysia",
+      "url": "https://www.worldcat.org/title/doing-business-in-malaysia/oclc/43555144",
+      "author": "R. A. Barron",
+      "publication_year": 2000,
+      "excerpt": "In practice, 'jam karet' (rubber time) is common; meetings start late, deadlines are flexible, queuing is loose—showing low punctuality rigidity.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c14",
+      "source_id": "s2",
+      "title": "Culture and Customs of Malaysia",
+      "url": "https://www.worldcat.org/title/culture-and-customs-of-malaysia/oclc/52429867",
+      "author": "Jaime K. Brown",
+      "publication_year": 2003,
+      "excerpt": "Ethnic segmentation provides predictable social codes: one knows how to behave with Malays vs. Chinese vs. Indians in most situations.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c15",
+      "source_id": "s5",
+      "title": "Islamic Law in Malaysia: The Challenge of Enforcement",
+      "url": "https://www.ajuronline.org/uploads/Volume%208%20Issue%202/3_Islamic_Law_in_Malaysia_8_2_AJUR_181_217.pdf",
+      "author": "Abdul Aziz Bari",
+      "publication_year": 2018,
+      "excerpt": "Islamic rules (halal, prayer times, fasting) give daily structure for Muslims, a majority; public life is partly organized around these.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c17",
+      "source_id": "s7",
+      "title": "The Chinese Business Ethos in Malaysia",
+      "url": "https://www.worldcat.org/title/chinese-business-ethos-in-malaysia/oclc/60653987",
+      "author": "S. L. Wong",
+      "publication_year": 2004,
+      "excerpt": "Chinese-Malaysians exhibit strong achievement drive in business and education, showing high striving in one major ethnic group.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "Culture and Customs of Malaysia",
+      "url": "https://www.worldcat.org/title/culture-and-customs-of-malaysia/oclc/52429867",
+      "author": "Jaime K. Brown",
+      "publication_year": 2003,
+      "excerpt": "In Malaysia, identity is deeply tied to ethnic group (Malay, Chinese, Indian) and religion; personal decisions like marriage and career are often family and community matters.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c20",
+      "source_id": "s2",
+      "title": "Culture and Customs of Malaysia",
+      "url": "https://www.worldcat.org/title/culture-and-customs-of-malaysia/oclc/52429867",
+      "author": "Jaime K. Brown",
+      "publication_year": 2003,
+      "excerpt": "Leisure, family gatherings, and community events are highly valued; 'makan' (eating together) is a central social activity, not just fuel for work.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s6",
+      "title": "Ethnic Relations and Nation-Building in Malaysia",
+      "url": "https://www.worldcat.org/title/ethnic-relations-and-nation-building-in-malaysia/oclc/680452978",
+      "author": "Abdul Rahman Embong",
+      "publication_year": 2002,
+      "excerpt": "Affirmative-action policies (NEP) reinforce ethnic group identity, making social identity a primary organizing principle of public and private life.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Malaysia",
+      "url": "https://www.hofstede-insights.com/country-comparison/malaysia/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede also shows moderate individualism (IDV 26 is low but not extremely low; e.g., Indonesia 14, Philippines 32); urban professionals show more individualistic traits.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s2",
+      "title": "Culture and Customs of Malaysia",
+      "url": "https://www.worldcat.org/title/culture-and-customs-of-malaysia/oclc/52429867",
+      "author": "Jaime K. Brown",
+      "publication_year": 2003,
+      "excerpt": "The Malay concept of 'budi' (courtesy, propriety) and 'menjaga air muka' (saving face) strongly regulates emotional expression in public and with strangers.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s6",
+      "title": "Ethnic Relations and Nation-Building in Malaysia",
+      "url": "https://www.worldcat.org/title/ethnic-relations-and-nation-building-in-malaysia/oclc/680452978",
+      "author": "Abdul Rahman Embong",
+      "publication_year": 2002,
+      "excerpt": "Hierarchical respect (age, status) suppresses overt emotional display; junior individuals defer to seniors in speech and demeanor.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Malaysia",
+      "url": "https://www.hofstede-insights.com/country-comparison/malaysia/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Malaysia's multi-ethnic festivals (Hari Raya, Chinese New Year, Deepavali) are open, lively celebrations with public emotional display, showing context-dependent openness.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim1",
+      "source_id": "turn0search20",
+      "title": "Malaysia is Individualism, with a low score of 20 compared to the world average of 40",
+      "url": null,
+      "author": null,
+      "publication_year": 2026,
+      "excerpt": "Malaysia’s Hofstede Individualism score is very low (around 20), indicating a collectivist orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim2",
+      "source_id": "turn0search19",
+      "title": "Malaysia’s low Individualism score (IDV = 26) reflects a strongly collectivist orientation",
+      "url": null,
+      "author": null,
+      "publication_year": 2024,
+      "excerpt": "Hofstede Insights data reports Malaysia’s Individualism (IDV) = 26, reinforcing strong collectivist culture.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim6",
+      "source_id": "turn0search7",
+      "title": "The Perceived Value of Silence and Spoken Words in Malaysian Interactions",
+      "url": null,
+      "author": "Kuang Ching Hei et al.",
+      "publication_year": 2015,
+      "excerpt": "Malaysians use silence strategically in conversation—silence more in personal issues, speech in sensitive topics—reflecting culturally normative restraint in expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 34,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 38,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 28,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 41,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 34.58092489,
+      "D2": 37.02466723,
+      "D3": 25.64402738,
+      "D4": 39.32143557
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 33.117332,
+        "hi": 36.04451778
+      },
+      "D2": {
+        "lo": 35.64382487,
+        "hi": 38.4055096
+      },
+      "D3": {
+        "lo": 22.72345137,
+        "hi": 28.5646034
+      },
+      "D4": {
+        "lo": 37.14806864,
+        "hi": 41.4948025
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "MYS",
+        "dimension": "D1",
+        "baseline": 34.58092489,
+        "final": 34.0,
+        "direction": "down",
+        "magnitude": 0.58,
+        "reason": "Identity adjusted from baseline 34.6 to 34 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 34 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "MYS",
+        "dimension": "D2",
+        "baseline": 37.02466723,
+        "final": 38.0,
+        "direction": "up",
+        "magnitude": 0.98,
+        "reason": "Expression adjusted from baseline 37.0 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 38 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "MYS",
+        "dimension": "D3",
+        "baseline": 25.64402738,
+        "final": 28.0,
+        "direction": "up",
+        "magnitude": 2.36,
+        "reason": "Structure adjusted from baseline 25.6 to 28 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 28 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "MYS",
+        "dimension": "D4",
+        "baseline": 39.32143557,
+        "final": 41.0,
+        "direction": "up",
+        "magnitude": 1.68,
+        "reason": "Drive adjusted from baseline 39.3 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 41 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 33.12,
+        "baseline": 34.58092489,
+        "framework_hi": 36.04,
+        "specialist_recommendation": 19.333,
+        "council_consensus": 35.0,
+        "integrator_recommendation": 25.92,
+        "llm_recommendation": 26.0,
+        "final": 34,
+        "available_range": 2.92,
+        "distance_from_baseline": -0.58,
+        "range_utilization": 30,
+        "clamp_adjustment": 8.08,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.88,
+        "distance_from_upper": 2.04,
+        "movement_reason": "Evidence-first placement of Identity at 34 (evidence credibility 0.64): specialist recommendation 19.333 blended with council consensus 35.0, with baseline reference 34.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 35.64,
+        "baseline": 37.02466723,
+        "framework_hi": 38.41,
+        "specialist_recommendation": 38.333,
+        "council_consensus": 37.0,
+        "integrator_recommendation": 37.76,
+        "llm_recommendation": 38.0,
+        "final": 38,
+        "available_range": 2.77,
+        "distance_from_baseline": 0.98,
+        "range_utilization": 85,
+        "clamp_adjustment": 0.24,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 2.36,
+        "distance_from_upper": 0.41,
+        "movement_reason": "Evidence-first placement of Expression at 38 (evidence credibility 0.62): specialist recommendation 38.333 blended with council consensus 37.0, with baseline reference 37.0 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 22.72,
+        "baseline": 25.64402738,
+        "framework_hi": 28.56,
+        "specialist_recommendation": 50.0,
+        "council_consensus": 25.28,
+        "integrator_recommendation": 39.45,
+        "llm_recommendation": 36.0,
+        "final": 28,
+        "available_range": 5.84,
+        "distance_from_baseline": 2.36,
+        "range_utilization": 90,
+        "clamp_adjustment": -11.45,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 5.28,
+        "distance_from_upper": 0.56,
+        "movement_reason": "Evidence-first placement of Structure at 28 (evidence credibility 0.63): specialist recommendation 50.0 blended with council consensus 25.28, with baseline reference 25.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 37.15,
+        "baseline": 39.32143557,
+        "framework_hi": 41.49,
+        "specialist_recommendation": 51.0,
+        "council_consensus": 40.11,
+        "integrator_recommendation": 45.89,
+        "llm_recommendation": 46.0,
+        "final": 41,
+        "available_range": 4.34,
+        "distance_from_baseline": 1.68,
+        "range_utilization": 89,
+        "clamp_adjustment": -4.89,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 3.85,
+        "distance_from_upper": 0.49,
+        "movement_reason": "Evidence-first placement of Drive at 41 (evidence credibility 0.60): specialist recommendation 51.0 blended with council consensus 40.11, with baseline reference 39.3 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Malaysia",
+        "iso3": "MYS",
+        "dimension": "D1",
+        "baseline_score": 34.58092489,
+        "final_score": 34,
+        "change_amount": -0.58,
+        "change_percent": -1.68,
+        "adjustment_type": "ROUNDING",
+        "summary": "Malaysia's Identity is placed at 34 (Social 3 <-> Self 97). Within the framework range [33-36], 34 sits at ~30% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C03",
+          "W_institutional_analyst_C04",
+          "W_institutional_analyst_C05"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 20.0,
+          "globe": 20.0,
+          "schwartz": 20.0,
+          "wvs": 20.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "All five frameworks converge on collectivist placement. Hofstede IDV=26, high PDI=100, strong GLOBE in-group collectivism, low Schwartz autonomy, low WVS choice/voice/autonomy, and Trompenaars communitarianism all point well below the South Korea anchor of 50. Signal strength=0.72, agreement=0.75, zero conflicting frameworks. CI is tight (33.1-36.0). The consensus=35.02 sits centrally in this CI. Why not lower: CI floor is 33.1 and the cross-framework average does not support going below 34. Why not higher: every contributing indicator places Malaysia more collectivist than South Korea (D1=50); no framework signals individualism. Most decisive evidence: Hofstede IDV=26 and GLOBE in-group collectivism scores among the highest globally.",
+        "comparativist_reasoning": "Malaysia's D1 score of 35 is justified by its strong collectivist orientation, as evidenced by Hofstede's Individualism score of 26 and high Power Distance Index of 100, which indicate a preference for group orientation and hierarchical structures. This places Malaysia well below the South Korea anchor of 50. Comparatively, Malaysia is more collectivist than its regional peers like Singapore (D1=47.7) and Vietnam (D1=41.1).",
+        "country_specialist_reasoning": "Malaysia's collectivist orientation is strongly supported by Hofstede's Individualism score of 26 and GLOBE's high in-group collectivism scores. These indicators place Malaysia well below the South Korea anchor of 50, confirming a strong collectivist identity.",
+        "skeptic_reasoning": "Adversarial check on Identity=35: resist midpoint bias and compression. The consensus is 35.02, CI [33.12, 36.04]. The evidence strongly supports collectivism: Hofstede IDV=26, GLOBE in-group collectivism practiced=5.51, valued=5.85, Schwartz embeddedness, WVS low autonomy. The score is justified at the lower end of the CI because the qualitative evidence (Islamic zakat, budi concept, Temiar collective self-representation) reinforces the quantitative signal. Why not lower: CI floor is 33.12; no framework suggests extreme collectivism beyond the CI. Why not higher: every indicator places Malaysia more collectivist than South Korea (D1=50); no individualism signal. Most decisive evidence: Hofstede IDV=26 and GLOBE in-group collectivism scores.",
+        "integrator_decision": "Identity adjusted from baseline 34.6 to 34 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: profile-compression check applied.",
+        "confidence_explanation": "Confidence HIGH (score 0.8286): coverage=1.0, agreement=1.0, evidence=0.668, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 34,
+          "considered_alternatives": [
+            35
+          ],
+          "why_rejected": {
+            "35": "35 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "34 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (35) and the CI ceiling (36), so pushing past 34 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (33), so going below 34 would understate the measured signal.",
+        "integrator_recommendation": 25.92,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 33",
+        "clamp_adjustment": 8.08,
+        "absolute_score_rationale": "Malaysia sits at 34 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Malaysia's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Malaysia that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Malaysia that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Malaysia that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Malaysia that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 34 means everyday life in Malaysia leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 34 is justified: Malaysia sits at 34 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (33), so going below 34 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (35) and the CI ceiling (36), so pushing past 34 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C03, W_institutional_analyst_C04, W_institutional_analyst_C05. The integrator recommendation was 25.9; the framework limit (LOWER CI 33) applied, so the final published score became 34.",
+        "executive_explanation": "Malaysia sits at 34 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (35) already reflected this evidence, so the council confirmed 34 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (35) and the CI ceiling (36), so pushing past 34 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (33), so going below 34 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.58 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [33-36], 34 sits at ~30% of the permitted span."
+      },
+      {
+        "country": "Malaysia",
+        "iso3": "MYS",
+        "dimension": "D2",
+        "baseline_score": 37.02466723,
+        "final_score": 38,
+        "change_amount": 0.98,
+        "change_percent": 2.65,
+        "adjustment_type": "ROUNDING",
+        "summary": "Malaysia's Expression is placed at 38 (Restrained 3 <-> Open 97). Within the framework range [36-38], 38 sits at ~85% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C15",
+          "W_institutional_analyst_C16",
+          "W_cultural_anthropologist_claim4"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 27.27,
+          "schwartz": 9.09,
+          "wvs": 9.09,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Hofstede Indulgence is on the restrained side, GLOBE assertiveness is low, and Trompenaars affective-neutral leans neutral/restrained. Consensus=68.85 is the highest of the four dimensions, signal strength=0.74, agreement=0.75, no conflicting frameworks. CI: 35.6-38.4. High PDI drives hierarchical suppression of emotional expression. Why not lower: CI floor is 35.6; the evidence does not support extreme restraint comparable to East Asian Confucian societies. Why not higher: no framework signals open emotional expression; all indicators are on the restrained side of Turkey anchor (D2=50). Score 37 reflects genuine restraint without over-compressing toward the floor.",
+        "comparativist_reasoning": "Malaysia's D2 score of 37 reflects its restrained emotional expression, influenced by a high Power Distance Index and low GLOBE assertiveness. This score is below the Turkey anchor of 50, indicating more hierarchical suppression of emotional expression. Compared to regional peers, Malaysia is more restrained than the Philippines (D2=44.9) and Myanmar (D2=41.1).",
+        "country_specialist_reasoning": "Malaysia's Expression is characterized by hierarchical suppression of emotional expression, as indicated by low Hofstede Indulgence and GLOBE assertiveness scores. This places Malaysia on the restrained side, below the Turkey anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Expression=37: resist midpoint bias and compression. Consensus=68.85 is the highest dimension, but CI [35.64, 38.41] is low. Hofstede Indulgence is restrained, GLOBE assertiveness low, Trompenaars affective-neutral neutral. High PDI (100) drives hierarchical suppression of emotion. Why not lower: CI floor is 35.64; no evidence of extreme restraint like East Asian Confucian societies. Why not higher: no framework signals open expression; all indicators are below Turkey anchor (50). Score 37 is at the upper edge of CI, reflecting moderate restraint without over-compression. Most decisive evidence: Hofstede Indulgence and GLOBE assertiveness.",
+        "integrator_decision": "Expression adjusted from baseline 37.0 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: profile-compression check applied.",
+        "confidence_explanation": "Confidence HIGH (score 0.8236): coverage=1.0, agreement=1.0, evidence=0.643, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 38,
+          "considered_alternatives": [
+            37
+          ],
+          "why_rejected": {
+            "37": "37 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "38 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (38), so pushing past 38 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (36), so going below 38 would understate the measured signal.",
+        "integrator_recommendation": 37.76,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.24,
+        "absolute_score_rationale": "Malaysia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Malaysia's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Malaysia that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Malaysia that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Malaysia that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Malaysia that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 38 means everyday life in Malaysia leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 38 is justified: Malaysia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (36), so going below 38 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (38), so pushing past 38 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C15, W_institutional_analyst_C16, W_cultural_anthropologist_claim4.",
+        "executive_explanation": "Malaysia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (37) already reflected this evidence, so the council confirmed 38 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (38), so pushing past 38 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (36), so going below 38 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.98 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [36-38], 38 sits at ~85% of the permitted span."
+      },
+      {
+        "country": "Malaysia",
+        "iso3": "MYS",
+        "dimension": "D3",
+        "baseline_score": 25.64402738,
+        "final_score": 28,
+        "change_amount": 2.36,
+        "change_percent": 9.2,
+        "adjustment_type": "CALIBRATION_ADJUSTMENT",
+        "summary": "Malaysia's Structure is placed at 28 (Fluid 3 <-> Certain 97). Within the framework range [23-29], 28 sits at ~90% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C21",
+          "W_institutional_analyst_C22",
+          "W_historical_analyst_c12"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "hofstede"
+        ],
+        "framework_contributions": {
+          "hofstede": 16.67,
+          "globe": 25.0,
+          "schwartz": 25.0,
+          "wvs": 8.33,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "D3 has the widest CI (22.7-28.6) and highest conflict score (0.43). Hofstede UAI=36 (low uncertainty avoidance, maps to D3 per framework rules) conflicts with GLOBE future orientation and Schwartz harmony signals. Per framework mapping, Hofstede UAI is the anchor measure for D3; GLOBE UA maps to D1, not D3. The entire CI sits well below 50, confirming a Fluid placement. Schwartz harmony and Trompenaars future-past suggest moderate structure-seeking but do not override the Hofstede UAI signal. Why not lower: CI floor is 22.7; Schwartz harmony and some GLOBE future orientation signals prevent going to the extreme fluid end. Why not higher: Hofstede UAI=36 is the primary anchor and places Malaysia clearly on the fluid side; CI ceiling is 28.6. Score 25 reflects the balance between the dominant Hofstede UAI signal and the moderating Schwartz/GLOBE signals.",
+        "comparativist_reasoning": "Malaysia's D3 score of 25 indicates a fluid approach to structure, supported by Hofstede's low Uncertainty Avoidance Index of 36. This score is significantly below the Colombia anchor of 50, suggesting a comfort with ambiguity. Malaysia is more fluid compared to regional peers like Myanmar (D3=46.8) and Vietnam (D3=32.2).",
+        "country_specialist_reasoning": "Malaysia's Structure dimension is fluid, with Hofstede's low Uncertainty Avoidance Index (UAI=36) indicating a tolerance for ambiguity. This places Malaysia well below the midpoint, confirming a fluid structure.",
+        "skeptic_reasoning": "Adversarial check on Structure=26: resist midpoint bias and compression. CI [22.72, 28.56] is wide, conflict score 0.43. Hofstede UAI=36 (low, maps to D3 per framework) conflicts with GLOBE future orientation and Schwartz harmony. Per mapping, Hofstede UAI is anchor for D3; GLOBE UA maps to D1. The entire CI is well below 50, confirming Fluid. Why not lower: CI floor is 22.72; Schwartz harmony and some GLOBE future orientation prevent extreme fluidity. Why not higher: Hofstede UAI=36 and no strong structure-seeking signal; GLOBE future orientation is moderate. Score 26 is near the middle of CI, reflecting moderate fluidity. Most decisive evidence: Hofstede UAI=36.",
+        "integrator_decision": "Structure adjusted from baseline 25.6 to 28 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: profile-compression check applied.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6606): coverage=1.0, agreement=0.971, evidence=0.69, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 28,
+          "considered_alternatives": [
+            25,
+            26
+          ],
+          "why_rejected": {
+            "25": "25 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "26": "26 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "28 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 28 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (25) and the CI floor (23), so going below 28 would understate the measured signal.",
+        "integrator_recommendation": 39.45,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 29",
+        "clamp_adjustment": -11.45,
+        "absolute_score_rationale": "Malaysia sits at 28 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Malaysia's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would imply markedly more Certain; the evidence and framework signal do not support pushing Malaysia that far toward Certain.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Malaysia that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Malaysia that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Malaysia that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 28 means everyday life in Malaysia leans toward Fluid: institutions, norms and expression skew toward Fluid.",
+        "final_rationale": "Why 28 is justified: Malaysia sits at 28 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (25) and the CI floor (23), so going below 28 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 28 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C21, W_institutional_analyst_C22, W_historical_analyst_c12. The integrator recommendation was 39.5; the framework limit (UPPER CI 29) applied, so the final published score became 28.",
+        "executive_explanation": "Malaysia sits at 28 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 28 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (25) and the CI floor (23), so going below 28 would understate the measured signal.",
+        "research_explanation": "Adjustment type CALIBRATION_ADJUSTMENT; |delta|=2.36. Framework consensus=55.6, signal_strength=0.6048, conflict=0.4293. Within the framework range [23-29], 28 sits at ~90% of the permitted span. Confidence MEDIUM (score 0.6606): coverage=1.0, agreement=0.971, evidence=0.69, stability=0.8."
+      },
+      {
+        "country": "Malaysia",
+        "iso3": "MYS",
+        "dimension": "D4",
+        "baseline_score": 39.32143557,
+        "final_score": 41,
+        "change_amount": 1.68,
+        "change_percent": 4.27,
+        "adjustment_type": "ROUNDING",
+        "summary": "Malaysia's Drive is placed at 41 (Accepting 3 <-> Striving 97). Within the framework range [37-41], 41 sits at ~89% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c18",
+          "W_historical_analyst_c17",
+          "W_historical_analyst_c20"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 16.67,
+          "schwartz": 25.0,
+          "wvs": 8.33,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "D4 has moderate conflict (0.35) with GLOBE performance orientation conflicting with Hofstede masculinity and Schwartz mastery. Per framework override rules, GLOBE Performance Orientation contributes to D4 Drive. Hofstede MAS=50 (exactly at midpoint), Schwartz mastery is moderate, Trompenaars ascription-achievement leans ascription. Consensus=44.62 sits just below the midpoint. Why not lower: CI floor is 37.1; Hofstede MAS=50 and moderate GLOBE performance orientation prevent a strongly accepting placement. Why not higher: Trompenaars ascription orientation, GLOBE humane orientation, and the overall harmony-seeking cultural profile prevent a strongly striving placement; CI ceiling is 41.5. Score 39 reflects a mildly accepting placement consistent with the mixed signals and the consensus near 44.",
+        "comparativist_reasoning": "Malaysia's D4 score of 41 reflects a moderate level of drive, with a cultural emphasis on harmony and contentment over ambition, as seen in Hofstede's Masculinity score. This is below the Turkey anchor of 50, indicating less emphasis on achievement. Malaysia's drive is similar to Indonesia (D4=41.9) but lower than Singapore (D4=54.6).",
+        "country_specialist_reasoning": "Malaysia's Drive dimension reflects a balance between striving and accepting, with cultural values emphasizing both achievement and contentment. This places Malaysia slightly below the Turkey anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Drive=39: resist midpoint bias and compression. CI [37.15, 41.49], consensus=44.62, conflict score 0.35. Hofstede Masculinity=50 (moderate), GLOBE Performance Orientation moderate, Schwartz mastery moderate. The score is at the lower edge of CI, reflecting a slightly accepting orientation. Why not lower: CI floor is 37.15; some achievement orientation exists (e.g., NEP, Bumiputera policies). Why not higher: GLOBE Humane Orientation is high, and Trompenaars external-internal suggests some acceptance; no strong striving signal. Score 39 is justified by the mixed evidence. Most decisive evidence: Hofstede Masculinity=50 and GLOBE Performance Orientation.",
+        "integrator_decision": "Drive adjusted from baseline 39.3 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint, profile-compression check applied.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6114): coverage=1.0, agreement=0.933, evidence=0.58, stability=0.6.",
+        "counterfactual": {
+          "selected_score": 41,
+          "considered_alternatives": [
+            39
+          ],
+          "why_rejected": {
+            "39": "39 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "41 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (41) and the CI ceiling (41), so pushing past 41 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (37), so going below 41 would understate the measured signal.",
+        "integrator_recommendation": 45.89,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 41",
+        "clamp_adjustment": -4.89,
+        "absolute_score_rationale": "Malaysia sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Malaysia's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Malaysia's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Malaysia that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Malaysia that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Malaysia that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 41 means everyday life in Malaysia leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 41 is justified: Malaysia sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (37), so going below 41 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (41) and the CI ceiling (41), so pushing past 41 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c18, W_historical_analyst_c17, W_historical_analyst_c20. The integrator recommendation was 45.9; the framework limit (UPPER CI 41) applied, so the final published score became 41.",
+        "executive_explanation": "Malaysia sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (39) already reflected this evidence, so the council confirmed 41 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (41) and the CI ceiling (41), so pushing past 41 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (37), so going below 41 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.68 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [37-41], 41 sits at ~89% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "PHL",
+        "country": "Philippines",
+        "d1": 37.07159304,
+        "d2": 44.86896013,
+        "d3": 28.57593407,
+        "d4": 45.7136857,
+        "relation": "regional"
+      },
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "d1": 41.09631923,
+        "d2": 31.63744853,
+        "d3": 32.23412952,
+        "d4": 36.31598098,
+        "relation": "regional"
+      },
+      {
+        "iso3": "IDN",
+        "country": "Indonesia",
+        "d1": 33.45472112,
+        "d2": 23.08255536,
+        "d3": 33.11783579,
+        "d4": 41.93868017,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SGP",
+        "country": "Singapore",
+        "d1": 47.71286189,
+        "d2": 34.13276517,
+        "d3": 16.5238949,
+        "d4": 54.58531106,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MMR",
+        "country": "Myanmar (formerly Burma)",
+        "d1": 34.41191947,
+        "d2": 41.0691613,
+        "d3": 46.78444714,
+        "d4": 48.1823623,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 16.0,
+        "reason": "Malaysia is below the South Korea Identity anchor (50) by 16.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 12.0,
+        "reason": "Malaysia is below the Turkey Expression anchor (50) by 12.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 9.0,
+        "reason": "Malaysia is below the Turkey Drive anchor (50) by 9.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 22.0,
+        "reason": "Malaysia is below the Colombia Structure anchor (50) by 22.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "MYS",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": false,
+            "detail": "range=13"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "flat_profile(range=13)",
+          "midpoint:D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": true,
+        "profile_range": 13.0,
+        "midpoint_dimensions": [
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": true,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Austria IDV=55, UAI=70, MAS=79, Indulgence~60",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Austria high assertiveness, high future orientation, high performance orientation, low in-group collectivism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Austria high intellectual and affective autonomy, moderate harmony",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Austria individualism, sequential time orientation, achievement orientation, affective-neutral tendency",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Morocco WVS autonomy and choice scores below global median indicating collectivist orientation",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      },
+      {
+        "citation": "Hofstede, G. (2011). Dimensionalizing Cultures: The Hofstede Model in Context. Online Readings in Psychology and Culture, 2(1).",
+        "source_type": "academic_journal",
+        "data_point": "Malaysia UAI=36 indicating low uncertainty avoidance, fluid D3 placement",
+        "url_or_doi": "https://doi.org/10.9707/2307-0919.1014",
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "fluid",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0006"
+      },
+      {
+        "citation": "Javidan, M., & House, R. J. (2001). Cultural acumen for the global manager: Lessons from Project GLOBE. Organizational Dynamics, 29(4), 289-305.",
+        "source_type": "academic_journal",
+        "data_point": "Malaysia GLOBE performance orientation moderate; humane orientation high",
+        "url_or_doi": "https://doi.org/10.1016/S0090-2616(01)00034-1",
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "accepting",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0007"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "MYS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Among Temiar indigenous groups, traditional and Muslim converts retain high collective self-representation in language (we/they), showing situational persistence of group-based identity.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2",
+            "claim3"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Malay cultural concepts emphasize controlled emotions—anger (marah), patience (sabar), respect (hormat)—suggesting normative emotional restraint.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "claim4",
+            "claim5",
+            "claim6"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Unmarried cohabiting couples face strong societal and familial pressure and stigma, indicating that predictability, normative expectations, and social conformity are salient.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "claim7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "Both Hofstede (IDV=26) and the GLOBE project (in-group collectivism practiced 5.51, valued 5.85) converge on Malaysia being strongly collectivist; society also wants even more collectivism than is currently practiced.",
+          "strongest_opposing": "A study of 450 Malaysian SMEs found significant subcultural divergence: long-term orientation significantly drives innovativeness only among Malaysian Chinese, not Malays, showing that ethnic sub-groups within Malaysia can follow partly individualist economic logics.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08"
+          ],
+          "opposing_evidence_ids": [
+            "C09",
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Indirect communication, respect for hierarchy, and the importance of maintaining harmony are documented as the core cultural norms shaping organisational interaction across Malaysia's multi-ethnic workforce.",
+          "strongest_opposing": "In Malaysia's multicultural environment, speaking multiple languages is a significant social asset; language flexibility signals cultural sensitivity and facilitates expressive connection with colleagues from diverse backgrounds.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16",
+            "C17"
+          ],
+          "opposing_evidence_ids": [
+            "C18",
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Malaysia scores 36 on Hofstede's Uncertainty Avoidance Index, indicating a low preference for avoiding uncertainty; low-UAI societies maintain a relaxed attitude where practice counts more than principles.",
+          "strongest_opposing": "The GLOBE project records Malaysia's practiced uncertainty avoidance at 4.87 (above the cross-national average), which diverges from Hofstede's low UAI=36, suggesting that real institutional behaviour involves more rule-reliance than the value survey captures.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 32.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "C21",
+            "C22",
+            "C23",
+            "C24"
+          ],
+          "opposing_evidence_ids": [
+            "C25",
+            "C26",
+            "C27",
+            "C28",
+            "C29"
+          ]
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 42.0,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 42.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C30",
+            "C31",
+            "C32",
+            "C33"
+          ],
+          "opposing_evidence_ids": [
+            "C34",
+            "C35",
+            "C36",
+            "C37"
+          ]
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "In Malaysia, identity is deeply tied to ethnic group (Malay, Chinese, Indian) and religion; personal decisions like marriage and career are often family and community matters.",
+          "strongest_opposing": "Hofstede also shows moderate individualism (IDV 26 is low but not extremely low; e.g., Indonesia 14, Philippines 32); urban professionals show more individualistic traits.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 45.0,
+          "strongest_supporting": "The Malay concept of 'budi' (courtesy, propriety) and 'menjaga air muka' (saving face) strongly regulates emotional expression in public and with strangers.",
+          "strongest_opposing": "Among close friends and family, emotional warmth and expressiveness are high; laughter, joking, and hospitality are abundant in in-group settings.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6",
+            "c7"
+          ],
+          "opposing_evidence_ids": [
+            "c8",
+            "c9"
+          ]
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 50.0,
+          "strongest_supporting": "The legal system is pluralistic (civil, Sharia, customary), and enforcement is inconsistent, creating a high-tolerance for ambiguity in formal structures.",
+          "strongest_opposing": "Islamic rules (halal, prayer times, fasting) give daily structure for Muslims, a majority; public life is partly organized around these.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 50.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11",
+            "c12"
+          ],
+          "opposing_evidence_ids": [
+            "c13",
+            "c14",
+            "c15"
+          ]
+        },
+        {
+          "iso3": "MYS",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Malay professionals often balance career with family and religious obligations; they value work-life balance, softening the overall drive.",
+          "strongest_opposing": "Leisure, family gatherings, and community events are highly valued; 'makan' (eating together) is a central social activity, not just fuel for work.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c16",
+            "c17",
+            "c18"
+          ],
+          "opposing_evidence_ids": [
+            "c19",
+            "c20"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "MYS",
+          "dimension": "D1",
+          "baseline_score": 34.58092489,
+          "specialist_recommendation": 19.333,
+          "specialist_confidence": 0.86,
+          "evidence_strength": 0.6682,
+          "evidence_quality": 0.6597,
+          "disagreement_index": 0.0377,
+          "specialist_influence_weight": 0.6351,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "MYS",
+          "dimension": "D2",
+          "baseline_score": 37.02466723,
+          "specialist_recommendation": 38.333,
+          "specialist_confidence": 0.7767,
+          "evidence_strength": 0.6429,
+          "evidence_quality": 0.6396,
+          "disagreement_index": 0.2494,
+          "specialist_influence_weight": 0.6234,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.62 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "MYS",
+          "dimension": "D3",
+          "baseline_score": 25.64402738,
+          "specialist_recommendation": 50.0,
+          "specialist_confidence": 0.7167,
+          "evidence_strength": 0.69,
+          "evidence_quality": 0.6578,
+          "disagreement_index": 0.3266,
+          "specialist_influence_weight": 0.6302,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "MYS",
+          "dimension": "D4",
+          "baseline_score": 39.32143557,
+          "specialist_recommendation": 51.0,
+          "specialist_confidence": 0.77,
+          "evidence_strength": 0.58,
+          "evidence_quality": 0.5224,
+          "disagreement_index": 0.36,
+          "specialist_influence_weight": 0.5982,
+          "rationale": "High specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "MYS",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=38: differs by 3 from the statistician reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=34: differs by 9 from the statistician reading of 25.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=43: differs by 4 from the statistician reading of 39.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=34: differs by 4 from the comparativist reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=42: differs by 6 from the comparativist reading of 36.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=68: differs by 34 from the comparativist reading of 34.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 43.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=37: differs by 5 from the country_specialist reading of 42.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=26: differs by 42 from the country_specialist reading of 68.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "MYS",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=39: differs by 6 from the country_specialist reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "MYS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 3,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 1,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "Insufficient ethnographic evidence on achievement-orientation versus harmony values in lived Malaysian culture.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "MYS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 11,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 9,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 9,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 8,
+          "recommendation": 42.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 6,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "MYS",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 60.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "MYS",
+        "score_diversity": 0.2397,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6663,
+        "consensus_quality": 0.9858,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "MYS",
+      "country": "Malaysia",
+      "region": "Southeast Asia",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 34,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.962,
+          "top_supporting_arguments": [
+            "A study of 450 Malaysian SMEs found significant subcultural divergence: long-term orientation significantly drives innovativeness only among Malaysian Chinese, not Malays, showing that ethnic sub-groups within Malaysia can follow partly individualist economic logics.",
+            "A study of Generation Z university students in Malaysia found their effective Power Distance score was 63, substantially lower than Hofstede's national score of 100, indicating that younger urban Malaysians are shifting toward more autonomous, less deferential orientations.",
+            "Research on Malaysian ethnic entrepreneurs finds indulgence, collectivism, and low power distance positively influence entrepreneurial innovativeness across all three ethnic groups (Malay, Chinese, Indian), suggesting entrepreneurial individual agency coexists with collectivist identity."
+          ],
+          "top_counter_arguments": [
+            "Malaysia’s Hofstede Individualism score is very low (around 20), indicating a collectivist orientation.",
+            "Hofstede Insights data reports Malaysia’s Individualism (IDV) = 26, reinforcing strong collectivist culture.",
+            "Among Temiar indigenous groups, traditional and Muslim converts retain high collective self-representation in language (we/they), showing situational persistence of group-based identity."
+          ],
+          "why_this_score": "Malaysia sits at 34 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (35) and the CI ceiling (36), so pushing past 34 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (33), so going below 34 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Vietnam",
+            "Indonesia",
+            "Singapore",
+            "Myanmar (formerly Burma)"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C09",
+              "source_id": "S13",
+              "title": "Culture values and entrepreneurial innovativeness: A comparative study of Malaysian ethnic entrepreneurs (Tandfonline)",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/00472778.2021.1934848",
+              "author": "",
+              "publication_year": 2021,
+              "excerpt": "A study of 450 Malaysian SMEs found significant subcultural divergence: long-term orientation significantly drives innovativeness only among Malaysian Chinese, not Malays, showing that ethnic sub-groups within Malaysia can follow partly individualist economic logics.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C10",
+              "source_id": "S09",
+              "title": "Malaysian Business Culture — Cultural Atlas (SBS)",
+              "url": "https://culturalatlas.sbs.com.au/malaysian-culture/malaysian-culture-business-culture",
+              "author": "",
+              "publication_year": 2022,
+              "excerpt": "A study of Generation Z university students in Malaysia found their effective Power Distance score was 63, substantially lower than Hofstede's national score of 100, indicating that younger urban Malaysians are shifting toward more autonomous, less deferential orientations.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S12",
+              "title": "Impact of Hofstede's cultural dimensions on sustainable competitive advantage among Malaysian ethnic entrepreneurs (ScienceDirect)",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0001691824004165",
+              "author": "",
+              "publication_year": 2024,
+              "excerpt": "Research on Malaysian ethnic entrepreneurs finds indulgence, collectivism, and low power distance positively influence entrepreneurial innovativeness across all three ethnic groups (Malay, Chinese, Indian), suggesting entrepreneurial individual agency coexists with collectivist identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 38,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.751,
+          "top_supporting_arguments": [
+            "Malaysia scores relatively high on Hofstede's Indulgence dimension (score 57), indicating the culture encourages enjoying life and acting on impulses — a counter-signal suggesting emotional life is not fully suppressed in informal/festive contexts.",
+            "In Malaysia's multicultural environment, speaking multiple languages is a significant social asset; language flexibility signals cultural sensitivity and facilitates expressive connection with colleagues from diverse backgrounds.",
+            "Participants in a self-assessment study described Malaysian culture as 'tend to be feminine but could still be considered masculine,' reflecting a mix of harmony orientation and some assertive expressiveness, particularly in commercial interactions."
+          ],
+          "top_counter_arguments": [
+            "Malay cultural concepts emphasize controlled emotions—anger (marah), patience (sabar), respect (hormat)—suggesting normative emotional restraint.",
+            "Study finds Minangkabau are significantly more emotionally expressive than Malay, indicating Malay restraint by comparison.",
+            "Malaysians use silence strategically in conversation—silence more in personal issues, speech in sensitive topics—reflecting culturally normative restraint in expression."
+          ],
+          "why_this_score": "Malaysia sits at 38 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~69), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (38), so pushing past 38 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (36), so going below 38 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Vietnam",
+            "Indonesia",
+            "Singapore",
+            "Myanmar (formerly Burma)"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C18",
+              "source_id": "S01",
+              "title": "Hofstede's Cultural Dimensions in Malaysia (Scribd document)",
+              "url": "https://www.scribd.com/document/319403721/Hofstede-in-Malaysia",
+              "author": "",
+              "publication_year": 2016,
+              "excerpt": "Malaysia scores relatively high on Hofstede's Indulgence dimension (score 57), indicating the culture encourages enjoying life and acting on impulses — a counter-signal suggesting emotional life is not fully suppressed in informal/festive contexts.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S19",
+              "title": "Cross-Cultural Differences and Their Impact on Organizational Management (EcoHumanism)",
+              "url": "https://ecohumanism.co.uk/joe/ecohumanism/article/download/5594/5382/14105",
+              "author": "",
+              "publication_year": 2024,
+              "excerpt": "In Malaysia's multicultural environment, speaking multiple languages is a significant social asset; language flexibility signals cultural sensitivity and facilitates expressive connection with colleagues from diverse backgrounds.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S06",
+              "title": "The Consequence of Malaysian National Culture Values (Procedia Social and Behavioral Sciences)",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1877042814042050",
+              "author": "Sumaco et al.",
+              "publication_year": 2014,
+              "excerpt": "Participants in a self-assessment study described Malaysian culture as 'tend to be feminine but could still be considered masculine,' reflecting a mix of harmony orientation and some assertive expressiveness, particularly in commercial interactions.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 28,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.673,
+          "top_supporting_arguments": [
+            "Unmarried cohabiting couples face strong societal and familial pressure and stigma, indicating that predictability, normative expectations, and social conformity are salient.",
+            "The GLOBE project records Malaysia's practiced uncertainty avoidance at 4.87 (above the cross-national average), which diverges from Hofstede's low UAI=36, suggesting that real institutional behaviour involves more rule-reliance than the value survey captures.",
+            "Malaysian corporate culture includes strict rules of behaviour governing specific business situations, and formal management styles with adherence to rules and regulations are reported as common in many sectors — a moderate structure counter-signal."
+          ],
+          "top_counter_arguments": [
+            "Malaysia scores 36 on Hofstede's Uncertainty Avoidance Index, indicating a low preference for avoiding uncertainty; low-UAI societies maintain a relaxed attitude where practice counts more than principles.",
+            "Malaysian participants in a national culture self-assessment study acknowledged high tolerance for lack of timeliness ('people are not on time'), procrastination, and a 'tidak apa' (it's okay) mentality that accepts things as they are rather than seeking change — consistent with weak uncertainty avoidance.",
+            "The 'tidak apa' (never mind / it doesn't matter) attitude is documented by Malaysian civil society organisations and journalists as a pervasive national pattern of non-action and acceptance of substandard outcomes, including professional negligence — a concrete marker of low structure and low drive to enforce norms."
+          ],
+          "why_this_score": "Malaysia sits at 28 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 28 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (25) and the CI floor (23), so going below 28 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Vietnam",
+            "Indonesia",
+            "Singapore",
+            "Myanmar (formerly Burma)"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim7",
+              "source_id": "turn0search8",
+              "title": "Cohabitation qualitative study challenges cultural stigma Malaysia",
+              "url": null,
+              "author": "Celeste Lee Xin Rou et al.",
+              "publication_year": 2026,
+              "excerpt": "Unmarried cohabiting couples face strong societal and familial pressure and stigma, indicating that predictability, normative expectations, and social conformity are salient.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C25",
+              "source_id": "S03",
+              "title": "Malaysia Culture and Economy (ResearchGate PDF)",
+              "url": "https://www.researchgate.net/publication/344287078_MALAYSIA_CULTURE_AND_ECONOMY",
+              "author": "",
+              "publication_year": 2020,
+              "excerpt": "The GLOBE project records Malaysia's practiced uncertainty avoidance at 4.87 (above the cross-national average), which diverges from Hofstede's low UAI=36, suggesting that real institutional behaviour involves more rule-reliance than the value survey captures.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C26",
+              "source_id": "S07",
+              "title": "Cross Cultural Management Guide for Malaysia — Commisceo Global",
+              "url": "https://www.commisceo-global.com/resources/management-guides/malaysia-management-guide",
+              "author": "",
+              "publication_year": 2022,
+              "excerpt": "Malaysian corporate culture includes strict rules of behaviour governing specific business situations, and formal management styles with adherence to rules and regulations are reported as common in many sectors — a moderate structure counter-signal.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 41,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.64,
+          "top_supporting_arguments": [
+            "Hofstede's Masculinity (MAS) for Malaysia is 50, exactly at the midpoint, indicating a balanced mix of striving and quality-of-life orientation.",
+            "Chinese-Malaysians exhibit strong achievement drive in business and education, showing high striving in one major ethnic group."
+          ],
+          "top_counter_arguments": [
+            "Malay professionals often balance career with family and religious obligations; they value work-life balance, softening the overall drive.",
+            "Malaysia's MAS of 50 is lower than China (66) or Japan (95), showing less pure competition/performance drive.",
+            "Leisure, family gatherings, and community events are highly valued; 'makan' (eating together) is a central social activity, not just fuel for work."
+          ],
+          "why_this_score": "Malaysia sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~45), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (41) and the CI ceiling (41), so pushing past 41 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (37), so going below 41 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Vietnam",
+            "Indonesia",
+            "Singapore",
+            "Myanmar (formerly Burma)"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c16",
+              "source_id": "s1",
+              "title": "Hofstede Insights: Malaysia",
+              "url": "https://www.hofstede-insights.com/country-comparison/malaysia/",
+              "author": "Hofstede Insights",
+              "publication_year": 2023,
+              "excerpt": "Hofstede's Masculinity (MAS) for Malaysia is 50, exactly at the midpoint, indicating a balanced mix of striving and quality-of-life orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c17",
+              "source_id": "s7",
+              "title": "The Chinese Business Ethos in Malaysia",
+              "url": "https://www.worldcat.org/title/chinese-business-ethos-in-malaysia/oclc/60653987",
+              "author": "S. L. Wong",
+              "publication_year": 2004,
+              "excerpt": "Chinese-Malaysians exhibit strong achievement drive in business and education, showing high striving in one major ethnic group.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

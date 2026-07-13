@@ -1,0 +1,2411 @@
+{
+  "iso3": "NLD",
+  "country": "Netherlands",
+  "region": "Western Europe",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T17:49:56.079881+00:00",
+  "cultural_profile": {
+    "iso3": "NLD",
+    "country": "Netherlands",
+    "region": "Western Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 92,
+        "reading": "Strongly independent",
+        "explanation": "The Netherlands is highly individualistic, emphasizing personal freedom and self-reliance while integrating consensus-driven approaches in decision-making."
+      },
+      {
+        "dimension": "D2",
+        "score": 66,
+        "reading": "Expressive",
+        "explanation": "Dutch culture permits open emotional expression and direct communication, free from hierarchical suppression, yet maintains a respect for privacy."
+      },
+      {
+        "dimension": "D3",
+        "score": 61,
+        "reading": "Structured",
+        "explanation": "The Dutch prefer structure and planning, but exhibit flexibility in certain social norms, reflecting a moderate approach to uncertainty."
+      },
+      {
+        "dimension": "D4",
+        "score": 30,
+        "reading": "Easygoing",
+        "explanation": "The Netherlands values quality of life and consensus over competition, reflecting a feminine culture that prioritizes relationships and well-being."
+      }
+    ],
+    "executive_summary": "The Netherlands is a land of independence, where personal freedom is cherished, but consensus and modesty are equally valued. Directness in communication is the norm, yet it coexists with a reserved nature that respects privacy. The Dutch balance a structured approach to life with a relaxed attitude towards indulgence, making for a society that is both organized and easygoing.",
+    "cultural_archetype": {
+      "title": "The Pragmatic Individualist",
+      "summary": "A society that values personal freedom and directness while maintaining a commitment to consensus and modesty.",
+      "claim_ids": [
+        "c1",
+        "c5",
+        "c3",
+        "c6"
+      ],
+      "sources_count": 4
+    },
+    "good_for": [
+      "Consensus-driven decision making",
+      "Direct communication environments",
+      "Work-life balance seekers",
+      "Cultural explorers valuing openness"
+    ],
+    "culture_at_a_glance": [
+      "The Netherlands is highly individualistic, with a strong emphasis on personal freedom and self-reliance, yet it integrates a unique consensus-driven approach in decision-making, known as the 'poldermodel'.",
+      "Dutch culture is marked by direct and open communication, where people say what they think without offense, yet there is a strong respect for personal privacy and space.",
+      "The Dutch culture values modesty and a high quality of life over competition, reflected in their low masculinity score and emphasis on work-life balance.",
+      "While the Dutch have a preference for planning and organization, they also exhibit a relaxed attitude towards certain social norms, such as queuing etiquette.",
+      "Success in the Netherlands often hinges on one's ability to navigate the balance between individual autonomy and collective decision-making, particularly in the workplace where the 'poldermodel' prevails.",
+      "Demonstrating directness and clarity in communication is valued and can lead to successful interactions in both personal and professional settings."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Individualism with a Collective Touch",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 90,
+          "framework_agreement": 79,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "The Netherlands is highly individualistic, with a strong emphasis on personal freedom and self-reliance, yet it integrates a unique consensus-driven approach in decision-making, known as the 'poldermodel'.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "C01",
+              "C02"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Dutch poldermodel, a consensus-based decision-making process, has historical roots in the need to manage water and land collaboratively.",
+            "claim_ids": [
+              "c3",
+              "C07"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Structured Flexibility",
+        "confidence": {
+          "evidence_strength": 60,
+          "expert_agreement": 56,
+          "framework_agreement": 84,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "While the Dutch have a preference for planning and organization, they also exhibit a relaxed attitude towards certain social norms, such as queuing etiquette.",
+            "claim_ids": [
+              "c8",
+              "C23",
+              "C20"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Calvinism has historically influenced Dutch culture, promoting a structured and conscientious lifestyle.",
+            "claim_ids": [
+              "C08",
+              "C19"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Directness and Privacy",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 56,
+          "framework_agreement": 37,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Low",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is mixed, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Dutch culture is marked by direct and open communication, where people say what they think without offense, yet there is a strong respect for personal privacy and space.",
+            "claim_ids": [
+              "c5",
+              "c2",
+              "C12",
+              "C13"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Modesty and Quality of Life",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 74,
+          "framework_agreement": 60,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "The Dutch culture values modesty and a high quality of life over competition, reflected in their low masculinity score and emphasis on work-life balance.",
+            "claim_ids": [
+              "c6",
+              "c10",
+              "C24",
+              "C25"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Calvinism has left a significant mark on Dutch culture, encouraging modesty, conscientiousness, and a structured approach to life.",
+        "claim_ids": [
+          "C08",
+          "C19"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individualism",
+        "but_also": "Consensus",
+        "explanation": "While the Dutch highly value individual freedom and self-reliance, there is also a strong cultural emphasis on consensus and collective decision-making.",
+        "claim_ids": [
+          "c1",
+          "c3",
+          "C07"
+        ],
+        "sources_count": 3
+      },
+      {
+        "pulls_toward": "Directness",
+        "but_also": "Privacy",
+        "explanation": "Dutch people are known for their direct communication style, yet they maintain a strong respect for personal privacy and space.",
+        "claim_ids": [
+          "c5",
+          "c2",
+          "C13"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Newcomers observe that Dutch people value privacy and personal space; they keep to themselves in public and expect others to do the same.",
+          "claim_ids": [
+            "c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Dutch culture emphasizes planning and punctuality; appointments are made well in advance and sticking to schedules is expected. The phrase 'afspraak is afspraak' (an appointment is an appointment) reflects high Structure.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Dutch workplaces embrace independence and autonomy in employee roles; employees are entrusted with a great deal of ownership over their work responsibilities.",
+          "claim_ids": [
+            "C03"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The concept of 'polderen' — consensus-building through dialogue — has permeated Dutch work culture, fostering collective decision-making; this communal procedural layer partially complicates a purely individualist picture.",
+          "claim_ids": [
+            "C07"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Dutch directness is a cultural norm: people say what they think openly, and disagreement is voiced without personal offense. This reflects emotional openness free from hierarchical suppression.",
+          "claim_ids": [
+            "c5"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Despite being very open and direct, the Dutch can also be reserved and private and seldom initiate interactions with strangers — indicating a structurally limited sphere of emotional openness.",
+          "claim_ids": [
+            "C13"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Calvinism has left a huge mark on Dutch culture, leading to descriptions of the Dutch as reserved, conscientious, and modest — qualities associated with a curbing of individual self-expression and promotion.",
+          "claim_ids": [
+            "C08"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Flamboyant behaviour is generally not appreciated in the Netherlands and one should not attract too much attention by displaying emotions in public — a structural norm suppressing expressive display.",
+          "claim_ids": [
+            "C09"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Living in the Netherlands means navigating a culture that values both personal freedom and community consensus. The Dutch are direct in their communication, yet they respect privacy and personal space. Life is structured and organized, but there's also a relaxed attitude towards certain social norms, creating a balance that newcomers must adapt to.",
+      "claim_ids": [
+        "c2",
+        "c5",
+        "c8",
+        "C07",
+        "C13"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Dutch directness is a cultural norm: people say what they think openly, and disagreement is voiced without personal offense. This reflects emotional openness free from hierarchical suppression.",
+        "claim_ids": [
+          "c5"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Newcomers observe that Dutch people value privacy and personal space; they keep to themselves in public and expect others to do the same.",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The Dutch are known for their affinity for organisation and planning; having a well-defined business strategy is considered essential for long-term growth, and meetings are structured with a clear agenda and specific objectives.",
+        "claim_ids": [
+          "C18"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in the Netherlands often hinges on one's ability to navigate the balance between individual autonomy and collective decision-making, particularly in the workplace where the 'poldermodel' prevails.",
+        "claim_ids": [
+          "c3",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Demonstrating directness and clarity in communication is valued and can lead to successful interactions in both personal and professional settings.",
+        "claim_ids": [
+          "c5",
+          "C12"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect the Dutch preference for privacy and personal space can lead to social friction, as the culture places a high value on these aspects.",
+        "claim_ids": [
+          "c2",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Ignoring the importance of planning and punctuality in Dutch culture can result in misunderstandings and a perception of unreliability.",
+        "claim_ids": [
+          "c8",
+          "C18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C13"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "C13"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C13"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C13"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C07"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Doe maar gewoon, dan doe je al gek genoeg",
+        "meaning": "Just act normal, that's crazy enough — a reminder to maintain modesty and avoid standing out.",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c12"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals often exhibit more individualistic and direct behaviors, while rural communities may adhere more closely to traditional and collective practices.",
+        "claim_ids": [
+          "c12",
+          "C13"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "FRA",
+        "country": "France",
+        "similarity": 84,
+        "explanation": "Both the Netherlands and France value individual expression and have a history of intellectual openness, although the Dutch tend to be more direct in communication.",
+        "claim_ids": [
+          "c5",
+          "C12"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "similarity": 84,
+        "explanation": "Andorra and the Netherlands share a focus on community and consensus, but the Dutch are more direct and individualistic in their interactions.",
+        "claim_ids": [
+          "c3",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "CHE",
+        "country": "Switzerland",
+        "similarity": 80,
+        "explanation": "The Netherlands and Switzerland both emphasize structure and planning, yet the Dutch are more open and less formal in their communication style.",
+        "claim_ids": [
+          "c8",
+          "C16"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "NIR",
+        "country": "NIR",
+        "similarity": 79,
+        "explanation": "Both the Netherlands and Northern Ireland value community and have a strong sense of identity, but the Dutch are more individualistic and direct in their approach.",
+        "claim_ids": [
+          "c1",
+          "c5"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Direct Yet Reserved",
+        "explanation": "The Dutch are known for their directness in communication, which is balanced by a strong sense of privacy and reserve, setting them apart from their European neighbors.",
+        "claim_ids": [
+          "c5",
+          "c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Poldermodel Consensus",
+        "explanation": "The unique Dutch 'poldermodel' of consensus-driven decision-making is a defining feature that distinguishes the Netherlands from other individualistic cultures.",
+        "claim_ids": [
+          "c3",
+          "C07"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More easygoing than United Kingdom",
+        "dimension": "D4",
+        "neighbour_iso3": "GBR",
+        "delta": -38
+      },
+      {
+        "text": "More easygoing than Switzerland",
+        "dimension": "D4",
+        "neighbour_iso3": "CHE",
+        "delta": -37
+      },
+      {
+        "text": "More independent than NIR",
+        "dimension": "D1",
+        "neighbour_iso3": "NIR",
+        "delta": 27
+      },
+      {
+        "text": "More easygoing than NIR",
+        "dimension": "D4",
+        "neighbour_iso3": "NIR",
+        "delta": -26
+      },
+      {
+        "text": "More structured than United Kingdom",
+        "dimension": "D3",
+        "neighbour_iso3": "GBR",
+        "delta": 22
+      },
+      {
+        "text": "More easygoing than Andorra",
+        "dimension": "D4",
+        "neighbour_iso3": "AND",
+        "delta": -22
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Netherlands scores very high on individualism. Hofstede and social research identify NL as highly individualistic; identities defined by the self more than by group or kin. Ethnographic critiques notwithstanding, lived experience emphasizes personal autonomy over group obligations.",
+          "suggested_score": 85
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Netherlands scores IDV=80 on the Hofstede framework — placing it firmly in the individualist quartile globally and well above the world mean. Hofstede-Insights confirms this explicitly: Dutch society exhibits a 'high preference for a loosely-knit social framework in which individuals are expected to take care of themselves and their immediate families only.' This is corroborated by GradGuide's independent synthesis (IDV=80, employer-employee relationships are 'contract-based and merit-driven'). The Leiden International Centre notes that Dutch organisations do have hierarchy but that employee identity is self-directed, and workplace sources consistently describe Dutch employees as prizing autonomy, personal ownership over tasks, and individual accountability. The anchor Hofstede score points clearly to a high D1. Two counter-nudges exist: (1) the 'polderen' consensus culture means collective buy-in is required on decisions — but this is a procedural preference, not a collapse of individual identity; it belongs to D3/D4. (2) The Calvinist communal legacy (thrift, modesty) restrains ostentatious individualism, but that again is a D2/D4 signal (no status display), not evidence that the Dutch define themselves through their group. Self-consistency check: IDV=80 → score must be high. Score is set at 85, slightly above the raw Hofstede conversion (≈83) to reflect the particularly strong contract-meritocracy norm in Dutch workplaces, which multiple independent sources confirm, but not at the very ceiling because the polderen norm and collective consensus ethos create a genuine (if procedural) communal layer.",
+          "suggested_score": 85
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Netherlands scores very high on Hofstede Individualism (80), indicating a society where individuals are expected to look after themselves and their immediate families. This is consistent with a strong tradition of personal autonomy, privacy, and self-reliance dating back to the Dutch Republic's bourgeois culture. The poldermodel consensus-seeking is a group-based decision process driven by self-interest negotiation, not collectivist loyalty.",
+          "suggested_score": 80
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Dutch culture demonstrates a preference for planning, structure, predictability—social life is scheduled; spontaneity can feel intrusive—indicating relatively high Structure.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Netherlands scores UAI=53 on Hofstede — the anchor measure for D3 — placing it just above the midpoint: a slight but not strong preference for uncertainty avoidance. Multiple independent sources (Hofstede-Insights, GradGuide, the weedacommunicatie blog, meeraa.wordpress) all corroborate UAI=53. The Leiden International Centre notes the Calvinist heritage produces a culture described as 'rule-driven' and 'conscientious.' Expatica specifically states 'the Dutch are known for their affinity for organisation and planning' and that 'having a well-defined business strategy is considered essential.' Multiple workplace guides confirm meetings are 'well-organised and structured, with a clear agenda and specific objectives.' These are genuine D3 signals — rules, predictability, planning preferences — and should not be confused with D1 (they have been correctly routed here, not to D1). Counter-evidence: the same Dutch score of 53 is explicitly labelled 'mid' and 'not strong' by GradGuide; the Netherlands has a long tradition of pragmatic adaptation (poldering, innovation in water management, trade flexibility), and multiple sources note Dutch culture does NOT rigidly resist innovation or change. The Hofstede-Insights description notes the Dutch 'slight preference' — this is not the structural anxiety of, say, Greece (UAI=112) or Japan (UAI=92). Score of 58 reflects the Hofstede anchor plus modest upward adjustment for the Calvinist rule-and-planning norm documented in institutional sources, while honouring the 'not strong' qualifier.",
+          "suggested_score": 58
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Netherlands scores high on Uncertainty Avoidance (53) but the strong normative orientation reflects a culture that desires rules, planning, and predictability. The proverb 'Doe maar gewoon, dan doe je al gek genoeg' (Just act normal, that's crazy enough) captures a deep need for order and aversion to deviance. The careful planning of daily life and the importance of appointments (afspraak is afspraak) reflect high Structure.",
+          "suggested_score": 80
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 is the most contested dimension for the Netherlands and requires careful routing of evidence. The Dutch are universally described as 'direct' and 'open' in communication — but the cheat sheet flags that directness/bluntness is NOT D2 openness (which measures freedom from hierarchical suppression of emotional display). Routing correctly: (a) Directness → communication style, not emotional display freedom → set aside for D2 scoring. (b) 'Flamboyant behaviour is not appreciated; one should not attract too much attention displaying emotions in public' (Leiden International Centre) → genuine D2 restraint signal. (c) 'Doe maar gewoon, doe maar gewoon, dan doe je al gek genoeg' — the widely documented Dutch modesty norm actively discourages emotional self-promotion and conspicuous expression → D2 restraint signal. (d) Against this: the Calvinist baseline creates emotional sobriety; yet the Dutch score 68 on Hofstede's Indulgence dimension (unverified in these searches but consistently cited in secondary literature), suggesting moderate expressive freedom in leisure contexts. (e) Research on Dutch vs. Iranian display rules (ResearchGate 2009) found Dutch adults showed fewer desires for anger suppression in children relative to collectivist cultures, suggesting some degree of expressive latitude. (f) The Leiden source notes the Dutch are 'quite direct' and use 'ample eye contact,' which implies a degree of interpersonal openness even if not emotional flamboyance. On balance: the Dutch are structurally freer to express opinions and disagreement than many cultures (supports moderate-high D2), but active norms against emotional display, self-promotion, and flamboyance (the modesty/Calvinist baseline) pull toward the restrained side. A near-midpoint score with a slight lean toward restrained (48) captures this: more open than Asian or Middle-Eastern collectivist cultures, but substantially more reserved than Southern European or Latin American ones. The directness evidence has been correctly routed away from this score.",
+          "suggested_score": 48
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Netherlands scores moderate-high on expressiveness (Hofstede Indulgence 68). The culture values direct, honest communication (bespreekbaar maken) and emotional expression is not suppressed by hierarchy. However, a Calvinist undercurrent of sobriety and not showing off tempers extreme displays; openness is structurally free but emotionally moderate.",
+          "suggested_score": 70
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Netherlands scores MAS=14 — one of the lowest Masculinity scores in the entire Hofstede dataset, consistently described as the country's most distinctive cultural score. This is corroborated independently by Hofstede-Insights, GradGuide, ClearlyCultural, and SimplyPsychology. A MAS=14 maps directly to a very low D4 (Accepting over Striving). Multiple institutional sources converge: the OECD Better Life Index consistently ranks the Netherlands #1 or near-#1 for work-life balance; only 0.5% of Dutch employees work very long hours (OECD average: 13%) per WEF/OECD data; average working week is 30.5 hours (Remote.com, 2025 — the shortest in the world). The 'doe maar gewoon' norm explicitly discourages standing out or being seen as striving for personal superiority. GradGuide directly states: 'Quality of life beats competition. Standing out from the crowd is not admired.' Consensus-based decision-making (polderen) further reflects a harmony-over-competition orientation. Counter-nudges: the Netherlands is a highly productive, internationally competitive economy with major multinationals; Dutch trade history shows commercial drive. However, these are structural economic features, not evidence that individuals prize personal striving or competition — a country's GDP profile is not a D4 measure. The evidence points overwhelmingly to the accepting/harmony end. Score of 22 reflects the extreme Hofstede anchor (MAS=14 ≈ score of ~16–17 on the 3-97 scale) with a modest upward adjustment acknowledging the Dutch reputation for commercial pragmatism and the fact that economic drive exists even if not celebrated at the individual level.",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Netherlands scores very low on Hofstede Masculinity (14), indicating a preference for harmony, quality of life, and caring for others over competition and achievement. The culture emphasizes work-life balance, sustainability, and social welfare. While there is a strong work ethic (calvinist roots), it is oriented toward competence and community contribution rather than aggressive striving.",
+          "suggested_score": 35
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Netherlands – Hofstede Insights",
+      "url": "https://www.hofstede-insights.com/country/the-netherlands/",
+      "author": "Hofstede Insights",
+      "publication_year": 2017,
+      "excerpt": "The Netherlands scores 80 on Hofstede's Individualism dimension, making it an individualist society where individuals are expected to take care of themselves and their immediate families only.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S02",
+      "title": "Dutch Workplace Culture: What to Actually Expect | GradGuide",
+      "url": "https://www.gradguide.nl/en/blog/dutch-workplace-culture",
+      "author": "GradGuide",
+      "publication_year": 2026,
+      "excerpt": "GradGuide independently confirms the Netherlands' Individualism score of 80, noting that employer-employee relationships are contract-based and merit-driven — a structural marker of self-defined identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S09",
+      "title": "Dutch Work Culture Explained: What Expats Need To Know | Robin.jobs",
+      "url": "https://robin.jobs/work-in-the-netherlands/dutch-work-culture",
+      "author": "Robin.jobs",
+      "publication_year": 2025,
+      "excerpt": "Many Dutch workplaces embrace independence and autonomy in employee roles; employees are entrusted with a great deal of ownership over their work responsibilities.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S05",
+      "title": "Work Culture in The Netherlands | NNRoad",
+      "url": "https://nnroad.com/blog/work-culture-in-the-netherlands/",
+      "author": "NNRoad",
+      "publication_year": 2024,
+      "excerpt": "The concept of 'polderen' — consensus-building through dialogue — has permeated Dutch work culture, fostering collective decision-making; this communal procedural layer partially complicates a purely individualist picture.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S04",
+      "title": "Dutch Language and Culture | Leiden International Centre",
+      "url": "https://www.leideninternationalcentre.nl/living-here/dutch-language-and-culture",
+      "author": "Leiden International Centre",
+      "publication_year": 2023,
+      "excerpt": "Calvinism has left a huge mark on Dutch culture, leading to descriptions of the Dutch as reserved, conscientious, and modest — qualities associated with a curbing of individual self-expression and promotion.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S04",
+      "title": "Dutch Language and Culture | Leiden International Centre",
+      "url": "https://www.leideninternationalcentre.nl/living-here/dutch-language-and-culture",
+      "author": "Leiden International Centre",
+      "publication_year": 2023,
+      "excerpt": "Flamboyant behaviour is generally not appreciated in the Netherlands and one should not attract too much attention by displaying emotions in public — a structural norm suppressing expressive display.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S17",
+      "title": "Dutch Culture: Customs, Traditions & Social Norms | Mustseespots",
+      "url": "https://www.mustseespots.com/netherlands/articles/dutch-culture-customs-traditions-social-norms/",
+      "author": "Mustseespots",
+      "publication_year": 2026,
+      "excerpt": "Dutch conversations are often direct and open, with a general tolerance and openness ('gedogen') — a historically documented cultural willingness to accept diverse expressions and perspectives.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S16",
+      "title": "Dutch culture: social etiquette in the Netherlands | Expatica",
+      "url": "https://www.expatica.com/nl/living/integration/dutch-etiquette-101736/",
+      "author": "Expatica",
+      "publication_year": 2025,
+      "excerpt": "Despite being very open and direct, the Dutch can also be reserved and private and seldom initiate interactions with strangers — indicating a structurally limited sphere of emotional openness.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S02",
+      "title": "Dutch Workplace Culture: What to Actually Expect | GradGuide",
+      "url": "https://www.gradguide.nl/en/blog/dutch-workplace-culture",
+      "author": "GradGuide",
+      "publication_year": 2026,
+      "excerpt": "Standing out from the crowd is not admired in the Netherlands ('Doe maar gewoon, dan doe je al gek genoeg') — the widely known modesty norm actively discourages emotionally conspicuous self-presentation.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S08",
+      "title": "Managing In Netherlands – Management Style & Work Culture | Commisceo Global",
+      "url": "https://commisceo-global.com/management-guides/netherlands-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Dutch business communication is 'matter-of-fact, without a lot of small talk or embellishment' — indicating preference for sober, non-emotionally charged expression in professional interactions.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S06",
+      "title": "Dutch work culture and business etiquette | Expatica Netherlands",
+      "url": "https://www.expatica.com/nl/working/employment-basics/dutch-business-culture-102490/",
+      "author": "Expatica",
+      "publication_year": 2025,
+      "excerpt": "The Dutch are known for their affinity for organisation and planning; having a well-defined business strategy is considered essential for long-term growth, and meetings are structured with a clear agenda and specific objectives.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S04",
+      "title": "Dutch Language and Culture | Leiden International Centre",
+      "url": "https://www.leideninternationalcentre.nl/living-here/dutch-language-and-culture",
+      "author": "Leiden International Centre",
+      "publication_year": 2023,
+      "excerpt": "Calvinism shaped Dutch culture toward being rule-driven, conscientious, sober, and efficient — a historically rooted preference for structure and predictability over ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S08",
+      "title": "Managing In Netherlands – Management Style & Work Culture | Commisceo Global",
+      "url": "https://commisceo-global.com/management-guides/netherlands-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Meetings and negotiations in the Netherlands are typically well-organised and structured, with a clear agenda and specific objectives — a behavioural marker of preference for certainty and order.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S16",
+      "title": "Dutch culture: social etiquette in the Netherlands | Expatica",
+      "url": "https://www.expatica.com/nl/living/integration/dutch-etiquette-101736/",
+      "author": "Expatica",
+      "publication_year": 2025,
+      "excerpt": "Expatica notes that queuing etiquette is not considered an important part of Dutch culture — a small but concrete marker of tolerance for informal ambiguity in everyday social situations.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S01",
+      "title": "Netherlands – Hofstede Insights",
+      "url": "https://www.hofstede-insights.com/country/the-netherlands/",
+      "author": "Hofstede Insights",
+      "publication_year": 2017,
+      "excerpt": "Hofstede-Insights states the Netherlands' Masculinity score indicates a Feminine society where the dominant values are caring for others and quality of life — the primary anchor for D4.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S02",
+      "title": "Dutch Workplace Culture: What to Actually Expect | GradGuide",
+      "url": "https://www.gradguide.nl/en/blog/dutch-workplace-culture",
+      "author": "GradGuide",
+      "publication_year": 2026,
+      "excerpt": "GradGuide directly states for the Netherlands: 'Masculinity/Femininity: 14 (very feminine). Quality of life beats competition. Standing out from the crowd is not admired. Caring for others, equality, and consensus are valued. This is one of the most distinctive Dutch scores.'",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Netherlands Country Comparison",
+      "url": "https://www.hofstede-insights.com/country-comparison/netherlands/",
+      "author": "Hofstede Insights",
+      "publication_year": 2024,
+      "excerpt": "Hofstede Individualism score for Netherlands is 80, indicating a highly individualist society where personal freedom and self-reliance are paramount.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Netherlands Country Comparison",
+      "url": "https://www.hofstede-insights.com/country-comparison/netherlands/",
+      "author": "Hofstede Insights",
+      "publication_year": 2024,
+      "excerpt": "Hofstede Masculinity score for Netherlands is 14, very low, indicating a feminine culture focused on quality of life, relationships, and consensus over competition.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s4",
+      "title": "The Calvinist Roots of Dutch Culture",
+      "url": "https://www.contemporarydutchliterature.com/calvinism-and-dutch-culture.html",
+      "author": "J. K. Terhorst",
+      "publication_year": 2018,
+      "excerpt": "Historically, Dutch Calvinism promoted a strong work ethic and a sense of duty, which can manifest as a drive to achieve competence and contribute to society rather than personal glory.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "The Dutch and Their Culture: A Guide for Newcomers",
+      "url": "https://www.iamsterdam.com/en/living/about-living-here/culture/dutch-culture",
+      "author": "I amsterdam",
+      "publication_year": 2023,
+      "excerpt": "Newcomers observe that Dutch people value privacy and personal space; they keep to themselves in public and expect others to do the same.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s5",
+      "title": "Poldermodel: The Dutch Consensus Economy",
+      "url": "https://www.revolvy.com/page/Polder-model",
+      "author": "Revolvy",
+      "publication_year": 2020,
+      "excerpt": "The poldermodel of consensus decision-making and strong social welfare system reflect a community orientation, but this is rooted in pragmatic negotiation of self-interest rather than collectivist loyalty.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s3",
+      "title": "Dutch Directness: Cultural Stereotype or Reality?",
+      "url": "https://www.dutchnews.nl/features/dutch-directness-reason-for-misunderstanding/",
+      "author": "Dutch News",
+      "publication_year": 2019,
+      "excerpt": "Dutch directness is a cultural norm: people say what they think openly, and disagreement is voiced without personal offense. This reflects emotional openness free from hierarchical suppression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s4",
+      "title": "The Calvinist Roots of Dutch Culture",
+      "url": "https://www.contemporarydutchliterature.com/calvinism-and-dutch-culture.html",
+      "author": "J. K. Terhorst",
+      "publication_year": 2018,
+      "excerpt": "Calvinist roots encourage modesty and sobriety; showing off or extreme emotional display is frowned upon, tempering the openness of expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s2",
+      "title": "The Dutch and Their Culture: A Guide for Newcomers",
+      "url": "https://www.iamsterdam.com/en/living/about-living-here/culture/dutch-culture",
+      "author": "I amsterdam",
+      "publication_year": 2023,
+      "excerpt": "Dutch culture emphasizes planning and punctuality; appointments are made well in advance and sticking to schedules is expected. The phrase 'afspraak is afspraak' (an appointment is an appointment) reflects high Structure.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 92,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 66,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 61,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 30,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 95.51617992,
+      "D2": 68.1514977,
+      "D3": 60.24389127,
+      "D4": 31.5834933
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 91.70247023,
+        "hi": 99.32988962
+      },
+      "D2": {
+        "lo": 65.9907601,
+        "hi": 70.3122353
+      },
+      "D3": {
+        "lo": 58.79565372,
+        "hi": 61.69212882
+      },
+      "D4": {
+        "lo": 28.88685078,
+        "hi": 34.28013583
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "NLD",
+        "dimension": "D1",
+        "baseline": 95.51617992,
+        "final": 92.0,
+        "direction": "down",
+        "magnitude": 3.52,
+        "reason": "Identity adjusted from baseline 95.5 to 92 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 92 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "NLD",
+        "dimension": "D2",
+        "baseline": 68.1514977,
+        "final": 66.0,
+        "direction": "down",
+        "magnitude": 2.15,
+        "reason": "Expression adjusted from baseline 68.2 to 66 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 66 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "NLD",
+        "dimension": "D3",
+        "baseline": 60.24389127,
+        "final": 61.0,
+        "direction": "up",
+        "magnitude": 0.76,
+        "reason": "Structure adjusted from baseline 60.2 to 61 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 61 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "NLD",
+        "dimension": "D4",
+        "baseline": 31.5834933,
+        "final": 30.0,
+        "direction": "down",
+        "magnitude": 1.58,
+        "reason": "Drive adjusted from baseline 31.6 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 30 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 91.7,
+        "baseline": 95.51617992,
+        "framework_hi": 97.0,
+        "specialist_recommendation": 82.5,
+        "council_consensus": 95.25,
+        "integrator_recommendation": 87.91,
+        "llm_recommendation": 92.0,
+        "final": 92,
+        "available_range": 5.3,
+        "distance_from_baseline": -3.52,
+        "range_utilization": 6,
+        "clamp_adjustment": 4.09,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.3,
+        "distance_from_upper": 5.0,
+        "movement_reason": "Evidence-first placement of Identity at 92 (evidence credibility 0.64): specialist recommendation 82.5 blended with council consensus 95.25, with baseline reference 95.5 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 65.99,
+        "baseline": 68.1514977,
+        "framework_hi": 70.31,
+        "specialist_recommendation": 59.0,
+        "council_consensus": 67.71,
+        "integrator_recommendation": 63.09,
+        "llm_recommendation": 66.0,
+        "final": 66,
+        "available_range": 4.32,
+        "distance_from_baseline": -2.15,
+        "range_utilization": 0,
+        "clamp_adjustment": 2.91,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.01,
+        "distance_from_upper": 4.31,
+        "movement_reason": "Evidence-first placement of Expression at 66 (evidence credibility 0.60): specialist recommendation 59.0 blended with council consensus 67.71, with baseline reference 68.2 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 58.8,
+        "baseline": 60.24389127,
+        "framework_hi": 61.69,
+        "specialist_recommendation": 67.667,
+        "council_consensus": 60.29,
+        "integrator_recommendation": 64.26,
+        "llm_recommendation": 61.0,
+        "final": 61,
+        "available_range": 2.89,
+        "distance_from_baseline": 0.76,
+        "range_utilization": 76,
+        "clamp_adjustment": -3.26,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 2.2,
+        "distance_from_upper": 0.69,
+        "movement_reason": "Evidence-first placement of Structure at 61 (evidence credibility 0.60): specialist recommendation 67.667 blended with council consensus 60.29, with baseline reference 60.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 28.89,
+        "baseline": 31.5834933,
+        "framework_hi": 34.28,
+        "specialist_recommendation": 28.5,
+        "council_consensus": 33.0,
+        "integrator_recommendation": 30.28,
+        "llm_recommendation": 30.0,
+        "final": 30,
+        "available_range": 5.39,
+        "distance_from_baseline": -1.58,
+        "range_utilization": 21,
+        "clamp_adjustment": -0.28,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 1.11,
+        "distance_from_upper": 4.28,
+        "movement_reason": "Evidence-first placement of Drive at 30 (evidence credibility 0.63): specialist recommendation 28.5 blended with council consensus 33.0, with baseline reference 31.6 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Netherlands",
+        "iso3": "NLD",
+        "dimension": "D1",
+        "baseline_score": 95.51617992,
+        "final_score": 92,
+        "change_amount": -3.52,
+        "change_percent": -3.69,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Netherlands's Identity is placed at 92 (Social 3 <-> Self 97). Within the framework range [92-99], 92 sits at ~4% of the permitted span.",
+        "evidence_used": [
+          "E_D1_02",
+          "W_institutional_analyst_C05",
+          "E_D1_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 20.0,
+          "globe": 20.0,
+          "schwartz": 20.0,
+          "wvs": 20.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "All five frameworks converge on extreme individualism for the Netherlands. Hofstede IDV=80 (one of the highest globally), Schwartz shows very high Intellectual and Affective Autonomy with low Embeddedness and Hierarchy, WVS autonomy/choice/voice/equality all score high, GLOBE institutional and in-group collectivism both low, Trompenaars individualism high. Signal strength 0.7981, agreement 0.7916, zero conflicting frameworks. CI runs 91.7–99.3. Why not lower: every framework independently places NLD in the extreme-individualist tier; no framework signals collectivism. Why not higher: NLD scores slightly below the US on some measures and the CI ceiling is 99.3, leaving room for marginal differentiation. Most decisive evidence: Hofstede IDV=80, Schwartz Intellectual Autonomy, WVS autonomy/choice scores.",
+        "comparativist_reasoning": "The Netherlands exhibits extreme individualism, supported by Hofstede's IDV score of 80, high Schwartz autonomy, and WVS autonomy/choice/voice/equality metrics. This places it well above South Korea (50) and aligns closely with other high individualism countries like the UK (88).",
+        "country_specialist_reasoning": "The Netherlands is consistently identified as a highly individualistic society across multiple frameworks. Hofstede's Individualism score of 80, supported by Schwartz's high autonomy scores and Trompenaars' individualism, places it well above the South Korea anchor. The qualitative evidence further supports this high individualism, emphasizing individual autonomy and merit-driven relationships.",
+        "skeptic_reasoning": "Adversarial check on Identity=95: resist midpoint bias and compression. The evidence overwhelmingly supports extreme individualism: Hofstede IDV=80, Schwartz high autonomy/low embeddedness, WVS autonomy/choice/voice all high, GLOBE collectivism low, Trompenaars individualism high. All five frameworks converge with zero conflicts (agreement=0.7916). The CI (91.7-99.3) is extremely narrow and high. Score of 95 is justified as it reflects the strong consensus while acknowledging the Netherlands is not at the absolute ceiling (e.g., slightly below the US on some measures). Not lower because all evidence points to extreme individualism; not higher because the CI upper bound is 99.3 and 95 is a defensible placement within the range. The strongest evidence is the cross-framework consensus and the anchor relation (45.5 points above South Korea's 50).",
+        "integrator_decision": "Identity adjusted from baseline 95.5 to 92 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8421): coverage=1.0, agreement=0.971, evidence=0.622, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 92,
+          "considered_alternatives": [
+            95,
+            96
+          ],
+          "why_rejected": {
+            "95": "95 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "96": "96 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "92 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (96) and the CI ceiling (99), so pushing past 92 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (95) and the CI floor (92), so going below 92 would understate the measured signal.",
+        "integrator_recommendation": 87.91,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 92",
+        "clamp_adjustment": 4.09,
+        "absolute_score_rationale": "Netherlands sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Netherlands's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Netherlands's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Netherlands's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would understate Netherlands's Self tendencies; peer and framework evidence place it above 65 on Identity.",
+          "80": "A 80 would understate Netherlands's Self tendencies; peer and framework evidence place it above 80 on Identity."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 92 means everyday life in Netherlands leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 92 is justified: Netherlands sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (95) and the CI floor (92), so going below 92 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (96) and the CI ceiling (99), so pushing past 92 would lack evidentiary support. Strongest supporting evidence: E_D1_02, W_institutional_analyst_C05, E_D1_01. The integrator recommendation was 87.9; the framework limit (LOWER CI 92) applied, so the final published score became 92.",
+        "executive_explanation": "Netherlands sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (96) and the CI ceiling (99), so pushing past 92 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (95) and the CI floor (92), so going below 92 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=3.52. Framework consensus=76.76, signal_strength=0.7981, conflict=0.2084. Within the framework range [92-99], 92 sits at ~4% of the permitted span. Confidence HIGH (score 0.8421): coverage=1.0, agreement=0.971, evidence=0.622, stability=1.0."
+      },
+      {
+        "country": "Netherlands",
+        "iso3": "NLD",
+        "dimension": "D2",
+        "baseline_score": 68.1514977,
+        "final_score": 66,
+        "change_amount": -2.15,
+        "change_percent": -3.15,
+        "adjustment_type": "FRAMEWORK_CONFLICT_RESOLUTION",
+        "summary": "Netherlands's Expression is placed at 66 (Restrained 3 <-> Open 97). Within the framework range [66-70], 66 sits at ~0% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C11",
+          "W_historical_analyst_c5",
+          "W_historical_analyst_c4"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 20.0,
+          "schwartz": 10.0,
+          "wvs": 10.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "High conflict score (0.632) between frameworks. Hofstede Indulgence is moderately high (~68), Trompenaars affective-neutral leans toward affective expression, and Dutch social culture is permissive and emotionally open in public life. GLOBE assertiveness conflicts, pulling downward. The CI is narrow (66.0–70.3). Why not lower: Hofstede Indulgence and documented social permissiveness/tolerance of public affect are well-established; score of 66 would understate these signals. Why not higher: GLOBE assertiveness conflict and high LTO partially suppress the indulgence signal; 70 would overstate openness given the blunt-but-not-warm Dutch communication style. Score of 68 sits near the centre of the tight CI reflecting genuine cross-framework tension.",
+        "comparativist_reasoning": "The Netherlands shows moderately open expression, with Hofstede's Indulgence at 68 and a permissive social culture. However, GLOBE assertiveness and high LTO slightly temper this openness, placing it above Turkey (50) but below the UK (66).",
+        "country_specialist_reasoning": "The Netherlands exhibits a moderately open expression culture. Hofstede's Indulgence score and Trompenaars' affective orientation suggest a society that allows for emotional expression, although GLOBE's assertiveness and Hofstede's LTO introduce some restraint. The balance of evidence places the Netherlands above the Turkey anchor, reflecting a culture that is more open than restrained.",
+        "skeptic_reasoning": "Adversarial check on Expression=67: resist midpoint bias and compression. The CI is narrow (66.0-70.3) and the score sits near the lower end, reflecting genuine cross-framework tension (conflict score=0.632). Hofstede Indulgence (~68) and Trompenaars affective-neutral lean toward openness, but GLOBE assertiveness conflicts. The Netherlands is known for direct communication (not D2 per guardrail) but also for open emotional expression in social contexts and a permissive culture. Not lower because Hofstede Indulgence and social permissiveness are well-documented (e.g., tolerance of public affect, cannabis policy, LGBTQ+ rights). Not higher because GLOBE assertiveness conflict and LTO partially suppress the indulgence signal. The strongest evidence is the combination of Hofstede Indulgence and the anchor relation (17 points above Turkey's 50), constrained by the GLOBE conflict.",
+        "integrator_decision": "Expression adjusted from baseline 68.2 to 66 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8189): coverage=1.0, agreement=0.971, evidence=0.506, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 66,
+          "considered_alternatives": [
+            67,
+            68
+          ],
+          "why_rejected": {
+            "67": "67 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "68": "68 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "66 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (68) and the CI ceiling (70), so pushing past 66 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (67) and the CI floor (66), so going below 66 would understate the measured signal.",
+        "integrator_recommendation": 63.09,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 66",
+        "clamp_adjustment": 2.91,
+        "absolute_score_rationale": "Netherlands sits at 66 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Netherlands's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Netherlands's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Netherlands's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Netherlands that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Netherlands that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 66 means everyday life in Netherlands leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 66 is justified: Netherlands sits at 66 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (67) and the CI floor (66), so going below 66 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (68) and the CI ceiling (70), so pushing past 66 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C11, W_historical_analyst_c5, W_historical_analyst_c4. The integrator recommendation was 63.1; the framework limit (LOWER CI 66) applied, so the final published score became 66.",
+        "executive_explanation": "Netherlands sits at 66 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (68) and the CI ceiling (70), so pushing past 66 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (67) and the CI floor (66), so going below 66 would understate the measured signal.",
+        "research_explanation": "Adjustment type FRAMEWORK_CONFLICT_RESOLUTION; |delta|=2.15. Framework consensus=56.04, signal_strength=0.5467, conflict=0.632. Within the framework range [66-70], 66 sits at ~0% of the permitted span. Confidence HIGH (score 0.8189): coverage=1.0, agreement=0.971, evidence=0.506, stability=1.0."
+      },
+      {
+        "country": "Netherlands",
+        "iso3": "NLD",
+        "dimension": "D3",
+        "baseline_score": 60.24389127,
+        "final_score": 61,
+        "change_amount": 0.76,
+        "change_percent": 1.26,
+        "adjustment_type": "ROUNDING",
+        "summary": "Netherlands's Structure is placed at 61 (Fluid 3 <-> Certain 97). Within the framework range [59-62], 61 sits at ~76% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C17",
+          "W_historical_analyst_c7",
+          "E_D3_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "wvs"
+        ],
+        "framework_contributions": {
+          "hofstede": 10.0,
+          "globe": 30.0,
+          "schwartz": 10.0,
+          "wvs": 20.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Hofstede UAI=53 (moderate), GLOBE future orientation is high (Dutch planning culture, long-term institutional thinking), Trompenaars sequential/future-past leans structured. WVS scepticism/relativism/disbelief partially conflict, reflecting Dutch pragmatic tolerance of ambiguity in social/moral domains. Signal strength 0.6557, agreement 0.8371. CI is very narrow (58.8–61.7). Why not lower: GLOBE future orientation and Trompenaars sequential scores document genuine structure preference in institutional/planning contexts; dropping below 59 would contradict these signals. Why not higher: WVS scepticism and Dutch tolerance of moral ambiguity prevent a higher placement; 61.7 is the CI ceiling. Score of 60 near the upper-centre of this tight range is the most defensible placement.",
+        "comparativist_reasoning": "The Netherlands has a moderate structure preference, with Hofstede UAI at 53 and GLOBE future orientation high. This is balanced by a pragmatic tolerance for ambiguity, placing it above Colombia (50) but below France (80).",
+        "country_specialist_reasoning": "The Netherlands shows a moderate preference for structure, with Hofstede's UAI and GLOBE's future orientation indicating a balanced approach to planning and ambiguity. The Dutch pragmatic tolerance is offset by structured institutional practices, placing it slightly above the midpoint but not as high as more rigid cultures.",
+        "skeptic_reasoning": "Adversarial check on Structure=61: resist midpoint bias and compression. The CI is very narrow (58.8-61.7) and the score sits at the upper end, reflecting moderate-to-high structure preference. Hofstede UAI=53 (moderate), GLOBE future orientation is high (Dutch planning culture), Trompenaars sequential/future-past leans structured. WVS scepticism/relativism/disbelief partially conflict, reflecting Dutch pragmatic tolerance of ambiguity in social/moral domains. Not lower because the Dutch have strong institutional planning and rule-orientation (e.g., poldermodel, consensus-based decision-making). Not higher because genuine tolerance of ambiguity exists in social/moral domains (e.g., pragmatic drug policy, euthanasia legality). The strongest evidence is the narrow CI and the anchor relation (11 points above Colombia's 50), supported by GLOBE future orientation and Trompenaars sequential time orientation.",
+        "integrator_decision": "Structure adjusted from baseline 60.2 to 61 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6627): coverage=1.0, agreement=0.971, evidence=0.553, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 61,
+          "considered_alternatives": [
+            60
+          ],
+          "why_rejected": {
+            "60": "60 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "61 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal.",
+        "integrator_recommendation": 64.26,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 62",
+        "clamp_adjustment": -3.26,
+        "absolute_score_rationale": "Netherlands sits at 61 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Netherlands's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Netherlands's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Netherlands's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Netherlands that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Netherlands that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 61 means everyday life in Netherlands leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 61 is justified: Netherlands sits at 61 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C17, W_historical_analyst_c7, E_D3_01. The integrator recommendation was 64.3; the framework limit (UPPER CI 62) applied, so the final published score became 61.",
+        "executive_explanation": "Netherlands sits at 61 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (60) already reflected this evidence, so the council confirmed 61 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.76 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [59-62], 61 sits at ~76% of the permitted span."
+      },
+      {
+        "country": "Netherlands",
+        "iso3": "NLD",
+        "dimension": "D4",
+        "baseline_score": 31.5834933,
+        "final_score": 30,
+        "change_amount": -1.58,
+        "change_percent": -5.0,
+        "adjustment_type": "ROUNDING",
+        "summary": "Netherlands's Drive is placed at 30 (Accepting 3 <-> Striving 97). Within the framework range [29-34], 30 sits at ~21% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C28",
+          "E_D4_04",
+          "W_institutional_analyst_C24"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 22.22,
+          "schwartz": 11.11,
+          "wvs": 11.11,
+          "trompenaars": 22.22
+        },
+        "statistician_reasoning": "Hofstede Masculinity=14 (one of the lowest globally, strongly Feminine), GLOBE humane orientation is high, Schwartz mastery is moderate-low, Trompenaars ascription-achievement and external-internal conflict with Hofstede but the framework override assigns GLOBE Performance Orientation to D4 not D2. CI runs 28.9–34.3. Why not lower: Schwartz mastery is not at floor level and some achievement orientation exists in Dutch professional culture; 29 would overstate the accepting pole. Why not higher: Hofstede Masculinity=14 is one of the most decisive single data points in the entire Hofstede dataset, placing NLD firmly in the harmony/sufficiency quadrant; 34 would understate this signal. Score of 32 reflects the strong Feminine signal while acknowledging moderate mastery and the CI constraint.",
+        "comparativist_reasoning": "The Netherlands leans towards acceptance over striving, with a lower Hofstede Masculinity score and a cultural emphasis on quality of life over achievement. This places it below Turkey (50) and aligns with France (40).",
+        "country_specialist_reasoning": "The Netherlands values a balance between achievement and quality of life, with Hofstede's Masculinity score indicating a moderate drive. The cultural emphasis on work-life balance and contentment suggests a lower drive compared to more achievement-oriented societies, placing it below the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Drive=32: resist midpoint bias and compression. The CI is narrow (28.9-34.3) and the score sits near the centre, reflecting low achievement orientation. Hofstede Masculinity=14 (very low), GLOBE performance orientation is moderate, Schwartz mastery is low, Trompenaars ascription-achievement leans ascription. The Netherlands values work-life balance, sufficiency, and harmony over ambition and competition. Not lower because the CI lower bound is 28.9 and some achievement orientation exists (e.g., high educational attainment, innovation). Not higher because the evidence strongly supports low drive: the Dutch cultural emphasis on 'gezelligheid' (coziness), consensus, and quality of life over material success. The strongest evidence is Hofstede Masculinity=14 and the anchor relation (18 points below Turkey's 50), supported by Schwartz low mastery and GLOBE humane orientation.",
+        "integrator_decision": "Drive adjusted from baseline 31.6 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6583): coverage=1.0, agreement=0.933, evidence=0.573, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 30,
+          "considered_alternatives": [
+            32,
+            34
+          ],
+          "why_rejected": {
+            "32": "32 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "34": "34 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "30 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (34) and the CI ceiling (34), so pushing past 30 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (29), so going below 30 would understate the measured signal.",
+        "integrator_recommendation": 30.28,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.28,
+        "absolute_score_rationale": "Netherlands sits at 30 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Netherlands's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would imply markedly more Striving; the evidence and framework signal do not support pushing Netherlands that far toward Striving.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Netherlands that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Netherlands that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Netherlands that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 30 means everyday life in Netherlands leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 30 is justified: Netherlands sits at 30 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (29), so going below 30 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (34) and the CI ceiling (34), so pushing past 30 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C28, E_D4_04, W_institutional_analyst_C24.",
+        "executive_explanation": "Netherlands sits at 30 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (32) already reflected this evidence, so the council confirmed 30 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (34) and the CI ceiling (34), so pushing past 30 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (29), so going below 30 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.58 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [29-34], 30 sits at ~21% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "d1": 70.91117295,
+        "d2": 62.66262252,
+        "d3": 56.39064751,
+        "d4": 51.69588514,
+        "relation": "regional"
+      },
+      {
+        "iso3": "FRA",
+        "country": "France",
+        "d1": 73.0,
+        "d2": 56.0,
+        "d3": 80.0,
+        "d4": 40.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CHE",
+        "country": "Switzerland",
+        "d1": 88.0,
+        "d2": 61.0,
+        "d3": 63.0,
+        "d4": 67.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "NIR",
+        "country": "NIR",
+        "d1": 65.02592565,
+        "d2": 59.05486524,
+        "d3": 54.93139786,
+        "d4": 56.1043526,
+        "relation": "regional"
+      },
+      {
+        "iso3": "GBR",
+        "country": "United Kingdom",
+        "d1": 88.0,
+        "d2": 66.0,
+        "d3": 39.0,
+        "d4": 68.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 42.0,
+        "reason": "Netherlands is above the South Korea Identity anchor (50) by 42.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 16.0,
+        "reason": "Netherlands is above the Turkey Expression anchor (50) by 16.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 20.0,
+        "reason": "Netherlands is below the Turkey Drive anchor (50) by 20.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 11.0,
+        "reason": "Netherlands is above the Colombia Structure anchor (50) by 11.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "NLD",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=62"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "[]"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 62.0,
+        "midpoint_dimensions": [],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico high in-group collectivism, moderate performance orientation, high humane orientation",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "Certain",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Mexico low autonomy/choice scores, high life satisfaction, scepticism signals",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "NLD",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 85.0,
+          "strongest_supporting": "Hofstede Individualism score for Netherlands is 80, indicating a highly individualist society where personal freedom and self-reliance are paramount.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 93.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Dutch directness is a cultural norm: people say what they think openly, and disagreement is voiced without personal offense. This reflects emotional openness free from hierarchical suppression.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 85.0,
+          "strongest_supporting": "Hofstede (2011) confirms individualism prevails in developed Western countries, and the Netherlands is a canonical high-individualism case in the cross-national dataset.",
+          "strongest_opposing": "The concept of 'polderen' — consensus-building through dialogue — has permeated Dutch work culture, fostering collective decision-making; this communal procedural layer partially complicates a purely individualist picture.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 93.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06"
+          ],
+          "opposing_evidence_ids": [
+            "C07",
+            "C08"
+          ]
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 48.0,
+          "strongest_supporting": "Research comparing Dutch and Iranian adults found Dutch adults showed fewer desires for anger suppression in children relative to collectivist cultures, indicating Dutch norms permit a degree of emotional expression not allowed in high-suppression societies.",
+          "strongest_opposing": "Despite being very open and direct, the Dutch can also be reserved and private and seldom initiate interactions with strangers — indicating a structurally limited sphere of emotional openness.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.68,
+          "supporting_evidence_ids": [
+            "C09",
+            "C10",
+            "C11",
+            "C12"
+          ],
+          "opposing_evidence_ids": [
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ]
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 58.0,
+          "strongest_supporting": "The Netherlands scores 53 on Hofstede's Uncertainty Avoidance dimension, exhibiting a slight preference for avoiding uncertainty — the primary anchor for D3 Structure.",
+          "strongest_opposing": "GradGuide describes the Netherlands' UAI=53 as 'mid' and explicitly 'not strong' — the Hofstede anchor is just above midpoint, not a strongly certain/rule-bound culture.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 66.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ],
+          "opposing_evidence_ids": [
+            "C21",
+            "C22",
+            "C23"
+          ]
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 22.0,
+          "strongest_supporting": "Simply Psychology identifies the Netherlands explicitly as a 'feminine culture' alongside Sweden, noting its focus on work-life balance, social support, and consensus rather than individual achievement.",
+          "strongest_opposing": "ClearlyCultural notes that Germany (MAS=66) is a masculine culture while the Netherlands (MAS=14) is feminine — but acknowledges that individual countries can host commercially competitive industries despite low MAS.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "C24",
+            "C25",
+            "C26",
+            "C27",
+            "C28"
+          ],
+          "opposing_evidence_ids": [
+            "C29",
+            "C30"
+          ]
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Hofstede Individualism score for Netherlands is 80, indicating a highly individualist society where personal freedom and self-reliance are paramount.",
+          "strongest_opposing": "The poldermodel of consensus decision-making and strong social welfare system reflect a community orientation, but this is rooted in pragmatic negotiation of self-interest rather than collectivist loyalty.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Dutch directness is a cultural norm: people say what they think openly, and disagreement is voiced without personal offense. This reflects emotional openness free from hierarchical suppression.",
+          "strongest_opposing": "Calvinist roots encourage modesty and sobriety; showing off or extreme emotional display is frowned upon, tempering the openness of expression.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Hofstede Uncertainty Avoidance score for Netherlands is 53, slightly above middle, indicating a moderate preference for rules and structure.",
+          "strongest_opposing": "The saying 'Doe maar gewoon, dan doe je al gek genoeg' reinforces conformity to norms as a social rule, which suggests high Structure rather than fluidity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9"
+          ]
+        },
+        {
+          "iso3": "NLD",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Hofstede Masculinity score for Netherlands is 14, very low, indicating a feminine culture focused on quality of life, relationships, and consensus over competition.",
+          "strongest_opposing": "Historically, Dutch Calvinism promoted a strong work ethic and a sense of duty, which can manifest as a drive to achieve competence and contribute to society rather than personal glory.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11"
+          ],
+          "opposing_evidence_ids": [
+            "c12"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "NLD",
+          "dimension": "D1",
+          "baseline_score": 95.51617992,
+          "specialist_recommendation": 82.5,
+          "specialist_confidence": 0.89,
+          "evidence_strength": 0.6222,
+          "evidence_quality": 0.6404,
+          "disagreement_index": 0.1,
+          "specialist_influence_weight": 0.6358,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "NLD",
+          "dimension": "D2",
+          "baseline_score": 68.1514977,
+          "specialist_recommendation": 59.0,
+          "specialist_confidence": 0.74,
+          "evidence_strength": 0.5062,
+          "evidence_quality": 0.5628,
+          "disagreement_index": 0.44,
+          "specialist_influence_weight": 0.5959,
+          "rationale": "High specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "NLD",
+          "dimension": "D3",
+          "baseline_score": 60.24389127,
+          "specialist_recommendation": 67.667,
+          "specialist_confidence": 0.79,
+          "evidence_strength": 0.5529,
+          "evidence_quality": 0.5184,
+          "disagreement_index": 0.3671,
+          "specialist_influence_weight": 0.5984,
+          "rationale": "High specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "NLD",
+          "dimension": "D4",
+          "baseline_score": 31.5834933,
+          "specialist_recommendation": 28.5,
+          "specialist_confidence": 0.9,
+          "evidence_strength": 0.5733,
+          "evidence_quality": 0.5836,
+          "disagreement_index": 0.26,
+          "specialist_influence_weight": 0.6334,
+          "rationale": "High specialist confidence -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "NLD",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=89: differs by 6 from the statistician reading of 95.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=64: differs by 4 from the statistician reading of 68.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=63: differs by 3 from the statistician reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=38: differs by 7 from the statistician reading of 31.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=97: differs by 8 from the comparativist reading of 89.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=29: differs by 9 from the comparativist reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 11.0
+        },
+        {
+          "iso3": "NLD",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=32: differs by 3 from the country_specialist reading of 29.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "NLD",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 85.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "Insufficient ethnographic evidence about emotional openness versus suppression structures in everyday Dutch life.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "NLD",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No robust ethnographic evidence found regarding achievement‑orientation versus relational harmony in everyday Dutch practice.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "NLD",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 8,
+          "recommendation": 85.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.68,
+          "evidence_count": 8,
+          "recommendation": 48.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 7,
+          "recommendation": 58.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 7,
+          "recommendation": 22.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 3,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 3,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "NLD",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        }
+      ],
+      "independence": [
+        {
+          "iso3": "NLD",
+          "dimension": "D1",
+          "seat_a": "cultural_anthropologist",
+          "seat_b": "historical_analyst",
+          "shared_evidence": true,
+          "identical_text": false
+        }
+      ],
+      "diversity_v2": {
+        "iso3": "NLD",
+        "score_diversity": 0.0932,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6686,
+        "consensus_quality": 0.9545,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "NLD",
+      "country": "Netherlands",
+      "region": "Western Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 92,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.9,
+          "top_supporting_arguments": [
+            "The Netherlands is identified among Western countries as highly individualistic in Hofstede’s framework.",
+            "Scholarly comparison finds the Netherlands to be a highly individualist society, emphasizing the social self less than individual autonomy.",
+            "Neoliberal individualism in Dutch universities emphasizes individual performance and personalization, reflecting broader individualist cultural orientation."
+          ],
+          "top_counter_arguments": [
+            "The concept of 'polderen' — consensus-building through dialogue — has permeated Dutch work culture, fostering collective decision-making; this communal procedural layer partially complicates a purely individualist picture.",
+            "Calvinism has left a huge mark on Dutch culture, leading to descriptions of the Dutch as reserved, conscientious, and modest — qualities associated with a curbing of individual self-expression and promotion.",
+            "The poldermodel of consensus decision-making and strong social welfare system reflect a community orientation, but this is rooted in pragmatic negotiation of self-interest rather than collectivist loyalty."
+          ],
+          "why_this_score": "Netherlands sits at 92 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 96 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (96) and the CI ceiling (99), so pushing past 92 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (95) and the CI floor (92), so going below 92 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "France",
+            "Switzerland",
+            "NIR",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "turn0search12",
+              "title": "Individualistic culture (Wikipedia)",
+              "url": "",
+              "author": "",
+              "publication_year": 2026,
+              "excerpt": "The Netherlands is identified among Western countries as highly individualistic in Hofstede’s framework.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c2",
+              "source_id": "turn0search15",
+              "title": "Culture, self‑understanding compares Netherlands individualism",
+              "url": "",
+              "author": "",
+              "publication_year": 2025,
+              "excerpt": "Scholarly comparison finds the Netherlands to be a highly individualist society, emphasizing the social self less than individual autonomy.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c3",
+              "source_id": "turn0search7",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Neoliberal individualism in Dutch universities emphasizes individual performance and personalization, reflecting broader individualist cultural orientation.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 66,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.56,
+          "top_supporting_arguments": [
+            "Research comparing Dutch and Iranian adults found Dutch adults showed fewer desires for anger suppression in children relative to collectivist cultures, indicating Dutch norms permit a degree of emotional expression not allowed in high-suppression societies.",
+            "Dutch conversations are often direct and open, with a general tolerance and openness ('gedogen') — a historically documented cultural willingness to accept diverse expressions and perspectives.",
+            "Hofstede Indulgence score for Netherlands is 68, indicating a tendency to allow relatively free gratification of basic and natural human desires."
+          ],
+          "top_counter_arguments": [
+            "Flamboyant behaviour is generally not appreciated in the Netherlands and one should not attract too much attention by displaying emotions in public — a structural norm suppressing expressive display.",
+            "The Dutch generally avoid superlatives and are not very open to flattery — indicating a cultural norm against emotional amplification or enthusiastic self-expression.",
+            "Despite being very open and direct, the Dutch can also be reserved and private and seldom initiate interactions with strangers — indicating a structurally limited sphere of emotional openness."
+          ],
+          "why_this_score": "Netherlands sits at 66 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 68 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (68) and the CI ceiling (70), so pushing past 66 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (67) and the CI floor (66), so going below 66 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "France",
+            "Switzerland",
+            "NIR",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C11",
+              "source_id": "S18",
+              "title": "Self-reported Use of Emotional Display Rules in the Netherlands and Iran | ResearchGate",
+              "url": "https://www.researchgate.net/publication/227791449_Self-reported_Use_of_Emotional_Display_Rules_in_the_Netherlands_and_Iran_Evidence_for_Sociocultural_Influence",
+              "author": "Hareli, Kafetsios, Hess",
+              "publication_year": 2009,
+              "excerpt": "Research comparing Dutch and Iranian adults found Dutch adults showed fewer desires for anger suppression in children relative to collectivist cultures, indicating Dutch norms permit a degree of emotional expression not allowed in high-suppression societies.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C12",
+              "source_id": "S17",
+              "title": "Dutch Culture: Customs, Traditions & Social Norms | Mustseespots",
+              "url": "https://www.mustseespots.com/netherlands/articles/dutch-culture-customs-traditions-social-norms/",
+              "author": "Mustseespots",
+              "publication_year": 2026,
+              "excerpt": "Dutch conversations are often direct and open, with a general tolerance and openness ('gedogen') — a historically documented cultural willingness to accept diverse expressions and perspectives.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c4",
+              "source_id": "s1",
+              "title": "Hofstede Insights: Netherlands Country Comparison",
+              "url": "https://www.hofstede-insights.com/country-comparison/netherlands/",
+              "author": "Hofstede Insights",
+              "publication_year": 2024,
+              "excerpt": "Hofstede Indulgence score for Netherlands is 68, indicating a tendency to allow relatively free gratification of basic and natural human desires.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 61,
+          "confidence": "MEDIUM",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.633,
+          "top_supporting_arguments": [
+            "In Dutch everyday life, planning and structure are valued; spontaneous visits are generally not welcome—a sign of high preference for order and predictability.",
+            "Friendships in the Netherlands develop slowly through structured contexts; social interactions are scheduled in advance, showing cultural preference for certainty and structure.",
+            "The Netherlands scores 53 on Hofstede's Uncertainty Avoidance dimension, exhibiting a slight preference for avoiding uncertainty — the primary anchor for D3 Structure."
+          ],
+          "top_counter_arguments": [
+            "GradGuide describes the Netherlands' UAI=53 as 'mid' and explicitly 'not strong' — the Hofstede anchor is just above midpoint, not a strongly certain/rule-bound culture.",
+            "Dutch workplaces encourage debate and differing opinions to foster critical thinking — a tolerance for ambiguity and challenge that moderates the Structure score downward from the high end.",
+            "Expatica notes that queuing etiquette is not considered an important part of Dutch culture — a small but concrete marker of tolerance for informal ambiguity in everyday social situations."
+          ],
+          "why_this_score": "Netherlands sits at 61 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (61) and the CI ceiling (62), so pushing past 61 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 61 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "France",
+            "Switzerland",
+            "NIR",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search8",
+              "title": "Are the Dutch friendly to foreigners? – Dutch on Track",
+              "url": "",
+              "author": "",
+              "publication_year": 2026,
+              "excerpt": "In Dutch everyday life, planning and structure are valued; spontaneous visits are generally not welcome—a sign of high preference for order and predictability.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search11",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Friendships in the Netherlands develop slowly through structured contexts; social interactions are scheduled in advance, showing cultural preference for certainty and structure.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C17",
+              "source_id": "S01",
+              "title": "Netherlands – Hofstede Insights",
+              "url": "https://www.hofstede-insights.com/country/the-netherlands/",
+              "author": "Hofstede Insights",
+              "publication_year": 2017,
+              "excerpt": "The Netherlands scores 53 on Hofstede's Uncertainty Avoidance dimension, exhibiting a slight preference for avoiding uncertainty — the primary anchor for D3 Structure.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 30,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.74,
+          "top_supporting_arguments": [
+            "ClearlyCultural notes that Germany (MAS=66) is a masculine culture while the Netherlands (MAS=14) is feminine — but acknowledges that individual countries can host commercially competitive industries despite low MAS.",
+            "The Netherlands has a long history of international trade and is home to many multinational companies — evidence of commercial achievement orientation at the macro level, even if not reflected in individual-level striving norms.",
+            "Historically, Dutch Calvinism promoted a strong work ethic and a sense of duty, which can manifest as a drive to achieve competence and contribute to society rather than personal glory."
+          ],
+          "top_counter_arguments": [
+            "Hofstede-Insights states the Netherlands' Masculinity score indicates a Feminine society where the dominant values are caring for others and quality of life — the primary anchor for D4.",
+            "GradGuide directly states for the Netherlands: 'Masculinity/Femininity: 14 (very feminine). Quality of life beats competition. Standing out from the crowd is not admired. Caring for others, equality, and consensus are valued. This is one of the most distinctive Dutch scores.'",
+            "Only 0.5% of Dutch employees regularly work very long hours, compared to the OECD average of 13% — the lowest rate in the OECD, indicating a strong institutional and cultural preference for quality of life over work-achievement striving."
+          ],
+          "why_this_score": "Netherlands sits at 30 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (34) and the CI ceiling (34), so pushing past 30 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (29), so going below 30 would understate the measured signal.",
+          "related_countries": [
+            "Andorra",
+            "France",
+            "Switzerland",
+            "NIR",
+            "United Kingdom"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C29",
+              "source_id": "S14",
+              "title": "Masculinity – Clearly Cultural",
+              "url": "https://clearlycultural.com/geert-hofstede-cultural-dimensions/masculinity/",
+              "author": "ClearlyCultural",
+              "publication_year": 2020,
+              "excerpt": "ClearlyCultural notes that Germany (MAS=66) is a masculine culture while the Netherlands (MAS=14) is feminine — but acknowledges that individual countries can host commercially competitive industries despite low MAS.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C30",
+              "source_id": "S05",
+              "title": "Work Culture in The Netherlands | NNRoad",
+              "url": "https://nnroad.com/blog/work-culture-in-the-netherlands/",
+              "author": "NNRoad",
+              "publication_year": 2024,
+              "excerpt": "The Netherlands has a long history of international trade and is home to many multinational companies — evidence of commercial achievement orientation at the macro level, even if not reflected in individual-level striving norms.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c12",
+              "source_id": "s4",
+              "title": "The Calvinist Roots of Dutch Culture",
+              "url": "https://www.contemporarydutchliterature.com/calvinism-and-dutch-culture.html",
+              "author": "J. K. Terhorst",
+              "publication_year": 2018,
+              "excerpt": "Historically, Dutch Calvinism promoted a strong work ethic and a sense of duty, which can manifest as a drive to achieve competence and contribute to society rather than personal glory.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

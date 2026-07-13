@@ -1,0 +1,2454 @@
+{
+  "iso3": "GHA",
+  "country": "Ghana",
+  "region": "West Africa",
+  "data_status": "PARTIAL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T22:59:51.236799+00:00",
+  "cultural_profile": {
+    "iso3": "GHA",
+    "country": "Ghana",
+    "region": "West Africa",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 21,
+        "reading": "Community-first",
+        "explanation": "Ghanaian identity is deeply rooted in collectivism, with strong community and family ties shaping social interactions."
+      },
+      {
+        "dimension": "D2",
+        "score": 53,
+        "reading": "Even-keeled",
+        "explanation": "While Ghana exhibits some openness in emotional expression, communication is often indirect and relies on shared cultural context."
+      },
+      {
+        "dimension": "D3",
+        "score": 35,
+        "reading": "Adaptable",
+        "explanation": "Ghana balances a preference for structured environments with a cultural acceptance of ambiguity, particularly in time management."
+      },
+      {
+        "dimension": "D4",
+        "score": 38,
+        "reading": "Relaxed",
+        "explanation": "Ghana prioritizes harmony and quality of life over competitive achievement, reflecting a more accepting cultural drive."
+      }
+    ],
+    "executive_summary": "Ghana is a tapestry of community ties and flexible timekeeping, where social harmony and collective well-being take precedence over individual ambition. The culture is marked by warm hospitality and indirect communication, with a deep respect for tradition and authority. Adaptability is key, as the rhythm of life flows with 'Ghana-Man Time', and success is often measured by one's contributions to family and community.",
+    "cultural_archetype": {
+      "title": "The Communal Improviser",
+      "summary": "Ghanaian culture thrives on strong community bonds and a flexible approach to time and interactions.",
+      "claim_ids": [
+        "claim1",
+        "claim2",
+        "C01",
+        "C04"
+      ],
+      "sources_count": 4
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Community-driven projects",
+      "Cultural immersion experiences"
+    ],
+    "culture_at_a_glance": [
+      "Ghanaian identity is deeply rooted in collectivistic values, with ethnicity and community ties shaping one's sense of self.",
+      "Communication in Ghana relies heavily on indirectness and symbolism, with proverbs prescribing emotion regulation strategies.",
+      "Ghana operates on 'Ghana-Man Time', a flexible approach to scheduling where events often start late and plans are adjusted improvisationally.",
+      "Life in Ghana moves to the rhythm of 'Ghana-Man Time', where flexibility and adaptability are essential as events often start late and schedules are fluid.",
+      "Ghanaian workplaces prioritize interpersonal harmony and communal responsibility, with decisions often made collectively and communication styles that emphasize respect and indirectness.",
+      "Ghanaians communicate indirectly, often using proverbs and relying on shared cultural knowledge, which can be challenging for those used to explicit communication."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Belonging First",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 64,
+          "framework_agreement": 84,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Ghanaian identity is deeply rooted in collectivistic values, with ethnicity and community ties shaping one's sense of self. This orientation is reflected in the way mixed-race individuals form their identities based on strong family and community connections.",
+            "claim_ids": [
+              "claim1",
+              "claim2",
+              "C01"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The 'African personality' concept promoted by Nkrumah emphasized cooperation and social solidarity over individualism, which remains influential in public discourse.",
+            "claim_ids": [
+              "c20"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Indirect Communication",
+        "confidence": {
+          "evidence_strength": 56,
+          "expert_agreement": 46,
+          "framework_agreement": 51,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Communication in Ghana relies heavily on indirectness and symbolism, with proverbs prescribing emotion regulation strategies. Conversations are high-context, relying on shared knowledge and minimal verbal explicitness.",
+            "claim_ids": [
+              "claim5",
+              "C10",
+              "C11",
+              "C14"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Flexible Timekeeping",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 40,
+          "framework_agreement": 58,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Ghana operates on 'Ghana-Man Time', a flexible approach to scheduling where events often start late and plans are adjusted improvisationally. This reflects a cultural tolerance for temporal ambiguity.",
+            "claim_ids": [
+              "claim6",
+              "C22",
+              "C23"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Ghana's collectivist orientation is deeply rooted in its social and ethnic structures, where community ties are paramount.",
+        "claim_ids": [
+          "claim1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Responsibility",
+        "but_also": "Emerging Individualism",
+        "explanation": "While Ghanaian culture is traditionally collectivist, urbanization and education are fostering individualistic aspirations among younger generations.",
+        "claim_ids": [
+          "claim1",
+          "C08",
+          "C09"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Life in Ghana moves to the rhythm of 'Ghana-Man Time', where flexibility and adaptability are essential as events often start late and schedules are fluid.",
+          "claim_ids": [
+            "claim6",
+            "C12",
+            "C23"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Ghanaian workplaces prioritize interpersonal harmony and communal responsibility, with decisions often made collectively and communication styles that emphasize respect and indirectness.",
+          "claim_ids": [
+            "C05",
+            "C07",
+            "C12"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Ghanaians communicate indirectly, often using proverbs and relying on shared cultural knowledge, which can be challenging for those used to explicit communication.",
+          "claim_ids": [
+            "claim5",
+            "C10",
+            "C14"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Hospitality is a cornerstone of Ghanaian social life, with warm greetings and invitations to share meals being common expressions of friendliness.",
+          "claim_ids": [
+            "C15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Failing to adhere to traditional etiquette, such as not speaking before elders are seated, can be seen as disrespectful.",
+          "claim_ids": [
+            "c9"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Using formal titles when addressing superiors is a sign of respect and an important aspect of professional interactions.",
+          "claim_ids": [
+            "C32"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Living in Ghana means embracing a rhythm that values community and flexibility. Time is fluid, with 'Ghana-Man Time' setting a relaxed pace. Work and social interactions are grounded in harmony and respect, and hospitality is a way of life. This creates a welcoming environment where relationships are prioritized over rigid schedules.",
+      "claim_ids": [
+        "claim6",
+        "C05",
+        "C15"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The concept of 'Ghana-Man Time' is immediately noticeable, as events and meetings often start later than scheduled, reflecting a cultural acceptance of fluidity.",
+        "claim_ids": [
+          "claim6",
+          "C23"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The indirect communication style, with its reliance on proverbs and shared cultural context, may surprise those accustomed to directness.",
+        "claim_ids": [
+          "claim5",
+          "C10"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Ghana often hinges on one's ability to navigate communal responsibilities and maintain strong family ties, while also adapting to the emerging individualistic aspirations in urban areas.",
+        "claim_ids": [
+          "C29",
+          "C31"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Rigid adherence to hierarchical norms can stifle innovation and open communication, as employees may avoid challenging management decisions even when necessary.",
+        "claim_ids": [
+          "C13"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Open",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Large",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Integrated",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "How is your family?",
+        "meaning": "A warm greeting and a way to express interest in your well-being.",
+        "claim_ids": [
+          "c8"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "Community-focused",
+        "younger": "Career-driven",
+        "claim_ids": [
+          "C08",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth are increasingly adopting individualistic values, while rural elders maintain traditional communal norms.",
+        "claim_ids": [
+          "C08",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "SLE",
+        "country": "Sierra Leone",
+        "similarity": 95,
+        "explanation": "Both Ghana and Sierra Leone emphasize community ties and have a relaxed approach to time, fostering similar social environments.",
+        "claim_ids": [
+          "claim1",
+          "claim6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "SEN",
+        "country": "Senegal",
+        "similarity": 92,
+        "explanation": "Ghana and Senegal share a collectivist orientation and a strong emphasis on social harmony, with similar communication styles.",
+        "claim_ids": [
+          "C01",
+          "C10"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "NGA",
+        "country": "Nigeria",
+        "similarity": 89,
+        "explanation": "Ghana and Nigeria both value family and community, with shared cultural practices and indirect communication norms.",
+        "claim_ids": [
+          "C01",
+          "C15"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "CPV",
+        "country": "Cape Verde",
+        "similarity": 88,
+        "explanation": "Ghana and Cape Verde both exhibit a relaxed approach to time and strong community bonds, creating similar social dynamics.",
+        "claim_ids": [
+          "claim6",
+          "C15"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinct Communal Bonds",
+        "explanation": "Ghana's emphasis on community and family ties is more pronounced than in some neighboring countries, shaping social interactions and identity.",
+        "claim_ids": [
+          "claim1",
+          "C01"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Flexible Time Culture",
+        "explanation": "The concept of 'Ghana-Man Time' is a unique cultural trait that sets Ghana apart, emphasizing a fluid approach to time management.",
+        "claim_ids": [
+          "claim6",
+          "C23"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More community-oriented than Cape Verde",
+        "dimension": "D1",
+        "neighbour_iso3": "CPV",
+        "delta": -19
+      },
+      {
+        "text": "More community-oriented than Guinea-Bissau",
+        "dimension": "D1",
+        "neighbour_iso3": "GNB",
+        "delta": -19
+      },
+      {
+        "text": "More easygoing than Nigeria",
+        "dimension": "D4",
+        "neighbour_iso3": "NGA",
+        "delta": -17
+      },
+      {
+        "text": "More achievement-oriented than Cape Verde",
+        "dimension": "D4",
+        "neighbour_iso3": "CPV",
+        "delta": 13
+      },
+      {
+        "text": "More reserved than Nigeria",
+        "dimension": "D2",
+        "neighbour_iso3": "NGA",
+        "delta": -12
+      },
+      {
+        "text": "More easygoing than Guinea-Bissau",
+        "dimension": "D4",
+        "neighbour_iso3": "GNB",
+        "delta": -11
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ghana displays strong collectivistic identity patterns: ethnicity and social rootedness remain salient and identity is shaped by group loyalties rather than individual autonomy, as seen in studies showing interplay of ethnicity and national belonging (supporting collectivism). Mixed‑race persons negotiate identity via close family ties and community definitions. There is little evidence of strong individualist identity. Hence D1 is low (collectivist orientation).",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Ghana's Hofstede Individualism score is 15 — one of the lowest globally — anchoring D1 firmly at the collectivist (low/Social) end. Multiple independent peer-reviewed sources corroborate: identity is defined through extended family, community, and clan membership rather than individual autonomy. Collectivist loyalty shapes workplace behaviour, CSR expectations, and moral philosophy (Wiredu's communitarian framework). The only counter-pressure is a nascent urban-youth shift toward personal ambition, but this is acknowledged as a minority hybrid trend that adjusts the score marginally upward from the absolute floor. Score set at 12 (very low/Social), not at the absolute floor, to accommodate that urban generational nuance. No D3 evidence (hierarchy, orderliness) was used to move this score.",
+          "suggested_score": 12
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ghana scores very low on the Identity dimension (social/collectivist). Hofstede’s Individualism score for Ghana is 15, placing it among the most collectivist societies globally. The self is defined through family, extended kin, clan, and ethnic group; personhood is relational. High ethnolinguistic diversity (over 70 groups) coexists with strong overarching cultural themes of communal responsibility (e.g. the Akan concept of biako ye, ‘one person is no person’). Counter evidence includes increasing individualism among urban educated youth and in entrepreneurial circles, but the baseline remains strongly social.",
+          "suggested_score": 15
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Emotional expression in Akan (Ghana) is regulated by proverbs enforcing restraint, avoiding public displays of shame or pride, indicating structurally restrained expression. This supports a low 'open expression' score. Counter‑evidence for higher openness was not found. Thus D2 is fairly low.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 measures freedom of emotional expression from hierarchical suppression — not volume or social warmth. Ghana scores high on Hofstede's Indulgence (78 per Ghana Social Science Journal, citing Hofstede Insights), which captures enjoyment and social energy, and Ghanaians are widely noted for warmth and hospitality. However, a peer-reviewed Frontiers in Psychology study on Akan emotion norms finds that indirectness and symbolism dominate communication, emotion discourse is less elaborate than in Western settings, and cultural proverbs actively prescribe restraint of pride and negative emotions. High-power-distance norms further suppress upward dissent. These structural restraints on public emotional display — especially in formal and hierarchical contexts — pull the score into the lower-moderate Restrained range. The hospitality and social warmth are real but operate within circumscribed relational contexts; they do not equal structurally free emotional expression. Score: 38.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Ghana is moderately open. Daily interaction is emotionally warm, expressive, and marked by elaborate greetings and humour. Hierarchical suppression of emotion in formal settings (e.g. deference to elders/chiefs) restrains expression in some contexts, but overall emotion is freely displayed in social and religious life. Pentecostal-charismatic Christianity (about 30% of population) encourages exuberant worship, while the chieftaincy system and Akan etiquette (e.g. not speaking before an elder sits) modulate expression. The baseline from Hofstede’s Indulgence dimension (72) supports an open expressive orientation, tempered by hierarchical formality.",
+          "suggested_score": 65
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Time‑related behavior such as ‘Ghana‑Man Time’ and flexible punctuality norms reflect fluidity with ambiguity, pointing to low Structure (comfortable with ambiguity, relaxed scheduling). No strong evidence of time discipline or rigidity was found. Thus D3 is low (fluid).",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Ghana's Hofstede UAI is 55 — above the global midpoint, indicating a moderate preference for certainty and structure. An independent marketing-managers study (IDP Publications, 2015) found 92% of Ghanaian managers reported discomfort with risk-taking, suggesting the operational UAI may be higher than the Hofstede survey figure. Tradition-orientation (Hofstede LTO score near zero) amplifies structural-certainty preferences: normative thinking and discomfort with deviation from tradition are documented. Counter-evidence: Ghana is also described as relationship-first (over task), flexible about meeting times, and adaptable in informal settings — all suggesting lived tolerance for ambiguity in daily contexts. The 'event time' culture and fluid scheduling are genuine. Balancing the moderate-to-high measured UAI against real flexibility in informal life, score is set at 60 — above midpoint but not extreme.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Structure in Ghana is low-to-moderate (fluid). Rules are interpreted flexibly; planning is present but often revised improvisationally (the concept of ‘Ghana man time’). Social hierarchy and order exist through seniority and chieftaincy, but bureaucratic predictability is weak. Hofstede’s Uncertainty Avoidance (65) suggests moderate discomfort with ambiguity, but lived experience (e.g. negotiation at markets, flexible scheduling) indicates high tolerance for ambiguity. The legal system is a mix of English common law and customary law, creating pluralism and unpredictability. Counter evidence: traditional Akan law (mpanyinfoɔ) is rule-bound within communities; some formal sectors (banking) require strict compliance.",
+          "suggested_score": 30
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Insufficient ethnographic evidence on achievement‑orientation vs acceptance or harmony in everyday lived experience; Masculinity/Drive dimensions not documented clearly to justify a score, so abstaining.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Ghana's Hofstede Masculinity score is low (per Ghana Social Science Journal: low on masculinity), placing it in the Feminine/Accepting camp — harmony, solidarity, and quality of life over competitive achievement. The 'femininity' descriptor aligns with cultural emphasis on relationship over task, communal well-being over personal performance, and compromise over confrontation. Hard work is valued but framed as social responsibility to family and community, not personal advancement. Counter-evidence: urban private-sector employees show hybrid performance-orientation, Ghanaian émigrés display strong competitive ambition abroad, and some empirical studies find teachers and bankers with strong individual work-ethic scores. These adjustments prevent the score from reaching the absolute Accepting floor. Score: 30 — clearly Accepting/low-Drive, but not at the extreme, given documented private-sector ambition and education-linked achievement aspiration.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Drive is moderate (mid-range between striving and accepting). Ghanaians are ambitious (high entrepreneurial rates, ‘makola’ market traders, diaspora remittance aspirations), but also place high value on social harmony, family time, and relationships over competitive achievement. Hofstede’s Masculinity score (40) indicates a moderately feminine/relational culture, which translates into balancing achievement with quality of life and communal solidarity. Counter evidence: urban youth show high competition for jobs and status (e.g. ‘sakawa’ cyber scams as shortcut to wealth), but underlying norms still prioritize communal reputation.",
+          "suggested_score": 45
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Hofstede 6-D model scores comparison between Ghana and Nigeria",
+      "url": "https://sites.psu.edu/global/2021/03/10/hofstede-6-d-model-scores-comparison-between-ghana-and-nigeria/",
+      "author": "Penn State Global (student analysis)",
+      "publication_year": 2021,
+      "excerpt": "Ghana scores 15 on Hofstede's Individualism index, making it one of the most collectivist societies measured — people's self-image is defined in terms of 'we' rather than 'I', and society fosters strong relationships where everyone takes responsibility for group members.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S09",
+      "title": "Cultural Foundations of Ghanaian Work Ethic (IJCSPUB)",
+      "url": "https://rjpn.org/ijcspub/papers/IJCSP25C1040.pdf",
+      "author": "IJCSPUB (multiple authors)",
+      "publication_year": 2025,
+      "excerpt": "Traditional Ghanaian values are largely communitarian, emphasising collective well-being over individual achievement; the Ghanaian moral framework (Wiredu 1996) is structured around communal obligations where personal effort is valued insofar as it contributes to welfare of family and community.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S07",
+      "title": "Organizational Culture and Work Ethic in Ghana (IJRPA)",
+      "url": "https://www.ijrpa.com/myimgup/667914481IJRPA-1044.pdf",
+      "author": "IJRPA (multiple authors)",
+      "publication_year": 2024,
+      "excerpt": "In collectivist societies like Ghana, employees value interpersonal harmony, loyalty, and communal responsibility, which influences work ethic by emphasising cooperation and relational work practices rather than individual output.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S03",
+      "title": "Cultural Dimension in Marketing Managers' Decision-Making (Ghana)",
+      "url": "https://www.idpublications.org/wp-content/uploads/2015/02/Cultural-Dimension-in-Marketing-Managers-Decision-Making.pdf",
+      "author": "IDP Publications",
+      "publication_year": 2015,
+      "excerpt": "A study of marketing managers in Ghana found that decisions were collective in nature, consistent with low individualism, and managers did not value self-independence as much as individualist people do.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S02",
+      "title": "The Influence of Traditional Ghanaian Values on Work Ethic",
+      "url": "https://ijcbss.org/uploads/2025/04/11042942.pdf",
+      "author": "IJCBSS (multiple authors)",
+      "publication_year": 2025,
+      "excerpt": "Younger professionals in urban Ghana increasingly prioritise personal achievement and career mobility over familial or communal expectations, creating a hybrid cultural landscape — a counter-pressure toward individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S09",
+      "title": "Cultural Foundations of Ghanaian Work Ethic (IJCSPUB)",
+      "url": "https://rjpn.org/ijcspub/papers/IJCSP25C1040.pdf",
+      "author": "IJCSPUB (multiple authors)",
+      "publication_year": 2025,
+      "excerpt": "Urban youth in Ghana are more likely to blend traditional communal values with modern ideals of personal ambition, autonomy, and efficiency — emphasising obedience and collective success less than older or rural generations.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S11",
+      "title": "Emotion Norms, Display Rules, and Regulation in the Akan Society of Ghana (Frontiers in Psychology / PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6220724/",
+      "author": "Dzokoto et al.",
+      "publication_year": 2018,
+      "excerpt": "A peer-reviewed Frontiers/PMC study on the Akan (Ghana's dominant ethnic group) finds indirectness and symbolism rather than explicit communication is common, and emotion discourse in emotionally significant life events is less elaborate (fewer emotion words) than in North American settings — indicating structural restraint on public emotional expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S11",
+      "title": "Emotion Norms, Display Rules, and Regulation in the Akan Society of Ghana (Frontiers in Psychology / PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6220724/",
+      "author": "Dzokoto et al.",
+      "publication_year": 2018,
+      "excerpt": "Akan cultural proverbs prescribe specific emotion regulation strategies — including restraint of pride and suppression of negative emotional contagion — indicating that cultural rules actively restrict free emotional display.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S10",
+      "title": "Factors Influencing Nonverbal Communication Effect on Employee Engagement in Ghana (IJRISS)",
+      "url": "https://rsisinternational.org/journals/ijriss/articles/factors-influencing-nonverbal-communication-effect-on-employee-engagement-in-ghana/",
+      "author": "KNUST / IJRISS",
+      "publication_year": 2025,
+      "excerpt": "Ghanaian workplace culture features indirect communication styles; employees exhibit deference or restraint in interactions with superiors, and cultural factors such as respect for authority and hierarchical structures may suppress direct emotional and verbal expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S02",
+      "title": "The Influence of Traditional Ghanaian Values on Work Ethic",
+      "url": "https://ijcbss.org/uploads/2025/04/11042942.pdf",
+      "author": "IJCBSS (multiple authors)",
+      "publication_year": 2025,
+      "excerpt": "Respect for authority values can discourage innovation or open communication if interpreted rigidly, and employees report avoiding direct challenge of management decisions even when they disagree — reflecting hierarchical suppression of expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S19",
+      "title": "Understanding Ghanaian Work Ethic: The Interplay of Education and Tradition (IJCSPUB)",
+      "url": "https://rjpn.org/ijcspub/papers/IJCSP25C1039.pdf",
+      "author": "IJCSPUB (multiple authors)",
+      "publication_year": 2025,
+      "excerpt": "Ghana is classified as a high-context culture where conversations heavily rely on shared knowledge and meaning, with minimal verbal explicitness — indicating restrained rather than openly expressive communication norms.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S08",
+      "title": "Cultural Considerations in Ghana (Rivermate)",
+      "url": "https://rivermate.com/guides/ghana/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2025,
+      "excerpt": "Ghanaians are noted for warm hospitality: accepting invitations for meals, offering refreshments to visitors, and engaging in polite personal conversation (asking about family and health) before business — indicating openness in social relational contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S08",
+      "title": "Cultural Considerations in Ghana (Rivermate)",
+      "url": "https://rivermate.com/guides/ghana/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2025,
+      "excerpt": "Flexibility is required in Ghanaian business contexts: punctuality is appreciated but meetings are subject to interruptions, changing schedules, or late arrivals — suggesting lived tolerance for temporal ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S15",
+      "title": "Ghanaian Cultural Mindset Towards Time and Work (Modern Ghana)",
+      "url": "https://www.modernghana.com/news/1128104/ghanaian-cultural-mindset-towards-time-and-work.html",
+      "author": "Modern Ghana",
+      "publication_year": 2021,
+      "excerpt": "Ghana operates as an 'event time' culture where time is set as an approximate guideline rather than an exact constraint, and factors beyond individuals' control are accepted as normal — indicating fluidity in temporal structure.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S19",
+      "title": "Understanding Ghanaian Work Ethic: The Interplay of Education and Tradition (IJCSPUB)",
+      "url": "https://rjpn.org/ijcspub/papers/IJCSP25C1039.pdf",
+      "author": "IJCSPUB (multiple authors)",
+      "publication_year": 2025,
+      "excerpt": "More educated Ghanaians reported a stronger work ethic expressed as greater sense of responsibility, ambition, and future orientation — showing achievement aspiration linked to education as a counter-pressure toward striving.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S11",
+      "title": "Emotion Norms, Display Rules, and Regulation in the Akan Society of Ghana (Frontiers in Psychology / PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6220724/",
+      "author": "Dzokoto et al.",
+      "publication_year": 2018,
+      "excerpt": "Private-sector Ghanaian employees describe hybrid practices blending relational values with performance orientation, reflecting emerging competition-awareness among urban professionals.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S08",
+      "title": "Cultural Considerations in Ghana (Rivermate)",
+      "url": "https://rivermate.com/guides/ghana/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2025,
+      "excerpt": "Addressing superiors with formal titles (Mr., Ms., Dr., Professor) is standard unless explicitly invited to use first names — a concrete workplace norm newcomers must navigate.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c20",
+      "source_id": "s3",
+      "title": "Ghana: A History of Contemporary Political, Economic and Social Affairs",
+      "url": "https://www.cambridge.org/core/books/ghana/",
+      "author": "Richard Rathbone",
+      "publication_year": 2000,
+      "excerpt": "The 'African personality' concept promoted by Nkrumah emphasized cooperation and social solidarity over cutthroat individualism; this ethos remains influential in public discourse.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s7",
+      "title": "Greetings in Ghana: A Sociolinguistic Analysis",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/09585359508539910",
+      "author": "Kofi Agyekum",
+      "publication_year": 1995,
+      "excerpt": "Greetings in Ghana are elaborate, often include inquiries about family and health, and are obligatory; failure to greet is considered rude and unfriendly, indicating emotional warmth.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s9",
+      "title": "The Chieftaincy Institution and the Preservation of Akan Tradition",
+      "url": "https://www.jstor.org/stable/20203985",
+      "author": "Maxwell Owusu",
+      "publication_year": 1978,
+      "excerpt": "Traditional Akan etiquette demands that younger people do not speak before an elder sits; emotional restraint in the presence of authority is expected.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim1",
+      "source_id": "turn0search2",
+      "title": "Individualistic and Collectivistic Orientations: Examining the Relationship between Ethnicity and National Attachment in Ghana",
+      "url": "...ugspace.ug.edu.gh/items/d3eb314a-e243-4a05-8acf-fb0acc8a2f89",
+      "author": "K.T. Asante",
+      "publication_year": 2020,
+      "excerpt": "Study shows collectivistic social rootedness and ethnicity remain salient in Ghanaian identity, suggesting collectivist orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim2",
+      "source_id": "turn0search6",
+      "title": "OUT OF PLACE? Mixed‑Race Identities in Ghana",
+      "url": "...pure.ug.edu.gh/en/publications/out‑of‑place‑mixed‑race‑identities‑in‑ghana",
+      "author": "Geraldine A. Ampah, Akosua K. Darkwah",
+      "publication_year": 2026,
+      "excerpt": "Mixed‑race individuals in Ghana form identity based on strong family and community ties, indicating identity is socially defined rather than individually.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim5",
+      "source_id": "turn0search7",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Proverbs show individual responsibility for emotion regulation and limited verbal elaboration of feelings compared to Western cultures.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim6",
+      "source_id": "turn0search3",
+      "title": "A Study on the Elasticity of Time in a Perceived Polychronic Culture",
+      "url": "...researchgate.net/publication/369059778",
+      "author": "unknown",
+      "publication_year": 2023,
+      "excerpt": "Ghana exhibits polychronic time orientation, with flexible punctuality and concept of 'Ghana‑Man Time' that delays events gracefully.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 21,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 53,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 35,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 38,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 28.20855976,
+      "D2": 60.18846713,
+      "D3": 25.62692532,
+      "D4": 41.3492528
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 20.16675098,
+        "hi": 36.25036853
+      },
+      "D2": {
+        "lo": 40.9479357,
+        "hi": 79.42899857
+      },
+      "D3": {
+        "lo": 12.06738571,
+        "hi": 39.18646494
+      },
+      "D4": {
+        "lo": 25.12919555,
+        "hi": 57.56931006
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "GHA",
+        "dimension": "D1",
+        "baseline": 28.20855976,
+        "final": 21.0,
+        "direction": "down",
+        "magnitude": 7.21,
+        "reason": "Identity adjusted from baseline 28.2 to 21 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 21 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "GHA",
+        "dimension": "D2",
+        "baseline": 60.18846713,
+        "final": 53.0,
+        "direction": "down",
+        "magnitude": 7.19,
+        "reason": "Expression adjusted from baseline 60.2 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.66 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 53 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "GHA",
+        "dimension": "D3",
+        "baseline": 25.62692532,
+        "final": 35.0,
+        "direction": "up",
+        "magnitude": 9.37,
+        "reason": "Structure adjusted from baseline 25.6 to 35 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.65 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 35 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "GHA",
+        "dimension": "D4",
+        "baseline": 41.3492528,
+        "final": 38.0,
+        "direction": "down",
+        "magnitude": 3.35,
+        "reason": "Drive adjusted from baseline 41.3 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 38 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 20.17,
+        "baseline": 28.20855976,
+        "framework_hi": 36.25,
+        "specialist_recommendation": 19.0,
+        "council_consensus": 24.0,
+        "integrator_recommendation": 21.3,
+        "llm_recommendation": 21.0,
+        "final": 21,
+        "available_range": 16.08,
+        "distance_from_baseline": -7.21,
+        "range_utilization": 5,
+        "clamp_adjustment": -0.3,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 0.83,
+        "distance_from_upper": 15.25,
+        "movement_reason": "Evidence-first placement of Identity at 21 (evidence credibility 0.67): specialist recommendation 19.0 blended with council consensus 24.0, with baseline reference 28.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 40.95,
+        "baseline": 60.18846713,
+        "framework_hi": 79.43,
+        "specialist_recommendation": 47.667,
+        "council_consensus": 62.0,
+        "integrator_recommendation": 53.19,
+        "llm_recommendation": 53.0,
+        "final": 53,
+        "available_range": 38.48,
+        "distance_from_baseline": -7.19,
+        "range_utilization": 31,
+        "clamp_adjustment": -0.19,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 12.05,
+        "distance_from_upper": 26.43,
+        "movement_reason": "Evidence-first placement of Expression at 53 (evidence credibility 0.66): specialist recommendation 47.667 blended with council consensus 62.0, with baseline reference 60.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 12.07,
+        "baseline": 25.62692532,
+        "framework_hi": 39.19,
+        "specialist_recommendation": 40.0,
+        "council_consensus": 28.0,
+        "integrator_recommendation": 34.85,
+        "llm_recommendation": 35.0,
+        "final": 35,
+        "available_range": 27.12,
+        "distance_from_baseline": 9.37,
+        "range_utilization": 85,
+        "clamp_adjustment": 0.15,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 22.93,
+        "distance_from_upper": 4.19,
+        "movement_reason": "Evidence-first placement of Structure at 35 (evidence credibility 0.65): specialist recommendation 40.0 blended with council consensus 28.0, with baseline reference 25.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 25.13,
+        "baseline": 41.3492528,
+        "framework_hi": 57.57,
+        "specialist_recommendation": 37.5,
+        "council_consensus": 38.0,
+        "integrator_recommendation": 38.04,
+        "llm_recommendation": 38.0,
+        "final": 38,
+        "available_range": 32.44,
+        "distance_from_baseline": -3.35,
+        "range_utilization": 40,
+        "clamp_adjustment": -0.04,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 12.87,
+        "distance_from_upper": 19.57,
+        "movement_reason": "Evidence-first placement of Drive at 38 (evidence credibility 0.62): specialist recommendation 37.5 blended with council consensus 38.0, with baseline reference 41.3 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Ghana",
+        "iso3": "GHA",
+        "dimension": "D1",
+        "baseline_score": 28.20855976,
+        "final_score": 21,
+        "change_amount": -7.21,
+        "change_percent": -25.56,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Ghana's Identity is placed at 21 (Social 3 <-> Self 97). Within the framework range [20-36], 21 sits at ~5% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C02",
+          "W_institutional_analyst_C03",
+          "W_institutional_analyst_C04"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 0.0,
+          "schwartz": 33.33,
+          "wvs": 0.0,
+          "trompenaars": 33.33
+        },
+        "statistician_reasoning": "Signal strength 0.8308 is the strongest of all four dimensions, agreement 0.8393, conflict only 0.1607. Hofstede IDV ~15-20 for Ghana is among the lowest globally. Schwartz embeddedness is high, Trompenaars communitarianism is strong. All three frameworks converge. CI [20.16, 36.25] is entirely below 50. Score of 24 sits near the lower portion of the CI, justified by the convergent multi-framework evidence for deep collectivism. Why not lower: CI floor is 20.16, and partial data status warrants slight conservatism from the floor. Why not higher: no framework signals individualist tendencies; all three supporting frameworks agree on strong collectivism. Most decisive evidence: Hofstede IDV and Schwartz embeddedness.",
+        "comparativist_reasoning": "Ghana's score of 24 on Identity reflects strong collectivist tendencies, consistent with Hofstede's low Individualism score (~15-20) and Schwartz's high embeddedness. This is lower than regional peers like Sierra Leone (28) and Nigeria (25), and well below the South Korea anchor (50). The evidence from multiple frameworks supports a deeply collectivist culture.",
+        "country_specialist_reasoning": "Ghana's identity is strongly collectivist, supported by Hofstede's low Individualism score and qualitative evidence of strong communal ties. This is well below the South Korea anchor, reflecting deep collectivism.",
+        "skeptic_reasoning": "Adversarial check on Identity=24: resist midpoint bias and compression. The evidence strongly supports a deeply collectivist society with high power distance and communitarian values. The CI [20.16, 36.25] is entirely below 50, and the score sits near the lower portion, justified by convergent multi-framework evidence. Why not lower: CI floor is 20.16, and partial data status warrants slight conservatism. Why not higher: no framework signals individualist tendencies; all three supporting frameworks agree on strong collectivism. Most decisive evidence: Hofstede IDV ~15-20 and Schwartz embeddedness.",
+        "integrator_decision": "Identity adjusted from baseline 28.2 to 21 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7726): coverage=0.6, agreement=1.0, evidence=0.738, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 21,
+          "considered_alternatives": [
+            24,
+            28
+          ],
+          "why_rejected": {
+            "24": "24 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "28": "28 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "21 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (24) and the CI ceiling (36), so pushing past 21 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 21 would understate the measured signal.",
+        "integrator_recommendation": 21.3,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.3,
+        "absolute_score_rationale": "Ghana sits at 21 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~20), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 28 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ghana's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would imply markedly more Self; the evidence and framework signal do not support pushing Ghana that far toward Self.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Ghana that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Ghana that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Ghana that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 21 means everyday life in Ghana leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 21 is justified: Ghana sits at 21 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~20), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 28 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 21 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (24) and the CI ceiling (36), so pushing past 21 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C02, W_institutional_analyst_C03, W_institutional_analyst_C04.",
+        "executive_explanation": "Ghana sits at 21 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~20), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 28 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (24) and the CI ceiling (36), so pushing past 21 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 21 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=7.21. Framework consensus=20.16, signal_strength=0.8308, conflict=0.1607. Within the framework range [20-36], 21 sits at ~5% of the permitted span. Confidence HIGH (score 0.7726): coverage=0.6, agreement=1.0, evidence=0.738, stability=1.0."
+      },
+      {
+        "country": "Ghana",
+        "iso3": "GHA",
+        "dimension": "D2",
+        "baseline_score": 60.18846713,
+        "final_score": 53,
+        "change_amount": -7.19,
+        "change_percent": -11.95,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Ghana's Expression is placed at 53 (Restrained 3 <-> Open 97). Within the framework range [41-79], 53 sits at ~31% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C10",
+          "W_institutional_analyst_C11",
+          "W_institutional_analyst_C12"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 50.0,
+          "globe": 0.0,
+          "schwartz": 16.67,
+          "wvs": 0.0,
+          "trompenaars": 33.33
+        },
+        "statistician_reasoning": "Signal strength 0.4938 with high conflict 0.4868 between Hofstede indulgence (~72, supporting open expression) and Trompenaars affective-neutral (pulling toward restraint). Consensus sits at 62.19, which aligns with the score. CI [40.95, 79.43] is wide. Hofstede indulgence is the anchor measure for D2 per framework rules and Ghana scores relatively high. Why not lower: Hofstede indulgence of ~72 is a strong quantitative anchor; dropping below 55 would contradict the primary anchor measure. Why not higher: Trompenaars affective-neutral conflicts, and partial data status limits confidence in pushing toward the upper CI. Score of 62 reflects the Hofstede signal while acknowledging the Trompenaars conflict. Above Turkey anchor (50) by 12 points.",
+        "comparativist_reasoning": "Ghana's score of 62 on Expression is supported by Hofstede's high Indulgence score (~72), suggesting a more open expression culture compared to the regional mean. This is higher than the Turkey anchor (50) and aligns with the higher expression seen in Nigeria (65). Trompenaars' affective-neutral dimension introduces some conflict, but the primary evidence supports a more open expression.",
+        "country_specialist_reasoning": "Ghana shows a relatively open expression culture, as indicated by Hofstede's high Indulgence score, despite some conflicting signals from Trompenaars. This places Ghana above the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=62: resist midpoint bias and compression. The evidence shows a moderate-to-open expression orientation, supported by Hofstede indulgence (~72) as the primary anchor measure. The CI [40.95, 79.43] is wide, and the score sits above the Turkey anchor (50) by 12 points. Why not lower: Hofstede indulgence is a strong quantitative anchor; dropping below 55 would contradict it. Why not higher: Trompenaars affective-neutral conflict and partial data status limit confidence in pushing toward the upper CI. Most decisive evidence: Hofstede indulgence and qualitative descriptions of emotional expressiveness in social life.",
+        "integrator_decision": "Expression adjusted from baseline 60.2 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.66 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.734): coverage=0.6, agreement=1.0, evidence=0.695, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 53,
+          "considered_alternatives": [
+            60,
+            62
+          ],
+          "why_rejected": {
+            "60": "60 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "62": "62 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "53 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (79), so pushing past 53 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (62) and the CI floor (41), so going below 53 would understate the measured signal.",
+        "integrator_recommendation": 53.19,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.19,
+        "absolute_score_rationale": "Ghana sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ghana's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Ghana's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Ghana that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Ghana that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Ghana that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 53 means everyday life in Ghana leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 53 is justified: Ghana sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (62) and the CI floor (41), so going below 53 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (79), so pushing past 53 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C10, W_institutional_analyst_C11, W_institutional_analyst_C12.",
+        "executive_explanation": "Ghana sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (79), so pushing past 53 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (62) and the CI floor (41), so going below 53 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=7.19. Framework consensus=62.19, signal_strength=0.4938, conflict=0.4868. Within the framework range [41-79], 53 sits at ~31% of the permitted span. Confidence HIGH (score 0.734): coverage=0.6, agreement=1.0, evidence=0.695, stability=0.8."
+      },
+      {
+        "country": "Ghana",
+        "iso3": "GHA",
+        "dimension": "D3",
+        "baseline_score": 25.62692532,
+        "final_score": 35,
+        "change_amount": 9.37,
+        "change_percent": 36.56,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Ghana's Structure is placed at 35 (Fluid 3 <-> Certain 97). Within the framework range [12-39], 35 sits at ~85% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C18",
+          "W_institutional_analyst_C20",
+          "W_institutional_analyst_C21"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 0.0,
+          "schwartz": 37.5,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Signal strength 0.6502, agreement 0.5807, conflict 0.4193. Hofstede uncertainty avoidance for Ghana is relatively low, and per framework mapping rules Hofstede UA maps to D3; lower UA = more fluid/tolerant of ambiguity. Schwartz harmony supports lower structure need. Trompenaars future-past and synchronic-sequential create moderate conflict. CI [12.07, 39.19] is entirely below 50, confirming fluid placement. Why not lower: Trompenaars conflict and moderate signal strength prevent pushing to the CI floor; some structure-seeking is evident. Why not higher: CI ceiling is 39.19 and the preponderance of evidence supports fluidity. Score of 28 is below Colombia anchor (50) by 22 points.",
+        "comparativist_reasoning": "Ghana's score of 28 on Structure indicates a fluid approach to ambiguity, supported by Hofstede's low Uncertainty Avoidance. This places Ghana below the regional mean and the Colombia anchor (50), similar to Nigeria (35) and Sierra Leone (41). The evidence supports a culture comfortable with ambiguity, despite some Trompenaars conflict.",
+        "country_specialist_reasoning": "Ghana's cultural tolerance for ambiguity is reflected in a low Uncertainty Avoidance score, indicating a fluid structure. This is well below the Colombia anchor, confirming fluidity.",
+        "skeptic_reasoning": "Adversarial check on Structure=28: resist midpoint bias and compression. The evidence strongly supports a fluid orientation, with low Hofstede uncertainty avoidance and Schwartz harmony supporting tolerance for ambiguity. The CI [12.07, 39.19] is entirely below 50, and the score sits near the lower portion. Why not lower: Trompenaars conflict and moderate signal strength prevent pushing to the CI floor; some structure-seeking is evident in formal institutions. Why not higher: CI ceiling is 39.19 and the preponderance of evidence supports fluidity; Hofstede UA is low. Most decisive evidence: Hofstede UA and Schwartz harmony.",
+        "integrator_decision": "Structure adjusted from baseline 25.6 to 35 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.65 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.604): coverage=0.6, agreement=1.0, evidence=0.65, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 35,
+          "considered_alternatives": [
+            26,
+            28
+          ],
+          "why_rejected": {
+            "26": "26 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "28": "28 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "35 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (28) and the CI ceiling (39), so pushing past 35 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 35 would understate the measured signal.",
+        "integrator_recommendation": 34.85,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.15,
+        "absolute_score_rationale": "Ghana sits at 35 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ghana's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Ghana that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Ghana that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Ghana that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Ghana that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 35 means everyday life in Ghana leans toward Fluid: institutions, norms and expression skew toward Fluid.",
+        "final_rationale": "Why 35 is justified: Ghana sits at 35 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 35 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (28) and the CI ceiling (39), so pushing past 35 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C18, W_institutional_analyst_C20, W_institutional_analyst_C21.",
+        "executive_explanation": "Ghana sits at 35 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (28) and the CI ceiling (39), so pushing past 35 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 35 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=9.37. Framework consensus=62.66, signal_strength=0.6502, conflict=0.4193. Within the framework range [12-39], 35 sits at ~85% of the permitted span. Confidence MEDIUM (score 0.604): coverage=0.6, agreement=1.0, evidence=0.65, stability=1.0."
+      },
+      {
+        "country": "Ghana",
+        "iso3": "GHA",
+        "dimension": "D4",
+        "baseline_score": 41.3492528,
+        "final_score": 38,
+        "change_amount": -3.35,
+        "change_percent": -8.1,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Ghana's Drive is placed at 38 (Accepting 3 <-> Striving 97). Within the framework range [25-58], 38 sits at ~40% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C25",
+          "W_institutional_analyst_C28",
+          "W_institutional_analyst_C29"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "schwartz"
+        ],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 0.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "Signal strength 0.6674, agreement 0.6754, conflict 0.3246. Consensus at 39.21 supports a score near 38-39. CI [25.13, 57.57] spans the midpoint. Hofstede masculinity for Ghana is moderate-low, Trompenaars ascription-achievement leans toward ascription (lower achievement orientation), but Schwartz mastery conflicts by suggesting some mastery orientation. Why not lower: Schwartz mastery signal and Trompenaars achievement component prevent dropping to the CI floor; some striving orientation is present. Why not higher: Hofstede masculinity is low and Trompenaars ascription signal dominates; pushing above 45 would overweight the conflicting Schwartz mastery signal. Score of 38 is below Turkey anchor (50) by 12 points, reflecting a modest accepting orientation.",
+        "comparativist_reasoning": "Ghana's score of 39 on Drive reflects a balance between ambition and contentment, lower than the Turkey anchor (50) and regional peers like Nigeria (55). The evidence from GLOBE Performance Orientation and Hofstede's Masculinity score supports a moderate drive, with a cultural emphasis on harmony over aggressive achievement.",
+        "country_specialist_reasoning": "Ghana's cultural drive is more accepting, with less emphasis on achievement and mastery compared to the Turkey anchor. This is supported by qualitative evidence of communal well-being over individual ambition.",
+        "skeptic_reasoning": "Adversarial check on Drive=37: resist midpoint bias and compression. The evidence supports a moderately accepting orientation, with Hofstede masculinity moderate-low and Schwartz mastery moderate. The CI [25.13, 57.57] straddles the midpoint, but the consensus signal (39.21) and qualitative evidence of communal harmony and sufficiency values push toward the lower end. Why not lower: CI floor is 25.13, and some achievement orientation exists in urban/entrepreneurial contexts. Why not higher: strong qualitative evidence of harmony, sufficiency, and contentment values; GLOBE performance orientation contributes to D4 but is not dominant. Most decisive evidence: Hofstede masculinity and qualitative descriptions of communal values.",
+        "integrator_decision": "Drive adjusted from baseline 41.3 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5922): coverage=0.6, agreement=0.953, evidence=0.635, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 38,
+          "considered_alternatives": [
+            37,
+            39,
+            41
+          ],
+          "why_rejected": {
+            "37": "37 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "39": "39 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "41": "41 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "38 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (58), so pushing past 38 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (25), so going below 38 would understate the measured signal.",
+        "integrator_recommendation": 38.04,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.04,
+        "absolute_score_rationale": "Ghana sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ghana's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Ghana that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Ghana that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Ghana that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Ghana that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 38 means everyday life in Ghana leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 38 is justified: Ghana sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (25), so going below 38 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (58), so pushing past 38 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C25, W_institutional_analyst_C28, W_institutional_analyst_C29.",
+        "executive_explanation": "Ghana sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (58), so pushing past 38 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (25), so going below 38 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=3.35. Framework consensus=39.21, signal_strength=0.6674, conflict=0.3246. Within the framework range [25-58], 38 sits at ~40% of the permitted span. Confidence MEDIUM (score 0.5922): coverage=0.6, agreement=0.953, evidence=0.635, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "SLE",
+        "country": "Sierra Leone",
+        "d1": 28.0,
+        "d2": 53.0,
+        "d3": 41.0,
+        "d4": 40.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "NGA",
+        "country": "Nigeria",
+        "d1": 25.0,
+        "d2": 65.0,
+        "d3": 35.0,
+        "d4": 55.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SEN",
+        "country": "Senegal",
+        "d1": 30.79768517,
+        "d2": 46.70983501,
+        "d3": 32.29933729,
+        "d4": 28.72228208,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CPV",
+        "country": "Cape Verde",
+        "d1": 39.99893556,
+        "d2": 53.67062009,
+        "d3": 33.00335838,
+        "d4": 25.35144265,
+        "relation": "regional"
+      },
+      {
+        "iso3": "GNB",
+        "country": "Guinea-Bissau",
+        "d1": 40.35995335,
+        "d2": 51.26197276,
+        "d3": 44.60759632,
+        "d4": 49.13212854,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 29.0,
+        "reason": "Ghana is below the South Korea Identity anchor (50) by 29.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 3.0,
+        "reason": "Ghana is above the Turkey Expression anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 12.0,
+        "reason": "Ghana is below the Turkey Drive anchor (50) by 12.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 15.0,
+        "reason": "Ghana is below the Colombia Structure anchor (50) by 15.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "GHA",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=32"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 32.0,
+        "midpoint_dimensions": [
+          "D2"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "Hofstede Insights. (2023). Country Comparison: Ghana. Retrieved from https://www.hofstede-insights.com/country-comparison/ghana/.",
+        "source_type": "qualitative_literature",
+        "data_point": "Ghana Individualism=15, Indulgence=72, Masculinity=40, UAI=54",
+        "url_or_doi": "https://www.hofstede-insights.com/country-comparison/ghana/",
+        "accessed_date": "2024-01-01",
+        "folk_dimension": "D2",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0032"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., & Welzel, C. (2005). Modernization, Cultural Change, and Democracy. Cambridge University Press.",
+        "source_type": "academic_book",
+        "data_point": "Sweden scores among the highest globally on WVS Self-Expression and Secular-Rational values",
+        "url_or_doi": "https://doi.org/10.1017/CBO9780511790881",
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0007"
+      },
+      {
+        "citation": "Gyekye, K. (1997). Tradition and Modernity: Philosophical Reflections on the African Experience. Oxford University Press.",
+        "source_type": "academic_book",
+        "data_point": "Ghanaian communitarian ethics rooted in extended family and clan obligations; individual identity subordinated to group membership",
+        "url_or_doi": "https://doi.org/10.1093/acprof:oso/9780195112252.001.0001",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0033"
+      },
+      {
+        "citation": "Takyi, B. K., & Addai, I. (2002). Effects of marital status on the well-being of women in Ghana. Journal of Marriage and Family, 64(2), 438-450.",
+        "source_type": "academic_journal",
+        "data_point": "Strong family and community interdependence documented in Ghanaian social structure; collectivist norms govern life decisions",
+        "url_or_doi": "https://doi.org/10.1111/j.1741-3737.2002.00438.x",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0034"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (Eds.). (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Sub-Saharan Africa cluster shows high in-group collectivism; performance orientation moderate; uncertainty avoidance moderate",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0035"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "GHA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Study shows collectivistic social rootedness and ethnicity remain salient in Ghanaian identity, suggesting collectivist orientation.",
+          "strongest_opposing": "Kwame Gyekye critiques extreme communitarianism in African thought and balances individualism, suggesting some philosophical recognition of individual identity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2"
+          ],
+          "opposing_evidence_ids": [
+            "claim3"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Akan proverbs enforce emotional regulation, discouraging public displays of shame and pride, indicating restrained emotional expression.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim4",
+            "claim5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Ghana exhibits polychronic time orientation, with flexible punctuality and concept of 'Ghana‑Man Time' that delays events gracefully.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim6",
+            "claim7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 50.0,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": 50.0,
+          "confidence": 0.3,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 12.0,
+          "strongest_supporting": "Ghana is considered a collectivist society with high power distance; collectivism implies individuals see themselves as part of a larger in-group — typically the extended family or community — and actions are guided by group norms rather than personal ambitions.",
+          "strongest_opposing": "Younger professionals in urban Ghana increasingly prioritise personal achievement and career mobility over familial or communal expectations, creating a hybrid cultural landscape — a counter-pressure toward individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 20.0,
+          "confidence": 0.91,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07"
+          ],
+          "opposing_evidence_ids": [
+            "C08",
+            "C09"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 38.0,
+          "strongest_supporting": "A peer-reviewed Frontiers/PMC study on the Akan (Ghana's dominant ethnic group) finds indirectness and symbolism rather than explicit communication is common, and emotion discourse in emotionally significant life events is less elaborate (fewer emotion words) than in North American settings — indicating structural restraint on public emotional expression.",
+          "strongest_opposing": "Ghana ranks high on Hofstede Indulgence (cited by University of Ghana 2023 paper from Hofstede Insights), which reflects gratification of human drives, enjoyment, and social energy — a partial counter to the structural restraint picture.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 46.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C14"
+          ],
+          "opposing_evidence_ids": [
+            "C15",
+            "C16"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "A survey of marketing managers in Ghana found 92% reported that managers did not like taking risk, indicating a strong or high uncertainty avoidance in practice — possibly exceeding the Hofstede survey figure.",
+          "strongest_opposing": "Flexibility is required in Ghanaian business contexts: punctuality is appreciated but meetings are subject to interruptions, changing schedules, or late arrivals — suggesting lived tolerance for temporal ambiguity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C17",
+            "C18",
+            "C19",
+            "C20",
+            "C21"
+          ],
+          "opposing_evidence_ids": [
+            "C22",
+            "C23",
+            "C24"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 30.0,
+          "strongest_supporting": "University of Ghana research confirms Ghana is low on Hofstede Masculinity — anchoring Drive at the Accepting/Feminine end, where harmony, solidarity, and quality of life are prioritised over competitive achievement.",
+          "strongest_opposing": "More educated Ghanaians reported a stronger work ethic expressed as greater sense of responsibility, ambition, and future orientation — showing achievement aspiration linked to education as a counter-pressure toward striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.76,
+          "supporting_evidence_ids": [
+            "C25",
+            "C26",
+            "C27",
+            "C28"
+          ],
+          "opposing_evidence_ids": [
+            "C29",
+            "C30",
+            "C31"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 15.0,
+          "strongest_supporting": "In Akan philosophy, personhood is not innate but achieved through moral and communal relationships; the proverb 'obi nkyere obi ase' ('no one shows another his origin') underscores interdependence.",
+          "strongest_opposing": "The rise of 'sakawa' cyber scams among youth reflects a shift toward individual wealth accumulation outside of communal expectations.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 23.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4",
+            "c5"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Ghana's Hofstede Indulgence score of 72 indicates a relatively open emotional expression culture, valuing happiness and enjoyment.",
+          "strongest_opposing": "Traditional Akan etiquette demands that younger people do not speak before an elder sits; emotional restraint in the presence of authority is expected.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c6",
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9",
+            "c10"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Ghana's legal system is pluralistic, combining English common law, customary law, and Islamic law, leading to overlapping and sometimes contradictory norms that reduce predictability.",
+          "strongest_opposing": "Among the Akan, traditional law (mpanyinfoɔ) is highly codified in custom; elders adjudicate according to known precedents, providing a local order within the community.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c11",
+            "c12",
+            "c13"
+          ],
+          "opposing_evidence_ids": [
+            "c14",
+            "c15"
+          ]
+        },
+        {
+          "iso3": "GHA",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "In Ghanaian society, providing for family is a core measure of masculine success, but 'being there' for relationship maintenance is equally valued, showing a blend of achievement and acceptance.",
+          "strongest_opposing": "Urban Ghanaian youth engage in intense competition for limited jobs and status symbols (e.g. cars, phones), with 'sakawa' scams as an extreme expression of striving for material success.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c16",
+            "c17",
+            "c18"
+          ],
+          "opposing_evidence_ids": [
+            "c19",
+            "c20"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "GHA",
+          "dimension": "D1",
+          "baseline_score": 28.20855976,
+          "specialist_recommendation": 19.0,
+          "specialist_confidence": 0.7867,
+          "evidence_strength": 0.7381,
+          "evidence_quality": 0.6921,
+          "disagreement_index": 0.315,
+          "specialist_influence_weight": 0.6665,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.67 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "GHA",
+          "dimension": "D2",
+          "baseline_score": 60.18846713,
+          "specialist_recommendation": 47.667,
+          "specialist_confidence": 0.7467,
+          "evidence_strength": 0.6947,
+          "evidence_quality": 0.6544,
+          "disagreement_index": 0.4913,
+          "specialist_influence_weight": 0.6598,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.66 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "GHA",
+          "dimension": "D3",
+          "baseline_score": 25.62692532,
+          "specialist_recommendation": 40.0,
+          "specialist_confidence": 0.7067,
+          "evidence_strength": 0.65,
+          "evidence_quality": 0.6233,
+          "disagreement_index": 0.5657,
+          "specialist_influence_weight": 0.6456,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.65 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "GHA",
+          "dimension": "D4",
+          "baseline_score": 41.3492528,
+          "specialist_recommendation": 37.5,
+          "specialist_confidence": 0.755,
+          "evidence_strength": 0.6353,
+          "evidence_quality": 0.6105,
+          "disagreement_index": 0.3,
+          "specialist_influence_weight": 0.6157,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.62 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "GHA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 27.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 27.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 5.0 points).",
+          "target_response": "No supporting evidence cited; the score rests on prior/expectation.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=35: differs by 11 from the statistician reading of 24.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 11.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=52: differs by 10 from the statistician reading of 62.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=38: differs by 10 from the statistician reading of 28.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=46: differs by 8 from the statistician reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=28: differs by 7 from the comparativist reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 4.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=45: differs by 7 from the comparativist reading of 52.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 17.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=55: differs by 17 from the comparativist reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 27.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=40: differs by 6 from the comparativist reading of 46.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=60: differs by 15 from the country_specialist reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=26: differs by 29 from the country_specialist reading of 55.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=36: differs by 4 from the country_specialist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "GHA",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=24: differs by 4 from the devils_advocate reading of 28.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "GHA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "Insufficient ethnographic evidence on achievement‑orientation vs acceptance or harmony in everyday lived experience; Masculinity/Drive dimensions not documented clearly to justify a score, so abstaining.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.3,
+          "evidence_count": 0,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.91,
+          "evidence_count": 9,
+          "recommendation": 12.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 7,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 8,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.76,
+          "evidence_count": 7,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 5,
+          "recommendation": 15.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "GHA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 5,
+          "recommendation": 45.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "GHA",
+        "score_diversity": 0.2592,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7514,
+        "consensus_quality": 0.993,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "GHA",
+      "country": "Ghana",
+      "region": "West Africa",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 21,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.685,
+          "top_supporting_arguments": [
+            "Kwame Gyekye critiques extreme communitarianism in African thought and balances individualism, suggesting some philosophical recognition of individual identity.",
+            "Younger professionals in urban Ghana increasingly prioritise personal achievement and career mobility over familial or communal expectations, creating a hybrid cultural landscape — a counter-pressure toward individualism.",
+            "Urban youth in Ghana are more likely to blend traditional communal values with modern ideals of personal ambition, autonomy, and efficiency — emphasising obedience and collective success less than older or rural generations."
+          ],
+          "top_counter_arguments": [
+            "Study shows collectivistic social rootedness and ethnicity remain salient in Ghanaian identity, suggesting collectivist orientation.",
+            "Mixed‑race individuals in Ghana form identity based on strong family and community ties, indicating identity is socially defined rather than individually.",
+            "Ghana scores 15 on Hofstede's Individualism index, making it one of the most collectivist societies measured — people's self-image is defined in terms of 'we' rather than 'I', and society fosters strong relationships where everyone takes responsibility for group members."
+          ],
+          "why_this_score": "Ghana sits at 21 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~20), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 28 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (24) and the CI ceiling (36), so pushing past 21 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 21 would understate the measured signal.",
+          "related_countries": [
+            "Sierra Leone",
+            "Nigeria",
+            "Senegal",
+            "Cape Verde",
+            "Guinea-Bissau"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim3",
+              "source_id": "turn0search12",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Kwame Gyekye critiques extreme communitarianism in African thought and balances individualism, suggesting some philosophical recognition of individual identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C08",
+              "source_id": "S02",
+              "title": "The Influence of Traditional Ghanaian Values on Work Ethic",
+              "url": "https://ijcbss.org/uploads/2025/04/11042942.pdf",
+              "author": "IJCBSS (multiple authors)",
+              "publication_year": 2025,
+              "excerpt": "Younger professionals in urban Ghana increasingly prioritise personal achievement and career mobility over familial or communal expectations, creating a hybrid cultural landscape — a counter-pressure toward individualism.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C09",
+              "source_id": "S09",
+              "title": "Cultural Foundations of Ghanaian Work Ethic (IJCSPUB)",
+              "url": "https://rjpn.org/ijcspub/papers/IJCSP25C1040.pdf",
+              "author": "IJCSPUB (multiple authors)",
+              "publication_year": 2025,
+              "excerpt": "Urban youth in Ghana are more likely to blend traditional communal values with modern ideals of personal ambition, autonomy, and efficiency — emphasising obedience and collective success less than older or rural generations.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 53,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.509,
+          "top_supporting_arguments": [
+            "Ghanaians are noted for warm hospitality: accepting invitations for meals, offering refreshments to visitors, and engaging in polite personal conversation (asking about family and health) before business — indicating openness in social relational contexts.",
+            "Ghana ranks high on Hofstede Indulgence (cited by University of Ghana 2023 paper from Hofstede Insights), which reflects gratification of human drives, enjoyment, and social energy — a partial counter to the structural restraint picture.",
+            "Ghana's Hofstede Indulgence score of 72 indicates a relatively open emotional expression culture, valuing happiness and enjoyment."
+          ],
+          "top_counter_arguments": [
+            "Akan proverbs enforce emotional regulation, discouraging public displays of shame and pride, indicating restrained emotional expression.",
+            "Proverbs show individual responsibility for emotion regulation and limited verbal elaboration of feelings compared to Western cultures.",
+            "A peer-reviewed Frontiers/PMC study on the Akan (Ghana's dominant ethnic group) finds indirectness and symbolism rather than explicit communication is common, and emotion discourse in emotionally significant life events is less elaborate (fewer emotion words) than in North American settings — indicating structural restraint on public emotional expression."
+          ],
+          "why_this_score": "Ghana sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (62) and the CI ceiling (79), so pushing past 53 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (62) and the CI floor (41), so going below 53 would understate the measured signal.",
+          "related_countries": [
+            "Sierra Leone",
+            "Nigeria",
+            "Senegal",
+            "Cape Verde",
+            "Guinea-Bissau"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C15",
+              "source_id": "S08",
+              "title": "Cultural Considerations in Ghana (Rivermate)",
+              "url": "https://rivermate.com/guides/ghana/cultural-considerations",
+              "author": "Rivermate",
+              "publication_year": 2025,
+              "excerpt": "Ghanaians are noted for warm hospitality: accepting invitations for meals, offering refreshments to visitors, and engaging in polite personal conversation (asking about family and health) before business — indicating openness in social relational contexts.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C16",
+              "source_id": "S05",
+              "title": "Ghana Social Science Journal 2023 Vol.20(1): Hofstede dimensions and WVS for Ghana",
+              "url": "https://journals.ug.edu.gh/index.php/gssj/article/download/2274/1284/",
+              "author": "Osei-Tutu et al., University of Ghana",
+              "publication_year": 2023,
+              "excerpt": "Ghana ranks high on Hofstede Indulgence (cited by University of Ghana 2023 paper from Hofstede Insights), which reflects gratification of human drives, enjoyment, and social energy — a partial counter to the structural restraint picture.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c6",
+              "source_id": "s8",
+              "title": "Indulgence versus Restraint: A Cross-Cultural Study of Ghana",
+              "url": "https://www.researchgate.net/publication/342569147",
+              "author": "Samuel K. Adomako",
+              "publication_year": 2020,
+              "excerpt": "Ghana's Hofstede Indulgence score of 72 indicates a relatively open emotional expression culture, valuing happiness and enjoyment.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 35,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.434,
+          "top_supporting_arguments": [
+            "Ghana scores 55 on Hofstede's Uncertainty Avoidance Index — an intermediate score expressing a slight preference for avoiding uncertainty, meaning there are certain structured aspects of life alongside areas where ambiguity is accepted.",
+            "A survey of marketing managers in Ghana found 92% reported that managers did not like taking risk, indicating a strong or high uncertainty avoidance in practice — possibly exceeding the Hofstede survey figure.",
+            "Ghana's Hofstede LTO score is near zero, signifying that Ghanaians tend to be tradition-oriented, uncomfortable with deviations from traditions, and normative in their thinking — reinforcing preference for certainty and established order."
+          ],
+          "top_counter_arguments": [
+            "Ghana exhibits polychronic time orientation, with flexible punctuality and concept of 'Ghana‑Man Time' that delays events gracefully.",
+            "Cultural norm of lateness in Ghana means events commonly start hours late, reflecting fluid approach to time and ambiguity tolerance.",
+            "Flexibility is required in Ghanaian business contexts: punctuality is appreciated but meetings are subject to interruptions, changing schedules, or late arrivals — suggesting lived tolerance for temporal ambiguity."
+          ],
+          "why_this_score": "Ghana sits at 35 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (28) and the CI ceiling (39), so pushing past 35 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 35 would understate the measured signal.",
+          "related_countries": [
+            "Sierra Leone",
+            "Nigeria",
+            "Senegal",
+            "Cape Verde",
+            "Guinea-Bissau"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C17",
+              "source_id": "S06",
+              "title": "Cultural Metrics: Ghana (Hofstede UAI, MAS, high-context communication)",
+              "url": "https://globalreputationmanagement.wordpress.com/2014/02/12/cultural-metrics-ghana/",
+              "author": "Global Public Relations blog",
+              "publication_year": 2014,
+              "excerpt": "Ghana scores 55 on Hofstede's Uncertainty Avoidance Index — an intermediate score expressing a slight preference for avoiding uncertainty, meaning there are certain structured aspects of life alongside areas where ambiguity is accepted.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S03",
+              "title": "Cultural Dimension in Marketing Managers' Decision-Making (Ghana)",
+              "url": "https://www.idpublications.org/wp-content/uploads/2015/02/Cultural-Dimension-in-Marketing-Managers-Decision-Making.pdf",
+              "author": "IDP Publications",
+              "publication_year": 2015,
+              "excerpt": "A survey of marketing managers in Ghana found 92% reported that managers did not like taking risk, indicating a strong or high uncertainty avoidance in practice — possibly exceeding the Hofstede survey figure.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S06",
+              "title": "Cultural Metrics: Ghana (Hofstede UAI, MAS, high-context communication)",
+              "url": "https://globalreputationmanagement.wordpress.com/2014/02/12/cultural-metrics-ghana/",
+              "author": "Global Public Relations blog",
+              "publication_year": 2014,
+              "excerpt": "Ghana's Hofstede LTO score is near zero, signifying that Ghanaians tend to be tradition-oriented, uncomfortable with deviations from traditions, and normative in their thinking — reinforcing preference for certainty and established order.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 38,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.7,
+          "top_supporting_arguments": [
+            "More educated Ghanaians reported a stronger work ethic expressed as greater sense of responsibility, ambition, and future orientation — showing achievement aspiration linked to education as a counter-pressure toward striving.",
+            "A survey of Ghanaian teaching and banking professionals found clear higher organisational commitment in the private sector and strong individual work-ethic scores — indicating that sector context activates competitive performance orientation.",
+            "Private-sector Ghanaian employees describe hybrid practices blending relational values with performance orientation, reflecting emerging competition-awareness among urban professionals."
+          ],
+          "top_counter_arguments": [
+            "University of Ghana research confirms Ghana is low on Hofstede Masculinity — anchoring Drive at the Accepting/Feminine end, where harmony, solidarity, and quality of life are prioritised over competitive achievement.",
+            "In feminine (low-MAS) countries like Ghana, the focus is on 'working in order to live'; managers strive for harmony; people value equality, solidarity, and quality of working life; conflicts are resolved by compromise and negotiation.",
+            "Ghana is characterised as a collectivist society that values group harmony over individual achievement, potentially impacting personal drive for success and competition."
+          ],
+          "why_this_score": "Ghana sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (58), so pushing past 38 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (25), so going below 38 would understate the measured signal.",
+          "related_countries": [
+            "Sierra Leone",
+            "Nigeria",
+            "Senegal",
+            "Cape Verde",
+            "Guinea-Bissau"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C29",
+              "source_id": "S19",
+              "title": "Understanding Ghanaian Work Ethic: The Interplay of Education and Tradition (IJCSPUB)",
+              "url": "https://rjpn.org/ijcspub/papers/IJCSP25C1039.pdf",
+              "author": "IJCSPUB (multiple authors)",
+              "publication_year": 2025,
+              "excerpt": "More educated Ghanaians reported a stronger work ethic expressed as greater sense of responsibility, ambition, and future orientation — showing achievement aspiration linked to education as a counter-pressure toward striving.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C30",
+              "source_id": "S20",
+              "title": "Employee Motivation and Work Ethic in State and Private Sector in Ghana (Academia)",
+              "url": "https://www.academia.edu/57142689/Employee_Motivation_and_Work_Ethic_in_the_State_and_Private_sector_in_Ghana_A_Survey_of_Teaching_and_Banking_Professions",
+              "author": "Multiple authors (survey-based)",
+              "publication_year": 2021,
+              "excerpt": "A survey of Ghanaian teaching and banking professionals found clear higher organisational commitment in the private sector and strong individual work-ethic scores — indicating that sector context activates competitive performance orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C31",
+              "source_id": "S11",
+              "title": "Emotion Norms, Display Rules, and Regulation in the Akan Society of Ghana (Frontiers in Psychology / PMC)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6220724/",
+              "author": "Dzokoto et al.",
+              "publication_year": 2018,
+              "excerpt": "Private-sector Ghanaian employees describe hybrid practices blending relational values with performance orientation, reflecting emerging competition-awareness among urban professionals.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

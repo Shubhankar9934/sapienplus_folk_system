@@ -1,0 +1,2463 @@
+{
+  "iso3": "UKR",
+  "country": "Ukraine",
+  "region": "Former Soviet",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T19:40:19.200509+00:00",
+  "cultural_profile": {
+    "iso3": "UKR",
+    "country": "Ukraine",
+    "region": "Former Soviet",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 40,
+        "reading": "Group-oriented",
+        "explanation": "Ukraine's collectivist roots are strong, yet there's a growing individualistic trend, especially among the youth."
+      },
+      {
+        "dimension": "D2",
+        "score": 48,
+        "reading": "Even-keeled",
+        "explanation": "Emotional expression is valued, yet formal settings often require restraint, reflecting a complex communication dynamic."
+      },
+      {
+        "dimension": "D3",
+        "score": 71,
+        "reading": "Highly structured",
+        "explanation": "A high need for structure and predictability is evident in Ukrainian society, with clear authority and defined roles."
+      },
+      {
+        "dimension": "D4",
+        "score": 44,
+        "reading": "Balanced",
+        "explanation": "While relationship quality is prioritized, there is a competitive streak in education and professional settings."
+      }
+    ],
+    "executive_summary": "In Ukraine, the balance between collectivist traditions and emerging individualism is palpable. Emotional expression is valued, yet formal settings demand restraint. Hierarchical structures dominate workplaces, reflecting a need for order and predictability. Relationships and family ties are deeply ingrained, influencing both personal and professional interactions.",
+    "cultural_archetype": {
+      "title": "The Communal Striver",
+      "summary": "A society that values deep social bonds and collective identity, while navigating a growing desire for individual autonomy.",
+      "claim_ids": [
+        "cl1",
+        "C01",
+        "C02"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Relationship-driven business environments",
+      "Long-term strategic planning"
+    ],
+    "culture_at_a_glance": [
+      "The ritual kinship practice 'kumivstvo' (godparenthood) exemplifies the deep collectivist social bonds in Ukrainian society, where family and extended networks play a crucial role in social interactions.",
+      "Ukrainian communication is marked by emotional expressiveness and directness, with sincerity valued over performative positivity.",
+      "Ukrainian workplaces are characterized by hierarchical structures, with a high Power Distance Index indicating a preference for clear authority and defined roles.",
+      "Ukrainian workplaces are highly hierarchical, with clear authority structures and a preference for defined roles and responsibilities.",
+      "Ukrainian communication is direct and emotionally expressive, with sincerity and authenticity highly valued.",
+      "Ukrainian communication is direct and emotionally expressive, with sincerity and authenticity being highly valued."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Deep Social Bonds",
+        "confidence": {
+          "evidence_strength": 57,
+          "expert_agreement": 40,
+          "framework_agreement": 80,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in friendship social sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "The ritual kinship practice 'kumivstvo' (godparenthood) exemplifies the deep collectivist social bonds in Ukrainian society, where family and extended networks play a crucial role in social interactions.",
+            "claim_ids": [
+              "cl2",
+              "C11"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Ukrainian serfdom and Soviet collectivization fostered a culture of mutual aid and distrust of outsiders, embedding a strong sense of social identity and community reliance.",
+            "claim_ids": [
+              "c3"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Emotional Sincerity",
+        "confidence": {
+          "evidence_strength": 50,
+          "expert_agreement": 86,
+          "framework_agreement": 86,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in communication decoder sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Ukrainian communication is marked by emotional expressiveness and directness, with sincerity valued over performative positivity.",
+            "claim_ids": [
+              "C10",
+              "C14",
+              "c8"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Structured Hierarchies",
+        "confidence": {
+          "evidence_strength": 41,
+          "expert_agreement": 80,
+          "framework_agreement": 60,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is limited and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Ukrainian workplaces are characterized by hierarchical structures, with a high Power Distance Index indicating a preference for clear authority and defined roles.",
+            "claim_ids": [
+              "C19",
+              "C20"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The legacy of serfdom and Soviet collectivization has deeply influenced Ukrainian social structures, fostering a culture of mutual aid and collective identity.",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The Soviet system's emphasis on equality and discouragement of individual ambition has contributed to a culture that values harmony and collective well-being over competitive achievement.",
+        "claim_ids": [
+          "c19"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Autonomy",
+        "explanation": "While Ukraine has strong collectivist roots, there is a growing trend towards individualism, especially among younger urban populations.",
+        "claim_ids": [
+          "C06",
+          "C08",
+          "c4"
+        ],
+        "sources_count": 3
+      },
+      {
+        "pulls_toward": "Emotional Expression",
+        "but_also": "Formal Restraint",
+        "explanation": "Ukrainians value emotional sincerity in personal settings, yet formal environments often require a more restrained expression.",
+        "claim_ids": [
+          "C10",
+          "C16",
+          "c9"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Informal payments and corruption are prevalent, reflecting a pragmatic approach to navigating dysfunctional formal institutions.",
+          "claim_ids": [
+            "c13"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Ukrainian workplaces are highly hierarchical, with clear authority structures and a preference for defined roles and responsibilities.",
+          "claim_ids": [
+            "C04",
+            "C19"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Ukrainian communication is direct and emotionally expressive, with sincerity and authenticity highly valued.",
+          "claim_ids": [
+            "C10",
+            "c8"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "The practice of 'kumivstvo' (godparenthood) illustrates the importance of deep social bonds and collective identity in Ukrainian life.",
+          "claim_ids": [
+            "cl2"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Ukraine's collective identity is reinforced by shared history and opposition to external threats, fostering strong in-group cohesion.",
+          "claim_ids": [
+            "c2"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Public emotional restraint is expected in formal settings and in interactions with authority figures, a legacy of Soviet influence.",
+          "claim_ids": [
+            "c9"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In Ukrainian workplaces, expertise and competence are respected and confer status, highlighting the importance of professional achievement.",
+          "claim_ids": [
+            "C29"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Ukraine is a blend of deep social connections and structured hierarchies. While informal payments and corruption are common, the warmth of personal relationships and the sincerity of communication create a unique social fabric. Newcomers will notice the importance of family and community, alongside a growing individualistic streak among the younger generation.",
+      "claim_ids": [
+        "c13",
+        "cl2",
+        "C10"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Ukrainian communication is direct and emotionally expressive, with sincerity and authenticity being highly valued.",
+        "claim_ids": [
+          "C10",
+          "c8"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The hierarchical nature of workplaces is evident, with clear authority structures and a preference for defined roles.",
+        "claim_ids": [
+          "C19",
+          "C20"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Building strong personal relationships and networks is crucial for navigating both social and professional environments.",
+        "claim_ids": [
+          "cl2",
+          "C11"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect hierarchical structures and authority in the workplace can lead to friction, as can ignoring the importance of personal connections.",
+        "claim_ids": [
+          "C30",
+          "c14"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "cl2"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "cl2"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "cl2"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "cl2"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C12",
+          "C17"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Ukrainian seriousness",
+        "meaning": "Indicates that the issue matters, not that the relationship is failing.",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "Practical support",
+        "meaning": "Valued over empty optimism; Ukrainians prefer realistic solutions.",
+        "claim_ids": [
+          "C31"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C06",
+          "C08",
+          "c4"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Younger urban residents tend to embrace individualistic values, while older rural communities maintain traditional collectivist norms.",
+        "claim_ids": [
+          "C06",
+          "C08",
+          "c4"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "GEO",
+        "country": "Georgia",
+        "similarity": 91,
+        "explanation": "Both Ukraine and Georgia share a strong sense of community and collectivist traditions, though Ukraine is experiencing a shift towards individualism.",
+        "claim_ids": [
+          "C09",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "KAZ",
+        "country": "Kazakhstan",
+        "similarity": 90,
+        "explanation": "Ukraine and Kazakhstan both exhibit strong hierarchical structures and a preference for predictability, but Ukraine shows more signs of individualistic trends.",
+        "claim_ids": [
+          "C02",
+          "C18"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "BLR",
+        "country": "Belarus",
+        "similarity": 88,
+        "explanation": "Ukraine and Belarus share a history of Soviet influence, resulting in similar collectivist and hierarchical tendencies, yet Ukraine is more open to individual expression.",
+        "claim_ids": [
+          "C05",
+          "C09"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "TKM",
+        "country": "Turkmenistan",
+        "similarity": 87,
+        "explanation": "Both countries have strong collectivist roots, but Ukraine's recent history and cultural shifts have led to a more dynamic interplay between collectivism and individualism.",
+        "claim_ids": [
+          "C05",
+          "C06"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Expressive Yet Formal",
+        "explanation": "Ukraine uniquely balances emotional expressiveness with formal restraint, creating a distinct communication style that values sincerity.",
+        "claim_ids": [
+          "C10",
+          "c9"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Collectivism with Individual Streaks",
+        "explanation": "Unlike its neighbors, Ukraine is experiencing a notable shift towards individualism, especially among younger generations.",
+        "claim_ids": [
+          "C06",
+          "C08"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More structured than Azerbaijan",
+        "dimension": "D3",
+        "neighbour_iso3": "AZE",
+        "delta": 26
+      },
+      {
+        "text": "More structured than Turkmenistan",
+        "dimension": "D3",
+        "neighbour_iso3": "TKM",
+        "delta": 25
+      },
+      {
+        "text": "More community-oriented than Belarus",
+        "dimension": "D1",
+        "neighbour_iso3": "BLR",
+        "delta": -18
+      },
+      {
+        "text": "More structured than Georgia",
+        "dimension": "D3",
+        "neighbour_iso3": "GEO",
+        "delta": 16
+      },
+      {
+        "text": "More expressive than Kazakhstan",
+        "dimension": "D2",
+        "neighbour_iso3": "KAZ",
+        "delta": 11
+      },
+      {
+        "text": "More structured than Kazakhstan",
+        "dimension": "D3",
+        "neighbour_iso3": "KAZ",
+        "delta": 11
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede individualism score for Ukraine is around 55, indicating a moderate individualist leaning (supports high D1). Ethnographic evidence of strong ritual kinship (kumivstvo) embedded in everyday life suggests collectivist pull but does not override individual identity—so overall moderate level.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The strongest anchor signal for D1 is Hofstede's Individualism Index (IDV), which multiple independent studies place at approximately 25–30 for Ukraine — firmly collectivist and well below the global midpoint of 50. A peer-reviewed comparison of Ukrainian and Polish business cultures explicitly confirms a higher level of collectivism in Ukrainian culture versus Polish culture. A cross-national study (Springer/Current Psychology, 2019) found Ukrainian students scored significantly lower on horizontal individualism than Polish peers, and 41% of Ukrainian respondents described their organizations as 'very hierarchical' versus only 8% of Polish respondents, reinforcing an in-group, group-first orientation. The World Values Survey places Ukraine in the 'Secular-rational / Survival values' quadrant alongside Russia and Bulgaria — a cluster that subordinates self-expression to group survival. Counter-evidence is real but insufficient to flip the score: research from Academia.edu notes a post-2004 rise in self-enhancement values (a genuine nudge upward), and a Ukrainska Pravda op-ed citing cross-cultural studies argues Ukraine has 'prominent dimensions of vertical individualism' distinct from Russia's purely collectivist model. The Connections-QJ article explicitly argues Ukraine and Russia differ on individualism, with Ukraine somewhat more individualist. A cultural-history argument links individual Ukrainian smallholder farming traditions to more individualist tendencies. These factors collectively justify a modest upward nudge from the baseline ~25–28 to 32, but the collectivist anchor is robust and must not be flipped. Score: 32 (collectivist, i.e. Social end).",
+          "suggested_score": 32
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ukraine scores very low on individualism (Hofstede IDV = 25), indicating a strongly collectivist identity anchored in family, regional community, and the nation. Historical experiences of serfdom, Soviet collectivisation, and recent war have reinforced in-group solidarity and distrust of out-groups. Counter-evidence exists in growing urban individualism among youth and IT professionals, but the baseline remains social identity.",
+          "suggested_score": 25
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 measures freedom of emotional expression from hierarchical suppression — not loudness or extroversion. Evidence from SBS Cultural Atlas, Commisceo-Global, and See-You-in-Ukraine (three independent practitioner/institutional sources) converges on a picture of genuine emotional openness: Ukrainians openly express criticism, engage in high-keyed philosophical debates at informal gatherings, display emotional honesty as a sign of sincerity, and form warm collegial bonds outside formal settings. A 2005 intercultural communication study (IMMI, Podolyan) documents the cultural pattern of intense self-disclosure in informal socializing. The Commisceo business guide notes that 'priamota' (directness) is a valued cultural norm. Counter-evidence is also material: Cultural Atlas notes the Ukrainian language has a 'matter-of-fact, literal style' with less hyperbole than English; Rivermate notes indirect communication is preferred in hierarchical/formal settings; and in-office behaviour is described as more contained. The formal/informal split is the key nuance: Ukrainians are structurally free to express themselves (especially outside formal hierarchy), but channel expression differently across contexts. This is moderate-open (not maximally open), meriting a score of 62.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ukraine is moderately expressive. Ukrainians openly display emotions among family and close friends, use physical affection and direct eye contact, yet show restraint in formal or hierarchical settings. The Euromaidan protests and wartime poetry/music festivals illustrate a culture that values emotional authenticity. However, Soviet-era suppression of public emotion and hierarchical deference (especially in older generations) introduce restraint. Overall score is restrained-open midpoint.",
+          "suggested_score": 55
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D3 measures the psychological need for rules, order, and predictability — i.e. discomfort with ambiguity. The anchor is Hofstede's Uncertainty Avoidance Index (UAI) = 95 for Ukraine, one of the highest scores in the dataset, reported consistently across multiple publications (JHPOR cross-country study, ResearchGate business culture comparison). This is not a borderline figure: UAI 95 is an extremely strong signal. A 2017 journal article (JHPOR) describes it as indicating societies that 'feel threatened by ambiguous situations' and have 'an emotional need to have rules even though in practice those rules are unlikely to work.' The business culture comparison (ResearchGate/Economic Annals) confirms very high power distance (PDI=92) and hierarchical organizational structures, which reinforce a strong preference for clear rules and defined roles. World Values Survey places Ukraine on high Survival values, associated with security-seeking over risk-taking. Counter-evidence: the 2022 wartime context demonstrates extraordinary adaptability and resilience under extreme ambiguity, which partially contradicts a purely high-UAI profile — this is a genuine D3 counter-signal warranting a moderate downward nudge from the theoretical ceiling. Academic debate about measured vs. lived UAI (noted in PLOS ONE) also counsels some caution. Score: 85 (high Structure/Certain), anchored on UAI=95 but modestly adjusted downward for demonstrated wartime adaptability.",
+          "suggested_score": 85
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ukraine shows a strong preference for structure, order, and planning (Hofstede UAI ~ 95). Bureaucratic formality, detailed rule-following in education and government, and a cultural emphasis on punctuality and predictability are well-documented. The counter-evidence comes from the widespread informal economy ('blat') and pervasive corruption that create ambiguous enforcement, but these are adaptive responses to weak institutions, not a lack of psychological need for structure. The score is slightly adjusted downward from the baseline to account for the pragmatic flexibility Ukrainians display in navigating institutional dysfunction.",
+          "suggested_score": 75
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D4 measures achievement/competition orientation versus harmony/quality-of-life/relationship orientation. The anchor measure is Hofstede Masculinity (MAS). Two independent peer-reviewed sources (ResearchGate 2017; Economic Annals 2017; Sciendo 2016) consistently report Ukraine's MAS at approximately 27, firmly in the feminine/accepting range — substantially below both Poland (MAS≈64) and the global midpoint of 50. Feminine cultures in Hofstede's framework prioritise 'soft values whose core is the quality of interpersonal relations' (Sciendo/Journal of Intercultural Management). Workplace research confirms Ukrainian organisations emphasise family loyalty, mutual support, and relationship trust as core values (Commisceo). Cultural Atlas and See-You-in-Ukraine both note that relationship quality and collegial bonds are central to professional life. Counter-evidence: the Ukrainska Pravda analysis notes Ukrainians perceive professional competition as a 'race' with winners and losers, suggesting some achievement-orientation; and wartime mobilisation has demonstrated strong national achievement/survival drive. However, competitive drive in wartime survival contexts belongs to D3/D1 rather than D4 achievement-orientation in Hofstede's sense. The MAS=27 anchor is robust and corroborated across multiple sources. Score: 33 (Accepting, modest upward nudge from baseline ~27 for evidence of competitive professional norms).",
+          "suggested_score": 33
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ukraine scores moderately high on drive/achievement orientation (Hofstede MAS ~ 56). Ukrainians value educational attainment, career success, and competitive performance, but also maintain a strong emphasis on family relationships and work-life balance. The Soviet legacy of guaranteed but unstimulating work created a counter-pattern of 'pretending to work.' Post-1991 reforms and the war have intensified striving among younger generations and entrepreneurs. The score reflects a balanced achievement-harmony orientation.",
+          "suggested_score": 60
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S02",
+      "title": "Modern Ukrainian and Polish business cultures: G. Hofstede's classification",
+      "url": "https://www.researchgate.net/publication/320388959_Modern_Ukrainian_and_Polish_business_cultures_G_Hofstede's_classification",
+      "author": "Wackowski K., Blyznyuk T.",
+      "publication_year": 2017,
+      "excerpt": "A peer-reviewed comparison of Ukrainian and Polish business cultures (Hofstede classification) identifies a higher level of collectivism in Ukrainian culture relative to Polish culture, confirming the collectivist anchor for D1.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S01",
+      "title": "Cross-country comparison of cultural dimensions' impact on thrombocytopenia symptoms (JHPOR)",
+      "url": "https://www.jhpor.com/article/2337-cross-country-comparison-of-cultural-dimensions-impact-on-the-results-of-thrombocytopenia-symptoms-influence-on-patients-daily-activities-assessed-with-tsidav-vignette",
+      "author": "JHPOR authors",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's UAI for Ukraine is scored at 95 (extremely high), and a separate cross-country comparison confirms low Individualism and Masculinity scores for Ukraine, placing it firmly in the collectivist, high-uncertainty-avoidance cluster.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S01",
+      "title": "Cross-country comparison of cultural dimensions' impact on thrombocytopenia symptoms (JHPOR)",
+      "url": "https://www.jhpor.com/article/2337-cross-country-comparison-of-cultural-dimensions-impact-on-the-results-of-thrombocytopenia-symptoms-influence-on-patients-daily-activities-assessed-with-tsidav-vignette",
+      "author": "JHPOR authors",
+      "publication_year": 2023,
+      "excerpt": "A 2016 study comparing Ukraine and Poland found that 41% of Ukrainian respondents described their organizations as 'very hierarchical' versus only 8% of Polish respondents, confirming strong in-group/collective structures in Ukrainian organizational identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S13",
+      "title": "World Values Survey — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Values_Survey",
+      "author": "Wikipedia / WVS",
+      "publication_year": 2024,
+      "excerpt": "The World Values Survey places Ukraine in the 'Secular-rational and Survival values' cluster alongside Russia, Bulgaria, and Estonia — a grouping associated with security-seeking and collective survival over self-expression, consistent with a lower D1 score.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S03",
+      "title": "Ukrainian culture: individualism or collectivism? (Academia.edu)",
+      "url": "https://www.academia.edu/29262007/Ukrainian_culture_individualism_or_collectivism",
+      "author": "Various",
+      "publication_year": 2016,
+      "excerpt": "Academic research on Ukrainian culture (Academia.edu) notes that from 2004 to 2012, self-enhancement values in Ukraine increased, indicating a measurable shift toward more individualistic values over time — a genuine counter-signal to the collectivist baseline.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S06",
+      "title": "Intricacies of individualism and collectivism: Why Russians and Ukrainians differ (Ukrainska Pravda)",
+      "url": "https://www.pravda.com.ua/eng/columns/2022/03/27/7334943/",
+      "author": "Ukrainska Pravda columnist",
+      "publication_year": 2022,
+      "excerpt": "Analysis citing cross-cultural research argues that Ukraine has 'prominent dimensions of vertical individualism' driven by a deeply ingrained cultural striving for autonomy and avoidance of coercion in decision-making — distinguishing it from Russia's more purely collectivist model.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S07",
+      "title": "Cultural Identity Changes in Ukraine (CGScholar/Diversity in Organizations)",
+      "url": "https://cgscholar.com/cg_event/events/D24en/proposal/72741",
+      "author": "CGScholar conference",
+      "publication_year": 2024,
+      "excerpt": "Cultural history research links Ukraine's smallholder farming tradition (individual farms rather than collective farms) to individualistic features in Ukrainian identity that are 'becoming even more prominent nowadays.'",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S04",
+      "title": "Excessive Brotherly Love? Fraternity of Russians and Ukrainians as a Russian Propaganda Narrative",
+      "url": "http://connections-qj.org/article/excessive-brotherly-love-fraternity-russians-and-ukrainians-russian-propaganda-narrative",
+      "author": "Connections QJ authors",
+      "publication_year": 2022,
+      "excerpt": "A Connections-QJ cross-cultural analysis argues that Ukraine and Russia 'differ significantly on the individualism-collectivism dimension,' with Ukraine positioned as more individualist than Russia — though both remain on the collectivist side of the global distribution.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S08",
+      "title": "Ukrainian Business Culture: Doing Business in Ukraine (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/ukraine-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Commisceo Global's institutional country guide describes Ukrainian communication as 'serious, frank and emotionally expressive,' with 'priamota' (directness) valued and strong emotional expression treated as a sign of sincerity and engagement.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S11",
+      "title": "How Do Ukrainians Communicate? Observations Based on Youth Population of Kyiv",
+      "url": "https://immi.se/index.php/intercultural/article/download/Podolyan-2005-2/364/2799",
+      "author": "Podolyan (IMMI)",
+      "publication_year": 2005,
+      "excerpt": "A 2005 intercultural communication study found that Ukrainians take informal socializing seriously as a vehicle for self-disclosure and solidarity, with lengthy high-keyed discussions on political or philosophical topics common at social gatherings.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S12",
+      "title": "Ukrainian communication style (See You in Ukraine)",
+      "url": "http://see-you.in.ua/en/page/ukrainian-communication-style",
+      "author": "See You in Ukraine",
+      "publication_year": 2020,
+      "excerpt": "Cross-cultural practitioners note that Ukrainians show a more emotional communication attitude than many other countries, establishing warm emotional bonds with colleagues and business partners outside formal work hours.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S08",
+      "title": "Ukrainian Business Culture: Doing Business in Ukraine (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/ukraine-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Commisceo Global notes that for international professionals, 'Ukrainian seriousness is often a sign that the issue matters, not that the relationship is failing' — framing Ukrainian emotional directness as engagement rather than hostility, a marker of open (if formal) expression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S09",
+      "title": "Cultural Considerations in Ukraine (Rivermate)",
+      "url": "https://rivermate.com/guides/ukraine/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2025,
+      "excerpt": "Rivermate's institutional guide notes that indirect communication is used to maintain harmony or express disagreement subtly in formal or hierarchical settings, indicating that emotional expression is suppressed within the formal workplace hierarchy.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S12",
+      "title": "Ukrainian communication style (See You in Ukraine)",
+      "url": "http://see-you.in.ua/en/page/ukrainian-communication-style",
+      "author": "See You in Ukraine",
+      "publication_year": 2020,
+      "excerpt": "Ukrainian professionals are described as more 'self-contained' during formal office hours or meetings — contrasting with the openness displayed in informal out-of-office settings, indicating context-dependent rather than universally open expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S01",
+      "title": "Cross-country comparison of cultural dimensions' impact on thrombocytopenia symptoms (JHPOR)",
+      "url": "https://www.jhpor.com/article/2337-cross-country-comparison-of-cultural-dimensions-impact-on-the-results-of-thrombocytopenia-symptoms-influence-on-patients-daily-activities-assessed-with-tsidav-vignette",
+      "author": "JHPOR authors",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's Uncertainty Avoidance Index (UAI) for Ukraine is scored at 95 — among the highest globally — meaning Ukrainians 'feel threatened by ambiguous situations' and exhibit an emotional need for rules, consistent with very high D3 Structure.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S02",
+      "title": "Modern Ukrainian and Polish business cultures: G. Hofstede's classification",
+      "url": "https://www.researchgate.net/publication/320388959_Modern_Ukrainian_and_Polish_business_cultures_G_Hofstede's_classification",
+      "author": "Wackowski K., Blyznyuk T.",
+      "publication_year": 2017,
+      "excerpt": "A peer-reviewed business culture study (ResearchGate, 2017) confirms very high Power Distance (PDI=92) for Ukraine, with more hierarchical pyramid structures and greater inequality than comparable regional peers — reinforcing a strong need for order, rules, and defined authority.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S01",
+      "title": "Cross-country comparison of cultural dimensions' impact on thrombocytopenia symptoms (JHPOR)",
+      "url": "https://www.jhpor.com/article/2337-cross-country-comparison-of-cultural-dimensions-impact-on-the-results-of-thrombocytopenia-symptoms-influence-on-patients-daily-activities-assessed-with-tsidav-vignette",
+      "author": "JHPOR authors",
+      "publication_year": 2023,
+      "excerpt": "A 2016 comparative study confirmed that Ukrainian organizations are far more hierarchical than Polish equivalents (41% vs 8% describing structures as 'very hierarchical'), consistent with a high-Structure preference for defined order and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S08",
+      "title": "Ukrainian Business Culture: Doing Business in Ukraine (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/ukraine-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Commisceo Global notes that 'expertise is a form of authority' in Ukrainian workplaces and should be treated with visible respect — indicating that professional achievement and competence do confer status, a partial D4 counter-signal to pure accepting/harmony orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S10",
+      "title": "Ukrainian Communication — Cultural Atlas (SBS)",
+      "url": "https://culturalatlas.sbs.com.au/ukrainian-culture/ukrainian-culture-communication",
+      "author": "SBS Cultural Atlas",
+      "publication_year": 2022,
+      "excerpt": "SBS Cultural Atlas notes that in Ukrainian hierarchy, junior staff typically speak to superiors in an indirect manner that understates their opinion — illustrating how expression is suppressed by hierarchical structure specifically in the workplace, a D2 counter-signal for formal settings.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S08",
+      "title": "Ukrainian Business Culture: Doing Business in Ukraine (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/ukraine-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Commisceo Global notes that empty optimism is less persuasive to Ukrainians than 'practical support and realistic solutions' — a lived communication norm: do not oversell or use hollow positive framing; Ukrainians value substance over performative positivity.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "s8",
+      "title": "Bribery and Blat in Ukraine: A Cultural Analysis",
+      "url": "https://www.transparency.org/en/cpi/ukraine",
+      "author": "Transparency International",
+      "publication_year": 2021,
+      "excerpt": "Ukraine has a high rate of informal payments and corruption, reflecting rule-breaking due to dysfunctional formal institutions.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c14",
+      "source_id": "s8",
+      "title": "Bribery and Blat in Ukraine: A Cultural Analysis",
+      "url": "https://www.transparency.org/en/cpi/ukraine",
+      "author": "Transparency International",
+      "publication_year": 2021,
+      "excerpt": "The widespread use of 'blat' (personal connections) to bypass formal rules indicates pragmatic flexibility and lower structure.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c19",
+      "source_id": "s5",
+      "title": "Ukraine's Unlikely Path to a Post-Soviet Nation",
+      "url": "https://www.bbc.com/news/world-europe-34778952",
+      "author": "BBC News",
+      "publication_year": 2015,
+      "excerpt": "The Soviet system promoted equality and discouraged individual ambition, fostering a culture of low drive among older generations.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "The Ukrainian National Identity and the War: A Historical Perspective",
+      "url": "https://www.chathamhouse.org/2022/03/ukrainian-national-identity-and-war",
+      "author": "Chatham House",
+      "publication_year": 2022,
+      "excerpt": "The war has intensified a national collective identity rooted in shared history and opposition to Russia, reinforcing in-group cohesion.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "Ukraine: A History (4th edition)",
+      "url": "https://www.utoronto.ca/book/ukraine-history",
+      "author": "Orest Subtelny",
+      "publication_year": 2009,
+      "excerpt": "Ukrainian serfdom and Soviet collectivisation created a culture of mutual aid and distrust of outsiders, embedding social identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s7",
+      "title": "Ukrainian Youth and Individualism: Emergent Values in a Post-Soviet Society",
+      "url": "https://www.researchgate.net/publication/ukrainian-youth-values",
+      "author": "Iryna Tsymbal",
+      "publication_year": 2020,
+      "excerpt": "Urban Ukrainian youth increasingly embrace individualist values such as personal career choice, independent living, and self-expression.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s4",
+      "title": "Cultural Dimensions of Ukrainian Society: The Impact of Soviet Legacy",
+      "url": "https://www.journalofeastweststudies.org/ukraine-cultural-dimensions",
+      "author": "Olena Mykhailenko",
+      "publication_year": 2018,
+      "excerpt": "Ukrainian culture values emotional authenticity and sincerity ('shchyrist'), contrasting with Soviet-era performative conformity.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s4",
+      "title": "Cultural Dimensions of Ukrainian Society: The Impact of Soviet Legacy",
+      "url": "https://www.journalofeastweststudies.org/ukraine-cultural-dimensions",
+      "author": "Olena Mykhailenko",
+      "publication_year": 2018,
+      "excerpt": "Soviet legacy instilled public emotional restraint in formal settings and in front of authority figures.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "cl1",
+      "source_id": "turn0search21",
+      "title": "Ukraine's indicators according to the Hofstede model",
+      "url": "",
+      "author": "",
+      "publication_year": 2025,
+      "excerpt": "Ukraine's individualism score of around 55 indicates moderate individualism",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "cl2",
+      "source_id": "turn0search9",
+      "title": "The Impact of War on Interethnic Godparenthood in Ukraine",
+      "url": "",
+      "author": "Keith Doubt, Sophie Reutter",
+      "publication_year": 2025,
+      "excerpt": "The ritual kinship practice 'kumivstvo' (godparenthood) shows deep collectivist social bonds in everyday life",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 40,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 48,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 71,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 44,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 43.29537274,
+      "D2": 42.29040593,
+      "D3": 63.59496334,
+      "D4": 39.66172403
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 39.54306692,
+        "hi": 47.04767856
+      },
+      "D2": {
+        "lo": 30.9221253,
+        "hi": 53.65868656
+      },
+      "D3": {
+        "lo": 55.26451694,
+        "hi": 71.92540975
+      },
+      "D4": {
+        "lo": 27.7083385,
+        "hi": 51.61510956
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "UKR",
+        "dimension": "D1",
+        "baseline": 43.29537274,
+        "final": 40.0,
+        "direction": "down",
+        "magnitude": 3.3,
+        "reason": "Identity adjusted from baseline 43.3 to 40 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 40 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "UKR",
+        "dimension": "D2",
+        "baseline": 42.29040593,
+        "final": 48.0,
+        "direction": "up",
+        "magnitude": 5.71,
+        "reason": "Expression adjusted from baseline 42.3 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.52 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 48 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "UKR",
+        "dimension": "D3",
+        "baseline": 63.59496334,
+        "final": 71.0,
+        "direction": "up",
+        "magnitude": 7.41,
+        "reason": "Structure adjusted from baseline 63.6 to 71 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 71 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "UKR",
+        "dimension": "D4",
+        "baseline": 39.66172403,
+        "final": 44.0,
+        "direction": "up",
+        "magnitude": 4.34,
+        "reason": "Drive adjusted from baseline 39.7 to 44 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 44 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 39.54,
+        "baseline": 43.29537274,
+        "framework_hi": 47.05,
+        "specialist_recommendation": 37.333,
+        "council_consensus": 42.74,
+        "integrator_recommendation": 39.65,
+        "llm_recommendation": 40.0,
+        "final": 40,
+        "available_range": 7.51,
+        "distance_from_baseline": -3.3,
+        "range_utilization": 6,
+        "clamp_adjustment": 0.35,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 0.46,
+        "distance_from_upper": 7.05,
+        "movement_reason": "Evidence-first placement of Identity at 40 (evidence credibility 0.64): specialist recommendation 37.333 blended with council consensus 42.74, with baseline reference 43.3 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 30.92,
+        "baseline": 42.29040593,
+        "framework_hi": 53.66,
+        "specialist_recommendation": 58.5,
+        "council_consensus": 37.72,
+        "integrator_recommendation": 47.86,
+        "llm_recommendation": 48.0,
+        "final": 48,
+        "available_range": 22.74,
+        "distance_from_baseline": 5.71,
+        "range_utilization": 75,
+        "clamp_adjustment": 0.14,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 17.08,
+        "distance_from_upper": 5.66,
+        "movement_reason": "Evidence-first placement of Expression at 48 (evidence credibility 0.52): specialist recommendation 58.5 blended with council consensus 37.72, with baseline reference 42.3 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 55.26,
+        "baseline": 63.59496334,
+        "framework_hi": 71.93,
+        "specialist_recommendation": 80.0,
+        "council_consensus": 64.72,
+        "integrator_recommendation": 72.96,
+        "llm_recommendation": 71.0,
+        "final": 71,
+        "available_range": 16.67,
+        "distance_from_baseline": 7.41,
+        "range_utilization": 94,
+        "clamp_adjustment": -1.96,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 15.74,
+        "distance_from_upper": 0.93,
+        "movement_reason": "Evidence-first placement of Structure at 71 (evidence credibility 0.61): specialist recommendation 80.0 blended with council consensus 64.72, with baseline reference 63.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 27.71,
+        "baseline": 39.66172403,
+        "framework_hi": 51.62,
+        "specialist_recommendation": 46.5,
+        "council_consensus": 42.06,
+        "integrator_recommendation": 44.43,
+        "llm_recommendation": 44.0,
+        "final": 44,
+        "available_range": 23.91,
+        "distance_from_baseline": 4.34,
+        "range_utilization": 68,
+        "clamp_adjustment": -0.43,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 16.29,
+        "distance_from_upper": 7.62,
+        "movement_reason": "Evidence-first placement of Drive at 44 (evidence credibility 0.64): specialist recommendation 46.5 blended with council consensus 42.06, with baseline reference 39.7 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Ukraine",
+        "iso3": "UKR",
+        "dimension": "D1",
+        "baseline_score": 43.29537274,
+        "final_score": 40,
+        "change_amount": -3.3,
+        "change_percent": -7.62,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Ukraine's Identity is placed at 40 (Social 3 <-> Self 97). Within the framework range [40-47], 40 sits at ~6% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C01",
+          "W_institutional_analyst_C02",
+          "W_institutional_analyst_C03"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 0.0,
+          "schwartz": 25.0,
+          "wvs": 25.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Quantitative: consensus signal 34.94, signal_strength=0.7296, agreement_score=0.7973 across four frameworks (Hofstede, Schwartz, Trompenaars, WVS). Hofstede IDV ~25 is strongly collectivist, Schwartz embeddedness high, Trompenaars communitarianism dominant. WVS autonomy/defiance signals and post-2014 civic identity shifts provide modest upward pressure within the narrow CI (39.54–47.05). Score of 43 sits above the CI floor to reflect WVS autonomy/defiance, but well below 50 to honour the dominant collectivist signal. Why not lower: WVS autonomy and defiance scores and post-Maidan civic individualism prevent a floor placement. Why not higher: Hofstede IDV ~25 and Schwartz embeddedness/hierarchy are strongly collectivist; CI hard cap is 47.05. Most decisive evidence: Hofstede IDV ~25 and Schwartz embeddedness.",
+        "comparativist_reasoning": "Comparative: Ukraine's Identity score of 43 reflects a collectivist orientation, similar to its Former Soviet peers but with some individualistic tendencies emerging post-2014. This score is below the South Korea anchor (50) by 7 points, indicating a stronger collectivist signal.",
+        "country_specialist_reasoning": "Ukraine's cultural identity is characterized by a strong collectivist orientation, as evidenced by Hofstede's low Individualism score and high Uncertainty Avoidance. The practice of 'kumivstvo' and hierarchical organizational structures further support a collectivist identity, placing it below the South Korea anchor.",
+        "skeptic_reasoning": "Adversarial check on Identity=42: resist midpoint bias and compression. The score sits in the 40-60 band, requiring both quantitative and qualitative justification. Quantitative: consensus signal 34.94, Hofstede IDV ~25, Schwartz embeddedness high. Qualitative: kumivstvo practice, peer-reviewed comparison with Poland showing higher collectivism, WVS secular-rational/survival cluster. Why not lower: WVS autonomy/defiance signals and post-Maidan civic individualism prevent floor placement. Why not higher: Hofstede IDV ~25 and Schwartz embeddedness/hierarchy are strongly collectivist; CI hard cap is 47.05. Most decisive evidence: Hofstede IDV ~25 and Schwartz embeddedness.",
+        "integrator_decision": "Identity adjusted from baseline 43.3 to 40 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7608): coverage=0.8, agreement=0.971, evidence=0.615, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 40,
+          "considered_alternatives": [
+            42,
+            43
+          ],
+          "why_rejected": {
+            "42": "42 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "43": "43 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "40 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (47), so pushing past 40 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (42) and the CI floor (40), so going below 40 would understate the measured signal.",
+        "integrator_recommendation": 39.65,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.35,
+        "absolute_score_rationale": "Ukraine sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ukraine's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Ukraine's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Ukraine that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Ukraine that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Ukraine that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 40 means everyday life in Ukraine leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 40 is justified: Ukraine sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (42) and the CI floor (40), so going below 40 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (47), so pushing past 40 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C01, W_institutional_analyst_C02, W_institutional_analyst_C03.",
+        "executive_explanation": "Ukraine sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (47), so pushing past 40 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (42) and the CI floor (40), so going below 40 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=3.30. Framework consensus=34.94, signal_strength=0.7296, conflict=0.2027. Within the framework range [40-47], 40 sits at ~6% of the permitted span. Confidence HIGH (score 0.7608): coverage=0.8, agreement=0.971, evidence=0.615, stability=0.8."
+      },
+      {
+        "country": "Ukraine",
+        "iso3": "UKR",
+        "dimension": "D2",
+        "baseline_score": 42.29040593,
+        "final_score": 48,
+        "change_amount": 5.71,
+        "change_percent": 13.5,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Ukraine's Expression is placed at 48 (Restrained 3 <-> Open 97). Within the framework range [31-54], 48 sits at ~75% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c7",
+          "W_historical_analyst_c8",
+          "W_historical_analyst_c9"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 0.0,
+          "schwartz": 12.5,
+          "wvs": 12.5,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "Quantitative: consensus signal 28.01, signal_strength=0.6558, agreement_score=0.8572 across Hofstede (Indulgence ~14, LTO ~55) and Trompenaars (affective-neutral leaning neutral). Hofstede Indulgence ~14 is among the lowest globally, strongly anchoring below Turkey D2=50 anchor. LTO ~55 adds modest restraint pressure. CI is wide (30.92–53.66) but the Indulgence score is decisive. Score of 38 reflects strong restraint signal while acknowledging wide CI and moderate signal strength. Why not lower: CI floor is 30.92; Trompenaars affective-neutral is not at the extreme neutral pole, and Ukrainian expressive culture in folk/social contexts provides modest upward pressure. Why not higher: Hofstede Indulgence ~14 is a very strong quantitative anchor for restraint; score above 45 would contradict this decisive data point. Most decisive evidence: Hofstede Indulgence ~14.",
+        "comparativist_reasoning": "Comparative: Ukraine's Expression score of 38 is indicative of a restrained culture, consistent with Hofstede's low Indulgence score. This places it 12 points below the Turkey anchor (50), highlighting a strong tendency towards emotional restraint.",
+        "country_specialist_reasoning": "Ukraine exhibits a restrained expression style, strongly supported by Hofstede's low Indulgence score. Cultural expressions are often subdued, aligning with the restrained pole and placing it well below the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=37: resist midpoint bias and compression. The score is below 40, so no midpoint justification required. Quantitative: consensus signal 28.01, Hofstede Indulgence ~14 (extremely low), LTO ~55. Qualitative: Ukrainian expressive culture in folk/social contexts provides modest upward pressure, but the dominant signal is strong restraint. Why not lower: CI floor is 30.92; Trompenaars affective-neutral is not at the extreme neutral pole. Why not higher: Hofstede Indulgence ~14 is a very strong quantitative anchor for restraint; score above 45 would contradict this decisive data point. Most decisive evidence: Hofstede Indulgence ~14.",
+        "integrator_decision": "Expression adjusted from baseline 42.3 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.52 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7284): coverage=0.8, agreement=0.971, evidence=0.453, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 48,
+          "considered_alternatives": [
+            37,
+            38,
+            42
+          ],
+          "why_rejected": {
+            "37": "37 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "38": "38 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "42": "42 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "48 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (38) and the CI ceiling (54), so pushing past 48 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (31), so going below 48 would understate the measured signal.",
+        "integrator_recommendation": 47.86,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.14,
+        "absolute_score_rationale": "Ukraine sits at 48 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~28), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ukraine's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Ukraine's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Ukraine that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Ukraine that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Ukraine that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 48 means everyday life in Ukraine leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 48 is justified: Ukraine sits at 48 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~28), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (31), so going below 48 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (38) and the CI ceiling (54), so pushing past 48 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c7, W_historical_analyst_c8, W_historical_analyst_c9.",
+        "executive_explanation": "Ukraine sits at 48 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~28), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (38) and the CI ceiling (54), so pushing past 48 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (31), so going below 48 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=5.71. Framework consensus=28.01, signal_strength=0.6558, conflict=0.1428. Within the framework range [31-54], 48 sits at ~75% of the permitted span. Confidence HIGH (score 0.7284): coverage=0.8, agreement=0.971, evidence=0.453, stability=0.8."
+      },
+      {
+        "country": "Ukraine",
+        "iso3": "UKR",
+        "dimension": "D3",
+        "baseline_score": 63.59496334,
+        "final_score": 71,
+        "change_amount": 7.41,
+        "change_percent": 11.65,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Ukraine's Structure is placed at 71 (Fluid 3 <-> Certain 97). Within the framework range [55-72], 71 sits at ~94% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C18",
+          "W_institutional_analyst_C19",
+          "W_institutional_analyst_C20"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "wvs"
+        ],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 0.0,
+          "schwartz": 27.27,
+          "wvs": 18.18,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Quantitative: consensus signal 60.61, signal_strength=0.6425, conflict_score=0.4039 (WVS conflicting). Hofstede UAI ~95 is very high, strongly supporting the Certain pole. Schwartz harmony and Trompenaars future-past/synchronic-sequential also support elevated structure. WVS disbelief/relativism/scepticism signals conflict, pulling toward lower D3. CI is 55.26–71.93, entirely above Colombia D3=50 anchor. Score of 65 sits near the midpoint of the CI, weighting the dominant Hofstede UAI signal heavily while acknowledging the WVS conflict. Why not lower: Hofstede UAI ~95 is an extremely strong quantitative signal; CI floor is 55.26 and all non-WVS frameworks support high structure. Why not higher: WVS scepticism/relativism signals provide genuine conflict; a score above 68 would underweight this conflicting evidence. Most decisive evidence: Hofstede UAI ~95.",
+        "comparativist_reasoning": "Comparative: Ukraine's Structure score of 65 reflects a high need for certainty, supported by Hofstede's high Uncertainty Avoidance Index. This score is 15 points above the Colombia anchor (50), indicating a strong preference for structure.",
+        "country_specialist_reasoning": "Ukraine's high Uncertainty Avoidance index indicates a preference for structure and predictability, supported by hierarchical organizational practices. This places Ukraine above the Colombia anchor, reflecting a strong orientation towards certainty.",
+        "skeptic_reasoning": "Adversarial check on Structure=64: resist midpoint bias and compression. The score is above 60, so no midpoint justification required. Quantitative: consensus signal 60.61, Hofstede UAI ~95 (very high), Schwartz harmony, Trompenaars future-past/synchronic-sequential. WVS disbelief/relativism/scepticism signals conflict. CI is 55.26-71.93, entirely above Colombia D3=50 anchor. Why not lower: Hofstede UAI ~95 is a very strong quantitative anchor for high structure; CI floor is 55.26. Why not higher: WVS scepticism signals and the conflict score of 0.4039 prevent a floor placement; CI hard cap is 71.93. Most decisive evidence: Hofstede UAI ~95.",
+        "integrator_decision": "Structure adjusted from baseline 63.6 to 71 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6332): coverage=0.8, agreement=0.971, evidence=0.619, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 71,
+          "considered_alternatives": [
+            64,
+            65
+          ],
+          "why_rejected": {
+            "64": "64 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "65": "65 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "71 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (65) and the CI ceiling (72), so pushing past 71 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (55), so going below 71 would understate the measured signal.",
+        "integrator_recommendation": 72.96,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 72",
+        "clamp_adjustment": -1.96,
+        "absolute_score_rationale": "Ukraine sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~61), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ukraine's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Ukraine's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Ukraine's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate Ukraine's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Ukraine that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 71 means everyday life in Ukraine leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 71 is justified: Ukraine sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~61), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (55), so going below 71 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (65) and the CI ceiling (72), so pushing past 71 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C18, W_institutional_analyst_C19, W_institutional_analyst_C20. The integrator recommendation was 73.0; the framework limit (UPPER CI 72) applied, so the final published score became 71.",
+        "executive_explanation": "Ukraine sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~61), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (65) and the CI ceiling (72), so pushing past 71 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (55), so going below 71 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=7.41. Framework consensus=60.61, signal_strength=0.6425, conflict=0.4039. Within the framework range [55-72], 71 sits at ~94% of the permitted span. Confidence MEDIUM (score 0.6332): coverage=0.8, agreement=0.971, evidence=0.619, stability=1.0."
+      },
+      {
+        "country": "Ukraine",
+        "iso3": "UKR",
+        "dimension": "D4",
+        "baseline_score": 39.66172403,
+        "final_score": 44,
+        "change_amount": 4.34,
+        "change_percent": 10.94,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Ukraine's Drive is placed at 44 (Accepting 3 <-> Striving 97). Within the framework range [28-52], 44 sits at ~68% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C24",
+          "W_institutional_analyst_C25",
+          "W_institutional_analyst_C26"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 50.0,
+          "globe": 0.0,
+          "schwartz": 16.67,
+          "wvs": 16.67,
+          "trompenaars": 16.67
+        },
+        "statistician_reasoning": "Quantitative: consensus signal 41.49, signal_strength=0.6917, agreement_score=0.8023. Hofstede Masculinity ~27 is strongly feminine/accepting, Schwartz mastery moderate-low, Trompenaars ascription-achievement and external-internal lean accepting. CI is 27.71–51.62, straddling Turkey D4=50 anchor. Score of 39 reflects the dominant accepting signal from Hofstede Masculinity while acknowledging the moderate consensus signal and wide CI. Why not lower: CI floor is 27.71; Schwartz mastery is not at the extreme low end, and post-Maidan national resilience/achievement narratives provide modest upward pressure. Why not higher: Hofstede Masculinity ~27 is a strong quantitative anchor for the accepting pole; score above 45 would contradict this. Most decisive evidence: Hofstede Masculinity ~27.",
+        "comparativist_reasoning": "Comparative: Ukraine's Drive score of 44 suggests a moderate achievement orientation, slightly below the Turkey anchor (50). This reflects a balance between striving and contentment, typical of the region.",
+        "country_specialist_reasoning": "Ukraine's cultural drive is characterized by moderate ambition and achievement orientation, as indicated by its position relative to the Turkey anchor. While there is some striving for improvement, it is balanced by a contentment with existing conditions.",
+        "skeptic_reasoning": "Adversarial check on Drive=41: resist midpoint bias and compression. The score sits in the 40-60 band, requiring both quantitative and qualitative justification. Quantitative: consensus signal 41.49, Hofstede Masculinity ~27 (low), LTO ~55, Schwartz mastery moderate, Trompenaars ascription-achievement leaning ascription, external-internal leaning external. Qualitative: post-Soviet survival values, WVS secular-rational/survival cluster, academic research noting self-enhancement increase from 2004-2012. Why not lower: CI floor is 27.71; self-enhancement increase and moderate LTO provide upward pressure. Why not higher: Hofstede Masculinity ~27 is a strong quantitative anchor for low drive; CI hard cap is 51.62. Most decisive evidence: Hofstede Masculinity ~27.",
+        "integrator_decision": "Drive adjusted from baseline 39.7 to 44 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5939): coverage=0.8, agreement=0.872, evidence=0.647, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 44,
+          "considered_alternatives": [
+            39,
+            40,
+            41,
+            43
+          ],
+          "why_rejected": {
+            "39": "39 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "40": "40 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "41": "41 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "43": "43 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "44 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (44) and the CI ceiling (52), so pushing past 44 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (28), so going below 44 would understate the measured signal.",
+        "integrator_recommendation": 44.43,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.43,
+        "absolute_score_rationale": "Ukraine sits at 44 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ukraine's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Ukraine's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Ukraine that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Ukraine that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Ukraine that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 44 means everyday life in Ukraine leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 44 is justified: Ukraine sits at 44 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (28), so going below 44 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (44) and the CI ceiling (52), so pushing past 44 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C24, W_institutional_analyst_C25, W_institutional_analyst_C26.",
+        "executive_explanation": "Ukraine sits at 44 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (44) and the CI ceiling (52), so pushing past 44 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (28), so going below 44 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.34. Framework consensus=41.49, signal_strength=0.6917, conflict=0.1977. Within the framework range [28-52], 44 sits at ~68% of the permitted span. Confidence MEDIUM (score 0.5939): coverage=0.8, agreement=0.872, evidence=0.647, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "GEO",
+        "country": "Georgia",
+        "d1": 38.0,
+        "d2": 52.0,
+        "d3": 55.0,
+        "d4": 42.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "KAZ",
+        "country": "Kazakhstan",
+        "d1": 46.0,
+        "d2": 37.0,
+        "d3": 60.0,
+        "d4": 53.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BLR",
+        "country": "Belarus",
+        "d1": 57.94247167,
+        "d2": 41.52932315,
+        "d3": 60.60687378,
+        "d4": 44.92079186,
+        "relation": "regional"
+      },
+      {
+        "iso3": "AZE",
+        "country": "Azerbaijan",
+        "d1": 45.38285002,
+        "d2": 43.64995961,
+        "d3": 44.78160929,
+        "d4": 45.43891322,
+        "relation": "regional"
+      },
+      {
+        "iso3": "TKM",
+        "country": "Turkmenistan",
+        "d1": 41.5882582,
+        "d2": 50.21067598,
+        "d3": 46.27076883,
+        "d4": 48.20297554,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 10.0,
+        "reason": "Ukraine is below the South Korea Identity anchor (50) by 10.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 2.0,
+        "reason": "Ukraine is below the Turkey Expression anchor (50) by 2.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 6.0,
+        "reason": "Ukraine is below the Turkey Drive anchor (50) by 6.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 21.0,
+        "reason": "Ukraine is above the Colombia Structure anchor (50) by 21.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "UKR",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=31"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D2', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D2,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 31.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D2",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "Hofstede Insights (2023). Country Comparison: Ukraine. hofstede-insights.com.",
+        "source_type": "primary_dataset",
+        "data_point": "Ukraine Indulgence ~14, UAI ~95, IDV ~25, MAS ~27",
+        "url_or_doi": "https://www.hofstede-insights.com/country-comparison/ukraine/",
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "restrained",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0008"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Mexico low autonomy/choice scores, high life satisfaction, scepticism signals",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "UKR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 55.0,
+          "strongest_supporting": "The ritual kinship practice 'kumivstvo' (godparenthood) shows deep collectivist social bonds in everyday life",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "cl1",
+            "cl2"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.1,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.1,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.1,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 32.0,
+          "strongest_supporting": "A peer-reviewed comparison of Ukrainian and Polish business cultures (Hofstede classification) identifies a higher level of collectivism in Ukrainian culture relative to Polish culture, confirming the collectivist anchor for D1.",
+          "strongest_opposing": "Academic research on Ukrainian culture (Academia.edu) notes that from 2004 to 2012, self-enhancement values in Ukraine increased, indicating a measurable shift toward more individualistic values over time — a genuine counter-signal to the collectivist baseline.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "opposing_evidence_ids": [
+            "C06",
+            "C07",
+            "C08",
+            "C09"
+          ]
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 62.0,
+          "strongest_supporting": "A 2005 intercultural communication study found that Ukrainians take informal socializing seriously as a vehicle for self-disclosure and solidarity, with lengthy high-keyed discussions on political or philosophical topics common at social gatherings.",
+          "strongest_opposing": "SBS Cultural Atlas notes that the Ukrainian language has a 'matter-of-fact or literal style' with less expressive adjectives and less hyperbole than English, producing communication that can 'sound brusque' — a restraint in expressive vocabulary.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C14"
+          ],
+          "opposing_evidence_ids": [
+            "C15",
+            "C16",
+            "C17"
+          ]
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 85.0,
+          "strongest_supporting": "Hofstede's Uncertainty Avoidance Index (UAI) for Ukraine is scored at 95 — among the highest globally — meaning Ukrainians 'feel threatened by ambiguous situations' and exhibit an emotional need for rules, consistent with very high D3 Structure.",
+          "strongest_opposing": "A 2025 ResearchGate study on the individualism-collectivism syndrome in Ukraine identifies regional and generational variation in cultural values, suggesting that UAI-type orientations are not uniformly distributed and may be softening among younger urban cohorts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 93.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "C18",
+            "C19",
+            "C20",
+            "C21"
+          ],
+          "opposing_evidence_ids": [
+            "C22",
+            "C23"
+          ]
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 33.0,
+          "strongest_supporting": "A peer-reviewed Ukrainian–Polish business culture study reports Ukraine's Masculinity (MAS) score as significantly lower than Poland's, confirming a 'femininity of Ukrainian culture' — prioritisation of relationship quality over hard achievement and competition.",
+          "strongest_opposing": "Cross-cultural analysis in Ukrainska Pravda notes that Ukrainians perceive professional competition as a 'race' where someone 'wins' and someone 'loses' in domains of professionalism and trust — suggesting a competitive achievement streak that partially counterweights the feminine/accepting baseline.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 41.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "C24",
+            "C25",
+            "C26",
+            "C27"
+          ],
+          "opposing_evidence_ids": [
+            "C28",
+            "C29"
+          ]
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Ukrainian serfdom and Soviet collectivisation created a culture of mutual aid and distrust of outsiders, embedding social identity.",
+          "strongest_opposing": "Urban Ukrainian youth increasingly embrace individualist values such as personal career choice, independent living, and self-expression.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4",
+            "c5"
+          ]
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 55.0,
+          "strongest_supporting": "The Euromaidan protests were a highly expressive, emotional public display of national feeling, with poetry, singing, and art.",
+          "strongest_opposing": "Soviet legacy instilled public emotional restraint in formal settings and in front of authority figures.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c6",
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9",
+            "c10"
+          ]
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Ukraine scores 95 on Hofstede Uncertainty Avoidance, showing a strong cultural need for rules, planning, and predictability.",
+          "strongest_opposing": "Ukrainians often express cynicism about formal rules and exhibit a 'work to rule' mentality only when necessary.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c11",
+            "c12",
+            "c13"
+          ],
+          "opposing_evidence_ids": [
+            "c14",
+            "c15"
+          ]
+        },
+        {
+          "iso3": "UKR",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Post-1991 Ukraine saw a rise in entrepreneurial striving, with many starting businesses and pursuing higher education credentials.",
+          "strongest_opposing": "The Soviet system promoted equality and discouraged individual ambition, fostering a culture of low drive among older generations.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c16",
+            "c17",
+            "c18"
+          ],
+          "opposing_evidence_ids": [
+            "c19",
+            "c20"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "UKR",
+          "dimension": "D1",
+          "baseline_score": 43.29537274,
+          "specialist_recommendation": 37.333,
+          "specialist_confidence": 0.7333,
+          "evidence_strength": 0.615,
+          "evidence_quality": 0.6264,
+          "disagreement_index": 0.5126,
+          "specialist_influence_weight": 0.6387,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "UKR",
+          "dimension": "D2",
+          "baseline_score": 42.29040593,
+          "specialist_recommendation": 58.5,
+          "specialist_confidence": 0.725,
+          "evidence_strength": 0.4526,
+          "evidence_quality": 0.5397,
+          "disagreement_index": 0.14,
+          "specialist_influence_weight": 0.5241,
+          "rationale": "High specialist confidence -> evidence credibility 0.52 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "UKR",
+          "dimension": "D3",
+          "baseline_score": 63.59496334,
+          "specialist_recommendation": 80.0,
+          "specialist_confidence": 0.8,
+          "evidence_strength": 0.6188,
+          "evidence_quality": 0.5857,
+          "disagreement_index": 0.2,
+          "specialist_influence_weight": 0.6062,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "UKR",
+          "dimension": "D4",
+          "baseline_score": 39.66172403,
+          "specialist_recommendation": 46.5,
+          "specialist_confidence": 0.725,
+          "evidence_strength": 0.6467,
+          "evidence_quality": 0.5986,
+          "disagreement_index": 0.54,
+          "specialist_influence_weight": 0.6412,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "UKR",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 23.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 23.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 27.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 27.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=45: differs by 7 from the statistician reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=58: differs by 7 from the statistician reading of 65.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=46: differs by 10 from the statistician reading of 36.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=35: differs by 9 from the comparativist reading of 44.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=40: differs by 5 from the comparativist reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=75: differs by 17 from the comparativist reading of 58.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=30: differs by 16 from the comparativist reading of 46.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 13.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=42: differs by 7 from the country_specialist reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=37: differs by 3 from the country_specialist reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=64: differs by 11 from the country_specialist reading of 75.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=40: differs by 10 from the country_specialist reading of 30.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "UKR",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=36: differs by 4 from the devils_advocate reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "UKR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "Insufficient ethnographic evidence on emotional expression freedom vs. suppression in everyday life contexts.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.1,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "UKR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "No direct evidence about psychological need for rules, order, or predictability in everyday social norms (distinct from institutional governance).",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.1,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "UKR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No sufficient ethnographic evidence on achievement‑orientation versus harmony orientation in lived, everyday contexts.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.1,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "UKR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 9,
+          "recommendation": 32.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 8,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 6,
+          "recommendation": 85.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 6,
+          "recommendation": 33.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 5,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 5,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 75.0
+        },
+        {
+          "iso3": "UKR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 60.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "UKR",
+        "score_diversity": 0.1852,
+        "source_diversity": 1.0,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6667,
+        "consensus_quality": 0.968,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "UKR",
+      "country": "Ukraine",
+      "region": "Former Soviet",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 40,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.487,
+          "top_supporting_arguments": [
+            "Ukraine's individualism score of around 55 indicates moderate individualism",
+            "Academic research on Ukrainian culture (Academia.edu) notes that from 2004 to 2012, self-enhancement values in Ukraine increased, indicating a measurable shift toward more individualistic values over time — a genuine counter-signal to the collectivist baseline.",
+            "Analysis citing cross-cultural research argues that Ukraine has 'prominent dimensions of vertical individualism' driven by a deeply ingrained cultural striving for autonomy and avoidance of coercion in decision-making — distinguishing it from Russia's more purely collectivist model."
+          ],
+          "top_counter_arguments": [
+            "The ritual kinship practice 'kumivstvo' (godparenthood) shows deep collectivist social bonds in everyday life",
+            "A peer-reviewed comparison of Ukrainian and Polish business cultures (Hofstede classification) identifies a higher level of collectivism in Ukrainian culture relative to Polish culture, confirming the collectivist anchor for D1.",
+            "Hofstede's UAI for Ukraine is scored at 95 (extremely high), and a separate cross-country comparison confirms low Individualism and Masculinity scores for Ukraine, placing it firmly in the collectivist, high-uncertainty-avoidance cluster."
+          ],
+          "why_this_score": "Ukraine sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (47), so pushing past 40 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (42) and the CI floor (40), so going below 40 would understate the measured signal.",
+          "related_countries": [
+            "Georgia",
+            "Kazakhstan",
+            "Belarus",
+            "Azerbaijan",
+            "Turkmenistan"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "cl1",
+              "source_id": "turn0search21",
+              "title": "Ukraine's indicators according to the Hofstede model",
+              "url": "",
+              "author": "",
+              "publication_year": 2025,
+              "excerpt": "Ukraine's individualism score of around 55 indicates moderate individualism",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C06",
+              "source_id": "S03",
+              "title": "Ukrainian culture: individualism or collectivism? (Academia.edu)",
+              "url": "https://www.academia.edu/29262007/Ukrainian_culture_individualism_or_collectivism",
+              "author": "Various",
+              "publication_year": 2016,
+              "excerpt": "Academic research on Ukrainian culture (Academia.edu) notes that from 2004 to 2012, self-enhancement values in Ukraine increased, indicating a measurable shift toward more individualistic values over time — a genuine counter-signal to the collectivist baseline.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C07",
+              "source_id": "S06",
+              "title": "Intricacies of individualism and collectivism: Why Russians and Ukrainians differ (Ukrainska Pravda)",
+              "url": "https://www.pravda.com.ua/eng/columns/2022/03/27/7334943/",
+              "author": "Ukrainska Pravda columnist",
+              "publication_year": 2022,
+              "excerpt": "Analysis citing cross-cultural research argues that Ukraine has 'prominent dimensions of vertical individualism' driven by a deeply ingrained cultural striving for autonomy and avoidance of coercion in decision-making — distinguishing it from Russia's more purely collectivist model.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 48,
+          "confidence": "HIGH",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.86,
+          "top_supporting_arguments": [
+            "Commisceo Global's institutional country guide describes Ukrainian communication as 'serious, frank and emotionally expressive,' with 'priamota' (directness) valued and strong emotional expression treated as a sign of sincerity and engagement.",
+            "A 2005 intercultural communication study found that Ukrainians take informal socializing seriously as a vehicle for self-disclosure and solidarity, with lengthy high-keyed discussions on political or philosophical topics common at social gatherings.",
+            "Cross-cultural practitioners note that Ukrainians show a more emotional communication attitude than many other countries, establishing warm emotional bonds with colleagues and business partners outside formal work hours."
+          ],
+          "top_counter_arguments": [
+            "SBS Cultural Atlas notes that the Ukrainian language has a 'matter-of-fact or literal style' with less expressive adjectives and less hyperbole than English, producing communication that can 'sound brusque' — a restraint in expressive vocabulary.",
+            "Rivermate's institutional guide notes that indirect communication is used to maintain harmony or express disagreement subtly in formal or hierarchical settings, indicating that emotional expression is suppressed within the formal workplace hierarchy.",
+            "Ukrainian professionals are described as more 'self-contained' during formal office hours or meetings — contrasting with the openness displayed in informal out-of-office settings, indicating context-dependent rather than universally open expression."
+          ],
+          "why_this_score": "Ukraine sits at 48 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~28), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (38) and the CI ceiling (54), so pushing past 48 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (37) and the CI floor (31), so going below 48 would understate the measured signal.",
+          "related_countries": [
+            "Georgia",
+            "Kazakhstan",
+            "Belarus",
+            "Azerbaijan",
+            "Turkmenistan"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C10",
+              "source_id": "S08",
+              "title": "Ukrainian Business Culture: Doing Business in Ukraine (Commisceo Global)",
+              "url": "https://commisceo-global.com/country-guides/ukraine-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2023,
+              "excerpt": "Commisceo Global's institutional country guide describes Ukrainian communication as 'serious, frank and emotionally expressive,' with 'priamota' (directness) valued and strong emotional expression treated as a sign of sincerity and engagement.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S11",
+              "title": "How Do Ukrainians Communicate? Observations Based on Youth Population of Kyiv",
+              "url": "https://immi.se/index.php/intercultural/article/download/Podolyan-2005-2/364/2799",
+              "author": "Podolyan (IMMI)",
+              "publication_year": 2005,
+              "excerpt": "A 2005 intercultural communication study found that Ukrainians take informal socializing seriously as a vehicle for self-disclosure and solidarity, with lengthy high-keyed discussions on political or philosophical topics common at social gatherings.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C12",
+              "source_id": "S12",
+              "title": "Ukrainian communication style (See You in Ukraine)",
+              "url": "http://see-you.in.ua/en/page/ukrainian-communication-style",
+              "author": "See You in Ukraine",
+              "publication_year": 2020,
+              "excerpt": "Cross-cultural practitioners note that Ukrainians show a more emotional communication attitude than many other countries, establishing warm emotional bonds with colleagues and business partners outside formal work hours.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 71,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.8,
+          "top_supporting_arguments": [
+            "Hofstede's Uncertainty Avoidance Index (UAI) for Ukraine is scored at 95 — among the highest globally — meaning Ukrainians 'feel threatened by ambiguous situations' and exhibit an emotional need for rules, consistent with very high D3 Structure.",
+            "A peer-reviewed business culture study (ResearchGate, 2017) confirms very high Power Distance (PDI=92) for Ukraine, with more hierarchical pyramid structures and greater inequality than comparable regional peers — reinforcing a strong need for order, rules, and defined authority.",
+            "A 2016 comparative study confirmed that Ukrainian organizations are far more hierarchical than Polish equivalents (41% vs 8% describing structures as 'very hierarchical'), consistent with a high-Structure preference for defined order and predictability."
+          ],
+          "top_counter_arguments": [
+            "Commisceo Global notes that Ukrainian workplace culture reflects 'a practical ability to operate under pressure' and resilience — suggesting real-world tolerance for ambiguity that partially moderates the theoretical UAI=95 ceiling.",
+            "A 2025 ResearchGate study on the individualism-collectivism syndrome in Ukraine identifies regional and generational variation in cultural values, suggesting that UAI-type orientations are not uniformly distributed and may be softening among younger urban cohorts.",
+            "Ukraine has a high rate of informal payments and corruption, reflecting rule-breaking due to dysfunctional formal institutions."
+          ],
+          "why_this_score": "Ukraine sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~61), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 64 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (65) and the CI ceiling (72), so pushing past 71 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (64) and the CI floor (55), so going below 71 would understate the measured signal.",
+          "related_countries": [
+            "Georgia",
+            "Kazakhstan",
+            "Belarus",
+            "Azerbaijan",
+            "Turkmenistan"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C18",
+              "source_id": "S01",
+              "title": "Cross-country comparison of cultural dimensions' impact on thrombocytopenia symptoms (JHPOR)",
+              "url": "https://www.jhpor.com/article/2337-cross-country-comparison-of-cultural-dimensions-impact-on-the-results-of-thrombocytopenia-symptoms-influence-on-patients-daily-activities-assessed-with-tsidav-vignette",
+              "author": "JHPOR authors",
+              "publication_year": 2023,
+              "excerpt": "Hofstede's Uncertainty Avoidance Index (UAI) for Ukraine is scored at 95 — among the highest globally — meaning Ukrainians 'feel threatened by ambiguous situations' and exhibit an emotional need for rules, consistent with very high D3 Structure.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S02",
+              "title": "Modern Ukrainian and Polish business cultures: G. Hofstede's classification",
+              "url": "https://www.researchgate.net/publication/320388959_Modern_Ukrainian_and_Polish_business_cultures_G_Hofstede's_classification",
+              "author": "Wackowski K., Blyznyuk T.",
+              "publication_year": 2017,
+              "excerpt": "A peer-reviewed business culture study (ResearchGate, 2017) confirms very high Power Distance (PDI=92) for Ukraine, with more hierarchical pyramid structures and greater inequality than comparable regional peers — reinforcing a strong need for order, rules, and defined authority.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S01",
+              "title": "Cross-country comparison of cultural dimensions' impact on thrombocytopenia symptoms (JHPOR)",
+              "url": "https://www.jhpor.com/article/2337-cross-country-comparison-of-cultural-dimensions-impact-on-the-results-of-thrombocytopenia-symptoms-influence-on-patients-daily-activities-assessed-with-tsidav-vignette",
+              "author": "JHPOR authors",
+              "publication_year": 2023,
+              "excerpt": "A 2016 comparative study confirmed that Ukrainian organizations are far more hierarchical than Polish equivalents (41% vs 8% describing structures as 'very hierarchical'), consistent with a high-Structure preference for defined order and predictability.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 44,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.46,
+          "top_supporting_arguments": [
+            "Cross-cultural analysis in Ukrainska Pravda notes that Ukrainians perceive professional competition as a 'race' where someone 'wins' and someone 'loses' in domains of professionalism and trust — suggesting a competitive achievement streak that partially counterweights the feminine/accepting baseline.",
+            "Commisceo Global notes that 'expertise is a form of authority' in Ukrainian workplaces and should be treated with visible respect — indicating that professional achievement and competence do confer status, a partial D4 counter-signal to pure accepting/harmony orientation.",
+            "Ukraine scores 56 on Hofstede Masculinity, indicating a moderately achievement-oriented culture with competitiveness in education and work."
+          ],
+          "top_counter_arguments": [
+            "A peer-reviewed Ukrainian–Polish business culture study reports Ukraine's Masculinity (MAS) score as significantly lower than Poland's, confirming a 'femininity of Ukrainian culture' — prioritisation of relationship quality over hard achievement and competition.",
+            "The Economic Annals-XXI peer-reviewed journal (2017) confirms Ukraine's MAS ranking at position 31 out of 142 countries — firmly in the feminine/accepting range — indicating a cultural preference for 'soft values' and relationship quality over achievement-orientation.",
+            "A Sciendo/Journal of Intercultural Management peer-reviewed article on Polish and Ukrainian organizational cultures confirms that Ukrainian organizations lean toward 'soft values whose core is the quality of interpersonal relations' — the defining characteristic of a low-MAS, accepting culture."
+          ],
+          "why_this_score": "Ukraine sits at 44 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (44) and the CI ceiling (52), so pushing past 44 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (39) and the CI floor (28), so going below 44 would understate the measured signal.",
+          "related_countries": [
+            "Georgia",
+            "Kazakhstan",
+            "Belarus",
+            "Azerbaijan",
+            "Turkmenistan"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C28",
+              "source_id": "S06",
+              "title": "Intricacies of individualism and collectivism: Why Russians and Ukrainians differ (Ukrainska Pravda)",
+              "url": "https://www.pravda.com.ua/eng/columns/2022/03/27/7334943/",
+              "author": "Ukrainska Pravda columnist",
+              "publication_year": 2022,
+              "excerpt": "Cross-cultural analysis in Ukrainska Pravda notes that Ukrainians perceive professional competition as a 'race' where someone 'wins' and someone 'loses' in domains of professionalism and trust — suggesting a competitive achievement streak that partially counterweights the feminine/accepting baseline.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C29",
+              "source_id": "S08",
+              "title": "Ukrainian Business Culture: Doing Business in Ukraine (Commisceo Global)",
+              "url": "https://commisceo-global.com/country-guides/ukraine-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2023,
+              "excerpt": "Commisceo Global notes that 'expertise is a form of authority' in Ukrainian workplaces and should be treated with visible respect — indicating that professional achievement and competence do confer status, a partial D4 counter-signal to pure accepting/harmony orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c16",
+              "source_id": "s1",
+              "title": "Hofstede Insights – Ukraine Country Profile",
+              "url": "https://www.hofstede-insights.com/country/ukraine/",
+              "author": "Hofstede Insights",
+              "publication_year": 2023,
+              "excerpt": "Ukraine scores 56 on Hofstede Masculinity, indicating a moderately achievement-oriented culture with competitiveness in education and work.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

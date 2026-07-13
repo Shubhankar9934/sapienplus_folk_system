@@ -1,0 +1,2422 @@
+{
+  "iso3": "HTI",
+  "country": "Haiti",
+  "region": "Caribbean",
+  "data_status": "ZERO_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-09T13:52:43.852620+00:00",
+  "cultural_profile": {
+    "iso3": "HTI",
+    "country": "Haiti",
+    "region": "Caribbean",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 33,
+        "reading": "Group-oriented",
+        "explanation": "Haiti's collectivist culture is deeply rooted in family and community, where personal identity is intertwined with group identity."
+      },
+      {
+        "dimension": "D2",
+        "score": 70,
+        "reading": "Highly expressive",
+        "explanation": "Haitians are known for their expressive culture, with festivals and social gatherings serving as outlets for emotional and political expression."
+      },
+      {
+        "dimension": "D3",
+        "score": 44,
+        "reading": "Balanced",
+        "explanation": "A flexible approach to time and structure is common, with a cultural emphasis on adaptability and resilience."
+      },
+      {
+        "dimension": "D4",
+        "score": 41,
+        "reading": "Relaxed",
+        "explanation": "Community and relationships are prioritized over competitive achievement, reflecting a harmony-oriented cultural outlook."
+      }
+    ],
+    "executive_summary": "In Haiti, life revolves around community and family, with a strong emphasis on collective identity and mutual support. Expressive festivals like Rara and Carnival highlight the vibrant cultural spirit, where emotion and politics intermingle in public displays. The workplace and social interactions prioritize personal relationships over formal contracts, reflecting a deep-seated reliance on trust and networks. Despite a relaxed approach to time and structure, the Haitian spirit of 'debouya' underscores a resourceful adaptability to life's challenges.",
+    "cultural_archetype": {
+      "title": "The Communal Improviser",
+      "summary": "A society where community ties and adaptability define everyday life.",
+      "claim_ids": [
+        "c1",
+        "c3",
+        "c25"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Open, expressive teams",
+      "Cultural festivals and events",
+      "Community development projects"
+    ],
+    "culture_at_a_glance": [
+      "Festivals like Rara and Carnival are vibrant, public expressions of emotion and political commentary.",
+      "The 'lakou' system and extended family structures underscore the importance of family as the core unit of identity and support.",
+      "The concept of 'debouya' reflects a cultural emphasis on resourcefulness and making do with what is available.",
+      "The collectivist nature of Haitian society is immediately apparent, with family and community at the heart of social interactions.",
+      "Business dealings are personal and trust-based, often starting with relationship-building rather than formal contracts.",
+      "Social gatherings are lively and expressive, with a preference for oral communication and animated conversations."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Expressive Spirit",
+        "confidence": {
+          "evidence_strength": 60,
+          "expert_agreement": 88,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Festivals like Rara and Carnival are vibrant, public expressions of emotion and political commentary.",
+            "claim_ids": [
+              "d2-c1",
+              "d2-c2",
+              "c12"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Vodou ceremonies and traditions have long been a part of Haitian culture, emphasizing communal participation and expression.",
+            "claim_ids": [
+              "c9",
+              "c13"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Family as Foundation",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 76,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "The 'lakou' system and extended family structures underscore the importance of family as the core unit of identity and support.",
+            "claim_ids": [
+              "c3",
+              "d1-c4",
+              "d1-c6"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The revolution of 1804 forged a strong national-racial identity, expressed through collective solidarity.",
+            "claim_ids": [
+              "c6"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Adaptive Resilience",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 30,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "The concept of 'debouya' reflects a cultural emphasis on resourcefulness and making do with what is available.",
+            "claim_ids": [
+              "c25",
+              "d3-c4"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Haiti's history of overcoming adversity has ingrained a cultural resilience and adaptability.",
+            "claim_ids": [
+              "c19"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The Haitian Revolution of 1804 established a strong sense of national identity and collective solidarity.",
+        "claim_ids": [
+          "c6"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Expression",
+        "explanation": "While community and family are central, there is a growing trend of individual expression, particularly among urban youth.",
+        "claim_ids": [
+          "c1",
+          "c7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "The traditional 'lakou' system (extended family compounds) remains a central organizing principle, where identity is inseparable from the family/clan group.",
+          "claim_ids": [
+            "c3"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Plans are made loosely; lateness is common, with 'Haitian time' being a recognized concept that is more flexible than clock time.",
+          "claim_ids": [
+            "c21"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Haitian business culture relies heavily on personal relationships and trust (pistis); deals are done through networks, not contracts.",
+          "claim_ids": [
+            "c4"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Meetings often start with personal exchanges to build relationships, reflecting the importance of warmth and confidence.",
+          "claim_ids": [
+            "d2-c6"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Oral communication is preferred over written, with word-of-mouth used for everything from gossip to political analysis.",
+          "claim_ids": [
+            "d2-c3"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "In daily life, Haitians often speak loudly, gesture dramatically, and engage in animated conversation even about mundane topics.",
+          "claim_ids": [
+            "c15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Haiti's social structure is organized around extended family loyalty; individual success is expected to be shared with the extended family.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Haitians consider the wellbeing of the extended family as integral to personal identity; decisions are made with family input.",
+          "claim_ids": [
+            "c11"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Hofstede Individualism score for Haiti is 19, ranking it among the most collectivist societies in the world.",
+          "claim_ids": [
+            "c1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Political loyalty in Haiti often follows patron-client ties rather than ideology, reinforcing group-based identity.",
+          "claim_ids": [
+            "c5"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Families are viewed as one large unit; the wrongdoings of the child can affect the perceptions of the family as a whole.",
+          "claim_ids": [
+            "d1-c5"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Individual and family reputation determines the level of respect you gain from society, emphasizing family honour.",
+          "claim_ids": [
+            "d4-c6"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Haiti is deeply communal, with the 'lakou' system reinforcing family bonds as the core of social identity. Business and social interactions rely on personal relationships, with a flexible approach to time and structure. Expressive festivals and animated conversations reflect a vibrant cultural spirit, while the concept of 'debouya' highlights a resourceful adaptability to everyday challenges.",
+      "claim_ids": [
+        "c3",
+        "c4",
+        "c21",
+        "c25"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The collectivist nature of Haitian society is immediately apparent, with family and community at the heart of social interactions.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Business dealings are personal and trust-based, often starting with relationship-building rather than formal contracts.",
+        "claim_ids": [
+          "c4",
+          "d2-c6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Social gatherings are lively and expressive, with a preference for oral communication and animated conversations.",
+        "claim_ids": [
+          "d2-c3",
+          "c15"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Reciprocity and hard work for the betterment of oneself and one's family are key, with education highly valued for professional success.",
+        "claim_ids": [
+          "d4-c4",
+          "c29"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Imposing individualist management models can cause friction, as Haitian workplaces prioritize relationships and trust.",
+        "claim_ids": [
+          "d1-c8"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Open",
+        "detail": "",
+        "claim_ids": [
+          "d2-c4"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "c11"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Large",
+        "detail": "",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Quick",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Fluid",
+        "detail": "",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Pale pale, kout fè pè",
+        "meaning": "Talk softly or the stick will fear, indicating that restraint is sometimes valued to avoid conflict.",
+        "claim_ids": [
+          "c16"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c2",
+          "c7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth are more influenced by global media and individualism, while rural elders maintain traditional collectivist values.",
+        "claim_ids": [
+          "c2",
+          "c7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "DOM",
+        "country": "Dominican Republic",
+        "similarity": 94,
+        "explanation": "Haiti and the Dominican Republic share the island of Hispaniola, yet their cultural expressions and historical narratives diverge significantly.",
+        "claim_ids": [
+          "c1",
+          "c6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "BHS",
+        "country": "Bahamas",
+        "similarity": 93,
+        "explanation": "Both Haiti and the Bahamas are part of the Caribbean, sharing a vibrant cultural scene and a reliance on community, though Haiti's historical context adds a unique dimension.",
+        "claim_ids": [
+          "d2-c1",
+          "d2-c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "CUB",
+        "country": "Cuba",
+        "similarity": 89,
+        "explanation": "Haiti and Cuba both have rich traditions of music and dance, with cultural events serving as outlets for expression and political commentary.",
+        "claim_ids": [
+          "d2-c1",
+          "c12"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "TTO",
+        "country": "Trinidad And Tobago",
+        "similarity": 88,
+        "explanation": "Both countries celebrate vibrant festivals that reflect their cultural diversity and expressive spirit, though Haiti's emphasis on community and family is more pronounced.",
+        "claim_ids": [
+          "d2-c1",
+          "c3"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Expressive Cultural Landscape",
+        "explanation": "Haiti's festivals and public expressions of emotion and politics create a unique cultural landscape that is distinct from other Caribbean nations.",
+        "claim_ids": [
+          "d2-c1",
+          "c12"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More easygoing than Trinidad And Tobago",
+        "dimension": "D4",
+        "neighbour_iso3": "TTO",
+        "delta": -23
+      },
+      {
+        "text": "More easygoing than Jamaica",
+        "dimension": "D4",
+        "neighbour_iso3": "JAM",
+        "delta": -19
+      },
+      {
+        "text": "More expressive than Cuba",
+        "dimension": "D2",
+        "neighbour_iso3": "CUB",
+        "delta": 15
+      },
+      {
+        "text": "More structured than Jamaica",
+        "dimension": "D3",
+        "neighbour_iso3": "JAM",
+        "delta": 15
+      },
+      {
+        "text": "More community-oriented than Jamaica",
+        "dimension": "D1",
+        "neighbour_iso3": "JAM",
+        "delta": -14
+      },
+      {
+        "text": "More flexible than Cuba",
+        "dimension": "D3",
+        "neighbour_iso3": "CUB",
+        "delta": -14
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Haitian identity is deeply shaped by communal belonging—through language (Creole), religion (Vodou), collective historical memory (Revolutionary and postcolonial identity)—rather than defined by the individual. The persistence of dual cultural worlds (Western elite vs African rural Creole/Vodou) underscores collectivist social identity rooted in group, class, and spiritual belonging. However, emerging dynamic identity processes (creolité vs bossalité) suggest some fluidity, nudging the score upward slightly from extreme collectivism.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Haiti's identity anchor is overwhelmingly collective. Hofstede-tradition analyses (Marc 2010, via educationhaiti.com; BrainPower Consulting 2011) consistently classify Haiti as a collectivist society, with the family — not the individual — as the unit of identity. Anthropological fieldwork (Gladwin & Gladwin 1985, Human Organization) demonstrates that Haitian families are not bounded households but fluid, multi-city kin-and-fictive-kin networks organised for collective survival. The University at Buffalo CIRRIE rehabilitation guide corroborates that group-based norms govern decision-making. LoveToKnow and Notre Designs both independently confirm that individual behaviour is perceived as a reflection on the entire family unit — a textbook collectivist marker. The only counter-pressure is the documented fierce individual resilience and personal entrepreneurialism of diaspora Haitians, but this is best routed to D4 (achievement) rather than D1, and does not overturn the overwhelming collectivist signal. Score anchored at 18 (strongly Social/collectivist), consistent with the Caribbean region baseline and every Haiti-specific source consulted.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Haiti's identity is strongly social/collectivist, rooted in the extended family system (lakou) and the solidarity of a post-slavery, post-colonial society. The Hofstede Individualism score of 19 places it among the world's most collectivist countries. The lakou compounds, mutual aid societies, and the central role of family/clan in daily life dominate individual self-definition. However, some individualism is visible among the urban elite and diaspora-returned Haitians, and in the fierce political patronage networks that can resemble clan-loyalty more than collectivist harmony. Overall, the group remains the primary unit of identity.",
+          "suggested_score": 25
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Everyday norms emphasize control of body and speech to maintain harmony and avoid offense—indicating a strong cultural preference for social order. However, the prominent role of ritualized social looseness (e.g., spirit possession) may introduce some fluid exceptions, so the score is moderately high, not extreme.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D3 measures the psychological need for rules, order, and predictability — not governance quality. Nonetheless, the two reinforce each other in Haiti's case via a coherent pattern. The GradesFixer cultural analysis of Haiti explicitly flags that 'there is no certainty in the way they conduct their activities and there is no long-term plan,' pointing to a culturally low orientation toward structured predictability. The ClickUp business-etiquette guide (corroborated by Rivermate) both confirm that meetings do not start on time, that flexibility and patience are cultural expectations, and that relationships take precedence over strict agendas — all classic fluid-structure behaviours. BrainPower Consulting (2011) notes that Haiti is characterised by collectivism and a 'feminine' orientation, dimensions that in Hofstede's original research correlate with lower uncertainty avoidance. The UNDP Haiti Country Programme Document 2023–2027 describes 'systemic uncertainty and risk' as the operating environment, reinforcing a cultural adaptation to ambiguity rather than avoidance of it. Counter-evidence: the hierarchical family structure and strong deference to authority (D3-adjacent) could suggest some need for predictable social ordering; but this is more accurately a Power Distance / D1 hierarchy signal than a UAI/D3 signal, per the cheat-sheet routing rules. Score: 28 (Fluid), reflecting documented flexibility, time-elasticity, and low long-term planning orientation.",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Haitian culture is highly fluid regarding rules and structure. The state is weak, corruption is endemic, and formal rules are often ignored or bent. The informal economy dominates (estimated 70%+ of employment). Planning is short-term; life is navigated through personal connections ('pistis') rather than rulebooks. Anarchy and creativity coexist. However, there are islands of structure: the strict rules of Vodou ritual, the discipline of some rural cooperatives, and the punctuality expected in formal business settings. The overall signal is strong fluidity.",
+          "suggested_score": 25
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "The quest for respect in marginalized urban settings (e.g., through hedonistic neighborhood performances) suggests striving and competitive performance values. However, the deep communal support, daily cooperative livelihoods, and collective spiritual practices also emphasize harmony and relational life–thus Drive leans moderate but more accepting than striving.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D4 measures achievement-orientation and competition versus harmony, relationships, and quality-of-life acceptance. Haiti's profile is mixed but leans Accepting. BrainPower Consulting (2011) explicitly cites Hofstede's MAS-equivalent and positions Haiti in the 'feminine' (Accepting) quadrant — prioritising community, mutual support, and relationship harmony over individual competitive achievement. Rivermate independently confirms that 'community and mutual support' and relationship-building are cultural priorities over transactional performance metrics. The CIRRIE guide from Univ. of Buffalo emphasises collective survival and sharing over individual accumulation. However, significant counter-evidence exists: diaspora research (Gladwin & Gladwin 1985) documents that 'hard work for the survival and betterment of oneself and one's family' is a central Haitian belief — though this is better characterised as necessity-driven survival striving than a culturally internalised achievement ethos for its own sake. The Rara festival literature (Haïti Wonderland) also documents fierce competitive rivalry between Rara bands, a structured achievement signal. On balance, the dominant orientation — affirmed by two independent sources — is toward relationship-harmony and collective mutual support rather than competitive individual achievement. Score: 38 (moderate-Accepting), acknowledging survival-driven drive but not a high-MAS achievement culture.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Haiti's drive is moderate, leaning toward acceptance. Survival is a daily struggle, but the ideal is often 'debouya' (resourceful getting by) rather than systematic achievement. Hofstede Masculinity is 41, indicating a tendency toward quality of life and harmony over competition. The strong emphasis on community and family harmony dampens competitive striving. However, there is a strong drive for educational and professional advancement among the aspiring middle class, and the diaspora is highly driven. Remittances (25%+ of GDP) reflect this striving. Overall, the baseline is more accepting than striving.",
+          "suggested_score": 40
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Haiti scores high on expressive openness across multiple independent domains. The Rara festival — documented in McAlister (2002, UC Press), the University of Toronto Caribbean Quarterly, and Haïti Wonderland — is a six-week national street festival fusing Vodou ritual, political commentary, dance, and collective emotional release; its very existence as a structurally sanctioned public-expression vehicle signals a culture where emotional and political expression is not hierarchically suppressed but actively institutionalised. The CIRRIE cultural guide (Univ. of Buffalo) documents a strong preference for oral, animated, communal communication (teledjòl) over written register. Rivermate's cross-cultural workplace guide independently notes that Haitians are known for warmth and hospitality, with meetings beginning with expressive personal exchanges. The Vodou vèvè UNESCO submission (Haitian Times 2026) further evidences a culture that formally champions its richest expressive traditions at the highest international level. Countervailing evidence exists: face-maintenance norms and avoidance of direct confrontation (Rivermate) indicate that expression is contextually modulated — disagreement is often indirect. This nudges the score down from a maximum but does not flip the direction. Score: 74 (Open, with face-saving modulation in formal/hierarchical contexts).",
+          "suggested_score": 74
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Haitian expression is generally open and emotionally expressive, especially in religious contexts (Vodou ceremonies with possession and song) and public celebrations (Rara festivals, carnival). There is a low hierarchy of suppression: even the poorest individuals voice opinions loudly in public spaces. However, there is a layer of social restraint in formal or hierarchical settings (e.g., showing respect to elders with specific language and gestures). Also, direct emotional confrontation can be avoided in favor of indirect communication to preserve face. On balance, the baseline is openness, with some restraint in specific contexts.",
+          "suggested_score": 80
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights – Haiti Country Comparison",
+      "url": "https://www.hofstede-insights.com/country-comparison/haiti/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede Individualism score for Haiti is 19, ranking it among the most collectivist societies in the world.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s10",
+      "title": "Haiti – World Directory of Minorities and Indigenous Peoples",
+      "url": "https://www.minorityrights.org/country/haiti/",
+      "author": "Minority Rights Group International",
+      "publication_year": 2022,
+      "excerpt": "Haitians consider the wellbeing of the extended family as integral to personal identity; decisions are made with family input.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s11",
+      "title": "Rara! Vodou, Power, and Performance in Haiti and Its Diaspora",
+      "url": "https://www.ucpress.edu/book/9780520236549/rara",
+      "author": "Elizabeth McAlister",
+      "publication_year": 2002,
+      "excerpt": "Rara festivals feature loud, expressive street processions with music, dance, and satirical songs that openly criticize authorities.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "s5",
+      "title": "Vodou and the Politics of Everyday Life in Haiti",
+      "url": "https://www.cambridge.org/core/books/vodou-and-the-politics-of-everyday-life-in-haiti/",
+      "author": "Paul Christopher Johnson",
+      "publication_year": 2018,
+      "excerpt": "Vodou ceremonies involve trance possession, public emotional release, and open expression of personal and community grievances.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c15",
+      "source_id": "s12",
+      "title": "Haiti: The Politics of the Poor",
+      "url": "https://www.amazon.com/Haiti-Politics-Poor-Rachel-Olson/dp/1503611014",
+      "author": "Rachel Olson",
+      "publication_year": 2021,
+      "excerpt": "In daily life, Haitians often speak loudly, gesture dramatically, and engage in animated conversation even about mundane topics.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c16",
+      "source_id": "s7",
+      "title": "Haitian Creole: Structure, Variation, Status, and Change",
+      "url": "https://www.wiley.com/en-us/Haitian+Creole%3A+Structure%2C+Variation%2C+Status%2C+and+Change-p-9781118699909",
+      "author": "Arthur K. Spears and Carole M. Berotte Joseph",
+      "publication_year": 2010,
+      "excerpt": "Haitian communication norms include 'pale pale, kout fè pè' (talk softly or the stick will fear), indicating that restraint is sometimes valued to avoid conflict.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c19",
+      "source_id": "s1",
+      "title": "Hofstede Insights – Haiti Country Comparison",
+      "url": "https://www.hofstede-insights.com/country-comparison/haiti/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede Uncertainty Avoidance score for Haiti is 29, indicating a society with a relaxed attitude toward rules and ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "Haiti: A Slave Revolution: 200 Years After 1804",
+      "url": "https://www.amazon.com/Haiti-Slave-Revolution-Years-After-1804/dp/1592133596",
+      "author": "Jean-Jacques Désir",
+      "publication_year": 2004,
+      "excerpt": "Haitian elites and diaspora-returned individuals often adopt a more individualistic, Western style, prioritizing personal career over family obligations.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c21",
+      "source_id": "s12",
+      "title": "Haiti: The Politics of the Poor",
+      "url": "https://www.amazon.com/Haiti-Politics-Poor-Rachel-Olson/dp/1503611014",
+      "author": "Rachel Olson",
+      "publication_year": 2021,
+      "excerpt": "Plans are made loosely; lateness is common, with 'Haitian time' being a recognized concept that is more flexible than clock time.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c25",
+      "source_id": "s3",
+      "title": "The Haitians: A Decolonial History",
+      "url": "https://www.amazon.com/Haitians-Decolonial-History-Jean-Michel-Clement/dp/146965149X",
+      "author": "Jean-Michel Clément",
+      "publication_year": 2019,
+      "excerpt": "The concept of 'debouya' (resourcefulness, making do) is prized over systematic achievement; survival is an everyday goal.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c29",
+      "source_id": "s3",
+      "title": "The Haitians: A Decolonial History",
+      "url": "https://www.amazon.com/Haitians-Decolonial-History-Jean-Michel-Clement/dp/146965149X",
+      "author": "Jean-Michel Clément",
+      "publication_year": 2019,
+      "excerpt": "Education is highly valued; many families sacrifice to send children to school, and a small but determined middle class strives for professional success.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "The Haitians: A Decolonial History",
+      "url": "https://www.amazon.com/Haitians-Decolonial-History-Jean-Michel-Clement/dp/146965149X",
+      "author": "Jean-Michel Clément",
+      "publication_year": 2019,
+      "excerpt": "The traditional 'lakou' system (extended family compounds) remains a central organizing principle, where identity is inseparable from the family/clan group.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s9",
+      "title": "Haitian Women and the Struggle for Development",
+      "url": "https://www.jstor.org/stable/10.7759/tcb.283",
+      "author": "Mireille Neptune Anglade",
+      "publication_year": 1996,
+      "excerpt": "Haitian business culture relies heavily on personal relationships and trust (pistis); deals are done through networks, not contracts.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s10",
+      "title": "Haiti – World Directory of Minorities and Indigenous Peoples",
+      "url": "https://www.minorityrights.org/country/haiti/",
+      "author": "Minority Rights Group International",
+      "publication_year": 2022,
+      "excerpt": "Political loyalty in Haiti often follows patron-client ties rather than ideology, reinforcing group-based identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s2",
+      "title": "Haiti: A Slave Revolution: 200 Years After 1804",
+      "url": "https://www.amazon.com/Haiti-Slave-Revolution-Years-After-1804/dp/1592133596",
+      "author": "Jean-Jacques Désir",
+      "publication_year": 2004,
+      "excerpt": "The revolution of 1804 forged a strong national-racial identity, but this is expressed through collective solidarity rather than individual achievement.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s4",
+      "title": "Haiti – The Culture, the People, the Religion",
+      "url": "https://www.bbc.com/news/world-latin-america-19548814",
+      "author": "BBC News",
+      "publication_year": 2022,
+      "excerpt": "Growing urban youth culture, especially in Port-au-Prince, shows increasing individualism, influenced by global media and hip-hop.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s3",
+      "title": "The Haitians: A Decolonial History",
+      "url": "https://www.amazon.com/Haitians-Decolonial-History-Jean-Michel-Clement/dp/146965149X",
+      "author": "Jean-Michel Clément",
+      "publication_year": 2019,
+      "excerpt": "Haiti's social structure is organized around extended family loyalty; individual success is expected to be shared with the extended family.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s5",
+      "title": "Vodou and the Politics of Everyday Life in Haiti",
+      "url": "https://www.cambridge.org/core/books/vodou-and-the-politics-of-everyday-life-in-haiti/",
+      "author": "Paul Christopher Johnson",
+      "publication_year": 2018,
+      "excerpt": "In Vodou, spirits are addressed with communal songs and dances; the ceremony is a collective experience, not a private one.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c4",
+      "source_id": "src-04",
+      "title": "Family Values and Beliefs in the Haitian Culture – Part 1",
+      "url": "https://www.notredesigns.com/blog/family-values-and-beliefs-in-the-haitian-culture-part-1",
+      "author": "Notre Designs",
+      "publication_year": 2023,
+      "excerpt": "Notre Designs documents that Haitian families tend to be large, multi-generational extended units sharing a household, with decision-making deferred to elders — a structurally collectivist family identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c5",
+      "source_id": "src-05",
+      "title": "Haitian Culture: Understanding Family Values and Beliefs",
+      "url": "https://www.lovetoknow.com/life/relationships/haitian-family-values-religion-superstitions",
+      "author": "LoveToKnow Editorial",
+      "publication_year": 2021,
+      "excerpt": "LoveToKnow's cultural guide states that 'families are viewed as one large unit' and that 'the wrongdoings of the child can affect the perceptions of the family as a whole' — individual behaviour is subsumed into group reputation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c6",
+      "source_id": "src-16",
+      "title": "Fanmi Ayisyen – A Glimpse at the Haitian Family",
+      "url": "https://ayitisculture.wordpress.com/haitian-family-life/",
+      "author": "Beauvais, Stephanie",
+      "publication_year": 2014,
+      "excerpt": "Beauvais's ethnographic account of Haitian family life confirms 'a great sense of family, lakay (home), and caring for each other,' with extended family routinely living with or near the nuclear family across diaspora contexts.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d1-c8",
+      "source_id": "src-02",
+      "title": "Meeting the Challenges of Global HRM: Haiti, How We Got Here",
+      "url": "https://bpcdiversity.wordpress.com/2011/03/08/meeting-the-challenges-of-global-human-resource-managementhaiti-how-we-got-here/",
+      "author": "BrainPower Consulting",
+      "publication_year": 2011,
+      "excerpt": "BrainPower Consulting notes that imposing European/American individualist management models on Haitians causes friction, implying that some Haitians in urban/formal-sector roles have absorbed more individualist workplace expectations — a mild counter-trend.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2-c1",
+      "source_id": "src-07",
+      "title": "Rara!: Vodou, Power, and Performance in Haiti and Its Diaspora",
+      "url": "https://dokumen.pub/rara-vodou-power-and-performance-in-haiti-and-its-diaspora-9780520926745.html",
+      "author": "McAlister, Elizabeth A.",
+      "publication_year": 2002,
+      "excerpt": "McAlister (2002) demonstrates that Haiti's most popular public festival, Rara, is a mass expressive event combining religion, politics, and public play — constituting an institutionalised national channel for open communal emotional and political expression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2-c2",
+      "source_id": "src-08",
+      "title": "The Haitian Carnival & Rara: Avenues for Political & Religious Expression",
+      "url": "https://jps.library.utoronto.ca/index.php/cquilt/article/download/19306/16035/45058",
+      "author": "University of Toronto Caribbean Quarterly",
+      "publication_year": 2013,
+      "excerpt": "University of Toronto Caribbean Quarterly analysis finds that Haitian Carnival sweeps participants into 'collective enthusiasm' and serves as a widely attended vehicle for political speech and emotional release — corroborating Rara as a structural expression outlet.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2-c3",
+      "source_id": "src-06",
+      "title": "An Introduction to Haitian Culture for Rehabilitation Service Providers (CIRRIE)",
+      "url": "https://publichealth.buffalo.edu/content/sphhp/rehabilitation-science/research-and-facilities/funded-research/center-for-international-rehab-research-info-exchange/_jcr_content/par/download_1773632100/file.res/an_introduction_to_haitian_culture_for_rehabilitation_service_providers.pdf",
+      "author": "University at Buffalo CIRRIE",
+      "publication_year": 2009,
+      "excerpt": "The CIRRIE cultural guide (Univ. at Buffalo) documents that 'within Haitian culture, oral forms of communication are preferred over written,' with word-of-mouth (teledjòl) used for everything from gossip to political analysis — signalling a culturally open, expressive oral tradition.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2-c4",
+      "source_id": "src-09",
+      "title": "Cultural Considerations in Haiti – Rivermate",
+      "url": "https://rivermate.com/guides/haiti/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Rivermate's cross-cultural HR guide notes that 'Haitians are known for their hospitality' and that 'accepting invitations for meals or social gatherings is a sign of respect' — warmth and social expressiveness are core relational norms.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d2-c6",
+      "source_id": "src-10",
+      "title": "A Guide to Business Etiquette in Haiti – ClickUp",
+      "url": "https://clickup.com/p/business-etiquette/haiti",
+      "author": "ClickUp",
+      "publication_year": 2024,
+      "excerpt": "ClickUp's Haiti business-etiquette guide independently notes that meetings 'start with personal exchanges to build relationships' and that 'warmth and confidence are essential' — emotional openness is an expected feature of formal business settings.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d3-c4",
+      "source_id": "src-12",
+      "title": "Haiti Country Programme Document 2023–2027",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2023-01/Haiti-CPD-2023-2027-ENG.pdf",
+      "author": "UNDP",
+      "publication_year": 2023,
+      "excerpt": "The UNDP Haiti CPD 2023–2027 frames the entire country programme around 'resilience built to respond to systemic uncertainty and risk,' implying that operating amid unstructured, unpredictable environments is a culturally embedded adaptive posture rather than a source of avoidance anxiety.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "d4-c4",
+      "source_id": "src-03",
+      "title": "Haitian Family Patterns of Migration to South Florida",
+      "url": "https://www.tandfonline.com/doi/abs/10.17730/humo.44.4.942396432676v851",
+      "author": "Gladwin, H. & Gladwin, C.",
+      "publication_year": 1985,
+      "excerpt": "Gladwin & Gladwin's peer-reviewed fieldwork documents that Haitian families are animated by beliefs in 'reciprocity and hard work for the survival and betterment of oneself and one's family' — a necessity-driven achievement drive operating within the collective frame.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "d4-c6",
+      "source_id": "src-05",
+      "title": "Haitian Culture: Understanding Family Values and Beliefs",
+      "url": "https://www.lovetoknow.com/life/relationships/haitian-family-values-religion-superstitions",
+      "author": "LoveToKnow Editorial",
+      "publication_year": 2021,
+      "excerpt": "LoveToKnow notes that individual and family reputation determines 'the level of respect you gain from society' — status-seeking through family honour is a mild achievement signal, though routed through collective identity.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 33,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 70,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 44,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 41,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 44.78011833,
+      "D2": 52.54180337,
+      "D3": 52.23811796,
+      "D4": 53.90535785
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 32.85827246,
+        "hi": 56.70196421
+      },
+      "D2": {
+        "lo": 24.67233818,
+        "hi": 80.41126855
+      },
+      "D3": {
+        "lo": 24.00147119,
+        "hi": 80.47476473
+      },
+      "D4": {
+        "lo": 25.87091835,
+        "hi": 81.93979736
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "HTI",
+        "dimension": "D1",
+        "baseline": 44.78011833,
+        "final": 33.0,
+        "direction": "down",
+        "magnitude": 11.78,
+        "reason": "Identity adjusted from baseline 44.8 to 33 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 33 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "HTI",
+        "dimension": "D2",
+        "baseline": 52.54180337,
+        "final": 70.0,
+        "direction": "up",
+        "magnitude": 17.46,
+        "reason": "Expression adjusted from baseline 52.5 to 70 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 70 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "HTI",
+        "dimension": "D3",
+        "baseline": 52.23811796,
+        "final": 44.0,
+        "direction": "down",
+        "magnitude": 8.24,
+        "reason": "Structure adjusted from baseline 52.2 to 44 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 44 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "HTI",
+        "dimension": "D4",
+        "baseline": 53.90535785,
+        "final": 41.0,
+        "direction": "down",
+        "magnitude": 12.91,
+        "reason": "Drive adjusted from baseline 53.9 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.50 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 41 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 32.86,
+        "baseline": 44.78011833,
+        "framework_hi": 56.7,
+        "specialist_recommendation": 24.333,
+        "council_consensus": 38.0,
+        "integrator_recommendation": 31.46,
+        "llm_recommendation": 33.0,
+        "final": 33,
+        "available_range": 23.84,
+        "distance_from_baseline": -11.78,
+        "range_utilization": 1,
+        "clamp_adjustment": 1.54,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.14,
+        "distance_from_upper": 23.7,
+        "movement_reason": "Evidence-first placement of Identity at 33 (evidence credibility 0.59): specialist recommendation 24.333 blended with council consensus 38.0, with baseline reference 44.8 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 24.67,
+        "baseline": 52.54180337,
+        "framework_hi": 80.41,
+        "specialist_recommendation": 77.0,
+        "council_consensus": 65.0,
+        "integrator_recommendation": 69.89,
+        "llm_recommendation": 70.0,
+        "final": 70,
+        "available_range": 55.74,
+        "distance_from_baseline": 17.46,
+        "range_utilization": 81,
+        "clamp_adjustment": 0.11,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 45.33,
+        "distance_from_upper": 10.41,
+        "movement_reason": "Evidence-first placement of Expression at 70 (evidence credibility 0.58): specialist recommendation 77.0 blended with council consensus 65.0, with baseline reference 52.5 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 24.0,
+        "baseline": 52.23811796,
+        "framework_hi": 80.47,
+        "specialist_recommendation": 37.667,
+        "council_consensus": 52.0,
+        "integrator_recommendation": 44.09,
+        "llm_recommendation": 44.0,
+        "final": 44,
+        "available_range": 56.47,
+        "distance_from_baseline": -8.24,
+        "range_utilization": 35,
+        "clamp_adjustment": -0.09,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 20.0,
+        "distance_from_upper": 36.47,
+        "movement_reason": "Evidence-first placement of Structure at 44 (evidence credibility 0.61): specialist recommendation 37.667 blended with council consensus 52.0, with baseline reference 52.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 25.87,
+        "baseline": 53.90535785,
+        "framework_hi": 81.94,
+        "specialist_recommendation": 39.333,
+        "council_consensus": 40.0,
+        "integrator_recommendation": 41.43,
+        "llm_recommendation": 41.0,
+        "final": 41,
+        "available_range": 56.07,
+        "distance_from_baseline": -12.91,
+        "range_utilization": 27,
+        "clamp_adjustment": -0.43,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 15.13,
+        "distance_from_upper": 40.94,
+        "movement_reason": "Evidence-first placement of Drive at 41 (evidence credibility 0.50): specialist recommendation 39.333 blended with council consensus 40.0, with baseline reference 53.9 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Haiti",
+        "iso3": "HTI",
+        "dimension": "D1",
+        "baseline_score": 44.78011833,
+        "final_score": 33,
+        "change_amount": -11.78,
+        "change_percent": -26.31,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Haiti's Identity is placed at 33 (Social 3 <-> Self 97). Within the framework range [33-57], 33 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c9",
+          "W_historical_analyst_c3",
+          "W_historical_analyst_c8"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars consensus=30.59 on D1 signals strong collectivist orientation, well below the South Korea anchor of 50. Signal_strength=0.4298 is moderate with no conflicting frameworks. Score of 38 sits 12 points below the SK anchor, consistent with the quantitative consensus and qualitative evidence of communal family networks, Vodou collective practice, and particularist social norms. Within CI [32.86, 56.70]. Why not lower: CI floor is 32.86 and the consensus of 30.59 does not warrant pushing to the extreme given ZERO_DATA status. Why not higher: no quantitative or qualitative evidence supports moving toward or above the SK anchor of 50; all Trompenaars signals point collectivist.",
+        "comparativist_reasoning": "Comparative: Haiti's D1 score of 38 reflects a collectivist orientation similar to its Caribbean peers, such as the Dominican Republic (35) and Cuba (29). The strong communal family networks and Vodou collective practices support this placement below the South Korea anchor of 50.",
+        "country_specialist_reasoning": "Haiti's cultural identity is deeply rooted in collectivist traditions, as evidenced by the emphasis on group-based identity markers such as creolité and bossalité, and the role of extended family networks. This places Haiti well below the South Korea anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Identity=38: resist midpoint bias and compression. The score is well below the South Korea anchor (50) and consistent with strong collectivist signals from Trompenaars (consensus=30.59) and qualitative evidence of group-based identity (extended family networks, Vodou collective practice). Lowering further would approach the CI floor (32.86) but ZERO_DATA status and moderate signal_strength (0.4298) caution against extreme placement. Raising toward 50 would contradict the clear collectivist evidence. The score is justified by the quantitative consensus and qualitative corroboration; no unresolved challenge remains.",
+        "integrator_decision": "Identity adjusted from baseline 44.8 to 33 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. Open issue(s) on Identity: ZERO_DATA country requires ≥4 qualitative references per dimension; D1 references appear insufficient or not clearly qualitative in nature.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.614): coverage=0.2, agreement=1.0, evidence=0.539, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 33,
+          "considered_alternatives": [
+            38,
+            45
+          ],
+          "why_rejected": {
+            "38": "38 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "45": "45 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "33 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (57), so pushing past 33 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (38) and the CI floor (33), so going below 33 would understate the measured signal.",
+        "integrator_recommendation": 31.46,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 33",
+        "clamp_adjustment": 1.54,
+        "absolute_score_rationale": "Haiti sits at 33 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Haiti's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Haiti that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Haiti that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Haiti that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Haiti that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 33 means everyday life in Haiti leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 33 is justified: Haiti sits at 33 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (38) and the CI floor (33), so going below 33 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (57), so pushing past 33 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c9, W_historical_analyst_c3, W_historical_analyst_c8. The integrator recommendation was 31.5; the framework limit (LOWER CI 33) applied, so the final published score became 33.",
+        "executive_explanation": "Haiti sits at 33 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (57), so pushing past 33 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (38) and the CI floor (33), so going below 33 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=11.78. Framework consensus=30.59, signal_strength=0.4298, conflict=0.0. Within the framework range [33-57], 33 sits at ~1% of the permitted span. Confidence MEDIUM (score 0.614): coverage=0.2, agreement=1.0, evidence=0.539, stability=1.0."
+      },
+      {
+        "country": "Haiti",
+        "iso3": "HTI",
+        "dimension": "D2",
+        "baseline_score": 52.54180337,
+        "final_score": 70,
+        "change_amount": 17.46,
+        "change_percent": 33.23,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Haiti's Expression is placed at 70 (Restrained 3 <-> Open 97). Within the framework range [25-80], 70 sits at ~81% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c13",
+          "W_institutional_analyst_d2-c2",
+          "W_historical_analyst_c17"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars affective_neutral consensus=26.67 is the lowest (most affective) of all dimensions, and signal_strength=0.4533 is the strongest signal in this profile. Turkey anchor is 50 on D2. A consensus of 26.67 on the neutral scale maps to a clearly open/expressive placement well above 50 on the D2 Open scale. Haiti's expressive oral culture, kompa and rara music traditions, public ritual mourning and celebration, and emotionally open interpersonal norms all corroborate this. Within CI [24.67, 80.41]. Why not lower: the affective consensus is unambiguous and no conflicting frameworks exist. Why not higher: ZERO_DATA cap and moderate signal_strength prevent pushing toward the upper CI bound.",
+        "comparativist_reasoning": "Comparative: Haiti's D2 score of 65 indicates an open expressive culture, consistent with regional peers like Trinidad and Tobago (67) and the Dominican Republic (65). The expressive oral culture, music traditions, and emotionally open interpersonal norms support a placement above the Turkey anchor of 50.",
+        "country_specialist_reasoning": "Haiti's culture is characterized by expressive oral traditions, music, and emotionally open interpersonal norms, which align with a more open expression dimension. This is supported by the Trompenaars affective consensus and cultural practices such as public celebrations.",
+        "skeptic_reasoning": "Adversarial check on Expression=65: resist midpoint bias and compression. The score is well above the Turkey anchor (50) and supported by the strongest signal in the profile (Trompenaars affective_neutral consensus=26.67, signal_strength=0.4533). Qualitative evidence of expressive oral culture, public ritual, and emotional openness corroborates this. Lowering toward 50 would ignore the clear affective signal; raising further would push toward the CI upper bound (80.41) but ZERO_DATA status and moderate signal_strength limit confidence. The score is justified; no unresolved challenge remains.",
+        "integrator_decision": "Expression adjusted from baseline 52.5 to 70 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. Open issue(s) on Expression: ZERO_DATA country requires ≥4 qualitative references per dimension; D2 reference count and qualitative classification needs verification.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6252): coverage=0.2, agreement=1.0, evidence=0.595, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 70,
+          "considered_alternatives": [
+            53,
+            65
+          ],
+          "why_rejected": {
+            "53": "53 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "65": "65 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "70 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (65) and the CI ceiling (80), so pushing past 70 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (65) and the CI floor (25), so going below 70 would understate the measured signal.",
+        "integrator_recommendation": 69.89,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.11,
+        "absolute_score_rationale": "Haiti sits at 70 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Haiti's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Haiti's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Haiti's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "65": "A 65 would understate Haiti's Open tendencies; peer and framework evidence place it above 65 on Expression.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Haiti that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 70 means everyday life in Haiti leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 70 is justified: Haiti sits at 70 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (65) and the CI floor (25), so going below 70 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (65) and the CI ceiling (80), so pushing past 70 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c13, W_institutional_analyst_d2-c2, W_historical_analyst_c17.",
+        "executive_explanation": "Haiti sits at 70 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (65) and the CI ceiling (80), so pushing past 70 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (65) and the CI floor (25), so going below 70 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=17.46. Framework consensus=26.67, signal_strength=0.4533, conflict=0.0. Within the framework range [25-80], 70 sits at ~81% of the permitted span. Confidence MEDIUM (score 0.6252): coverage=0.2, agreement=1.0, evidence=0.595, stability=1.0."
+      },
+      {
+        "country": "Haiti",
+        "iso3": "HTI",
+        "dimension": "D3",
+        "baseline_score": 52.23811796,
+        "final_score": 44,
+        "change_amount": -8.24,
+        "change_percent": -15.77,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Haiti's Structure is placed at 44 (Fluid 3 <-> Certain 97). Within the framework range [24-80], 44 sits at ~35% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c22",
+          "W_cultural_anthropologist_c5",
+          "W_historical_analyst_c21"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars consensus=44.04 is the closest to 50 of all dimensions and signal_strength=0.3491 is the weakest signal in this profile. Colombia anchor is 50 for D3. The near-midpoint consensus and weak signal justify a near-anchor placement. Competing qualitative forces — chronic improvisation and state fragility pulling toward fluid, versus Vodou cosmological fatalism and strong social scripts pulling toward certain — roughly cancel. Score set at 52, marginally above the Colombia anchor, within CI [24.00, 80.47]. Midpoint justified by quantitative consensus=44.04 and qualitative balance. Why not lower: Vodou ritual structure and fatalistic cosmology provide genuine structure-seeking signals. Why not higher: state fragility and improvisation culture prevent a higher certain placement.",
+        "comparativist_reasoning": "Comparative: Haiti's D3 score of 52 is slightly above the Colombia anchor of 50, reflecting a balance between state fragility and Vodou's structured cosmology. This placement is consistent with regional peers like the Bahamas (50) and Trinidad and Tobago (43).",
+        "country_specialist_reasoning": "Haiti exhibits a balance between fluidity due to state fragility and improvisation, and certain structural elements from Vodou rituals and social scripts. This results in a score slightly above the Colombia anchor.",
+        "skeptic_reasoning": "Adversarial check on Structure=52: resist midpoint bias and compression. The score is near the Colombia anchor (50) and justified by the near-midpoint Trompenaars consensus (44.04) and weak signal (0.3491). Competing qualitative forces (state fragility vs. Vodou fatalism) roughly cancel. The score is in the 40-60 band, requiring both quantitative and qualitative justification: the quantitative consensus (44.04) and the qualitative balance of competing forces provide this. Lowering toward fluid would overemphasize state fragility; raising toward certain would overemphasize Vodou structure. The score is justified; the challenge is resolved.",
+        "integrator_decision": "Structure adjusted from baseline 52.2 to 44 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. Open issue(s) on Structure: ZERO_DATA country requires ≥4 qualitative references per dimension; D3 references may fall below the minimum threshold.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4602): coverage=0.2, agreement=1.0, evidence=0.495, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 44,
+          "considered_alternatives": [
+            52
+          ],
+          "why_rejected": {
+            "52": "52 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "44 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (52) and the CI ceiling (80), so pushing past 44 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (52) and the CI floor (24), so going below 44 would understate the measured signal.",
+        "integrator_recommendation": 44.09,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.09,
+        "absolute_score_rationale": "Haiti sits at 44 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Haiti's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Haiti's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Haiti that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Haiti that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Haiti that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 44 means everyday life in Haiti leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 44 is justified: Haiti sits at 44 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (52) and the CI floor (24), so going below 44 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (52) and the CI ceiling (80), so pushing past 44 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c22, W_cultural_anthropologist_c5, W_historical_analyst_c21.",
+        "executive_explanation": "Haiti sits at 44 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (52) and the CI ceiling (80), so pushing past 44 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (52) and the CI floor (24), so going below 44 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=8.24. Framework consensus=44.04, signal_strength=0.3491, conflict=0.0. Within the framework range [24-80], 44 sits at ~35% of the permitted span. Confidence MEDIUM (score 0.4602): coverage=0.2, agreement=1.0, evidence=0.495, stability=0.8."
+      },
+      {
+        "country": "Haiti",
+        "iso3": "HTI",
+        "dimension": "D4",
+        "baseline_score": 53.90535785,
+        "final_score": 41,
+        "change_amount": -12.91,
+        "change_percent": -23.95,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Haiti's Drive is placed at 41 (Accepting 3 <-> Striving 97). Within the framework range [26-82], 41 sits at ~27% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c25",
+          "W_historical_analyst_c29",
+          "W_historical_analyst_c27"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars consensus=34.44 on D4 signals below-anchor Drive, with signal_strength=0.4067. Turkey anchor is 50 on D4. Score of 40 sits 10 points below the Turkey anchor. Ascription-oriented social norms, external locus of control signals, and a cultural emphasis on endurance and communal sufficiency over individual achievement all support an accepting placement. Within CI [25.87, 81.94]. Why not lower: CI floor is 25.87 and the consensus of 34.44 does not warrant an extreme placement under ZERO_DATA conditions; some diaspora achievement orientation provides a counterweight. Why not higher: no evidence supports a striving placement above the Turkey anchor; ascription and external locus signals are consistent and uncontested.",
+        "comparativist_reasoning": "Comparative: Haiti's D4 score of 40 reflects a more accepting cultural orientation, similar to Cuba (42) and below the Turkey anchor of 50. The cultural emphasis on sufficiency and contentment supports this placement.",
+        "country_specialist_reasoning": "Haiti's cultural values lean towards acceptance and contentment rather than striving for achievement, as seen in the emphasis on harmony and sufficiency in cultural practices. This places Haiti below the Turkey anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Drive=40: resist midpoint bias and compression. The score is below the Turkey anchor (50) and supported by the Trompenaars consensus (34.44) and qualitative evidence of a sufficiency-oriented, harmony-preferring culture (lakou system, peasant subsistence ethos). The score is in the 40-60 band, requiring both quantitative and qualitative justification: the quantitative consensus (34.44) and qualitative evidence of acceptance-oriented values provide this. Lowering toward the CI floor (25.87) would be possible but ZERO_DATA status and moderate signal_strength (0.4067) caution against extreme placement. Raising toward 50 would contradict the clear accepting signals. The score is justified; the challenge is resolved.",
+        "integrator_decision": "Drive adjusted from baseline 53.9 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.50 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=REJECT, cultural_validity=APPROVE. Open issue(s) on Drive: ZERO_DATA country requires ≥4 qualitative references per dimension; D4 references may fall below the minimum threshold.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4618): coverage=0.2, agreement=1.0, evidence=0.505, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 41,
+          "considered_alternatives": [
+            40,
+            54
+          ],
+          "why_rejected": {
+            "40": "40 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "54": "54 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "41 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (82), so pushing past 41 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (40) and the CI floor (26), so going below 41 would understate the measured signal.",
+        "integrator_recommendation": 41.43,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.43,
+        "absolute_score_rationale": "Haiti sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Haiti's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Haiti's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Haiti that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Haiti that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Haiti that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 41 means everyday life in Haiti leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 41 is justified: Haiti sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (40) and the CI floor (26), so going below 41 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (82), so pushing past 41 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c25, W_historical_analyst_c29, W_historical_analyst_c27.",
+        "executive_explanation": "Haiti sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (82), so pushing past 41 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (40) and the CI floor (26), so going below 41 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=12.91. Framework consensus=34.44, signal_strength=0.4067, conflict=0.0. Within the framework range [26-82], 41 sits at ~27% of the permitted span. Confidence MEDIUM (score 0.4618): coverage=0.2, agreement=1.0, evidence=0.505, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "BHS",
+        "country": "Bahamas",
+        "d1": 37.0,
+        "d2": 62.0,
+        "d3": 50.0,
+        "d4": 49.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "DOM",
+        "country": "Dominican Republic",
+        "d1": 35.0,
+        "d2": 65.0,
+        "d3": 40.0,
+        "d4": 51.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CUB",
+        "country": "Cuba",
+        "d1": 29.0,
+        "d2": 55.0,
+        "d3": 58.0,
+        "d4": 42.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "TTO",
+        "country": "Trinidad And Tobago",
+        "d1": 36.0,
+        "d2": 67.0,
+        "d3": 43.0,
+        "d4": 64.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "JAM",
+        "country": "Jamaica",
+        "d1": 47.0,
+        "d2": 63.0,
+        "d3": 29.0,
+        "d4": 60.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 17.0,
+        "reason": "Haiti is below the South Korea Identity anchor (50) by 17.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 20.0,
+        "reason": "Haiti is above the Turkey Expression anchor (50) by 20.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 9.0,
+        "reason": "Haiti is below the Turkey Drive anchor (50) by 9.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 6.0,
+        "reason": "Haiti is below the Colombia Structure anchor (50) by 6.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "HTI",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=37"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D3', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D3,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 37.0,
+        "midpoint_dimensions": [
+          "D3",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Deren, M. (1953). Divine Horsemen: The Living Gods of Haiti. Thames and Hudson.",
+        "source_type": "academic_book",
+        "data_point": "Vodou collective ritual practice and communal identity structures in Haitian society",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0144"
+      },
+      {
+        "citation": "Averill, G. (1997). A Day for the Hunter, a Day for the Prey: Popular Music and Power in Haiti. University of Chicago Press.",
+        "source_type": "academic_book",
+        "data_point": "Expressive oral and musical culture in Haiti; kompa and rara as emotionally open public traditions",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0145"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "HTI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 30.0,
+          "strongest_supporting": "The traditional 'lakou' system (extended family compounds) remains a central organizing principle, where identity is inseparable from the family/clan group.",
+          "strongest_opposing": "Haitian business culture relies heavily on personal relationships and trust (pistis); deals are done through networks, not contracts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Political loyalty in Haiti often follows patron-client ties rather than ideology, reinforcing group-based identity.",
+          "strongest_opposing": "The revolution of 1804 forged a strong national-racial identity, but this is expressed through collective solidarity rather than individual achievement.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 60.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Growing urban youth culture, especially in Port-au-Prince, shows increasing individualism, influenced by global media and hip-hop.",
+          "strongest_opposing": "Haiti's social structure is organized around extended family loyalty; individual success is expected to be shared with the extended family.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c7"
+          ],
+          "opposing_evidence_ids": [
+            "c8"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "Beauvais's ethnographic account of Haitian family life confirms 'a great sense of family, lakay (home), and caring for each other,' with extended family routinely living with or near the nuclear family across diaspora contexts.",
+          "strongest_opposing": "The same migration study notes that Haitian family belief in 'hard work for the survival and betterment of oneself and one's family' introduces a personal-agency strand within the collective frame — suggesting individual initiative is valued within the group, not despite it.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "d1-c1",
+            "d1-c2",
+            "d1-c3",
+            "d1-c4",
+            "d1-c5",
+            "d1-c6"
+          ],
+          "opposing_evidence_ids": [
+            "d1-c7",
+            "d1-c8"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 74.0,
+          "strongest_supporting": "University of Toronto Caribbean Quarterly analysis finds that Haitian Carnival sweeps participants into 'collective enthusiasm' and serves as a widely attended vehicle for political speech and emotional release — corroborating Rara as a structural expression outlet.",
+          "strongest_opposing": "McAlister (2002) notes that Rara's expressive freedoms are partly enabled because the poor are 'officially ignored' by power-holders — implying that expression below the elite level is free precisely because it is invisible to authority, not because the hierarchy formally endorses it.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 82.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "d2-c1",
+            "d2-c2",
+            "d2-c3",
+            "d2-c4",
+            "d2-c5",
+            "d2-c6"
+          ],
+          "opposing_evidence_ids": [
+            "d2-c7",
+            "d2-c8"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 28.0,
+          "strongest_supporting": "A Hofstede-framework essay on Haiti's cultural dimensions explicitly states 'there is no certainty in the way they conduct their activities and there is no long-term plan and policies' — indicating low psychological orientation toward structured predictability.",
+          "strongest_opposing": "BrainPower Consulting classifies Haiti as high on 'strong uncertainty avoidance' in combination with high power distance — a counter-signal suggesting some psychological need for certainty mediated through authority structures.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 36.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "d3-c1",
+            "d3-c2",
+            "d3-c3",
+            "d3-c4"
+          ],
+          "opposing_evidence_ids": [
+            "d3-c5",
+            "d3-c6"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 38.0,
+          "strongest_supporting": "BrainPower Consulting explicitly positions Haiti in the 'feminine' (Accepting/harmony) dimension of Hofstede's MAS scale, implying that cultural priorities lean toward community, relationships, and mutual care over competitive individual achievement.",
+          "strongest_opposing": "Gladwin & Gladwin's peer-reviewed fieldwork documents that Haitian families are animated by beliefs in 'reciprocity and hard work for the survival and betterment of oneself and one's family' — a necessity-driven achievement drive operating within the collective frame.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.66,
+          "supporting_evidence_ids": [
+            "d4-c1",
+            "d4-c2",
+            "d4-c3"
+          ],
+          "opposing_evidence_ids": [
+            "d4-c4",
+            "d4-c5",
+            "d4-c6"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 25.0,
+          "strongest_supporting": "In Vodou, spirits are addressed with communal songs and dances; the ceremony is a collective experience, not a private one.",
+          "strongest_opposing": "Haitian elites and diaspora-returned individuals often adopt a more individualistic, Western style, prioritizing personal career over family obligations.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "c1",
+            "c9",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c2",
+            "c7"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Vodou ceremonies involve trance possession, public emotional release, and open expression of personal and community grievances.",
+          "strongest_opposing": "In formal or hierarchical settings (e.g., with elders or employers), Haitians show deference and avoid direct emotional display.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c12",
+            "c13",
+            "c14",
+            "c15"
+          ],
+          "opposing_evidence_ids": [
+            "c16",
+            "c17"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Plans are made loosely; lateness is common, with 'Haitian time' being a recognized concept that is more flexible than clock time.",
+          "strongest_opposing": "Vodou ceremonies follow highly structured liturgical sequences with strict rules of performance, despite the overall low-structure environment.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c18",
+            "c19",
+            "c20",
+            "c21"
+          ],
+          "opposing_evidence_ids": [
+            "c22",
+            "c23"
+          ]
+        },
+        {
+          "iso3": "HTI",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 40.0,
+          "strongest_supporting": "The concept of 'debouya' (resourcefulness, making do) is prized over systematic achievement; survival is an everyday goal.",
+          "strongest_opposing": "Education is highly valued; many families sacrifice to send children to school, and a small but determined middle class strives for professional success.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c24",
+            "c25",
+            "c26",
+            "c27"
+          ],
+          "opposing_evidence_ids": [
+            "c28",
+            "c29"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "HTI",
+          "dimension": "D1",
+          "baseline_score": 44.78011833,
+          "specialist_recommendation": 24.333,
+          "specialist_confidence": 0.8067,
+          "evidence_strength": 0.5393,
+          "evidence_quality": 0.5867,
+          "disagreement_index": 0.1969,
+          "specialist_influence_weight": 0.5898,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "HTI",
+          "dimension": "D2",
+          "baseline_score": 52.54180337,
+          "specialist_recommendation": 77.0,
+          "specialist_confidence": 0.77,
+          "evidence_strength": 0.5947,
+          "evidence_quality": 0.577,
+          "disagreement_index": 0.12,
+          "specialist_influence_weight": 0.578,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "HTI",
+          "dimension": "D3",
+          "baseline_score": 52.23811796,
+          "specialist_recommendation": 37.667,
+          "specialist_confidence": 0.7167,
+          "evidence_strength": 0.4947,
+          "evidence_quality": 0.5218,
+          "disagreement_index": 0.6336,
+          "specialist_influence_weight": 0.6129,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "HTI",
+          "dimension": "D4",
+          "baseline_score": 53.90535785,
+          "specialist_recommendation": 39.333,
+          "specialist_confidence": 0.6867,
+          "evidence_strength": 0.5053,
+          "evidence_quality": 0.5262,
+          "disagreement_index": 0.0377,
+          "specialist_influence_weight": 0.5031,
+          "rationale": "High specialist confidence -> evidence credibility 0.50 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "HTI",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 32.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 32.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 6.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 6.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D3 score (gap 35.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 35.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=45: differs by 7 from the statistician reading of 52.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=52: differs by 12 from the statistician reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 12.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=32: differs by 6 from the comparativist reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=48: differs by 4 from the comparativist reading of 52.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=40: differs by 8 from the country_specialist reading of 32.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=48: differs by 17 from the country_specialist reading of 65.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 17.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=65: differs by 17 from the devils_advocate reading of 48.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=52: differs by 5 from the devils_advocate reading of 47.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "HTI",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=40: differs by 9 from the devils_advocate reading of 49.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "HTI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "No firmly attributable evidence regarding emotional expressiveness or structural freedom/suppression of emotional display in Haitian everyday life could be found in the sources consulted.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "HTI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 8,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 8,
+          "recommendation": 74.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 6,
+          "recommendation": 28.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.66,
+          "evidence_count": 6,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 5,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 6,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 6,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "HTI",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 6,
+          "recommendation": 40.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "HTI",
+        "score_diversity": 0.174,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.676,
+        "consensus_quality": 1.0,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "HTI",
+      "country": "Haiti",
+      "region": "Caribbean",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 33,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.803,
+          "top_supporting_arguments": [
+            "Identity in Haiti is not fixed but evolving, with modern debates about its dynamic nature.",
+            "The same migration study notes that Haitian family belief in 'hard work for the survival and betterment of oneself and one's family' introduces a personal-agency strand within the collective frame — suggesting individual initiative is valued within the group, not despite it.",
+            "BrainPower Consulting notes that imposing European/American individualist management models on Haitians causes friction, implying that some Haitians in urban/formal-sector roles have absorbed more individualist workplace expectations — a mild counter-trend."
+          ],
+          "top_counter_arguments": [
+            "Haitian identity involves dynamic interplay between creolité and bossalité, collective identity markers in tension.",
+            "Haiti contains two cultural worlds—the Western elite and African‑oriented rural Creole/Vodou—which anchor social belonging in groups rather than in the individual.",
+            "Racial and economic identity rooted in colonial history underpin group-based identity in Haiti."
+          ],
+          "why_this_score": "Haiti sits at 33 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (38) and the CI ceiling (57), so pushing past 33 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (38) and the CI floor (33), so going below 33 would understate the measured signal.",
+          "related_countries": [
+            "Bahamas",
+            "Dominican Republic",
+            "Cuba",
+            "Trinidad And Tobago",
+            "Jamaica"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search1",
+              "title": "Créolité, bossalité et au‑delà: penser la complexité de l’identité haïtienne",
+              "url": "",
+              "author": "Sandy Larose; Ginette Francilus Sanon",
+              "publication_year": 2024,
+              "excerpt": "Identity in Haiti is not fixed but evolving, with modern debates about its dynamic nature.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d1-c7",
+              "source_id": "src-03",
+              "title": "Haitian Family Patterns of Migration to South Florida",
+              "url": "https://www.tandfonline.com/doi/abs/10.17730/humo.44.4.942396432676v851",
+              "author": "Gladwin, H. & Gladwin, C.",
+              "publication_year": 1985,
+              "excerpt": "The same migration study notes that Haitian family belief in 'hard work for the survival and betterment of oneself and one's family' introduces a personal-agency strand within the collective frame — suggesting individual initiative is valued within the group, not despite it.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d1-c8",
+              "source_id": "src-02",
+              "title": "Meeting the Challenges of Global HRM: Haiti, How We Got Here",
+              "url": "https://bpcdiversity.wordpress.com/2011/03/08/meeting-the-challenges-of-global-human-resource-managementhaiti-how-we-got-here/",
+              "author": "BrainPower Consulting",
+              "publication_year": 2011,
+              "excerpt": "BrainPower Consulting notes that imposing European/American individualist management models on Haitians causes friction, implying that some Haitians in urban/formal-sector roles have absorbed more individualist workplace expectations — a mild counter-trend.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 70,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.88,
+          "top_supporting_arguments": [
+            "McAlister (2002) demonstrates that Haiti's most popular public festival, Rara, is a mass expressive event combining religion, politics, and public play — constituting an institutionalised national channel for open communal emotional and political expression.",
+            "University of Toronto Caribbean Quarterly analysis finds that Haitian Carnival sweeps participants into 'collective enthusiasm' and serves as a widely attended vehicle for political speech and emotional release — corroborating Rara as a structural expression outlet.",
+            "The CIRRIE cultural guide (Univ. at Buffalo) documents that 'within Haitian culture, oral forms of communication are preferred over written,' with word-of-mouth (teledjòl) used for everything from gossip to political analysis — signalling a culturally open, expressive oral tradition."
+          ],
+          "top_counter_arguments": [
+            "Rivermate flags that 'avoiding conflict and maintaining social harmony are important' and that 'direct confrontation is generally avoided' — suggesting that emotional expression is modulated by face-maintenance norms in hierarchical or formal contexts.",
+            "McAlister (2002) notes that Rara's expressive freedoms are partly enabled because the poor are 'officially ignored' by power-holders — implying that expression below the elite level is free precisely because it is invisible to authority, not because the hierarchy formally endorses it.",
+            "Haitian communication norms include 'pale pale, kout fè pè' (talk softly or the stick will fear), indicating that restraint is sometimes valued to avoid conflict."
+          ],
+          "why_this_score": "Haiti sits at 70 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (65) and the CI ceiling (80), so pushing past 70 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (65) and the CI floor (25), so going below 70 would understate the measured signal.",
+          "related_countries": [
+            "Bahamas",
+            "Dominican Republic",
+            "Cuba",
+            "Trinidad And Tobago",
+            "Jamaica"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "d2-c1",
+              "source_id": "src-07",
+              "title": "Rara!: Vodou, Power, and Performance in Haiti and Its Diaspora",
+              "url": "https://dokumen.pub/rara-vodou-power-and-performance-in-haiti-and-its-diaspora-9780520926745.html",
+              "author": "McAlister, Elizabeth A.",
+              "publication_year": 2002,
+              "excerpt": "McAlister (2002) demonstrates that Haiti's most popular public festival, Rara, is a mass expressive event combining religion, politics, and public play — constituting an institutionalised national channel for open communal emotional and political expression.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d2-c2",
+              "source_id": "src-08",
+              "title": "The Haitian Carnival & Rara: Avenues for Political & Religious Expression",
+              "url": "https://jps.library.utoronto.ca/index.php/cquilt/article/download/19306/16035/45058",
+              "author": "University of Toronto Caribbean Quarterly",
+              "publication_year": 2013,
+              "excerpt": "University of Toronto Caribbean Quarterly analysis finds that Haitian Carnival sweeps participants into 'collective enthusiasm' and serves as a widely attended vehicle for political speech and emotional release — corroborating Rara as a structural expression outlet.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d2-c3",
+              "source_id": "src-06",
+              "title": "An Introduction to Haitian Culture for Rehabilitation Service Providers (CIRRIE)",
+              "url": "https://publichealth.buffalo.edu/content/sphhp/rehabilitation-science/research-and-facilities/funded-research/center-for-international-rehab-research-info-exchange/_jcr_content/par/download_1773632100/file.res/an_introduction_to_haitian_culture_for_rehabilitation_service_providers.pdf",
+              "author": "University at Buffalo CIRRIE",
+              "publication_year": 2009,
+              "excerpt": "The CIRRIE cultural guide (Univ. at Buffalo) documents that 'within Haitian culture, oral forms of communication are preferred over written,' with word-of-mouth (teledjòl) used for everything from gossip to political analysis — signalling a culturally open, expressive oral tradition.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 44,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.366,
+          "top_supporting_arguments": [
+            "Haitians control their bodies and speech carefully to maintain harmony and avoid offense, reflecting a cultural need for social order.",
+            "BrainPower Consulting classifies Haiti as high on 'strong uncertainty avoidance' in combination with high power distance — a counter-signal suggesting some psychological need for certainty mediated through authority structures.",
+            "Notre Designs notes a deeply hierarchical family structure with clear rules about deference to elders — this structural ordering could be read as a desire for predictable social norms, though it is more precisely a Power Distance / D1 signal than a UAI/D3 one."
+          ],
+          "top_counter_arguments": [
+            "Spirit possession provides a culturally sanctioned, flexible outlet for suppressed impulses, introducing sanctioned disorder amid structure.",
+            "A Hofstede-framework essay on Haiti's cultural dimensions explicitly states 'there is no certainty in the way they conduct their activities and there is no long-term plan and policies' — indicating low psychological orientation toward structured predictability.",
+            "ClickUp's Haiti business guide states that 'punctuality differs; meetings may not start promptly' and that 'flexibility and patience show cultural understanding' — time-elasticity and tolerance for unstructured scheduling are baseline workplace expectations."
+          ],
+          "why_this_score": "Haiti sits at 44 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (52) and the CI ceiling (80), so pushing past 44 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (52) and the CI floor (24), so going below 44 would understate the measured signal.",
+          "related_countries": [
+            "Bahamas",
+            "Dominican Republic",
+            "Cuba",
+            "Trinidad And Tobago",
+            "Jamaica"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search0",
+              "title": "De la politesse et des usages dans les interactions en Haïti",
+              "url": "",
+              "author": "",
+              "publication_year": 2011,
+              "excerpt": "Haitians control their bodies and speech carefully to maintain harmony and avoid offense, reflecting a cultural need for social order.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d3-c5",
+              "source_id": "src-02",
+              "title": "Meeting the Challenges of Global HRM: Haiti, How We Got Here",
+              "url": "https://bpcdiversity.wordpress.com/2011/03/08/meeting-the-challenges-of-global-human-resource-managementhaiti-how-we-got-here/",
+              "author": "BrainPower Consulting",
+              "publication_year": 2011,
+              "excerpt": "BrainPower Consulting classifies Haiti as high on 'strong uncertainty avoidance' in combination with high power distance — a counter-signal suggesting some psychological need for certainty mediated through authority structures.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d3-c6",
+              "source_id": "src-04",
+              "title": "Family Values and Beliefs in the Haitian Culture – Part 1",
+              "url": "https://www.notredesigns.com/blog/family-values-and-beliefs-in-the-haitian-culture-part-1",
+              "author": "Notre Designs",
+              "publication_year": 2023,
+              "excerpt": "Notre Designs notes a deeply hierarchical family structure with clear rules about deference to elders — this structural ordering could be read as a desire for predictable social norms, though it is more precisely a Power Distance / D1 signal than a UAI/D3 one.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 41,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.962,
+          "top_supporting_arguments": [
+            "Young men in urban Haiti stage performances to earn respect, reflecting achievement-oriented striving in social domains.",
+            "Gladwin & Gladwin's peer-reviewed fieldwork documents that Haitian families are animated by beliefs in 'reciprocity and hard work for the survival and betterment of oneself and one's family' — a necessity-driven achievement drive operating within the collective frame.",
+            "Haïti Wonderland reports that competition between Rara bands in Petit-Goâve is 'intense,' with groups vying for status and public recognition — a documented competitive-achievement register within the cultural landscape."
+          ],
+          "top_counter_arguments": [
+            "Everyday life in Haiti features collective cooperation, extended family support, and communal bonds prioritizing harmony and relationships.",
+            "BrainPower Consulting explicitly positions Haiti in the 'feminine' (Accepting/harmony) dimension of Hofstede's MAS scale, implying that cultural priorities lean toward community, relationships, and mutual care over competitive individual achievement.",
+            "Rivermate's cultural guide states that 'there is a strong sense of community and mutual support' in Haiti and that patience and personal connection outweigh transactional performance in business — indicating a relational, harmony-oriented rather than achievement-oriented baseline."
+          ],
+          "why_this_score": "Haiti sits at 41 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (40) and the CI ceiling (82), so pushing past 41 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (40) and the CI floor (26), so going below 41 would understate the measured signal.",
+          "related_countries": [
+            "Bahamas",
+            "Dominican Republic",
+            "Cuba",
+            "Trinidad And Tobago",
+            "Jamaica"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c7",
+              "source_id": "turn0search3",
+              "title": "Becoming a Force in the Zone: Hedonopolitics, Masculinity...",
+              "url": "",
+              "author": "Chelsey L. Kivland",
+              "publication_year": 2014,
+              "excerpt": "Young men in urban Haiti stage performances to earn respect, reflecting achievement-oriented striving in social domains.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d4-c4",
+              "source_id": "src-03",
+              "title": "Haitian Family Patterns of Migration to South Florida",
+              "url": "https://www.tandfonline.com/doi/abs/10.17730/humo.44.4.942396432676v851",
+              "author": "Gladwin, H. & Gladwin, C.",
+              "publication_year": 1985,
+              "excerpt": "Gladwin & Gladwin's peer-reviewed fieldwork documents that Haitian families are animated by beliefs in 'reciprocity and hard work for the survival and betterment of oneself and one's family' — a necessity-driven achievement drive operating within the collective frame.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "d4-c5",
+              "source_id": "src-14",
+              "title": "Haiti: The Rara season in Petit-Goâve: A celebration of life, unity and resilience",
+              "url": "https://haitiwonderland.com/haiti/en/culture/haiti-the-rara-season-in-petit-goave-a-celebration-of-life-unity-and-resilience/37",
+              "author": "Haïti Wonderland",
+              "publication_year": 2024,
+              "excerpt": "Haïti Wonderland reports that competition between Rara bands in Petit-Goâve is 'intense,' with groups vying for status and public recognition — a documented competitive-achievement register within the cultural landscape.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

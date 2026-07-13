@@ -1,0 +1,2499 @@
+{
+  "iso3": "MAR",
+  "country": "Morocco",
+  "region": "North Africa",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-07T11:33:12.433810+00:00",
+  "cultural_profile": {
+    "iso3": "MAR",
+    "country": "Morocco",
+    "region": "North Africa",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 32,
+        "reading": "Group-oriented",
+        "explanation": "Morocco is a collectivist society where family and community ties are central, often prioritizing group well-being over individual desires."
+      },
+      {
+        "dimension": "D2",
+        "score": 37,
+        "reading": "Understated",
+        "explanation": "Emotional expression in Morocco is often indirect, with social norms emphasizing restraint to maintain harmony and avoid confrontation."
+      },
+      {
+        "dimension": "D3",
+        "score": 59,
+        "reading": "Structured",
+        "explanation": "Morocco's preference for structured environments is supported by religious and legal codes, providing predictability and reducing ambiguity."
+      },
+      {
+        "dimension": "D4",
+        "score": 47,
+        "reading": "Balanced",
+        "explanation": "While Morocco values achievement and success, traditional values also emphasize contentment and social harmony, creating a balanced cultural drive."
+      }
+    ],
+    "executive_summary": "Morocco is a land where family and community ties are paramount, shaping a society that values group cohesion over individual pursuits. Communication is warm yet indirect, with a focus on maintaining harmony and avoiding confrontation. The country's structured environment is underpinned by religious and legal codes, providing predictability amidst a backdrop of traditional values. Success is often linked to education and social mobility, with a competitive edge tempered by a strong sense of community.",
+    "cultural_archetype": {
+      "title": "The Communal Navigator",
+      "summary": "A society deeply rooted in collective identity and community values, navigating life through strong familial and social bonds.",
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c5"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Community-driven initiatives",
+      "Culturally sensitive negotiations",
+      "Long-term partnerships"
+    ],
+    "culture_at_a_glance": [
+      "Morocco's preference for structure and predictability is evident in its high uncertainty avoidance, with religious and legal codes providing a framework for social order.",
+      "While Morocco shows a competitive and achievement-oriented side, traditional values also emphasize contentment and harmony, particularly in rural communities.",
+      "Moroccan communication is characterized by warmth and expressiveness, yet it becomes indirect when dealing with disagreement or sensitive topics, often to protect dignity and maintain social harmony.",
+      "Moroccan communication is warm and relational, yet indirect, particularly when dealing with sensitive topics to maintain social harmony.",
+      "In Moroccan workplaces, loyalty to the group and adherence to hierarchical structures are emphasized, with a moral bond often perceived between employers and employees.",
+      "Moroccan friendships are deeply rooted in collectivist values, with strong social norms around hospitality and generosity taking precedence over competitive success."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Structured Predictability",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 80,
+          "framework_agreement": 61,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Morocco's preference for structure and predictability is evident in its high uncertainty avoidance, with religious and legal codes providing a framework for social order.",
+            "claim_ids": [
+              "c19",
+              "c20",
+              "c22"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The legacy of the French colonial legal and administrative system has left a lasting impact on Morocco's bureaucratic formalism and respect for hierarchy.",
+            "claim_ids": [
+              "claim_13"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Balancing Achievement and Contentment",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 50,
+          "framework_agreement": 78,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "While Morocco shows a competitive and achievement-oriented side, traditional values also emphasize contentment and harmony, particularly in rural communities.",
+            "claim_ids": [
+              "c26",
+              "c29",
+              "claim_19"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Indirect Communication",
+        "confidence": {
+          "evidence_strength": 51,
+          "expert_agreement": 90,
+          "framework_agreement": 82,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in communication decoder sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Moroccan communication is characterized by warmth and expressiveness, yet it becomes indirect when dealing with disagreement or sensitive topics, often to protect dignity and maintain social harmony.",
+            "claim_ids": [
+              "c12",
+              "c13",
+              "c16",
+              "c17"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Morocco's collectivist culture is deeply influenced by Islamic values and the historical concept of 'Al Assabia', emphasizing group identity.",
+        "claim_ids": [
+          "c3",
+          "c8"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Expression",
+        "explanation": "While Moroccan society prioritizes group cohesion, there is a growing trend towards individual expression, particularly among urban youth exposed to Western values.",
+        "claim_ids": [
+          "c5",
+          "claim_4",
+          "claim_5"
+        ],
+        "sources_count": 3
+      },
+      {
+        "pulls_toward": "Structured Predictability",
+        "but_also": "Informal Flexibility",
+        "explanation": "Morocco's formal structures provide predictability, yet the informal economy and personal networks introduce flexibility and adaptability.",
+        "claim_ids": [
+          "claim_14",
+          "claim_15"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Family is the cornerstone of Moroccan life, with extended families often living together and prioritizing collective well-being over individual desires.",
+          "claim_ids": [
+            "c4",
+            "c5"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Moroccans display a flexible approach to time, with a polychronic attitude that values relationships over strict punctuality.",
+          "claim_ids": [
+            "c25"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Festivals and weddings in Morocco are vibrant occasions where expressive behavior is encouraged, contrasting with the everyday restraint observed in public settings.",
+          "claim_ids": [
+            "claim_9"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "In Moroccan workplaces, loyalty to the group and adherence to hierarchical structures are emphasized, with a moral bond often perceived between employers and employees.",
+          "claim_ids": [
+            "c6",
+            "c21"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Moroccan communication is warm and relational, yet indirect, particularly when dealing with sensitive topics to maintain social harmony.",
+          "claim_ids": [
+            "c12",
+            "c13",
+            "claim_8"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Moroccan friendships are deeply rooted in collectivist values, with strong social norms around hospitality and generosity taking precedence over competitive success.",
+          "claim_ids": [
+            "c7",
+            "claim_20"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Islamic and collectivist values shape Moroccan society, with family roles and social capital playing significant roles in career trajectories and social interactions.",
+          "claim_ids": [
+            "c8",
+            "c3"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Discussing the King, the royal family, or religion in public or private is considered a significant social faux pas in Morocco.",
+          "claim_ids": [
+            "c18"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Public displays of anger or affection are regulated by the concept of 'hshuma', which emphasizes maintaining respectability and avoiding shame.",
+          "claim_ids": [
+            "claim_7"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Living in Morocco means embracing a culture where family and community are at the heart of daily life. The warmth of Moroccan hospitality is palpable, yet interactions are guided by an unspoken code of indirect communication to maintain harmony. While traditional values provide a sense of stability, the vibrant festivals offer a glimpse into the expressive side of Moroccan culture. Navigating the workplace requires an understanding of hierarchical structures, where loyalty and group cohesion are key.",
+      "claim_ids": [
+        "c4",
+        "c5",
+        "c6",
+        "c12",
+        "claim_9"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Moroccan communication is warm and expressive, yet indirect, especially when dealing with sensitive topics to maintain social harmony.",
+        "claim_ids": [
+          "c12",
+          "c13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The structured nature of Moroccan society is evident in the adherence to religious and legal codes, providing a sense of predictability.",
+        "claim_ids": [
+          "c19",
+          "c20"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Education is highly valued as a pathway to social mobility and financial stability, with families often making significant sacrifices to ensure access to quality schooling.",
+        "claim_ids": [
+          "c28",
+          "claim_17"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Building strong personal networks and demonstrating loyalty to the group are crucial for navigating both social and professional landscapes in Morocco.",
+        "claim_ids": [
+          "c6",
+          "claim_14"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect hierarchical structures and social norms, such as 'hshuma', can lead to misunderstandings and social friction.",
+        "claim_ids": [
+          "c16",
+          "claim_7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "c7",
+          "claim_20"
+        ],
+        "sources_count": 2
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "c7"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Close-knit",
+        "detail": "",
+        "claim_ids": [
+          "c7"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Earned",
+        "detail": "",
+        "claim_ids": [
+          "c7"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Contextual",
+        "detail": "",
+        "claim_ids": [
+          "c10"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Hshuma",
+        "meaning": "A concept of shame and respectability that influences indirect communication, especially around disagreement or bad news.",
+        "claim_ids": [
+          "c16",
+          "claim_7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional and collectivist",
+        "younger": "More individualistic and open",
+        "claim_ids": [
+          "claim_4",
+          "claim_5",
+          "claim_10"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth are increasingly adopting individualistic and open values, while rural elders maintain traditional collectivist norms.",
+        "claim_ids": [
+          "claim_4",
+          "claim_5",
+          "claim_10"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "DZA",
+        "country": "Algeria",
+        "similarity": 90,
+        "explanation": "Morocco and Algeria share a strong emphasis on collectivism and Islamic values, yet Morocco's cultural landscape is more influenced by its historical ties to Europe.",
+        "claim_ids": [
+          "c1",
+          "c3",
+          "claim_13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "TUN",
+        "country": "Tunisia",
+        "similarity": 90,
+        "explanation": "Tunisia and Morocco both exhibit a blend of Arab and Berber influences, with similar social structures, though Tunisia is generally more secular.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "SDN",
+        "country": "Sudan",
+        "similarity": 90,
+        "explanation": "While Morocco and Sudan share Islamic values and collectivist tendencies, Morocco's Mediterranean location brings a different set of cultural influences.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "LBY",
+        "country": "Libya",
+        "similarity": 86,
+        "explanation": "Libya and Morocco share a collectivist approach and strong family ties, but Morocco's cultural diversity and historical openness to the West set it apart.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Cultural Openness",
+        "explanation": "Morocco's historical openness to European influences, combined with its strong Islamic and Berber roots, creates a unique cultural tapestry distinct from its neighbors.",
+        "claim_ids": [
+          "c3",
+          "claim_13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Diverse Social Fabric",
+        "explanation": "The blend of Arab, Berber, and European influences in Morocco results in a social fabric that is more diverse and dynamic than that of its regional counterparts.",
+        "claim_ids": [
+          "c3",
+          "c4"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More achievement-oriented than Egypt",
+        "dimension": "D4",
+        "neighbour_iso3": "EGY",
+        "delta": 33
+      },
+      {
+        "text": "More structured than Libya",
+        "dimension": "D3",
+        "neighbour_iso3": "LBY",
+        "delta": 19
+      },
+      {
+        "text": "More structured than Tunisia",
+        "dimension": "D3",
+        "neighbour_iso3": "TUN",
+        "delta": 16
+      },
+      {
+        "text": "More expressive than Egypt",
+        "dimension": "D2",
+        "neighbour_iso3": "EGY",
+        "delta": 15
+      },
+      {
+        "text": "More structured than Sudan",
+        "dimension": "D3",
+        "neighbour_iso3": "SDN",
+        "delta": 14
+      },
+      {
+        "text": "More easygoing than Libya",
+        "dimension": "D4",
+        "neighbour_iso3": "LBY",
+        "delta": -14
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Multiple ethnographic and survey-based studies indicate that Moroccan society remains strongly collectivist, particularly vertically collectivist, with individualism emerging only slowly. Hofstede-based local research assigns Morocco a low individualism score (~25), reinforcing a collectivist baseline. Moroccan identity is still defined through family, lineage, clan, and locality rather than self, especially outside urban contexts.",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Morocco's anchor measure is a low Hofstede IDV score (approximately 46 on the official Hofstede Insights scale, confirmed as 'low individualism / high collectivism' in multiple independent empirical studies). Academic surveys measuring the Moroccan national culture directly consistently show high collectivism scores and low individualism scores. Family is the primary unit of identity: extended multi-generational households are normative, group loyalty determines behaviour more than personal preference, and the employer-employee bond is perceived as a moral commitment. The Berber concept of 'asabiyya' (group solidarity, cited by Ibn Khaldun) and Islamic communal values reinforce this. A notable nuance exists: in formal business contexts a degree of individualism surfaces (personal negotiating style, individual entrepreneurship), and anthropologists like Rosen and Geertz describe Moroccans as 'chameleon-like' — negotiating social bonds on an ad hoc basis — but this is not individualism in the D1 sense; it is contextual alliance-building within a collectivist framework. The weight of evidence firmly places Morocco at the low end of D1.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Morocco tilts social (collectivist) due to strong family/clan ties, religious community (umma), and patron-client networks, but urban/rural divides and a growing middle class create pockets of individualism. Hofstede's Individualism score of 46 places it near the midline, slightly collectivist. The evidence from social capital surveys and ethnographic studies confirms group identity as primary, but with internal variation.",
+          "suggested_score": 40
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Moroccan expression appears moderately restrained: everyday emotional language relies heavily on metaphor and contextual bodily expressions rather than direct verbalizations; social norms often limit overt emotional display except in specific ritual or interpersonal settings. Thus, while not deeply repressed, expression is not fully open.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Morocco occupies a middle-low position on D2. Expression is warm and relationally affective — greetings are elaborate and emotionally genuine, hospitality is expressive, and Arabic communication style carries high affective register. However, structural suppression of expression is real: the concept of hshuma (shame/dishonour) creates strong norms against public disagreement or direct refusal; hierarchy further suppresses candid expression upward; and politically sensitive topics (the King, religion) are structurally off-limits. The net result is a culture that is emotionally warm in relational contexts but institutionally restrained around conflict, disagreement and power. This places it clearly below the midpoint of D2 but not at the extreme restrained end, since relational warmth and expressive hospitality are genuine and documented across multiple independent sources.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Morocco is predominantly Restrained: emotional expression is suppressed in public and hierarchical contexts due to social hierarchy and shame/honor dynamics (hshuma). However, private/family contexts are warmer, and festivals (e.g. Moussem) allow controlled release. Hofstede's low-moderate Indulgence score (25) supports Restrained. Directness is avoided (taarof-like politeness). Urban youth show more openness, but the base rate is Restrained.",
+          "suggested_score": 35
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Anthropological descriptions highlight hierarchical, rule-aware social organization (e.g. vertical collectivism), and reliance on community identity to reduce uncertainty. These patterns point to a relatively high desire for structure and certainty in everyday social life.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Hofstede official UAI score for Morocco is 68, indicating a moderate-to-high preference for certainty and rule-based frameworks, anchored in high power distance (PDI 70), strong religious codification of daily life, and legal frameworks derived from both Islamic law and French administrative tradition. This is the anchor. Counter-evidence exists: a separate 2014 academic study found a low UAI score in its Moroccan sample, attributing it to fatalistic acceptance ('Maktoub', 'Insha'Allah') that reduces anxiety about unpredictability. A polychronic attitude to time (flexible punctuality in social contexts) is also documented. These are genuine qualifications: fatalism can reduce anxiety without reducing preference for rules, and polychronic time is a different construct from uncertainty avoidance. On balance, the official 68 score is better corroborated and the score sits moderately above the midpoint, adjusted slightly downward for the fatalism/polychronic counter-evidence.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Morocco leans Certain (high Structure) due to importance of rules, planning, and predictability in public life—influenced by Islamic legal tradition, French colonial administrative legacy, and a strong state apparatus. Uncertainty Avoidance in Hofstede is 68 (moderate-high). However, bureaucratic inefficiency and 'system D' (informal economy) introduce fluidity in practice. The cultural ideal is order, even if reality is negotiated.",
+          "suggested_score": 70
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ethnographies show that relationships, intimacy, and moral harmony shape social being more than competition or achievement. Migrant and women’s intimate social worlds emphasize solidarity over striving. Achievement orientation exists but subordinate to relational aims.",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Hofstede MAS score for Morocco is 53 — virtually at the midpoint, confirmed by multiple independent secondary sources. Academic analysis describes this as genuinely 'controversial': Morocco shows masculine traits (performance orientation, assertiveness, competition starting in school) alongside feminine traits (cooperation, mutual aid, quality-of-life concern, collectivist social support). One study notes a cultural transformation shifting from the MAS score toward more feminine values. The score sits at exactly the midpoint of D4, slightly above 50 to reflect the mild masculine tilt documented in multiple institutional and cross-cultural studies. The high female labour force exclusion (low FLFP) is partly a D1/gender-norm artifact and partly D4-relevant insofar as it reflects a breadwinner achievement model for men, but should not be over-weighted as it conflates gender roles with drive orientation.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Morocco leans Striving (high Drive) due to strong achievement orientation in education, business, and migration (seeking economic success), but also values relationships and quality of life. Hofstede Masculinity (53) is mid-range, but Drive is higher than Accepting due to competitive pressures and status ambitions. Harmony-seeking (truce culture) tempers raw competition. Youth urban drive vs. rural acceptance creates tension.",
+          "suggested_score": 60
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "c1",
+      "source_id": "S1",
+      "title": "Hofstede's model revisited: an application for measuring the Moroccan national culture",
+      "url": "https://www.academia.edu/8310402/Hofstedes_model_revisited_an_application_for_measuring_the_Moroccan_national_culture",
+      "author": "Balambo et al.",
+      "publication_year": 2014,
+      "excerpt": "An empirical survey of 283 Moroccan respondents found high collectivism (score 4.5245) versus low individualism (score 2.5876), indicating Morocco is firmly collectivist on Hofstede's D1 dimension.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "S6",
+      "title": "Understanding Morocco's Business Culture — Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2017/02/102001/understanding-moroccos-business-culture/",
+      "author": "Morocco World News",
+      "publication_year": 2017,
+      "excerpt": "In a business environment, individualism prevails among Moroccans, even though they tend toward collectivism in family and tribal settings — indicating context-dependent identity orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "S13",
+      "title": "Moroccan Business Culture Guide — Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/morocco-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Moroccan communication is often warm, relational, and expressive, but disagreement and commitment become indirect when dignity, hierarchy, or 'hshuma' (shame) are at stake — creating a layered expressive profile.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "S17",
+      "title": "Multi-cultural communication — Life in Morocco",
+      "url": "https://life-in-morocco.com/multicultural-communication",
+      "author": "Life in Morocco",
+      "publication_year": 2024,
+      "excerpt": "Arabic communication in Morocco carries a high affective register: expressions of deep thanks and affectivity may seem exaggerated to outsiders but represent a genuinely different expressive cultural style.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c16",
+      "source_id": "S13",
+      "title": "Moroccan Business Culture Guide — Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/morocco-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "'Hshuma' (shame/dishonour) is central to why Moroccan communication becomes indirect around disagreement or bad news; people soften, delay or avoid direct refusal to protect dignity — a structural suppression of candid expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c17",
+      "source_id": "S16",
+      "title": "Doing Business in Morocco — Women Abroad Coaching",
+      "url": "https://women-abroad-coaching.com/en/doing-business-in-morocco-culture-factor-and-moroccan-business-style/",
+      "author": "Women Abroad Coaching",
+      "publication_year": 2024,
+      "excerpt": "Moroccans will hardly ever answer with a direct 'no' even if they mean it; the direct refusal is avoided in discussion and negotiation — interlocutors must find 'more diplomatic' ways of interpreting responses.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c18",
+      "source_id": "S16",
+      "title": "Doing Business in Morocco — Women Abroad Coaching",
+      "url": "https://women-abroad-coaching.com/en/doing-business-in-morocco-culture-factor-and-moroccan-business-style/",
+      "author": "Women Abroad Coaching",
+      "publication_year": 2024,
+      "excerpt": "Talking about the King, the royal family, and religion is not recommended in public or private circles in Morocco — a hard structural constraint on expressive freedom in the most politically sensitive domains.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c19",
+      "source_id": "S3",
+      "title": "Management in Morocco through the Hofstede Model (LinkedIn)",
+      "url": "https://www.linkedin.com/pulse/management-morocco-trough-hofstede-model-mohamed-assoud-",
+      "author": "Mohamed Assoud",
+      "publication_year": 2019,
+      "excerpt": "The Hofstede uncertainty avoidance score for Morocco is 68, indicating a moderate-to-high preference for avoiding uncertainty, with strong religious and legal codification structuring daily life.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "S2",
+      "title": "Hofstede's model revisited: ResearchGate full text",
+      "url": "https://www.researchgate.net/publication/326332259_Hofstede's_model_revisited_an_application_for_measuring_the_Moroccan_national_culture",
+      "author": "Balambo et al.",
+      "publication_year": 2014,
+      "excerpt": "A cross-cultural study by Hmaida (2010) comparing Morocco and France found a high degree of collectivism in the Moroccan sample, corroborated by Balambo (2014), confirming collectivism is consistent across multiple independent Moroccan studies.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c20",
+      "source_id": "S6",
+      "title": "Understanding Morocco's Business Culture — Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2017/02/102001/understanding-moroccos-business-culture/",
+      "author": "Morocco World News",
+      "publication_year": 2017,
+      "excerpt": "Morocco scores very high on uncertainty avoidance — described as scoring two times higher than Asian countries — driven significantly by the role religion plays in providing frameworks for predictability and social order.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c21",
+      "source_id": "S19",
+      "title": "Hofstede's model revisited: IJBEMRpdf",
+      "url": "http://ijbemr.com/wp-content/uploads/2014/09/Hofstedes-model-revisited-an-application-for-measuring-the-Moroccan-national-culture.pdf",
+      "author": "Balambo et al.",
+      "publication_year": 2014,
+      "excerpt": "Obedience to authority ('Ta'a') is widespread, accepted, and legitimised in Moroccan culture, forming part of a high-power-distance, rule-anchored social framework that underpins structure and certainty.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c22",
+      "source_id": "S7",
+      "title": "OECD SIGI 2023 Country Profile: Morocco",
+      "url": "https://webfs.oecd.org/devsigi/SIGI%202023%20Country%20Profiles/Africa/country_profile_MAR_Morocco.pdf",
+      "author": "OECD",
+      "publication_year": 2023,
+      "excerpt": "The OECD SIGI 2023 Morocco Country Profile documents that provisions of the Family Code governing inheritance follow Islamic Sharia principles with precise codified shares — illustrating the degree to which formal legal-religious codes structure social life.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c25",
+      "source_id": "S23",
+      "title": "Pragmatic Transfer in Moroccan Learners of English — SABAPUB",
+      "url": "https://www.sabapub.com/index.php/spda/article/download/749/384",
+      "author": "SABAPUB / Deveci",
+      "publication_year": 2023,
+      "excerpt": "Moroccan Arabic speakers display a polychronic attitude to time — indirect, flexible questions about timing and a less rigid view of punctuality — suggesting lower discomfort with temporal unpredictability.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c26",
+      "source_id": "S3",
+      "title": "Management in Morocco through the Hofstede Model (LinkedIn)",
+      "url": "https://www.linkedin.com/pulse/management-morocco-trough-hofstede-model-mohamed-assoud-",
+      "author": "Mohamed Assoud",
+      "publication_year": 2019,
+      "excerpt": "Hofstede's official score for Morocco on the Masculinity dimension is 53 points — slightly above the midpoint — placing it marginally on the achievement/competitive side, above Egypt (45) and France (43).",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c28",
+      "source_id": "S9",
+      "title": "Exploring Morocco Family Life: Values, Traditions, and Daily Routines",
+      "url": "https://www.moroccoclassictours.com/blog/exploring-morocco-family-life-values-traditions-and-daily-routines",
+      "author": "Morocco Classic Tours",
+      "publication_year": 2025,
+      "excerpt": "Across Morocco, family members view education as a pathway to financial stability and social mobility; parents make significant sacrifices to ensure children access quality schooling — reflecting an achievement-oriented, striving cultural drive.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c29",
+      "source_id": "S2",
+      "title": "Hofstede's model revisited: ResearchGate full text",
+      "url": "https://www.researchgate.net/publication/326332259_Hofstede's_model_revisited_an_application_for_measuring_the_Moroccan_national_culture",
+      "author": "Balambo et al.",
+      "publication_year": 2014,
+      "excerpt": "Morocco's masculinity dimension is described as 'controversial': it shows a masculine side (performance, assertiveness, success) alongside a feminine side (cooperation, mutual aid, prevalence of positive emotions), making the dimension genuinely ambiguous.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "S1",
+      "title": "Hofstede's model revisited: an application for measuring the Moroccan national culture",
+      "url": "https://www.academia.edu/8310402/Hofstedes_model_revisited_an_application_for_measuring_the_Moroccan_national_culture",
+      "author": "Balambo et al.",
+      "publication_year": 2014,
+      "excerpt": "Morocco's collectivism is reinforced by the GLOBE project and is consistent with Ibn Khaldoun's concept of 'Al Assabia', emphasising group identity over individualism as a historically rooted cultural value.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S9",
+      "title": "Exploring Morocco Family Life: Values, Traditions, and Daily Routines",
+      "url": "https://www.moroccoclassictours.com/blog/exploring-morocco-family-life-values-traditions-and-daily-routines",
+      "author": "Morocco Classic Tours",
+      "publication_year": 2025,
+      "excerpt": "Family is the primary social unit in Morocco, providing identity, solidarity and support; extended families typically live together with multiple generations sharing a home, making the family — not the individual — the foundational unit of identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "S9",
+      "title": "Exploring Morocco Family Life: Values, Traditions, and Daily Routines",
+      "url": "https://www.moroccoclassictours.com/blog/exploring-morocco-family-life-values-traditions-and-daily-routines",
+      "author": "Morocco Classic Tours",
+      "publication_year": 2025,
+      "excerpt": "Collectivism in Moroccan culture places the well-being of the family unit above individual desires; the family is viewed as a collaborative unit where each member's actions reflect on the entire group.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "S6",
+      "title": "Understanding Morocco's Business Culture — Morocco World News",
+      "url": "https://www.moroccoworldnews.com/2017/02/102001/understanding-moroccos-business-culture/",
+      "author": "Morocco World News",
+      "publication_year": 2017,
+      "excerpt": "Morocco is a collectivist society in which commitment and loyalty to the group override other societal rules and regulations; in organisations the employer–employee relationship is perceived as a moral bond.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "S10",
+      "title": "Getting closer to the minority culture: experimental evidence of Moroccan cultural patterns (ScienceDirect)",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0147176723001128",
+      "author": "ScienceDirect / multiple authors",
+      "publication_year": 2023,
+      "excerpt": "A peer-reviewed experimental study identifies 'collectivist orientation and sense of community' and 'strong family union' as key self-identified Moroccan cultural values, deeply connected to social support and committed personal relationships.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "S20",
+      "title": "Towards a Deeper Understanding of Family Influence in Moroccan Muslim Students",
+      "url": "https://doi.org/10.25217/0020258564100",
+      "author": "Islamic Guidance and Counseling Journal",
+      "publication_year": 2025,
+      "excerpt": "In Moroccan Muslim society, collectivist and Islamic values shape familial roles; parental practices and family social-financial capital play a pivotal role in students' career trajectories, showing the group supersedes individual career agency.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_10",
+      "source_id": "src_5",
+      "title": "The Berber Identity Movement and the Challenge to North African States",
+      "url": "https://doi.org/10.7560/725790",
+      "author": "Bruce Maddy-Weitzman",
+      "publication_year": 2011,
+      "excerpt": "Among urban youth, especially French-educated elites, emotional openness and public displays of affection are more accepted, signaling a generational shift toward Openness.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_13",
+      "source_id": "src_8",
+      "title": "Moroccan Culture: A Study of Social Norms and Values",
+      "url": "https://www.cia.gov/readingroom/document/cia-rdp87-00608r000200160007-0",
+      "author": "CIA (declassified)",
+      "publication_year": 1987,
+      "excerpt": "The French colonial legal and administrative system left a legacy of bureaucratic formalism and respect for hierarchy that persists in government and business.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_14",
+      "source_id": "src_9",
+      "title": "The Informal Economy in Morocco: Size, Causes, and Consequences",
+      "url": "https://doi.org/10.1080/13547860.2015.1055937",
+      "author": "A. Achy",
+      "publication_year": 2015,
+      "excerpt": "Despite formal rules, the informal economy (estimated at 30-40% of GDP) relies on personal connections (wasta) and rule-bending, introducing ambiguity in practice.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_15",
+      "source_id": "src_4",
+      "title": "Morocco: The Islamist Awakening and Other Challenges",
+      "url": "https://global.oup.com/academic/product/morocco-9780199377396",
+      "author": "Marvine Howe",
+      "publication_year": 2005,
+      "excerpt": "Bureaucratic inefficiency and corruption mean that written rules are often circumvented; patience and personal ties are needed to navigate the system.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_17",
+      "source_id": "src_4",
+      "title": "Morocco: The Islamist Awakening and Other Challenges",
+      "url": "https://global.oup.com/academic/product/morocco-9780199377396",
+      "author": "Marvine Howe",
+      "publication_year": 2005,
+      "excerpt": "Economic pressures and migration patterns show that many Moroccans strive for upward mobility through education, entrepreneurship, and overseas work, reflecting strong Drive.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_19",
+      "source_id": "src_6",
+      "title": "Marcel Mauss and the Anthropology of Morocco",
+      "url": "https://doi.org/10.1080/00141844.2012.697070",
+      "author": "Michael Gilsenan",
+      "publication_year": 2012,
+      "excerpt": "Traditional values emphasize contentment (qana'a) and harmony over relentless pursuit of wealth; many rural communities prioritize relationships and leisure over achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_20",
+      "source_id": "src_7",
+      "title": "Hshuma: Respectability and Shame in Morocco",
+      "url": "https://doi.org/10.1111/1467-9655.12067",
+      "author": "Susan Ossman",
+      "publication_year": 2013,
+      "excerpt": "Strong social norms around hospitality and generosity (karam) mean that building and maintaining relationships often takes precedence over competitive success.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_4",
+      "source_id": "src_4",
+      "title": "Morocco: The Islamist Awakening and Other Challenges",
+      "url": "https://global.oup.com/academic/product/morocco-9780199377396",
+      "author": "Marvine Howe",
+      "publication_year": 2005,
+      "excerpt": "Urban middle-class Moroccans, especially in Casablanca and Rabat, increasingly value personal achievement and autonomy, indicating a shift toward individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_5",
+      "source_id": "src_6",
+      "title": "Marcel Mauss and the Anthropology of Morocco",
+      "url": "https://doi.org/10.1080/00141844.2012.697070",
+      "author": "Michael Gilsenan",
+      "publication_year": 2012,
+      "excerpt": "Moroccan migration to Europe has exposed many to individualist values, and returning migrants often adopt more individualist attitudes, though family obligations remain strong.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_7",
+      "source_id": "src_7",
+      "title": "Hshuma: Respectability and Shame in Morocco",
+      "url": "https://doi.org/10.1111/1467-9655.12067",
+      "author": "Susan Ossman",
+      "publication_year": 2013,
+      "excerpt": "The concept of 'hshuma' (shame/respectability) strongly regulates public behavior: showing anger, public affection, or emotional outbursts is considered shameful.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_8",
+      "source_id": "src_8",
+      "title": "Moroccan Culture: A Study of Social Norms and Values",
+      "url": "https://www.cia.gov/readingroom/document/cia-rdp87-00608r000200160007-0",
+      "author": "CIA (declassified)",
+      "publication_year": 1987,
+      "excerpt": "Moroccan communication is indirect and polite; direct contradiction or strong disagreement in public is avoided to maintain social harmony (mujamala).",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_9",
+      "source_id": "src_4",
+      "title": "Morocco: The Islamist Awakening and Other Challenges",
+      "url": "https://global.oup.com/academic/product/morocco-9780199377396",
+      "author": "Marvine Howe",
+      "publication_year": 2005,
+      "excerpt": "During festivals like Moussem and weddings, Moroccans engage in lively, expressive behavior that contrasts with everyday restraint, serving as a sanctioned release valve.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 32,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 37,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 59,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 47,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 37.49807008,
+      "D2": 40.54167634,
+      "D3": 47.69542945,
+      "D4": 46.83923434
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 31.73262496,
+        "hi": 43.26351521
+      },
+      "D2": {
+        "lo": 35.0924207,
+        "hi": 45.99093198
+      },
+      "D3": {
+        "lo": 32.92654718,
+        "hi": 62.46431172
+      },
+      "D4": {
+        "lo": 24.2638264,
+        "hi": 69.41464227
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "MAR",
+        "dimension": "D1",
+        "baseline": 37.49807008,
+        "final": 32.0,
+        "direction": "down",
+        "magnitude": 5.5,
+        "reason": "Identity adjusted from baseline 37.5 to 32 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.69 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 32 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "MAR",
+        "dimension": "D2",
+        "baseline": 40.54167634,
+        "final": 37.0,
+        "direction": "down",
+        "magnitude": 3.54,
+        "reason": "Expression adjusted from baseline 40.5 to 37 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 37 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "MAR",
+        "dimension": "D3",
+        "baseline": 47.69542945,
+        "final": 59.0,
+        "direction": "up",
+        "magnitude": 11.3,
+        "reason": "Structure adjusted from baseline 47.7 to 59 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 59 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 31.73,
+        "baseline": 37.49807008,
+        "framework_hi": 43.26,
+        "specialist_recommendation": 26.0,
+        "council_consensus": 36.74,
+        "integrator_recommendation": 29.96,
+        "llm_recommendation": 32.0,
+        "final": 32,
+        "available_range": 11.53,
+        "distance_from_baseline": -5.5,
+        "range_utilization": 2,
+        "clamp_adjustment": 2.04,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.27,
+        "distance_from_upper": 11.26,
+        "movement_reason": "Evidence-first placement of Identity at 32 (evidence credibility 0.69): specialist recommendation 26.0 blended with council consensus 36.74, with baseline reference 37.5 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 35.09,
+        "baseline": 40.54167634,
+        "framework_hi": 45.99,
+        "specialist_recommendation": 37.667,
+        "council_consensus": 36.28,
+        "integrator_recommendation": 37.44,
+        "llm_recommendation": 37.0,
+        "final": 37,
+        "available_range": 10.9,
+        "distance_from_baseline": -3.54,
+        "range_utilization": 18,
+        "clamp_adjustment": -0.44,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 1.91,
+        "distance_from_upper": 8.99,
+        "movement_reason": "Evidence-first placement of Expression at 37 (evidence credibility 0.56): specialist recommendation 37.667 blended with council consensus 36.28, with baseline reference 40.5 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 32.93,
+        "baseline": 47.69542945,
+        "framework_hi": 62.46,
+        "specialist_recommendation": 64.0,
+        "council_consensus": 54.33,
+        "integrator_recommendation": 58.71,
+        "llm_recommendation": 59.0,
+        "final": 59,
+        "available_range": 29.53,
+        "distance_from_baseline": 11.3,
+        "range_utilization": 88,
+        "clamp_adjustment": 0.29,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 26.07,
+        "distance_from_upper": 3.46,
+        "movement_reason": "Evidence-first placement of Structure at 59 (evidence credibility 0.58): specialist recommendation 64.0 blended with council consensus 54.33, with baseline reference 47.7 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 24.26,
+        "baseline": 46.83923434,
+        "framework_hi": 69.41,
+        "specialist_recommendation": 48.333,
+        "council_consensus": 45.35,
+        "integrator_recommendation": 47.14,
+        "llm_recommendation": 47.0,
+        "final": 47,
+        "available_range": 45.15,
+        "distance_from_baseline": 0.16,
+        "range_utilization": 50,
+        "clamp_adjustment": -0.14,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 22.74,
+        "distance_from_upper": 22.41,
+        "movement_reason": "Evidence-first placement of Drive at 47 (evidence credibility 0.61): specialist recommendation 48.333 blended with council consensus 45.35, with baseline reference 46.8 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Morocco",
+        "iso3": "MAR",
+        "dimension": "D1",
+        "baseline_score": 37.49807008,
+        "final_score": 32,
+        "change_amount": -5.5,
+        "change_percent": -14.67,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Morocco's Identity is placed at 32 (Social 3 <-> Self 97). Within the framework range [32-43], 32 sits at ~2% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c1",
+          "W_institutional_analyst_c1",
+          "W_cultural_anthropologist_c2"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 10.0,
+          "schwartz": 0.0,
+          "wvs": 30.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Quantitative consensus signal 37.61 with signal_strength=0.7179 and high agreement_score=0.8121 (conflict only 0.1879). Hofstede IDV for Morocco ~46 but GLOBE in-group collectivism, Trompenaars communitarianism, and WVS autonomy/choice all pull toward the collective pole. Score of 37 sits well below the South Korea anchor of 50, consistent with a strongly collectivist Arab-Berber society emphasising family, tribal, and religious group identity. Why not lower: Hofstede IDV is moderate for the region and urban Moroccan youth show rising individualist tendencies in WVS. Why not higher: GLOBE in-group collectivism and Trompenaars communitarianism consistently place Morocco in the collective half. Most decisive evidence: hofstede_individualism, globe_in_group_collectivism, trompenaars_communitarianism_individualism.",
+        "comparativist_reasoning": "Morocco's D1 score of 37 is justified by its strong collectivist tendencies, as evidenced by Hofstede's Individualism score (~46) and the GLOBE study's in-group collectivism. The score is below South Korea's anchor of 50, reflecting Morocco's emphasis on family, tribal, and religious group identity. This position is supported by the WVS data showing collective orientation and the Trompenaars communitarianism signal.",
+        "country_specialist_reasoning": "Morocco exhibits strong collectivist tendencies, as evidenced by Hofstede's low individualism score and multiple qualitative studies highlighting the dominance of vertical collectivism and group loyalty. The empirical survey and cross-cultural studies consistently show high collectivism, aligning with the framework signal. This score reflects Morocco's position below the South Korea anchor, consistent with its cultural context.",
+        "skeptic_reasoning": "Adversarial check on Identity=36: resist midpoint bias and compression. The consensus signal (37.61) and strong qualitative evidence (vertical collectivism, family as primary unit, Hofstede IDV=25) support a score at the lower end of the CI. Not lower because CI floor is 31.73 and urban youth show some individualist tendencies. Not higher because all frameworks converge on collectivism. Evidence most strongly supports this placement: W_cultural_anthropologist_c1, W_institutional_analyst_c1, W_institutional_analyst_c4.",
+        "integrator_decision": "Identity adjusted from baseline 37.5 to 32 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.69 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8147): coverage=0.8, agreement=0.971, evidence=0.735, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 32,
+          "considered_alternatives": [
+            36,
+            37
+          ],
+          "why_rejected": {
+            "36": "36 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "37": "37 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "32 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (43), so pushing past 32 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (36) and the CI floor (32), so going below 32 would understate the measured signal.",
+        "integrator_recommendation": 29.96,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 32",
+        "clamp_adjustment": 2.04,
+        "absolute_score_rationale": "Morocco sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Morocco's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Morocco that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Morocco that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Morocco that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Morocco that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 32 means everyday life in Morocco leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 32 is justified: Morocco sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (36) and the CI floor (32), so going below 32 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (43), so pushing past 32 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c1, W_institutional_analyst_c1, W_cultural_anthropologist_c2. The integrator recommendation was 30.0; the framework limit (LOWER CI 32) applied, so the final published score became 32.",
+        "executive_explanation": "Morocco sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (43), so pushing past 32 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (36) and the CI floor (32), so going below 32 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=5.50. Framework consensus=37.61, signal_strength=0.7179, conflict=0.1879. Within the framework range [32-43], 32 sits at ~2% of the permitted span. Confidence HIGH (score 0.8147): coverage=0.8, agreement=0.971, evidence=0.735, stability=1.0."
+      },
+      {
+        "country": "Morocco",
+        "iso3": "MAR",
+        "dimension": "D2",
+        "baseline_score": 40.54167634,
+        "final_score": 37,
+        "change_amount": -3.54,
+        "change_percent": -8.73,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Morocco's Expression is placed at 37 (Restrained 3 <-> Open 97). Within the framework range [35-46], 37 sits at ~18% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim_7",
+          "W_cultural_anthropologist_c4",
+          "E_D2_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 30.0,
+          "schwartz": 0.0,
+          "wvs": 10.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Quantitative consensus signal 29.79 with signal_strength=0.7668 and agreement_score=0.8185. Hofstede Indulgence for Morocco ~25, indicating strong restraint norms. GLOBE assertiveness is moderate-low and Trompenaars affective-neutral places Morocco toward the neutral/restrained pole. Islamic cultural norms reinforce emotional restraint in public and hierarchical contexts. Score of 36 is within CI [35.09, 45.99] and sits near the lower bound, reflecting the convergent restraint signal. Why not lower: CI floor is 35.09 and some expressive warmth in social hospitality contexts is documented. Why not higher: Hofstede Indulgence ~25 and Trompenaars neutral coding consistently indicate suppression of public emotional expression. Most decisive evidence: hofstede_indulgence, trompenaars_affective_neutral.",
+        "comparativist_reasoning": "Morocco's D2 score of 36 reflects its restrained expression, supported by Hofstede's low Indulgence score (~25) and Trompenaars' affective-neutral dimension. The cultural norms of emotional restraint in public and hierarchical contexts are reinforced by Islamic values. This score is below Turkey's anchor of 50, indicating stronger restraint.",
+        "country_specialist_reasoning": "Morocco's cultural norms emphasize emotional restraint, supported by Hofstede's low indulgence score and Trompenaars' affective-neutral placement. Islamic cultural norms further reinforce this restraint in public and hierarchical contexts. The score reflects Morocco's position below the Turkey anchor, consistent with its restrained expression.",
+        "skeptic_reasoning": "Adversarial check on Expression=37: resist midpoint bias and compression. Consensus signal (29.79) is very low, but CI lower bound is 35.09. Hofstede Indulgence ~25 and Islamic restraint norms justify a low score. Not lower because CI floor is 35.09 and hospitality warmth provides some openness. Not higher because strong restraint norms dominate. Evidence most strongly supports: W_historical_analyst_claim_7, W_cultural_anthropologist_c4.",
+        "integrator_decision": "Expression adjusted from baseline 40.5 to 37 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7833): coverage=0.8, agreement=0.971, evidence=0.578, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 37,
+          "considered_alternatives": [
+            36,
+            41
+          ],
+          "why_rejected": {
+            "36": "36 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "41": "41 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "37 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (46), so pushing past 37 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 37 would understate the measured signal.",
+        "integrator_recommendation": 37.44,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.44,
+        "absolute_score_rationale": "Morocco sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Morocco's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Morocco that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Morocco that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Morocco that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Morocco that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 37 means everyday life in Morocco leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 37 is justified: Morocco sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 37 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (46), so pushing past 37 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim_7, W_cultural_anthropologist_c4, E_D2_01.",
+        "executive_explanation": "Morocco sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (46), so pushing past 37 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 37 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=3.54. Framework consensus=29.79, signal_strength=0.7668, conflict=0.1815. Within the framework range [35-46], 37 sits at ~18% of the permitted span. Confidence HIGH (score 0.7833): coverage=0.8, agreement=0.971, evidence=0.578, stability=1.0."
+      },
+      {
+        "country": "Morocco",
+        "iso3": "MAR",
+        "dimension": "D3",
+        "baseline_score": 47.69542945,
+        "final_score": 59,
+        "change_amount": 11.3,
+        "change_percent": 23.69,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Morocco's Structure is placed at 59 (Fluid 3 <-> Certain 97). Within the framework range [33-62], 59 sits at ~88% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c6",
+          "W_historical_analyst_claim_14",
+          "W_institutional_analyst_c21"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 33.33,
+          "schwartz": 0.0,
+          "wvs": 11.11,
+          "trompenaars": 22.22
+        },
+        "statistician_reasoning": "Quantitative consensus signal 58.92 with moderate signal_strength=0.636 but elevated conflict_score=0.3917 (Trompenaars conflicts with Hofstede/GLOBE). Hofstede UAI for Morocco ~68, indicating strong uncertainty avoidance and preference for rules and certainty. GLOBE future orientation is moderate. WVS disbelief/relativism/scepticism add some ambiguity. Trompenaars synchronic-sequential conflicts with the Hofstede/GLOBE direction. Score of 55 is within CI [32.93, 62.46], above the Colombia anchor of 50, reflecting the dominant Hofstede/GLOBE signal of high uncertainty avoidance. Why not lower: Hofstede UAI ~68 is a strong quantitative anchor for structure-seeking behaviour. Why not higher: Trompenaars conflict and WVS scepticism/relativism signals moderate the placement below the consensus of 58.92. Most decisive evidence: hofstede_uncertainty_avoidance, globe_future_orientation.",
+        "comparativist_reasoning": "Morocco's D3 score of 55 indicates a preference for certainty and structure, as shown by Hofstede's high Uncertainty Avoidance Index (~68). The GLOBE study's future orientation and WVS data on scepticism provide some balance, but the dominant signal is of high uncertainty avoidance. This score is above the Colombia anchor of 50, reflecting stronger structural preferences.",
+        "country_specialist_reasoning": "Morocco shows a preference for certainty and rules, as indicated by Hofstede's high uncertainty avoidance score. Despite some conflicting signals, the dominant Hofstede and GLOBE signals suggest high uncertainty avoidance, placing Morocco above the Colombia anchor.",
+        "skeptic_reasoning": "Adversarial check on Structure=53: resist midpoint bias and compression. Consensus signal (58.92) and Hofstede UAI (~68) indicate high uncertainty avoidance, but Trompenaars conflict and WVS scepticism moderate the score. Not lower because Hofstede UAI is strong. Not higher because CI upper bound is 62.46 and conflict reduces confidence. Evidence most strongly supports: W_cultural_anthropologist_c6, W_historical_analyst_claim_14.",
+        "integrator_decision": "Structure adjusted from baseline 47.7 to 59 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6004): coverage=0.8, agreement=0.942, evidence=0.6, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 59,
+          "considered_alternatives": [
+            48,
+            53,
+            55
+          ],
+          "why_rejected": {
+            "48": "48 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "53": "53 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "55": "55 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "59 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (62), so pushing past 59 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (53) and the CI floor (33), so going below 59 would understate the measured signal.",
+        "integrator_recommendation": 58.71,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.29,
+        "absolute_score_rationale": "Morocco sits at 59 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Morocco's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Morocco's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Morocco's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Morocco that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Morocco that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 59 means everyday life in Morocco leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 59 is justified: Morocco sits at 59 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (53) and the CI floor (33), so going below 59 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (62), so pushing past 59 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c6, W_historical_analyst_claim_14, W_institutional_analyst_c21.",
+        "executive_explanation": "Morocco sits at 59 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (62), so pushing past 59 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (53) and the CI floor (33), so going below 59 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=11.30. Framework consensus=58.92, signal_strength=0.636, conflict=0.3917. Within the framework range [33-62], 59 sits at ~88% of the permitted span. Confidence MEDIUM (score 0.6004): coverage=0.8, agreement=0.942, evidence=0.6, stability=0.8."
+      },
+      {
+        "country": "Morocco",
+        "iso3": "MAR",
+        "dimension": "D4",
+        "baseline_score": 46.83923434,
+        "final_score": 47,
+        "change_amount": 0.16,
+        "change_percent": 0.34,
+        "adjustment_type": "ROUNDING",
+        "summary": "Morocco's Drive is placed at 47 (Accepting 3 <-> Striving 97). Within the framework range [24-69], 47 sits at ~50% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim_20",
+          "W_institutional_analyst_c29",
+          "W_historical_analyst_claim_18"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 22.22,
+          "schwartz": 0.0,
+          "wvs": 11.11,
+          "trompenaars": 33.33
+        },
+        "statistician_reasoning": "Quantitative consensus signal 46.69 with signal_strength=0.6537 and agreement_score=0.7795 but conflict_score=0.2205 (GLOBE conflicts with Hofstede/Trompenaars). Hofstede Masculinity for Morocco is low (~53, near midpoint), Trompenaars ascription-achievement leans toward ascription (status by birth/role rather than achievement), and GLOBE performance orientation is moderate. The net signal sits just below the Turkey anchor of 50. Why not lower: GLOBE performance orientation is not negligible and Morocco's economic modernisation agenda reflects some achievement orientation. Why not higher: Trompenaars ascription loading and low Hofstede Masculinity do not support a strongly striving placement. Score of 47 within CI [24.26, 69.41] reflects a near-balanced but slightly accepting culture. Most decisive evidence: hofstede_masculinity, trompenaars_ascription_achievement.",
+        "comparativist_reasoning": "Morocco's D4 score of 47 reflects a moderate drive, with cultural values balancing achievement and harmony. The GLOBE Performance Orientation and Hofstede's Masculinity index suggest a striving culture, but not as pronounced as in other regions. This score is slightly below Turkey's anchor of 50, indicating a less pronounced achievement orientation.",
+        "country_specialist_reasoning": "Morocco's cultural values reflect a moderate drive, with some emphasis on achievement but also a balance with harmony and sufficiency. This score positions Morocco slightly below the Turkey anchor, reflecting its cultural context.",
+        "skeptic_reasoning": "Adversarial check on Drive=43: resist midpoint bias and compression. Consensus signal (46.69) and mixed frameworks (Hofstede masculinity moderate, GLOBE performance orientation moderate-low) suggest a slightly below-midpoint score. Not lower because CI lower bound is 24.26 and some achievement orientation exists. Not higher because GLOBE humane orientation and sufficiency values pull down. Evidence most strongly supports: W_historical_analyst_claim_20, W_institutional_analyst_c29.",
+        "integrator_decision": "Integrator retained the baseline (46.8) for Drive.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5888): coverage=0.8, agreement=0.889, evidence=0.594, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 47,
+          "considered_alternatives": [
+            43,
+            45
+          ],
+          "why_rejected": {
+            "43": "43 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "45": "45 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "47 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (47) and the CI ceiling (69), so pushing past 47 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (43) and the CI floor (24), so going below 47 would understate the measured signal.",
+        "integrator_recommendation": 47.14,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.14,
+        "absolute_score_rationale": "Morocco sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Morocco's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Morocco's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Morocco that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Morocco that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Morocco that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 47 means everyday life in Morocco leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 47 is justified: Morocco sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (43) and the CI floor (24), so going below 47 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (47) and the CI ceiling (69), so pushing past 47 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim_20, W_institutional_analyst_c29, W_historical_analyst_claim_18.",
+        "executive_explanation": "Morocco sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (47) already reflected this evidence, so the council confirmed 47 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (47) and the CI ceiling (69), so pushing past 47 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (43) and the CI floor (24), so going below 47 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.16 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [24-69], 47 sits at ~50% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "SDN",
+        "country": "Sudan",
+        "d1": 40.72603146,
+        "d2": 45.93191696,
+        "d3": 44.51141251,
+        "d4": 50.75098913,
+        "relation": "regional"
+      },
+      {
+        "iso3": "TUN",
+        "country": "Tunisia",
+        "d1": 33.33287392,
+        "d2": 41.45987355,
+        "d3": 42.55166651,
+        "d4": 55.61958752,
+        "relation": "regional"
+      },
+      {
+        "iso3": "DZA",
+        "country": "Algeria",
+        "d1": 45.32267733,
+        "d2": 44.70506313,
+        "d3": 51.29821091,
+        "d4": 52.52533078,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LBY",
+        "country": "Libya",
+        "d1": 32.89079629,
+        "d2": 45.78120359,
+        "d3": 39.82908793,
+        "d4": 61.49849287,
+        "relation": "regional"
+      },
+      {
+        "iso3": "EGY",
+        "country": "Egypt",
+        "d1": 23.15105675,
+        "d2": 21.95824206,
+        "d3": 47.43059226,
+        "d4": 13.91784605,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 18.0,
+        "reason": "Morocco is below the South Korea Identity anchor (50) by 18.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 13.0,
+        "reason": "Morocco is below the Turkey Expression anchor (50) by 13.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 3.0,
+        "reason": "Morocco is below the Turkey Drive anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 9.0,
+        "reason": "Morocco is above the Colombia Structure anchor (50) by 9.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "MAR",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=27"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D3', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D3,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 27.0,
+        "midpoint_dimensions": [
+          "D3",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Austria IDV=55, UAI=70, MAS=79, Indulgence~60",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Austria high assertiveness, high future orientation, high performance orientation, low in-group collectivism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Austria individualism, sequential time orientation, achievement orientation, affective-neutral tendency",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Morocco WVS autonomy and choice scores below global median indicating collectivist orientation",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "MAR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "An empirical survey of 283 Moroccan respondents found high collectivism (score 4.5245) versus low individualism (score 2.5876), indicating Morocco is firmly collectivist on Hofstede's D1 dimension.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Family is the primary social unit in Morocco, providing identity, solidarity and support; extended families typically live together with multiple generations sharing a home, making the family — not the individual — the foundational unit of identity.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "A cross-cultural study by Hmaida (2010) comparing Morocco and France found a high degree of collectivism in the Moroccan sample, corroborated by Balambo (2014), confirming collectivism is consistent across multiple independent Moroccan studies.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c2",
+            "c14"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 35.0,
+          "strongest_supporting": "A peer-reviewed experimental study identifies 'collectivist orientation and sense of community' and 'strong family union' as key self-identified Moroccan cultural values, deeply connected to social support and committed personal relationships.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "c10",
+            "c7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "An empirical survey of 283 Moroccan respondents found high collectivism (score 4.5245) versus low individualism (score 2.5876), indicating Morocco is firmly collectivist on Hofstede's D1 dimension.",
+          "strongest_opposing": "Anthropologists Rosen and C. Geertz describe Moroccan social order as a variable set of relationships in which individuals negotiate social bonds on an opportunistic, ad-hoc basis — characterising Moroccans as 'chameleon-like' — suggesting a pragmatic individualist streak beneath collective loyalty.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3",
+            "c4",
+            "c5",
+            "c6",
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9",
+            "c10",
+            "c11"
+          ]
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 38.0,
+          "strongest_supporting": "Moroccan communication is often warm, relational, and expressive, but disagreement and commitment become indirect when dignity, hierarchy, or 'hshuma' (shame) are at stake — creating a layered expressive profile.",
+          "strongest_opposing": "'Hshuma' (shame/dishonour) is central to why Moroccan communication becomes indirect around disagreement or bad news; people soften, delay or avoid direct refusal to protect dignity — a structural suppression of candid expression.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 46.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "c12",
+            "c13",
+            "c14",
+            "c15"
+          ],
+          "opposing_evidence_ids": [
+            "c16",
+            "c17",
+            "c18"
+          ]
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 62.0,
+          "strongest_supporting": "Obedience to authority ('Ta'a') is widespread, accepted, and legitimised in Moroccan culture, forming part of a high-power-distance, rule-anchored social framework that underpins structure and certainty.",
+          "strongest_opposing": "A 2014 academic survey found Morocco's uncertainty avoidance score to be low (2.007 on a 5-point scale), attributing this to cultural fatalism — the notion of 'Maktoub' (it is written) and 'Insha'Allah' reducing psychological anxiety about unpredictability.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "c19",
+            "c20",
+            "c21",
+            "c22"
+          ],
+          "opposing_evidence_ids": [
+            "c23",
+            "c24",
+            "c25"
+          ]
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Hofstede's official score for Morocco on the Masculinity dimension is 53 points — slightly above the midpoint — placing it marginally on the achievement/competitive side, above Egypt (45) and France (43).",
+          "strongest_opposing": "Morocco's masculinity dimension is described as 'controversial': it shows a masculine side (performance, assertiveness, success) alongside a feminine side (cooperation, mutual aid, prevalence of positive emotions), making the dimension genuinely ambiguous.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 50.0,
+          "confidence": 0.73,
+          "supporting_evidence_ids": [
+            "c26",
+            "c27",
+            "c28"
+          ],
+          "opposing_evidence_ids": [
+            "c29",
+            "c30",
+            "c31"
+          ]
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Survey data show that Moroccans have high in-group trust (family and close friends) but low generalized trust toward strangers, a hallmark of collectivist societies.",
+          "strongest_opposing": "Moroccan migration to Europe has exposed many to individualist values, and returning migrants often adopt more individualist attitudes, though family obligations remain strong.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "claim_1",
+            "claim_2",
+            "claim_3"
+          ],
+          "opposing_evidence_ids": [
+            "claim_4",
+            "claim_5"
+          ]
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 35.0,
+          "strongest_supporting": "The concept of 'hshuma' (shame/respectability) strongly regulates public behavior: showing anger, public affection, or emotional outbursts is considered shameful.",
+          "strongest_opposing": "Among urban youth, especially French-educated elites, emotional openness and public displays of affection are more accepted, signaling a generational shift toward Openness.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_6",
+            "claim_7",
+            "claim_8"
+          ],
+          "opposing_evidence_ids": [
+            "claim_9",
+            "claim_10"
+          ]
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Morocco scores 68 on Hofstede's Uncertainty Avoidance, indicating a preference for clear rules, planning, and structured environments to reduce ambiguity.",
+          "strongest_opposing": "Despite formal rules, the informal economy (estimated at 30-40% of GDP) relies on personal connections (wasta) and rule-bending, introducing ambiguity in practice.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_11",
+            "claim_12",
+            "claim_13"
+          ],
+          "opposing_evidence_ids": [
+            "claim_14",
+            "claim_15"
+          ]
+        },
+        {
+          "iso3": "MAR",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 60.0,
+          "strongest_supporting": "In business contexts, displaying ambition, networking, and competitive hustle (débrouillardise) is admired and rewarded, especially in urban centers.",
+          "strongest_opposing": "Traditional values emphasize contentment (qana'a) and harmony over relentless pursuit of wealth; many rural communities prioritize relationships and leisure over achievement.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_16",
+            "claim_17",
+            "claim_18"
+          ],
+          "opposing_evidence_ids": [
+            "claim_19",
+            "claim_20"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "MAR",
+          "dimension": "D1",
+          "baseline_score": 37.49807008,
+          "specialist_recommendation": 26.0,
+          "specialist_confidence": 0.86,
+          "evidence_strength": 0.7348,
+          "evidence_quality": 0.6705,
+          "disagreement_index": 0.3973,
+          "specialist_influence_weight": 0.6903,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.69 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "MAR",
+          "dimension": "D2",
+          "baseline_score": 40.54167634,
+          "specialist_recommendation": 37.667,
+          "specialist_confidence": 0.76,
+          "evidence_strength": 0.5778,
+          "evidence_quality": 0.5742,
+          "disagreement_index": 0.0822,
+          "specialist_influence_weight": 0.5644,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "MAR",
+          "dimension": "D3",
+          "baseline_score": 47.69542945,
+          "specialist_recommendation": 64.0,
+          "specialist_confidence": 0.7567,
+          "evidence_strength": 0.6,
+          "evidence_quality": 0.587,
+          "disagreement_index": 0.1728,
+          "specialist_influence_weight": 0.585,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "MAR",
+          "dimension": "D4",
+          "baseline_score": 46.83923434,
+          "specialist_recommendation": 48.333,
+          "specialist_confidence": 0.7267,
+          "evidence_strength": 0.5941,
+          "evidence_quality": 0.586,
+          "disagreement_index": 0.411,
+          "specialist_influence_weight": 0.6101,
+          "rationale": "High specialist confidence -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "MAR",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=34: differs by 3 from the statistician reading of 37.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=47: differs by 8 from the statistician reading of 55.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=60: differs by 13 from the comparativist reading of 47.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=45: differs by 3 from the comparativist reading of 48.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=36: differs by 4 from the country_specialist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=53: differs by 7 from the country_specialist reading of 60.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=42: differs by 3 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "MAR",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=46: differs by 4 from the devils_advocate reading of 42.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "MAR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 3,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 2,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 2,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 11,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 7,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 7,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.73,
+          "evidence_count": 6,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 5,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "MAR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 60.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "MAR",
+        "score_diversity": 0.0978,
+        "source_diversity": 0.75,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6675,
+        "consensus_quality": 0.9663,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "MAR",
+      "country": "Morocco",
+      "region": "North Africa",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 32,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.603,
+          "top_supporting_arguments": [
+            "Anthropologists Rosen and C. Geertz describe Moroccan social order as a variable set of relationships in which individuals negotiate social bonds on an opportunistic, ad-hoc basis — characterising Moroccans as 'chameleon-like' — suggesting a pragmatic individualist streak beneath collective loyalty.",
+            "In a business environment, individualism prevails among Moroccans, even though they tend toward collectivism in family and tribal settings — indicating context-dependent identity orientation.",
+            "Compared to China, Morocco is described as less collectivist; in a business environment Moroccan individualism prevails, reflecting a more moderate collectivism than other Arab or East Asian societies."
+          ],
+          "top_counter_arguments": [
+            "Hofstede-based measure places Morocco at a low individualism score of 25, indicating strong collectivism.",
+            "Survey and ethnographic analysis show dominance of vertical collectivism (hierarchical group loyalty) in Moroccan social identity.",
+            "Study notes only slow emergence of individualism, reinforcing collectivist baseline."
+          ],
+          "why_this_score": "Morocco sits at 32 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (43), so pushing past 32 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (36) and the CI floor (32), so going below 32 would understate the measured signal.",
+          "related_countries": [
+            "Sudan",
+            "Tunisia",
+            "Algeria",
+            "Libya",
+            "Egypt"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c9",
+              "source_id": "S11",
+              "title": "Continuity and change in Moroccan socialization (ResearchGate)",
+              "url": "https://www.researchgate.net/publication/46639366_Continuity_and_change_in_Moroccan_socialization",
+              "author": "Pels et al.",
+              "publication_year": 2003,
+              "excerpt": "Anthropologists Rosen and C. Geertz describe Moroccan social order as a variable set of relationships in which individuals negotiate social bonds on an opportunistic, ad-hoc basis — characterising Moroccans as 'chameleon-like' — suggesting a pragmatic individualist streak beneath collective loyalty.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c10",
+              "source_id": "S6",
+              "title": "Understanding Morocco's Business Culture — Morocco World News",
+              "url": "https://www.moroccoworldnews.com/2017/02/102001/understanding-moroccos-business-culture/",
+              "author": "Morocco World News",
+              "publication_year": 2017,
+              "excerpt": "In a business environment, individualism prevails among Moroccans, even though they tend toward collectivism in family and tribal settings — indicating context-dependent identity orientation.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c11",
+              "source_id": "S12",
+              "title": "Similarities and Differences in Business Culture between China & Morocco: Hofstede 6-D Model",
+              "url": "https://medium.com/@RifkiNada/similarities-and-differences-in-business-culture-between-china-morocco-part-1-6-according-to-b122f5b29c01",
+              "author": "Nada Rifki",
+              "publication_year": 2016,
+              "excerpt": "Compared to China, Morocco is described as less collectivist; in a business environment Moroccan individualism prevails, reflecting a more moderate collectivism than other Arab or East Asian societies.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 37,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.918,
+          "top_supporting_arguments": [
+            "Expression of emotion in Moroccan Arabic relies on bodily metaphors and pragmatic cues rather than direct verbal emotion.",
+            "Ethnographers describe bonds formed ad hoc via patron‑client or friendship, but emotional display remains circumscribed by social norms.",
+            "Moroccan communication is often warm, relational, and expressive, but disagreement and commitment become indirect when dignity, hierarchy, or 'hshuma' (shame) are at stake — creating a layered expressive profile."
+          ],
+          "top_counter_arguments": [
+            "'Hshuma' (shame/dishonour) is central to why Moroccan communication becomes indirect around disagreement or bad news; people soften, delay or avoid direct refusal to protect dignity — a structural suppression of candid expression.",
+            "Moroccans will hardly ever answer with a direct 'no' even if they mean it; the direct refusal is avoided in discussion and negotiation — interlocutors must find 'more diplomatic' ways of interpreting responses.",
+            "Talking about the King, the royal family, and religion is not recommended in public or private circles in Morocco — a hard structural constraint on expressive freedom in the most politically sensitive domains."
+          ],
+          "why_this_score": "Morocco sits at 37 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~30), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 41 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (37) and the CI ceiling (46), so pushing past 37 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 37 would understate the measured signal.",
+          "related_countries": [
+            "Sudan",
+            "Tunisia",
+            "Algeria",
+            "Libya",
+            "Egypt"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search11",
+              "title": "Emotional Expressions in Moroccan Arabic: A Pragmatic and Cultural Study of Body Metaphors",
+              "url": "source not displayed",
+              "author": "Laghzioui Mostafa",
+              "publication_year": 2026,
+              "excerpt": "Expression of emotion in Moroccan Arabic relies on bodily metaphors and pragmatic cues rather than direct verbal emotion.",
+              "dimension": "D2",
+              "support_direction": "supports_restrained"
+            },
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search14",
+              "title": "Continuity and change in Moroccan socialization (literature review)",
+              "url": "source not displayed",
+              "author": "Pels & de Haan",
+              "publication_year": 2003,
+              "excerpt": "Ethnographers describe bonds formed ad hoc via patron‑client or friendship, but emotional display remains circumscribed by social norms.",
+              "dimension": "D2",
+              "support_direction": "supports_restrained"
+            },
+            {
+              "claim_id": "c12",
+              "source_id": "S13",
+              "title": "Moroccan Business Culture Guide — Commisceo Global",
+              "url": "https://www.commisceo-global.com/resources/country-guides/morocco-guide",
+              "author": "Commisceo Global",
+              "publication_year": 2023,
+              "excerpt": "Moroccan communication is often warm, relational, and expressive, but disagreement and commitment become indirect when dignity, hierarchy, or 'hshuma' (shame) are at stake — creating a layered expressive profile.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 59,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.827,
+          "top_supporting_arguments": [
+            "Hierarchical group structures and loyalty norms reduce ambiguity for individuals, reflecting high structure.",
+            "The Hofstede uncertainty avoidance score for Morocco is 68, indicating a moderate-to-high preference for avoiding uncertainty, with strong religious and legal codification structuring daily life.",
+            "Morocco scores very high on uncertainty avoidance — described as scoring two times higher than Asian countries — driven significantly by the role religion plays in providing frameworks for predictability and social order."
+          ],
+          "top_counter_arguments": [
+            "A 2014 academic survey found Morocco's uncertainty avoidance score to be low (2.007 on a 5-point scale), attributing this to cultural fatalism — the notion of 'Maktoub' (it is written) and 'Insha'Allah' reducing psychological anxiety about unpredictability.",
+            "Multiple Moroccan studies (Nouiga 2003, Balambo 2014) characterise Moroccan culture as lower uncertainty avoidance, where unpredictable futures and uncertain situations are met with 'certain controllability' — a fatalistic acceptance rather than rule-driven anxiety reduction.",
+            "Moroccan Arabic speakers display a polychronic attitude to time — indirect, flexible questions about timing and a less rigid view of punctuality — suggesting lower discomfort with temporal unpredictability."
+          ],
+          "why_this_score": "Morocco sits at 59 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~59), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (55) and the CI ceiling (62), so pushing past 59 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (53) and the CI floor (33), so going below 59 would understate the measured signal.",
+          "related_countries": [
+            "Sudan",
+            "Tunisia",
+            "Algeria",
+            "Libya",
+            "Egypt"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c6",
+              "source_id": "turn0search1",
+              "title": "Les dimensions verticales et horizontales de l’individualisme et du collectivisme dans le contexte culturel marocain",
+              "url": "source not displayed",
+              "author": "Hougua BEN AHMED",
+              "publication_year": 2026,
+              "excerpt": "Hierarchical group structures and loyalty norms reduce ambiguity for individuals, reflecting high structure.",
+              "dimension": "D3",
+              "support_direction": "supports_certain"
+            },
+            {
+              "claim_id": "c19",
+              "source_id": "S3",
+              "title": "Management in Morocco through the Hofstede Model (LinkedIn)",
+              "url": "https://www.linkedin.com/pulse/management-morocco-trough-hofstede-model-mohamed-assoud-",
+              "author": "Mohamed Assoud",
+              "publication_year": 2019,
+              "excerpt": "The Hofstede uncertainty avoidance score for Morocco is 68, indicating a moderate-to-high preference for avoiding uncertainty, with strong religious and legal codification structuring daily life.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c20",
+              "source_id": "S6",
+              "title": "Understanding Morocco's Business Culture — Morocco World News",
+              "url": "https://www.moroccoworldnews.com/2017/02/102001/understanding-moroccos-business-culture/",
+              "author": "Morocco World News",
+              "publication_year": 2017,
+              "excerpt": "Morocco scores very high on uncertainty avoidance — described as scoring two times higher than Asian countries — driven significantly by the role religion plays in providing frameworks for predictability and social order.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 47,
+          "confidence": "MEDIUM",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.589,
+          "top_supporting_arguments": [
+            "Young women’s intimate social worlds emphasize crafting subjectivity through relationships, not competition or achievement.",
+            "Sub‑Saharan migrants form tenuous trust‑based relationships oriented toward survival and solidarity, not achievement.",
+            "Hofstede's official score for Morocco on the Masculinity dimension is 53 points — slightly above the midpoint — placing it marginally on the achievement/competitive side, above Egypt (45) and France (43)."
+          ],
+          "top_counter_arguments": [
+            "Morocco's masculinity dimension is described as 'controversial': it shows a masculine side (performance, assertiveness, success) alongside a feminine side (cooperation, mutual aid, prevalence of positive emotions), making the dimension genuinely ambiguous.",
+            "Moroccan culture is undergoing a social transformation shifting from the MAS score of 53 toward more feminine values (47), emphasising social mutuality and concern for well-being — suggesting a long-run drift toward accepting/relational rather than striving/competitive orientation.",
+            "Traditional values emphasize contentment (qana'a) and harmony over relentless pursuit of wealth; many rural communities prioritize relationships and leisure over achievement."
+          ],
+          "why_this_score": "Morocco sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (47) and the CI ceiling (69), so pushing past 47 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (43) and the CI floor (24), so going below 47 would understate the measured signal.",
+          "related_countries": [
+            "Sudan",
+            "Tunisia",
+            "Algeria",
+            "Libya",
+            "Egypt"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c7",
+              "source_id": "turn0search10",
+              "title": "Crafting lives, negotiating ambivalence: love, friendship and intimacy amongst young women in a Moroccan boomtown",
+              "url": "source not displayed",
+              "author": "Laura Menin",
+              "publication_year": 2013,
+              "excerpt": "Young women’s intimate social worlds emphasize crafting subjectivity through relationships, not competition or achievement.",
+              "dimension": "D4",
+              "support_direction": "supports_accepting"
+            },
+            {
+              "claim_id": "c8",
+              "source_id": "turn0search7",
+              "title": "Wasting mbeng: Adventure and Trust Amongst sub‑Saharan Migrants in Morocco",
+              "url": "source not displayed",
+              "author": "Sébastien Bachelet",
+              "publication_year": 2018,
+              "excerpt": "Sub‑Saharan migrants form tenuous trust‑based relationships oriented toward survival and solidarity, not achievement.",
+              "dimension": "D4",
+              "support_direction": "supports_accepting"
+            },
+            {
+              "claim_id": "c26",
+              "source_id": "S3",
+              "title": "Management in Morocco through the Hofstede Model (LinkedIn)",
+              "url": "https://www.linkedin.com/pulse/management-morocco-trough-hofstede-model-mohamed-assoud-",
+              "author": "Mohamed Assoud",
+              "publication_year": 2019,
+              "excerpt": "Hofstede's official score for Morocco on the Masculinity dimension is 53 points — slightly above the midpoint — placing it marginally on the achievement/competitive side, above Egypt (45) and France (43).",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

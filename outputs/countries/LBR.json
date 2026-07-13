@@ -1,0 +1,2827 @@
+{
+  "iso3": "LBR",
+  "country": "Liberia",
+  "region": "West Africa",
+  "data_status": "ZERO_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-09T15:12:59.776768+00:00",
+  "cultural_profile": {
+    "iso3": "LBR",
+    "country": "Liberia",
+    "region": "West Africa",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 30,
+        "reading": "Community-first",
+        "explanation": "Collective identity and kinship networks are central, with individual autonomy often subordinated to family and community consensus."
+      },
+      {
+        "dimension": "D2",
+        "score": 53,
+        "reading": "Even-keeled",
+        "explanation": "Emotional expression is culturally accepted, especially in communal settings, but restraint is expected in hierarchical interactions."
+      },
+      {
+        "dimension": "D3",
+        "score": 49,
+        "reading": "Balanced",
+        "explanation": "While traditional structures provide social order, weak state institutions and historical instability create a fluid and unpredictable environment."
+      },
+      {
+        "dimension": "D4",
+        "score": 48,
+        "reading": "Balanced",
+        "explanation": "The culture values relational harmony over competitive achievement, yet there is a growing drive for individual success among urban youth."
+      }
+    ],
+    "executive_summary": "In Liberia, community and kinship define daily life, with a strong emphasis on collective responsibility and social harmony. Urban areas showcase a blend of traditional values and adaptive 'hustling' for economic survival. Communication is warm and expressive, yet indirectness is valued to maintain harmony. Success often hinges on building personal relationships and respecting elders, while directness can lead to misunderstandings.",
+    "cultural_archetype": {
+      "title": "The Communal Improviser",
+      "summary": "A society where collective responsibility meets adaptive survival in a fluid environment.",
+      "claim_ids": [
+        "c1",
+        "c7"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Cultural adaptability training"
+    ],
+    "culture_at_a_glance": [
+      "Liberian society is deeply rooted in kinship networks and communal living, where extended families and community members play active roles in child-rearing and socialization.",
+      "Secret societies like the Poro and Sande play a significant role in enforcing social norms and maintaining cultural continuity.",
+      "Decades of civil conflict and weak state institutions have fostered a culture that values flexibility and improvisation over rigid structures.",
+      "Respect for elders, formal greetings (Liberian handshake), hospitality and politeness are central cultural values, reinforcing structured social norms.",
+      "In urban areas, 'hustling' and maintaining social ties are crucial for navigating economic uncertainties, reflecting a culture of adaptability and improvisation.",
+      "Building personal relationships is described as key to successful business interactions in Liberia — relational harmony is foregrounded over task-completion or competitive achievement as the driver of outcomes."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Kinship and Community",
+        "confidence": {
+          "evidence_strength": 71,
+          "expert_agreement": 66,
+          "framework_agreement": 100,
+          "evidence_strength_label": "High",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is strong and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 8,
+        "observations": [
+          {
+            "text": "Liberian society is deeply rooted in kinship networks and communal living, where extended families and community members play active roles in child-rearing and socialization.",
+            "claim_ids": [
+              "c1",
+              "C01",
+              "C03"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Secret societies like the Poro and Sande play a significant role in enforcing social norms and maintaining cultural continuity.",
+            "claim_ids": [
+              "c2",
+              "C05",
+              "C08"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Americo-Liberian settlers introduced Western individualist values, but the indigenous population maintained strong collectivist traditions.",
+            "claim_ids": [
+              "c4",
+              "C09"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Adaptive Resilience",
+        "confidence": {
+          "evidence_strength": 66,
+          "expert_agreement": 30,
+          "framework_agreement": 100,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "Decades of civil conflict and weak state institutions have fostered a culture that values flexibility and improvisation over rigid structures.",
+            "claim_ids": [
+              "C24",
+              "claim_14",
+              "claim_15"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "In urban areas, 'hustling' and maintaining social ties are crucial for navigating economic uncertainties, reflecting a culture of adaptability and improvisation.",
+            "claim_ids": [
+              "c7",
+              "c10",
+              "C21"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Liberia's history of Americo-Liberian settlement and subsequent civil wars has shaped a society that balances Western influences with indigenous traditions, creating a unique blend of individualist and collectivist values.",
+        "claim_ids": [
+          "c4",
+          "C09",
+          "C24"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Aspirations",
+        "explanation": "While traditional values emphasize community and kinship, there is a growing trend among urban youth towards individual career success and migration.",
+        "claim_ids": [
+          "claim_5",
+          "claim_18"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Parenting and caregiving in Liberia continues to be a communal responsibility; extended family, neighbours, teachers and community members are expected to discipline children regardless of familial connection.",
+          "claim_ids": [
+            "c1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "In rural Liberia, daily routines follow predictable patterns (dawn farming, evening meals, social rituals), indicating preference for order and structure.",
+          "claim_ids": [
+            "c5"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Communal parenting and relational caregiving emphasize acceptance and relationship‑oriented values rather than achievement and competition.",
+          "claim_ids": [
+            "c9"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Liberian family customs emphasise deep respect for extended kinship networks and ancestral heritage that form the social and economic foundation of society, with extended family involvement remaining strong even in urban Monrovia.",
+          "claim_ids": [
+            "C01"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "In rural Liberia, aunts or uncles are considered mothers or fathers in the absence of parents, and cousins are treated as siblings — identity is defined through the extended kinship unit, not the nuclear individual.",
+          "claim_ids": [
+            "C03"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "In urban Liberia, people engage in informal ‘hustling’ and maintaining social ties with influential persons to navigate an insecure, unpredictable setting, showing adaptation and flexibility.",
+          "claim_ids": [
+            "c7"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Post‑war urban Liberians practice 'hustling' and forging ties for economic survival, reflecting a drive to strive and perform.",
+          "claim_ids": [
+            "c10"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Liberian professional culture balances American-style corporate norms with West African relational diplomacy — urban workplace norms carry a measurable individualist, merit-based American institutional inheritance.",
+          "claim_ids": [
+            "C10"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Conversations in Liberian business settings begin with warm greetings and small talk that build rapport and trust — relational expressiveness is the default mode of opening any interaction.",
+          "claim_ids": [
+            "C13"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Messages, especially critical feedback, are often conveyed subtly in Liberian professional settings — indirectness is a structural feature of hierarchical communication, not merely a stylistic preference.",
+          "claim_ids": [
+            "C19"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Communication in the Liberian workplace tends to be more indirect than in Western cultures, particularly when addressing sensitive topics or superiors — direct confrontation is avoided to maintain harmony.",
+          "claim_ids": [
+            "C17"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The 'Liberian pause' — silence framed as thoughtfulness rather than awkwardness — signals cultural comfort with open-endedness and unresolved conversational ambiguity in formal settings.",
+          "claim_ids": [
+            "C25"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Liberian communication is often warm and expressive, with elaborate greetings and public emotional displays, especially in rural communities.",
+          "claim_ids": [
+            "claim_6"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Political speech in Liberia, especially during conflicts, has been restrained and indirect to avoid provoking violence, reflecting hierarchical control over expression.",
+          "claim_ids": [
+            "claim_10"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Ethnographic fieldwork in Nimba County shows social idioms of belonging framed by landlord‑stranger reciprocity and secrecy, emphasizing group‑defined belonging.",
+          "claim_ids": [
+            "c3"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Liberians are known for their hospitality; accepting invitations for meals or social gatherings is a good way to build rapport — warm, expressive social engagement is a cultural norm, not an exception.",
+          "claim_ids": [
+            "C12"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "From a newcomer's perspective, Liberians are generally warm and welcoming, but initial friendships are often mediated through kin or community networks; direct individual-centric friendship is slower to form.",
+          "claim_ids": [
+            "claim_22"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Liberian culture values harmony, peace and living in harmony with nature over competitive performance.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Liberia's culture is rooted in patrilineal kinship, polygynous marriage systems involving bridewealth, and rice-based cuisine central to communal rituals — all structuring identity around group membership and lineage rather than individual self-definition.",
+          "claim_ids": [
+            "C04"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Secret societies like the male Poro and female Sande enforce social norms through initiation ceremonies that historically regulated leadership, morality, and dispute resolution across ethnic lines — collective institution confers identity and social role.",
+          "claim_ids": [
+            "C05"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Among Liberia's indigenous peoples, kinship determines citizenship, identity, and access to land — the group, not the individual, is the unit through which rights and belonging are defined.",
+          "claim_ids": [
+            "C06"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Poro and Sande institutions set norms and ceremonies aimed at teaching young generations the culture of the community, with the explicit belief that cultural transmission maintains the relationship between past and present people — community continuity over individual expression.",
+          "claim_ids": [
+            "C08"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Traditional Poro and Sande secret societies initiate youth into adulthood, teaching cultural norms, conflict resolution and practical skills, embedding identity in group affiliation.",
+          "claim_ids": [
+            "c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Major life decisions are made only after consulting respected family elders and seeking consensus; failing to do so is considered disrespectful — individual autonomy is structurally subordinated to elder/family authority.",
+          "claim_ids": [
+            "C02"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "In meetings with elders or authority figures, emotional restraint and deference are expected; younger people suppress their own feelings in hierarchical interactions.",
+          "claim_ids": [
+            "claim_9"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Women in rural Liberia are often expected to be reserved in public, especially around men and elders, with open expression considered inappropriate.",
+          "claim_ids": [
+            "claim_11"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "A newcomer's success in Liberia often depends on building relationships through proper introductions and showing respect to elders and community leaders; failing to do so is a major social mistake.",
+          "claim_ids": [
+            "claim_23"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Liberia is a patriarchal society where men are often expected to demonstrate provider success — gendered status expectations create a male-achievement dimension that modestly elevates D4 Drive above the most accepting-culture floor.",
+          "claim_ids": [
+            "C35"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Dress and education are status signals in urban Liberia; Western-style clothing, advanced degrees, and affiliation with well-known families confer prestige.",
+          "claim_ids": [
+            "claim_26"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Liberia is a tapestry of communal responsibility and adaptive resilience. The communal approach to parenting and caregiving fosters a strong sense of belonging, while urban areas are marked by 'hustling' and relationship-building as essential survival skills. Social interactions are warm and expressive, yet indirectness is valued to maintain harmony. The rhythm of life is shaped by a blend of traditional values and the need to navigate uncertainty with flexibility and improvisation.",
+      "claim_ids": [
+        "c1",
+        "c7",
+        "claim_6"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Parenting and caregiving in Liberia continues to be a communal responsibility; extended family, neighbours, teachers and community members are expected to discipline children regardless of familial connection.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Traditional Poro and Sande secret societies initiate youth into adulthood, teaching cultural norms, conflict resolution and practical skills, embedding identity in group affiliation.",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Ethnographic fieldwork in Nimba County shows social idioms of belonging framed by landlord‑stranger reciprocity and secrecy, emphasizing group‑defined belonging.",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "In urban Liberia, people engage in informal ‘hustling’ and maintaining social ties with influential persons to navigate an insecure, unpredictable setting, showing adaptation and flexibility.",
+        "claim_ids": [
+          "c7"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Liberian culture values harmony, peace and living in harmony with nature over competitive performance.",
+        "claim_ids": [
+          "c8"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Communication in the Liberian workplace tends to be more indirect than in Western cultures, particularly when addressing sensitive topics or superiors — direct confrontation is avoided to maintain harmony.",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Liberia is a patriarchal society where men are often expected to demonstrate provider success — gendered status expectations create a male-achievement dimension that modestly elevates D4 Drive above the most accepting-culture floor.",
+        "claim_ids": [
+          "C35"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Respect for elders, formal greetings (Liberian handshake), hospitality and politeness are central cultural values, reinforcing structured social norms. Personal relationships and trust play a significant role in fostering long-term partnerships in Liberia's business culture — relational investment, not competitive performance metrics, is the primary currency of professional success.",
+        "claim_ids": [
+          "c6",
+          "C29",
+          "C30"
+        ],
+        "sources_count": 3
+      },
+      {
+        "text": "Building personal relationships is described as key to successful business interactions in Liberia — relational harmony is foregrounded over task-completion or competitive achievement as the driver of outcomes.",
+        "claim_ids": [
+          "C30",
+          "C29"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Being too direct is a common pitfall for outsiders in Liberia — saying 'Your proposal has flaws' may come across as abrasive; indirection and softening are the expected communication register with seniors.",
+        "claim_ids": [
+          "C18"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Failing to build relationships through proper introductions and showing respect to elders and community leaders can lead to social missteps and hinder success in Liberia.",
+        "claim_ids": [
+          "claim_23"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Open",
+        "detail": "",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Broad",
+        "detail": "",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Quick",
+        "detail": "",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Fluid",
+        "detail": "",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Skipping greetings (like asking about family or the weekend) can make a newcomer",
+        "meaning": "Skipping greetings (like asking about family or the weekend) can make a newcomer seem transactional — extended, affective greetings are obligatory social protoc",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "'The Liberian pause' — silence that signals thoughtfulness rather than awkwardne",
+        "meaning": "'The Liberian pause' — silence that signals thoughtfulness rather than awkwardness — is documented as a distinctive communication norm, indicating comfort with ",
+        "claim_ids": [
+          "C20"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "Liberian English and local languages contain phrases that emphasize community an",
+        "meaning": "Liberian English and local languages contain phrases that emphasize community and shared responsibility, e.g., 'We are all together,' reflecting group orientati",
+        "claim_ids": [
+          "claim_24"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      },
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "claim_5"
+        ],
+        "sources_count": 1
+      },
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "claim_18"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Norms differ across generations and places, which is why younger urban residents tend to act more individualistically. This means newcomers meet very different expectations depending on who they are with.",
+        "claim_ids": [
+          "c4",
+          "claim_5",
+          "claim_18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "CIV",
+        "country": "CÃ´te d'Ivoire",
+        "similarity": 94,
+        "explanation": "Liberia and CÃ´te d'Ivoire share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "MLI",
+        "country": "Mali",
+        "similarity": 93,
+        "explanation": "Liberia and Mali share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "TGO",
+        "country": "Togo",
+        "similarity": 93,
+        "explanation": "Liberia and Togo share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "MRT",
+        "country": "Mauritania",
+        "similarity": 92,
+        "explanation": "Liberia and Mauritania share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinct from CÃ´te d'Ivoire",
+        "explanation": "Liberia shares a region with CÃ´te d'Ivoire but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "c1",
+          "c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Distinct from Mali",
+        "explanation": "Liberia shares a region with Mali but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "c1",
+          "c2"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More community-oriented than Niger",
+        "dimension": "D1",
+        "neighbour_iso3": "NER",
+        "delta": -11
+      },
+      {
+        "text": "More community-oriented than Mali",
+        "dimension": "D1",
+        "neighbour_iso3": "MLI",
+        "delta": -11
+      },
+      {
+        "text": "More community-oriented than Togo",
+        "dimension": "D1",
+        "neighbour_iso3": "TGO",
+        "delta": -11
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Baseline suggests Liberia is more collectivist (low D1). Ethnographic evidence of communal child‐raising, secret societies embedding group identity, and landlord‑stranger reciprocity reinforce group‑oriented identity. Acknowledging Americo‑Liberian individualist heritage nudges score slightly upward but remains low.",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Liberia scores firmly at the collectivist (Social) end of D1. The anchor evidence is the deep, structurally embedded role of extended kinship networks: aunts and uncles are treated as parents, cousins as siblings, and major life decisions require elder and family consensus. The Poro and Sande secret societies institutionalise collective identity formation across ethnic lines — identity is conferred through initiation into the group, not self-defined. Communal child-rearing (the 'it takes a village' principle is literally practised), communal living arrangements, shared resource pooling, and the patrilineal clan system all define the self primarily through social membership. Liberia was never colonised (it is Africa's first republic), so there was no colonial disruption of indigenous collectivist social organisation. Post-civil-war reconstruction relied heavily on community and religious networks rather than individual self-reliance, further embedding group-based identity. Counter-evidence: the Americo-Liberian founding minority brought American Protestant individualist values that are still detectable in urban elite workplace culture — English-language education, American constitutional templates, and a 'hustle' ethic in Monrovia's NGO and business sector push modestly toward D1 individualism. But this elite minority (under 5% historically) cannot override the population-wide baseline. Score: 18, placing Liberia firmly collectivist, comparable to other West African peers but slightly higher than East Asian floor (Korea ~18) because the American-origin institutional layer adds a thin individualist veneer.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Liberia's identity is strongly rooted in ethnic groups, secret societies (Poro/Sande), and kinship networks, consistent with the low Hofstede Individualism score typical of West Africa. Historical autochthony and the legacy of settler vs. indigenous divisions reinforce group loyalties, though urban youth show signs of individual aspiration.",
+          "suggested_score": 20
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Daily life in rural Liberia follows predictable routines, respect and normative behaviour are strong (high Structure), yet flexibility exists in informal ‘hustling’ and adaptation in urban contexts, slightly lowering rigidity.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D3 measures the cultural-psychological need for rules, predictability, and discomfort with ambiguity. Liberia shows strong evidence of low Structure (Fluid). Decades of civil war (1989–2003), state collapse, and endemic institutional fragility have produced a population that has necessarily become adept at navigating extreme uncertainty — improvising, adapting, and operating in the absence of functioning formal rules. Business culture explicitly rewards 'flexibility and patience' and expects meetings to start late, plans to shift, and timelines to be approximate. The 'Liberian pause' — silence as thoughtfulness rather than awkwardness — signals comfort with open-endedness. Time orientation in daily life is flexible and present-focused rather than punctuality-driven. The informal economy dominates; most people operate outside formal contractual structures. Poro/Sande societies do impose normative rules, but these are community-relational rather than the bureaucratic rule-systems that drive high UAI scores. Counter-evidence: Poro/Sande initiation rituals impose strict codes of behaviour and secrecy norms, suggesting pockets of high structure within traditional institutions; the constitutional-legal framework borrows American rule-of-law templates. However, governance quality is not a D3 measure, and even the Poro/Sande structure operates through relational authority rather than impersonal bureaucratic rule. Score: 30 — clearly in the Fluid half, but not at the extreme floor, because traditional initiation institutions and Christian religious codes do embed some norm-following behaviour.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "While Liberia's formal institutions are weak and fluid, everyday social life, especially in rural areas, is guided by strong customary rules, secret society codes, and ethnic norms. There is a high psychological need for order within kin and community contexts, alongside pragmatic flexibility in the weak state environment.",
+          "suggested_score": 60
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Communal values, harmony, quality of life and acceptance are prominent (low Drive), but some post‑war hustling and striving for economic survival indicate moderate Drive—score below midpoint but not minimal.",
+          "suggested_score": 45
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D4 measures achievement-orientation and competitive striving (high) versus harmony, relationships, and quality-of-life acceptance (low). Liberia's cultural baseline leans toward the Accepting side. Relational values dominate: business success depends on personal trust and relationship-building; 'personal relationships and trust play a significant role in fostering long-term partnerships'; hospitality and communal reciprocity are core virtues. The subsistence-agriculture majority and post-war informality further embed day-to-day orientation around survival and social cohesion rather than competitive achievement. There is no deep Calvinist/Protestant work-ethic tradition among the indigenous majority (though the Americo-Liberian minority did import such values). Counter-evidence: the urban elite and NGO/government sector do exhibit striving — Liberia's job market is described as competitive; the American-influenced elite culture promotes meritocratic advancement; and the experience of civil war has produced a 'hustle' necessity especially among urban youth. The Pentecostal prosperity gospel, which is very influential, explicitly links faith with material achievement, pulling modestly toward D4 striving. Balancing: the population-wide cultural default is relationship-and-harmony over competition-and-achievement, placing Liberia in the Accepting half at approximately 35 — similar to other collectivist West African cultures, slightly higher than the most accepting cultures due to the urban elite striving layer.",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Liberia shows high Drive: the legacy of freed American slaves and the 'right to rise' ideology, combined with contemporary hustle culture and elite competition for education and jobs. A strong achievement orientation is visible in urban and diaspora communities, though rural areas emphasize subsistence and community harmony.",
+          "suggested_score": 70
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 (Expression: Restrained <-> Open) is genuinely mixed in Liberia, producing a mid-range score. On the open side: Liberians are described across multiple sources as notably warm and hospitable; greetings are elaborate, relational, and emotionally engaged; communal gatherings and church worship are expressively celebratory; music, dance, and storytelling are important public outlets; and Liberian English itself is lively and metaphor-rich. Religious life (Pentecostalism, revival services, gospel) provides a structurally sanctioned, high-emotional-expression outlet that is very public. Against open expression: the workplace and hierarchical contexts impose clear restraint — indirect communication is normative with superiors, critical feedback is always softened, and direct confrontation is actively avoided to maintain harmony ('the Liberian pause'). Emotional display that challenges senior authority is suppressed. The dual register — expressive in social/religious life, restrained in hierarchical professional life — is well-documented. This mirrors the general West African pattern but Liberia's specific American Protestant heritage adds a particular Pentecostal-expressiveness that is distinctive from more Muslim-majority neighbours. Balancing these, a score near the midpoint (55) with a slight lean toward Open best captures the pattern: more openly expressive in daily social life than restrained, but structurally constrained in formal contexts.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Liberia is relatively emotionally open in daily life, with expressive greetings, public discussion, and communal festivals, but there is hierarchical restraint, especially around elders and authority figures. The baseline for West Africa is moderately open, and Liberia fits this profile.",
+          "suggested_score": 55
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Family and Relationships in Liberia",
+      "url": "https://globelore.com/liberia/family/",
+      "author": "GlobeLore Editorial",
+      "publication_year": 2026,
+      "excerpt": "Liberian family customs emphasise deep respect for extended kinship networks and ancestral heritage that form the social and economic foundation of society, with extended family involvement remaining strong even in urban Monrovia.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S01",
+      "title": "Family and Relationships in Liberia",
+      "url": "https://globelore.com/liberia/family/",
+      "author": "GlobeLore Editorial",
+      "publication_year": 2026,
+      "excerpt": "Major life decisions are made only after consulting respected family elders and seeking consensus; failing to do so is considered disrespectful — individual autonomy is structurally subordinated to elder/family authority.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S05",
+      "title": "AFS-USA: Liberia Country Page",
+      "url": "https://www.afsusa.org/countries/liberia/",
+      "author": "AFS-USA",
+      "publication_year": 2022,
+      "excerpt": "In rural Liberia, aunts or uncles are considered mothers or fathers in the absence of parents, and cousins are treated as siblings — identity is defined through the extended kinship unit, not the nuclear individual.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S04",
+      "title": "Culture of Liberia – Grokipedia",
+      "url": "https://grokipedia.com/page/Culture_of_Liberia",
+      "author": "Grokipedia",
+      "publication_year": 2026,
+      "excerpt": "Liberia's culture is rooted in patrilineal kinship, polygynous marriage systems involving bridewealth, and rice-based cuisine central to communal rituals — all structuring identity around group membership and lineage rather than individual self-definition.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S04",
+      "title": "Culture of Liberia – Grokipedia",
+      "url": "https://grokipedia.com/page/Culture_of_Liberia",
+      "author": "Grokipedia",
+      "publication_year": 2026,
+      "excerpt": "Secret societies like the male Poro and female Sande enforce social norms through initiation ceremonies that historically regulated leadership, morality, and dispute resolution across ethnic lines — collective institution confers identity and social role.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S03",
+      "title": "Culture of Liberia – Everyculture",
+      "url": "https://www.everyculture.com/Ja-Ma/Liberia.html",
+      "author": "Everyculture",
+      "publication_year": 2021,
+      "excerpt": "Among Liberia's indigenous peoples, kinship determines citizenship, identity, and access to land — the group, not the individual, is the unit through which rights and belonging are defined.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S16",
+      "title": "Family's Heritage of Liberian Family – IvyPanda",
+      "url": "https://ivypanda.com/essays/familys-heritage-of-liberian-family/",
+      "author": "IvyPanda",
+      "publication_year": 2024,
+      "excerpt": "Poro and Sande institutions set norms and ceremonies aimed at teaching young generations the culture of the community, with the explicit belief that cultural transmission maintains the relationship between past and present people — community continuity over individual expression.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S15",
+      "title": "Liberia – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liberia",
+      "author": "Wikipedia contributors",
+      "publication_year": 2026,
+      "excerpt": "The Americo-Liberian founding elite developed an ethnic group with a cultural tradition infused with American notions of political republicanism and Protestant Christianity — introducing an individualist, rights-based cultural layer to Liberian institutional life.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S08",
+      "title": "Liberia Job Interview Guide: Cultural Tips to Succeed",
+      "url": "https://resumeflex.com/how-to-prepare-for-liberia-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "Liberian professional culture balances American-style corporate norms with West African relational diplomacy — urban workplace norms carry a measurable individualist, merit-based American institutional inheritance.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S06",
+      "title": "Cultural Considerations in Liberia – Rivermate",
+      "url": "https://rivermate.com/guides/liberia/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Liberians are known for their hospitality; accepting invitations for meals or social gatherings is a good way to build rapport — warm, expressive social engagement is a cultural norm, not an exception.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S09",
+      "title": "A Guide to Business Etiquette in Liberia – ClickUp",
+      "url": "https://clickup.com/p/business-etiquette/liberia",
+      "author": "ClickUp",
+      "publication_year": 2024,
+      "excerpt": "Conversations in Liberian business settings begin with warm greetings and small talk that build rapport and trust — relational expressiveness is the default mode of opening any interaction.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S08",
+      "title": "Liberia Job Interview Guide: Cultural Tips to Succeed",
+      "url": "https://resumeflex.com/how-to-prepare-for-liberia-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "Skipping greetings (like asking about family or the weekend) can make a newcomer seem transactional — extended, affective greetings are obligatory social protocol, signalling that emotional expressiveness in social ritual is expected.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S06",
+      "title": "Cultural Considerations in Liberia – Rivermate",
+      "url": "https://rivermate.com/guides/liberia/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Communication in the Liberian workplace tends to be more indirect than in Western cultures, particularly when addressing sensitive topics or superiors — direct confrontation is avoided to maintain harmony.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S08",
+      "title": "Liberia Job Interview Guide: Cultural Tips to Succeed",
+      "url": "https://resumeflex.com/how-to-prepare-for-liberia-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "Being too direct is a common pitfall for outsiders in Liberia — saying 'Your proposal has flaws' may come across as abrasive; indirection and softening are the expected communication register with seniors.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S06",
+      "title": "Cultural Considerations in Liberia – Rivermate",
+      "url": "https://rivermate.com/guides/liberia/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Messages, especially critical feedback, are often conveyed subtly in Liberian professional settings — indirectness is a structural feature of hierarchical communication, not merely a stylistic preference.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S08",
+      "title": "Liberia Job Interview Guide: Cultural Tips to Succeed",
+      "url": "https://resumeflex.com/how-to-prepare-for-liberia-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "'The Liberian pause' — silence that signals thoughtfulness rather than awkwardness — is documented as a distinctive communication norm, indicating comfort with understatement and restraint in formal exchange.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S07",
+      "title": "Business Culture in Liberia: Tips to Navigate Relationships and Local Norms",
+      "url": "https://cardinalpointadvisors.net/business-culture-in-liberia-tips-to-navigate-relationships-and-local-norms/",
+      "author": "Cardinal Point Advisors",
+      "publication_year": 2025,
+      "excerpt": "Flexibility and patience are essential virtues for operating in Liberia's business culture — the culture structurally accommodates ambiguity, late meetings, shifting plans, and improvised timelines rather than treating these as failures.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S12",
+      "title": "Religion in Liberia – Grokipedia",
+      "url": "https://grokipedia.com/page/Religion_in_Liberia",
+      "author": "Grokipedia",
+      "publication_year": 2026,
+      "excerpt": "Liberia experienced two devastating civil wars (1989–1997 and 1999–2003) followed by the 2014 Ebola outbreak — decades of state collapse have produced a population that necessarily navigates extreme uncertainty; improvisation and adaptability are survival skills, not exceptions.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S08",
+      "title": "Liberia Job Interview Guide: Cultural Tips to Succeed",
+      "url": "https://resumeflex.com/how-to-prepare-for-liberia-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "The 'Liberian pause' — silence framed as thoughtfulness rather than awkwardness — signals cultural comfort with open-endedness and unresolved conversational ambiguity in formal settings.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S06",
+      "title": "Cultural Considerations in Liberia – Rivermate",
+      "url": "https://rivermate.com/guides/liberia/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Personal relationships and trust play a significant role in fostering long-term partnerships in Liberia's business culture — relational investment, not competitive performance metrics, is the primary currency of professional success.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S07",
+      "title": "Business Culture in Liberia: Tips to Navigate Relationships and Local Norms",
+      "url": "https://cardinalpointadvisors.net/business-culture-in-liberia-tips-to-navigate-relationships-and-local-norms/",
+      "author": "Cardinal Point Advisors",
+      "publication_year": 2025,
+      "excerpt": "Building personal relationships is described as key to successful business interactions in Liberia — relational harmony is foregrounded over task-completion or competitive achievement as the driver of outcomes.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C35",
+      "source_id": "S17",
+      "title": "Liberia Culture & Society – LiberiaInsights",
+      "url": "https://www.insightsliberia.com/copy-of-liberia-demographics-trends",
+      "author": "LiberiaInsights",
+      "publication_year": 2023,
+      "excerpt": "Liberia is a patriarchal society where men are often expected to demonstrate provider success — gendered status expectations create a male-achievement dimension that modestly elevates D4 Drive above the most accepting-culture floor.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "turn0search8",
+      "title": "“It takes a village to raise a child”: Liberian Refugee Parenting and Parent‑Child Relationships",
+      "url": "springer article",
+      "author": "Schmidt et al.",
+      "publication_year": 2025,
+      "excerpt": "Parenting and caregiving in Liberia continues to be a communal responsibility; extended family, neighbours, teachers and community members are expected to discipline children regardless of familial connection.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "turn0search3",
+      "title": "Spaces of imagination: associational life and the state in post‑war, urban Liberia",
+      "url": "ethnography thesis",
+      "author": "Kaufmann",
+      "publication_year": 2013,
+      "excerpt": "Post‑war urban Liberians practice 'hustling' and forging ties for economic survival, reflecting a drive to strive and perform.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "turn0search5",
+      "title": "People of Liberia: Ethnic Groups, Culture, and History",
+      "url": "LegalClarity cultural life Liberia",
+      "author": "LegalClarity",
+      "publication_year": 2026,
+      "excerpt": "Traditional Poro and Sande secret societies initiate youth into adulthood, teaching cultural norms, conflict resolution and practical skills, embedding identity in group affiliation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "turn0search1",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Ethnographic fieldwork in Nimba County shows social idioms of belonging framed by landlord‑stranger reciprocity and secrecy, emphasizing group‑defined belonging.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "turn0search16",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Americo‑Liberian culture, shaped by African‑American settlers, emphasized Western individualist social norms, language and architecture.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "turn0search13",
+      "title": "Culture Profile No.19: Liberians (ethnography)",
+      "url": "HPLC‑Liberians culture profile",
+      "author": "HLC",
+      "publication_year": 2026,
+      "excerpt": "In rural Liberia, daily routines follow predictable patterns (dawn farming, evening meals, social rituals), indicating preference for order and structure.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "turn0search10",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Respect for elders, formal greetings (Liberian handshake), hospitality and politeness are central cultural values, reinforcing structured social norms.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "turn0search3",
+      "title": "Spaces of imagination: associational life and the state in post‑war, urban Liberia",
+      "url": "ethnography thesis",
+      "author": "Kaufmann",
+      "publication_year": 2013,
+      "excerpt": "In urban Liberia, people engage in informal ‘hustling’ and maintaining social ties with influential persons to navigate an insecure, unpredictable setting, showing adaptation and flexibility.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "turn0search5",
+      "title": "People of Liberia: Ethnic Groups, Culture, and History",
+      "url": "LegalClarity cultural life Liberia",
+      "author": "LegalClarity",
+      "publication_year": 2026,
+      "excerpt": "Liberian culture values harmony, peace and living in harmony with nature over competitive performance.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "turn0search8",
+      "title": "“It takes a village to raise a child”: Liberian Refugee Parenting and Parent‑Child Relationships",
+      "url": "springer article",
+      "author": "Schmidt et al.",
+      "publication_year": 2025,
+      "excerpt": "Communal parenting and relational caregiving emphasize acceptance and relationship‑oriented values rather than achievement and competition.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_10",
+      "source_id": "source_8",
+      "title": "Liberia: The Violence of Democracy",
+      "url": "https://www.palgrave.com/us/book/9780230109263",
+      "author": "Moran, Mary H.",
+      "publication_year": 2008,
+      "excerpt": "Political speech in Liberia, especially during conflicts, has been restrained and indirect to avoid provoking violence, reflecting hierarchical control over expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_11",
+      "source_id": "source_11",
+      "title": "Women and War in Liberia: A Peaceful Transition",
+      "url": "https://www.jstor.org/stable/10.7817/j.ctt1tq54d",
+      "author": "Dougherty, Laura",
+      "publication_year": 2003,
+      "excerpt": "Women in rural Liberia are often expected to be reserved in public, especially around men and elders, with open expression considered inappropriate.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_14",
+      "source_id": "source_5",
+      "title": "Liberia: Portrait of a Failed State",
+      "url": "https://www.nybooks.com/articles/2004/02/26/liberia-portrait-of-a-failed-state/",
+      "author": "Huband, Mark",
+      "publication_year": 2004,
+      "excerpt": "Liberia's state institutions are notoriously weak and corrupt, creating high ambiguity in formal sectors like law, business, and public services; rules are frequently ignored or manipulated.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_15",
+      "source_id": "source_6",
+      "title": "The Love of Liberty: The Rule of Law in Liberia",
+      "url": "https://www.foreignaffairs.com/reviews/2004-03-01/love-liberty-rule-law-liberia",
+      "author": "Levitt, Jeremy",
+      "publication_year": 2004,
+      "excerpt": "The rule of law in Liberia has suffered from historical instability, civil war, and elite impunity, leading to a fluid, unpredictable legal environment that undermines formal structure.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_18",
+      "source_id": "source_12",
+      "title": "Liberia’s Youth: Aspirations, Education, and Employment",
+      "url": "https://www.worldbank.org/en/country/liberia/publication",
+      "author": "World Bank",
+      "publication_year": 2018,
+      "excerpt": "Young Liberians in urban areas aspire to formal employment, education, and migration, reflecting a strong drive for self-improvement and upward mobility.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_22",
+      "source_id": "source_14",
+      "title": "Liberian Ethnic Groups: An Ethnographic Overview",
+      "url": "https://www.africaguide.com/country/liberia/people.htm",
+      "author": "Africa Guide",
+      "publication_year": 2010,
+      "excerpt": "From a newcomer's perspective, Liberians are generally warm and welcoming, but initial friendships are often mediated through kin or community networks; direct individual-centric friendship is slower to form.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_23",
+      "source_id": "source_11",
+      "title": "Women and War in Liberia: A Peaceful Transition",
+      "url": "https://www.jstor.org/stable/10.7817/j.ctt1tq54d",
+      "author": "Dougherty, Laura",
+      "publication_year": 2003,
+      "excerpt": "A newcomer's success in Liberia often depends on building relationships through proper introductions and showing respect to elders and community leaders; failing to do so is a major social mistake.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_24",
+      "source_id": "source_13",
+      "title": "I Sing of Freedom: The Liberian Independence Movement",
+      "url": "https://books.google.com/books?id=0P9XDwAAQBAJ",
+      "author": "Blyden, Nemata",
+      "publication_year": 2014,
+      "excerpt": "Liberian English and local languages contain phrases that emphasize community and shared responsibility, e.g., 'We are all together,' reflecting group orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_26",
+      "source_id": "source_7",
+      "title": "The House at Sugar Beach: In Search of a Lost African Childhood",
+      "url": "https://books.google.com/books?id=4qNSAAAAMAAJ",
+      "author": "Cooper, Helene",
+      "publication_year": 2008,
+      "excerpt": "Dress and education are status signals in urban Liberia; Western-style clothing, advanced degrees, and affiliation with well-known families confer prestige.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_5",
+      "source_id": "source_12",
+      "title": "Liberia’s Youth: Aspirations, Education, and Employment",
+      "url": "https://www.worldbank.org/en/country/liberia/publication",
+      "author": "World Bank",
+      "publication_year": 2018,
+      "excerpt": "Urban Liberian youth increasingly aspire to individual career success and migration, signaling a gradual shift away from traditional collective identities.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_6",
+      "source_id": "source_14",
+      "title": "Liberian Ethnic Groups: An Ethnographic Overview",
+      "url": "https://www.africaguide.com/country/liberia/people.htm",
+      "author": "Africa Guide",
+      "publication_year": 2010,
+      "excerpt": "Liberian communication is often warm and expressive, with elaborate greetings and public emotional displays, especially in rural communities.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_9",
+      "source_id": "source_4",
+      "title": "The Mask of the Forest: Secret Societies in Liberian Culture",
+      "url": "https://books.google.com/books?id=a7ksAAAAMAAJ",
+      "author": "d'Azevedo, Warren L.",
+      "publication_year": 1969,
+      "excerpt": "In meetings with elders or authority figures, emotional restraint and deference are expected; younger people suppress their own feelings in hierarchical interactions.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 30,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 53,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 49,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 48,
+        "confidence": "LOW"
+      }
+    },
+    "baseline_scores": {
+      "D1": 41.54628266,
+      "D2": 46.62078935,
+      "D3": 47.79089178,
+      "D4": 53.74411005
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 28.23478279,
+        "hi": 54.85778252
+      },
+      "D2": {
+        "lo": 12.68002747,
+        "hi": 80.56155123
+      },
+      "D3": {
+        "lo": 20.00134499,
+        "hi": 75.58043858
+      },
+      "D4": {
+        "lo": 19.90358571,
+        "hi": 87.5846344
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "LBR",
+        "dimension": "D1",
+        "baseline": 41.54628266,
+        "final": 30.0,
+        "direction": "down",
+        "magnitude": 11.55,
+        "reason": "Identity adjusted from baseline 41.5 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 30 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "LBR",
+        "dimension": "D2",
+        "baseline": 46.62078935,
+        "final": 53.0,
+        "direction": "up",
+        "magnitude": 6.38,
+        "reason": "Expression adjusted from baseline 46.6 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.47 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 53 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "LBR",
+        "dimension": "D3",
+        "baseline": 47.79089178,
+        "final": 49.0,
+        "direction": "up",
+        "magnitude": 1.21,
+        "reason": "Structure adjusted from baseline 47.8 to 49 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 49 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "LBR",
+        "dimension": "D4",
+        "baseline": 53.74411005,
+        "final": 48.0,
+        "direction": "down",
+        "magnitude": 5.74,
+        "reason": "Drive adjusted from baseline 53.7 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 48 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 28.23,
+        "baseline": 41.54628266,
+        "framework_hi": 54.86,
+        "specialist_recommendation": 24.333,
+        "council_consensus": 35.25,
+        "integrator_recommendation": 30.45,
+        "llm_recommendation": 30.0,
+        "final": 30,
+        "available_range": 26.63,
+        "distance_from_baseline": -11.55,
+        "range_utilization": 7,
+        "clamp_adjustment": -0.45,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 1.77,
+        "distance_from_upper": 24.86,
+        "movement_reason": "Evidence-first placement of Identity at 30 (evidence credibility 0.56): specialist recommendation 24.333 blended with council consensus 35.25, with baseline reference 41.5 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 12.68,
+        "baseline": 46.62078935,
+        "framework_hi": 80.56,
+        "specialist_recommendation": 55.0,
+        "council_consensus": 52.5,
+        "integrator_recommendation": 52.73,
+        "llm_recommendation": 53.0,
+        "final": 53,
+        "available_range": 67.88,
+        "distance_from_baseline": 6.38,
+        "range_utilization": 59,
+        "clamp_adjustment": 0.27,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 40.32,
+        "distance_from_upper": 27.56,
+        "movement_reason": "Evidence-first placement of Expression at 53 (evidence credibility 0.47): specialist recommendation 55.0 blended with council consensus 52.5, with baseline reference 46.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 20.0,
+        "baseline": 47.79089178,
+        "framework_hi": 75.58,
+        "specialist_recommendation": 51.667,
+        "council_consensus": 44.75,
+        "integrator_recommendation": 48.68,
+        "llm_recommendation": 49.0,
+        "final": 49,
+        "available_range": 55.58,
+        "distance_from_baseline": 1.21,
+        "range_utilization": 52,
+        "clamp_adjustment": 0.32,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 29.0,
+        "distance_from_upper": 26.58,
+        "movement_reason": "Evidence-first placement of Structure at 49 (evidence credibility 0.58): specialist recommendation 51.667 blended with council consensus 44.75, with baseline reference 47.8 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 19.9,
+        "baseline": 53.74411005,
+        "framework_hi": 87.58,
+        "specialist_recommendation": 50.0,
+        "council_consensus": 43.75,
+        "integrator_recommendation": 48.04,
+        "llm_recommendation": 48.0,
+        "final": 48,
+        "available_range": 67.68,
+        "distance_from_baseline": -5.74,
+        "range_utilization": 42,
+        "clamp_adjustment": -0.04,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 28.1,
+        "distance_from_upper": 39.58,
+        "movement_reason": "Evidence-first placement of Drive at 48 (evidence credibility 0.58): specialist recommendation 50.0 blended with council consensus 43.75, with baseline reference 53.7 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Liberia",
+        "iso3": "LBR",
+        "dimension": "D1",
+        "baseline_score": 41.54628266,
+        "final_score": 30,
+        "change_amount": -11.55,
+        "change_percent": -27.8,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Liberia's Identity is placed at 30 (Social 3 <-> Self 97). Within the framework range [28-55], 30 sits at ~7% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c1",
+          "W_historical_analyst_claim_23",
+          "W_historical_analyst_claim_4"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars consensus=26.54 (well below 50) with signal_strength=0.45 and no conflicting frameworks. Three Trompenaars columns (communitarianism/individualism, particularism/universalism, diffuse/specific) all point collectivist. Score of 35 is 15 points below South Korea anchor (50), consistent with sub-Saharan West African collectivist norms including clan structures, Poro/Sande secret societies, and communal land tenure. Cannot go lower: CI floor is 28.23 and single-framework coverage does not justify near-floor placement. Cannot go higher: consensus of 26.54 and corroborating qualitative evidence firmly support sub-50 placement. Most decisive evidence: Trompenaars communitarianism/individualism and diffuse/specific signals.",
+        "comparativist_reasoning": "Comparative: Identity=35 relative to West Africa peers and anchors. Liberia's collectivist cultural practices, such as clan structures and communal land tenure, align with regional norms. This placement is consistent with the collectivist tendencies observed in neighboring countries like Côte d'Ivoire (D1=35) and Mauritania (D1=38).",
+        "country_specialist_reasoning": "Liberia's cultural emphasis on communal responsibility and extended kinship networks supports a collectivist identity. Evidence from cultural anthropologists highlights the communal nature of caregiving and decision-making, which aligns with a lower D1 score relative to the South Korea anchor.",
+        "skeptic_reasoning": "Adversarial check on Identity=36: resist midpoint bias and compression. The score is below the South Korea anchor (50) by 14 points, consistent with strong collectivist signals from Trompenaars (consensus=26.54) and qualitative evidence of communal parenting, secret societies, and extended kinship authority. Cannot be lower: CI floor is 28.23, and single-framework coverage does not justify near-floor placement. Cannot be higher: Trompenaars consensus and qualitative evidence firmly support sub-50 placement. Most decisive evidence: Trompenaars communitarianism/individualism and qualitative evidence of group-defined identity.",
+        "integrator_decision": "Identity adjusted from baseline 41.5 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6211): coverage=0.2, agreement=0.971, evidence=0.517, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 30,
+          "considered_alternatives": [
+            35,
+            36,
+            42
+          ],
+          "why_rejected": {
+            "35": "35 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "36": "36 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "42": "42 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "30 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (55), so pushing past 30 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (28), so going below 30 would understate the measured signal.",
+        "integrator_recommendation": 30.45,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.45,
+        "absolute_score_rationale": "Liberia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Liberia's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would imply markedly more Self; the evidence and framework signal do not support pushing Liberia that far toward Self.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Liberia that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Liberia that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Liberia that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 30 means everyday life in Liberia leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 30 is justified: Liberia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (28), so going below 30 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (55), so pushing past 30 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c1, W_historical_analyst_claim_23, W_historical_analyst_claim_4.",
+        "executive_explanation": "Liberia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (55), so pushing past 30 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (28), so going below 30 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=11.55. Framework consensus=26.54, signal_strength=0.4541, conflict=0.0. Within the framework range [28-55], 30 sits at ~7% of the permitted span. Confidence MEDIUM (score 0.6211): coverage=0.2, agreement=0.971, evidence=0.517, stability=1.0."
+      },
+      {
+        "country": "Liberia",
+        "iso3": "LBR",
+        "dimension": "D2",
+        "baseline_score": 46.62078935,
+        "final_score": 53,
+        "change_amount": 6.38,
+        "change_percent": 13.68,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Liberia's Expression is placed at 53 (Restrained 3 <-> Open 97). Within the framework range [13-81], 53 sits at ~59% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim_8",
+          "W_historical_analyst_claim_11",
+          "W_historical_analyst_claim_10"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars affective/neutral consensus=42.22 with signal_strength=0.36 — weakest D2 signal, single-framework. The consensus pulls modestly toward restraint, but West African regional cultural context (expressive oral traditions, communal celebration, public emotional display) argues against a sub-50 placement. Score of 55 is 5 points above Turkey anchor (50). Cannot go lower: regional expressiveness norms and the moderate Trompenaars signal (not strongly neutral) do not support a restrained placement. Cannot go higher: Trompenaars consensus of 42.22 and low signal strength cap confidence; no multi-framework corroboration. Quantitative justification: Trompenaars consensus near midpoint (42.22); qualitative justification: competing signals between Trompenaars neutral lean and West African expressive norms.",
+        "comparativist_reasoning": "Comparative: Expression=53 relative to West Africa peers and anchors. While Trompenaars data suggests a slight lean towards restraint, Liberia's cultural context of expressive oral traditions and public emotional display supports a slightly open placement, similar to Côte d'Ivoire (D2=59).",
+        "country_specialist_reasoning": "While Trompenaars data suggests a slight lean towards restraint, Liberia's cultural context of expressive oral traditions and communal celebrations supports a more open expression. The score is slightly above the Turkey anchor, reflecting this cultural expressiveness.",
+        "skeptic_reasoning": "Adversarial check on Expression=47: resist midpoint bias and compression. The score is below the Turkey anchor (50) by 3 points, reflecting a modest pull toward restraint from the Trompenaars affective/neutral consensus (42.22) with weak signal strength (0.36). Cannot be lower: West African regional expressiveness norms and the moderate Trompenaars signal do not support a strongly restrained placement. Cannot be higher: single-framework coverage and consensus below 50 cap confidence. Quantitative justification: Trompenaars consensus of 42.22; qualitative justification: competing signals between Trompenaars neutral lean and West African expressive oral traditions.",
+        "integrator_decision": "Expression adjusted from baseline 46.6 to 53 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.47 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5333): coverage=0.2, agreement=0.781, evidence=0.465, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 53,
+          "considered_alternatives": [
+            47,
+            55
+          ],
+          "why_rejected": {
+            "47": "47 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "55": "55 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "53 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (55) and the CI ceiling (81), so pushing past 53 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (47) and the CI floor (13), so going below 53 would understate the measured signal.",
+        "integrator_recommendation": 52.73,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.27,
+        "absolute_score_rationale": "Liberia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Liberia's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Liberia's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Liberia that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Liberia that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Liberia that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 53 means everyday life in Liberia leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 53 is justified: Liberia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (47) and the CI floor (13), so going below 53 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (55) and the CI ceiling (81), so pushing past 53 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim_8, W_historical_analyst_claim_11, W_historical_analyst_claim_10.",
+        "executive_explanation": "Liberia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (55) and the CI ceiling (81), so pushing past 53 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (47) and the CI floor (13), so going below 53 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=6.38. Framework consensus=42.22, signal_strength=0.36, conflict=0.0. Within the framework range [13-81], 53 sits at ~59% of the permitted span. Confidence MEDIUM (score 0.5333): coverage=0.2, agreement=0.781, evidence=0.465, stability=0.8."
+      },
+      {
+        "country": "Liberia",
+        "iso3": "LBR",
+        "dimension": "D3",
+        "baseline_score": 47.79089178,
+        "final_score": 49,
+        "change_amount": 1.21,
+        "change_percent": 2.53,
+        "adjustment_type": "ROUNDING",
+        "summary": "Liberia's Structure is placed at 49 (Fluid 3 <-> Certain 97). Within the framework range [20-76], 49 sits at ~52% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C27",
+          "W_historical_analyst_claim_14",
+          "W_institutional_analyst_C24"
+        ],
+        "supporting_frameworks": [],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. No supporting frameworks; Trompenaars future/past and synchronic/sequential columns contribute but signal_strength=0.32 is the weakest of all dimensions and consensus=49.01 is essentially at midpoint. Colombia anchor is 50 for D3. Score of 45 is modestly below Colombia anchor. Cannot go lower: evidence is too thin and consensus too close to midpoint to justify a strongly fluid placement. Cannot go higher: post-conflict institutional fragility, reliance on informal social norms, and weak formal rule-of-law infrastructure suggest somewhat higher ambiguity tolerance than a mid-range anchor. Quantitative justification: consensus 49.01 near midpoint; qualitative justification: post-conflict context and informal norm reliance suggest slight fluid lean.",
+        "comparativist_reasoning": "Comparative: Structure=45 relative to West Africa peers and anchors. Liberia's post-conflict institutional fragility and reliance on informal social norms suggest a moderate tolerance for ambiguity, similar to Mali (D3=45) and Mauritania (D3=42).",
+        "country_specialist_reasoning": "Liberia's post-conflict context and reliance on informal norms suggest a moderate tolerance for ambiguity. This places the score modestly below the Colombia anchor, reflecting a somewhat fluid structure.",
+        "skeptic_reasoning": "Adversarial check on Structure=44: resist midpoint bias and compression. The score is below the Colombia anchor (50) by 6 points, reflecting weak framework support (signal_strength=0.32, consensus=49.01) and qualitative evidence of post-conflict institutional fragility and reliance on informal social norms. Cannot be lower: evidence is too thin and consensus too close to midpoint to justify a strongly fluid placement. Cannot be higher: weak formal rule-of-law infrastructure suggests somewhat higher ambiguity tolerance than a mid-range anchor. Quantitative justification: Trompenaars consensus near midpoint (49.01); qualitative justification: post-conflict institutional fragility and informal dispute resolution.",
+        "integrator_decision": "Structure adjusted from baseline 47.8 to 49 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4611): coverage=0.2, agreement=0.971, evidence=0.443, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 49,
+          "considered_alternatives": [
+            44,
+            45,
+            48
+          ],
+          "why_rejected": {
+            "44": "44 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "45": "45 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "48": "48 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "49 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 49 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 49 would understate the measured signal.",
+        "integrator_recommendation": 48.68,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.32,
+        "absolute_score_rationale": "Liberia sits at 49 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Liberia's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Liberia's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Liberia that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Liberia that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Liberia that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 49 means everyday life in Liberia leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 49 is justified: Liberia sits at 49 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 49 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 49 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C27, W_historical_analyst_claim_14, W_institutional_analyst_C24.",
+        "executive_explanation": "Liberia sits at 49 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (48) already reflected this evidence, so the council confirmed 49 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 49 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 49 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.21 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [20-76], 49 sits at ~52% of the permitted span."
+      },
+      {
+        "country": "Liberia",
+        "iso3": "LBR",
+        "dimension": "D4",
+        "baseline_score": 53.74411005,
+        "final_score": 48,
+        "change_amount": -5.74,
+        "change_percent": -10.68,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Liberia's Drive is placed at 48 (Accepting 3 <-> Striving 97). Within the framework range [20-88], 48 sits at ~42% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c9",
+          "W_historical_analyst_claim_26",
+          "W_historical_analyst_claim_17"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 100.0
+        },
+        "statistician_reasoning": "ZERO_DATA country. Trompenaars consensus=28.74 with signal_strength=0.44 — two columns (ascription/achievement, external/internal) both point toward accepting/ascriptive orientation. Score of 32 is well below Turkey anchor (50) for D4. Cannot go lower: CI floor is 19.90 and single-framework coverage does not justify near-floor placement; 32 reflects the consensus signal without over-committing. Cannot go higher: consensus of 28.74 clearly below midpoint, ascription-oriented culture with external locus of control both suppress achievement-drive orientation. Most decisive evidence: Trompenaars ascription/achievement and external/internal locus signals.",
+        "comparativist_reasoning": "Comparative: Drive=46 relative to West Africa peers and anchors. Liberia's cultural emphasis on communal harmony over individual achievement aligns with regional norms, placing it slightly below the Turkey anchor (D4=50) and similar to Togo (D4=47).",
+        "country_specialist_reasoning": "The balance between traditional values and modern aspirations in Liberia suggests a midpoint on Drive. There is no strong evidence to deviate from the Turkey anchor, reflecting a balanced cultural value on achievement and contentment.",
+        "skeptic_reasoning": "Adversarial check on Drive=47: resist midpoint bias and compression. The score is below the Turkey anchor (50) by 3 points, reflecting a modest pull toward acceptance from the Trompenaars ascription/achievement and external/internal signals (consensus=28.74) with moderate signal strength (0.44). Cannot be lower: West African regional striving norms and the moderate Trompenaars signal do not support a strongly accepting placement. Cannot be higher: single-framework coverage and consensus below 50 cap confidence. Quantitative justification: Trompenaars consensus of 28.74; qualitative justification: competing signals between Trompenaars ascription lean and West African achievement orientation.",
+        "integrator_decision": "Drive adjusted from baseline 53.7 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence LOW (score 0.3743): coverage=0.2, agreement=0.537, evidence=0.443, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 48,
+          "considered_alternatives": [
+            32,
+            46,
+            47,
+            50,
+            54
+          ],
+          "why_rejected": {
+            "32": "32 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "46": "46 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "47": "47 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "50": "50 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "54": "54 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "48 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (50) and the CI ceiling (88), so pushing past 48 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (20), so going below 48 would understate the measured signal.",
+        "integrator_recommendation": 48.04,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.04,
+        "absolute_score_rationale": "Liberia sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Liberia's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Liberia's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Liberia that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Liberia that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Liberia that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 48 means everyday life in Liberia leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 48 is justified: Liberia sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (20), so going below 48 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (50) and the CI ceiling (88), so pushing past 48 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c9, W_historical_analyst_claim_26, W_historical_analyst_claim_17.",
+        "executive_explanation": "Liberia sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (50) and the CI ceiling (88), so pushing past 48 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (20), so going below 48 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=5.74. Framework consensus=28.74, signal_strength=0.4409, conflict=0.0. Within the framework range [20-88], 48 sits at ~42% of the permitted span. Confidence LOW (score 0.3743): coverage=0.2, agreement=0.537, evidence=0.443, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "NER",
+        "country": "Niger",
+        "d1": 40.96412803,
+        "d2": 45.26294923,
+        "d3": 48.95439775,
+        "d4": 54.95960691,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MLI",
+        "country": "Mali",
+        "d1": 40.7576436,
+        "d2": 48.21878467,
+        "d3": 45.27151826,
+        "d4": 50.90757425,
+        "relation": "regional"
+      },
+      {
+        "iso3": "TGO",
+        "country": "Togo",
+        "d1": 41.45718662,
+        "d2": 45.3837729,
+        "d3": 46.5842992,
+        "d4": 47.4576111,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MRT",
+        "country": "Mauritania",
+        "d1": 38.25297403,
+        "d2": 43.76382209,
+        "d3": 42.27659328,
+        "d4": 45.51992373,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CIV",
+        "country": "CÃ´te d'Ivoire",
+        "d1": 35.0,
+        "d2": 59.0,
+        "d3": 42.0,
+        "d4": 49.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 20.0,
+        "reason": "Liberia is below the South Korea Identity anchor (50) by 20.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 3.0,
+        "reason": "Liberia is above the Turkey Expression anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 2.0,
+        "reason": "Liberia is below the Turkey Drive anchor (50) by 2.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 1.0,
+        "reason": "Liberia is below the Colombia Structure anchor (50) by 1.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "LBR",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=23"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2', 'D3', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2,D3,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 23.0,
+        "midpoint_dimensions": [
+          "D2",
+          "D3",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Ellis, S. (2007). The Mask of Anarchy: The Destruction of Liberia and the Religious Dimension of an African Civil War. NYU Press.",
+        "source_type": "academic_book",
+        "data_point": "Poro and Sande secret societies as collective identity structures; communal land tenure and clan-based social organisation in Liberia",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0153"
+      },
+      {
+        "citation": "Moran, R. T., Abramson, N. R., & Moran, S. V. (2014). Managing Cultural Differences (9th ed.). Routledge.",
+        "source_type": "academic_book",
+        "data_point": "West African expressive oral traditions and communal celebration as indicators of emotional openness",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0154"
+      },
+      {
+        "citation": "World Bank. (2022). Liberia Country Overview: Governance and Institutional Fragility. World Bank Group.",
+        "source_type": "institutional_report",
+        "data_point": "Post-conflict institutional fragility and reliance on informal social norms in Liberia suggesting higher ambiguity tolerance",
+        "url_or_doi": "https://www.worldbank.org/en/country/liberia/overview",
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0155"
+      },
+      {
+        "citation": "Hofstede, G., Hofstede, G. J., & Minkov, M. (2010). Cultures and Organizations: Software of the Mind (3rd ed.). McGraw-Hill.",
+        "source_type": "academic_book",
+        "data_point": "Hofstede individualism and power distance scores for Zimbabwe and Sub-Saharan African regional comparisons",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0009"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "LBR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Parenting and caregiving in Liberia continues to be a communal responsibility; extended family, neighbours, teachers and community members are expected to discipline children regardless of familial connection.",
+          "strongest_opposing": "Americo‑Liberian culture, shaped by African‑American settlers, emphasized Western individualist social norms, language and architecture.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Respect for elders, formal greetings (Liberian handshake), hospitality and politeness are central cultural values, reinforcing structured social norms.",
+          "strongest_opposing": "In urban Liberia, people engage in informal ‘hustling’ and maintaining social ties with influential persons to navigate an insecure, unpredictable setting, showing adaptation and flexibility.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Communal parenting and relational caregiving emphasize acceptance and relationship‑oriented values rather than achievement and competition.",
+          "strongest_opposing": "Post‑war urban Liberians practice 'hustling' and forging ties for economic survival, reflecting a drive to strive and perform.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c8",
+            "c9"
+          ],
+          "opposing_evidence_ids": [
+            "c10"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "Liberian family customs emphasise deep respect for extended kinship networks and ancestral heritage that form the social and economic foundation of society, with extended family involvement remaining strong even in urban Monrovia.",
+          "strongest_opposing": "The Americo-Liberian founding elite developed an ethnic group with a cultural tradition infused with American notions of political republicanism and Protestant Christianity — introducing an individualist, rights-based cultural layer to Liberian institutional life.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08"
+          ],
+          "opposing_evidence_ids": [
+            "C09",
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Liberians are known for their hospitality; accepting invitations for meals or social gatherings is a good way to build rapport — warm, expressive social engagement is a cultural norm, not an exception.",
+          "strongest_opposing": "Communication in the Liberian workplace tends to be more indirect than in Western cultures, particularly when addressing sensitive topics or superiors — direct confrontation is avoided to maintain harmony.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "opposing_evidence_ids": [
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Flexibility and patience are essential virtues for operating in Liberia's business culture — the culture structurally accommodates ambiguity, late meetings, shifting plans, and improvised timelines rather than treating these as failures.",
+          "strongest_opposing": "Christian chaplains lead invocations before public events by practice and tradition — institutionalised religious ritual frames public life, providing predictable ceremonial structure to official occasions.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "C21",
+            "C22",
+            "C23",
+            "C24",
+            "C25"
+          ],
+          "opposing_evidence_ids": [
+            "C26",
+            "C27",
+            "C28"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Personal relationships and trust play a significant role in fostering long-term partnerships in Liberia's business culture — relational investment, not competitive performance metrics, is the primary currency of professional success.",
+          "strongest_opposing": "Liberia's job market rewards commitment — employers worry that foreign hires will treat a role as a short-term adventure, suggesting that sustained performance and dedication are actively valued as achievement signals.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 27.0,
+          "confidence": 0.62,
+          "supporting_evidence_ids": [
+            "C29",
+            "C30",
+            "C31"
+          ],
+          "opposing_evidence_ids": [
+            "C32",
+            "C33",
+            "C34",
+            "C35"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "The settler-indigenous divide in Liberia created two separate identity groups (Americo-Liberian vs. indigenous ethnicities), each with strong internal solidarity and social boundaries.",
+          "strongest_opposing": "Helene Cooper's memoir describes a Liberian elite culture that emphasized personal achievement, American-style individualism, and Western education, particularly among the settler class.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_1",
+            "claim_2",
+            "claim_3"
+          ],
+          "opposing_evidence_ids": [
+            "claim_4",
+            "claim_5"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Liberian communication is often warm and expressive, with elaborate greetings and public emotional displays, especially in rural communities.",
+          "strongest_opposing": "Women in rural Liberia are often expected to be reserved in public, especially around men and elders, with open expression considered inappropriate.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 55.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim_6",
+            "claim_7"
+          ],
+          "opposing_evidence_ids": [
+            "claim_10",
+            "claim_11"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Liberian secret societies (Poro, Sande) enforce strict codes of conduct, rituals, and initiations that provide a strong, predictable social order, especially in rural areas.",
+          "strongest_opposing": "Liberia's state institutions are notoriously weak and corrupt, creating high ambiguity in formal sectors like law, business, and public services; rules are frequently ignored or manipulated.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 60.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim_12",
+            "claim_13"
+          ],
+          "opposing_evidence_ids": [
+            "claim_14",
+            "claim_15"
+          ]
+        },
+        {
+          "iso3": "LBR",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 70.0,
+          "strongest_supporting": "The Americo-Liberian founding ideology emphasized 'the love of liberty' and the right to rise through education and hard work, a strong achievement narrative that persists in elite culture.",
+          "strongest_opposing": "Post-conflict Liberian society has seen a widespread desire for peace, stability, and social harmony rather than aggressive competition, tempering extreme striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "claim_16",
+            "claim_17",
+            "claim_18"
+          ],
+          "opposing_evidence_ids": [
+            "claim_19",
+            "claim_20"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "LBR",
+          "dimension": "D1",
+          "baseline_score": 41.54628266,
+          "specialist_recommendation": 24.333,
+          "specialist_confidence": 0.7067,
+          "evidence_strength": 0.5172,
+          "evidence_quality": 0.5509,
+          "disagreement_index": 0.3035,
+          "specialist_influence_weight": 0.5638,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "LBR",
+          "dimension": "D2",
+          "baseline_score": 46.62078935,
+          "specialist_recommendation": 55.0,
+          "specialist_confidence": 0.65,
+          "evidence_strength": 0.465,
+          "evidence_quality": 0.4997,
+          "disagreement_index": 0.0,
+          "specialist_influence_weight": 0.467,
+          "rationale": "High specialist confidence -> evidence credibility 0.47 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "LBR",
+          "dimension": "D3",
+          "baseline_score": 47.79089178,
+          "specialist_recommendation": 51.667,
+          "specialist_confidence": 0.6667,
+          "evidence_strength": 0.4429,
+          "evidence_quality": 0.4898,
+          "disagreement_index": 0.6182,
+          "specialist_influence_weight": 0.5837,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "LBR",
+          "dimension": "D4",
+          "baseline_score": 53.74411005,
+          "specialist_recommendation": 50.0,
+          "specialist_confidence": 0.6567,
+          "evidence_strength": 0.4429,
+          "evidence_quality": 0.5109,
+          "disagreement_index": 0.5888,
+          "specialist_influence_weight": 0.5794,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "LBR",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 35.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 35.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 35.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 35.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D3 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D4 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=48: differs by 7 from the statistician reading of 55.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=46: differs by 11 from the statistician reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=30: differs by 4 from the comparativist reading of 34.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=45: differs by 3 from the comparativist reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=40: differs by 4 from the comparativist reading of 44.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=55: differs by 9 from the comparativist reading of 46.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=37: differs by 7 from the country_specialist reading of 30.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=42: differs by 3 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=43: differs by 3 from the country_specialist reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=49: differs by 6 from the country_specialist reading of 55.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=55: differs by 13 from the devils_advocate reading of 42.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "LBR",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=35: differs by 14 from the devils_advocate reading of 49.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 3.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "LBR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 4,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "No clear ethnographic evidence found about emotional expressiveness vs hierarchical suppression; insufficient data to evaluate.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "LBR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 3,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 11,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 9,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 8,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.62,
+          "evidence_count": 7,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "LBR",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 5,
+          "recommendation": 70.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "LBR",
+        "score_diversity": 0.165,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.689,
+        "consensus_quality": 0.8892,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "LBR",
+      "country": "Liberia",
+      "region": "West Africa",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 30,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.697,
+          "top_supporting_arguments": [
+            "Americo‑Liberian culture, shaped by African‑American settlers, emphasized Western individualist social norms, language and architecture.",
+            "The Americo-Liberian founding elite developed an ethnic group with a cultural tradition infused with American notions of political republicanism and Protestant Christianity — introducing an individualist, rights-based cultural layer to Liberian institutional life.",
+            "Liberian professional culture balances American-style corporate norms with West African relational diplomacy — urban workplace norms carry a measurable individualist, merit-based American institutional inheritance."
+          ],
+          "top_counter_arguments": [
+            "Parenting and caregiving in Liberia continues to be a communal responsibility; extended family, neighbours, teachers and community members are expected to discipline children regardless of familial connection.",
+            "Traditional Poro and Sande secret societies initiate youth into adulthood, teaching cultural norms, conflict resolution and practical skills, embedding identity in group affiliation.",
+            "Ethnographic fieldwork in Nimba County shows social idioms of belonging framed by landlord‑stranger reciprocity and secrecy, emphasizing group‑defined belonging."
+          ],
+          "why_this_score": "Liberia sits at 30 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (36) and the CI ceiling (55), so pushing past 30 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (35) and the CI floor (28), so going below 30 would understate the measured signal.",
+          "related_countries": [
+            "Niger",
+            "Mali",
+            "Togo",
+            "Mauritania",
+            "CÃ´te d'Ivoire"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search16",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Americo‑Liberian culture, shaped by African‑American settlers, emphasized Western individualist social norms, language and architecture.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C09",
+              "source_id": "S15",
+              "title": "Liberia – Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Liberia",
+              "author": "Wikipedia contributors",
+              "publication_year": 2026,
+              "excerpt": "The Americo-Liberian founding elite developed an ethnic group with a cultural tradition infused with American notions of political republicanism and Protestant Christianity — introducing an individualist, rights-based cultural layer to Liberian institutional life.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C10",
+              "source_id": "S08",
+              "title": "Liberia Job Interview Guide: Cultural Tips to Succeed",
+              "url": "https://resumeflex.com/how-to-prepare-for-liberia-job-interview-cultural-guide/",
+              "author": "ResumeFlex",
+              "publication_year": 2025,
+              "excerpt": "Liberian professional culture balances American-style corporate norms with West African relational diplomacy — urban workplace norms carry a measurable individualist, merit-based American institutional inheritance.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 53,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 1.0,
+          "top_supporting_arguments": [
+            "Liberians are known for their hospitality; accepting invitations for meals or social gatherings is a good way to build rapport — warm, expressive social engagement is a cultural norm, not an exception.",
+            "Conversations in Liberian business settings begin with warm greetings and small talk that build rapport and trust — relational expressiveness is the default mode of opening any interaction.",
+            "Religious practice remains highly influential in daily life, with churches serving as expressive community hubs — Pentecostal and revival worship styles provide a structurally sanctioned, high-emotion-expression public outlet widely participed in."
+          ],
+          "top_counter_arguments": [
+            "Communication in the Liberian workplace tends to be more indirect than in Western cultures, particularly when addressing sensitive topics or superiors — direct confrontation is avoided to maintain harmony.",
+            "Being too direct is a common pitfall for outsiders in Liberia — saying 'Your proposal has flaws' may come across as abrasive; indirection and softening are the expected communication register with seniors.",
+            "Messages, especially critical feedback, are often conveyed subtly in Liberian professional settings — indirectness is a structural feature of hierarchical communication, not merely a stylistic preference."
+          ],
+          "why_this_score": "Liberia sits at 53 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (55) and the CI ceiling (81), so pushing past 53 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (47) and the CI floor (13), so going below 53 would understate the measured signal.",
+          "related_countries": [
+            "Niger",
+            "Mali",
+            "Togo",
+            "Mauritania",
+            "CÃ´te d'Ivoire"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C12",
+              "source_id": "S06",
+              "title": "Cultural Considerations in Liberia – Rivermate",
+              "url": "https://rivermate.com/guides/liberia/cultural-considerations",
+              "author": "Rivermate",
+              "publication_year": 2024,
+              "excerpt": "Liberians are known for their hospitality; accepting invitations for meals or social gatherings is a good way to build rapport — warm, expressive social engagement is a cultural norm, not an exception.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C13",
+              "source_id": "S09",
+              "title": "A Guide to Business Etiquette in Liberia – ClickUp",
+              "url": "https://clickup.com/p/business-etiquette/liberia",
+              "author": "ClickUp",
+              "publication_year": 2024,
+              "excerpt": "Conversations in Liberian business settings begin with warm greetings and small talk that build rapport and trust — relational expressiveness is the default mode of opening any interaction.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C14",
+              "source_id": "S12",
+              "title": "Religion in Liberia – Grokipedia",
+              "url": "https://grokipedia.com/page/Religion_in_Liberia",
+              "author": "Grokipedia",
+              "publication_year": 2026,
+              "excerpt": "Religious practice remains highly influential in daily life, with churches serving as expressive community hubs — Pentecostal and revival worship styles provide a structurally sanctioned, high-emotion-expression public outlet widely participed in.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 49,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.382,
+          "top_supporting_arguments": [
+            "In rural Liberia, daily routines follow predictable patterns (dawn farming, evening meals, social rituals), indicating preference for order and structure.",
+            "Respect for elders, formal greetings (Liberian handshake), hospitality and politeness are central cultural values, reinforcing structured social norms.",
+            "Poro and Sande secret societies enforce strict social norms through initiation ceremonies that regulate leadership, morality, and dispute resolution — within these traditional institutions, conformity to established codes is non-negotiable and tightly enforced."
+          ],
+          "top_counter_arguments": [
+            "In urban Liberia, people engage in informal ‘hustling’ and maintaining social ties with influential persons to navigate an insecure, unpredictable setting, showing adaptation and flexibility.",
+            "Flexibility and patience are essential virtues for operating in Liberia's business culture — the culture structurally accommodates ambiguity, late meetings, shifting plans, and improvised timelines rather than treating these as failures.",
+            "While personal time can be flexible, striving for punctuality in business meetings demonstrates respect — the observation that punctuality must be actively performed signals that lateness is the ambient norm, not a deviation from it."
+          ],
+          "why_this_score": "Liberia sits at 49 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~49), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (76), so pushing past 49 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (44) and the CI floor (20), so going below 49 would understate the measured signal.",
+          "related_countries": [
+            "Niger",
+            "Mali",
+            "Togo",
+            "Mauritania",
+            "CÃ´te d'Ivoire"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search13",
+              "title": "Culture Profile No.19: Liberians (ethnography)",
+              "url": "HPLC‑Liberians culture profile",
+              "author": "HLC",
+              "publication_year": 2026,
+              "excerpt": "In rural Liberia, daily routines follow predictable patterns (dawn farming, evening meals, social rituals), indicating preference for order and structure.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c6",
+              "source_id": "turn0search10",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Respect for elders, formal greetings (Liberian handshake), hospitality and politeness are central cultural values, reinforcing structured social norms.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C26",
+              "source_id": "S04",
+              "title": "Culture of Liberia – Grokipedia",
+              "url": "https://grokipedia.com/page/Culture_of_Liberia",
+              "author": "Grokipedia",
+              "publication_year": 2026,
+              "excerpt": "Poro and Sande secret societies enforce strict social norms through initiation ceremonies that regulate leadership, morality, and dispute resolution — within these traditional institutions, conformity to established codes is non-negotiable and tightly enforced.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 48,
+          "confidence": "LOW",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.411,
+          "top_supporting_arguments": [
+            "Post‑war urban Liberians practice 'hustling' and forging ties for economic survival, reflecting a drive to strive and perform.",
+            "Liberia's job market rewards commitment — employers worry that foreign hires will treat a role as a short-term adventure, suggesting that sustained performance and dedication are actively valued as achievement signals.",
+            "Religious practice in Liberia involves Pentecostal and evangelical denominations where prosperity gospel theology explicitly links faith with material achievement — a doctrinal framing that encourages individual striving for visible success."
+          ],
+          "top_counter_arguments": [
+            "Liberian culture values harmony, peace and living in harmony with nature over competitive performance.",
+            "Communal parenting and relational caregiving emphasize acceptance and relationship‑oriented values rather than achievement and competition.",
+            "Personal relationships and trust play a significant role in fostering long-term partnerships in Liberia's business culture — relational investment, not competitive performance metrics, is the primary currency of professional success."
+          ],
+          "why_this_score": "Liberia sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~29), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 54 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (50) and the CI ceiling (88), so pushing past 48 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (32) and the CI floor (20), so going below 48 would understate the measured signal.",
+          "related_countries": [
+            "Niger",
+            "Mali",
+            "Togo",
+            "Mauritania",
+            "CÃ´te d'Ivoire"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c10",
+              "source_id": "turn0search3",
+              "title": "Spaces of imagination: associational life and the state in post‑war, urban Liberia",
+              "url": "ethnography thesis",
+              "author": "Kaufmann",
+              "publication_year": 2013,
+              "excerpt": "Post‑war urban Liberians practice 'hustling' and forging ties for economic survival, reflecting a drive to strive and perform.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C32",
+              "source_id": "S08",
+              "title": "Liberia Job Interview Guide: Cultural Tips to Succeed",
+              "url": "https://resumeflex.com/how-to-prepare-for-liberia-job-interview-cultural-guide/",
+              "author": "ResumeFlex",
+              "publication_year": 2025,
+              "excerpt": "Liberia's job market rewards commitment — employers worry that foreign hires will treat a role as a short-term adventure, suggesting that sustained performance and dedication are actively valued as achievement signals.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C33",
+              "source_id": "S12",
+              "title": "Religion in Liberia – Grokipedia",
+              "url": "https://grokipedia.com/page/Religion_in_Liberia",
+              "author": "Grokipedia",
+              "publication_year": 2026,
+              "excerpt": "Religious practice in Liberia involves Pentecostal and evangelical denominations where prosperity gospel theology explicitly links faith with material achievement — a doctrinal framing that encourages individual striving for visible success.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

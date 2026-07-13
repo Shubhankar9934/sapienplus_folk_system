@@ -1,0 +1,8152 @@
+{
+  "generated_at": "2026-07-10T06:47:15.894895+00:00",
+  "stats": {
+    "countries": 197,
+    "dimensions": 4,
+    "frameworks": 5,
+    "specialists": [
+      "GPT",
+      "Claude",
+      "DeepSeek"
+    ],
+    "research_grade": "B",
+    "evidence_sources": 1003,
+    "run_metrics": {
+      "total_tokens": 4879800,
+      "prompt_tokens": 3563153,
+      "completion_tokens": 1316647,
+      "api_cost": 22.114924999999985,
+      "retry_count": 50,
+      "elapsed_time": 18581.932300000008,
+      "calls": 882,
+      "by_country": {
+        "SDN": 253422,
+        "SOM": 148151,
+        "SSD": 321079,
+        "TCD": 136017,
+        "TGO": 310453,
+        "TKM": 137859,
+        "ATG": 107129,
+        "BHR": 100211,
+        "BRB": 106287,
+        "COG": 110649,
+        "COM": 183696,
+        "DMA": 64957,
+        "FSM": 100591,
+        "GRD": 64719,
+        "KIR": 105202,
+        "KNA": 222990,
+        "LCA": 102711,
+        "MHL": 105188,
+        "MUS": 232833,
+        "NRU": 275936,
+        "PLW": 188642,
+        "PRY": 281076,
+        "SLB": 107951,
+        "STP": 191244,
+        "SWZ": 103406,
+        "SYC": 101505,
+        "TLS": 106842,
+        "TON": 105092,
+        "TUV": 101758,
+        "VCT": 192892,
+        "VUT": 104607,
+        "WSM": 104705
+      },
+      "by_role": {
+        "statistician": 1289216,
+        "comparativist": 705543,
+        "country_specialist": 748429,
+        "devils_advocate": 1083363,
+        "integrator": 418531,
+        "methodology": 102143,
+        "cultural_validity": 63529,
+        "cultural": 469046
+      },
+      "by_provider": {
+        "anthropic": 13.914798000000006,
+        "openai": 7.704741000000005,
+        "deepseek": 0.4953860000000002
+      }
+    }
+  },
+  "countries": [
+    {
+      "iso3": "AUT",
+      "country": "Austria",
+      "region": "Western Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 83,
+        "D2": 69,
+        "D3": 76,
+        "D4": 73
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 83,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 69,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 76,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 73,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "MAR",
+      "country": "Morocco",
+      "region": "North Africa",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 37,
+        "D3": 59,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 37,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 59,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "MYS",
+      "country": "Malaysia",
+      "region": "Southeast Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 34,
+        "D2": 38,
+        "D3": 28,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 34,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 28,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "POL",
+      "country": "Poland",
+      "region": "Eastern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 58,
+        "D2": 42,
+        "D3": 64,
+        "D4": 57
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 58,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 42,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 57,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "BFA",
+      "country": "Burkina Faso",
+      "region": "West Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 35,
+        "D3": 54,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 35,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 54,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BIH",
+      "country": "Bosniaherz",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 40,
+        "D2": 46,
+        "D3": 58,
+        "D4": 42
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 40,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 46,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 58,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 42,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BTN",
+      "country": "Bhutan",
+      "region": "South Asia",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 33,
+        "D3": 47,
+        "D4": 28
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 33,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 47,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 28,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "DOM",
+      "country": "Dominican Republic",
+      "region": "Caribbean",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 35,
+        "D2": 65,
+        "D3": 40,
+        "D4": 51
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 35,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 40,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 51,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "FJI",
+      "country": "Fiji",
+      "region": "Oceania",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 38,
+        "D3": 48,
+        "D4": 39
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 48,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 39,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GEO",
+      "country": "Georgia",
+      "region": "Former Soviet",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 38,
+        "D2": 52,
+        "D3": 55,
+        "D4": 42
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 52,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 42,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "HND",
+      "country": "Honduras",
+      "region": "Central America",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 24,
+        "D2": 55,
+        "D3": 44,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 24,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "KAZ",
+      "country": "Kazakhstan",
+      "region": "Former Soviet",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 46,
+        "D2": 37,
+        "D3": 60,
+        "D4": 53
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 37,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 60,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 53,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "KEN",
+      "country": "Kenya",
+      "region": "East Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 33,
+        "D2": 40,
+        "D3": 47,
+        "D4": 56
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 33,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 40,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 47,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 56,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "LUX",
+      "country": "Luxembourg",
+      "region": "Western Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 60,
+        "D2": 47,
+        "D3": 65,
+        "D4": 58
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 60,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 47,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 58,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "MWI",
+      "country": "Malawi",
+      "region": "Southern Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 43,
+        "D3": 45,
+        "D4": 45
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 43,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 45,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 45,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "OMN",
+      "country": "Oman",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 30,
+        "D3": 58,
+        "D4": 42
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 30,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 58,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 42,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "QAT",
+      "country": "Qatar",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 30,
+        "D3": 65,
+        "D4": 55
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 30,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 55,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SLE",
+      "country": "Sierra Leone",
+      "region": "West Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 53,
+        "D3": 41,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 53,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 41,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TJK",
+      "country": "Tajikistan",
+      "region": "Former Soviet",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 33,
+        "D3": 45,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 33,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 45,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TZA",
+      "country": "Tanzania",
+      "region": "East Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 47,
+        "D3": 38,
+        "D4": 33
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 47,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 38,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 33,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "VNM",
+      "country": "Vietnam",
+      "region": "Southeast Asia",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 37,
+        "D2": 31,
+        "D3": 39,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 37,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 31,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 39,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "ZMB",
+      "country": "Zambia",
+      "region": "Southern Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 33,
+        "D2": 50,
+        "D3": 42,
+        "D4": 44
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 33,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 50,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 42,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 44,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "MMR",
+      "country": "Myanmar (formerly Burma)",
+      "region": "Southeast Asia",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 33,
+        "D3": 62,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 33,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 62,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "MNG",
+      "country": "Mongolia",
+      "region": "East Asia",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 38,
+        "D2": 45,
+        "D3": 55,
+        "D4": 51
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 45,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 51,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SYR",
+      "country": "Syria",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 53,
+        "D3": 56,
+        "D4": 45
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 53,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 56,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 45,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "COL",
+      "country": "Colombia",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 44,
+        "D2": 88,
+        "D3": 50,
+        "D4": 72
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 88,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 50,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 72,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "KOR",
+      "country": "South Korea",
+      "region": "East Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 50,
+        "D2": 36,
+        "D3": 64,
+        "D4": 76
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 50,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 36,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 76,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "TUR",
+      "country": "Turkey",
+      "region": "Middle East",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 43,
+        "D2": 50,
+        "D3": 68,
+        "D4": 50
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 43,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 50,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 68,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 50,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "ARG",
+      "country": "Argentina",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 60,
+        "D2": 85,
+        "D3": 71,
+        "D4": 52
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 60,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 85,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 71,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 52,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "AUS",
+      "country": "Australia",
+      "region": "Oceania",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 87,
+        "D2": 75,
+        "D3": 36,
+        "D4": 56
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 87,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 75,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 36,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 56,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "BOL",
+      "country": "Bolivia",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 34,
+        "D2": 56,
+        "D3": 64,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 34,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 56,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BRA",
+      "country": "Brazil",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 53,
+        "D2": 71,
+        "D3": 64,
+        "D4": 56
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 53,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 71,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 56,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "CAN",
+      "country": "Canada",
+      "region": "North America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 86,
+        "D2": 83,
+        "D3": 44,
+        "D4": 59
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 86,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 83,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 59,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "CHE",
+      "country": "Switzerland",
+      "region": "Western Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 88,
+        "D2": 61,
+        "D3": 63,
+        "D4": 67
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 88,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 61,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 63,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 67,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "CHL",
+      "country": "Chile",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 51,
+        "D2": 64,
+        "D3": 72,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 51,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 64,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 72,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "region": "East Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 34,
+        "D2": 8,
+        "D3": 18,
+        "D4": 97
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 34,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 8,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 18,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 97,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "CRI",
+      "country": "Costa Rica",
+      "region": "Central America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 45,
+        "D2": 59,
+        "D3": 65,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 45,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 59,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "CZE",
+      "country": "Czech Republic",
+      "region": "Eastern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 67,
+        "D2": 8,
+        "D3": 55,
+        "D4": 15
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 67,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 8,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 15,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "DEU",
+      "country": "Germany",
+      "region": "Western Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 92,
+        "D2": 62,
+        "D3": 82,
+        "D4": 78
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 92,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 82,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 78,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "DNK",
+      "country": "Denmark",
+      "region": "Nordic",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 89,
+        "D2": 63,
+        "D3": 46,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 89,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 63,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "ECU",
+      "country": "Ecuador",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 31,
+        "D2": 62,
+        "D3": 55,
+        "D4": 51
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 31,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 51,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "EGY",
+      "country": "Egypt",
+      "region": "North Africa",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 25,
+        "D2": 24,
+        "D3": 48,
+        "D4": 17
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 24,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 48,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 17,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "ESP",
+      "country": "Spain",
+      "region": "Southern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 59,
+        "D2": 71,
+        "D3": 81,
+        "D4": 44
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 59,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 71,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 81,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 44,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "region": "East Africa",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 26,
+        "D2": 32,
+        "D3": 53,
+        "D4": 51
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 26,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 32,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 53,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 51,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "FIN",
+      "country": "Finland",
+      "region": "Nordic",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 81,
+        "D2": 59,
+        "D3": 74,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 81,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 59,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 74,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "FRA",
+      "country": "France",
+      "region": "Western Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 73,
+        "D2": 56,
+        "D3": 80,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 73,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 56,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 80,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GBR",
+      "country": "United Kingdom",
+      "region": "Western Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 88,
+        "D2": 66,
+        "D3": 39,
+        "D4": 68
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 88,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 66,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 39,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 68,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "GRC",
+      "country": "Greece",
+      "region": "Southern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 56,
+        "D2": 58,
+        "D3": 82,
+        "D4": 82
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 56,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 58,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 82,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 82,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "GTM",
+      "country": "Guatemala",
+      "region": "Central America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 40,
+        "D2": 62,
+        "D3": 65,
+        "D4": 46
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 40,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 46,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "HKG",
+      "country": "Hong Kong",
+      "region": "East Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 48,
+        "D2": 28,
+        "D3": 30,
+        "D4": 67
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 48,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 28,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 30,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 67,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "HUN",
+      "country": "Hungary",
+      "region": "Eastern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 63,
+        "D2": 47,
+        "D3": 72,
+        "D4": 64
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 63,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 47,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 72,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 64,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "IDN",
+      "country": "Indonesia",
+      "region": "Southeast Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 25,
+        "D3": 35,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 25,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 35,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "IND",
+      "country": "India",
+      "region": "South Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 35,
+        "D2": 24,
+        "D3": 25,
+        "D4": 83
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 35,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 24,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 25,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 83,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "IRL",
+      "country": "Ireland",
+      "region": "Western Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 74,
+        "D2": 65,
+        "D3": 39,
+        "D4": 63
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 74,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 39,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 63,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "IRN",
+      "country": "Iran",
+      "region": "Middle East",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 33,
+        "D2": 33,
+        "D3": 21,
+        "D4": 34
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 33,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 33,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 21,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 34,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "ISR",
+      "country": "Israel",
+      "region": "Middle East",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 72,
+        "D2": 73,
+        "D3": 44,
+        "D4": 55
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 72,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 73,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 55,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "ITA",
+      "country": "Italy",
+      "region": "Southern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 71,
+        "D2": 71,
+        "D3": 77,
+        "D4": 63
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 71,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 71,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 77,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 63,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "JOR",
+      "country": "Jordan",
+      "region": "Middle East",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 31,
+        "D2": 35,
+        "D3": 31,
+        "D4": 51
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 31,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 35,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 31,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 51,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "JPN",
+      "country": "Japan",
+      "region": "East Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 64,
+        "D2": 30,
+        "D3": 66,
+        "D4": 97
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 64,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 30,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 66,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 97,
+          "reading": "Strongly achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "PAK",
+      "country": "Pakistan",
+      "region": "South Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 31,
+        "D2": 34,
+        "D3": 58,
+        "D4": 53
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 31,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 34,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 58,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 53,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "PER",
+      "country": "Peru",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 38,
+        "D2": 65,
+        "D3": 61,
+        "D4": 43
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 61,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 43,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "ROU",
+      "country": "Romania",
+      "region": "Eastern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 47,
+        "D2": 42,
+        "D3": 65,
+        "D4": 57
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 47,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 42,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 57,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "RUS",
+      "country": "Russia",
+      "region": "Former Soviet",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 49,
+        "D2": 38,
+        "D3": 81,
+        "D4": 52
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 81,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 52,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SGP",
+      "country": "Singapore",
+      "region": "Southeast Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 42,
+        "D2": 28,
+        "D3": 21,
+        "D4": 62
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 42,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 28,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 21,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 62,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "MEX",
+      "country": "Mexico",
+      "region": "Central America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 44,
+        "D2": 72,
+        "D3": 71,
+        "D4": 55
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 72,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 71,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 55,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "NAM",
+      "country": "Namibia",
+      "region": "Southern Africa",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 39,
+        "D2": 42,
+        "D3": 39,
+        "D4": 52
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 39,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 42,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 39,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 52,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "NGA",
+      "country": "Nigeria",
+      "region": "West Africa",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 25,
+        "D2": 65,
+        "D3": 35,
+        "D4": 55
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 35,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 55,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "NLD",
+      "country": "Netherlands",
+      "region": "Western Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 92,
+        "D2": 66,
+        "D3": 61,
+        "D4": 30
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 92,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 66,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 61,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 30,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "NZL",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 82,
+        "D2": 64,
+        "D3": 44,
+        "D4": 48
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 82,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 64,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 48,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "PHL",
+      "country": "Philippines",
+      "region": "Southeast Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 46,
+        "D3": 31,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 46,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 31,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "PRT",
+      "country": "Portugal",
+      "region": "Southern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 57,
+        "D2": 66,
+        "D3": 75,
+        "D4": 56
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 57,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 66,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 75,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 56,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SRB",
+      "country": "Serbia",
+      "region": "Eastern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 52,
+        "D2": 47,
+        "D3": 72,
+        "D4": 51
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 47,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 72,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 51,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SVK",
+      "country": "Slovakia",
+      "region": "Eastern Europe",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 50,
+        "D2": 38,
+        "D3": 68,
+        "D4": 64
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 50,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 68,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 64,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "SWE",
+      "country": "Sweden",
+      "region": "Nordic",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 91,
+        "D2": 67,
+        "D3": 57,
+        "D4": 25
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 91,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 67,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 57,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 25,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "THA",
+      "country": "Thailand",
+      "region": "Southeast Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 38,
+        "D2": 36,
+        "D3": 46,
+        "D4": 29
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "HIGH"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 36,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 29,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "TWN",
+      "country": "Taiwan",
+      "region": "East Asia",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 41,
+        "D2": 29,
+        "D3": 66,
+        "D4": 60
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 41,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 29,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 66,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 60,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "UKR",
+      "country": "Ukraine",
+      "region": "Former Soviet",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 40,
+        "D2": 48,
+        "D3": 71,
+        "D4": 44
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 40,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 48,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 71,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 44,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "USA",
+      "country": "United States",
+      "region": "North America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 86,
+        "D2": 71,
+        "D3": 22,
+        "D4": 61
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 86,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 71,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 22,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 61,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "VEN",
+      "country": "Venezuela",
+      "region": "South America",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 46,
+        "D2": 88,
+        "D3": 64,
+        "D4": 68
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 88,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 68,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "ZAF",
+      "country": "South Africa",
+      "region": "Southern Africa",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 52,
+        "D2": 48,
+        "D3": 32,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 48,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 32,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "ZWE",
+      "country": "Zimbabwe",
+      "region": "Southern Africa",
+      "data_status": "FULL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 39,
+        "D2": 41,
+        "D3": 32,
+        "D4": 67
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 39,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 41,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 32,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 67,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "AGO",
+      "country": "Angola",
+      "region": "Southern Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 55,
+        "D3": 53,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 53,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "ALB",
+      "country": "Albania",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 40,
+        "D2": 32,
+        "D3": 55,
+        "D4": 64
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 40,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 32,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 64,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "ARE",
+      "country": "United Arab Emirates",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 38,
+        "D3": 70,
+        "D4": 63
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 70,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 63,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "ARM",
+      "country": "Armenia",
+      "region": "Former Soviet",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 38,
+        "D3": 63,
+        "D4": 59
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 63,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 59,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "BEL",
+      "country": "Belgium",
+      "region": "Western Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 70,
+        "D2": 50,
+        "D3": 80,
+        "D4": 56
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 70,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 50,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 80,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 56,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "BGD",
+      "country": "Bangladesh",
+      "region": "South Asia",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 25,
+        "D2": 25,
+        "D3": 50,
+        "D4": 60
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 25,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 50,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 60,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "BGR",
+      "country": "Bulgaria",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 43,
+        "D2": 34,
+        "D3": 69,
+        "D4": 50
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 43,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 34,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 69,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 50,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "CMR",
+      "country": "Cameroon",
+      "region": "Central Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 25,
+        "D2": 48,
+        "D3": 46,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 48,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "CYP",
+      "country": "Cyprus",
+      "region": "Southern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 39,
+        "D2": 55,
+        "D3": 61,
+        "D4": 52
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 39,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 61,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 52,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "EST",
+      "country": "Estonia",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 65,
+        "D2": 30,
+        "D3": 64,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 65,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 30,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "GHA",
+      "country": "Ghana",
+      "region": "West Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 21,
+        "D2": 53,
+        "D3": 35,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 21,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 53,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 35,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "HRV",
+      "country": "Croatia",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 51,
+        "D2": 39,
+        "D3": 59,
+        "D4": 49
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 51,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 39,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 59,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 49,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "IRQ",
+      "country": "Iraq",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 43,
+        "D3": 57,
+        "D4": 53
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 43,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 57,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 53,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "ISL",
+      "country": "Iceland",
+      "region": "Nordic",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 79,
+        "D2": 66,
+        "D3": 38,
+        "D4": 42
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 79,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 66,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 38,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 42,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "JAM",
+      "country": "Jamaica",
+      "region": "Caribbean",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 47,
+        "D2": 63,
+        "D3": 29,
+        "D4": 60
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 47,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 63,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 29,
+          "reading": "Flexible"
+        },
+        {
+          "dimension": "D4",
+          "score": 60,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "KGZ",
+      "country": "Kyrgyzstan",
+      "region": "Former Soviet",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 45,
+        "D3": 52,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 45,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "KWT",
+      "country": "Kuwait",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 50,
+        "D3": 60,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 50,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 60,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "LBN",
+      "country": "Lebanon",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 34,
+        "D2": 51,
+        "D3": 34,
+        "D4": 59
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 34,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 51,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 34,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 59,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "LBY",
+      "country": "Libya",
+      "region": "North Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 43,
+        "D3": 47,
+        "D4": 52
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 43,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 47,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 52,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "LKA",
+      "country": "Srilanka",
+      "region": "South Asia",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 31,
+        "D2": 38,
+        "D3": 51,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 31,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 51,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "LTU",
+      "country": "Lithuania",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 60,
+        "D2": 34,
+        "D3": 66,
+        "D4": 48
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 60,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 34,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 66,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 48,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "LVA",
+      "country": "Latvia",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 64,
+        "D2": 28,
+        "D3": 69,
+        "D4": 30
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 64,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 28,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 69,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 30,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "MOZ",
+      "country": "Mozambique",
+      "region": "Southern Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 25,
+        "D2": 44,
+        "D3": 34,
+        "D4": 33
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 44,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 34,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 33,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "NIC",
+      "country": "Nicaragua",
+      "region": "Central America",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 63,
+        "D3": 51,
+        "D4": 39
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 63,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 51,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 39,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "NOR",
+      "country": "Norway",
+      "region": "Nordic",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 81,
+        "D2": 53,
+        "D3": 60,
+        "D4": 22
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 81,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 53,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 60,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 22,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "NPL",
+      "country": "Nepal",
+      "region": "South Asia",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 35,
+        "D3": 47,
+        "D4": 44
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 35,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 47,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 44,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "PAN",
+      "country": "Panama",
+      "region": "Central America",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 26,
+        "D2": 60,
+        "D3": 55,
+        "D4": 44
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 26,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 60,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 44,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "PRI",
+      "country": "Puerto Rico",
+      "region": "Caribbean",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 42,
+        "D2": 78,
+        "D3": 34,
+        "D4": 54
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 42,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 78,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 34,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 54,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SAU",
+      "country": "Saudi Arabia",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 36,
+        "D3": 74,
+        "D4": 57
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 36,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 74,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 57,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SEN",
+      "country": "Senegal",
+      "region": "West Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 25,
+        "D2": 55,
+        "D3": 38,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 38,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "SLV",
+      "country": "El Salvador",
+      "region": "Central America",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 33,
+        "D2": 70,
+        "D3": 69,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "HIGH",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 33,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 70,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 69,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SUR",
+      "country": "Suriname",
+      "region": "South America",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 62,
+        "D3": 64,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "SVN",
+      "country": "Slovenia",
+      "region": "Eastern Europe",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 53,
+        "D2": 44,
+        "D3": 80,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 53,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 44,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 80,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TTO",
+      "country": "Trinidad And Tobago",
+      "region": "Caribbean",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 67,
+        "D3": 43,
+        "D4": 64
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 67,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 43,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 64,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "TUN",
+      "country": "Tunisia",
+      "region": "North Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 41,
+        "D3": 58,
+        "D4": 46
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 41,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 58,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 46,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "UGA",
+      "country": "Uganda",
+      "region": "East Africa",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 25,
+        "D2": 41,
+        "D3": 42,
+        "D4": 55
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 41,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 42,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 55,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "URY",
+      "country": "Uruguay",
+      "region": "South America",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 51,
+        "D2": 60,
+        "D3": 65,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 51,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 60,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "UZB",
+      "country": "Uzbekistan",
+      "region": "Former Soviet",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 32,
+        "D3": 63,
+        "D4": 49
+      },
+      "confidence": {
+        "D1": "HIGH",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 32,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 63,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 49,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "YEM",
+      "country": "Yemen",
+      "region": "Middle East",
+      "data_status": "PARTIAL_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 24,
+        "D2": 36,
+        "D3": 52,
+        "D4": 33
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 24,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 36,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 33,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "AFG",
+      "country": "Afghanistan",
+      "region": "South Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 38,
+        "D3": 62,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 38,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 62,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "AND",
+      "country": "Andorra",
+      "region": "Western Europe",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 70,
+        "D2": 59,
+        "D3": 59,
+        "D4": 55
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 70,
+          "reading": "Strongly independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 59,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 59,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 55,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "AZE",
+      "country": "Azerbaijan",
+      "region": "Former Soviet",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 41,
+        "D3": 64,
+        "D4": 45
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 41,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 45,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "BDI",
+      "country": "Burundi",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 32,
+        "D3": 48,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 32,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 48,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BEN",
+      "country": "Benin",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 54,
+        "D3": 49,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 54,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BHS",
+      "country": "Bahamas",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 37,
+        "D2": 62,
+        "D3": 50,
+        "D4": 49
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 37,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 50,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 49,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "BLR",
+      "country": "Belarus",
+      "region": "Former Soviet",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 47,
+        "D2": 31,
+        "D3": 76,
+        "D4": 39
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 47,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 31,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 76,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 39,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BLZ",
+      "country": "Belize",
+      "region": "Central America",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 62,
+        "D3": 46,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BRN",
+      "country": "Brunei",
+      "region": "Southeast Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 32,
+        "D3": 68,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 32,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 68,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "BWA",
+      "country": "Botswana",
+      "region": "Southern Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 45,
+        "D3": 62,
+        "D4": 39
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 45,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 62,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 39,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "CAF",
+      "country": "Central African Republic",
+      "region": "Central Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 45,
+        "D3": 34,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 45,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 34,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "CIV",
+      "country": "CÃ´te d'Ivoire",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 35,
+        "D2": 59,
+        "D3": 42,
+        "D4": 49
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 35,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 59,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 42,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 49,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "COD",
+      "country": "Democratic Republic of the Congo",
+      "region": "Central Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 31,
+        "D2": 48,
+        "D3": 43,
+        "D4": 48
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 31,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 48,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 43,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 48,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "CPV",
+      "country": "Cape Verde",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 64,
+        "D3": 39,
+        "D4": 29
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 64,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 39,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 29,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "CUB",
+      "country": "Cuba",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 55,
+        "D3": 58,
+        "D4": 42
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 58,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 42,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "DJI",
+      "country": "Djibouti",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 27,
+        "D2": 39,
+        "D3": 57,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 39,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 57,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "DZA",
+      "country": "Algeria",
+      "region": "North Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 37,
+        "D3": 59,
+        "D4": 44
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 37,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 59,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 44,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "ERI",
+      "country": "Eritrea",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 40,
+        "D3": 45,
+        "D4": 33
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 40,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 45,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 33,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GAB",
+      "country": "Gabon",
+      "region": "Central Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 32,
+        "D2": 43,
+        "D3": 45,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 32,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 43,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 45,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GIN",
+      "country": "Guinea",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 48,
+        "D3": 52,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 48,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GMB",
+      "country": "Gambia",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 54,
+        "D3": 46,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 54,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GNB",
+      "country": "Guinea-Bissau",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 52,
+        "D3": 36,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 52,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 36,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GNQ",
+      "country": "Equatorial Guinea",
+      "region": "Central Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 39,
+        "D3": 46,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 39,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GUY",
+      "country": "Guyana",
+      "region": "South America",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 36,
+        "D2": 48,
+        "D3": 52,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 36,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 48,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "HTI",
+      "country": "Haiti",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 33,
+        "D2": 70,
+        "D3": 44,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 33,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 70,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "KHM",
+      "country": "Cambodia",
+      "region": "Southeast Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 41,
+        "D3": 54,
+        "D4": 33
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 41,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 54,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 33,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "LAO",
+      "country": "Laos",
+      "region": "Southeast Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 32,
+        "D3": 55,
+        "D4": 30
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 32,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 30,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "LBR",
+      "country": "Liberia",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 53,
+        "D3": 49,
+        "D4": 48
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 53,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 48,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "LIE",
+      "country": "Liechtenstein",
+      "region": "Western Europe",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 62,
+        "D2": 41,
+        "D3": 70,
+        "D4": 63
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 62,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 41,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 70,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 63,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "LSO",
+      "country": "Lesotho",
+      "region": "Southern Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 30,
+        "D2": 41,
+        "D3": 55,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 41,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "MAC",
+      "country": "MAC",
+      "region": "East Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 51,
+        "D2": 46,
+        "D3": 65,
+        "D4": 62
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 51,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 46,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 62,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "MDA",
+      "country": "Moldova",
+      "region": "Former Soviet",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 43,
+        "D2": 42,
+        "D3": 64,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 43,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 42,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "MDG",
+      "country": "Madagascar",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 35,
+        "D2": 40,
+        "D3": 53,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 35,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 40,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 53,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "MDV",
+      "country": "Maldives",
+      "region": "South Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 38,
+        "D2": 40,
+        "D3": 61,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 40,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 61,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "MKD",
+      "country": "Macedonia",
+      "region": "Eastern Europe",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 35,
+        "D2": 50,
+        "D3": 60,
+        "D4": 45
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 35,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 50,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 60,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 45,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "MLI",
+      "country": "Mali",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 37,
+        "D2": 58,
+        "D3": 52,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 37,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 58,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "MLT",
+      "country": "Malta",
+      "region": "Southern Europe",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 49,
+        "D2": 63,
+        "D3": 78,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 63,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 78,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "MNE",
+      "country": "Montenegro",
+      "region": "Eastern Europe",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 49,
+        "D2": 51,
+        "D3": 64,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 51,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "MRT",
+      "country": "Mauritania",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 26,
+        "D2": 37,
+        "D3": 53,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 26,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 37,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 53,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "NER",
+      "country": "Niger",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 35,
+        "D2": 42,
+        "D3": 49,
+        "D4": 34
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 35,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 42,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 34,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "NIR",
+      "country": "NIR",
+      "region": "Western Europe",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 60,
+        "D2": 55,
+        "D3": 63,
+        "D4": 57
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 60,
+          "reading": "Independent"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 63,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 57,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "PNG",
+      "country": "Papua New Guinea",
+      "region": "Oceania",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 44,
+        "D2": 60,
+        "D3": 42,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 44,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 60,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 42,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "PRK",
+      "country": "North Korea",
+      "region": "East Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 26,
+        "D2": 24,
+        "D3": 79,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 26,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 24,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 79,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "PSE",
+      "country": "Palestine",
+      "region": "Middle East",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 29,
+        "D2": 51,
+        "D3": 65,
+        "D4": 53
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 29,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 51,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 53,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "RWA",
+      "country": "Rwanda",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 26,
+        "D2": 26,
+        "D3": 64,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 26,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 26,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 64,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "SDN",
+      "country": "Sudan",
+      "region": "North Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 38,
+        "D2": 36,
+        "D3": 58,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 36,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 58,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "SOM",
+      "country": "Somalia",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 53,
+        "D3": 39,
+        "D4": 46
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 53,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 39,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 46,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "SSD",
+      "country": "South Sudan",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 47,
+        "D3": 42,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 47,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 42,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TCD",
+      "country": "Chad",
+      "region": "Central Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 42,
+        "D3": 49,
+        "D4": 33
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 42,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 33,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TGO",
+      "country": "Togo",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 43,
+        "D3": 45,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 43,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 45,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TKM",
+      "country": "Turkmenistan",
+      "region": "Former Soviet",
+      "data_status": "ZERO_DATA",
+      "record_type": "BASE",
+      "scores": {
+        "D1": 28,
+        "D2": 27,
+        "D3": 71,
+        "D4": 36
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 28,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 27,
+          "reading": "Reserved"
+        },
+        {
+          "dimension": "D3",
+          "score": 71,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 36,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "ATG",
+      "country": "Antigua and Barbuda",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 40,
+        "D2": 65,
+        "D3": 43,
+        "D4": 50
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 40,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 43,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 50,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "BHR",
+      "country": "Bahrain",
+      "region": "Middle East",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 30,
+        "D2": 44,
+        "D3": 73,
+        "D4": 61
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 44,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 73,
+          "reading": "Highly structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 61,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "BRB",
+      "country": "Barbados",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 46,
+        "D2": 65,
+        "D3": 57,
+        "D4": 52
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 57,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 52,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "COG",
+      "country": "Congo (Brazzaville)",
+      "region": "Central Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 25,
+        "D2": 57,
+        "D3": 46,
+        "D4": 45
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 25,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 57,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 45,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "COM",
+      "country": "Comoros",
+      "region": "East Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 22,
+        "D2": 34,
+        "D3": 62,
+        "D4": 39
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 22,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 34,
+          "reading": "Understated"
+        },
+        {
+          "dimension": "D3",
+          "score": 62,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 39,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "DMA",
+      "country": "Dominica",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 33,
+        "D2": 60,
+        "D3": 49,
+        "D4": 45
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 33,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 60,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 45,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "FSM",
+      "country": "Micronesia (Fed. States)",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 26,
+        "D2": 62,
+        "D3": 40,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 26,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 40,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "GRD",
+      "country": "Grenada",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 40,
+        "D2": 70,
+        "D3": 48,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 40,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 70,
+          "reading": "Highly expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 48,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "KIR",
+      "country": "Kiribati",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 18,
+        "D2": 44,
+        "D3": 52,
+        "D4": 26
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 18,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 44,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 26,
+          "reading": "Easygoing"
+        }
+      ]
+    },
+    {
+      "iso3": "KNA",
+      "country": "Saint Kitts and Nevis",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 38,
+        "D2": 65,
+        "D3": 48,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 48,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "LCA",
+      "country": "Saint Lucia",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 46,
+        "D2": 68,
+        "D3": 43,
+        "D4": 52
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 46,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D2",
+          "score": 68,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 43,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 52,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "MHL",
+      "country": "Marshall Islands",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 27,
+        "D2": 55,
+        "D3": 59,
+        "D4": 32
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 27,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 59,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 32,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "MUS",
+      "country": "Mauritius",
+      "region": "Indian Ocean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 38,
+        "D2": 48,
+        "D3": 55,
+        "D4": 58
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 48,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 55,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 58,
+          "reading": "Achievement-oriented"
+        }
+      ]
+    },
+    {
+      "iso3": "NRU",
+      "country": "Nauru",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 37,
+        "D2": 61,
+        "D3": 48,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 37,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 61,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 48,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "PLW",
+      "country": "Palau",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 23,
+        "D2": 44,
+        "D3": 51,
+        "D4": 41
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "MEDIUM"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 23,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 44,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 51,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 41,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "PRY",
+      "country": "Paraguay",
+      "region": "South America",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 26,
+        "D2": 62,
+        "D3": 65,
+        "D4": 42
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 26,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 42,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "SLB",
+      "country": "Solomon Islands",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 20,
+        "D2": 46,
+        "D3": 61,
+        "D4": 32
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 20,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 46,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 61,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 32,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "STP",
+      "country": "Sao Tome and Principe",
+      "region": "West Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 30,
+        "D2": 64,
+        "D3": 38,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 30,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 64,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 38,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "SWZ",
+      "country": "Eswatini",
+      "region": "Southern Africa",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 23,
+        "D2": 51,
+        "D3": 62,
+        "D4": 39
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 23,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 51,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 62,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 39,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "SYC",
+      "country": "Seychelles",
+      "region": "Indian Ocean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 35,
+        "D2": 58,
+        "D3": 41,
+        "D4": 40
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "LOW",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 35,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 58,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 41,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 40,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TLS",
+      "country": "Timor-Leste",
+      "region": "Southeast Asia",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 24,
+        "D2": 54,
+        "D3": 52,
+        "D4": 35
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 24,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 54,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 52,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 35,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TON",
+      "country": "Tonga",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 24,
+        "D2": 43,
+        "D3": 65,
+        "D4": 37
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 24,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 43,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 65,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 37,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "TUV",
+      "country": "Tuvalu",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 21,
+        "D2": 62,
+        "D3": 58,
+        "D4": 31
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 21,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 62,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 58,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 31,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "VCT",
+      "country": "Saint Vincent and the Grenadines",
+      "region": "Caribbean",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 38,
+        "D2": 65,
+        "D3": 49,
+        "D4": 47
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "LOW",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 38,
+          "reading": "Group-oriented"
+        },
+        {
+          "dimension": "D2",
+          "score": 65,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 49,
+          "reading": "Balanced"
+        },
+        {
+          "dimension": "D4",
+          "score": 47,
+          "reading": "Balanced"
+        }
+      ]
+    },
+    {
+      "iso3": "VUT",
+      "country": "Vanuatu",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 24,
+        "D2": 55,
+        "D3": 38,
+        "D4": 31
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 24,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 55,
+          "reading": "Even-keeled"
+        },
+        {
+          "dimension": "D3",
+          "score": 38,
+          "reading": "Adaptable"
+        },
+        {
+          "dimension": "D4",
+          "score": 31,
+          "reading": "Relaxed"
+        }
+      ]
+    },
+    {
+      "iso3": "WSM",
+      "country": "Samoa",
+      "region": "Pacific",
+      "data_status": "ZERO_DATA",
+      "record_type": "EXTENSION",
+      "scores": {
+        "D1": 21,
+        "D2": 68,
+        "D3": 63,
+        "D4": 38
+      },
+      "confidence": {
+        "D1": "MEDIUM",
+        "D2": "MEDIUM",
+        "D3": "MEDIUM",
+        "D4": "LOW"
+      },
+      "snapshot": [
+        {
+          "dimension": "D1",
+          "score": 21,
+          "reading": "Community-first"
+        },
+        {
+          "dimension": "D2",
+          "score": 68,
+          "reading": "Expressive"
+        },
+        {
+          "dimension": "D3",
+          "score": 63,
+          "reading": "Structured"
+        },
+        {
+          "dimension": "D4",
+          "score": 38,
+          "reading": "Relaxed"
+        }
+      ]
+    }
+  ]
+}

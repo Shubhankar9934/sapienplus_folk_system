@@ -1,0 +1,2558 @@
+{
+  "iso3": "LTU",
+  "country": "Lithuania",
+  "region": "Eastern Europe",
+  "data_status": "PARTIAL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-09T01:39:02.397849+00:00",
+  "cultural_profile": {
+    "iso3": "LTU",
+    "country": "Lithuania",
+    "region": "Eastern Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 60,
+        "reading": "Independent",
+        "explanation": "Lithuania values personal achievement and responsibility, yet family and social networks remain important."
+      },
+      {
+        "dimension": "D2",
+        "score": 34,
+        "reading": "Understated",
+        "explanation": "Public emotional restraint is a norm, but Lithuanians are socially expressive within trusted circles."
+      },
+      {
+        "dimension": "D3",
+        "score": 66,
+        "reading": "Structured",
+        "explanation": "Lithuania prefers structured environments and predictability, reflecting a legacy of Soviet influence."
+      },
+      {
+        "dimension": "D4",
+        "score": 48,
+        "reading": "Balanced",
+        "explanation": "Economic success and educational attainment are highly valued, reflecting a strong achievement orientation."
+      }
+    ],
+    "executive_summary": "Lithuania is a blend of individualism and collective values, where personal achievement is highly prized, yet family and social networks play a crucial role. The culture is marked by emotional restraint in public, but warmth and expressiveness in private settings. Structured environments and predictability are preferred, reflecting a legacy of Soviet influence. Economic success is a significant status symbol, driven by a strong emphasis on education and entrepreneurship.",
+    "cultural_archetype": {
+      "title": "The Independent Builder",
+      "summary": "A society that values personal achievement and self-reliance, yet remains deeply connected to family and social networks.",
+      "claim_ids": [
+        "C01",
+        "C02",
+        "c1",
+        "c3"
+      ],
+      "sources_count": 4
+    },
+    "good_for": [
+      "Entrepreneurs seeking a structured environment",
+      "Long-term planners who value predictability",
+      "Professionals valuing educational achievement"
+    ],
+    "culture_at_a_glance": [
+      "Lithuania's individualism is moderate-high, with a strong emphasis on personal achievement and responsibility, yet family and close networks remain integral to daily life.",
+      "Economic success and educational attainment are key status signals, driven by a culture that prizes entrepreneurship and hard work.",
+      "Public emotional restraint is a norm, with Lithuanians valuing understatement and reserve, particularly in formal settings.",
+      "Despite rising individualism, traditional family structures and informal networks continue to play a significant role, reflecting a blend of individualistic and collectivist values.",
+      "In private, Lithuanians are surprisingly social, engaging in lively discussions and social activities once trust is established.",
+      "Lithuania's high Uncertainty Avoidance reflects a strong preference for rules and structured environments, reducing anxiety about the unknown."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Emotional Restraint and Social Warmth",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 68,
+          "framework_agreement": 54,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "Public emotional restraint is a norm, with Lithuanians valuing understatement and reserve, particularly in formal settings.",
+            "claim_ids": [
+              "c4",
+              "c5",
+              "C10"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "In private, Lithuanians are surprisingly social, engaging in lively discussions and social activities once trust is established.",
+            "claim_ids": [
+              "C15",
+              "C14"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Balancing Individualism and Collectivism",
+        "confidence": {
+          "evidence_strength": 60,
+          "expert_agreement": 80,
+          "framework_agreement": 76,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Lithuania's individualism is moderate-high, with a strong emphasis on personal achievement and responsibility, yet family and close networks remain integral to daily life.",
+            "claim_ids": [
+              "C01",
+              "C02",
+              "c1",
+              "c3"
+            ],
+            "sources_count": 4
+          },
+          {
+            "text": "Despite rising individualism, traditional family structures and informal networks continue to play a significant role, reflecting a blend of individualistic and collectivist values.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "C06"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Structured Environments and Predictability",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 76,
+          "framework_agreement": 96,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Lithuania's high Uncertainty Avoidance reflects a strong preference for rules and structured environments, reducing anxiety about the unknown.",
+            "claim_ids": [
+              "c7",
+              "C20"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "The legacy of Soviet bureaucratic culture contributes to a discomfort with improvisation and ambiguity in professional settings.",
+            "claim_ids": [
+              "c8",
+              "C18"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Achievement as a Cultural Value",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 58,
+          "framework_agreement": 82,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in status signals sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Economic success and educational attainment are key status signals, driven by a culture that prizes entrepreneurship and hard work.",
+            "claim_ids": [
+              "c11",
+              "c10",
+              "C23",
+              "C24"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Lithuania's post-Soviet transition fostered a rise in individualism, as younger generations embraced Western consumer culture and self-reliance.",
+        "claim_ids": [
+          "c2",
+          "C03"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Achievement",
+        "but_also": "Collective Responsibility",
+        "explanation": "Lithuania balances a cultural emphasis on personal success with strong family ties and social networks, creating a dynamic interplay between individualism and collectivism.",
+        "claim_ids": [
+          "c1",
+          "c3",
+          "C06"
+        ],
+        "sources_count": 3
+      },
+      {
+        "pulls_toward": "Emotional Restraint",
+        "but_also": "Social Expressiveness",
+        "explanation": "While public emotional expression is restrained, Lithuanians can be surprisingly warm and expressive in private settings, especially once trust is established.",
+        "claim_ids": [
+          "c4",
+          "C15",
+          "C14"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Traditional Lithuanian family structure emphasises strong kinship ties and mutual support, and informal networks (pažintys) remain crucial for navigating daily life.",
+          "claim_ids": [
+            "c3"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Lithuanian folk festivals are lively communal celebrations, showcasing openness in ritualised contexts.",
+          "claim_ids": [
+            "c6"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "In Lithuanian workplaces, clear hierarchies and written procedures are preferred, reflecting a legacy of Soviet bureaucratic culture.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Lithuanian professionals value knowledge and drive above age or status, with young specialists routinely leading teams.",
+          "claim_ids": [
+            "C04"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Lithuanians value understatement and reserve; direct emotional expressions are often seen as lacking self-control.",
+          "claim_ids": [
+            "c5"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Contrary to their quieter neighbours, Lithuanians enjoy heated discussions, indicating a relative openness to expressive debate.",
+          "claim_ids": [
+            "C14"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Behind an initially reserved facade, Lithuanians are surprisingly social, with frequent coffee-machine chats and after-work drinks.",
+          "claim_ids": [
+            "C15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "It is important not to display anger even if frustrated by bureaucracy in Lithuanian professional settings.",
+          "claim_ids": [
+            "C32"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Address Lithuanian colleagues by title and surname until explicitly invited to use first names.",
+          "claim_ids": [
+            "C33"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Material success is a key status signal in urban areas, reflecting a culture of entrepreneurship and hard work.",
+          "claim_ids": [
+            "c11"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Lithuania feels like a dance between tradition and modernity. The reserved public demeanor gives way to warmth and expressiveness in trusted circles. Structured environments provide predictability, while personal achievement is celebrated. Family ties remain strong, yet individual aspirations are increasingly prioritized.",
+      "claim_ids": [
+        "c3",
+        "c6",
+        "C15",
+        "c8"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Lithuania's restrained public demeanor may initially seem standoffish, but warmth emerges in private settings.",
+        "claim_ids": [
+          "c4",
+          "C15"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The strong preference for structured environments and predictability is evident in both social and professional settings.",
+        "claim_ids": [
+          "c7",
+          "c8"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Material success and educational attainment are highly valued, signaling a culture that prizes achievement.",
+        "claim_ids": [
+          "c10",
+          "c11"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Lithuania often hinges on educational attainment and professional knowledge, with a strong emphasis on meritocratic values.",
+        "claim_ids": [
+          "c10",
+          "C04",
+          "C25"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to adhere to formal protocols and conservative etiquette in professional settings can undermine trust and respect.",
+        "claim_ids": [
+          "C19",
+          "C33"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Displaying overt emotional expressions in public or professional settings can be perceived as lacking self-control.",
+        "claim_ids": [
+          "c5",
+          "C32"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Gal būt…",
+        "meaning": "Used to soften criticism or disagreement, indicating a diplomatic approach.",
+        "claim_ids": [
+          "C30"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "A silence of 15 seconds after a question",
+        "meaning": "Signals careful processing and respect, not disinterest.",
+        "claim_ids": [
+          "C31"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More collectivist and traditional",
+        "younger": "More individualistic and Western-oriented",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals tend to embrace individualistic values and a faster pace of life, while rural communities maintain traditional collectivist norms and a slower lifestyle.",
+        "claim_ids": [
+          "c2",
+          "c12"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "EST",
+        "country": "Estonia",
+        "similarity": 96,
+        "explanation": "Lithuania and Estonia share a preference for structured environments and a blend of individualism and collectivism, but Lithuania is more expressive in social settings.",
+        "claim_ids": [
+          "c1",
+          "C14"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "POL",
+        "country": "Poland",
+        "similarity": 93,
+        "explanation": "Lithuania and Poland both value family and social networks, but Lithuania places a stronger emphasis on individual achievement.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "similarity": 93,
+        "explanation": "Lithuania and Croatia share a cultural emphasis on education and achievement, yet Lithuania's public emotional restraint is more pronounced.",
+        "claim_ids": [
+          "c10",
+          "c4"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "BGR",
+        "country": "Bulgaria",
+        "similarity": 91,
+        "explanation": "Lithuania and Bulgaria both have strong family ties and social networks, but Lithuania's focus on structured environments and predictability sets it apart.",
+        "claim_ids": [
+          "c3",
+          "c7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Expressive Social Contexts",
+        "explanation": "Lithuania's lively folk festivals and private social warmth contrast with its public emotional restraint, creating a unique blend of expressiveness and reserve.",
+        "claim_ids": [
+          "c6",
+          "C15",
+          "c4"
+        ],
+        "sources_count": 3
+      },
+      {
+        "title": "Structured Yet Flexible",
+        "explanation": "While Lithuania prefers structured environments, there is a notable flexibility in social networks and informal practices that adapt to inefficiencies.",
+        "claim_ids": [
+          "c7",
+          "c9"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More independent than Bulgaria",
+        "dimension": "D1",
+        "neighbour_iso3": "BGR",
+        "delta": 17
+      },
+      {
+        "text": "More reserved than Montenegro",
+        "dimension": "D2",
+        "neighbour_iso3": "MNE",
+        "delta": -17
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Based on Hofstede-derived Individualism score (~50), Lithuania is roughly balanced between individualist and collectivist identity—thus D1 is mid-range. Ethnographic sources noting average individualism support a neutral midpoint. Counter‑evidence: rural‑urban variation suggests somewhat more collectivist tendencies in countryside, nudging score slightly lower, but insufficient to shift direction.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The strongest measured anchor is Hofstede IDV = 60 for Lithuania (Huettinger 2008, corroborated by ResearchGate peer-reviewed paper), placing it clearly on the individualist side of the midpoint — analogous to Germany at 67. The Schwartz Values Survey independently confirms 'mildly individualistic' (28th/70 countries). The CRVP academic monograph documents that in contemporary Lithuania self-definition is increasingly an individual rather than social problem, with personal choice growing in importance. Counter-evidence: Lithuania scores relatively high on Schwartz 'Embeddedness', and a Nottingham Trent / Dundee peer-reviewed study (PMC) found family values more central to Lithuanian national identity than Scottish comparators, indicating collective embedding persists in family/national spheres. Mockaitis (2002) found relatively low individualism in an earlier reading. Balancing the anchor (IDV 60, above midpoint) with genuine embeddedness pulls the score slightly below the raw Hofstede figure. Score 60: individualist tendency, but moderate — neither strongly Self nor strongly Social.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Lithuania shows a moderate individualism (Hofstede IDV 60), balanced by strong family and local community ties that persist from Soviet-era collective survival strategies. However, the score is pulled toward the individualist pole by a rapidly modernising urban population and post-Soviet push for self-reliance, while rural and older generations retain more collectivist habits. The anchor of 60 from Hofstede is the strongest measured signal; the score is set slightly lower (57) to reflect the lingering social-group orientation that is still visible in family-centred life and informal networks ('pažintys').",
+          "suggested_score": 57
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence from newcomer advice shows Lithuanians are reserved in public, avoid small talk, seldom smile at strangers—indicative of culturally restrained expression structures, not emotional suppression but social reserve. No strong open‑emotion evidence found, so modestly restrained (below midpoint).",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Multiple independent institutional and practitioner sources (Commisceo, Rivermate, CrossCulture Academy, WorkInLithuania) converge on a picture of emotional reserve: Lithuanians appear standoffish and reserved on initial contact, do not touch while speaking, keep personal space, and meetings are formal with tight control over who speaks. The CEPR article and medical literature document that traditional masculinity norms actively suppress help-seeking and emotional expression, especially among men — a structural suppression of expression, not mere introversion. Hofstede's Indulgence score for Lithuania is reported as low (around 16 by Huettinger-derived studies), reinforcing restraint. Counter-evidence: WorkInLithuania notes a surprisingly social side behind the initial reserve (coffee chats, after-work drinks), and CrossCulture Academy notes Lithuanians 'enjoy heated discussions' unlike quieter Estonian/Latvian neighbours. These signal partial expressiveness in trusted in-group contexts. Overall the structural suppression dominates public and professional contexts — score 28: clearly Restrained.",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Lithuanian expression is restrained overall, as seen in a cultural preference for reserved, polite public behaviour and a tendency to avoid emotional displays with strangers (Hofstede indulgence vs restraint score 16 indicates strong restraint). However, the counter-evidence of vibrant folk festivals and a growing café culture among younger urbanites suggests moderate openness in safe contexts. The score is set at 44, reflecting a society that remains quite restrained in public and formal settings but has become somewhat more expressive in private and among peers since independence.",
+          "suggested_score": 44
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Studies of everyday life in Lithuanian small towns describe meticulously organized, stable routines—people learn structures through social learning; strong norms like sidewalk pedestrian order, public reserve signal a preference for certainty/order. Thus higher-than-mid, but not extreme, Structure.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede Uncertainty Avoidance for Lithuania is cited at high levels in Baltic studies (Huettinger 2008). Commisceo, Bradford Jacobs, Rivermate and ClickUp all independently document tight protocol adherence: appointments scheduled 2–3 weeks in advance with attendee lists and titles, meetings are formal, punctuality is stressed, hierarchy is rank-matched. The CrossCulture Academy notes finalized contracts may still be revisited, suggesting some tolerance for process fluidity. Commisceo's management guide notes Lithuania is a 'moderate time culture' with some schedule flexibility, and the tech sector shows flatter, more fluid structures. These are genuine exceptions but remain sectoral/generational and do not override the base-rate preference for order, rules, and formal structure. Score 68: Certain-leaning, consistent with high-UAI post-Soviet Baltic profile, moderated by growing tech/startup flexibility.",
+          "suggested_score": 68
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Lithuanians exhibit a high need for structure, order, and predictability, consistent with Hofstede's Uncertainty Avoidance Index (65). This manifests in strong rule‑following at work and in public life, respect for hierarchy, and a preference for detailed planning. The historical legacy of Soviet bureaucracy further entrenched a desire for clear rules. The counter-evidence of occasional bureaucratic rigidity and public protests against corruption indicates that the system itself is not perfectly orderly, but the cultural preference for structure remains high. Score 72 reflects a certainty‑seeking culture.",
+          "suggested_score": 72
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence indicates culture prizes relationships (long conversations at table, pausing before warmth) and quality of life (slow living over grind), suggesting moderate 'acceptance' over drive. No strong achievement‑competition narratives surfaced, so slightly below midpoint.",
+          "suggested_score": 45
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede Masculinity for Lithuania (Huettinger 2008) is cited at moderate-high levels in Baltic studies (~around 19 in original Hofstede — but Huettinger's Baltic-adapted measurement puts it higher). More compelling is the convergent institutional evidence: OECD documents Lithuania's rapid GDP convergence toward OECD living standards as one of the fastest in the region ('Baltic Tiger'); the OECD 2025 Survey lauds its product market and insolvency framework as among the 'most conducive to productivity growth in the OECD'; WorkInLithuania notes that knowledge and drive are valued above age or status; the Schwartz Values Survey records low affective autonomy (not hedonism-driven) but high intellectual and mastery orientations. The CEPR article documents traditional masculinity norms linking male identity to self-reliance and performance. Counter-evidence: Mockaitis (2018) notes low affective autonomy and ranks Lithuania low on subjective wellbeing/life satisfaction (ESS 19th/23), suggesting acceptance rather than striving in quality-of-life domains; OECD notes persistently high inequality and regional disparities that may dampen individual striving for many. Score 62: Striving-leaning, driven by achievement and economic ambition rather than gender-role masculinity per se.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Lithuania is moderately striving, with a drive for achievement and material success (Hofstede Masculinity score 19 would suggest a more caring, harmony-oriented society, but other evidence points to a strong performance orientation, especially among the post-Soviet generation who embrace entrepreneurship and competition. The score is anchored higher (66) because Lithuania's rapid economic catch‑up, high tertiary education attainment, and emphasis on career advancement (especially in cities) signal a clear achievement orientation. The counter‑evidence of a traditional appreciation for life balance (e.g., family time, nature) tempers the drive score, preventing it from being extremely high.",
+          "suggested_score": 66
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Cultural dimensions in business life: Hofstede's indices for Latvia and Lithuania",
+      "url": "https://www.researchgate.net/publication/238326667_Cultural_dimensions_in_business_life_Hofstede's_indices_for_Latvia_and_Lithuania",
+      "author": "Huettinger, M.",
+      "publication_year": 2008,
+      "excerpt": "Hofstede's Individualism index for Lithuania is moderate-high at 60, placing it on the individualist side of the scale, ranked 23rd–26th out of 76 countries alongside Luxembourg and Estonia.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S02",
+      "title": "A Portrait of Lithuanian Societal Values",
+      "url": "https://mockaitis.com/2018/08/16/a-portrait-of-lithuanian-societal-values/",
+      "author": "Mockaitis, Audra I.",
+      "publication_year": 2018,
+      "excerpt": "The Schwartz Values Survey independently confirms Lithuania as a mildly individualistic society (ranking 28th out of 70 countries), with Lithuanians valuing independence and self-reliance to a moderate degree.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S04",
+      "title": "Lithuanian Identity and Values",
+      "url": "https://www.crvp.org/publications/Series-IVA/IVA-31.pdf",
+      "author": "Council for Research in Values and Philosophy",
+      "publication_year": 2000,
+      "excerpt": "In contemporary Lithuania, self-definition is increasingly an individual rather than a social problem, with personal choice in work and leisure growing more independent of social origins and structural belonging.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S06",
+      "title": "Work culture in Lithuania. What can you expect?",
+      "url": "https://workinlithuania.com/blog/work-culture-in-lithuania/",
+      "author": "Work in Lithuania",
+      "publication_year": 2026,
+      "excerpt": "In the Lithuanian workplace, knowledge and drive are valued above age or status, with young professionals taking on significant responsibility and upward mobility at an early age — reflecting an individualist meritocratic orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S02",
+      "title": "A Portrait of Lithuanian Societal Values",
+      "url": "https://mockaitis.com/2018/08/16/a-portrait-of-lithuanian-societal-values/",
+      "author": "Mockaitis, Audra I.",
+      "publication_year": 2018,
+      "excerpt": "Lithuania scores relatively high on Schwartz's 'Embeddedness' orientation, meaning people see themselves as interwoven within a wider collective where relationships serve shared goals and a shared identity — a counter-individualist signal.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S07",
+      "title": "Lithuania - Language, Culture, Customs And Etiquette",
+      "url": "https://commisceo-global.com/country-guides/lithuania-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Lithuanians do not touch others while speaking and can appear standoffish and reserved on initial meeting — a structural norm of emotional restraint in public and professional contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S11",
+      "title": "Cultural Differences - Lithuania",
+      "url": "https://crossculture-academy.com/cultural-differences-lithuania/",
+      "author": "CrossCulture Academy",
+      "publication_year": 2024,
+      "excerpt": "Contrary to their quieter neighbours in Estonia and Latvia, Lithuanians enjoy heated discussions — suggesting a relative openness to expressive debate within the regional Baltic context.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S06",
+      "title": "Work culture in Lithuania. What can you expect?",
+      "url": "https://workinlithuania.com/blog/work-culture-in-lithuania/",
+      "author": "Work in Lithuania",
+      "publication_year": 2026,
+      "excerpt": "Behind an initially reserved facade, Lithuanians are described as surprisingly social, with frequent coffee-machine chats and after-work drinks — indicating in-group expressiveness once trust is established.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S12",
+      "title": "Lithuania Country Facts - Work Culture",
+      "url": "https://bradfordjacobs.com/countries/europe/lithuania/lithuania-work-culture/",
+      "author": "Bradford Jacobs",
+      "publication_year": 2024,
+      "excerpt": "In hierarchical Lithuanian companies, managers expect subordinates to follow standard procedures without question, and getting things done often requires knowing the right people who can navigate bureaucracy — consistent with a rule/rank-structured environment.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S07",
+      "title": "Lithuania - Language, Culture, Customs And Etiquette",
+      "url": "https://commisceo-global.com/country-guides/lithuania-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Commisceo advises erring on the side of formality and adhering to conservative etiquette and protocol in Lithuanian business — reflecting cultural preference for structured, predictable interaction.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S01",
+      "title": "Cultural dimensions in business life: Hofstede's indices for Latvia and Lithuania",
+      "url": "https://www.researchgate.net/publication/238326667_Cultural_dimensions_in_business_life_Hofstede's_indices_for_Latvia_and_Lithuania",
+      "author": "Huettinger, M.",
+      "publication_year": 2008,
+      "excerpt": "Huettinger (2008) reports Lithuania with high Uncertainty Avoidance in the Baltic studies, indicating a strong cultural preference for rules and structured environments over ambiguous ones.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S16",
+      "title": "OECD Economic Surveys: Lithuania 2025",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-lithuania-2025_4abf1ea5-en.html",
+      "author": "OECD",
+      "publication_year": 2025,
+      "excerpt": "The OECD 2025 Economic Survey documents Lithuania's rapid convergence toward OECD living standards over 30 years, driven by exports, bold product-market reforms, and an insolvency framework among the most conducive to productivity growth in the OECD — reflecting a high-achievement economic orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S18",
+      "title": "OECD Economic Surveys: Lithuania 2020",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-lithuania-2020_62663b1d-en.html",
+      "author": "OECD",
+      "publication_year": 2020,
+      "excerpt": "The OECD 2020 Survey describes Lithuania's economy as 'performing strongly and converging fast towards the most-developed OECD countries,' earning the label 'Baltic Tiger' — signalling a cultural environment that prizes economic achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S06",
+      "title": "Work culture in Lithuania. What can you expect?",
+      "url": "https://workinlithuania.com/blog/work-culture-in-lithuania/",
+      "author": "Work in Lithuania",
+      "publication_year": 2026,
+      "excerpt": "Lithuanian professionals value knowledge and drive above age or status, with young specialists routinely leading teams or entire companies — reflecting meritocratic achievement orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S13",
+      "title": "Lithuania Job Interview Guide: Cultural Tips & Prep",
+      "url": "https://resumeflex.com/how-to-prepare-for-lithuania-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "The phrase 'Gal būt…' ('Perhaps…') is used in professional Lithuanian communication to soften criticism or disagreement — a real, citable local phrase whose literal meaning ('perhaps') functions as a diplomatic hedge masking a more direct negative assessment.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S13",
+      "title": "Lithuania Job Interview Guide: Cultural Tips & Prep",
+      "url": "https://resumeflex.com/how-to-prepare-for-lithuania-job-interview-cultural-guide/",
+      "author": "ResumeFlex",
+      "publication_year": 2025,
+      "excerpt": "A silence of 15 seconds after a question in a Lithuanian interview signals careful processing and respect, not disinterest — a newcomer who fills the silence with nervous chatter loses standing, while waiting signals adaptability.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S07",
+      "title": "Lithuania - Language, Culture, Customs And Etiquette",
+      "url": "https://commisceo-global.com/country-guides/lithuania-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "It is important not to display anger even if frustrated by bureaucracy in Lithuanian professional settings — emotional control in adversarial situations is expected, not just preferred.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C33",
+      "source_id": "S10",
+      "title": "A Guide to Business Etiquette in Lithuania",
+      "url": "https://clickup.com/p/business-etiquette/lithuania",
+      "author": "ClickUp",
+      "publication_year": 2024,
+      "excerpt": "Address Lithuanian colleagues by title and surname (e.g., 'Dr. Petrauskas') until explicitly invited to use first names — failure to do so signals disrespect for hierarchy and undermines trust.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights - Lithuania",
+      "url": "https://www.hofstede-insights.com/country/lithuania/",
+      "author": "Hofstede Insights",
+      "publication_year": 2024,
+      "excerpt": "Hofstede's Individualism (IDV) score for Lithuania is 60, indicating a moderately individualist society where personal achievement and responsibility are valued, but family and close networks remain important.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s9",
+      "title": "Education at a Glance 2023: Lithuania",
+      "url": "https://www.oecd-ilibrary.org/education/education-at-a-glance-2023_lithuania",
+      "author": "OECD",
+      "publication_year": 2023,
+      "excerpt": "Lithuania has one of the highest tertiary education attainment rates in the EU (over 55% of 25-34 year-olds), reflecting a strong achievement orientation and competition for skilled jobs.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s4",
+      "title": "Cultural Values and Economic Performance in Lithuania",
+      "url": "https://www.emerald.com/insight/content/doi/10.1108/17538250810868103/full/html",
+      "author": "Rūta Tamošiūnaitė",
+      "publication_year": 2008,
+      "excerpt": "Economic transition after 1990 created a culture of entrepreneurship and hard work as a means to catch up with Western Europe; material success is a key status signal in urban areas.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s2",
+      "title": "Lithuania: A Country Study",
+      "url": "https://www.loc.gov/item/2002066463/",
+      "author": "Federal Research Division, Library of Congress",
+      "publication_year": 2001,
+      "excerpt": "Traditional Lithuanian culture values leisure, family time, and connection to nature; work is not the sole focus, and a slower pace of life is still prized in rural areas.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s3",
+      "title": "The Post-Soviet Lithuanian Identity: Between Nationalism and Individualism",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/09546545.2015.1059994",
+      "author": "Dovilė Budrytė",
+      "publication_year": 2015,
+      "excerpt": "Post-Soviet Lithuania saw a rise in individualism as younger generations adopted Western consumer culture and self-reliance, while older cohorts retained collectivist habits from the Soviet era.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s2",
+      "title": "Lithuania: A Country Study",
+      "url": "https://www.loc.gov/item/2002066463/",
+      "author": "Federal Research Division, Library of Congress",
+      "publication_year": 2001,
+      "excerpt": "Traditional Lithuanian family structure emphasises strong kinship ties and mutual support, and informal networks (pažintys) remain crucial for navigating daily life, reflecting a social-group orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s1",
+      "title": "Hofstede Insights - Lithuania",
+      "url": "https://www.hofstede-insights.com/country/lithuania/",
+      "author": "Hofstede Insights",
+      "publication_year": 2024,
+      "excerpt": "Hofstede Indulgence vs Restraint score for Lithuania is 16, indicating a very restrained culture where social norms discourage gratification of desires and emotional display in public is limited.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s5",
+      "title": "The Lithuanians: A Thumbnail History",
+      "url": "https://www.lituanus.org/1998/98_3_03.htm",
+      "author": "Alfonsas Eidintas",
+      "publication_year": 1998,
+      "excerpt": "Lithuanian culture values understatement and reserve; direct emotional expressions are often seen as lacking self-control, especially in formal or public settings.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s6",
+      "title": "Lithuanian Folk Culture – From Traditions to Modernity",
+      "url": "https://www.culture.lt/en/traditions/",
+      "author": "Lithuanian Culture Institute",
+      "publication_year": 2022,
+      "excerpt": "Lithuanian folk festivals (e.g., Užgavėnės, Joninės) are lively, joyous communal celebrations where loud music, dancing, and public jesting are the norm, showing openness in ritualised contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s1",
+      "title": "Hofstede Insights - Lithuania",
+      "url": "https://www.hofstede-insights.com/country/lithuania/",
+      "author": "Hofstede Insights",
+      "publication_year": 2024,
+      "excerpt": "Hofstede Uncertainty Avoidance (UAI) for Lithuania is 65, indicating a strong preference for rules, structure, and predictability to reduce anxiety about the unknown.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s7",
+      "title": "Workplace Values and Communication in Lithuania: The Impact of Soviet Legacy",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-63272-5_12",
+      "author": "Irena Žemaitukienė",
+      "publication_year": 2021,
+      "excerpt": "In Lithuanian workplaces, clear hierarchies and written procedures are preferred; improvisation or ambiguity is often viewed with discomfort, a legacy of Soviet bureaucratic culture.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s8",
+      "title": "Corruption Perceptions Index 2023 – Lithuania",
+      "url": "https://www.transparency.org/en/cpi/2023/index/ltu",
+      "author": "Transparency International",
+      "publication_year": 2024,
+      "excerpt": "Despite a cultural desire for order, corruption and bureaucratic inefficiency remain significant issues, leading some to bypass formal rules through informal networks, indicating systemic flexibility.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 60,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 34,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 66,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 48,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 61.69279696,
+      "D2": 33.75436543,
+      "D3": 59.4371452,
+      "D4": 41.61348002
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 48.49060021,
+        "hi": 74.89499371
+      },
+      "D2": {
+        "lo": 11.54937297,
+        "hi": 55.9593579
+      },
+      "D3": {
+        "lo": 35.22763698,
+        "hi": 83.64665342
+      },
+      "D4": {
+        "lo": 14.16911707,
+        "hi": 69.05784297
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "LTU",
+        "dimension": "D1",
+        "baseline": 61.69279696,
+        "final": 60.0,
+        "direction": "down",
+        "magnitude": 1.69,
+        "reason": "Identity adjusted from baseline 61.7 to 60 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.53 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 60 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "LTU",
+        "dimension": "D3",
+        "baseline": 59.4371452,
+        "final": 66.0,
+        "direction": "up",
+        "magnitude": 6.56,
+        "reason": "Structure adjusted from baseline 59.4 to 66 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 66 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "LTU",
+        "dimension": "D4",
+        "baseline": 41.61348002,
+        "final": 48.0,
+        "direction": "up",
+        "magnitude": 6.39,
+        "reason": "Drive adjusted from baseline 41.6 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 48 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 48.49,
+        "baseline": 61.69279696,
+        "framework_hi": 74.89,
+        "specialist_recommendation": 58.5,
+        "council_consensus": 62.0,
+        "integrator_recommendation": 60.33,
+        "llm_recommendation": 60.0,
+        "final": 60,
+        "available_range": 26.4,
+        "distance_from_baseline": -1.69,
+        "range_utilization": 44,
+        "clamp_adjustment": -0.33,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 11.51,
+        "distance_from_upper": 14.89,
+        "movement_reason": "Evidence-first placement of Identity at 60 (evidence credibility 0.53): specialist recommendation 58.5 blended with council consensus 62.0, with baseline reference 61.7 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 11.55,
+        "baseline": 33.75436543,
+        "framework_hi": 55.96,
+        "specialist_recommendation": 37.333,
+        "council_consensus": 29.09,
+        "integrator_recommendation": 33.64,
+        "llm_recommendation": 34.0,
+        "final": 34,
+        "available_range": 44.41,
+        "distance_from_baseline": 0.25,
+        "range_utilization": 51,
+        "clamp_adjustment": 0.36,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 22.45,
+        "distance_from_upper": 21.96,
+        "movement_reason": "Evidence-first placement of Expression at 34 (evidence credibility 0.55): specialist recommendation 37.333 blended with council consensus 29.09, with baseline reference 33.8 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 35.23,
+        "baseline": 59.4371452,
+        "framework_hi": 83.65,
+        "specialist_recommendation": 66.667,
+        "council_consensus": 67.5,
+        "integrator_recommendation": 66.2,
+        "llm_recommendation": 66.0,
+        "final": 66,
+        "available_range": 48.42,
+        "distance_from_baseline": 6.56,
+        "range_utilization": 64,
+        "clamp_adjustment": -0.2,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 30.77,
+        "distance_from_upper": 17.65,
+        "movement_reason": "Evidence-first placement of Structure at 66 (evidence credibility 0.56): specialist recommendation 66.667 blended with council consensus 67.5, with baseline reference 59.4 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 14.17,
+        "baseline": 41.61348002,
+        "framework_hi": 69.06,
+        "specialist_recommendation": 57.667,
+        "council_consensus": 37.75,
+        "integrator_recommendation": 48.13,
+        "llm_recommendation": 48.0,
+        "final": 48,
+        "available_range": 54.89,
+        "distance_from_baseline": 6.39,
+        "range_utilization": 62,
+        "clamp_adjustment": -0.13,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 33.83,
+        "distance_from_upper": 21.06,
+        "movement_reason": "Evidence-first placement of Drive at 48 (evidence credibility 0.56): specialist recommendation 57.667 blended with council consensus 37.75, with baseline reference 41.6 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Lithuania",
+        "iso3": "LTU",
+        "dimension": "D1",
+        "baseline_score": 61.69279696,
+        "final_score": 60,
+        "change_amount": -1.69,
+        "change_percent": -2.74,
+        "adjustment_type": "ROUNDING",
+        "summary": "Lithuania's Identity is placed at 60 (Social 3 <-> Self 97). Within the framework range [48-75], 60 sits at ~44% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C01",
+          "W_institutional_analyst_C07",
+          "W_historical_analyst_c2"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 60.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 40.0
+        },
+        "statistician_reasoning": "Quantitative: framework consensus at 52.04 with signal_strength=0.5059 and agreement_score=0.7566. Hofstede IDV for Lithuania estimated ~60, placing it moderately individualist. Conflict from Trompenaars communitarianism signal introduces uncertainty but does not override the Hofstede anchor (D1 anchor measure). Score of 62 is above South Korea anchor (50) by 12, reflecting Baltic post-Soviet transition toward Western individualist norms. Why not lower: Hofstede IDV ~60 and WVS autonomy/choice signals for Baltic states rule out sub-50 placement. Why not higher: Trompenaars conflict score 0.2434 and partial data status prevent pushing toward 70+. Decisive evidence: hofstede_individualism estimated ~60, trompenaars conflict moderates upward movement. CI: 48.49-74.89.",
+        "comparativist_reasoning": "Lithuania's score of 62 in Identity reflects its post-Soviet transition towards Western individualist norms, aligning it closer to Estonia (65) and above Croatia (51) and Bulgaria (43). The Hofstede Individualism estimate of ~60 supports this placement above the South Korea anchor (50).",
+        "country_specialist_reasoning": "Lithuania's Identity dimension is supported by Hofstede's Individualism index, which places it moderately high at 60, indicating a tilt towards individualism. The Schwartz Values Survey also confirms a mildly individualistic society. These align with the framework signal pointing towards a Self orientation, despite some Trompenaars conflict.",
+        "skeptic_reasoning": "Adversarial check on Identity=62: resist midpoint bias and compression. The score is justified by Hofstede IDV ~60 (W_institutional_analyst_C01) and Schwartz mild individualism (W_institutional_analyst_C02), placing it above the South Korea anchor (50) by 12. Why not lower: Trompenaars conflict (0.2434) and qualitative evidence of collectivist countryside (W_cultural_anthropologist_c2) do not outweigh the quantitative consensus (52.04) and anchor delta; sub-50 would contradict Hofstede anchor. Why not higher: Trompenaars conflict and partial data prevent pushing toward 70+; Mockaitis (2002) found lower individualism (W_institutional_analyst_C05), capping upward movement. Decisive evidence: W_institutional_analyst_C01 (Hofstede IDV ~60) and W_institutional_analyst_C02 (Schwartz mild individualism).",
+        "integrator_decision": "Identity adjusted from baseline 61.7 to 60 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.53 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.647): coverage=0.4, agreement=1.0, evidence=0.51, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 60,
+          "considered_alternatives": [
+            62
+          ],
+          "why_rejected": {
+            "62": "62 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "60 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (62) and the CI floor (48), so going below 60 would understate the measured signal.",
+        "integrator_recommendation": 60.33,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.33,
+        "absolute_score_rationale": "Lithuania sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Lithuania's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Lithuania's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Lithuania's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Lithuania that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Lithuania that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 60 means everyday life in Lithuania leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 60 is justified: Lithuania sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (62) and the CI floor (48), so going below 60 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C01, W_institutional_analyst_C07, W_historical_analyst_c2.",
+        "executive_explanation": "Lithuania sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (62) already reflected this evidence, so the council confirmed 60 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (62) and the CI floor (48), so going below 60 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.69 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [48-75], 60 sits at ~44% of the permitted span."
+      },
+      {
+        "country": "Lithuania",
+        "iso3": "LTU",
+        "dimension": "D2",
+        "baseline_score": 33.75436543,
+        "final_score": 34,
+        "change_amount": 0.25,
+        "change_percent": 0.74,
+        "adjustment_type": "ROUNDING",
+        "summary": "Lithuania's Expression is placed at 34 (Restrained 3 <-> Open 97). Within the framework range [12-56], 34 sits at ~51% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c4",
+          "W_cultural_anthropologist_c5",
+          "W_historical_analyst_c4"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 60.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 40.0
+        },
+        "statistician_reasoning": "Quantitative: consensus at 30.72 with signal_strength=0.5442 but high conflict_score=0.4604. Hofstede Indulgence for Lithuania ~16 is the decisive anchor, strongly below Turkey D2=50. Lithuania's reserved, stoic Northern/Eastern European emotional style corroborates restraint. Why not lower: conflict from Trompenaars affective-neutral and partial data prevent pushing below 20. Why not higher: Hofstede Indulgence of ~16 is among the lowest globally and directly anchors D2; no evidence supports approaching the Turkey anchor of 50. Score of 28 reflects clear restraint with some buffer for framework conflict. CI: 11.55-55.96.",
+        "comparativist_reasoning": "Lithuania's Expression score of 28 is indicative of its reserved, stoic Northern/Eastern European emotional style, similar to Estonia (30) and below Poland (42). The Hofstede Indulgence estimate of ~16 strongly anchors this score below the Turkey anchor (50).",
+        "country_specialist_reasoning": "Lithuania's Expression dimension is characterized by a low Hofstede Indulgence score (~16), indicating a restrained emotional expression style. This aligns with the cultural perception of a reserved, stoic Northern/Eastern European emotional style, placing it well below the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=32: resist midpoint bias and compression. The score is justified by Hofstede Indulgence ~16 (W_cultural_anthropologist_c4) and qualitative evidence of reserved emotional style (W_cultural_anthropologist_c5), placing it well below the Turkey anchor (50) by 18. Why not lower: conflict from Trompenaars affective-neutral (0.4604) and partial data prevent pushing below 20; the CI lo is 11.55, but 32 balances restraint with uncertainty. Why not higher: Hofstede Indulgence ~16 is among the lowest globally, and no evidence supports approaching 50; the consensus is 30.72, and 32 is slightly above that, reflecting some buffer for framework conflict. Decisive evidence: W_cultural_anthropologist_c4 (Hofstede Indulgence ~16) and W_cultural_anthropologist_c5 (reserved emotional style).",
+        "integrator_decision": "Integrator retained the baseline (33.8) for Expression.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6504): coverage=0.4, agreement=0.885, evidence=0.521, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 34,
+          "considered_alternatives": [
+            28,
+            32
+          ],
+          "why_rejected": {
+            "28": "28 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "32": "32 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "34 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (56), so pushing past 34 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 34 would understate the measured signal.",
+        "integrator_recommendation": 33.64,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.36,
+        "absolute_score_rationale": "Lithuania sits at 34 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Lithuania's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Lithuania that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Lithuania that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Lithuania that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Lithuania that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 34 means everyday life in Lithuania leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 34 is justified: Lithuania sits at 34 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 34 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (56), so pushing past 34 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c4, W_cultural_anthropologist_c5, W_historical_analyst_c4.",
+        "executive_explanation": "Lithuania sits at 34 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (34) already reflected this evidence, so the council confirmed 34 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (56), so pushing past 34 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 34 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.25 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [12-56], 34 sits at ~51% of the permitted span."
+      },
+      {
+        "country": "Lithuania",
+        "iso3": "LTU",
+        "dimension": "D3",
+        "baseline_score": 59.4371452,
+        "final_score": 66,
+        "change_amount": 6.56,
+        "change_percent": 11.04,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Lithuania's Structure is placed at 66 (Fluid 3 <-> Certain 97). Within the framework range [35-84], 66 sits at ~64% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c8",
+          "W_institutional_analyst_C20",
+          "W_cultural_anthropologist_c7"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 50.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 50.0
+        },
+        "statistician_reasoning": "Quantitative: strongest signal of all four dimensions — signal_strength=0.6158, agreement_score=0.957, conflict_score=0.043. Near-unanimous framework agreement across Hofstede and Trompenaars. Hofstede UAI for Lithuania ~65, Trompenaars future-past and synchronic-sequential both align toward high structure. Post-Soviet preference for rules and predictability corroborates. Why not lower: no conflicting frameworks; all signals point above Colombia anchor (50). Why not higher: partial data status and conservatism prevent pushing toward 80+; UAI ~65 does not justify extreme placement. Score of 68 is 18 above Colombia anchor. CI: 35.23-83.65.",
+        "comparativist_reasoning": "Lithuania's Structure score of 68 is supported by a strong preference for rules and predictability, similar to Estonia (64) and Poland (64), and above Colombia (50). The Hofstede UAI estimate of ~65 corroborates this high structure orientation.",
+        "country_specialist_reasoning": "Lithuania's Structure dimension is strongly supported by Hofstede's Uncertainty Avoidance index (~65), indicating a preference for predictability and rules. This is further corroborated by Trompenaars' alignment towards high structure, reflecting a post-Soviet preference for order.",
+        "skeptic_reasoning": "Adversarial check on Structure=66: resist midpoint bias and compression. The score is justified by near-unanimous framework agreement (agreement_score=0.957, conflict_score=0.043) and Hofstede UAI ~65 (W_institutional_analyst_C20), placing it above the Colombia anchor (50) by 16. Why not lower: no conflicting frameworks; all signals point above 50; post-Soviet preference for rules (W_historical_analyst_c8) corroborates high structure. Why not higher: partial data and conservatism prevent pushing toward 80+; UAI ~65 does not justify extreme placement; the CI hi is 83.65, but 66 reflects a moderate-high position. Decisive evidence: W_institutional_analyst_C20 (Hofstede UAI ~65) and W_historical_analyst_c8 (post-Soviet rule preference).",
+        "integrator_decision": "Structure adjusted from baseline 59.4 to 66 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5369): coverage=0.4, agreement=0.942, evidence=0.553, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 66,
+          "considered_alternatives": [
+            59,
+            68
+          ],
+          "why_rejected": {
+            "59": "59 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "68": "68 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "66 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (68) and the CI ceiling (84), so pushing past 66 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (66) and the CI floor (35), so going below 66 would understate the measured signal.",
+        "integrator_recommendation": 66.2,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.2,
+        "absolute_score_rationale": "Lithuania sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Lithuania's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Lithuania's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Lithuania's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Lithuania that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Lithuania that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 66 means everyday life in Lithuania leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 66 is justified: Lithuania sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (66) and the CI floor (35), so going below 66 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (68) and the CI ceiling (84), so pushing past 66 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c8, W_institutional_analyst_C20, W_cultural_anthropologist_c7.",
+        "executive_explanation": "Lithuania sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (68) and the CI ceiling (84), so pushing past 66 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (66) and the CI floor (35), so going below 66 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=6.56. Framework consensus=60.35, signal_strength=0.6158, conflict=0.043. Within the framework range [35-84], 66 sits at ~64% of the permitted span. Confidence MEDIUM (score 0.5369): coverage=0.4, agreement=0.942, evidence=0.553, stability=1.0."
+      },
+      {
+        "country": "Lithuania",
+        "iso3": "LTU",
+        "dimension": "D4",
+        "baseline_score": 41.61348002,
+        "final_score": 48,
+        "change_amount": 6.39,
+        "change_percent": 15.36,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Lithuania's Drive is placed at 48 (Accepting 3 <-> Striving 97). Within the framework range [14-69], 48 sits at ~62% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c11",
+          "W_cultural_anthropologist_c8",
+          "W_cultural_anthropologist_c9"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 75.0,
+          "globe": 0.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Quantitative: consensus at 40.03 with signal_strength=0.5718 and agreement_score=0.8175. Hofstede Masculinity for Lithuania ~19 is among the lowest globally, indicating a strong feminine/harmony orientation well below Turkey anchor (50). Trompenaars ascription-achievement and external-internal locus signals align with accepting rather than striving orientation. Why not lower: consensus at 40.03 and partial data status prevent pushing below 35; some post-Soviet achievement aspiration is documented. Why not higher: Hofstede MAS ~19 is decisive and strongly rules out placement at or above 50. Score of 38 is 12 below Turkey anchor. CI: 14.17-69.06.",
+        "comparativist_reasoning": "Lithuania's Drive score of 38 reflects a moderate achievement orientation, similar to Montenegro (45) and below Poland (57). The Hofstede Masculinity estimate of ~19 supports a lower drive, below the Turkey anchor (50).",
+        "country_specialist_reasoning": "Lithuania's Drive dimension is informed by a low Hofstede Masculinity score (~19), suggesting a cultural orientation towards harmony and contentment rather than achievement and mastery. This places it below the Turkey anchor, reflecting a more accepting cultural value.",
+        "skeptic_reasoning": "Adversarial check on Drive=37: resist midpoint bias and compression. The score is justified by Hofstede Masculinity ~19 (W_cultural_anthropologist_c8) and qualitative evidence of modest ambition (W_historical_analyst_c11), placing it below the Turkey anchor (50) by 13. Why not lower: partial data and some striving in Baltic context (regional mean 47.35) prevent pushing below 30; the CI lo is 14.17, but 37 reflects a moderate-low position. Why not higher: Hofstede Masculinity ~19 is among the lowest, and no evidence supports approaching 50; the consensus is 40.03, and 37 is slightly below, consistent with low masculinity. Decisive evidence: W_cultural_anthropologist_c8 (Hofstede Masculinity ~19) and W_historical_analyst_c11 (modest ambition).",
+        "integrator_decision": "Drive adjusted from baseline 41.6 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.56 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5142): coverage=0.4, agreement=0.971, evidence=0.525, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 48,
+          "considered_alternatives": [
+            37,
+            38,
+            42
+          ],
+          "why_rejected": {
+            "37": "37 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "38": "38 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "42": "42 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "48 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (38) and the CI ceiling (69), so pushing past 48 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (14), so going below 48 would understate the measured signal.",
+        "integrator_recommendation": 48.13,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.13,
+        "absolute_score_rationale": "Lithuania sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~40), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Lithuania's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Lithuania's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Lithuania that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Lithuania that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Lithuania that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 48 means everyday life in Lithuania leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 48 is justified: Lithuania sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~40), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (14), so going below 48 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (38) and the CI ceiling (69), so pushing past 48 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c11, W_cultural_anthropologist_c8, W_cultural_anthropologist_c9.",
+        "executive_explanation": "Lithuania sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~40), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (38) and the CI ceiling (69), so pushing past 48 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (14), so going below 48 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=6.39. Framework consensus=40.03, signal_strength=0.5718, conflict=0.1825. Within the framework range [14-69], 48 sits at ~62% of the permitted span. Confidence MEDIUM (score 0.5142): coverage=0.4, agreement=0.971, evidence=0.525, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "EST",
+        "country": "Estonia",
+        "d1": 65.0,
+        "d2": 30.0,
+        "d3": 64.0,
+        "d4": 47.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "d1": 51.0,
+        "d2": 39.0,
+        "d3": 59.0,
+        "d4": 49.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MNE",
+        "country": "Montenegro",
+        "d1": 60.49781383,
+        "d2": 50.53023429,
+        "d3": 56.65212323,
+        "d4": 45.74138367,
+        "relation": "regional"
+      },
+      {
+        "iso3": "POL",
+        "country": "Poland",
+        "d1": 58.0,
+        "d2": 42.0,
+        "d3": 64.0,
+        "d4": 57.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BGR",
+        "country": "Bulgaria",
+        "d1": 43.0,
+        "d2": 34.0,
+        "d3": 69.0,
+        "d4": 50.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 10.0,
+        "reason": "Lithuania is above the South Korea Identity anchor (50) by 10.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 16.0,
+        "reason": "Lithuania is below the Turkey Expression anchor (50) by 16.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 2.0,
+        "reason": "Lithuania is below the Turkey Drive anchor (50) by 2.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 16.0,
+        "reason": "Lithuania is above the Colombia Structure anchor (50) by 16.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "LTU",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=32"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 32.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "Hofstede Insights Country Comparison Tool — Lithuania scores for Indulgence and Uncertainty Avoidance.",
+        "source_type": "qualitative_literature",
+        "data_point": "Indulgence ~16 (very low); UAI ~65 (high)",
+        "url_or_doi": "https://www.hofstede-insights.com/country-comparison/lithuania/",
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "negative",
+        "verified": false,
+        "verification_notes": [
+          "missing_year"
+        ],
+        "ref_id": "REF_0055"
+      },
+      {
+        "citation": "Hofstede Insights Country Comparison Tool — Lithuania Uncertainty Avoidance.",
+        "source_type": "qualitative_literature",
+        "data_point": "UAI ~65 indicating high structure preference",
+        "url_or_doi": "https://www.hofstede-insights.com/country-comparison/lithuania/",
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "positive",
+        "verified": false,
+        "verification_notes": [
+          "missing_year"
+        ],
+        "ref_id": "REF_0056"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Hofstede Insights Country Comparison Tool — Lithuania Masculinity score.",
+        "source_type": "qualitative_literature",
+        "data_point": "MAS ~19 indicating strong feminine/harmony orientation",
+        "url_or_doi": "https://www.hofstede-insights.com/country-comparison/lithuania/",
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "negative",
+        "verified": false,
+        "verification_notes": [
+          "missing_year"
+        ],
+        "ref_id": "REF_0057"
+      },
+      {
+        "citation": "Mockaitis, A. I. (2002). The national cultural dimensions of Lithuania. Ekonomika, 59, 63-77.",
+        "source_type": "academic_journal",
+        "data_point": null,
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "lower",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0058"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "LTU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Post-Soviet Lithuania saw a rise in individualism as younger generations adopted Western consumer culture and self-reliance, while older cohorts retained collectivist habits from the Soviet era.",
+          "strongest_opposing": "Traditional Lithuanian family structure emphasises strong kinship ties and mutual support, and informal networks (pažintys) remain crucial for navigating daily life, reflecting a social-group orientation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Lithuanian culture values understatement and reserve; direct emotional expressions are often seen as lacking self-control, especially in formal or public settings.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Lithuanian folk festivals (e.g., Užgavėnės, Joninės) are lively, joyous communal celebrations where loud music, dancing, and public jesting are the norm, showing openness in ritualised contexts.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c6",
+            "c7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "In Lithuanian workplaces, clear hierarchies and written procedures are preferred; improvisation or ambiguity is often viewed with discomfort, a legacy of Soviet bureaucratic culture.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c8",
+            "c9"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Earlier empirical work by Mockaitis (2002) using Hofstede's model found Lithuania scoring relatively low on individualism, indicating that different measurement waves yield inconsistent results — the moderate reading is the best synthesis.",
+          "strongest_opposing": "A peer-reviewed study (Wakefield et al., 2016) found that Lithuanian participants perceived family values to be significantly more central to their national identity than Scottish comparators, and national identification was more tightly linked to homophobia — indicating strong collective embedding at the family/national level.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "opposing_evidence_ids": [
+            "C06",
+            "C07",
+            "C08",
+            "C09"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 28.0,
+          "strongest_supporting": "Lithuanians do not touch others while speaking and can appear standoffish and reserved on initial meeting — a structural norm of emotional restraint in public and professional contexts.",
+          "strongest_opposing": "Contrary to their quieter neighbours in Estonia and Latvia, Lithuanians enjoy heated discussions — suggesting a relative openness to expressive debate within the regional Baltic context.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 36.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 68.0,
+          "strongest_supporting": "Huettinger (2008) reports Lithuania with high Uncertainty Avoidance in the Baltic studies, indicating a strong cultural preference for rules and structured environments over ambiguous ones.",
+          "strongest_opposing": "Commisceo's management guide notes Lithuania is a 'moderate time culture' with some flexibility to strict adherence to schedules and deadlines — a partial counter to very high certainty.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 76.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ],
+          "opposing_evidence_ids": [
+            "C21",
+            "C22"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 62.0,
+          "strongest_supporting": "The OECD 2025 Economic Survey documents Lithuania's rapid convergence toward OECD living standards over 30 years, driven by exports, bold product-market reforms, and an insolvency framework among the most conducive to productivity growth in the OECD — reflecting a high-achievement economic orientation.",
+          "strongest_opposing": "Mockaitis (2018) ranks Lithuania near the bottom of the European Social Survey on subjective wellbeing and life satisfaction (19th of 23 countries), and as low on affective autonomy — suggesting acceptance or resignation rather than active quality-of-life striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.67,
+          "supporting_evidence_ids": [
+            "C23",
+            "C24",
+            "C25",
+            "C26",
+            "C27"
+          ],
+          "opposing_evidence_ids": [
+            "C28",
+            "C29"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 57.0,
+          "strongest_supporting": "Post-Soviet Lithuania saw a rise in individualism as younger generations adopted Western consumer culture and self-reliance, while older cohorts retained collectivist habits from the Soviet era.",
+          "strongest_opposing": "Traditional Lithuanian family structure emphasises strong kinship ties and mutual support, and informal networks (pažintys) remain crucial for navigating daily life, reflecting a social-group orientation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 65.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 44.0,
+          "strongest_supporting": "Lithuanian culture values understatement and reserve; direct emotional expressions are often seen as lacking self-control, especially in formal or public settings.",
+          "strongest_opposing": "Lithuanian folk festivals (e.g., Užgavėnės, Joninės) are lively, joyous communal celebrations where loud music, dancing, and public jesting are the norm, showing openness in ritualised contexts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 52.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 72.0,
+          "strongest_supporting": "In Lithuanian workplaces, clear hierarchies and written procedures are preferred; improvisation or ambiguity is often viewed with discomfort, a legacy of Soviet bureaucratic culture.",
+          "strongest_opposing": "Despite a cultural desire for order, corruption and bureaucratic inefficiency remain significant issues, leading some to bypass formal rules through informal networks, indicating systemic flexibility.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9"
+          ]
+        },
+        {
+          "iso3": "LTU",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 66.0,
+          "strongest_supporting": "Economic transition after 1990 created a culture of entrepreneurship and hard work as a means to catch up with Western Europe; material success is a key status signal in urban areas.",
+          "strongest_opposing": "Traditional Lithuanian culture values leisure, family time, and connection to nature; work is not the sole focus, and a slower pace of life is still prized in rural areas.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 74.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11"
+          ],
+          "opposing_evidence_ids": [
+            "c12"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "LTU",
+          "dimension": "D1",
+          "baseline_score": 61.69279696,
+          "specialist_recommendation": 58.5,
+          "specialist_confidence": 0.735,
+          "evidence_strength": 0.51,
+          "evidence_quality": 0.546,
+          "disagreement_index": 0.06,
+          "specialist_influence_weight": 0.5291,
+          "rationale": "High specialist confidence -> evidence credibility 0.53 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "LTU",
+          "dimension": "D2",
+          "baseline_score": 33.75436543,
+          "specialist_recommendation": 37.333,
+          "specialist_confidence": 0.68,
+          "evidence_strength": 0.5211,
+          "evidence_quality": 0.5445,
+          "disagreement_index": 0.2719,
+          "specialist_influence_weight": 0.5501,
+          "rationale": "High specialist confidence -> evidence credibility 0.55 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "LTU",
+          "dimension": "D3",
+          "baseline_score": 59.4371452,
+          "specialist_recommendation": 66.667,
+          "specialist_confidence": 0.7333,
+          "evidence_strength": 0.5529,
+          "evidence_quality": 0.5542,
+          "disagreement_index": 0.1996,
+          "specialist_influence_weight": 0.5634,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "LTU",
+          "dimension": "D4",
+          "baseline_score": 41.61348002,
+          "specialist_recommendation": 57.667,
+          "specialist_confidence": 0.6567,
+          "evidence_strength": 0.525,
+          "evidence_quality": 0.5479,
+          "disagreement_index": 0.3642,
+          "specialist_influence_weight": 0.5612,
+          "rationale": "High specialist confidence -> evidence credibility 0.56 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "LTU",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 16.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 16.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 21.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 21.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=58: differs by 4 from the statistician reading of 62.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=37: differs by 9 from the statistician reading of 28.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=63: differs by 5 from the statistician reading of 68.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=46: differs by 8 from the statistician reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=61: differs by 3 from the comparativist reading of 58.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=45: differs by 8 from the comparativist reading of 37.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 17.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=70: differs by 7 from the comparativist reading of 63.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=55: differs by 9 from the comparativist reading of 46.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 17.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=34: differs by 11 from the country_specialist reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=64: differs by 6 from the country_specialist reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=37: differs by 18 from the country_specialist reading of 55.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=28: differs by 6 from the devils_advocate reading of 34.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "LTU",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=68: differs by 4 from the devils_advocate reading of 64.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "LTU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 9,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 6,
+          "recommendation": 28.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 7,
+          "recommendation": 68.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.67,
+          "evidence_count": 7,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 57.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 44.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "LTU",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 66.0
+        }
+      ],
+      "independence": [
+        {
+          "iso3": "LTU",
+          "dimension": "D1",
+          "seat_a": "cultural_anthropologist",
+          "seat_b": "historical_analyst",
+          "shared_evidence": true,
+          "identical_text": false
+        }
+      ],
+      "diversity_v2": {
+        "iso3": "LTU",
+        "score_diversity": 0.1787,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6619,
+        "consensus_quality": 0.9698,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "LTU",
+      "country": "Lithuania",
+      "region": "Eastern Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 60,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.94,
+          "top_supporting_arguments": [
+            "Lithuania’s Individualism score is about average (~50) according to Hofstede methodology.",
+            "Lithuanians self-identify as individualists despite some collectivist features.",
+            "Hofstede's Individualism index for Lithuania is moderate-high at 60, placing it on the individualist side of the scale, ranked 23rd–26th out of 76 countries alongside Luxembourg and Estonia."
+          ],
+          "top_counter_arguments": [
+            "Though average overall, countryside areas tend to be more collectivist than cities in Lithuania.",
+            "Lithuania scores relatively high on Schwartz's 'Embeddedness' orientation, meaning people see themselves as interwoven within a wider collective where relationships serve shared goals and a shared identity — a counter-individualist signal.",
+            "A peer-reviewed study (Wakefield et al., 2016) found that Lithuanian participants perceived family values to be significantly more central to their national identity than Scottish comparators, and national identification was more tightly linked to homophobia — indicating strong collective embedding at the family/national level."
+          ],
+          "why_this_score": "Lithuania sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (62) and the CI ceiling (75), so pushing past 60 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (62) and the CI floor (48), so going below 60 would understate the measured signal.",
+          "related_countries": [
+            "Estonia",
+            "Croatia",
+            "Montenegro",
+            "Poland",
+            "Bulgaria"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "s1",
+              "title": "Lithuania’s ranking on the Individualism is about average (IDV ≈50)",
+              "url": "",
+              "author": "",
+              "publication_year": 2013,
+              "excerpt": "Lithuania’s Individualism score is about average (~50) according to Hofstede methodology.",
+              "dimension": "D1",
+              "support_direction": "supports_mid"
+            },
+            {
+              "claim_id": "c3",
+              "source_id": "s1",
+              "title": "Lithuania’s ranking on the Individualism is about average (IDV ≈50)",
+              "url": "",
+              "author": "",
+              "publication_year": 2013,
+              "excerpt": "Lithuanians self-identify as individualists despite some collectivist features.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C01",
+              "source_id": "S01",
+              "title": "Cultural dimensions in business life: Hofstede's indices for Latvia and Lithuania",
+              "url": "https://www.researchgate.net/publication/238326667_Cultural_dimensions_in_business_life_Hofstede's_indices_for_Latvia_and_Lithuania",
+              "author": "Huettinger, M.",
+              "publication_year": 2008,
+              "excerpt": "Hofstede's Individualism index for Lithuania is moderate-high at 60, placing it on the individualist side of the scale, ranked 23rd–26th out of 76 countries alongside Luxembourg and Estonia.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 34,
+          "confidence": "MEDIUM",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.728,
+          "top_supporting_arguments": [
+            "Contrary to their quieter neighbours in Estonia and Latvia, Lithuanians enjoy heated discussions — suggesting a relative openness to expressive debate within the regional Baltic context.",
+            "Behind an initially reserved facade, Lithuanians are described as surprisingly social, with frequent coffee-machine chats and after-work drinks — indicating in-group expressiveness once trust is established.",
+            "Lithuanian folk festivals (e.g., Užgavėnės, Joninės) are lively, joyous communal celebrations where loud music, dancing, and public jesting are the norm, showing openness in ritualised contexts."
+          ],
+          "top_counter_arguments": [
+            "Newcomers note that Lithuanians rarely smile at strangers, avoid small talk, and are quiet in public spaces.",
+            "Written and unwritten rules include: ‘be quiet in public transport’, ‘don't talk to random stranger out of the blue’ — signaling reserved social expression.",
+            "Lithuanians do not touch others while speaking and can appear standoffish and reserved on initial meeting — a structural norm of emotional restraint in public and professional contexts."
+          ],
+          "why_this_score": "Lithuania sits at 34 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~31), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (56), so pushing past 34 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (12), so going below 34 would understate the measured signal.",
+          "related_countries": [
+            "Estonia",
+            "Croatia",
+            "Montenegro",
+            "Poland",
+            "Bulgaria"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C14",
+              "source_id": "S11",
+              "title": "Cultural Differences - Lithuania",
+              "url": "https://crossculture-academy.com/cultural-differences-lithuania/",
+              "author": "CrossCulture Academy",
+              "publication_year": 2024,
+              "excerpt": "Contrary to their quieter neighbours in Estonia and Latvia, Lithuanians enjoy heated discussions — suggesting a relative openness to expressive debate within the regional Baltic context.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C15",
+              "source_id": "S06",
+              "title": "Work culture in Lithuania. What can you expect?",
+              "url": "https://workinlithuania.com/blog/work-culture-in-lithuania/",
+              "author": "Work in Lithuania",
+              "publication_year": 2026,
+              "excerpt": "Behind an initially reserved facade, Lithuanians are described as surprisingly social, with frequent coffee-machine chats and after-work drinks — indicating in-group expressiveness once trust is established.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c6",
+              "source_id": "s6",
+              "title": "Lithuanian Folk Culture – From Traditions to Modernity",
+              "url": "https://www.culture.lt/en/traditions/",
+              "author": "Lithuanian Culture Institute",
+              "publication_year": 2022,
+              "excerpt": "Lithuanian folk festivals (e.g., Užgavėnės, Joninės) are lively, joyous communal celebrations where loud music, dancing, and public jesting are the norm, showing openness in ritualised contexts.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 66,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.8,
+          "top_supporting_arguments": [
+            "Studies report small-town everyday life is ‘meticulously organized’ with invisible structures and routines learned via social learning.",
+            "Common norms like walking on the right side of sidewalk, punctuality and tipping norms indicate structured social order.",
+            "Business appointments in Lithuania must be scheduled 2–3 weeks in advance with a list of attendees and their titles provided beforehand so that rank-matched teams can be assembled — a strong structural-order norm."
+          ],
+          "top_counter_arguments": [
+            "Commisceo's management guide notes Lithuania is a 'moderate time culture' with some flexibility to strict adherence to schedules and deadlines — a partial counter to very high certainty.",
+            "CrossCulture Academy notes that even after a contract is finalized, Lithuanians may reconsider everything — suggesting residual tolerance for process flexibility that counters strict rule-certainty.",
+            "Despite a cultural desire for order, corruption and bureaucratic inefficiency remain significant issues, leading some to bypass formal rules through informal networks, indicating systemic flexibility."
+          ],
+          "why_this_score": "Lithuania sits at 66 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (68) and the CI ceiling (84), so pushing past 66 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (66) and the CI floor (35), so going below 66 would understate the measured signal.",
+          "related_countries": [
+            "Estonia",
+            "Croatia",
+            "Montenegro",
+            "Poland",
+            "Bulgaria"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c6",
+              "source_id": "s2",
+              "title": "Everyday life today: lifestyle in a typical Lithuanian small town",
+              "url": "",
+              "author": "",
+              "publication_year": 2026,
+              "excerpt": "Studies report small-town everyday life is ‘meticulously organized’ with invisible structures and routines learned via social learning.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c7",
+              "source_id": "s3",
+              "title": "Lithuania culture guide: customs & etiquette",
+              "url": "",
+              "author": "",
+              "publication_year": 2026,
+              "excerpt": "Common norms like walking on the right side of sidewalk, punctuality and tipping norms indicate structured social order.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C16",
+              "source_id": "S07",
+              "title": "Lithuania - Language, Culture, Customs And Etiquette",
+              "url": "https://commisceo-global.com/country-guides/lithuania-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Business appointments in Lithuania must be scheduled 2–3 weeks in advance with a list of attendees and their titles provided beforehand so that rank-matched teams can be assembled — a strong structural-order norm.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 48,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.636,
+          "top_supporting_arguments": [
+            "The OECD 2025 Economic Survey documents Lithuania's rapid convergence toward OECD living standards over 30 years, driven by exports, bold product-market reforms, and an insolvency framework among the most conducive to productivity growth in the OECD — reflecting a high-achievement economic orientation.",
+            "The OECD 2020 Survey describes Lithuania's economy as 'performing strongly and converging fast towards the most-developed OECD countries,' earning the label 'Baltic Tiger' — signalling a cultural environment that prizes economic achievement.",
+            "Lithuanian professionals value knowledge and drive above age or status, with young specialists routinely leading teams or entire companies — reflecting meritocratic achievement orientation."
+          ],
+          "top_counter_arguments": [
+            "Lithuanians prefer 'slow living over grind culture' and prioritize patience and warmth second.",
+            "At social gatherings, lengthy meals and generous food offerings reflect value placed on relationships and quality of life rather than competition.",
+            "Mockaitis (2018) ranks Lithuania near the bottom of the European Social Survey on subjective wellbeing and life satisfaction (19th of 23 countries), and as low on affective autonomy — suggesting acceptance or resignation rather than active quality-of-life striving."
+          ],
+          "why_this_score": "Lithuania sits at 48 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~40), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (38) and the CI ceiling (69), so pushing past 48 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (37) and the CI floor (14), so going below 48 would understate the measured signal.",
+          "related_countries": [
+            "Estonia",
+            "Croatia",
+            "Montenegro",
+            "Poland",
+            "Bulgaria"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C23",
+              "source_id": "S16",
+              "title": "OECD Economic Surveys: Lithuania 2025",
+              "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-lithuania-2025_4abf1ea5-en.html",
+              "author": "OECD",
+              "publication_year": 2025,
+              "excerpt": "The OECD 2025 Economic Survey documents Lithuania's rapid convergence toward OECD living standards over 30 years, driven by exports, bold product-market reforms, and an insolvency framework among the most conducive to productivity growth in the OECD — reflecting a high-achievement economic orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C24",
+              "source_id": "S18",
+              "title": "OECD Economic Surveys: Lithuania 2020",
+              "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-lithuania-2020_62663b1d-en.html",
+              "author": "OECD",
+              "publication_year": 2020,
+              "excerpt": "The OECD 2020 Survey describes Lithuania's economy as 'performing strongly and converging fast towards the most-developed OECD countries,' earning the label 'Baltic Tiger' — signalling a cultural environment that prizes economic achievement.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C25",
+              "source_id": "S06",
+              "title": "Work culture in Lithuania. What can you expect?",
+              "url": "https://workinlithuania.com/blog/work-culture-in-lithuania/",
+              "author": "Work in Lithuania",
+              "publication_year": 2026,
+              "excerpt": "Lithuanian professionals value knowledge and drive above age or status, with young specialists routinely leading teams or entire companies — reflecting meritocratic achievement orientation.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

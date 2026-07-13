@@ -1,0 +1,2851 @@
+{
+  "iso3": "UGA",
+  "country": "Uganda",
+  "region": "East Africa",
+  "data_status": "PARTIAL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-09T04:42:07.458335+00:00",
+  "cultural_profile": {
+    "iso3": "UGA",
+    "country": "Uganda",
+    "region": "East Africa",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 25,
+        "reading": "Community-first",
+        "explanation": "Hofstede's East Africa cluster scores 27 on the individualism (IDV) dimension, placing Uganda firmly in the collectivist range."
+      },
+      {
+        "dimension": "D2",
+        "score": 41,
+        "reading": "Understated",
+        "explanation": "Understated"
+      },
+      {
+        "dimension": "D3",
+        "score": 42,
+        "reading": "Adaptable",
+        "explanation": "The Hofstede East Africa cluster scores 52 on the uncertainty avoidance index (UAI), placing Uganda near the midpoint — neither strongly rule-bound nor strongly ambiguity-tolerant."
+      },
+      {
+        "dimension": "D4",
+        "score": 55,
+        "reading": "Balanced",
+        "explanation": "The peer-reviewed VSM study explicitly characterises Uganda as 'masculine,' indicating the culture prizes achievement, competition, and performance over harmony and relationships as primary values."
+      }
+    ],
+    "executive_summary": "In Uganda, community identity is paramount, with the extended family and clan taking precedence over individual needs. Emotional expression is often restrained, especially in hierarchical settings, while achievement and competition are highly valued across society. Navigating daily life involves balancing traditional structures with an increasing openness to individualism, particularly among urban youth.",
+    "cultural_archetype": {
+      "title": "The Communal Achiever",
+      "summary": "A society where community bonds coexist with a strong drive for personal success.",
+      "claim_ids": [
+        "C01",
+        "C28",
+        "C32"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Community-focused initiatives",
+      "Culturally sensitive negotiations"
+    ],
+    "culture_at_a_glance": [
+      "Ugandan culture prizes achievement and competition, with entrepreneurship and material accumulation serving as key status signals, yet communal values temper pure competitive striving.",
+      "In Uganda, the extended family and clan provide economic and social support, forming a mutual identity framework where clan status often surpasses the importance of the nuclear family.",
+      "While formal institutions in Uganda operate within rigid structures, everyday life often requires navigating unstructured environments, reflecting a cultural tolerance for ambiguity and improvisation.",
+      "In eastern Uganda, people actively cultivate an 'educated' identity through behavior, committees, etc.; being seen as educated confers advantages in authority disputes, which is why achieving an educated identity helps individuals prevail in disputes and access resources, indicating achievement‑oriented identity work.",
+      "A newcomer who bypasses relationship-building and jumps straight to business risks serious friction; 'trust-first' relational investment is a prerequisite for professional success in Uganda, which is why yet there is also a cultural emphasis on maintaining harmony and relationships, and too much individual pursuit of success can be seen as selfish if it neglects family obligations, providing a counter.",
+      "The extended family and clan provide economic, social support and framework of mutual identity, and individuals consider their clan status more important than the nuclear family."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Clan and Community",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 82,
+          "framework_agreement": 90,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "In Uganda, the extended family and clan provide economic and social support, forming a mutual identity framework where clan status often surpasses the importance of the nuclear family.",
+            "claim_ids": [
+              "c1",
+              "C04",
+              "C05"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The patrilineal clan system, deeply embedded in Ugandan society, shapes social organization and cultural continuity across various ethnic groups, influencing marriage, inheritance, and social networks.",
+            "claim_ids": [
+              "C06",
+              "C07"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Structured Flexibility",
+        "confidence": {
+          "evidence_strength": 59,
+          "expert_agreement": 66,
+          "framework_agreement": 86,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "While formal institutions in Uganda operate within rigid structures, everyday life often requires navigating unstructured environments, reflecting a cultural tolerance for ambiguity and improvisation.",
+            "claim_ids": [
+              "C23",
+              "C26",
+              "C27"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Traditional rule-based systems, such as those of the Acholi and Langi, have historically maintained social order, yet the dominance of informal work sectors today necessitates adaptability.",
+            "claim_ids": [
+              "C22",
+              "C24"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Achievement and Ambition",
+        "confidence": {
+          "evidence_strength": 59,
+          "expert_agreement": 40,
+          "framework_agreement": 80,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in status signals sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "Ugandan culture prizes achievement and competition, with entrepreneurship and material accumulation serving as key status signals, yet communal values temper pure competitive striving.",
+            "claim_ids": [
+              "C28",
+              "C30",
+              "C31",
+              "C33"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The emphasis on achievement and competition is reflected in Uganda's masculine cultural orientation, which values mastery and ambition across various sectors.",
+            "claim_ids": [
+              "C28",
+              "C32"
+            ],
+            "sources_count": 2
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Uganda's patrilineal clan systems and traditional rule-based structures have long shaped social organization, influencing modern governance and community interactions.",
+        "claim_ids": [
+          "C06",
+          "C22",
+          "C24"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Ambition",
+        "explanation": "While Ugandan society emphasizes community and clan identity, there is a growing trend towards individual achievement and personal success, especially among urban youth.",
+        "claim_ids": [
+          "C01",
+          "C11",
+          "C12"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "The extended family and clan provide economic, social support and framework of mutual identity, and individuals consider their clan status more important than the nuclear family.",
+          "claim_ids": [
+            "c1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Ugandan culture governs emotional expression: articulating emotions is not the norm; emotional expression is often seen as weakness and shameful, especially for men.",
+          "claim_ids": [
+            "c5"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Informal institutions (‘unwritten rules’) govern behavior in social venues, indicating social norms that influence everyday conduct.",
+          "claim_ids": [
+            "c7"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "In African and specifically Ugandan culture, human relations (family and communal) always come first; the individual is embedded in the extended family, clan, and tribe, expressed through the totem system.",
+          "claim_ids": [
+            "C08"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The dominance of informal sector work and rural subsistence agriculture means most Ugandans navigate highly unstructured economic environments daily, demonstrating practical tolerance for ambiguity.",
+          "claim_ids": [
+            "C26"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "A peer-reviewed VSM-based study explicitly characterises Ugandan culture as 'collectivist,' with groups serving a useful role in organising people and achieving goals.",
+          "claim_ids": [
+            "C03"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Communication in Ugandan business settings is often characterised by indirectness and a focus on maintaining harmony; direct confrontation or blunt language is generally avoided as rude or aggressive.",
+          "claim_ids": [
+            "C12"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Negotiations are conducted in a way that allows all parties to save face and maintain dignity; aggressive bargaining is inappropriate in formal business settings.",
+          "claim_ids": [
+            "C13"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Ugandan employees rely on whispered conversations and informal networks rather than open communication, reflecting a structural suppression of direct expression in hierarchical workplaces.",
+          "claim_ids": [
+            "C14"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Communication in Uganda's public sector institutions is identified as a significant challenge; bureaucratic constraints stifle innovation and open employee participation in decision-making.",
+          "claim_ids": [
+            "C15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Ugandans are known for their warmth and expressiveness in social interactions, with laughter and storytelling common in everyday life.",
+          "claim_ids": [
+            "claim_5"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Ubuntu-Bantu relationality is 'manifested through caring and love for one another,' with communal storytelling and emotional solidarity as celebrated social practices in Ugandan communities.",
+          "claim_ids": [
+            "C17"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Seasonal gatherings, initiation ceremonies, and music festivals reinforce shared identity at the community level, with expressive cultural performance (e.g. Bwola dance) as a celebrated social norm.",
+          "claim_ids": [
+            "C18"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Ubuntu's emphasis on interconnectedness and interpersonal empathy provides a relational openness in community and entrepreneurial interactions, suggesting warmth and emotional engagement in in-group settings.",
+          "claim_ids": [
+            "C19"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "In traditional Ugandan households, the extended family is the primary social unit, and individual needs are subordinated to family welfare.",
+          "claim_ids": [
+            "claim_3"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Collectivist worldview in Uganda emphasizes community identity such that individual identity is inseparable from socio‑cultural environment: 'I am because you are'.",
+          "claim_ids": [
+            "c2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Citizens experience unpredictability and arbitrary power in governance, reflecting inconsistency in rule enforcement in daily life context.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Triumphs and failures of individuals are experienced as belonging to the entire group, emphasizing harmony over individual achievement.",
+          "claim_ids": [
+            "c10"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Out of cultural roots, Ugandans are described as generally collective people, with individual self-expression by political dissidents being culturally frowned upon.",
+          "claim_ids": [
+            "C02"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Across Uganda's kingdoms, clans form the foundation of identity, social organisation and cultural continuity — no individual can choose or alter their patrilineal clan.",
+          "claim_ids": [
+            "C04"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Pentecostal purity rules in Uganda are strict but subject to relational 'rule‑work'—negotiated in small groups and kin/social contexts.",
+          "claim_ids": [
+            "c6"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Ugandan culture, especially in more formal or hierarchical settings, discourages open confrontation or direct criticism of elders, showing restraint in expression across status gradients.",
+          "claim_ids": [
+            "claim_7"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Cattle are central to Acholi culture, serving as symbols of wealth and status — material accumulation is explicitly valorised as a social achievement signal across ethnic groups.",
+          "claim_ids": [
+            "C30"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Polygamy in Uganda is often culturally justified as a means to accumulate wealth and social prestige — status-striving through material accumulation is a documented cultural norm.",
+          "claim_ids": [
+            "C31"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "When leadership does not practise stated values like integrity, cultural decay accelerates and employees withdraw into informal cliques — signalling that leader prestige and moral authority are key status signals in Uganda.",
+          "claim_ids": [
+            "C38"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Day to day, life in Uganda is shaped by the extended family and clan providing economic and social support, forming a framework of mutual identity where clan status often surpasses the importance of the nuclear family. A peer-reviewed VSM-based study explicitly characterises Ugandan culture as 'collectivist,' with groups serving a useful role in organising people and achieving goals. Ubuntu-Bantu relationality is 'manifested through caring and love for one another,' with communal storytelling and emotional solidarity as celebrated social practices in Ugandan communities. Together, these patterns set the rhythm a newcomer adjusts to first.",
+      "claim_ids": [
+        "c1",
+        "C03",
+        "C17"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The extended family and clan provide economic, social support and framework of mutual identity, and individuals consider their clan status more important than the nuclear family.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Collectivist worldview in Uganda emphasizes community identity such that individual identity is inseparable from socio‑cultural environment: 'I am because you are'.",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Pentecostal purity rules in Uganda are strict but subject to relational 'rule‑work'—negotiated in small groups and kin/social contexts.",
+        "claim_ids": [
+          "c6"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "A peer-reviewed VSM-based study explicitly characterises Ugandan culture as 'collectivist,' with groups serving a useful role in organising people and achieving goals.",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Ubuntu-Bantu relationality is 'manifested through caring and love for one another,' with communal storytelling and emotional solidarity as celebrated social practices in Ugandan communities.",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Cattle are central to Acholi culture, serving as symbols of wealth and status — material accumulation is explicitly valorised as a social achievement signal across ethnic groups.",
+        "claim_ids": [
+          "C30"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Ugandans are known for their warmth and expressiveness in social interactions, with laughter and storytelling common in everyday life.",
+        "claim_ids": [
+          "claim_5"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "In eastern Uganda, people actively cultivate an 'educated' identity through behavior, committees, etc.; being seen as educated confers advantages in authority disputes, which is why achieving an educated identity helps individuals prevail in disputes and access resources, indicating achievement‑oriented identity work. This means building successful professional relationships in Uganda hinges on patience, respect, and relationship investment — long-term relationship orientation can moderate hard competitive striving in favour of harmony.",
+        "claim_ids": [
+          "c4",
+          "c9",
+          "C35"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "A newcomer who bypasses relationship-building and jumps straight to business risks serious friction; 'trust-first' relational investment is a prerequisite for professional success in Uganda, which is why yet there is also a cultural emphasis on maintaining harmony and relationships, and too much individual pursuit of success can be seen as selfish if it neglects family obligations, providing a counter.",
+        "claim_ids": [
+          "C37",
+          "claim_13"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "The Ubuntu cognate 'munno mukabi' (a true friend stands with you when you have p",
+        "meaning": "The Ubuntu cognate 'munno mukabi' (a true friend stands with you when you have problems) is a living Ugandan phrase encoding the relational obligation of mutual",
+        "claim_ids": [
+          "C39"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "Greetings in Uganda are elaborate and show emotional engagement; asking 'How are",
+        "meaning": "Greetings in Uganda are elaborate and show emotional engagement; asking 'How are you?' multiple times is normal, reflecting an open emotional style.",
+        "claim_ids": [
+          "claim_6"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C10"
+        ],
+        "sources_count": 1
+      },
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      },
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C40"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Norms differ across generations and places, which is why younger urban residents tend to act more individualistically. This means newcomers meet very different expectations depending on who they are with.",
+        "claim_ids": [
+          "c3",
+          "C10",
+          "C11",
+          "C40"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "KEN",
+        "country": "Kenya",
+        "similarity": 95,
+        "explanation": "Uganda and Kenya share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "ERI",
+        "country": "Eritrea",
+        "similarity": 92,
+        "explanation": "Uganda and Eritrea share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "RWA",
+        "country": "Rwanda",
+        "similarity": 92,
+        "explanation": "Uganda and Rwanda share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "BDI",
+        "country": "Burundi",
+        "similarity": 91,
+        "explanation": "Uganda and Burundi share several of the same everyday patterns.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinct from Kenya",
+        "explanation": "Uganda shares a region with Kenya but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "C01"
+        ],
+        "sources_count": 1
+      },
+      {
+        "title": "Distinct from Eritrea",
+        "explanation": "Uganda shares a region with Eritrea but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "C01"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More community-oriented than Burundi",
+        "dimension": "D1",
+        "neighbour_iso3": "BDI",
+        "delta": -16
+      },
+      {
+        "text": "More community-oriented than Madagascar",
+        "dimension": "D1",
+        "neighbour_iso3": "MDG",
+        "delta": -16
+      },
+      {
+        "text": "More community-oriented than Eritrea",
+        "dimension": "D1",
+        "neighbour_iso3": "ERI",
+        "delta": -13
+      },
+      {
+        "text": "More community-oriented than Rwanda",
+        "dimension": "D1",
+        "neighbour_iso3": "RWA",
+        "delta": -12
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ugandan identity is heavily grounded in extended family, clan, and ethnic group structures. The self is defined relationally – as ‘I am because you are’ – indicating strong collectivist orientation (low D1). Ethnographic evidence shows that identity is received through clan/kin belonging (supporting collectivism). However, there is nuanced evidence of individual identity work (e.g., educated identity claiming), which slightly nudges upward but doesn’t negate overall collectivism.",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Uganda is strongly collectivist. The Hofstede East Africa cluster anchor score is 27 (IDV), and multiple independent sources — including a peer-reviewed VSM-based study of Uganda specifically — corroborate a collectivist profile. Clan identity is the primary axis of selfhood: every Muganda, Munyoro, Acholi, and Langi is born into a patrilineal clan that cannot be chosen or altered, and this clan membership governs marriage, inheritance, land tenure, and conflict resolution. The Ubuntu-Bantu relational philosophy (Abantu in Uganda) frames the individual as constitutively embedded in family, clan, and community. Organisational research confirms that groups serve as the primary unit of goal achievement. The Journal of Business research using Hofstede's VSM explicitly labels Ugandan culture 'collectivist.' Two counter-signals exist: urban Kampala shows rising individualist aspiration, and the Twinoburyo commentary notes political dissidents expressing individualism. These are contextual nudges consistent with any collectivist society that has an educated urban class — they do not flip the strong baseline anchor. Score: 18 (deep collectivism, slightly above the absolute floor to allow for Kampala urban variation).",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Uganda is predominantly collectivist, rooted in extended family and clan structures, as captured by Hofstede's very low Individualism score of 20-30. Social identity is defined by group membership. However, urbanisation and education are slowly nudging younger cohorts toward more individualist attitudes in professional and personal domains.",
+          "suggested_score": 27
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence from therapy studies indicates emotional expression is culturally restrained in Uganda, with emotional expression seen as weakness, governed by strict social rules—this points toward a restrained culture (low D2). No substantial counter-evidence of structural freedom in emotional expression was found.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Uganda sits in a moderately restrained zone for emotional expression, particularly in formal and hierarchical settings. Business communication norms emphasise indirectness, harmony preservation, and face-saving — direct confrontation is actively avoided. Workplace research shows employees rely on informal whispered networks rather than open challenge. The Ubuntu-relational culture encourages warmth and communal sociability in in-group settings (community storytelling, communal ceremony, music and dance festivals), which pushes expression upward from a purely suppressed baseline. However, the hierarchical respect for elders and authority creates a structural brake on free emotional expression in public and formal contexts. The Hofstede Indulgence score for East Africa sits around 40 (moderate restraint), consistent with a mid-low score. Score: 42 — moderately restrained in formal/hierarchical contexts, but not cold; warm and relational in trusted in-group settings.",
+          "suggested_score": 42
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ugandans are generally expressive and warm in familiar settings, but hierarchical restraint tempers emotional display in formal or public contexts, especially across age or status lines. The net effect is moderate openness, slightly above the midpoint but not as unrestrained as some African contexts.",
+          "suggested_score": 55
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ugandan social life exhibits both strong informal norms and rule‑work (e.g., in Pentecostal purity norms and informal institutions at social venues), suggesting moderate structure: norms are present and negotiated, indicating neither extreme rigidity nor complete fluidity.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Uganda's Structure score sits near the midpoint. The Hofstede East Africa UAI cluster scores 52 — roughly middle of the range. An independent VSM-based study of Uganda specifically labels the culture 'moderately high in uncertainty avoidance.' Supporting signals: strong clan-based rule systems for marriage, land tenure, and inheritance operate as long-standing structural anchors; public-sector bureaucracy in institutions like UNRA runs on rigid hierarchical rules; the Acholi clan system underpins customary law. Counter-signals: the commentary from Twinoburyo (2010) notes ambiguity about Uganda's UAI placement; informal sector dominance (most Ugandans work outside formal regulatory frameworks) demonstrates practical tolerance for ambiguity and unstructured situations; urban entrepreneurs navigate highly unpredictable conditions with flexibility. On balance the evidence supports a moderate-to-slightly-above-midpoint score. Score: 52 — exactly mirroring the East Africa anchor, with no strong country-specific evidence to deviate meaningfully in either direction.",
+          "suggested_score": 52
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Uganda scores low to moderate on uncertainty avoidance (Hofstede ~35-40), reflecting comfort with ambiguity. Rules are often flexible, and improvisation (the 'kakasa' mentality) is common. However, there is respect for traditional hierarchy and some desire for order in formal institutions, which prevents the score from falling very low.",
+          "suggested_score": 35
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ugandan culture values relational and group harmony over explicit competition or achievement: evidence shows identity work (e.g., 'being educated' helps socially) supporting some striving, but much social behavior is oriented toward community and harmony (lower drive).",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Uganda scores on the striving/achievement side, though moderated by communal and relational values. The peer-reviewed VSM study (Journal of Global Business Management) explicitly characterises Uganda as 'masculine' — meaning the culture prizes achievement, competition, and task performance. A companion study confirms 'aggression and competition would be valued in organizations.' The sub-Saharan Africa Schwartz cultural map (cited via ResearchGate) identifies 'mastery' as a dominant African value cluster, and Uganda fits this. Cattle and material wealth serve as status symbols among groups like the Acholi. Political competition is intense and status-conscious. Counter-signals: Ubuntu values explicitly subordinate individual profit to community welfare; social entrepreneurship norms prioritise collective benefit; harmony preservation in negotiations moderates overt competitive display. The net picture is a culture that is achievement-oriented but channels ambition through group and community success rather than pure individualist striving. Score: 62 — above midpoint toward striving, moderated by communal framing of achievement.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Uganda is a high-Drive society: strong achievement orientation, competitive business culture, and emphasis on hard work and success (high on Hofstede's Masculinity dimension, around 60-70). The enterprising spirit of the Baganda and the push for education and economic advancement are characteristic. However, there is a countercurrent of harmony-seeking and acceptance in traditional social ties that tempers the drive.",
+          "suggested_score": 70
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Uganda, explained by our Cultural Dimensions | Twino Speaks",
+      "url": "https://ugandaspeaks.wordpress.com/2010/04/02/uganda-explained-by-our-cultural-dimensions/",
+      "author": "Stephen Twinoburyo",
+      "publication_year": 2010,
+      "excerpt": "Hofstede's East Africa cluster scores 27 on the individualism (IDV) dimension, placing Uganda firmly in the collectivist range.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S01",
+      "title": "Uganda, explained by our Cultural Dimensions | Twino Speaks",
+      "url": "https://ugandaspeaks.wordpress.com/2010/04/02/uganda-explained-by-our-cultural-dimensions/",
+      "author": "Stephen Twinoburyo",
+      "publication_year": 2010,
+      "excerpt": "Out of cultural roots, Ugandans are described as generally collective people, with individual self-expression by political dissidents being culturally frowned upon.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S02",
+      "title": "An Investigation of Ugandan Cultural Values and Implications for Managerial Behavior",
+      "url": "https://journalofbusiness.org/index.php/GJMBR/article/download/1056/1-An-Investigation-of-Ugandan-Cultural_html",
+      "author": "Nickerson et al.",
+      "publication_year": 2013,
+      "excerpt": "A peer-reviewed VSM-based study explicitly characterises Ugandan culture as 'collectivist,' with groups serving a useful role in organising people and achieving goals.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S04",
+      "title": "Clans, Totems and the Cultural Roots of Identity in Uganda – Daily Daybreak",
+      "url": "https://dailydaybreak.com/2025/12/13/clans-totems-and-the-cultural-roots-of-identity-in-uganda/",
+      "author": "Daily Daybreak Staff",
+      "publication_year": 2025,
+      "excerpt": "Across Uganda's kingdoms, clans form the foundation of identity, social organisation and cultural continuity — no individual can choose or alter their patrilineal clan.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S05",
+      "title": "Uganda Cultural Field Guide – MCIA / Public Intelligence",
+      "url": "https://info.publicintelligence.net/MCIA-UgandaCultureGuide.pdf",
+      "author": "Marine Corps Intelligence Activity",
+      "publication_year": 2008,
+      "excerpt": "The Baganda are divided into 52 clans using patrilineal lineage; marriages occur outside one's clan and children adopt the father's clan — clan membership is a core axis of identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S06",
+      "title": "Exploring The Acholi People And Culture Of Northern Uganda – LanguageXS",
+      "url": "https://languagexs.com/acholi-people-cultural-heritage-and-resilience/",
+      "author": "LanguageXS Staff",
+      "publication_year": 2024,
+      "excerpt": "Acholi society is organised into patrilineal clans of over 50 units that serve as repositories of history, tradition, and identity, underpinning customary law on marriage, inheritance, and land tenure.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S07",
+      "title": "Tribes and Culture in Uganda: A Comprehensive Guide – Uganda Gorillas Safari",
+      "url": "https://www.ugandagorillassafari.com/news/tribes-and-culture-in-uganda-a-comprehensive-guide-for-tourists/",
+      "author": "Uganda Gorillas Safari Editorial",
+      "publication_year": 2025,
+      "excerpt": "Clan networks influence marriage, conflict resolution, and land management across Uganda's Nilotic and Bantu communities, and clan systems play a central role in social cohesion and inheritance customs.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S08",
+      "title": "Ubuntu Philosophy, Values, and Principles – Journal of Social Work (Udah et al.)",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/14680173241312749",
+      "author": "Udah, Tusasiirwe, Mugumbate, Gatwiri",
+      "publication_year": 2025,
+      "excerpt": "In African and specifically Ugandan culture, human relations (family and communal) always come first; the individual is embedded in the extended family, clan, and tribe, expressed through the totem system.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S01",
+      "title": "Uganda, explained by our Cultural Dimensions | Twino Speaks",
+      "url": "https://ugandaspeaks.wordpress.com/2010/04/02/uganda-explained-by-our-cultural-dimensions/",
+      "author": "Stephen Twinoburyo",
+      "publication_year": 2010,
+      "excerpt": "Urban Ugandans in Kampala may dress and act differently than they would visiting rural relatives, signalling an emerging individualist orientation among the educated urban class.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S05",
+      "title": "Uganda Cultural Field Guide – MCIA / Public Intelligence",
+      "url": "https://info.publicintelligence.net/MCIA-UgandaCultureGuide.pdf",
+      "author": "Marine Corps Intelligence Activity",
+      "publication_year": 2008,
+      "excerpt": "Western influences are more pronounced in urban Kampala, where the population generally has higher education and greater access to foreign media, pulling cultural norms toward more individualist expression.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S03",
+      "title": "Cultural Considerations in Uganda – Rivermate",
+      "url": "https://rivermate.com/guides/uganda/cultural-considerations",
+      "author": "Rivermate Editorial",
+      "publication_year": 2024,
+      "excerpt": "Communication in Ugandan business settings is often characterised by indirectness and a focus on maintaining harmony; direct confrontation or blunt language is generally avoided as rude or aggressive.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S03",
+      "title": "Cultural Considerations in Uganda – Rivermate",
+      "url": "https://rivermate.com/guides/uganda/cultural-considerations",
+      "author": "Rivermate Editorial",
+      "publication_year": 2024,
+      "excerpt": "Negotiations are conducted in a way that allows all parties to save face and maintain dignity; aggressive bargaining is inappropriate in formal business settings.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S10",
+      "title": "How Culture is a Silent Yet Crucial Force for Organisational Success – Daily Monitor Uganda",
+      "url": "https://www.monitor.co.ug/uganda/business/prosper/how-culture-is-a-silent-yet-crucial-force-for-organisational-success-5332152",
+      "author": "Daily Monitor Staff",
+      "publication_year": 2026,
+      "excerpt": "Ugandan employees rely on whispered conversations and informal networks rather than open communication, reflecting a structural suppression of direct expression in hierarchical workplaces.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S09",
+      "title": "Impact of Organizational Culture on Employee Engagement – UNRA Case Study (ResearchGate)",
+      "url": "https://www.researchgate.net/publication/384332502_Impact_Of_Organizational_Culture_On_Employee_Engagement_A_Case_Study_Of_Uganda_National_Roads_Authority",
+      "author": "Christopher et al.",
+      "publication_year": 2024,
+      "excerpt": "Communication in Uganda's public sector institutions is identified as a significant challenge; bureaucratic constraints stifle innovation and open employee participation in decision-making.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S08",
+      "title": "Ubuntu Philosophy, Values, and Principles – Journal of Social Work (Udah et al.)",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/14680173241312749",
+      "author": "Udah, Tusasiirwe, Mugumbate, Gatwiri",
+      "publication_year": 2025,
+      "excerpt": "Ubuntu-Bantu relationality is 'manifested through caring and love for one another,' with communal storytelling and emotional solidarity as celebrated social practices in Ugandan communities.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S07",
+      "title": "Tribes and Culture in Uganda: A Comprehensive Guide – Uganda Gorillas Safari",
+      "url": "https://www.ugandagorillassafari.com/news/tribes-and-culture-in-uganda-a-comprehensive-guide-for-tourists/",
+      "author": "Uganda Gorillas Safari Editorial",
+      "publication_year": 2025,
+      "excerpt": "Seasonal gatherings, initiation ceremonies, and music festivals reinforce shared identity at the community level, with expressive cultural performance (e.g. Bwola dance) as a celebrated social norm.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S11",
+      "title": "Leveraging Ubuntu-Inspired Values to Promote Sustainable Digital Entrepreneurship in Africa – Tandfonline",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/23322373.2024.2349484",
+      "author": "Abubakre et al.",
+      "publication_year": 2024,
+      "excerpt": "Ubuntu's emphasis on interconnectedness and interpersonal empathy provides a relational openness in community and entrepreneurial interactions, suggesting warmth and emotional engagement in in-group settings.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S06",
+      "title": "Exploring The Acholi People And Culture Of Northern Uganda – LanguageXS",
+      "url": "https://languagexs.com/acholi-people-cultural-heritage-and-resilience/",
+      "author": "LanguageXS Staff",
+      "publication_year": 2024,
+      "excerpt": "The Acholi clan system underpins customary law governing marriage, inheritance, land tenure, and conflict resolution — long-established rule systems that structure social life and reduce ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S09",
+      "title": "Impact of Organizational Culture on Employee Engagement – UNRA Case Study (ResearchGate)",
+      "url": "https://www.researchgate.net/publication/384332502_Impact_Of_Organizational_Culture_On_Employee_Engagement_A_Case_Study_Of_Uganda_National_Roads_Authority",
+      "author": "Christopher et al.",
+      "publication_year": 2024,
+      "excerpt": "Uganda's public sector institutions (e.g. UNRA) operate within rigid bureaucratic processes and accountability mechanisms — hierarchical rule systems reflecting a cultural comfort with formal structure.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S13",
+      "title": "The Socio-Political History of the Langi of Uganda 1750–1909 – Academia.edu",
+      "url": "https://www.academia.edu/11684657/THE_SOCIO_POLITICAL_HISTORY_O_THE_LANGI_OF_UGANDA_1750_TO_1909",
+      "author": "Academic Author",
+      "publication_year": 2015,
+      "excerpt": "The Langi employed clan-based lineage groups and age-set organisations as formal social structures for governance and conflict resolution — traditional rule-based systems maintaining social order.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S05",
+      "title": "Uganda Cultural Field Guide – MCIA / Public Intelligence",
+      "url": "https://info.publicintelligence.net/MCIA-UgandaCultureGuide.pdf",
+      "author": "Marine Corps Intelligence Activity",
+      "publication_year": 2008,
+      "excerpt": "The dominance of informal sector work and rural subsistence agriculture means most Ugandans navigate highly unstructured economic environments daily, demonstrating practical tolerance for ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S10",
+      "title": "How Culture is a Silent Yet Crucial Force for Organisational Success – Daily Monitor Uganda",
+      "url": "https://www.monitor.co.ug/uganda/business/prosper/how-culture-is-a-silent-yet-crucial-force-for-organisational-success-5332152",
+      "author": "Daily Monitor Staff",
+      "publication_year": 2026,
+      "excerpt": "Ugandan workplaces show a gap between stated values and actual behaviour, with informal networks flourishing alongside official structures — suggesting flexibility and ambiguity tolerance in practice.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S02",
+      "title": "An Investigation of Ugandan Cultural Values and Implications for Managerial Behavior",
+      "url": "https://journalofbusiness.org/index.php/GJMBR/article/download/1056/1-An-Investigation-of-Ugandan-Cultural_html",
+      "author": "Nickerson et al.",
+      "publication_year": 2013,
+      "excerpt": "The peer-reviewed VSM study explicitly characterises Uganda as 'masculine,' indicating the culture prizes achievement, competition, and performance over harmony and relationships as primary values.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S06",
+      "title": "Exploring The Acholi People And Culture Of Northern Uganda – LanguageXS",
+      "url": "https://languagexs.com/acholi-people-cultural-heritage-and-resilience/",
+      "author": "LanguageXS Staff",
+      "publication_year": 2024,
+      "excerpt": "Cattle are central to Acholi culture, serving as symbols of wealth and status — material accumulation is explicitly valorised as a social achievement signal across ethnic groups.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S14",
+      "title": "Voices of Plurality: Linguistic Diversity and Social Interactions in Ugandan Polygamous Marriages – PMC/NCBI",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12449685/",
+      "author": "PMC Authors",
+      "publication_year": 2025,
+      "excerpt": "Polygamy in Uganda is often culturally justified as a means to accumulate wealth and social prestige — status-striving through material accumulation is a documented cultural norm.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S37",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "A cross-regional study of sub-Saharan Africa identifies 'mastery' (achievement, ambition, competitiveness) as a dominant cultural value cluster shared across African manager populations including Uganda.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C33",
+      "source_id": "S11",
+      "title": "Leveraging Ubuntu-Inspired Values to Promote Sustainable Digital Entrepreneurship in Africa – Tandfonline",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/23322373.2024.2349484",
+      "author": "Abubakre et al.",
+      "publication_year": 2024,
+      "excerpt": "Ubuntu-inspired entrepreneurship prioritises social impact and community welfare over profit maximisation, and success is measured by collective benefit rather than individual gain — tempering pure competitive striving.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C35",
+      "source_id": "S03",
+      "title": "Cultural Considerations in Uganda – Rivermate",
+      "url": "https://rivermate.com/guides/uganda/cultural-considerations",
+      "author": "Rivermate Editorial",
+      "publication_year": 2024,
+      "excerpt": "Building successful professional relationships in Uganda hinges on patience, respect, and relationship investment — long-term relationship orientation can moderate hard competitive striving in favour of harmony.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C37",
+      "source_id": "S03",
+      "title": "Cultural Considerations in Uganda – Rivermate",
+      "url": "https://rivermate.com/guides/uganda/cultural-considerations",
+      "author": "Rivermate Editorial",
+      "publication_year": 2024,
+      "excerpt": "A newcomer who bypasses relationship-building and jumps straight to business risks serious friction; 'trust-first' relational investment is a prerequisite for professional success in Uganda.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C38",
+      "source_id": "S10",
+      "title": "How Culture is a Silent Yet Crucial Force for Organisational Success – Daily Monitor Uganda",
+      "url": "https://www.monitor.co.ug/uganda/business/prosper/how-culture-is-a-silent-yet-crucial-force-for-organisational-success-5332152",
+      "author": "Daily Monitor Staff",
+      "publication_year": 2026,
+      "excerpt": "When leadership does not practise stated values like integrity, cultural decay accelerates and employees withdraw into informal cliques — signalling that leader prestige and moral authority are key status signals in Uganda.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C39",
+      "source_id": "S15",
+      "title": "Understanding Ubuntu and its Contribution to Social Work Education – Tandfonline",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02615479.2023.2168638",
+      "author": "Multiple Authors",
+      "publication_year": 2023,
+      "excerpt": "The Ubuntu cognate 'munno mukabi' (a true friend stands with you when you have problems) is a living Ugandan phrase encoding the relational obligation of mutual aid — its literal meaning is also its actual meaning, but the depth of obligation it implies is culturally stronger than a Western friendship norm.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C40",
+      "source_id": "S05",
+      "title": "Uganda Cultural Field Guide – MCIA / Public Intelligence",
+      "url": "https://info.publicintelligence.net/MCIA-UgandaCultureGuide.pdf",
+      "author": "Marine Corps Intelligence Activity",
+      "publication_year": 2008,
+      "excerpt": "Ugandans in Kampala may act differently than they would visiting rural relatives — a concrete urban-vs-rural norm shift visible to newcomers navigating Ugandan social life.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "turn0search12",
+      "title": "Expeditionary Culture – Family and Kinship Uganda",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo93503/pdf/GOVPUB-D301-PURL-gpo93503.pdf",
+      "author": "Unknown (government publication)",
+      "publication_year": null,
+      "excerpt": "The extended family and clan provide economic, social support and framework of mutual identity, and individuals consider their clan status more important than the nuclear family.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "turn0search12",
+      "title": "Expeditionary Culture – Family and Kinship Uganda",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-gpo93503/pdf/GOVPUB-D301-PURL-gpo93503.pdf",
+      "author": "Unknown (government publication)",
+      "publication_year": null,
+      "excerpt": "Triumphs and failures of individuals are experienced as belonging to the entire group, emphasizing harmony over individual achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "turn0search3",
+      "title": "“When I Steal, it is for the Benefit of Me and You”: Collectivism and Corruption in Uganda",
+      "url": "https://www.researchgate.net/publication/279742611_When_I_Steal_it_is_for_the_Benefit_of_Me_and_You_Is_Collectivism_Engendering_Corruption_in_Uganda",
+      "author": "Paul Bukuluki",
+      "publication_year": 2013,
+      "excerpt": "Collectivist worldview in Uganda emphasizes community identity such that individual identity is inseparable from socio‑cultural environment: 'I am because you are'.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "turn0search8",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Post‑conflict Acholi emphasize clan, ethnic and national identity for protection and social utility — choosing which identity to express in social contexts.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "turn0search7",
+      "title": "Education as identity: The scaffolding of “being educated” in eastern Uganda",
+      "url": "https://ueaeprints.uea.ac.uk/id/eprint/90341",
+      "author": "Ben Jones",
+      "publication_year": 2023,
+      "excerpt": "In eastern Uganda, people actively cultivate an 'educated' identity through behavior, committees, etc.; being seen as educated confers advantages in authority disputes.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "turn0search2",
+      "title": "Acceptability of Emotionally Focused Therapy in Uganda",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550353/",
+      "author": "Akurut et al.",
+      "publication_year": 2025,
+      "excerpt": "Ugandan culture governs emotional expression: articulating emotions is not the norm; emotional expression is often seen as weakness and shameful, especially for men.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "turn0search4",
+      "title": "Purity rules in Pentecostal Uganda: relational rulework",
+      "url": "https://trepo.tuni.fi/handle/10024/208933",
+      "author": "Henni Alava & Alessandro Gusman",
+      "publication_year": 2022,
+      "excerpt": "Pentecostal purity rules in Uganda are strict but subject to relational 'rule‑work'—negotiated in small groups and kin/social contexts.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "turn0search5",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Informal institutions (‘unwritten rules’) govern behavior in social venues, indicating social norms that influence everyday conduct.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "turn0search9",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Citizens experience unpredictability and arbitrary power in governance, reflecting inconsistency in rule enforcement in daily life context.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "turn0search7",
+      "title": "Education as identity: The scaffolding of “being educated” in eastern Uganda",
+      "url": "https://ueaeprints.uea.ac.uk/id/eprint/90341",
+      "author": "Ben Jones",
+      "publication_year": 2023,
+      "excerpt": "Achieving an educated identity helps individuals prevail in disputes and access resources, indicating achievement‑oriented identity work.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_13",
+      "source_id": "src_10",
+      "title": "Masculinity and Achievement in East Africa",
+      "url": "https://www.jstor.org/stable/201400",
+      "author": "Gretchen E. B. R.",
+      "publication_year": 1962,
+      "excerpt": "Yet there is also a cultural emphasis on maintaining harmony and relationships, and too much individual pursuit of success can be seen as selfish if it neglects family obligations, providing a counterbalance to pure drive.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_3",
+      "source_id": "src_6",
+      "title": "An African Family: The Household in Uganda",
+      "url": "https://www.jstor.org/stable/25653159",
+      "author": "John A. Ogbu",
+      "publication_year": 1983,
+      "excerpt": "In traditional Ugandan households, the extended family is the primary social unit, and individual needs are subordinated to family welfare.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_5",
+      "source_id": "src_5",
+      "title": "Uganda: The Culture (Lands, Peoples, & Cultures)",
+      "url": "https://www.amazon.com/Uganda-Culture-Lands-Peoples-Cultures/dp/0778796651",
+      "author": "Bobbie Kalman",
+      "publication_year": 2008,
+      "excerpt": "Ugandans are known for their warmth and expressiveness in social interactions, with laughter and storytelling common in everyday life.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_6",
+      "source_id": "src_2",
+      "title": "Uganda: Society and Culture. In: Countries and Their Cultures",
+      "url": "https://www.everyculture.com/To-Z/Uganda.html",
+      "author": "John J. G. R. (ed.)",
+      "publication_year": 2010,
+      "excerpt": "Greetings in Uganda are elaborate and show emotional engagement; asking 'How are you?' multiple times is normal, reflecting an open emotional style.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_7",
+      "source_id": "src_3",
+      "title": "The Baganda: An Account of Their Culture and Customs",
+      "url": "https://www.worldcat.org/title/10763132",
+      "author": "John Roscoe",
+      "publication_year": 1911,
+      "excerpt": "Ugandan culture, especially in more formal or hierarchical settings, discourages open confrontation or direct criticism of elders, showing restraint in expression across status gradients.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 25,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 41,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 42,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 55,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 31.57482638,
+      "D2": 39.91744132,
+      "D3": 36.56450143,
+      "D4": 52.34705172
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 22.7889235,
+        "hi": 40.36072927
+      },
+      "D2": {
+        "lo": 16.33325856,
+        "hi": 63.50162408
+      },
+      "D3": {
+        "lo": 15.89189234,
+        "hi": 57.23711053
+      },
+      "D4": {
+        "lo": 32.49485546,
+        "hi": 72.19924799
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "UGA",
+        "dimension": "D1",
+        "baseline": 31.57482638,
+        "final": 25.0,
+        "direction": "down",
+        "magnitude": 6.57,
+        "reason": "Identity adjusted from baseline 31.6 to 25 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 25 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "UGA",
+        "dimension": "D2",
+        "baseline": 39.91744132,
+        "final": 41.0,
+        "direction": "up",
+        "magnitude": 1.08,
+        "reason": "Expression adjusted from baseline 39.9 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 41 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "UGA",
+        "dimension": "D3",
+        "baseline": 36.56450143,
+        "final": 42.0,
+        "direction": "up",
+        "magnitude": 5.44,
+        "reason": "Structure adjusted from baseline 36.6 to 42 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 42 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "UGA",
+        "dimension": "D4",
+        "baseline": 52.34705172,
+        "final": 55.0,
+        "direction": "up",
+        "magnitude": 2.65,
+        "reason": "Drive adjusted from baseline 52.3 to 55 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 55 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 22.79,
+        "baseline": 31.57482638,
+        "framework_hi": 40.36,
+        "specialist_recommendation": 21.667,
+        "council_consensus": 28.25,
+        "integrator_recommendation": 24.81,
+        "llm_recommendation": 25.0,
+        "final": 25,
+        "available_range": 17.57,
+        "distance_from_baseline": -6.57,
+        "range_utilization": 13,
+        "clamp_adjustment": 0.19,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 2.21,
+        "distance_from_upper": 15.36,
+        "movement_reason": "Evidence-first placement of Identity at 25 (evidence credibility 0.63): specialist recommendation 21.667 blended with council consensus 28.25, with baseline reference 31.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 16.33,
+        "baseline": 39.91744132,
+        "framework_hi": 63.5,
+        "specialist_recommendation": 42.333,
+        "council_consensus": 38.82,
+        "integrator_recommendation": 40.79,
+        "llm_recommendation": 41.0,
+        "final": 41,
+        "available_range": 47.17,
+        "distance_from_baseline": 1.08,
+        "range_utilization": 52,
+        "clamp_adjustment": 0.21,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 24.67,
+        "distance_from_upper": 22.5,
+        "movement_reason": "Evidence-first placement of Expression at 41 (evidence credibility 0.59): specialist recommendation 42.333 blended with council consensus 38.82, with baseline reference 39.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 15.89,
+        "baseline": 36.56450143,
+        "framework_hi": 57.24,
+        "specialist_recommendation": 45.667,
+        "council_consensus": 38.5,
+        "integrator_recommendation": 42.08,
+        "llm_recommendation": 42.0,
+        "final": 42,
+        "available_range": 41.35,
+        "distance_from_baseline": 5.44,
+        "range_utilization": 63,
+        "clamp_adjustment": -0.08,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 26.11,
+        "distance_from_upper": 15.24,
+        "movement_reason": "Evidence-first placement of Structure at 42 (evidence credibility 0.59): specialist recommendation 45.667 blended with council consensus 38.5, with baseline reference 36.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 32.49,
+        "baseline": 52.34705172,
+        "framework_hi": 72.2,
+        "specialist_recommendation": 57.333,
+        "council_consensus": 52.75,
+        "integrator_recommendation": 55.23,
+        "llm_recommendation": 55.0,
+        "final": 55,
+        "available_range": 39.71,
+        "distance_from_baseline": 2.65,
+        "range_utilization": 57,
+        "clamp_adjustment": -0.23,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 22.51,
+        "distance_from_upper": 17.2,
+        "movement_reason": "Evidence-first placement of Drive at 55 (evidence credibility 0.61): specialist recommendation 57.333 blended with council consensus 52.75, with baseline reference 52.3 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Uganda",
+        "iso3": "UGA",
+        "dimension": "D1",
+        "baseline_score": 31.57482638,
+        "final_score": 25,
+        "change_amount": -6.57,
+        "change_percent": -20.81,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Uganda's Identity is placed at 25 (Social 3 <-> Self 97). Within the framework range [23-40], 25 sits at ~13% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C03",
+          "W_institutional_analyst_C08",
+          "W_cultural_anthropologist_c2"
+        ],
+        "supporting_frameworks": [
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 50.0,
+          "wvs": 0.0,
+          "trompenaars": 50.0
+        },
+        "statistician_reasoning": "Quantitative consensus signal of 25.48 with high agreement (0.9028) and low conflict (0.0972) strongly anchors Uganda in the collectivist range. Schwartz embeddedness and hierarchy scores are high; Trompenaars communitarianism and diffuse-specific both point well below the South Korea anchor of 50. Score of 27 is justified as slightly below baseline (28) given the strong collectivist signal from both Schwartz and Trompenaars. Why not lower: CI floor is 22.79; the signal does not justify pushing to the absolute floor. Why not higher: strong agreement across frameworks rules out scores above 35. Most decisive evidence: near-perfect agreement across Schwartz autonomy/embeddedness and Trompenaars communitarianism columns.",
+        "comparativist_reasoning": "Uganda's collectivist tendencies are evident in its strong community ties and social networks, aligning with Schwartz's embeddedness and Trompenaars' communitarianism. Compared to Kenya (33) and Rwanda (37), Uganda is slightly more collectivist, which justifies a score below the regional mean of 36.7.",
+        "country_specialist_reasoning": "Uganda's cultural identity is deeply rooted in collectivism, as evidenced by the strong emphasis on clan and community identity. The cultural anthropologist and institutional analyst reports highlight the importance of extended family and clan structures in Ugandan society, which align with the collectivist worldview. This places Uganda well below the South Korea anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Identity=31: resist midpoint bias and compression. The strong collectivist signal (consensus 25.48, high agreement 0.9028) from Schwartz embeddedness/hierarchy and Trompenaars communitarianism supports a score near the lower end of the CI (22.79–40.36). The baseline of 31.6 is reasonable but the evidence from W_institutional_analyst_C03 (VSM-based collectivist characterisation) and W_institutional_analyst_C08 (clan-based identity) strongly anchors Uganda below the East Africa mean (36.7) and well below the South Korea anchor (50). A score of 31 is justified as slightly below baseline but not at the floor, given the strong consensus. Cannot go lower than 23 due to CI floor; cannot go higher than 40 due to the strong agreement across frameworks. The decisive evidence is the near-perfect agreement across Schwartz autonomy/embeddedness and Trompenaars communitarianism columns.",
+        "integrator_decision": "Identity adjusted from baseline 31.6 to 25 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6407): coverage=0.4, agreement=0.891, evidence=0.652, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 25,
+          "considered_alternatives": [
+            27,
+            28,
+            31,
+            32
+          ],
+          "why_rejected": {
+            "27": "27 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "28": "28 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "31": "31 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "32": "32 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "25 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (31) and the CI ceiling (40), so pushing past 25 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (27) and the CI floor (23), so going below 25 would understate the measured signal.",
+        "integrator_recommendation": 24.81,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.19,
+        "absolute_score_rationale": "Uganda sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Uganda's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would imply markedly more Self; the evidence and framework signal do not support pushing Uganda that far toward Self.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Uganda that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Uganda that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Uganda that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 25 means everyday life in Uganda leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 25 is justified: Uganda sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (27) and the CI floor (23), so going below 25 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (31) and the CI ceiling (40), so pushing past 25 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C03, W_institutional_analyst_C08, W_cultural_anthropologist_c2.",
+        "executive_explanation": "Uganda sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (31) and the CI ceiling (40), so pushing past 25 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (27) and the CI floor (23), so going below 25 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=6.57. Framework consensus=25.48, signal_strength=0.6846, conflict=0.0972. Within the framework range [23-40], 25 sits at ~13% of the permitted span. Confidence MEDIUM (score 0.6407): coverage=0.4, agreement=0.891, evidence=0.652, stability=1.0."
+      },
+      {
+        "country": "Uganda",
+        "iso3": "UGA",
+        "dimension": "D2",
+        "baseline_score": 39.91744132,
+        "final_score": 41,
+        "change_amount": 1.08,
+        "change_percent": 2.71,
+        "adjustment_type": "ROUNDING",
+        "summary": "Uganda's Expression is placed at 41 (Restrained 3 <-> Open 97). Within the framework range [16-64], 41 sits at ~52% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C15",
+          "W_institutional_analyst_C17",
+          "W_cultural_anthropologist_c5"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 75.0
+        },
+        "statistician_reasoning": "Signal_strength=0.56 is moderate; agreement_score=0.60 is the weakest of the four dimensions; only Trompenaars affective-neutral contributes. Consensus of 8.89 is very low, indicating thin coverage. CI is 16.33-63.50, a very wide range reflecting uncertainty. Uganda's oral culture, communal celebration traditions, and expressive social norms suggest moderate-to-open expression, but hierarchical suppression in formal contexts moderates this. Score of 38 is below Turkey anchor (50) but not at the floor. Why not lower: cultural expressiveness norms and communal social life argue against deep restraint. Why not higher: formal hierarchical suppression signals and thin data prevent placement at or above 50. Most decisive evidence: Trompenaars affective-neutral signal for Sub-Saharan Africa.",
+        "comparativist_reasoning": "Uganda's cultural expressiveness is moderated by hierarchical structures, similar to Kenya (40) but less restrained than Eritrea (47). The oral traditions and communal celebrations support a score slightly below the regional mean of 44.07.",
+        "country_specialist_reasoning": "Uganda exhibits moderate restraint in expression, influenced by hierarchical suppression in formal contexts. However, the oral culture and communal celebration traditions suggest a degree of openness. This places Uganda below the Turkey anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Expression=40: resist midpoint bias and compression. The Expression dimension has thin coverage (only Trompenaars affective-neutral contributes, consensus 8.89, agreement 0.60). The CI is wide (16.33–63.50). Uganda's oral culture and communal celebrations suggest moderate openness, but hierarchical suppression in formal contexts (e.g., respect for elders, political dissent suppression) moderates this. A score of 40 is below the Turkey anchor (50) but not at the floor; it reflects moderate restraint relative to the anchor, with high uncertainty. Cannot justify going below 25 given cultural expressiveness norms; cannot justify going above 50 given formal hierarchical suppression signals. The decisive evidence is the qualitative accounts of emotional expression in community settings versus formal restraint.",
+        "integrator_decision": "Expression adjusted from baseline 39.9 to 41 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6026): coverage=0.4, agreement=0.945, evidence=0.544, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 41,
+          "considered_alternatives": [
+            38,
+            39,
+            40
+          ],
+          "why_rejected": {
+            "38": "38 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "39": "39 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "40": "40 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "41 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (64), so pushing past 41 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (16), so going below 41 would understate the measured signal.",
+        "integrator_recommendation": 40.79,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.21,
+        "absolute_score_rationale": "Uganda sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~9), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Uganda's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Uganda's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Uganda that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Uganda that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Uganda that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 41 means everyday life in Uganda leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 41 is justified: Uganda sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~9), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (16), so going below 41 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (64), so pushing past 41 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C15, W_institutional_analyst_C17, W_cultural_anthropologist_c5.",
+        "executive_explanation": "Uganda sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~9), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (40) already reflected this evidence, so the council confirmed 41 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (64), so pushing past 41 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (16), so going below 41 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.08 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [16-64], 41 sits at ~52% of the permitted span."
+      },
+      {
+        "country": "Uganda",
+        "iso3": "UGA",
+        "dimension": "D3",
+        "baseline_score": 36.56450143,
+        "final_score": 42,
+        "change_amount": 5.44,
+        "change_percent": 14.88,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Uganda's Structure is placed at 42 (Fluid 3 <-> Certain 97). Within the framework range [16-57], 42 sits at ~63% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C21",
+          "W_institutional_analyst_C23",
+          "W_cultural_anthropologist_c6"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 75.0
+        },
+        "statistician_reasoning": "Consensus of 46.89 is near the Colombia anchor of 50, but agreement_score=0.8624 with moderate conflict (0.1376). Contributing columns include Schwartz harmony and Trompenaars future-past and synchronic-sequential. CI is 15.89-57.24. The Trompenaars synchronic time orientation and flexible planning norms in Uganda suggest lower structure-certainty than the Colombia anchor. Score of 36 is below the consensus midpoint but within CI. Why not lower: Schwartz harmony signal and moderate agreement prevent pushing toward the CI floor. Why not higher: synchronic time orientation and flexible institutional norms argue against high structure scores. Most decisive evidence: Trompenaars synchronic-sequential and future-past signals.",
+        "comparativist_reasoning": "Uganda shows a moderate tolerance for ambiguity, similar to Rwanda (48) and Madagascar (46.7), but slightly more structured than Eritrea (41.8). This places it just below the regional mean of 46.59.",
+        "country_specialist_reasoning": "Uganda's cultural orientation suggests a lower tolerance for ambiguity compared to the Colombia anchor. The Trompenaars synchronic time orientation and Schwartz harmony indicate a preference for structure, but not to the extent of high certainty.",
+        "skeptic_reasoning": "Adversarial check on Structure=38: resist midpoint bias and compression. The consensus signal of 46.89 is near the Colombia anchor (50), but the framework signals from Trompenaars synchronic time orientation and Schwartz harmony for Uganda suggest lower structure-certainty than the anchor. Uganda's cultural emphasis on harmony with nature and flexible time orientation (e.g., 'African time') supports a score below 50. The CI is 15.89–57.24. A score of 38 is below the Colombia anchor (50) and reflects moderate fluidity, but not extreme due to some institutional structure (e.g., clan-based social order). Cannot go lower than 20 given the presence of some structure; cannot go higher than 50 given the strong harmony and synchronic time signals. The decisive evidence is the Schwartz harmony and Trompenaars synchronic-sequential columns.",
+        "integrator_decision": "Structure adjusted from baseline 36.6 to 42 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4537): coverage=0.4, agreement=0.781, evidence=0.572, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 42,
+          "considered_alternatives": [
+            36,
+            37,
+            38,
+            44
+          ],
+          "why_rejected": {
+            "36": "36 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "37": "37 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "38": "38 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "44": "44 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "42 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (44) and the CI ceiling (57), so pushing past 42 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (36) and the CI floor (16), so going below 42 would understate the measured signal.",
+        "integrator_recommendation": 42.08,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.08,
+        "absolute_score_rationale": "Uganda sits at 42 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Uganda's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Uganda's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Uganda that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Uganda that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Uganda that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 42 means everyday life in Uganda leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 42 is justified: Uganda sits at 42 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (36) and the CI floor (16), so going below 42 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (44) and the CI ceiling (57), so pushing past 42 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C21, W_institutional_analyst_C23, W_cultural_anthropologist_c6.",
+        "executive_explanation": "Uganda sits at 42 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (44) and the CI ceiling (57), so pushing past 42 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (36) and the CI floor (16), so going below 42 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=5.44. Framework consensus=46.89, signal_strength=0.5441, conflict=0.1376. Within the framework range [16-57], 42 sits at ~63% of the permitted span. Confidence MEDIUM (score 0.4537): coverage=0.4, agreement=0.781, evidence=0.572, stability=0.8."
+      },
+      {
+        "country": "Uganda",
+        "iso3": "UGA",
+        "dimension": "D4",
+        "baseline_score": 52.34705172,
+        "final_score": 55,
+        "change_amount": 2.65,
+        "change_percent": 5.06,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Uganda's Drive is placed at 55 (Accepting 3 <-> Striving 97). Within the framework range [32-72], 55 sits at ~57% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C28",
+          "W_institutional_analyst_C29",
+          "W_institutional_analyst_C31"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 75.0
+        },
+        "statistician_reasoning": "Consensus of 41.94 with agreement_score=0.8018 and moderate conflict (0.1982). Contributing columns include Schwartz mastery and Trompenaars ascription-achievement and external-internal. CI is 32.49-72.20. Schwartz mastery signal for Uganda is moderate-to-high, and Trompenaars achievement orientation places Uganda slightly above the Turkey anchor (50). Entrepreneurial culture and strong aspiration norms in Uganda support a score just above 50. Why not lower: Schwartz mastery and achievement orientation signals argue against placing Uganda in the accepting range. Why not higher: ascription elements and external locus signals moderate the drive score; conflict score of 0.1982 introduces uncertainty. Most decisive evidence: Schwartz mastery and Trompenaars ascription-achievement signals.",
+        "comparativist_reasoning": "Uganda's cultural drive is characterized by ambition and achievement, similar to Kenya (56) and Burundi (55.4). This places it slightly above the regional mean of 50.61.",
+        "country_specialist_reasoning": "Uganda shows a moderate level of striving, with cultural values emphasizing achievement and mastery. This is supported by the GLOBE Performance Orientation and other qualitative insights, placing Uganda slightly above the Turkey anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Drive=49: resist midpoint bias and compression. The consensus signal of 41.94 is below the Turkey anchor (50), but the CI is 32.49–72.20. Uganda's cultural values emphasise harmony and sufficiency (Schwartz mastery is moderate, Trompenaars ascription-achievement leans ascription), but there is also a strong achievement orientation in education and entrepreneurship (e.g., 'Uganda is a nation of entrepreneurs'). A score of 49 is just below the Turkey anchor (50), reflecting a balance between accepting and striving. Cannot go lower than 35 given the entrepreneurial drive; cannot go higher than 60 given the ascription and harmony signals. The decisive evidence is the moderate Schwartz mastery and Trompenaars ascription-achievement columns.",
+        "integrator_decision": "Drive adjusted from baseline 52.3 to 55 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4606): coverage=0.4, agreement=0.828, evidence=0.556, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 55,
+          "considered_alternatives": [
+            49,
+            52,
+            54,
+            56
+          ],
+          "why_rejected": {
+            "49": "49 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "52": "52 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "54": "54 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "56": "56 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "55 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (56) and the CI ceiling (72), so pushing past 55 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (49) and the CI floor (32), so going below 55 would understate the measured signal.",
+        "integrator_recommendation": 55.23,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.23,
+        "absolute_score_rationale": "Uganda sits at 55 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Uganda's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Uganda's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Uganda's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Uganda that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Uganda that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 55 means everyday life in Uganda leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 55 is justified: Uganda sits at 55 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (49) and the CI floor (32), so going below 55 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (56) and the CI ceiling (72), so pushing past 55 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C28, W_institutional_analyst_C29, W_institutional_analyst_C31.",
+        "executive_explanation": "Uganda sits at 55 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (56) and the CI ceiling (72), so pushing past 55 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (49) and the CI floor (32), so going below 55 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=2.65. Framework consensus=41.94, signal_strength=0.5556, conflict=0.1982. Within the framework range [32-72], 55 sits at ~57% of the permitted span. Confidence MEDIUM (score 0.4606): coverage=0.4, agreement=0.828, evidence=0.556, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "KEN",
+        "country": "Kenya",
+        "d1": 33.0,
+        "d2": 40.0,
+        "d3": 47.0,
+        "d4": 56.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "ERI",
+        "country": "Eritrea",
+        "d1": 37.90652362,
+        "d2": 47.35162121,
+        "d3": 41.75948989,
+        "d4": 49.88211611,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BDI",
+        "country": "Burundi",
+        "d1": 40.62681675,
+        "d2": 44.32743765,
+        "d3": 45.277332,
+        "d4": 55.35040801,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MDG",
+        "country": "Madagascar",
+        "d1": 40.56380059,
+        "d2": 42.95212955,
+        "d3": 46.71337599,
+        "d4": 50.81703115,
+        "relation": "regional"
+      },
+      {
+        "iso3": "RWA",
+        "country": "Rwanda",
+        "d1": 37.3654832,
+        "d2": 48.22991956,
+        "d3": 48.27880363,
+        "d4": 52.95520385,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 25.0,
+        "reason": "Uganda is below the South Korea Identity anchor (50) by 25.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 9.0,
+        "reason": "Uganda is below the Turkey Expression anchor (50) by 9.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 5.0,
+        "reason": "Uganda is above the Turkey Drive anchor (50) by 5.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 8.0,
+        "reason": "Uganda is below the Colombia Structure anchor (50) by 8.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "UGA",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=30"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D2', 'D3', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D2,D3,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 30.0,
+        "midpoint_dimensions": [
+          "D2",
+          "D3",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "UGA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Collectivist worldview in Uganda emphasizes community identity such that individual identity is inseparable from socio‑cultural environment: 'I am because you are'.",
+          "strongest_opposing": "In eastern Uganda, people actively cultivate an 'educated' identity through behavior, committees, etc.; being seen as educated confers advantages in authority disputes.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Ugandan culture governs emotional expression: articulating emotions is not the norm; emotional expression is often seen as weakness and shameful, especially for men.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Pentecostal purity rules in Uganda are strict but subject to relational 'rule‑work'—negotiated in small groups and kin/social contexts.",
+          "strongest_opposing": "Citizens experience unpredictability and arbitrary power in governance, reflecting inconsistency in rule enforcement in daily life context.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c6",
+            "c7"
+          ],
+          "opposing_evidence_ids": [
+            "c8"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Achieving an educated identity helps individuals prevail in disputes and access resources, indicating achievement‑oriented identity work.",
+          "strongest_opposing": "Triumphs and failures of individuals are experienced as belonging to the entire group, emphasizing harmony over individual achievement.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c9"
+          ],
+          "opposing_evidence_ids": [
+            "c10"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "A peer-reviewed VSM-based study explicitly characterises Ugandan culture as 'collectivist,' with groups serving a useful role in organising people and achieving goals.",
+          "strongest_opposing": "Western influences are more pronounced in urban Kampala, where the population generally has higher education and greater access to foreign media, pulling cultural norms toward more individualist expression.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08",
+            "C09"
+          ],
+          "opposing_evidence_ids": [
+            "C10",
+            "C11"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 42.0,
+          "strongest_supporting": "Communication in Uganda's public sector institutions is identified as a significant challenge; bureaucratic constraints stifle innovation and open employee participation in decision-making.",
+          "strongest_opposing": "Ubuntu-Bantu relationality is 'manifested through caring and love for one another,' with communal storytelling and emotional solidarity as celebrated social practices in Ugandan communities.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 50.0,
+          "confidence": 0.65,
+          "supporting_evidence_ids": [
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "opposing_evidence_ids": [
+            "C17",
+            "C18",
+            "C19"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 52.0,
+          "strongest_supporting": "A VSM-based peer-reviewed study of Uganda specifically describes the culture as 'moderately high in uncertainty avoidance,' consistent with a preference for structure and rules over ambiguity.",
+          "strongest_opposing": "The dominance of informal sector work and rural subsistence agriculture means most Ugandans navigate highly unstructured economic environments daily, demonstrating practical tolerance for ambiguity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 60.0,
+          "confidence": 0.67,
+          "supporting_evidence_ids": [
+            "C20",
+            "C21",
+            "C22",
+            "C23",
+            "C24"
+          ],
+          "opposing_evidence_ids": [
+            "C25",
+            "C26",
+            "C27"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 62.0,
+          "strongest_supporting": "The peer-reviewed VSM study explicitly characterises Uganda as 'masculine,' indicating the culture prizes achievement, competition, and performance over harmony and relationships as primary values.",
+          "strongest_opposing": "Ubuntu-inspired entrepreneurship prioritises social impact and community welfare over profit maximisation, and success is measured by collective benefit rather than individual gain — tempering pure competitive striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.68,
+          "supporting_evidence_ids": [
+            "C28",
+            "C29",
+            "C30",
+            "C31",
+            "C32"
+          ],
+          "opposing_evidence_ids": [
+            "C33",
+            "C34",
+            "C35"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 27.0,
+          "strongest_supporting": "Clan membership and lineage (such as the Baganda's patrilineal clans) are fundamental to social identity in Uganda, shaping marriage, inheritance, and social networks.",
+          "strongest_opposing": "Among urban youth in Kampala, there is growing individualism and emphasis on personal career success, indicating a shift away from purely collectivist identity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 35.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "claim_1",
+            "claim_2",
+            "claim_3"
+          ],
+          "opposing_evidence_ids": [
+            "claim_4"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Ugandans are known for their warmth and expressiveness in social interactions, with laughter and storytelling common in everyday life.",
+          "strongest_opposing": "Ugandan culture, especially in more formal or hierarchical settings, discourages open confrontation or direct criticism of elders, showing restraint in expression across status gradients.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "claim_5",
+            "claim_6"
+          ],
+          "opposing_evidence_ids": [
+            "claim_7"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Ugandan daily life is characterised by improvisation and flexibility; the concept of 'kakasa' (a Luganda term meaning to manage or struggle through) reflects an acceptance of uncertainty and lack of rigid planning.",
+          "strongest_opposing": "Despite flexibility, there is a strong respect for traditional hierarchy and authority in Uganda, and formal institutions (schools, government) require following explicit rules, indicating some need for structure.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_8",
+            "claim_9"
+          ],
+          "opposing_evidence_ids": [
+            "claim_10"
+          ]
+        },
+        {
+          "iso3": "UGA",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Entrepreneurship is highly valued in Uganda, and many Ugandans pursue small businesses and side hustles, reflecting a strong achievement drive.",
+          "strongest_opposing": "Yet there is also a cultural emphasis on maintaining harmony and relationships, and too much individual pursuit of success can be seen as selfish if it neglects family obligations, providing a counterbalance to pure drive.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_11",
+            "claim_12"
+          ],
+          "opposing_evidence_ids": [
+            "claim_13"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "UGA",
+          "dimension": "D1",
+          "baseline_score": 31.57482638,
+          "specialist_recommendation": 21.667,
+          "specialist_confidence": 0.8233,
+          "evidence_strength": 0.6519,
+          "evidence_quality": 0.6408,
+          "disagreement_index": 0.1543,
+          "specialist_influence_weight": 0.6281,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "UGA",
+          "dimension": "D2",
+          "baseline_score": 39.91744132,
+          "specialist_recommendation": 42.333,
+          "specialist_confidence": 0.7,
+          "evidence_strength": 0.5437,
+          "evidence_quality": 0.576,
+          "disagreement_index": 0.4084,
+          "specialist_influence_weight": 0.5902,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "UGA",
+          "dimension": "D3",
+          "baseline_score": 36.56450143,
+          "specialist_recommendation": 45.667,
+          "specialist_confidence": 0.7233,
+          "evidence_strength": 0.5722,
+          "evidence_quality": 0.5841,
+          "disagreement_index": 0.3035,
+          "specialist_influence_weight": 0.5877,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "UGA",
+          "dimension": "D4",
+          "baseline_score": 52.34705172,
+          "specialist_recommendation": 57.333,
+          "specialist_confidence": 0.6933,
+          "evidence_strength": 0.5556,
+          "evidence_quality": 0.589,
+          "disagreement_index": 0.5074,
+          "specialist_influence_weight": 0.6094,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "UGA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 9.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 9.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D3 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D4 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=35: differs by 8 from the statistician reading of 27.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=43: differs by 5 from the statistician reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=44: differs by 8 from the statistician reading of 36.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=25: differs by 10 from the comparativist reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=35: differs by 8 from the comparativist reading of 43.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=58: differs by 6 from the comparativist reading of 52.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=32: differs by 7 from the country_specialist reading of 25.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=40: differs by 5 from the country_specialist reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=37: differs by 8 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=47: differs by 11 from the country_specialist reading of 58.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=27: differs by 5 from the devils_advocate reading of 32.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "UGA",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=52: differs by 5 from the devils_advocate reading of 47.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "UGA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 1,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 11,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.65,
+          "evidence_count": 8,
+          "recommendation": 42.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.67,
+          "evidence_count": 8,
+          "recommendation": 52.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.68,
+          "evidence_count": 8,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 27.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "UGA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 70.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "UGA",
+        "score_diversity": 0.148,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6591,
+        "consensus_quality": 0.9167,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "UGA",
+      "country": "Uganda",
+      "region": "East Africa",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 25,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.846,
+          "top_supporting_arguments": [
+            "In eastern Uganda, people actively cultivate an 'educated' identity through behavior, committees, etc.; being seen as educated confers advantages in authority disputes.",
+            "Urban Ugandans in Kampala may dress and act differently than they would visiting rural relatives, signalling an emerging individualist orientation among the educated urban class.",
+            "Western influences are more pronounced in urban Kampala, where the population generally has higher education and greater access to foreign media, pulling cultural norms toward more individualist expression."
+          ],
+          "top_counter_arguments": [
+            "The extended family and clan provide economic, social support and framework of mutual identity, and individuals consider their clan status more important than the nuclear family.",
+            "Collectivist worldview in Uganda emphasizes community identity such that individual identity is inseparable from socio‑cultural environment: 'I am because you are'.",
+            "Post‑conflict Acholi emphasize clan, ethnic and national identity for protection and social utility — choosing which identity to express in social contexts."
+          ],
+          "why_this_score": "Uganda sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 32 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (31) and the CI ceiling (40), so pushing past 25 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (27) and the CI floor (23), so going below 25 would understate the measured signal.",
+          "related_countries": [
+            "Kenya",
+            "Eritrea",
+            "Burundi",
+            "Madagascar",
+            "Rwanda"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search7",
+              "title": "Education as identity: The scaffolding of “being educated” in eastern Uganda",
+              "url": "https://ueaeprints.uea.ac.uk/id/eprint/90341",
+              "author": "Ben Jones",
+              "publication_year": 2023,
+              "excerpt": "In eastern Uganda, people actively cultivate an 'educated' identity through behavior, committees, etc.; being seen as educated confers advantages in authority disputes.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C10",
+              "source_id": "S01",
+              "title": "Uganda, explained by our Cultural Dimensions | Twino Speaks",
+              "url": "https://ugandaspeaks.wordpress.com/2010/04/02/uganda-explained-by-our-cultural-dimensions/",
+              "author": "Stephen Twinoburyo",
+              "publication_year": 2010,
+              "excerpt": "Urban Ugandans in Kampala may dress and act differently than they would visiting rural relatives, signalling an emerging individualist orientation among the educated urban class.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S05",
+              "title": "Uganda Cultural Field Guide – MCIA / Public Intelligence",
+              "url": "https://info.publicintelligence.net/MCIA-UgandaCultureGuide.pdf",
+              "author": "Marine Corps Intelligence Activity",
+              "publication_year": 2008,
+              "excerpt": "Western influences are more pronounced in urban Kampala, where the population generally has higher education and greater access to foreign media, pulling cultural norms toward more individualist expression.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 41,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.592,
+          "top_supporting_arguments": [
+            "Ubuntu-Bantu relationality is 'manifested through caring and love for one another,' with communal storytelling and emotional solidarity as celebrated social practices in Ugandan communities.",
+            "Seasonal gatherings, initiation ceremonies, and music festivals reinforce shared identity at the community level, with expressive cultural performance (e.g. Bwola dance) as a celebrated social norm.",
+            "Ubuntu's emphasis on interconnectedness and interpersonal empathy provides a relational openness in community and entrepreneurial interactions, suggesting warmth and emotional engagement in in-group settings."
+          ],
+          "top_counter_arguments": [
+            "Ugandan culture governs emotional expression: articulating emotions is not the norm; emotional expression is often seen as weakness and shameful, especially for men.",
+            "Communication in Ugandan business settings is often characterised by indirectness and a focus on maintaining harmony; direct confrontation or blunt language is generally avoided as rude or aggressive.",
+            "Negotiations are conducted in a way that allows all parties to save face and maintain dignity; aggressive bargaining is inappropriate in formal business settings."
+          ],
+          "why_this_score": "Uganda sits at 41 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~9), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (40) and the CI ceiling (64), so pushing past 41 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (38) and the CI floor (16), so going below 41 would understate the measured signal.",
+          "related_countries": [
+            "Kenya",
+            "Eritrea",
+            "Burundi",
+            "Madagascar",
+            "Rwanda"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C17",
+              "source_id": "S08",
+              "title": "Ubuntu Philosophy, Values, and Principles – Journal of Social Work (Udah et al.)",
+              "url": "https://journals.sagepub.com/doi/full/10.1177/14680173241312749",
+              "author": "Udah, Tusasiirwe, Mugumbate, Gatwiri",
+              "publication_year": 2025,
+              "excerpt": "Ubuntu-Bantu relationality is 'manifested through caring and love for one another,' with communal storytelling and emotional solidarity as celebrated social practices in Ugandan communities.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S07",
+              "title": "Tribes and Culture in Uganda: A Comprehensive Guide – Uganda Gorillas Safari",
+              "url": "https://www.ugandagorillassafari.com/news/tribes-and-culture-in-uganda-a-comprehensive-guide-for-tourists/",
+              "author": "Uganda Gorillas Safari Editorial",
+              "publication_year": 2025,
+              "excerpt": "Seasonal gatherings, initiation ceremonies, and music festivals reinforce shared identity at the community level, with expressive cultural performance (e.g. Bwola dance) as a celebrated social norm.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S11",
+              "title": "Leveraging Ubuntu-Inspired Values to Promote Sustainable Digital Entrepreneurship in Africa – Tandfonline",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/23322373.2024.2349484",
+              "author": "Abubakre et al.",
+              "publication_year": 2024,
+              "excerpt": "Ubuntu's emphasis on interconnectedness and interpersonal empathy provides a relational openness in community and entrepreneurial interactions, suggesting warmth and emotional engagement in in-group settings.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 42,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.697,
+          "top_supporting_arguments": [
+            "Pentecostal purity rules in Uganda are strict but subject to relational 'rule‑work'—negotiated in small groups and kin/social contexts.",
+            "Informal institutions (‘unwritten rules’) govern behavior in social venues, indicating social norms that influence everyday conduct.",
+            "The Hofstede East Africa cluster scores 52 on the uncertainty avoidance index (UAI), placing Uganda near the midpoint — neither strongly rule-bound nor strongly ambiguity-tolerant."
+          ],
+          "top_counter_arguments": [
+            "Citizens experience unpredictability and arbitrary power in governance, reflecting inconsistency in rule enforcement in daily life context.",
+            "The blogger Twinoburyo expresses uncertainty about Uganda's UAI placement ('I don't know what to make of Uganda'), suggesting the signal is ambiguous even to insider observers.",
+            "The dominance of informal sector work and rural subsistence agriculture means most Ugandans navigate highly unstructured economic environments daily, demonstrating practical tolerance for ambiguity."
+          ],
+          "why_this_score": "Uganda sits at 42 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~47), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (44) and the CI ceiling (57), so pushing past 42 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (36) and the CI floor (16), so going below 42 would understate the measured signal.",
+          "related_countries": [
+            "Kenya",
+            "Eritrea",
+            "Burundi",
+            "Madagascar",
+            "Rwanda"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c6",
+              "source_id": "turn0search4",
+              "title": "Purity rules in Pentecostal Uganda: relational rulework",
+              "url": "https://trepo.tuni.fi/handle/10024/208933",
+              "author": "Henni Alava & Alessandro Gusman",
+              "publication_year": 2022,
+              "excerpt": "Pentecostal purity rules in Uganda are strict but subject to relational 'rule‑work'—negotiated in small groups and kin/social contexts.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c7",
+              "source_id": "turn0search5",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Informal institutions (‘unwritten rules’) govern behavior in social venues, indicating social norms that influence everyday conduct.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S01",
+              "title": "Uganda, explained by our Cultural Dimensions | Twino Speaks",
+              "url": "https://ugandaspeaks.wordpress.com/2010/04/02/uganda-explained-by-our-cultural-dimensions/",
+              "author": "Stephen Twinoburyo",
+              "publication_year": 2010,
+              "excerpt": "The Hofstede East Africa cluster scores 52 on the uncertainty avoidance index (UAI), placing Uganda near the midpoint — neither strongly rule-bound nor strongly ambiguity-tolerant.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 55,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.493,
+          "top_supporting_arguments": [
+            "Achieving an educated identity helps individuals prevail in disputes and access resources, indicating achievement‑oriented identity work.",
+            "The peer-reviewed VSM study explicitly characterises Uganda as 'masculine,' indicating the culture prizes achievement, competition, and performance over harmony and relationships as primary values.",
+            "The masculine nature of Ugandan culture indicates that aggression and competition would be valued in organisations, and political ambition is actively contested and status-signalling."
+          ],
+          "top_counter_arguments": [
+            "Triumphs and failures of individuals are experienced as belonging to the entire group, emphasizing harmony over individual achievement.",
+            "Ubuntu-inspired entrepreneurship prioritises social impact and community welfare over profit maximisation, and success is measured by collective benefit rather than individual gain — tempering pure competitive striving.",
+            "Ubuntu's communal economics of 'sharing, not accumulating' moderates achievement orientation by embedding individual success within collective frameworks and mutual support obligations."
+          ],
+          "why_this_score": "Uganda sits at 55 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 52 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (56) and the CI ceiling (72), so pushing past 55 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (49) and the CI floor (32), so going below 55 would understate the measured signal.",
+          "related_countries": [
+            "Kenya",
+            "Eritrea",
+            "Burundi",
+            "Madagascar",
+            "Rwanda"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c9",
+              "source_id": "turn0search7",
+              "title": "Education as identity: The scaffolding of “being educated” in eastern Uganda",
+              "url": "https://ueaeprints.uea.ac.uk/id/eprint/90341",
+              "author": "Ben Jones",
+              "publication_year": 2023,
+              "excerpt": "Achieving an educated identity helps individuals prevail in disputes and access resources, indicating achievement‑oriented identity work.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C28",
+              "source_id": "S02",
+              "title": "An Investigation of Ugandan Cultural Values and Implications for Managerial Behavior",
+              "url": "https://journalofbusiness.org/index.php/GJMBR/article/download/1056/1-An-Investigation-of-Ugandan-Cultural_html",
+              "author": "Nickerson et al.",
+              "publication_year": 2013,
+              "excerpt": "The peer-reviewed VSM study explicitly characterises Uganda as 'masculine,' indicating the culture prizes achievement, competition, and performance over harmony and relationships as primary values.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C29",
+              "source_id": "S02",
+              "title": "An Investigation of Ugandan Cultural Values and Implications for Managerial Behavior",
+              "url": "https://journalofbusiness.org/index.php/GJMBR/article/download/1056/1-An-Investigation-of-Ugandan-Cultural_html",
+              "author": "Nickerson et al.",
+              "publication_year": 2013,
+              "excerpt": "The masculine nature of Ugandan culture indicates that aggression and competition would be valued in organisations, and political ambition is actively contested and status-signalling.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

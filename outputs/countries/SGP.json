@@ -1,0 +1,2504 @@
+{
+  "iso3": "SGP",
+  "country": "Singapore",
+  "region": "Southeast Asia",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T16:04:29.603719+00:00",
+  "cultural_profile": {
+    "iso3": "SGP",
+    "country": "Singapore",
+    "region": "Southeast Asia",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 42,
+        "reading": "Group-oriented",
+        "explanation": "Singapore's collectivist values are deeply rooted, prioritizing group loyalty and community over individual desires."
+      },
+      {
+        "dimension": "D2",
+        "score": 28,
+        "reading": "Reserved",
+        "explanation": "Indirect communication and emotional restraint are cultural norms, ensuring social harmony and face-saving."
+      },
+      {
+        "dimension": "D3",
+        "score": 21,
+        "reading": "Flexible",
+        "explanation": "Despite low uncertainty avoidance, rules are followed to maintain structure and authority, not out of a need to reduce ambiguity."
+      },
+      {
+        "dimension": "D4",
+        "score": 62,
+        "reading": "Achievement-oriented",
+        "explanation": "A meritocratic culture drives competitiveness and achievement, though it is balanced by emerging values of work-life balance."
+      }
+    ],
+    "executive_summary": "Singapore is a melting pot of cultures where collectivism and meritocracy coexist. The society values group harmony and indirect communication, while also fostering a competitive spirit driven by 'kiasu'—the fear of losing out. Newcomers will notice a blend of traditional values and modern influences, with a strong emphasis on social harmony and achievement.",
+    "cultural_archetype": {
+      "title": "The Harmonious Competitor",
+      "summary": "Singapore balances collectivist harmony with a strong drive for competitive success.",
+      "claim_ids": [
+        "C01",
+        "C22",
+        "C23"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [
+      "Career-driven professionals",
+      "Relationship-led business",
+      "Cultural explorers"
+    ],
+    "culture_at_a_glance": [
+      "Singapore's low uncertainty avoidance means rules are followed more for maintaining structure and authority compliance than for reducing anxiety.",
+      "Singapore is deeply collectivist, with strong group loyalty, family ties, and community obligations taking precedence over individual desires.",
+      "Singapore's meritocratic culture fosters competitiveness and a strong emphasis on personal achievement, with 'kiasu' driving individuals to excel.",
+      "To maintain social harmony, Singaporeans prefer indirect communication, avoiding direct confrontation and using non-verbal cues to convey messages.",
+      "Indirect communication is prevalent, with Singaporeans avoiding direct confrontation and using non-verbal cues to maintain harmony.",
+      "Singaporeans maintain a reserved demeanor, valuing harmony and cooperation, which requires self-control and restrained emotional expression."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Rule-Governed Society",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 0,
+          "framework_agreement": 36,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Low",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is mixed, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "Singapore's low uncertainty avoidance means rules are followed more for maintaining structure and authority compliance than for reducing anxiety.",
+            "claim_ids": [
+              "C15",
+              "C16",
+              "C17",
+              "C18"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The deliberate creation of a rule-bound society was part of Singapore's development strategy to maintain order and predictability.",
+            "claim_ids": [
+              "claim_9"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Collectivist Foundations",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 76,
+          "framework_agreement": 76,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Singapore is deeply collectivist, with strong group loyalty, family ties, and community obligations taking precedence over individual desires.",
+            "claim_ids": [
+              "C01",
+              "C02",
+              "claim_1",
+              "claim_2"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Singapore's nation-building efforts emphasized Confucian values of family, community, and social harmony.",
+            "claim_ids": [
+              "claim_2"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Meritocratic Drive",
+        "confidence": {
+          "evidence_strength": 56,
+          "expert_agreement": 96,
+          "framework_agreement": 81,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in success factor sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Singapore's meritocratic culture fosters competitiveness and a strong emphasis on personal achievement, with 'kiasu' driving individuals to excel.",
+            "claim_ids": [
+              "C22",
+              "C23",
+              "claim_12",
+              "claim_13"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Policies by Lee Kuan Yew promoted a striving culture, emphasizing hard work and economic success as national virtues.",
+            "claim_ids": [
+              "claim_13"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Indirect Communication",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 76,
+          "framework_agreement": 82,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "To maintain social harmony, Singaporeans prefer indirect communication, avoiding direct confrontation and using non-verbal cues to convey messages.",
+            "claim_ids": [
+              "C08",
+              "C10",
+              "claim_5"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Singapore's development was heavily influenced by Confucian values, promoting family, community, and social harmony over individual rights.",
+        "claim_ids": [
+          "claim_2"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collectivist Harmony",
+        "but_also": "Individual Achievement",
+        "explanation": "Singapore balances a strong sense of community with a competitive drive for personal success, creating a unique tension between group loyalty and individual ambition.",
+        "claim_ids": [
+          "C01",
+          "C22",
+          "C23"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Singaporeans maintain a reserved demeanor, valuing harmony and cooperation, which requires self-control and restrained emotional expression.",
+          "claim_ids": [
+            "C09",
+            "C12"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Meritocracy drives a culture of high standards and competitiveness, motivating employees to deliver exceptional results.",
+          "claim_ids": [
+            "C25",
+            "C26"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Indirect communication is prevalent, with Singaporeans avoiding direct confrontation and using non-verbal cues to maintain harmony.",
+          "claim_ids": [
+            "C08",
+            "C10",
+            "claim_5"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Friendships in Singapore are shaped by ethnic diversity and collectivist values, with a preference for supporting family over acquaintances.",
+          "claim_ids": [
+            "c1",
+            "C04"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Singapore is a collectivist society where group loyalty and community obligations are prioritized over individual desires.",
+          "claim_ids": [
+            "C02",
+            "C05"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Avoid overt competitiveness or self-promotion, as 'kiasu' behavior can be seen as negative despite its role in maintaining high standards.",
+          "claim_ids": [
+            "C31"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Emotional composure is a key status signal in Singapore, reflecting one's ability to maintain harmony and friendliness.",
+          "claim_ids": [
+            "C32"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Singapore is a delicate balance of maintaining harmony and striving for success. The emphasis on collectivism means that social interactions are often indirect and reserved, while the meritocratic drive fosters a competitive environment. Despite strict rules, there's a dynamic interplay between formal order and informal practices, creating a unique and vibrant society.",
+      "claim_ids": [
+        "C09",
+        "C06",
+        "c1",
+        "C25"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Singapore's ethnic diversity is managed through both government intervention and voluntary interethnic friendships, creating a unique social fabric.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The society's collectivist nature is evident in the strong emphasis on group loyalty and family ties over individual desires.",
+        "claim_ids": [
+          "C02"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Indirect communication is prevalent, with Singaporeans avoiding direct confrontation to maintain social harmony.",
+        "claim_ids": [
+          "C08"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The concept of 'kiasu' influences behavior, driving competitiveness and a fear of losing out, which is both admired and criticized.",
+        "claim_ids": [
+          "C31"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Singapore often hinges on navigating the meritocratic system, where academic and professional achievements are key markers of success.",
+        "claim_ids": [
+          "C23",
+          "C24"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Understanding and adapting to indirect communication styles can facilitate smoother interactions and negotiations.",
+        "claim_ids": [
+          "C08",
+          "C10"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect the collectivist values and indirect communication norms can lead to social friction and misunderstandings.",
+        "claim_ids": [
+          "C05",
+          "C08"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C30"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "I'll think about it",
+        "meaning": "This is often a polite way to decline or disagree without causing confrontation.",
+        "claim_ids": [
+          "C11"
+        ],
+        "sources_count": 1
+      },
+      {
+        "phrase": "Yes",
+        "meaning": "This may simply indicate that the speaker has heard you, not necessarily agreement.",
+        "claim_ids": [
+          "C29"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c2",
+          "claim_4",
+          "claim_14"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Younger urban residents tend to adopt more individualistic behaviors, while older rural communities adhere to traditional collectivist values.",
+        "claim_ids": [
+          "c2",
+          "claim_4",
+          "claim_14"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "similarity": 87,
+        "explanation": "Both Singapore and Vietnam emphasize collectivist values and social harmony, though Singapore incorporates a stronger meritocratic drive.",
+        "claim_ids": [
+          "C01",
+          "C22"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "PHL",
+        "country": "Philippines",
+        "similarity": 87,
+        "explanation": "Singapore and the Philippines share collectivist values and indirect communication styles, but Singapore's meritocratic system and competitive drive are more pronounced.",
+        "claim_ids": [
+          "C01",
+          "C22"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MYS",
+        "country": "Malaysia",
+        "similarity": 86,
+        "explanation": "Singapore and Malaysia have similar ethnic diversity and collectivist values, but Singapore's focus on meritocracy and competitiveness sets it apart.",
+        "claim_ids": [
+          "C01",
+          "C22"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "IDN",
+        "country": "Indonesia",
+        "similarity": 85,
+        "explanation": "Both countries value social harmony and collectivism, yet Singapore's urbanization and competitive ethos create a distinct cultural experience.",
+        "claim_ids": [
+          "C01",
+          "C22"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Rule-Governed Harmony",
+        "explanation": "The combination of low uncertainty avoidance and high rule adherence creates a distinct environment where order and harmony coexist without the anxiety typical of high-structure cultures.",
+        "claim_ids": [
+          "C15",
+          "C17"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More flexible than Laos",
+        "dimension": "D3",
+        "neighbour_iso3": "LAO",
+        "delta": -27
+      },
+      {
+        "text": "More achievement-oriented than Indonesia",
+        "dimension": "D4",
+        "neighbour_iso3": "IDN",
+        "delta": 22
+      },
+      {
+        "text": "More achievement-oriented than Malaysia",
+        "dimension": "D4",
+        "neighbour_iso3": "MYS",
+        "delta": 21
+      },
+      {
+        "text": "More flexible than Vietnam",
+        "dimension": "D3",
+        "neighbour_iso3": "VNM",
+        "delta": -18
+      },
+      {
+        "text": "More reserved than Philippines",
+        "dimension": "D2",
+        "neighbour_iso3": "PHL",
+        "delta": -17
+      },
+      {
+        "text": "More achievement-oriented than Philippines",
+        "dimension": "D4",
+        "neighbour_iso3": "PHL",
+        "delta": 16
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Singapore shows a stronger emphasis on group-based identity—ethnic, family, societal—rather than individual-defined identity. Ethnic diversity is negotiated through government policies and voluntary cross-ethnic friendship-making, indicating the primacy of social identity. However, some renegotiation within upwardly mobile middle-class families suggests emerging individual reinterpretation of roles.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Singapore's Hofstede Individualism index is 20 — one of the lowest in the world, firmly in the collectivist range. Multiple independent sources corroborate: identity is rooted in in-group loyalty (family, clan, community), group goals take precedence over personal will, and workplace success is measured through collective rather than individual achievement. Face-saving norms reinforce group-over-self identity. The modest counter-signal is Singapore's cosmopolitan, English-language, MNC-heavy environment, which introduces some individualist exposure in younger professionals — but this is an adjustment nudge, not a direction flip. The anchor (IDV=20) is unambiguous. Score 18 reflects deep collectivism with a tiny upward nudge for urban, Westernised exposure.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Singapore scores low on Identity (social/collectivist). Hofstede Individualism score is 20, placing it firmly in collectivist territory. Evidence from scholarship on Confucian heritage, kampong spirit, and family-centrism reinforces this. The counter-evidence of growing individualism among youth and expatriate enclaves reflects a shift but does not invert the baseline.",
+          "suggested_score": 20
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression in Singapore is structurally restrained by the pervasive face-saving (mianzi) norm. Emotional control in public is a social obligation: losing one's temper causes loss of face for both parties. Communication is indirect by design — a 'yes' may signal acknowledgment, not agreement; 'I'll think about it' is a polished refusal. Criticism of superiors is routed privately or not at all. The Hofstede Indulgence score of ~46 (intermediate) provides a slight upward nudge vs. maximum restraint, and Singapore's multiethnic vibrancy does produce animated food-hawker and informal social registers. However, the structural suppression of emotional display — especially in hierarchical and public settings — is robustly documented across multiple independent sources. Score 18 reflects strong restraint with minor upward adjustment for the indulgence measure.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Singapore is restrained in expression, with strong norms of saving face, indirect communication, and suppression of open emotion, especially in hierarchy. The counter-evidence of more expressive younger generations and Chinese New Year loudness does not overturn the culturally enforced restraint in public life.",
+          "suggested_score": 30
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "This is the most counter-intuitive dimension for Singapore and requires the clearest dimension-routing. Hofstede's UAI for Singapore is 8 — the lowest score ever recorded, indicating minimal psychological discomfort with ambiguity. The critical interpretive key (stated explicitly in Hofstede Insights and corroborated by academic sources) is that Singaporeans follow rules because of HIGH Power Distance (authority deference, D1-adjacent PDI = 74), NOT because of anxiety about uncertainty. Low UAI cultures are comfortable with unstructured situations, open to new ideas, and tolerant of risk — all consistent with Singapore's status as an entrepreneurial, adaptive, fast-pivoting economy. Counter-evidence: the visible density of rules and orderly public behaviour might superficially suggest high Structure, but this is a D3 routing error — that evidence belongs to PDI and D1 collectivism, not to ambiguity-anxiety. Score 22 reflects true psychological Fluidity with a small upward nudge because some observers document rule-compliance habits that could embed mild structure-preference in daily cognition.",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Singapore is highly structured (Certain), with strong need for rules, order, planning, punctuality, and discomfort with ambiguity. Hofstede Uncertainty Avoidance is 8, which is low, but this score is anomalous due to measurement issues; country-specific evidence overwhelmingly shows a rule-bound society. The counter-evidence of 'kiasu' behaviour and social media expressive outbursts does not override the institutional and everyday order.",
+          "suggested_score": 85
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede MAS for Singapore is ~48 (near midpoint), which sets a moderate baseline, but the country-specific evidence pushes clearly higher. The kiasu ('fear of losing') construct — documented by both peer-reviewed academic work and institutional analyses — is a distinctive cultural driver of hyper-competition that has no equivalent in low-Drive societies. Meritocracy is constitutionally embedded in governance and education: individuals are identified, ranked, and tracked early; rewards are explicitly tied to performance. Long working hours, an intense exam culture, and a national narrative of survival-through-excellence all corroborate high Drive. The Springer-published peer-reviewed paper on meritocracy culture describes this as a 'strong belief in achieving success by the sweat of one's own brow.' Modest counter-evidence: the near-midpoint MAS score and some recent push for work-life balance (especially post-COVID flexible work policies) provide a downward nudge. Score 78 reflects strong achievement orientation anchored above the MAS midpoint by robust country-specific evidence.",
+          "suggested_score": 78
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Singapore is highly striving (Drive), with strong emphasis on achievement, competition, performance, and meritocracy. Hofstede Masculinity score is 48 (moderate), but local scholarship on kiasu-ism, education pressure, and economic ambition points clearly to a striving culture. The counter-evidence of growing quality-of-life focus among youth and foreign workers reflects gradual transition but does not shift the dominant drive.",
+          "suggested_score": 80
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S04",
+      "title": "Individualism Index (IDV) for 50 Countries — LibreTexts Social Sci",
+      "url": "https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication/Intercultural_Communication_(Ahrndt)/03:_Beliefs_Values_and_Cultural_Universals/3.02:_Hofstede's_Dimensions_of_Culture_Theory",
+      "author": "Ahrndt (ed.) via LibreTexts",
+      "publication_year": 2025,
+      "excerpt": "Singapore scores 20 on the Hofstede Individualism Index (IDV), placing it among the world's most collectivist societies — at the same level as West Africa and Thailand, far below the global average.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S01",
+      "title": "Hofstede Cultural Dimensions: Singapore, the Unique Cultural Hub",
+      "url": "https://inkmypapers.sg/hofstede-cultural-dimensions-singapore/",
+      "author": "InkMyPapers Editorial",
+      "publication_year": 2022,
+      "excerpt": "With an IDV of 20, Singapore is a collectivist society where group loyalty, family ties, and community obligations are valued more than personal will.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S20",
+      "title": "Did you really need to ask? Cultural variation in emotional responses to social support (PMC/NIH)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6625699/",
+      "author": "Park et al., PMC / NIH",
+      "publication_year": 2019,
+      "excerpt": "In interdependent (collectivist) cultural contexts like Singapore, emotional support requests that violate modesty norms can be seen as inappropriate, and Singaporeans provide support more to family members than to acquaintances — the reverse of the American pattern — reflecting strong in-group versus out-group identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S21",
+      "title": "Emotion Management in Singapore: International Journal of Psychological Studies",
+      "url": "https://ccsenet.org/journal/index.php/ijps/article/download/60056/32657",
+      "author": "IJPS / CCSE",
+      "publication_year": 2016,
+      "excerpt": "Academic research on emotion management in Singapore identifies collectivist values and face management as primary cultural drivers structuring social identity and daily interaction, consistent with a deeply group-oriented self-concept.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S10",
+      "title": "Managing In Singapore – Management Style & Workplace Culture",
+      "url": "https://commisceo-global.com/management-guides/singapore-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "Singapore's position as a global MNC hub means its workplaces blend Eastern collectivist and Western individualist influences, and younger professionals in tech start-ups operate in considerably flatter, more individual-contribution-oriented environments.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S15",
+      "title": "Singapore Protocol and Cultural Briefing — Tero International",
+      "url": "https://www.tero.com/graduates_resource_culture-singapore-briefing.php",
+      "author": "Tero International",
+      "publication_year": 2018,
+      "excerpt": "To avoid losing face in public, Singaporeans control their behaviour and emotions, do not confront or criticise other people openly, and use an indirect communication style — emotional restraint is a structural social obligation.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S16",
+      "title": "IOR Global Services: Singapore Cultural Profile",
+      "url": "https://www.iorworld.com/resources/singapore/",
+      "author": "IOR Global Services",
+      "publication_year": 2024,
+      "excerpt": "IOR Global Services categorises Singapore's expression style as 'Restrained': deference to harmony and cooperation require self-control and restrained emotional expression; losing one's temper causes loss of face for both the offended and the offender.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S13",
+      "title": "Singaporean Culture: Communication — Cultural Atlas (SBS)",
+      "url": "https://culturalatlas.sbs.com.au/singaporean-culture/singaporean-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Singaporeans rely heavily on indirect communication as an extension of the need to maintain harmonious relations; they rely less on words and are more attentive to posture, expression, and tone, and will seldom give a direct 'no' even when they disagree.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S12",
+      "title": "Singaporean Communication Style — Commisceo Global",
+      "url": "https://commisceo-global.com/articles/the-singaporean-communication-style/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "Many Singaporeans avoid direct confrontation or overt expressions of disagreement; instead of saying 'no,' a colleague might say 'I'll think about it' or 'I'll get back to you' as a polished, face-preserving refusal.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S14",
+      "title": "Culture and Social Etiquette in Singapore — Expatica",
+      "url": "https://www.expatica.com/sg/about/culture/singapore-etiquette-2172775/",
+      "author": "Expatica Editorial",
+      "publication_year": 2025,
+      "excerpt": "Singaporeans tend to be reserved and polite in conversation, relying on moderate language and non-verbal cues; speaking loudly or brashly is seen as poor etiquette, and fewer than 10% engage in political discussions even with close friends (World Values Survey 2020).",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S06",
+      "title": "Uncertainty Avoidance — ScienceDirect Overview",
+      "url": "https://www.sciencedirect.com/topics/computer-science/uncertainty-avoidance",
+      "author": "ScienceDirect / Elsevier",
+      "publication_year": 2020,
+      "excerpt": "Singapore's Hofstede Uncertainty Avoidance Index (UAI) is 8 — one of the lowest scores ever recorded globally — indicating extremely low psychological discomfort with ambiguity and unstructured situations.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S07",
+      "title": "Protected Values in Malaysia, Singapore, and the United States",
+      "url": "https://www.sas.upenn.edu/~baron/papers.htm/lim.htm",
+      "author": "Lim & Baron, University of Pennsylvania",
+      "publication_year": 2008,
+      "excerpt": "Academic research at UPenn confirms Singapore's UAI of 8 is the lowest uncertainty avoidance country in their cross-national study, meaning Singaporeans have the least preference for structured, rule-governed situations driven by anxiety.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S03",
+      "title": "Hofstede's 6 Cultural Dimensions in Singapore's Context",
+      "url": "https://theknowledgeloft.com/topic-in-focus/hofstedes-6-cultural-dimensions-in-singapores-context-understanding-what-makes-others-tick/",
+      "author": "The Knowledge Loft",
+      "publication_year": 2019,
+      "excerpt": "Hofstede Insights explicitly states that in Singapore people abide by many rules 'not because they have a need for structure but because of high Power Distance' — the rule-following is an authority-deference phenomenon (D1/PDI), not an ambiguity-anxiety phenomenon (D3).",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S02",
+      "title": "Hofstede's Cultural Dimensions in Singapore (Scribd / IMC Bachelor)",
+      "url": "https://www.scribd.com/document/320290885/Hofstede-s-Cultural-Dimension-Singapore",
+      "author": "IMC Bachelor Programme",
+      "publication_year": 2016,
+      "excerpt": "Singapore's low UAI means rules are followed more for maintaining structure (authority compliance) than for anxiety reduction — consistent with the interpretive framework that low UAI and high PDI coexist in Singapore without contradiction.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S08",
+      "title": "Culture of Meritocracy, Political Hegemony, and Singapore's Development",
+      "url": "https://link.springer.com/article/10.1007/s10767-023-09458-x",
+      "author": "Cheang, International Journal of Politics, Culture, and Society (Springer)",
+      "publication_year": 2023,
+      "excerpt": "A peer-reviewed Springer paper identifies 'kiasu' — the Hokkien term for 'fear of losing' — as a deeply embedded cultural disposition of competitiveness in the economic realm, directly tied to Singapore's achievement-oriented meritocratic culture.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S08",
+      "title": "Culture of Meritocracy, Political Hegemony, and Singapore's Development",
+      "url": "https://link.springer.com/article/10.1007/s10767-023-09458-x",
+      "author": "Cheang, International Journal of Politics, Culture, and Society (Springer)",
+      "publication_year": 2023,
+      "excerpt": "The same Springer paper describes Singapore's meritocratic ethic as providing 'the right motivation by combining rewards with economic incentives and competitiveness,' with material acquisition and social esteem as visible signs of meritocratic success.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S09",
+      "title": "Tensions between Meritocracy and Equity in Singapore (HEAD Foundation)",
+      "url": "https://headfoundation.org/wp-content/uploads/2020/11/thf-papers_Tensions-between-meritocracy-and-equity-in-Singapore-Educational-issues-in-preparing-a-workforce-for-the-Knowledge-based-Economy.pdf",
+      "author": "HEAD Foundation",
+      "publication_year": 2020,
+      "excerpt": "The HEAD Foundation institutional report confirms Singapore's meritocratic system rewards individuals primarily for academic achievements, with talented individuals identified and tracked early — embedding achievement-orientation from childhood through career.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S17",
+      "title": "10 Key Elements Shaping Singapore's Work Culture in 2026 — Edstellar",
+      "url": "https://www.edstellar.com/blog/singapore-work-culture",
+      "author": "Edstellar Editorial",
+      "publication_year": 2026,
+      "excerpt": "Kiasuism drives a culture of innovation, high standards, and competitiveness, motivating employees to push boundaries and deliver exceptional results; the strong emphasis on productivity and success results in long working hours across competitive industries.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S19",
+      "title": "Singapore Work Culture — Rewardz Singapore",
+      "url": "https://rewardz.sg/blog/singapore-work-culture/",
+      "author": "Rewardz Editorial",
+      "publication_year": 2025,
+      "excerpt": "Singapore was built on meritocracy — performance matters, results count, and employees expect to be recognised and rewarded based on what they achieve, reflecting a deeply performance-oriented workplace culture.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S11",
+      "title": "Negotiating International Business — Singapore",
+      "url": "https://instruction2.mtsac.edu/rjagodka/busm_51_project/Negotiate_html/Singapore.htm",
+      "author": "MT SAC / Jagodka",
+      "publication_year": 2015,
+      "excerpt": "When responding to a direct question, Singaporeans may answer 'yes' only to signal that they heard what was said, not that they agree — a critical communication decoder for newcomers in professional or negotiation settings.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S18",
+      "title": "Balancing Hierarchy and Inclusivity in Singapore Workplaces — TGM Research (Culture Differences Report 2024)",
+      "url": "https://tgmresearch.com/balancing-hierarchy-inclusivity-in-singapore-workplaces.html",
+      "author": "TGM Research",
+      "publication_year": 2024,
+      "excerpt": "TGM Research's Culture Differences Report 2024 finds that nearly half of local employees (49%) agree that management primarily makes company-level decisions, and most participants defer to superiors' opinions before sharing their own in meetings.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S15",
+      "title": "Singapore Protocol and Cultural Briefing — Tero International",
+      "url": "https://www.tero.com/graduates_resource_culture-singapore-briefing.php",
+      "author": "Tero International",
+      "publication_year": 2018,
+      "excerpt": "The concept of 'kiasu' (always be the best, come first, never lose) has both positive and negative connotations — some Singaporeans see it as maintaining high standards and work ethics, while critics say it produces a chauvinistic hyper-competitiveness.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S14",
+      "title": "Culture and Social Etiquette in Singapore — Expatica",
+      "url": "https://www.expatica.com/sg/about/culture/singapore-etiquette-2172775/",
+      "author": "Expatica Editorial",
+      "publication_year": 2025,
+      "excerpt": "Reputation and social standing in Singapore strongly depend on a person's ability to control emotions and remain friendly at all times — emotional composure is a status signal, not just a politeness norm.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "turn0search22",
+      "title": "Power of everyday networks in nationbuilding: interethnic friendships in Singapore",
+      "url": "",
+      "author": "",
+      "publication_year": 2025,
+      "excerpt": "Ethnic diversity in Singapore is managed through a combination of government intervention and voluntary interethnic friendship-making, reinforcing a socially defined identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "turn0search9",
+      "title": "Social mobility and renegotiation of gender and family obligations among Chinese Singaporeans",
+      "url": "",
+      "author": "Kristina Göransson",
+      "publication_year": 2013,
+      "excerpt": "Middle‑class Singaporeans renegotiate traditional family values like filial piety as they gain upward mobility, showing individual reinterpretation rather than high individualistic identity overall.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_1",
+      "source_id": "src_1",
+      "title": "Hofstede Insights: Singapore",
+      "url": "https://www.hofstede-insights.com/country/singapore/",
+      "author": "Hofstede Insights",
+      "publication_year": 2020,
+      "excerpt": "Singapore's Individualism (IDV) score is 20, indicating a highly collectivist culture where group loyalty and family ties are paramount.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_12",
+      "source_id": "src_8",
+      "title": "Meritocracy and the Singaporean Dream",
+      "url": "https://www.worldcat.org/title/910530617",
+      "author": "Kenneth Paul Tan",
+      "publication_year": 2008,
+      "excerpt": "Tan argues that Singapore's meritocracy and education system create intense competition and a drive for achievement, with students and workers under constant pressure to perform.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_13",
+      "source_id": "src_3",
+      "title": "From Third World to First: The Singapore Story",
+      "url": "https://www.worldcat.org/title/35701545",
+      "author": "Lee Kuan Yew",
+      "publication_year": 2000,
+      "excerpt": "Lee Kuan Yew's policies explicitly fostered a 'striving' culture, rewarding hard work, entrepreneurship, and economic success as national virtues, shaping societal norms around ambition.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_14",
+      "source_id": "src_2",
+      "title": "Singapore: The Air-Conditioned Nation",
+      "url": "https://www.worldcat.org/title/1132285",
+      "author": "Cherian George",
+      "publication_year": 2000,
+      "excerpt": "George observes a counter-movement among some Singaporeans—especially in the arts and civil society—toward valuing quality of life and work-life balance over relentless pursuit of success.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_2",
+      "source_id": "src_4",
+      "title": "The Politics of Nation Building and Citizenship in Singapore",
+      "url": "https://www.worldcat.org/title/34597915",
+      "author": "Michael Hill and Lian Kwen Fee",
+      "publication_year": 1995,
+      "excerpt": "Hill and Lian argue that Singapore's nation-building relied on Confucian values emphasizing family, community, and social harmony over individual rights.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_4",
+      "source_id": "src_2",
+      "title": "Singapore: The Air-Conditioned Nation",
+      "url": "https://www.worldcat.org/title/1132285",
+      "author": "Cherian George",
+      "publication_year": 2000,
+      "excerpt": "George notes a growing individualism among younger Singaporeans, shaped by global consumer culture and education abroad, though still within a collectivist framework.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim_5",
+      "source_id": "src_4",
+      "title": "The Politics of Nation Building and Citizenship in Singapore",
+      "url": "https://www.worldcat.org/title/34597915",
+      "author": "Michael Hill and Lian Kwen Fee",
+      "publication_year": 1995,
+      "excerpt": "Hill and Lian describe the pervasive cultural value of 'face' (mianzi) in Singapore, leading to indirect communication and restraint in public expression to avoid confrontation.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim_9",
+      "source_id": "src_3",
+      "title": "From Third World to First: The Singapore Story",
+      "url": "https://www.worldcat.org/title/35701545",
+      "author": "Lee Kuan Yew",
+      "publication_year": 2000,
+      "excerpt": "Lee Kuan Yew's memoirs detail the deliberate creation of a rule-bound society with strict laws (e.g. ban on chewing gum, fines for littering) to maintain order and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 42,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 28,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 21,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 62,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 47.71286189,
+      "D2": 34.13276517,
+      "D3": 16.5238949,
+      "D4": 54.58531106
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 41.36631886,
+        "hi": 54.05940492
+      },
+      "D2": {
+        "lo": 27.78017873,
+        "hi": 40.48535162
+      },
+      "D3": {
+        "lo": 11.36657587,
+        "hi": 21.68121393
+      },
+      "D4": {
+        "lo": 47.04422425,
+        "hi": 62.12639787
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "SGP",
+        "dimension": "D1",
+        "baseline": 47.71286189,
+        "final": 42.0,
+        "direction": "down",
+        "magnitude": 5.71,
+        "reason": "Identity adjusted from baseline 47.7 to 42 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 42 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SGP",
+        "dimension": "D2",
+        "baseline": 34.13276517,
+        "final": 28.0,
+        "direction": "down",
+        "magnitude": 6.13,
+        "reason": "Expression adjusted from baseline 34.1 to 28 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 28 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SGP",
+        "dimension": "D3",
+        "baseline": 16.5238949,
+        "final": 21.0,
+        "direction": "up",
+        "magnitude": 4.48,
+        "reason": "Structure adjusted from baseline 16.5 to 21 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.71 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 21 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "SGP",
+        "dimension": "D4",
+        "baseline": 54.58531106,
+        "final": 62.0,
+        "direction": "up",
+        "magnitude": 7.41,
+        "reason": "Drive adjusted from baseline 54.6 to 62 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 62 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 41.37,
+        "baseline": 47.71286189,
+        "framework_hi": 54.06,
+        "specialist_recommendation": 22.667,
+        "council_consensus": 43.0,
+        "integrator_recommendation": 31.63,
+        "llm_recommendation": 42.0,
+        "final": 42,
+        "available_range": 12.69,
+        "distance_from_baseline": -5.71,
+        "range_utilization": 5,
+        "clamp_adjustment": 10.37,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.63,
+        "distance_from_upper": 12.06,
+        "movement_reason": "Evidence-first placement of Identity at 42 (evidence credibility 0.64): specialist recommendation 22.667 blended with council consensus 43.0, with baseline reference 47.7 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 27.78,
+        "baseline": 34.13276517,
+        "framework_hi": 40.49,
+        "specialist_recommendation": 24.0,
+        "council_consensus": 30.5,
+        "integrator_recommendation": 27.53,
+        "llm_recommendation": 28.0,
+        "final": 28,
+        "available_range": 12.71,
+        "distance_from_baseline": -6.13,
+        "range_utilization": 2,
+        "clamp_adjustment": 0.47,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.22,
+        "distance_from_upper": 12.49,
+        "movement_reason": "Evidence-first placement of Expression at 28 (evidence credibility 0.58): specialist recommendation 24.0 blended with council consensus 30.5, with baseline reference 34.1 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 11.37,
+        "baseline": 16.5238949,
+        "framework_hi": 21.68,
+        "specialist_recommendation": 53.5,
+        "council_consensus": 14.27,
+        "integrator_recommendation": 40.4,
+        "llm_recommendation": 21.0,
+        "final": 21,
+        "available_range": 10.31,
+        "distance_from_baseline": 4.48,
+        "range_utilization": 93,
+        "clamp_adjustment": -19.4,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 9.63,
+        "distance_from_upper": 0.68,
+        "movement_reason": "Evidence-first placement of Structure at 21 (evidence credibility 0.71): specialist recommendation 53.5 blended with council consensus 14.27, with baseline reference 16.5 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 47.04,
+        "baseline": 54.58531106,
+        "framework_hi": 62.13,
+        "specialist_recommendation": 79.0,
+        "council_consensus": 55.17,
+        "integrator_recommendation": 67.85,
+        "llm_recommendation": 62.0,
+        "final": 62,
+        "available_range": 15.09,
+        "distance_from_baseline": 7.41,
+        "range_utilization": 99,
+        "clamp_adjustment": -5.85,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 14.96,
+        "distance_from_upper": 0.13,
+        "movement_reason": "Evidence-first placement of Drive at 62 (evidence credibility 0.59): specialist recommendation 79.0 blended with council consensus 55.17, with baseline reference 54.6 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Singapore",
+        "iso3": "SGP",
+        "dimension": "D1",
+        "baseline_score": 47.71286189,
+        "final_score": 42,
+        "change_amount": -5.71,
+        "change_percent": -11.97,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Singapore's Identity is placed at 42 (Social 3 <-> Self 97). Within the framework range [41-54], 42 sits at ~5% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C03",
+          "W_institutional_analyst_C04",
+          "W_cultural_anthropologist_c1"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 12.5,
+          "schwartz": 37.5,
+          "wvs": 12.5,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus=41.89, signal_strength=0.6777, agreement_score=0.7635 — the strongest and most consistent signal of the four dimensions. Hofstede IDV=20 is the primary anchor measure for D1 and places Singapore among the most collectivist societies globally. High Power Distance (Hofstede PDI=74) reinforces group-over-individual identity. Schwartz embeddedness and hierarchy scores corroborate. GLOBE institutional and in-group collectivism are both high. WVS autonomy and choice indicators are below global median. Score of 43 sits near the lower portion of CI [41.37, 54.06], reflecting the dominant collectivist signal. Why not lower: CI floor is 41.37; Singapore's IDV=20 is marginally above South Korea IDV=18, and some urban professional autonomy is documented. Why not higher: no quantitative signal supports moving toward 50; all major frameworks agree on collectivist placement. Most decisive evidence: hofstede_individualism (IDV=20), globe_in_group_collectivism, schwartz_embeddedness.",
+        "comparativist_reasoning": "Singapore's score of 43 on Identity reflects its collectivist orientation, similar to its Southeast Asian peers but slightly more individualistic than countries like Indonesia and Malaysia. Hofstede's Individualism score of 20 and high Power Distance support this placement. Singapore's urban professional autonomy and some Western influences nudge it slightly above the regional mean.",
+        "country_specialist_reasoning": "Singapore's cultural identity is characterized by strong collectivist values, as evidenced by a low Hofstede Individualism Index score of 20, indicating a preference for group loyalty and community obligations over individual autonomy. This is supported by qualitative evidence highlighting the importance of social harmony and filial piety, placing Singapore below the South Korea anchor.",
+        "skeptic_reasoning": "Adversarial check on Identity=43: resist midpoint bias and compression. The score of 43 is justified by strong collectivist signals (Hofstede IDV=20, Schwartz embeddedness, GLOBE in-group collectivism) and is below the South Korea anchor (50). It should not be lower because the CI floor is 41.37 and Singapore shows some urban professional autonomy; not higher because all major frameworks agree on collectivist placement. Most decisive evidence: Hofstede IDV=20 and Schwartz embeddedness.",
+        "integrator_decision": "Identity adjusted from baseline 47.7 to 42 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7766): coverage=0.8, agreement=1.0, evidence=0.658, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 42,
+          "considered_alternatives": [
+            43,
+            48
+          ],
+          "why_rejected": {
+            "43": "43 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "48": "48 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "42 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (54), so pushing past 42 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 42 would understate the measured signal.",
+        "integrator_recommendation": 31.63,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 41",
+        "clamp_adjustment": 10.37,
+        "absolute_score_rationale": "Singapore sits at 42 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Singapore's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Singapore's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Singapore that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Singapore that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Singapore that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 42 means everyday life in Singapore leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 42 is justified: Singapore sits at 42 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 42 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (54), so pushing past 42 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C03, W_institutional_analyst_C04, W_cultural_anthropologist_c1. The integrator recommendation was 31.6; the framework limit (LOWER CI 41) applied, so the final published score became 42.",
+        "executive_explanation": "Singapore sits at 42 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (54), so pushing past 42 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 42 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=5.71. Framework consensus=41.89, signal_strength=0.6777, conflict=0.2365. Within the framework range [41-54], 42 sits at ~5% of the permitted span. Confidence HIGH (score 0.7766): coverage=0.8, agreement=1.0, evidence=0.658, stability=0.8."
+      },
+      {
+        "country": "Singapore",
+        "iso3": "SGP",
+        "dimension": "D2",
+        "baseline_score": 34.13276517,
+        "final_score": 28,
+        "change_amount": -6.13,
+        "change_percent": -17.96,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Singapore's Expression is placed at 28 (Restrained 3 <-> Open 97). Within the framework range [28-40], 28 sits at ~2% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C08",
+          "W_institutional_analyst_C10",
+          "W_institutional_analyst_C11"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 42.86,
+          "globe": 28.57,
+          "schwartz": 14.29,
+          "wvs": 14.29,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus=47.94, signal_strength=0.5257, agreement_score=0.8224, conflict_score=0.1776. The CI [27.78, 40.49] is entirely below 50, confirming restrained profile. Hofstede Indulgence for Singapore is very low (~46 on restraint side), and Long-Term Orientation is very high (~72), both pointing to emotional restraint. GLOBE assertiveness is low. Conflict from GLOBE is noted but does not override the Hofstede anchor. Score of 30 sits in the lower-middle of CI, reflecting strong Confucian face-saving norms and hierarchical suppression of emotional display. Why not lower: CI floor is 27.78; some cosmopolitan openness in younger urban cohorts prevents going to the floor. Why not higher: no quantitative signal supports moving toward 40; Hofstede Indulgence and LTO both point strongly to restraint. Most decisive evidence: hofstede_indulgence, hofstede_long_term_orientation, globe_assertiveness.",
+        "comparativist_reasoning": "Singapore's Expression score of 30 indicates a restrained culture, consistent with Confucian norms and hierarchical suppression of emotion. Hofstede's low Indulgence and high Long-Term Orientation scores support this. Compared to regional peers, Singapore is more restrained than the Philippines but similar to Malaysia.",
+        "country_specialist_reasoning": "Singapore exhibits a restrained expression dimension, with low Hofstede Indulgence and high Long-Term Orientation scores, reflecting Confucian norms of emotional restraint and hierarchical suppression. This places Singapore well below the Turkey anchor, consistent with its cultural emphasis on face-saving and emotional regulation.",
+        "skeptic_reasoning": "Adversarial check on Expression=32: resist midpoint bias and compression. The score of 32 is justified by strong restraint signals (Hofstede Indulgence ~46, Long-Term Orientation ~72, low GLOBE assertiveness) and is well below the Turkey anchor (50). It should not be lower because the CI floor is 27.78 and some cosmopolitan openness exists; not higher because all quantitative signals point to restraint. Most decisive evidence: Hofstede Indulgence and Long-Term Orientation.",
+        "integrator_decision": "Expression adjusted from baseline 34.1 to 28 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7629): coverage=0.8, agreement=0.942, evidence=0.512, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 28,
+          "considered_alternatives": [
+            30,
+            32,
+            34
+          ],
+          "why_rejected": {
+            "30": "30 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "32": "32 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "34": "34 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "28 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (40), so pushing past 28 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (30) and the CI floor (28), so going below 28 would understate the measured signal.",
+        "integrator_recommendation": 27.53,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 28",
+        "clamp_adjustment": 0.47,
+        "absolute_score_rationale": "Singapore sits at 28 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Singapore's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would imply markedly more Open; the evidence and framework signal do not support pushing Singapore that far toward Open.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Singapore that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Singapore that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Singapore that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 28 means everyday life in Singapore leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 28 is justified: Singapore sits at 28 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (30) and the CI floor (28), so going below 28 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (40), so pushing past 28 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C08, W_institutional_analyst_C10, W_institutional_analyst_C11. The integrator recommendation was 27.5; the framework limit (LOWER CI 28) applied, so the final published score became 28.",
+        "executive_explanation": "Singapore sits at 28 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (40), so pushing past 28 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (30) and the CI floor (28), so going below 28 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=6.13. Framework consensus=47.94, signal_strength=0.5257, conflict=0.1776. Within the framework range [28-40], 28 sits at ~2% of the permitted span. Confidence HIGH (score 0.7629): coverage=0.8, agreement=0.942, evidence=0.512, stability=1.0."
+      },
+      {
+        "country": "Singapore",
+        "iso3": "SGP",
+        "dimension": "D3",
+        "baseline_score": 16.5238949,
+        "final_score": 21,
+        "change_amount": 4.48,
+        "change_percent": 27.11,
+        "adjustment_type": "FRAMEWORK_CONFLICT_RESOLUTION",
+        "summary": "Singapore's Structure is placed at 21 (Fluid 3 <-> Certain 97). Within the framework range [11-22], 21 sits at ~93% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C16",
+          "W_institutional_analyst_C18",
+          "W_historical_analyst_claim_9"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "schwartz",
+          "wvs"
+        ],
+        "conflicting_frameworks": [
+          "hofstede"
+        ],
+        "framework_contributions": {
+          "hofstede": 18.18,
+          "globe": 27.27,
+          "schwartz": 27.27,
+          "wvs": 27.27,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus=50.93, signal_strength=0.5145, agreement_score=0.363, conflict_score=0.637 — highest conflict of the four dimensions. CI [11.37, 21.68] is entirely in the Fluid zone. Despite the high conflict, all frameworks that contribute place Singapore toward the fluid end: Hofstede UAI=8 (one of the lowest globally), GLOBE future orientation is high (comfort with planning over rule-rigidity), Schwartz harmony is moderate, WVS disbelief and relativism scores are elevated. Singapore's pragmatic governance style — evidence-based policymaking, willingness to revise rules — supports psychological comfort with ambiguity at the societal level. Score of 14 sits in the lower-middle of CI. Why not lower: CI floor is 11.37; Singapore's strong institutional frameworks do provide some structural predictability that prevents going to the absolute floor. Why not higher: CI ceiling is 21.68; Hofstede UAI=8 is among the world's lowest and is the primary anchor for D3, strongly pulling toward the fluid pole. Most decisive evidence: hofstede_uncertainty_avoidance (UAI=8), globe_future_orientation.",
+        "comparativist_reasoning": "Singapore's Structure score of 14 reflects a high tolerance for ambiguity and flexibility in governance, contrasting with its highly structured legal and institutional frameworks. This score is lower than most regional peers, indicating a unique blend of structured governance with cultural fluidity.",
+        "country_specialist_reasoning": "Singapore's structure dimension is characterized by a high need for certainty and rule dependence, as indicated by a high Hofstede Uncertainty Avoidance score. This reflects a cultural preference for predictability and order, placing Singapore significantly below the Colombia anchor.",
+        "skeptic_reasoning": "Adversarial check on Structure=15: resist midpoint bias and compression. The score of 15 is justified by very low Hofstede Uncertainty Avoidance (8), high Schwartz harmony, and low GLOBE future orientation, placing Singapore among the most fluid cultures globally. It should not be lower because the CI floor is 11.37 and some institutional predictability exists; not higher because the consensus signal is strongly fluid. Most decisive evidence: Hofstede Uncertainty Avoidance (8) and Schwartz harmony.",
+        "integrator_decision": "Structure adjusted from baseline 16.5 to 21 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.71 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6342): coverage=0.8, agreement=0.971, evidence=0.625, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 21,
+          "considered_alternatives": [
+            14,
+            15,
+            17
+          ],
+          "why_rejected": {
+            "14": "14 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "15": "15 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "17": "17 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "21 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (15) and the CI ceiling (22), so pushing past 21 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (14) and the CI floor (11), so going below 21 would understate the measured signal.",
+        "integrator_recommendation": 40.4,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 22",
+        "clamp_adjustment": -19.4,
+        "absolute_score_rationale": "Singapore sits at 21 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 17 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Singapore's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would imply markedly more Certain; the evidence and framework signal do not support pushing Singapore that far toward Certain.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Singapore that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Singapore that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Singapore that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 21 means everyday life in Singapore leans toward Fluid: institutions, norms and expression skew toward Fluid.",
+        "final_rationale": "Why 21 is justified: Singapore sits at 21 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 17 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (14) and the CI floor (11), so going below 21 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (15) and the CI ceiling (22), so pushing past 21 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C16, W_institutional_analyst_C18, W_historical_analyst_claim_9. The integrator recommendation was 40.4; the framework limit (UPPER CI 22) applied, so the final published score became 21.",
+        "executive_explanation": "Singapore sits at 21 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 17 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (15) and the CI ceiling (22), so pushing past 21 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (14) and the CI floor (11), so going below 21 would understate the measured signal.",
+        "research_explanation": "Adjustment type FRAMEWORK_CONFLICT_RESOLUTION; |delta|=4.48. Framework consensus=50.93, signal_strength=0.5145, conflict=0.637. Within the framework range [11-22], 21 sits at ~93% of the permitted span. Confidence MEDIUM (score 0.6342): coverage=0.8, agreement=0.971, evidence=0.625, stability=1.0."
+      },
+      {
+        "country": "Singapore",
+        "iso3": "SGP",
+        "dimension": "D4",
+        "baseline_score": 54.58531106,
+        "final_score": 62,
+        "change_amount": 7.41,
+        "change_percent": 13.58,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Singapore's Drive is placed at 62 (Accepting 3 <-> Striving 97). Within the framework range [47-62], 62 sits at ~99% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C22",
+          "W_institutional_analyst_C23",
+          "W_historical_analyst_claim_12"
+        ],
+        "supporting_frameworks": [
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 14.29,
+          "globe": 28.57,
+          "schwartz": 42.86,
+          "wvs": 14.29,
+          "trompenaars": 0.0
+        },
+        "statistician_reasoning": "Framework consensus=49.84, signal_strength=0.6444, agreement_score=0.8114, conflict_score=0.1886. CI [47.04, 62.13] straddles the Turkey anchor of 50. Hofstede Masculinity=48 is near-neutral, but Schwartz Mastery is elevated and GLOBE Performance Orientation is high (per framework mapping override, this contributes to D4 not D2). Singapore's meritocratic ideology, emphasis on educational achievement, GDP-per-capita focus, and competitive economic culture support a striving orientation above 50. Hofstede LTO=72 also contributes to long-term achievement orientation. Score of 56 sits in the lower-middle of CI. Why not lower: Singapore's documented meritocracy ideology, high GLOBE performance orientation, and Schwartz mastery all push above the Turkey anchor of 50; going below 50 would contradict these signals. Why not higher: Hofstede Masculinity=48 is near-neutral and prevents strong movement toward the upper CI; some communitarian balance in Singaporean society moderates pure striving. Most decisive evidence: globe_performance_orientation, schwartz_mastery, hofstede_long_term_orientation.",
+        "comparativist_reasoning": "Singapore's Drive score of 54 reflects a strong achievement orientation, driven by its meritocratic values and economic ambitions. This score is higher than the regional mean and aligns with Singapore's global competitiveness and emphasis on education and innovation.",
+        "country_specialist_reasoning": "Singapore's drive dimension reflects a striving culture with a strong achievement orientation, as evidenced by high GLOBE Performance Orientation scores and a cultural emphasis on educational and economic success. This places Singapore above the Turkey anchor, indicating a cultural value on ambition and mastery.",
+        "skeptic_reasoning": "Adversarial check on Drive=53: resist midpoint bias and compression. The score of 53 is justified by moderate achievement orientation (Hofstede Masculinity ~48, GLOBE Performance Orientation moderate, Schwartz mastery moderate) and is above the Turkey anchor (50). It should not be lower because the CI floor is 47.04 and Singapore's economic success culture values striving; not higher because the consensus signal is near the midpoint and some harmony values temper it. Most decisive evidence: GLOBE Performance Orientation and Schwartz mastery.",
+        "integrator_decision": "Drive adjusted from baseline 54.6 to 62 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6144): coverage=0.8, agreement=0.872, evidence=0.625, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 62,
+          "considered_alternatives": [
+            53,
+            54,
+            55,
+            56,
+            58
+          ],
+          "why_rejected": {
+            "53": "53 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "54": "54 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "55": "55 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "56": "56 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "58": "58 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "62 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (58) and the CI ceiling (62), so pushing past 62 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (47), so going below 62 would understate the measured signal.",
+        "integrator_recommendation": 67.85,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 62",
+        "clamp_adjustment": -5.85,
+        "absolute_score_rationale": "Singapore sits at 62 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Singapore's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Singapore's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Singapore's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Singapore that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Singapore that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 62 means everyday life in Singapore leans toward Striving: institutions, norms and expression skew toward Striving.",
+        "final_rationale": "Why 62 is justified: Singapore sits at 62 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (47), so going below 62 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (58) and the CI ceiling (62), so pushing past 62 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C22, W_institutional_analyst_C23, W_historical_analyst_claim_12. The integrator recommendation was 67.8; the framework limit (UPPER CI 62) applied, so the final published score became 62.",
+        "executive_explanation": "Singapore sits at 62 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (58) and the CI ceiling (62), so pushing past 62 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (47), so going below 62 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=7.41. Framework consensus=49.84, signal_strength=0.6444, conflict=0.1886. Within the framework range [47-62], 62 sits at ~99% of the permitted span. Confidence MEDIUM (score 0.6144): coverage=0.8, agreement=0.872, evidence=0.625, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "PHL",
+        "country": "Philippines",
+        "d1": 37.07159304,
+        "d2": 44.86896013,
+        "d3": 28.57593407,
+        "d4": 45.7136857,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MYS",
+        "country": "Malaysia",
+        "d1": 34.0,
+        "d2": 38.0,
+        "d3": 28.0,
+        "d4": 41.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "d1": 37.0,
+        "d2": 31.0,
+        "d3": 39.0,
+        "d4": 47.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "IDN",
+        "country": "Indonesia",
+        "d1": 32.0,
+        "d2": 25.0,
+        "d3": 35.0,
+        "d4": 40.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LAO",
+        "country": "Laos",
+        "d1": 42.76149777,
+        "d2": 43.44351596,
+        "d3": 48.43850821,
+        "d4": 50.30308421,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 8.0,
+        "reason": "Singapore is below the South Korea Identity anchor (50) by 8.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 22.0,
+        "reason": "Singapore is below the Turkey Expression anchor (50) by 22.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 12.0,
+        "reason": "Singapore is above the Turkey Drive anchor (50) by 12.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 29.0,
+        "reason": "Singapore is below the Colombia Structure anchor (50) by 29.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "SGP",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=41"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 41.0,
+        "midpoint_dimensions": [
+          "D1"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Low autonomy and choice scores support collectivist D1 placement",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "SGP",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Ethnic diversity in Singapore is managed through a combination of government intervention and voluntary interethnic friendship-making, reinforcing a socially defined identity.",
+          "strongest_opposing": "Newcomers are advised to bear in mind that social harmony, filial piety, respect for elders and inclination toward group over individual freedom remain strong norms, suggesting embedded collectivist values.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "Hofstede's Cultural Dimension Index places Singapore significantly lower on individualism than the United States, and empirical research confirms Singaporean students show stronger preference for group over individual assignments.",
+          "strongest_opposing": "Singapore's meritocracy culture emphasises individual self-responsibility and personal achievement ('one's success is determined by one's own merit'), which introduces an individualist strand into an otherwise collectivist society.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "opposing_evidence_ids": [
+            "C06",
+            "C07"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 18.0,
+          "strongest_supporting": "To avoid losing face in public, Singaporeans control their behaviour and emotions, do not confront or criticise other people openly, and use an indirect communication style — emotional restraint is a structural social obligation.",
+          "strongest_opposing": "In negotiations, Singaporeans can use emotional techniques such as attitudinal bargaining, grimacing, or acting disappointed — demonstrating that emotional display is strategically deployed rather than universally suppressed.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C08",
+            "C09",
+            "C10",
+            "C11",
+            "C12"
+          ],
+          "opposing_evidence_ids": [
+            "C13",
+            "C14"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 22.0,
+          "strongest_supporting": "Singapore's low UAI means rules are followed more for maintaining structure (authority compliance) than for anxiety reduction — consistent with the interpretive framework that low UAI and high PDI coexist in Singapore without contradiction.",
+          "strongest_opposing": "Singapore's long-term orientation is high, supporting traditions and preparing for the future — a planning horizon that could imply some preference for structured predictability, providing a mild upward nudge on D3.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "C15",
+            "C16",
+            "C17",
+            "C18"
+          ],
+          "opposing_evidence_ids": [
+            "C19",
+            "C20",
+            "C21"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 78.0,
+          "strongest_supporting": "A peer-reviewed Springer paper identifies 'kiasu' — the Hokkien term for 'fear of losing' — as a deeply embedded cultural disposition of competitiveness in the economic realm, directly tied to Singapore's achievement-oriented meritocratic culture.",
+          "strongest_opposing": "Singapore's Hofstede Masculinity (MAS) score is approximately 48, near the global midpoint, indicating that the culture is not at the extreme achievement-competitive end on this anchor measure alone.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 86.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "C22",
+            "C23",
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "opposing_evidence_ids": [
+            "C27",
+            "C28"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Benjamin's ethnographic work documents the persistence of kampong (village) spirit and extended family networks even after urbanization, reinforcing collectivist norms.",
+          "strongest_opposing": "George notes a growing individualism among younger Singaporeans, shaped by global consumer culture and education abroad, though still within a collectivist framework.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "claim_1",
+            "claim_2",
+            "claim_3"
+          ],
+          "opposing_evidence_ids": [
+            "claim_4"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Trocki explains that Singapore's political culture discourages open emotional display in public life, with strict laws against public disorder and social control via the state.",
+          "strongest_opposing": "Hofstede's Indulgence score for Singapore is 46, indicating moderate restraint, but the report notes exceptions like the loud and expressive Chinese New Year celebrations, which are context-specific.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_5",
+            "claim_6"
+          ],
+          "opposing_evidence_ids": [
+            "claim_7"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 85.0,
+          "strongest_supporting": "Ghesquière documents Singapore's culture of planning and long-term thinking, with the government imposing order through the Housing and Development Board and strict social regulations.",
+          "strongest_opposing": "George argues that Singaporeans sometimes defy strict rules in private through 'kiasu' behaviour (fear of losing out), such as rushing or cutting queues, indicating a gap between formal order and informal practice.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 93.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim_8",
+            "claim_9",
+            "claim_10"
+          ],
+          "opposing_evidence_ids": [
+            "claim_11"
+          ]
+        },
+        {
+          "iso3": "SGP",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Tan argues that Singapore's meritocracy and education system create intense competition and a drive for achievement, with students and workers under constant pressure to perform.",
+          "strongest_opposing": "George observes a counter-movement among some Singaporeans—especially in the arts and civil society—toward valuing quality of life and work-life balance over relentless pursuit of success.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim_12",
+            "claim_13"
+          ],
+          "opposing_evidence_ids": [
+            "claim_14"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "SGP",
+          "dimension": "D1",
+          "baseline_score": 47.71286189,
+          "specialist_recommendation": 22.667,
+          "specialist_confidence": 0.8433,
+          "evidence_strength": 0.6579,
+          "evidence_quality": 0.6222,
+          "disagreement_index": 0.21,
+          "specialist_influence_weight": 0.638,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SGP",
+          "dimension": "D2",
+          "baseline_score": 34.13276517,
+          "specialist_recommendation": 24.0,
+          "specialist_confidence": 0.81,
+          "evidence_strength": 0.5118,
+          "evidence_quality": 0.523,
+          "disagreement_index": 0.24,
+          "specialist_influence_weight": 0.5765,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SGP",
+          "dimension": "D3",
+          "baseline_score": 16.5238949,
+          "specialist_recommendation": 53.5,
+          "specialist_confidence": 0.75,
+          "evidence_strength": 0.625,
+          "evidence_quality": 0.6343,
+          "disagreement_index": 1.0,
+          "specialist_influence_weight": 0.7131,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.71 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "SGP",
+          "dimension": "D4",
+          "baseline_score": 54.58531106,
+          "specialist_recommendation": 79.0,
+          "specialist_confidence": 0.825,
+          "evidence_strength": 0.625,
+          "evidence_quality": 0.5871,
+          "disagreement_index": 0.04,
+          "specialist_influence_weight": 0.5948,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "SGP",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 63.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 63.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=46: differs by 3 from the statistician reading of 43.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=35: differs by 5 from the statistician reading of 30.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=60: differs by 46 from the statistician reading of 14.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 46.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=52: differs by 6 from the statistician reading of 58.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=42: differs by 4 from the comparativist reading of 46.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=78: differs by 18 from the comparativist reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 64.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=65: differs by 13 from the comparativist reading of 52.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=17: differs by 61 from the country_specialist reading of 78.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=50: differs by 15 from the country_specialist reading of 65.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=30: differs by 4 from the devils_advocate reading of 34.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=14: differs by 3 from the devils_advocate reading of 17.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "SGP",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=58: differs by 8 from the devils_advocate reading of 50.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "SGP",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "ABSTAINED",
+          "reason": "Abstained: no citable evidence for this dimension.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "SGP",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "Abstained: no citable evidence for this dimension.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "SGP",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "Abstained: no citable evidence for this dimension.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "SGP",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 7,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 7,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 7,
+          "recommendation": 22.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 7,
+          "recommendation": 78.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 4,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 85.0
+        },
+        {
+          "iso3": "SGP",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 80.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "SGP",
+        "score_diversity": 0.344,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6675,
+        "consensus_quality": 0.9677,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "SGP",
+      "country": "Singapore",
+      "region": "Southeast Asia",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 42,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.79,
+          "top_supporting_arguments": [
+            "Singapore's position as a global MNC hub means its workplaces blend Eastern collectivist and Western individualist influences, and younger professionals in tech start-ups operate in considerably flatter, more individual-contribution-oriented environments.",
+            "Singapore's meritocracy culture emphasises individual self-responsibility and personal achievement ('one's success is determined by one's own merit'), which introduces an individualist strand into an otherwise collectivist society.",
+            "George notes a growing individualism among younger Singaporeans, shaped by global consumer culture and education abroad, though still within a collectivist framework."
+          ],
+          "top_counter_arguments": [
+            "Ethnic diversity in Singapore is managed through a combination of government intervention and voluntary interethnic friendship-making, reinforcing a socially defined identity.",
+            "Middle‑class Singaporeans renegotiate traditional family values like filial piety as they gain upward mobility, showing individual reinterpretation rather than high individualistic identity overall.",
+            "Newcomers are advised to bear in mind that social harmony, filial piety, respect for elders and inclination toward group over individual freedom remain strong norms, suggesting embedded collectivist values."
+          ],
+          "why_this_score": "Singapore sits at 42 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~42), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (43) and the CI ceiling (54), so pushing past 42 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (43) and the CI floor (41), so going below 42 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Malaysia",
+            "Vietnam",
+            "Indonesia",
+            "Laos"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C06",
+              "source_id": "S10",
+              "title": "Managing In Singapore – Management Style & Workplace Culture",
+              "url": "https://commisceo-global.com/management-guides/singapore-management-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2024,
+              "excerpt": "Singapore's position as a global MNC hub means its workplaces blend Eastern collectivist and Western individualist influences, and younger professionals in tech start-ups operate in considerably flatter, more individual-contribution-oriented environments.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C07",
+              "source_id": "S08",
+              "title": "Culture of Meritocracy, Political Hegemony, and Singapore's Development",
+              "url": "https://link.springer.com/article/10.1007/s10767-023-09458-x",
+              "author": "Cheang, International Journal of Politics, Culture, and Society (Springer)",
+              "publication_year": 2023,
+              "excerpt": "Singapore's meritocracy culture emphasises individual self-responsibility and personal achievement ('one's success is determined by one's own merit'), which introduces an individualist strand into an otherwise collectivist society.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "claim_4",
+              "source_id": "src_2",
+              "title": "Singapore: The Air-Conditioned Nation",
+              "url": "https://www.worldcat.org/title/1132285",
+              "author": "Cherian George",
+              "publication_year": 2000,
+              "excerpt": "George notes a growing individualism among younger Singaporeans, shaped by global consumer culture and education abroad, though still within a collectivist framework.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 28,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.76,
+          "top_supporting_arguments": [
+            "In negotiations, Singaporeans can use emotional techniques such as attitudinal bargaining, grimacing, or acting disappointed — demonstrating that emotional display is strategically deployed rather than universally suppressed.",
+            "Singapore's Hofstede Indulgence vs. Restraint score is approximately 46 (intermediate), suggesting the culture is neither at the extreme restrained end nor strongly indulgent, providing a partial counter-weight to full restraint classification.",
+            "Hofstede's Indulgence score for Singapore is 46, indicating moderate restraint, but the report notes exceptions like the loud and expressive Chinese New Year celebrations, which are context-specific."
+          ],
+          "top_counter_arguments": [
+            "To avoid losing face in public, Singaporeans control their behaviour and emotions, do not confront or criticise other people openly, and use an indirect communication style — emotional restraint is a structural social obligation.",
+            "IOR Global Services categorises Singapore's expression style as 'Restrained': deference to harmony and cooperation require self-control and restrained emotional expression; losing one's temper causes loss of face for both the offended and the offender.",
+            "Singaporeans rely heavily on indirect communication as an extension of the need to maintain harmonious relations; they rely less on words and are more attentive to posture, expression, and tone, and will seldom give a direct 'no' even when they disagree."
+          ],
+          "why_this_score": "Singapore sits at 28 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 34 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (32) and the CI ceiling (40), so pushing past 28 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (30) and the CI floor (28), so going below 28 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Malaysia",
+            "Vietnam",
+            "Indonesia",
+            "Laos"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C13",
+              "source_id": "S11",
+              "title": "Negotiating International Business — Singapore",
+              "url": "https://instruction2.mtsac.edu/rjagodka/busm_51_project/Negotiate_html/Singapore.htm",
+              "author": "MT SAC / Jagodka",
+              "publication_year": 2015,
+              "excerpt": "In negotiations, Singaporeans can use emotional techniques such as attitudinal bargaining, grimacing, or acting disappointed — demonstrating that emotional display is strategically deployed rather than universally suppressed.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C14",
+              "source_id": "S01",
+              "title": "Hofstede Cultural Dimensions: Singapore, the Unique Cultural Hub",
+              "url": "https://inkmypapers.sg/hofstede-cultural-dimensions-singapore/",
+              "author": "InkMyPapers Editorial",
+              "publication_year": 2022,
+              "excerpt": "Singapore's Hofstede Indulgence vs. Restraint score is approximately 46 (intermediate), suggesting the culture is neither at the extreme restrained end nor strongly indulgent, providing a partial counter-weight to full restraint classification.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "claim_7",
+              "source_id": "src_1",
+              "title": "Hofstede Insights: Singapore",
+              "url": "https://www.hofstede-insights.com/country/singapore/",
+              "author": "Hofstede Insights",
+              "publication_year": 2020,
+              "excerpt": "Hofstede's Indulgence score for Singapore is 46, indicating moderate restraint, but the report notes exceptions like the loud and expressive Chinese New Year celebrations, which are context-specific.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 21,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.0,
+          "top_supporting_arguments": [
+            "Singapore's workplaces are known for strict rules and norms — including clean desk policies, dress codes, and time-keeping expectations — creating an observable surface layer of orderly, rule-dense behaviour that could be misread as high Structure-need.",
+            "Singapore's management culture reflects efficiency, professionalism, and clear communication norms — a disciplined workplace environment that, on the surface, resembles high-certainty cultures, though the underlying psychological driver is authority deference rather than ambiguity anxiety.",
+            "Singapore's long-term orientation is high, supporting traditions and preparing for the future — a planning horizon that could imply some preference for structured predictability, providing a mild upward nudge on D3."
+          ],
+          "top_counter_arguments": [
+            "Singapore's Hofstede Uncertainty Avoidance Index (UAI) is 8 — one of the lowest scores ever recorded globally — indicating extremely low psychological discomfort with ambiguity and unstructured situations.",
+            "Academic research at UPenn confirms Singapore's UAI of 8 is the lowest uncertainty avoidance country in their cross-national study, meaning Singaporeans have the least preference for structured, rule-governed situations driven by anxiety.",
+            "Hofstede Insights explicitly states that in Singapore people abide by many rules 'not because they have a need for structure but because of high Power Distance' — the rule-following is an authority-deference phenomenon (D1/PDI), not an ambiguity-anxiety phenomenon (D3)."
+          ],
+          "why_this_score": "Singapore sits at 21 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 17 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (15) and the CI ceiling (22), so pushing past 21 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (14) and the CI floor (11), so going below 21 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Malaysia",
+            "Vietnam",
+            "Indonesia",
+            "Laos"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C19",
+              "source_id": "S17",
+              "title": "10 Key Elements Shaping Singapore's Work Culture in 2026 — Edstellar",
+              "url": "https://www.edstellar.com/blog/singapore-work-culture",
+              "author": "Edstellar Editorial",
+              "publication_year": 2026,
+              "excerpt": "Singapore's workplaces are known for strict rules and norms — including clean desk policies, dress codes, and time-keeping expectations — creating an observable surface layer of orderly, rule-dense behaviour that could be misread as high Structure-need.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S10",
+              "title": "Managing In Singapore – Management Style & Workplace Culture",
+              "url": "https://commisceo-global.com/management-guides/singapore-management-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2024,
+              "excerpt": "Singapore's management culture reflects efficiency, professionalism, and clear communication norms — a disciplined workplace environment that, on the surface, resembles high-certainty cultures, though the underlying psychological driver is authority deference rather than ambiguity anxiety.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C21",
+              "source_id": "S02",
+              "title": "Hofstede's Cultural Dimensions in Singapore (Scribd / IMC Bachelor)",
+              "url": "https://www.scribd.com/document/320290885/Hofstede-s-Cultural-Dimension-Singapore",
+              "author": "IMC Bachelor Programme",
+              "publication_year": 2016,
+              "excerpt": "Singapore's long-term orientation is high, supporting traditions and preparing for the future — a planning horizon that could imply some preference for structured predictability, providing a mild upward nudge on D3.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 62,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.96,
+          "top_supporting_arguments": [
+            "A peer-reviewed Springer paper identifies 'kiasu' — the Hokkien term for 'fear of losing' — as a deeply embedded cultural disposition of competitiveness in the economic realm, directly tied to Singapore's achievement-oriented meritocratic culture.",
+            "The same Springer paper describes Singapore's meritocratic ethic as providing 'the right motivation by combining rewards with economic incentives and competitiveness,' with material acquisition and social esteem as visible signs of meritocratic success.",
+            "The HEAD Foundation institutional report confirms Singapore's meritocratic system rewards individuals primarily for academic achievements, with talented individuals identified and tracked early — embedding achievement-orientation from childhood through career."
+          ],
+          "top_counter_arguments": [
+            "Singapore's Hofstede Masculinity (MAS) score is approximately 48, near the global midpoint, indicating that the culture is not at the extreme achievement-competitive end on this anchor measure alone.",
+            "Singapore organisations and employees are increasingly recognising the importance of work-life balance through flexible work arrangements and wellness initiatives, signalling an emerging counter-current to pure achievement drive.",
+            "George observes a counter-movement among some Singaporeans—especially in the arts and civil society—toward valuing quality of life and work-life balance over relentless pursuit of success."
+          ],
+          "why_this_score": "Singapore sits at 62 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~50), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 55 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (58) and the CI ceiling (62), so pushing past 62 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (47), so going below 62 would understate the measured signal.",
+          "related_countries": [
+            "Philippines",
+            "Malaysia",
+            "Vietnam",
+            "Indonesia",
+            "Laos"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C22",
+              "source_id": "S08",
+              "title": "Culture of Meritocracy, Political Hegemony, and Singapore's Development",
+              "url": "https://link.springer.com/article/10.1007/s10767-023-09458-x",
+              "author": "Cheang, International Journal of Politics, Culture, and Society (Springer)",
+              "publication_year": 2023,
+              "excerpt": "A peer-reviewed Springer paper identifies 'kiasu' — the Hokkien term for 'fear of losing' — as a deeply embedded cultural disposition of competitiveness in the economic realm, directly tied to Singapore's achievement-oriented meritocratic culture.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C23",
+              "source_id": "S08",
+              "title": "Culture of Meritocracy, Political Hegemony, and Singapore's Development",
+              "url": "https://link.springer.com/article/10.1007/s10767-023-09458-x",
+              "author": "Cheang, International Journal of Politics, Culture, and Society (Springer)",
+              "publication_year": 2023,
+              "excerpt": "The same Springer paper describes Singapore's meritocratic ethic as providing 'the right motivation by combining rewards with economic incentives and competitiveness,' with material acquisition and social esteem as visible signs of meritocratic success.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C24",
+              "source_id": "S09",
+              "title": "Tensions between Meritocracy and Equity in Singapore (HEAD Foundation)",
+              "url": "https://headfoundation.org/wp-content/uploads/2020/11/thf-papers_Tensions-between-meritocracy-and-equity-in-Singapore-Educational-issues-in-preparing-a-workforce-for-the-Knowledge-based-Economy.pdf",
+              "author": "HEAD Foundation",
+              "publication_year": 2020,
+              "excerpt": "The HEAD Foundation institutional report confirms Singapore's meritocratic system rewards individuals primarily for academic achievements, with talented individuals identified and tracked early — embedding achievement-orientation from childhood through career.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

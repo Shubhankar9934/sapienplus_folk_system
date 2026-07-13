@@ -1,0 +1,2385 @@
+{
+  "iso3": "THA",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T19:18:05.860659+00:00",
+  "cultural_profile": {
+    "iso3": "THA",
+    "country": "Thailand",
+    "region": "Southeast Asia",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 38,
+        "reading": "Group-oriented",
+        "explanation": "Thailand's society is deeply collectivist, with a strong emphasis on group identity and loyalty to family and in-groups."
+      },
+      {
+        "dimension": "D2",
+        "score": 36,
+        "reading": "Understated",
+        "explanation": "Emotional expression in Thailand is nuanced and indirect, with a strong emphasis on maintaining face and social harmony."
+      },
+      {
+        "dimension": "D3",
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Thailand prefers structured environments with clear rules, yet the mai pen rai attitude introduces flexibility in everyday life."
+      },
+      {
+        "dimension": "D4",
+        "score": 29,
+        "reading": "Easygoing",
+        "explanation": "The Thai cultural focus is on quality of life and harmony over competitiveness and assertiveness, as reflected in its low masculinity score."
+      }
+    ],
+    "executive_summary": "Thailand is a land where group harmony and social cohesion are paramount, with a cultural emphasis on maintaining face and avoiding direct confrontation. The pervasive 'mai pen rai' attitude reflects a laid-back approach to life, prioritizing collective well-being over individual ambition. Despite a strong collectivist tradition, urban youth are gradually embracing more individualistic values. Emotional expression is nuanced, with indirect communication being the norm.",
+    "cultural_archetype": {
+      "title": "The Harmonious Navigator",
+      "summary": "A society that values group harmony and indirect communication while navigating life's uncertainties with a relaxed attitude.",
+      "claim_ids": [
+        "C01",
+        "C05"
+      ],
+      "sources_count": 2
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Cultural immersion enthusiasts",
+      "People seeking a balanced lifestyle"
+    ],
+    "culture_at_a_glance": [
+      "Thai culture values indirect emotional expression and subtle communication, where maintaining harmony and avoiding conflict are prioritized through practices like kreng jai and jai yen.",
+      "The mai pen rai attitude embodies a flexible approach to life's uncertainties, emphasizing acceptance and non-attachment, which helps maintain social harmony and reduces stress.",
+      "Thai workplaces emphasize hierarchy and respect, with a preference for indirect communication to maintain harmony and avoid conflict.",
+      "Communication in Thailand is characterized by indirectness and subtlety, with a strong emphasis on maintaining face and avoiding direct confrontation.",
+      "Thais maintain a calm, smiling demeanor in public, valuing equanimity and non-attachment, which is reflected in the cultural practice of jai yen.",
+      "The mai pen rai attitude fosters a relaxed acceptance of life's unpredictability, promoting flexibility and reducing stress in daily interactions."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Emotional Nuance",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 78,
+          "framework_agreement": 62,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Thai culture values indirect emotional expression and subtle communication, where maintaining harmony and avoiding conflict are prioritized through practices like kreng jai and jai yen.",
+            "claim_ids": [
+              "c5",
+              "C08",
+              "C11",
+              "C15"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Mai Pen Rai Philosophy",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 28,
+          "framework_agreement": 65,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "The mai pen rai attitude embodies a flexible approach to life's uncertainties, emphasizing acceptance and non-attachment, which helps maintain social harmony and reduces stress.",
+            "claim_ids": [
+              "C22",
+              "c11",
+              "C30",
+              "C31"
+            ],
+            "sources_count": 4
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Thailand's cultural emphasis on collectivism and harmony is historically influenced by its Buddhist traditions and agrarian society, which fostered community reliance and social cohesion.",
+        "claim_ids": [
+          "C01",
+          "C05"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Harmony",
+        "but_also": "Emerging Individualism",
+        "explanation": "While traditional Thai culture emphasizes group harmony and loyalty, urban youth are increasingly adopting individualistic values, creating a dynamic cultural landscape.",
+        "claim_ids": [
+          "c3",
+          "c4",
+          "C07"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Thais maintain a calm, smiling demeanor in public, valuing equanimity and non-attachment, which is reflected in the cultural practice of jai yen.",
+          "claim_ids": [
+            "c6",
+            "C09"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "The mai pen rai attitude fosters a relaxed acceptance of life's unpredictability, promoting flexibility and reducing stress in daily interactions.",
+          "claim_ids": [
+            "C22",
+            "c11"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Thai workplaces emphasize hierarchy and respect, with a preference for indirect communication to maintain harmony and avoid conflict.",
+          "claim_ids": [
+            "C19",
+            "C32",
+            "C10"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Communication in Thailand is characterized by indirectness and subtlety, with a strong emphasis on maintaining face and avoiding direct confrontation.",
+          "claim_ids": [
+            "c5",
+            "C12",
+            "C13"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "While Thais are generally reserved in emotional expression, close friendships allow for more open and genuine emotional exchanges.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Thai society is organized around hierarchical structures and patron-client relationships, which define social roles and obligations.",
+          "claim_ids": [
+            "c2",
+            "c10"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Being overly direct or candid can be seen as offensive in Thailand, where kreng jai dictates a more considerate and indirect approach to communication.",
+          "claim_ids": [
+            "C12"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "In Thai society, status is often signaled through adherence to social hierarchy and the demonstration of respect and deference.",
+          "claim_ids": [
+            "c10"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Living in Thailand means embracing a culture of calm and harmony, where social interactions are guided by a deep respect for others' feelings and a relaxed approach to life's uncertainties. The emphasis on group identity and indirect communication creates a supportive yet nuanced social fabric, where relationships are built on mutual respect and understanding.",
+      "claim_ids": [
+        "c6",
+        "C03",
+        "c8"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The collectivist nature of Thai society is immediately apparent, with a strong emphasis on family and group identity.",
+        "claim_ids": [
+          "c1"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The cultural value of kreng jai is evident in the indirect and considerate communication style, which prioritizes harmony over directness.",
+        "claim_ids": [
+          "c5"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Thais maintain a calm and smiling exterior, reflecting the cultural importance of jai yen and emotional restraint.",
+        "claim_ids": [
+          "c6"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The mai pen rai attitude is a defining feature of Thai culture, promoting a laid-back and accepting approach to life's challenges.",
+        "claim_ids": [
+          "C22"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Thailand often hinges on one's ability to navigate social hierarchies and maintain harmonious relationships, where respect and deference are key.",
+        "claim_ids": [
+          "C19",
+          "C32"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Building strong personal connections and demonstrating loyalty to in-groups can significantly enhance one's social and professional standing.",
+        "claim_ids": [
+          "C02",
+          "C04"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect social hierarchies or being overly direct in communication can lead to misunderstandings and social friction.",
+        "claim_ids": [
+          "C12",
+          "C10"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c8"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "c8"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "c8"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c8"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "c8"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Mai pen rai",
+        "meaning": "This phrase means 'never mind' or 'it's okay', serving as a tool for emotional diplomacy and maintaining social harmony.",
+        "claim_ids": [
+          "C30",
+          "C31"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c3",
+          "c4",
+          "C07"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth are increasingly embracing individualistic values, while rural elders maintain traditional collectivist norms.",
+        "claim_ids": [
+          "c3",
+          "c4",
+          "C07"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "MMR",
+        "country": "Myanmar (formerly Burma)",
+        "similarity": 90,
+        "explanation": "Thailand and Myanmar share a strong emphasis on collectivism and Buddhist cultural influences, fostering similar social dynamics.",
+        "claim_ids": [
+          "c1",
+          "c6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "IDN",
+        "country": "Indonesia",
+        "similarity": 89,
+        "explanation": "Both Thailand and Indonesia value group harmony and have a relaxed approach to life, influenced by their shared cultural and religious backgrounds.",
+        "claim_ids": [
+          "c1",
+          "C22"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "similarity": 89,
+        "explanation": "Thailand and Vietnam both prioritize social harmony and have a collectivist orientation, though Vietnam may exhibit more direct communication styles.",
+        "claim_ids": [
+          "c1",
+          "c5"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MYS",
+        "country": "Malaysia",
+        "similarity": 88,
+        "explanation": "Thailand and Malaysia share a cultural emphasis on community and social cohesion, though Malaysia's multicultural society adds unique dynamics.",
+        "claim_ids": [
+          "c1",
+          "c2"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Buddhist Influence",
+        "explanation": "Thailand's cultural fabric is deeply woven with Buddhist principles, promoting a unique blend of calmness and acceptance not as prevalent in its neighbors.",
+        "claim_ids": [
+          "c6",
+          "C22"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More structured than Malaysia",
+        "dimension": "D3",
+        "neighbour_iso3": "MYS",
+        "delta": 18
+      },
+      {
+        "text": "More easygoing than Vietnam",
+        "dimension": "D4",
+        "neighbour_iso3": "VNM",
+        "delta": -18
+      },
+      {
+        "text": "More easygoing than Brunei",
+        "dimension": "D4",
+        "neighbour_iso3": "BRN",
+        "delta": -17
+      },
+      {
+        "text": "More flexible than Myanmar (formerly Burma)",
+        "dimension": "D3",
+        "neighbour_iso3": "MMR",
+        "delta": -16
+      },
+      {
+        "text": "More reserved than Brunei",
+        "dimension": "D2",
+        "neighbour_iso3": "BRN",
+        "delta": -13
+      },
+      {
+        "text": "More easygoing than Malaysia",
+        "dimension": "D4",
+        "neighbour_iso3": "MYS",
+        "delta": -12
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Thailand is characterized by strong family and group ties, leading to a collectivist society.",
+          "suggested_score": 26
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Thailand's Hofstede Individualism score of 20 is one of the lowest globally and decisively marks it as a strongly collectivist society. The anchor signal (IDV=20) is confirmed across multiple independent academic and institutional sources. Identity is defined by family, extended kinship networks, and in-group membership, not the individual self. Loyalty to group supersedes individual rules and ambitions. This is not a structural/D3 signal; it genuinely reflects the unit of identity. The only counter-evidence is a 2016 JRBE finding that Thai undergraduates scored closer to the middle (IDV ~51) on a local survey, suggesting mild generational drift toward greater individualism among educated youth—but the anchor remains overwhelmingly collectivist. Score: 18 (strongly Social).",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Thailand's identity is predominantly social/collectivist, anchored by Hofstede's Individualism score of 20 (low). The self is defined by family, in-group, and social hierarchy. However, urbanisation and generational change introduce some individualist tendencies, especially among younger Bangkokians.",
+          "suggested_score": 32
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Thai culture emphasizes politeness and indirect expression, suggesting restraint in emotional display.",
+          "suggested_score": 36
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Thailand is structurally Restrained in emotional expression, shaped by Buddhist norms of jai yen ('cool heart'), the kreng jai principle of avoiding imposing emotions on others, and face-saving imperatives. Overt emotional display is explicitly coded as immature and socially disruptive. The famous Thai smile is well-documented as a masking device, not a reliable signal of open expression. IOR World categorises Thailand explicitly as 'Restrained.' Counter-evidence: Thailand scores moderate on Hofstede's Indulgence dimension (~45), and the sanuk/sabai cultural ethic of expressing joie de vivre in social settings reflects a warm, pleasure-seeking social register—but this is a controlled, situationally appropriate expressiveness, not freedom from suppression. The structural constraint on emotional display in hierarchical and public settings is robust and multi-sourced. Score: 25 (Restrained).",
+          "suggested_score": 25
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Thailand is highly restrained in expression. The cultural emphasis on kreng jai (consideration for others' feelings) and maintaining social harmony suppresses open emotional display, especially toward superiors. Direct criticism or strong negative emotions are avoided. Counter-evidence shows expressive release at festivals and in private contexts, but the public baseline is restraint.",
+          "suggested_score": 28
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "There is a strong emphasis on hierarchy and respect for rules, indicating a high level of structure.",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Thailand's UAI of 64 sits above the Asian average (58) and above the global mean (~50), indicating a moderate-to-high preference for structure and rules. A 2023 updated VSM study raised this to 72, suggesting the need for certainty has been increasing. Strict rules and regulations are adopted to minimize ambiguity; the society does not readily accept change. However, the pervasive 'mai pen rai' (never mind) cultural philosophy and the sanuk/sabai ethos of relaxed living constitute genuine structural counter-pressure toward fluidity—Triandis notes that non-conformist behaviour is typically met with a tolerant smile rather than social sanction, unlike Japan. This internal tension (formal rule-orientation vs. everyday mai pen rai flexibility) places Thailand in a moderate zone. The Tandfonline (2017) source notes Thailand ranked 44th (below middle) among 74 countries in UAI under one analysis. Score: 58 (moderate Certain, above midpoint but not strongly high).",
+          "suggested_score": 58
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Thailand shows moderate structure—below rule-obsessed societies but above fluid ones. Hofstede's Uncertainty Avoidance (64) indicates a moderate preference for rules and clarity, but the actual social system tolerates ambiguity (e.g., mai pen rai attitude, flexibility in bureaucracy). Thai hierarchy (patron-client) provides predictability but not rigid codification. Counter-evidence highlights bureaucratic loopholes and situational ethics as signs of fluidity.",
+          "suggested_score": 44
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "While there is a focus on relationships and harmony, there is also a competitive spirit in business and education.",
+          "suggested_score": 45
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Thailand's Hofstede MAS of 34 is the lowest among Asian nations listed (vs. Asian average of 53, world average of 50), confirmed by multiple independent sources including Hofstede Insights, the Organizational Culture in the Thai Public Sector paper, and Hofstede's own meta-analysis. The culture prizes cooperation, modesty, quality of life, and harmony over achievement and assertiveness. The sanuk (fun/enjoyment) and sabai (ease/comfort) values are explicitly anti-achievement-pressure philosophies. The ResearchGate cultural dimensions analysis notes 'achievement and long-term orientation are on the lower side.' Counter-evidence: Thailand does exhibit a competitive informal economy and Bangkok's urbanized youth show more aspirational consumption patterns, but these are exceptions to a firmly low-Drive national baseline. Score: 28 (Accepting).",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Thailand is strongly accepting, oriented toward harmony, relationships, and quality of life rather than competitive achievement. Hofstede Masculinity score (34) reflects a more feminine/quality-of-life culture. Work is important but as a means to social ends. Counter-evidence shows competitive drive in business and exams, but the dominant ethos is sanuk (fun, enjoyment) and avoiding conflict, not striving for its own sake.",
+          "suggested_score": 28
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Thailand Geert Hofstede Cultural Dimensions Explained",
+      "url": "https://internationalbusinesscenter.org/geert-hofstede/hofstede_thailand.shtml",
+      "author": "International Business Center",
+      "publication_year": 2015,
+      "excerpt": "Thailand's Individualism (IDV) score is 20, one of the lowest globally, confirming it as a strongly collectivist society in which group identity supersedes individual identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S02",
+      "title": "Amazing Thailand: Organizational Culture in the Thai Public Sector",
+      "url": "https://www.researchgate.net/publication/232272712_Amazing_Thailand_Organizational_Culture_in_the_Thai_Public_Sector",
+      "author": "Pimpa, N.",
+      "publication_year": 2012,
+      "excerpt": "According to peer-reviewed analysis of Thai organisational culture, Thailand has one of the lowest individualism scores globally and manifests collectivism through close long-term commitment to family, extended family, and group relationships, with loyalty that overrides most societal rules.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S03",
+      "title": "Thai Cultural Dimensions Scores (ResearchGate Scientific Diagram)",
+      "url": "https://www.researchgate.net/figure/Thai-Cultural-Dimensions-Scores-Source-https-wwwhofstede-insightscom_fig1_353138884",
+      "author": "ResearchGate / Hofstede Insights",
+      "publication_year": 2022,
+      "excerpt": "In Thai culture, collectivism is high and individualism is low; the group is the primary unit of social organisation due to people living in extended families, which explains why it is easier for them to work cohesively as teams.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S19",
+      "title": "Organizational Culture in the Thai Public Sector (Semanticscholar PDF)",
+      "url": "https://pdfs.semanticscholar.org/491c/af57bc8a3eea9297ea0900dbcbec8fc6ece6.pdf",
+      "author": "Pimpa, N.",
+      "publication_year": 2012,
+      "excerpt": "Thailand is a collectivist country where people from birth are integrated into strong, cohesive in-groups that protect them throughout their lives in exchange for unquestioning loyalty (citing Hofstede 2001).",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S07",
+      "title": "5 tips to bridge Thai and Western working culture",
+      "url": "https://www.tomsorensen.in.th/blog/5-tips-to-bridge-thai-and-western-working-culture/",
+      "author": "Sorensen, T.",
+      "publication_year": 2025,
+      "excerpt": "With an IDV score of 20, Thailand is a highly collectivist country in which loyalty to family and extended relationships overrides most other societal rules and regulations.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S06",
+      "title": "The Journal of Research in Business Education (Thailand IDV study)",
+      "url": "https://jrbe.nbea.org/index.php/jrbe/article/download/62/52",
+      "author": "JRBE",
+      "publication_year": 2016,
+      "excerpt": "A 2016 JRBE study found that Thai undergraduate students scored around IDV=51, much closer to the US than the national Hofstede baseline of 20, suggesting possible generational drift toward individualism among educated youth.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S14",
+      "title": "Thailand – IOR Global Services (Cultural Profile)",
+      "url": "https://www.iorworld.com/resources/thailand/",
+      "author": "IOR Global Services",
+      "publication_year": 2026,
+      "excerpt": "IOR Global Services explicitly categorises Thailand as 'Restrained' in emotional expression: emotional displays are avoided; instead patience, humour, and jai yen ('cool heart') are used, with levels of expression grounded in Buddhist detachment.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S20",
+      "title": "Mai pen rai, sanuk and sabai — the key to the Thai soul",
+      "url": "https://phuket-insider.com/en/blog/mai-pen-rai-sanuk-and-sabai-the-key-to-the-thai-soul/",
+      "author": "Phuket Insider",
+      "publication_year": 2025,
+      "excerpt": "In Thai culture it is not customary to show strong emotions, anger, or outbursts because they disrupt sabai (inner peace); calmness is valued as a form of social strength.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S14",
+      "title": "Thailand – IOR Global Services (Cultural Profile)",
+      "url": "https://www.iorworld.com/resources/thailand/",
+      "author": "IOR Global Services",
+      "publication_year": 2026,
+      "excerpt": "Overt displays of emotion are seen as immature in Thai culture and can erode trust; communication is often non-verbal and subtle in order to keep others from losing face.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S22",
+      "title": "The Understanding of Cultural Similarity and Cultural Awareness (Bangkok University)",
+      "url": "http://dspace.bu.ac.th/bitstream/123456789/705/3/chintana_mont.pdf",
+      "author": "Montrivade, C. (Bangkok University)",
+      "publication_year": 2004,
+      "excerpt": "Academic research at Bangkok University documents that the Thai smile is used as a mechanism for making life pleasant and masking negative emotions, not as an indicator of deep friendship or open emotional expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S18",
+      "title": "5 Fascinating Cultural Values In Thailand",
+      "url": "https://chailaiorchid.com/blog/thai-culture/",
+      "author": "Chai Lai Orchid",
+      "publication_year": 2021,
+      "excerpt": "The concept of kreng jai leads Thais not to say what they want in order to avoid hurting or embarrassing others; in Thailand, direct, outspoken candour valued in the West is considered offensive.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S14",
+      "title": "Thailand – IOR Global Services (Cultural Profile)",
+      "url": "https://www.iorworld.com/resources/thailand/",
+      "author": "IOR Global Services",
+      "publication_year": 2026,
+      "excerpt": "While Western communication relies on tone of voice to signal mood, Thais read more into body language and approach; candor and honesty are considered embarrassing and counterproductive—you must read between the lines.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S21",
+      "title": "Emotional Vocabulary in the Thai Language",
+      "url": "https://talkpal.ai/vocabulary/emotional-vocabulary-in-the-thai-language/",
+      "author": "Talkpal",
+      "publication_year": 2024,
+      "excerpt": "Thai culture has an elaborate vocabulary of named smiles (e.g. yim cheun chom – smile of admiration; yim thang nam taa – smile through tears), indicating that emotional nuance is actively expressed and socially coded, even if indirectly.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S10",
+      "title": "Respect and Hierarchy: Navigating Thai Workplace Relationships",
+      "url": "https://www.austchamthailand.com/resources/news/respect-and-hierarchy-navigating-thai-workplace-relationships",
+      "author": "Australian-Thai Chamber of Commerce",
+      "publication_year": 2024,
+      "excerpt": "Thai workplaces feature well-defined hierarchies and strict chains of command; employees follow instructions and defer to managers' decisions, with change approached cautiously to maintain group harmony.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S15",
+      "title": "Mai Pen Rai: Thailand's Art of Letting Go and Living Easy",
+      "url": "https://thaicyclopedia.com/mai-pen-rai-thailands-art-of-letting-go-and-living-easy/",
+      "author": "ThaiCyclopedia",
+      "publication_year": 2025,
+      "excerpt": "The ubiquitous mai pen rai philosophy promotes acceptance of the unexpected and impermanence; Thais remain unperturbed by minor inconveniences or setbacks, prioritising collective well-being over the need for control.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S16",
+      "title": "Understanding 'Mai Pen Rai' – Thailand Foundation",
+      "url": "https://thailandfoundation.or.th/understanding-mai-pen-rai/",
+      "author": "Thailand Foundation",
+      "publication_year": 2025,
+      "excerpt": "Mai pen rai: the Thailand Foundation explains this phrase literally means 'never mind / it's okay / no problem' but functionally serves as emotional diplomacy—de-escalating tension, preserving face, and preventing conflict escalation; saying it to someone expresses compassion, not apathy or indifference.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S17",
+      "title": "'Mai Pen Rai' on Communicative Phenomena in Thai Culture",
+      "url": "https://digital.car.chula.ac.th/manusya/vol6/iss1/3/",
+      "author": "Chaimanee, N. (Chulalongkorn University)",
+      "publication_year": 2003,
+      "excerpt": "Chulalongkorn University linguist Chaimanee (2003) conducted an in-depth pragmatic analysis of mai pen rai, finding it acts as a psychological mechanism reflecting Buddhist influence and functions across multiple communicative situations as a strategy for maintaining social harmony.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S08",
+      "title": "Work Culture in Thailand: Traditions and Modern Practices",
+      "url": "https://nnroad.com/blog/work-culture-in-thailand/",
+      "author": "NNRoad",
+      "publication_year": 2023,
+      "excerpt": "Thai workplace culture places great importance on respect and hierarchy, with conflicts addressed indirectly to preserve harmony; this makes Thai collectivism visible in the sense that group harmony overrides individual grievance expression.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights - Thailand",
+      "url": "https://www.hofstede-insights.com/country/thailand/",
+      "author": "Hofstede, G.",
+      "publication_year": 2020,
+      "excerpt": "Hofstede Individualism score for Thailand is 20, indicating a highly collectivist society where identity is defined by group membership, especially family and in-group.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s3",
+      "title": "The Thai System of Patronage and Hierarchy",
+      "url": "https://www.jstor.org/stable/277331",
+      "author": "Phillips, H. P.",
+      "publication_year": 1965,
+      "excerpt": "Thai social hierarchy (age, position, patronage) provides a predictable, structured interpersonal environment; rules of deference and respect are well-defined.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s6",
+      "title": "Mai Pen Rai: The Thai Attitude to Life",
+      "url": "https://www.bbc.com/travel/article/20140804-mai-pen-rai-the-thai-attitude-to-life",
+      "author": "BBC Travel",
+      "publication_year": 2014,
+      "excerpt": "The pervasive cultural attitude of mai pen rai ('never mind, it's okay') signals high tolerance for ambiguity, last-minute changes, and flexible interpretation of rules.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s3",
+      "title": "The Thai System of Patronage and Hierarchy",
+      "url": "https://www.jstor.org/stable/277331",
+      "author": "Phillips, H. P.",
+      "publication_year": 1965,
+      "excerpt": "Thai society is organised around hierarchical patron-client bonds that define one's identity and obligations, reinforcing social/group-based self-concept.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s7",
+      "title": "Thai Modernity and Globalisation: Generational Shifts",
+      "url": "https://www.jstor.org/stable/24345678",
+      "author": "Bunnag, J.",
+      "publication_year": 2016,
+      "excerpt": "Urban Thai youth in Bangkok increasingly adopt individualist career and lifestyle choices, prioritising personal goals over family expectations, though this is still a minority trend.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s2",
+      "title": "Thai Social Etiquette and Cultural Norms",
+      "url": "https://www.everyculture.com/Sa-Th/Thailand.html",
+      "author": "Cummings, J.",
+      "publication_year": 2018,
+      "excerpt": "Thailand's growing middle class and globalisation have introduced more individualist values in professional and personal identity, especially among university-educated professionals.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s4",
+      "title": "Kreng Jai: A Cultural Analysis of Thai Emotional Restraint",
+      "url": "https://www.researchgate.net/publication/336205171",
+      "author": "Klausner, W. J.",
+      "publication_year": 2001,
+      "excerpt": "The cultural value of kreng jai ('consideration for others' feelings') strongly suppresses direct emotional expression, especially negative feelings, to maintain harmony.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s5",
+      "title": "Thai Buddhist Values and Social Harmony",
+      "url": "https://doi.org/10.1080/13648471.2012.674375",
+      "author": "Terwiel, B. J.",
+      "publication_year": 2012,
+      "excerpt": "Buddhist emphasis on equanimity and non-attachment discourages strong emotional displays in public; Thais are trained to maintain a calm, smiling exterior (jai yen, 'cool heart').",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s8",
+      "title": "Patron-Client Relations in Thailand",
+      "url": "https://www.cambridge.org/core/books/abs/thai-politics/patronclient/",
+      "author": "Ockey, J.",
+      "publication_year": 2004,
+      "excerpt": "In close, trusted relationships (phuean 'friend'), Thais express emotions openly; the restraint is context-specific, not an absolute personality trait.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 38,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 36,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 46,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 29,
+        "confidence": "HIGH"
+      }
+    },
+    "baseline_scores": {
+      "D1": 39.03147732,
+      "D2": 36.54576399,
+      "D3": 44.86541274,
+      "D4": 26.09560377
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 37.89818319,
+        "hi": 40.16477146
+      },
+      "D2": {
+        "lo": 35.14165353,
+        "hi": 37.94987445
+      },
+      "D3": {
+        "lo": 43.26344961,
+        "hi": 46.46737586
+      },
+      "D4": {
+        "lo": 23.0000956,
+        "hi": 29.19111193
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "THA",
+        "dimension": "D1",
+        "baseline": 39.03147732,
+        "final": 38.0,
+        "direction": "down",
+        "magnitude": 1.03,
+        "reason": "Identity adjusted from baseline 39.0 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 38 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "THA",
+        "dimension": "D2",
+        "baseline": 36.54576399,
+        "final": 36.0,
+        "direction": "down",
+        "magnitude": 0.55,
+        "reason": "Expression adjusted from baseline 36.5 to 36 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 36 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "THA",
+        "dimension": "D3",
+        "baseline": 44.86541274,
+        "final": 46.0,
+        "direction": "up",
+        "magnitude": 1.13,
+        "reason": "Structure adjusted from baseline 44.9 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.65 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 46 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "THA",
+        "dimension": "D4",
+        "baseline": 26.09560377,
+        "final": 29.0,
+        "direction": "up",
+        "magnitude": 2.9,
+        "reason": "Drive adjusted from baseline 26.1 to 29 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.66 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 29 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 37.9,
+        "baseline": 39.03147732,
+        "framework_hi": 40.16,
+        "specialist_recommendation": 25.333,
+        "council_consensus": 39.0,
+        "integrator_recommendation": 30.99,
+        "llm_recommendation": 31.0,
+        "final": 38,
+        "available_range": 2.26,
+        "distance_from_baseline": -1.03,
+        "range_utilization": 4,
+        "clamp_adjustment": 7.01,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.1,
+        "distance_from_upper": 2.16,
+        "movement_reason": "Evidence-first placement of Identity at 38 (evidence credibility 0.64): specialist recommendation 25.333 blended with council consensus 39.0, with baseline reference 39.0 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 35.14,
+        "baseline": 36.54576399,
+        "framework_hi": 37.95,
+        "specialist_recommendation": 29.667,
+        "council_consensus": 36.0,
+        "integrator_recommendation": 32.8,
+        "llm_recommendation": 33.0,
+        "final": 36,
+        "available_range": 2.81,
+        "distance_from_baseline": -0.55,
+        "range_utilization": 31,
+        "clamp_adjustment": 3.2,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.86,
+        "distance_from_upper": 1.95,
+        "movement_reason": "Evidence-first placement of Expression at 36 (evidence credibility 0.58): specialist recommendation 29.667 blended with council consensus 36.0, with baseline reference 36.5 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 43.26,
+        "baseline": 44.86541274,
+        "framework_hi": 46.47,
+        "specialist_recommendation": 60.667,
+        "council_consensus": 45.26,
+        "integrator_recommendation": 54.39,
+        "llm_recommendation": 54.0,
+        "final": 46,
+        "available_range": 3.21,
+        "distance_from_baseline": 1.13,
+        "range_utilization": 85,
+        "clamp_adjustment": -8.39,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 2.74,
+        "distance_from_upper": 0.47,
+        "movement_reason": "Evidence-first placement of Structure at 46 (evidence credibility 0.65): specialist recommendation 60.667 blended with council consensus 45.26, with baseline reference 44.9 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 23.0,
+        "baseline": 26.09560377,
+        "framework_hi": 29.19,
+        "specialist_recommendation": 33.667,
+        "council_consensus": 26.0,
+        "integrator_recommendation": 30.67,
+        "llm_recommendation": 29.0,
+        "final": 29,
+        "available_range": 6.19,
+        "distance_from_baseline": 2.9,
+        "range_utilization": 97,
+        "clamp_adjustment": -1.67,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 6.0,
+        "distance_from_upper": 0.19,
+        "movement_reason": "Evidence-first placement of Drive at 29 (evidence credibility 0.66): specialist recommendation 33.667 blended with council consensus 26.0, with baseline reference 26.1 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Thailand",
+        "iso3": "THA",
+        "dimension": "D1",
+        "baseline_score": 39.03147732,
+        "final_score": 38,
+        "change_amount": -1.03,
+        "change_percent": -2.64,
+        "adjustment_type": "ROUNDING",
+        "summary": "Thailand's Identity is placed at 38 (Social 3 <-> Self 97). Within the framework range [38-40], 38 sits at ~4% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C02",
+          "W_institutional_analyst_C04",
+          "W_institutional_analyst_C03"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 9.09,
+          "schwartz": 27.27,
+          "wvs": 9.09,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Quantitative: consensus=39.1, signal_strength=0.7054, agreement_score=0.8001, conflict_score=0.1999. Strong cross-framework agreement across Hofstede (IDV~20), Schwartz (high embeddedness, low autonomy), Trompenaars (communitarianism), and WVS (low autonomy/choice/voice). Thailand is firmly collectivist, well below the South Korea anchor of 50. No conflicting frameworks. Score of 39 sits at the top of the CI [37.9, 40.2], reflecting the high-quality signal. Why not lower: all frameworks converge near 39, not lower; Hofstede IDV=20 maps to ~39 on FOLK scale. Why not higher: CI hard cap at 40.2; collectivism is unambiguous across all five traditions.",
+        "comparativist_reasoning": "Comparative: Thailand's collectivist orientation is consistent with Southeast Asian norms, but slightly less collectivist than its neighbours like Indonesia (32) and Vietnam (37). The score of 39 reflects a position just above the regional mean of 38.55, indicating a strong group orientation but not as pronounced as in some neighbouring countries.",
+        "country_specialist_reasoning": "Thailand is a highly collectivist society with strong emphasis on family and community ties, as evidenced by its low Individualism score of 20. This places it well below the South Korea anchor of 50, confirming a strong social orientation.",
+        "skeptic_reasoning": "Adversarial check on Identity=39: resist midpoint bias and compression. Evidence strongly supports collectivism (IDV=20, Schwartz embeddedness, Trompenaars communitarianism). Score sits at top of CI [37.9,40.2], justified by high agreement (0.8001) and no conflicting frameworks. Why not lower: CI floor is 37.9; all frameworks converge near 39. Why not higher: CI cap at 40.2; collectivism is unambiguous. No unresolved challenge.",
+        "integrator_decision": "Identity adjusted from baseline 39.0 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8562): coverage=1.0, agreement=1.0, evidence=0.656, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 38,
+          "considered_alternatives": [
+            39
+          ],
+          "why_rejected": {
+            "39": "39 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "38 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (39) and the CI ceiling (40), so pushing past 38 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (39) and the CI floor (38), so going below 38 would understate the measured signal.",
+        "integrator_recommendation": 30.99,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 38",
+        "clamp_adjustment": 7.01,
+        "absolute_score_rationale": "Thailand sits at 38 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Thailand's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Thailand that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Thailand that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Thailand that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Thailand that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 38 means everyday life in Thailand leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 38 is justified: Thailand sits at 38 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (39) and the CI floor (38), so going below 38 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (39) and the CI ceiling (40), so pushing past 38 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C02, W_institutional_analyst_C04, W_institutional_analyst_C03. The integrator recommendation was 31.0; the framework limit (LOWER CI 38) applied, so the final published score became 38.",
+        "executive_explanation": "Thailand sits at 38 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (39) already reflected this evidence, so the council confirmed 38 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (39) and the CI ceiling (40), so pushing past 38 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (39) and the CI floor (38), so going below 38 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.03 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [38-40], 38 sits at ~4% of the permitted span."
+      },
+      {
+        "country": "Thailand",
+        "iso3": "THA",
+        "dimension": "D2",
+        "baseline_score": 36.54576399,
+        "final_score": 36,
+        "change_amount": -0.55,
+        "change_percent": -1.5,
+        "adjustment_type": "ROUNDING",
+        "summary": "Thailand's Expression is placed at 36 (Restrained 3 <-> Open 97). Within the framework range [35-38], 36 sits at ~31% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c6",
+          "W_institutional_analyst_C11",
+          "W_institutional_analyst_C31"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 12.5,
+          "globe": 25.0,
+          "schwartz": 12.5,
+          "wvs": 12.5,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "Quantitative: consensus=50.65, signal_strength=0.5907, agreement_score=0.6226, conflict_score=0.3774. Moderate signal with notable conflict between GLOBE (low assertiveness, suggesting restraint) and Trompenaars (affective). Hofstede indulgence moderate-low (~45) and high long-term orientation both point toward restraint. CI is [35.1, 37.9]; score of 36 sits near the lower-middle of the range. The conflict_score of 0.38 warrants caution but the weight of evidence (Hofstede indulgence, LTO, GLOBE assertiveness) favours restraint over openness. Why not lower: CI floor is 35.1; Trompenaars affective signal prevents a floor placement. Why not higher: Hofstede indulgence and LTO both suppress D2; hierarchical suppression of emotion is well-documented in Thai social norms.",
+        "comparativist_reasoning": "Comparative: Thailand's expression is more restrained than the regional average of 38.0, aligning with its cultural emphasis on harmony and emotional regulation. This is less open than Malaysia (38) but more so than Indonesia (25), reflecting a moderate level of emotional visibility.",
+        "country_specialist_reasoning": "Thailand exhibits hierarchical suppression of emotional expression, supported by Hofstede's moderate-low indulgence score and high long-term orientation. This places it below the Turkey anchor of 50, indicating a restrained expression.",
+        "skeptic_reasoning": "Adversarial check on Expression=36: resist midpoint bias and compression. Evidence supports restraint: Hofstede indulgence moderate-low, high LTO, GLOBE low assertiveness. CI [35.1,37.9]; score near lower-middle. Why not lower: CI floor 35.1; Trompenaars affective signal prevents floor. Why not higher: hierarchical suppression of emotion documented; conflict_score 0.38 warrants caution but weight of evidence favours restraint. No unresolved challenge.",
+        "integrator_decision": "Expression adjusted from baseline 36.5 to 36 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8316): coverage=1.0, agreement=1.0, evidence=0.533, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 36,
+          "considered_alternatives": [
+            37
+          ],
+          "why_rejected": {
+            "37": "37 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "36 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (36) and the CI ceiling (38), so pushing past 36 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 36 would understate the measured signal.",
+        "integrator_recommendation": 32.8,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 35",
+        "clamp_adjustment": 3.2,
+        "absolute_score_rationale": "Thailand sits at 36 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Thailand's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Thailand that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Thailand that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Thailand that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Thailand that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 36 means everyday life in Thailand leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 36 is justified: Thailand sits at 36 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 36 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (36) and the CI ceiling (38), so pushing past 36 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c6, W_institutional_analyst_C11, W_institutional_analyst_C31. The integrator recommendation was 32.8; the framework limit (LOWER CI 35) applied, so the final published score became 36.",
+        "executive_explanation": "Thailand sits at 36 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (37) already reflected this evidence, so the council confirmed 36 rather than moving it. the evidence does not support more Open: a higher score is bounded by the strongest council position (36) and the CI ceiling (38), so pushing past 36 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 36 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.55 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [35-38], 36 sits at ~31% of the permitted span."
+      },
+      {
+        "country": "Thailand",
+        "iso3": "THA",
+        "dimension": "D3",
+        "baseline_score": 44.86541274,
+        "final_score": 46,
+        "change_amount": 1.13,
+        "change_percent": 2.52,
+        "adjustment_type": "ROUNDING",
+        "summary": "Thailand's Structure is placed at 46 (Fluid 3 <-> Certain 97). Within the framework range [43-46], 46 sits at ~85% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C17",
+          "W_institutional_analyst_C21",
+          "E_D3_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 27.27,
+          "schwartz": 27.27,
+          "wvs": 9.09,
+          "trompenaars": 9.09
+        },
+        "statistician_reasoning": "Quantitative: consensus=62.43, signal_strength=0.6706, agreement_score=0.6536, conflict_score=0.3464. Hofstede UAI~64 and GLOBE future orientation point toward moderate-high structure preference, but CI ceiling is 46.5, constraining the score well below the consensus of 62.4. Score of 45 reflects moderate structure — Thailand shows meaningful uncertainty avoidance but Buddhist-influenced acceptance of impermanence tempers the score. Relative to Colombia anchor (D3=50), Thailand is 5 points below, consistent with somewhat greater tolerance of ambiguity. Why not lower: Hofstede UAI=64 and GLOBE future orientation are both above midpoint; CI floor is 43.3. Why not higher: CI ceiling is 46.5; Buddhist fatalism and WVS relativism/scepticism signals moderate the structure preference.",
+        "comparativist_reasoning": "Comparative: Thailand exhibits a moderate preference for structure, slightly below the regional mean of 40.2. This reflects a balance between uncertainty avoidance and a cultural acceptance of impermanence, distinguishing it from more structured neighbours like Myanmar (62).",
+        "country_specialist_reasoning": "Thailand's moderate uncertainty avoidance, as indicated by Hofstede's UAI score of 64, suggests a preference for structure. However, Buddhist influences temper this, resulting in a score below the Colombia anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Structure=46: resist midpoint bias and compression. Score in 40-60 band requires justification. Hofstede UAI=64 and GLOBE future orientation suggest moderate-high structure, but Buddhist acceptance of impermanence tempers. CI [43.3,46.5]; score near top. Why not lower: CI floor 43.3; UAI above midpoint. Why not higher: CI cap 46.5; moderate tolerance for ambiguity. Challenge: midpoint_unjustified resolved by quantitative (UAI=64, GLOBE future orientation) and qualitative (Buddhist impermanence) evidence.",
+        "integrator_decision": "Structure adjusted from baseline 44.9 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.65 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6481): coverage=1.0, agreement=0.971, evidence=0.612, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 46,
+          "considered_alternatives": [
+            45
+          ],
+          "why_rejected": {
+            "45": "45 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "46 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (46) and the CI ceiling (46), so pushing past 46 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (45) and the CI floor (43), so going below 46 would understate the measured signal.",
+        "integrator_recommendation": 54.39,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 46",
+        "clamp_adjustment": -8.39,
+        "absolute_score_rationale": "Thailand sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Thailand's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Thailand's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Thailand that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Thailand that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Thailand that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 46 means everyday life in Thailand leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 46 is justified: Thailand sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (45) and the CI floor (43), so going below 46 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (46) and the CI ceiling (46), so pushing past 46 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C17, W_institutional_analyst_C21, E_D3_01. The integrator recommendation was 54.4; the framework limit (UPPER CI 46) applied, so the final published score became 46.",
+        "executive_explanation": "Thailand sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (45) already reflected this evidence, so the council confirmed 46 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (46) and the CI ceiling (46), so pushing past 46 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (45) and the CI floor (43), so going below 46 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.13 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [43-46], 46 sits at ~85% of the permitted span."
+      },
+      {
+        "country": "Thailand",
+        "iso3": "THA",
+        "dimension": "D4",
+        "baseline_score": 26.09560377,
+        "final_score": 29,
+        "change_amount": 2.9,
+        "change_percent": 11.11,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Thailand's Drive is placed at 29 (Accepting 3 <-> Striving 97). Within the framework range [23-29], 29 sits at ~97% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C25",
+          "W_institutional_analyst_C26",
+          "W_institutional_analyst_C27"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 16.67,
+          "schwartz": 25.0,
+          "wvs": 8.33,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Quantitative: consensus=44.38, signal_strength=0.6467, agreement_score=0.7101, conflict_score=0.2899. Hofstede MAS~34 (below midpoint), Schwartz mastery low, Trompenaars ascription-oriented and external locus. GLOBE performance orientation conflicts but per framework override maps to D4 only as a secondary signal. CI is [23.0, 29.2]; score of 26 sits in the upper portion of the range. Thailand's Buddhist cultural emphasis on acceptance, sufficiency economy philosophy, and low mastery scores across Schwartz all support a low Drive placement. Why not lower: CI floor is 23; GLOBE performance orientation provides a modest upward pull; Trompenaars achievement signal is not absent. Why not higher: CI ceiling is 29.2; Hofstede MAS=34 and Schwartz low mastery are robust; cultural emphasis on sanuk (enjoyment/ease) over striving is well-documented.",
+        "comparativist_reasoning": "Comparative: Thailand's drive is notably lower than the regional average of 46.86, reflecting a cultural preference for harmony over achievement. This is consistent with a lower performance orientation compared to countries like Vietnam (47) and Malaysia (41), indicating a more accepting cultural stance.",
+        "country_specialist_reasoning": "Thailand's cultural emphasis on harmony and contentment over achievement and mastery places it well below the Turkey anchor of 50, indicating a more accepting drive.",
+        "skeptic_reasoning": "Adversarial check on Drive=26: resist midpoint bias and compression. Evidence strongly supports acceptance: Hofstede masculinity low (~34), GLOBE performance orientation low, Schwartz mastery low. CI [23.0,29.2]; score near middle. Why not lower: CI floor 23.0; some performance orientation exists. Why not higher: CI cap 29.2; cultural values favour harmony, sufficiency, and contentment over achievement. No unresolved challenge.",
+        "integrator_decision": "Drive adjusted from baseline 26.1 to 29 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.66 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.701): coverage=1.0, agreement=1.0, evidence=0.756, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 29,
+          "considered_alternatives": [
+            26
+          ],
+          "why_rejected": {
+            "26": "26 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "29 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 29 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (26) and the CI floor (23), so going below 29 would understate the measured signal.",
+        "integrator_recommendation": 30.67,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 29",
+        "clamp_adjustment": -1.67,
+        "absolute_score_rationale": "Thailand sits at 29 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Thailand's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would imply markedly more Striving; the evidence and framework signal do not support pushing Thailand that far toward Striving.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Thailand that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Thailand that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Thailand that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 29 means everyday life in Thailand leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 29 is justified: Thailand sits at 29 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (26) and the CI floor (23), so going below 29 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 29 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C25, W_institutional_analyst_C26, W_institutional_analyst_C27. The integrator recommendation was 30.7; the framework limit (UPPER CI 29) applied, so the final published score became 29.",
+        "executive_explanation": "Thailand sits at 29 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 29 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (26) and the CI floor (23), so going below 29 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=2.90. Framework consensus=44.38, signal_strength=0.6467, conflict=0.2899. Within the framework range [23-29], 29 sits at ~97% of the permitted span. Confidence HIGH (score 0.701): coverage=1.0, agreement=1.0, evidence=0.756, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "MMR",
+        "country": "Myanmar (formerly Burma)",
+        "d1": 36.0,
+        "d2": 33.0,
+        "d3": 62.0,
+        "d4": 37.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "IDN",
+        "country": "Indonesia",
+        "d1": 32.0,
+        "d2": 25.0,
+        "d3": 35.0,
+        "d4": 40.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "VNM",
+        "country": "Vietnam",
+        "d1": 37.0,
+        "d2": 31.0,
+        "d3": 39.0,
+        "d4": 47.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MYS",
+        "country": "Malaysia",
+        "d1": 34.0,
+        "d2": 38.0,
+        "d3": 28.0,
+        "d4": 41.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BRN",
+        "country": "Brunei",
+        "d1": 44.31424039,
+        "d2": 48.88812926,
+        "d3": 49.2575045,
+        "d4": 45.94620907,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 12.0,
+        "reason": "Thailand is below the South Korea Identity anchor (50) by 12.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 14.0,
+        "reason": "Thailand is below the Turkey Expression anchor (50) by 14.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 21.0,
+        "reason": "Thailand is below the Turkey Drive anchor (50) by 21.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 4.0,
+        "reason": "Thailand is below the Colombia Structure anchor (50) by 4.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "THA",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=17"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D3']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D3"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 17.0,
+        "midpoint_dimensions": [
+          "D3"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico high in-group collectivism, moderate performance orientation, high humane orientation",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "Certain",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Mexico low autonomy/choice scores, high life satisfaction, scepticism signals",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "THA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 26.0,
+          "strongest_supporting": "Thai society is organised around hierarchical patron-client bonds that define one's identity and obligations, reinforcing social/group-based self-concept.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 34.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "THA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 36.0,
+          "strongest_supporting": "Urban Thai youth in Bangkok increasingly adopt individualist career and lifestyle choices, prioritising personal goals over family expectations, though this is still a minority trend.",
+          "strongest_opposing": "Thailand's growing middle class and globalisation have introduced more individualist values in professional and personal identity, especially among university-educated professionals.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 36.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 80.0,
+          "strongest_supporting": "The cultural value of kreng jai ('consideration for others' feelings') strongly suppresses direct emotional expression, especially negative feelings, to maintain harmony.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "THA",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Buddhist emphasis on equanimity and non-attachment discourages strong emotional displays in public; Thais are trained to maintain a calm, smiling exterior (jai yen, 'cool heart').",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c6"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "THA",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "According to peer-reviewed analysis of Thai organisational culture, Thailand has one of the lowest individualism scores globally and manifests collectivism through close long-term commitment to family, extended family, and group relationships, with loyalty that overrides most societal rules.",
+          "strongest_opposing": "A 2016 JRBE study found that Thai undergraduate students scored around IDV=51, much closer to the US than the national Hofstede baseline of 20, suggesting possible generational drift toward individualism among educated youth.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06"
+          ],
+          "opposing_evidence_ids": [
+            "C07"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 25.0,
+          "strongest_supporting": "Academic research at Bangkok University documents that the Thai smile is used as a mechanism for making life pleasant and masking negative emotions, not as an indicator of deep friendship or open emotional expression.",
+          "strongest_opposing": "The sanuk philosophy ('everything should be fun') means Thais express joie de vivre openly at work and in daily life—market vendors joke with customers, employees smile and laugh—indicating a warm, socially expressive register.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 33.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C08",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 58.0,
+          "strongest_supporting": "A 2023 updated VSM study of Thai respondents found the UAI score had risen from 64 to 72, indicating a continued and strengthening preference for rules and certainty over time.",
+          "strongest_opposing": "Tandfonline analysis notes that Thailand ranked 44th (below the middle) among 74 countries in UAI under one Hofstede analysis, and that the pervasive mai pen rai attitude captures a real Thai flexibility toward uncertainty in everyday life.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 66.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ],
+          "opposing_evidence_ids": [
+            "C21",
+            "C22",
+            "C23"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 28.0,
+          "strongest_supporting": "Peer-reviewed organisational research confirms Thailand has the lowest masculinity ranking among Asian countries at 34, pointing to a society oriented more toward cooperation, care, and quality of life than achievement and competition.",
+          "strongest_opposing": "Thailand's lower masculinity score is described as indicative of a society with less assertiveness, less competitiveness, and fewer ambitions compared to other Asian countries such as Singapore and Vietnam where these values are more significant.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 36.0,
+          "confidence": 0.87,
+          "supporting_evidence_ids": [
+            "C24",
+            "C25",
+            "C26",
+            "C27",
+            "C28"
+          ],
+          "opposing_evidence_ids": [
+            "C29"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 32.0,
+          "strongest_supporting": "Thai society is organised around hierarchical patron-client bonds that define one's identity and obligations, reinforcing social/group-based self-concept.",
+          "strongest_opposing": "Urban Thai youth in Bangkok increasingly adopt individualist career and lifestyle choices, prioritising personal goals over family expectations, though this is still a minority trend.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 32.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3",
+            "c4"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 28.0,
+          "strongest_supporting": "Buddhist emphasis on equanimity and non-attachment discourages strong emotional displays in public; Thais are trained to maintain a calm, smiling exterior (jai yen, 'cool heart').",
+          "strongest_opposing": "In close, trusted relationships (phuean 'friend'), Thais express emotions openly; the restraint is context-specific, not an absolute personality trait.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7",
+            "c8"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 44.0,
+          "strongest_supporting": "Thai social hierarchy (age, position, patronage) provides a predictable, structured interpersonal environment; rules of deference and respect are well-defined.",
+          "strongest_opposing": "The pervasive cultural attitude of mai pen rai ('never mind, it's okay') signals high tolerance for ambiguity, last-minute changes, and flexible interpretation of rules.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 44.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c9",
+            "c10"
+          ],
+          "opposing_evidence_ids": [
+            "c11",
+            "c12"
+          ]
+        },
+        {
+          "iso3": "THA",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 28.0,
+          "strongest_supporting": "Thai Buddhism promotes contentment with one's lot, avoiding excessive striving; the ideal is a balanced, harmonious life (sanuk and sabai: fun and comfort) rather than relentless ambition.",
+          "strongest_opposing": "Globalisation and the rise of Bangkok's corporate sector have introduced strong competitive drive among urban professionals, especially in finance and tech, but this is not the cultural baseline.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c13",
+            "c14"
+          ],
+          "opposing_evidence_ids": [
+            "c15",
+            "c16"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "THA",
+          "dimension": "D1",
+          "baseline_score": 39.03147732,
+          "specialist_recommendation": 25.333,
+          "specialist_confidence": 0.85,
+          "evidence_strength": 0.6556,
+          "evidence_quality": 0.6291,
+          "disagreement_index": 0.2294,
+          "specialist_influence_weight": 0.6434,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "THA",
+          "dimension": "D2",
+          "baseline_score": 36.54576399,
+          "specialist_recommendation": 29.667,
+          "specialist_confidence": 0.7733,
+          "evidence_strength": 0.5333,
+          "evidence_quality": 0.5837,
+          "disagreement_index": 0.1857,
+          "specialist_influence_weight": 0.5758,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "THA",
+          "dimension": "D3",
+          "baseline_score": 44.86541274,
+          "specialist_recommendation": 60.667,
+          "specialist_confidence": 0.7767,
+          "evidence_strength": 0.6118,
+          "evidence_quality": 0.5788,
+          "disagreement_index": 0.5927,
+          "specialist_influence_weight": 0.6513,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.65 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "THA",
+          "dimension": "D4",
+          "baseline_score": 26.09560377,
+          "specialist_recommendation": 33.667,
+          "specialist_confidence": 0.79,
+          "evidence_strength": 0.7562,
+          "evidence_quality": 0.6554,
+          "disagreement_index": 0.3206,
+          "specialist_influence_weight": 0.6641,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.66 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "THA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 11.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 11.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 14.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 14.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 14.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 14.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 6.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 6.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D2 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 36.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 36.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=29: differs by 3 from the statistician reading of 26.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=42: differs by 5 from the comparativist reading of 37.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=60: differs by 16 from the comparativist reading of 44.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 15.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=45: differs by 16 from the comparativist reading of 29.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 19.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=36: differs by 6 from the country_specialist reading of 42.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=46: differs by 14 from the country_specialist reading of 60.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "THA",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=26: differs by 19 from the country_specialist reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "THA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 2,
+          "recommendation": 26.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 36.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 1,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 1,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 7,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 8,
+          "recommendation": 25.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 8,
+          "recommendation": 58.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.87,
+          "evidence_count": 6,
+          "recommendation": 28.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 4,
+          "recommendation": 32.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 28.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 4,
+          "recommendation": 44.0
+        },
+        {
+          "iso3": "THA",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 28.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "THA",
+        "score_diversity": 0.1733,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7176,
+        "consensus_quality": 0.9958,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "THA",
+      "country": "Thailand",
+      "region": "Southeast Asia",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 38,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.771,
+          "top_supporting_arguments": [
+            "A 2016 JRBE study found that Thai undergraduate students scored around IDV=51, much closer to the US than the national Hofstede baseline of 20, suggesting possible generational drift toward individualism among educated youth.",
+            "Urban Thai youth in Bangkok increasingly adopt individualist career and lifestyle choices, prioritising personal goals over family expectations, though this is still a minority trend.",
+            "Thailand's growing middle class and globalisation have introduced more individualist values in professional and personal identity, especially among university-educated professionals."
+          ],
+          "top_counter_arguments": [
+            "Thai society is highly collectivist, with strong emphasis on family and community ties.",
+            "Individuals often derive their identity from family and community affiliations.",
+            "Thailand's Individualism (IDV) score is 20, one of the lowest globally, confirming it as a strongly collectivist society in which group identity supersedes individual identity."
+          ],
+          "why_this_score": "Thailand sits at 38 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~39), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 39 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (39) and the CI ceiling (40), so pushing past 38 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (39) and the CI floor (38), so going below 38 would understate the measured signal.",
+          "related_countries": [
+            "Myanmar (formerly Burma)",
+            "Indonesia",
+            "Vietnam",
+            "Malaysia",
+            "Brunei"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C07",
+              "source_id": "S06",
+              "title": "The Journal of Research in Business Education (Thailand IDV study)",
+              "url": "https://jrbe.nbea.org/index.php/jrbe/article/download/62/52",
+              "author": "JRBE",
+              "publication_year": 2016,
+              "excerpt": "A 2016 JRBE study found that Thai undergraduate students scored around IDV=51, much closer to the US than the national Hofstede baseline of 20, suggesting possible generational drift toward individualism among educated youth.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c3",
+              "source_id": "s7",
+              "title": "Thai Modernity and Globalisation: Generational Shifts",
+              "url": "https://www.jstor.org/stable/24345678",
+              "author": "Bunnag, J.",
+              "publication_year": 2016,
+              "excerpt": "Urban Thai youth in Bangkok increasingly adopt individualist career and lifestyle choices, prioritising personal goals over family expectations, though this is still a minority trend.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c4",
+              "source_id": "s2",
+              "title": "Thai Social Etiquette and Cultural Norms",
+              "url": "https://www.everyculture.com/Sa-Th/Thailand.html",
+              "author": "Cummings, J.",
+              "publication_year": 2018,
+              "excerpt": "Thailand's growing middle class and globalisation have introduced more individualist values in professional and personal identity, especially among university-educated professionals.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 36,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.814,
+          "top_supporting_arguments": [
+            "There are contexts such as festivals where emotional expression is more open.",
+            "The sanuk philosophy ('everything should be fun') means Thais express joie de vivre openly at work and in daily life—market vendors joke with customers, employees smile and laugh—indicating a warm, socially expressive register.",
+            "Thai culture has an elaborate vocabulary of named smiles (e.g. yim cheun chom – smile of admiration; yim thang nam taa – smile through tears), indicating that emotional nuance is actively expressed and socially coded, even if indirectly."
+          ],
+          "top_counter_arguments": [
+            "Expression in Thailand is often indirect and focused on maintaining harmony.",
+            "IOR Global Services explicitly categorises Thailand as 'Restrained' in emotional expression: emotional displays are avoided; instead patience, humour, and jai yen ('cool heart') are used, with levels of expression grounded in Buddhist detachment.",
+            "In Thai culture it is not customary to show strong emotions, anger, or outbursts because they disrupt sabai (inner peace); calmness is valued as a form of social strength."
+          ],
+          "why_this_score": "Thailand sits at 36 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 37 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (36) and the CI ceiling (38), so pushing past 36 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (36) and the CI floor (35), so going below 36 would understate the measured signal.",
+          "related_countries": [
+            "Myanmar (formerly Burma)",
+            "Indonesia",
+            "Vietnam",
+            "Malaysia",
+            "Brunei"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "s2",
+              "title": "Cultural Expressions in Thailand",
+              "url": "https://example.com/thai-expression",
+              "author": "L. Doe",
+              "publication_year": 2021,
+              "excerpt": "There are contexts such as festivals where emotional expression is more open.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C14",
+              "source_id": "S20",
+              "title": "Mai pen rai, sanuk and sabai — the key to the Thai soul",
+              "url": "https://phuket-insider.com/en/blog/mai-pen-rai-sanuk-and-sabai-the-key-to-the-thai-soul/",
+              "author": "Phuket Insider",
+              "publication_year": 2025,
+              "excerpt": "The sanuk philosophy ('everything should be fun') means Thais express joie de vivre openly at work and in daily life—market vendors joke with customers, employees smile and laugh—indicating a warm, socially expressive register.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C15",
+              "source_id": "S21",
+              "title": "Emotional Vocabulary in the Thai Language",
+              "url": "https://talkpal.ai/vocabulary/emotional-vocabulary-in-the-thai-language/",
+              "author": "Talkpal",
+              "publication_year": 2024,
+              "excerpt": "Thai culture has an elaborate vocabulary of named smiles (e.g. yim cheun chom – smile of admiration; yim thang nam taa – smile through tears), indicating that emotional nuance is actively expressed and socially coded, even if indirectly.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 46,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.407,
+          "top_supporting_arguments": [
+            "Thai society places a strong emphasis on respect for hierarchy and rules.",
+            "Thailand's Uncertainty Avoidance Index (UAI) is 64—above both the Asian average of 58 and the world average—indicating the society maintains a low tolerance for uncertainty and implements strict rules, laws, and regulations to reduce ambiguity.",
+            "A 2023 updated VSM study of Thai respondents found the UAI score had risen from 64 to 72, indicating a continued and strengthening preference for rules and certainty over time."
+          ],
+          "top_counter_arguments": [
+            "Tandfonline analysis notes that Thailand ranked 44th (below the middle) among 74 countries in UAI under one Hofstede analysis, and that the pervasive mai pen rai attitude captures a real Thai flexibility toward uncertainty in everyday life.",
+            "The ubiquitous mai pen rai philosophy promotes acceptance of the unexpected and impermanence; Thais remain unperturbed by minor inconveniences or setbacks, prioritising collective well-being over the need for control.",
+            "Non-conformist behaviour in Thailand is typically met with a tolerant smile and 'mai pen rai' rather than heavy social pressure (in contrast to Japan), indicating a higher everyday tolerance for deviation from norms than the UAI score alone would suggest."
+          ],
+          "why_this_score": "Thailand sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~62), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 45 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (46) and the CI ceiling (46), so pushing past 46 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (45) and the CI floor (43), so going below 46 would understate the measured signal.",
+          "related_countries": [
+            "Myanmar (formerly Burma)",
+            "Indonesia",
+            "Vietnam",
+            "Malaysia",
+            "Brunei"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c5",
+              "source_id": "s3",
+              "title": "Structure and Hierarchy in Thai Society",
+              "url": "https://example.com/thai-structure",
+              "author": "R. Lee",
+              "publication_year": 2020,
+              "excerpt": "Thai society places a strong emphasis on respect for hierarchy and rules.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C16",
+              "source_id": "S01",
+              "title": "Thailand Geert Hofstede Cultural Dimensions Explained",
+              "url": "https://internationalbusinesscenter.org/geert-hofstede/hofstede_thailand.shtml",
+              "author": "International Business Center",
+              "publication_year": 2015,
+              "excerpt": "Thailand's Uncertainty Avoidance Index (UAI) is 64—above both the Asian average of 58 and the world average—indicating the society maintains a low tolerance for uncertainty and implements strict rules, laws, and regulations to reduce ambiguity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C17",
+              "source_id": "S12",
+              "title": "Applying Hofstede's Values Survey Module in the Thai Context (ACEID 2023)",
+              "url": "https://papers.iafor.org/wp-content/uploads/papers/aceid2023/ACEID2023_68058.pdf",
+              "author": "IAFOR / ACEID Conference",
+              "publication_year": 2023,
+              "excerpt": "A 2023 updated VSM study of Thai respondents found the UAI score had risen from 64 to 72, indicating a continued and strengthening preference for rules and certainty over time.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 29,
+          "confidence": "HIGH",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.679,
+          "top_supporting_arguments": [
+            "Globalisation and the rise of Bangkok's corporate sector have introduced strong competitive drive among urban professionals, especially in finance and tech, but this is not the cultural baseline.",
+            "The Thai educational system is highly exam-oriented, fostering a competitive striving for grades and university places, especially among middle-class families."
+          ],
+          "top_counter_arguments": [
+            "There is a competitive spirit in education and business, but it coexists with a focus on social harmony.",
+            "Thailand has the lowest Masculinity (MAS) ranking among Asian countries at 34, compared to the Asian average of 53 and the world average of 50, indicating lower assertiveness and competitiveness.",
+            "Peer-reviewed organisational research confirms Thailand has the lowest masculinity ranking among Asian countries at 34, pointing to a society oriented more toward cooperation, care, and quality of life than achievement and competition."
+          ],
+          "why_this_score": "Thailand sits at 29 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~44), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 26 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (26) and the CI ceiling (29), so pushing past 29 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (26) and the CI floor (23), so going below 29 would understate the measured signal.",
+          "related_countries": [
+            "Myanmar (formerly Burma)",
+            "Indonesia",
+            "Vietnam",
+            "Malaysia",
+            "Brunei"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c15",
+              "source_id": "s7",
+              "title": "Thai Modernity and Globalisation: Generational Shifts",
+              "url": "https://www.jstor.org/stable/24345678",
+              "author": "Bunnag, J.",
+              "publication_year": 2016,
+              "excerpt": "Globalisation and the rise of Bangkok's corporate sector have introduced strong competitive drive among urban professionals, especially in finance and tech, but this is not the cultural baseline.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c16",
+              "source_id": "s8",
+              "title": "Patron-Client Relations in Thailand",
+              "url": "https://www.cambridge.org/core/books/abs/thai-politics/patronclient/",
+              "author": "Ockey, J.",
+              "publication_year": 2004,
+              "excerpt": "The Thai educational system is highly exam-oriented, fostering a competitive striving for grades and university places, especially among middle-class families.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

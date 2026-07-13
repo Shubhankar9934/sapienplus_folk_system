@@ -1,0 +1,2463 @@
+{
+  "iso3": "DNK",
+  "country": "Denmark",
+  "region": "Nordic",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T09:30:11.094035+00:00",
+  "cultural_profile": {
+    "iso3": "DNK",
+    "country": "Denmark",
+    "region": "Nordic",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 89,
+        "reading": "Strongly independent",
+        "explanation": "Denmark's high individualism reflects a society where personal responsibility and independence are paramount, yet this is balanced by a strong sense of community."
+      },
+      {
+        "dimension": "D2",
+        "score": 63,
+        "reading": "Expressive",
+        "explanation": "Public emotional expression is restrained, with a cultural preference for understatement and modesty."
+      },
+      {
+        "dimension": "D3",
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Denmark's low need for formal rules and high tolerance for ambiguity reflect a flexible and adaptive cultural mindset."
+      },
+      {
+        "dimension": "D4",
+        "score": 37,
+        "reading": "Relaxed",
+        "explanation": "Quality of life and cooperation are prioritized over competition and material achievement, reflecting a culture that values balance and contentment."
+      }
+    ],
+    "executive_summary": "Denmark is a land of individualists who thrive within a collective framework. The Danes value independence and personal responsibility, yet they also cherish social cohesion and consensus. Emotional expression is reserved, with a preference for understated communication. Work-life balance is prioritized, reflecting a culture that values quality of life over aggressive ambition.",
+    "cultural_archetype": {
+      "title": "The Independent Collaborator",
+      "summary": "A society that balances personal independence with strong communal ties.",
+      "claim_ids": [
+        "c1",
+        "C01",
+        "C07"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Collaborative teams",
+      "Work-life balance seekers",
+      "Innovation-driven sectors"
+    ],
+    "culture_at_a_glance": [
+      "Denmark scores 16 on Hofstede's Masculinity (Motivation towards Achievement and Success) dimension, placing it among the most Feminine (Accepting) societies — where quality of life and cooperation dominate over achievement and competition.",
+      "The Danish welfare state promotes work‑life balance and social security, reducing the necessity for aggressive striving and reinforcing a culture of contentment.",
+      "The Law of Jante, a cultural norm embedded in Danish socialisation, discourages individual boasting and promotes conformity within the group, potentially tempering high individualism.",
+      "Denmark ranks among the cultures with the lowest Uncertainty Avoidance score of 23 — indicating a culture willing to try new approaches with high tolerance for ambiguity and minimal need for formal rules.",
+      "Danes show a strong cultural preference for clear agendas, planning, and punctuality, with a low tolerance for last‑minute changes or ambiguity in social and business appointments.",
+      "The high degree of individual responsibility and trust is deeply valued by Danish employees — often higher than salary and employment security — reflecting a strong individualist orientation."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Quality of Life Over Competition",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 40,
+          "framework_agreement": 58,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 5,
+        "observations": [
+          {
+            "text": "Denmark scores 16 on Hofstede's Masculinity (Motivation towards Achievement and Success) dimension, placing it among the most Feminine (Accepting) societies — where quality of life and cooperation dominate over achievement and competition.",
+            "claim_ids": [
+              "C24",
+              "C25",
+              "c10"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "The Danish welfare state promotes work‑life balance and social security, reducing the necessity for aggressive striving and reinforcing a culture of contentment.",
+            "claim_ids": [
+              "c11",
+              "C27"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "In Feminine (low-MAS) Scandinavian societies, protecting the environment, caring for others, solidarity, and quality of life are crucial cultural values.",
+            "claim_ids": [
+              "C27"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Individualism Within Community",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 90,
+          "framework_agreement": 79,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in friendship social sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "The Law of Jante, a cultural norm embedded in Danish socialisation, discourages individual boasting and promotes conformity within the group, potentially tempering high individualism.",
+            "claim_ids": [
+              "c3",
+              "C12"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The historical 19th‑century Danish cooperative movement, while collective in form, was built on individual farmers’ voluntary association and fostered a strong sense of personal independence and responsibility.",
+            "claim_ids": [
+              "c2"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Flexibility and Structure",
+        "confidence": {
+          "evidence_strength": 44,
+          "expert_agreement": 0,
+          "framework_agreement": 74,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is limited and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Denmark ranks among the cultures with the lowest Uncertainty Avoidance score of 23 — indicating a culture willing to try new approaches with high tolerance for ambiguity and minimal need for formal rules.",
+            "claim_ids": [
+              "C18",
+              "C19"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "In Denmark, rules are minimal, laws are general and few, and self-regulatory codes are numerous — consistent with a low Uncertainty Avoidance culture that does not seek rule-based certainty.",
+            "claim_ids": [
+              "C21"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The historical 19th‑century Danish cooperative movement, while collective in form, was built on individual farmers’ voluntary association and fostered a strong sense of personal independence and responsibility.",
+        "claim_ids": [
+          "c2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "The influence of 18th‑century Lutheran pietism in Denmark promoted emotional control, modesty, and a subdued public demeanour, which persisted into secular times.",
+        "claim_ids": [
+          "c5"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individualism",
+        "but_also": "Community",
+        "explanation": "Danes are highly individualistic, yet they also value being part of a collective, balancing personal independence with social cohesion.",
+        "claim_ids": [
+          "c1",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "pulls_toward": "Emotional Reserve",
+        "but_also": "Warmth in Private",
+        "explanation": "Public communication is reserved and understated, but in private settings, Danes express warmth and conviviality through concepts like 'hygge'.",
+        "claim_ids": [
+          "c4",
+          "c6"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Danes show a strong cultural preference for clear agendas, planning, and punctuality, with a low tolerance for last‑minute changes or ambiguity in social and business appointments.",
+          "claim_ids": [
+            "c7",
+            "C22"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "The high degree of individual responsibility and trust is deeply valued by Danish employees — often higher than salary and employment security — reflecting a strong individualist orientation.",
+          "claim_ids": [
+            "C04",
+            "C06"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Danish communication is characterised by reserve, understatement, and a low emotional display in public, reflecting a restrained expressive culture.",
+          "claim_ids": [
+            "c4"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Hygge — the Danish concept of cozy, warm social togetherness — is a style of social interaction that is safe and enjoyable, implying that emotional warmth and openness are normative in close social settings.",
+          "claim_ids": [
+            "c6",
+            "C16"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Denmark’s flexicurity model combines a flexible labour market with strong social security and active labour market policies, reflecting a structured institutional approach that reduces uncertainty for both workers and employers.",
+          "claim_ids": [
+            "c8",
+            "c9"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Janteloven — the Scandinavian code of conduct originating in Denmark — denotes a social attitude of disapproval towards expressions of individuality and personal success, structurally suppressing expressive self-assertion in public life.",
+          "claim_ids": [
+            "C12"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Janteloven's emphasis on modesty has been linked to Denmark's robust welfare framework and progressive taxation reaching 55.9% for top earners in 2023 — structurally limiting wealth accumulation and status display driven by achievement.",
+          "claim_ids": [
+            "C26"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Denmark feels balanced between independence and community. While personal responsibility is highly valued, there is a strong sense of belonging to a collective. Public interactions are reserved, but private gatherings are warm and convivial, thanks to the cultural concept of 'hygge'. The work environment emphasizes trust and individual responsibility, yet decisions are often reached through consensus. This creates a harmonious blend of personal freedom and social cohesion.",
+      "claim_ids": [
+        "c2",
+        "C04",
+        "c6",
+        "C08"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Danes value punctuality and clear agendas, which are seen as signs of respect and efficiency in both social and business settings.",
+        "claim_ids": [
+          "c7",
+          "C22"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Denmark often depends on balancing individual initiative with the ability to work collaboratively within a team, reflecting the nation's 'collectively-oriented individualism'.",
+        "claim_ids": [
+          "C07",
+          "C08"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Maintaining a healthy work-life balance is crucial, as Danish culture prioritizes quality of life and well-being over relentless ambition.",
+        "claim_ids": [
+          "c11",
+          "C28"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to respect the Law of Jante by boasting or displaying excessive individualism can lead to social disapproval and isolation.",
+        "claim_ids": [
+          "c3",
+          "C12"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "c3",
+          "C16"
+        ],
+        "sources_count": 2
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "c6",
+          "C16"
+        ],
+        "sources_count": 2
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "c3",
+          "C16"
+        ],
+        "sources_count": 2
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C28"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "We should improve this",
+        "meaning": "This is serious criticism and should be addressed promptly.",
+        "claim_ids": [
+          "C17"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals tend to embrace more individualistic and globalized values, while rural communities may adhere more closely to traditional Danish norms.",
+        "claim_ids": [
+          "C15",
+          "C07"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "ISL",
+        "country": "Iceland",
+        "similarity": 90,
+        "explanation": "Denmark and Iceland share a strong sense of community and social cohesion, but Denmark places more emphasis on individual responsibility.",
+        "claim_ids": [
+          "c1",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "NOR",
+        "country": "Norway",
+        "similarity": 89,
+        "explanation": "Both Denmark and Norway value egalitarianism and social welfare, yet Denmark is more individualistic in its approach to personal responsibility.",
+        "claim_ids": [
+          "c1",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "SWE",
+        "country": "Sweden",
+        "similarity": 89,
+        "explanation": "Denmark and Sweden share similar welfare models and a focus on quality of life, though Denmark is slightly more relaxed in its social norms.",
+        "claim_ids": [
+          "c1",
+          "C27"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "FIN",
+        "country": "Finland",
+        "similarity": 87,
+        "explanation": "Denmark and Finland both emphasize education and innovation, but Denmark's cultural emphasis on 'hygge' creates a distinct social atmosphere.",
+        "claim_ids": [
+          "c6",
+          "c12"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "The Hygge Factor",
+        "explanation": "Denmark's unique cultural concept of 'hygge' fosters a warm and cozy social environment that is distinct from its Nordic neighbors.",
+        "claim_ids": [
+          "c6",
+          "C16"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More flexible than Finland",
+        "dimension": "D3",
+        "neighbour_iso3": "FIN",
+        "delta": -22
+      },
+      {
+        "text": "More achievement-oriented than Iceland",
+        "dimension": "D4",
+        "neighbour_iso3": "ISL",
+        "delta": 17
+      },
+      {
+        "text": "More flexible than Sweden",
+        "dimension": "D3",
+        "neighbour_iso3": "SWE",
+        "delta": -15
+      },
+      {
+        "text": "More flexible than Norway",
+        "dimension": "D3",
+        "neighbour_iso3": "NOR",
+        "delta": -15
+      },
+      {
+        "text": "More achievement-oriented than Norway",
+        "dimension": "D4",
+        "neighbour_iso3": "NOR",
+        "delta": 15
+      },
+      {
+        "text": "More reserved than Sweden",
+        "dimension": "D2",
+        "neighbour_iso3": "SWE",
+        "delta": -11
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Denmark shows strong individualist identity: Hofstede IDV score ~74, indicating self-oriented identity rather than group-defined. Everyday life ethnographies (e.g. reflexive fatherhood emphasizing individualization and detraditionalization) reinforce subjective orientation beyond kinship. Counter‑evidence: strong national identity and boundary maintenance (‘banal nationalism’) suggest persistent collective sentiment, but these are weaker than individualism signals.",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The anchor measure is Hofstede IDV = 74, placing Denmark solidly in the individualist camp — top-10 globally. This is corroborated by the Minkov-Kaasa WVS-derived index, which also places the Nordic countries among the world's most individualist. Denmark's welfare state and consensus norms are D3 (Structure) and institutional collectivism evidence, not D1: Danes are individually autonomous but operate within strong shared institutions. The 'horizontally individualist' label from peer-reviewed research (Shulruf et al., ResearchGate) captures the nuance: personal independence is unambiguous, but status display and vertical competition are suppressed by Janteloven — a D4 restraint, not a D1 collectivism signal. The counter-evidence (consensus culture, group-orientation at work, welfare solidarity) belongs to D3 and D4, and only modestly trims the score from a pure 85 down to 78.",
+          "suggested_score": 78
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Denmark scores high on Hofstede Individualism (IDV ≈ 74), indicating a self-oriented identity. The historical Lutheran emphasis on personal conscience and the late 19th-century cooperative movement (individual farmers voluntarily joining together) both support a culture where identity is defined by personal choice rather than group membership. The counter-evidence of a strong welfare state and ‘Law of Jante’ social pressure does not shift the baseline because these are Structure (D3) and expression norms (D2), not group identity. The score 75 reflects the high individualism baseline adjusted slightly downward for the subtle social conformity observed in equality norms.",
+          "suggested_score": 75
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Danish culture is relatively indulgent (Hofstede IvR ~70) – more freedom in emotional expression, leisure, personal control, spoken through relaxed interpersonal norms and humor in business contexts. This suggests moderately high openness. No strong restraining markers found.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Denmark presents a paradox for D2: communication is famously direct and honest (multiple institutional sources confirm this), yet emotional display is structurally suppressed. Danish legal research finds that courts favor 'calm and quiet' behavior as a trustworthiness signal. Janteloven actively sanctions emotional self-assertion and boasting. The directness is functional/informational, not emotionally expressive — consistent with the cheat-sheet rule that 'direct ≠ emotional open.' Hofstede's indulgence score for Denmark is moderate (~70), which introduces upward pressure, but the dominant cultural pattern identified in workplace and legal ethnographic sources is one of emotional restraint and modesty. The score lands in the Restrained half but not at the extreme, reflecting that Danes are not cold or suppressed in all domains — they are warm in close relationships and hygge settings — but hierarchical/public emotional display is clearly constrained.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Denmark is culturally restrained (Hofstede Uncertainty Avoidance not directly Expression, but communication studies consistently find low emotional expressiveness, reserved public demeanor, and a strong preference for understatement). The historical legacy of Lutheran pietism (18th–19th century) promoted emotional control. The counter-evidence of festive ‘hygge’ and carnival-like events does not invert the score because such events are sanctioned release valves within an otherwise restrained baseline. Score 30 matches the restrained end of the scale.",
+          "suggested_score": 30
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Denmark scores low on Uncertainty Avoidance (UA ~23), indicating tolerance for ambiguity, fluid structures, low hierarchy—suggesting low Structure. However, ethnographic studies show welfare‑state consensus and expected sociability rituals (e.g. communal meals) implying some predictable structure. Hence somewhat fluid (low‑structure) overall, but not minimal.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The anchor is Denmark's UAI = 23 — the second-lowest in the world (only Jamaica and Singapore score lower). This is the strongest measured signal available. Low UAI cultures are comfortable with ambiguity, favor few rules, and tolerate open-ended outcomes. Multiple corroborating institutional sources confirm this: Danish workplaces have minimal formal hierarchy, implied rather than explicit authority lines, and employees are trusted to self-organize. The education system tolerates 'I don't know' from teachers. Counter-evidence: Denmark is punctual and has high rule-of-law scores — but this is governance quality, which the cheat sheet explicitly excludes from D3. Orderliness in civic behavior does not equal psychological discomfort with ambiguity. The score of 22 closely mirrors the UAI anchor.",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Denmark exhibits strong Structure: high uncertainty avoidance (Hofstede UAI ≈ 23 is low, but that index is not D3; the cultural pattern is one of high rule-following, punctuality, planning, and low tolerance for ambiguity in daily life). The historical development of a highly organized welfare state and legal-rational bureaucracy (19th–20th century) reinforces orderliness. The counter-evidence of flexible workplace hours (‘flexicurity’) is a structural design, not a loosening of rule-orientation. Score 82 reflects a society that is psychologically comfortable with clear structures.",
+          "suggested_score": 82
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede Masculinity score is very low (~16), indicating low emphasis on achievement/competition, instead favoring harmony and quality of life—pointing toward accepting rather than striving. Thus moderate‑low Drive, but balanced rather than extreme acceptance.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede MAS = 16 is the anchor — one of the lowest globally, reflecting strong orientation toward quality of life, care, and cooperation over achievement and competition. This is deeply corroborated by peer-reviewed research (Shulruf et al.) showing that Danes discuss achievement goals less frequently and value them less than Americans; by Janteloven's active cultural suppression of visible striving and self-promotion; by the hygge concept orienting the workplace toward well-being over performance; and by institutional sources confirming work-life balance is a core cultural value. Counter-evidence is real but limited: Denmark has a sophisticated innovation economy and IDA sources note task-orientation among managers — this nudges the score slightly above rock-bottom (Norway MAS=8, Sweden MAS=5) to 20, but does not flip the direction.",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Denmark is moderate on Drive: Hofstede Masculinity (MAS = 16) indicates a low achievement/competition orientation, but the strong work ethic (high labor force participation) and global competitiveness (e.g., in design, pharmaceuticals) suggest a moderate level of striving. The balance between ‘work-life balance’ and ambition places it near the midpoint. Score 48 is slightly below the midpoint, reflecting the harmony-oriented baseline with an upward nudge for the evident performance culture in business and science. The counter-evidence of ambitious entrepreneurs supports a more moderate score rather than a low one.",
+          "suggested_score": 48
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Denmark according to Hofstede's cultural dimensions",
+      "url": "http://www.limbistraine.com/ro/cercetare/Gabriela-Sauciuc/3.Denmark-Hofstede-s-cultural-dimensions.html",
+      "author": "Gabriela Sauciuc",
+      "publication_year": 2010,
+      "excerpt": "Denmark scores 74 on Hofstede's Individualism index, ranking among the top 10 most individualist countries globally.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S06",
+      "title": "Danish workplace culture – IDA (Engineers' Association of Denmark)",
+      "url": "https://ida.dk/en/career-and-legal-advice/working-in-denmark/danish-workplace-culture",
+      "author": "IDA (Ingeniørforeningen i Danmark)",
+      "publication_year": 2023,
+      "excerpt": "The high degree of individual responsibility and trust is deeply valued by Danish employees — often higher than salary and employment security — reflecting a strong individualist orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S25",
+      "title": "Danish Workplace Culture – 8 Essentials (Swap Language)",
+      "url": "https://swaplanguage.com/blog/understanding-danish-workplace-culture/",
+      "author": "Swap Language",
+      "publication_year": 2021,
+      "excerpt": "Each Danish worker often has their own area of responsibility, which means high independence; workers are trusted without monitoring or hand-holding, reflecting individualist self-reliance.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S19",
+      "title": "Danish Culture is an 'Extreme' (Part 4 – on Independence)",
+      "url": "https://www.linkedin.com/pulse/danish-culture-extreme-part-4-independence-anatolie-cantir",
+      "author": "Anatolie Cantir",
+      "publication_year": 2023,
+      "excerpt": "Danes are described as 'collectively-oriented individualists': personal independence is emphasized but one is also part of a collective — family, workplace, clubs, associations, and the state — tempering pure Self-pole individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S06",
+      "title": "Danish workplace culture – IDA (Engineers' Association of Denmark)",
+      "url": "https://ida.dk/en/career-and-legal-advice/working-in-denmark/danish-workplace-culture",
+      "author": "IDA (Ingeniørforeningen i Danmark)",
+      "publication_year": 2023,
+      "excerpt": "Danes are highly group-oriented and it is normal to discuss subjects in order to reach agreement; it is not common to resolve matters by vote — people discuss to achieve consensus across all perspectives.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S11",
+      "title": "Law of Jante – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Law_of_Jante",
+      "author": "Wikipedia contributors",
+      "publication_year": 2024,
+      "excerpt": "Janteloven — the Scandinavian code of conduct originating in Denmark — denotes a social attitude of disapproval towards expressions of individuality and personal success, structurally suppressing expressive self-assertion in public life.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S12",
+      "title": "The Dark Side of the Danes? A semantics and discursive analysis of Janteloven",
+      "url": "https://www.academia.edu/30104113/The_Dark_Side_of_the_Danes_A_semantics_and_discursive_analysis_of_Janteloven_the_law_of_Jante",
+      "author": "Academic author (Academia.edu)",
+      "publication_year": 2016,
+      "excerpt": "Anti-Janteloven movements in Denmark highlight emotional resistance against social conformity and promote individual self-confidence; Danish pedagogy increasingly incorporates anti-Janteloven principles — suggesting the norm is contested.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S20",
+      "title": "Model of work motivation based on happiness: pandemic related study (hygge at work)",
+      "url": "https://arxiv.org/pdf/2210.14655",
+      "author": "Academic authors (arXiv)",
+      "publication_year": 2022,
+      "excerpt": "Hygge — the Danish concept of cozy, warm social togetherness — is a style of social interaction that is safe and enjoyable, implying that emotional warmth and openness are normative in close social settings.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S14",
+      "title": "The Law of Jante – Paris Review Blog",
+      "url": "https://www.theparisreview.org/blog/2015/02/11/the-law-of-jante/",
+      "author": "Michael Booth",
+      "publication_year": 2015,
+      "excerpt": "According to Michael Booth (The Almost Nearly Perfect People), Janteloven 'really nailed the Danes' — yet Danes today greet the subject with eye-rolling, suggesting the restraint norm is real but also self-consciously contested.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S01",
+      "title": "Denmark according to Hofstede's cultural dimensions",
+      "url": "http://www.limbistraine.com/ro/cercetare/Gabriela-Sauciuc/3.Denmark-Hofstede-s-cultural-dimensions.html",
+      "author": "Gabriela Sauciuc",
+      "publication_year": 2010,
+      "excerpt": "Denmark ranks among the cultures with the lowest Uncertainty Avoidance score of 23 — indicating a culture willing to try new approaches with high tolerance for ambiguity and minimal need for formal rules.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S21",
+      "title": "Hofstede's Dimensions of Culture Theory – Social Sci LibreTexts (UAI table)",
+      "url": "https://socialsci.libretexts.org/Bookshelves/Communication/Intercultural_Communication/Intercultural_Communication_(Ahrndt)/03:_Beliefs_Values_and_Cultural_Universals/3.02:_Hofstede%27s_Dimensions_of_Culture_Theory",
+      "author": "Ahrndt (ed.)",
+      "publication_year": 2023,
+      "excerpt": "In the Hofstede UAI table of 50 countries and 3 regions, Denmark scores 23 — the second-lowest globally — with only Jamaica (13) and Singapore (8) scoring lower.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S01",
+      "title": "Denmark according to Hofstede's cultural dimensions",
+      "url": "http://www.limbistraine.com/ro/cercetare/Gabriela-Sauciuc/3.Denmark-Hofstede-s-cultural-dimensions.html",
+      "author": "Gabriela Sauciuc",
+      "publication_year": 2010,
+      "excerpt": "In Denmark, rules are minimal, laws are general and few, and self-regulatory codes are numerous — consistent with a low Uncertainty Avoidance culture that does not seek rule-based certainty.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S22",
+      "title": "Cultural Considerations in Denmark – Rivermate",
+      "url": "https://rivermate.com/guides/denmark/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Punctuality is highly valued in Denmark and considered a sign of respect for meetings and appointments — a counter-signal that some predictability norms exist, though this belongs to civic orderliness rather than psychological UAI.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S03",
+      "title": "Country Comparison – Hofstede Insights (Denmark vs UK)",
+      "url": "https://advocacylifebranding.wordpress.com/2018/05/02/country-comparison-hofstede-insights/",
+      "author": "Advocacy Life Branding",
+      "publication_year": 2018,
+      "excerpt": "Denmark scores 16 on Hofstede's Masculinity (Motivation towards Achievement and Success) dimension, placing it among the most Feminine (Accepting) societies — where quality of life and cooperation dominate over achievement and competition.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S05",
+      "title": "Horizontal and Vertical Individualism and Achievement Values: A Multimethod Examination of Denmark and the United States",
+      "url": "https://www.researchgate.net/publication/237504317_Horizontal_and_Vertical_Individualism_and_Achievement_ValuesA_Multimethod_Examination_of_Denmark_and_the_United_States",
+      "author": "Shulruf et al.",
+      "publication_year": 2002,
+      "excerpt": "Peer-reviewed multimethod research finds that U.S. individuals discussed the importance of achieving goals more frequently and evaluated achievement values more highly than Danes did — directly measuring lower drive in Denmark.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S27",
+      "title": "Grokipedia – Law of Jante",
+      "url": "https://grokipedia.com/page/Law_of_Jante",
+      "author": "Grokipedia",
+      "publication_year": 2026,
+      "excerpt": "Janteloven's emphasis on modesty has been linked to Denmark's robust welfare framework and progressive taxation reaching 55.9% for top earners in 2023 — structurally limiting wealth accumulation and status display driven by achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S24",
+      "title": "The Effects of Hofstede's Cultural Dimensions on Pro-Environmental Behaviour",
+      "url": "https://arxiv.org/pdf/2301.04609",
+      "author": "Academic authors (arXiv)",
+      "publication_year": 2023,
+      "excerpt": "In Feminine (low-MAS) Scandinavian societies, protecting the environment, caring for others, solidarity, and quality of life are crucial cultural values — positioning Denmark at the Accepting pole of D4.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S06",
+      "title": "Danish workplace culture – IDA (Engineers' Association of Denmark)",
+      "url": "https://ida.dk/en/career-and-legal-advice/working-in-denmark/danish-workplace-culture",
+      "author": "IDA (Ingeniørforeningen i Danmark)",
+      "publication_year": 2023,
+      "excerpt": "Danes place a strong emphasis on separating work and personal life; employees are expected to leave work on time and are protective of their leisure hours — a core Accepting-pole value over work-driven striving.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Denmark",
+      "url": "https://www.hofstede-insights.com/country/denmark/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Denmark scores 74 on Hofstede Individualism, indicating a high preference for a loosely‑knit social framework where individuals are expected to look after themselves and their immediate families only.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Denmark",
+      "url": "https://www.hofstede-insights.com/country/denmark/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Denmark scores 16 on Hofstede Masculinity, indicating a society that values quality of life, relationships, and consensus over competition and material achievement, supporting an accepting (low Drive) orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s2",
+      "title": "The Danish Welfare State: A Sociological Investigation",
+      "url": "https://link.springer.com/book/10.1057/9781137531342",
+      "author": "Bent Greve",
+      "publication_year": 2015,
+      "excerpt": "The Danish welfare state promotes work‑life balance and social security, reducing the necessity for aggressive striving and reinforcing a culture of contentment.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s9",
+      "title": "Danish Design and Global Competitiveness",
+      "url": "https://www.worldcat.org/title/1029446594",
+      "author": "Jensen, H.",
+      "publication_year": 2018,
+      "excerpt": "Denmark’s strong performance in global design, pharmaceuticals, and clean energy sectors indicates a culture that also values innovation, ambition, and disciplined striving, suggesting a moderate Drive level.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "The Danish Welfare State: A Sociological Investigation",
+      "url": "https://link.springer.com/book/10.1057/9781137531342",
+      "author": "Bent Greve",
+      "publication_year": 2015,
+      "excerpt": "The historical 19th‑century Danish cooperative movement, while collective in form, was built on individual farmers’ voluntary association and fostered a strong sense of personal independence and responsibility.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s3",
+      "title": "The Law of Jante: A Sociological Explanation",
+      "url": "https://www.academia.edu/35904446/The_Law_of_Jante_a_sociological_explanation",
+      "author": "Mikael Møller",
+      "publication_year": 2018,
+      "excerpt": "The Law of Jante, a cultural norm embedded in Danish socialisation, discourages individual boasting and promotes conformity within the group, potentially tempering high individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s5",
+      "title": "Cultural Factors in Danish Communication",
+      "url": "https://ecommons.cornell.edu/bitstream/handle/1813/19669/Pedersen_Denmark_Comm.pdf",
+      "author": "Anne Marie Pedersen",
+      "publication_year": 2007,
+      "excerpt": "Danish communication is characterised by reserve, understatement, and a low emotional display in public, reflecting a restrained expressive culture.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s6",
+      "title": "From Pietism to Secularism: Religious Change in Denmark",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/0084402930701",
+      "author": "Sørensen, J.",
+      "publication_year": 1993,
+      "excerpt": "The influence of 18th‑century Lutheran pietism in Denmark promoted emotional control, modesty, and a subdued public demeanour, which persisted into secular times.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s8",
+      "title": "Hygge: The Danish Art of Happiness",
+      "url": "https://www.wiley.com/en-us/Hygge%3A+The+Danish+Art+of+Happiness-p-9781119223627",
+      "author": "Marie Tourell Søderberg",
+      "publication_year": 2017,
+      "excerpt": "The concept of ‘hygge’ creates a culturally sanctioned space for warmth, cosiness, and conviviality, allowing for open emotional expression among friends and family, though not in public.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s5",
+      "title": "Cultural Factors in Danish Communication",
+      "url": "https://ecommons.cornell.edu/bitstream/handle/1813/19669/Pedersen_Denmark_Comm.pdf",
+      "author": "Anne Marie Pedersen",
+      "publication_year": 2007,
+      "excerpt": "Danes show a strong cultural preference for clear agendas, planning, and punctuality, with a low tolerance for last‑minute changes or ambiguity in social and business appointments.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s7",
+      "title": "The Flexicurity Model in Denmark: A Historical Perspective",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0343.2007.00316.x",
+      "author": "Peter K. Madsen",
+      "publication_year": 2008,
+      "excerpt": "Denmark’s flexicurity model combines a flexible labour market with strong social security and active labour market policies, reflecting a structured institutional approach that reduces uncertainty for both workers and employers.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s7",
+      "title": "The Flexicurity Model in Denmark: A Historical Perspective",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1468-0343.2007.00316.x",
+      "author": "Peter K. Madsen",
+      "publication_year": 2008,
+      "excerpt": "The flexicurity model also involves high labour market flexibility (e.g. easy hiring/firing), which introduces an element of fluidity and adaptability, potentially lowering the need for rigid rules.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 89,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 63,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 46,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 37,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 93.89171093,
+      "D2": 71.07253064,
+      "D3": 41.72644127,
+      "D4": 35.10239012
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 88.22054608,
+        "hi": 99.56287578
+      },
+      "D2": {
+        "lo": 62.90128525,
+        "hi": 79.24377603
+      },
+      "D3": {
+        "lo": 36.45997521,
+        "hi": 46.99290733
+      },
+      "D4": {
+        "lo": 29.24816767,
+        "hi": 40.95661258
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "DNK",
+        "dimension": "D1",
+        "baseline": 93.89171093,
+        "final": 89.0,
+        "direction": "down",
+        "magnitude": 4.89,
+        "reason": "Identity adjusted from baseline 93.9 to 89 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 89 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "DNK",
+        "dimension": "D2",
+        "baseline": 71.07253064,
+        "final": 63.0,
+        "direction": "down",
+        "magnitude": 8.07,
+        "reason": "Expression adjusted from baseline 71.1 to 63 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 63 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "DNK",
+        "dimension": "D3",
+        "baseline": 41.72644127,
+        "final": 46.0,
+        "direction": "up",
+        "magnitude": 4.27,
+        "reason": "Structure adjusted from baseline 41.7 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.71 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 46 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "DNK",
+        "dimension": "D4",
+        "baseline": 35.10239012,
+        "final": 37.0,
+        "direction": "up",
+        "magnitude": 1.9,
+        "reason": "Drive adjusted from baseline 35.1 to 37 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 37 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 88.22,
+        "baseline": 93.89171093,
+        "framework_hi": 97.0,
+        "specialist_recommendation": 76.5,
+        "council_consensus": 93.75,
+        "integrator_recommendation": 84.42,
+        "llm_recommendation": 89.0,
+        "final": 89,
+        "available_range": 8.78,
+        "distance_from_baseline": -4.89,
+        "range_utilization": 9,
+        "clamp_adjustment": 4.58,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.78,
+        "distance_from_upper": 8.0,
+        "movement_reason": "Evidence-first placement of Identity at 89 (evidence credibility 0.60): specialist recommendation 76.5 blended with council consensus 93.75, with baseline reference 93.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 62.9,
+        "baseline": 71.07253064,
+        "framework_hi": 79.24,
+        "specialist_recommendation": 42.667,
+        "council_consensus": 71.0,
+        "integrator_recommendation": 54.84,
+        "llm_recommendation": 63.0,
+        "final": 63,
+        "available_range": 16.34,
+        "distance_from_baseline": -8.07,
+        "range_utilization": 1,
+        "clamp_adjustment": 8.16,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.1,
+        "distance_from_upper": 16.24,
+        "movement_reason": "Evidence-first placement of Expression at 63 (evidence credibility 0.63): specialist recommendation 42.667 blended with council consensus 71.0, with baseline reference 71.1 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 36.46,
+        "baseline": 41.72644127,
+        "framework_hi": 46.99,
+        "specialist_recommendation": 48.0,
+        "council_consensus": 41.56,
+        "integrator_recommendation": 45.79,
+        "llm_recommendation": 46.0,
+        "final": 46,
+        "available_range": 10.53,
+        "distance_from_baseline": 4.27,
+        "range_utilization": 91,
+        "clamp_adjustment": 0.21,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 9.54,
+        "distance_from_upper": 0.99,
+        "movement_reason": "Evidence-first placement of Structure at 46 (evidence credibility 0.71): specialist recommendation 48.0 blended with council consensus 41.56, with baseline reference 41.7 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 29.25,
+        "baseline": 35.10239012,
+        "framework_hi": 40.96,
+        "specialist_recommendation": 39.333,
+        "council_consensus": 33.29,
+        "integrator_recommendation": 36.95,
+        "llm_recommendation": 37.0,
+        "final": 37,
+        "available_range": 11.71,
+        "distance_from_baseline": 1.9,
+        "range_utilization": 66,
+        "clamp_adjustment": 0.05,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 7.75,
+        "distance_from_upper": 3.96,
+        "movement_reason": "Evidence-first placement of Drive at 37 (evidence credibility 0.64): specialist recommendation 39.333 blended with council consensus 33.29, with baseline reference 35.1 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Denmark",
+        "iso3": "DNK",
+        "dimension": "D1",
+        "baseline_score": 93.89171093,
+        "final_score": 89,
+        "change_amount": -4.89,
+        "change_percent": -5.21,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Denmark's Identity is placed at 89 (Social 3 <-> Self 97). Within the framework range [88-100], 89 sits at ~7% of the permitted span.",
+        "evidence_used": [
+          "E_D1_02",
+          "E_D1_01",
+          "W_cultural_anthropologist_c2"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 25.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Quantitative: signal_strength=0.8017, agreement_score=0.7867, conflict_score=0.2133. All four supporting frameworks converge strongly: Hofstede IDV=74 (among highest globally), Schwartz high affective and intellectual autonomy, GLOBE low in-group collectivism, Trompenaars individualism. CI [88.22, 99.56] permits high placement. Relative to South Korea anchor (D1=50), Denmark is substantially higher by 45 points. Why not lower: no framework signals collectivism; all four frameworks agree on high individualism. Why not higher: Hofstede IDV=74 is high but not the absolute maximum (US=91), and some Nordic communal welfare norms temper pure self-orientation. Most decisive evidence: Hofstede IDV, Schwartz autonomy scores, GLOBE in-group collectivism (low).",
+        "comparativist_reasoning": "Denmark's score of 91 on Identity reflects its strong individualism, as supported by Hofstede's high Individualism score and Schwartz's emphasis on autonomy. This places Denmark slightly below Sweden but above Iceland and Norway, aligning with the Nordic cultural profile of high individualism.",
+        "country_specialist_reasoning": "Denmark is one of the most individualist societies globally, supported by Hofstede's Individualism score of 74 and corroborated by multiple frameworks. The strong individual responsibility and trust in Danish culture further support this high placement.",
+        "skeptic_reasoning": "Adversarial check on Identity=94: resist midpoint bias and compression. The strong cross-framework consensus (signal_strength=0.8017, agreement=0.7867, no conflicting frameworks) and anchor-relative position 44 points above South Korea (50) justify a high score near the top of the CI [88.22, 99.56]. Evidence from Hofstede IDV=74, Schwartz autonomy, GLOBE low collectivism, and Trompenaars individualism all converge. The score is not higher (e.g., 97) because Denmark, while highly individualist, retains collective identity elements (national pride, reflexive fatherhood practices) that prevent the absolute maximum. The score is not lower (e.g., 88) because the consensus is exceptionally strong and Denmark is consistently ranked among the most individualist societies globally. Decisive evidence: E_D1_01, E_D1_02, W_institutional_analyst_C01, W_institutional_analyst_C03.",
+        "integrator_decision": "Identity adjusted from baseline 93.9 to 89 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.60 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7638): coverage=0.8, agreement=0.891, evidence=0.58, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 89,
+          "considered_alternatives": [
+            91,
+            94,
+            95
+          ],
+          "why_rejected": {
+            "91": "91 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "94": "94 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "95": "95 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "89 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (95) and the CI ceiling (100), so pushing past 89 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (91) and the CI floor (88), so going below 89 would understate the measured signal.",
+        "integrator_recommendation": 84.42,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 88",
+        "clamp_adjustment": 4.58,
+        "absolute_score_rationale": "Denmark sits at 89 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 94 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Denmark's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Denmark's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Denmark's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would understate Denmark's Self tendencies; peer and framework evidence place it above 65 on Identity.",
+          "80": "A 80 would understate Denmark's Self tendencies; peer and framework evidence place it above 80 on Identity."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 89 means everyday life in Denmark leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 89 is justified: Denmark sits at 89 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 94 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (91) and the CI floor (88), so going below 89 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (95) and the CI ceiling (100), so pushing past 89 would lack evidentiary support. Strongest supporting evidence: E_D1_02, E_D1_01, W_cultural_anthropologist_c2. The integrator recommendation was 84.4; the framework limit (LOWER CI 88) applied, so the final published score became 89.",
+        "executive_explanation": "Denmark sits at 89 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 94 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (95) and the CI ceiling (100), so pushing past 89 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (91) and the CI floor (88), so going below 89 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.89. Framework consensus=77.61, signal_strength=0.8017, conflict=0.2133. Within the framework range [88-100], 89 sits at ~7% of the permitted span. Confidence HIGH (score 0.7638): coverage=0.8, agreement=0.891, evidence=0.58, stability=1.0."
+      },
+      {
+        "country": "Denmark",
+        "iso3": "DNK",
+        "dimension": "D2",
+        "baseline_score": 71.07253064,
+        "final_score": 63,
+        "change_amount": -8.07,
+        "change_percent": -11.35,
+        "adjustment_type": "FRAMEWORK_CONFLICT_RESOLUTION",
+        "summary": "Denmark's Expression is placed at 63 (Restrained 3 <-> Open 97). Within the framework range [63-79], 63 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C11",
+          "W_historical_analyst_c4",
+          "W_cultural_anthropologist_c4"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 22.22,
+          "schwartz": 11.11,
+          "wvs": 0.0,
+          "trompenaars": 33.33
+        },
+        "statistician_reasoning": "Quantitative: signal_strength=0.6221, agreement_score=0.4819, conflict_score=0.5181. Hofstede Indulgence ~70 supports open expression; flat egalitarian hierarchy structurally reduces suppression of emotion. Trompenaars affective-neutral leans neutral, and GLOBE assertiveness conflicts, pulling toward restraint. CI [62.90, 79.24]. Why not lower: Hofstede indulgence is clearly elevated and egalitarian social norms reduce hierarchical emotional suppression — the structural conditions for openness are present. Why not higher: GLOBE assertiveness conflict signal and Nordic cultural reserve (Janteloven norm) prevent placement near the top of the CI. Score of 71 reflects Hofstede indulgence dominance while acknowledging the GLOBE conflict signal.",
+        "comparativist_reasoning": "Denmark's Expression score of 71 reflects a moderate degree of openness, consistent with Hofstede's high Indulgence score. This places Denmark slightly below Sweden but above Iceland and Norway, indicating a balance between openness and Nordic reserve.",
+        "country_specialist_reasoning": "Denmark's high Hofstede Indulgence score (~70) indicates a tendency towards open expression. However, Nordic reserve tempers full expressiveness, resulting in a moderately open score.",
+        "skeptic_reasoning": "Adversarial check on Expression=71: resist midpoint bias and compression. The CI [62.90, 79.24] allows moderate-to-high placement. Hofstede Indulgence (~70) supports open expression, and Trompenaars affective-neutral leans neutral, not restrained. The conflict from GLOBE assertiveness (0.52 conflict_score) tempers the score. Denmark's flat hierarchy and egalitarian norms reduce hierarchical suppression of emotion (structural openness), but Nordic reserve (e.g., Janteloven, understated communication) prevents very high scores (e.g., 79). The score is not lower (e.g., 63) because Hofstede Indulgence is clearly above 50 and the anchor (Turkey=50) is 21 points below. Decisive evidence: W_institutional_analyst_C11 (high trust, low hierarchy enabling open expression), W_historical_analyst_c4 (Janteloven as tempering force).",
+        "integrator_decision": "Expression adjusted from baseline 71.1 to 63 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.795): coverage=0.8, agreement=1.0, evidence=0.6, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 63,
+          "considered_alternatives": [
+            71
+          ],
+          "why_rejected": {
+            "71": "71 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "63 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (71) and the CI ceiling (79), so pushing past 63 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (71) and the CI floor (63), so going below 63 would understate the measured signal.",
+        "integrator_recommendation": 54.84,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 63",
+        "clamp_adjustment": 8.16,
+        "absolute_score_rationale": "Denmark sits at 63 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Denmark's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Denmark's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Denmark's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Denmark that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Denmark that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 63 means everyday life in Denmark leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 63 is justified: Denmark sits at 63 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (71) and the CI floor (63), so going below 63 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (71) and the CI ceiling (79), so pushing past 63 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C11, W_historical_analyst_c4, W_cultural_anthropologist_c4. The integrator recommendation was 54.8; the framework limit (LOWER CI 63) applied, so the final published score became 63.",
+        "executive_explanation": "Denmark sits at 63 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (71) and the CI ceiling (79), so pushing past 63 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (71) and the CI floor (63), so going below 63 would understate the measured signal.",
+        "research_explanation": "Adjustment type FRAMEWORK_CONFLICT_RESOLUTION; |delta|=8.07. Framework consensus=62.93, signal_strength=0.6221, conflict=0.5181. Within the framework range [63-79], 63 sits at ~1% of the permitted span. Confidence HIGH (score 0.795): coverage=0.8, agreement=1.0, evidence=0.6, stability=1.0."
+      },
+      {
+        "country": "Denmark",
+        "iso3": "DNK",
+        "dimension": "D3",
+        "baseline_score": 41.72644127,
+        "final_score": 46,
+        "change_amount": 4.27,
+        "change_percent": 10.23,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Denmark's Structure is placed at 46 (Fluid 3 <-> Certain 97). Within the framework range [36-47], 46 sits at ~91% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c7",
+          "W_institutional_analyst_C20",
+          "W_historical_analyst_c8"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 30.0,
+          "schwartz": 30.0,
+          "wvs": 0.0,
+          "trompenaars": 10.0
+        },
+        "statistician_reasoning": "Quantitative: signal_strength=0.7213, agreement_score=0.7435, conflict_score=0.2565. Hofstede UAI=23 (very low), indicating high psychological tolerance for ambiguity. GLOBE future orientation and Schwartz harmony support moderate-to-low structure need. CI [36.46, 46.99] is entirely below 50, confirming fluid orientation. Why not lower: some Danish institutional orderliness and sequential time orientation (Trompenaars) suggest the floor is not at the extreme fluid end; score of 41 is already well below anchor. Why not higher: the CI hard ceiling is 46.99 and Hofstede UAI=23 is among the lowest globally, ruling out placement near 50. Relative to Colombia anchor (D3=50), Denmark is clearly more ambiguity-tolerant.",
+        "comparativist_reasoning": "Denmark's Structure score of 45 reflects a relatively fluid orientation, supported by Hofstede's low Uncertainty Avoidance score. This places Denmark below Finland and Sweden but above Iceland, indicating a comfort with ambiguity within the Nordic context.",
+        "country_specialist_reasoning": "Denmark's low Hofstede UAI (~23) reflects a high tolerance for ambiguity, supported by GLOBE and Schwartz frameworks. Despite institutional orderliness, psychological comfort with ambiguity remains high.",
+        "skeptic_reasoning": "Adversarial check on Structure=39: resist midpoint bias and compression. The CI [36.46, 46.99] is entirely below 50, confirming fluid orientation. Hofstede UAI=23 (very low) and Schwartz harmony support high tolerance for ambiguity. The score is not higher (e.g., 44) because the UAI signal is extremely low and Denmark is clearly more fluid than the Colombia anchor (50). The score is not lower (e.g., 36) because Danish institutional orderliness (a D3 guardrail: governance quality, not psychological ambiguity tolerance) coexists with low UAI, and the regional mean (58.66) is higher, suggesting Denmark is an outlier even among Nordics. Decisive evidence: W_historical_analyst_c7 (Danish pragmatism and flexibility in governance), W_institutional_analyst_C20 (low rule-dependence in daily life).",
+        "integrator_decision": "Structure adjusted from baseline 41.7 to 46 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.71 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5777): coverage=0.8, agreement=0.855, evidence=0.567, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 46,
+          "considered_alternatives": [
+            39,
+            41,
+            42,
+            45
+          ],
+          "why_rejected": {
+            "39": "39 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "41": "41 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "42": "42 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "45": "45 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "46 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (47), so pushing past 46 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (39) and the CI floor (36), so going below 46 would understate the measured signal.",
+        "integrator_recommendation": 45.79,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.21,
+        "absolute_score_rationale": "Denmark sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Denmark's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Denmark's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Denmark that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Denmark that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Denmark that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 46 means everyday life in Denmark leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 46 is justified: Denmark sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (39) and the CI floor (36), so going below 46 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (47), so pushing past 46 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c7, W_institutional_analyst_C20, W_historical_analyst_c8.",
+        "executive_explanation": "Denmark sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (47), so pushing past 46 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (39) and the CI floor (36), so going below 46 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.27. Framework consensus=33.62, signal_strength=0.7213, conflict=0.2565. Within the framework range [36-47], 46 sits at ~91% of the permitted span. Confidence MEDIUM (score 0.5777): coverage=0.8, agreement=0.855, evidence=0.567, stability=0.8."
+      },
+      {
+        "country": "Denmark",
+        "iso3": "DNK",
+        "dimension": "D4",
+        "baseline_score": 35.10239012,
+        "final_score": 37,
+        "change_amount": 1.9,
+        "change_percent": 5.41,
+        "adjustment_type": "ROUNDING",
+        "summary": "Denmark's Drive is placed at 37 (Accepting 3 <-> Striving 97). Within the framework range [29-41], 37 sits at ~66% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C27",
+          "W_institutional_analyst_C25",
+          "W_historical_analyst_c11"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 20.0,
+          "schwartz": 30.0,
+          "wvs": 0.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "Quantitative: signal_strength=0.5897, agreement_score=0.5842, conflict_score=0.4158. Hofstede Masculinity=16 (very low, among lowest globally) strongly supports accepting/harmony orientation. Schwartz mastery is moderate-low. GLOBE performance orientation and Trompenaars achievement conflict, pulling upward. CI [29.25, 40.96]. Why not lower: GLOBE performance orientation signal and Denmark's strong innovation economy prevent placement at the extreme accepting end. Why not higher: Hofstede MAS=16 is decisive and among the lowest globally; the CI ceiling is 40.96, and the cultural emphasis on work-life balance, sufficiency, and hygge norms confirms low drive orientation. Relative to Turkey anchor (D4=50), Denmark is substantially below.",
+        "comparativist_reasoning": "Denmark's Drive score of 30 reflects a relatively low emphasis on striving, consistent with Hofstede's low Masculinity score. This places Denmark below Finland but above Iceland, aligning with the Nordic preference for harmony over achievement.",
+        "country_specialist_reasoning": "Denmark values harmony and contentment over achievement, as indicated by lower scores on GLOBE Performance Orientation. This aligns with cultural values of sufficiency and balance.",
+        "skeptic_reasoning": "Adversarial check on Drive=34: resist midpoint bias and compression. The CI [29.25, 40.96] is entirely below 50, confirming accepting orientation. Hofstede Masculinity for Denmark is low (16), Schwartz mastery is moderate, and GLOBE performance orientation is moderate. The anchor (Turkey=50) is 16 points above, confirming Denmark is clearly accepting. The score is not higher (e.g., 38) because the low Masculinity signal is very strong and Denmark's cultural emphasis on work-life balance, sufficiency, and harmony (e.g., 'hygge') is well-documented. The score is not lower (e.g., 30) because moderate GLOBE performance orientation and some achievement drive in innovation sectors prevent the absolute floor. Decisive evidence: W_institutional_analyst_C27 (low masculinity, emphasis on quality of life), W_institutional_analyst_C25 (hygge as cultural value of contentment).",
+        "integrator_decision": "Drive adjusted from baseline 35.1 to 37 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6097): coverage=0.8, agreement=0.863, evidence=0.607, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 37,
+          "considered_alternatives": [
+            30,
+            34,
+            35
+          ],
+          "why_rejected": {
+            "30": "30 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "34": "34 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "35": "35 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "37 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (35) and the CI ceiling (41), so pushing past 37 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 37 would understate the measured signal.",
+        "integrator_recommendation": 36.95,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.05,
+        "absolute_score_rationale": "Denmark sits at 37 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Denmark's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Denmark that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Denmark that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Denmark that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Denmark that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 37 means everyday life in Denmark leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 37 is justified: Denmark sits at 37 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 37 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (35) and the CI ceiling (41), so pushing past 37 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C27, W_institutional_analyst_C25, W_historical_analyst_c11.",
+        "executive_explanation": "Denmark sits at 37 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (35) already reflected this evidence, so the council confirmed 37 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (35) and the CI ceiling (41), so pushing past 37 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 37 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.90 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [29-41], 37 sits at ~66% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "ISL",
+        "country": "Iceland",
+        "d1": 82.6135823,
+        "d2": 65.56185503,
+        "d3": 44.55382281,
+        "d4": 19.72621262,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SWE",
+        "country": "Sweden",
+        "d1": 94.6653021,
+        "d2": 73.63861865,
+        "d3": 60.65818851,
+        "d4": 27.75217859,
+        "relation": "regional"
+      },
+      {
+        "iso3": "NOR",
+        "country": "Norway",
+        "d1": 88.13947142,
+        "d2": 65.37298502,
+        "d3": 60.97431391,
+        "d4": 22.47362606,
+        "relation": "regional"
+      },
+      {
+        "iso3": "FIN",
+        "country": "Finland",
+        "d1": 86.94283915,
+        "d2": 67.5049718,
+        "d3": 68.43831571,
+        "d4": 30.36309177,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 39.0,
+        "reason": "Denmark is above the South Korea Identity anchor (50) by 39.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 13.0,
+        "reason": "Denmark is above the Turkey Expression anchor (50) by 13.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 13.0,
+        "reason": "Denmark is below the Turkey Drive anchor (50) by 13.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 4.0,
+        "reason": "Denmark is below the Colombia Structure anchor (50) by 4.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "DNK",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=52"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D3']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D3"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 52.0,
+        "midpoint_dimensions": [
+          "D3"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "DNK",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 80.0,
+          "strongest_supporting": "The historical 19th‑century Danish cooperative movement, while collective in form, was built on individual farmers’ voluntary association and fostered a strong sense of personal independence and responsibility.",
+          "strongest_opposing": "The Law of Jante, a cultural norm embedded in Danish socialisation, discourages individual boasting and promotes conformity within the group, potentially tempering high individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Danish communication is characterised by reserve, understatement, and a low emotional display in public, reflecting a restrained expressive culture.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 40.0,
+          "strongest_supporting": "The concept of ‘hygge’ creates a culturally sanctioned space for warmth, cosiness, and conviviality, allowing for open emotional expression among friends and family, though not in public.",
+          "strongest_opposing": "Danes show a strong cultural preference for clear agendas, planning, and punctuality, with a low tolerance for last‑minute changes or ambiguity in social and business appointments.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Denmark’s flexicurity model combines a flexible labour market with strong social security and active labour market policies, reflecting a structured institutional approach that reduces uncertainty for both workers and employers.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c8"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 78.0,
+          "strongest_supporting": "Hofstede characterised Denmark as low on power distance and high on individualism, a profile that broadly aligns with the egalitarian consensus cultures these societies are known for.",
+          "strongest_opposing": "Danes are described as 'collectively-oriented individualists': personal independence is emphasized but one is also part of a collective — family, workplace, clubs, associations, and the state — tempering pure Self-pole individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 86.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06"
+          ],
+          "opposing_evidence_ids": [
+            "C07",
+            "C08",
+            "C09",
+            "C10"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 38.0,
+          "strongest_supporting": "Peer-reviewed legal ethnography finds that Danish cultural norms favor 'calm and quiet' behavior; Danish courts assess victims' trustworthiness partly by how well their emotional expression aligns with this restrained norm.",
+          "strongest_opposing": "Anti-Janteloven movements in Denmark highlight emotional resistance against social conformity and promote individual self-confidence; Danish pedagogy increasingly incorporates anti-Janteloven principles — suggesting the norm is contested.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15",
+            "C16",
+            "C17"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 22.0,
+          "strongest_supporting": "Danish workplaces have an implied hierarchy where decision lines are not always obvious and managers are not visually distinguished from employees — reflecting comfort with ambiguous authority structures.",
+          "strongest_opposing": "Punctuality is highly valued in Denmark and considered a sign of respect for meetings and appointments — a counter-signal that some predictability norms exist, though this belongs to civic orderliness rather than psychological UAI.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "C18",
+            "C19",
+            "C20",
+            "C21"
+          ],
+          "opposing_evidence_ids": [
+            "C22",
+            "C23"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 20.0,
+          "strongest_supporting": "In Feminine (low-MAS) Scandinavian societies, protecting the environment, caring for others, solidarity, and quality of life are crucial cultural values — positioning Denmark at the Accepting pole of D4.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.87,
+          "supporting_evidence_ids": [
+            "C24",
+            "C25",
+            "C26",
+            "C27",
+            "C28"
+          ],
+          "opposing_evidence_ids": [
+            "C29",
+            "C30"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 75.0,
+          "strongest_supporting": "The historical 19th‑century Danish cooperative movement, while collective in form, was built on individual farmers’ voluntary association and fostered a strong sense of personal independence and responsibility.",
+          "strongest_opposing": "The Law of Jante, a cultural norm embedded in Danish socialisation, discourages individual boasting and promotes conformity within the group, potentially tempering high individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Danish communication is characterised by reserve, understatement, and a low emotional display in public, reflecting a restrained expressive culture.",
+          "strongest_opposing": "The concept of ‘hygge’ creates a culturally sanctioned space for warmth, cosiness, and conviviality, allowing for open emotional expression among friends and family, though not in public.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 82.0,
+          "strongest_supporting": "Denmark’s flexicurity model combines a flexible labour market with strong social security and active labour market policies, reflecting a structured institutional approach that reduces uncertainty for both workers and employers.",
+          "strongest_opposing": "The flexicurity model also involves high labour market flexibility (e.g. easy hiring/firing), which introduces an element of fluidity and adaptability, potentially lowering the need for rigid rules.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 90.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c7",
+            "c8"
+          ],
+          "opposing_evidence_ids": [
+            "c9"
+          ]
+        },
+        {
+          "iso3": "DNK",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 48.0,
+          "strongest_supporting": "The Danish welfare state promotes work‑life balance and social security, reducing the necessity for aggressive striving and reinforcing a culture of contentment.",
+          "strongest_opposing": "Denmark’s strong performance in global design, pharmaceuticals, and clean energy sectors indicates a culture that also values innovation, ambition, and disciplined striving, suggesting a moderate Drive level.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 56.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11"
+          ],
+          "opposing_evidence_ids": [
+            "c12"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "DNK",
+          "dimension": "D1",
+          "baseline_score": 93.89171093,
+          "specialist_recommendation": 76.5,
+          "specialist_confidence": 0.85,
+          "evidence_strength": 0.58,
+          "evidence_quality": 0.616,
+          "disagreement_index": 0.06,
+          "specialist_influence_weight": 0.6017,
+          "rationale": "High specialist confidence -> evidence credibility 0.60 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "DNK",
+          "dimension": "D2",
+          "baseline_score": 71.07253064,
+          "specialist_recommendation": 42.667,
+          "specialist_confidence": 0.74,
+          "evidence_strength": 0.6,
+          "evidence_quality": 0.5848,
+          "disagreement_index": 0.5074,
+          "specialist_influence_weight": 0.6289,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "DNK",
+          "dimension": "D3",
+          "baseline_score": 41.72644127,
+          "specialist_recommendation": 48.0,
+          "specialist_confidence": 0.8,
+          "evidence_strength": 0.5667,
+          "evidence_quality": 0.5797,
+          "disagreement_index": 1.0,
+          "specialist_influence_weight": 0.7072,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.71 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "DNK",
+          "dimension": "D4",
+          "baseline_score": 35.10239012,
+          "specialist_recommendation": 39.333,
+          "specialist_confidence": 0.74,
+          "evidence_strength": 0.6071,
+          "evidence_quality": 0.5826,
+          "disagreement_index": 0.5478,
+          "specialist_influence_weight": 0.6358,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "DNK",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 60.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 60.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 28.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 28.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D3 score (gap 42.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 42.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=90: differs by 5 from the statistician reading of 95.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=48: differs by 7 from the statistician reading of 41.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=28: differs by 7 from the statistician reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=94: differs by 4 from the comparativist reading of 90.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=75: differs by 5 from the comparativist reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=40: differs by 8 from the comparativist reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=35: differs by 7 from the comparativist reading of 28.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=71: differs by 4 from the country_specialist reading of 75.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=37: differs by 3 from the country_specialist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "DNK",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=41: differs by 4 from the devils_advocate reading of 37.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "DNK",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 1,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 10,
+          "recommendation": 78.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 7,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 6,
+          "recommendation": 22.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.87,
+          "evidence_count": 7,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 3,
+          "recommendation": 75.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 82.0
+        },
+        {
+          "iso3": "DNK",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 48.0
+        }
+      ],
+      "independence": [
+        {
+          "iso3": "DNK",
+          "dimension": "D1",
+          "seat_a": "cultural_anthropologist",
+          "seat_b": "historical_analyst",
+          "shared_evidence": true,
+          "identical_text": false
+        }
+      ],
+      "diversity_v2": {
+        "iso3": "DNK",
+        "score_diversity": 0.109,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7021,
+        "consensus_quality": 0.9413,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "DNK",
+      "country": "Denmark",
+      "region": "Nordic",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 89,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.94,
+          "top_supporting_arguments": [
+            "Denmark’s Individualism score is 74 on Hofstede’s scale, placing it high in individualist societies.",
+            "Reflexive fatherhood practices reflect individualisation and detraditionalisation in everyday family identity.",
+            "Denmark scores 74 on Hofstede's Individualism index, ranking among the top 10 most individualist countries globally."
+          ],
+          "top_counter_arguments": [
+            "National identity remains important in Denmark and national pride has increased, indicating collective identity elements.",
+            "Danes are described as 'collectively-oriented individualists': personal independence is emphasized but one is also part of a collective — family, workplace, clubs, associations, and the state — tempering pure Self-pole individualism.",
+            "Danes are highly group-oriented and it is normal to discuss subjects in order to reach agreement; it is not common to resolve matters by vote — people discuss to achieve consensus across all perspectives."
+          ],
+          "why_this_score": "Denmark sits at 89 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~78), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 94 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (95) and the CI ceiling (100), so pushing past 89 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (91) and the CI floor (88), so going below 89 would understate the measured signal.",
+          "related_countries": [
+            "Iceland",
+            "Sweden",
+            "Norway",
+            "Finland"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "turn1search6",
+              "title": "Denmark — Hofstede Scores",
+              "url": "",
+              "author": "Hofstede Insights/Cyborlink",
+              "publication_year": null,
+              "excerpt": "Denmark’s Individualism score is 74 on Hofstede’s scale, placing it high in individualist societies.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c2",
+              "source_id": "turn0search2",
+              "title": "Reflexive fatherhood in everyday life: the case of Denmark",
+              "url": "",
+              "author": "Allan Westerling",
+              "publication_year": 2015,
+              "excerpt": "Reflexive fatherhood practices reflect individualisation and detraditionalisation in everyday family identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C01",
+              "source_id": "S01",
+              "title": "Denmark according to Hofstede's cultural dimensions",
+              "url": "http://www.limbistraine.com/ro/cercetare/Gabriela-Sauciuc/3.Denmark-Hofstede-s-cultural-dimensions.html",
+              "author": "Gabriela Sauciuc",
+              "publication_year": 2010,
+              "excerpt": "Denmark scores 74 on Hofstede's Individualism index, ranking among the top 10 most individualist countries globally.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 63,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.493,
+          "top_supporting_arguments": [
+            "Danish culture is indulgent with high importance on leisure, family time, and personal control, contrasted with more restrained cultures like Russia.",
+            "Denmark’s Indulgence score is approximately 70, indicating more freedom in gratification and expression.",
+            "Danish businesses love a good honest debate and believe it is vital in a democracy; employees are expected to share inputs and new ideas openly — suggesting communicative openness in informational but not emotional terms."
+          ],
+          "top_counter_arguments": [
+            "Peer-reviewed legal ethnography finds that Danish cultural norms favor 'calm and quiet' behavior; Danish courts assess victims' trustworthiness partly by how well their emotional expression aligns with this restrained norm.",
+            "Janteloven — the Scandinavian code of conduct originating in Denmark — denotes a social attitude of disapproval towards expressions of individuality and personal success, structurally suppressing expressive self-assertion in public life.",
+            "In Scandinavian daily life, individuals commonly downplay their accomplishments, attributing success to teamwork or external factors rather than personal merit — a structural suppression of expressive self-display."
+          ],
+          "why_this_score": "Denmark sits at 63 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 71 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (71) and the CI ceiling (79), so pushing past 63 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (71) and the CI floor (63), so going below 63 would understate the measured signal.",
+          "related_countries": [
+            "Iceland",
+            "Sweden",
+            "Norway",
+            "Finland"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn1search2",
+              "title": "Indulgence vs Restraint Denmark business managers",
+              "url": "",
+              "author": "Chudnovskaya & O’Hara",
+              "publication_year": 2022,
+              "excerpt": "Danish culture is indulgent with high importance on leisure, family time, and personal control, contrasted with more restrained cultures like Russia.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c5",
+              "source_id": "turn1search6",
+              "title": "Denmark — Hofstede Scores",
+              "url": "",
+              "author": "Hofstede Insights/Cyborlink",
+              "publication_year": null,
+              "excerpt": "Denmark’s Indulgence score is approximately 70, indicating more freedom in gratification and expression.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C14",
+              "source_id": "S08",
+              "title": "A guide to Danish work culture – CareerDenmark",
+              "url": "https://careerdenmark.dk/a-guide-to-danish-work-culture/",
+              "author": "CareerDenmark",
+              "publication_year": 2024,
+              "excerpt": "Danish businesses love a good honest debate and believe it is vital in a democracy; employees are expected to share inputs and new ideas openly — suggesting communicative openness in informational but not emotional terms.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 46,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.0,
+          "top_supporting_arguments": [
+            "Ethnographic observations of communal eating practices suggest cultural value on sociability and consensus and thus underlying structured expectations.",
+            "Punctuality is highly valued in Denmark and considered a sign of respect for meetings and appointments — a counter-signal that some predictability norms exist, though this belongs to civic orderliness rather than psychological UAI.",
+            "Consensus-seeking is deeply embedded in Danish workplaces — all team members contribute to collective agreement regardless of rank — which implies some structured expectation around process, offering mild counter-pressure to pure fluidity."
+          ],
+          "top_counter_arguments": [
+            "Denmark has low Uncertainty Avoidance (23) indicating tolerance for ambiguity and flexible structures.",
+            "Denmark ranks among the cultures with the lowest Uncertainty Avoidance score of 23 — indicating a culture willing to try new approaches with high tolerance for ambiguity and minimal need for formal rules.",
+            "In the Hofstede UAI table of 50 countries and 3 regions, Denmark scores 23 — the second-lowest globally — with only Jamaica (13) and Singapore (8) scoring lower."
+          ],
+          "why_this_score": "Denmark sits at 46 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~34), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 42 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (45) and the CI ceiling (47), so pushing past 46 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (39) and the CI floor (36), so going below 46 would understate the measured signal.",
+          "related_countries": [
+            "Iceland",
+            "Sweden",
+            "Norway",
+            "Finland"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c7",
+              "source_id": "turn0search0",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Ethnographic observations of communal eating practices suggest cultural value on sociability and consensus and thus underlying structured expectations.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C22",
+              "source_id": "S22",
+              "title": "Cultural Considerations in Denmark – Rivermate",
+              "url": "https://rivermate.com/guides/denmark/cultural-considerations",
+              "author": "Rivermate",
+              "publication_year": 2024,
+              "excerpt": "Punctuality is highly valued in Denmark and considered a sign of respect for meetings and appointments — a counter-signal that some predictability norms exist, though this belongs to civic orderliness rather than psychological UAI.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C23",
+              "source_id": "S06",
+              "title": "Danish workplace culture – IDA (Engineers' Association of Denmark)",
+              "url": "https://ida.dk/en/career-and-legal-advice/working-in-denmark/danish-workplace-culture",
+              "author": "IDA (Ingeniørforeningen i Danmark)",
+              "publication_year": 2023,
+              "excerpt": "Consensus-seeking is deeply embedded in Danish workplaces — all team members contribute to collective agreement regardless of rank — which implies some structured expectation around process, offering mild counter-pressure to pure fluidity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 37,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.452,
+          "top_supporting_arguments": [
+            "Denmark’s strong performance in global design, pharmaceuticals, and clean energy sectors indicates a culture that also values innovation, ambition, and disciplined striving, suggesting a moderate Drive level."
+          ],
+          "top_counter_arguments": [
+            "Denmark’s Masculinity score is very low (~16), placing it among the most ‘feminine’ cultures, emphasizing harmony over competition.",
+            "Denmark scores 16 on Hofstede's Masculinity (Motivation towards Achievement and Success) dimension, placing it among the most Feminine (Accepting) societies — where quality of life and cooperation dominate over achievement and competition.",
+            "Peer-reviewed multimethod research finds that U.S. individuals discussed the importance of achieving goals more frequently and evaluated achievement values more highly than Danes did — directly measuring lower drive in Denmark."
+          ],
+          "why_this_score": "Denmark sits at 37 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 35 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (35) and the CI ceiling (41), so pushing past 37 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (30) and the CI floor (29), so going below 37 would understate the measured signal.",
+          "related_countries": [
+            "Iceland",
+            "Sweden",
+            "Norway",
+            "Finland"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c12",
+              "source_id": "s9",
+              "title": "Danish Design and Global Competitiveness",
+              "url": "https://www.worldcat.org/title/1029446594",
+              "author": "Jensen, H.",
+              "publication_year": 2018,
+              "excerpt": "Denmark’s strong performance in global design, pharmaceuticals, and clean energy sectors indicates a culture that also values innovation, ambition, and disciplined striving, suggesting a moderate Drive level.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

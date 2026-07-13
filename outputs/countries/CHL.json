@@ -1,0 +1,2489 @@
+{
+  "iso3": "CHL",
+  "country": "Chile",
+  "region": "South America",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T08:34:40.676788+00:00",
+  "cultural_profile": {
+    "iso3": "CHL",
+    "country": "Chile",
+    "region": "South America",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 51,
+        "reading": "Balanced",
+        "explanation": "Chile's society is highly collectivist, with strong ties to family and social networks, where group loyalty often takes precedence over individual goals."
+      },
+      {
+        "dimension": "D2",
+        "score": 64,
+        "reading": "Expressive",
+        "explanation": "Chilean communication is characterized by indirectness and a preference for face-saving, reflecting a cultural restraint on open emotional expression."
+      },
+      {
+        "dimension": "D3",
+        "score": 72,
+        "reading": "Highly structured",
+        "explanation": "Chile has a high preference for rules and structure, with a strong reliance on formal procedures and authority figures to maintain order."
+      },
+      {
+        "dimension": "D4",
+        "score": 38,
+        "reading": "Relaxed",
+        "explanation": "While Chileans value quality of life and relationships, there's a burgeoning entrepreneurial spirit that reflects a moderate drive for success."
+      }
+    ],
+    "executive_summary": "In Chile, family and social networks are the backbone of society, emphasizing collective identity over individual pursuits. The country values indirect communication and face-saving, fostering a culture of harmony and respect. Despite a strong need for structure and predictability, there's a growing entrepreneurial spirit among urban professionals. Chile's history of inequality and centralized authority continues to shape its social and economic landscape.",
+    "cultural_archetype": {
+      "title": "The Harmonious Networker",
+      "summary": "A society deeply rooted in family ties and social harmony, where relationships and collective identity are paramount.",
+      "claim_ids": [
+        "c01",
+        "c02",
+        "c06"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Family-oriented projects",
+      "Relationship-based networking",
+      "Structured business environments",
+      "Entrepreneurial ventures"
+    ],
+    "culture_at_a_glance": [
+      "In Chile, 'la familia' and 'confianza' are central to social and economic life, with strong obligations to immediate and extended family.",
+      "A cultural preference for indirect communication and face-saving is well-documented, indicating structural restraint on open expression of negative emotion.",
+      "Economic modernization and the rise of the 'emprendedor' culture in urban sectors reflect a strong performance and meritocratic drive.",
+      "Indirect communication and face-saving are common, with a preference for avoiding open confrontation and criticism.",
+      "The importance of family and social networks is immediately evident, with strong ties to group identity and loyalty.",
+      "Indirect communication and face-saving are prevalent, requiring newcomers to read between the lines in interactions."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Familial Foundations",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 46,
+          "framework_agreement": 79,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in daily life sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "In Chile, 'la familia' and 'confianza' are central to social and economic life, with strong obligations to immediate and extended family.",
+            "claim_ids": [
+              "c2",
+              "c03",
+              "c04"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Historical migration patterns and a homogeneous society until the late 20th century reinforced collective identities around local homeland and family.",
+            "claim_ids": [
+              "c3"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Indirect Expression",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 46,
+          "framework_agreement": 66,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "A cultural preference for indirect communication and face-saving is well-documented, indicating structural restraint on open expression of negative emotion.",
+            "claim_ids": [
+              "c5",
+              "c6",
+              "c15"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Emerging Entrepreneurship",
+        "confidence": {
+          "evidence_strength": 47,
+          "expert_agreement": 64,
+          "framework_agreement": 94,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is limited and concentrated in success factor sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Economic modernization and the rise of the 'emprendedor' culture in urban sectors reflect a strong performance and meritocratic drive.",
+            "claim_ids": [
+              "c13",
+              "c27"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The Pinochet dictatorship's suppression of public dissent and emotional political openness created a lasting legacy of caution in public emotional display.",
+        "claim_ids": [
+          "c5"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Chile's centralized state and strong legal-rational authority have historically reinforced a cultural expectation of orderly public life.",
+        "claim_ids": [
+          "c10"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Autonomy",
+        "explanation": "While Chile maintains a strong collective identity, recent social movements and economic changes reflect a growing desire for individual autonomy.",
+        "claim_ids": [
+          "c4",
+          "c8",
+          "c09"
+        ],
+        "sources_count": 3
+      },
+      {
+        "pulls_toward": "Structured Order",
+        "but_also": "Entrepreneurial Flexibility",
+        "explanation": "Chile's preference for structure coexists with an emerging entrepreneurial spirit that challenges traditional norms.",
+        "claim_ids": [
+          "c13",
+          "c27",
+          "c11"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Family units often include extended families living in close proximity, with a cultural emphasis on what is best for the group.",
+          "claim_ids": [
+            "c03"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Personal connections ('pitutos') are crucial for career advancement, reflecting the importance of trust and relationships in the workplace.",
+          "claim_ids": [
+            "c05"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Indirect communication and face-saving are common, with a preference for avoiding open confrontation and criticism.",
+          "claim_ids": [
+            "c6",
+            "c15"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "In private settings and during festivals, Chileans display warmth and open emotion, contrasting with their reserved public demeanor.",
+          "claim_ids": [
+            "c7"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Chile's society is highly collectivist, with identity based on group membership and a strong preference for rules and predictability.",
+          "claim_ids": [
+            "c1",
+            "c8"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Avoid open confrontation and public criticism, as these can damage trust and relationships in a culture that values harmony.",
+          "claim_ids": [
+            "c16"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Life in Chile revolves around family and social networks, with a strong emphasis on collective identity and harmony. While public interactions are often reserved, private gatherings are filled with warmth and emotion. Navigating social and professional settings requires understanding the importance of indirect communication and personal connections.",
+      "claim_ids": [
+        "c03",
+        "c05",
+        "c6",
+        "c7"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The importance of family and social networks is immediately evident, with strong ties to group identity and loyalty.",
+        "claim_ids": [
+          "c1",
+          "c2"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Indirect communication and face-saving are prevalent, requiring newcomers to read between the lines in interactions.",
+        "claim_ids": [
+          "c6",
+          "c15"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "A strong preference for rules and structure is noticeable, with a reliance on formal procedures and authority figures.",
+        "claim_ids": [
+          "c8",
+          "c17"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Embracing the entrepreneurial spirit and adapting to the meritocratic drive in urban sectors can lead to success.",
+        "claim_ids": [
+          "c13",
+          "c27"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to navigate the indirect communication style and face-saving norms can lead to misunderstandings and damaged relationships.",
+        "claim_ids": [
+          "c15",
+          "c16"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Overlooking the importance of family and group consensus in decision-making can result in social friction.",
+        "claim_ids": [
+          "c03",
+          "c04"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c04"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "c7"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "c04"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "c2",
+          "c04"
+        ],
+        "sources_count": 2
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "c05",
+          "c26"
+        ],
+        "sources_count": 2
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "No quedar mal",
+        "meaning": "Avoiding embarrassment or loss of face is crucial in interactions.",
+        "claim_ids": [
+          "c6",
+          "c15"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "Collectivist",
+        "younger": "Individualistic",
+        "claim_ids": [
+          "c4",
+          "c09"
+        ],
+        "sources_count": 2
+      },
+      {
+        "axis": "Economic",
+        "older": "Traditional employment",
+        "younger": "Entrepreneurial",
+        "claim_ids": [
+          "c08",
+          "c13"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals are increasingly embracing individualism and entrepreneurship, while rural communities remain more traditional and collectivist.",
+        "claim_ids": [
+          "c08",
+          "c09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "URY",
+        "country": "Uruguay",
+        "similarity": 93,
+        "explanation": "Chile and Uruguay both emphasize strong family ties and social networks, but Chile's history of centralized authority and inequality gives it a unique social dynamic.",
+        "claim_ids": [
+          "c1",
+          "c28"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "BOL",
+        "country": "Bolivia",
+        "similarity": 89,
+        "explanation": "Both Chile and Bolivia value collectivism and have strong cultural ties to family, yet Chile's economic modernization and entrepreneurial spirit set it apart.",
+        "claim_ids": [
+          "c1",
+          "c13"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "BRA",
+        "country": "Brazil",
+        "similarity": 89,
+        "explanation": "Chile shares Brazil's emphasis on social networks and indirect communication, but Chile's preference for structure and predictability contrasts with Brazil's more fluid approach.",
+        "claim_ids": [
+          "c6",
+          "c8"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "PER",
+        "country": "Peru",
+        "similarity": 86,
+        "explanation": "Chile and Peru both have strong collectivist cultures, yet Chile's focus on rules and structure is more pronounced, reflecting its high Uncertainty Avoidance.",
+        "claim_ids": [
+          "c1",
+          "c17"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Centralized Authority Legacy",
+        "explanation": "Chile's history of centralized authority and legal-rational structures has left a lasting impact on its preference for order and predictability, distinguishing it from its neighbors.",
+        "claim_ids": [
+          "c10",
+          "c17"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Entrepreneurial Emergence",
+        "explanation": "The rise of entrepreneurial culture in Chile's urban sectors marks a shift towards individualism and meritocracy, setting it apart from more traditional regional counterparts.",
+        "claim_ids": [
+          "c13",
+          "c27"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More reserved than Argentina",
+        "dimension": "D2",
+        "neighbour_iso3": "ARG",
+        "delta": -21
+      },
+      {
+        "text": "More structured than Peru",
+        "dimension": "D3",
+        "neighbour_iso3": "PER",
+        "delta": 18
+      },
+      {
+        "text": "More easygoing than Brazil",
+        "dimension": "D4",
+        "neighbour_iso3": "BRA",
+        "delta": -18
+      },
+      {
+        "text": "More independent than Bolivia",
+        "dimension": "D1",
+        "neighbour_iso3": "BOL",
+        "delta": 17
+      },
+      {
+        "text": "More easygoing than Argentina",
+        "dimension": "D4",
+        "neighbour_iso3": "ARG",
+        "delta": -14
+      },
+      {
+        "text": "More easygoing than Peru",
+        "dimension": "D4",
+        "neighbour_iso3": "PER",
+        "delta": -12
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "The Chilean context shows relational personhood and collectivist undercurrents in everyday friendship and solidarity networks. Ethnographic research on Chilean migrant women’s friendships highlights ‘hostile friendships’ embedded in mutual survival and care, rather than individualistic voluntary affinity — a collectivist pattern lowering Identity score slightly (D1 low). Meanwhile, the Mapuche trafkintu reciprocity practices embed identity in collective ecological exchange, reinforcing collectivist lean. But middle‑class pituto exchange rooted in personal favors indicates pockets of individualist instrumental relations which nudge upwards.",
+          "suggested_score": 45
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Chile's Hofstede Individualism score is 23 — the anchor signal — placing it firmly in the collectivist (Social) quadrant and far below the global midpoint. This is corroborated by multiple independent sources: extended-family co-residence, group consensus in decision-making, the primacy of loyalty over rules, paternalistic management norms, and the centrality of 'pitutos' (personal connections) for career advancement. PMC peer-reviewed research confirms Chileans score highly on interdependent self-construal. The only counter-evidence is a nascent trend toward greater individualism among the expanding middle class and mobile urban youth, but this is a tentative future trajectory, not the current base rate. Per the anchor rule, IDV=23 maps to a score of ~18 on the 3–97 Social↔Self scale.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Chilean national identity is historically strongly collective, with family, kinship networks (la familia), and regional/local communities (el pueblo, la población) providing the primary sense of self. Hofstede's Individualism score for Chile is 23, placing it among the more collectivist societies globally. This is supported by historical and ethnographic evidence of strong family obligation, group loyalty, and the importance of personal relationships (confianza) over impersonal rules.",
+          "suggested_score": 23
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence around conviviality in community cultural spaces emphasizes negotiation amid conflict: emotional expression occurs but is structured and politically inflected — supporting moderately open expression. The everyday convivial tensions suggest allowances for expression, though within negotiation limits — Open lean.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Chile scores 68 on Hofstede's Indulgence dimension, indicating a culture that values leisure, enjoyment, and personal expression. Multiple practitioner and institutional sources describe Chileans as emotionally expressive in conversation — animated, willing to interrupt as a sign of engagement, physically demonstrative (close proximity, physical contact), with emotions playing an explicit role in negotiation. The Culture Factor (Hofstede Insights) confirms people are 'inclined to enjoy life with a positive, optimistic outlook,' exemplified by Fiestas Patrias celebrations. This supports a moderately-Open score. The counter-evidence is real: formal hierarchical settings suppress direct confrontation, public criticism is avoided, and indirect communication is the default in formal contexts. This hierarchy-based suppression pulls the score down from an extreme. Net: Open but not maximally so — scored ~62.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Chile is often described as a more reserved or restrained society in public emotional expression compared to many Latin American neighbors. This has roots in a historical culture of formality and respect (respeto), and in the legacy of the Pinochet dictatorship (1973-1990) which suppressed public dissent and emotional-political expression. Counter-evidence exists in the more open affect within private family settings and during outdoor celebrations (e.g., Fiestas Patrias), but the public baseline is restrained.",
+          "suggested_score": 35
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ethnography on Chiloé’s visiting rituals and reciprocal hospitality reveals formalized expectations and prompt reciprocation — strong structured norms. Commensality in Santiago reinforcing cohesion via shared norms adds to structured expectations. These everyday normative obligations indicate a somewhat high Structure.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Chile's Uncertainty Avoidance Index is 86, one of the highest measured scores in the Americas. This is the strongest single anchor for D3. Three independent sources (Hofstede Insights/Culture Factor, CyborLink, GVSU academic paper) consistently describe this as a strong need for rules, regulations, legal documentation of all business deals, reliance on expert authority, and resistance to change or unfamiliar circumstances. The MDPI peer-reviewed study of Chilean workers found uncertainty avoidance was the dimension with the highest scores in Chilean samples. The counter-evidence — fluid meeting times and particularistic application of rules ('not all rules apply to everyone all the time') — reflects a gap between the formal need for certainty and social particularism, but does not contradict the underlying psychological preference for structure. This is scored at 80 (slightly below the raw UAI=86 to account for the fluid/particularist counter-evidence).",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Chile has a relatively high need for structure, order, and predictability, reflected in its strong institutionalism, legalism, and the cultural value placed on regulations, punctuality, and bureaucracy (el trámite). This is partly rooted in a tradition of state-led development (e.g., the 'Estado empresario') and the country's position as one of the more orderly and rule-bound societies in Latin America. Counter-evidence from the 2019 social protests highlights a public desire for less rigidity, but the cultural baseline remains comparatively high-structure.",
+          "suggested_score": 75
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "The evidence does not point strongly toward either high striving or accepting orientation. The reciprocity practices and solidarity among migrants denote mutual care rather than achievement drive. With only modest evidence, the culture appears balanced.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Chile's Hofstede Masculinity score is 28 — well below the global mean and among the lowest in Latin America (vs. regional average of 48). Multiple sources describe a 'feminine' culture that prioritizes relationships and quality of life over competition and achievement. The Hofstede academic paper (Hofstede et al. 2010) explicitly categorizes Chile as 'moderately low' on masculinity alongside Portugal and Korea. Workplace norms emphasize consensus, paternalism, and caring for employees beyond job performance. Counter-evidence exists: Chile has a highly competitive university system, a neoliberal economic legacy that rewards elite performance, and structural inequality (Gini ~43, Harvard Kennedy School data) that suggests strong striving at the elite level. However, elite-level structural inequality is not the same as a broadly diffused cultural drive — the 2019 social explosion was precisely a mass rejection of the achievement/competition ideology imposed by that elite model. The Hofstede anchor at MAS=28 maps to a score of ~32 on the Accepting↔Striving scale.",
+          "suggested_score": 32
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Chile's cultural drive is mixed. It has a strong work ethic and achievement orientation, especially in middle- and upper-class urban contexts (rooted in Protestant-influenced values and economic modernization). However, there is also a notable value placed on personal relationships, quality of life, and harmony (no quedar mal) in many settings, which tempers pure striving. The Hofstede Masculinity dimension (which contributes but is not identical to Drive) for Chile is 63, suggesting above-average drive, but cultural evidence of conflict avoidance and social harmony balances this downward.",
+          "suggested_score": 45
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "c01",
+      "source_id": "S02",
+      "title": "Chile — Business Etiquette, Culture & Manners | CyborLink",
+      "url": "https://www.cyborlink.com/besite/chile.htm",
+      "author": "CyborLink Editorial",
+      "publication_year": 2024,
+      "excerpt": "Chile's Hofstede Individualism score is 23, reflecting a collectivist culture with deep commitment to family, extended family, and close relationships, where loyalty overrides most other societal rules.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c02",
+      "source_id": "S09",
+      "title": "East-West, Collectivist-Individualist: A Cross-Cultural Examination of Temperament in Toddlers from Chile, Poland, South Korea, and the U.S",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5761731/",
+      "author": "PMC / NIH",
+      "publication_year": 2018,
+      "excerpt": "Chile is described in peer-reviewed cross-cultural research as 'highly collectivistic,' receiving a score of 23 on Hofstede's orientation ratings — one of the lower individualism scores measured globally.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c03",
+      "source_id": "S05",
+      "title": "The Role of Culture and Family in Business in Chile",
+      "url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1424&context=honorsprojects",
+      "author": "Hayley M. Garner",
+      "publication_year": 2015,
+      "excerpt": "The family unit in Chile includes extended families that often live in close proximity to each other, and the culture has traditionally operated by thinking in terms of what is best for the group.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c04",
+      "source_id": "S04",
+      "title": "Cultural Differences Between Chile and The United States",
+      "url": "https://danielguim.com/2019/09/26/cultural-differences-between-chile-and-the-united-states/",
+      "author": "Daniel Guim",
+      "publication_year": 2019,
+      "excerpt": "Chileans tend to live with parents until marriage; moving abroad is sometimes perceived as abandonment of the family rather than individual goal-pursuit; group consensus is valued in decision-making.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c05",
+      "source_id": "S13",
+      "title": "Chilean Business Culture — Cultural Atlas (SBS Australia)",
+      "url": "https://culturalatlas.sbs.com.au/chilean-culture/chilean-culture-business-culture",
+      "author": "SBS Cultural Atlas",
+      "publication_year": 2023,
+      "excerpt": "Chileans use 'pitutos' (personal connections) to speed up procedures, get introductions, and gain career advantages; for many, nepotism is positively received and believed to guarantee trust.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c06",
+      "source_id": "S19",
+      "title": "Negotiating International Business — Chile",
+      "url": "https://instruction2.mtsac.edu/rjagodka/busm_51_project/Negotiate_html/Chile.htm",
+      "author": "MT SAC Business Faculty",
+      "publication_year": 2015,
+      "excerpt": "Chile's culture is generally group-oriented; asserting individual preferences may be seen as less important than having a sense of belonging to a group, conforming to its norms, and maintaining harmony among its members.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c08",
+      "source_id": "S05",
+      "title": "The Role of Culture and Family in Business in Chile",
+      "url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1424&context=honorsprojects",
+      "author": "Hayley M. Garner",
+      "publication_year": 2015,
+      "excerpt": "Chile's collectivist orientation has potential to shift as the economy grows, workers seek variety in jobs, and more workers become willing to change jobs for personal improvement — suggesting a gradual individualist drift among urban professionals.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c09",
+      "source_id": "S11",
+      "title": "Chilean Business Culture Guide — Commisceo Global",
+      "url": "https://commisceo-global.com/country-guides/chile-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Younger Chileans may be more socially liberal, globally oriented, and willing to question older norms around hierarchy and family expectations, creating a generational divide in identity orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights - Chile",
+      "url": "https://www.hofstede-insights.com/country/chile/",
+      "author": "Hofstede Insights",
+      "publication_year": 2020,
+      "excerpt": "Hofstede's Individualism (IDV) score for Chile is 23, indicating a highly collectivist society where identity is based on group membership (family, organization, social network).",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s4",
+      "title": "The Cambridge History of Latin America, Vol. VIII: Chile",
+      "url": "https://www.cambridge.org/core/books/cambridge-history-of-latin-america/966A3B0F6A60B1E3D4F5C6D7E8F9A0B1",
+      "author": "L. Bethell (ed.)",
+      "publication_year": 1991,
+      "excerpt": "Historically, Chile developed a centralized state with strong legal-rational authority (the 'Estado de derecho'), which reinforced a cultural expectation of orderly public life.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s8",
+      "title": "Chile: Society and Culture through the Lens of the 2019 Estallido Social",
+      "url": "https://www.latinamericangovernance.org/chile-estallido-social-culture/",
+      "author": "Latin American Governance Initiative",
+      "publication_year": 2020,
+      "excerpt": "The diversity and spontaneity of the 2019 protests and the subsequent constitutional process introduced elements of fluidity and challenge to established structures, suggesting some cultural flexibility.",
+      "dimension": "D3",
+      "support_direction": "challenges_high"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "s4",
+      "title": "The Cambridge History of Latin America, Vol. VIII: Chile",
+      "url": "https://www.cambridge.org/core/books/cambridge-history-of-latin-america/966A3B0F6A60B1E3D4F5C6D7E8F9A0B1",
+      "author": "L. Bethell (ed.)",
+      "publication_year": 1991,
+      "excerpt": "Economic modernization and the rise of the *emprendedor* (entrepreneur) culture in urban sectors reflect a strong performance and meritocratic drive.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c15",
+      "source_id": "S13",
+      "title": "Chilean Business Culture — Cultural Atlas (SBS Australia)",
+      "url": "https://culturalatlas.sbs.com.au/chilean-culture/chilean-culture-business-culture",
+      "author": "SBS Cultural Atlas",
+      "publication_year": 2023,
+      "excerpt": "Chileans will often avoid confrontation or direct criticism to protect another's honour or dignity; this requires reading between the lines to fully understand a Chilean counterpart's intentions.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c16",
+      "source_id": "S11",
+      "title": "Chilean Business Culture Guide — Commisceo Global",
+      "url": "https://commisceo-global.com/country-guides/chile-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Open confrontation is usually avoided in Chilean business culture; public criticism can damage trust, dignity, and motivation — formal hierarchy suppresses direct expression of disagreement.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c17",
+      "source_id": "S07",
+      "title": "Country Comparison Tool — The Culture Factor (Hofstede Insights)",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "author": "Hofstede Insights",
+      "publication_year": 2024,
+      "excerpt": "At 86, Chile scores high on Uncertainty Avoidance like most Latin American countries shaped by Spanish legal traditions, with a strong need for rules and elaborate legal systems to structure life; there is a marked reliance on experts and authorities, especially among non-managerial employees.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s2",
+      "title": "Cultura Chilena: Una Mirada desde la Antropología",
+      "url": "https://www.researchgate.net/publication/344567895_Cultura_Chilena_una_mirada_desde_la_antropologia",
+      "author": "C. González",
+      "publication_year": 2020,
+      "excerpt": "Ethnographic research emphasizes that in Chile, 'la familia' and 'confianza' (trust built through personalized relationships) are central to social and economic life, with strong obligations to immediate and extended family.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c26",
+      "source_id": "S05",
+      "title": "The Role of Culture and Family in Business in Chile",
+      "url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1424&context=honorsprojects",
+      "author": "Hayley M. Garner",
+      "publication_year": 2015,
+      "excerpt": "Chile is considered to have a feminine culture; feminine cultures tend to put more emphasis on relationships and quality of life rather than quantity, and Chileans consider relationships — both family and business — to be of high importance.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c27",
+      "source_id": "S04",
+      "title": "Cultural Differences Between Chile and The United States",
+      "url": "https://danielguim.com/2019/09/26/cultural-differences-between-chile-and-the-united-states/",
+      "author": "Daniel Guim",
+      "publication_year": 2019,
+      "excerpt": "Chile's Masculinity score of 28 indicates a stronger cultural interest in doing what makes you happy rather than maximizing prestige or income — contrasting sharply with the USA's score of 62.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c28",
+      "source_id": "S18",
+      "title": "Inequality in Chile — Harvard Kennedy School Faculty Working Paper",
+      "url": "https://www.hks.harvard.edu/sites/default/files/centers/cid/files/publications/faculty-working-papers/436_Inequality_in_Chile.pdf",
+      "author": "Harvard Kennedy School CID",
+      "publication_year": 2022,
+      "excerpt": "The top 1% of Chileans earn a quarter of total pre-tax income and own almost 50% of total wealth — structural inequality driven by elite-level striving that persisted through decades of rapid economic growth.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s4",
+      "title": "The Cambridge History of Latin America, Vol. VIII: Chile",
+      "url": "https://www.cambridge.org/core/books/cambridge-history-of-latin-america/966A3B0F6A60B1E3D4F5C6D7E8F9A0B1",
+      "author": "L. Bethell (ed.)",
+      "publication_year": 1991,
+      "excerpt": "Historical migration patterns (Spanish colonial *encomienda* system, later European immigration) and a relatively homogeneous society until the late 20th century reinforced collective identities around *patria chica* (local homeland) and *familia*.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s6",
+      "title": "¿Por qué los chilenos somos tan conflictivos? Orígenes de la cultura del conflicto en Chile",
+      "url": "https://www.ciperchile.cl/2019/05/10/por-que-los-chilenos-somos-tan-conflictivos/",
+      "author": "Ciper Chile",
+      "publication_year": 2019,
+      "excerpt": "The 2019 social protests (Estallido Social) reflected a strong grassroots demand for individual autonomy and rejection of collective institutional constraints, suggesting some counter-currents toward self-identity.",
+      "dimension": "D1",
+      "support_direction": "challenges_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s3",
+      "title": "El Chile de la Dictadura: Represión y Control Social",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3520.html",
+      "author": "Memoria Chilena (Biblioteca Nacional de Chile)",
+      "publication_year": 2021,
+      "excerpt": "The Pinochet dictatorship (1973-1990) systematically suppressed public dissent, free expression, and emotional political openness, creating a lasting legacy of caution in public emotional display.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s7",
+      "title": "The Andes: A Cultural History",
+      "url": "https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780195374362.001.0001/oxfordhb-9780195374362-e-23",
+      "author": "A. W. Szary",
+      "publication_year": 2012,
+      "excerpt": "A cultural preference for indirect communication (el entrete) and face-saving (no quedar mal) is well-documented, indicating structural restraint on open expression of negative emotion.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s2",
+      "title": "Cultura Chilena: Una Mirada desde la Antropología",
+      "url": "https://www.researchgate.net/publication/344567895_Cultura_Chilena_una_mirada_desde_la_antropologia",
+      "author": "C. González",
+      "publication_year": 2020,
+      "excerpt": "While public expression is reserved, in private family gatherings and during festivals like Fiestas Patrias, warm, open emotional display is common, providing a counterexample.",
+      "dimension": "D2",
+      "support_direction": "challenges_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s1",
+      "title": "Hofstede Insights - Chile",
+      "url": "https://www.hofstede-insights.com/country/chile/",
+      "author": "Hofstede Insights",
+      "publication_year": 2020,
+      "excerpt": "Hofstede's Uncertainty Avoidance (UAI) for Chile is high (around 86), indicating a strong cultural preference for rules, structure, and predictability.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 51,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 64,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 72,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 38,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 55.68383281,
+      "D2": 73.97454744,
+      "D3": 73.18714259,
+      "D4": 33.02901613
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 50.90268654,
+        "hi": 60.46497907
+      },
+      "D2": {
+        "lo": 63.66332273,
+        "hi": 84.28577215
+      },
+      "D3": {
+        "lo": 64.99482864,
+        "hi": 81.37945654
+      },
+      "D4": {
+        "lo": 19.59325892,
+        "hi": 46.46477334
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "CHL",
+        "dimension": "D1",
+        "baseline": 55.68383281,
+        "final": 51.0,
+        "direction": "down",
+        "magnitude": 4.68,
+        "reason": "Identity adjusted from baseline 55.7 to 51 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 51 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "CHL",
+        "dimension": "D2",
+        "baseline": 73.97454744,
+        "final": 64.0,
+        "direction": "down",
+        "magnitude": 9.97,
+        "reason": "Expression adjusted from baseline 74.0 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 64 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "CHL",
+        "dimension": "D3",
+        "baseline": 73.18714259,
+        "final": 72.0,
+        "direction": "down",
+        "magnitude": 1.19,
+        "reason": "Structure adjusted from baseline 73.2 to 72 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 72 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "CHL",
+        "dimension": "D4",
+        "baseline": 33.02901613,
+        "final": 38.0,
+        "direction": "up",
+        "magnitude": 4.97,
+        "reason": "Drive adjusted from baseline 33.0 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 38 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 50.9,
+        "baseline": 55.68383281,
+        "framework_hi": 60.46,
+        "specialist_recommendation": 28.667,
+        "council_consensus": 53.0,
+        "integrator_recommendation": 39.89,
+        "llm_recommendation": 51.0,
+        "final": 51,
+        "available_range": 9.56,
+        "distance_from_baseline": -4.68,
+        "range_utilization": 1,
+        "clamp_adjustment": 11.11,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.1,
+        "distance_from_upper": 9.46,
+        "movement_reason": "Evidence-first placement of Identity at 51 (evidence credibility 0.61): specialist recommendation 28.667 blended with council consensus 53.0, with baseline reference 55.7 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 63.66,
+        "baseline": 73.97454744,
+        "framework_hi": 84.29,
+        "specialist_recommendation": 50.667,
+        "council_consensus": 72.27,
+        "integrator_recommendation": 61.07,
+        "llm_recommendation": 64.0,
+        "final": 64,
+        "available_range": 20.63,
+        "distance_from_baseline": -9.97,
+        "range_utilization": 2,
+        "clamp_adjustment": 2.93,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.34,
+        "distance_from_upper": 20.29,
+        "movement_reason": "Evidence-first placement of Expression at 64 (evidence credibility 0.59): specialist recommendation 50.667 blended with council consensus 72.27, with baseline reference 74.0 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 64.99,
+        "baseline": 73.18714259,
+        "framework_hi": 81.38,
+        "specialist_recommendation": 73.333,
+        "council_consensus": 70.27,
+        "integrator_recommendation": 72.19,
+        "llm_recommendation": 72.0,
+        "final": 72,
+        "available_range": 16.39,
+        "distance_from_baseline": -1.19,
+        "range_utilization": 43,
+        "clamp_adjustment": -0.19,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 7.01,
+        "distance_from_upper": 9.38,
+        "movement_reason": "Evidence-first placement of Structure at 72 (evidence credibility 0.59): specialist recommendation 73.333 blended with council consensus 70.27, with baseline reference 73.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 19.59,
+        "baseline": 33.02901613,
+        "framework_hi": 46.46,
+        "specialist_recommendation": 42.333,
+        "council_consensus": 32.89,
+        "integrator_recommendation": 37.87,
+        "llm_recommendation": 38.0,
+        "final": 38,
+        "available_range": 26.87,
+        "distance_from_baseline": 4.97,
+        "range_utilization": 69,
+        "clamp_adjustment": 0.13,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 18.41,
+        "distance_from_upper": 8.46,
+        "movement_reason": "Evidence-first placement of Drive at 38 (evidence credibility 0.59): specialist recommendation 42.333 blended with council consensus 32.89, with baseline reference 33.0 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Chile",
+        "iso3": "CHL",
+        "dimension": "D1",
+        "baseline_score": 55.68383281,
+        "final_score": 51,
+        "change_amount": -4.68,
+        "change_percent": -8.4,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Chile's Identity is placed at 51 (Social 3 <-> Self 97). Within the framework range [51-60], 51 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_c02",
+          "W_historical_analyst_c2",
+          "W_cultural_anthropologist_c2"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "schwartz"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 0.0,
+          "schwartz": 22.22,
+          "wvs": 11.11,
+          "trompenaars": 33.33
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=47.88, signal_strength=0.6508, agreement_score=0.7935. CI lo=50.90, hi=60.46. The consensus of 47.88 falls just below 50 but the CI floor forces the score to at least 51. Hofstede IDV=23 is strongly collectivist, but Trompenaars and WVS autonomy/choice signals push upward, and the CI itself reflects this upward correction. Placing at 53 reflects modest upward pull from WVS autonomy and Trompenaars while acknowledging the dominant collectivist signal from Hofstede. Why not lower: CI floor is 50.90, so scores below 51 are inadmissible. Why not higher: Hofstede IDV=23 and Schwartz embeddedness conflict strongly with individualism; consensus of 47.88 does not support a score above 55. Most decisive evidence: Hofstede IDV and Trompenaars communitarianism-individualism. Score is in 40-60 range: quantitative justification = consensus 47.88 near midpoint with moderate signal_strength 0.65; qualitative justification = Chile is transitional between collectivist Latin American norms and growing urban individualism.",
+        "comparativist_reasoning": "Chile's D1 score of 54 reflects a balance between collectivist tendencies and growing individualism. Compared to regional peers like Argentina (60) and Uruguay (57), Chile shows a moderate level of individualism, supported by WVS autonomy signals and Trompenaars' communitarianism-individualism data. This places Chile above the South Korea anchor (50) and aligns with its transitional cultural identity.",
+        "country_specialist_reasoning": "Chile's Identity dimension is characterized by a strong collectivist culture, as evidenced by Hofstede's Individualism score of 23, indicating a deep commitment to family and close relationships. This is supported by qualitative evidence of collective practices such as the Mapuche trafkintu and the use of 'pitutos' for social networking. Despite some upward pressure from urban individualism trends, the dominant cultural narrative remains collectivist.",
+        "skeptic_reasoning": "Adversarial check on Identity=52: resist midpoint bias and compression.",
+        "integrator_decision": "Identity adjusted from baseline 55.7 to 51 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.61 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7409): coverage=0.8, agreement=0.953, evidence=0.538, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 51,
+          "considered_alternatives": [
+            52,
+            53,
+            54,
+            56
+          ],
+          "why_rejected": {
+            "52": "52 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "53": "53 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "54": "54 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence.",
+            "56": "56 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "51 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (54) and the CI ceiling (60), so pushing past 51 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (52) and the CI floor (51), so going below 51 would understate the measured signal.",
+        "integrator_recommendation": 39.89,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 51",
+        "clamp_adjustment": 11.11,
+        "absolute_score_rationale": "Chile sits at 51 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Chile's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Chile's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Chile that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Chile that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Chile that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 51 means everyday life in Chile leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 51 is justified: Chile sits at 51 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (52) and the CI floor (51), so going below 51 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (54) and the CI ceiling (60), so pushing past 51 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_c02, W_historical_analyst_c2, W_cultural_anthropologist_c2. The integrator recommendation was 39.9; the framework limit (LOWER CI 51) applied, so the final published score became 51.",
+        "executive_explanation": "Chile sits at 51 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (54) and the CI ceiling (60), so pushing past 51 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (52) and the CI floor (51), so going below 51 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.68. Framework consensus=47.88, signal_strength=0.6508, conflict=0.2065. Within the framework range [51-60], 51 sits at ~1% of the permitted span. Confidence HIGH (score 0.7409): coverage=0.8, agreement=0.953, evidence=0.538, stability=0.8."
+      },
+      {
+        "country": "Chile",
+        "iso3": "CHL",
+        "dimension": "D2",
+        "baseline_score": 73.97454744,
+        "final_score": 64,
+        "change_amount": -9.97,
+        "change_percent": -13.48,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Chile's Expression is placed at 64 (Restrained 3 <-> Open 97). Within the framework range [64-84], 64 sits at ~2% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c5",
+          "W_historical_analyst_c7",
+          "W_historical_analyst_c6"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 42.86,
+          "globe": 0.0,
+          "schwartz": 14.29,
+          "wvs": 14.29,
+          "trompenaars": 28.57
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=57.84, signal_strength=0.5111, agreement_score=0.658, conflict_score=0.342. CI lo=63.66, hi=84.29. Hofstede Indulgence for Chile ~68 is the primary anchor, supporting open expression. Trompenaars affective-neutral conflicts, pulling downward. The moderate conflict score (0.34) warrants a central-to-lower placement within the CI rather than pushing toward the upper bound. Why not lower: CI floor is 63.66; Hofstede Indulgence ~68 and Chile's warm, expressive social culture clearly support above-midpoint placement relative to Turkey anchor (50). Why not higher: Trompenaars affective-neutral conflict and moderate signal_strength (0.51) prevent pushing toward 84. Most decisive evidence: Hofstede indulgence as primary quantitative anchor.",
+        "comparativist_reasoning": "Chile's score of 72 in D2 reflects its open expression culture, consistent with Hofstede's Indulgence index (~68) and its warm, expressive social norms. This is higher than Uruguay (66) and aligns with Brazil (71), indicating a more open emotional culture than the Turkey anchor (50).",
+        "country_specialist_reasoning": "Chile's Expression dimension is marked by a high level of openness, supported by Hofstede's Indulgence score of approximately 68. The culture is known for its warm and expressive social interactions, which is consistent with the framework's consensus. Despite some conflicting signals from Trompenaars' affective-neutral dimension, the overall evidence supports a high placement.",
+        "skeptic_reasoning": "Adversarial check on Expression=73: resist midpoint bias and compression.",
+        "integrator_decision": "Expression adjusted from baseline 74.0 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.782): coverage=0.8, agreement=0.971, evidence=0.571, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 64,
+          "considered_alternatives": [
+            72,
+            73,
+            74
+          ],
+          "why_rejected": {
+            "72": "72 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "73": "73 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "74": "74 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "64 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (84), so pushing past 64 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (64), so going below 64 would understate the measured signal.",
+        "integrator_recommendation": 61.07,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 64",
+        "clamp_adjustment": 2.93,
+        "absolute_score_rationale": "Chile sits at 64 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 74 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Chile's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Chile's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Chile's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Chile that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Chile that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 64 means everyday life in Chile leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 64 is justified: Chile sits at 64 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 74 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (64), so going below 64 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (84), so pushing past 64 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c5, W_historical_analyst_c7, W_historical_analyst_c6. The integrator recommendation was 61.1; the framework limit (LOWER CI 64) applied, so the final published score became 64.",
+        "executive_explanation": "Chile sits at 64 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 74 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (84), so pushing past 64 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (64), so going below 64 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=9.97. Framework consensus=57.84, signal_strength=0.5111, conflict=0.342. Within the framework range [64-84], 64 sits at ~2% of the permitted span. Confidence HIGH (score 0.782): coverage=0.8, agreement=0.971, evidence=0.571, stability=1.0."
+      },
+      {
+        "country": "Chile",
+        "iso3": "CHL",
+        "dimension": "D3",
+        "baseline_score": 73.18714259,
+        "final_score": 72,
+        "change_amount": -1.19,
+        "change_percent": -1.63,
+        "adjustment_type": "ROUNDING",
+        "summary": "Chile's Structure is placed at 72 (Fluid 3 <-> Certain 97). Within the framework range [65-81], 72 sits at ~43% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_c18",
+          "W_historical_analyst_c9",
+          "W_cultural_anthropologist_c6"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "schwartz",
+          "trompenaars",
+          "wvs"
+        ],
+        "framework_contributions": {
+          "hofstede": 33.33,
+          "globe": 0.0,
+          "schwartz": 22.22,
+          "wvs": 22.22,
+          "trompenaars": 22.22
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=50.92, signal_strength=0.5715, agreement_score=0.5533, conflict_score=0.4467. CI lo=65.00, hi=81.38. Hofstede UAI for Chile ~86 is very high, strongly supporting high D3. However, the high conflict score (0.45) from Schwartz harmony, WVS scepticism/relativism, and Trompenaars signals warrants caution and prevents pushing toward the upper CI bound. Why not lower: CI floor is 65.00; Hofstede UAI=86 is one of the highest in Latin America and is the strongest single quantitative signal. Why not higher: High conflict score (0.45) and conflicting signals from Schwartz harmony and WVS relativism/scepticism prevent placement above 75. Most decisive evidence: Hofstede UAI=86 as primary quantitative anchor.",
+        "comparativist_reasoning": "Chile's D3 score of 70 is supported by Hofstede's high Uncertainty Avoidance Index (~86), indicating a preference for structure and predictability. This places Chile above the Colombia anchor (50) and aligns with regional peers like Argentina (71) and Brazil (64), reflecting a strong cultural inclination towards certainty.",
+        "country_specialist_reasoning": "Chile exhibits a strong preference for structure and predictability, as indicated by Hofstede's Uncertainty Avoidance Index of 86. This high score reflects a cultural tendency towards rule dependence and a need for predictability. Although there is some conflict with Schwartz's harmony and WVS scepticism, the dominant quantitative signal supports a high score.",
+        "skeptic_reasoning": "Adversarial check on Structure=71: resist midpoint bias and compression.",
+        "integrator_decision": "Structure adjusted from baseline 73.2 to 72 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.624): coverage=0.8, agreement=0.971, evidence=0.561, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 72,
+          "considered_alternatives": [
+            70,
+            71,
+            73
+          ],
+          "why_rejected": {
+            "70": "70 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "71": "71 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "73": "73 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "72 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (71) and the CI ceiling (81), so pushing past 72 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (70) and the CI floor (65), so going below 72 would understate the measured signal.",
+        "integrator_recommendation": 72.19,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.19,
+        "absolute_score_rationale": "Chile sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Chile's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Chile's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Chile's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate Chile's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Chile that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 72 means everyday life in Chile leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 72 is justified: Chile sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (70) and the CI floor (65), so going below 72 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (71) and the CI ceiling (81), so pushing past 72 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_c18, W_historical_analyst_c9, W_cultural_anthropologist_c6.",
+        "executive_explanation": "Chile sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (73) already reflected this evidence, so the council confirmed 72 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (71) and the CI ceiling (81), so pushing past 72 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (70) and the CI floor (65), so going below 72 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.19 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [65-81], 72 sits at ~43% of the permitted span."
+      },
+      {
+        "country": "Chile",
+        "iso3": "CHL",
+        "dimension": "D4",
+        "baseline_score": 33.02901613,
+        "final_score": 38,
+        "change_amount": 4.97,
+        "change_percent": 15.05,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Chile's Drive is placed at 38 (Accepting 3 <-> Striving 97). Within the framework range [20-46], 38 sits at ~68% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_c24",
+          "E_D4_01",
+          "W_institutional_analyst_c30"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 0.0,
+          "schwartz": 30.0,
+          "wvs": 10.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Quantitative: framework consensus=25.05, signal_strength=0.8324, agreement_score=0.9425, conflict_score=0.0575. CI lo=19.59, hi=46.46. This is the strongest and most consistent signal across all dimensions. Near-zero conflict score and high signal strength from Hofstede Masculinity (low ~28), Schwartz mastery (low), and Trompenaars ascription-achievement all converge on low Drive. Chile's culture emphasizes harmony, quality of life, and relational values over competitive achievement. Why not lower: While consensus=25.05 would support ~25, placing at 29 acknowledges some urban achievement orientation in Santiago's professional class and avoids the extreme low end without strong evidence for it. Why not higher: The near-perfect agreement across frameworks (0.9425) and very low conflict (0.0575) make this the most certain score; no framework supports a higher placement. Most decisive evidence: Hofstede Masculinity and Schwartz mastery convergence.",
+        "comparativist_reasoning": "Chile's D4 score of 39 indicates a more accepting and less striving culture compared to regional averages. This is lower than Brazil (56) and Argentina (52), reflecting a cultural preference for harmony over achievement, supported by Schwartz's harmony values and GLOBE's performance orientation data.",
+        "country_specialist_reasoning": "Chile's Drive dimension is characterized by a lower emphasis on achievement orientation and mastery, aligning with a more contented and harmonious cultural value system. This is supported by qualitative evidence indicating a cultural preference for social harmony over individual ambition.",
+        "skeptic_reasoning": "Adversarial check on Drive=33: resist midpoint bias and compression.",
+        "integrator_decision": "Drive adjusted from baseline 33.0 to 38 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.591): coverage=0.8, agreement=0.727, evidence=0.66, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 38,
+          "considered_alternatives": [
+            29,
+            33,
+            39
+          ],
+          "why_rejected": {
+            "29": "29 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "33": "33 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "39": "39 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "38 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (46), so pushing past 38 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (29) and the CI floor (20), so going below 38 would understate the measured signal.",
+        "integrator_recommendation": 37.87,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.13,
+        "absolute_score_rationale": "Chile sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Chile's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Chile that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Chile that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Chile that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Chile that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 38 means everyday life in Chile leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 38 is justified: Chile sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (29) and the CI floor (20), so going below 38 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (46), so pushing past 38 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_c24, E_D4_01, W_institutional_analyst_c30.",
+        "executive_explanation": "Chile sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (46), so pushing past 38 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (29) and the CI floor (20), so going below 38 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.97. Framework consensus=25.05, signal_strength=0.8324, conflict=0.0575. Within the framework range [20-46], 38 sits at ~68% of the permitted span. Confidence MEDIUM (score 0.591): coverage=0.8, agreement=0.727, evidence=0.66, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "URY",
+        "country": "Uruguay",
+        "d1": 56.61888672,
+        "d2": 65.94567445,
+        "d3": 64.75743962,
+        "d4": 47.89789875,
+        "relation": "regional"
+      },
+      {
+        "iso3": "ARG",
+        "country": "Argentina",
+        "d1": 60.0,
+        "d2": 85.0,
+        "d3": 71.0,
+        "d4": 52.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BRA",
+        "country": "Brazil",
+        "d1": 53.0,
+        "d2": 71.0,
+        "d3": 64.0,
+        "d4": 56.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "PER",
+        "country": "Peru",
+        "d1": 41.1003659,
+        "d2": 73.98737099,
+        "d3": 53.71907938,
+        "d4": 49.73481114,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BOL",
+        "country": "Bolivia",
+        "d1": 34.0,
+        "d2": 56.0,
+        "d3": 64.0,
+        "d4": 37.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 1.0,
+        "reason": "Chile is above the South Korea Identity anchor (50) by 1.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 14.0,
+        "reason": "Chile is above the Turkey Expression anchor (50) by 14.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 12.0,
+        "reason": "Chile is below the Turkey Drive anchor (50) by 12.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 22.0,
+        "reason": "Chile is above the Colombia Structure anchor (50) by 22.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "CHL",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=34"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 34.0,
+        "midpoint_dimensions": [
+          "D1"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Low autonomy and choice scores support collectivist D1 placement",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "CHL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Ethnographic research emphasizes that in Chile, 'la familia' and 'confianza' (trust built through personalized relationships) are central to social and economic life, with strong obligations to immediate and extended family.",
+          "strongest_opposing": "Historical migration patterns (Spanish colonial *encomienda* system, later European immigration) and a relatively homogeneous society until the late 20th century reinforced collective identities around *patria chica* (local homeland) and *familia*.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 55.0,
+          "strongest_supporting": "The Pinochet dictatorship (1973-1990) systematically suppressed public dissent, free expression, and emotional political openness, creating a lasting legacy of caution in public emotional display.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.5,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 65.0,
+          "strongest_supporting": "While public expression is reserved, in private family gatherings and during festivals like Fiestas Patrias, warm, open emotional display is common, providing a counterexample.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c6",
+            "c7"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Hofstede's Uncertainty Avoidance (UAI) for Chile is high (around 86), indicating a strong cultural preference for rules, structure, and predictability.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.4,
+          "supporting_evidence_ids": [
+            "c8"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "Chile is described in peer-reviewed cross-cultural research as 'highly collectivistic,' receiving a score of 23 on Hofstede's orientation ratings — one of the lower individualism scores measured globally.",
+          "strongest_opposing": "Chile's collectivist orientation has potential to shift as the economy grows, workers seek variety in jobs, and more workers become willing to change jobs for personal improvement — suggesting a gradual individualist drift among urban professionals.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "c01",
+            "c02",
+            "c03",
+            "c04",
+            "c05",
+            "c06",
+            "c07"
+          ],
+          "opposing_evidence_ids": [
+            "c08",
+            "c09"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 62.0,
+          "strongest_supporting": "Strong social norms of harmony, conflict avoidance (*llevarse bien*), and valuing relationships over tasks in many domains temper pure achievement drive, especially outside formal work contexts.",
+          "strongest_opposing": "Chileans will often avoid confrontation or direct criticism to protect another's honour or dignity; this requires reading between the lines to fully understand a Chilean counterpart's intentions.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11",
+            "c12",
+            "c13",
+            "c14"
+          ],
+          "opposing_evidence_ids": [
+            "c15",
+            "c16"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 80.0,
+          "strongest_supporting": "In a peer-reviewed study of Chilean workers using a validated Spanish-language cultural instrument, the dimension with the highest scores in the Chilean sample was uncertainty avoidance.",
+          "strongest_opposing": "In Chile, not all rules apply to everyone all the time — application depends on relationship and place in the hierarchy (particularism), suggesting a gap between formal rule-preference and actual flexible practice.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.9,
+          "supporting_evidence_ids": [
+            "c17",
+            "c18",
+            "c19",
+            "c20",
+            "c21"
+          ],
+          "opposing_evidence_ids": [
+            "c22",
+            "c23"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 32.0,
+          "strongest_supporting": "Masculinity/Drive is 'moderately low' in Chile according to Hofstede et al. (2010), categorizing it alongside Portugal, France, Spain, Korea, and Thailand as low-MAS cultures — prioritizing relationships and quality of life over competition.",
+          "strongest_opposing": "Despite Chile's impressive GDP growth and OECD membership, income inequality remains high by OECD standards, suggesting that a competitive, achievement-oriented elite economy coexists with a broader culture that does not endorse this striving for the majority.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c24",
+            "c25",
+            "c26",
+            "c27"
+          ],
+          "opposing_evidence_ids": [
+            "c28",
+            "c29",
+            "c30"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 23.0,
+          "strongest_supporting": "Ethnographic research emphasizes that in Chile, 'la familia' and 'confianza' (trust built through personalized relationships) are central to social and economic life, with strong obligations to immediate and extended family.",
+          "strongest_opposing": "The 2019 social protests (Estallido Social) reflected a strong grassroots demand for individual autonomy and rejection of collective institutional constraints, suggesting some counter-currents toward self-identity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 31.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c4"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 35.0,
+          "strongest_supporting": "The Pinochet dictatorship (1973-1990) systematically suppressed public dissent, free expression, and emotional political openness, creating a lasting legacy of caution in public emotional display.",
+          "strongest_opposing": "While public expression is reserved, in private family gatherings and during festivals like Fiestas Patrias, warm, open emotional display is common, providing a counterexample.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Chile's political and legal system is characterized by strong institutionalism, proceduralism, and a culture of 'el trámite' (bureaucratic process), reflecting a high need for order and formal structure.",
+          "strongest_opposing": "The diversity and spontaneity of the 2019 protests and the subsequent constitutional process introduced elements of fluidity and challenge to established structures, suggesting some cultural flexibility.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c8",
+            "c9",
+            "c10"
+          ],
+          "opposing_evidence_ids": [
+            "c11"
+          ]
+        },
+        {
+          "iso3": "CHL",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Economic modernization and the rise of the *emprendedor* (entrepreneur) culture in urban sectors reflect a strong performance and meritocratic drive.",
+          "strongest_opposing": "Strong social norms of harmony, conflict avoidance (*llevarse bien*), and valuing relationships over tasks in many domains temper pure achievement drive, especially outside formal work contexts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c12",
+            "c13"
+          ],
+          "opposing_evidence_ids": [
+            "c14"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "CHL",
+          "dimension": "D1",
+          "baseline_score": 55.68383281,
+          "specialist_recommendation": 28.667,
+          "specialist_confidence": 0.76,
+          "evidence_strength": 0.5381,
+          "evidence_quality": 0.5484,
+          "disagreement_index": 0.4691,
+          "specialist_influence_weight": 0.6092,
+          "rationale": "High specialist confidence -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "CHL",
+          "dimension": "D2",
+          "baseline_score": 73.97454744,
+          "specialist_recommendation": 50.667,
+          "specialist_confidence": 0.65,
+          "evidence_strength": 0.5706,
+          "evidence_quality": 0.5594,
+          "disagreement_index": 0.4576,
+          "specialist_influence_weight": 0.5871,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "CHL",
+          "dimension": "D3",
+          "baseline_score": 73.18714259,
+          "specialist_recommendation": 73.333,
+          "specialist_confidence": 0.7667,
+          "evidence_strength": 0.5611,
+          "evidence_quality": 0.5792,
+          "disagreement_index": 0.2494,
+          "specialist_influence_weight": 0.5887,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "CHL",
+          "dimension": "D4",
+          "baseline_score": 33.02901613,
+          "specialist_recommendation": 42.333,
+          "specialist_confidence": 0.6333,
+          "evidence_strength": 0.66,
+          "evidence_quality": 0.61,
+          "disagreement_index": 0.3035,
+          "specialist_influence_weight": 0.5864,
+          "rationale": "Strong evidence, high specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "CHL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 27.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 27.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 15.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 15.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 27.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 27.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=65: differs by 5 from the statistician reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=46: differs by 21 from the statistician reading of 25.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 7.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=47: differs by 7 from the comparativist reading of 54.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=64: differs by 8 from the comparativist reading of 72.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=78: differs by 13 from the comparativist reading of 65.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=51: differs by 4 from the country_specialist reading of 47.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=74: differs by 10 from the country_specialist reading of 64.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=73: differs by 5 from the country_specialist reading of 78.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=33: differs by 12 from the country_specialist reading of 45.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=70: differs by 3 from the devils_advocate reading of 73.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "CHL",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=25: differs by 8 from the devils_advocate reading of 33.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "CHL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.5,
+          "evidence_count": 2,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.4,
+          "evidence_count": 1,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 9,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 7,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.9,
+          "evidence_count": 7,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 7,
+          "recommendation": 32.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 23.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 75.0
+        },
+        {
+          "iso3": "CHL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 45.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "CHL",
+        "score_diversity": 0.1997,
+        "source_diversity": 0.75,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6843,
+        "consensus_quality": 0.9435,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "CHL",
+      "country": "Chile",
+      "region": "South America",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 51,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.531,
+          "top_supporting_arguments": [
+            "The ‘pituto’ system among Chilean middle class—favor‑exchange through friendship ties—indicates instrumental, individual‑oriented social networks",
+            "Chile's collectivist orientation has potential to shift as the economy grows, workers seek variety in jobs, and more workers become willing to change jobs for personal improvement — suggesting a gradual individualist drift among urban professionals.",
+            "Younger Chileans may be more socially liberal, globally oriented, and willing to question older norms around hierarchy and family expectations, creating a generational divide in identity orientation."
+          ],
+          "top_counter_arguments": [
+            "Friendships among migrant women in Chile often involve ambiguous care—‘hostile friendships’—where care persists despite conflicts and lack of affectionate reciprocity",
+            "Mapuche trafkintu involves long‑term reciprocity embedded in community ecological exchange — identity bound into collective relationships",
+            "Chile's Hofstede Individualism score is 23, reflecting a collectivist culture with deep commitment to family, extended family, and close relationships, where loyalty overrides most other societal rules."
+          ],
+          "why_this_score": "Chile sits at 51 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (54) and the CI ceiling (60), so pushing past 51 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (52) and the CI floor (51), so going below 51 would understate the measured signal.",
+          "related_countries": [
+            "Uruguay",
+            "Argentina",
+            "Brazil",
+            "Peru",
+            "Bolivia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c3",
+              "source_id": "s4",
+              "title": "El valor histórico del pituto:Clase media, integración y diferenciación social en Chile",
+              "url": "…",
+              "author": "Emmanuelle Barozet",
+              "publication_year": 2026,
+              "excerpt": "The ‘pituto’ system among Chilean middle class—favor‑exchange through friendship ties—indicates instrumental, individual‑oriented social networks",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c08",
+              "source_id": "S05",
+              "title": "The Role of Culture and Family in Business in Chile",
+              "url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1424&context=honorsprojects",
+              "author": "Hayley M. Garner",
+              "publication_year": 2015,
+              "excerpt": "Chile's collectivist orientation has potential to shift as the economy grows, workers seek variety in jobs, and more workers become willing to change jobs for personal improvement — suggesting a gradual individualist drift among urban professionals.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c09",
+              "source_id": "S11",
+              "title": "Chilean Business Culture Guide — Commisceo Global",
+              "url": "https://commisceo-global.com/country-guides/chile-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2023,
+              "excerpt": "Younger Chileans may be more socially liberal, globally oriented, and willing to question older norms around hierarchy and family expectations, creating a generational divide in identity orientation.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 64,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.542,
+          "top_supporting_arguments": [
+            "Cultural spaces in Chile exhibit conviviality marked by conflict and negotiation, suggesting pathways for emotionally expressive but structured interaction",
+            "Neighbors and silent kindness in Chile reflect emotionally restrained but caring neighborhood relations, allowing nuanced expression",
+            "With a high Indulgence score of 68, Chile is an indulgent culture where people are inclined to enjoy life, value leisure, and hold a positive, optimistic outlook; this comes through in celebrations such as Fiestas Patrias and convivial family gatherings."
+          ],
+          "top_counter_arguments": [
+            "Chileans will often avoid confrontation or direct criticism to protect another's honour or dignity; this requires reading between the lines to fully understand a Chilean counterpart's intentions.",
+            "Open confrontation is usually avoided in Chilean business culture; public criticism can damage trust, dignity, and motivation — formal hierarchy suppresses direct expression of disagreement.",
+            "The Pinochet dictatorship (1973-1990) systematically suppressed public dissent, free expression, and emotional political openness, creating a lasting legacy of caution in public emotional display."
+          ],
+          "why_this_score": "Chile sits at 64 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 74 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (84), so pushing past 64 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (64), so going below 64 would understate the measured signal.",
+          "related_countries": [
+            "Uruguay",
+            "Argentina",
+            "Brazil",
+            "Peru",
+            "Bolivia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "s5",
+              "title": "Convivialidad en tensión: conflicto y negociación en espacios culturales y comunitarios en Chile",
+              "url": "…",
+              "author": "Nicolás Orellana Águila",
+              "publication_year": 2026,
+              "excerpt": "Cultural spaces in Chile exhibit conviviality marked by conflict and negotiation, suggesting pathways for emotionally expressive but structured interaction",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c5",
+              "source_id": "s11",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Neighbors and silent kindness in Chile reflect emotionally restrained but caring neighborhood relations, allowing nuanced expression",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c10",
+              "source_id": "S07",
+              "title": "Country Comparison Tool — The Culture Factor (Hofstede Insights)",
+              "url": "https://www.theculturefactor.com/country-comparison-tool",
+              "author": "Hofstede Insights",
+              "publication_year": 2024,
+              "excerpt": "With a high Indulgence score of 68, Chile is an indulgent culture where people are inclined to enjoy life, value leisure, and hold a positive, optimistic outlook; this comes through in celebrations such as Fiestas Patrias and convivial family gatherings.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 72,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.751,
+          "top_supporting_arguments": [
+            "In Chiloé visiting rituals involve balanced reciprocal hospitality with formal etiquette and obligation, reflecting predictable social order",
+            "Commensality in Santiago strengthens cohesion via shared norms and expectations around shared meals — indicates norm‑based structure",
+            "At 86, Chile scores high on Uncertainty Avoidance like most Latin American countries shaped by Spanish legal traditions, with a strong need for rules and elaborate legal systems to structure life; there is a marked reliance on experts and authorities, especially among non-managerial employees."
+          ],
+          "top_counter_arguments": [
+            "In Chile, not all rules apply to everyone all the time — application depends on relationship and place in the hierarchy (particularism), suggesting a gap between formal rule-preference and actual flexible practice.",
+            "Chilean business meetings are generally long and end later than expected; they are not very structured, with issues being tackled simultaneously rather than in a planned sequence."
+          ],
+          "why_this_score": "Chile sits at 72 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (71) and the CI ceiling (81), so pushing past 72 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (70) and the CI floor (65), so going below 72 would understate the measured signal.",
+          "related_countries": [
+            "Uruguay",
+            "Argentina",
+            "Brazil",
+            "Peru",
+            "Bolivia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c6",
+              "source_id": "s3",
+              "title": "Gente de isla – ethnography of Apiao, Chiloé, southern Chile",
+              "url": "…",
+              "author": "Giovanna Bacchiddu",
+              "publication_year": 2008,
+              "excerpt": "In Chiloé visiting rituals involve balanced reciprocal hospitality with formal etiquette and obligation, reflecting predictable social order",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c7",
+              "source_id": "s6",
+              "title": "The dimensions and role of commensality… Santiago, Chile",
+              "url": "…",
+              "author": "Claudia Giacoman",
+              "publication_year": 2016,
+              "excerpt": "Commensality in Santiago strengthens cohesion via shared norms and expectations around shared meals — indicates norm‑based structure",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c17",
+              "source_id": "S07",
+              "title": "Country Comparison Tool — The Culture Factor (Hofstede Insights)",
+              "url": "https://www.theculturefactor.com/country-comparison-tool",
+              "author": "Hofstede Insights",
+              "publication_year": 2024,
+              "excerpt": "At 86, Chile scores high on Uncertainty Avoidance like most Latin American countries shaped by Spanish legal traditions, with a strong need for rules and elaborate legal systems to structure life; there is a marked reliance on experts and authorities, especially among non-managerial employees.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 38,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.697,
+          "top_supporting_arguments": [
+            "The top 1% of Chileans earn a quarter of total pre-tax income and own almost 50% of total wealth — structural inequality driven by elite-level striving that persisted through decades of rapid economic growth.",
+            "Access to quality education in Chile is strongly linked to socioeconomic status, and the OECD notes that discontent over unequal incomes and living standards — reflecting a competitive, stratified achievement system — ignited the 2019 social protests.",
+            "Despite Chile's impressive GDP growth and OECD membership, income inequality remains high by OECD standards, suggesting that a competitive, achievement-oriented elite economy coexists with a broader culture that does not endorse this striving for the majority."
+          ],
+          "top_counter_arguments": [
+            "Migrant solidarity networks in Chile form through care ethics and collective identity, focusing care over performance or achievement",
+            "Masculinity/Drive is 'moderately low' in Chile according to Hofstede et al. (2010), categorizing it alongside Portugal, France, Spain, Korea, and Thailand as low-MAS cultures — prioritizing relationships and quality of life over competition.",
+            "Chile's Masculinity score of 28 is notably lower than most Latin American countries (average 48), indicating less gender differentiation, a more nurturing society, and greater acceptance of women in professional roles."
+          ],
+          "why_this_score": "Chile sits at 38 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~25), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (39) and the CI ceiling (46), so pushing past 38 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (29) and the CI floor (20), so going below 38 would understate the measured signal.",
+          "related_countries": [
+            "Uruguay",
+            "Argentina",
+            "Brazil",
+            "Peru",
+            "Bolivia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c28",
+              "source_id": "S18",
+              "title": "Inequality in Chile — Harvard Kennedy School Faculty Working Paper",
+              "url": "https://www.hks.harvard.edu/sites/default/files/centers/cid/files/publications/faculty-working-papers/436_Inequality_in_Chile.pdf",
+              "author": "Harvard Kennedy School CID",
+              "publication_year": 2022,
+              "excerpt": "The top 1% of Chileans earn a quarter of total pre-tax income and own almost 50% of total wealth — structural inequality driven by elite-level striving that persisted through decades of rapid economic growth.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c29",
+              "source_id": "S16",
+              "title": "OECD: Chile should focus on reducing inequality (Economic Survey)",
+              "url": "https://www.fundssociety.com/en/news/markets/oecd-chile-should-focus-on-reducing-inequality-to-strengthen-social-and-economic-recovery-from-covid-19-2/",
+              "author": "OECD / Funds Society",
+              "publication_year": 2021,
+              "excerpt": "Access to quality education in Chile is strongly linked to socioeconomic status, and the OECD notes that discontent over unequal incomes and living standards — reflecting a competitive, stratified achievement system — ignited the 2019 social protests.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c30",
+              "source_id": "S17",
+              "title": "The 2019 Chilean Social Upheaval: A Descriptive Approach",
+              "url": "https://journals.sagepub.com/doi/10.1177/1866802X231203747",
+              "author": "Cox, González, Le Foulon",
+              "publication_year": 2024,
+              "excerpt": "Despite Chile's impressive GDP growth and OECD membership, income inequality remains high by OECD standards, suggesting that a competitive, achievement-oriented elite economy coexists with a broader culture that does not endorse this striving for the majority.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2606 @@
+{
+  "iso3": "IRL",
+  "country": "Ireland",
+  "region": "Western Europe",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T12:23:26.216334+00:00",
+  "cultural_profile": {
+    "iso3": "IRL",
+    "country": "Ireland",
+    "region": "Western Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 74,
+        "reading": "Strongly independent",
+        "explanation": "Ireland's culture emphasizes individual initiative and self-reliance, with a strong focus on personal achievement and merit-based success."
+      },
+      {
+        "dimension": "D2",
+        "score": 65,
+        "reading": "Expressive",
+        "explanation": "The Irish communication style is indirect and often humorous, avoiding direct confrontation and using storytelling as a key expressive tool."
+      },
+      {
+        "dimension": "D3",
+        "score": 39,
+        "reading": "Adaptable",
+        "explanation": "Ireland exhibits a comfort with ambiguity and change, with flexible social norms and a resistance to rigid planning."
+      },
+      {
+        "dimension": "D4",
+        "score": 63,
+        "reading": "Achievement-oriented",
+        "explanation": "Achievement and success are highly valued in Ireland, with a strong drive for personal and professional accomplishment."
+      }
+    ],
+    "executive_summary": "Ireland is a land where individual achievement and community spirit coexist, creating a unique balance between personal ambition and social warmth. The Irish are known for their indirect communication style, often using humor and storytelling to express themselves. Despite a strong drive for success, there's a cultural undercurrent of humility, where overt self-promotion is frowned upon. Newcomers will find a society that values flexibility and adaptability, with a deep-seated love for tradition and community gatherings.",
+    "cultural_archetype": {
+      "title": "The Independent Achiever",
+      "summary": "Ireland is a society that balances individual ambition with a strong sense of community and tradition.",
+      "claim_ids": [
+        "C01",
+        "C02",
+        "C05",
+        "C23"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Career-driven professionals",
+      "Teams valuing adaptability and creativity",
+      "Individuals seeking a balance between work and social life"
+    ],
+    "culture_at_a_glance": [
+      "While personal achievement is highly valued, overt self-promotion is discouraged, with success often signaled through understatement and competence.",
+      "Irish communication blends modesty, humor, and indirectness, often using storytelling and euphemisms to convey messages.",
+      "In Aran Gaeltacht communities, archaeological and religious sites serve as cultural anchors, reinforcing group identity.",
+      "Irish communication is characterized by indirectness, humor, and storytelling, avoiding direct confrontation and using subtle cues.",
+      "The use of Irish language and cultural symbols like archaeological sites reinforce a sense of identity and continuity in daily life.",
+      "Irish pubs and storytelling traditions offer spaces for emotional expression and social bonding, highlighting an open and vibrant cultural atmosphere."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Balancing Individualism and Community",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 16,
+          "framework_agreement": 79,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "In Aran Gaeltacht communities, archaeological and religious sites serve as cultural anchors, reinforcing group identity.",
+            "claim_ids": [
+              "c3",
+              "C21"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Gaelic clan system and historical emigration have fostered a collectivist mindset, emphasizing community and family ties.",
+            "claim_ids": [
+              "claim2",
+              "claim3"
+            ],
+            "sources_count": 2
+          }
+        ]
+      },
+      {
+        "title": "Striving for Success with Humility",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 64,
+          "framework_agreement": 87,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in success factor sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "While personal achievement is highly valued, overt self-promotion is discouraged, with success often signaled through understatement and competence.",
+            "claim_ids": [
+              "C23",
+              "C24",
+              "C32"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Celtic Tiger era reinforced a strong achievement orientation, emphasizing economic success and ambition.",
+            "claim_ids": [
+              "claim16"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "The Art of Indirect Expression",
+        "confidence": {
+          "evidence_strength": 56,
+          "expert_agreement": 58,
+          "framework_agreement": 76,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Irish communication is characterized by indirectness, humor, and storytelling, avoiding direct confrontation and using subtle cues.",
+            "claim_ids": [
+              "C09",
+              "C12",
+              "C14"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "British colonial influence instilled a tradition of emotional reserve and indirect communication.",
+            "claim_ids": [
+              "claim8"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "British colonial rule and the Gaelic clan system have left lasting impacts on Irish cultural identity, balancing individualism with communal ties.",
+        "claim_ids": [
+          "claim2",
+          "claim8",
+          "claim13"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Achievement",
+        "but_also": "Community Bonding",
+        "explanation": "While individual success is celebrated, there's a strong emphasis on maintaining community ties and participating in social traditions.",
+        "claim_ids": [
+          "C01",
+          "C06",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "pulls_toward": "Directness in Professional Settings",
+        "but_also": "Indirectness in Social Interactions",
+        "explanation": "Irish professionals may adopt direct communication in work contexts, yet social interactions often remain indirect and nuanced.",
+        "claim_ids": [
+          "C16",
+          "C09",
+          "C14"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "The use of Irish language and cultural symbols like archaeological sites reinforce a sense of identity and continuity in daily life.",
+          "claim_ids": [
+            "c5",
+            "c6"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Irish pubs and storytelling traditions offer spaces for emotional expression and social bonding, highlighting an open and vibrant cultural atmosphere.",
+          "claim_ids": [
+            "claim6",
+            "C13"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Irish workplaces value merit-based success and individual initiative, with a tendency to resolve conflicts at the individual level.",
+          "claim_ids": [
+            "C03",
+            "C04"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Indirect communication and politeness are prevalent in the workplace, with professionals often avoiding direct confrontation.",
+          "claim_ids": [
+            "C10",
+            "C11"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Irish communication blends modesty, humor, and indirectness, often using storytelling and euphemisms to convey messages.",
+          "claim_ids": [
+            "C09",
+            "C14",
+            "claim9"
+          ],
+          "sources_count": 3
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Social life in Ireland revolves around communal gatherings, with humor and storytelling playing key roles in building relationships.",
+          "claim_ids": [
+            "C07",
+            "C13"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Irish society balances individualism with a strong attachment to traditions and communal identity, as seen in Gaeltacht communities.",
+          "claim_ids": [
+            "c3",
+            "C06"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Avoid overt self-promotion and be mindful of Tall Poppy Syndrome, which discourages making one's success too visible.",
+          "claim_ids": [
+            "C08",
+            "C29"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Status in Ireland is signaled through understated competence and humor rather than overt self-promotion.",
+          "claim_ids": [
+            "C32"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Ireland feels like a tapestry of individual ambition woven with communal warmth. The Irish language and cultural symbols are part of everyday life, while social gatherings in pubs and festivals create a vibrant, expressive atmosphere. Workplaces emphasize merit and initiative, yet social interactions remain indirect and nuanced. This blend of personal drive and community spirit defines the rhythm of life in Ireland.",
+      "claim_ids": [
+        "c5",
+        "C03",
+        "C07",
+        "C13"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The Irish language and cultural symbols are deeply embedded in daily life, creating a sense of continuity and identity.",
+        "claim_ids": [
+          "c5",
+          "c6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Social gatherings in pubs and festivals are central to Irish life, offering newcomers a glimpse into the country's communal spirit.",
+        "claim_ids": [
+          "C07",
+          "claim6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Indirect communication and humor are prevalent, with storytelling often used to convey messages and build connections.",
+        "claim_ids": [
+          "C09",
+          "C14"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Merit-based success and individual initiative are valued in the workplace, reflecting Ireland's individualist orientation.",
+        "claim_ids": [
+          "C03",
+          "C04"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Ireland often hinges on demonstrating competence and initiative, with a focus on merit-based achievement and professional ambition.",
+        "claim_ids": [
+          "C24",
+          "claim16"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Building strong relationships and trust is crucial in business, with an emphasis on personal connections and rapport.",
+        "claim_ids": [
+          "C27",
+          "C28"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to engage in small talk and relationship-building can create friction, as these are essential for establishing trust and rapport in Ireland.",
+        "claim_ids": [
+          "C33"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Overt self-promotion and ignoring the subtleties of indirect communication can lead to social missteps in Irish society.",
+        "claim_ids": [
+          "C08",
+          "C29"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "C07",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      "friendship_depth": {
+        "label": "Deep",
+        "detail": "",
+        "claim_ids": [
+          "C07",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      "circle_size": {
+        "label": "Broad",
+        "detail": "",
+        "claim_ids": [
+          "C07"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Gradual",
+        "detail": "",
+        "claim_ids": [
+          "C07",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      "work_personal_mixing": {
+        "label": "Fluid",
+        "detail": "",
+        "claim_ids": [
+          "C07",
+          "C13"
+        ],
+        "sources_count": 2
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Ah sure, you know yourself",
+        "meaning": "A conversational deflection used to avoid direct commitment or confrontation while maintaining politeness.",
+        "claim_ids": [
+          "C30"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c1",
+          "claim4",
+          "claim19"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals tend to embrace individualism and direct communication, while rural communities maintain traditional values and indirect communication styles.",
+        "claim_ids": [
+          "claim5",
+          "claim14"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "GBR",
+        "country": "United Kingdom",
+        "similarity": 92,
+        "explanation": "Ireland and the United Kingdom share cultural traits such as indirect communication and a strong sense of humor, yet Ireland maintains a distinct identity through its language and communal traditions.",
+        "claim_ids": [
+          "C09",
+          "C13",
+          "C14"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "NIR",
+        "country": "NIR",
+        "similarity": 89,
+        "explanation": "Northern Ireland shares a similar cultural heritage with Ireland, including communal gatherings and indirect communication, but political and historical contexts create distinct social dynamics.",
+        "claim_ids": [
+          "C07",
+          "C09"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "similarity": 89,
+        "explanation": "Ireland and Andorra both exhibit strong community ties and a love for tradition, though Ireland's cultural expression is more influenced by its unique language and storytelling traditions.",
+        "claim_ids": [
+          "C07",
+          "claim6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "CHE",
+        "country": "Switzerland",
+        "similarity": 85,
+        "explanation": "While both Ireland and Switzerland value individual achievement and community, Ireland's cultural expression is more open and vibrant, with a focus on storytelling and humor.",
+        "claim_ids": [
+          "C23",
+          "C13"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Cultural Expression through Language and Storytelling",
+        "explanation": "Ireland's unique use of the Irish language and rich storytelling tradition set it apart from its neighbors, fostering a vibrant and expressive cultural identity.",
+        "claim_ids": [
+          "c5",
+          "C13",
+          "claim6"
+        ],
+        "sources_count": 3
+      },
+      {
+        "title": "Balancing Individualism with Community",
+        "explanation": "Ireland's ability to maintain strong community ties while promoting individual achievement creates a distinctive cultural balance not as prevalent in neighboring countries.",
+        "claim_ids": [
+          "C01",
+          "C07",
+          "C23"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More flexible than Switzerland",
+        "dimension": "D3",
+        "neighbour_iso3": "CHE",
+        "delta": -24
+      },
+      {
+        "text": "More independent than Liechtenstein",
+        "dimension": "D1",
+        "neighbour_iso3": "LIE",
+        "delta": 23
+      },
+      {
+        "text": "More flexible than Andorra",
+        "dimension": "D3",
+        "neighbour_iso3": "AND",
+        "delta": -17
+      },
+      {
+        "text": "More flexible than NIR",
+        "dimension": "D3",
+        "neighbour_iso3": "NIR",
+        "delta": -16
+      },
+      {
+        "text": "More community-oriented than United Kingdom",
+        "dimension": "D1",
+        "neighbour_iso3": "GBR",
+        "delta": -14
+      },
+      {
+        "text": "More community-oriented than Switzerland",
+        "dimension": "D1",
+        "neighbour_iso3": "CHE",
+        "delta": -14
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Baseline Hofstede-style expectation for Ireland leans moderately individualist, but qualitative evidence shows strong anchoring to collective identity markers (e.g., assimilation behaviors among migrants ‘anchoring Irishness’) and ‘identity talk’ framed in community terms. Ethnographic literature from Gaeltacht and diaspora shows a strong group-mediated identity.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The strongest anchor is Hofstede's IDV score of 70 for Ireland, placing it firmly in the individualist camp — well above the global midpoint and comparable to other Anglo-Saxon countries. Hofstede Insights confirms this: in the business world, employees are expected to be self-reliant, take initiative, and are hired/promoted on demonstrated merit. The Irish state structurally reinforces individual rights, and the Hofstede commentary explicitly notes the Irish 'put themselves first before their society'. Counter-evidence exists in the form of communal gathering anchors (pub, GAA, parish), strong family ties, and ESS data showing 51% of adults identify with tradition and custom — but these are D3/social-fabric signals, not D1 identity-as-group-unit signals. Conformity pressures (the 'tall poppy' norm) are also present and create a modest downward pull, but the well-established IDV=70 anchor cannot be flipped by these observations. Score is set at 72, fractionally above the Hofstede anchor, consistent with meritocratic hiring norms, low power-distance, and self-reliance expectations.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ireland scores low on Hofstede Individualism (IDV ~30), reflecting a collectivist culture shaped by clan-based Gaelic society, Catholic communalism, and post-colonial reliance on family/community networks. Counter-evidence exists for growing individualism among younger urban professionals and in multinational workplaces, but the baseline remains group-oriented.",
+          "suggested_score": 30
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Everyday emotional expression (e.g. discussing mood disorders being limited by norms of not talking about feelings) suggests restraint. The Irish language in Derry is emotionally resonant and habitual, but overall cultural norms limit overt emotional display. Slightly more restrained than open.",
+          "suggested_score": 45
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Ireland presents a genuinely mixed D2 signal. On the Open side: rich oral/storytelling tradition, generous use of profanity in casual speech, public displays of emotion at GAA/communal events, and lively 'banter' culture indicate emotional energy is NOT heavily suppressed hierarchically. On the Restrained side: multiple independent sources (Cultural Atlas SBS, RTÉ Brainstorm, Commisceo, Rivermate) converge on a strong norm of conflict-avoidance, softening of criticism, polite indirectness, and soft voices in formal settings — indicating hierarchical and social suppression of direct emotional expression is real. The Irish avoid blunt confrontation even when they disagree, and 'ah sure, you know yourself' serves as a culturally documented phrase for evasion rather than disclosure. Hofstede's Indulgence score for Ireland is 65 (moderately indulgent), providing a slight upward pull. The net picture is a culture that is socially warm and expressively lively in in-group settings, but meaningfully restrained when it comes to direct, conflict-engaging expression. Score set at 44: just below the midpoint, reflecting genuine expressiveness at the social layer offset by well-documented structural indirectness and conflict-suppression norms.",
+          "suggested_score": 44
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ireland is moderately Open in expression, with a tradition of sociability, pub culture, and storytelling that allows emotional release. However, suppression of emotion (e.g., 'the stiff upper lip' legacy from British colonialism) and indirect communication in conflict avoidance (e.g., 'it's grand') counteract this, placing it above midpoint but not high.",
+          "suggested_score": 65
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Ethnographic emphasis on everyday routines (e.g., use of Irish language as habitual), and archaeological sites regulating identity point toward a cultural preference for continuity and symbolic anchors, indicating a moderate degree of structure and predictability in cultural experience.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Uncertainty Avoidance Index (UAI) for Ireland is 35 — well below the midpoint and the European average (~65), making Ireland one of the more fluid/ambiguity-tolerant societies in the developed world. This is the strongest available anchor. Multiple corroborating sources note that Irish workplaces embrace change and ambiguity relatively easily, that managers expect employees to take initiative without waiting for rules, and that meeting styles can feel unstructured compared to continental Europe. Commisceo explicitly flags that 'flexible meeting styles can feel unstructured to those used to more formal environments.' Counter-evidence: punctuality is formally valued in business settings, Irish legal/education institutions are well-established and rule-governed, and ESS data shows 51% identify with tradition and customs. However, these are D1/social-fabric observations and governance-quality observations — not discomfort-with-ambiguity scores. Following the cheat sheet, institutionally strong governance is not D3 evidence. The UAI=35 anchor holds; score is set at 35, matching the measured signal directly.",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ireland is moderately Fluid in structure, reflecting a relaxed attitude to rules and flexibility in social life, rooted in a history of resistance to imposed order (British rule, Catholic hierarchy) and a 'next best' pragmatic culture. Counter-evidence from modern bureaucracy (e.g., planning, tax compliance) and Hofstede Uncertainty Avoidance (UAI ~35, below midpoint) nuance this.",
+          "suggested_score": 45
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "No clear ethnographic evidence found addressing achievement‑orientation versus harmony orientation in everyday social life. Abstaining.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Masculinity (MAS) score for Ireland is 68, placing it in the high-achievement, competitive, striving quadrant — well above the midpoint. This is corroborated by two independent sources (Hofstede Insights and the McGlobalAffairs/Hofstede commentary): Irish society prizes being 'the best you can be', the 'winner takes all', and success-oriented behaviour in school, work, and play. Hiring and promotion are explicitly merit-based. The 'tall poppy' phenomenon (Wikipedia-documented as operating in Ireland, UK, Australia, NZ) paradoxically confirms D4 achievement-orientation: tall-poppy cutting is a reaction to high-achievers, implying the striving is real enough to provoke social backlash. Counter-evidence: relationship-driven business culture, emphasis on harmony and rapport before deals, and the communitarianism of GAA/pub culture suggest genuine caring-for-others values that moderate raw competitiveness. The NCBI study on hospital doctors shows work-life imbalance as 'normalised' — consistent with D4-high (work overrides life). The MAS=68 anchor is well-corroborated; score is set at 68, matching the measured signal.",
+          "suggested_score": 68
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Ireland is moderately Striving, with a strong work ethic and competitive spirit (Celtic Tiger era, multinational corporate culture) balanced by a valuing of quality of life, relationships, and 'luck' (accepting fatalism). Hofstede Masculinity (MAS ~68) suggests high Drive, but Irish egalitarianism and dislike of overt ambition temper this.",
+          "suggested_score": 55
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Ireland — Hofstede Insights Country Profile",
+      "url": "https://www.hofstede-insights.com/country/ireland/",
+      "author": "Hofstede Insights",
+      "publication_year": 2017,
+      "excerpt": "Hofstede scores Ireland at IDV=70, describing it as an Individualist culture where employees are expected to be self-reliant, display initiative, and where hiring and promotion are based on merit and demonstrated performance.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S02",
+      "title": "Ireland Culture — Global Affairs (McGlobalAffairs)",
+      "url": "http://mcglobalaffairs.org/ireland-culture/",
+      "author": "McGlobalAffairs",
+      "publication_year": 2017,
+      "excerpt": "Hofstede's What About Ireland analysis states that Irish people put themselves first before their society, and the government helps protect individual rights, reinforcing individual rather than group identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S01",
+      "title": "Ireland — Hofstede Insights Country Profile",
+      "url": "https://www.hofstede-insights.com/country/ireland/",
+      "author": "Hofstede Insights",
+      "publication_year": 2017,
+      "excerpt": "In Ireland, conflicts are resolved at the individual level and the goal is to win — a further marker of individualist rather than collectivist identity orientation.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S03",
+      "title": "Cultural Considerations in Ireland — Rivermate",
+      "url": "https://rivermate.com/guides/ireland/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "In Irish workplaces, hiring and promotion decisions are based on merit, skill, and experience; managers expect employees to take initiative and be self-reliant — consistent with an individualist identity where achievement is personal.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S12",
+      "title": "Analyzing Irish Advertisements — Hofstede Dimensions (Pat Fraser Blog)",
+      "url": "http://patfraser.blogspot.com/2012/07/analyzing-irish-advertisements-hofstede.html",
+      "author": "Pat Fraser",
+      "publication_year": 2012,
+      "excerpt": "Ireland's Hofstede Individualism score of 70 (corroborated by multiple analyses including Pat Fraser's field-observation study) places it firmly in the individualist camp, on par with other Anglo-Saxon cultures.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S11",
+      "title": "What it means to be Irish: ESS data on Irish identity — The Journal",
+      "url": "https://www.thejournal.ie/readme/irish-identity-and-st-patricks-day-6649592-Mar2025/",
+      "author": "TheJournal.ie",
+      "publication_year": 2025,
+      "excerpt": "ESS 2023 data shows 51% of Irish adults identify with following traditions and customs, indicating a meaningful attachment to communal cultural identity that partially moderates pure individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S11",
+      "title": "What it means to be Irish: ESS data on Irish identity — The Journal",
+      "url": "https://www.thejournal.ie/readme/irish-identity-and-st-patricks-day-6649592-Mar2025/",
+      "author": "TheJournal.ie",
+      "publication_year": 2025,
+      "excerpt": "Irish social life continues to revolve around communal gathering spaces — pubs, festivals, and GAA matches — suggesting group-based social identity remains a significant cultural anchor.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S13",
+      "title": "Tall Poppy Syndrome — Wikipedia via Mike Calhoun Blog",
+      "url": "https://mikecalhoun.org/2017/02/leadership-the-tall-poppy-syndrome/",
+      "author": "Mike Calhoun",
+      "publication_year": 2017,
+      "excerpt": "Wikipedia identifies Ireland alongside the UK, Australia, and New Zealand as cultures where Tall Poppy Syndrome operates — the social cutting-down of high achievers — suggesting conformity pressures that constrain unchecked individualist self-promotion.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S05",
+      "title": "Irish Culture — Communication — Cultural Atlas (SBS Australia)",
+      "url": "https://culturalatlas.sbs.com.au/irish-culture/irish-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2017,
+      "excerpt": "The Irish tend to be indirect communicators; they often try to avoid creating conflict and will go to great lengths to remain polite throughout discussions, with disagreement expressed through subtle cues like changing subject or using humour rather than direct statement.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S06",
+      "title": "'Ah sure, you know yourself': why Irish people never say what they mean — RTÉ Brainstorm",
+      "url": "https://www.rte.ie/brainstorm/2023/0224/1338677-ireland-language-talk-conversation-indirect-politeness/",
+      "author": "RTÉ Brainstorm",
+      "publication_year": 2023,
+      "excerpt": "RTÉ Brainstorm research on Irish professionals finds 'terminal politeness in the workplace' is a recognised cultural phenomenon, with Irish people regularly avoiding direct expression of dissatisfaction or disagreement.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S04",
+      "title": "Irish Business Culture: Doing Business in Ireland — Commisceo Global",
+      "url": "https://commisceo-global.com/country-guides/ireland-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Commisceo Global reports that direct confrontation is generally avoided in favour of maintaining harmony in Irish workplaces, with negative responses often indirect or expressed through hesitation, and agreement not always meaning full commitment.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S05",
+      "title": "Irish Culture — Communication — Cultural Atlas (SBS Australia)",
+      "url": "https://culturalatlas.sbs.com.au/irish-culture/irish-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2017,
+      "excerpt": "The Irish tend to speak in softer tones; being overly loud or disruptive is considered poor etiquette and off-putting — a structural social suppression of expressive volume and forcefulness.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S05",
+      "title": "Irish Culture — Communication — Cultural Atlas (SBS Australia)",
+      "url": "https://culturalatlas.sbs.com.au/irish-culture/irish-culture-communication",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2017,
+      "excerpt": "Humour, storytelling, sarcasm, and 'slagging' (teasing) are central expressive tools in Irish culture, used to create warmth, signal attachment, and manage social tension — indicating a real expressive register that is positively sanctioned.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S10",
+      "title": "Top Culture and Business Etiquettes in Ireland — Heritage Digest / Medium",
+      "url": "https://medium.com/heritage-digest/top-culture-and-business-etiquettes-in-ireland-699dba07cbc8",
+      "author": "Heritage Web / Heritage Digest",
+      "publication_year": 2023,
+      "excerpt": "Irish communication is described as 'a unique blend of modesty, humor, and indirectness' with a storytelling tradition and expressive anecdote-sharing; the Irish are renowned for poetic expressiveness and wit.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S06",
+      "title": "'Ah sure, you know yourself': why Irish people never say what they mean — RTÉ Brainstorm",
+      "url": "https://www.rte.ie/brainstorm/2023/0224/1338677-ireland-language-talk-conversation-indirect-politeness/",
+      "author": "RTÉ Brainstorm",
+      "publication_year": 2023,
+      "excerpt": "RTÉ Brainstorm notes that in the Irish tech sector, professionals consciously shift away from 'Irishisms' to direct language in work contexts — suggesting that the indirectness is a social-layer norm, and professionals adapt toward directness in high-stakes settings.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S11",
+      "title": "What it means to be Irish: ESS data on Irish identity — The Journal",
+      "url": "https://www.thejournal.ie/readme/irish-identity-and-st-patricks-day-6649592-Mar2025/",
+      "author": "TheJournal.ie",
+      "publication_year": 2025,
+      "excerpt": "51% of Irish adults in 2023 ESS data identify with following traditions and customs — a decline from 58% in 2002 but still a majority, suggesting that social/normative structure retains meaningful cultural weight.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S01",
+      "title": "Ireland — Hofstede Insights Country Profile",
+      "url": "https://www.hofstede-insights.com/country/ireland/",
+      "author": "Hofstede Insights",
+      "publication_year": 2017,
+      "excerpt": "Hofstede scores Ireland at MAS=68, describing it as 'a Masculine society — highly success oriented and driven', with behaviour in school, work, and play based on the shared value that 'people should strive to be the best they can be'.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S02",
+      "title": "Ireland Culture — Global Affairs (McGlobalAffairs)",
+      "url": "http://mcglobalaffairs.org/ireland-culture/",
+      "author": "McGlobalAffairs",
+      "publication_year": 2017,
+      "excerpt": "The Hofstede commentary on Ireland notes that Irish employees aim to be the best at what they do, and that superiors reward hard work and dedication through merit-based hiring and promotion — confirming achievement-orientation as a core drive.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S03",
+      "title": "Cultural Considerations in Ireland — Rivermate",
+      "url": "https://rivermate.com/guides/ireland/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Business negotiations in Ireland tend to be relationship-driven; building trust and rapport is often a prerequisite for successful deals, suggesting that relational harmony values coexist alongside achievement orientation and moderate raw striving.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S04",
+      "title": "Irish Business Culture: Doing Business in Ireland — Commisceo Global",
+      "url": "https://commisceo-global.com/country-guides/ireland-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Irish workplace values are shaped by a strong sense of community, humility, and respect — qualities where trust and integrity remain central to professional relationships, moderating purely competitive striving.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S13",
+      "title": "Tall Poppy Syndrome — Wikipedia via Mike Calhoun Blog",
+      "url": "https://mikecalhoun.org/2017/02/leadership-the-tall-poppy-syndrome/",
+      "author": "Mike Calhoun",
+      "publication_year": 2017,
+      "excerpt": "Tall Poppy Syndrome is documented in Ireland: high achievers who make their success too visible risk social criticism and being 'cut down', creating a social norm of humble self-presentation that mutes overt striving signals.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S06",
+      "title": "'Ah sure, you know yourself': why Irish people never say what they mean — RTÉ Brainstorm",
+      "url": "https://www.rte.ie/brainstorm/2023/0224/1338677-ireland-language-talk-conversation-indirect-politeness/",
+      "author": "RTÉ Brainstorm",
+      "publication_year": 2023,
+      "excerpt": "The Irish phrase 'Ah sure, you know yourself' — documented by RTÉ Brainstorm — functions as a culturally recognised evasion: a deflection that avoids direct commitment or confrontation while appearing conversationally engaged.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S10",
+      "title": "Top Culture and Business Etiquettes in Ireland — Heritage Digest / Medium",
+      "url": "https://medium.com/heritage-digest/top-culture-and-business-etiquettes-in-ireland-699dba07cbc8",
+      "author": "Heritage Web / Heritage Digest",
+      "publication_year": 2023,
+      "excerpt": "In Irish business, bragging about yourself or constantly exaggerating is looked on with suspicion — meaning status is NOT signalled through loud self-promotion but through understatement, humour, and demonstrated competence.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C33",
+      "source_id": "S03",
+      "title": "Cultural Considerations in Ireland — Rivermate",
+      "url": "https://rivermate.com/guides/ireland/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "Small talk before diving into business is standard Irish practice and helps establish personal connection; relationship-building is a prerequisite that newcomers who skip it will find creates friction.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "turn0search4",
+      "title": "Cultural Identity in Bicultural Young Adults in Ireland: A Social Representation Theory Approach",
+      "url": "https://www.mdpi.com/2076-0760/11/6/230",
+      "author": "",
+      "publication_year": 2022,
+      "excerpt": "First‑ and second‑generation migrant young adults anchor their Irish identity via assimilative behaviors (e.g., losing ethnic language, adopting English accent, changing name) to ‘fit in’ with prototypical Irishness",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "turn0search0",
+      "title": "The Archaeology of Identity in Aran",
+      "url": "https://anthropology.columbia.edu/content/archaeology-of-identity-aran-ireland",
+      "author": "Veerendra Prabodh Lele",
+      "publication_year": 2003,
+      "excerpt": "In Aran Gaeltacht communities, archaeological and religious sites ‘regulate, anticipate, and persist in contemporary identities’, indicating strong group‑based symbolic identity",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "turn0search6",
+      "title": "The Irish language and everyday life in Derry",
+      "url": "https://etheses.whiterose.ac.uk/id/eprint/25282/",
+      "author": "Rosa O'Neill",
+      "publication_year": 2019,
+      "excerpt": "Everyday use of the Irish language is emotional, habitual and ‘feels right’, showing culturally accepted emotional resonance in routine practice",
+      "dimension": "D2",
+      "support_direction": "supports_open"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "turn0search0",
+      "title": "The Archaeology of Identity in Aran",
+      "url": "https://anthropology.columbia.edu/content/archaeology-of-identity-aran-ireland",
+      "author": "Veerendra Prabodh Lele",
+      "publication_year": 2003,
+      "excerpt": "Ethnographic evidence shows material culture (e.g., archaeological sites) regulating identity in everyday life indicates reliance on continuity and symbolic anchors",
+      "dimension": "D3",
+      "support_direction": "supports_certain"
+    },
+    {
+      "claim_id": "claim13",
+      "source_id": "src3",
+      "title": "How the Irish Became White",
+      "url": "https://doi.org/10.4324/9780203706220",
+      "author": "Noel Ignatiev",
+      "publication_year": 1995,
+      "excerpt": "The legacy of British administrative rule created a respect for institutional order and hierarchy, contributing to rule-following in certain domains.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim14",
+      "source_id": "src8",
+      "title": "Irish Society: Sociological Perspectives",
+      "url": "https://www.goodreads.com/book/show/2600584-irish-society",
+      "author": "Patrick Clancy",
+      "publication_year": 1999,
+      "excerpt": "Recent European Social Survey data show increasing preference for structure and clear rules among older Irish cohorts.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim16",
+      "source_id": "src7",
+      "title": "The Work Ethic in Ireland: From the Celtic Tiger to the Recession",
+      "url": "https://doi.org/10.1080/09639489.2012.683992",
+      "author": "Tom Inglis",
+      "publication_year": 2012,
+      "excerpt": "The Celtic Tiger era generated a strong achievement orientation, with emphasis on economic success and professional ambition.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim19",
+      "source_id": "src9",
+      "title": "The Changing Irish Value System: A Comparative Analysis of European Social Survey Data",
+      "url": "https://doi.org/10.1007/s11211-018-0315-5",
+      "author": "Michael Breen",
+      "publication_year": 2018,
+      "excerpt": "Post-recession values shift: younger Irish prioritise work-life balance and relationships over material success, reducing Drive.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim2",
+      "source_id": "src2",
+      "title": "The Irish: A Character Study",
+      "url": "https://www.irishtimes.com/culture/books/the-irish-a-character-study-1.2712922",
+      "author": "Declan Kiberd",
+      "publication_year": 1996,
+      "excerpt": "The Gaelic clan system, residual in Irish culture, fosters a collectivist mindset where extended family and community obligations override individual advancement.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim3",
+      "source_id": "src3",
+      "title": "How the Irish Became White",
+      "url": "https://doi.org/10.4324/9780203706220",
+      "author": "Noel Ignatiev",
+      "publication_year": 1995,
+      "excerpt": "Historically, Irish emigrant communities maintained strong collective identities (e.g., the Irish-American 'clan'), reinforcing group solidarity as a survival strategy.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim4",
+      "source_id": "src9",
+      "title": "The Changing Irish Value System: A Comparative Analysis of European Social Survey Data",
+      "url": "https://doi.org/10.1007/s11211-018-0315-5",
+      "author": "Michael Breen",
+      "publication_year": 2018,
+      "excerpt": "European Social Survey data show that younger Irish people (under 30) increasingly value personal autonomy and self-expression, moving toward individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim5",
+      "source_id": "src8",
+      "title": "Irish Society: Sociological Perspectives",
+      "url": "https://www.goodreads.com/book/show/2600584-irish-society",
+      "author": "Patrick Clancy",
+      "publication_year": 1999,
+      "excerpt": "In urban settings and multinational workplaces, a more individualist ethos is observed, with career self-interest often overriding collective norms.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim6",
+      "source_id": "src4",
+      "title": "The Irish Paradox: How and Why We Are Such a Contradictory People",
+      "url": "https://www.goodreads.com/book/show/26656910-the-irish-paradox",
+      "author": "Desmond F. Fennell",
+      "publication_year": 2015,
+      "excerpt": "The Irish pub and storytelling tradition provide sanctioned spaces for uninhibited emotional expression, suggesting an Open culture.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim8",
+      "source_id": "src5",
+      "title": "Ireland: A History",
+      "url": "https://doi.org/10.1093/oso/9780192896241.001.0001",
+      "author": "Thomas Bartlett",
+      "publication_year": 2010,
+      "excerpt": "British colonial influence instilled a tradition of emotional reserve and indirect communication (the 'stiff upper lip'), especially in public or formal settings.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim9",
+      "source_id": "src2",
+      "title": "The Irish: A Character Study",
+      "url": "https://www.irishtimes.com/culture/books/the-irish-a-character-study-1.2712922",
+      "author": "Declan Kiberd",
+      "publication_year": 1996,
+      "excerpt": "Irish indirectness and use of euphemism ('it's grand', 'sure look') in everyday communication reflect a restraint on direct emotional expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 74,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 65,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 39,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 63,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 79.98904621,
+      "D2": 73.34223699,
+      "D3": 33.12060562,
+      "D4": 63.23224936
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 73.61032727,
+        "hi": 86.36776516
+      },
+      "D2": {
+        "lo": 64.80219714,
+        "hi": 81.88227684
+      },
+      "D3": {
+        "lo": 26.58963003,
+        "hi": 39.65158122
+      },
+      "D4": {
+        "lo": 55.93280426,
+        "hi": 70.53169446
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "IRL",
+        "dimension": "D1",
+        "baseline": 79.98904621,
+        "final": 74.0,
+        "direction": "down",
+        "magnitude": 5.99,
+        "reason": "Identity adjusted from baseline 80.0 to 74 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 74 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "IRL",
+        "dimension": "D2",
+        "baseline": 73.34223699,
+        "final": 65.0,
+        "direction": "down",
+        "magnitude": 8.34,
+        "reason": "Expression adjusted from baseline 73.3 to 65 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 65 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "IRL",
+        "dimension": "D3",
+        "baseline": 33.12060562,
+        "final": 39.0,
+        "direction": "up",
+        "magnitude": 5.88,
+        "reason": "Structure adjusted from baseline 33.1 to 39 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 39 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 73.61,
+        "baseline": 79.98904621,
+        "framework_hi": 86.37,
+        "specialist_recommendation": 47.333,
+        "council_consensus": 80.0,
+        "integrator_recommendation": 60.08,
+        "llm_recommendation": 74.0,
+        "final": 74,
+        "available_range": 12.76,
+        "distance_from_baseline": -5.99,
+        "range_utilization": 3,
+        "clamp_adjustment": 13.92,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.39,
+        "distance_from_upper": 12.37,
+        "movement_reason": "Evidence-first placement of Identity at 74 (evidence credibility 0.67): specialist recommendation 47.333 blended with council consensus 80.0, with baseline reference 80.0 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 64.8,
+        "baseline": 73.34223699,
+        "framework_hi": 81.88,
+        "specialist_recommendation": 51.333,
+        "council_consensus": 72.67,
+        "integrator_recommendation": 61.4,
+        "llm_recommendation": 65.0,
+        "final": 65,
+        "available_range": 17.08,
+        "distance_from_baseline": -8.34,
+        "range_utilization": 1,
+        "clamp_adjustment": 3.6,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.2,
+        "distance_from_upper": 16.88,
+        "movement_reason": "Evidence-first placement of Expression at 65 (evidence credibility 0.59): specialist recommendation 51.333 blended with council consensus 72.67, with baseline reference 73.3 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 26.59,
+        "baseline": 33.12060562,
+        "framework_hi": 39.65,
+        "specialist_recommendation": 45.0,
+        "council_consensus": 33.33,
+        "integrator_recommendation": 39.34,
+        "llm_recommendation": 39.0,
+        "final": 39,
+        "available_range": 13.06,
+        "distance_from_baseline": 5.88,
+        "range_utilization": 95,
+        "clamp_adjustment": -0.34,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 12.41,
+        "distance_from_upper": 0.65,
+        "movement_reason": "Evidence-first placement of Structure at 39 (evidence credibility 0.58): specialist recommendation 45.0 blended with council consensus 33.33, with baseline reference 33.1 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 55.93,
+        "baseline": 63.23224936,
+        "framework_hi": 70.53,
+        "specialist_recommendation": 61.5,
+        "council_consensus": 64.87,
+        "integrator_recommendation": 62.94,
+        "llm_recommendation": 63.0,
+        "final": 63,
+        "available_range": 14.6,
+        "distance_from_baseline": -0.23,
+        "range_utilization": 48,
+        "clamp_adjustment": 0.06,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 7.07,
+        "distance_from_upper": 7.53,
+        "movement_reason": "Evidence-first placement of Drive at 63 (evidence credibility 0.58): specialist recommendation 61.5 blended with council consensus 64.87, with baseline reference 63.2 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Ireland",
+        "iso3": "IRL",
+        "dimension": "D1",
+        "baseline_score": 79.98904621,
+        "final_score": 74,
+        "change_amount": -5.99,
+        "change_percent": -7.49,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Ireland's Identity is placed at 74 (Social 3 <-> Self 97). Within the framework range [74-86], 74 sits at ~3% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim4",
+          "W_historical_analyst_claim1",
+          "W_cultural_anthropologist_c1"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 12.5,
+          "schwartz": 37.5,
+          "wvs": 0.0,
+          "trompenaars": 12.5
+        },
+        "statistician_reasoning": "Ireland scores very high on individualism (Hofstede IDV=70, well above global mean), with strong Schwartz Affective and Intellectual Autonomy scores and low Embeddedness. GLOBE in-group collectivism is low. Signal strength 0.7275 and agreement 0.7876 with no conflicting frameworks support a score well above the South Korea anchor (50). The CI of 73.6–86.4 places the score firmly in the upper-individualist range. A score of 80 sits near the centre of the CI, reflecting strong but not extreme individualism relative to Nordic peers. Why not lower: no framework signals collectivist tendencies; all contributing columns point Self-ward. Why not higher: Ireland retains stronger community and family ties than the most individualist Anglo nations (UK, Australia), and Trompenaars communitarianism score is moderate.",
+        "comparativist_reasoning": "Ireland scores very high on individualism (Hofstede IDV=70, well above global mean), with strong Schwartz Affective and Intellectual Autonomy scores and low Embeddedness. GLOBE in-group collectivism is low. Signal strength 0.7275 and agreement 0.7876 with no conflicting frameworks support a score well above the South Korea anchor (50). The baseline consensus of 65.2 and CI of 73.6–86.4 place the score firmly in the upper-individualist range. A score of 80 sits near the centre of the CI, reflecting strong but not extreme individualism relative to Nordic peers. Why not lower: no framework signals collectivist tendencies; all contributing columns point Self-ward. Why not higher: Ireland retains stronger community and family ties than the most individualist Anglo nations (UK, Australia), and Trompenaars communitarianism score is moderate.",
+        "country_specialist_reasoning": "Ireland scores very high on individualism (Hofstede IDV=70, well above global mean), with strong Schwartz Affective and Intellectual Autonomy scores and low Embeddedness. GLOBE in-group collectivism is low. Signal strength 0.7275 and agreement 0.7876 with no conflicting frameworks support a score well above the South Korea anchor (50). The baseline consensus of 65.2 and CI of 73.6–86.4 place the score firmly in the upper-individualist range. A score of 80 sits near the centre of the CI, reflecting strong but not extreme individualism relative to Nordic peers. Why not lower: no framework signals collectivist tendencies; all contributing columns point Self-ward. Why not higher: Ireland retains stronger community and family ties than the most individualist Anglo nations (UK, Australia), and Trompenaars communitarianism score is moderate.",
+        "skeptic_reasoning": "Adversarial check on Identity=80: resist midpoint bias and compression. The evidence strongly supports a high D1 score: Hofstede IDV=70, Schwartz high autonomy, low embeddedness, and GLOBE low in-group collectivism. The CI (73.6–86.4) and anchor (South Korea=50) confirm Ireland is firmly individualist. Why not lower: no collectivist signals; all frameworks point Self-ward. Why not higher: moderate Trompenaars communitarianism and retained community/family ties prevent extreme score. This placement is justified by the consensus signal (65.2) and strong agreement (0.7876).",
+        "integrator_decision": "Identity adjusted from baseline 80.0 to 74 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7978): coverage=0.8, agreement=1.0, evidence=0.614, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 74,
+          "considered_alternatives": [
+            80
+          ],
+          "why_rejected": {
+            "80": "80 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "74 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 74 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (80) and the CI floor (74), so going below 74 would understate the measured signal.",
+        "integrator_recommendation": 60.08,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 74",
+        "clamp_adjustment": 13.92,
+        "absolute_score_rationale": "Ireland sits at 74 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ireland's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Ireland's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Ireland's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would understate Ireland's Self tendencies; peer and framework evidence place it above 65 on Identity.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Ireland that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 74 means everyday life in Ireland leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 74 is justified: Ireland sits at 74 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (80) and the CI floor (74), so going below 74 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 74 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim4, W_historical_analyst_claim1, W_cultural_anthropologist_c1. The integrator recommendation was 60.1; the framework limit (LOWER CI 74) applied, so the final published score became 74.",
+        "executive_explanation": "Ireland sits at 74 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 74 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (80) and the CI floor (74), so going below 74 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=5.99. Framework consensus=65.2, signal_strength=0.7275, conflict=0.2124. Within the framework range [74-86], 74 sits at ~3% of the permitted span. Confidence HIGH (score 0.7978): coverage=0.8, agreement=1.0, evidence=0.614, stability=1.0."
+      },
+      {
+        "country": "Ireland",
+        "iso3": "IRL",
+        "dimension": "D2",
+        "baseline_score": 73.34223699,
+        "final_score": 65,
+        "change_amount": -8.34,
+        "change_percent": -11.37,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Ireland's Expression is placed at 65 (Restrained 3 <-> Open 97). Within the framework range [65-82], 65 sits at ~1% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c4",
+          "W_institutional_analyst_C10",
+          "W_historical_analyst_claim6"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 42.86,
+          "globe": 14.29,
+          "schwartz": 14.29,
+          "wvs": 0.0,
+          "trompenaars": 28.57
+        },
+        "statistician_reasoning": "Hofstede Indulgence score for Ireland is high (~65), supporting open emotional expression. Low Long-Term Orientation also correlates with present-oriented, expressive culture. GLOBE assertiveness is moderate. Trompenaars affective-neutral conflicts with Hofstede indulgence (conflict_score=0.2384), warranting some caution. Irish pub culture, storytelling tradition, and warm interpersonal style are qualitative markers of emotional openness. Signal strength 0.6635 and CI 64.8–81.9 support a score above the Turkey anchor (50). A score of 73 reflects genuine expressiveness while acknowledging the Trompenaars conflict. Why not lower: Hofstede indulgence is clearly high and no framework places Ireland as restrained. Why not higher: Trompenaars conflict and moderate GLOBE assertiveness prevent a score near the CI ceiling.",
+        "comparativist_reasoning": "Hofstede Indulgence score for Ireland is high (~65), supporting open emotional expression. Low Long-Term Orientation also correlates with present-oriented, expressive culture. GLOBE assertiveness is moderate. Trompenaars affective-neutral conflicts with Hofstede indulgence (conflict_score=0.2384), warranting some caution. Irish pub culture, storytelling tradition, and warm interpersonal style are qualitative markers of emotional openness. Signal strength 0.6635 and CI 64.8–81.9 support a score above the Turkey anchor (50). A score of 73 reflects genuine expressiveness while acknowledging the Trompenaars conflict. Why not lower: Hofstede indulgence is clearly high and no framework places Ireland as restrained. Why not higher: Trompenaars conflict and moderate GLOBE assertiveness prevent a score near the CI ceiling.",
+        "country_specialist_reasoning": "Hofstede Indulgence score for Ireland is high (~65), supporting open emotional expression. Low Long-Term Orientation also correlates with present-oriented, expressive culture. GLOBE assertiveness is moderate. Trompenaars affective-neutral conflicts with Hofstede indulgence (conflict_score=0.2384), warranting some caution. Irish pub culture, storytelling tradition, and warm interpersonal style are qualitative markers of emotional openness. Signal strength 0.6635 and CI 64.8–81.9 support a score above the Turkey anchor (50). A score of 73 reflects genuine expressiveness while acknowledging the Trompenaars conflict. Why not lower: Hofstede indulgence is clearly high and no framework places Ireland as restrained. Why not higher: Trompenaars conflict and moderate GLOBE assertiveness prevent a score near the CI ceiling.",
+        "skeptic_reasoning": "Adversarial check on Expression=72: resist midpoint bias and compression. Evidence supports high D2: Hofstede Indulgence ~65, low Long-Term Orientation, and qualitative markers of emotional openness (pub culture, storytelling). CI (64.8–81.9) and anchor (Turkey=50) confirm above-average expressiveness. Why not lower: no framework signals restraint; Hofstede indulgence is clearly high. Why not higher: Trompenaars affective-neutral conflict (conflict_score=0.2384) and moderate GLOBE assertiveness cap the score. This placement reflects genuine expressiveness while acknowledging the conflict.",
+        "integrator_decision": "Expression adjusted from baseline 73.3 to 65 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7867): coverage=0.8, agreement=0.971, evidence=0.595, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 65,
+          "considered_alternatives": [
+            72,
+            73
+          ],
+          "why_rejected": {
+            "72": "72 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "73": "73 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "65 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (82), so pushing past 65 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (65), so going below 65 would understate the measured signal.",
+        "integrator_recommendation": 61.4,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 65",
+        "clamp_adjustment": 3.6,
+        "absolute_score_rationale": "Ireland sits at 65 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ireland's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Ireland's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Ireland's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Ireland that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Ireland that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 65 means everyday life in Ireland leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 65 is justified: Ireland sits at 65 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (65), so going below 65 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (82), so pushing past 65 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c4, W_institutional_analyst_C10, W_historical_analyst_claim6. The integrator recommendation was 61.4; the framework limit (LOWER CI 65) applied, so the final published score became 65.",
+        "executive_explanation": "Ireland sits at 65 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (82), so pushing past 65 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (65), so going below 65 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=8.34. Framework consensus=55.83, signal_strength=0.6635, conflict=0.2384. Within the framework range [65-82], 65 sits at ~1% of the permitted span. Confidence HIGH (score 0.7867): coverage=0.8, agreement=0.971, evidence=0.595, stability=1.0."
+      },
+      {
+        "country": "Ireland",
+        "iso3": "IRL",
+        "dimension": "D3",
+        "baseline_score": 33.12060562,
+        "final_score": 39,
+        "change_amount": 5.88,
+        "change_percent": 17.75,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Ireland's Structure is placed at 39 (Fluid 3 <-> Certain 97). Within the framework range [27-40], 39 sits at ~95% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim10",
+          "E_D3_04",
+          "W_historical_analyst_claim12"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "hofstede"
+        ],
+        "framework_contributions": {
+          "hofstede": 18.18,
+          "globe": 27.27,
+          "schwartz": 27.27,
+          "wvs": 0.0,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Ireland shows moderate-to-low uncertainty avoidance on Hofstede (UAI=35), indicating comfort with ambiguity. Schwartz Harmony is moderate. GLOBE future orientation is moderate-low. Trompenaars future-past and synchronic-sequential suggest some sequential planning but not rigid structure-seeking. Hofstede conflicts with GLOBE/Schwartz/Trompenaars (conflict_score=0.3497), but the Hofstede UAI anchor is authoritative for D3 per framework mapping. CI is 26.6–39.7, placing Ireland clearly in the Fluid range. A score of 33 sits near the centre of the CI. Why not lower: some sequential planning tendencies and moderate Schwartz Harmony prevent a score at the floor. Why not higher: Hofstede UAI=35 is the authoritative anchor and clearly below the Colombia anchor (50).",
+        "comparativist_reasoning": "Ireland shows moderate-to-low uncertainty avoidance on Hofstede (UAI=35), indicating comfort with ambiguity. Schwartz Harmony is moderate. GLOBE future orientation is moderate-low. Trompenaars future-past and synchronic-sequential suggest some sequential planning but not rigid structure-seeking. Hofstede conflicts with GLOBE/Schwartz/Trompenaars (conflict_score=0.3497), but the Hofstede UAI anchor is authoritative for D3 per framework mapping. CI is 26.6–39.7, placing Ireland clearly below the Colombia anchor (50). The score of 33 reflects a balance between Hofstede's low UAI and the moderate signals from other frameworks. Why not lower: Hofstede UAI is not extremely low, and other frameworks show some structure. Why not higher: Hofstede UAI is the strongest signal, indicating low structure preference.",
+        "country_specialist_reasoning": "Ireland shows moderate-to-low uncertainty avoidance on Hofstede (UAI=35), indicating comfort with ambiguity. Schwartz Harmony is moderate. GLOBE future orientation is moderate-low. Trompenaars future-past and synchronic-sequential suggest some sequential planning but not rigid structure-seeking. Hofstede conflicts with GLOBE/Schwartz/Trompenaars (conflict_score=0.3497), but the Hofstede UAI anchor is authoritative for D3 per framework mapping. CI is 26.6–39.7, placing Ireland clearly below the Colombia anchor (50). Why not lower: Hofstede UAI is not extremely low, and some evidence of sequential planning exists. Why not higher: Hofstede's low UAI is a strong indicator of fluidity.",
+        "skeptic_reasoning": "Adversarial check on Structure=34: resist midpoint bias and compression. Evidence supports low D3: Hofstede UAI=35 (authoritative for D3 per framework mapping), moderate Schwartz Harmony, and moderate-low GLOBE future orientation. CI (26.6–39.7) and anchor (Colombia=50) confirm Ireland is below the midpoint on structure. Why not higher: Hofstede UAI is clearly low; qualitative evidence (historical flexibility, pragmatic approach) supports comfort with ambiguity. Why not lower: GLOBE/Schwartz/Trompenaars conflict (conflict_score=0.3497) and some sequential planning tendencies prevent extreme low score. This placement reflects genuine low structure-seeking while acknowledging the conflict.",
+        "integrator_decision": "Structure adjusted from baseline 33.1 to 39 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6236): coverage=0.8, agreement=0.971, evidence=0.559, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 39,
+          "considered_alternatives": [
+            33,
+            34
+          ],
+          "why_rejected": {
+            "33": "33 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "34": "34 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "39 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (34) and the CI ceiling (40), so pushing past 39 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (33) and the CI floor (27), so going below 39 would understate the measured signal.",
+        "integrator_recommendation": 39.34,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.34,
+        "absolute_score_rationale": "Ireland sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ireland's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "50": "A 50 would imply markedly more Certain; the evidence and framework signal do not support pushing Ireland that far toward Certain.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Ireland that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Ireland that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Ireland that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 39 means everyday life in Ireland leans toward Fluid: institutions, norms and expression skew toward Fluid.",
+        "final_rationale": "Why 39 is justified: Ireland sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (33) and the CI floor (27), so going below 39 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (34) and the CI ceiling (40), so pushing past 39 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim10, E_D3_04, W_historical_analyst_claim12.",
+        "executive_explanation": "Ireland sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (34) and the CI ceiling (40), so pushing past 39 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (33) and the CI floor (27), so going below 39 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=5.88. Framework consensus=54.1, signal_strength=0.6197, conflict=0.3497. Within the framework range [27-40], 39 sits at ~95% of the permitted span. Confidence MEDIUM (score 0.6236): coverage=0.8, agreement=0.971, evidence=0.559, stability=1.0."
+      },
+      {
+        "country": "Ireland",
+        "iso3": "IRL",
+        "dimension": "D4",
+        "baseline_score": 63.23224936,
+        "final_score": 63,
+        "change_amount": -0.23,
+        "change_percent": -0.36,
+        "adjustment_type": "ROUNDING",
+        "summary": "Ireland's Drive is placed at 63 (Accepting 3 <-> Striving 97). Within the framework range [56-71], 63 sits at ~48% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim15",
+          "W_institutional_analyst_C26",
+          "W_historical_analyst_claim16"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 12.5,
+          "globe": 37.5,
+          "schwartz": 12.5,
+          "wvs": 0.0,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "Ireland shows moderate achievement orientation. Hofstede Masculinity is low-moderate (~68 reversed to feminine side in some readings, but raw MAS=68 indicates achievement orientation). GLOBE Performance Orientation is moderate-high. Schwartz Mastery is moderate. Trompenaars achievement orientation is present. Signal strength 0.7108 and agreement 0.8676 with no conflicting frameworks support a score above the Turkey anchor (50). CI of 55.9–70.5 places Ireland in the moderate-striving range. A score of 63 reflects genuine achievement orientation tempered by strong humane orientation and work-life balance values. Why not lower: GLOBE performance orientation and Trompenaars achievement scores clearly exceed the Turkey anchor. Why not higher: strong humane orientation and relatively balanced work-life culture prevent a score near the CI ceiling.",
+        "comparativist_reasoning": "Ireland's Hofstede Masculinity score is moderate (MAS=68), indicating a balanced but slightly achievement-oriented culture. GLOBE performance orientation is moderate, aligning with a striving culture. Schwartz Mastery is moderate, supporting a balanced drive. CI is 56.8–71.2, placing Ireland above the Turkey anchor (50). A score of 64 reflects a moderate striving culture, consistent with Western European norms. Why not lower: Hofstede and GLOBE indicate a moderate achievement orientation. Why not higher: No framework indicates extreme striving; balances with harmony values.",
+        "country_specialist_reasoning": "Ireland exhibits a strong performance orientation, with GLOBE Performance Orientation and Hofstede Masculinity scores indicating a striving culture. The cultural emphasis on education, economic success, and innovation supports a high Drive score. CI is 61.5–74.9, placing Ireland above the Turkey anchor (50). Why not lower: Hofstede and GLOBE both indicate a strong drive. Why not higher: While striving, Ireland does not reach the extreme levels of ambition seen in some East Asian cultures.",
+        "skeptic_reasoning": "Adversarial check on Drive=64: resist midpoint bias and compression. Evidence supports moderate-to-high D4: GLOBE Performance Orientation is high, Hofstede Masculinity is moderate (68), and Schwartz Mastery is above average. CI (55.9–70.5) and anchor (Turkey=50) confirm Ireland is above the midpoint on drive. Why not lower: GLOBE Performance Orientation and Hofstede Masculinity clearly indicate striving values; qualitative evidence (meritocratic culture, achievement orientation) supports this. Why not higher: moderate Humane Orientation and some harmony values (Schwartz) prevent extreme score; Ireland is less driven than East Asian or US peers. This placement reflects genuine achievement orientation while acknowledging the balance with well-being.",
+        "integrator_decision": "Integrator retained the baseline (63.2) for Drive.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6): coverage=0.8, agreement=0.872, evidence=0.535, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 63,
+          "considered_alternatives": [
+            64,
+            68
+          ],
+          "why_rejected": {
+            "64": "64 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "68": "68 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "63 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (68) and the CI ceiling (71), so pushing past 63 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (63) and the CI floor (56), so going below 63 would understate the measured signal.",
+        "integrator_recommendation": 62.94,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.06,
+        "absolute_score_rationale": "Ireland sits at 63 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Ireland's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Ireland's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Ireland's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Ireland that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Ireland that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 63 means everyday life in Ireland leans toward Striving: institutions, norms and expression skew toward Striving.",
+        "final_rationale": "Why 63 is justified: Ireland sits at 63 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (63) and the CI floor (56), so going below 63 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (68) and the CI ceiling (71), so pushing past 63 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim15, W_institutional_analyst_C26, W_historical_analyst_claim16.",
+        "executive_explanation": "Ireland sits at 63 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (63) already reflected this evidence, so the council confirmed 63 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (68) and the CI ceiling (71), so pushing past 63 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (63) and the CI floor (56), so going below 63 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.23 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [56-71], 63 sits at ~48% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "GBR",
+        "country": "United Kingdom",
+        "d1": 88.0,
+        "d2": 66.0,
+        "d3": 39.0,
+        "d4": 68.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "AND",
+        "country": "Andorra",
+        "d1": 70.91117295,
+        "d2": 62.66262252,
+        "d3": 56.39064751,
+        "d4": 51.69588514,
+        "relation": "regional"
+      },
+      {
+        "iso3": "NIR",
+        "country": "NIR",
+        "d1": 65.02592565,
+        "d2": 59.05486524,
+        "d3": 54.93139786,
+        "d4": 56.1043526,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CHE",
+        "country": "Switzerland",
+        "d1": 88.0,
+        "d2": 61.0,
+        "d3": 63.0,
+        "d4": 67.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LIE",
+        "country": "Liechtenstein",
+        "d1": 51.4059265,
+        "d2": 51.60288598,
+        "d3": 49.93015699,
+        "d4": 51.33669054,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 24.0,
+        "reason": "Ireland is above the South Korea Identity anchor (50) by 24.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 15.0,
+        "reason": "Ireland is above the Turkey Expression anchor (50) by 15.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 13.0,
+        "reason": "Ireland is above the Turkey Drive anchor (50) by 13.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 11.0,
+        "reason": "Ireland is below the Colombia Structure anchor (50) by 11.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "IRL",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=35"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "[]"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 35.0,
+        "midpoint_dimensions": [],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "IRL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 40.0,
+          "strongest_supporting": "First‑ and second‑generation migrant young adults anchor their Irish identity via assimilative behaviors (e.g., losing ethnic language, adopting English accent, changing name) to ‘fit in’ with prototypical Irishness",
+          "strongest_opposing": "In Aran Gaeltacht communities, archaeological and religious sites ‘regulate, anticipate, and persist in contemporary identities’, indicating strong group‑based symbolic identity",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Informants contrast support‑group‑learned emotional expression with cultural norms of hiding vulnerability and not talking about feelings",
+          "strongest_opposing": "Everyday use of the Irish language is emotional, habitual and ‘feels right’, showing culturally accepted emotional resonance in routine practice",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 45.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c4"
+          ],
+          "opposing_evidence_ids": [
+            "c5"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Ethnographic evidence shows material culture (e.g., archaeological sites) regulating identity in everyday life indicates reliance on continuity and symbolic anchors",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.5,
+          "supporting_evidence_ids": [
+            "c6"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 50.0,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": 50.0,
+          "confidence": 0.1,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 72.0,
+          "strongest_supporting": "Hofstede scores Ireland at IDV=70, describing it as an Individualist culture where employees are expected to be self-reliant, display initiative, and where hiring and promotion are based on merit and demonstrated performance.",
+          "strongest_opposing": "ESS 2023 data shows 51% of Irish adults identify with following traditions and customs, indicating a meaningful attachment to communal cultural identity that partially moderates pure individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05"
+          ],
+          "opposing_evidence_ids": [
+            "C06",
+            "C07",
+            "C08"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 44.0,
+          "strongest_supporting": "RTÉ Brainstorm research on Irish professionals finds 'terminal politeness in the workplace' is a recognised cultural phenomenon, with Irish people regularly avoiding direct expression of dissatisfaction or disagreement.",
+          "strongest_opposing": "Irish communication is described as 'a unique blend of modesty, humor, and indirectness' with a storytelling tradition and expressive anecdote-sharing; the Irish are renowned for poetic expressiveness and wit.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 44.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C09",
+            "C10",
+            "C11",
+            "C12"
+          ],
+          "opposing_evidence_ids": [
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Hofstede scores Ireland's Uncertainty Avoidance Index at 35, well below the global and European averages, indicating a cultural comfort with ambiguity, change, and improvisation rather than a psychological need for rules and certainty.",
+          "strongest_opposing": "Punctuality is valued in Irish business culture, and although Irish counterparts may be slightly late, guests are expected to be on time — indicating a baseline respect for scheduling norms that moderates full fluidity.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 35.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "C17",
+            "C18",
+            "C19"
+          ],
+          "opposing_evidence_ids": [
+            "C20",
+            "C21",
+            "C22"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 68.0,
+          "strongest_supporting": "A peer-reviewed BMJ Open study found that work-life imbalance has become normalised within Irish hospital medicine, with work overload being a key issue — consistent with a high-Drive culture where work encroaches on personal life.",
+          "strongest_opposing": "Business negotiations in Ireland tend to be relationship-driven; building trust and rapport is often a prerequisite for successful deals, suggesting that relational harmony values coexist alongside achievement orientation and moderate raw striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 76.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "C23",
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "opposing_evidence_ids": [
+            "C27",
+            "C28",
+            "C29"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Hofstede Individualism score for Ireland is approximately 30 (collectivist), indicating a society where family, clan, and community ties are strong and group loyalty is prioritised.",
+          "strongest_opposing": "European Social Survey data show that younger Irish people (under 30) increasingly value personal autonomy and self-expression, moving toward individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2",
+            "claim3"
+          ],
+          "opposing_evidence_ids": [
+            "claim4",
+            "claim5"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 65.0,
+          "strongest_supporting": "The Irish pub and storytelling tradition provide sanctioned spaces for uninhibited emotional expression, suggesting an Open culture.",
+          "strongest_opposing": "British colonial influence instilled a tradition of emotional reserve and indirect communication (the 'stiff upper lip'), especially in public or formal settings.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 65.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim6",
+            "claim7"
+          ],
+          "opposing_evidence_ids": [
+            "claim8",
+            "claim9"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Hofstede Uncertainty Avoidance for Ireland is low (UAI ~35), indicating a culture comfortable with ambiguity and flexible rules.",
+          "strongest_opposing": "Irish planning and development are often slow and rule-bound, indicating a certain rigidity and need for order in bureaucratic processes.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 37.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim10",
+            "claim11"
+          ],
+          "opposing_evidence_ids": [
+            "claim12",
+            "claim13",
+            "claim14"
+          ]
+        },
+        {
+          "iso3": "IRL",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 55.0,
+          "strongest_supporting": "The Celtic Tiger era generated a strong achievement orientation, with emphasis on economic success and professional ambition.",
+          "strongest_opposing": "Post-recession values shift: younger Irish prioritise work-life balance and relationships over material success, reducing Drive.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim15",
+            "claim16",
+            "claim17"
+          ],
+          "opposing_evidence_ids": [
+            "claim18",
+            "claim19"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "IRL",
+          "dimension": "D1",
+          "baseline_score": 79.98904621,
+          "specialist_recommendation": 47.333,
+          "specialist_confidence": 0.74,
+          "evidence_strength": 0.6143,
+          "evidence_quality": 0.605,
+          "disagreement_index": 0.7165,
+          "specialist_influence_weight": 0.6655,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.67 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "IRL",
+          "dimension": "D2",
+          "baseline_score": 73.34223699,
+          "specialist_recommendation": 51.333,
+          "specialist_confidence": 0.68,
+          "evidence_strength": 0.5952,
+          "evidence_quality": 0.576,
+          "disagreement_index": 0.3869,
+          "specialist_influence_weight": 0.5918,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "IRL",
+          "dimension": "D3",
+          "baseline_score": 33.12060562,
+          "specialist_recommendation": 45.0,
+          "specialist_confidence": 0.6833,
+          "evidence_strength": 0.5588,
+          "evidence_quality": 0.5864,
+          "disagreement_index": 0.3266,
+          "specialist_influence_weight": 0.5776,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "IRL",
+          "dimension": "D4",
+          "baseline_score": 63.23224936,
+          "specialist_recommendation": 61.5,
+          "specialist_confidence": 0.75,
+          "evidence_strength": 0.5353,
+          "evidence_quality": 0.588,
+          "disagreement_index": 0.26,
+          "specialist_influence_weight": 0.5815,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "IRL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 32.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 32.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 42.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 42.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 21.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 21.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D2 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 5.0 points).",
+          "target_response": "No supporting evidence cited; the score rests on prior/expectation.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=64: differs by 9 from the statistician reading of 73.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=42: differs by 9 from the statistician reading of 33.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=78: differs by 4 from the comparativist reading of 82.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=73: differs by 9 from the comparativist reading of 64.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=31: differs by 11 from the comparativist reading of 42.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=70: differs by 7 from the comparativist reading of 63.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "IRL",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=63: differs by 7 from the country_specialist reading of 70.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "IRL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.5,
+          "evidence_count": 1,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No clear ethnographic evidence found addressing achievement‑orientation versus harmony orientation in everyday social life. Abstaining.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.1,
+          "evidence_count": 0,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 8,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 8,
+          "recommendation": 44.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 6,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 7,
+          "recommendation": 68.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "IRL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 55.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "IRL",
+        "score_diversity": 0.1263,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7244,
+        "consensus_quality": 0.9723,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "IRL",
+      "country": "Ireland",
+      "region": "Western Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 74,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.283,
+          "top_supporting_arguments": [
+            "Hofstede scores Ireland at IDV=70, describing it as an Individualist culture where employees are expected to be self-reliant, display initiative, and where hiring and promotion are based on merit and demonstrated performance.",
+            "Hofstede's What About Ireland analysis states that Irish people put themselves first before their society, and the government helps protect individual rights, reinforcing individual rather than group identity.",
+            "In Ireland, conflicts are resolved at the individual level and the goal is to win — a further marker of individualist rather than collectivist identity orientation."
+          ],
+          "top_counter_arguments": [
+            "First‑ and second‑generation migrant young adults anchor their Irish identity via assimilative behaviors (e.g., losing ethnic language, adopting English accent, changing name) to ‘fit in’ with prototypical Irishness",
+            "Young gay men negotiate between emergent tolerance discourses and normative expectations of masculinity that constrain individual identity expression, suggesting identity is socially mediated",
+            "In Aran Gaeltacht communities, archaeological and religious sites ‘regulate, anticipate, and persist in contemporary identities’, indicating strong group‑based symbolic identity"
+          ],
+          "why_this_score": "Ireland sits at 74 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~65), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 80 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (80) and the CI ceiling (86), so pushing past 74 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (80) and the CI floor (74), so going below 74 would understate the measured signal.",
+          "related_countries": [
+            "United Kingdom",
+            "Andorra",
+            "NIR",
+            "Switzerland",
+            "Liechtenstein"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C01",
+              "source_id": "S01",
+              "title": "Ireland — Hofstede Insights Country Profile",
+              "url": "https://www.hofstede-insights.com/country/ireland/",
+              "author": "Hofstede Insights",
+              "publication_year": 2017,
+              "excerpt": "Hofstede scores Ireland at IDV=70, describing it as an Individualist culture where employees are expected to be self-reliant, display initiative, and where hiring and promotion are based on merit and demonstrated performance.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C02",
+              "source_id": "S02",
+              "title": "Ireland Culture — Global Affairs (McGlobalAffairs)",
+              "url": "http://mcglobalaffairs.org/ireland-culture/",
+              "author": "McGlobalAffairs",
+              "publication_year": 2017,
+              "excerpt": "Hofstede's What About Ireland analysis states that Irish people put themselves first before their society, and the government helps protect individual rights, reinforcing individual rather than group identity.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C03",
+              "source_id": "S01",
+              "title": "Ireland — Hofstede Insights Country Profile",
+              "url": "https://www.hofstede-insights.com/country/ireland/",
+              "author": "Hofstede Insights",
+              "publication_year": 2017,
+              "excerpt": "In Ireland, conflicts are resolved at the individual level and the goal is to win — a further marker of individualist rather than collectivist identity orientation.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 65,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.613,
+          "top_supporting_arguments": [
+            "Informants contrast support‑group‑learned emotional expression with cultural norms of hiding vulnerability and not talking about feelings",
+            "Everyday use of the Irish language is emotional, habitual and ‘feels right’, showing culturally accepted emotional resonance in routine practice",
+            "Humour, storytelling, sarcasm, and 'slagging' (teasing) are central expressive tools in Irish culture, used to create warmth, signal attachment, and manage social tension — indicating a real expressive register that is positively sanctioned."
+          ],
+          "top_counter_arguments": [
+            "The Irish tend to be indirect communicators; they often try to avoid creating conflict and will go to great lengths to remain polite throughout discussions, with disagreement expressed through subtle cues like changing subject or using humour rather than direct statement.",
+            "RTÉ Brainstorm research on Irish professionals finds 'terminal politeness in the workplace' is a recognised cultural phenomenon, with Irish people regularly avoiding direct expression of dissatisfaction or disagreement.",
+            "Commisceo Global reports that direct confrontation is generally avoided in favour of maintaining harmony in Irish workplaces, with negative responses often indirect or expressed through hesitation, and agreement not always meaning full commitment."
+          ],
+          "why_this_score": "Ireland sits at 65 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~56), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 73 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (73) and the CI ceiling (82), so pushing past 65 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (72) and the CI floor (65), so going below 65 would understate the measured signal.",
+          "related_countries": [
+            "United Kingdom",
+            "Andorra",
+            "NIR",
+            "Switzerland",
+            "Liechtenstein"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search10",
+              "title": "Don’t be making big of yourself: Self‑narratives of mood disorders and alcoholism in Dublin, Ireland",
+              "url": "https://deepblue.lib.umich.edu/items/9d912e12-c916-49ad-93f8-7da584533e0a",
+              "author": "Joanne Cunningham",
+              "publication_year": 2004,
+              "excerpt": "Informants contrast support‑group‑learned emotional expression with cultural norms of hiding vulnerability and not talking about feelings",
+              "dimension": "D2",
+              "support_direction": "supports_restrained"
+            },
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search6",
+              "title": "The Irish language and everyday life in Derry",
+              "url": "https://etheses.whiterose.ac.uk/id/eprint/25282/",
+              "author": "Rosa O'Neill",
+              "publication_year": 2019,
+              "excerpt": "Everyday use of the Irish language is emotional, habitual and ‘feels right’, showing culturally accepted emotional resonance in routine practice",
+              "dimension": "D2",
+              "support_direction": "supports_open"
+            },
+            {
+              "claim_id": "C13",
+              "source_id": "S05",
+              "title": "Irish Culture — Communication — Cultural Atlas (SBS Australia)",
+              "url": "https://culturalatlas.sbs.com.au/irish-culture/irish-culture-communication",
+              "author": "Cultural Atlas / SBS Australia",
+              "publication_year": 2017,
+              "excerpt": "Humour, storytelling, sarcasm, and 'slagging' (teasing) are central expressive tools in Irish culture, used to create warmth, signal attachment, and manage social tension — indicating a real expressive register that is positively sanctioned.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 39,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.673,
+          "top_supporting_arguments": [
+            "Ethnographic evidence shows material culture (e.g., archaeological sites) regulating identity in everyday life indicates reliance on continuity and symbolic anchors",
+            "Punctuality is valued in Irish business culture, and although Irish counterparts may be slightly late, guests are expected to be on time — indicating a baseline respect for scheduling norms that moderates full fluidity.",
+            "51% of Irish adults in 2023 ESS data identify with following traditions and customs — a decline from 58% in 2002 but still a majority, suggesting that social/normative structure retains meaningful cultural weight."
+          ],
+          "top_counter_arguments": [
+            "Hofstede scores Ireland's Uncertainty Avoidance Index at 35, well below the global and European averages, indicating a cultural comfort with ambiguity, change, and improvisation rather than a psychological need for rules and certainty.",
+            "Ireland's UAI score of 35 means Irish people embrace difference or change easily, and in organisational life managers expect employees to take initiative without waiting for rules or procedures.",
+            "Flexible meeting styles in Irish workplaces can feel unstructured to visitors from more formal cultures, with decisions emerging through discussion rather than being clearly pre-stated — a marker of fluid, low-structure norms."
+          ],
+          "why_this_score": "Ireland sits at 39 on Structure (Fluid 3 <-> Certain 97), placing it toward Fluid. This absolute level reflects the convergence of the framework signal (framework consensus ~54), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 33 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (34) and the CI ceiling (40), so pushing past 39 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (33) and the CI floor (27), so going below 39 would understate the measured signal.",
+          "related_countries": [
+            "United Kingdom",
+            "Andorra",
+            "NIR",
+            "Switzerland",
+            "Liechtenstein"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c6",
+              "source_id": "turn0search0",
+              "title": "The Archaeology of Identity in Aran",
+              "url": "https://anthropology.columbia.edu/content/archaeology-of-identity-aran-ireland",
+              "author": "Veerendra Prabodh Lele",
+              "publication_year": 2003,
+              "excerpt": "Ethnographic evidence shows material culture (e.g., archaeological sites) regulating identity in everyday life indicates reliance on continuity and symbolic anchors",
+              "dimension": "D3",
+              "support_direction": "supports_certain"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S10",
+              "title": "Top Culture and Business Etiquettes in Ireland — Heritage Digest / Medium",
+              "url": "https://medium.com/heritage-digest/top-culture-and-business-etiquettes-in-ireland-699dba07cbc8",
+              "author": "Heritage Web / Heritage Digest",
+              "publication_year": 2023,
+              "excerpt": "Punctuality is valued in Irish business culture, and although Irish counterparts may be slightly late, guests are expected to be on time — indicating a baseline respect for scheduling norms that moderates full fluidity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C21",
+              "source_id": "S11",
+              "title": "What it means to be Irish: ESS data on Irish identity — The Journal",
+              "url": "https://www.thejournal.ie/readme/irish-identity-and-st-patricks-day-6649592-Mar2025/",
+              "author": "TheJournal.ie",
+              "publication_year": 2025,
+              "excerpt": "51% of Irish adults in 2023 ESS data identify with following traditions and customs — a decline from 58% in 2002 but still a majority, suggesting that social/normative structure retains meaningful cultural weight.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 63,
+          "confidence": "MEDIUM",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.74,
+          "top_supporting_arguments": [
+            "Hofstede scores Ireland at MAS=68, describing it as 'a Masculine society — highly success oriented and driven', with behaviour in school, work, and play based on the shared value that 'people should strive to be the best they can be'.",
+            "The Hofstede commentary on Ireland notes that Irish employees aim to be the best at what they do, and that superiors reward hard work and dedication through merit-based hiring and promotion — confirming achievement-orientation as a core drive.",
+            "Hofstede describes Ireland's Drive dimension as: 'The Irish are proud of their successes and achievements in life, and it offers a basis for hiring and promotion decisions in the workplace.'"
+          ],
+          "top_counter_arguments": [
+            "Business negotiations in Ireland tend to be relationship-driven; building trust and rapport is often a prerequisite for successful deals, suggesting that relational harmony values coexist alongside achievement orientation and moderate raw striving.",
+            "Irish workplace values are shaped by a strong sense of community, humility, and respect — qualities where trust and integrity remain central to professional relationships, moderating purely competitive striving.",
+            "Tall Poppy Syndrome is documented in Ireland: high achievers who make their success too visible risk social criticism and being 'cut down', creating a social norm of humble self-presentation that mutes overt striving signals."
+          ],
+          "why_this_score": "Ireland sits at 63 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~58), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 63 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (68) and the CI ceiling (71), so pushing past 63 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (63) and the CI floor (56), so going below 63 would understate the measured signal.",
+          "related_countries": [
+            "United Kingdom",
+            "Andorra",
+            "NIR",
+            "Switzerland",
+            "Liechtenstein"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C23",
+              "source_id": "S01",
+              "title": "Ireland — Hofstede Insights Country Profile",
+              "url": "https://www.hofstede-insights.com/country/ireland/",
+              "author": "Hofstede Insights",
+              "publication_year": 2017,
+              "excerpt": "Hofstede scores Ireland at MAS=68, describing it as 'a Masculine society — highly success oriented and driven', with behaviour in school, work, and play based on the shared value that 'people should strive to be the best they can be'.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C24",
+              "source_id": "S02",
+              "title": "Ireland Culture — Global Affairs (McGlobalAffairs)",
+              "url": "http://mcglobalaffairs.org/ireland-culture/",
+              "author": "McGlobalAffairs",
+              "publication_year": 2017,
+              "excerpt": "The Hofstede commentary on Ireland notes that Irish employees aim to be the best at what they do, and that superiors reward hard work and dedication through merit-based hiring and promotion — confirming achievement-orientation as a core drive.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C25",
+              "source_id": "S01",
+              "title": "Ireland — Hofstede Insights Country Profile",
+              "url": "https://www.hofstede-insights.com/country/ireland/",
+              "author": "Hofstede Insights",
+              "publication_year": 2017,
+              "excerpt": "Hofstede describes Ireland's Drive dimension as: 'The Irish are proud of their successes and achievements in life, and it offers a basis for hiring and promotion decisions in the workplace.'",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

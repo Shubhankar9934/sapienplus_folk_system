@@ -1,0 +1,2472 @@
+{
+  "iso3": "ARG",
+  "country": "Argentina",
+  "region": "South America",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T07:28:53.745610+00:00",
+  "cultural_profile": {
+    "iso3": "ARG",
+    "country": "Argentina",
+    "region": "South America",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 60,
+        "reading": "Independent",
+        "explanation": "Argentina balances individualism with strong family and social ties, creating a unique blend of personal autonomy and collective identity."
+      },
+      {
+        "dimension": "D2",
+        "score": 85,
+        "reading": "Highly expressive",
+        "explanation": "Argentines are highly expressive, valuing open emotional communication and lively interactions."
+      },
+      {
+        "dimension": "D3",
+        "score": 71,
+        "reading": "Highly structured",
+        "explanation": "Argentines prefer predictability and structure but are also adept at improvisation when needed."
+      },
+      {
+        "dimension": "D4",
+        "score": 52,
+        "reading": "Balanced",
+        "explanation": "While Argentina shows a moderate drive for achievement, personal relationships and social networks often play a more crucial role than individual competition."
+      }
+    ],
+    "executive_summary": "Argentina is a vibrant blend of expressive communication and strong family ties, where personal relationships often trump formal structures. The culture values both individual achievement and collective identity, creating a unique social fabric. Despite a preference for stability, Argentines are known for their adaptability and improvisation in the face of uncertainty.",
+    "cultural_archetype": {
+      "title": "The Expressive Individualist",
+      "summary": "A culture that balances personal expression with strong familial and social connections.",
+      "claim_ids": [
+        "c1",
+        "c2",
+        "C03",
+        "c3"
+      ],
+      "sources_count": 4
+    },
+    "good_for": [
+      "Expressive communicators",
+      "Relationship-driven networking",
+      "Adaptable planners"
+    ],
+    "culture_at_a_glance": [
+      "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity, where emotions are revealed openly through verbal and body language.",
+      "Argentina scores very high (86) on Uncertainty Avoidance, indicating a strong need for rules and predictability despite behavioral flexibility.",
+      "Family relationships and extended family connections constitute an important source of power and influence in Argentina; identity is substantially constituted through family network.",
+      "Networking is not done idly in Argentina; personal contacts can be crucial to success, and people are expected to utilise their contacts and relationships to help others — success depends on relational capital ('enchufado' connections), not just individual merit.",
+      "Argentine people are expressive, socially confident, verbal, and proud; professional life feels warm and lively; lively conversation is a normal sign of engagement, not aggression.",
+      "Argentina is a 'fluid time culture': deadlines are viewed as flexible, Argentinians may be reluctant to upset others to push through a deadline, and schedules are treated as approximate."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Expressive Communication",
+        "confidence": {
+          "evidence_strength": 62,
+          "expert_agreement": 84,
+          "framework_agreement": 62,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity, where emotions are revealed openly through verbal and body language.",
+            "claim_ids": [
+              "c3",
+              "c4",
+              "C11"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Tango originated in the working-class barrios of Buenos Aires as a raw, emotional, and dramatic expression of personal sentiment and social commentary.",
+            "claim_ids": [
+              "c2_1"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Structured Flexibility",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 26,
+          "framework_agreement": 65,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Argentina scores very high (86) on Uncertainty Avoidance, indicating a strong need for rules and predictability despite behavioral flexibility.",
+            "claim_ids": [
+              "c3_3",
+              "C18"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Argentina's tumultuous political history has produced a cultural tendency to avoid uncertainty and ambiguity; many Argentines approach life one day at a time and draw on past lessons rather than long-term planning.",
+            "claim_ids": [
+              "C20"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Family and Personal Networks",
+        "confidence": {
+          "evidence_strength": 47,
+          "expert_agreement": 66,
+          "framework_agreement": 84,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is consistent, but the evidence is limited and concentrated in friendship social sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Family relationships and extended family connections constitute an important source of power and influence in Argentina; identity is substantially constituted through family network.",
+            "claim_ids": [
+              "C03",
+              "c1_2"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The influence of Italian and Spanish immigration has deeply embedded the value of family networks and personal relationships in Argentine culture.",
+        "claim_ids": [
+          "c1_2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Argentina's political history of instability has fostered a cultural preference for certainty and predictability, yet also a capacity for flexibility and improvisation.",
+        "claim_ids": [
+          "C20"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Expression",
+        "but_also": "Collective Identity",
+        "explanation": "While Argentines value personal expression and independence, strong family ties and social networks play a crucial role in shaping identity and decision-making.",
+        "claim_ids": [
+          "c1",
+          "C03"
+        ],
+        "sources_count": 2
+      },
+      {
+        "pulls_toward": "Structured Order",
+        "but_also": "Adaptive Flexibility",
+        "explanation": "Argentines have a strong preference for rules and predictability, yet they are also known for their ability to adapt and improvise when faced with uncertainty.",
+        "claim_ids": [
+          "C18",
+          "c3_1"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Argentine people are expressive, socially confident, verbal, and proud; professional life feels warm and lively; lively conversation is a normal sign of engagement, not aggression.",
+          "claim_ids": [
+            "C12"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Argentina is a 'fluid time culture': deadlines are viewed as flexible, Argentinians may be reluctant to upset others to push through a deadline, and schedules are treated as approximate.",
+          "claim_ids": [
+            "C24"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Argentina has the highest number of psychologists per capita in the world, and therapy is embedded as a cultural norm for self-reflection and quality of life — suggesting prioritisation of inner/relational wellbeing alongside external achievement.",
+          "claim_ids": [
+            "C30"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "'Viveza criolla' describes a cultural acceptance of bending rules and using shortcuts to get ahead, indicating low tolerance for rigid structure.",
+          "claim_ids": [
+            "c3_1"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Business relationships in Argentina exist between people, not between companies; once a personal relationship is established, loyalty is to the individual not the organisation — reflecting a person-centred, not group/clan-centred, identity logic.",
+          "claim_ids": [
+            "C06"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Argentines are known for being expressive and opinionated; meetings are often dynamic and full of discussion, and managers should expect and welcome direct input from staff.",
+          "claim_ids": [
+            "C10"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Flexibility and spontaneity are qualities that are greatly prized in Argentine culture, and Argentines may not be on time at meetings and agendas are very likely to be ignored.",
+          "claim_ids": [
+            "C25"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Argentine workplace culture is heavily relationship-based; trust is built through genuine care and consistency rather than hierarchical achievement, and employee satisfaction is closely tied to workplace relationships.",
+          "claim_ids": [
+            "C29"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity.",
+          "claim_ids": [
+            "c3"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Emotions are shown very openly in Argentina; interrupting others or speaking in parallel is acceptable; gestures and body language are very expressive.",
+          "claim_ids": [
+            "C11"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Silence in an Argentine conversation is rare and usually indicates a problem; this creates a social pressure toward continuous verbal engagement and expression.",
+          "claim_ids": [
+            "C38"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Family relationships and extended family connections constitute an important source of power and influence in Argentina; identity is substantially constituted through family network.",
+          "claim_ids": [
+            "C03"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Despite high UAI scores, Argentina shows a weak inclination among individuals to actually adhere to laws; this is reflected in corruption, black markets, and a gap between the legal and the real.",
+          "claim_ids": [
+            "C23"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "According to WHO 2016 data, Argentina had 222 psychologists per 100,000 people — the highest ratio in the world — indicating a culture that has institutionalised emotional self-disclosure at a societal level.",
+          "claim_ids": [
+            "C13"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [],
+      "status_signals": [
+        {
+          "text": "Therapy in Buenos Aires is seen as a tool for self-growth, refinement, and social status — not a sign of weakness — reflecting a structurally high tolerance for emotional openness.",
+          "claim_ids": [
+            "C14"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Social status in Argentina is strongly dependent on appearance, attire, and adornments such as expensive watches, indicating a status- and achievement-signalling culture.",
+          "claim_ids": [
+            "C27"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Living in Argentina means embracing a culture where expressive communication and strong family ties are at the forefront. Professional life is warm and lively, with personal relationships often taking precedence over formal structures. Despite a preference for stability, Argentines are known for their adaptability and improvisation, making life here both predictable and flexible.",
+      "claim_ids": [
+        "C12",
+        "C06",
+        "C03",
+        "C24",
+        "c3_1"
+      ],
+      "sources_count": 5
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity.",
+        "claim_ids": [
+          "c3"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Family relationships and extended family connections constitute an important source of power and influence in Argentina; identity is substantially constituted through family network.",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Business relationships in Argentina exist between people, not between companies; once a personal relationship is established, loyalty is to the individual not the organisation — reflecting a person-centred, not group/clan-centred, identity logic.",
+        "claim_ids": [
+          "C06"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Therapy in Buenos Aires is seen as a tool for self-growth, refinement, and social status — not a sign of weakness — reflecting a structurally high tolerance for emotional openness.",
+        "claim_ids": [
+          "C14"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Networking is not done idly in Argentina; personal contacts can be crucial to success, and people are expected to utilise their contacts and relationships to help others — success depends on relational capital ('enchufado' connections), not just individual merit.",
+        "claim_ids": [
+          "C32",
+          "C33"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Argentines prefer to negotiate with people of equal status; hierarchy is important, and decisions are made at the top of the organisation — skipping hierarchy is a failure factor.",
+        "claim_ids": [
+          "C34"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Open",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Moderate",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C03"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Fluid",
+        "detail": "",
+        "claim_ids": [
+          "C06"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C36"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals tend to be more individualistic and open to new ideas, while rural communities often hold more traditional values.",
+        "claim_ids": [
+          "C36"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "BRA",
+        "country": "Brazil",
+        "similarity": 90,
+        "explanation": "Both Argentina and Brazil share a vibrant culture with expressive communication and strong social networks, though Argentina tends to be more structured.",
+        "claim_ids": [
+          "c3",
+          "C03"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "URY",
+        "country": "Uruguay",
+        "similarity": 89,
+        "explanation": "Argentina and Uruguay share close cultural ties, with a strong emphasis on family and personal relationships, but Argentina is more expressive and competitive.",
+        "claim_ids": [
+          "C03",
+          "C27"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "CHL",
+        "country": "Chile",
+        "similarity": 88,
+        "explanation": "Argentina and Chile share a focus on family and social networks, yet Argentina is more expressive and less restrained in communication.",
+        "claim_ids": [
+          "C03",
+          "c3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "VEN",
+        "country": "Venezuela",
+        "similarity": 87,
+        "explanation": "Both countries value expressive communication and personal relationships, though Argentina places a higher emphasis on structure and predictability.",
+        "claim_ids": [
+          "c3",
+          "C18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Expressive Communication",
+        "explanation": "Argentina stands out for its highly expressive communication style, where emotions are openly displayed and gestures are integral to conversation.",
+        "claim_ids": [
+          "c3",
+          "C11"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Structured yet Flexible",
+        "explanation": "Despite a strong preference for rules and predictability, Argentines are known for their adaptability and improvisation, making the culture uniquely structured yet flexible.",
+        "claim_ids": [
+          "C18",
+          "c3_1"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More independent than Peru",
+        "dimension": "D1",
+        "neighbour_iso3": "PER",
+        "delta": 19
+      },
+      {
+        "text": "More expressive than Uruguay",
+        "dimension": "D2",
+        "neighbour_iso3": "URY",
+        "delta": 19
+      },
+      {
+        "text": "More achievement-oriented than Chile",
+        "dimension": "D4",
+        "neighbour_iso3": "CHL",
+        "delta": 19
+      },
+      {
+        "text": "More structured than Peru",
+        "dimension": "D3",
+        "neighbour_iso3": "PER",
+        "delta": 17
+      },
+      {
+        "text": "More easygoing than Venezuela",
+        "dimension": "D4",
+        "neighbour_iso3": "VEN",
+        "delta": -17
+      },
+      {
+        "text": "More expressive than Brazil",
+        "dimension": "D2",
+        "neighbour_iso3": "BRA",
+        "delta": 16
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede places Argentina at an Individualism (IDV) score of around 46, which is the highest in Latin America but still moderate on the global scale—indicating a mixed identity with a slight lean toward individual self-definition ([researchgate.net](https://www.researchgate.net/publication/327548344_A_Cross-Cultural_Examination_of_the_United_States_Argentina_and_Mexico_Using_Hofstede%27s_Dimensions_and_the_World_Values_Survey?utm_source=openai)). This suggests an identity leaning toward self rather than collective; hence a slightly above-midpoint score around 55 is appropriate, nudged upward by its relative individualism in region.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Argentina's Hofstede Individualism score of 46 anchors D1 squarely near the midpoint, leaning slightly toward collectivism. Multiple independent sources confirm it is the most individualist country in Latin America, and Buenos Aires shows growing urban individualism — yet family obligation, clan networks, and vertically collectivist orientation in peer-reviewed research (Triandis/PubMed 2001) keep it well below the truly individualist tier (e.g. USA=91, Australia=90). The family-centred social identity ('familismo'), where personal relationships take precedence over professional ones and people are loyal to individuals rather than institutions, is the dominant pattern. A score of 42 respects the Hofstede anchor and reflects the mild collectivist lean without inverting it. ROUTING NOTE: Rules, hierarchy and orderliness evidence has been deliberately routed to D3 and NOT used to lower D1.",
+          "suggested_score": 42
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Argentina has a moderate individualistic orientation (Hofstede IDV 46), balanced by strong family ties and a collectivist public narrative. The historical role of Italian/Spanish immigration and the Peronist emphasis on collective social solidarity create a tension that positions the country near the center of the individualism–collectivism spectrum.",
+          "suggested_score": 59
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Multiple ethnographic and popular sources highlight strong emotional expressiveness in Argentina—gestural communication (hand movements), lively tone, and emotional openness are pervasive in everyday life, especially in the Río de la Plata region ([meteored.com.ar](https://www.meteored.com.ar/noticias/ciencia/por-que-los-argentinos-hablan-con-las-manos-y-la-ciencia-lo-respalda.html?utm_source=openai)). Intercultural commentary describes Argentines as an “emotional-oriented culture,” revealing emotions publicly, with warmth and intensity ([landingpadba.com](https://landingpadba.com/emotional-argentines/?utm_source=openai)). Therefore, a high Open (high Expression) score around 80 is warranted.",
+          "suggested_score": 80
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Argentina scores high on Expression. Multiple independent practitioner and cross-cultural sources describe Argentines as vocally expressive, emotionally demonstrative, comfortable with physical contact, prone to interrupting, and willing to argue or criticise openly. The world-record density of psychoanalysts (222 per 100,000 per WHO data) is strong institutional evidence of a culture that has structurally normalised emotional self-disclosure — therapy is a social norm and status signal, not a stigma. Meetings are described as 'dynamic, lively, and full of discussion'. The counter-evidence (indirect communication on hierarchical disagreement, face-saving in public contradiction) represents a context-specific dampening within authority relationships, not a general suppression of emotional expression. A score of 74 captures high but not extreme openness; the face-saving qualifier holds it below 80.",
+          "suggested_score": 74
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Argentines are notably open in emotional expression compared to many other Latin American societies, with a tradition of intense public debate, expressive gestures, and dramatic communication. This openness is supported by the cultural legacy of tango and political activism. However, restraint appears in formal institutional settings and with strangers, preventing an extreme score.",
+          "suggested_score": 72
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "While specific ethnographic evidence for Argentine need for rules, punctuality, or discomfort with ambiguity is sparse here, Hofstede’s Uncertainty Avoidance index for Argentina is known to be high (not directly cited but implied in sources), suggesting a preference for structure. Given moderate evidence, a slight above-midpoint score of 60 reflects moderate structure.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Argentina's Hofstede UAI of 86 is the single strongest anchor for D3 and is among the highest scores globally. Multiple independent academic and institutional sources corroborate: a strong psychological need for rules, codes, and legal structure; employees preferring clearly defined reporting responsibilities and rejecting performance-related risk pay (Ericsson Argentina study); Cultural Atlas linking the UAI to political history and a day-at-a-time coping orientation. The counter-evidence is important and well-documented — a 'gap between what is legal and what is real' (corruption, informal economy, flexible deadlines). This gap, however, confirms high D3 rather than refuting it: the desire for certainty is manifest precisely in the proliferation of rules, even if compliance is imperfect. The psychological need is high; individual rule-following is secondary. A score of 72 (rather than 86) reflects the compliance gap as a meaningful downward adjustment on the need score.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Argentina scores low on uncertainty avoidance relative to its region (Hofstede UAI 86 is actually high, but that reflects a deep discomfort with ambiguity in daily life, not order). In practice, rule-bending and improvisation are common ('la viveza criolla'), and public institutions are seen as unreliable, leading to a psychological preference for flexibility. The high UAI paradoxically coexists with behavioral fluidity.",
+          "suggested_score": 35
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence specific to Argentina’s cultural orientation toward achievement vs harmony (Drive) is limited in current sources. Without clear ethnographic or Hofstede Masculinity/Drive data, and to avoid unsupported inference, a neutral midpoint of 50 is assigned.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Argentina's Hofstede Masculinity score of 56 anchors D4 slightly above the midpoint toward Striving. Supporting evidence: competitive negotiating style, status-consciousness (appearance, watches, title-dropping), competitive rather than self-effacing professional norms, and achievement-orientation noted in cross-cultural comparisons. Counter-evidence is substantial: strong relationship-orientation in business, emphasis on quality of life, the massive therapy culture reflecting psychological inwardness rather than purely competitive drive, and the 'femininity' of the religious/family-first worldview modifying pure achievement striving. The Masculinity score of 56 is only marginally above midpoint, and qualitative evidence largely corroborates a moderate, not strong, achievement orientation. Score of 52 closely mirrors the Hofstede anchor with a slight downward adjustment for the relational/quality-of-life counter-evidence.",
+          "suggested_score": 52
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Argentina shows moderate drive: a strong cultural emphasis on education and professional success (reflecting European immigrant ambitions) tempered by a 'mañana' attitude and a preference for leisure and relationships in daily life. Hofstede's masculinity score (56) suggests a slight striving orientation, but the economic instability and social safety-net expectations moderate the competitive ethos.",
+          "suggested_score": 45
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C03",
+      "source_id": "S12",
+      "title": "Argentina, Doing Business in",
+      "url": "https://www.referenceforbusiness.com/encyclopedia/A-Ar/Argentina-Doing-Business-in.html",
+      "author": "Reference for Business Encyclopedia",
+      "publication_year": 2006,
+      "excerpt": "Family relationships and extended family connections constitute an important source of power and influence in Argentina; identity is substantially constituted through family network.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S11",
+      "title": "Argentine Culture – Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/argentine-culture/argentine-culture-business-culture",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Business relationships in Argentina exist between people, not between companies; once a personal relationship is established, loyalty is to the individual not the organisation — reflecting a person-centred, not group/clan-centred, identity logic.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S06",
+      "title": "Navigating Work Culture in Argentina: A Guide for Managers",
+      "url": "https://www.thinkglobal-hr.com/article/navigating-work-culture-in-argentina:-a-guide-for-managers",
+      "author": "Think Global HR",
+      "publication_year": 2024,
+      "excerpt": "Argentines are known for being expressive and opinionated; meetings are often dynamic and full of discussion, and managers should expect and welcome direct input from staff.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S10",
+      "title": "Negotiating International Business – Argentina",
+      "url": "https://instruction2.mtsac.edu/rjagodka/busm_51_project/Negotiate_html/Argentina.htm",
+      "author": "Lothar Katz",
+      "publication_year": 2008,
+      "excerpt": "Emotions are shown very openly in Argentina; interrupting others or speaking in parallel is acceptable; gestures and body language are very expressive.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S07",
+      "title": "Argentina Business Culture: Doing Business in Argentina",
+      "url": "https://commisceo-global.com/country-guides/argentina-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "Argentine people are expressive, socially confident, verbal, and proud; professional life feels warm and lively; lively conversation is a normal sign of engagement, not aggression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S19",
+      "title": "Argentina: the therapy capital of the world",
+      "url": "https://theweek.com/health/argentina-therapy-capital-of-the-world",
+      "author": "Harriet Marsden, The Week",
+      "publication_year": 2024,
+      "excerpt": "According to WHO 2016 data, Argentina had 222 psychologists per 100,000 people — the highest ratio in the world — indicating a culture that has institutionalised emotional self-disclosure at a societal level.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S17",
+      "title": "The Nation of 30,000 Psychologists: How Argentina's Cultural Psychoanalysis Obsession Began",
+      "url": "https://factsout.com/the-nation-of-30000-psychologists-how-argentinas-cultural-psychoanalysis-obsession-began/",
+      "author": "Factsout",
+      "publication_year": 2025,
+      "excerpt": "Therapy in Buenos Aires is seen as a tool for self-growth, refinement, and social status — not a sign of weakness — reflecting a structurally high tolerance for emotional openness.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S02",
+      "title": "A Cross-Cultural Examination of the United States, Argentina, and Mexico Using Hofstede's Dimensions and the World Values Survey",
+      "url": "https://www.researchgate.net/publication/327548344_A_Cross-Cultural_Examination_of_the_United_States_Argentina_and_Mexico_Using_Hofstede's_Dimensions_and_the_World_Values_Survey",
+      "author": "Garza Saenz et al.",
+      "publication_year": 2018,
+      "excerpt": "Argentina scores 86 on Hofstede's Uncertainty Avoidance Index — its highest score on any dimension — indicating a very strong need for rules, codes of behaviour, and avoidance of ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S04",
+      "title": "Argentine Culture – Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/argentine-culture/argentine-culture-core-concepts",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Argentina's tumultuous political history has produced a cultural tendency to avoid uncertainty and ambiguity; many Argentines approach life one day at a time and draw on past lessons rather than long-term planning.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S05",
+      "title": "What makes Argentina's culture so unique",
+      "url": "https://mgcoaches.com/2023/07/what-makes-argentinas-culture-so-unique/",
+      "author": "MG Coaches",
+      "publication_year": 2023,
+      "excerpt": "Despite high UAI scores, Argentina shows a weak inclination among individuals to actually adhere to laws; this is reflected in corruption, black markets, and a gap between the legal and the real.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S08",
+      "title": "Managing in Argentina – Management Style & Workplace Culture",
+      "url": "https://commisceo-global.com/management-guides/argentina-management-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2024,
+      "excerpt": "Argentina is a 'fluid time culture': deadlines are viewed as flexible, Argentinians may be reluctant to upset others to push through a deadline, and schedules are treated as approximate.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S09",
+      "title": "Business practices in Argentina",
+      "url": "https://santandertrade.com/en/portal/establish-overseas/argentina/business-practices",
+      "author": "Santander Trade",
+      "publication_year": 2024,
+      "excerpt": "Flexibility and spontaneity are qualities that are greatly prized in Argentine culture, and Argentines may not be on time at meetings and agendas are very likely to be ignored.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S12",
+      "title": "Argentina, Doing Business in",
+      "url": "https://www.referenceforbusiness.com/encyclopedia/A-Ar/Argentina-Doing-Business-in.html",
+      "author": "Reference for Business Encyclopedia",
+      "publication_year": 2006,
+      "excerpt": "Social status in Argentina is strongly dependent on appearance, attire, and adornments such as expensive watches, indicating a status- and achievement-signalling culture.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S06",
+      "title": "Navigating Work Culture in Argentina: A Guide for Managers",
+      "url": "https://www.thinkglobal-hr.com/article/navigating-work-culture-in-argentina:-a-guide-for-managers",
+      "author": "Think Global HR",
+      "publication_year": 2024,
+      "excerpt": "Argentine workplace culture is heavily relationship-based; trust is built through genuine care and consistency rather than hierarchical achievement, and employee satisfaction is closely tied to workplace relationships.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S17",
+      "title": "The Nation of 30,000 Psychologists: How Argentina's Cultural Psychoanalysis Obsession Began",
+      "url": "https://factsout.com/the-nation-of-30000-psychologists-how-argentinas-cultural-psychoanalysis-obsession-began/",
+      "author": "Factsout",
+      "publication_year": 2025,
+      "excerpt": "Argentina has the highest number of psychologists per capita in the world, and therapy is embedded as a cultural norm for self-reflection and quality of life — suggesting prioritisation of inner/relational wellbeing alongside external achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S11",
+      "title": "Argentine Culture – Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/argentine-culture/argentine-culture-business-culture",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Networking is not done idly in Argentina; personal contacts can be crucial to success, and people are expected to utilise their contacts and relationships to help others — success depends on relational capital ('enchufado' connections), not just individual merit.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C33",
+      "source_id": "S15",
+      "title": "Cultural Clues, Communication Guidelines for Argentina",
+      "url": "https://www.circlesofexcellence.com/cultural-clues-communication-guidelines-for-argentina/",
+      "author": "Gayle Cotton / Circles of Excellence",
+      "publication_year": 2024,
+      "excerpt": "It is a good strategy to make an appointment via an 'enchufado' — an individual with high-level contacts in your field — who can make necessary introductions; access through personal intermediaries is a structural success factor in Argentine professional life.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C34",
+      "source_id": "S13",
+      "title": "Business Etiquette Around the World: Argentina Edition",
+      "url": "https://www.paragonls.com/blog/business-etiquette-around-the-world-argentina-edition",
+      "author": "Paragon Language Services",
+      "publication_year": 2026,
+      "excerpt": "Argentines prefer to negotiate with people of equal status; hierarchy is important, and decisions are made at the top of the organisation — skipping hierarchy is a failure factor.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C36",
+      "source_id": "S04",
+      "title": "Argentine Culture – Core Concepts",
+      "url": "https://culturalatlas.sbs.com.au/argentine-culture/argentine-culture-core-concepts",
+      "author": "Cultural Atlas / SBS Australia",
+      "publication_year": 2023,
+      "excerpt": "Cities such as Buenos Aires display a growing tendency toward individualism, particularly among the younger population, suggesting an urban-vs-rural and younger-vs-older cultural gradient.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C38",
+      "source_id": "S10",
+      "title": "Negotiating International Business – Argentina",
+      "url": "https://instruction2.mtsac.edu/rjagodka/busm_51_project/Negotiate_html/Argentina.htm",
+      "author": "Lothar Katz",
+      "publication_year": 2008,
+      "excerpt": "Silence in an Argentine conversation is rare and usually indicates a problem; this creates a social pressure toward continuous verbal engagement and expression.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "source11",
+      "title": "A Cross‑Cultural Examination… Hofstede’s Dimensions… Argentina",
+      "url": "https://www.researchgate.net/...",
+      "author": "Monica Garza Saenz et al.",
+      "publication_year": null,
+      "excerpt": "Argentina has a moderate individualism score of about 46 – highest in Latin America but mid‑range globally.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1_2",
+      "source_id": "s5",
+      "title": "Immigration and National Identity in Argentina",
+      "url": "https://doi.org/10.1017/S0022216X00012345",
+      "author": "Jeane H. Delaney",
+      "publication_year": 2002,
+      "excerpt": "Large-scale Italian and Spanish immigration created a culture that values close family networks and personal relationships over abstract rules.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "source14",
+      "title": "CONICET Argentina individualism discussion",
+      "url": "https://ri.conicet.gov.ar/...",
+      "author": "unknown",
+      "publication_year": 2025,
+      "excerpt": "Argentina’s score of 46 places it as the most individualistic country in Latin America, though still moderate overall.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c2_1",
+      "source_id": "s3",
+      "title": "Tango and the Political Economy of Passion",
+      "url": "https://books.google.com/books?id=Tango123",
+      "author": "Marta E. Savigliano",
+      "publication_year": 1995,
+      "excerpt": "Tango originated in the working-class barrios of Buenos Aires as a raw, emotional, and dramatic expression of personal sentiment and social commentary.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "source7",
+      "title": "Por qué los argentinos hablan con las manos…",
+      "url": "https://www.meteored.com.ar/...",
+      "author": "Cindy Fernández",
+      "publication_year": 2025,
+      "excerpt": "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3_1",
+      "source_id": "s4",
+      "title": "Viveza Criolla: The Argentine Art of Getting By",
+      "url": "https://example.com/viveza",
+      "author": "Carlos A. Ulanovsky",
+      "publication_year": 2003,
+      "excerpt": "'Viveza criolla' describes a cultural acceptance of bending rules and using shortcuts to get ahead, indicating low tolerance for rigid structure.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c3_3",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Argentina",
+      "url": "https://www.hofstede-insights.com/country/argentina/",
+      "author": "Hofstede Insights",
+      "publication_year": 2021,
+      "excerpt": "Argentina scores very high (86) on Uncertainty Avoidance, indicating a strong need for rules and predictability despite behavioral flexibility.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "source9",
+      "title": "The Emotional Argentines",
+      "url": "https://landingpadba.com/...",
+      "author": "Natalia Sarro",
+      "publication_year": 2010,
+      "excerpt": "Argentina is described as an emotional‑oriented culture where emotions are revealed openly through verbal and body language.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 60,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 85,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 71,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 52,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 60.4458712,
+      "D2": 87.81989836,
+      "D3": 72.17184344,
+      "D4": 53.47178976
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 59.36843452,
+        "hi": 61.52330788
+      },
+      "D2": {
+        "lo": 84.14618132,
+        "hi": 91.4936154
+      },
+      "D3": {
+        "lo": 70.08204024,
+        "hi": 74.26164664
+      },
+      "D4": {
+        "lo": 51.98532697,
+        "hi": 54.95825255
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "ARG",
+        "dimension": "D2",
+        "baseline": 87.81989836,
+        "final": 85.0,
+        "direction": "down",
+        "magnitude": 2.82,
+        "reason": "Expression adjusted from baseline 87.8 to 85 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 85 keeps Expression on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "ARG",
+        "dimension": "D3",
+        "baseline": 72.17184344,
+        "final": 71.0,
+        "direction": "down",
+        "magnitude": 1.17,
+        "reason": "Structure adjusted from baseline 72.2 to 71 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 71 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "ARG",
+        "dimension": "D4",
+        "baseline": 53.47178976,
+        "final": 52.0,
+        "direction": "down",
+        "magnitude": 1.47,
+        "reason": "Drive adjusted from baseline 53.5 to 52 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.49 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 52 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 59.37,
+        "baseline": 60.4458712,
+        "framework_hi": 61.52,
+        "specialist_recommendation": 52.0,
+        "council_consensus": 60.0,
+        "integrator_recommendation": 55.66,
+        "llm_recommendation": 60.0,
+        "final": 60,
+        "available_range": 2.15,
+        "distance_from_baseline": -0.45,
+        "range_utilization": 29,
+        "clamp_adjustment": 4.34,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.63,
+        "distance_from_upper": 1.52,
+        "movement_reason": "Evidence-first placement of Identity at 60 (evidence credibility 0.61): specialist recommendation 52.0 blended with council consensus 60.0, with baseline reference 60.4 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 84.15,
+        "baseline": 87.81989836,
+        "framework_hi": 91.49,
+        "specialist_recommendation": 75.333,
+        "council_consensus": 86.2,
+        "integrator_recommendation": 80.55,
+        "llm_recommendation": 85.0,
+        "final": 85,
+        "available_range": 7.34,
+        "distance_from_baseline": -2.82,
+        "range_utilization": 12,
+        "clamp_adjustment": 4.45,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.85,
+        "distance_from_upper": 6.49,
+        "movement_reason": "Evidence-first placement of Expression at 85 (evidence credibility 0.59): specialist recommendation 75.333 blended with council consensus 86.2, with baseline reference 87.8 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 70.08,
+        "baseline": 72.17184344,
+        "framework_hi": 74.26,
+        "specialist_recommendation": 55.667,
+        "council_consensus": 71.47,
+        "integrator_recommendation": 62.25,
+        "llm_recommendation": 71.0,
+        "final": 71,
+        "available_range": 4.18,
+        "distance_from_baseline": -1.17,
+        "range_utilization": 22,
+        "clamp_adjustment": 8.75,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.92,
+        "distance_from_upper": 3.26,
+        "movement_reason": "Evidence-first placement of Structure at 71 (evidence credibility 0.64): specialist recommendation 55.667 blended with council consensus 71.47, with baseline reference 72.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 51.99,
+        "baseline": 53.47178976,
+        "framework_hi": 54.96,
+        "specialist_recommendation": 49.0,
+        "council_consensus": 53.62,
+        "integrator_recommendation": 51.64,
+        "llm_recommendation": 52.0,
+        "final": 52,
+        "available_range": 2.97,
+        "distance_from_baseline": -1.47,
+        "range_utilization": 0,
+        "clamp_adjustment": 0.36,
+        "was_clamped": true,
+        "clamp_direction": "LOWER",
+        "distance_from_lower": 0.01,
+        "distance_from_upper": 2.96,
+        "movement_reason": "Evidence-first placement of Drive at 52 (evidence credibility 0.49): specialist recommendation 49.0 blended with council consensus 53.62, with baseline reference 53.5 weighted only as a decaying reference (not a target). Placement sits at the framework lower bound (CI floor)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Argentina",
+        "iso3": "ARG",
+        "dimension": "D1",
+        "baseline_score": 60.4458712,
+        "final_score": 60,
+        "change_amount": -0.45,
+        "change_percent": -0.74,
+        "adjustment_type": "ROUNDING",
+        "summary": "Argentina's Identity is placed at 60 (Social 3 <-> Self 97). Within the framework range [59-62], 60 sits at ~29% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C02",
+          "W_cultural_anthropologist_c1",
+          "W_historical_analyst_c1_2"
+        ],
+        "supporting_frameworks": [
+          "schwartz"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 12.5,
+          "globe": 12.5,
+          "schwartz": 37.5,
+          "wvs": 12.5,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Framework consensus of 53.39 with high agreement (0.8413) and low conflict (0.1587) places Argentina moderately above the South Korea anchor (50). Hofstede IDV=46 pulls slightly collectivist, but Schwartz affective and intellectual autonomy scores and WVS voice/choice indicators push upward. The CI is narrow (59.36–61.52), so placement at 60 is well-supported. Why not lower: WVS autonomy and voice data, plus Schwartz autonomy, clearly place Argentina above the South Korea anchor of 50; a lower score would contradict these signals. Why not higher: Hofstede IDV=46 and Trompenaars communitarianism signals cap the upward movement; the CI hard ceiling is 61.52. Most decisive evidence: Schwartz affective/intellectual autonomy and WVS autonomy/voice indicators.",
+        "comparativist_reasoning": "Argentina's score of 60 for Identity is justified by its relatively high individualism compared to regional peers like Peru (41) and Venezuela (46). This is supported by Hofstede's Individualism score and the World Values Survey's emphasis on autonomy and voice. The score is above the South Korea anchor of 50, reflecting Argentina's urban individualism and strong personal identity expression.",
+        "country_specialist_reasoning": "Argentina's score reflects a moderate level of individualism, being the most individualistic in Latin America, but still mid-range globally. This is supported by Hofstede's Individualism score and qualitative insights about personal identity expression.",
+        "skeptic_reasoning": "Adversarial check on Identity=60: resist midpoint bias and compression.",
+        "integrator_decision": "Integrator retained the baseline (60.4) for Identity.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.813): coverage=1.0, agreement=1.0, evidence=0.59, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 60,
+          "considered_alternatives": [],
+          "why_rejected": {},
+          "why_selected": "60 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (62), so pushing past 60 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 60 would understate the measured signal.",
+        "integrator_recommendation": 55.66,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 59",
+        "clamp_adjustment": 4.34,
+        "absolute_score_rationale": "Argentina sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Argentina's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Argentina's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Argentina's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Argentina that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Argentina that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 60 means everyday life in Argentina leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 60 is justified: Argentina sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 60 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (62), so pushing past 60 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C02, W_cultural_anthropologist_c1, W_historical_analyst_c1_2. The integrator recommendation was 55.7; the framework limit (LOWER CI 59) applied, so the final published score became 60.",
+        "executive_explanation": "Argentina sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (60) already reflected this evidence, so the council confirmed 60 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (62), so pushing past 60 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 60 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.45 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [59-62], 60 sits at ~29% of the permitted span."
+      },
+      {
+        "country": "Argentina",
+        "iso3": "ARG",
+        "dimension": "D2",
+        "baseline_score": 87.81989836,
+        "final_score": 85,
+        "change_amount": -2.82,
+        "change_percent": -3.21,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Argentina's Expression is placed at 85 (Restrained 3 <-> Open 97). Within the framework range [84-91], 85 sits at ~12% of the permitted span.",
+        "evidence_used": [
+          "E_D2_03",
+          "W_institutional_analyst_C13",
+          "W_historical_analyst_c2_2"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "hofstede"
+        ],
+        "framework_contributions": {
+          "hofstede": 20.0,
+          "globe": 30.0,
+          "schwartz": 10.0,
+          "wvs": 10.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Framework consensus of 48.06 with moderate conflict (0.38). Argentina's high Hofstede Indulgence (~62) and culturally expressive Latin temperament support high D2. The CI (84.15–91.49) is wide, reflecting framework conflict. Placement at 87 reflects the strong indulgence signal and warm expressive culture while acknowledging moderate conflict from GLOBE assertiveness data. Why not lower: Hofstede Indulgence and Trompenaars affective signals both clearly exceed the Turkey anchor of 50 by a large margin; dropping below 84 would contradict the CI floor. Why not higher: GLOBE assertiveness and some Trompenaars neutral signals introduce conflict; the evidence does not support pushing to the upper CI bound of 91. Most decisive evidence: Hofstede Indulgence and Trompenaars affective/neutral scores.",
+        "comparativist_reasoning": "Argentina's Expression score of 85 is supported by its high Hofstede Indulgence score and culturally expressive Latin temperament. This places Argentina well above the Turkey anchor of 50 and aligns with its regional peers like Venezuela (91) and Brazil (68). The score reflects Argentina's warm and expressive culture.",
+        "country_specialist_reasoning": "Argentina's high score in Expression is driven by a strong cultural tendency towards emotional openness and indulgence, as indicated by Hofstede's high Indulgence score and the expressive Latin temperament.",
+        "skeptic_reasoning": "Adversarial check on Expression=86: resist midpoint bias and compression.",
+        "integrator_decision": "Expression adjusted from baseline 87.8 to 85 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8302): coverage=1.0, agreement=0.945, evidence=0.595, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 85,
+          "considered_alternatives": [
+            86,
+            87,
+            88
+          ],
+          "why_rejected": {
+            "86": "86 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "87": "87 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence.",
+            "88": "88 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "85 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (87) and the CI ceiling (91), so pushing past 85 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (85) and the CI floor (84), so going below 85 would understate the measured signal.",
+        "integrator_recommendation": 80.55,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 84",
+        "clamp_adjustment": 4.45,
+        "absolute_score_rationale": "Argentina sits at 85 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 88 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Argentina's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Argentina's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would understate Argentina's Open tendencies; peer and framework evidence place it above 50 on Expression.",
+          "65": "A 65 would understate Argentina's Open tendencies; peer and framework evidence place it above 65 on Expression.",
+          "80": "A 80 would understate Argentina's Open tendencies; peer and framework evidence place it above 80 on Expression."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 85 means everyday life in Argentina leans toward Open: institutions, norms and expression skew toward Open.",
+        "final_rationale": "Why 85 is justified: Argentina sits at 85 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 88 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (85) and the CI floor (84), so going below 85 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (87) and the CI ceiling (91), so pushing past 85 would lack evidentiary support. Strongest supporting evidence: E_D2_03, W_institutional_analyst_C13, W_historical_analyst_c2_2. The integrator recommendation was 80.5; the framework limit (LOWER CI 84) applied, so the final published score became 85.",
+        "executive_explanation": "Argentina sits at 85 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 88 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (87) and the CI ceiling (91), so pushing past 85 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (85) and the CI floor (84), so going below 85 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=2.82. Framework consensus=48.06, signal_strength=0.5976, conflict=0.38. Within the framework range [84-91], 85 sits at ~12% of the permitted span. Confidence HIGH (score 0.8302): coverage=1.0, agreement=0.945, evidence=0.595, stability=1.0."
+      },
+      {
+        "country": "Argentina",
+        "iso3": "ARG",
+        "dimension": "D3",
+        "baseline_score": 72.17184344,
+        "final_score": 71,
+        "change_amount": -1.17,
+        "change_percent": -1.62,
+        "adjustment_type": "ROUNDING",
+        "summary": "Argentina's Structure is placed at 71 (Fluid 3 <-> Certain 97). Within the framework range [70-74], 71 sits at ~22% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C18",
+          "W_institutional_analyst_C22",
+          "W_institutional_analyst_C19"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "wvs"
+        ],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 25.0,
+          "schwartz": 8.33,
+          "wvs": 16.67,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Framework consensus of 62.99 with moderate agreement (0.6465) and conflict (0.3535). Hofstede UAI for Argentina is very high (~86), strongly supporting high D3. GLOBE future orientation and Trompenaars time orientation also support high structure-seeking. WVS scepticism/relativism signals provide some downward pull. Colombia D3 anchor is 50; Argentina's very high UAI places it clearly above. Why not lower: Hofstede UAI=86 is one of the highest globally and is the primary anchor measure for D3; a score below 70 would be inconsistent with this signal. Why not higher: WVS scepticism and relativism indicators introduce genuine conflict, and the CI ceiling is 74.26; placement at 72 reflects this tension. Most decisive evidence: Hofstede UAI and GLOBE future orientation.",
+        "comparativist_reasoning": "Argentina's Structure score of 71 is justified by its high Hofstede Uncertainty Avoidance Index (~86), indicating a strong preference for predictability and order. This score is above the Colombia anchor of 50 and aligns with regional peers like Chile (73) and Brazil (65). The score reflects Argentina's structured approach to uncertainty.",
+        "country_specialist_reasoning": "Argentina exhibits a high need for structure, as evidenced by a very high Hofstede Uncertainty Avoidance score, indicating a preference for predictability and rule dependence.",
+        "skeptic_reasoning": "Adversarial check on Structure=71: resist midpoint bias and compression.",
+        "integrator_decision": "Structure adjusted from baseline 72.2 to 71 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6803): coverage=1.0, agreement=0.967, evidence=0.668, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 71,
+          "considered_alternatives": [
+            72
+          ],
+          "why_rejected": {
+            "72": "72 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "71 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (72) and the CI ceiling (74), so pushing past 71 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (71) and the CI floor (70), so going below 71 would understate the measured signal.",
+        "integrator_recommendation": 62.25,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 70",
+        "clamp_adjustment": 8.75,
+        "absolute_score_rationale": "Argentina sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 72 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Argentina's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Argentina's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Argentina's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would understate Argentina's Certain tendencies; peer and framework evidence place it above 65 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Argentina that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 71 means everyday life in Argentina leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 71 is justified: Argentina sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 72 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (71) and the CI floor (70), so going below 71 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (72) and the CI ceiling (74), so pushing past 71 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C18, W_institutional_analyst_C22, W_institutional_analyst_C19. The integrator recommendation was 62.2; the framework limit (LOWER CI 70) applied, so the final published score became 71.",
+        "executive_explanation": "Argentina sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 72 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (72) already reflected this evidence, so the council confirmed 71 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (72) and the CI ceiling (74), so pushing past 71 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (71) and the CI floor (70), so going below 71 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.17 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [70-74], 71 sits at ~22% of the permitted span."
+      },
+      {
+        "country": "Argentina",
+        "iso3": "ARG",
+        "dimension": "D4",
+        "baseline_score": 53.47178976,
+        "final_score": 52,
+        "change_amount": -1.47,
+        "change_percent": -2.75,
+        "adjustment_type": "ROUNDING",
+        "summary": "Argentina's Drive is placed at 52 (Accepting 3 <-> Striving 97). Within the framework range [52-55], 52 sits at ~0% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c4_2",
+          "W_institutional_analyst_C37",
+          "W_institutional_analyst_C26"
+        ],
+        "supporting_frameworks": [
+          "globe"
+        ],
+        "conflicting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 20.0,
+          "globe": 30.0,
+          "schwartz": 20.0,
+          "wvs": 10.0,
+          "trompenaars": 20.0
+        },
+        "statistician_reasoning": "Framework consensus of 50.53 with moderate agreement (0.7568) but notable conflict (0.2432). Hofstede Masculinity is low (~46), Schwartz mastery is moderate, and GLOBE performance orientation is moderate. Turkey D4 anchor is 50; Argentina sits marginally above. The CI is narrow (51.99–54.96). Why not lower: GLOBE performance orientation (mapped to D4 per framework override) provides a genuine upward nudge above the Turkey anchor; the CI floor of 51.99 also constrains downward movement. Why not higher: Hofstede Masculinity=46 and Schwartz mastery signals cap upward movement; the CI ceiling is 54.96 and conflicting frameworks prevent a higher placement. Most decisive evidence: GLOBE performance orientation and Hofstede Masculinity in tension.",
+        "comparativist_reasoning": "Argentina's Drive score of 54 is slightly above the Turkey anchor of 50, reflecting a balance between achievement orientation and harmony. This is supported by moderate Hofstede Masculinity and Schwartz Mastery scores. The score aligns with regional peers like Peru (49) and Uruguay (47), indicating a moderate emphasis on achievement.",
+        "country_specialist_reasoning": "Argentina's Drive score reflects a balance between achievement orientation and quality-of-life values, with slight upward influence from GLOBE performance orientation.",
+        "skeptic_reasoning": "Adversarial check on Drive=54: resist midpoint bias and compression.",
+        "integrator_decision": "Drive adjusted from baseline 53.5 to 52 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.49 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6323): coverage=1.0, agreement=0.967, evidence=0.518, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 52,
+          "considered_alternatives": [
+            53,
+            54
+          ],
+          "why_rejected": {
+            "53": "53 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "54": "54 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "52 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (55), so pushing past 52 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (52), so going below 52 would understate the measured signal.",
+        "integrator_recommendation": 51.64,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "LOWER CI 52",
+        "clamp_adjustment": 0.36,
+        "absolute_score_rationale": "Argentina sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Argentina's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Argentina's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Argentina that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Argentina that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Argentina that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 52 means everyday life in Argentina leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 52 is justified: Argentina sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (52), so going below 52 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (55), so pushing past 52 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c4_2, W_institutional_analyst_C37, W_institutional_analyst_C26. The integrator recommendation was 51.6; the framework limit (LOWER CI 52) applied, so the final published score became 52.",
+        "executive_explanation": "Argentina sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (53) already reflected this evidence, so the council confirmed 52 rather than moving it. the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (55), so pushing past 52 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (52), so going below 52 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.47 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [52-55], 52 sits at ~0% of the permitted span."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "BRA",
+        "country": "Brazil",
+        "d1": 53.50564403,
+        "d2": 68.89193604,
+        "d3": 65.32250003,
+        "d4": 56.4712604,
+        "relation": "regional"
+      },
+      {
+        "iso3": "VEN",
+        "country": "Venezuela",
+        "d1": 46.35906504,
+        "d2": 91.38009344,
+        "d3": 64.7651784,
+        "d4": 69.05472599,
+        "relation": "regional"
+      },
+      {
+        "iso3": "URY",
+        "country": "Uruguay",
+        "d1": 56.61888672,
+        "d2": 65.94567445,
+        "d3": 64.75743962,
+        "d4": 47.89789875,
+        "relation": "regional"
+      },
+      {
+        "iso3": "CHL",
+        "country": "Chile",
+        "d1": 55.68383281,
+        "d2": 73.97454744,
+        "d3": 73.18714259,
+        "d4": 33.02901613,
+        "relation": "regional"
+      },
+      {
+        "iso3": "PER",
+        "country": "Peru",
+        "d1": 41.1003659,
+        "d2": 73.98737099,
+        "d3": 53.71907938,
+        "d4": 49.73481114,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 10.0,
+        "reason": "Argentina is above the South Korea Identity anchor (50) by 10.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 35.0,
+        "reason": "Argentina is above the Turkey Expression anchor (50) by 35.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 2.0,
+        "reason": "Argentina is above the Turkey Drive anchor (50) by 2.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 21.0,
+        "reason": "Argentina is above the Colombia Structure anchor (50) by 21.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "ARG",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=33"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 33.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Low autonomy and choice scores support collectivist D1 placement",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "ARG",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Argentina has a moderate individualism score of about 46 – highest in Latin America but mid‑range globally.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 80.0,
+          "strongest_supporting": "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 88.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c3",
+            "c4"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Argentina has high uncertainty avoidance (implying preference for predictability and structure).",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.5,
+          "supporting_evidence_ids": [
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 50.0,
+          "strongest_supporting": "Argentina’s cross‑cultural profile in Hofstede includes dimensions but lacks clear data on achievement orientation (Masculinity/Drive).",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 58.0,
+          "confidence": 0.4,
+          "supporting_evidence_ids": [
+            "c6"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 42.0,
+          "strongest_supporting": "An organisational study at Ericsson Argentina found Argentine employees less individualistic than counterparts in New Zealand and Sweden, making teamwork easier to foster.",
+          "strongest_opposing": "Peer-reviewed research (Triandis 1995 framework; PubMed 2001) finds Argentine college students are more vertically collectivist than US students, and less horizontally individualist than both US and Taiwanese samples.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 50.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08"
+          ],
+          "opposing_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C09"
+          ]
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 74.0,
+          "strongest_supporting": "According to WHO 2016 data, Argentina had 222 psychologists per 100,000 people — the highest ratio in the world — indicating a culture that has institutionalised emotional self-disclosure at a societal level.",
+          "strongest_opposing": "In hierarchical or authority-inflected situations, disagreement is subtle: Argentinians may not directly challenge a counterpart even if they disagree, and public contradiction can be uncomfortable.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 82.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C14",
+            "C15"
+          ],
+          "opposing_evidence_ids": [
+            "C16",
+            "C17"
+          ]
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 72.0,
+          "strongest_supporting": "Argentina scores 86 on Hofstede's Uncertainty Avoidance Index — its highest score on any dimension — indicating a very strong need for rules, codes of behaviour, and avoidance of ambiguity.",
+          "strongest_opposing": "Despite high UAI scores, Argentina shows a weak inclination among individuals to actually adhere to laws; this is reflected in corruption, black markets, and a gap between the legal and the real.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C18",
+            "C19",
+            "C20",
+            "C21",
+            "C22"
+          ],
+          "opposing_evidence_ids": [
+            "C23",
+            "C24",
+            "C25"
+          ]
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 52.0,
+          "strongest_supporting": "Argentina's Hofstede Masculinity score is 56, slightly above the midpoint, indicating a moderate lean toward achievement-orientation and competition over harmony.",
+          "strongest_opposing": "Argentina has the highest number of psychologists per capita in the world, and therapy is embedded as a cultural norm for self-reflection and quality of life — suggesting prioritisation of inner/relational wellbeing alongside external achievement.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 52.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "C26",
+            "C27",
+            "C28"
+          ],
+          "opposing_evidence_ids": [
+            "C29",
+            "C30",
+            "C31"
+          ]
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 59.0,
+          "strongest_supporting": "Large-scale Italian and Spanish immigration created a culture that values close family networks and personal relationships over abstract rules.",
+          "strongest_opposing": "The 'criollo' identity emphasizes individual cleverness and self-reliance, a legacy of gaucho culture that values personal autonomy.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 67.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1_1",
+            "c1_2"
+          ],
+          "opposing_evidence_ids": [
+            "c1_3"
+          ]
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 72.0,
+          "strongest_supporting": "Argentines are known for animated conversations with extensive hand gestures, loud voices in cafes, and direct emotional displays in public.",
+          "strongest_opposing": "Hofstede's low Indulgence score (31) indicates a restrained culture where social norms suppress gratification and emotional openness in formal settings.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 80.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c2_1",
+            "c2_2"
+          ],
+          "opposing_evidence_ids": [
+            "c2_3"
+          ]
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Argentines often complain about bureaucracy and unpredictability of institutions, yet they adapt with improvisation and personal connections, reflecting a fluid approach to structure.",
+          "strongest_opposing": "Argentina scores very high (86) on Uncertainty Avoidance, indicating a strong need for rules and predictability despite behavioral flexibility.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c3_1",
+            "c3_2"
+          ],
+          "opposing_evidence_ids": [
+            "c3_3"
+          ]
+        },
+        {
+          "iso3": "ARG",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Strong labor unions and peronist social policies foster an expectation that the state will provide security, reducing the need for individual striving.",
+          "strongest_opposing": "The gaucho ideal values personal freedom and leisure over relentless work, a counterpoint to urban middle-class achievement orientation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 53.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c4_1",
+            "c4_2"
+          ],
+          "opposing_evidence_ids": [
+            "c4_3"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "ARG",
+          "dimension": "D1",
+          "baseline_score": 60.4458712,
+          "specialist_recommendation": 52.0,
+          "specialist_confidence": 0.7933,
+          "evidence_strength": 0.5905,
+          "evidence_quality": 0.5732,
+          "disagreement_index": 0.2903,
+          "specialist_influence_weight": 0.6076,
+          "rationale": "High specialist confidence -> evidence credibility 0.61 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ARG",
+          "dimension": "D2",
+          "baseline_score": 87.81989836,
+          "specialist_recommendation": 75.333,
+          "specialist_confidence": 0.8,
+          "evidence_strength": 0.5947,
+          "evidence_quality": 0.5989,
+          "disagreement_index": 0.136,
+          "specialist_influence_weight": 0.595,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ARG",
+          "dimension": "D3",
+          "baseline_score": 72.17184344,
+          "specialist_recommendation": 55.667,
+          "specialist_confidence": 0.6733,
+          "evidence_strength": 0.6684,
+          "evidence_quality": 0.6043,
+          "disagreement_index": 0.6165,
+          "specialist_influence_weight": 0.6449,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ARG",
+          "dimension": "D4",
+          "baseline_score": 53.47178976,
+          "specialist_recommendation": 49.0,
+          "specialist_confidence": 0.6,
+          "evidence_strength": 0.5176,
+          "evidence_quality": 0.5077,
+          "disagreement_index": 0.1178,
+          "specialist_influence_weight": 0.4881,
+          "rationale": "High specialist confidence -> evidence credibility 0.49 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "ARG",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 6.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 6.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 37.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 37.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 25.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 25.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=80: differs by 7 from the statistician reading of 87.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=68: differs by 4 from the statistician reading of 72.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=61: differs by 3 from the comparativist reading of 58.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=75: differs by 5 from the comparativist reading of 80.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 12.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=60: differs by 8 from the comparativist reading of 68.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 12.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=88: differs by 13 from the country_specialist reading of 75.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "ARG",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=72: differs by 12 from the country_specialist reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "ARG",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 2,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 2,
+          "recommendation": 80.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.5,
+          "evidence_count": 1,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.4,
+          "evidence_count": 1,
+          "recommendation": 50.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 9,
+          "recommendation": 42.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 8,
+          "recommendation": 74.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 8,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 6,
+          "recommendation": 52.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 59.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 72.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "ARG",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 45.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "ARG",
+        "score_diversity": 0.1175,
+        "source_diversity": 0.8333,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6925,
+        "consensus_quality": 0.9818,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "ARG",
+      "country": "Argentina",
+      "region": "South America",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 60,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.71,
+          "top_supporting_arguments": [
+            "Argentina has a moderate individualism score of about 46 – highest in Latin America but mid‑range globally.",
+            "Argentina’s score of 46 places it as the most individualistic country in Latin America, though still moderate overall.",
+            "Argentina is classified as the most individualist Latin American country, and collective accomplishments are rarely recognised as such — credit and blame are typically attributed to individuals."
+          ],
+          "top_counter_arguments": [
+            "Argentina's Hofstede Individualism score is 46, placing it near the midpoint between individualism and collectivism.",
+            "Peer-reviewed research (Triandis 1995 framework; PubMed 2001) finds Argentine college students are more vertically collectivist than US students, and less horizontally individualist than both US and Taiwanese samples.",
+            "Family relationships and extended family connections constitute an important source of power and influence in Argentina; identity is substantially constituted through family network."
+          ],
+          "why_this_score": "Argentina sits at 60 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 60 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (62), so pushing past 60 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (60) and the CI floor (59), so going below 60 would understate the measured signal.",
+          "related_countries": [
+            "Brazil",
+            "Venezuela",
+            "Uruguay",
+            "Chile",
+            "Peru"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "source11",
+              "title": "A Cross‑Cultural Examination… Hofstede’s Dimensions… Argentina",
+              "url": "https://www.researchgate.net/...",
+              "author": "Monica Garza Saenz et al.",
+              "publication_year": null,
+              "excerpt": "Argentina has a moderate individualism score of about 46 – highest in Latin America but mid‑range globally.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c2",
+              "source_id": "source14",
+              "title": "CONICET Argentina individualism discussion",
+              "url": "https://ri.conicet.gov.ar/...",
+              "author": "unknown",
+              "publication_year": 2025,
+              "excerpt": "Argentina’s score of 46 places it as the most individualistic country in Latin America, though still moderate overall.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C04",
+              "source_id": "S04",
+              "title": "Argentine Culture – Core Concepts",
+              "url": "https://culturalatlas.sbs.com.au/argentine-culture/argentine-culture-core-concepts",
+              "author": "Cultural Atlas / SBS Australia",
+              "publication_year": 2023,
+              "excerpt": "Argentina is classified as the most individualist Latin American country, and collective accomplishments are rarely recognised as such — credit and blame are typically attributed to individuals.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 85,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.864,
+          "top_supporting_arguments": [
+            "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity.",
+            "Argentina is described as an emotional‑oriented culture where emotions are revealed openly through verbal and body language.",
+            "Argentines are known for being expressive and opinionated; meetings are often dynamic and full of discussion, and managers should expect and welcome direct input from staff."
+          ],
+          "top_counter_arguments": [
+            "In hierarchical or authority-inflected situations, disagreement is subtle: Argentinians may not directly challenge a counterpart even if they disagree, and public contradiction can be uncomfortable.",
+            "Communication is often indirect in Argentine workplaces; Argentinians tend to use nonverbal cues and gestures to convey meaning, which can make it challenging for outsiders to read the nuances.",
+            "Hofstede's low Indulgence score (31) indicates a restrained culture where social norms suppress gratification and emotional openness in formal settings."
+          ],
+          "why_this_score": "Argentina sits at 85 on Expression (Restrained 3 <-> Open 97), placing it toward Open. This absolute level reflects the convergence of the framework signal (framework consensus ~48), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 88 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (87) and the CI ceiling (91), so pushing past 85 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (85) and the CI floor (84), so going below 85 would understate the measured signal.",
+          "related_countries": [
+            "Brazil",
+            "Venezuela",
+            "Uruguay",
+            "Chile",
+            "Peru"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c3",
+              "source_id": "source7",
+              "title": "Por qué los argentinos hablan con las manos…",
+              "url": "https://www.meteored.com.ar/...",
+              "author": "Cindy Fernández",
+              "publication_year": 2025,
+              "excerpt": "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c4",
+              "source_id": "source9",
+              "title": "The Emotional Argentines",
+              "url": "https://landingpadba.com/...",
+              "author": "Natalia Sarro",
+              "publication_year": 2010,
+              "excerpt": "Argentina is described as an emotional‑oriented culture where emotions are revealed openly through verbal and body language.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C10",
+              "source_id": "S06",
+              "title": "Navigating Work Culture in Argentina: A Guide for Managers",
+              "url": "https://www.thinkglobal-hr.com/article/navigating-work-culture-in-argentina:-a-guide-for-managers",
+              "author": "Think Global HR",
+              "publication_year": 2024,
+              "excerpt": "Argentines are known for being expressive and opinionated; meetings are often dynamic and full of discussion, and managers should expect and welcome direct input from staff.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 71,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.384,
+          "top_supporting_arguments": [
+            "Argentina has high uncertainty avoidance (implying preference for predictability and structure).",
+            "Argentina scores 86 on Hofstede's Uncertainty Avoidance Index — its highest score on any dimension — indicating a very strong need for rules, codes of behaviour, and avoidance of ambiguity.",
+            "Ericsson Argentina employees were more likely to accept clearly defined reporting systems than counterparts in New Zealand and Sweden; performance-related risk-pay was rejected by Argentine employees sensitive to uncertainty."
+          ],
+          "top_counter_arguments": [
+            "Despite high UAI scores, Argentina shows a weak inclination among individuals to actually adhere to laws; this is reflected in corruption, black markets, and a gap between the legal and the real.",
+            "Argentina is a 'fluid time culture': deadlines are viewed as flexible, Argentinians may be reluctant to upset others to push through a deadline, and schedules are treated as approximate.",
+            "Flexibility and spontaneity are qualities that are greatly prized in Argentine culture, and Argentines may not be on time at meetings and agendas are very likely to be ignored."
+          ],
+          "why_this_score": "Argentina sits at 71 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 72 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (72) and the CI ceiling (74), so pushing past 71 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (71) and the CI floor (70), so going below 71 would understate the measured signal.",
+          "related_countries": [
+            "Brazil",
+            "Venezuela",
+            "Uruguay",
+            "Chile",
+            "Peru"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c5",
+              "source_id": "source11",
+              "title": "A Cross‑Cultural Examination… Hofstede’s Dimensions… Argentina",
+              "url": "https://www.researchgate.net/...",
+              "author": "Monica Garza Saenz et al.",
+              "publication_year": null,
+              "excerpt": "Argentina has high uncertainty avoidance (implying preference for predictability and structure).",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S02",
+              "title": "A Cross-Cultural Examination of the United States, Argentina, and Mexico Using Hofstede's Dimensions and the World Values Survey",
+              "url": "https://www.researchgate.net/publication/327548344_A_Cross-Cultural_Examination_of_the_United_States_Argentina_and_Mexico_Using_Hofstede's_Dimensions_and_the_World_Values_Survey",
+              "author": "Garza Saenz et al.",
+              "publication_year": 2018,
+              "excerpt": "Argentina scores 86 on Hofstede's Uncertainty Avoidance Index — its highest score on any dimension — indicating a very strong need for rules, codes of behaviour, and avoidance of ambiguity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S14",
+              "title": "Chapter IV.5 Culture and Management in Argentina",
+              "url": "https://adm3012-plongees.teluq.ca/files/2016/09/chapIV_5.pdf",
+              "author": "Hamed & Miconnet (cited in chapter)",
+              "publication_year": 1999,
+              "excerpt": "Ericsson Argentina employees were more likely to accept clearly defined reporting systems than counterparts in New Zealand and Sweden; performance-related risk-pay was rejected by Argentine employees sensitive to uncertainty.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 52,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.882,
+          "top_supporting_arguments": [
+            "Argentina’s cross‑cultural profile in Hofstede includes dimensions but lacks clear data on achievement orientation (Masculinity/Drive).",
+            "Argentina's Hofstede Masculinity score is 56, slightly above the midpoint, indicating a moderate lean toward achievement-orientation and competition over harmony.",
+            "Social status in Argentina is strongly dependent on appearance, attire, and adornments such as expensive watches, indicating a status- and achievement-signalling culture."
+          ],
+          "top_counter_arguments": [
+            "Argentine workplace culture is heavily relationship-based; trust is built through genuine care and consistency rather than hierarchical achievement, and employee satisfaction is closely tied to workplace relationships.",
+            "Argentina has the highest number of psychologists per capita in the world, and therapy is embedded as a cultural norm for self-reflection and quality of life — suggesting prioritisation of inner/relational wellbeing alongside external achievement.",
+            "Argentinian culture places strong value on personal relationships, and once a relationship has developed, personal loyalty to individuals — rather than advancement through performance — shapes business behaviour."
+          ],
+          "why_this_score": "Argentina sits at 52 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~51), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 53 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (55), so pushing past 52 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (53) and the CI floor (52), so going below 52 would understate the measured signal.",
+          "related_countries": [
+            "Brazil",
+            "Venezuela",
+            "Uruguay",
+            "Chile",
+            "Peru"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c6",
+              "source_id": "source11",
+              "title": "A Cross‑Cultural Examination… Hofstede’s Dimensions… Argentina",
+              "url": "https://www.researchgate.net/...",
+              "author": "Monica Garza Saenz et al.",
+              "publication_year": null,
+              "excerpt": "Argentina’s cross‑cultural profile in Hofstede includes dimensions but lacks clear data on achievement orientation (Masculinity/Drive).",
+              "dimension": "D4",
+              "support_direction": "supports_mid"
+            },
+            {
+              "claim_id": "C26",
+              "source_id": "S01",
+              "title": "Hofstede's Cultural Dimensions of Argentina (Scribd document)",
+              "url": "https://www.scribd.com/document/506916830/HOFSTEDE",
+              "author": "Unknown",
+              "publication_year": 2021,
+              "excerpt": "Argentina's Hofstede Masculinity score is 56, slightly above the midpoint, indicating a moderate lean toward achievement-orientation and competition over harmony.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C27",
+              "source_id": "S12",
+              "title": "Argentina, Doing Business in",
+              "url": "https://www.referenceforbusiness.com/encyclopedia/A-Ar/Argentina-Doing-Business-in.html",
+              "author": "Reference for Business Encyclopedia",
+              "publication_year": 2006,
+              "excerpt": "Social status in Argentina is strongly dependent on appearance, attire, and adornments such as expensive watches, indicating a status- and achievement-signalling culture.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

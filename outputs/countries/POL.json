@@ -1,0 +1,2543 @@
+{
+  "iso3": "POL",
+  "country": "Poland",
+  "region": "Eastern Europe",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-07T12:23:50.517071+00:00",
+  "cultural_profile": {
+    "iso3": "POL",
+    "country": "Poland",
+    "region": "Eastern Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 58,
+        "reading": "Independent",
+        "explanation": "Poland's cultural landscape reflects a moderate individualism, where personal responsibility is valued alongside family and community ties."
+      },
+      {
+        "dimension": "D2",
+        "score": 42,
+        "reading": "Understated",
+        "explanation": "Public emotional expression in Poland is restrained, with a cultural emphasis on modesty and control, though warmth is evident in private circles."
+      },
+      {
+        "dimension": "D3",
+        "score": 64,
+        "reading": "Structured",
+        "explanation": "Poland's high need for certainty and structure is evident in its preference for clear rules and predictability in both social and professional settings."
+      },
+      {
+        "dimension": "D4",
+        "score": 57,
+        "reading": "Balanced",
+        "explanation": "Achievement and competition are highly valued in Poland, where success is often measured by tangible results and performance."
+      }
+    ],
+    "executive_summary": "Poland is a land where individual achievement meets collective tradition. The Catholic Church and historical movements like Solidarity have instilled a deep sense of community, yet modern influences are nudging the younger generation towards individualism. Emotional expression is often restrained in public, but warmth and hospitality shine in private settings. A strong preference for structure and predictability defines both social and professional life.",
+    "cultural_archetype": {
+      "title": "The Independent Achiever",
+      "summary": "A society balancing individual aspirations with deep-rooted collective values.",
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Structured business environments",
+      "Long-term strategic planning",
+      "Community-focused initiatives"
+    ],
+    "culture_at_a_glance": [
+      "In Polish culture, success is often associated with assertiveness, reliability, and measurable performance, reflecting a strong achievement orientation.",
+      "Poland's post-1989 market reforms and EU integration have accelerated individualist values, especially among younger generations, yet the Catholic Church and historical movements like Solidarity continue to reinforce collective identity.",
+      "Polish business culture is described as based on assertiveness — to be successful one should be confident, quick in decision-making, and not afraid to stand up for oneself.",
+      "Polish social hospitality — warmth with guests, expressive family gatherings — provides a contextually bounded counter to the Restrained baseline, visible in friendship and domestic contexts.",
+      "Catholicism remains a strong collective identity marker – over 90% of Poles identify as Catholic, reinforcing in-group loyalty.",
+      "Despite formal rules, corruption and 'załatwianie spraw' (getting things done through personal connections) are common in public life."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Achievement and Performance",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 86,
+          "framework_agreement": 71,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in success factor sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "In Polish culture, success is often associated with assertiveness, reliability, and measurable performance, reflecting a strong achievement orientation.",
+            "claim_ids": [
+              "C22",
+              "C23",
+              "C28"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The post-communist economic transition in Poland saw the rise of a new entrepreneurial class that prized hard work, risk-taking, and success.",
+            "claim_ids": [
+              "c14"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Balancing Tradition and Modernity",
+        "confidence": {
+          "evidence_strength": 53,
+          "expert_agreement": 80,
+          "framework_agreement": 91,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in cultural transition sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Poland's post-1989 market reforms and EU integration have accelerated individualist values, especially among younger generations, yet the Catholic Church and historical movements like Solidarity continue to reinforce collective identity.",
+            "claim_ids": [
+              "c2",
+              "c3",
+              "C03"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Solidarity movement and the Catholic Church have historically reinforced collective national identity and group solidarity.",
+            "claim_ids": [
+              "c3"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Poland's historical experiences with communism, the Solidarity movement, and the Catholic Church have deeply influenced its collective identity and preference for structure.",
+        "claim_ids": [
+          "c3",
+          "C18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Achievement",
+        "but_also": "Collective Identity",
+        "explanation": "While individualism is rising, the Catholic Church and historical movements like Solidarity continue to reinforce a strong sense of community and collective identity.",
+        "claim_ids": [
+          "c2",
+          "c3",
+          "C03"
+        ],
+        "sources_count": 3
+      },
+      {
+        "pulls_toward": "Structured Predictability",
+        "but_also": "Informal Networks",
+        "explanation": "Despite a high preference for rules and predictability, informal networks often bypass official procedures, reflecting a dual approach to navigating uncertainty.",
+        "claim_ids": [
+          "c12",
+          "C14",
+          "C15"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Catholicism remains a strong collective identity marker – over 90% of Poles identify as Catholic, reinforcing in-group loyalty.",
+          "claim_ids": [
+            "c4"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Despite formal rules, corruption and 'załatwianie spraw' (getting things done through personal connections) are common in public life.",
+          "claim_ids": [
+            "c11"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Catholic social teaching emphasizes family, community, and work-life balance, which can temper extreme careerism.",
+          "claim_ids": [
+            "c15"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Poland's combination of moderate individualism and low generalised social trust means that strong in-group ties — family, friends, close partners — remain functionally important and are frequently used in business activity.",
+          "claim_ids": [
+            "C05"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Polish people do not like uncertain situations, are less tolerant of unorthodox ideas or behaviours, exhibit nervous stress, and need predictability, rules, deadlines, and schedules — punctuality and precision are normatively expected.",
+          "claim_ids": [
+            "C16"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Working hours in Poland's private sector can be high, and employees do not strictly separate work from personal time — phone calls outside working hours are common — indicating a strong work-performance orientation.",
+          "claim_ids": [
+            "C24"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Managers in Polish companies are expected to be authoritative and to demonstrate expertise; building credibility through professionalism, punctuality, and clear planning is the foundation of successful leadership.",
+          "claim_ids": [
+            "C29"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Polish employees are known for an 'ownership mindset' — proactively giving feedback or pushing back to ensure quality — which coexists with hierarchy but signals individual accountability and initiative.",
+          "claim_ids": [
+            "C30"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Poles use formal titles (Pan/Pani) and surnames in professional settings; emotional restraint is expected, especially with strangers.",
+          "claim_ids": [
+            "c6"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Polish communication is characterised as direct and factual; Poles value clarity and honesty in professional interactions — a directness norm that a newcomer would notice.",
+          "claim_ids": [
+            "C12"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Business presentations in Poland should be specific, detailed, and backed by facts rather than fanciful or referring to intangible effects — reflecting high Structure and discomfort with vague or unverifiable claims.",
+          "claim_ids": [
+            "C31"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Polish social hospitality — warmth with guests, expressive family gatherings — provides a contextually bounded counter to the Restrained baseline, visible in friendship and domestic contexts.",
+          "claim_ids": [
+            "c8",
+            "C13"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Poland's Hofstede score for Indulgence is low (≈ 29), indicating a restrained culture that suppresses gratification and emotional display in public.",
+          "claim_ids": [
+            "c5"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Poland's predominantly Catholic population is identified as a primary institutional driver of high Uncertainty Avoidance and Restraint norms: majority-Catholic countries show low tolerance for ambiguity and strict regulation of desire.",
+          "claim_ids": [
+            "C11"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "A post-communist mentality in Poland is characterised as bureaucratic, legalistic, and hierarchical — particularly in smaller towns, rural areas, and older SMEs — reflecting a historically deep need for formal structure.",
+          "claim_ids": [
+            "C18"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Poland's Hofstede Individualism score is approximately 60, indicating a moderately individualist society where individuals are expected to take care of themselves.",
+          "claim_ids": [
+            "c1"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "The Solidarity movement and the Catholic Church have historically reinforced collective national identity and group solidarity.",
+          "claim_ids": [
+            "c3"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Criticism in Polish professional culture should be handled carefully and never in public; public embarrassment can damage relationships — indicating that emotional expression is structurally suppressed in hierarchical contexts.",
+          "claim_ids": [
+            "C32"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Status in Polish workplaces is signalled by job title, age, educational credentials, and demonstrated expertise; office work is valued higher than physical work and wage differentials between levels are significant.",
+          "claim_ids": [
+            "C27"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Poland is a blend of tradition and modernity, where the Catholic Church and historical movements like Solidarity continue to shape a strong sense of community. Despite this, younger generations are increasingly embracing individualism, especially in urban areas. Public life is marked by restraint and formality, but warmth and hospitality are evident in private settings. The need for structure and predictability permeates both social and professional spheres, creating an environment where rules and punctuality are highly valued.",
+      "claim_ids": [
+        "c4",
+        "c8",
+        "C05",
+        "C13"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Polish social hospitality — warmth with guests, expressive family gatherings — provides a contextually bounded counter to the Restrained baseline, visible in friendship and domestic contexts.",
+        "claim_ids": [
+          "c8",
+          "C13"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Polish business culture is described as based on assertiveness — to be successful one should be confident, quick in decision-making, and not afraid to stand up for oneself. Performance and demonstrable competence are primary success signals, and workplaces reward hard work, where subordinates are 'noticed and appreciated most if they work hard', with management stressing that everyone must contribute.",
+        "claim_ids": [
+          "C22",
+          "C23",
+          "C28"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Failing to adhere to formal norms and expectations, such as punctuality and proper use of titles, can lead to misunderstandings and damage professional relationships in Poland.",
+        "claim_ids": [
+          "c6",
+          "c10"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Public criticism or embarrassment can severely damage relationships in Polish professional culture, as emotional expression is structurally suppressed in hierarchical contexts.",
+        "claim_ids": [
+          "C32"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c8",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "c8",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "c8",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c8",
+          "C13"
+        ],
+        "sources_count": 2
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C05"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More collectivist and traditional",
+        "younger": "More individualistic and modern",
+        "claim_ids": [
+          "c2",
+          "C03",
+          "C19"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban professionals",
+        "group_b": "Rural communities",
+        "difference": "Urban professionals in Poland are more likely to embrace individualistic and modern values, while rural communities tend to adhere to traditional and collectivist norms.",
+        "claim_ids": [
+          "C03",
+          "C07",
+          "C19"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "similarity": 96,
+        "explanation": "Poland and Croatia share a strong Catholic influence and a history of collective movements, but Poland's rapid economic changes have led to a more pronounced shift towards individualism.",
+        "claim_ids": [
+          "c3",
+          "C03"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "EST",
+        "country": "Estonia",
+        "similarity": 92,
+        "explanation": "",
+        "claim_ids": [],
+        "sources_count": 0
+      },
+      {
+        "iso3": "MNE",
+        "country": "Montenegro",
+        "similarity": 91,
+        "explanation": "",
+        "claim_ids": [],
+        "sources_count": 0
+      },
+      {
+        "iso3": "LTU",
+        "country": "Lithuania",
+        "similarity": 90,
+        "explanation": "",
+        "claim_ids": [],
+        "sources_count": 0
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Distinct from Croatia",
+        "explanation": "Poland shares a region with Croatia but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "C01",
+          "C02"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Distinct from Estonia",
+        "explanation": "Poland shares a region with Estonia but its everyday balance of the patterns above plays out differently, which is why the two feel distinct to a newcomer.",
+        "claim_ids": [
+          "C01",
+          "C02"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More achievement-oriented than Lithuania",
+        "dimension": "D4",
+        "neighbour_iso3": "LTU",
+        "delta": 15
+      },
+      {
+        "text": "More achievement-oriented than Estonia",
+        "dimension": "D4",
+        "neighbour_iso3": "EST",
+        "delta": 14
+      },
+      {
+        "text": "More achievement-oriented than Bosniaherz",
+        "dimension": "D4",
+        "neighbour_iso3": "BIH",
+        "delta": 14
+      },
+      {
+        "text": "More structured than Bosniaherz",
+        "dimension": "D3",
+        "neighbour_iso3": "BIH",
+        "delta": 13
+      },
+      {
+        "text": "More achievement-oriented than Montenegro",
+        "dimension": "D4",
+        "neighbour_iso3": "MNE",
+        "delta": 11
+      },
+      {
+        "text": "More independent than Bosniaherz",
+        "dimension": "D1",
+        "neighbour_iso3": "BIH",
+        "delta": 10
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Poland exhibits a blend of individualism and collectivism (‘collectivist‑individualism’), where people value both personal goals and group belonging. Therefore the identity leans slightly toward Self rather than strongly Social.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Poland's Hofstede IDV = 60 is the anchor: it places Poland in the moderately individualist range, above the world average (48) but well below strongly individualist societies such as the UK (89) or the US (91). The canonical academic characterisation (Nasierowski & Mikula 1998; ResearchGate comparative diagram) confirms 'average' individualism. This is distinctively ambiguous: post-communist transformation accelerated individualist work values, and multiple researchers confirm a shift toward personal initiative and autonomy. Counter-evidence (Reykowski 1994/1998; Spector et al. 2001) documents persistent collectivist elements — strong in-group loyalty, family obligation, use of personal networks in business — and a low generalised trust that makes strong ties (family, friends) functionally important. The tension is real: Poland is neither firmly collectivist nor firmly individualist; the IDV=60 midpoint-to-slight-individualist score is internally consistent. Regional variation matters: north-east Poland retains stronger collectivist norms (Sadowski); urban professionals skew more individualist. Score 55 reflects the Hofstede anchor slightly adjusted downward for residual collectivist family/in-group evidence, and is fully consistent with IDV=60.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Poland scores moderately individualist (Hofstede IDV ≈ 60) – self-reliance and personal responsibility are expected, yet family and nation remain strong identity anchors. Historical partitions (1795–1918) and Catholic solidarity forged a collective 'we' against oppressors, but post-1989 market reforms boosted individualism.",
+          "suggested_score": 65
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Emotional expression in Poland is relatively open in close-knit settings (e.g. friendship), with norms of sincerity and complaints as social bonding. Expression is culturally moderated but not hierarchically suppressed.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Poland's Indulgence vs Restraint score = 29 (Hofstede) is the strongest measurable signal for D2. This is low even by Eastern European standards and is corroborated by a dedicated peer-reviewed linguistic analysis of Polish proverbs (SKASE journal) that finds fatalism, suppressed positive emotion, strictly prescribed roles, and pessimism embedded in the language itself. Catholicism reinforces duty, self-discipline and deferred gratification. Eastern European countries broadly score low IVR (Mindtools). The direct and factual communication style documented in multiple business-culture sources is a directness norm (not emotional openness) and is correctly routed to D3/workplace norms, NOT counted as evidence of openness here. The sole counter-adjustment is that Polish social settings (hospitality, family gatherings) do involve warm expressiveness — but this is contextually bounded and does not override the structural Restraint base rate. Score 28 is fully consistent with IVR=29.",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is moderately restrained. Poles are reserved with strangers (formal 'Pan/Pani'), but expressive with close friends and in protest culture. Hierarchical suppression of emotion in formal settings coexists with warm, open family life.",
+          "suggested_score": 45
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "No specific ethnographic evidence on rule‑orientation, orderliness, or certainty was found; score abstained would apply but given lack of evidence, set to null.",
+          "suggested_score": 70
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Poland's UAI = 93 (Hofstede Insights via Studocu) is among the highest in the world and is the strongest single anchor in this dataset. Multiple independent corroborating sources confirm: post-communist bureaucratic/legalistic attitudes, strong preference for rules and formal authority, punctuality norms, deep discomfort with unorthodox behaviour, and Catholic institutional influence correlating with high UAI across Catholic countries. Expatriate culture-shock research (ResearchGate) specifically identifies UAI as a primary friction point for newcomers. The trade.gov.pl institutional source and the Commisceo business guide both document that Polish workplaces operate with clearly defined authority, formal approval chains, and a need for predictability. Counter-evidence: the younger, internationally oriented cohort (especially in Warsaw/Kraków tech sector) is more comfortable with ambiguity and flatter structures — this is a genuine and growing shift, so the score is placed at 88 rather than the maximum, allowing for this generational adjustment without inverting the dominant signal.",
+          "suggested_score": 88
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "High Structure: strong need for rules, planning, and order (Hofstede UAI ≈ 93). Punctuality, queuing, bureaucratic formality are expected. However, systemic corruption and 'załatwianie spraw' (getting things done via connections) reveal fluidity in practice.",
+          "suggested_score": 76
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Poland's Hofstede MAS = 64 is the anchor, placing it in the masculine/achievement-oriented half of the scale. Multiple corroborating sources confirm: competition, assertiveness, and measurable performance are explicitly valued in Polish business culture; the 'solidność' (reliability/professionalism) norm rewards hard work and demonstrated competence; status signals include demonstrating expertise, job title, and educational credentials; and long working hours in the private sector are documented. The internationalisation of 'szacunek' (professional self-respect) as a cultural value further supports achievement orientation. Counter-evidence: a generational shift is documented, with younger Poles increasingly seeking work-life balance and deprioritising sacrifice of private life to work (Kuzminska-Haberla 2017). This is a meaningful trend that prevents a higher score but does not flip the direction. Score 65 is internally consistent with MAS=64.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Drive is high. Strong work ethic, ambition for career success, and competition (MAS ≈ 64). Post-communist transformation rewarded risk-taking entrepreneurs. Yet, Catholic values also stress family and life balance, tempering pure achievement orientation.",
+          "suggested_score": 72
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Polish Business Culture – Hofstede 6-D analysis (Studocu / SGH Warsaw)",
+      "url": "https://www.studocu.com/pl/document/szkola-glowna-handlowa-w-warszawie/angielski/polish-business-culture/13355292",
+      "author": "SGH student analysis",
+      "publication_year": 2021,
+      "excerpt": "Poland scores 60 on Hofstede's Individualism dimension, placing it in the moderately individualist range above the world average of 48.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S04",
+      "title": "Culture Dimensions of Polish Managers: Hofstede's Indices (Nasierowski & Mikula)",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/017084069801900306",
+      "author": "Nasierowski, W.; Mikula, B.",
+      "publication_year": 1998,
+      "excerpt": "A 1998 study of Polish managers found that they score average on Individualism relative to Hofstede's Hermes database, confirming a middle-range rather than strongly collectivist positioning.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S15",
+      "title": "A Cross-Cultural Study of Collectivism and Individualism at Polish Workplaces (Univ. of Lodz)",
+      "url": "https://dspace.uni.lodz.pl/xmlui/bitstream/handle/11089/35989/77-88_Ting-Yu%20Lee.pdf",
+      "author": "Lee, T-Y.",
+      "publication_year": 2012,
+      "excerpt": "Post-communist transformation in Poland accelerated a shift of work values from collectivism toward individualism, including personal time, initiative, and achievement, converging with other European countries.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S14",
+      "title": "Individualism/Collectivism Value Compared (ResearchGate – Spector, Cooper, Sparks 2001 cited)",
+      "url": "https://www.researchgate.net/figure/ndividualism-collectivism-value-compared_tbl3_30931059",
+      "author": "ResearchGate compilation",
+      "publication_year": 2015,
+      "excerpt": "Poland's combination of moderate individualism and low generalised social trust means that strong in-group ties — family, friends, close partners — remain functionally important and are frequently used in business activity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S06",
+      "title": "Between Collectivism and Individualism – Analysis of Changes in Value Systems of Polish Students over 15 Years (Tandfonline / Dove Press PRBM)",
+      "url": "https://www.tandfonline.com/doi/full/10.2147/PRBM.S330038",
+      "author": "Tandfonline",
+      "publication_year": 2021,
+      "excerpt": "Regional variation in Poland's I-C values is documented: the north-east of Poland retained stronger collectivist norms where post-communist political changes were less effective.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S17",
+      "title": "Poland – Polish Geert Hofstede Cultural Dimensions Explained (International Business Center)",
+      "url": "https://internationalbusinesscenter.org/geert-hofstede/hofstede_poland.shtml",
+      "author": "International Business Center",
+      "publication_year": 2018,
+      "excerpt": "Poland's predominantly Catholic population is identified as a primary institutional driver of high Uncertainty Avoidance and Restraint norms: majority-Catholic countries show low tolerance for ambiguity and strict regulation of desire.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S10",
+      "title": "Polish Business Culture: Doing Business in Poland (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/poland-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Polish communication is characterised as direct and factual; Poles value clarity and honesty in professional interactions — a directness norm that a newcomer would notice. (Note: routed to D2 only as a counter-adjustment; directness is not emotional openness but does indicate less suppression in informational exchange.)",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S09",
+      "title": "Poland Culture & Holidays – Employer Guide (Safeguard Global)",
+      "url": "https://www.safeguardglobal.com/country/poland/culture/",
+      "author": "Safeguard Global",
+      "publication_year": 2024,
+      "excerpt": "Polish social hospitality — warmth with guests, expressive family gatherings — provides a contextually bounded counter to the Restrained baseline, visible in friendship and domestic contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S01",
+      "title": "Polish Business Culture – Hofstede 6-D analysis (Studocu / SGH Warsaw)",
+      "url": "https://www.studocu.com/pl/document/szkola-glowna-handlowa-w-warszawie/angielski/polish-business-culture/13355292",
+      "author": "SGH student analysis",
+      "publication_year": 2021,
+      "excerpt": "Poland scores 93 on the Hofstede Uncertainty Avoidance Index (UAI), one of the highest scores globally, indicating an extremely strong cultural need for rules, predictability, and avoidance of ambiguous situations.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S02",
+      "title": "Consumer Behaviour in Poland and Its Main Export Countries (IBRKK Handel Wewnętrzny)",
+      "url": "https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-48ad7e03-97a9-4412-9df9-f555ec39367c/c/IBRKK-handel_wew_4-2017-t1.85-97.pdf",
+      "author": "IBRKK",
+      "publication_year": 2017,
+      "excerpt": "Poland's UAI of 93 is independently confirmed in a peer-reviewed trade study comparing Polish consumer behaviour with Germany and the UK, explicitly noting Poland's high intolerance for uncertainty.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S07",
+      "title": "Poland and China in the Light of Hofstede (Kuzminska-Haberla, MSED/VSE Prague)",
+      "url": "https://msed.vse.cz/msed_2017/article/260-Kuzminska-Haberla-Aleksandra-paper.pdf",
+      "author": "Kuzminska-Haberla, A.",
+      "publication_year": 2017,
+      "excerpt": "Polish people do not like uncertain situations, are less tolerant of unorthodox ideas or behaviours, exhibit nervous stress, and need predictability, rules, deadlines, and schedules — punctuality and precision are normatively expected.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S16",
+      "title": "Business Culture in Poland (LinkedIn – Łukasz Lemke)",
+      "url": "https://www.linkedin.com/pulse/business-culture-poland-%C5%82ukasz-lemke",
+      "author": "Lemke, Ł.",
+      "publication_year": 2018,
+      "excerpt": "A post-communist mentality in Poland is characterised as bureaucratic, legalistic, and hierarchical — particularly in smaller towns, rural areas, and older SMEs — reflecting a historically deep need for formal structure.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S10",
+      "title": "Polish Business Culture: Doing Business in Poland (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/poland-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Younger, internationally minded Polish professionals — especially in Warsaw and Kraków — are more comfortable with ambiguity, digital communication, and flatter teamwork, representing a genuine generational shift away from rigid structure.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S01",
+      "title": "Polish Business Culture – Hofstede 6-D analysis (Studocu / SGH Warsaw)",
+      "url": "https://www.studocu.com/pl/document/szkola-glowna-handlowa-w-warszawie/angielski/polish-business-culture/13355292",
+      "author": "SGH student analysis",
+      "publication_year": 2021,
+      "excerpt": "Polish business culture is described as based on assertiveness — to be successful one should be confident, quick in decision-making, and not afraid to stand up for oneself; performance and demonstrable competence are primary success signals.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S10",
+      "title": "Polish Business Culture: Doing Business in Poland (Commisceo Global)",
+      "url": "https://commisceo-global.com/country-guides/poland-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Polish business culture places value on 'solidność' (reliability/dependability) — a partner must be competent, honest, and consistent; credibility and follow-through matter more than a polished presentation, signalling a performance-over-image achievement norm.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C24",
+      "source_id": "S13",
+      "title": "Employee Experience in Poland (Sorwe Global Report)",
+      "url": "https://www.sorwe.com/en/hr-insights/employee-experience-in-poland",
+      "author": "Sorwe",
+      "publication_year": 2023,
+      "excerpt": "Working hours in Poland's private sector can be high, and employees do not strictly separate work from personal time — phone calls outside working hours are common — indicating a strong work-performance orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S12",
+      "title": "Business Culture in Poland (Trade.gov.pl – Polish Investment and Trade Agency)",
+      "url": "https://www.trade.gov.pl/en/news/business-culture-in-poland/",
+      "author": "Polish Investment and Trade Agency",
+      "publication_year": 2024,
+      "excerpt": "Status in Polish workplaces is signalled by job title, age, educational credentials, and demonstrated expertise; office work is valued higher than physical work and wage differentials between levels are significant — all consistent with high Drive.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S19",
+      "title": "Polish – Business Culture (Cultural Atlas, SBS Australia)",
+      "url": "https://culturalatlas.sbs.com.au/polish-culture/polish-culture-business-culture",
+      "author": "Cultural Atlas / SBS",
+      "publication_year": 2023,
+      "excerpt": "Polish workplaces reward hard work: subordinates are 'noticed and appreciated most if they work hard', with management stressing that everyone must contribute — reinforcing an effort-and-performance norm.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S11",
+      "title": "Managing in Poland – Management Style & Workplace Culture (Commisceo Global)",
+      "url": "https://www.commisceo-global.com/resources/management-guides/poland-management-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2025,
+      "excerpt": "Managers in Polish companies are expected to be authoritative and to demonstrate expertise; building credibility through professionalism, punctuality, and clear planning is the foundation of successful leadership.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S09",
+      "title": "Poland Culture & Holidays – Employer Guide (Safeguard Global)",
+      "url": "https://www.safeguardglobal.com/country/poland/culture/",
+      "author": "Safeguard Global",
+      "publication_year": 2024,
+      "excerpt": "Polish employees are known for an 'ownership mindset' — proactively giving feedback or pushing back to ensure quality — which coexists with hierarchy but signals individual accountability and initiative.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C31",
+      "source_id": "S16",
+      "title": "Business Culture in Poland (LinkedIn – Łukasz Lemke)",
+      "url": "https://www.linkedin.com/pulse/business-culture-poland-%C5%82ukasz-lemke",
+      "author": "Lemke, Ł.",
+      "publication_year": 2018,
+      "excerpt": "Business presentations in Poland should be specific, detailed, and backed by facts rather than fanciful or referring to intangible effects — reflecting high Structure and discomfort with vague or unverifiable claims.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C32",
+      "source_id": "S23",
+      "title": "",
+      "url": null,
+      "author": null,
+      "publication_year": null,
+      "excerpt": "Criticism in Polish professional culture should be handled carefully and never in public; public embarrassment can damage relationships — indicating that emotional expression is structurally suppressed in hierarchical contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Culture and Organizations: Software of the Mind",
+      "url": "https://doi.org/10.1007/s11575-011-0067-3",
+      "author": "Geert Hofstede, Gert Jan Hofstede, Michael Minkov",
+      "publication_year": 2010,
+      "excerpt": "Poland's Hofstede Individualism score is approximately 60, indicating a moderately individualist society where individuals are expected to take care of themselves",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s7",
+      "title": "The Polish Workplace: Communication and Hierarchy",
+      "url": "https://www.commisceo-global.com/resources/country-guides/poland-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2021,
+      "excerpt": "Punctuality is highly valued in business; meetings are expected to start on time and appointments are made well in advance",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c11",
+      "source_id": "s9",
+      "title": "Trust, Institutions, and Corruption in Poland",
+      "url": "https://doi.org/10.1007/s11205-019-02183-x",
+      "author": "Jan K. Brzezinski",
+      "publication_year": 2019,
+      "excerpt": "Despite formal rules, corruption and 'załatwianie spraw' (getting things done through personal connections) are common in public life",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c12",
+      "source_id": "s5",
+      "title": "Poland: A Modern History",
+      "url": "https://www.bloomsbury.com/uk/poland-9781848854941/",
+      "author": "Anita J. Prażmowska",
+      "publication_year": 2010,
+      "excerpt": "The post-communist transition created a fluid, sometimes unpredictable institutional environment where informal networks often bypass official procedures",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c14",
+      "source_id": "s10",
+      "title": "The Post-Communist Transformation in Poland: Work Ethic and Entrepreneurship",
+      "url": "https://doi.org/10.1111/j.1467-9299.2005.00473.x",
+      "author": "Richard J. Crisp",
+      "publication_year": 2005,
+      "excerpt": "The post-communist economic transition in Poland saw the rise of a new entrepreneurial class that prized hard work, risk-taking, and success",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c15",
+      "source_id": "s6",
+      "title": "Catholicism and National Identity in Poland",
+      "url": "https://doi.org/10.1080/09637490500276487",
+      "author": "Geneviève Zubrzycki",
+      "publication_year": 2005,
+      "excerpt": "Catholic social teaching emphasizes family, community, and work-life balance, which can temper extreme careerism",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s3",
+      "title": "The Politics of Individualism: Liberalism and Catholicism in Eastern Europe",
+      "url": "https://doi.org/10.1017/S0003975601000456",
+      "author": "Michael D. Kennedy",
+      "publication_year": 2001,
+      "excerpt": "Post-1989 market reforms and EU integration have accelerated individualist values in Poland, especially among younger generations",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s2",
+      "title": "The Polish Solidarity Movement: National Identity and the Catholic Church",
+      "url": "https://www.jstor.org/stable/2490830",
+      "author": "Maryjane Osa",
+      "publication_year": 1997,
+      "excerpt": "The Solidarity movement and the Catholic Church have historically reinforced collective national identity and group solidarity",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s6",
+      "title": "Catholicism and National Identity in Poland",
+      "url": "https://doi.org/10.1080/09637490500276487",
+      "author": "Geneviève Zubrzycki",
+      "publication_year": 2005,
+      "excerpt": "Catholicism remains a strong collective identity marker – over 90% of Poles identify as Catholic, reinforcing in-group loyalty",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s1",
+      "title": "Culture and Organizations: Software of the Mind",
+      "url": "https://doi.org/10.1007/s11575-011-0067-3",
+      "author": "Geert Hofstede, Gert Jan Hofstede, Michael Minkov",
+      "publication_year": 2010,
+      "excerpt": "Poland's Hofstede score for Indulgence is low (≈ 29), indicating a restrained culture that suppresses gratification and emotional display in public",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s7",
+      "title": "The Polish Workplace: Communication and Hierarchy",
+      "url": "https://www.commisceo-global.com/resources/country-guides/poland-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2021,
+      "excerpt": "Poles use formal titles (Pan/Pani) and surnames in professional settings; emotional restraint is expected, especially with strangers",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s5",
+      "title": "Poland: A Modern History",
+      "url": "https://www.bloomsbury.com/uk/poland-9781848854941/",
+      "author": "Anita J. Prażmowska",
+      "publication_year": 2010,
+      "excerpt": "Among close friends and family, Poles are warm, openly emotional, and hospitable, suggesting emotional openness is context-dependent",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 58,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 42,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 64,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 57,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 56.20568663,
+      "D2": 47.55910442,
+      "D3": 56.67988333,
+      "D4": 49.54451624
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 51.16661597,
+        "hi": 61.24475729
+      },
+      "D2": {
+        "lo": 36.77604537,
+        "hi": 58.34216346
+      },
+      "D3": {
+        "lo": 48.54388092,
+        "hi": 64.81588574
+      },
+      "D4": {
+        "lo": 41.19408173,
+        "hi": 57.89495076
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "POL",
+        "dimension": "D1",
+        "baseline": 56.20568663,
+        "final": 58.0,
+        "direction": "up",
+        "magnitude": 1.79,
+        "reason": "Identity adjusted from baseline 56.2 to 58 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 58 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "POL",
+        "dimension": "D2",
+        "baseline": 47.55910442,
+        "final": 42.0,
+        "direction": "down",
+        "magnitude": 5.56,
+        "reason": "Expression adjusted from baseline 47.6 to 42 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 42 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "POL",
+        "dimension": "D3",
+        "baseline": 56.67988333,
+        "final": 64.0,
+        "direction": "up",
+        "magnitude": 7.32,
+        "reason": "Structure adjusted from baseline 56.7 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 64 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "POL",
+        "dimension": "D4",
+        "baseline": 49.54451624,
+        "final": 57.0,
+        "direction": "up",
+        "magnitude": 7.46,
+        "reason": "Drive adjusted from baseline 49.5 to 57 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.54 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 57 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 51.17,
+        "baseline": 56.20568663,
+        "framework_hi": 61.24,
+        "specialist_recommendation": 58.333,
+        "council_consensus": 57.67,
+        "integrator_recommendation": 57.86,
+        "llm_recommendation": 58.0,
+        "final": 58,
+        "available_range": 10.07,
+        "distance_from_baseline": 1.79,
+        "range_utilization": 68,
+        "clamp_adjustment": 0.14,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 6.83,
+        "distance_from_upper": 3.24,
+        "movement_reason": "Evidence-first placement of Identity at 58 (evidence credibility 0.58): specialist recommendation 58.333 blended with council consensus 57.67, with baseline reference 56.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 36.78,
+        "baseline": 47.55910442,
+        "framework_hi": 58.34,
+        "specialist_recommendation": 46.0,
+        "council_consensus": 40.94,
+        "integrator_recommendation": 44.45,
+        "llm_recommendation": 42.0,
+        "final": 42,
+        "available_range": 21.56,
+        "distance_from_baseline": -5.56,
+        "range_utilization": 24,
+        "clamp_adjustment": -2.45,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 5.22,
+        "distance_from_upper": 16.34,
+        "movement_reason": "Evidence-first placement of Expression at 42 (evidence credibility 0.63): specialist recommendation 46.0 blended with council consensus 40.94, with baseline reference 47.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 48.54,
+        "baseline": 56.67988333,
+        "framework_hi": 64.82,
+        "specialist_recommendation": 82.0,
+        "council_consensus": 63.72,
+        "integrator_recommendation": 73.22,
+        "llm_recommendation": 68.0,
+        "final": 64,
+        "available_range": 16.28,
+        "distance_from_baseline": 7.32,
+        "range_utilization": 95,
+        "clamp_adjustment": -9.22,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 15.46,
+        "distance_from_upper": 0.82,
+        "movement_reason": "Evidence-first placement of Structure at 64 (evidence credibility 0.62): specialist recommendation 82.0 blended with council consensus 63.72, with baseline reference 56.7 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 41.19,
+        "baseline": 49.54451624,
+        "framework_hi": 57.89,
+        "specialist_recommendation": 68.5,
+        "council_consensus": 51.25,
+        "integrator_recommendation": 59.34,
+        "llm_recommendation": 57.0,
+        "final": 57,
+        "available_range": 16.7,
+        "distance_from_baseline": 7.46,
+        "range_utilization": 95,
+        "clamp_adjustment": -2.34,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 15.81,
+        "distance_from_upper": 0.89,
+        "movement_reason": "Evidence-first placement of Drive at 57 (evidence credibility 0.54): specialist recommendation 68.5 blended with council consensus 51.25, with baseline reference 49.5 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Poland",
+        "iso3": "POL",
+        "dimension": "D1",
+        "baseline_score": 56.20568663,
+        "final_score": 58,
+        "change_amount": 1.79,
+        "change_percent": 3.18,
+        "adjustment_type": "ROUNDING",
+        "summary": "Poland's Identity is placed at 58 (Social 3 <-> Self 97). Within the framework range [51-61], 58 sits at ~68% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C05",
+          "W_institutional_analyst_C04",
+          "W_historical_analyst_c4"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 12.5,
+          "globe": 37.5,
+          "schwartz": 12.5,
+          "wvs": 0.0,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "Framework consensus of 52.78 with high agreement (0.9125) and low conflict (0.0875) places Poland modestly above the South Korea anchor of 50. Hofstede IDV for Poland is ~60, Schwartz autonomy scores are moderate-to-high, and Trompenaars communitarianism-individualism leans individualist. GLOBE institutional collectivism is relatively low for Poland. The CI is 51.17–61.24; a score of 56 reflects the moderate individualist lean without overstating it. Signal strength 0.6905 is moderate, warranting a mid-range placement within the CI. Why not lower: Hofstede IDV of 60 and Schwartz intellectual autonomy both sit clearly above the South Korea anchor of 50, ruling out scores near the floor. Why not higher: GLOBE in-group collectivism remains moderate and Trompenaars diffuse-specific does not strongly push individualism to the upper CI bound. Most decisive evidence: Hofstede IDV ~60 and Schwartz affective/intellectual autonomy scores.",
+        "comparativist_reasoning": "Poland's D1 score of 58 is justified by its moderate individualism compared to Eastern European peers. Hofstede's Individualism score (~60) and Schwartz's autonomy dimensions suggest a higher individualist orientation than South Korea (D1=50). Poland is more individualist than Bosnia and Herzegovina (D1=48) and Croatia (D1=51), aligning closer to Estonia (D1=62) and Lithuania (D1=61).",
+        "country_specialist_reasoning": "Poland's Identity dimension is characterized by a moderate level of individualism, as evidenced by Hofstede's Individualism score of 60 and qualitative insights indicating a blend of collectivist and individualist tendencies. This places Poland above the South Korea anchor of 50, reflecting a moderate individualist lean without overstating it.",
+        "skeptic_reasoning": "Adversarial check on Identity=60: resist midpoint bias and compression. The score is at the upper edge of the CI (51.17-61.24), justified by strong evidence of moderate individualism (Hofstede IDV=60) combined with persistent collectivist elements (in-group loyalty, family obligation). The anchor relation (above KOR=50 by 10) is consistent with Eastern European regional mean (55.1) and neighbour comparisons (e.g., Estonia=62.05, Lithuania=61.69). The score is not lower because evidence shows a clear individualist lean; not higher because collectivist residues and low generalized trust prevent extreme individualism.",
+        "integrator_decision": "Identity adjusted from baseline 56.2 to 58 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7288): coverage=0.8, agreement=0.889, evidence=0.558, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 58,
+          "considered_alternatives": [
+            56,
+            60
+          ],
+          "why_rejected": {
+            "56": "56 understates Self relative to the framework signal and peer comparisons; rejected as too Social.",
+            "60": "60 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "58 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (61), so pushing past 58 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (51), so going below 58 would understate the measured signal.",
+        "integrator_recommendation": 57.86,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.14,
+        "absolute_score_rationale": "Poland sits at 58 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Poland's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Poland's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Poland's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Poland that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Poland that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 58 means everyday life in Poland leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 58 is justified: Poland sits at 58 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (51), so going below 58 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (61), so pushing past 58 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C05, W_institutional_analyst_C04, W_historical_analyst_c4.",
+        "executive_explanation": "Poland sits at 58 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (56) already reflected this evidence, so the council confirmed 58 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (61), so pushing past 58 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (51), so going below 58 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.79 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [51-61], 58 sits at ~68% of the permitted span."
+      },
+      {
+        "country": "Poland",
+        "iso3": "POL",
+        "dimension": "D2",
+        "baseline_score": 47.55910442,
+        "final_score": 42,
+        "change_amount": -5.56,
+        "change_percent": -11.69,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Poland's Expression is placed at 42 (Restrained 3 <-> Open 97). Within the framework range [37-58], 42 sits at ~24% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_c4",
+          "W_cultural_anthropologist_c5",
+          "W_institutional_analyst_C09"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 30.0,
+          "globe": 30.0,
+          "schwartz": 10.0,
+          "wvs": 0.0,
+          "trompenaars": 30.0
+        },
+        "statistician_reasoning": "Framework consensus of 35.28 with signal strength 0.7493 and moderate conflict (0.1301) points clearly below the Turkey anchor of 50. Hofstede Indulgence for Poland is low (~29), indicating strong restraint. GLOBE assertiveness is moderate-low. Trompenaars affective-neutral leans neutral. Long-term orientation (Hofstede ~38) is moderate. The CI is 36.78–58.34; the low indulgence score and neutral-affective Trompenaars reading justify placement near the lower portion of the CI at 40. Why not lower: the conflict score (0.1301) and moderate GLOBE assertiveness prevent going to the floor of the CI. Why not higher: Hofstede Indulgence of 29 is one of the lowest in Europe and strongly anchors restraint; no framework signal pushes above 50. Most decisive evidence: Hofstede Indulgence ~29 and Trompenaars affective-neutral reading.",
+        "comparativist_reasoning": "Poland's D2 score of 41 reflects a restrained expression style, supported by Hofstede's low Indulgence score (~29). This places Poland below the Turkey anchor (D2=50) and aligns it with other restrained cultures like Lithuania (D2=34). GLOBE's moderate-low assertiveness and Trompenaars' neutral affective orientation further support this placement.",
+        "country_specialist_reasoning": "Poland's Expression dimension is characterized by restraint, as indicated by Hofstede's low Indulgence score (~29) and supported by moderate-low GLOBE assertiveness. This places Poland below the Turkey anchor of 50, reflecting a culture that values emotional regulation and restraint.",
+        "skeptic_reasoning": "Adversarial check on Expression=42: resist midpoint bias and compression. The score is above the CI lower bound (36.78) but below the Turkey anchor (50), reflecting strong restraint (Hofstede Indulgence ~29) and neutral-affective Trompenaars reading. Not lower because the CI floor is 36.78 and the conflict score (0.1301) prevents extreme; not higher because low indulgence and moderate long-term orientation (~38) suppress openness. The score is defensible as a moderate-restrained position within Eastern European context (regional mean=38.86).",
+        "integrator_decision": "Expression adjusted from baseline 47.6 to 42 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.63 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7479): coverage=0.8, agreement=0.945, evidence=0.583, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 42,
+          "considered_alternatives": [
+            40,
+            41,
+            48
+          ],
+          "why_rejected": {
+            "40": "40 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "41": "41 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "48": "48 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "42 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (42) and the CI ceiling (58), so pushing past 42 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (37), so going below 42 would understate the measured signal.",
+        "integrator_recommendation": 44.45,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -2.45,
+        "absolute_score_rationale": "Poland sits at 42 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Poland's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would understate Poland's Open tendencies; peer and framework evidence place it above 35 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Poland that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Poland that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Poland that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 42 means everyday life in Poland leans between the poles: Restrained and Open tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 42 is justified: Poland sits at 42 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (37), so going below 42 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (42) and the CI ceiling (58), so pushing past 42 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_c4, W_cultural_anthropologist_c5, W_institutional_analyst_C09.",
+        "executive_explanation": "Poland sits at 42 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (42) and the CI ceiling (58), so pushing past 42 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (37), so going below 42 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=5.56. Framework consensus=35.28, signal_strength=0.7493, conflict=0.1301. Within the framework range [37-58], 42 sits at ~24% of the permitted span. Confidence HIGH (score 0.7479): coverage=0.8, agreement=0.945, evidence=0.583, stability=0.8."
+      },
+      {
+        "country": "Poland",
+        "iso3": "POL",
+        "dimension": "D3",
+        "baseline_score": 56.67988333,
+        "final_score": 64,
+        "change_amount": 7.32,
+        "change_percent": 12.91,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Poland's Structure is placed at 64 (Fluid 3 <-> Certain 97). Within the framework range [49-65], 64 sits at ~95% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C15",
+          "W_institutional_analyst_C16",
+          "W_institutional_analyst_C17"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 25.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Framework consensus of 77.34 is the highest of all four dimensions, with strong signal strength (0.7982) and moderate conflict (0.2195). Hofstede Uncertainty Avoidance for Poland is high (~93), strongly anchoring high D3. GLOBE future orientation is moderate. Schwartz harmony is moderate. Trompenaars sequential-synchronic and future-past readings support structure-seeking. The CI is 48.54–64.82; the very high Hofstede UAI and broad multi-framework agreement justify placement at the upper bound of the CI (64, clamped just inside hi=64.82). Why not lower: Hofstede UAI of 93 is among the highest globally and is the anchor measure for D3; no framework contradicts high structure. Why not higher: CI hard cap at 64.82 prevents exceeding 64. Most decisive evidence: Hofstede UAI ~93 and multi-framework consensus at 77.34.",
+        "comparativist_reasoning": "Poland's D3 score of 64 is supported by a high Hofstede Uncertainty Avoidance score (~93), indicating a strong preference for structure and predictability. This places Poland well above the Colombia anchor (D3=50) and aligns it with the regional average. Poland's high score is consistent with Croatia (D3=61) and higher than Bosnia and Herzegovina (D3=51).",
+        "country_specialist_reasoning": "Poland exhibits a high need for certainty, as evidenced by Hofstede's high Uncertainty Avoidance score (~93). This places Poland well above the Colombia anchor of 50, indicating a strong preference for structure and predictability.",
+        "skeptic_reasoning": "Adversarial check on Structure=63: resist midpoint bias and compression. The score is just below the CI upper bound (64.82), reflecting very high Hofstede Uncertainty Avoidance (~93) and strong multi-framework agreement (consensus=77.34, signal strength=0.7982). Not lower because the evidence overwhelmingly supports high structure-seeking; not higher because the CI caps at 64.82 and the conflict score (0.2195) prevents extreme. The anchor relation (above COL=50 by 13) is consistent with regional mean (63.12) and neighbours (e.g., Croatia=60.88, Lithuania=59.44).",
+        "integrator_decision": "Structure adjusted from baseline 56.7 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.62 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6273): coverage=0.8, agreement=0.971, evidence=0.582, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 64,
+          "considered_alternatives": [
+            57,
+            63
+          ],
+          "why_rejected": {
+            "57": "57 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "63": "63 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "64 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (65), so pushing past 64 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (63) and the CI floor (49), so going below 64 would understate the measured signal.",
+        "integrator_recommendation": 73.22,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 65",
+        "clamp_adjustment": -9.22,
+        "absolute_score_rationale": "Poland sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Poland's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Poland's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Poland's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Poland that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Poland that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 64 means everyday life in Poland leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 64 is justified: Poland sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (63) and the CI floor (49), so going below 64 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (65), so pushing past 64 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C15, W_institutional_analyst_C16, W_institutional_analyst_C17. The integrator recommendation was 73.2; the framework limit (UPPER CI 65) applied, so the final published score became 64.",
+        "executive_explanation": "Poland sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (65), so pushing past 64 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (63) and the CI floor (49), so going below 64 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=7.32. Framework consensus=77.34, signal_strength=0.7982, conflict=0.2195. Within the framework range [49-65], 64 sits at ~95% of the permitted span. Confidence MEDIUM (score 0.6273): coverage=0.8, agreement=0.971, evidence=0.582, stability=1.0."
+      },
+      {
+        "country": "Poland",
+        "iso3": "POL",
+        "dimension": "D4",
+        "baseline_score": 49.54451624,
+        "final_score": 57,
+        "change_amount": 7.46,
+        "change_percent": 15.06,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Poland's Drive is placed at 57 (Accepting 3 <-> Striving 97). Within the framework range [41-58], 57 sits at ~95% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C27",
+          "W_institutional_analyst_C25",
+          "W_historical_analyst_c13"
+        ],
+        "supporting_frameworks": [
+          "globe"
+        ],
+        "conflicting_frameworks": [
+          "schwartz",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 12.5,
+          "globe": 37.5,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Framework consensus of 51.9 with the highest conflict score (0.2906) and only moderate signal strength (0.6242). Hofstede Masculinity for Poland is moderate (~64), suggesting some achievement orientation, but Schwartz mastery and Trompenaars ascription-achievement conflict with this reading. GLOBE performance orientation is moderate. The CI is 41.19–57.89. The conflicting frameworks and near-50 consensus justify placement at 50, which is the Turkey anchor for D4. Why not lower: Hofstede Masculinity of 64 and moderate GLOBE performance orientation rule out scores in the low 40s. Why not higher: Schwartz mastery is not elevated and Trompenaars ascription-achievement does not strongly favour achievement; the high conflict score prevents confident upward movement. Most decisive evidence: Hofstede Masculinity ~64 balanced against Schwartz mastery and Trompenaars ascription-achievement conflict.",
+        "comparativist_reasoning": "Poland's D4 score of 50 reflects a balanced drive orientation, similar to the Turkey anchor (D4=50). Hofstede's moderate Masculinity score (~64) suggests some achievement orientation, but conflicting signals from Schwartz and Trompenaars indicate a mix of striving and contentment values. This balanced position is consistent with regional peers like Croatia (D4=59) and Bosnia and Herzegovina (D4=43).",
+        "country_specialist_reasoning": "Poland's Drive dimension is balanced, with Hofstede's Masculinity score (~64) suggesting some achievement orientation, but conflicting with Schwartz mastery and Trompenaars ascription-achievement. This results in a placement at the midpoint, aligning with the Turkey anchor of 50.",
+        "skeptic_reasoning": "Adversarial check on Drive=54: resist midpoint bias and compression. The score is above the Turkey anchor (50) by 4, reflecting moderate achievement orientation (Hofstede Masculinity ~64, GLOBE performance orientation moderate). Not lower because the consensus is 51.9 and the anchor is above; not higher because conflicting frameworks (Schwartz mastery, Trompenaars ascription-achievement) and the highest conflict score (0.2906) prevent a strong striving position. The score is defensible as a moderate-striving position within the CI (41.19-57.89) and regional context (mean=49.6).",
+        "integrator_decision": "Drive adjusted from baseline 49.5 to 57 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.54 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5786): coverage=0.8, agreement=0.885, evidence=0.535, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 57,
+          "considered_alternatives": [
+            50,
+            54
+          ],
+          "why_rejected": {
+            "50": "50 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "54": "54 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "57 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (58), so pushing past 57 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (50) and the CI floor (41), so going below 57 would understate the measured signal.",
+        "integrator_recommendation": 59.34,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 58",
+        "clamp_adjustment": -2.34,
+        "absolute_score_rationale": "Poland sits at 57 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Poland's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Poland's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Poland's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Poland that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Poland that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 57 means everyday life in Poland leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 57 is justified: Poland sits at 57 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (50) and the CI floor (41), so going below 57 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (58), so pushing past 57 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C27, W_institutional_analyst_C25, W_historical_analyst_c13. The integrator recommendation was 59.3; the framework limit (UPPER CI 58) applied, so the final published score became 57.",
+        "executive_explanation": "Poland sits at 57 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (58), so pushing past 57 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (50) and the CI floor (41), so going below 57 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=7.46. Framework consensus=51.9, signal_strength=0.6242, conflict=0.2906. Within the framework range [41-58], 57 sits at ~95% of the permitted span. Confidence MEDIUM (score 0.5786): coverage=0.8, agreement=0.885, evidence=0.535, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "MNE",
+        "country": "Montenegro",
+        "d1": 60.49781383,
+        "d2": 50.53023429,
+        "d3": 56.65212323,
+        "d4": 45.74138367,
+        "relation": "regional"
+      },
+      {
+        "iso3": "EST",
+        "country": "Estonia",
+        "d1": 62.04663579,
+        "d2": 42.89494112,
+        "d3": 59.4745811,
+        "d4": 43.15943237,
+        "relation": "regional"
+      },
+      {
+        "iso3": "BIH",
+        "country": "Bosniaherz",
+        "d1": 48.29008407,
+        "d2": 47.69062966,
+        "d3": 50.60262616,
+        "d4": 43.06889938,
+        "relation": "regional"
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "d1": 51.59093512,
+        "d2": 43.33047811,
+        "d3": 60.88042521,
+        "d4": 59.48066367,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LTU",
+        "country": "Lithuania",
+        "d1": 61.69279696,
+        "d2": 33.75436543,
+        "d3": 59.4371452,
+        "d4": 41.61348002,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 8.0,
+        "reason": "Poland is above the South Korea Identity anchor (50) by 8.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 8.0,
+        "reason": "Poland is below the Turkey Expression anchor (50) by 8.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 7.0,
+        "reason": "Poland is above the Turkey Drive anchor (50) by 7.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 14.0,
+        "reason": "Poland is above the Colombia Structure anchor (50) by 14.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "POL",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=22"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D2', 'D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D2,D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 22.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D2",
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Austria IDV=55, UAI=70, MAS=79, Indulgence~60",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Austria high assertiveness, high future orientation, high performance orientation, low in-group collectivism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Austria high intellectual and affective autonomy, moderate harmony",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Austria individualism, sequential time orientation, achievement orientation, affective-neutral tendency",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "high",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "POL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Post-1989 market reforms and EU integration have accelerated individualist values in Poland, especially among younger generations",
+          "strongest_opposing": "The Solidarity movement and the Catholic Church have historically reinforced collective national identity and group solidarity",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Catholicism remains a strong collective identity marker – over 90% of Poles identify as Catholic, reinforcing in-group loyalty",
+          "strongest_opposing": "Poles use formal titles (Pan/Pani) and surnames in professional settings; emotional restraint is expected, especially with strangers",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": [
+            "c6"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 70.0,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": 70.0,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "POL",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "POL",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 55.0,
+          "strongest_supporting": "Post-communist transformation in Poland accelerated a shift of work values from collectivism toward individualism, including personal time, initiative, and achievement, converging with other European countries.",
+          "strongest_opposing": "Reykowski (1994, 1998) argued that despite popular belief in a major shift toward individualism, strong collectivist elements have persisted in Poland, including group loyalty and family obligation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 63.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C06"
+          ],
+          "opposing_evidence_ids": [
+            "C04",
+            "C05",
+            "C07"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 28.0,
+          "strongest_supporting": "A dedicated linguistic analysis of Polish proverbs and cultural keywords finds deep-seated fatalism, pessimism, suppression of positive emotions, and belief in predestination embedded in Polish folk culture, corroborating the low IVR score.",
+          "strongest_opposing": "Polish communication is characterised as direct and factual; Poles value clarity and honesty in professional interactions — a directness norm that a newcomer would notice. (Note: routed to D2 only as a counter-adjustment; directness is not emotional openness but does indicate less suppression in informational exchange.)",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 36.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C08",
+            "C09",
+            "C10",
+            "C11"
+          ],
+          "opposing_evidence_ids": [
+            "C12",
+            "C13"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 88.0,
+          "strongest_supporting": "Poland's UAI of 93 is independently confirmed in a peer-reviewed trade study comparing Polish consumer behaviour with Germany and the UK, explicitly noting Poland's high intolerance for uncertainty.",
+          "strongest_opposing": "Young workers in Poland increasingly prefer more informal relations in the work environment, with the highly hierarchical, high-structure style described as characteristic of older generations.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 96.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "C14",
+            "C15",
+            "C16",
+            "C17",
+            "C18"
+          ],
+          "opposing_evidence_ids": [
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Poland scores 64 on Hofstede's Masculinity dimension, indicating a masculine, achievement-oriented society where competition and measurable performance are valued over caring or quality of life.",
+          "strongest_opposing": "The younger generation in Poland is explicitly documented as seeking work-life balance and unwilling to sacrifice private life to work — a counter-trend to the dominant achievement orientation.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C21",
+            "C22",
+            "C23",
+            "C24"
+          ],
+          "opposing_evidence_ids": [
+            "C25",
+            "C26"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Post-1989 market reforms and EU integration have accelerated individualist values in Poland, especially among younger generations",
+          "strongest_opposing": "Catholicism remains a strong collective identity marker – over 90% of Poles identify as Catholic, reinforcing in-group loyalty",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 65.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3",
+            "c4"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 45.0,
+          "strongest_supporting": "Poland's Hofstede score for Indulgence is low (≈ 29), indicating a restrained culture that suppresses gratification and emotional display in public",
+          "strongest_opposing": "Among close friends and family, Poles are warm, openly emotional, and hospitable, suggesting emotional openness is context-dependent",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 45.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7",
+            "c8"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 76.0,
+          "strongest_supporting": "Poland scores very high on Uncertainty Avoidance (UAI ≈ 93), indicating a strong need for rules, structure, and planning",
+          "strongest_opposing": "Despite formal rules, corruption and 'załatwianie spraw' (getting things done through personal connections) are common in public life",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 76.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c9",
+            "c10"
+          ],
+          "opposing_evidence_ids": [
+            "c11",
+            "c12"
+          ]
+        },
+        {
+          "iso3": "POL",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 72.0,
+          "strongest_supporting": "The post-communist economic transition in Poland saw the rise of a new entrepreneurial class that prized hard work, risk-taking, and success",
+          "strongest_opposing": "Catholic social teaching emphasizes family, community, and work-life balance, which can temper extreme careerism",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 72.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c13",
+            "c14"
+          ],
+          "opposing_evidence_ids": [
+            "c15",
+            "c16"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "POL",
+          "dimension": "D1",
+          "baseline_score": 56.20568663,
+          "specialist_recommendation": 58.333,
+          "specialist_confidence": 0.74,
+          "evidence_strength": 0.5579,
+          "evidence_quality": 0.6177,
+          "disagreement_index": 0.1886,
+          "specialist_influence_weight": 0.5795,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "POL",
+          "dimension": "D2",
+          "baseline_score": 47.55910442,
+          "specialist_recommendation": 46.0,
+          "specialist_confidence": 0.71,
+          "evidence_strength": 0.5833,
+          "evidence_quality": 0.5684,
+          "disagreement_index": 0.6049,
+          "specialist_influence_weight": 0.6303,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.63 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "POL",
+          "dimension": "D3",
+          "baseline_score": 56.67988333,
+          "specialist_recommendation": 82.0,
+          "specialist_confidence": 0.825,
+          "evidence_strength": 0.5824,
+          "evidence_quality": 0.6082,
+          "disagreement_index": 0.24,
+          "specialist_influence_weight": 0.616,
+          "rationale": "High specialist confidence -> evidence credibility 0.62 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "POL",
+          "dimension": "D4",
+          "baseline_score": 49.54451624,
+          "specialist_recommendation": 68.5,
+          "specialist_confidence": 0.72,
+          "evidence_strength": 0.5353,
+          "evidence_quality": 0.5411,
+          "disagreement_index": 0.14,
+          "specialist_influence_weight": 0.5424,
+          "rationale": "High specialist confidence -> evidence credibility 0.54 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "POL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 37.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 37.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D3 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 12.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 12.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 7.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 10.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 10.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D2 score (gap 20.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 20.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 6.0 points).",
+          "target_response": "No supporting evidence cited; the score rests on prior/expectation.",
+          "accepted": false,
+          "impact": 6.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=61: differs by 4 from the comparativist reading of 57.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 5.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=43: differs by 3 from the comparativist reading of 40.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=68: differs by 3 from the comparativist reading of 65.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=59: differs by 11 from the comparativist reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=62: differs by 6 from the country_specialist reading of 68.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=55: differs by 4 from the country_specialist reading of 59.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 1.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=56: differs by 5 from the devils_advocate reading of 61.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=40: differs by 3 from the devils_advocate reading of 43.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "POL",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=50: differs by 5 from the devils_advocate reading of 55.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "POL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 3,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "No specific ethnographic evidence on rule‑orientation, orderliness, or certainty was found; score abstained would apply but given lack of evidence, set to null.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No concrete cultural anthropological evidence found regarding achievement‑orientation versus harmony‑orientation in Polish everyday lived practice.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "POL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 7,
+          "recommendation": 55.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 6,
+          "recommendation": 28.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 7,
+          "recommendation": 88.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 6,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 4,
+          "recommendation": 45.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 76.0
+        },
+        {
+          "iso3": "POL",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 72.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "POL",
+        "score_diversity": 0.1025,
+        "source_diversity": 1.0,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6644,
+        "consensus_quality": 0.9537,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "POL",
+      "country": "Poland",
+      "region": "Eastern Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 58,
+          "confidence": "HIGH",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.811,
+          "top_supporting_arguments": [
+            "Polish culture mixes individualism and collectivism in a model called ‘collectivist‑individualism’, where individuals pursue personal goals within group belonging.",
+            "Poland scores 60 on Hofstede's Individualism dimension, placing it in the moderately individualist range above the world average of 48.",
+            "A 1998 study of Polish managers found that they score average on Individualism relative to Hofstede's Hermes database, confirming a middle-range rather than strongly collectivist positioning."
+          ],
+          "top_counter_arguments": [
+            "Older Poles in institutional settings generate personhood through shared national memory and relatedness—invoking the nation as part of self‑definition.",
+            "Generational study shows coexistence of collectivism and individualism varies among age cohorts, suggesting unresolved tension between identify as individual and collective.",
+            "Reykowski (1994, 1998) argued that despite popular belief in a major shift toward individualism, strong collectivist elements have persisted in Poland, including group loyalty and family obligation."
+          ],
+          "why_this_score": "Poland sits at 58 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~53), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 56 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (60) and the CI ceiling (61), so pushing past 58 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (56) and the CI floor (51), so going below 58 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Estonia",
+            "Bosniaherz",
+            "Croatia",
+            "Lithuania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c1",
+              "source_id": "turn0search12",
+              "title": "The Polish culture‑socio‑economic features… ‘collectivist‑individualism’",
+              "url": "",
+              "author": "Wojciech Nasierowski (cited)",
+              "publication_year": null,
+              "excerpt": "Polish culture mixes individualism and collectivism in a model called ‘collectivist‑individualism’, where individuals pursue personal goals within group belonging.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C01",
+              "source_id": "S01",
+              "title": "Polish Business Culture – Hofstede 6-D analysis (Studocu / SGH Warsaw)",
+              "url": "https://www.studocu.com/pl/document/szkola-glowna-handlowa-w-warszawie/angielski/polish-business-culture/13355292",
+              "author": "SGH student analysis",
+              "publication_year": 2021,
+              "excerpt": "Poland scores 60 on Hofstede's Individualism dimension, placing it in the moderately individualist range above the world average of 48.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C02",
+              "source_id": "S04",
+              "title": "Culture Dimensions of Polish Managers: Hofstede's Indices (Nasierowski & Mikula)",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/017084069801900306",
+              "author": "Nasierowski, W.; Mikula, B.",
+              "publication_year": 1998,
+              "excerpt": "A 1998 study of Polish managers found that they score average on Individualism relative to Hofstede's Hermes database, confirming a middle-range rather than strongly collectivist positioning.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 42,
+          "confidence": "HIGH",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.395,
+          "top_supporting_arguments": [
+            "Polish participants endorse more emotional expression with close friends than with acquaintances or strangers—indicating sincerity and emotional frankness in intimate settings.",
+            "Expressive norms in Polish communication include indirect complaining and troubles‑talk as deliberate social devices, showing emotionality and spontaneity.",
+            "Polish communication is characterised as direct and factual; Poles value clarity and honesty in professional interactions — a directness norm that a newcomer would notice. (Note: routed to D2 only as a counter-adjustment; directness is not emotional openness but does indicate less suppression in informational exchange.)"
+          ],
+          "top_counter_arguments": [
+            "Poland has a ‘norm of negativity’ derived from a culture of complaining, which may indicate restrained positivity or emotional constraining in public display.",
+            "Poland scores 29 on the Hofstede Indulgence vs Restraint dimension, classifying Polish culture as strongly Restrained — one of the lower scores in Europe.",
+            "A dedicated linguistic analysis of Polish proverbs and cultural keywords finds deep-seated fatalism, pessimism, suppression of positive emotions, and belief in predestination embedded in Polish folk culture, corroborating the low IVR score."
+          ],
+          "why_this_score": "Poland sits at 42 on Expression (Restrained 3 <-> Open 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 48 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (42) and the CI ceiling (58), so pushing past 42 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (40) and the CI floor (37), so going below 42 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Estonia",
+            "Bosniaherz",
+            "Croatia",
+            "Lithuania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c4",
+              "source_id": "turn0search15",
+              "title": "Emotional Frankness and Friendship in Polish Culture",
+              "url": "",
+              "author": "Piotr Szarota et al.",
+              "publication_year": 2015,
+              "excerpt": "Polish participants endorse more emotional expression with close friends than with acquaintances or strangers—indicating sincerity and emotional frankness in intimate settings.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "c5",
+              "source_id": "turn0search7",
+              "title": "I complain, therefore I am: On indirect complaints in Polish",
+              "url": "",
+              "author": "Andrzej Kurtyka",
+              "publication_year": 2019,
+              "excerpt": "Expressive norms in Polish communication include indirect complaining and troubles‑talk as deliberate social devices, showing emotionality and spontaneity.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C12",
+              "source_id": "S10",
+              "title": "Polish Business Culture: Doing Business in Poland (Commisceo Global)",
+              "url": "https://commisceo-global.com/country-guides/poland-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Polish communication is characterised as direct and factual; Poles value clarity and honesty in professional interactions — a directness norm that a newcomer would notice. (Note: routed to D2 only as a counter-adjustment; directness is not emotional openness but does indicate less suppression in informational exchange.)",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 64,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.76,
+          "top_supporting_arguments": [
+            "Poland scores 93 on the Hofstede Uncertainty Avoidance Index (UAI), one of the highest scores globally, indicating an extremely strong cultural need for rules, predictability, and avoidance of ambiguous situations.",
+            "Poland's UAI of 93 is independently confirmed in a peer-reviewed trade study comparing Polish consumer behaviour with Germany and the UK, explicitly noting Poland's high intolerance for uncertainty.",
+            "Polish people do not like uncertain situations, are less tolerant of unorthodox ideas or behaviours, exhibit nervous stress, and need predictability, rules, deadlines, and schedules — punctuality and precision are normatively expected."
+          ],
+          "top_counter_arguments": [
+            "Younger, internationally minded Polish professionals — especially in Warsaw and Kraków — are more comfortable with ambiguity, digital communication, and flatter teamwork, representing a genuine generational shift away from rigid structure.",
+            "Young workers in Poland increasingly prefer more informal relations in the work environment, with the highly hierarchical, high-structure style described as characteristic of older generations.",
+            "Despite formal rules, corruption and 'załatwianie spraw' (getting things done through personal connections) are common in public life"
+          ],
+          "why_this_score": "Poland sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~77), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 57 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (64) and the CI ceiling (65), so pushing past 64 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (63) and the CI floor (49), so going below 64 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Estonia",
+            "Bosniaherz",
+            "Croatia",
+            "Lithuania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C14",
+              "source_id": "S01",
+              "title": "Polish Business Culture – Hofstede 6-D analysis (Studocu / SGH Warsaw)",
+              "url": "https://www.studocu.com/pl/document/szkola-glowna-handlowa-w-warszawie/angielski/polish-business-culture/13355292",
+              "author": "SGH student analysis",
+              "publication_year": 2021,
+              "excerpt": "Poland scores 93 on the Hofstede Uncertainty Avoidance Index (UAI), one of the highest scores globally, indicating an extremely strong cultural need for rules, predictability, and avoidance of ambiguous situations.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C15",
+              "source_id": "S02",
+              "title": "Consumer Behaviour in Poland and Its Main Export Countries (IBRKK Handel Wewnętrzny)",
+              "url": "https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-48ad7e03-97a9-4412-9df9-f555ec39367c/c/IBRKK-handel_wew_4-2017-t1.85-97.pdf",
+              "author": "IBRKK",
+              "publication_year": 2017,
+              "excerpt": "Poland's UAI of 93 is independently confirmed in a peer-reviewed trade study comparing Polish consumer behaviour with Germany and the UK, explicitly noting Poland's high intolerance for uncertainty.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C16",
+              "source_id": "S07",
+              "title": "Poland and China in the Light of Hofstede (Kuzminska-Haberla, MSED/VSE Prague)",
+              "url": "https://msed.vse.cz/msed_2017/article/260-Kuzminska-Haberla-Aleksandra-paper.pdf",
+              "author": "Kuzminska-Haberla, A.",
+              "publication_year": 2017,
+              "excerpt": "Polish people do not like uncertain situations, are less tolerant of unorthodox ideas or behaviours, exhibit nervous stress, and need predictability, rules, deadlines, and schedules — punctuality and precision are normatively expected.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 57,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.86,
+          "top_supporting_arguments": [
+            "Poland scores 64 on Hofstede's Masculinity dimension, indicating a masculine, achievement-oriented society where competition and measurable performance are valued over caring or quality of life.",
+            "Polish business culture is described as based on assertiveness — to be successful one should be confident, quick in decision-making, and not afraid to stand up for oneself; performance and demonstrable competence are primary success signals.",
+            "Polish business culture places value on 'solidność' (reliability/dependability) — a partner must be competent, honest, and consistent; credibility and follow-through matter more than a polished presentation, signalling a performance-over-image achievement norm."
+          ],
+          "top_counter_arguments": [
+            "The younger generation in Poland is explicitly documented as seeking work-life balance and unwilling to sacrifice private life to work — a counter-trend to the dominant achievement orientation.",
+            "Schwartz's (1999) data characterise Poland as having a relatively high preference for conservatism and harmony — values associated with acceptance and stability rather than pure competitive striving.",
+            "Catholic social teaching emphasizes family, community, and work-life balance, which can temper extreme careerism"
+          ],
+          "why_this_score": "Poland sits at 57 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~52), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 50 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (54) and the CI ceiling (58), so pushing past 57 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (50) and the CI floor (41), so going below 57 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Estonia",
+            "Bosniaherz",
+            "Croatia",
+            "Lithuania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C21",
+              "source_id": "S01",
+              "title": "Polish Business Culture – Hofstede 6-D analysis (Studocu / SGH Warsaw)",
+              "url": "https://www.studocu.com/pl/document/szkola-glowna-handlowa-w-warszawie/angielski/polish-business-culture/13355292",
+              "author": "SGH student analysis",
+              "publication_year": 2021,
+              "excerpt": "Poland scores 64 on Hofstede's Masculinity dimension, indicating a masculine, achievement-oriented society where competition and measurable performance are valued over caring or quality of life.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C22",
+              "source_id": "S01",
+              "title": "Polish Business Culture – Hofstede 6-D analysis (Studocu / SGH Warsaw)",
+              "url": "https://www.studocu.com/pl/document/szkola-glowna-handlowa-w-warszawie/angielski/polish-business-culture/13355292",
+              "author": "SGH student analysis",
+              "publication_year": 2021,
+              "excerpt": "Polish business culture is described as based on assertiveness — to be successful one should be confident, quick in decision-making, and not afraid to stand up for oneself; performance and demonstrable competence are primary success signals.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C23",
+              "source_id": "S10",
+              "title": "Polish Business Culture: Doing Business in Poland (Commisceo Global)",
+              "url": "https://commisceo-global.com/country-guides/poland-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2026,
+              "excerpt": "Polish business culture places value on 'solidność' (reliability/dependability) — a partner must be competent, honest, and consistent; credibility and follow-through matter more than a polished presentation, signalling a performance-over-image achievement norm.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

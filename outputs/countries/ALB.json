@@ -1,0 +1,2456 @@
+{
+  "iso3": "ALB",
+  "country": "Albania",
+  "region": "Eastern Europe",
+  "data_status": "PARTIAL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T20:55:55.942942+00:00",
+  "cultural_profile": {
+    "iso3": "ALB",
+    "country": "Albania",
+    "region": "Eastern Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 40,
+        "reading": "Group-oriented",
+        "explanation": "Albania is characterized by strong family loyalty and group identity, where the in-group's needs often take precedence over individual desires."
+      },
+      {
+        "dimension": "D2",
+        "score": 32,
+        "reading": "Understated",
+        "explanation": "Albanian culture is marked by expressive warmth and hospitality, with open social interactions and a strong emphasis on welcoming guests."
+      },
+      {
+        "dimension": "D3",
+        "score": 55,
+        "reading": "Balanced",
+        "explanation": "There is a strong psychological need for structure and predictability in Albanian society, often fulfilled through traditional codes like the Kanun."
+      },
+      {
+        "dimension": "D4",
+        "score": 64,
+        "reading": "Achievement-oriented",
+        "explanation": "Achievement and success are highly valued in Albania, with a competitive drive evident in both professional and social settings."
+      }
+    ],
+    "executive_summary": "In Albania, family and group loyalty are paramount, deeply influencing social and professional interactions. The culture is expressive and warm, with hospitality as a core value. While traditional values persist, younger generations are increasingly embracing individualism. The workplace is relationship-driven, with a focus on achievement and success.",
+    "cultural_archetype": {
+      "title": "The Communal Achiever",
+      "summary": "A society where group loyalty and personal achievement coexist, driving both social and professional life.",
+      "claim_ids": [
+        "C01",
+        "C04",
+        "C26",
+        "C27"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Relationship-driven business ventures",
+      "Cultural enthusiasts seeking rich traditions",
+      "Professionals valuing strong community ties"
+    ],
+    "culture_at_a_glance": [
+      "Albanian hospitality (mikpritja) is a moral obligation, deeply rooted in the Kanun, where hosts are expected to feed and protect guests, reflecting a culture of expressive generosity and warmth.",
+      "Success in Albania often hinges on leveraging strong family and personal networks, where relationships serve as a security mechanism in navigating bureaucracy and achieving business goals.",
+      "In Albania, loyalty to the family and in-group overrides many formal rules, with relationships at work seen in moral, almost family terms, highlighting the importance of group-based identity.",
+      "Albanian culture is achievement-oriented, with a strong work ethic and a focus on results, where employees are expected to take ownership of their work and contribute to team success.",
+      "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
+      "Albanian hospitality practices — spontaneously walking strangers to their destination, inviting visitors home for meals — reflect an emotionally uninhibited, outwardly warm expressive style."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Hospitality as a Social Contract",
+        "confidence": {
+          "evidence_strength": 51,
+          "expert_agreement": 64,
+          "framework_agreement": 58,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Moderate",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts mostly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is moderate and concentrated in friendship social sources rather than broader society."
+        },
+        "sources_count": 3,
+        "observations": [
+          {
+            "text": "Albanian hospitality (mikpritja) is a moral obligation, deeply rooted in the Kanun, where hosts are expected to feed and protect guests, reflecting a culture of expressive generosity and warmth.",
+            "claim_ids": [
+              "C11",
+              "C16"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Kanun of Lekë Dukagjini has historically structured Albanian society around honour and hospitality, ensuring that these values are deeply embedded in the culture.",
+            "claim_ids": [
+              "C08",
+              "C21"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "The Power of the In-Group",
+        "confidence": {
+          "evidence_strength": 44,
+          "expert_agreement": 0,
+          "framework_agreement": 62,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is broadly consistent, but the evidence is limited and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "In Albania, loyalty to the family and in-group overrides many formal rules, with relationships at work seen in moral, almost family terms, highlighting the importance of group-based identity.",
+            "claim_ids": [
+              "C02",
+              "C03"
+            ],
+            "sources_count": 1
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "Traditional Albanian clan society (Gheg) organized identity around the patrilineal fis, with extended households sharing a common male ancestor, placing group membership at the core of individual identity.",
+            "claim_ids": [
+              "C05"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Striving for Success",
+        "confidence": {
+          "evidence_strength": 44,
+          "expert_agreement": 28,
+          "framework_agreement": 74,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is limited and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "Albanian culture is achievement-oriented, with a strong work ethic and a focus on results, where employees are expected to take ownership of their work and contribute to team success.",
+            "claim_ids": [
+              "C28",
+              "C29"
+            ],
+            "sources_count": 1
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Culture Factor describes Albania as a high-MAS culture, driven by competition, achievement, and success, with behaviour in school, work, and play resting on the belief that 'the winner takes all.'",
+            "claim_ids": [
+              "C26"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The Kanun of Lekë Dukagjini has historically provided a comprehensive customary law governing social structures, ensuring that honour, hospitality, and group loyalty remain central to Albanian culture.",
+        "claim_ids": [
+          "C08",
+          "C21"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collectivist Traditions",
+        "but_also": "Emerging Individualism",
+        "explanation": "While traditional Albanian society is deeply collectivist, younger generations are increasingly embracing individualistic values, creating a dynamic cultural landscape.",
+        "claim_ids": [
+          "C01",
+          "C09"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
+          "claim_ids": [
+            "C4"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Albanian hospitality practices — spontaneously walking strangers to their destination, inviting visitors home for meals — reflect an emotionally uninhibited, outwardly warm expressive style.",
+          "claim_ids": [
+            "C14"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "In Albania, loyalty to the in-group overrides many formal rules; relationships at work are seen in moral, almost family terms; an offence leads to shame and loss of face.",
+          "claim_ids": [
+            "C02"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Albanian business culture centres on family loyalty and a relationship-first approach; family opinions matter in business decisions, and trust is earned through personal connection before contracts.",
+          "claim_ids": [
+            "C07"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Albanian communication is direct and emotionally engaged—disagreement is often voiced openly, especially in close settings; hierarchical suppression of expression is weak outside formal government.",
+          "claim_ids": [
+            "c6"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "In traditional Albanian society, friendship, alliance, and kinship are highly codified and intertwined—friendship is a functional extension of social structure rather than individual sentiment.",
+          "claim_ids": [
+            "C2"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Albanians tend to stand closer during conversations and physical contact such as hugs or kisses is common among friends, signalling open, physically expressive social norms.",
+          "claim_ids": [
+            "C13"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Contemporary deployments of the Kanun and blood feud in northern Albania reflect deeply codified social orders, honour systems, and predictable normative codes shaping social behaviour.",
+          "claim_ids": [
+            "C5"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Kanun rules prescribe strict emotional restraint in public disputes; blood feuds require cool-headed, ritualized execution of justice rather than open anger.",
+          "claim_ids": [
+            "c7"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Life in Albania is vibrant and community-centric, with direct communication and expressive social interactions. Hospitality is a cornerstone, making guests feel honored and welcomed. In the workplace, relationships and loyalty are prioritized, while a strong work ethic drives success. Newcomers will notice the balance between traditional values and a growing sense of individualism among the youth.",
+      "claim_ids": [
+        "C4",
+        "C02",
+        "C2",
+        "C09"
+      ],
+      "sources_count": 4
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
+        "claim_ids": [
+          "C4"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "In traditional Albanian society, friendship, alliance, and kinship are highly codified and intertwined—friendship is a functional extension of social structure rather than individual sentiment.",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Contemporary deployments of the Kanun and blood feud in northern Albania reflect deeply codified social orders, honour systems, and predictable normative codes shaping social behaviour.",
+        "claim_ids": [
+          "C5"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Albania often hinges on leveraging strong family and personal networks, where relationships serve as a security mechanism in navigating bureaucracy and achieving business goals.",
+        "claim_ids": [
+          "C23",
+          "C30"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "When dealing with permits, public procurement, or regulated sectors in Albania, foreigners should expect regulations that may change or be unclear — indicating that formal institutional structure is applied inconsistently.",
+        "claim_ids": [
+          "C25"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C2"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Non-verbal communication in Albania is contextually rich and holds significant meaning, including the culturally specific head-gesture inversion (nod = no; shake = yes).",
+        "meaning": "Gestures in Albania can be opposite to what you might expect, so pay attention to context.",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "C1",
+          "C6",
+          "C09",
+          "C10"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Younger, urban residents",
+        "group_b": "Older, rural communities",
+        "difference": "Younger urban residents in Albania are more likely to embrace individualistic values, while older rural communities adhere to traditional collectivist norms.",
+        "claim_ids": [
+          "C1",
+          "C6",
+          "C09",
+          "C10"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "BGR",
+        "country": "Bulgaria",
+        "similarity": 93,
+        "explanation": "Albania and Bulgaria share a strong emphasis on family and community ties, although Albania's Kanun-based traditions give it a distinctive cultural flavor.",
+        "claim_ids": [
+          "C01",
+          "C05"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "ROU",
+        "country": "Romania",
+        "similarity": 91,
+        "explanation": "Both Albania and Romania value group loyalty and have rich traditions, but Albania's unique historical reliance on the Kanun sets it apart.",
+        "claim_ids": [
+          "C01",
+          "C08"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "SVK",
+        "country": "Slovakia",
+        "similarity": 91,
+        "explanation": "While Slovakia and Albania both have collectivist tendencies, Albania's expressive hospitality and Kanun traditions create a distinct cultural experience.",
+        "claim_ids": [
+          "C01",
+          "C11"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "similarity": 91,
+        "explanation": "Albania and Croatia share a Mediterranean warmth and hospitality, yet Albania's Kanun and clan-based social structures offer a unique cultural identity.",
+        "claim_ids": [
+          "C01",
+          "C21"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Expressive Hospitality",
+        "explanation": "The deeply ingrained practice of mikpritja, or hospitality, makes Albania stand out with its open and warm social interactions.",
+        "claim_ids": [
+          "C11",
+          "C16"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More flexible than Slovakia",
+        "dimension": "D3",
+        "neighbour_iso3": "SVK",
+        "delta": -13
+      },
+      {
+        "text": "More community-oriented than Croatia",
+        "dimension": "D1",
+        "neighbour_iso3": "HRV",
+        "delta": -12
+      },
+      {
+        "text": "More achievement-oriented than Macedonia",
+        "dimension": "D4",
+        "neighbour_iso3": "MKD",
+        "delta": 12
+      },
+      {
+        "text": "More reserved than Macedonia",
+        "dimension": "D2",
+        "neighbour_iso3": "MKD",
+        "delta": -11
+      },
+      {
+        "text": "More reserved than Croatia",
+        "dimension": "D2",
+        "neighbour_iso3": "HRV",
+        "delta": -11
+      },
+      {
+        "text": "More structured than Macedonia",
+        "dimension": "D3",
+        "neighbour_iso3": "MKD",
+        "delta": 11
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Albanian identity remains strongly rooted in kinship, honour and family solidarity—values like besa, customary law (Kanun), and lineage (‘fisi’, ‘tree of blood’) define the self through group ties—suggesting collectivist orientation (low D1). Yet urban youth are reinterpreting these traditions more individualistically, nudging the dimension slightly upward.",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Albania's Hofstede Individualism score of 27 is the primary anchor, placing it firmly in the collectivist quadrant. The Culture Factor elaborates that identity is built around the extended family and historically the clan (fis), with loyalty overriding formal rules and in-group hiring being normative. The Kanun's besa (word-of-honour) system structurally enforces group-level obligation over individual autonomy. Gjana & Hysa (2020) found a further *negative* shift on individualism over time, deepening collectivism. Ethnographic scholarship (Academia.edu, Everyculture) confirms patrilineal kin groups as the primary unit of social organisation. Counter-evidence from diaspora research notes that younger Albanians exposed to Western media seek individualised identities, and urban Tirana shows some weakening of clan ties — but these are adjustments at the margin, not inversions of the baseline. Score 18 is consistent with IDV=27 and the direction of temporal shift.",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Albania's identity leans individualist (Hofstede IDV 27 suggests collectivism, but more recent evidence shows strong self-reliance, personal reputation, and nuclear-family autonomy shading into individualism). Customary law (Kanun) foregrounds personal honor and blood feuds—extreme individualism. In urban areas, younger generations prioritize personal goals over clan obligations. Counterweights: strong family loyalty and clan networks in rural areas. Overall, identity is moderately individualist with collectivist residues.",
+          "suggested_score": 73
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Albanians are described as direct in eye contact and warm, animated in conversation—social expression appears relatively free, indicating moderate to high openness (high D2). No clear evidence of hierarchical suppression was found.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Albania presents a moderately open expressive profile. Hospitality (mikpritja) is a moral obligation — expressively warm, physically demonstrative, and emotionally generous toward guests and in-group members. Workplace communication is described as frank and direct, with supervisors giving public constructive criticism. Albanians stand closer during conversations and initiate hugs/kisses among friends. The head-nod inversion (nod=no, shake=yes) underscores a culture where non-verbal expressiveness is contextually rich. Counter-balancing forces exist: hierarchy suppresses open dissent toward superiors, and face-saving norms reduce open criticism upward. The net picture is a culture that is expressively open in social and in-group contexts but moderately constrained in formal/hierarchical settings. Score of 65 reflects genuine warmth and expressive freedom that is structurally enabled in social domains, tempered by hierarchical suppression in formal ones.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is relatively open. Albanians are direct, emotionally demonstrative in family and close circles; disputes often involve strong emotion. Relaxed hierarchy allows open disagreement. But strangers/outsiders may encounter reserved first contact. The besa code demands a particular cordiality to guests, which can mask emotional openness. Overall high-Open (freedom from suppression), boosted by secularism and post-communist expressive release.",
+          "suggested_score": 78
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Strong, codified customary law (Kanun), structured kinship, honour systems and prescribed social behaviours (hospitality, ritualized codes) point to high need for order and predictability—high Structure.",
+          "suggested_score": 70
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "The Hofstede UAI score of 70 is the primary anchor for D3. The Culture Factor describes 'an emotional need for rules and structure, a respect for precision and punctuality, and a cautious attitude in which security matters.' Gjana & Hysa (2020) report a *positive* temporal shift on UAI — i.e., the discomfort with uncertainty has increased. This is corroborated by the Kanun's role as a centuries-old codified customary law providing behavioural certainty in the absence of formal state institutions — a parallel rule system that itself signals a deep cultural preference for structured norms. The workplace literature confirms formal titles, respect for hierarchy, and top-down decision-making as structural certainty mechanisms. Counter-evidence: actual bureaucratic unpredictability, time flexibility in meetings, and informal workarounds through personal networks suggest that the *aspiration* for structure sometimes exceeds institutional delivery. This is itself consistent with high UAI: high-UAI cultures feel anxious about ambiguity precisely because institutions fail to eliminate it. Score 67 matches the UAI=70 anchor with slight downward adjustment for practical fluidity.",
+          "suggested_score": 67
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Albania scores very low on Structure. Punctuality and rule-following are weak; informal norms (besa, personal connections) override formal rules. High-power distance coexists with a flexible, often chaotic approach to planning. Foreigners report 'Albanian time' and bribery culture. However, customary law (Kanun) provided strict local order—a high-Structure enclave. Overwhelming evidence points to low psychological need for rigid formal rules, preferring adaptive, relationship-based order.",
+          "suggested_score": 27
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Cultural emphasis on hospitality, honour and group harmony, rather than competition or achievement, suggests a more accepting than striving orientation. Youth reinterpret traditions individually, but the prime orientation remains relational over achievement.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Albania's Hofstede Masculinity score of 80 is the primary anchor. The Culture Factor describes an 'achievement-oriented (high-MAS) culture — clearly decisive — driven by competition, achievement and success', with a 'winner takes all' orientation in school, work, and play. Gjana & Hysa (2020) report a *positive temporal shift* on masculinity, reinforcing the high-drive direction. Workplace descriptions emphasise results-orientation, strong work ethic, staying late, and commitment. The mass emigration phenomenon is itself partly driven by intense ambition to achieve better outcomes — consistent with high drive. Counter-evidence: family and hospitality values imply relationship-orientation that softens raw competition, and the relationship-before-task norm in business contexts has a harmony/accepting flavour. These are real moderating forces but operate within a still strongly achievement-oriented framework. Score 76 is anchored to MAS=80 with a modest downward adjustment for the relational/harmonious sub-current.",
+          "suggested_score": 76
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Drive is moderately striving. Albanians have a strong reputation for entrepreneurship, hustling (especially in diaspora), and a desire for social mobility. Education and work are seen as instruments for family reputation. But this coexists with a Mediterranean preference for leisure, family time, and 'jetë e mirë' (good life). Post-communist economic pressures foster striving, yet many prefer stability over intense competition. Overall, more striving than accepting but not extreme.",
+          "suggested_score": 62
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C01",
+      "source_id": "S01",
+      "title": "Country Comparison Tool – Albania",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "author": "The Culture Factor (Hofstede Insights)",
+      "publication_year": 2023,
+      "excerpt": "The Culture Factor assigns Albania an Individualism (IDV) score of 27, describing it as a collectivistic society built around close, long-term loyalty to the in-group — above all the extended family and, traditionally, the wider clan (fis).",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C02",
+      "source_id": "S01",
+      "title": "Country Comparison Tool – Albania",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "author": "The Culture Factor (Hofstede Insights)",
+      "publication_year": 2023,
+      "excerpt": "In Albania, loyalty to the in-group overrides many formal rules; relationships at work are seen in moral, almost family terms; an offence leads to shame and loss of face; and hiring and promotion naturally take account of a person's in-group.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S01",
+      "title": "Country Comparison Tool – Albania",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "author": "The Culture Factor (Hofstede Insights)",
+      "publication_year": 2023,
+      "excerpt": "In-group bonds in Albania remain strong even across the large Albanian diaspora, whose members continue to support relatives back home — demonstrating the durability of group-based identity over individual autonomy.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S02",
+      "title": "Hofstede's Culture Values Survey in Albania: How the Cultural Scores Have Shifted Over Time?",
+      "url": "https://www.researchgate.net/publication/343014998",
+      "author": "Irma Gjana, Xhimi Hysa",
+      "publication_year": 2020,
+      "excerpt": "Gjana & Hysa (2020) applying Hofstede's VSM 2013 to Albanian hospital workers (N=387) found a negative shift on the individualism dimension, indicating Albania has become even more collectivist over time rather than converging toward Western individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S06",
+      "title": "Kinship – Albanians (Everyculture)",
+      "url": "https://www.everyculture.com/Europe/Albanians-Kinship.html",
+      "author": "Everyculture",
+      "publication_year": 2020,
+      "excerpt": "Traditional Albanian clan society (Gheg) organised identity around the patrilineal fis, with extended households of up to ninety individuals sharing a common male ancestor — placing group membership at the core of individual identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S11",
+      "title": "Albanian Business Culture: Values, Etiquette & Success Tips",
+      "url": "https://albconnection.com/albanian-business-culture-values-etiquette-success-tips/",
+      "author": "AlbConnection",
+      "publication_year": 2026,
+      "excerpt": "Albanian business culture centres on family loyalty and a relationship-first approach; family opinions matter in business decisions, and trust is earned through personal connection before contracts.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C08",
+      "source_id": "S14",
+      "title": "A Tradition of Honor, Hospitality and Blood Feuds: Exploring the Kanun (Balkan Social Science Review)",
+      "url": "https://js.ugd.edu.mk/index.php/BSSR/article/view/861",
+      "author": "Mirjona Sadiku",
+      "publication_year": 2014,
+      "excerpt": "The Kanun of Lekë Dukagjini structured Albanian society for centuries around honour, the pledged word (besa), and collective loyalty — a codified framework that defines individual identity through group membership and obligation.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C09",
+      "source_id": "S08",
+      "title": "The Albanian Diaspora-in-the-Making: Media, Migration and Social Exclusion",
+      "url": "https://www.researchgate.net/publication/248979281",
+      "author": "Nicola Mai",
+      "publication_year": 2005,
+      "excerpt": "Research on Albanian diaspora youth found that exposure to Western (particularly Italian) television created desires for individualised identities, with young Albanians actively seeking to define themselves against 'repressive collectivism' encountered at home.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C1",
+      "source_id": "S2",
+      "title": "Cultural Conceptualisation in Northern Albanian Gheg: ...",
+      "url": "https://www.mdpi.com/2076-0787/15/1/15",
+      "author": "Ilda Hoxha and Edlira Bushati",
+      "publication_year": 2026,
+      "excerpt": "Contemporary Albanian youth still value honour, hospitality, family solidarity and besa, while distancing themselves from the normative force of the Kanun and reinterpreting traditions more individualistically.",
+      "dimension": "D1",
+      "support_direction": "supports_higher"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S05",
+      "title": "Introduction to Albania: Family, Society and Culture in the 20th Century",
+      "url": "https://www.academia.edu/4084345/Introduction_Albania_Family_Society_and_Culture_in_the_20th_Century",
+      "author": "Various (academic edited volume)",
+      "publication_year": 2012,
+      "excerpt": "Contemporary urban research in cities like Tirana shows ongoing negotiation between traditionalist revivalism and new, more individually-oriented notions of identity — suggesting urbanisation is creating space for more self-defined identities.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S16",
+      "title": "Albanian Traditions: Customs, Holidays, Daily Life (National Albanian Registry)",
+      "url": "https://albanianregistry.org/blog/albanian-traditions",
+      "author": "National Albanian Registry",
+      "publication_year": 2026,
+      "excerpt": "Albanian hospitality (mikpritja, 'the receiving of the guest') is a moral obligation rooted in the Kanun: a host is obligated to feed and protect any guest, placing expressive generosity and warmth at the level of an enforceable social duty.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S13",
+      "title": "Key Cultural Differences to Know Before Moving to Albania",
+      "url": "https://www.jarniascyril.com/expatriation/guide-moving-to-albania-expats/cultural-differences-expatriate-albania/",
+      "author": "Jarniascyril",
+      "publication_year": 2025,
+      "excerpt": "Albanians tend to stand closer during conversations and physical contact such as hugs or kisses is common among friends, signalling open, physically expressive social norms distinct from many more reserved Northern European cultures.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S20",
+      "title": "Explore Albanian Culture: Cuisine, Traditions & Hospitality (Albania Inbound)",
+      "url": "https://albaniainbound.com/explore-albanian-culture-cuisine-traditions-hospitality/",
+      "author": "Albania Inbound",
+      "publication_year": 2026,
+      "excerpt": "Albanian hospitality practices — spontaneously walking strangers to their destination, inviting visitors home for meals — reflect an emotionally uninhibited, outwardly warm expressive style that newcomers immediately notice.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S13",
+      "title": "Key Cultural Differences to Know Before Moving to Albania",
+      "url": "https://www.jarniascyril.com/expatriation/guide-moving-to-albania-expats/cultural-differences-expatriate-albania/",
+      "author": "Jarniascyril",
+      "publication_year": 2025,
+      "excerpt": "Non-verbal communication in Albania is contextually rich and holds significant meaning, including the culturally specific head-gesture inversion (nod = no; shake = yes) — evidence of an expressive, gesture-laden communication style.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S17",
+      "title": "Culture of Albania – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Culture_of_Albania",
+      "author": "Wikipedia contributors",
+      "publication_year": 2024,
+      "excerpt": "Hospitality (mikpritja/besa) is described in Wikipedia's Culture of Albania as a fundamental custom: it is not infrequent for visitors to be invited to eat and drink with locals, reflecting open, expressive social warmth.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C2",
+      "source_id": "S1",
+      "title": "Amitié, Alliance, Parenté: idéologie et pratique dans la société traditionnelle albanaise",
+      "url": "https://www.researchgate.net/publication/32221375_Amitie_Alliance_Parente_ideologie_et_pratique_dans_la_societe_traditionnelle_albanaise",
+      "author": "Albert Doja",
+      "publication_year": 1999,
+      "excerpt": "In traditional Albanian society, friendship, alliance, and kinship are highly codified and intertwined—friendship is a functional extension of social structure rather than individual sentiment.",
+      "dimension": "D1",
+      "support_direction": "supports_lower"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S14",
+      "title": "A Tradition of Honor, Hospitality and Blood Feuds: Exploring the Kanun (Balkan Social Science Review)",
+      "url": "https://js.ugd.edu.mk/index.php/BSSR/article/view/861",
+      "author": "Mirjona Sadiku",
+      "publication_year": 2014,
+      "excerpt": "The Kanun of Lekë Dukagjini functioned as a comprehensive customary law governing 'the most important aspects of social structures' for centuries, providing behavioural certainty through codified rules in the absence of a formal state — consistent with a deep cultural preference for structured norms.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S01",
+      "title": "Country Comparison Tool – Albania",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "author": "The Culture Factor (Hofstede Insights)",
+      "publication_year": 2023,
+      "excerpt": "The Culture Factor notes that Albanians often combine the need for certainty with heavy reliance on trusted personal and family networks to navigate bureaucracy — relationships serving as the security mechanism that formal institutions fail to guarantee.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S12",
+      "title": "Cultural Tips for Foreigners Doing Business in Albania in 2025",
+      "url": "https://josei.life/cultural-tips-for-foreigners-doing-business-in-albania/",
+      "author": "Josei",
+      "publication_year": 2025,
+      "excerpt": "When dealing with permits, public procurement, or regulated sectors in Albania, foreigners should expect regulations that may change or be unclear — indicating that formal institutional structure is applied inconsistently, creating lived ambiguity despite a psychological preference for certainty.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S01",
+      "title": "Country Comparison Tool – Albania",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "author": "The Culture Factor (Hofstede Insights)",
+      "publication_year": 2023,
+      "excerpt": "The Culture Factor assigns Albania a Masculinity (MAS) score of 80, describing it as an 'achievement-oriented (high-MAS) culture — clearly decisive in behavioural terms — driven by competition, achievement and success', with behaviour in school, work, and play resting on the shared belief that 'the winner takes all.'",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C27",
+      "source_id": "S04",
+      "title": "Hofstede's Culture Values Survey in Albanian Private Hospitals (SSRN)",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3749112",
+      "author": "Irma Gjana, Xhimi Hysa",
+      "publication_year": 2021,
+      "excerpt": "Gjana & Hysa (2020) found a positive temporal shift on the masculinity dimension in Albania — meaning the achievement and competition orientation has increased over time rather than softened.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C28",
+      "source_id": "S09",
+      "title": "Work Culture In Albania: 5 Unique Facts",
+      "url": "https://ling-app.com/blog/work-culture-in-albania/",
+      "author": "Ling App Blog",
+      "publication_year": 2023,
+      "excerpt": "Albanians have a strong work ethic and are passionate about their work; they are known for commitment and dedication, often staying late or coming in early to finish tasks — evidence of achievement and performance orientation.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C29",
+      "source_id": "S09",
+      "title": "Work Culture In Albania: 5 Unique Facts",
+      "url": "https://ling-app.com/blog/work-culture-in-albania/",
+      "author": "Ling App Blog",
+      "publication_year": 2023,
+      "excerpt": "Albanian work culture is focused on getting results and meeting deadlines, with employees expected to take ownership of their work and contribute to team success — reinforcing a striving, performance-oriented drive.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C30",
+      "source_id": "S11",
+      "title": "Albanian Business Culture: Values, Etiquette & Success Tips",
+      "url": "https://albconnection.com/albanian-business-culture-values-etiquette-success-tips/",
+      "author": "AlbConnection",
+      "publication_year": 2026,
+      "excerpt": "Albanian business culture prizes hard work and resilience as one of its five core values, alongside besa, family loyalty, relationship-first approach, and hospitality — explicitly identifying achievement and effort as cultural cornerstones.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C4",
+      "source_id": "S4",
+      "title": "Albanian Customs & Etiquette: Do's and Don'ts",
+      "url": "https://info-albania.com/albanian-customs/",
+      "author": "Bunchuk Valera",
+      "publication_year": 2026,
+      "excerpt": "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C5",
+      "source_id": "S3",
+      "title": "Feud narratives: contemporary deployments of kanun in Shala Valley, northern Albania",
+      "url": "https://anthropological-notebooks.zrc-sazu.si/Notebooks/article/view/353",
+      "author": "Mentor Mustafa & Antonia Young",
+      "publication_year": 2008,
+      "excerpt": "Contemporary deployments of the Kanun and blood feud in northern Albania reflect deeply codified social orders, honour systems, and predictable normative codes shaping social behaviour.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C6",
+      "source_id": "S2",
+      "title": "Cultural Conceptualisation in Northern Albanian Gheg: ...",
+      "url": "https://www.mdpi.com/2076-0787/15/1/15",
+      "author": "Ilda Hoxha and Edlira Bushati",
+      "publication_year": 2026,
+      "excerpt": "Youth reinterpret traditional codes in more individualised, rights‑oriented terms, indicating a shift from collective harmony toward individual autonomy but still within relational frameworks.",
+      "dimension": "D4",
+      "support_direction": "supports_lower"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s1",
+      "title": "Culture and Leadership in Albania",
+      "url": "https://www.researchgate.net/publication/330874268_Culture_and_Leadership_in_Albania",
+      "author": "Haxhi, I. & Puffer, S.",
+      "publication_year": 2018,
+      "excerpt": "Albanian communication is direct and emotionally engaged—disagreement is often voiced openly, especially in close settings; hierarchical suppression of expression is weak outside formal government.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s2",
+      "title": "The Kanun: The Albanian Traditional Customary Law",
+      "url": "https://albanianstudies.weebly.com/kanun.html",
+      "author": "Gjecovi, X.",
+      "publication_year": 2005,
+      "excerpt": "Kanun rules prescribe strict emotional restraint in public disputes; blood feuds require cool-headed, ritualized execution of justice rather than open anger.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 40,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 32,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 55,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 64,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 39.657905,
+      "D2": 22.09435688,
+      "D3": 50.62145606,
+      "D4": 69.70320761
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 29.21793921,
+        "hi": 50.0978708
+      },
+      "D2": {
+        "lo": 11.5636036,
+        "hi": 32.62511015
+      },
+      "D3": {
+        "lo": 32.59734698,
+        "hi": 68.64556513
+      },
+      "D4": {
+        "lo": 45.4044674,
+        "hi": 94.00194783
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "ALB",
+        "dimension": "D2",
+        "baseline": 22.09435688,
+        "final": 32.0,
+        "direction": "up",
+        "magnitude": 9.91,
+        "reason": "Expression adjusted from baseline 22.1 to 32 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 32 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "ALB",
+        "dimension": "D3",
+        "baseline": 50.62145606,
+        "final": 55.0,
+        "direction": "up",
+        "magnitude": 4.38,
+        "reason": "Structure adjusted from baseline 50.6 to 55 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 55 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "ALB",
+        "dimension": "D4",
+        "baseline": 69.70320761,
+        "final": 64.0,
+        "direction": "down",
+        "magnitude": 5.7,
+        "reason": "Drive adjusted from baseline 69.7 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 64 keeps Drive on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 29.22,
+        "baseline": 39.657905,
+        "framework_hi": 50.1,
+        "specialist_recommendation": 42.0,
+        "council_consensus": 37.0,
+        "integrator_recommendation": 40.44,
+        "llm_recommendation": 40.0,
+        "final": 40,
+        "available_range": 20.88,
+        "distance_from_baseline": 0.34,
+        "range_utilization": 52,
+        "clamp_adjustment": -0.44,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 10.78,
+        "distance_from_upper": 10.1,
+        "movement_reason": "Evidence-first placement of Identity at 40 (evidence credibility 0.70): specialist recommendation 42.0 blended with council consensus 37.0, with baseline reference 39.7 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 11.56,
+        "baseline": 22.09435688,
+        "framework_hi": 32.63,
+        "specialist_recommendation": 67.667,
+        "council_consensus": 22.0,
+        "integrator_recommendation": 44.39,
+        "llm_recommendation": 32.0,
+        "final": 32,
+        "available_range": 21.07,
+        "distance_from_baseline": 9.91,
+        "range_utilization": 97,
+        "clamp_adjustment": -12.39,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 20.44,
+        "distance_from_upper": 0.63,
+        "movement_reason": "Evidence-first placement of Expression at 32 (evidence credibility 0.55): specialist recommendation 67.667 blended with council consensus 22.0, with baseline reference 22.1 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 32.6,
+        "baseline": 50.62145606,
+        "framework_hi": 68.65,
+        "specialist_recommendation": 54.667,
+        "council_consensus": 58.0,
+        "integrator_recommendation": 55.33,
+        "llm_recommendation": 55.0,
+        "final": 55,
+        "available_range": 36.05,
+        "distance_from_baseline": 4.38,
+        "range_utilization": 62,
+        "clamp_adjustment": -0.33,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 22.4,
+        "distance_from_upper": 13.65,
+        "movement_reason": "Evidence-first placement of Structure at 55 (evidence credibility 0.67): specialist recommendation 54.667 blended with council consensus 58.0, with baseline reference 50.6 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 45.4,
+        "baseline": 69.70320761,
+        "framework_hi": 94.0,
+        "specialist_recommendation": 59.333,
+        "council_consensus": 72.0,
+        "integrator_recommendation": 64.38,
+        "llm_recommendation": 64.0,
+        "final": 64,
+        "available_range": 48.6,
+        "distance_from_baseline": -5.7,
+        "range_utilization": 38,
+        "clamp_adjustment": -0.38,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 18.6,
+        "distance_from_upper": 30.0,
+        "movement_reason": "Evidence-first placement of Drive at 64 (evidence credibility 0.64): specialist recommendation 59.333 blended with council consensus 72.0, with baseline reference 69.7 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Albania",
+        "iso3": "ALB",
+        "dimension": "D1",
+        "baseline_score": 39.657905,
+        "final_score": 40,
+        "change_amount": 0.34,
+        "change_percent": 0.86,
+        "adjustment_type": "ROUNDING",
+        "summary": "Albania's Identity is placed at 40 (Social 3 <-> Self 97). Within the framework range [29-50], 40 sits at ~52% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C08",
+          "W_institutional_analyst_C06",
+          "W_institutional_analyst_C04"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 25.0,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 37.5
+        },
+        "statistician_reasoning": "Framework consensus at 37.56, signal_strength 0.66, agreement 0.62. CI (29.2–50.1) places the anchor at its upper bound, confirming collectivist placement. Hofstede individualism and Trompenaars communitarianism both support Social-leaning scores. GLOBE conflict (in-group vs institutional collectivism divergence) is noted but does not override the dominant signal. Score of 37 sits 13 points below the South Korea anchor (50), justified by Albania's strong clan/fis kinship structures and high in-group collectivism. Why not lower: partial data and GLOBE conflict prevent pushing toward 29. Why not higher: no evidence of individualist shift sufficient to approach 50.",
+        "comparativist_reasoning": "Comparative: Identity=37 relative to Eastern Europe peers and anchors. Albania's strong clan/fis kinship structures and high in-group collectivism justify a lower score than South Korea (50).",
+        "country_specialist_reasoning": "Albania's cultural emphasis on collectivism is evident through strong in-group loyalty and clan-based identity, as highlighted by Hofstede's low Individualism score and qualitative insights into traditional Albanian society. This supports a score of 37, below the South Korea anchor, reflecting Albania's collectivist tendencies.",
+        "skeptic_reasoning": "Adversarial check on Identity=37: resist midpoint bias and compression. The score is firmly on the Social side, 13 points below the South Korea anchor (50). Evidence strongly supports collectivism: Hofstede IDV=27, strong clan/fis kinship, in-group loyalty overriding formal rules (W_institutional_analyst_C01, C02). GLOBE conflict (in-group vs institutional collectivism) prevents pushing lower toward 29. No evidence supports moving higher toward 50; even contemporary youth reinterpret traditions individualistically but still value family solidarity (W_cultural_anthropologist_C1). Score is justified within CI (29.2–50.1).",
+        "integrator_decision": "Integrator retained the baseline (39.7) for Identity.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence HIGH (score 0.7052): coverage=0.6, agreement=1.0, evidence=0.645, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 40,
+          "considered_alternatives": [
+            37
+          ],
+          "why_rejected": {
+            "37": "37 understates Self relative to the framework signal and peer comparisons; rejected as too Social."
+          },
+          "why_selected": "40 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (50), so pushing past 40 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (29), so going below 40 would understate the measured signal.",
+        "integrator_recommendation": 40.44,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.44,
+        "absolute_score_rationale": "Albania sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Albania's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Albania's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Albania that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Albania that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Albania that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 40 means everyday life in Albania leans between the poles: Social and Self tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 40 is justified: Albania sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (29), so going below 40 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (50), so pushing past 40 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C08, W_institutional_analyst_C06, W_institutional_analyst_C04.",
+        "executive_explanation": "Albania sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (40) already reflected this evidence, so the council confirmed 40 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (50), so pushing past 40 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (29), so going below 40 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.34 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [29-50], 40 sits at ~52% of the permitted span."
+      },
+      {
+        "country": "Albania",
+        "iso3": "ALB",
+        "dimension": "D2",
+        "baseline_score": 22.09435688,
+        "final_score": 32,
+        "change_amount": 9.91,
+        "change_percent": 44.85,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Albania's Expression is placed at 32 (Restrained 3 <-> Open 97). Within the framework range [12-33], 32 sits at ~97% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c6",
+          "W_institutional_analyst_C11",
+          "W_historical_analyst_c7"
+        ],
+        "supporting_frameworks": [
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "globe",
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 42.86,
+          "globe": 28.57,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 28.57
+        },
+        "statistician_reasoning": "CI runs 11.6–32.6, firmly Restrained. Signal_strength 0.63, agreement 0.58, conflict 0.42 — the highest conflict of the four dimensions. Hofstede indulgence (estimated low, ~15–20) is the anchor measure for D2 and supports restraint. GLOBE assertiveness and Trompenaars affective data conflict but do not override the indulgence signal per framework mapping rules. Post-communist patriarchal norms suppress open emotional expression. Why not lower: conflict score and some assertiveness data prevent pushing to 12. Why not higher: no evidence of structural emotional openness; low indulgence estimate is decisive.",
+        "comparativist_reasoning": "Comparative: Expression=22 relative to Eastern Europe peers and anchors. Post-communist patriarchal norms and low Hofstede indulgence estimate support a restrained score.",
+        "country_specialist_reasoning": "Albania's cultural norms, shaped by post-communist and patriarchal influences, contribute to a restrained expression of emotions. This is supported by Hofstede's low estimated Indulgence score and qualitative insights into emotional suppression, justifying a score of 22, well below the Turkey anchor.",
+        "skeptic_reasoning": "Adversarial check on Expression=22: resist midpoint bias and compression. Score is firmly Restrained, 28 points below Turkey anchor (50). CI (11.6–32.6) allows this placement. Hofstede indulgence estimated very low (~15-20) is decisive (E_D2_01). Post-communist patriarchal norms suppress open emotional expression (W_historical_analyst_c6). GLOBE assertiveness conflict (E_D2_02) prevents pushing lower toward 12. No evidence of structural emotional openness to move higher; even diaspora maintain restrained affect (W_institutional_analyst_C11).",
+        "integrator_decision": "Expression adjusted from baseline 22.1 to 32 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.7218): coverage=0.6, agreement=1.0, evidence=0.578, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 32,
+          "considered_alternatives": [
+            22
+          ],
+          "why_rejected": {
+            "22": "22 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "32 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (33), so pushing past 32 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (12), so going below 32 would understate the measured signal.",
+        "integrator_recommendation": 44.39,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 33",
+        "clamp_adjustment": -12.39,
+        "absolute_score_rationale": "Albania sits at 32 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline.",
+        "alternatives_considered": [
+          13,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Albania's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Albania that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Albania that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Albania that far toward Open.",
+          "87": "A 87 would imply markedly more Open; the evidence and framework signal do not support pushing Albania that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 32 means everyday life in Albania leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 32 is justified: Albania sits at 32 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (12), so going below 32 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (33), so pushing past 32 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c6, W_institutional_analyst_C11, W_historical_analyst_c7. The integrator recommendation was 44.4; the framework limit (UPPER CI 33) applied, so the final published score became 32.",
+        "executive_explanation": "Albania sits at 32 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (33), so pushing past 32 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (12), so going below 32 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=9.91. Framework consensus=41.04, signal_strength=0.6273, conflict=0.4213. Within the framework range [12-33], 32 sits at ~97% of the permitted span. Confidence HIGH (score 0.7218): coverage=0.6, agreement=1.0, evidence=0.578, stability=1.0."
+      },
+      {
+        "country": "Albania",
+        "iso3": "ALB",
+        "dimension": "D3",
+        "baseline_score": 50.62145606,
+        "final_score": 55,
+        "change_amount": 4.38,
+        "change_percent": 8.65,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Albania's Structure is placed at 55 (Fluid 3 <-> Certain 97). Within the framework range [33-69], 55 sits at ~62% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C20",
+          "W_institutional_analyst_C21",
+          "W_historical_analyst_c10"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 37.5,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Strongest agreement of the four dimensions: signal_strength 0.70, agreement 0.73, conflict only 0.27. GLOBE and Hofstede both support higher uncertainty avoidance. Framework consensus at 62.74 supports above-anchor placement. Score of 58 is modestly above the Colombia anchor (50) by 8 points. Trompenaars conflict is noted but does not override the GLOBE/Hofstede consensus. Why not lower: the 0.73 agreement score and low conflict make a below-anchor score indefensible. Why not higher: partial data and Trompenaars conflict prevent pushing toward 68.",
+        "comparativist_reasoning": "Comparative: Structure=58 relative to Eastern Europe peers and anchors. GLOBE and Hofstede support higher uncertainty avoidance, placing Albania above the Colombia anchor.",
+        "country_specialist_reasoning": "Albania exhibits a moderate level of uncertainty avoidance, with a tendency towards structured environments. This is supported by Hofstede's Uncertainty Avoidance score and GLOBE's findings, placing Albania above the Colombia anchor at 58.",
+        "skeptic_reasoning": "Adversarial check on Structure=58: resist midpoint bias and compression. Score is above Colombia anchor (50) by 8 points, on the Certain side. CI (32.6–68.6) allows this. GLOBE and Hofstede both support higher uncertainty avoidance (E_D3_01, agreement=0.73). Qualitative evidence: Albanian reliance on informal networks and Kanun-based norms creates need for predictability within in-group (W_institutional_analyst_C20, C21). Why not lower: 0.73 agreement score makes below-anchor indefensible. Why not higher: Trompenaars conflict (E_D3_02) and partial data prevent pushing toward 68. Score sits in 40-60 band; justification: quantitative (agreement=0.73, consensus=62.74) and qualitative (informal rule reliance) provided.",
+        "integrator_decision": "Structure adjusted from baseline 50.6 to 55 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.557): coverage=0.6, agreement=1.0, evidence=0.6, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 55,
+          "considered_alternatives": [
+            51,
+            58
+          ],
+          "why_rejected": {
+            "51": "51 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "58": "58 sits above the confidence-weighted consensus and risks overstating Certain; not enough corroborating evidence."
+          },
+          "why_selected": "55 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (58) and the CI ceiling (69), so pushing past 55 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (33), so going below 55 would understate the measured signal.",
+        "integrator_recommendation": 55.33,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.33,
+        "absolute_score_rationale": "Albania sits at 55 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 51 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Albania's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Albania's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Albania's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Albania that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Albania that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 55 means everyday life in Albania leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 55 is justified: Albania sits at 55 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 51 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (33), so going below 55 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (58) and the CI ceiling (69), so pushing past 55 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C20, W_institutional_analyst_C21, W_historical_analyst_c10.",
+        "executive_explanation": "Albania sits at 55 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 51 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (58) and the CI ceiling (69), so pushing past 55 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (33), so going below 55 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.38. Framework consensus=62.74, signal_strength=0.6953, conflict=0.2703. Within the framework range [33-69], 55 sits at ~62% of the permitted span. Confidence MEDIUM (score 0.557): coverage=0.6, agreement=1.0, evidence=0.6, stability=0.8."
+      },
+      {
+        "country": "Albania",
+        "iso3": "ALB",
+        "dimension": "D4",
+        "baseline_score": 69.70320761,
+        "final_score": 64,
+        "change_amount": -5.7,
+        "change_percent": -8.18,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Albania's Drive is placed at 64 (Accepting 3 <-> Striving 97). Within the framework range [45-94], 64 sits at ~38% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C27",
+          "W_historical_analyst_c13",
+          "W_historical_analyst_c14"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 37.5,
+          "globe": 37.5,
+          "schwartz": 0.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Signal_strength 0.68, agreement 0.74, conflict 0.26. Framework consensus at 59.88 and CI (45.4–94.0) support a clearly above-anchor placement. Hofstede masculinity and GLOBE performance orientation both support a Striving placement. Score of 72 sits 22 points above the Turkey anchor (50). Why not lower: the 0.74 agreement score and broad CI upper bound support a strong Striving placement well above anchor. Why not higher: partial data and Trompenaars conflict prevent pushing toward 90+.",
+        "comparativist_reasoning": "Comparative: Drive=72 relative to Eastern Europe peers and anchors. Hofstede masculinity and GLOBE performance orientation support a high striving score.",
+        "country_specialist_reasoning": "Albania's cultural drive is characterized by a strong achievement orientation, as evidenced by Hofstede's Masculinity score and GLOBE's performance orientation. This supports a score of 72, significantly above the Turkey anchor, indicating a striving culture.",
+        "skeptic_reasoning": "Adversarial check on Drive=72: resist midpoint bias and compression. Score is firmly Striving, 22 points above Turkey anchor (50). CI (45.4–94.0) allows this. Hofstede masculinity and GLOBE performance orientation both support achievement orientation (E_D4_01, agreement=0.74). Qualitative evidence: Albanian diaspora's strong work ethic and remittance culture (W_institutional_analyst_C27); historical resilience under isolation (W_historical_analyst_c13). Why not lower: 0.74 agreement score and diaspora evidence prevent moving toward 50. Why not higher: Trompenaars conflict (E_D4_02) and partial data prevent pushing toward 94.",
+        "integrator_decision": "Drive adjusted from baseline 69.7 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5909): coverage=0.6, agreement=1.0, evidence=0.662, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 64,
+          "considered_alternatives": [
+            70,
+            72
+          ],
+          "why_rejected": {
+            "70": "70 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence.",
+            "72": "72 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "64 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (72) and the CI ceiling (94), so pushing past 64 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (72) and the CI floor (45), so going below 64 would understate the measured signal.",
+        "integrator_recommendation": 64.38,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.38,
+        "absolute_score_rationale": "Albania sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 70 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Albania's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Albania's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "50": "A 50 would understate Albania's Striving tendencies; peer and framework evidence place it above 50 on Drive.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Albania that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Albania that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 64 means everyday life in Albania leans toward Striving: institutions, norms and expression skew toward Striving.",
+        "final_rationale": "Why 64 is justified: Albania sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 70 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (72) and the CI floor (45), so going below 64 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (72) and the CI ceiling (94), so pushing past 64 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C27, W_historical_analyst_c13, W_historical_analyst_c14.",
+        "executive_explanation": "Albania sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 70 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (72) and the CI ceiling (94), so pushing past 64 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (72) and the CI floor (45), so going below 64 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=5.70. Framework consensus=59.88, signal_strength=0.6799, conflict=0.2647. Within the framework range [45-94], 64 sits at ~38% of the permitted span. Confidence MEDIUM (score 0.5909): coverage=0.6, agreement=1.0, evidence=0.662, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "BGR",
+        "country": "Bulgaria",
+        "d1": 45.28476315,
+        "d2": 30.29420819,
+        "d3": 64.97972776,
+        "d4": 57.50515599,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SVK",
+        "country": "Slovakia",
+        "d1": 50.0,
+        "d2": 38.0,
+        "d3": 68.0,
+        "d4": 64.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "MKD",
+        "country": "Macedonia",
+        "d1": 41.21048856,
+        "d2": 43.02328749,
+        "d3": 44.14827679,
+        "d4": 52.21771411,
+        "relation": "regional"
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "d1": 51.59093512,
+        "d2": 43.33047811,
+        "d3": 60.88042521,
+        "d4": 59.48066367,
+        "relation": "regional"
+      },
+      {
+        "iso3": "ROU",
+        "country": "Romania",
+        "d1": 47.0,
+        "d2": 42.0,
+        "d3": 65.0,
+        "d4": 57.0,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 10.0,
+        "reason": "Albania is below the South Korea Identity anchor (50) by 10.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 18.0,
+        "reason": "Albania is below the Turkey Expression anchor (50) by 18.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Above",
+        "magnitude": 14.0,
+        "reason": "Albania is above the Turkey Drive anchor (50) by 14.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 5.0,
+        "reason": "Albania is above the Colombia Structure anchor (50) by 5.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "ALB",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=32"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D1', 'D3']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D1,D3"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 32.0,
+        "midpoint_dimensions": [
+          "D1",
+          "D3"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico IDV=30, UAI=82, Indulgence=97, Masculinity=69, LTO=24",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "Mexico high in-group collectivism, moderate performance orientation, high humane orientation",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D3",
+        "direction": "Certain",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "ALB",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 35.0,
+          "strongest_supporting": "Contemporary Albanian youth still value honour, hospitality, family solidarity and besa, while distancing themselves from the normative force of the Kanun and reinterpreting traditions more individualistically.",
+          "strongest_opposing": "Some perceive strong family and tribal ties in Albania, but argue that does not automatically make the society collectivist—regional and cultural variation exists, with some arguing Albanians can be individualist too.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "C1",
+            "C2"
+          ],
+          "opposing_evidence_ids": [
+            "C3"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.5,
+          "supporting_evidence_ids": [
+            "C4"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Contemporary deployments of the Kanun and blood feud in northern Albania reflect deeply codified social orders, honour systems, and predictable normative codes shaping social behaviour.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "C5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Youth reinterpret traditional codes in more individualised, rights‑oriented terms, indicating a shift from collective harmony toward individual autonomy but still within relational frameworks.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.5,
+          "supporting_evidence_ids": [
+            "C6"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "Gjana & Hysa (2020) applying Hofstede's VSM 2013 to Albanian hospital workers (N=387) found a negative shift on the individualism dimension, indicating Albania has become even more collectivist over time rather than converging toward Western individualism.",
+          "strongest_opposing": "Research on Albanian diaspora youth found that exposure to Western (particularly Italian) television created desires for individualised identities, with young Albanians actively seeking to define themselves against 'repressive collectivism' encountered at home.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.87,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C08"
+          ],
+          "opposing_evidence_ids": [
+            "C09",
+            "C10"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 65.0,
+          "strongest_supporting": "Albanian hospitality (mikpritja, 'the receiving of the guest') is a moral obligation rooted in the Kanun: a host is obligated to feed and protect any guest, placing expressive generosity and warmth at the level of an enforceable social duty.",
+          "strongest_opposing": "In Albanian workplaces, direct challenges to authority are rare and generally frowned upon; deference to managers and senior colleagues is common practice, indicating hierarchical suppression of expressive dissent in formal contexts.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C11",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16"
+          ],
+          "opposing_evidence_ids": [
+            "C17",
+            "C18"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 67.0,
+          "strongest_supporting": "Gjana & Hysa (2020) found a positive temporal shift on uncertainty avoidance in Albania, meaning the discomfort with ambiguity and need for structure has increased compared to prior measurements rather than decreased.",
+          "strongest_opposing": "In professional settings, the Albanian relationship with time is more flexible than in Western Europe; meetings often start slightly late and discussions extend beyond allotted times — indicating practical fluidity in time-structure norms.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 75.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C19",
+            "C20",
+            "C21",
+            "C22",
+            "C23"
+          ],
+          "opposing_evidence_ids": [
+            "C24",
+            "C25"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 76.0,
+          "strongest_supporting": "Gjana & Hysa (2020) found a positive temporal shift on the masculinity dimension in Albania — meaning the achievement and competition orientation has increased over time rather than softened.",
+          "strongest_opposing": "Albanian business culture operates on a relationship-first approach where long-term relationships outweigh short-term gains, and trust is earned through personal connection before task completion — a relational-harmony sub-current that moderates pure striving.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 84.0,
+          "confidence": 0.83,
+          "supporting_evidence_ids": [
+            "C26",
+            "C27",
+            "C28",
+            "C29",
+            "C30"
+          ],
+          "opposing_evidence_ids": [
+            "C31",
+            "C32"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 73.0,
+          "strongest_supporting": "Research on Albanian leadership styles shows a high value placed on personal reputation, autonomy, and self-reliance, with individuals often taking initiative outside group norms.",
+          "strongest_opposing": "The Kanun of Lekë Dukagjini structures social relations around clan self-identity, but its emphasis on personal honor and blood feuds reflects extreme individual responsibility—a paradox that pushes toward individualism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3",
+            "c4"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 78.0,
+          "strongest_supporting": "Albanian communication is direct and emotionally engaged—disagreement is often voiced openly, especially in close settings; hierarchical suppression of expression is weak outside formal government.",
+          "strongest_opposing": "Kanun rules prescribe strict emotional restraint in public disputes; blood feuds require cool-headed, ritualized execution of justice rather than open anger.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6"
+          ],
+          "opposing_evidence_ids": [
+            "c7",
+            "c8"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 27.0,
+          "strongest_supporting": "Albanian business culture shows low punctuality and a tendency to 'play it by ear'—meetings often start late and schedules change at short notice.",
+          "strongest_opposing": "The Kanun provided a rigid, highly structured customary legal system with detailed rules for every aspect of life, suggesting a preference for clear norms at a local level.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 27.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c9",
+            "c10"
+          ],
+          "opposing_evidence_ids": [
+            "c11",
+            "c12"
+          ]
+        },
+        {
+          "iso3": "ALB",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 62.0,
+          "strongest_supporting": "Albanian diaspora entrepreneurship is noted for high hustle and risk-taking; many small businesses founded by Albanians in Europe show strong striving for achievement.",
+          "strongest_opposing": "Traditional Albanian culture prioritizes family relationships and leisure; after work, socializing with extended family is a core value, and overwork is seen as neglecting family duty.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 62.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c13",
+            "c14"
+          ],
+          "opposing_evidence_ids": [
+            "c15",
+            "c16"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "ALB",
+          "dimension": "D1",
+          "baseline_score": 39.657905,
+          "specialist_recommendation": 42.0,
+          "specialist_confidence": 0.7233,
+          "evidence_strength": 0.6455,
+          "evidence_quality": 0.6366,
+          "disagreement_index": 0.9197,
+          "specialist_influence_weight": 0.7003,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.70 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ALB",
+          "dimension": "D2",
+          "baseline_score": 22.09435688,
+          "specialist_recommendation": 67.667,
+          "specialist_confidence": 0.6067,
+          "evidence_strength": 0.5778,
+          "evidence_quality": 0.5682,
+          "disagreement_index": 0.3035,
+          "specialist_influence_weight": 0.5518,
+          "rationale": "High specialist confidence -> evidence credibility 0.55 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ALB",
+          "dimension": "D3",
+          "baseline_score": 50.62145606,
+          "specialist_recommendation": 54.667,
+          "specialist_confidence": 0.7733,
+          "evidence_strength": 0.6,
+          "evidence_quality": 0.57,
+          "disagreement_index": 0.7841,
+          "specialist_influence_weight": 0.6745,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.67 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "ALB",
+          "dimension": "D4",
+          "baseline_score": 69.70320761,
+          "specialist_recommendation": 59.333,
+          "specialist_confidence": 0.6767,
+          "evidence_strength": 0.6625,
+          "evidence_quality": 0.6135,
+          "disagreement_index": 0.5927,
+          "specialist_influence_weight": 0.6427,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "ALB",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 17.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 17.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D4 score (gap 36.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 36.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 55.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 55.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 40.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 40.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 14.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 14.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 38.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 38.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 18.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 18.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D3",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D3 score (gap 43.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 43.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D4",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D4 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=46: differs by 9 from the statistician reading of 37.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=36: differs by 14 from the statistician reading of 22.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 14.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=55: differs by 17 from the statistician reading of 72.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 17.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=35: differs by 11 from the comparativist reading of 46.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=40: differs by 4 from the comparativist reading of 36.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 18.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=70: differs by 15 from the comparativist reading of 55.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=40: differs by 5 from the country_specialist reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=22: differs by 18 from the country_specialist reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=56: differs by 4 from the country_specialist reading of 60.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "ALB",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=37: differs by 3 from the devils_advocate reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "ALB",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 3,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.5,
+          "evidence_count": 1,
+          "recommendation": 60.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 1,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.5,
+          "evidence_count": 1,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.87,
+          "evidence_count": 10,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 8,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 7,
+          "recommendation": 67.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.83,
+          "evidence_count": 7,
+          "recommendation": 76.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 73.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 4,
+          "recommendation": 78.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 27.0
+        },
+        {
+          "iso3": "ALB",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 4,
+          "recommendation": 62.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "ALB",
+        "score_diversity": 0.2075,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7676,
+        "consensus_quality": 1.0,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "ALB",
+      "country": "Albania",
+      "region": "Eastern Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 40,
+          "confidence": "HIGH",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.08,
+          "top_supporting_arguments": [
+            "Contemporary Albanian youth still value honour, hospitality, family solidarity and besa, while distancing themselves from the normative force of the Kanun and reinterpreting traditions more individualistically.",
+            "In traditional Albanian society, friendship, alliance, and kinship are highly codified and intertwined—friendship is a functional extension of social structure rather than individual sentiment.",
+            "Some perceive strong family and tribal ties in Albania, but argue that does not automatically make the society collectivist—regional and cultural variation exists, with some arguing Albanians can be individualist too."
+          ],
+          "top_counter_arguments": [
+            "The Culture Factor assigns Albania an Individualism (IDV) score of 27, describing it as a collectivistic society built around close, long-term loyalty to the in-group — above all the extended family and, traditionally, the wider clan (fis).",
+            "In Albania, loyalty to the in-group overrides many formal rules; relationships at work are seen in moral, almost family terms; an offence leads to shame and loss of face; and hiring and promotion naturally take account of a person's in-group.",
+            "In-group bonds in Albania remain strong even across the large Albanian diaspora, whose members continue to support relatives back home — demonstrating the durability of group-based identity over individual autonomy."
+          ],
+          "why_this_score": "Albania sits at 40 on Identity (Social 3 <-> Self 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~38), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 40 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (37) and the CI ceiling (50), so pushing past 40 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (37) and the CI floor (29), so going below 40 would understate the measured signal.",
+          "related_countries": [
+            "Bulgaria",
+            "Slovakia",
+            "Macedonia",
+            "Croatia",
+            "Romania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C1",
+              "source_id": "S2",
+              "title": "Cultural Conceptualisation in Northern Albanian Gheg: ...",
+              "url": "https://www.mdpi.com/2076-0787/15/1/15",
+              "author": "Ilda Hoxha and Edlira Bushati",
+              "publication_year": 2026,
+              "excerpt": "Contemporary Albanian youth still value honour, hospitality, family solidarity and besa, while distancing themselves from the normative force of the Kanun and reinterpreting traditions more individualistically.",
+              "dimension": "D1",
+              "support_direction": "supports_higher"
+            },
+            {
+              "claim_id": "C2",
+              "source_id": "S1",
+              "title": "Amitié, Alliance, Parenté: idéologie et pratique dans la société traditionnelle albanaise",
+              "url": "https://www.researchgate.net/publication/32221375_Amitie_Alliance_Parente_ideologie_et_pratique_dans_la_societe_traditionnelle_albanaise",
+              "author": "Albert Doja",
+              "publication_year": 1999,
+              "excerpt": "In traditional Albanian society, friendship, alliance, and kinship are highly codified and intertwined—friendship is a functional extension of social structure rather than individual sentiment.",
+              "dimension": "D1",
+              "support_direction": "supports_lower"
+            },
+            {
+              "claim_id": "C3",
+              "source_id": "S8",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Some perceive strong family and tribal ties in Albania, but argue that does not automatically make the society collectivist—regional and cultural variation exists, with some arguing Albanians can be individualist too.",
+              "dimension": "D1",
+              "support_direction": "supports_higher"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 32,
+          "confidence": "HIGH",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.697,
+          "top_supporting_arguments": [
+            "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
+            "Albanian hospitality (mikpritja, 'the receiving of the guest') is a moral obligation rooted in the Kanun: a host is obligated to feed and protect any guest, placing expressive generosity and warmth at the level of an enforceable social duty.",
+            "Workplace communication in Albania can be direct and frank; it is not uncommon for supervisors to give constructive criticism or feedback openly in front of colleagues, indicating a relatively uninhibited expressive norm in professional settings."
+          ],
+          "top_counter_arguments": [
+            "In Albanian workplaces, direct challenges to authority are rare and generally frowned upon; deference to managers and senior colleagues is common practice, indicating hierarchical suppression of expressive dissent in formal contexts.",
+            "Communication sensitivity and politeness are paramount when addressing superiors or discussing potentially sensitive topics, meaning expressiveness is structurally curtailed in hierarchical relationships.",
+            "Kanun rules prescribe strict emotional restraint in public disputes; blood feuds require cool-headed, ritualized execution of justice rather than open anger."
+          ],
+          "why_this_score": "Albania sits at 32 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~41), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (33), so pushing past 32 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (12), so going below 32 would understate the measured signal.",
+          "related_countries": [
+            "Bulgaria",
+            "Slovakia",
+            "Macedonia",
+            "Croatia",
+            "Romania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C4",
+              "source_id": "S4",
+              "title": "Albanian Customs & Etiquette: Do's and Don'ts",
+              "url": "https://info-albania.com/albanian-customs/",
+              "author": "Bunchuk Valera",
+              "publication_year": 2026,
+              "excerpt": "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S16",
+              "title": "Albanian Traditions: Customs, Holidays, Daily Life (National Albanian Registry)",
+              "url": "https://albanianregistry.org/blog/albanian-traditions",
+              "author": "National Albanian Registry",
+              "publication_year": 2026,
+              "excerpt": "Albanian hospitality (mikpritja, 'the receiving of the guest') is a moral obligation rooted in the Kanun: a host is obligated to feed and protect any guest, placing expressive generosity and warmth at the level of an enforceable social duty.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C12",
+              "source_id": "S09",
+              "title": "Work Culture In Albania: 5 Unique Facts",
+              "url": "https://ling-app.com/blog/work-culture-in-albania/",
+              "author": "Ling App Blog",
+              "publication_year": 2023,
+              "excerpt": "Workplace communication in Albania can be direct and frank; it is not uncommon for supervisors to give constructive criticism or feedback openly in front of colleagues, indicating a relatively uninhibited expressive norm in professional settings.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 55,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.216,
+          "top_supporting_arguments": [
+            "Contemporary deployments of the Kanun and blood feud in northern Albania reflect deeply codified social orders, honour systems, and predictable normative codes shaping social behaviour.",
+            "The Culture Factor assigns Albania a UAI score of 70, describing 'an emotional need for rules and structure, a respect for precision and punctuality, and a cautious attitude in which security matters and decisions follow careful analysis.'",
+            "Gjana & Hysa (2020) found a positive temporal shift on uncertainty avoidance in Albania, meaning the discomfort with ambiguity and need for structure has increased compared to prior measurements rather than decreased."
+          ],
+          "top_counter_arguments": [
+            "In professional settings, the Albanian relationship with time is more flexible than in Western Europe; meetings often start slightly late and discussions extend beyond allotted times — indicating practical fluidity in time-structure norms.",
+            "When dealing with permits, public procurement, or regulated sectors in Albania, foreigners should expect regulations that may change or be unclear — indicating that formal institutional structure is applied inconsistently, creating lived ambiguity despite a psychological preference for certainty.",
+            "Transparency International reports that bribery and informal payments are widespread, indicating weak formal rule-following and a preference for flexible personal arrangements."
+          ],
+          "why_this_score": "Albania sits at 55 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~63), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 51 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (58) and the CI ceiling (69), so pushing past 55 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (58) and the CI floor (33), so going below 55 would understate the measured signal.",
+          "related_countries": [
+            "Bulgaria",
+            "Slovakia",
+            "Macedonia",
+            "Croatia",
+            "Romania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C5",
+              "source_id": "S3",
+              "title": "Feud narratives: contemporary deployments of kanun in Shala Valley, northern Albania",
+              "url": "https://anthropological-notebooks.zrc-sazu.si/Notebooks/article/view/353",
+              "author": "Mentor Mustafa & Antonia Young",
+              "publication_year": 2008,
+              "excerpt": "Contemporary deployments of the Kanun and blood feud in northern Albania reflect deeply codified social orders, honour systems, and predictable normative codes shaping social behaviour.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S01",
+              "title": "Country Comparison Tool – Albania",
+              "url": "https://www.theculturefactor.com/country-comparison-tool",
+              "author": "The Culture Factor (Hofstede Insights)",
+              "publication_year": 2023,
+              "excerpt": "The Culture Factor assigns Albania a UAI score of 70, describing 'an emotional need for rules and structure, a respect for precision and punctuality, and a cautious attitude in which security matters and decisions follow careful analysis.'",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S04",
+              "title": "Hofstede's Culture Values Survey in Albanian Private Hospitals (SSRN)",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3749112",
+              "author": "Irma Gjana, Xhimi Hysa",
+              "publication_year": 2021,
+              "excerpt": "Gjana & Hysa (2020) found a positive temporal shift on uncertainty avoidance in Albania, meaning the discomfort with ambiguity and need for structure has increased compared to prior measurements rather than decreased.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 64,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.407,
+          "top_supporting_arguments": [
+            "Youth reinterpret traditional codes in more individualised, rights‑oriented terms, indicating a shift from collective harmony toward individual autonomy but still within relational frameworks.",
+            "The Culture Factor assigns Albania a Masculinity (MAS) score of 80, describing it as an 'achievement-oriented (high-MAS) culture — clearly decisive in behavioural terms — driven by competition, achievement and success', with behaviour in school, work, and play resting on the shared belief that 'the winner takes all.'",
+            "Gjana & Hysa (2020) found a positive temporal shift on the masculinity dimension in Albania — meaning the achievement and competition orientation has increased over time rather than softened."
+          ],
+          "top_counter_arguments": [
+            "Albanian business culture operates on a relationship-first approach where long-term relationships outweigh short-term gains, and trust is earned through personal connection before task completion — a relational-harmony sub-current that moderates pure striving.",
+            "Traditional Albanian culture prioritizes family relationships and leisure; after work, socializing with extended family is a core value, and overwork is seen as neglecting family duty.",
+            "Hofstede Masculinity (MAS) for Albania is moderate (around 50), balancing competitiveness with quality-of-life concerns, though this is lower than strongly striving cultures like the US or Japan."
+          ],
+          "why_this_score": "Albania sits at 64 on Drive (Accepting 3 <-> Striving 97), placing it toward Striving. This absolute level reflects the convergence of the framework signal (framework consensus ~60), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 70 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (72) and the CI ceiling (94), so pushing past 64 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (72) and the CI floor (45), so going below 64 would understate the measured signal.",
+          "related_countries": [
+            "Bulgaria",
+            "Slovakia",
+            "Macedonia",
+            "Croatia",
+            "Romania"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C6",
+              "source_id": "S2",
+              "title": "Cultural Conceptualisation in Northern Albanian Gheg: ...",
+              "url": "https://www.mdpi.com/2076-0787/15/1/15",
+              "author": "Ilda Hoxha and Edlira Bushati",
+              "publication_year": 2026,
+              "excerpt": "Youth reinterpret traditional codes in more individualised, rights‑oriented terms, indicating a shift from collective harmony toward individual autonomy but still within relational frameworks.",
+              "dimension": "D4",
+              "support_direction": "supports_lower"
+            },
+            {
+              "claim_id": "C26",
+              "source_id": "S01",
+              "title": "Country Comparison Tool – Albania",
+              "url": "https://www.theculturefactor.com/country-comparison-tool",
+              "author": "The Culture Factor (Hofstede Insights)",
+              "publication_year": 2023,
+              "excerpt": "The Culture Factor assigns Albania a Masculinity (MAS) score of 80, describing it as an 'achievement-oriented (high-MAS) culture — clearly decisive in behavioural terms — driven by competition, achievement and success', with behaviour in school, work, and play resting on the shared belief that 'the winner takes all.'",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C27",
+              "source_id": "S04",
+              "title": "Hofstede's Culture Values Survey in Albanian Private Hospitals (SSRN)",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3749112",
+              "author": "Irma Gjana, Xhimi Hysa",
+              "publication_year": 2021,
+              "excerpt": "Gjana & Hysa (2020) found a positive temporal shift on the masculinity dimension in Albania — meaning the achievement and competition orientation has increased over time rather than softened.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

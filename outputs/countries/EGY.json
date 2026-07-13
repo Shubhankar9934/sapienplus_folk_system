@@ -1,0 +1,2531 @@
+{
+  "iso3": "EGY",
+  "country": "Egypt",
+  "region": "North Africa",
+  "data_status": "FULL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T09:51:55.765690+00:00",
+  "cultural_profile": {
+    "iso3": "EGY",
+    "country": "Egypt",
+    "region": "North Africa",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 25,
+        "reading": "Community-first",
+        "explanation": "In Egypt, identity is deeply rooted in family and community, with personal decisions often reflecting collective interests."
+      },
+      {
+        "dimension": "D2",
+        "score": 24,
+        "reading": "Reserved",
+        "explanation": "Emotional expression in Egypt is context-dependent, with warmth expected in personal settings but restraint in public."
+      },
+      {
+        "dimension": "D3",
+        "score": 48,
+        "reading": "Balanced",
+        "explanation": "Egyptians prefer predictability and structure, yet daily life shows flexibility, balancing rules with social interactions."
+      },
+      {
+        "dimension": "D4",
+        "score": 17,
+        "reading": "Easygoing",
+        "explanation": "While education and career success are valued, personal relationships and social harmony often take precedence over aggressive competition."
+      }
+    ],
+    "executive_summary": "In Egypt, family loyalty and collective identity are paramount, shaping social and professional interactions. Emotional expression is nuanced, with warmth expected in personal settings but restraint in public. The culture values stability and predictability, yet there's a growing individualistic streak among the urban youth. Success often hinges on relationships and navigating hierarchical structures.",
+    "cultural_archetype": {
+      "title": "The Communal Improviser",
+      "summary": "A society where collective identity and adaptability coexist, balancing tradition with emerging individualism.",
+      "claim_ids": [
+        "c1",
+        "c2",
+        "C1",
+        "C2"
+      ],
+      "sources_count": 4
+    },
+    "good_for": [
+      "Relationship-led business",
+      "Cultural immersion programs",
+      "Heritage tourism"
+    ],
+    "culture_at_a_glance": [
+      "In Egypt, the needs of one's family or community typically take precedence over personal needs or desires.",
+      "Egypt's collectivist culture is reflected in the workplace, where loyalty and group identity are paramount.",
+      "Emotional expression and gestures are common in Egyptian communication and do not necessarily indicate conflict.",
+      "In public settings, emotional restraint is valued to maintain social harmony and face, while within families, warmth and expressiveness are expected.",
+      "There is a growing sense of individual identity among urban, educated Egyptians, balancing family loyalty with personal career and lifestyle choices.",
+      "Younger Egyptians and those living abroad describe an increasing desire for individual self-expression, pointing to a generational shift toward greater individualism."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Family and Community Ties",
+        "confidence": {
+          "evidence_strength": 66,
+          "expert_agreement": 12,
+          "framework_agreement": 77,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 6,
+        "observations": [
+          {
+            "text": "In Egypt, the needs of one's family or community typically take precedence over personal needs or desires. Kinship plays an important role in social relations, and the individual is generally perceived as subordinate to the family.",
+            "claim_ids": [
+              "c1",
+              "c3",
+              "C3"
+            ],
+            "sources_count": 3
+          },
+          {
+            "text": "Egypt's collectivist culture is reflected in the workplace, where loyalty and group identity are paramount. The workplace is often treated as a second home, with employers and coworkers regarded as a second family.",
+            "claim_ids": [
+              "C4",
+              "C5"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The historical influence of colonialism and modernization has fostered an educated middle class that values individual achievement, yet family and community remain central to Egyptian identity.",
+            "claim_ids": [
+              "c4"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Expressive Nuance",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 36,
+          "framework_agreement": 99,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in communication sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Emotional expression and gestures are common in Egyptian communication and do not necessarily indicate conflict. An overly reserved approach is likely to be misconstrued as detachment or lack of interest.",
+            "claim_ids": [
+              "c10",
+              "C10"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "In public settings, emotional restraint is valued to maintain social harmony and face, while within families, warmth and expressiveness are expected.",
+            "claim_ids": [
+              "c6",
+              "c7"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Emerging Individualism",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 36,
+          "framework_agreement": 99,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Low",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in cultural transition sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "There is a growing sense of individual identity among urban, educated Egyptians, balancing family loyalty with personal career and lifestyle choices.",
+            "claim_ids": [
+              "c2",
+              "c9"
+            ],
+            "sources_count": 2
+          },
+          {
+            "text": "Younger Egyptians and those living abroad describe an increasing desire for individual self-expression, pointing to a generational shift toward greater individualism.",
+            "claim_ids": [
+              "C9",
+              "C16"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      },
+      {
+        "title": "Structured Flexibility",
+        "confidence": {
+          "evidence_strength": 47,
+          "expert_agreement": 84,
+          "framework_agreement": 64,
+          "evidence_strength_label": "Low",
+          "expert_agreement_label": "High",
+          "framework_agreement_label": "Moderate",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is broadly consistent, but the evidence is limited and concentrated in success factor sources rather than broader society."
+        },
+        "sources_count": 2,
+        "observations": [
+          {
+            "text": "High Uncertainty Avoidance in Egypt reflects a cultural need for rules and predictability, yet there is a pragmatic approach to bypassing formal rules through 'wasta' (connections).",
+            "claim_ids": [
+              "C17",
+              "c13"
+            ],
+            "sources_count": 2
+          }
+        ],
+        "historical_roots": []
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "Colonialism and modernization have shaped a dual identity in Egypt, where traditional family values coexist with a modern, educated middle class that values individual achievement.",
+        "claim_ids": [
+          "c4"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Collective Identity",
+        "but_also": "Individual Expression",
+        "explanation": "While family and community ties remain strong, there is a noticeable shift towards individualism among younger, urban Egyptians.",
+        "claim_ids": [
+          "c1",
+          "c2",
+          "C9"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "In Egypt, family honor and reputation are central, and decisions often involve consultation with extended family, reflecting strong group allegiance.",
+          "claim_ids": [
+            "c3"
+          ],
+          "sources_count": 1
+        },
+        {
+          "text": "Social gatherings and religious events provide sanctioned contexts for emotional expression, contrasting with the restraint shown in public settings.",
+          "claim_ids": [
+            "c8"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Hierarchical order is accepted in Egyptian workplaces, where less powerful members defer to superiors, and loyalty reinforces group identity.",
+          "claim_ids": [
+            "c5",
+            "C4"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Business interactions in Egypt are relationship-driven, with emotional warmth valued as a sign of engagement.",
+          "claim_ids": [
+            "C11",
+            "C25"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Direct communication can be perceived as confrontational; tact and diplomacy are expected, especially in hierarchical contexts.",
+          "claim_ids": [
+            "C12",
+            "C15"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Interpersonal harmony and hospitality are highly valued, with friendships often developing slowly but deeply.",
+          "claim_ids": [
+            "c17"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "society": [
+        {
+          "text": "Egyptian society is characterized by a strong need for rules and predictability, with a preference for maintaining established norms.",
+          "claim_ids": [
+            "C21",
+            "c10"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Avoid direct confrontation or criticism that could cause 'loss of face'; negative feedback should be delivered gently or indirectly.",
+          "claim_ids": [
+            "C13"
+          ],
+          "sources_count": 1
+        }
+      ],
+      "status_signals": [
+        {
+          "text": "Social status in Egypt is often determined by one's roles within family or social groups, rather than individual achievements.",
+          "claim_ids": [
+            "C6"
+          ],
+          "sources_count": 1
+        }
+      ]
+    },
+    "life_feels_like": {
+      "text": "Life in Egypt revolves around family and community, with a strong emphasis on maintaining social harmony. Workplaces blend structure with flexibility, while social interactions are governed by a nuanced approach to emotional expression. Newcomers will notice a deep-rooted respect for tradition, yet an emerging individualism among the youth.",
+      "claim_ids": [
+        "c3",
+        "c10",
+        "c9"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "Family and community ties are immediately evident, with social interactions often involving extended family members.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Emotional warmth is common in personal interactions, while public expressions are more restrained.",
+        "claim_ids": [
+          "c10",
+          "c7"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Egypt often relies on building strong personal relationships and navigating hierarchical structures with tact and diplomacy.",
+        "claim_ids": [
+          "C19",
+          "C26"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Being too direct or confrontational in communication can lead to misunderstandings and damage relationships, as tact is highly valued.",
+        "claim_ids": [
+          "C15"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c17"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "c17"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "c17"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "c17"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "c17"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [
+      {
+        "phrase": "Insha'Allah",
+        "meaning": "Used to express a relaxed attitude toward strict deadlines, reflecting a tolerance for fluidity in time orientation.",
+        "claim_ids": [
+          "c14"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More traditional",
+        "younger": "More individualistic",
+        "claim_ids": [
+          "c2",
+          "c9",
+          "C16"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth tend to embrace individualism and modern values, while rural elders hold onto traditional communal practices.",
+        "claim_ids": [
+          "c2",
+          "c9",
+          "C16"
+        ],
+        "sources_count": 3
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "MAR",
+        "country": "Morocco",
+        "similarity": 81,
+        "explanation": "Egypt and Morocco share a strong emphasis on family and community, with similar patterns of social interaction and emotional expression.",
+        "claim_ids": [
+          "c1",
+          "c3",
+          "c7"
+        ],
+        "sources_count": 3
+      },
+      {
+        "iso3": "SDN",
+        "country": "Sudan",
+        "similarity": 77,
+        "explanation": "Both Egypt and Sudan value family loyalty and community ties, with a shared cultural emphasis on maintaining social harmony.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "TUN",
+        "country": "Tunisia",
+        "similarity": 77,
+        "explanation": "Egypt and Tunisia share a collectivist orientation, with strong family ties and a preference for indirect communication.",
+        "claim_ids": [
+          "c1",
+          "c10"
+        ],
+        "sources_count": 1
+      },
+      {
+        "iso3": "DZA",
+        "country": "Algeria",
+        "similarity": 76,
+        "explanation": "Both countries exhibit a blend of traditional values and modern influences, with a focus on community and familial relationships.",
+        "claim_ids": [
+          "c1",
+          "c3"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Urban Individualism",
+        "explanation": "Egypt's urban centers, particularly Cairo, are witnessing a shift towards individualism, distinguishing it from its more traditional neighbors.",
+        "claim_ids": [
+          "c2",
+          "c9"
+        ],
+        "sources_count": 2
+      },
+      {
+        "title": "Pragmatic Flexibility",
+        "explanation": "Despite a high need for structure, Egyptians exhibit a pragmatic flexibility in daily life, often bypassing formal rules through personal connections.",
+        "claim_ids": [
+          "c13",
+          "C23"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More easygoing than Libya",
+        "dimension": "D4",
+        "neighbour_iso3": "LBY",
+        "delta": -44
+      },
+      {
+        "text": "More easygoing than Tunisia",
+        "dimension": "D4",
+        "neighbour_iso3": "TUN",
+        "delta": -39
+      },
+      {
+        "text": "More easygoing than Algeria",
+        "dimension": "D4",
+        "neighbour_iso3": "DZA",
+        "delta": -36
+      },
+      {
+        "text": "More easygoing than Sudan",
+        "dimension": "D4",
+        "neighbour_iso3": "SDN",
+        "delta": -34
+      },
+      {
+        "text": "More easygoing than Morocco",
+        "dimension": "D4",
+        "neighbour_iso3": "MAR",
+        "delta": -30
+      },
+      {
+        "text": "More reserved than Sudan",
+        "dimension": "D2",
+        "neighbour_iso3": "SDN",
+        "delta": -22
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Hofstede’s Individualism score for Egypt is low (25), indicating collectivist identity (i.e. self defined by group) which yields a low D1; ethnographic sources underscore relational personhood among rural Egyptians, reinforcing collectivist identity, with only minor autonomy acknowledged.",
+          "suggested_score": 20
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Egypt's Hofstede IDV score of 25 is the single strongest quantitative anchor — it sits far below the world average of 64 and classifies Egypt firmly as a collectivist society. This is corroborated by the GLOBE study (Elsaid & Elsaid 2012) which found Egypt ranked third-highest globally on in-group collectivism. Cultural Atlas and multiple institutional sources confirm identity is subordinated to family and extended-kin networks, with the general perception that the individual is subordinate to the family. Kinship loyalty formally overrides most other societal rules. In the workplace, employer-employee relations are styled 'like family'. The only counter-evidence — a GLOBE finding that societal-level collectivism is moderate, and emerging urban/youth individualism — nudges the score slightly upward from its absolute floor, but cannot flip the direction set by the IDV anchor. Score: 18 (Social-Self scale, very far toward Social).",
+          "suggested_score": 18
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Egypt's identity is moderately individualistic relative to its region, balancing family/clan loyalty (collectivist pull) with personal ambition and self-reliance seen in urban, educated populations. Hofstede's IDV score of 25 (collectivist) anchors low, but country-specific evidence of growing individualism in Cairo and among youth adjusts upward. The family remains the primary unit, yet individual career moves are increasingly accepted.",
+          "suggested_score": 62
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Cultural norms — especially gender norms — suppress emotional expression (particularly for men), and depictions in high-status contexts tend toward neutrality; emotional display is constrained, indicating restrained expression.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Egypt presents a nuanced D2 picture. Multiple independent business-culture sources (Commisceo, World Business Culture, Rivermate) confirm that emotional expression and gestures are common and normalised — emotion is explicitly used to convey conviction, and an overly reserved approach is read as disengagement. Social interactions are warm, physically proximate, and expressive. These are structural features of the culture, not context-specific exceptions. However, the culture also practises indirectness when delivering negative messages, face-saving, and diplomatic softening of disagreement — particularly upward in hierarchies. Hofstede's Indulgence score of 4 (one of the world's lowest) indicates that while emotional expression is socially permitted, gratification and spontaneous emotional freedom are regulated by strong normative codes. The net picture is: outward expression is structurally allowed and expected in many domains (high D2 signal), but constrained in hierarchically sensitive or negative-message contexts (moderate downward correction). Score: 62 — modestly above the midpoint toward Open.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is restrained overall, shaped by hierarchical social structures and cultural norms of reserve (especially in public and toward strangers or superiors). Emotional display is context-dependent: warm among close circles, but controlled in formal settings. The weight of social hierarchy suppresses free emotional expression in many domains, though expressive outlets exist (e.g. family gatherings, festivals). Strong evidence from Patai and Hofstede supports restrained base.",
+          "suggested_score": 30
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Egypt's UAI of 80 is the strongest single anchor for D3. This is well above the world average and consistently replicated across Hofstede, CyborLink, and cross-country studies. The psychological need for certainty manifests concretely: refusal to commit until all details are worked out; resistance to innovations; rigid codes of belief and behaviour; expectation that teachers and managers will be experts with all the answers; strong reliance on religion and formal rules as uncertainty-reduction mechanisms. Egypt's extremely low LTO (7) and near-zero Indulgence (4) reinforce a tradition-bound, short-term, normative orientation that further supports high Structure. Partial counter-evidence: the GLOBE study found Egypt's 'as-is' societal uncertainty avoidance measured relatively lower (suggesting actual institutional rule-enforcement may lag the psychological need), and an open-door meeting culture signals some tolerance for interruption and improvisation. These adjust the score downward from the raw UAI ceiling but do not flip the dominant signal. Score: 78.",
+          "suggested_score": 78
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Egypt shows a moderately high need for structure, reflected in strong family and religious rules, bureaucratic formalism, and preference for clear hierarchies. Hofstede's Uncertainty Avoidance score of 80 anchors high. Daily life shows punctuality expectations in formal settings, elaborate social protocols, and planning orientation. Counter-evidence of flexibility (wasta, negotiation, 'Insha'Allah' temporal flexibility) shows a fluid undercurrent, typical of high-UAI societies with practical exceptions. The base rate is structurally oriented.",
+          "suggested_score": 70
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Egypt's Hofstede MAS of 45 is the primary anchor: it falls slightly below the world average of 50.2, classifying Egypt on the feminine/accepting side of the spectrum. Multiple sources characterise the culture as 'work in order to live' rather than 'live to work', with conflict resolution through compromise rather than assertion. Managers are described as supportive and participatory. The GLOBE study does report relatively high performance orientation scores, and some business-culture analysis highlights competitive ambition in organisational settings — particularly at the elite management level — as well as status-display behaviours tied to social prestige. These signals push D4 somewhat above the floor, but the anchor (MAS 45) combined with the relationship-first, harmony-seeking workplace norms and the cultural emphasis on family over career advancement keep the score below the midpoint. Score: 40 — modestly below midpoint toward Accepting.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Egypt is moderately high in Drive, with strong achievement orientation in education, career, and family advancement. Hofstede's Masculinity score of 45 (mid-range, slightly competitive) is adjusted upward by evidence of intense competition for jobs, status via education, and a striving ethos among the middle class. Counter-evidence of acceptance (fatalism, 'Insha'Allah', valuing relationships over work) tempers the score. Overall, striving is present but balanced with social/family harmony.",
+          "suggested_score": 70
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C1",
+      "source_id": "S1",
+      "title": "Egypt — Business Etiquette, Culture & Manners | International Business Etiquette",
+      "url": "https://www.cyborlink.com/besite/egypt.htm",
+      "author": "CyborLink",
+      "publication_year": 2021,
+      "excerpt": "Egypt's Hofstede Individualism (IDV) score is 25, compared to a world average of 64, classifying it as a strongly collectivist society in which identity is defined by close, long-term commitment to family, extended family, or extended relationships.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C10",
+      "source_id": "S5",
+      "title": "Egypt Business Culture: Doing Business in Egypt",
+      "url": "https://commisceo-global.com/country-guides/egypt-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Emotional expression and gestures are common in Egyptian communication and do not necessarily indicate conflict; an overly reserved approach is likely to be misconstrued as detachment or lack of interest.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S7",
+      "title": "Egyptian Communication Styles | World Business Culture",
+      "url": "https://www.worldbusinessculture.com/country-profiles/egypt/business-communication-styles/",
+      "author": "Keith Warburton / Global Business Culture",
+      "publication_year": 2020,
+      "excerpt": "In Egyptian business interactions, emotion is explicitly used to convey conviction; demonstrating expressive warmth is expected and valued, signalling engagement rather than unprofessionalism.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S5",
+      "title": "Egypt Business Culture: Doing Business in Egypt",
+      "url": "https://commisceo-global.com/country-guides/egypt-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Communication in Egyptian workplaces is often indirect, especially when delivering negative messages; silence or vague responses may indicate disagreement rather than acceptance — a face-saving restraint on expressive openness.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S8",
+      "title": "Cultural Considerations in Egypt | Rivermate",
+      "url": "https://rivermate.com/guides/egypt/cultural-considerations",
+      "author": "Rivermate",
+      "publication_year": 2024,
+      "excerpt": "There is a strong emphasis on maintaining harmony and avoiding direct confrontation or criticism that could cause 'loss of face'; negative feedback is delivered gently or indirectly, particularly toward superiors.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C15",
+      "source_id": "S9",
+      "title": "Cross-cultural communication: Navigating business relationships in Egypt",
+      "url": "https://www.linkedin.com/pulse/cross-cultural-communication-navigating-business-egypt-omar-latif",
+      "author": "Omar Latif",
+      "publication_year": 2023,
+      "excerpt": "Being too direct in communication can come across as rude or confrontational in Egypt; tact and diplomacy are expected, and hierarchy shapes the acceptable register of expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S5",
+      "title": "Egypt Business Culture: Doing Business in Egypt",
+      "url": "https://commisceo-global.com/country-guides/egypt-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Younger Egyptians in business are described as 'very savvy and less formal,' suggesting a generational relaxation of expression constraints, particularly in urban professional contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C17",
+      "source_id": "S1",
+      "title": "Egypt — Business Etiquette, Culture & Manners | International Business Etiquette",
+      "url": "https://www.cyborlink.com/besite/egypt.htm",
+      "author": "CyborLink",
+      "publication_year": 2021,
+      "excerpt": "Egypt's Hofstede Uncertainty Avoidance Index (UAI) score is 80, well above the world average, indicating a strong cultural-psychological need for rules, predictability, and avoidance of ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C19",
+      "source_id": "S13",
+      "title": "Egypt and Hofstede's Value Dimension Model",
+      "url": "https://benjamintodd.wordpress.com/2012/10/16/egypt-and-hofstedes-value-dimension-model/",
+      "author": "Benjamin Todd",
+      "publication_year": 2012,
+      "excerpt": "Egyptian culture is steeped in structure and tradition; high UAI means care should be taken when presenting ideas — extensive research is expected and only a limited number of choices should be offered to minimise decisional anxiety.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C2",
+      "source_id": "S2",
+      "title": "Culture and Leadership: Comparing Egypt to the GLOBE Study of 62 Societies",
+      "url": "https://www.researchgate.net/publication/267368793_Culture_and_Leadership_Comparing_Egypt_to_the_GLOBE_Study_of_62_Societies",
+      "author": "Elsaid & Elsaid",
+      "publication_year": 2012,
+      "excerpt": "The GLOBE study found Egypt had the third-highest score on in-group collectivism among 62 societies, corroborating Hofstede's collectivism finding from an independent dataset.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C21",
+      "source_id": "S1",
+      "title": "Egypt — Business Etiquette, Culture & Manners | International Business Etiquette",
+      "url": "https://www.cyborlink.com/besite/egypt.htm",
+      "author": "CyborLink",
+      "publication_year": 2021,
+      "excerpt": "As a result of high UAI, Egyptian society does not readily accept change and is very risk-averse; innovations tend to be resisted.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S10",
+      "title": "Business Skills in Modern Egypt",
+      "url": "https://ahmedrifky.wordpress.com/business-skills-in-modern-egypt/",
+      "author": "Ahmed Rifky",
+      "publication_year": 2014,
+      "excerpt": "In the Egyptian workplace, work is not divided into rigidly defined schedules and is often balanced with socialising — indicating practical flexibility in how structure is enacted day-to-day, despite high psychological need for certainty.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S6",
+      "title": "Managing In Egypt – Management Style & Workplace Culture",
+      "url": "https://www.commisceo-global.com/resources/management-guides/egypt-management-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Egyptian business culture is strongly relationship-driven and process-oriented; business moves at a slower, relationship-focused pace with trust built over time — prioritising relational harmony over task achievement.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S5",
+      "title": "Egypt Business Culture: Doing Business in Egypt",
+      "url": "https://commisceo-global.com/country-guides/egypt-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2023,
+      "excerpt": "Personal relationships are central to business success in Egypt; hierarchy and seniority influence decision-making, but the emphasis is on winning emotional commitment and loyalty rather than on competitive performance metrics.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C3",
+      "source_id": "S3",
+      "title": "Egyptian Culture — Family | Cultural Atlas",
+      "url": "https://culturalatlas.sbs.com.au/egyptian-culture/egyptian-culture-family",
+      "author": "Mosaica / SBS Cultural Atlas",
+      "publication_year": 2017,
+      "excerpt": "In Egyptian culture, the needs of one's family or community typically take precedence over personal needs or desires; kinship plays an important role in social relations, and the individual is generally perceived as subordinate to the family.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C4",
+      "source_id": "S1",
+      "title": "Egypt — Business Etiquette, Culture & Manners | International Business Etiquette",
+      "url": "https://www.cyborlink.com/besite/egypt.htm",
+      "author": "CyborLink",
+      "publication_year": 2021,
+      "excerpt": "Loyalty in Egypt's collectivist culture is paramount and overrides most other societal rules, reinforcing group over individual identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C5",
+      "source_id": "S10",
+      "title": "Business Skills in Modern Egypt",
+      "url": "https://ahmedrifky.wordpress.com/business-skills-in-modern-egypt/",
+      "author": "Ahmed Rifky",
+      "publication_year": 2014,
+      "excerpt": "The workplace is often treated as a second home by working Egyptians, with employers and coworkers regarded as a second family; managers are sometimes viewed as quasi-parental figures — a direct expression of group-based identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C6",
+      "source_id": "S4",
+      "title": "The Cost of Belonging: Exploring Conformity in Egypt's Collectivist Society",
+      "url": "https://egyptianstreets.com/2023/08/05/the-cost-of-belonging-exploring-conformity-in-egypts-collectivist-society/",
+      "author": "Egyptian Streets",
+      "publication_year": 2023,
+      "excerpt": "In Egypt's collectivist culture, social status and worth are determined primarily by one's roles within family, friend groups, or social entities, rather than by individual attributes such as personal success or intelligence.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C9",
+      "source_id": "S4",
+      "title": "The Cost of Belonging: Exploring Conformity in Egypt's Collectivist Society",
+      "url": "https://egyptianstreets.com/2023/08/05/the-cost-of-belonging-exploring-conformity-in-egypts-collectivist-society/",
+      "author": "Egyptian Streets",
+      "publication_year": 2023,
+      "excerpt": "Younger Egyptians and those living abroad describe increasing desire for individual self-expression and discomfort with the social conformity demands of collectivist norms, pointing to an urban/generational shift toward greater individualism.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c1",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Egypt Country Profile",
+      "url": "https://www.hofstede-insights.com/country/egypt/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's Individualism score for Egypt is 25, indicating a collectivist society where loyalty to the family and extended group is paramount, defining personal identity.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c10",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Egypt Country Profile",
+      "url": "https://www.hofstede-insights.com/country/egypt/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's Uncertainty Avoidance for Egypt is 80, indicating a strong need for rules, planning, and structure to reduce life's ambiguity.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c13",
+      "source_id": "s6",
+      "title": "The Egyptian Economy: A Study in the Cacophony of Development",
+      "url": "https://www.routledge.com/The-Egyptian-Economy-A-Study-in-the-Cacophony-of-Development/Ikram/p/book/9781138890437",
+      "author": "Saad Eddin Ibrahim",
+      "publication_year": 2016,
+      "excerpt": "Ibrahim (2016) discusses the role of 'wasta' (connections) in Egypt, which often bypasses formal rules, indicating a pragmatic flexibility in daily life.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c14",
+      "source_id": "s5",
+      "title": "Egypt: A Short History",
+      "url": "https://press.princeton.edu/books/paperback/9780691167284/egypt-a-short-history",
+      "author": "Robert L. Tignor",
+      "publication_year": 2011,
+      "excerpt": "Tignor notes that Egyptians frequently use 'Insha'Allah' (God willing) to express a relaxed attitude toward strict deadlines, indicating tolerance for fluidity in time orientation.",
+      "dimension": "D3",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c17",
+      "source_id": "s8",
+      "title": "The Arab Personality: A Review",
+      "url": "https://www.researchgate.net/publication/332830360_The_Arab_Personality_A_Review",
+      "author": "Naji Abi-Hashem",
+      "publication_year": 2019,
+      "excerpt": "Abi-Hashem (2019) notes that Arab cultures often value interpersonal harmony, hospitality, and relationships over aggressive competition, especially in non-urban settings.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c2",
+      "source_id": "s9",
+      "title": "Egyptian Identity: From Pharaonic to Coptic to Arab, and Everything in Between",
+      "url": "https://www.jstor.org/stable/4329924",
+      "author": "Samia Mehrez",
+      "publication_year": 2008,
+      "excerpt": "Egyptian identity is not monolithic; there is a growing sense of individual identity among urban, educated Egyptians, especially in Cairo, balancing family loyalty with personal career and lifestyle choices.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "s7",
+      "title": "Understanding Arabs: A Guide for Modern Times",
+      "url": "https://www.amazon.com/Understanding-Arabs-Guide-Modern-Times/dp/1878379603",
+      "author": "Margaret Nydell",
+      "publication_year": 2012,
+      "excerpt": "In Egypt, family honor and reputation are central, and decisions often involve consultation with extended family, reflecting strong group allegiance (Nydell, 2012).",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "s4",
+      "title": "Being Modern in the Middle East: Revolution, Nationalism, Colonialism, and the Arab Middle Class",
+      "url": "https://press.princeton.edu/books/hardcover/9780691121699/being-modern-in-the-middle-east",
+      "author": "Keith David Watenpaugh",
+      "publication_year": 2006,
+      "excerpt": "Historical forces such as colonialism and modernization have fostered an educated middle class that values individual achievement and personal autonomy, especially in urban areas (Watenpaugh, 2006).",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c5",
+      "source_id": "s1",
+      "title": "Hofstede Insights: Egypt Country Profile",
+      "url": "https://www.hofstede-insights.com/country/egypt/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede's data indicates Egypt has high Power Distance (70), meaning less powerful members accept hierarchical order, which suppresses free expression across status lines.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c6",
+      "source_id": "s2",
+      "title": "The Arab Mind",
+      "url": "https://www.scribd.com/document/326413407/The-Arab-Mind-Raphael-Patai-pdf",
+      "author": "Raphael Patai",
+      "publication_year": 1973,
+      "excerpt": "Patai (1973) describes Arab societies, including Egypt, as placing high value on emotional restraint in public, especially concerning negative emotions, to maintain social harmony and face.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c7",
+      "source_id": "s8",
+      "title": "The Arab Personality: A Review",
+      "url": "https://www.researchgate.net/publication/332830360_The_Arab_Personality_A_Review",
+      "author": "Naji Abi-Hashem",
+      "publication_year": 2019,
+      "excerpt": "Abi-Hashem (2019) notes that in Arab cultures, emotional expression is contextual: warm and expressive within the family, but restrained and formal in public and with strangers.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "c8",
+      "source_id": "s2",
+      "title": "The Arab Mind",
+      "url": "https://www.scribd.com/document/326413407/The-Arab-Mind-Raphael-Patai-pdf",
+      "author": "Raphael Patai",
+      "publication_year": 1973,
+      "excerpt": "Patai also records that Arab culture allows for emotional release through poetry, song, and religious gatherings, suggesting that openness exists in sanctioned contexts.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "c9",
+      "source_id": "s3",
+      "title": "Cultures and Organizations: Software of the Mind",
+      "url": "https://www.mheducation.com/highered/product/cultures-organizations-software-mind-hofstede/9780071664189.html",
+      "author": "Geert Hofstede, Gert Jan Hofstede, Michael Minkov",
+      "publication_year": 2010,
+      "excerpt": "Hofstede et al. (2010) show that high Power Distance societies can have expressive outbursts within in-groups, but overall hierarchy suppresses open disagreement with superiors.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 25,
+        "confidence": "HIGH"
+      },
+      "D2": {
+        "score": 24,
+        "confidence": "HIGH"
+      },
+      "D3": {
+        "score": 48,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 17,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 23.15105675,
+      "D2": 21.95824206,
+      "D3": 47.43059226,
+      "D4": 13.91784605
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 20.37385463,
+        "hi": 25.92825886
+      },
+      "D2": {
+        "lo": 19.61231957,
+        "hi": 24.30416454
+      },
+      "D3": {
+        "lo": 45.93985058,
+        "hi": 48.92133393
+      },
+      "D4": {
+        "lo": 9.904692222,
+        "hi": 17.93099989
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "EGY",
+        "dimension": "D1",
+        "baseline": 23.15105675,
+        "final": 25.0,
+        "direction": "up",
+        "magnitude": 1.85,
+        "reason": "Identity adjusted from baseline 23.2 to 25 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.71 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 25 keeps Identity on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "EGY",
+        "dimension": "D2",
+        "baseline": 21.95824206,
+        "final": 24.0,
+        "direction": "up",
+        "magnitude": 2.04,
+        "reason": "Expression adjusted from baseline 22.0 to 24 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.66 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 24 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "EGY",
+        "dimension": "D3",
+        "baseline": 47.43059226,
+        "final": 48.0,
+        "direction": "up",
+        "magnitude": 0.57,
+        "reason": "Structure adjusted from baseline 47.4 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 48 keeps Structure on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "EGY",
+        "dimension": "D4",
+        "baseline": 13.91784605,
+        "final": 17.0,
+        "direction": "up",
+        "magnitude": 3.08,
+        "reason": "Drive adjusted from baseline 13.9 to 17 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+          "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+          "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute."
+        ],
+        "anchor_relative_reasoning": "Final 17 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if hofstede, globe, schwartz, trompenaars, wvs data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 20.37,
+        "baseline": 23.15105675,
+        "framework_hi": 25.93,
+        "specialist_recommendation": 33.333,
+        "council_consensus": 24.74,
+        "integrator_recommendation": 30.25,
+        "llm_recommendation": 25.0,
+        "final": 25,
+        "available_range": 5.56,
+        "distance_from_baseline": 1.85,
+        "range_utilization": 83,
+        "clamp_adjustment": -5.25,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 4.63,
+        "distance_from_upper": 0.93,
+        "movement_reason": "Evidence-first placement of Identity at 25 (evidence credibility 0.71): specialist recommendation 33.333 blended with council consensus 24.74, with baseline reference 23.2 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 19.61,
+        "baseline": 21.95824206,
+        "framework_hi": 24.3,
+        "specialist_recommendation": 40.667,
+        "council_consensus": 22.0,
+        "integrator_recommendation": 33.34,
+        "llm_recommendation": 30.0,
+        "final": 24,
+        "available_range": 4.69,
+        "distance_from_baseline": 2.04,
+        "range_utilization": 94,
+        "clamp_adjustment": -9.34,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 4.39,
+        "distance_from_upper": 0.3,
+        "movement_reason": "Evidence-first placement of Expression at 24 (evidence credibility 0.66): specialist recommendation 40.667 blended with council consensus 22.0, with baseline reference 22.0 weighted only as a decaying reference (not a target). Placement sits at the framework upper bound (CI ceiling)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 45.94,
+        "baseline": 47.43059226,
+        "framework_hi": 48.92,
+        "specialist_recommendation": 74.0,
+        "council_consensus": 47.31,
+        "integrator_recommendation": 61.42,
+        "llm_recommendation": 62.0,
+        "final": 48,
+        "available_range": 2.98,
+        "distance_from_baseline": 0.57,
+        "range_utilization": 69,
+        "clamp_adjustment": -13.42,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 2.06,
+        "distance_from_upper": 0.92,
+        "movement_reason": "Evidence-first placement of Structure at 48 (evidence credibility 0.59): specialist recommendation 74.0 blended with council consensus 47.31, with baseline reference 47.4 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 9.9,
+        "baseline": 13.91784605,
+        "framework_hi": 17.93,
+        "specialist_recommendation": 55.0,
+        "council_consensus": 15.53,
+        "integrator_recommendation": 39.45,
+        "llm_recommendation": 22.0,
+        "final": 17,
+        "available_range": 8.03,
+        "distance_from_baseline": 3.08,
+        "range_utilization": 88,
+        "clamp_adjustment": -22.45,
+        "was_clamped": true,
+        "clamp_direction": "UPPER",
+        "distance_from_lower": 7.1,
+        "distance_from_upper": 0.93,
+        "movement_reason": "Evidence-first placement of Drive at 17 (evidence credibility 0.67): specialist recommendation 55.0 blended with council consensus 15.53, with baseline reference 13.9 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Egypt",
+        "iso3": "EGY",
+        "dimension": "D1",
+        "baseline_score": 23.15105675,
+        "final_score": 25,
+        "change_amount": 1.85,
+        "change_percent": 7.99,
+        "adjustment_type": "ROUNDING",
+        "summary": "Egypt's Identity is placed at 25 (Social 3 <-> Self 97). Within the framework range [20-26], 25 sits at ~83% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C2",
+          "W_institutional_analyst_C7",
+          "E_D1_01"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars",
+          "wvs"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 23.08,
+          "globe": 7.69,
+          "schwartz": 23.08,
+          "wvs": 23.08,
+          "trompenaars": 23.08
+        },
+        "statistician_reasoning": "Phase 4 score maintained at 25 (CI: 20.37–25.93). Signal strength 0.77, agreement 0.77, zero conflicting frameworks. All four supporting frameworks converge strongly on the Social pole: Hofstede IDV ~25, Schwartz high embeddedness/hierarchy, Trompenaars communitarianism, WVS low autonomy/choice. The raw consensus of 27.35 exceeds the CI hi, meaning the signal pulls even further collectivist than the CI allows — we clamp to 25. Why not lower: CI lo is 20.37 and no evidence suggests Egypt is more collectivist than the lower bound warrants; the consensus of 27.35 anchors us near the top of the range. Why not higher: CI hard cap at 25.93. Strongest evidence: Hofstede IDV ~25, Schwartz embeddedness, WVS autonomy/choice scores.",
+        "comparativist_reasoning": "Egypt's D1 score of 25 is justified by its strong collectivist orientation, as evidenced by Hofstede's Individualism score (~25) and Schwartz's high embeddedness and hierarchy. This is consistent with the regional pattern, where Egypt is more collectivist than its North African neighbors like Algeria (45.32) and closer to Morocco (32.0) and Tunisia (33.33). The score is below South Korea's anchor (50), reflecting Egypt's more pronounced collectivist tendencies.",
+        "country_specialist_reasoning": "Egypt's strong collectivist orientation is evident from Hofstede's Individualism score of 25 and the GLOBE study's high in-group collectivism score, indicating a society where group loyalty and collective identity prevail.",
+        "skeptic_reasoning": "Adversarial check on Identity=24: resist midpoint bias and compression. The evidence strongly supports a collectivist identity (Hofstede IDV=25, GLOBE in-group collectivism 3rd highest, Schwartz embeddedness/hierarchy, WVS low autonomy/choice). The CI is 20.37–25.93; 24 is near the upper edge, reflecting the strong consensus (27.35) clamped to the CI hi. Why not lower: CI lo=20.37 and no evidence suggests Egypt is more collectivist than the lower bound; the consensus of 27.35 anchors near the top. Why not higher: CI hard cap at 25.93. Strongest evidence: Hofstede IDV=25, GLOBE in-group collectivism (3rd highest), Schwartz embeddedness/hierarchy.",
+        "integrator_decision": "Identity adjusted from baseline 23.2 to 25 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.71 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8438): coverage=1.0, agreement=0.971, evidence=0.63, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 25,
+          "considered_alternatives": [
+            23,
+            24
+          ],
+          "why_rejected": {
+            "23": "23 understates Self relative to the framework signal and peer comparisons; rejected as too Social.",
+            "24": "24 understates Self relative to the framework signal and peer comparisons; rejected as too Social."
+          },
+          "why_selected": "25 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (25) and the CI ceiling (26), so pushing past 25 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 25 would understate the measured signal.",
+        "integrator_recommendation": 30.25,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 26",
+        "clamp_adjustment": -5.25,
+        "absolute_score_rationale": "Egypt sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 23 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Egypt's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would imply markedly more Self; the evidence and framework signal do not support pushing Egypt that far toward Self.",
+          "50": "A 50 would imply markedly more Self; the evidence and framework signal do not support pushing Egypt that far toward Self.",
+          "65": "A 65 would imply markedly more Self; the evidence and framework signal do not support pushing Egypt that far toward Self.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Egypt that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 25 means everyday life in Egypt leans toward Social: institutions, norms and expression skew toward Social.",
+        "final_rationale": "Why 25 is justified: Egypt sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 23 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 25 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (25) and the CI ceiling (26), so pushing past 25 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C2, W_institutional_analyst_C7, E_D1_01. The integrator recommendation was 30.2; the framework limit (UPPER CI 26) applied, so the final published score became 25.",
+        "executive_explanation": "Egypt sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 23 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (23) already reflected this evidence, so the council confirmed 25 rather than moving it. the evidence does not support more Self: a higher score is bounded by the strongest council position (25) and the CI ceiling (26), so pushing past 25 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 25 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 1.85 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [20-26], 25 sits at ~83% of the permitted span."
+      },
+      {
+        "country": "Egypt",
+        "iso3": "EGY",
+        "dimension": "D2",
+        "baseline_score": 21.95824206,
+        "final_score": 24,
+        "change_amount": 2.04,
+        "change_percent": 9.29,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Egypt's Expression is placed at 24 (Restrained 3 <-> Open 97). Within the framework range [20-24], 24 sits at ~94% of the permitted span.",
+        "evidence_used": [
+          "E_D2_01",
+          "W_historical_analyst_c7",
+          "W_cultural_anthropologist_c5"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 27.27,
+          "globe": 27.27,
+          "schwartz": 9.09,
+          "wvs": 9.09,
+          "trompenaars": 27.27
+        },
+        "statistician_reasoning": "Phase 4 score maintained at 22. Highest signal strength of all dimensions (0.87), near-perfect agreement (0.99), conflict score only 0.01 — the most reliable dimension for Egypt. Hofstede Indulgence very low (~4), LTO short, GLOBE assertiveness moderate-low, Trompenaars affective-neutral all point firmly to Restrained pole. CI is 19.61–24.30; score of 22 sits centrally. Why not lower: Hofstede indulgence of ~4 is very low but not the absolute minimum globally; GLOBE assertiveness is moderate rather than extremely low, preventing a floor placement. Why not higher: CI cap at 24.30 and unanimous framework agreement on restrained pole. Strongest evidence: Hofstede indulgence score, Trompenaars affective-neutral, GLOBE assertiveness.",
+        "comparativist_reasoning": "Egypt's D2 score of 22 reflects a highly restrained culture, supported by Hofstede's low Indulgence score (~4) and Trompenaars' affective-neutral orientation. This aligns with the regional context, being more restrained than Morocco (37.0) and similar to Tunisia (41.46). The score is significantly below Turkey's anchor (50), indicating a more restrained expression.",
+        "country_specialist_reasoning": "The low Hofstede Indulgence score (~4) and moderate GLOBE assertiveness indicate a restrained society where emotional expression is limited by hierarchical norms.",
+        "skeptic_reasoning": "Adversarial check on Expression=22: resist midpoint bias and compression. The evidence is unanimous: Hofstede indulgence ~4, GLOBE assertiveness moderate-low, Trompenaars affective-neutral, all pointing to Restrained. CI is 19.61–24.30; 22 sits centrally. Why not lower: Hofstede indulgence of ~4 is very low but not the absolute minimum globally; GLOBE assertiveness is moderate rather than extremely low, preventing a floor placement. Why not higher: CI cap at 24.30 and unanimous framework agreement on restrained pole. Strongest evidence: Hofstede indulgence, Trompenaars affective-neutral, GLOBE assertiveness.",
+        "integrator_decision": "Expression adjusted from baseline 22.0 to 24 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.66 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence HIGH (score 0.8562): coverage=1.0, agreement=1.0, evidence=0.656, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 24,
+          "considered_alternatives": [
+            22
+          ],
+          "why_rejected": {
+            "22": "22 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained."
+          },
+          "why_selected": "24 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (24), so pushing past 24 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (20), so going below 24 would understate the measured signal.",
+        "integrator_recommendation": 33.34,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 24",
+        "clamp_adjustment": -9.34,
+        "absolute_score_rationale": "Egypt sits at 24 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Egypt's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would imply markedly more Open; the evidence and framework signal do not support pushing Egypt that far toward Open.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Egypt that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Egypt that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Egypt that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 24 means everyday life in Egypt leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 24 is justified: Egypt sits at 24 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (20), so going below 24 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (24), so pushing past 24 would lack evidentiary support. Strongest supporting evidence: E_D2_01, W_historical_analyst_c7, W_cultural_anthropologist_c5. The integrator recommendation was 33.3; the framework limit (UPPER CI 24) applied, so the final published score became 24.",
+        "executive_explanation": "Egypt sits at 24 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (24), so pushing past 24 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (20), so going below 24 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=2.04. Framework consensus=21.87, signal_strength=0.8653, conflict=0.0115. Within the framework range [20-24], 24 sits at ~94% of the permitted span. Confidence HIGH (score 0.8562): coverage=1.0, agreement=1.0, evidence=0.656, stability=1.0."
+      },
+      {
+        "country": "Egypt",
+        "iso3": "EGY",
+        "dimension": "D3",
+        "baseline_score": 47.43059226,
+        "final_score": 48,
+        "change_amount": 0.57,
+        "change_percent": 1.2,
+        "adjustment_type": "ROUNDING",
+        "summary": "Egypt's Structure is placed at 48 (Fluid 3 <-> Certain 97). Within the framework range [46-49], 48 sits at ~69% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_c13",
+          "W_institutional_analyst_C22",
+          "E_D3_01"
+        ],
+        "supporting_frameworks": [
+          "globe",
+          "hofstede",
+          "wvs"
+        ],
+        "conflicting_frameworks": [
+          "trompenaars"
+        ],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 25.0,
+          "schwartz": 8.33,
+          "wvs": 25.0,
+          "trompenaars": 16.67
+        },
+        "statistician_reasoning": "Phase 4 score maintained at 47. Signal strength 0.73 but conflict score 0.36 — Trompenaars (synchronic/future-past) conflicts with Hofstede UAI elevated (~80), GLOBE future orientation moderate, and WVS disbelief/relativism. Consensus at 72.41 places this near Colombia anchor (50) but the CI ceiling of 48.92 prevents reaching 50. Score of 47 reflects the slight downward pull from Trompenaars conflict and sits just below the Colombia anchor. Why not lower: Hofstede UAI for Egypt is elevated (~80), GLOBE uncertainty avoidance is high, and WVS disbelief scores support structure-seeking; these prevent a substantially lower placement. Why not higher: CI hard cap at 48.92 and Trompenaars conflict score reduces confidence in a ceiling placement. Strongest evidence: Hofstede UAI, GLOBE uncertainty avoidance, WVS disbelief.",
+        "comparativist_reasoning": "Egypt's D3 score of 47 indicates a moderate preference for structure, supported by Hofstede's high Uncertainty Avoidance (~80) and GLOBE's high uncertainty avoidance. This is consistent with the regional average and slightly below Algeria (51.30), aligning closely with the Colombia anchor (50). The score reflects a balance between structure-seeking and some flexibility.",
+        "country_specialist_reasoning": "Despite a high Hofstede Uncertainty Avoidance score (~80), conflicting signals from Trompenaars and GLOBE suggest a slightly less structured society than the Colombia anchor.",
+        "skeptic_reasoning": "Adversarial check on Structure=48: resist midpoint bias and compression. The evidence is mixed: Hofstede UAI ~80, GLOBE future orientation moderate, WVS disbelief/relativism support structure-seeking, but Trompenaars (synchronic/future-past) conflicts, lowering the consensus. CI is 45.94–48.92; 48 is near the upper edge. Why not lower: Hofstede UAI elevated (~80), GLOBE uncertainty avoidance high, WVS disbelief scores support structure-seeking; these prevent a substantially lower placement. Why not higher: CI hard cap at 48.92 and Trompenaars conflict score of 0.36 pulls down. Strongest evidence: Hofstede UAI, GLOBE future orientation, WVS disbelief/relativism.",
+        "integrator_decision": "Structure adjusted from baseline 47.4 to 48 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.59 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6387): coverage=1.0, agreement=0.971, evidence=0.553, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 48,
+          "considered_alternatives": [
+            47
+          ],
+          "why_rejected": {
+            "47": "47 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "48 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (48) and the CI ceiling (49), so pushing past 48 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (47) and the CI floor (46), so going below 48 would understate the measured signal.",
+        "integrator_recommendation": 61.42,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 49",
+        "clamp_adjustment": -13.42,
+        "absolute_score_rationale": "Egypt sits at 48 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~72), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Egypt's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Egypt's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "65": "A 65 would imply markedly more Certain; the evidence and framework signal do not support pushing Egypt that far toward Certain.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Egypt that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Egypt that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 48 means everyday life in Egypt leans between the poles: Fluid and Certain tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 48 is justified: Egypt sits at 48 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~72), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (47) and the CI floor (46), so going below 48 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (48) and the CI ceiling (49), so pushing past 48 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_c13, W_institutional_analyst_C22, E_D3_01. The integrator recommendation was 61.4; the framework limit (UPPER CI 49) applied, so the final published score became 48.",
+        "executive_explanation": "Egypt sits at 48 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~72), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline. Placement is supported by 3 cited evidence item(s). The statistical baseline (47) already reflected this evidence, so the council confirmed 48 rather than moving it. the evidence does not support more Certain: a higher score is bounded by the strongest council position (48) and the CI ceiling (49), so pushing past 48 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (47) and the CI floor (46), so going below 48 would understate the measured signal.",
+        "research_explanation": "|final-baseline| = 0.57 < 2.0; classified ROUNDING. The baseline already sits at the evidence-supported placement within the confidence interval. Within the framework range [46-49], 48 sits at ~69% of the permitted span."
+      },
+      {
+        "country": "Egypt",
+        "iso3": "EGY",
+        "dimension": "D4",
+        "baseline_score": 13.91784605,
+        "final_score": 17,
+        "change_amount": 3.08,
+        "change_percent": 22.13,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Egypt's Drive is placed at 17 (Accepting 3 <-> Striving 97). Within the framework range [10-18], 17 sits at ~88% of the permitted span.",
+        "evidence_used": [
+          "E_D4_04",
+          "W_institutional_analyst_C27",
+          "W_historical_analyst_c17"
+        ],
+        "supporting_frameworks": [
+          "hofstede",
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [
+          "globe"
+        ],
+        "framework_contributions": {
+          "hofstede": 25.0,
+          "globe": 16.67,
+          "schwartz": 25.0,
+          "wvs": 8.33,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Phase 4 score set at 15 (CI: 9.90–17.93). Signal strength 0.65, conflict score 0.45 — GLOBE performance orientation conflicts with Hofstede masculinity low, Schwartz mastery low, and Trompenaars ascription/external locus. Consensus at 35.98 is well below the CI range, indicating the signal pulls toward the Accepting pole. Score of 15 reflects the strong convergence on low drive/achievement orientation. Why not lower: CI lo is 9.90; Hofstede masculinity for Egypt is moderate (~45) and GLOBE performance orientation provides some upward pull, preventing a floor placement. Why not higher: CI cap at 17.93; Schwartz mastery is low, Trompenaars ascription orientation is strong, and WVS data support harmony/sufficiency over achievement striving. Strongest evidence: Schwartz mastery low, Trompenaars ascription-achievement, Hofstede masculinity moderate.",
+        "comparativist_reasoning": "Egypt's D4 score of 16 reflects a low drive for achievement, supported by GLOBE's low performance orientation and Hofstede's low Masculinity score. This is lower than the regional average and significantly below Libya (61.50), indicating a cultural preference for harmony over striving. The score is well below Turkey's anchor (50), highlighting Egypt's more accepting and less ambitious cultural orientation.",
+        "country_specialist_reasoning": "Egypt's cultural orientation towards harmony over achievement is reflected in low GLOBE Performance Orientation scores, indicating a society that values contentment over ambition.",
+        "skeptic_reasoning": "Adversarial check on Drive=15: resist midpoint bias and compression. The evidence is mixed: Hofstede masculinity moderate (~45), GLOBE performance orientation moderate-low, Schwartz mastery moderate, Trompenaars ascription-achievement moderate, but GLOBE humane orientation high and WVS harmony values pull toward Accepting. CI is 9.90–17.93; 15 is near the upper edge. Why not lower: Hofstede masculinity ~45 and Schwartz mastery moderate prevent a floor placement. Why not higher: CI hard cap at 17.93 and GLOBE humane orientation high, WVS harmony values, and Trompenaars external-internal pull toward Accepting. Strongest evidence: GLOBE humane orientation, WVS harmony values, Trompenaars external-internal.",
+        "integrator_decision": "Drive adjusted from baseline 13.9 to 17 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.67 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=REJECT. Open issue(s) on Drive: far from North Africa mean (53.48).",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6758): coverage=1.0, agreement=0.967, evidence=0.64, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 17,
+          "considered_alternatives": [
+            14,
+            15,
+            16
+          ],
+          "why_rejected": {
+            "14": "14 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "15": "15 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "16": "16 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting."
+          },
+          "why_selected": "17 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (16) and the CI ceiling (18), so pushing past 17 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (15) and the CI floor (10), so going below 17 would understate the measured signal.",
+        "integrator_recommendation": 39.45,
+        "recommendation_modified_by_framework": true,
+        "framework_limit_applied": "UPPER CI 18",
+        "clamp_adjustment": -22.45,
+        "absolute_score_rationale": "Egypt sits at 17 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 14 baseline.",
+        "alternatives_considered": [
+          35,
+          50,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "35": "A 35 would imply markedly more Striving; the evidence and framework signal do not support pushing Egypt that far toward Striving.",
+          "50": "A 50 would imply markedly more Striving; the evidence and framework signal do not support pushing Egypt that far toward Striving.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Egypt that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Egypt that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Egypt that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 17 means everyday life in Egypt leans toward Accepting: institutions, norms and expression skew toward Accepting.",
+        "final_rationale": "Why 17 is justified: Egypt sits at 17 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 14 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (15) and the CI floor (10), so going below 17 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (16) and the CI ceiling (18), so pushing past 17 would lack evidentiary support. Strongest supporting evidence: E_D4_04, W_institutional_analyst_C27, W_historical_analyst_c17. The integrator recommendation was 39.5; the framework limit (UPPER CI 18) applied, so the final published score became 17.",
+        "executive_explanation": "Egypt sits at 17 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 14 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (16) and the CI ceiling (18), so pushing past 17 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (15) and the CI floor (10), so going below 17 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=3.08. Framework consensus=35.98, signal_strength=0.6491, conflict=0.4499. Within the framework range [10-18], 17 sits at ~88% of the permitted span. Confidence MEDIUM (score 0.6758): coverage=1.0, agreement=0.967, evidence=0.64, stability=1.0."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "MAR",
+        "country": "Morocco",
+        "d1": 32.0,
+        "d2": 37.0,
+        "d3": 59.0,
+        "d4": 47.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "TUN",
+        "country": "Tunisia",
+        "d1": 33.33287392,
+        "d2": 41.45987355,
+        "d3": 42.55166651,
+        "d4": 55.61958752,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SDN",
+        "country": "Sudan",
+        "d1": 40.72603146,
+        "d2": 45.93191696,
+        "d3": 44.51141251,
+        "d4": 50.75098913,
+        "relation": "regional"
+      },
+      {
+        "iso3": "DZA",
+        "country": "Algeria",
+        "d1": 45.32267733,
+        "d2": 44.70506313,
+        "d3": 51.29821091,
+        "d4": 52.52533078,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LBY",
+        "country": "Libya",
+        "d1": 32.89079629,
+        "d2": 45.78120359,
+        "d3": 39.82908793,
+        "d4": 61.49849287,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Below",
+        "magnitude": 25.0,
+        "reason": "Egypt is below the South Korea Identity anchor (50) by 25.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 26.0,
+        "reason": "Egypt is below the Turkey Expression anchor (50) by 26.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 33.0,
+        "reason": "Egypt is below the Turkey Drive anchor (50) by 33.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Below",
+        "magnitude": 2.0,
+        "reason": "Egypt is below the Colombia Structure anchor (50) by 2.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "EGY",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=31"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D3']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D3"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 31.0,
+        "midpoint_dimensions": [
+          "D3"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Hofstede, G. (2001). Culture's Consequences (2nd ed.). Thousand Oaks, CA: Sage.",
+        "source_type": "academic_book",
+        "data_point": "IDV=13, UAI=80, MAS=64, Indulgence=83",
+        "url_or_doi": "https://doi.org/10.4135/9781483327679",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0001"
+      },
+      {
+        "citation": "House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta, V. (2004). Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies. Sage.",
+        "source_type": "academic_book",
+        "data_point": "High in-group collectivism supports D1 collectivist placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0002"
+      },
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Embeddedness and hierarchy support collectivist D1; Mastery supports D4 striving",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Communitarianism score supports collectivist D1 placement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Inglehart, R., et al. (eds.) (2014). World Values Survey: All Rounds - Country-Pooled Datafile. Madrid: JD Systems Institute.",
+        "source_type": "primary_dataset",
+        "data_point": "Low autonomy and choice scores support collectivist D1 placement",
+        "url_or_doi": "https://www.worldvaluessurvey.org",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0005"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "EGY",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 20.0,
+          "strongest_supporting": "Egyptian identity is not monolithic; there is a growing sense of individual identity among urban, educated Egyptians, especially in Cairo, balancing family loyalty with personal career and lifestyle choices.",
+          "strongest_opposing": "In Egypt, family honor and reputation are central, and decisions often involve consultation with extended family, reflecting strong group allegiance (Nydell, 2012).",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 28.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c2"
+          ],
+          "opposing_evidence_ids": [
+            "c3"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Historical forces such as colonialism and modernization have fostered an educated middle class that values individual achievement and personal autonomy, especially in urban areas (Watenpaugh, 2006).",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "c4",
+            "c5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 18.0,
+          "strongest_supporting": "The GLOBE study found Egypt had the third-highest score on in-group collectivism among 62 societies, corroborating Hofstede's collectivism finding from an independent dataset.",
+          "strongest_opposing": "The GLOBE study found Egypt's societal collectivism (as-is, institutional) score was relatively lower than expected, suggesting that while in-group identity is very strong, society-wide collective institutions are less cohesive — a partial counter to pure collectivist scoring.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 26.0,
+          "confidence": 0.88,
+          "supporting_evidence_ids": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7"
+          ],
+          "opposing_evidence_ids": [
+            "C8",
+            "C9"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 62.0,
+          "strongest_supporting": "Emotional expression and gestures are common in Egyptian communication and do not necessarily indicate conflict; an overly reserved approach is likely to be misconstrued as detachment or lack of interest.",
+          "strongest_opposing": "Egypt's Hofstede Indulgence score is 4 — one of the world's lowest — reflecting a strongly normative, tradition-oriented society where gratification and spontaneous expression are regulated by strict social norms.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.72,
+          "supporting_evidence_ids": [
+            "C10",
+            "C11",
+            "C12",
+            "C13"
+          ],
+          "opposing_evidence_ids": [
+            "C14",
+            "C15",
+            "C16"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 78.0,
+          "strongest_supporting": "Egypt's Hofstede Uncertainty Avoidance Index (UAI) score is 80, well above the world average, indicating a strong cultural-psychological need for rules, predictability, and avoidance of ambiguity.",
+          "strongest_opposing": "The GLOBE study found Egypt's as-is societal uncertainty avoidance score was relatively lower than cross-country norms, suggesting that actual institutional rule-enforcement and procedural rigour may not match the psychological preference for certainty.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 86.0,
+          "confidence": 0.86,
+          "supporting_evidence_ids": [
+            "C17",
+            "C18",
+            "C19",
+            "C20",
+            "C21"
+          ],
+          "opposing_evidence_ids": [
+            "C22",
+            "C23"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Egypt's Hofstede Masculinity (MAS) score is 45, slightly below the world average of 50.2, indicating a relatively feminine/accepting orientation: conflict resolution by compromise, supportive management, and a 'working in order to live' behavioural focus.",
+          "strongest_opposing": "The GLOBE study found Egypt had relatively high performance orientation, suggesting that achievement and striving are culturally valued at the organisational level — a partial counter to the feminine/accepting MAS anchor.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 40.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "opposing_evidence_ids": [
+            "C27",
+            "C28",
+            "C29"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 62.0,
+          "strongest_supporting": "In Egypt, family honor and reputation are central, and decisions often involve consultation with extended family, reflecting strong group allegiance (Nydell, 2012).",
+          "strongest_opposing": "Egyptian identity is not monolithic; there is a growing sense of individual identity among urban, educated Egyptians, especially in Cairo, balancing family loyalty with personal career and lifestyle choices.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 62.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c1",
+            "c3"
+          ],
+          "opposing_evidence_ids": [
+            "c2",
+            "c4"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Abi-Hashem (2019) notes that in Arab cultures, emotional expression is contextual: warm and expressive within the family, but restrained and formal in public and with strangers.",
+          "strongest_opposing": "Hofstede et al. (2010) show that high Power Distance societies can have expressive outbursts within in-groups, but overall hierarchy suppresses open disagreement with superiors.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.85,
+          "supporting_evidence_ids": [
+            "c5",
+            "c6",
+            "c7"
+          ],
+          "opposing_evidence_ids": [
+            "c8",
+            "c9"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Nydell (2012) highlights that Egyptians value clear social protocols and family hierarchies, with elaborate greetings and formalities to maintain order.",
+          "strongest_opposing": "Ibrahim (2016) discusses the role of 'wasta' (connections) in Egypt, which often bypasses formal rules, indicating a pragmatic flexibility in daily life.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "c10",
+            "c11",
+            "c12"
+          ],
+          "opposing_evidence_ids": [
+            "c13",
+            "c14"
+          ]
+        },
+        {
+          "iso3": "EGY",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 70.0,
+          "strongest_supporting": "Nydell (2012) reports that Egyptians place high importance on education and career success as markers of family honor and personal achievement, reflecting a strong drive culture.",
+          "strongest_opposing": "Abi-Hashem (2019) notes that Arab cultures often value interpersonal harmony, hospitality, and relationships over aggressive competition, especially in non-urban settings.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 70.0,
+          "confidence": 0.75,
+          "supporting_evidence_ids": [
+            "c15",
+            "c16"
+          ],
+          "opposing_evidence_ids": [
+            "c17",
+            "c18"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "EGY",
+          "dimension": "D1",
+          "baseline_score": 23.15105675,
+          "specialist_recommendation": 33.333,
+          "specialist_confidence": 0.8267,
+          "evidence_strength": 0.63,
+          "evidence_quality": 0.6523,
+          "disagreement_index": 0.8115,
+          "specialist_influence_weight": 0.7062,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.71 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "EGY",
+          "dimension": "D2",
+          "baseline_score": 21.95824206,
+          "specialist_recommendation": 40.667,
+          "specialist_confidence": 0.7567,
+          "evidence_strength": 0.6556,
+          "evidence_quality": 0.6227,
+          "disagreement_index": 0.6034,
+          "specialist_influence_weight": 0.6637,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.66 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "EGY",
+          "dimension": "D3",
+          "baseline_score": 47.43059226,
+          "specialist_recommendation": 74.0,
+          "specialist_confidence": 0.83,
+          "evidence_strength": 0.5529,
+          "evidence_quality": 0.5596,
+          "disagreement_index": 0.16,
+          "specialist_influence_weight": 0.5886,
+          "rationale": "High specialist confidence -> evidence credibility 0.59 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "EGY",
+          "dimension": "D4",
+          "baseline_score": 13.91784605,
+          "specialist_recommendation": 55.0,
+          "specialist_confidence": 0.75,
+          "evidence_strength": 0.64,
+          "evidence_quality": 0.6578,
+          "disagreement_index": 0.6,
+          "specialist_influence_weight": 0.6652,
+          "rationale": "Strong evidence, high specialist confidence, high disagreement -> evidence credibility 0.67 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "EGY",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 32.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 32.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D1 score (gap 44.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 44.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 32.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 32.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 30.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 30.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "historical_analyst disputes the quality of the cited evidence behind cultural_anthropologist's D1 score (gap 42.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 42.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=35: differs by 10 from the statistician reading of 25.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 10.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=40: differs by 18 from the statistician reading of 22.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 18.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=50: differs by 3 from the statistician reading of 47.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=45: differs by 28 from the statistician reading of 17.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 29.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=27: differs by 8 from the comparativist reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=35: differs by 5 from the comparativist reading of 40.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=60: differs by 10 from the comparativist reading of 50.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 13.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=23: differs by 4 from the country_specialist reading of 27.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=22: differs by 13 from the country_specialist reading of 35.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=48: differs by 12 from the country_specialist reading of 60.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=14: differs by 31 from the country_specialist reading of 45.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 1.0
+        },
+        {
+          "iso3": "EGY",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Drive=17: differs by 3 from the devils_advocate reading of 14.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "EGY",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 3,
+          "recommendation": 20.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 2,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "No strong ethnographic evidence retrieved regarding Egyptians’ discomfort with ambiguity, reliance on rules or planning; sources about punctuality and polychronic time reflect social flexibility but not necessarily psychological need for certainty.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "EGY",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No concrete ethnographic or anthropological evidence on achievement-orientation versus harmony—as lived cultural drive—was located to justify a score.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "EGY",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.88,
+          "evidence_count": 9,
+          "recommendation": 18.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.72,
+          "evidence_count": 7,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.86,
+          "evidence_count": 7,
+          "recommendation": 78.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 6,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 4,
+          "recommendation": 62.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.85,
+          "evidence_count": 5,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "EGY",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.75,
+          "evidence_count": 4,
+          "recommendation": 70.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "EGY",
+        "score_diversity": 0.3247,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.7456,
+        "consensus_quality": 0.9865,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "EGY",
+      "country": "Egypt",
+      "region": "North Africa",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 25,
+          "confidence": "HIGH",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.189,
+          "top_supporting_arguments": [
+            "Archaeological analysis suggests that ancient Egyptians were also regarded as distinct individuals known by name after death, suggesting some context-dependent individual identity.",
+            "The GLOBE study found Egypt's societal collectivism (as-is, institutional) score was relatively lower than expected, suggesting that while in-group identity is very strong, society-wide collective institutions are less cohesive — a partial counter to pure collectivist scoring.",
+            "Younger Egyptians and those living abroad describe increasing desire for individual self-expression and discomfort with the social conformity demands of collectivist norms, pointing to an urban/generational shift toward greater individualism."
+          ],
+          "top_counter_arguments": [
+            "Egypt’s Hofstede Individualism score is 25, indicating a collectivist society where personal identity is defined by group loyalty.",
+            "Ethnographic study among rural Egyptians shows a holistic, relational personhood where hierarchy and collective identity prevail, although some autonomy exists.",
+            "Egypt's Hofstede Individualism (IDV) score is 25, compared to a world average of 64, classifying it as a strongly collectivist society in which identity is defined by close, long-term commitment to family, extended family, or extended relationships."
+          ],
+          "why_this_score": "Egypt sits at 25 on Identity (Social 3 <-> Self 97), placing it toward Social. This absolute level reflects the convergence of the framework signal (framework consensus ~27), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 23 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (25) and the CI ceiling (26), so pushing past 25 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (24) and the CI floor (20), so going below 25 would understate the measured signal.",
+          "related_countries": [
+            "Morocco",
+            "Tunisia",
+            "Sudan",
+            "Algeria",
+            "Libya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "c3",
+              "source_id": "turn0search9",
+              "title": "",
+              "url": null,
+              "author": null,
+              "publication_year": null,
+              "excerpt": "Archaeological analysis suggests that ancient Egyptians were also regarded as distinct individuals known by name after death, suggesting some context-dependent individual identity.",
+              "dimension": "D1",
+              "support_direction": "supports_higher"
+            },
+            {
+              "claim_id": "C8",
+              "source_id": "S2",
+              "title": "Culture and Leadership: Comparing Egypt to the GLOBE Study of 62 Societies",
+              "url": "https://www.researchgate.net/publication/267368793_Culture_and_Leadership_Comparing_Egypt_to_the_GLOBE_Study_of_62_Societies",
+              "author": "Elsaid & Elsaid",
+              "publication_year": 2012,
+              "excerpt": "The GLOBE study found Egypt's societal collectivism (as-is, institutional) score was relatively lower than expected, suggesting that while in-group identity is very strong, society-wide collective institutions are less cohesive — a partial counter to pure collectivist scoring.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C9",
+              "source_id": "S4",
+              "title": "The Cost of Belonging: Exploring Conformity in Egypt's Collectivist Society",
+              "url": "https://egyptianstreets.com/2023/08/05/the-cost-of-belonging-exploring-conformity-in-egypts-collectivist-society/",
+              "author": "Egyptian Streets",
+              "publication_year": 2023,
+              "excerpt": "Younger Egyptians and those living abroad describe increasing desire for individual self-expression and discomfort with the social conformity demands of collectivist norms, pointing to an urban/generational shift toward greater individualism.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 24,
+          "confidence": "HIGH",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.397,
+          "top_supporting_arguments": [
+            "Emotional expression and gestures are common in Egyptian communication and do not necessarily indicate conflict; an overly reserved approach is likely to be misconstrued as detachment or lack of interest.",
+            "In Egyptian business interactions, emotion is explicitly used to convey conviction; demonstrating expressive warmth is expected and valued, signalling engagement rather than unprofessionalism.",
+            "Younger Egyptians in business are described as 'very savvy and less formal,' suggesting a generational relaxation of expression constraints, particularly in urban professional contexts."
+          ],
+          "top_counter_arguments": [
+            "Cultural norms pressure Egyptian men to suppress emotions—expressions like ‘don’t cry’ or ‘be tough’ are common in everyday life.",
+            "In elite ancient Egyptian depiction, facial features are neutral and emotional expression is minimized, reflecting restraint.",
+            "Communication in Egyptian workplaces is often indirect, especially when delivering negative messages; silence or vague responses may indicate disagreement rather than acceptance — a face-saving restraint on expressive openness."
+          ],
+          "why_this_score": "Egypt sits at 24 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~22), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 22 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (22) and the CI ceiling (24), so pushing past 24 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (22) and the CI floor (20), so going below 24 would understate the measured signal.",
+          "related_countries": [
+            "Morocco",
+            "Tunisia",
+            "Sudan",
+            "Algeria",
+            "Libya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C10",
+              "source_id": "S5",
+              "title": "Egypt Business Culture: Doing Business in Egypt",
+              "url": "https://commisceo-global.com/country-guides/egypt-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2023,
+              "excerpt": "Emotional expression and gestures are common in Egyptian communication and do not necessarily indicate conflict; an overly reserved approach is likely to be misconstrued as detachment or lack of interest.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C11",
+              "source_id": "S7",
+              "title": "Egyptian Communication Styles | World Business Culture",
+              "url": "https://www.worldbusinessculture.com/country-profiles/egypt/business-communication-styles/",
+              "author": "Keith Warburton / Global Business Culture",
+              "publication_year": 2020,
+              "excerpt": "In Egyptian business interactions, emotion is explicitly used to convey conviction; demonstrating expressive warmth is expected and valued, signalling engagement rather than unprofessionalism.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C16",
+              "source_id": "S5",
+              "title": "Egypt Business Culture: Doing Business in Egypt",
+              "url": "https://commisceo-global.com/country-guides/egypt-guide/",
+              "author": "Commisceo Global",
+              "publication_year": 2023,
+              "excerpt": "Younger Egyptians in business are described as 'very savvy and less formal,' suggesting a generational relaxation of expression constraints, particularly in urban professional contexts.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 48,
+          "confidence": "MEDIUM",
+          "trend_indicator": "flat",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.84,
+          "top_supporting_arguments": [
+            "Egypt's Hofstede Uncertainty Avoidance Index (UAI) score is 80, well above the world average, indicating a strong cultural-psychological need for rules, predictability, and avoidance of ambiguity.",
+            "An Egyptian business counterpart would likely refuse to commit to a new procedure until all the details are worked out, a concrete workplace manifestation of high uncertainty avoidance.",
+            "Egyptian culture is steeped in structure and tradition; high UAI means care should be taken when presenting ideas — extensive research is expected and only a limited number of choices should be offered to minimise decisional anxiety."
+          ],
+          "top_counter_arguments": [
+            "The GLOBE study found Egypt's as-is societal uncertainty avoidance score was relatively lower than cross-country norms, suggesting that actual institutional rule-enforcement and procedural rigour may not match the psychological preference for certainty.",
+            "In the Egyptian workplace, work is not divided into rigidly defined schedules and is often balanced with socialising — indicating practical flexibility in how structure is enacted day-to-day, despite high psychological need for certainty.",
+            "Ibrahim (2016) discusses the role of 'wasta' (connections) in Egypt, which often bypasses formal rules, indicating a pragmatic flexibility in daily life."
+          ],
+          "why_this_score": "Egypt sits at 48 on Structure (Fluid 3 <-> Certain 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~72), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 47 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (48) and the CI ceiling (49), so pushing past 48 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (47) and the CI floor (46), so going below 48 would understate the measured signal.",
+          "related_countries": [
+            "Morocco",
+            "Tunisia",
+            "Sudan",
+            "Algeria",
+            "Libya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C17",
+              "source_id": "S1",
+              "title": "Egypt — Business Etiquette, Culture & Manners | International Business Etiquette",
+              "url": "https://www.cyborlink.com/besite/egypt.htm",
+              "author": "CyborLink",
+              "publication_year": 2021,
+              "excerpt": "Egypt's Hofstede Uncertainty Avoidance Index (UAI) score is 80, well above the world average, indicating a strong cultural-psychological need for rules, predictability, and avoidance of ambiguity.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C18",
+              "source_id": "S12",
+              "title": "Hofstede's Dimensions of Culture – Kirkwood SPC-101",
+              "url": "https://kirkwood.pressbooks.pub/emcworthy/chapter/hofstedes-dimensions-of-culture/",
+              "author": "Kirkwood College Open Press",
+              "publication_year": 2022,
+              "excerpt": "An Egyptian business counterpart would likely refuse to commit to a new procedure until all the details are worked out, a concrete workplace manifestation of high uncertainty avoidance.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S13",
+              "title": "Egypt and Hofstede's Value Dimension Model",
+              "url": "https://benjamintodd.wordpress.com/2012/10/16/egypt-and-hofstedes-value-dimension-model/",
+              "author": "Benjamin Todd",
+              "publication_year": 2012,
+              "excerpt": "Egyptian culture is steeped in structure and tradition; high UAI means care should be taken when presenting ideas — extensive research is expected and only a limited number of choices should be offered to minimise decisional anxiety.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 17,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.4,
+          "top_supporting_arguments": [
+            "The GLOBE study found Egypt had relatively high performance orientation, suggesting that achievement and striving are culturally valued at the organisational level — a partial counter to the feminine/accepting MAS anchor.",
+            "Research describes Egyptian culture as more masculine (Hofstede et al. 2010) in the organisational leadership context, with managers exhibiting a moderately autonomous leadership style and a high level of personal ambition for status.",
+            "Social prestige and status are actively sought in Egyptian society; conspicuous markers of success (titles, networks, credentials) are important motivators, signalling a competitive achievement orientation at the individual level."
+          ],
+          "top_counter_arguments": [
+            "Egypt's Hofstede Masculinity (MAS) score is 45, slightly below the world average of 50.2, indicating a relatively feminine/accepting orientation: conflict resolution by compromise, supportive management, and a 'working in order to live' behavioural focus.",
+            "Egyptian business culture is strongly relationship-driven and process-oriented; business moves at a slower, relationship-focused pace with trust built over time — prioritising relational harmony over task achievement.",
+            "Personal relationships are central to business success in Egypt; hierarchy and seniority influence decision-making, but the emphasis is on winning emotional commitment and loyalty rather than on competitive performance metrics."
+          ],
+          "why_this_score": "Egypt sits at 17 on Drive (Accepting 3 <-> Striving 97), placing it toward Accepting. This absolute level reflects the convergence of the framework signal (framework consensus ~36), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 14 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (16) and the CI ceiling (18), so pushing past 17 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (15) and the CI floor (10), so going below 17 would understate the measured signal.",
+          "related_countries": [
+            "Morocco",
+            "Tunisia",
+            "Sudan",
+            "Algeria",
+            "Libya"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C27",
+              "source_id": "S2",
+              "title": "Culture and Leadership: Comparing Egypt to the GLOBE Study of 62 Societies",
+              "url": "https://www.researchgate.net/publication/267368793_Culture_and_Leadership_Comparing_Egypt_to_the_GLOBE_Study_of_62_Societies",
+              "author": "Elsaid & Elsaid",
+              "publication_year": 2012,
+              "excerpt": "The GLOBE study found Egypt had relatively high performance orientation, suggesting that achievement and striving are culturally valued at the organisational level — a partial counter to the feminine/accepting MAS anchor.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C28",
+              "source_id": "S2",
+              "title": "Culture and Leadership: Comparing Egypt to the GLOBE Study of 62 Societies",
+              "url": "https://www.researchgate.net/publication/267368793_Culture_and_Leadership_Comparing_Egypt_to_the_GLOBE_Study_of_62_Societies",
+              "author": "Elsaid & Elsaid",
+              "publication_year": 2012,
+              "excerpt": "Research describes Egyptian culture as more masculine (Hofstede et al. 2010) in the organisational leadership context, with managers exhibiting a moderately autonomous leadership style and a high level of personal ambition for status.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C29",
+              "source_id": "S4",
+              "title": "The Cost of Belonging: Exploring Conformity in Egypt's Collectivist Society",
+              "url": "https://egyptianstreets.com/2023/08/05/the-cost-of-belonging-exploring-conformity-in-egypts-collectivist-society/",
+              "author": "Egyptian Streets",
+              "publication_year": 2023,
+              "excerpt": "Social prestige and status are actively sought in Egyptian society; conspicuous markers of success (titles, networks, credentials) are important motivators, signalling a competitive achievement orientation at the individual level.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

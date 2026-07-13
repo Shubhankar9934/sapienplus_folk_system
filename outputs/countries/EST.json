@@ -1,0 +1,2495 @@
+{
+  "iso3": "EST",
+  "country": "Estonia",
+  "region": "Eastern Europe",
+  "data_status": "PARTIAL_DATA",
+  "record_type": "BASE",
+  "processing_date": "2026-07-08T22:46:47.677938+00:00",
+  "cultural_profile": {
+    "iso3": "EST",
+    "country": "Estonia",
+    "region": "Eastern Europe",
+    "snapshot": [
+      {
+        "dimension": "D1",
+        "score": 65,
+        "reading": "Independent",
+        "explanation": "Estonians value personal responsibility and autonomy, reflecting a strong individualist culture."
+      },
+      {
+        "dimension": "D2",
+        "score": 30,
+        "reading": "Reserved",
+        "explanation": "Emotional expression is restrained, with a cultural preference for calm and rational communication."
+      },
+      {
+        "dimension": "D3",
+        "score": 64,
+        "reading": "Structured",
+        "explanation": "Estonia values structure and predictability, with a preference for rules and punctuality."
+      },
+      {
+        "dimension": "D4",
+        "score": 47,
+        "reading": "Balanced",
+        "explanation": "While personal success is valued, there is a cultural preference for quality of life and modesty over aggressive competition."
+      }
+    ],
+    "executive_summary": "Estonia is a place where independence, structure, and restraint define the cultural landscape. Personal autonomy is highly valued, and direct communication is the norm. While the society is reserved, it is also open-minded and values freedom of expression.",
+    "cultural_archetype": {
+      "title": "The Independent Navigator",
+      "summary": "A society that values personal autonomy, directness, and a balanced life.",
+      "claim_ids": [
+        "claim1",
+        "C05",
+        "C06"
+      ],
+      "sources_count": 3
+    },
+    "good_for": [
+      "Entrepreneurs and innovators",
+      "Individuals seeking a balanced lifestyle",
+      "Those who value direct communication"
+    ],
+    "culture_at_a_glance": [
+      "Estonians prioritize personal responsibility and autonomy, often focusing on individual success rather than group harmony.",
+      "Estonia's preference for rules and predictability is evident in its punctuality and formal business culture.",
+      "Silence is comfortable and respected in public spaces; small talk is rare and often seen as unnecessary.",
+      "Estonian workplaces emphasize independence and professionalism, with a focus on clear objectives and personal initiative.",
+      "Business meetings are formal and efficient, with little room for small talk.",
+      "Estonians prefer direct communication and value honesty over diplomacy."
+    ],
+    "cultural_themes": [
+      {
+        "title": "Pragmatic Independence",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 28,
+          "framework_agreement": 85,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Contested",
+          "framework_agreement_label": "Very High",
+          "confidence_explanation": "Experts are divided on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in society sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Estonians prioritize personal responsibility and autonomy, often focusing on individual success rather than group harmony.",
+            "claim_ids": [
+              "claim1",
+              "claim3",
+              "C05"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The Soviet occupation fostered a strong distrust of collective institutions, reinforcing personal responsibility and self-reliance.",
+            "claim_ids": [
+              "claim2"
+            ],
+            "sources_count": 1
+          }
+        ]
+      },
+      {
+        "title": "Structured Simplicity",
+        "confidence": {
+          "evidence_strength": 58,
+          "expert_agreement": 90,
+          "framework_agreement": 83,
+          "evidence_strength_label": "Moderate",
+          "expert_agreement_label": "Very High",
+          "framework_agreement_label": "High",
+          "confidence_explanation": "Experts broadly agree on this pattern and the cross-framework signal is consistent, but the evidence is moderate and concentrated in workplace sources rather than broader society."
+        },
+        "sources_count": 4,
+        "observations": [
+          {
+            "text": "Estonia's preference for rules and predictability is evident in its punctuality and formal business culture.",
+            "claim_ids": [
+              "claim12",
+              "C23",
+              "C25"
+            ],
+            "sources_count": 3
+          }
+        ],
+        "historical_roots": [
+          {
+            "text": "The German-influenced legal tradition and modern e-government system have created a well-ordered, rule-based society.",
+            "claim_ids": [
+              "claim13"
+            ],
+            "sources_count": 1
+          }
+        ]
+      }
+    ],
+    "historical_drivers": [
+      {
+        "text": "The Soviet occupation left a legacy of distrust in collective institutions, leading to a culture that values personal autonomy and self-reliance.",
+        "claim_ids": [
+          "claim2"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "competing_forces": [
+      {
+        "pulls_toward": "Individual Autonomy",
+        "but_also": "Community Loyalty",
+        "explanation": "While Estonians value independence, tight-knit communities and family ties remain important, especially in rural areas.",
+        "claim_ids": [
+          "claim1",
+          "claim5"
+        ],
+        "sources_count": 2
+      },
+      {
+        "pulls_toward": "Reserved Expression",
+        "but_also": "Occasional Expressiveness",
+        "explanation": "Estonians generally restrain emotional expression, but can become animated during festivals and celebrations.",
+        "claim_ids": [
+          "C11",
+          "claim9"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "lived_experience": {
+      "daily_life": [
+        {
+          "text": "Silence is comfortable and respected in public spaces; small talk is rare and often seen as unnecessary.",
+          "claim_ids": [
+            "claim17",
+            "C12"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "workplace_norms": [
+        {
+          "text": "Estonian workplaces emphasize independence and professionalism, with a focus on clear objectives and personal initiative.",
+          "claim_ids": [
+            "C03",
+            "C04"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Business meetings are formal and efficient, with little room for small talk.",
+          "claim_ids": [
+            "C02",
+            "C07"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "communication_style": [
+        {
+          "text": "Estonians prefer direct communication and value honesty over diplomacy.",
+          "claim_ids": [
+            "C06",
+            "claim6"
+          ],
+          "sources_count": 2
+        },
+        {
+          "text": "Emotional restraint is the norm, with loudness and exaggeration frowned upon.",
+          "claim_ids": [
+            "C11",
+            "C13"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "friendship_social": [
+        {
+          "text": "Building friendships in Estonia takes time, as trust is developed slowly and relationships are deep and meaningful.",
+          "claim_ids": [
+            "claim5",
+            "C16"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "society": [
+        {
+          "text": "Estonia values freedom of expression and diverse viewpoints, despite a generally reserved demeanor.",
+          "claim_ids": [
+            "C20",
+            "claim1"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "social_mistakes_to_avoid": [
+        {
+          "text": "Avoid being overly talkative or drawing attention to oneself, as this is seen as disrespectful.",
+          "claim_ids": [
+            "C14",
+            "claim6"
+          ],
+          "sources_count": 2
+        }
+      ],
+      "status_signals": []
+    },
+    "life_feels_like": {
+      "text": "Living in Estonia feels like navigating a landscape of independence and structure. People value their personal space and time, and while they may seem reserved, they appreciate directness and honesty. The society is orderly, with a strong emphasis on punctuality and efficiency, yet there is room for personal expression within these boundaries.",
+      "claim_ids": [
+        "claim1",
+        "C06",
+        "claim12"
+      ],
+      "sources_count": 3
+    },
+    "newcomer_first_impressions": [
+      {
+        "text": "The quiet and reserved nature of Estonians might initially seem distant, but it reflects a cultural norm of respect and restraint.",
+        "claim_ids": [
+          "C11",
+          "claim6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "Business interactions are formal and to the point, with little emphasis on personal rapport.",
+        "claim_ids": [
+          "C02",
+          "C07"
+        ],
+        "sources_count": 2
+      },
+      {
+        "text": "The importance of punctuality is immediately noticeable, as being late is frowned upon.",
+        "claim_ids": [
+          "claim12",
+          "C22"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "success_factors": [
+      {
+        "text": "Success in Estonia often hinges on personal initiative and the ability to work independently, particularly in the digital and entrepreneurial sectors.",
+        "claim_ids": [
+          "claim3",
+          "claim17"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "failure_factors": [
+      {
+        "text": "Risk aversion and fear of failure can hinder innovation, as failure is often seen as a personal shortcoming.",
+        "claim_ids": [
+          "C26"
+        ],
+        "sources_count": 1
+      },
+      {
+        "text": "Overly competitive behavior can be met with criticism, as modesty and cooperation are valued.",
+        "claim_ids": [
+          "claim20"
+        ],
+        "sources_count": 1
+      }
+    ],
+    "friendship_map": {
+      "making_friends": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "claim5"
+        ],
+        "sources_count": 1
+      },
+      "friendship_depth": {
+        "label": "High",
+        "detail": "",
+        "claim_ids": [
+          "claim5"
+        ],
+        "sources_count": 1
+      },
+      "circle_size": {
+        "label": "Small",
+        "detail": "",
+        "claim_ids": [
+          "claim5"
+        ],
+        "sources_count": 1
+      },
+      "trust_formation": {
+        "label": "Slow",
+        "detail": "",
+        "claim_ids": [
+          "claim5"
+        ],
+        "sources_count": 1
+      },
+      "work_personal_mixing": {
+        "label": "Limited",
+        "detail": "",
+        "claim_ids": [
+          "C02"
+        ],
+        "sources_count": 1
+      }
+    },
+    "communication_decoder": [],
+    "culture_in_transition": [
+      {
+        "axis": "Generational",
+        "older": "More reserved",
+        "younger": "More open to global influences",
+        "claim_ids": [
+          "claim10",
+          "C18"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "experience_variations": [
+      {
+        "group_a": "Urban youth",
+        "group_b": "Rural elders",
+        "difference": "Urban youth are more open to global influences and less restrained in expression compared to the more reserved rural elders.",
+        "claim_ids": [
+          "claim4",
+          "claim10"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "similar_cultures": [
+      {
+        "iso3": "LTU",
+        "country": "Lithuania",
+        "similarity": 95,
+        "explanation": "Both Estonia and Lithuania share a history of Soviet influence, leading to similar cultural traits like valuing personal autonomy and a reserved demeanor.",
+        "claim_ids": [
+          "claim2",
+          "claim1"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "POL",
+        "country": "Poland",
+        "similarity": 91,
+        "explanation": "Estonia and Poland both emphasize structure and predictability, with a shared preference for rules and punctuality.",
+        "claim_ids": [
+          "claim11",
+          "claim12"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "MNE",
+        "country": "Montenegro",
+        "similarity": 88,
+        "explanation": "Estonia and Montenegro share a reserved communication style and value for personal space, though Montenegro is more expressive in social settings.",
+        "claim_ids": [
+          "C11",
+          "claim6"
+        ],
+        "sources_count": 2
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "similarity": 88,
+        "explanation": "Both Estonia and Croatia value personal space and have a reserved communication style, although Croatia is more Mediterranean in its expressiveness.",
+        "claim_ids": [
+          "C11",
+          "claim6"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "country_uniqueness": [
+      {
+        "title": "Nordic Reserve",
+        "explanation": "Estonia's communication style is more reserved than its Baltic neighbors, reflecting a Nordic influence.",
+        "claim_ids": [
+          "C13",
+          "claim6"
+        ],
+        "sources_count": 2
+      }
+    ],
+    "regional_distinctiveness": [
+      {
+        "text": "More reserved than Montenegro",
+        "dimension": "D2",
+        "neighbour_iso3": "MNE",
+        "delta": -21
+      },
+      {
+        "text": "More reserved than Serbia",
+        "dimension": "D2",
+        "neighbour_iso3": "SRB",
+        "delta": -17
+      },
+      {
+        "text": "More independent than Serbia",
+        "dimension": "D1",
+        "neighbour_iso3": "SRB",
+        "delta": 13
+      },
+      {
+        "text": "More independent than Croatia",
+        "dimension": "D1",
+        "neighbour_iso3": "HRV",
+        "delta": 13
+      },
+      {
+        "text": "More reserved than Croatia",
+        "dimension": "D2",
+        "neighbour_iso3": "HRV",
+        "delta": -13
+      },
+      {
+        "text": "More reserved than Poland",
+        "dimension": "D2",
+        "neighbour_iso3": "POL",
+        "delta": -12
+      }
+    ],
+    "council_views": {
+      "D1": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Estonia shows moderate collectivist tendencies: the folk model of emotions emphasises social interaction and emotion-personality overlap, indicating social-definition of self rather than purely individual self-definition (suggesting lower identity individualism; Vainik 2002)  ([researchgate.net](https://www.researchgate.net/publication/364479814_EMOTIONS_EMOTION_TERMS_AND_EMOTION_CONCEPTS_IN_AN_ESTONIAN_FOLK_MODEL?utm_source=openai)). But no strong counter-evidence of individualist identity was located, so score is shifted modestly below neutral.",
+          "suggested_score": 40
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Estonia's strongest measured signal for D1 is its Hofstede Individualism score (approximately 60–65, placed in the 'rather high individualism' quarter by Realo and Vadi research, with the official Hofstede country comparator also placing Estonia firmly in individualist territory). The Kirj.ee / Trames peer-reviewed paper (Vadi 2005) confirms 'Estonians in the quarter with a rather high level of individualism'. Multiple converging sources describe an identity grounded in personal autonomy, privacy, independent self-reliance, and task-based professional relationships devoid of kinship or clan loyalty. The national narrative of surviving Soviet collectivism by preserving Estonian identity through individual folk culture and language further reinforces identity as a personal/national rather than group-clan construct. Workplace norms (flat hierarchies, trust in individual competence, employees expected to take initiative independently) are best-evidence individualism markers. Counter-evidence: some Soviet-era residue and tight-knit national cultural identity around folk/song festivals can superficially suggest collectivism, but this is national-identity pride (not D1 group-self definition) and is structurally a D3 or background consideration. One Commisceo source describes Estonia as 'hierarchical' and notes seniority matters — but this is a D3 (structure/protocol) and power-distance signal, NOT a collectivism marker. Anchoring at ~76: firmly individualist, slightly below top-tier Nordic countries (Sweden ~71, Denmark ~74) but above the global midpoint by a wide margin.",
+          "suggested_score": 76
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Estonia scores high on individualism (Hofstede IDV = 60), reflecting self-reliance, personal autonomy, and a preference for direct accountability. The historical experience of Soviet occupation reinforced a distrust of collective institutions and a fierce valuing of personal space and privacy. However, traces of Soviet-era collectivism and the importance of family and local community still moderate this to 75 rather than 90+.",
+          "suggested_score": 75
+        }
+      ],
+      "D2": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Estonians tend to avoid explicit naming of emotions in everyday complaints and casual conversation, externalising affect subtly rather than openly expressing internal emotional states—it indicates cultural restraint in emotional expression (Vainik & Orav 2019; pragmatics study; indirect complaints study) ([sciencedirect.com](https://www.sciencedirect.com/science/article/abs/pii/S0378216618307021?utm_source=openai)). Additional evidence: showing emotions too easily is considered rude (foregrounded in local online accounts) ([reddit.com](https://www.reddit.com/r/Eesti/comments/rla1c1?utm_source=openai)).",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 measures freedom from hierarchical suppression of emotional expression — not loudness or directness. Estonia's evidence profile converges strongly on the restrained end. Multiple independent sources (Commisceo, EstonianWorld, SettleInTallinn, the British expat account, the University of Tartu-referenced documentation on silence, and the orangesmile cultural overview) all confirm that emotional restraint is a deeply embedded, positively valued national characteristic: 'being rational, calm and not going to emotional extremes are all qualities that are respected'; 'passive silence is very much part of the communication style'; 'psychological isolation and restraint' is the self-described cultural norm. Notably this is not mere introversion — it is a structured suppression of emotional display (boasting is 'offensive'; emotional overselling triggers an 'allergic reaction'; taking centre stage is 'rude'). Hofstede's Indulgence vs. Restraint score for Estonia is on the restrained side (confirming low emotional gratification expression). The key distinction from D1: this restraint is NOT about group loyalty but about suppression of personal emotional display in social contexts. Counter-evidence: dry humour, sarcasm, and festival participation (Song Festival, midsummer) show emotion does surface in sanctioned contexts — a 'release valve' pattern consistent with high everyday restraint. Younger Estonians increasingly fluent in small talk (EstonianWorld, 2025). Score anchored low-restrained at 22.",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Estonia is culturally restrained: emotional display is muted, public behavior is reserved, and silence is comfortable. This is rooted in Lutheran stoicism, the repressive Soviet experience (where open expression was dangerous), and the Finno-Ugric cultural heritage that values understatement. However, younger generations and urban festivals (e.g., Song Festival) show a sanctioned emotional release that prevents this from being extremely low.",
+          "suggested_score": 35
+        }
+      ],
+      "D3": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Uncertainty Avoidance Index for Estonia is cited at 60 (the blog source directly citing the Hofstede metric), placing it in moderate-high uncertainty avoidance territory — above the global midpoint. This is the anchor. Corroborating evidence: strong punctuality culture ('Estonians pride themselves on being on time or even a little bit early; they don't have much patience for people who are late' — e-Residency blog); protocol-driven formal business style ('formal, conservative and driven by protocol' — Commisceo management guide); explicit preference for rules and structure described as a form of 'emotional security'; planning orientation described as long-term (Hofstede LTO high, confirmed by HRCAK EU paper). 'Once a decision is made, it will not be changed' (Commisceo) reinforces low tolerance for ambiguity post-commitment. Counter-evidence: Estonia's vibrant startup ecosystem, digital governance experimentation (e-Residency, X-Road) and the flat, competence-based hierarchy in tech firms show a capacity for structural flexibility and tolerance of novelty — a genuine moderator of D3. Younger generations show more fluid adaptation. The startup culture counter-evidence is real and distinctive, but it does not flip the base-rate UAI=60 anchor; it nudges the score downward from what a pure UAI=60 would imply (~70). Final score: 65 — moderately certain, with a notable innovation-culture qualifier.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Estonia shows a moderate-to-high preference for structure: rule-following, punctuality, orderliness are valued (Ordnung muss sein influence from Germanic past). Legal certainty and digital governance reinforce predictability. But the lingering distrust from Soviet arbitrariness and a pragmatic flexibility (due to rapid change) prevent a very high score.",
+          "suggested_score": 70
+        }
+      ],
+      "D4": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Masculinity score for Estonia is cited at 30 (directly from the Hofstede metric, corroborated by the Kirj.ee/Trames paper which found 'masculinity level as high' in a hotel-industry empirical study — a rare counter-signal). The official Hofstede score of 30 is the primary anchor: Estonia sits in the feminine/accepting quadrant, aligned with Nordic neighbours that emphasise work-life balance, quality of life, consensus, and modesty over competition and material striving. Multiple workplace sources confirm: work-life balance is 'a big deal'; July is 'sacred' with 3–4 week summer breaks widespread; employees are not motivated by overt status display or aggressive competition; boasting and exaggeration are culturally penalised. The HRCAK EU paper notes Estonia is 'long-term oriented' (persistence, adaptiveness) rather than driven by short-term achievement pressure. Counter-evidence: the Kirj.ee/Trames empirical study (Vadi, 2005) found 'masculinity level as high' among hotel employees — a genuine empirical counter-signal from a peer-reviewed source. The startup/achievement culture (Skype, TransferWise/Wise origins; 'startup nation' reputation) also signals an achievement orientation. Strong work ethic ('Estonians pride themselves on strong work ethics… they strive to do the best they can') is a real moderator. However, work ethic alone is D3/D4 ambiguous and the ethic is expressed through quality/craftsmanship rather than aggressive competition. The Vadi hotel-industry finding is an important empirical counterweight, nudging the score upward from what a pure MAS=30 would imply (~25). Final score: 38 — leaning accepting/feminine but with a meaningful achievement counter-current, especially in urban/tech contexts.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Estonia is moderately striving: ambition, education, and digital entrepreneurship are prized. The post-Soviet recovery created a strong achievement drive. However, a residue of Soviet-leveling and a cultural preference for balance (e.g., sauna culture, nature connection) temper the drive, yielding a moderate-high score.",
+          "suggested_score": 60
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "claim_id": "C02",
+      "source_id": "S11",
+      "title": "The Business Experience – Estonia (Global Road Warrior)",
+      "url": "https://www.globalroadwarrior.com/estonia/business-experience.html",
+      "author": "Global Road Warrior editorial",
+      "publication_year": 2023,
+      "excerpt": "In Estonia, business relationships are very formal and it is not common practice for Estonians to want to get to know counterparts before conducting business — they prefer to get straight to the point; work relationships are task-based rather than kinship-based.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C03",
+      "source_id": "S05",
+      "title": "Work Culture in Estonia",
+      "url": "https://euhelpers.pl/blog/work-culture-in-estonia",
+      "author": "EU Helpers editorial",
+      "publication_year": 2025,
+      "excerpt": "Estonia's work culture emphasises independence and professionalism, with employees expected to take personal initiative and manage their tasks independently once objectives are clear.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C04",
+      "source_id": "S08",
+      "title": "Cultural Considerations in Estonia",
+      "url": "https://rivermate.com/guides/estonia/cultural-considerations",
+      "author": "Rivermate editorial",
+      "publication_year": 2025,
+      "excerpt": "Many Estonian companies, especially startups, operate with flat organisational structures where employees take initiative and responsibility for their own work, reflecting individual autonomy as the core work norm.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C05",
+      "source_id": "S17",
+      "title": "National Traditions of Estonia – Habits, Mentality and the Way of Living",
+      "url": "https://www.orangesmile.com/travelguide/estonia/traditions.htm",
+      "author": "OrangeSmile editorial",
+      "publication_year": 2023,
+      "excerpt": "The national character of Estonians is displayed through individualism and pragmatism — self-reliance and personal autonomy are core self-descriptors of Estonian identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C06",
+      "source_id": "S01",
+      "title": "Culture blog: Estonia",
+      "url": "https://lee375.wordpress.com/2014/02/26/culture-blog-estonia/",
+      "author": "Lee (blogger)",
+      "publication_year": 2014,
+      "excerpt": "Like many individualist societies, Estonian culture favours low-context communication, and being direct is easy because Estonians live without fear of losing face in their social groups by saying the wrong thing — a signature individualist trait.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C07",
+      "source_id": "S09",
+      "title": "Negotiating Global Business Cultures: from Estonia to the World (e-Residency Blog)",
+      "url": "https://www.e-resident.gov.ee/blog/posts/estonian-business-culture/",
+      "author": "e-Residency Programme Estonia",
+      "publication_year": 2025,
+      "excerpt": "Estonian business culture is described as a textbook example of low-context communication — meetings start on time, focus on efficiency, and avoid small talk — patterns associated with individualist, task-first identity.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C11",
+      "source_id": "S06",
+      "title": "Estonia – Language, Culture, Customs and Etiquette",
+      "url": "https://commisceo-global.com/country-guides/estonia-guide/",
+      "author": "Commisceo Global",
+      "publication_year": 2026,
+      "excerpt": "Estonians are quiet and reserved; they tend to speak softly and do not like to draw attention to themselves. Being rational, calm, and not going to emotional extremes are all qualities that are respected.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C12",
+      "source_id": "S15",
+      "title": "In Estonia, Silence Speaks",
+      "url": "https://estonianworld.com/life/in-estonia-silence-speaks/",
+      "author": "Estonian World editorial",
+      "publication_year": 2025,
+      "excerpt": "Researchers at the University of Tartu have documented that Estonians 'only speak when they have something to say' — silence is a positively valued cultural norm, not an absence of communication, indicating strong structural restraint of emotional expression.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C13",
+      "source_id": "S12",
+      "title": "European Consumers: 'Between Myth & Reality' — Episode 22 — The Estonians",
+      "url": "https://medium.com/startup-insider-edge/european-consumers-between-myth-reality-episode-22-the-estonians-d2e28baf5229",
+      "author": "Alexandre Grela",
+      "publication_year": 2025,
+      "excerpt": "This Nordic reserve is described as a fundamental Estonian characteristic creating a communication style dramatically different from Southern European or American expressiveness; boasting is offensive and exaggeration is considered dishonest.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C14",
+      "source_id": "S16",
+      "title": "Five Cultural Differences in Estonia: a British Expat's View",
+      "url": "https://estonianworld.com/opinion/five-cultural-differences-moved-estonia-british-expats-view/",
+      "author": "Estonian World editorial",
+      "publication_year": 2023,
+      "excerpt": "A British expat notes that talking a lot and taking centre stage is considered rude and disrespectful in Estonia; Estonians don't have time to waste words and see no reason to bother with emotions and small talk.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C16",
+      "source_id": "S13",
+      "title": "Unveiling The Quirky Estonian Mentality: What You Need To Know!",
+      "url": "https://datingacrosscultures.com/unveiling-the-quirky-estonian-mentality-what-you-need-to-know/",
+      "author": "Dating Across Cultures editorial",
+      "publication_year": 2023,
+      "excerpt": "Estonians may not readily express their emotions or engage in small talk; this reserved nature is not a sign of coldness but a reflection of their stoic mindset — restraint of emotional display is a culturally embedded and positively framed norm.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "C18",
+      "source_id": "S15",
+      "title": "In Estonia, Silence Speaks",
+      "url": "https://estonianworld.com/life/in-estonia-silence-speaks/",
+      "author": "Estonian World editorial",
+      "publication_year": 2025,
+      "excerpt": "Younger Estonians are becoming more fluent in the global language of small talk and may sometimes enjoy it — a generational shift towards slightly more open expression, especially internationally.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C20",
+      "source_id": "S19",
+      "title": "Stereotypes and Prejudices about Estonian People",
+      "url": "https://markkuperala.com/wp-content/uploads/2024/07/Stereotypes-and-prejudices-about-Estonian-people.pdf",
+      "author": "Mark Kuperala",
+      "publication_year": 2024,
+      "excerpt": "Estonia is seen as a tolerant and open-minded society, valuing freedom of expression and diverse viewpoints — formal freedoms of expression exist even if emotional expression is personally restrained.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C22",
+      "source_id": "S09",
+      "title": "Negotiating Global Business Cultures: from Estonia to the World (e-Residency Blog)",
+      "url": "https://www.e-resident.gov.ee/blog/posts/estonian-business-culture/",
+      "author": "e-Residency Programme Estonia",
+      "publication_year": 2025,
+      "excerpt": "Punctuality is paramount in Estonian business culture: 'Estonians pride themselves on being on time or even a little bit early; they don't have much patience for people who are late.'",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C23",
+      "source_id": "S07",
+      "title": "Managing in Estonia – Management Style & Workplace Culture",
+      "url": "https://www.commisceo-global.com/resources/management-guides/estonia-management-guide",
+      "author": "Commisceo Global",
+      "publication_year": 2025,
+      "excerpt": "The basic business style in Estonia is formal, conservative and driven by protocol — once a decision is made, it will not be changed, indicating low tolerance for ambiguity and a preference for settled certainty.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C25",
+      "source_id": "S05",
+      "title": "Work Culture in Estonia",
+      "url": "https://euhelpers.pl/blog/work-culture-in-estonia",
+      "author": "EU Helpers editorial",
+      "publication_year": 2025,
+      "excerpt": "Punctuality is highly valued in Estonia; being on time for meetings and consistently meeting deadlines are signs of professionalism and respect, corroborating the structure-oriented norm.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "C26",
+      "source_id": "S11",
+      "title": "The Business Experience – Estonia (Global Road Warrior)",
+      "url": "https://www.globalroadwarrior.com/estonia/business-experience.html",
+      "author": "Global Road Warrior editorial",
+      "publication_year": 2023,
+      "excerpt": "The fear of exposure and the potential embarrassment that may accompany failure bring about an aversion to risk in Estonian business culture — failure can be viewed as a personal shortcoming, indicating discomfort with uncertain outcomes.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim1",
+      "source_id": "src1",
+      "title": "Hofstede Insights: Estonia",
+      "url": "https://www.hofstede-insights.com/country/estonia/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Estonia scores 60 on Hofstede's Individualism index, indicating a moderately individualist culture where individuals look after themselves and their immediate family; responsibility and autonomy are valued.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim10",
+      "source_id": "src4",
+      "title": "Stoic Silence: The Estonian Way of Communication",
+      "url": "https://www.eki.ee/books/estonian_cultural_studies",
+      "author": "Mari-Ann Kelam",
+      "publication_year": 2012,
+      "excerpt": "Younger urban Estonians, especially in Tallinn, adopt a more open communication style influenced by Western media, reducing traditional restraint.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim11",
+      "source_id": "src1",
+      "title": "Hofstede Insights: Estonia",
+      "url": "https://www.hofstede-insights.com/country/estonia/",
+      "author": "Hofstede Insights",
+      "publication_year": 2023,
+      "excerpt": "Hofstede Uncertainty Avoidance for Estonia is 60, indicating a moderate preference for rules, structure, and predictability, but not extreme rigidity.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim12",
+      "source_id": "src7",
+      "title": "Punctuality and Time Management in Estonia",
+      "url": "https://estonianworld.com/life/estonian-time-culture-punctuality/",
+      "author": "Estonian World",
+      "publication_year": 2018,
+      "excerpt": "Estonians value punctuality highly; being late is considered disrespectful; meetings and appointments are expected to start on time and follow an agenda.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim13",
+      "source_id": "src5",
+      "title": "Estonia: A Country Study",
+      "url": "https://countrystudies.us/estonia/",
+      "author": "Library of Congress",
+      "publication_year": 1995,
+      "excerpt": "The German-influenced legal tradition and the modern e-government system have created a well-ordered, rule-based society with a high degree of legal certainty.",
+      "dimension": "D3",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim17",
+      "source_id": "src6",
+      "title": "Estonian Entrepreneurship and the Digital Transformation",
+      "url": "https://www.oecd-ilibrary.org/sites/4b9f5e9e-en/index.html",
+      "author": "OECD",
+      "publication_year": 2021,
+      "excerpt": "Estonia has a strong culture of entrepreneurship, especially in the digital sector, with a focus on innovation, startups, and personal success; this is a clear striving signal.",
+      "dimension": "D4",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim2",
+      "source_id": "src2",
+      "title": "Estonian Identity and the Legacy of Soviet Rule",
+      "url": "https://www.jstor.org/stable/41036465",
+      "author": "Ene Kõresaar",
+      "publication_year": 2005,
+      "excerpt": "Soviet occupation fostered a strong distrust of collective institutions and a turn inward to the family and close friends, reinforcing personal responsibility and self-reliance.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim20",
+      "source_id": "src2",
+      "title": "Estonian Identity and the Legacy of Soviet Rule",
+      "url": "https://www.jstor.org/stable/41036465",
+      "author": "Ene Kõresaar",
+      "publication_year": 2005,
+      "excerpt": "Soviet-era leveling still subtly discourages overt competitiveness; 'tall poppy syndrome' exists, where outstanding achievement may be met with envy or criticism.",
+      "dimension": "D4",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim3",
+      "source_id": "src5",
+      "title": "Estonia: A Country Study",
+      "url": "https://countrystudies.us/estonia/",
+      "author": "Library of Congress",
+      "publication_year": 1995,
+      "excerpt": "Estonian culture emphasizes individual achievement in education and career; the 'Estonian dream' is often about personal success and autonomy, not group harmony.",
+      "dimension": "D1",
+      "support_direction": "supports_high"
+    },
+    {
+      "claim_id": "claim4",
+      "source_id": "src2",
+      "title": "Estonian Identity and the Legacy of Soviet Rule",
+      "url": "https://www.jstor.org/stable/41036465",
+      "author": "Ene Kõresaar",
+      "publication_year": 2005,
+      "excerpt": "Soviet-era collectivist ideals and the importance of the extended family network still create a residue of group loyalty, particularly in rural areas.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim5",
+      "source_id": "src8",
+      "title": "Baltic Values and Social Change",
+      "url": "https://www.researchgate.net/publication/323456789",
+      "author": "M. Lauristin",
+      "publication_year": 2004,
+      "excerpt": "Membership in small, tight-knit communities and strong family ties in Estonian villages moderate individualism, especially in social support systems.",
+      "dimension": "D1",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim6",
+      "source_id": "src4",
+      "title": "Stoic Silence: The Estonian Way of Communication",
+      "url": "https://www.eki.ee/books/estonian_cultural_studies",
+      "author": "Mari-Ann Kelam",
+      "publication_year": 2012,
+      "excerpt": "Estonians typically avoid emotional displays in public; silence is comfortable and considered respectful; excessive talking or showing emotion is seen as intrusive.",
+      "dimension": "D2",
+      "support_direction": "supports_low"
+    },
+    {
+      "claim_id": "claim9",
+      "source_id": "src3",
+      "title": "The Cultural History of the Estonian Song Festival",
+      "url": "https://www.cambridge.org/core/journals/nationalities-papers/article/abs/singing-revolution-estonia-song-festival-and-national-identity",
+      "author": "Gunter K. Schramm",
+      "publication_year": 2007,
+      "excerpt": "During festivals and celebrations, Estonians can become very expressive and emotional, showing the opposite pattern to daily restraint.",
+      "dimension": "D2",
+      "support_direction": "supports_high"
+    }
+  ],
+  "methodology": {
+    "final_scores": {
+      "D1": {
+        "score": 65,
+        "confidence": "MEDIUM"
+      },
+      "D2": {
+        "score": 30,
+        "confidence": "MEDIUM"
+      },
+      "D3": {
+        "score": 64,
+        "confidence": "MEDIUM"
+      },
+      "D4": {
+        "score": 47,
+        "confidence": "MEDIUM"
+      }
+    },
+    "baseline_scores": {
+      "D1": 62.04663579,
+      "D2": 42.89494112,
+      "D3": 59.4745811,
+      "D4": 43.15943237
+    },
+    "confidence_intervals": {
+      "D1": {
+        "lo": 49.77969138,
+        "hi": 74.31358021
+      },
+      "D2": {
+        "lo": 20.76941428,
+        "hi": 65.02046796
+      },
+      "D3": {
+        "lo": 41.61105249,
+        "hi": 77.33810971
+      },
+      "D4": {
+        "lo": 13.67209343,
+        "hi": 72.64677131
+      }
+    },
+    "adjustment_log": [
+      {
+        "iso3": "EST",
+        "dimension": "D1",
+        "baseline": 62.04663579,
+        "final": 65.0,
+        "direction": "up",
+        "magnitude": 2.95,
+        "reason": "Identity adjusted from baseline 62.0 to 65 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 65 keeps Identity on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "EST",
+        "dimension": "D2",
+        "baseline": 42.89494112,
+        "final": 30.0,
+        "direction": "down",
+        "magnitude": 12.89,
+        "reason": "Expression adjusted from baseline 42.9 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 30 keeps Expression on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "EST",
+        "dimension": "D3",
+        "baseline": 59.4745811,
+        "final": 64.0,
+        "direction": "up",
+        "magnitude": 4.53,
+        "reason": "Structure adjusted from baseline 59.5 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 64 keeps Structure on the high side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      },
+      {
+        "iso3": "EST",
+        "dimension": "D4",
+        "baseline": 43.15943237,
+        "final": 47.0,
+        "direction": "up",
+        "magnitude": 3.84,
+        "reason": "Drive adjusted from baseline 43.2 to 47 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "references": [
+          "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+          "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey."
+        ],
+        "anchor_relative_reasoning": "Final 47 keeps Drive on the low side of the 50 anchor.",
+        "change_conditions": "Could shift if schwartz, trompenaars data is revised or stronger qualitative evidence emerges."
+      }
+    ],
+    "range_diagnostics": [
+      {
+        "dimension": "D1",
+        "framework_lo": 49.78,
+        "baseline": 62.04663579,
+        "framework_hi": 74.31,
+        "specialist_recommendation": 63.667,
+        "council_consensus": 67.0,
+        "integrator_recommendation": 64.61,
+        "llm_recommendation": 65.0,
+        "final": 65,
+        "available_range": 24.53,
+        "distance_from_baseline": 2.95,
+        "range_utilization": 62,
+        "clamp_adjustment": 0.39,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 15.22,
+        "distance_from_upper": 9.31,
+        "movement_reason": "Evidence-first placement of Identity at 65 (evidence credibility 0.64): specialist recommendation 63.667 blended with council consensus 67.0, with baseline reference 62.0 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D2",
+        "framework_lo": 20.77,
+        "baseline": 42.89494112,
+        "framework_hi": 65.02,
+        "specialist_recommendation": 29.0,
+        "council_consensus": 28.25,
+        "integrator_recommendation": 30.19,
+        "llm_recommendation": 30.0,
+        "final": 30,
+        "available_range": 44.25,
+        "distance_from_baseline": -12.89,
+        "range_utilization": 21,
+        "clamp_adjustment": -0.19,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 9.23,
+        "distance_from_upper": 35.02,
+        "movement_reason": "Evidence-first placement of Expression at 30 (evidence credibility 0.58): specialist recommendation 29.0 blended with council consensus 28.25, with baseline reference 42.9 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D3",
+        "framework_lo": 41.61,
+        "baseline": 59.4745811,
+        "framework_hi": 77.34,
+        "specialist_recommendation": 67.5,
+        "council_consensus": 62.0,
+        "integrator_recommendation": 64.42,
+        "llm_recommendation": 64.0,
+        "final": 64,
+        "available_range": 35.73,
+        "distance_from_baseline": 4.53,
+        "range_utilization": 63,
+        "clamp_adjustment": -0.42,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 22.39,
+        "distance_from_upper": 13.34,
+        "movement_reason": "Evidence-first placement of Structure at 64 (evidence credibility 0.55): specialist recommendation 67.5 blended with council consensus 62.0, with baseline reference 59.5 weighted only as a decaying reference (not a target)."
+      },
+      {
+        "dimension": "D4",
+        "framework_lo": 13.67,
+        "baseline": 43.15943237,
+        "framework_hi": 72.65,
+        "specialist_recommendation": 49.0,
+        "council_consensus": 44.5,
+        "integrator_recommendation": 46.69,
+        "llm_recommendation": 47.0,
+        "final": 47,
+        "available_range": 58.98,
+        "distance_from_baseline": 3.84,
+        "range_utilization": 57,
+        "clamp_adjustment": 0.31,
+        "was_clamped": false,
+        "clamp_direction": "NONE",
+        "distance_from_lower": 33.33,
+        "distance_from_upper": 25.65,
+        "movement_reason": "Evidence-first placement of Drive at 47 (evidence credibility 0.58): specialist recommendation 49.0 blended with council consensus 44.5, with baseline reference 43.2 weighted only as a decaying reference (not a target)."
+      }
+    ],
+    "decision_explanations": [
+      {
+        "country": "Estonia",
+        "iso3": "EST",
+        "dimension": "D1",
+        "baseline_score": 62.04663579,
+        "final_score": 65,
+        "change_amount": 2.95,
+        "change_percent": 4.75,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Estonia's Identity is placed at 65 (Social 3 <-> Self 97). Within the framework range [50-74], 65 sits at ~62% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C01",
+          "W_historical_analyst_claim2",
+          "W_institutional_analyst_C07"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 75.0
+        },
+        "statistician_reasoning": "Phase 4 final: score of 68 maintained from prior phases. Quantitative: framework consensus=57.06, agreement_score=0.8544 (highest across all four dimensions), conflict_score=0.1456, signal_strength=0.5654. Trompenaars communitarianism-individualism and diffuse-specific both load toward individualism; Schwartz intellectual and affective autonomy are above regional median while embeddedness is below. CI=[49.77, 74.31]; score of 68 sits 18 points above the South Korea D1=50 anchor. (1) Why justified: multiple independent framework signals (Trompenaars + Schwartz) converge on above-50 individualism; Estonia's post-1991 liberal reform trajectory, e-governance individual-rights culture, and low embeddedness scores corroborate. (2) Why not lower: Trompenaars communitarianism-individualism and Schwartz autonomy scores are unambiguously above the regional median; dropping below 60 would contradict the 0.8544 agreement score. (3) Why not higher: Schwartz egalitarianism and residual collectivist patterns from Soviet-era social structures moderate the score; partial data status prevents pushing toward 74. (4) Most decisive evidence: schwartz_intellectual_autonomy, schwartz_affective_autonomy, trompenaars_communitarianism_individualism.",
+        "comparativist_reasoning": "Estonia's D1 score of 68 is justified by its strong individualistic culture, as evidenced by its high scores in Trompenaars' communitarianism-individualism and Schwartz's intellectual autonomy. These scores are consistent with Estonia's post-1991 liberal reforms and e-governance initiatives, which emphasize individual rights. Compared to regional peers like Lithuania (D1=61.69) and Poland (D1=58), Estonia shows a higher degree of individualism. The score should not be lower due to the consistent framework signals pointing towards individualism. It should not be higher because residual collectivist patterns from the Soviet era still exert some influence. The evidence most strongly supporting this placement includes Trompenaars and Schwartz framework signals.",
+        "country_specialist_reasoning": "Estonia's cultural emphasis on individual autonomy, as evidenced by its work culture that promotes independence and flat organizational structures, supports a high score on Identity. The evidence from Vadi (2005) and the emphasis on personal initiative in business contexts further justify this placement.",
+        "skeptic_reasoning": "Adversarial check on Identity=64: resist midpoint bias and compression. The score is above the South Korea anchor (50) by 14 points, consistent with strong individualism signals from Trompenaars and Schwartz autonomy scales, and supported by qualitative evidence of task-based relationships and flat organisational structures. Why not lower: the framework consensus (57.06) and high agreement (0.8544) indicate a clear tilt toward the Self pole; lowering would ignore the convergent quantitative signal. Why not higher: Schwartz egalitarianism and residual collectivist patterns from Soviet-era social structures provide a ceiling; the CI upper bound is 74.31, but pushing to 68+ would overstate the evidence given partial data status and the presence of some collectivist folk emotion models. The strongest evidence: Trompenaars communitarianism-individualism and Schwartz intellectual autonomy.",
+        "integrator_decision": "Identity adjusted from baseline 62.0 to 65 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.64 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Identity issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6577): coverage=0.4, agreement=0.885, evidence=0.557, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 65,
+          "considered_alternatives": [
+            62,
+            64,
+            68
+          ],
+          "why_rejected": {
+            "62": "62 understates Self relative to the framework signal and peer comparisons; rejected as too Social.",
+            "64": "64 understates Self relative to the framework signal and peer comparisons; rejected as too Social.",
+            "68": "68 sits above the confidence-weighted consensus and risks overstating Self; not enough corroborating evidence."
+          },
+          "why_selected": "65 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 65 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (64) and the CI floor (50), so going below 65 would understate the measured signal.",
+        "integrator_recommendation": 64.61,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.39,
+        "absolute_score_rationale": "Estonia sits at 65 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Estonia's Self tendencies; peer and framework evidence place it above 13 on Identity.",
+          "35": "A 35 would understate Estonia's Self tendencies; peer and framework evidence place it above 35 on Identity.",
+          "50": "A 50 would understate Estonia's Self tendencies; peer and framework evidence place it above 50 on Identity.",
+          "80": "A 80 would imply markedly more Self; the evidence and framework signal do not support pushing Estonia that far toward Self.",
+          "87": "A 87 would imply markedly more Self; the evidence and framework signal do not support pushing Estonia that far toward Self."
+        },
+        "cultural_interpretation": "Culturally, a Identity score of 65 means everyday life in Estonia leans toward Self: institutions, norms and expression skew toward Self.",
+        "final_rationale": "Why 65 is justified: Estonia sits at 65 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline. Why not lower: the evidence does not support more Social: a lower score is bounded by the lowest council position (64) and the CI floor (50), so going below 65 would understate the measured signal. Why not higher: the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 65 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C01, W_historical_analyst_claim2, W_institutional_analyst_C07.",
+        "executive_explanation": "Estonia sits at 65 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 65 would lack evidentiary support. the evidence does not support more Social: a lower score is bounded by the lowest council position (64) and the CI floor (50), so going below 65 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=2.95. Framework consensus=57.06, signal_strength=0.5654, conflict=0.1456. Within the framework range [50-74], 65 sits at ~62% of the permitted span. Confidence MEDIUM (score 0.6577): coverage=0.4, agreement=0.885, evidence=0.557, stability=1.0."
+      },
+      {
+        "country": "Estonia",
+        "iso3": "EST",
+        "dimension": "D2",
+        "baseline_score": 42.89494112,
+        "final_score": 30,
+        "change_amount": -12.89,
+        "change_percent": -30.05,
+        "adjustment_type": "EVIDENCE_CORRECTION",
+        "summary": "Estonia's Expression is placed at 30 (Restrained 3 <-> Open 97). Within the framework range [21-65], 30 sits at ~21% of the permitted span.",
+        "evidence_used": [
+          "W_cultural_anthropologist_claim3",
+          "W_cultural_anthropologist_claim4",
+          "W_historical_analyst_claim6"
+        ],
+        "supporting_frameworks": [
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 25.0,
+          "wvs": 0.0,
+          "trompenaars": 75.0
+        },
+        "statistician_reasoning": "Phase 4 final: score of 28 maintained. Quantitative: framework consensus=96.67 — the highest consensus score across all four dimensions — agreement_score=0.6, conflict_score=0.0, signal_strength=0.5933. The trompenaars_affective_neutral signal is unambiguous and points strongly toward the restrained pole. CI=[20.77, 65.02]; score of 28 sits 22 points below the Turkey D2=50 anchor. (1) Why justified: near-perfect consensus at 96.67 is the strongest quantitative signal in the entire profile; ethnographic and cross-cultural observer accounts of Estonian emotional reserve are consistent and uncontradicted. (2) Why not lower (toward 21): some warmth in close interpersonal relationships and Estonia's digital-openness culture provide a floor; the affective-neutral Trompenaars score, while strongly restrained, does not reach the extreme end of the scale. (3) Why not higher: the 96.67 consensus leaves no room for ambiguity; no framework signal pulls toward the open pole; zero conflict score confirms unidirectional evidence. (4) Most decisive evidence: trompenaars_affective_neutral.",
+        "comparativist_reasoning": "Estonia's D2 score of 28 reflects a restrained expression culture, supported by Trompenaars' affective-neutral dimension. This score is below the Turkey D2=50 anchor, indicating a more restrained emotional expression compared to regional peers like Poland (D2=42) and Croatia (D2=43.33). The score should not be lower because Estonia's digital openness and some warmth in close relationships provide a floor. It should not be higher due to the strong consensus on emotional reserve in ethnographic accounts. The decisive evidence includes Trompenaars' affective-neutral dimension.",
+        "country_specialist_reasoning": "Estonia's cultural tendency towards emotional reserve and preference for low-context communication aligns with a restrained expression score. The strong quantitative consensus and qualitative accounts of emotional restraint support this placement.",
+        "skeptic_reasoning": "Adversarial check on Expression=29: resist midpoint bias and compression. The score is well below the Turkey anchor (50) by 21 points, reflecting the strong affective-neutral signal from Trompenaars and consistent qualitative accounts of emotional reserve. Why not lower: the CI lower bound is 20.77, and some warmth in close relationships and digital openness culture provide a floor; a score below 25 would be unsupported. Why not higher: the framework consensus of 96.67 (with zero conflict) is the strongest quantitative signal in the entire profile; ethnographic and cross-cultural observer accounts of Estonian emotional reserve are consistent and uncontradicted; no framework signals pull toward the open pole. The strongest evidence: Trompenaars affective-neutral and cultural anthropologist claims of restrained emotional expression.",
+        "integrator_decision": "Expression adjusted from baseline 42.9 to 30 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Expression issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.6714): coverage=0.4, agreement=0.971, evidence=0.518, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 30,
+          "considered_alternatives": [
+            28,
+            29,
+            43
+          ],
+          "why_rejected": {
+            "28": "28 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "29": "29 understates Open relative to the framework signal and peer comparisons; rejected as too Restrained.",
+            "43": "43 sits above the confidence-weighted consensus and risks overstating Open; not enough corroborating evidence."
+          },
+          "why_selected": "30 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (29) and the CI ceiling (65), so pushing past 30 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (21), so going below 30 would understate the measured signal.",
+        "integrator_recommendation": 30.19,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.19,
+        "absolute_score_rationale": "Estonia sits at 30 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~97), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          65,
+          80
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Estonia's Open tendencies; peer and framework evidence place it above 13 on Expression.",
+          "35": "A 35 would imply markedly more Open; the evidence and framework signal do not support pushing Estonia that far toward Open.",
+          "50": "A 50 would imply markedly more Open; the evidence and framework signal do not support pushing Estonia that far toward Open.",
+          "65": "A 65 would imply markedly more Open; the evidence and framework signal do not support pushing Estonia that far toward Open.",
+          "80": "A 80 would imply markedly more Open; the evidence and framework signal do not support pushing Estonia that far toward Open."
+        },
+        "cultural_interpretation": "Culturally, a Expression score of 30 means everyday life in Estonia leans toward Restrained: institutions, norms and expression skew toward Restrained.",
+        "final_rationale": "Why 30 is justified: Estonia sits at 30 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~97), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Why not lower: the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (21), so going below 30 would understate the measured signal. Why not higher: the evidence does not support more Open: a higher score is bounded by the strongest council position (29) and the CI ceiling (65), so pushing past 30 would lack evidentiary support. Strongest supporting evidence: W_cultural_anthropologist_claim3, W_cultural_anthropologist_claim4, W_historical_analyst_claim6.",
+        "executive_explanation": "Estonia sits at 30 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~97), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Open: a higher score is bounded by the strongest council position (29) and the CI ceiling (65), so pushing past 30 would lack evidentiary support. the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (21), so going below 30 would understate the measured signal.",
+        "research_explanation": "Adjustment type EVIDENCE_CORRECTION; |delta|=12.89. Framework consensus=96.67, signal_strength=0.5933, conflict=0.0. Within the framework range [21-65], 30 sits at ~21% of the permitted span. Confidence MEDIUM (score 0.6714): coverage=0.4, agreement=0.971, evidence=0.518, stability=1.0."
+      },
+      {
+        "country": "Estonia",
+        "iso3": "EST",
+        "dimension": "D3",
+        "baseline_score": 59.4745811,
+        "final_score": 64,
+        "change_amount": 4.53,
+        "change_percent": 7.62,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Estonia's Structure is placed at 64 (Fluid 3 <-> Certain 97). Within the framework range [42-77], 64 sits at ~63% of the permitted span.",
+        "evidence_used": [
+          "W_institutional_analyst_C22",
+          "W_institutional_analyst_C24",
+          "W_historical_analyst_claim14"
+        ],
+        "supporting_frameworks": [
+          "schwartz",
+          "trompenaars"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 50.0,
+          "wvs": 0.0,
+          "trompenaars": 50.0
+        },
+        "statistician_reasoning": "Phase 4 final: score of 62 maintained. Quantitative: framework consensus=35.34, agreement_score=0.8277, conflict_score=0.1723, signal_strength=0.6029. Schwartz harmony and Trompenaars sequential-synchronic and future-past signals converge on above-50 structure preference. CI=[41.61, 77.34]; score of 62 sits 12 points above the Colombia D3=50 anchor. (1) Why justified: Schwartz harmony (low tolerance for disruption) and sequential time orientation signal preference for predictability and rule-following; Estonia's strong e-governance infrastructure and procedural culture reinforce psychological comfort with structured environments. (2) Why not lower: agreement_score=0.8277 across Schwartz and Trompenaars signals is robust; dropping below 55 would contradict convergent framework evidence. (3) Why not higher: conflict_score=0.1723 introduces some uncertainty; partial data status and the moderate consensus of 35.34 prevent pushing toward 77; Estonia's tech-startup culture and post-Soviet adaptability introduce some tolerance for ambiguity. (4) Most decisive evidence: schwartz_harmony, trompenaars_synchronic_sequential, trompenaars_future_past.",
+        "comparativist_reasoning": "Estonia's D3 score of 62 indicates a preference for structure, supported by Schwartz's harmony and Trompenaars' sequential-synchronic signals. This score is above the Colombia D3=50 anchor, aligning with regional peers like Poland (D3=64) and Croatia (D3=60.88). The score should not be lower due to the convergence of framework signals on structure preference. It should not be higher because Estonia's innovative digital governance introduces some fluidity. The strongest supporting evidence includes Schwartz and Trompenaars framework signals.",
+        "country_specialist_reasoning": "Estonia's preference for structure and predictability, as indicated by Schwartz's harmony and Trompenaars' sequential time orientation, supports a higher score on Structure. The cultural emphasis on order and predictability in business and social contexts justifies this placement.",
+        "skeptic_reasoning": "Adversarial check on Structure=62: resist midpoint bias and compression. The score is above the Colombia anchor (50) by 12 points, reflecting a moderate preference for certainty and predictability, consistent with Schwartz harmony and Trompenaars sequential time orientation. Why not lower: the framework consensus (35.34) and agreement (0.8277) indicate a tilt toward the Certain pole; lowering would ignore the quantitative signal and the qualitative evidence of rule-following in business and governance. Why not higher: the CI upper bound is 77.34, but the partial data status and the presence of some flexibility (e.g., tolerance for digital innovation and startup culture) prevent pushing above 65; the score is defensible within the moderate range. The strongest evidence: Schwartz harmony and Trompenaars sequential-synchronic orientation.",
+        "integrator_decision": "Structure adjusted from baseline 59.5 to 64 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.55 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Structure issues.",
+        "calibration_effect": "Calibration: no adjustment required for this dimension.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.5525): coverage=0.4, agreement=1.0, evidence=0.578, stability=1.0.",
+        "counterfactual": {
+          "selected_score": 64,
+          "considered_alternatives": [
+            59,
+            62
+          ],
+          "why_rejected": {
+            "59": "59 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid.",
+            "62": "62 understates Certain relative to the framework signal and peer comparisons; rejected as too Fluid."
+          },
+          "why_selected": "64 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (77), so pushing past 64 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (62) and the CI floor (42), so going below 64 would understate the measured signal.",
+        "integrator_recommendation": 64.42,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": -0.42,
+        "absolute_score_rationale": "Estonia sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          50,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Estonia's Certain tendencies; peer and framework evidence place it above 13 on Structure.",
+          "35": "A 35 would understate Estonia's Certain tendencies; peer and framework evidence place it above 35 on Structure.",
+          "50": "A 50 would understate Estonia's Certain tendencies; peer and framework evidence place it above 50 on Structure.",
+          "80": "A 80 would imply markedly more Certain; the evidence and framework signal do not support pushing Estonia that far toward Certain.",
+          "87": "A 87 would imply markedly more Certain; the evidence and framework signal do not support pushing Estonia that far toward Certain."
+        },
+        "cultural_interpretation": "Culturally, a Structure score of 64 means everyday life in Estonia leans toward Certain: institutions, norms and expression skew toward Certain.",
+        "final_rationale": "Why 64 is justified: Estonia sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline. Why not lower: the evidence does not support more Fluid: a lower score is bounded by the lowest council position (62) and the CI floor (42), so going below 64 would understate the measured signal. Why not higher: the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (77), so pushing past 64 would lack evidentiary support. Strongest supporting evidence: W_institutional_analyst_C22, W_institutional_analyst_C24, W_historical_analyst_claim14.",
+        "executive_explanation": "Estonia sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (77), so pushing past 64 would lack evidentiary support. the evidence does not support more Fluid: a lower score is bounded by the lowest council position (62) and the CI floor (42), so going below 64 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=4.53. Framework consensus=35.34, signal_strength=0.6029, conflict=0.1723. Within the framework range [42-77], 64 sits at ~63% of the permitted span. Confidence MEDIUM (score 0.5525): coverage=0.4, agreement=1.0, evidence=0.578, stability=1.0."
+      },
+      {
+        "country": "Estonia",
+        "iso3": "EST",
+        "dimension": "D4",
+        "baseline_score": 43.15943237,
+        "final_score": 47,
+        "change_amount": 3.84,
+        "change_percent": 8.9,
+        "adjustment_type": "REGIONAL_ALIGNMENT",
+        "summary": "Estonia's Drive is placed at 47 (Accepting 3 <-> Striving 97). Within the framework range [14-73], 47 sits at ~57% of the permitted span.",
+        "evidence_used": [
+          "W_historical_analyst_claim19",
+          "W_historical_analyst_claim20",
+          "W_institutional_analyst_C30"
+        ],
+        "supporting_frameworks": [
+          "schwartz"
+        ],
+        "conflicting_frameworks": [],
+        "framework_contributions": {
+          "hofstede": 0.0,
+          "globe": 0.0,
+          "schwartz": 75.0,
+          "wvs": 0.0,
+          "trompenaars": 25.0
+        },
+        "statistician_reasoning": "Phase 4 final: score of 42 maintained. Quantitative: framework consensus=36.79, agreement_score=0.7334, conflict_score=0.2666, signal_strength=0.566. Schwartz mastery is moderate; Trompenaars ascription-achievement and external-internal signals show mixed evidence. CI=[13.67, 72.65]; score of 42 sits 8 points below the Turkey D4=50 anchor. (1) Why justified: Estonia's cultural emphasis on sufficiency, quiet competence, and work-life balance (relative to Nordic peers) rather than overt competitive achievement places it modestly below the midpoint; Schwartz mastery does not signal high drive; the conflict_score=0.2666 is the highest across all dimensions, reflecting genuine ambiguity. (2) Why not lower: Schwartz mastery is not at the floor; Estonia's tech-sector ambition and achievement-oriented e-governance reforms provide a floor above the low end of the CI; dropping below 35 would require stronger evidence of harmony/sufficiency orientation. (3) Why not higher: conflict_score=0.2666 and the moderate consensus of 36.79 prevent confident upward movement; no strong GLOBE Performance Orientation data available to push toward striving pole; partial data status caps confidence. (4) Most decisive evidence: schwartz_mastery, trompenaars_ascription_achievement.",
+        "comparativist_reasoning": "Estonia's D4 score of 45 reflects a balanced drive culture, slightly below the Turkey D4=50 anchor. Compared to regional peers like Lithuania (D4=41.61) and Poland (D4=57), Estonia shows moderate ambition. The score should not be lower because Estonia's technological advancements and economic growth indicate some drive. It should not be higher due to a cultural emphasis on work-life balance and contentment. The strongest supporting evidence includes historical and cultural analyses.",
+        "country_specialist_reasoning": "Estonia's cultural balance between achievement orientation and contentment suggests a score near the midpoint for Drive. The qualitative evidence of pragmatism and self-reliance, without extreme ambition, supports this placement.",
+        "skeptic_reasoning": "Adversarial check on Drive=42: resist midpoint bias and compression. The score is below the Turkey anchor (50) by 8 points, reflecting a moderate acceptance orientation, consistent with Schwartz mastery (below median) and Trompenaars ascription-achievement (mixed). Why not lower: the CI lower bound is 13.67, but the baseline (43.16) and regional mean (47.68) suggest a moderate score; lowering to 30 or below would overstate the acceptance orientation given Estonia's strong startup culture and achievement-oriented digital sector. Why not higher: the framework consensus (36.79) and conflict score (0.2666) indicate some tension, but the overall signal leans toward acceptance; qualitative evidence of contentment and sufficiency values (e.g., work-life balance emphasis) supports a below-50 score. The strongest evidence: Schwartz mastery and Trompenaars ascription-achievement.",
+        "integrator_decision": "Drive adjusted from baseline 43.2 to 47 after council deliberation on framework signals and anchor-relative evidence. Specialist influence 0.58 (cap 0.90), disagreement-scaled; final kept within the legal range.",
+        "judge_validation": "Judges: methodology=APPROVE, cultural_validity=APPROVE. No outstanding Drive issues.",
+        "calibration_effect": "Calibration: flagged near midpoint.",
+        "confidence_explanation": "Confidence MEDIUM (score 0.4842): coverage=0.4, agreement=0.809, evidence=0.54, stability=0.8.",
+        "counterfactual": {
+          "selected_score": 47,
+          "considered_alternatives": [
+            42,
+            43,
+            45,
+            49
+          ],
+          "why_rejected": {
+            "42": "42 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "43": "43 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "45": "45 understates Striving relative to the framework signal and peer comparisons; rejected as too Accepting.",
+            "49": "49 sits above the confidence-weighted consensus and risks overstating Striving; not enough corroborating evidence."
+          },
+          "why_selected": "47 is the confidence-weighted reconciliation of the four agents' Phase-4 positions, kept inside the statistical confidence interval."
+        },
+        "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (49) and the CI ceiling (73), so pushing past 47 would lack evidentiary support.",
+        "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (42) and the CI floor (14), so going below 47 would understate the measured signal.",
+        "integrator_recommendation": 46.69,
+        "recommendation_modified_by_framework": false,
+        "framework_limit_applied": "",
+        "clamp_adjustment": 0.31,
+        "absolute_score_rationale": "Estonia sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+        "alternatives_considered": [
+          13,
+          35,
+          65,
+          80,
+          87
+        ],
+        "why_alternatives_rejected": {
+          "13": "A 13 would understate Estonia's Striving tendencies; peer and framework evidence place it above 13 on Drive.",
+          "35": "A 35 would understate Estonia's Striving tendencies; peer and framework evidence place it above 35 on Drive.",
+          "65": "A 65 would imply markedly more Striving; the evidence and framework signal do not support pushing Estonia that far toward Striving.",
+          "80": "A 80 would imply markedly more Striving; the evidence and framework signal do not support pushing Estonia that far toward Striving.",
+          "87": "A 87 would imply markedly more Striving; the evidence and framework signal do not support pushing Estonia that far toward Striving."
+        },
+        "cultural_interpretation": "Culturally, a Drive score of 47 means everyday life in Estonia leans between the poles: Accepting and Striving tendencies coexist in roughly equal measure.",
+        "final_rationale": "Why 47 is justified: Estonia sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Why not lower: the evidence does not support more Accepting: a lower score is bounded by the lowest council position (42) and the CI floor (14), so going below 47 would understate the measured signal. Why not higher: the evidence does not support more Striving: a higher score is bounded by the strongest council position (49) and the CI ceiling (73), so pushing past 47 would lack evidentiary support. Strongest supporting evidence: W_historical_analyst_claim19, W_historical_analyst_claim20, W_institutional_analyst_C30.",
+        "executive_explanation": "Estonia sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline. Placement is supported by 3 cited evidence item(s). the evidence does not support more Striving: a higher score is bounded by the strongest council position (49) and the CI ceiling (73), so pushing past 47 would lack evidentiary support. the evidence does not support more Accepting: a lower score is bounded by the lowest council position (42) and the CI floor (14), so going below 47 would understate the measured signal.",
+        "research_explanation": "Adjustment type REGIONAL_ALIGNMENT; |delta|=3.84. Framework consensus=36.79, signal_strength=0.566, conflict=0.2666. Within the framework range [14-73], 47 sits at ~57% of the permitted span. Confidence MEDIUM (score 0.4842): coverage=0.4, agreement=0.809, evidence=0.54, stability=0.8."
+      }
+    ],
+    "neighbours": [
+      {
+        "iso3": "MNE",
+        "country": "Montenegro",
+        "d1": 60.49781383,
+        "d2": 50.53023429,
+        "d3": 56.65212323,
+        "d4": 45.74138367,
+        "relation": "regional"
+      },
+      {
+        "iso3": "LTU",
+        "country": "Lithuania",
+        "d1": 61.69279696,
+        "d2": 33.75436543,
+        "d3": 59.4371452,
+        "d4": 41.61348002,
+        "relation": "regional"
+      },
+      {
+        "iso3": "POL",
+        "country": "Poland",
+        "d1": 58.0,
+        "d2": 42.0,
+        "d3": 64.0,
+        "d4": 57.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "SRB",
+        "country": "Serbia",
+        "d1": 52.0,
+        "d2": 47.0,
+        "d3": 72.0,
+        "d4": 51.0,
+        "relation": "regional"
+      },
+      {
+        "iso3": "HRV",
+        "country": "Croatia",
+        "d1": 51.59093512,
+        "d2": 43.33047811,
+        "d3": 60.88042521,
+        "d4": 59.48066367,
+        "relation": "regional"
+      }
+    ],
+    "anchor_positions": [
+      {
+        "dimension": "D1",
+        "anchor_iso3": "KOR",
+        "direction": "Above",
+        "magnitude": 15.0,
+        "reason": "Estonia is above the South Korea Identity anchor (50) by 15.0."
+      },
+      {
+        "dimension": "D2",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 20.0,
+        "reason": "Estonia is below the Turkey Expression anchor (50) by 20.0."
+      },
+      {
+        "dimension": "D4",
+        "anchor_iso3": "TUR",
+        "direction": "Below",
+        "magnitude": 3.0,
+        "reason": "Estonia is below the Turkey Drive anchor (50) by 3.0."
+      },
+      {
+        "dimension": "D3",
+        "anchor_iso3": "COL",
+        "direction": "Above",
+        "magnitude": 14.0,
+        "reason": "Estonia is above the Colombia Structure anchor (50) by 14.0."
+      }
+    ],
+    "calibration_results": [
+      {
+        "scope": "country",
+        "iso3": "EST",
+        "checks": [
+          {
+            "name": "anchor_consistency",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "ci_compliance",
+            "passed": true,
+            "detail": ""
+          },
+          {
+            "name": "flat_profile",
+            "passed": true,
+            "detail": "range=35"
+          },
+          {
+            "name": "midpoint_scan",
+            "passed": true,
+            "detail": "['D4']"
+          },
+          {
+            "name": "discriminant_validity",
+            "passed": true,
+            "detail": "0 within 5.0"
+          }
+        ],
+        "flags": [
+          "midpoint:D4"
+        ],
+        "discrimination_flags": [],
+        "flat_profile": false,
+        "profile_range": 35.0,
+        "midpoint_dimensions": [
+          "D4"
+        ],
+        "anchor_violations": [],
+        "ci_violations": [],
+        "outliers": [],
+        "requires_redeliberation": false,
+        "recalibration_queue": []
+      }
+    ],
+    "references": [
+      {
+        "citation": "Schwartz, S. H. (2006). A theory of cultural value orientations: Explication and applications. Comparative Sociology, 5(2-3), 137-182.",
+        "source_type": "academic_journal",
+        "data_point": "Mexico high embeddedness, moderate mastery, harmony signals",
+        "url_or_doi": "https://doi.org/10.1163/156913306778667357",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "Social",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0003"
+      },
+      {
+        "citation": "Trompenaars, F., & Hampden-Turner, C. (1997). Riding the Waves of Culture: Understanding Cultural Diversity in Business (2nd ed.). Nicholas Brealey.",
+        "source_type": "academic_book",
+        "data_point": "Mexico communitarianism, affective-neutral tension, particularism",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "Open",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0004"
+      },
+      {
+        "citation": "Hofstede, G., Hofstede, G. J., & Minkov, M. (2010). Cultures and Organizations: Software of the Mind (3rd ed.). McGraw-Hill.",
+        "source_type": "academic_book",
+        "data_point": "Hofstede individualism and power distance scores for Zimbabwe and Sub-Saharan African regional comparisons",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "collectivist",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0009"
+      },
+      {
+        "citation": "Realo, A., & Allik, J. (1999). A cross-cultural study of collectivism: A comparison of American, Estonian, and Russian students. Journal of Social Psychology, 139(2), 133-142.",
+        "source_type": "academic_journal",
+        "data_point": "Estonian students scored significantly higher on individualism measures than Russian counterparts and comparably to American students on several sub-scales, supporting above-50 D1 placement.",
+        "url_or_doi": "https://doi.org/10.1080/00224549909598373",
+        "accessed_date": null,
+        "folk_dimension": "D1",
+        "direction": "self",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0029"
+      },
+      {
+        "citation": "Vadi, M., & Meri, K. (2005). The Estonian cultural profile: Implications for management. Journal of East European Management Studies, 10(3), 257-276.",
+        "source_type": "academic_journal",
+        "data_point": "Estonian managers exhibit emotional restraint and preference for structured, rule-based environments; low expressiveness noted relative to Southern European comparators.",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D2",
+        "direction": "restrained",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0030"
+      },
+      {
+        "citation": "Inglehart, R., & Welzel, C. (2005). Modernization, Cultural Change, and Democracy. Cambridge University Press.",
+        "source_type": "academic_book",
+        "data_point": "Survival vs self-expression values; post-conflict African societies show communal solidarity over individual achievement",
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": "D4",
+        "direction": "low",
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0013"
+      },
+      {
+        "citation": "Vadi, M. (2005). Trames: A Journal of the Humanities and Social Sciences.",
+        "source_type": "academic_journal",
+        "data_point": null,
+        "url_or_doi": null,
+        "accessed_date": null,
+        "folk_dimension": null,
+        "direction": null,
+        "verified": true,
+        "verification_notes": [],
+        "ref_id": "REF_0031"
+      }
+    ],
+    "specialist": {
+      "positions": [
+        {
+          "iso3": "EST",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D1",
+          "proposed_score": 40.0,
+          "strongest_supporting": "Soviet occupation fostered a strong distrust of collective institutions and a turn inward to the family and close friends, reinforcing personal responsibility and self-reliance.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 48.0,
+          "confidence": 0.6,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "EST",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D2",
+          "proposed_score": 30.0,
+          "strongest_supporting": "Soviet-era collectivist ideals and the importance of the extended family network still create a residue of group loyalty, particularly in rural areas.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim3",
+            "claim4",
+            "claim5"
+          ],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "EST",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D3",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "EST",
+          "specialist": "cultural_anthropologist",
+          "dimension": "D4",
+          "proposed_score": null,
+          "strongest_supporting": "",
+          "strongest_opposing": "",
+          "biggest_weakness": "No supporting evidence cited; the score rests on prior/expectation.",
+          "alternative_score": null,
+          "confidence": 0.0,
+          "supporting_evidence_ids": [],
+          "opposing_evidence_ids": []
+        },
+        {
+          "iso3": "EST",
+          "specialist": "institutional_analyst",
+          "dimension": "D1",
+          "proposed_score": 76.0,
+          "strongest_supporting": "Estonian business culture is described as a textbook example of low-context communication — meetings start on time, focus on efficiency, and avoid small talk — patterns associated with individualist, task-first identity.",
+          "strongest_opposing": "A Springer book chapter on Estonia examines the transition from Soviet collectivism and its residual influence on organisational orientation, suggesting collectivist legacies have not fully disappeared.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 84.0,
+          "confidence": 0.78,
+          "supporting_evidence_ids": [
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07"
+          ],
+          "opposing_evidence_ids": [
+            "C08",
+            "C09",
+            "C10"
+          ]
+        },
+        {
+          "iso3": "EST",
+          "specialist": "institutional_analyst",
+          "dimension": "D2",
+          "proposed_score": 22.0,
+          "strongest_supporting": "Researchers at the University of Tartu have documented that Estonians 'only speak when they have something to say' — silence is a positively valued cultural norm, not an absence of communication, indicating strong structural restraint of emotional expression.",
+          "strongest_opposing": "Younger Estonians are becoming more fluent in the global language of small talk and may sometimes enjoy it — a generational shift towards slightly more open expression, especially internationally.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 30.0,
+          "confidence": 0.82,
+          "supporting_evidence_ids": [
+            "C11",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16",
+            "C17"
+          ],
+          "opposing_evidence_ids": [
+            "C18",
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "iso3": "EST",
+          "specialist": "institutional_analyst",
+          "dimension": "D3",
+          "proposed_score": 65.0,
+          "strongest_supporting": "An EU-level analysis classifies Estonia alongside Germany, Lithuania, and Belgium as a long-term oriented culture whose people are described as persistent, adaptive, and believing most important events in life will occur in the future — a high-structure planning disposition.",
+          "strongest_opposing": "Estonia built the world's most advanced digital government and e-Residency programme, demonstrating an institutional capacity for radical innovation and structural experimentation — a counter-signal to rigid uncertainty avoidance.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 73.0,
+          "confidence": 0.74,
+          "supporting_evidence_ids": [
+            "C21",
+            "C22",
+            "C23",
+            "C24",
+            "C25",
+            "C26"
+          ],
+          "opposing_evidence_ids": [
+            "C27",
+            "C28",
+            "C29"
+          ]
+        },
+        {
+          "iso3": "EST",
+          "specialist": "institutional_analyst",
+          "dimension": "D4",
+          "proposed_score": 38.0,
+          "strongest_supporting": "Estonia's Hofstede Masculinity score is 30, placing Estonian culture firmly in the feminine/accepting quadrant, indicating a cultural preference for relationships, quality of life, and modesty over competition and material achievement.",
+          "strongest_opposing": "",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 38.0,
+          "confidence": 0.68,
+          "supporting_evidence_ids": [
+            "C30",
+            "C31",
+            "C32",
+            "C33"
+          ],
+          "opposing_evidence_ids": [
+            "C34",
+            "C35",
+            "C36",
+            "C37"
+          ]
+        },
+        {
+          "iso3": "EST",
+          "specialist": "historical_analyst",
+          "dimension": "D1",
+          "proposed_score": 75.0,
+          "strongest_supporting": "Soviet occupation fostered a strong distrust of collective institutions and a turn inward to the family and close friends, reinforcing personal responsibility and self-reliance.",
+          "strongest_opposing": "Soviet-era collectivist ideals and the importance of the extended family network still create a residue of group loyalty, particularly in rural areas.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 83.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim1",
+            "claim2",
+            "claim3"
+          ],
+          "opposing_evidence_ids": [
+            "claim4",
+            "claim5"
+          ]
+        },
+        {
+          "iso3": "EST",
+          "specialist": "historical_analyst",
+          "dimension": "D2",
+          "proposed_score": 35.0,
+          "strongest_supporting": "The Estonian Song Festival involves massive choral singing and overt patriotic emotion, but this is a rare, sanctioned release of collective emotion, not everyday behavior.",
+          "strongest_opposing": "During festivals and celebrations, Estonians can become very expressive and emotional, showing the opposite pattern to daily restraint.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 43.0,
+          "confidence": 0.8,
+          "supporting_evidence_ids": [
+            "claim6",
+            "claim7",
+            "claim8"
+          ],
+          "opposing_evidence_ids": [
+            "claim9",
+            "claim10"
+          ]
+        },
+        {
+          "iso3": "EST",
+          "specialist": "historical_analyst",
+          "dimension": "D3",
+          "proposed_score": 70.0,
+          "strongest_supporting": "The German-influenced legal tradition and the modern e-government system have created a well-ordered, rule-based society with a high degree of legal certainty.",
+          "strongest_opposing": "Soviet-era arbitrariness created a deep-seated distrust of formal rules and institutions, leading some to bypass regulations when possible.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 78.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim11",
+            "claim12",
+            "claim13"
+          ],
+          "opposing_evidence_ids": [
+            "claim14",
+            "claim15"
+          ]
+        },
+        {
+          "iso3": "EST",
+          "specialist": "historical_analyst",
+          "dimension": "D4",
+          "proposed_score": 60.0,
+          "strongest_supporting": "Education is highly valued and competitive; students are pushed to excel; there is a strong belief that hard work and education lead to success.",
+          "strongest_opposing": "Soviet-era leveling still subtly discourages overt competitiveness; 'tall poppy syndrome' exists, where outstanding achievement may be met with envy or criticism.",
+          "biggest_weakness": "All supporting sources are unverified; corroboration is weak.",
+          "alternative_score": 68.0,
+          "confidence": 0.7,
+          "supporting_evidence_ids": [
+            "claim16",
+            "claim17",
+            "claim18"
+          ],
+          "opposing_evidence_ids": [
+            "claim19",
+            "claim20"
+          ]
+        }
+      ],
+      "influence_records": [
+        {
+          "iso3": "EST",
+          "dimension": "D1",
+          "baseline_score": 62.04663579,
+          "specialist_recommendation": 63.667,
+          "specialist_confidence": 0.7267,
+          "evidence_strength": 0.5571,
+          "evidence_quality": 0.5787,
+          "disagreement_index": 0.6696,
+          "specialist_influence_weight": 0.6416,
+          "rationale": "High specialist confidence, high disagreement -> evidence credibility 0.64 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "EST",
+          "dimension": "D2",
+          "baseline_score": 42.89494112,
+          "specialist_recommendation": 29.0,
+          "specialist_confidence": 0.7733,
+          "evidence_strength": 0.5182,
+          "evidence_quality": 0.5792,
+          "disagreement_index": 0.2142,
+          "specialist_influence_weight": 0.5757,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "EST",
+          "dimension": "D3",
+          "baseline_score": 59.4745811,
+          "specialist_recommendation": 67.5,
+          "specialist_confidence": 0.72,
+          "evidence_strength": 0.5778,
+          "evidence_quality": 0.5692,
+          "disagreement_index": 0.1,
+          "specialist_influence_weight": 0.5529,
+          "rationale": "High specialist confidence -> evidence credibility 0.55 (placement leans on the specialist recommendation)."
+        },
+        {
+          "iso3": "EST",
+          "dimension": "D4",
+          "baseline_score": 43.15943237,
+          "specialist_recommendation": 49.0,
+          "specialist_confidence": 0.69,
+          "evidence_strength": 0.54,
+          "evidence_quality": 0.5107,
+          "disagreement_index": 0.44,
+          "specialist_influence_weight": 0.579,
+          "rationale": "High specialist confidence -> evidence credibility 0.58 (placement leans on the specialist recommendation)."
+        }
+      ],
+      "challenges": [
+        {
+          "iso3": "EST",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D1",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D1 score (gap 36.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 36.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "cultural_anthropologist",
+          "target": "institutional_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "cultural_anthropologist disputes the quality of the cited evidence behind institutional_analyst's D2 score (gap 8.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 8.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D2",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D2 score (gap 13.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 13.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D3",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D3 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "institutional_analyst",
+          "target": "historical_analyst",
+          "dimension": "D4",
+          "attack_type": "evidence_quality",
+          "critique": "institutional_analyst disputes the quality of the cited evidence behind historical_analyst's D4 score (gap 22.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 22.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D1",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D1 score (gap 35.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 35.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "historical_analyst",
+          "target": "cultural_anthropologist",
+          "dimension": "D2",
+          "attack_type": "missing_evidence",
+          "critique": "historical_analyst flags missing counter-evidence behind cultural_anthropologist's D2 score (gap 5.0 points).",
+          "target_response": "All supporting sources are unverified; corroboration is weak.",
+          "accepted": false,
+          "impact": 5.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Identity=59: differs by 9 from the statistician reading of 68.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 9.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Expression=39: differs by 9 from the statistician reading of 30.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 11.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Structure=65: differs by 3 from the statistician reading of 62.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "statistician",
+          "target": "comparativist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "statistician challenges comparativist's Drive=48: differs by 10 from the statistician reading of 38.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 3.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Identity=68: differs by 9 from the comparativist reading of 59.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Expression=35: differs by 4 from the comparativist reading of 39.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 7.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Structure=75: differs by 10 from the comparativist reading of 65.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 13.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "comparativist",
+          "target": "country_specialist",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "comparativist challenges country_specialist's Drive=55: differs by 7 from the comparativist reading of 48.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 6.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Identity=62: differs by 6 from the country_specialist reading of 68.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 2.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Expression=48: differs by 13 from the country_specialist reading of 35.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 19.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Structure=54: differs by 21 from the country_specialist reading of 75.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 8.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "country_specialist",
+          "target": "devils_advocate",
+          "dimension": "D4",
+          "attack_type": "assumptions",
+          "critique": "country_specialist challenges devils_advocate's Drive=38: differs by 17 from the country_specialist reading of 55.",
+          "target_response": "accepted",
+          "accepted": true,
+          "impact": 4.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D1",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Identity=68: differs by 6 from the devils_advocate reading of 62.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D2",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Expression=30: differs by 18 from the devils_advocate reading of 48.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 2.0
+        },
+        {
+          "iso3": "EST",
+          "challenger": "devils_advocate",
+          "target": "statistician",
+          "dimension": "D3",
+          "attack_type": "assumptions",
+          "critique": "devils_advocate challenges statistician's Structure=62: differs by 8 from the devils_advocate reading of 54.",
+          "target_response": "rejected",
+          "accepted": false,
+          "impact": 0.0
+        }
+      ],
+      "participation": [
+        {
+          "iso3": "EST",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.6,
+          "evidence_count": 2,
+          "recommendation": 40.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 3,
+          "recommendation": 30.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D3",
+          "contribution_status": "ABSTAINED",
+          "reason": "I found no ethnographic or lived-experience evidence about orderliness, planning, discomfort with ambiguity, or rule adherence in everyday life; governance details are not valid for this dimension. Abstaining.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "EST",
+          "seat": "cultural_anthropologist",
+          "provider": "openai",
+          "dimension": "D4",
+          "contribution_status": "ABSTAINED",
+          "reason": "No clear evidence related to achievement‑orientation vs harmony/acceptance in everyday cultural practice—no ethnographic sources on striving or competition. Abstaining.",
+          "failure_reason": "ABSTAINED_INSUFFICIENT_EVIDENCE",
+          "confidence": 0.0,
+          "evidence_count": 0,
+          "recommendation": null
+        },
+        {
+          "iso3": "EST",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.78,
+          "evidence_count": 10,
+          "recommendation": 76.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.82,
+          "evidence_count": 10,
+          "recommendation": 22.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.74,
+          "evidence_count": 9,
+          "recommendation": 65.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "institutional_analyst",
+          "provider": "anthropic",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.68,
+          "evidence_count": 8,
+          "recommendation": 38.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D1",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 75.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D2",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.8,
+          "evidence_count": 5,
+          "recommendation": 35.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D3",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 70.0
+        },
+        {
+          "iso3": "EST",
+          "seat": "historical_analyst",
+          "provider": "deepseek",
+          "dimension": "D4",
+          "contribution_status": "CONTRIBUTED",
+          "reason": "Evidence-backed recommendation provided.",
+          "failure_reason": null,
+          "confidence": 0.7,
+          "evidence_count": 5,
+          "recommendation": 60.0
+        }
+      ],
+      "independence": [],
+      "diversity_v2": {
+        "iso3": "EST",
+        "score_diversity": 0.2522,
+        "source_diversity": 0.9167,
+        "reasoning_diversity": 1.0,
+        "challenge_intensity": 0.6727,
+        "consensus_quality": 0.9497,
+        "notes": []
+      }
+    },
+    "intelligence_card": {
+      "iso3": "EST",
+      "country": "Estonia",
+      "region": "Eastern Europe",
+      "provider_diversity": 1.0,
+      "dimensions": [
+        {
+          "dimension": "D1",
+          "label": "Identity",
+          "score": 65,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.33,
+          "top_supporting_arguments": [
+            "Peer-reviewed Estonian cultural research (Vadi, Trames 2005) places Estonians in the quarter with a rather high level of individualism on Hofstede's scale.",
+            "In Estonia, business relationships are very formal and it is not common practice for Estonians to want to get to know counterparts before conducting business — they prefer to get straight to the point; work relationships are task-based rather than kinship-based.",
+            "Estonia's work culture emphasises independence and professionalism, with employees expected to take personal initiative and manage their tasks independently once objectives are clear."
+          ],
+          "top_counter_arguments": [
+            "Estonian folk model of emotions emphasises social interaction and ties emotion to personality traits, indicating the social dimension in definitions of self",
+            "Referring to causes and attributes of emotions is characteristic of collectivistic cultures and appears in Estonian folk emotion models",
+            "Estonian national cultural identity is very strong, with oral traditions playing a key role in preserving traditions, stories and customs during Soviet administration — suggesting a collective national identity dimension."
+          ],
+          "why_this_score": "Estonia sits at 65 on Identity (Social 3 <-> Self 97), placing it toward Self. This absolute level reflects the convergence of the framework signal (framework consensus ~57), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 62 baseline.",
+          "why_not_higher": "the evidence does not support more Self: a higher score is bounded by the strongest council position (68) and the CI ceiling (74), so pushing past 65 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Social: a lower score is bounded by the lowest council position (64) and the CI floor (50), so going below 65 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Lithuania",
+            "Poland",
+            "Serbia",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C01",
+              "source_id": "S02",
+              "title": "Estonian Culture in the Framework of Hofstede's Model (Case of Hotel Industry)",
+              "url": "https://kirj.ee/wp-content/plugins/kirj/pub/Trames-3-2005-268-284_20221006171706.pdf",
+              "author": "Maaja Vadi et al.",
+              "publication_year": 2005,
+              "excerpt": "Peer-reviewed Estonian cultural research (Vadi, Trames 2005) places Estonians in the quarter with a rather high level of individualism on Hofstede's scale.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C02",
+              "source_id": "S11",
+              "title": "The Business Experience – Estonia (Global Road Warrior)",
+              "url": "https://www.globalroadwarrior.com/estonia/business-experience.html",
+              "author": "Global Road Warrior editorial",
+              "publication_year": 2023,
+              "excerpt": "In Estonia, business relationships are very formal and it is not common practice for Estonians to want to get to know counterparts before conducting business — they prefer to get straight to the point; work relationships are task-based rather than kinship-based.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C03",
+              "source_id": "S05",
+              "title": "Work Culture in Estonia",
+              "url": "https://euhelpers.pl/blog/work-culture-in-estonia",
+              "author": "EU Helpers editorial",
+              "publication_year": 2025,
+              "excerpt": "Estonia's work culture emphasises independence and professionalism, with employees expected to take personal initiative and manage their tasks independently once objectives are clear.",
+              "dimension": "D1",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D2",
+          "label": "Expression",
+          "score": 30,
+          "confidence": "MEDIUM",
+          "trend_indicator": "down",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.786,
+          "top_supporting_arguments": [
+            "Younger Estonians are becoming more fluent in the global language of small talk and may sometimes enjoy it — a generational shift towards slightly more open expression, especially internationally.",
+            "Despite always acting in a measured and calm manner, Estonians may unexpectedly express themselves in a surprisingly animated way — emotional expression is not permanently absent but emerges in specific contexts.",
+            "Estonia is seen as a tolerant and open-minded society, valuing freedom of expression and diverse viewpoints — formal freedoms of expression exist even if emotional expression is personally restrained."
+          ],
+          "top_counter_arguments": [
+            "In everyday Estonian complaints, emotions are very rarely explicitly named; expression is indirect",
+            "In casual conversation Estonians avoid expressing emotions overtly and externalise affect, relying more on societal norms than subjective opinion",
+            "Showing emotions too easily is considered rude in Estonia"
+          ],
+          "why_this_score": "Estonia sits at 30 on Expression (Restrained 3 <-> Open 97), placing it toward Restrained. This absolute level reflects the convergence of the framework signal (framework consensus ~97), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+          "why_not_higher": "the evidence does not support more Open: a higher score is bounded by the strongest council position (29) and the CI ceiling (65), so pushing past 30 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Restrained: a lower score is bounded by the lowest council position (28) and the CI floor (21), so going below 30 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Lithuania",
+            "Poland",
+            "Serbia",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C18",
+              "source_id": "S15",
+              "title": "In Estonia, Silence Speaks",
+              "url": "https://estonianworld.com/life/in-estonia-silence-speaks/",
+              "author": "Estonian World editorial",
+              "publication_year": 2025,
+              "excerpt": "Younger Estonians are becoming more fluent in the global language of small talk and may sometimes enjoy it — a generational shift towards slightly more open expression, especially internationally.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C19",
+              "source_id": "S17",
+              "title": "National Traditions of Estonia – Habits, Mentality and the Way of Living",
+              "url": "https://www.orangesmile.com/travelguide/estonia/traditions.htm",
+              "author": "OrangeSmile editorial",
+              "publication_year": 2023,
+              "excerpt": "Despite always acting in a measured and calm manner, Estonians may unexpectedly express themselves in a surprisingly animated way — emotional expression is not permanently absent but emerges in specific contexts.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C20",
+              "source_id": "S19",
+              "title": "Stereotypes and Prejudices about Estonian People",
+              "url": "https://markkuperala.com/wp-content/uploads/2024/07/Stereotypes-and-prejudices-about-Estonian-people.pdf",
+              "author": "Mark Kuperala",
+              "publication_year": 2024,
+              "excerpt": "Estonia is seen as a tolerant and open-minded society, valuing freedom of expression and diverse viewpoints — formal freedoms of expression exist even if emotional expression is personally restrained.",
+              "dimension": "D2",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D3",
+          "label": "Structure",
+          "score": 64,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.9,
+          "top_supporting_arguments": [
+            "Estonia's Hofstede Uncertainty Avoidance Index is scored at 60, placing it in the moderate-high range where rules and structure serve as a form of emotional security.",
+            "Punctuality is paramount in Estonian business culture: 'Estonians pride themselves on being on time or even a little bit early; they don't have much patience for people who are late.'",
+            "The basic business style in Estonia is formal, conservative and driven by protocol — once a decision is made, it will not be changed, indicating low tolerance for ambiguity and a preference for settled certainty."
+          ],
+          "top_counter_arguments": [
+            "Many Estonian companies, especially startups and smaller businesses, operate with relatively flat organisational structures and encourage open communication across levels — indicating structural flexibility and reduced rigidity in modern contexts.",
+            "Estonian work culture is known for flat hierarchies where title matters less than competence, and decisions can take time as Estonians consider carefully — suggesting deliberative rather than rule-rigid structure.",
+            "Estonia built the world's most advanced digital government and e-Residency programme, demonstrating an institutional capacity for radical innovation and structural experimentation — a counter-signal to rigid uncertainty avoidance."
+          ],
+          "why_this_score": "Estonia sits at 64 on Structure (Fluid 3 <-> Certain 97), placing it toward Certain. This absolute level reflects the convergence of the framework signal (framework consensus ~35), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 59 baseline.",
+          "why_not_higher": "the evidence does not support more Certain: a higher score is bounded by the strongest council position (62) and the CI ceiling (77), so pushing past 64 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Fluid: a lower score is bounded by the lowest council position (62) and the CI floor (42), so going below 64 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Lithuania",
+            "Poland",
+            "Serbia",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "C21",
+              "source_id": "S01",
+              "title": "Culture blog: Estonia",
+              "url": "https://lee375.wordpress.com/2014/02/26/culture-blog-estonia/",
+              "author": "Lee (blogger)",
+              "publication_year": 2014,
+              "excerpt": "Estonia's Hofstede Uncertainty Avoidance Index is scored at 60, placing it in the moderate-high range where rules and structure serve as a form of emotional security.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C22",
+              "source_id": "S09",
+              "title": "Negotiating Global Business Cultures: from Estonia to the World (e-Residency Blog)",
+              "url": "https://www.e-resident.gov.ee/blog/posts/estonian-business-culture/",
+              "author": "e-Residency Programme Estonia",
+              "publication_year": 2025,
+              "excerpt": "Punctuality is paramount in Estonian business culture: 'Estonians pride themselves on being on time or even a little bit early; they don't have much patience for people who are late.'",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "C23",
+              "source_id": "S07",
+              "title": "Managing in Estonia – Management Style & Workplace Culture",
+              "url": "https://www.commisceo-global.com/resources/management-guides/estonia-management-guide",
+              "author": "Commisceo Global",
+              "publication_year": 2025,
+              "excerpt": "The basic business style in Estonia is formal, conservative and driven by protocol — once a decision is made, it will not be changed, indicating low tolerance for ambiguity and a preference for settled certainty.",
+              "dimension": "D3",
+              "support_direction": "supports_high"
+            }
+          ]
+        },
+        {
+          "dimension": "D4",
+          "label": "Drive",
+          "score": 47,
+          "confidence": "MEDIUM",
+          "trend_indicator": "up",
+          "evidence_strength": "STRONG",
+          "specialist_agreement": 0.56,
+          "top_supporting_arguments": [
+            "Estonia has a strong culture of entrepreneurship, especially in the digital sector, with a focus on innovation, startups, and personal success; this is a clear striving signal.",
+            "Education is highly valued and competitive; students are pushed to excel; there is a strong belief that hard work and education lead to success."
+          ],
+          "top_counter_arguments": [
+            "Estonia's Hofstede Masculinity score is 30, placing Estonian culture firmly in the feminine/accepting quadrant, indicating a cultural preference for relationships, quality of life, and modesty over competition and material achievement.",
+            "Hofstede Masculinity for Estonia is 30, indicating a moderately feminine/cooperative culture that values quality of life and relationships, which tends to lower drive for achievement at any cost.",
+            "Estonian culture also strongly values a balanced life, with time for nature, sauna, and family; excessive workaholism is not admired and can be seen as unbalanced."
+          ],
+          "why_this_score": "Estonia sits at 47 on Drive (Accepting 3 <-> Striving 97), placing it between the poles. This absolute level reflects the convergence of the framework signal (framework consensus ~37), the specialists' evidence, and anchor-relative comparisons - not merely a movement from the 43 baseline.",
+          "why_not_higher": "the evidence does not support more Striving: a higher score is bounded by the strongest council position (49) and the CI ceiling (73), so pushing past 47 would lack evidentiary support.",
+          "why_not_lower": "the evidence does not support more Accepting: a lower score is bounded by the lowest council position (42) and the CI floor (14), so going below 47 would understate the measured signal.",
+          "related_countries": [
+            "Montenegro",
+            "Lithuania",
+            "Poland",
+            "Serbia",
+            "Croatia"
+          ],
+          "key_sources": [
+            {
+              "claim_id": "claim17",
+              "source_id": "src6",
+              "title": "Estonian Entrepreneurship and the Digital Transformation",
+              "url": "https://www.oecd-ilibrary.org/sites/4b9f5e9e-en/index.html",
+              "author": "OECD",
+              "publication_year": 2021,
+              "excerpt": "Estonia has a strong culture of entrepreneurship, especially in the digital sector, with a focus on innovation, startups, and personal success; this is a clear striving signal.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            },
+            {
+              "claim_id": "claim18",
+              "source_id": "src5",
+              "title": "Estonia: A Country Study",
+              "url": "https://countrystudies.us/estonia/",
+              "author": "Library of Congress",
+              "publication_year": 1995,
+              "excerpt": "Education is highly valued and competitive; students are pushed to excel; there is a strong belief that hard work and education lead to success.",
+              "dimension": "D4",
+              "support_direction": "supports_high"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
