@@ -46,39 +46,21 @@ Interpretive guardrails: D2 Open != extroverted; D3 != governance quality; D4 !=
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -e ".[dev,llm]"
-cp .env.example .env            # then fill in keys (or set FOLK_PROVIDER_MODE=mock)
-folk info
 ```
 
 
 
 
-**Terminal 2 — frontend** (Next.js 15 + React Query):
+**Terminal 1 — frontend** (Next.js 15 + React Query):
 
 ```powershell
 cd frontend
-npm install                            # first time only
-npm run dev                            # http://localhost:3000
+pnpm install                            # first time only
+pnpm run dev                            # http://localhost:3000
 ```
 
-The frontend points at the API via `frontend/.env.local`:
-
-```
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
-```
 
 For a production build, use `npm run build` then `npm run start`.
-
-
-Here's how to start it on port 8000.
-
-**1. Install the API dependencies (once):**
-
-```powershell
-
-pip install -e ".[api]"
-
-```
 
 **2. Run uvicorn on port 8000:**
 
