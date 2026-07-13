@@ -50,17 +50,6 @@ cp .env.example .env            # then fill in keys (or set FOLK_PROVIDER_MODE=m
 folk info
 ```
 
-Set `FOLK_PROVIDER_MODE=mock` to run the entire pipeline offline with the deterministic
-provider (no API keys needed) - used by the test suite.
-
-## Source-of-truth documents (`Docs/`)
-
-- `FOLK_AI_Council_System_Brief.docx` - technical build brief
-- `Cultural_Intelligence_Framework.docx` + `Cultural_Dimensions_Framework_Note_1.txt` - framework intent
-- `FOLK_Agent_Prompts_v2.md` - the council/judge/cultural-themes prompts (intellectual core)
-- `INDEX OF 171 - WITH FRAMEWORK SCORES.xlsx` - the input dataset
-
-
 
 
 
@@ -80,29 +69,6 @@ NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
 
 For a production build, use `npm run build` then `npm run start`.
 
-## Where output is saved
-
-Everything writes to `**outputs/**` automatically. The default run is **culture-first**:
-
-- `outputs/countries/{ISO3}.json` — one self-contained doc per country (cultural profile
-  - resolved sources + score methodology). This is what the API/frontend serve.
-- `outputs/index.json` — slim country list (fingerprint readings, scores) + global stats.
-- `outputs/run_summary.txt` — validation + calibration + human-review queue summary.
-- `outputs/folk.sqlite` — the database (enables resume).
-- `outputs/folk_run_log.jsonl` — per-country log.
-
-With `--full-exports`, the legacy aggregate deliverables are added too:
-`folk_final_scores.json/.xlsx`, `folk_adjustment_log.xlsx`,
-`folk_reference_library.json`, `folk_validation_report.json`.
-
-## Important notes
-
-- **Scale/cost:** ~~16 LLM calls per country (≤12 council + 1 integrator + 2 judges + 1 grounded cultural profile) × 197 ≈ **~~3,150 real API calls** across the three providers, and fewer when the adaptive council skips the debate phases for countries where specialists agree. It will take a while and cost real money — that's why I suggest the 2-country test first.
-- **Resumable:** if the run is interrupted, just run `python -m folk.cli run` again — it skips countries already in the DB and continues (checkpoints every 10). For a fully fresh DB, use `python -m folk.cli reset` (or `python -m folk.cli run --fresh`) instead of deleting `outputs/folk.sqlite` by hand.
-- **Failures don't abort:** any country whose model output can't be parsed is logged, added to `failed_countries` in the report, and the batch keeps going.
-- **Rotate your keys** after this, since they were shared in chat.
-
-The FastAPI app lives at `folk.api.app:app` (module-level `app` on line 394), and the project uses a `src/` layout with `uvicorn` provided via the `api` optional dependency.
 
 Here's how to start it on port 8000.
 
