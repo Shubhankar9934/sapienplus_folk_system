@@ -16,17 +16,8 @@ venv/
 .ruff_cache/
 .mypy_cache/
 
-# Data / outputs — track published JSON/reports; keep heavy/runtime artifacts local
-*.sqlite
-*.sqlite3
-*.db
-outputs/*.sqlite
-outputs/*.sqlite3
-outputs/*.db
-outputs/*.log
-outputs/*.zip
+# Runtime lock only — sqlite, zips, and logs are tracked
 outputs/.folk_run.lock
-folk_run_log.jsonl
 folk_final_scores.json
 folk_final_scores.xlsx
 folk_adjustment_log.xlsx
