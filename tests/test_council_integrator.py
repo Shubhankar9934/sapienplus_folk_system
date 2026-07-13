@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import pytest
 
+from folk.config import get_settings
 from folk.council.orchestrator import ResearchCouncil
 from folk.data.loader import ExcelLoader
 from folk.evidence.engine import EvidenceEngine
@@ -11,6 +12,16 @@ from folk.integrator.engine import Integrator
 from folk.knowledge.builder import KnowledgeBuilder
 from folk.knowledge.regions import regional_neighbours
 from folk.models.enums import AgentRole, DIMENSIONS, Dimension
+
+
+@pytest.fixture(scope="module", autouse=True)
+def _force_full_debate():
+    """These tests assert the full 4-phase council; disable adaptive skipping."""
+    settings = get_settings()
+    prev = settings.council_adaptive
+    settings.council_adaptive = False
+    yield
+    settings.council_adaptive = prev
 
 
 @pytest.fixture(scope="module")

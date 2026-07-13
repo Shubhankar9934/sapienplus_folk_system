@@ -29,6 +29,68 @@ from folk.models.research import (
 DIVERSITY_SCALE = 25.0  # same normalisation the council uses for dispersion
 
 
+# --------------------------------------------------------------------------- #
+# Specialist independence (double-counting guard)
+# --------------------------------------------------------------------------- #
+def _norm_rationale(text: str) -> str:
+    """Whitespace/case-normalised rationale used to detect identical text."""
+    return " ".join((text or "").lower().split())
+
+
+def _view_evidence_set(view) -> frozenset[str]:
+    return frozenset(list(view.supporting_evidence) + list(view.counter_evidence))
+
+
+def views_nonindependent(a, b) -> bool:
+    """Two seats' views on a dimension are NON-independent when they rest on the
+    same evidence (identical non-empty claim-id set) OR use identical reasoning
+    (identical non-empty rationale). Such views were not really two votes - the
+    same reading was effectively counted twice (the Germany double-count)."""
+    ea, eb = _view_evidence_set(a), _view_evidence_set(b)
+    if ea and ea == eb:
+        return True
+    ta, tb = _norm_rationale(a.cultural_rationale), _norm_rationale(b.cultural_rationale)
+    return bool(ta) and ta == tb
+
+
+def collapse_nonindependent_views(views: list) -> list:
+    """Collapse non-independent backed views to ONE representative each (the
+    highest-confidence view of each group) so a duplicated reading is counted once
+    before averaging. Order-stable and greedy (compared against kept reps)."""
+    kept: list = []
+    for v in views:
+        for i, rep in enumerate(kept):
+            if views_nonindependent(v, rep):
+                if v.confidence > rep.confidence:
+                    kept[i] = v
+                break
+        else:
+            kept.append(v)
+    return kept
+
+
+def independence_findings(assessments: list[SpecialistAssessment], d: Dimension) -> list[dict]:
+    """Per-dimension audit of specialist independence: every seat pair whose backed
+    views share an evidence-id set or identical rationale (Req 5)."""
+    backed = [(a.seat.value if hasattr(a.seat, "value") else str(a.seat), a.dimensions[d])
+              for a in assessments
+              if d in a.dimensions and a.dimensions[d].has_recommendation]
+    findings: list[dict] = []
+    for i in range(len(backed)):
+        for j in range(i + 1, len(backed)):
+            (seat_a, va), (seat_b, vb) = backed[i], backed[j]
+            shared = bool(_view_evidence_set(va) and _view_evidence_set(va) == _view_evidence_set(vb))
+            same_text = bool(_norm_rationale(va.cultural_rationale)
+                             and _norm_rationale(va.cultural_rationale)
+                             == _norm_rationale(vb.cultural_rationale))
+            if shared or same_text:
+                findings.append({
+                    "dimension": d.value, "seat_a": seat_a, "seat_b": seat_b,
+                    "shared_evidence": shared, "identical_text": same_text,
+                })
+    return findings
+
+
 def _strength_for(source: EvidenceSource | None, confidence: float) -> EvidenceStrength:
     """Blend provenance quality with the claim's confidence. Unverified web
     sources are capped so synthetic/unverifiable corroboration never reads as
@@ -103,8 +165,14 @@ def specialist_disagreement(assessments: list[SpecialistAssessment]) -> Disagree
     """Normalised spread of the seats' proposed scores per dimension."""
     res = DisagreementResult()
     for d in DIMENSIONS:
-        vals = [a.dimensions[d].proposed_score for a in assessments
-                if d in a.dimensions]
+        # Only evidence-backed recommendations count; abstentions (no citable
+        # evidence) are excluded so silent seats neither inflate agreement nor
+        # fabricate disagreement. Non-independent views (same evidence/reasoning)
+        # are collapsed so a duplicated reading cannot fake agreement.
+        backed = [a.dimensions[d] for a in assessments
+                  if d in a.dimensions and a.dimensions[d].has_recommendation]
+        backed = collapse_nonindependent_views(backed)
+        vals = [v.proposed_score for v in backed]
         res.proposed_by_dim[d] = vals
         if len(vals) < 2:
             res.by_dim[d] = 0.0

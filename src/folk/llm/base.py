@@ -118,6 +118,24 @@ class BaseLLMProvider(ABC):
                     usage = {k: usage.get(k, 0) + usage2.get(k, 0) for k in
                              set(usage) | set(usage2)}
                 else:
+                    # Live-mode fallback: the hint is a complete, schema-valid object
+                    # computed deterministically by the caller. When the model cannot
+                    # produce parseable JSON even after a repair pass, degrade to that
+                    # grounded draft rather than failing the entire country.
+                    if mock_hint is not None:
+                        log.warning(
+                            f"Structured generation for {schema.__name__} unparseable "
+                            f"after repair ({exc}); falling back to deterministic "
+                            f"schema-valid draft."
+                        )
+                        try:
+                            obj = schema.model_validate(mock_hint)
+                            break
+                        except ValidationError as hint_exc:
+                            raise LLMError(
+                                f"Structured generation failed for {schema.__name__} and "
+                                f"fallback hint invalid: {hint_exc}"
+                            ) from hint_exc
                     raise LLMError(f"Structured generation failed for {schema.__name__}: {exc}")
 
         metric = self._metric(usage, retries, start, role, iso3, phase)

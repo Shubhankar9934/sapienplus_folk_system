@@ -63,16 +63,14 @@ class DecisionEngine:
         explanations: list[DecisionExplanation] = []
         metrics: list[CallMetric] = []
         for d in DIMENSIONS:
-            hint = self._build_hint(pack, integ, council, judges, conf, cal, evidence, d)
-            # Phase 3: an absolute-score explanation is mandatory for EVERY
-            # dimension, so live mode enriches all four (no longer gated on a
-            # material delta). Mock mode uses the deterministic baseline.
-            if not self.settings.is_mock:
-                obj, metric = self._enrich(pack, hint, d)
-                explanations.append(obj)
-                metrics.append(metric)
-            else:
-                explanations.append(hint)
+            # Decision explanations are built deterministically from the audit
+            # trail (council positions, integrator adjustments, judges,
+            # calibration, confidence, framework signals). The Council Impact +
+            # Confidence Breakdown the frontend shows come from these structured
+            # fields, so no per-dimension LLM enrichment call is made (the
+            # culture-first stage now owns all user-facing prose).
+            explanations.append(
+                self._build_hint(pack, integ, council, judges, conf, cal, evidence, d))
         return explanations, metrics
 
     # ------------------------------------------------------------------ #
@@ -129,34 +127,61 @@ class DecisionEngine:
         why_higher, why_lower = self._bounds_reasoning(pack, council, d, final)
         abs_rationale, alternatives, why_alt_rejected, cultural = self._absolute_explanation(
             pack, council, d, final, baseline, sig, counterfactual)
+        range_note = self._range_position(pack, d, final)
 
+        # Framework-clamp transparency (Req 8): was the deterministic integrator
+        # recommendation modified by the framework CI limits, and if so how?
+        integ_rec = integ.integrator_recommendations.get(d)
+        ci = pack.confidence_intervals.get(d)
+        clamp_modified = False
+        framework_limit_applied = ""
+        clamp_adjustment = round(final - integ_rec, 2) if integ_rec is not None else 0.0
+        clamp_note = ""
+        if integ_rec is not None and ci is not None:
+            if integ_rec > ci.hi + 1e-9:
+                clamp_modified = True
+                framework_limit_applied = f"UPPER CI {ci.hi:.0f}"
+            elif integ_rec < ci.lo - 1e-9:
+                clamp_modified = True
+                framework_limit_applied = f"LOWER CI {ci.lo:.0f}"
+        if clamp_modified:
+            clamp_note = (f" The integrator recommendation was {integ_rec:.1f}; the framework limit "
+                          f"({framework_limit_applied}) applied, so the final published score became "
+                          f"{final}.")
+        n_ev = len(evidence_used)
+        ev_note = (f" Placement is supported by {n_ev} cited evidence item(s)."
+                   if n_ev else " Placement rests on the framework signal and anchor-relative comparison.")
+
+        # Every dimension narrative leads with ABSOLUTE placement (where the score
+        # sits and why), then why-not-lower / why-not-higher and the evidence -
+        # not merely movement from baseline.
+        summary = (f"{pack.country}'s {d.label} is placed at {final} "
+                   f"({d.low_pole} {self.settings.score_min} <-> {d.high_pole} {self.settings.score_max}).{range_note}")
+        # The final rationale answers the four mandatory questions explicitly:
+        # why justified, why not lower, why not higher, and what evidence supports it.
+        ev_cite = (f" Strongest supporting evidence: {', '.join(evidence_used)}."
+                   if evidence_used else
+                   " Placement rests on the framework signal and anchor-relative comparison.")
+        final_rationale = (
+            f"Why {final} is justified: {abs_rationale} "
+            f"Why not lower: {why_lower} "
+            f"Why not higher: {why_higher}"
+            f"{ev_cite}{clamp_note}").strip()
         if adj_type in (AdjustmentType.NO_CHANGE, AdjustmentType.ROUNDING):
-            summary = (f"{d.label} held at {final} "
-                       + ("(no material change from baseline)." if baseline is None
-                          else f"({change:+.1f} vs baseline {baseline:.1f}; rounding only)."))
-            final_rationale = summary
-            exec_exp = (f"{pack.country}'s {d.label} score of {final} essentially matches the "
-                        f"statistical baseline; the council confirmed it without material change.")
+            exec_exp = (f"{abs_rationale}{ev_note} The statistical baseline "
+                        + (f"({baseline:.0f}) " if baseline is not None else "")
+                        + f"already reflected this evidence, so the council confirmed {final} "
+                        f"rather than moving it. {why_higher} {why_lower}").strip()
             research_exp = (f"|final-baseline| = {abs(change):.2f} < {MANDATORY_DELTA}; "
-                            f"classified {adj_type.value}. Council consensus preserved the baseline "
-                            f"within the confidence interval.")
+                            f"classified {adj_type.value}. The baseline already sits at the "
+                            f"evidence-supported placement within the confidence interval.{range_note}")
         else:
-            summary = (f"{d.label} set to {final}"
-                       + (f" ({change:+.1f} vs baseline {baseline:.1f})" if baseline is not None
-                          else " (constructed from analogues - no baseline)")
-                       + f"; {adj_type.value.replace('_', ' ').lower()}.")
-            final_rationale = (
-                f"After four-phase deliberation, {d.label} was finalised at {final}. "
-                f"{integrator_decision} {calibration_effect}".strip())
-            exec_exp = (f"{pack.country} scores {final} on {d.label} "
-                        f"({d.low_pole}<->{d.high_pole}). "
-                        f"This reflects {adj_type.value.replace('_', ' ').lower()} supported by "
-                        f"{', '.join(sig.supporting_frameworks) if sig and sig.supporting_frameworks else 'the available evidence'}.")
+            exec_exp = (f"{abs_rationale}{ev_note} {why_higher} {why_lower}").strip()
             research_exp = (
                 f"Adjustment type {adj_type.value}; |delta|={abs(change):.2f}. "
                 f"Framework consensus={getattr(sig, 'consensus', None)}, "
                 f"signal_strength={getattr(sig, 'signal_strength', None)}, "
-                f"conflict={getattr(sig, 'conflict_score', None)}. "
+                f"conflict={getattr(sig, 'conflict_score', None)}.{range_note} "
                 f"{confidence_explanation}")
 
         return DecisionExplanation(
@@ -180,6 +205,10 @@ class DecisionEngine:
             counterfactual=counterfactual,
             why_not_higher=why_higher,
             why_not_lower=why_lower,
+            integrator_recommendation=integ_rec,
+            recommendation_modified_by_framework=clamp_modified,
+            framework_limit_applied=framework_limit_applied,
+            clamp_adjustment=clamp_adjustment,
             absolute_score_rationale=abs_rationale,
             alternatives_considered=alternatives,
             why_alternatives_rejected=why_alt_rejected,
@@ -298,17 +327,32 @@ class DecisionEngine:
                 f"{lo_lbl} and {hi_lbl} tendencies coexist in roughly equal measure."))
         return abs_rationale, alternatives, why_rejected, cultural
 
+    def _range_position(self, pack, d, final) -> str:
+        """Phrase WHERE within the permitted framework range the score sits, so the
+        narrative explains position-in-range, not just movement from baseline."""
+        ci = pack.confidence_intervals.get(d)
+        if ci is None:
+            return ""
+        span = ci.hi - ci.lo
+        if span <= 0:
+            return ""
+        util = max(0, min(100, int(round(100.0 * (final - ci.lo) / span))))
+        return (f" Within the framework range [{ci.lo:.0f}-{ci.hi:.0f}], "
+                f"{final} sits at ~{util}% of the permitted span.")
+
     def _bounds_reasoning(self, pack, council, d, final) -> tuple[str, str]:
         ci = pack.confidence_intervals.get(d)
         positions = [a.scores[d].value for a in council.final_positions.values() if d in a.scores]
         hi = max(positions) if positions else final
         lo = min(positions) if positions else final
-        why_higher = (f"A higher score is bounded by the upper agent position ({hi:.0f})"
+        why_higher = (f"the evidence does not support more {d.high_pole}: a higher score is bounded "
+                      f"by the strongest council position ({hi:.0f})"
                       + (f" and the CI ceiling ({ci.hi:.0f})" if ci else "")
-                      + f"; pushing past {final} would lack evidentiary support.")
-        why_lower = (f"A lower score is bounded by the lowest agent position ({lo:.0f})"
+                      + f", so pushing past {final} would lack evidentiary support.")
+        why_lower = (f"the evidence does not support more {d.low_pole}: a lower score is bounded "
+                     f"by the lowest council position ({lo:.0f})"
                      + (f" and the CI floor ({ci.lo:.0f})" if ci else "")
-                     + f"; going below {final} would understate the measured signal.")
+                     + f", so going below {final} would understate the measured signal.")
         return why_higher, why_lower
 
     def _integrator_decision(self, integ, d, baseline, final) -> str:

@@ -10,8 +10,6 @@ class ResearchQualityReport(BaseModel):
 
     total_countries: int = 0
 
-    human_review_pct: float = 0.0
-    midpoint_review_pct: float = 0.0
     narrative_failure_pct: float = 0.0
     judge_disagreement_pct: float = 0.0
     agent_variance: float = 0.0

@@ -26,6 +26,15 @@ ANCHOR = 50.0
 MIDPOINT_LO, MIDPOINT_HI = 40.0, 60.0
 FLAT_RANGE = 15.0
 
+# Country Specialist evidence lever: how far country-specific evidence may move the
+# Phase-1 position off baseline. Evidence-scaled (per unit of evidence weight) and
+# bounded; the orchestrator's CI enforcement remains the hard boundary downstream,
+# so a larger lever lets credible evidence place the score without breaking limits.
+# Raised so genuinely strong country evidence can carry the position across the legal
+# range instead of hugging the baseline (the CI clamp is still the only hard limit).
+_SPECIALIST_PUSH_PER_WEIGHT = 4.5
+_SPECIALIST_PUSH_CAP = 25.0
+
 
 def _clamp(value: float, pack: CountryKnowledgePack, dim: Dimension) -> int:
     s = get_settings()
@@ -205,11 +214,13 @@ class StatisticianAgent(BaseAgent):
         return [self._framework_block(pack), self._ci_block(pack)]
 
     def _phase1_value(self, pack, evidence, dim) -> float:
-        # Baseline-anchored, nudged slightly toward the framework-signal consensus.
+        # Baseline is a reference; the framework signal carries the evidence. Weight
+        # the signal more heavily so the quantitative reading follows the evidence
+        # rather than gravitating back to the baseline.
         base = _base_value(pack, dim)
         sig = pack.framework_signals.get(dim)
         if sig and sig.consensus is not None and sig.signal_strength >= 0.5:
-            return 0.8 * base + 0.2 * sig.consensus
+            return 0.45 * base + 0.55 * sig.consensus
         return base
 
     def _rationale(self, pack, evidence, dim, value) -> str:
@@ -227,10 +238,12 @@ class ComparativistAgent(BaseAgent):
         return [self._regional_block(pack)]
 
     def _phase1_value(self, pack, evidence, dim) -> float:
+        # Baseline is a reference; the regional/peer evidence carries the comparative
+        # reading, so weight it more heavily than the baseline.
         base = _base_value(pack, dim)
         region_mean = getattr(pack.regional_context, f"mean_{dim.field}", None)
         if region_mean is not None:
-            return 0.6 * base + 0.4 * region_mean
+            return 0.45 * base + 0.55 * region_mean
         return base
 
     def _rationale(self, pack, evidence, dim, value) -> str:
@@ -253,10 +266,10 @@ class CountrySpecialistAgent(BaseAgent):
         if de:
             for it in de.items:
                 if it.direction == "supports_high":
-                    push += 1.5 * it.weight
+                    push += _SPECIALIST_PUSH_PER_WEIGHT * it.weight
                 elif it.direction == "supports_low":
-                    push -= 1.5 * it.weight
-        return base + max(-4.0, min(4.0, push))
+                    push -= _SPECIALIST_PUSH_PER_WEIGHT * it.weight
+        return base + max(-_SPECIALIST_PUSH_CAP, min(_SPECIALIST_PUSH_CAP, push))
 
     def _rationale(self, pack, evidence, dim, value) -> str:
         return f"Qualitative/contextual reading places {dim.label} at {value}."

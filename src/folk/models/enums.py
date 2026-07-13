@@ -130,6 +130,28 @@ class SpecialistSeat(str, Enum):
 SPECIALIST_SEATS: tuple["SpecialistSeat", ...] = tuple(SpecialistSeat)
 
 
+class ContributionStatus(str, Enum):
+    """Whether a specialist seat actually contributed to a dimension. These are
+    never merged: a FAILED seat (provider/parse error) is distinct from one that
+    ABSTAINED (ran successfully but had no citable evidence)."""
+
+    CONTRIBUTED = "CONTRIBUTED"
+    ABSTAINED = "ABSTAINED"
+    FAILED = "FAILED"
+
+
+class SeatFailureReason(str, Enum):
+    """Structured reason a specialist seat did not contribute, persisted into the
+    methodology so failures never live only in logs."""
+
+    PROVIDER_TIMEOUT = "PROVIDER_TIMEOUT"
+    PARSING_FAILURE = "PARSING_FAILURE"
+    RESEARCH_FAILURE = "RESEARCH_FAILURE"
+    CAPABILITY_UNAVAILABLE = "CAPABILITY_UNAVAILABLE"
+    ABSTAINED_INSUFFICIENT_EVIDENCE = "ABSTAINED_INSUFFICIENT_EVIDENCE"
+    UNKNOWN = "UNKNOWN"
+
+
 class ResearchProviderName(str, Enum):
     """Frontier providers that can perform native web research."""
 
@@ -308,15 +330,3 @@ class AdjustmentType(str, Enum):
     CALIBRATION_ADJUSTMENT = "CALIBRATION_ADJUSTMENT"
     OUTLIER_CORRECTION = "OUTLIER_CORRECTION"
     CONFIDENCE_ADJUSTMENT = "CONFIDENCE_ADJUSTMENT"
-
-
-class ReviewSeverity(str, Enum):
-    """Triage severity for review flags (Phase 2 queue reduction)."""
-
-    LOW = "LOW"        # informational only - never queued
-    MEDIUM = "MEDIUM"  # advisory queue only
-    HIGH = "HIGH"      # enters the human review queue
-
-    @property
-    def rank(self) -> int:
-        return {"LOW": 0, "MEDIUM": 1, "HIGH": 2}[self.value]

@@ -93,6 +93,14 @@ class DecisionExplanation(BaseModel):
     why_not_higher: str = ""
     why_not_lower: str = ""
 
+    # --- Framework-clamp transparency (Req 8) ---
+    # Whether the deterministic integrator recommendation was modified by the
+    # framework CI limits, and if so what limit applied and by how much.
+    integrator_recommendation: float | None = None
+    recommendation_modified_by_framework: bool = False
+    framework_limit_applied: str = ""   # e.g. "UPPER CI 57" / "LOWER CI 29"
+    clamp_adjustment: float = 0.0       # final - integrator_recommendation
+
     # --- Mandatory absolute-score explanation (Phase 3, every dimension) ---
     # Explains why THIS score exists (not merely why it changed), plus the
     # alternatives weighed and the cultural meaning of the score.

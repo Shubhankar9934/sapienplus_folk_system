@@ -52,6 +52,7 @@ class CouncilResult:
     diversity_reports: list[CouncilDiversityReport] = field(default_factory=list)
     metrics: list[CallMetric] = field(default_factory=list)
     ci_revisions: list[str] = field(default_factory=list)
+    adaptive_skipped: bool = False  # True when phases 2-3 were skipped (agreement)
 
     @property
     def final_positions(self) -> dict[AgentRole, AgentAssessment]:
@@ -80,30 +81,58 @@ class ResearchCouncil:
 
         # Phase 1 - blind, information-separated positions.
         for agent in self.agents:
+            log.info(f"  {pack.iso3} council p1: {agent.role.value} via {agent.provider.name}...")
             a, m = agent.assess(pack, evidence, 1, [])
+            log.info(f"  {pack.iso3} council p1: {agent.role.value} done in {m.elapsed_time:.1f}s")
             result.phase1[agent.role] = a
             result.metrics.append(m)
 
-        # Phase 2 - cross-critique (each agent challenges another).
-        prior1 = list(result.phase1.values())
-        for agent in self.agents:
-            a, m = agent.assess(pack, evidence, 2, prior1)
-            result.phase2[agent.role] = a
-            result.metrics.append(m)
+        # Adaptive deliberation: if the Phase-1 positions already agree on every
+        # dimension (max per-dim std under the threshold), skip the cross-critique
+        # and revision rounds and go straight to consensus. Contested countries
+        # still get the full four-phase debate. Saves up to 8 calls/country.
+        settings = get_settings()
+        if (settings.council_adaptive
+                and settings.council_disagreement_threshold > 0
+                and self._phase1_agrees(result.phase1,
+                                        settings.council_disagreement_threshold)):
+            prior1 = list(result.phase1.values())
+            log.info(f"  {pack.iso3} council: phase-1 agreement reached; "
+                     f"skipping cross-critique/revision (adaptive).")
+            for agent in self.agents:
+                log.info(f"  {pack.iso3} council p4: {agent.role.value} via {agent.provider.name}...")
+                a, m = agent.assess(pack, evidence, 4, prior1)
+                log.info(f"  {pack.iso3} council p4: {agent.role.value} done in {m.elapsed_time:.1f}s")
+                result.phase4[agent.role] = a
+                result.metrics.append(m)
+            result.adaptive_skipped = True
+        else:
+            # Phase 2 - cross-critique (each agent challenges another).
+            prior1 = list(result.phase1.values())
+            for agent in self.agents:
+                log.info(f"  {pack.iso3} council p2: {agent.role.value} via {agent.provider.name}...")
+                a, m = agent.assess(pack, evidence, 2, prior1)
+                log.info(f"  {pack.iso3} council p2: {agent.role.value} done in {m.elapsed_time:.1f}s")
+                result.phase2[agent.role] = a
+                result.metrics.append(m)
 
-        # Phase 3 - revision in light of the critiques.
-        prior2 = list(result.phase2.values())
-        for agent in self.agents:
-            a, m = agent.assess(pack, evidence, 3, prior2)
-            result.phase3[agent.role] = a
-            result.metrics.append(m)
+            # Phase 3 - revision in light of the critiques.
+            prior2 = list(result.phase2.values())
+            for agent in self.agents:
+                log.info(f"  {pack.iso3} council p3: {agent.role.value} via {agent.provider.name}...")
+                a, m = agent.assess(pack, evidence, 3, prior2)
+                log.info(f"  {pack.iso3} council p3: {agent.role.value} done in {m.elapsed_time:.1f}s")
+                result.phase3[agent.role] = a
+                result.metrics.append(m)
 
-        # Phase 4 - consensus / final reconciliation.
-        prior3 = list(result.phase3.values())
-        for agent in self.agents:
-            a, m = agent.assess(pack, evidence, 4, prior3)
-            result.phase4[agent.role] = a
-            result.metrics.append(m)
+            # Phase 4 - consensus / final reconciliation.
+            prior3 = list(result.phase3.values())
+            for agent in self.agents:
+                log.info(f"  {pack.iso3} council p4: {agent.role.value} via {agent.provider.name}...")
+                a, m = agent.assess(pack, evidence, 4, prior3)
+                log.info(f"  {pack.iso3} council p4: {agent.role.value} done in {m.elapsed_time:.1f}s")
+                result.phase4[agent.role] = a
+                result.metrics.append(m)
 
         result.challenge_records = self._build_challenges(result)
         result.diversity_reports = (
@@ -114,6 +143,17 @@ class ResearchCouncil:
         return result
 
     # ------------------------------------------------------------------ #
+    @staticmethod
+    def _phase1_agrees(phase1: dict[AgentRole, AgentAssessment], threshold: float) -> bool:
+        """True when every dimension's Phase-1 spread is under the threshold."""
+        for d in DIMENSIONS:
+            vals = [a.scores[d].value for a in phase1.values() if d in a.scores]
+            if len(vals) < 2:
+                continue
+            if statistics.pstdev(vals) > threshold:
+                return False
+        return True
+
     def _build_challenges(self, result: CouncilResult) -> list[ChallengeRecord]:
         """Deterministic cross-critiques along the ring, scored against the
         target's revision/consensus movement to mark accepted vs rejected."""

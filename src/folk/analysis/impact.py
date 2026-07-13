@@ -106,7 +106,6 @@ class CouncilImpactAnalyzer:
         self,
         profiles: list[CountryProfile],
         records: list[CountryRecord],
-        human_review_queue_size: int,
         with_external: float | None,
     ) -> CounterfactualComparison:
         by_iso = {r.iso3: r for r in records}
@@ -127,7 +126,6 @@ class CouncilImpactAnalyzer:
             "anchor_violations": float(with_q["anchor_violations"]),
             "regional_coherence": with_q["regional_coherence"],
             "outlier_count": float(with_q["outlier_count"]),
-            "review_queue_size": float(human_review_queue_size),
             "validation_score": with_q["validation_score"],
             "external_correlation": float(with_external) if with_external is not None else 0.0,
         }
@@ -135,7 +133,6 @@ class CouncilImpactAnalyzer:
             "anchor_violations": float(without_q["anchor_violations"]),
             "regional_coherence": without_q["regional_coherence"],
             "outlier_count": float(without_q["outlier_count"]),
-            "review_queue_size": float(without_q["anchor_violations"]),  # baseline anchors unfixed
             "validation_score": without_q["validation_score"],
             "external_correlation": float(without_external) if without_external is not None else 0.0,
         }
@@ -156,7 +153,6 @@ class CouncilImpactAnalyzer:
         self,
         profiles: list[CountryProfile],
         counterfactual: CounterfactualComparison,
-        human_review_queue_size: int,
     ) -> CouncilImpactV2:
         """Req 4 - measurable value added by the council over the baseline.
 
@@ -164,16 +160,11 @@ class CouncilImpactAnalyzer:
         over baseline-only vs final datasets) plus the stored profiles. Read-only;
         never changes a score."""
         imp = counterfactual.improvement
-        without = counterfactual.without_council
-        with_c = counterfactual.with_council
 
         score_change_pct = self._score_change_pct(profiles)
         outlier_reduction = int(round(imp.get("outlier_count", 0.0)))
         coherence_improvement = round(imp.get("regional_coherence", 0.0), 4)
         framework_conflict_reduction = self._framework_conflict_reduction(profiles)
-        review_queue_reduction = int(round(
-            without.get("review_queue_size", 0.0) - with_c.get("review_queue_size",
-                                                               float(human_review_queue_size))))
 
         # Composite 0-1 value indicator from the signed improvements.
         n = max(1, len(profiles))
@@ -183,7 +174,6 @@ class CouncilImpactAnalyzer:
             min(1.0, max(0, outlier_reduction) / max(1.0, 0.1 * n)),
             min(1.0, max(0.0, imp.get("external_correlation", 0.0)) * 2.0),
             framework_conflict_reduction,
-            min(1.0, max(0, review_queue_reduction) / max(1.0, 0.1 * n)),
         ]
         council_value_score = round(sum(signals) / len(signals), 4)
 
@@ -192,7 +182,6 @@ class CouncilImpactAnalyzer:
             outlier_reduction=outlier_reduction,
             regional_coherence_improvement=coherence_improvement,
             framework_conflict_reduction=framework_conflict_reduction,
-            review_queue_reduction=review_queue_reduction,
             council_value_score=council_value_score,
             verdict=self._value_verdict(council_value_score, score_change_pct,
                                         coherence_improvement, outlier_reduction),

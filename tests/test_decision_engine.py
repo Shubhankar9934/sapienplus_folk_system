@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import pytest
 
+from folk.decision.engine import MANDATORY_DELTA
 from folk.llm.factory import ProviderFactory
 from folk.models.enums import DIMENSIONS, AdjustmentType
 from folk.pipeline.pipeline import Pipeline
@@ -49,11 +50,16 @@ def test_adjustment_type_classified(profiles):
 
 
 def test_small_change_is_rounding(profiles):
-    # DEU D1 baseline ~95.6 -> 94 (|delta| < 2) classifies as ROUNDING.
-    deu = profiles["DEU"]
-    d1 = next(de for de in deu.decision_explanations if de.dimension.value == "D1")
-    assert abs(d1.change_amount) < 2
-    assert d1.adjustment_type == AdjustmentType.ROUNDING
+    # Invariant: any non-anchor dimension whose evidence-first placement lands
+    # within MANDATORY_DELTA of the baseline is classified as ROUNDING (a sub-2
+    # move needs no narrative). Evidence-first placement may move scores further
+    # off baseline than before, so assert the contract rather than a fixed cell.
+    for p in profiles.values():
+        for de in p.decision_explanations:
+            if de.adjustment_type in (AdjustmentType.ANCHOR_ALIGNMENT, AdjustmentType.NO_CHANGE):
+                continue
+            if de.baseline_score is not None and 0 < abs(de.change_amount) < MANDATORY_DELTA:
+                assert de.adjustment_type == AdjustmentType.ROUNDING
 
 
 def test_anchor_dimension_is_anchor_alignment(profiles):

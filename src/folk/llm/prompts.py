@@ -22,6 +22,8 @@ def _bucket_for(title: str) -> str | None:
     t = title.lower()
     if "shared_system_preamble" in t:
         return "preamble"
+    if "cultural themes" in t:
+        return "cultural_themes"
     if "narrative validator" in t:
         return "narrative_validator"
     if "narrative engine" in t:
@@ -102,6 +104,12 @@ class PromptLibrary:
     def narrative_validator_prompt(self) -> str:
         b = self._blocks.get("narrative_validator")
         return b[0] if b else "Validate the narrative. Respond with JSON only."
+
+    def cultural_themes_prompt(self) -> str:
+        b = self._blocks.get("cultural_themes")
+        return b[0] if b else (
+            "Cluster the provided evidence claims into self-named cultural themes "
+            "with short, source-linked observations. Respond with JSON only.")
 
     def extension_addendum(self) -> str:
         b = self._blocks.get("extension")

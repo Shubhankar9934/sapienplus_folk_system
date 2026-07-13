@@ -2,11 +2,14 @@
 
 from __future__ import annotations
 
+from pathlib import Path
+
 from folk.analysis.dashboard import CouncilQualityDashboardBuilder
 from folk.analysis.impact import CouncilImpactAnalyzer
 from folk.analysis.quality import ResearchQualityAnalyzer
 from folk.anchors import anchor_iso3s, calibration_tolerance, reference_countries
 from folk.calibration.global_calibration import GlobalCalibrator
+from folk.config import get_settings
 from folk.data.loader import ExcelLoader
 from folk.llm.factory import ProviderFactory
 from folk.models.country import CountryRecord
@@ -14,7 +17,6 @@ from folk.models.enums import DIMENSIONS, DataStatus, RecordType
 from folk.models.metrics import RunMetrics
 from folk.models.validation import (
     CalibrationRunResult,
-    HumanReviewItem,
     ValidationReport,
 )
 from folk.pipeline.processor import CountryProcessor
@@ -45,7 +47,8 @@ def processing_order(records: list[CountryRecord]) -> list[CountryRecord]:
 
 
 class Pipeline:
-    def __init__(self, repos: Repositories | None = None, factory: ProviderFactory | None = None) -> None:
+    def __init__(self, repos: Repositories | None = None, factory: ProviderFactory | None = None,
+                 outputs_dir: Path | None = None) -> None:
         self.loader = ExcelLoader()
         self.records = self.loader.load()
         self.repos = repos or Repositories()
@@ -55,6 +58,27 @@ class Pipeline:
         self.run_metrics = RunMetrics()
         self._failed: list[str] = []
         self._baseline_vectors = self._build_baseline_vectors()
+        # Where per-country checkpoint docs are written. Defaults to the
+        # configured outputs dir; tests/tools pass a temp dir so they never
+        # pollute the real outputs/countries directory.
+        self._outputs_dir = outputs_dir or get_settings().outputs_dir
+        self._exporter = None
+        self.run_isos: list[str] = []
+
+    @property
+    def exporter(self):
+        """Lazily-constructed Exporter (imported here to avoid an import cycle)."""
+        if self._exporter is None:
+            from folk.export.exporter import Exporter
+
+            self._exporter = Exporter(self.repos, self._outputs_dir)
+        return self._exporter
+
+    def _is_complete(self, iso3: str) -> bool:
+        """A country counts as done only when its DB profile AND its output
+        file both exist, so a skipped country always has a full result."""
+        doc = self._outputs_dir / "countries" / f"{iso3}.json"
+        return self.repos.profiles.exists(iso3) and doc.exists()
 
     def _build_baseline_vectors(self) -> dict[str, dict]:
         out = {}
@@ -87,6 +111,9 @@ class Pipeline:
             records = [r for r in records if r.iso3 in wanted]
         if limit:
             records = records[:limit]
+        # Current-run target set (Req 12): on-disk outputs are scoped to exactly
+        # these ISOs so reports never mix in stale countries from earlier runs.
+        self.run_isos = [r.iso3 for r in records]
 
         processed = set()
         if resume:
@@ -97,8 +124,9 @@ class Pipeline:
         log.info(f"Processing {total} country(ies): "
                  f"{', '.join(r.iso3 for r in records)}")
         for idx, record in enumerate(records, start=1):
-            if resume and record.iso3 in processed and self.repos.profiles.exists(record.iso3):
-                log.info(f"[{idx}/{total}] Skipping {record.iso3} ({record.country}) - already processed")
+            if resume and self._is_complete(record.iso3):
+                processed.add(record.iso3)
+                log.info(f"[{idx}/{total}] Skipping {record.iso3} ({record.country}) - already complete")
                 continue
             log.info(f"[{idx}/{total}] Processing {record.iso3} ({record.country})...")
             try:
@@ -107,9 +135,8 @@ class Pipeline:
             except Exception as exc:  # noqa: BLE001 - keep the batch alive
                 self._failed.append(record.iso3)
                 log.error(f"FAILED {record.iso3} ({record.country}): {exc}")
-            if idx % max(1, self.processor.settings.checkpoint_every) == 0:
-                self.repos.checkpoints.set(CHECKPOINT_KEY, {"isos": sorted(processed)})
-                log.info(f"Checkpoint: {len(processed)} countries processed")
+            # Checkpoint after each country so a crash never loses finished work.
+            self.repos.checkpoints.set(CHECKPOINT_KEY, {"isos": sorted(processed)})
 
         self.repos.checkpoints.set(CHECKPOINT_KEY, {"isos": sorted(processed)})
         return self.finalize()
@@ -126,6 +153,8 @@ class Pipeline:
         self.repos.audits.upsert(outcome.audit)
         for cal in outcome.profile.calibration_results:
             self.repos.validations.save("country", cal.model_dump(mode="json"), iso3=record.iso3)
+        # Per-country checkpoint: write the output doc the moment the DB row lands.
+        self.exporter.export_one_country(outcome.profile)
         for m in outcome.metrics:
             self.run_metrics.add(m)
         log.info(f"Processed {record.iso3} ({record.country}) "
@@ -191,21 +220,9 @@ class Pipeline:
                     report.flat_profiles.append(p.iso3)
                 report.discrimination_flags.extend(
                     f"{f.iso3_a}~{f.iso3_b}({f.distance})" for f in cal.discrimination_flags)
-            # Midpoint reviews now come from the confidence-gated detector, not the
-            # raw 40-60 scan (the calibration math is unchanged - this only changes
-            # what is *flagged for review*).
-            mid_dims = [m.dimension.value for m in p.midpoint_confidence if m.needs_review]
-            if mid_dims:
-                report.midpoint_reviews.append(f"{p.iso3}:{','.join(mid_dims)}")
             if p.record_type == RecordType.EXTENSION and p.constructed_ci:
                 report.extension_constructed_cis[p.iso3] = [c.model_dump(mode="json")
                                                             for c in p.constructed_ci]
-            if p.requires_human_review:
-                report.human_review_queue.append(
-                    HumanReviewItem(iso3=p.iso3, country=p.country, reasons=p.review_reasons))
-            if p.advisory_reasons:
-                report.advisory_queue.append(
-                    HumanReviewItem(iso3=p.iso3, country=p.country, reasons=p.advisory_reasons))
         report.outliers = list(global_result.outliers)
 
         self._attach_phase2_analytics(report, profiles)
@@ -221,7 +238,6 @@ class Pipeline:
         contributions = analyzer.agent_contributions(profiles)
         counterfactual = analyzer.counterfactual(
             profiles, self.records,
-            human_review_queue_size=len(report.human_review_queue),
             with_external=external.mean_abs_pearson)
         quality = ResearchQualityAnalyzer().assess(report, profiles, external, impact)
 
@@ -233,9 +249,7 @@ class Pipeline:
 
         # --- Council intelligence upgrade analytics (Req 4, 5, 7) ---
         external_v2 = ExternalValidationEngine().validate_v2(profiles, self.records)
-        council_value = analyzer.council_impact_v2(
-            profiles, counterfactual,
-            human_review_queue_size=len(report.human_review_queue))
+        council_value = analyzer.council_impact_v2(profiles, counterfactual)
         report.external_validation_v2 = external_v2
         report.council_impact_v2 = council_value
         report.council_quality_dashboard = CouncilQualityDashboardBuilder().build(report, profiles)

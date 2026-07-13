@@ -27,12 +27,6 @@ class CalibrationRunResult(BaseModel):
     notes: list[str] = Field(default_factory=list)
 
 
-class HumanReviewItem(BaseModel):
-    iso3: str
-    country: str
-    reasons: list[str] = Field(default_factory=list)
-
-
 class ValidationReport(BaseModel):
     """Aggregated post-run report (exported as JSON + TXT)."""
 
@@ -44,12 +38,9 @@ class ValidationReport(BaseModel):
     ci_violations: list[str] = Field(default_factory=list)
     discrimination_flags: list[str] = Field(default_factory=list)
     flat_profiles: list[str] = Field(default_factory=list)
-    midpoint_reviews: list[str] = Field(default_factory=list)
     anchor_violations: list[str] = Field(default_factory=list)
     outliers: list[str] = Field(default_factory=list)
 
-    human_review_queue: list[HumanReviewItem] = Field(default_factory=list)
-    advisory_queue: list[HumanReviewItem] = Field(default_factory=list)
     calibration_run: CalibrationRunResult | None = None
     global_calibration: CalibrationResult | None = None
     regional_memory: list[RegionalCalibrationMemory] = Field(default_factory=list)

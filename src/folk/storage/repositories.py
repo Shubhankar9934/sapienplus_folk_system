@@ -52,8 +52,6 @@ class ProfileRepository(ABC):
     @abstractmethod
     def finalized_vectors(self, exclude_iso3: str | None = None) -> list[dict[str, Any]]: ...
     @abstractmethod
-    def review_queue(self) -> list[CountryProfile]: ...
-    @abstractmethod
     def count(self) -> int: ...
     @abstractmethod
     def exists(self, iso3: str) -> bool: ...
@@ -152,7 +150,6 @@ class SqlProfileRepository(ProfileRepository):
                 d2=scores[Dimension.D2],
                 d3=scores[Dimension.D3],
                 d4=scores[Dimension.D4],
-                requires_human_review=profile.requires_human_review,
                 payload=payload,
             )
             if obj is None:
@@ -184,13 +181,6 @@ class SqlProfileRepository(ProfileRepository):
                 out.append({"iso3": r.iso3, "country": r.country,
                             "d1": r.d1, "d2": r.d2, "d3": r.d3, "d4": r.d4})
             return out
-
-    def review_queue(self) -> list[CountryProfile]:
-        with self.db.session() as s:
-            rows = s.execute(
-                select(ProfileORM).where(ProfileORM.requires_human_review.is_(True))
-            ).scalars().all()
-            return [CountryProfile.model_validate(r.payload) for r in rows]
 
     def count(self) -> int:
         with self.db.session() as s:

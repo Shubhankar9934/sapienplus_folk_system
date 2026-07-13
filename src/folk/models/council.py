@@ -200,16 +200,50 @@ class PrimaryAnalogue(BaseModel):
     similarity_basis: str = ""
 
 
+class RangeDiagnostic(BaseModel):
+    """Internal per-dimension diagnostic (Req 6): measures whether the permitted
+    framework range is actually being used. Not surfaced to end users."""
+
+    dimension: Dimension | None = None
+    framework_lo: float = 0.0
+    baseline: float | None = None
+    framework_hi: float = 0.0
+    specialist_recommendation: float | None = None
+    council_consensus: float | None = None
+    # Pre-clamp recommendations (Req 1, 2, 6, 7): the exact deterministic
+    # integrator placement and the LLM's proposed score, both before the
+    # framework CI clamp. These make the full score-formation chain auditable
+    # without reconstructing it from intermediate diagnostics.
+    integrator_recommendation: float | None = None
+    llm_recommendation: float | None = None
+    final: int = 0
+    available_range: float = 0.0          # framework_hi - framework_lo
+    distance_from_baseline: float = 0.0   # final - baseline
+    range_utilization: int = 0            # 0-100: (final - lo) / (hi - lo)
+    # Clamp diagnostics (Req 7): how the framework range constrained the result.
+    clamp_adjustment: float = 0.0         # final - integrator_recommendation
+    was_clamped: bool = False
+    clamp_direction: str = "NONE"         # UPPER / LOWER / NONE
+    distance_from_lower: float = 0.0      # final - framework_lo
+    distance_from_upper: float = 0.0      # framework_hi - final
+    movement_reason: str = ""
+
+
 class IntegratorOutput(BaseModel):
     """Final synthesis produced by Agent 5 (before confidence assignment)."""
 
     iso3: str
     final_scores: dict[Dimension, int] = Field(default_factory=dict)
+    # Pre-clamp recommendations per dimension (Req 1, 2): the deterministic
+    # integrator placement and the LLM's proposed score, before the CI clamp.
+    integrator_recommendations: dict[Dimension, float] = Field(default_factory=dict)
+    llm_recommendations: dict[Dimension, float] = Field(default_factory=dict)
     anchor_positions: list[AnchorPosition] = Field(default_factory=list)
     adjustment_log: list[AdjustmentLog] = Field(default_factory=list)
     dissent_record: list[DissentRecord] = Field(default_factory=list)
     constructed_ci: list[ConstructedCI] = Field(default_factory=list)
     primary_analogues: list[PrimaryAnalogue] = Field(default_factory=list)
+    range_diagnostics: list[RangeDiagnostic] = Field(default_factory=list)
     notes: str = ""
 
     @model_validator(mode="before")

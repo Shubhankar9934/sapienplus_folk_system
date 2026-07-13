@@ -18,16 +18,18 @@ from folk.knowledge.builder import KnowledgeBuilder
 from folk.llm.factory import ProviderFactory
 from folk.models.audit import AuditTrace
 from folk.models.country import CountryRecord
-from folk.models.enums import DIMENSIONS, ConfidenceLevel, DataStatus, RecordType
+from folk.models.enums import (
+    DIMENSIONS,
+    ConfidenceLevel,
+    ContributionStatus,
+    SeatFailureReason,
+)
 from folk.models.metrics import CallMetric
 from folk.models.profile import CountryProfile, FinalScore
 from folk.models.reference import ReferenceRecord, VerifiedReference
-from folk.narrative.engine import NarrativeEngine
-from folk.narrative.validator import NarrativeValidator
+from folk.cultural.engine import CulturalProfileEngine
 from folk.pipeline.invariants import assert_score_consistency
-from folk.reference.engine import ReferenceLibraryBuilder, check_minimums
-from folk.review.midpoint import MidpointDetector
-from folk.review.queue import HumanReviewEvaluator
+from folk.reference.engine import ReferenceLibraryBuilder
 from folk.research.adversarial import AdversarialProtocol
 from folk.research.discovery import EvidenceDiscoveryEngine
 from folk.research.factory import ResearchFactory
@@ -36,6 +38,7 @@ from folk.research.seats import SeatAssignment
 from folk.research.synthesis import (
     build_ledgers,
     differentiation_check,
+    independence_findings,
     merge_into_evidence,
     specialist_disagreement,
 )
@@ -44,6 +47,8 @@ from folk.models.research import (
     ProviderAssignmentReport,
     ProviderAvailabilityReport,
     ProviderDiversityAssessment,
+    SpecialistIndependenceFinding,
+    SpecialistParticipation,
 )
 from folk.config import get_settings
 from folk.utils.logging import get_logger
@@ -75,10 +80,7 @@ class CountryProcessor:
         self.judges = JudgeCouncil(self.factory)
         self.calibrator = CountryCalibrator()
         self.confidence = ConfidenceEngine()
-        self.narrator = NarrativeEngine(self.factory)
-        self.validator = NarrativeValidator(self.factory)
-        self.review = HumanReviewEvaluator()
-        self.midpoint = MidpointDetector()
+        self.cultural = CulturalProfileEngine(self.factory)
         self.decision = DecisionEngine(self.factory)
         self.research_factory = ResearchFactory(self.settings)
         self.discovery = EvidenceDiscoveryEngine(self.research_factory)
@@ -145,6 +147,7 @@ class CountryProcessor:
         influence_report = self.influence.compute(
             pack, discovery.assessments, disagreement, evidence)
         influence_by_dim = influence_report.by_dim
+        recommendation_by_dim = influence_report.recommendation_by_dim
 
         # Adversarial Research Protocol (Req 2): each specialist states a position
         # (supporting/opposing evidence, own weakness, alternative score) BEFORE
@@ -159,17 +162,42 @@ class CountryProcessor:
         council = self.council.deliberate(pack, evidence)
         metrics.extend(council.metrics)
         integ, m = self.integrator.integrate(
-            pack, council, disagreement.by_dim, influence_by_dim=influence_by_dim)
+            pack, council, disagreement.by_dim, influence_by_dim=influence_by_dim,
+            recommendation_by_dim=recommendation_by_dim)
         metrics.append(m)
 
         cal = self.calibrator.calibrate(pack, integ.final_scores, existing_vectors)
         redeliberations = 0
         while cal.requires_redeliberation and redeliberations < self.settings.max_redeliberations:
             redeliberations += 1
+            # Lost-differentiation trigger (flat profile or near-duplicate): re-run
+            # specialist discovery with distinctiveness lenses so the retry hunts
+            # for genuine, evidence-backed differentiation rather than repeating the
+            # same compressed evidence. Anchor/CI violations just re-deliberate.
+            if cal.flat_profile or cal.discrimination_flags:
+                lenses = self._distinctiveness_lenses(pack, cal)
+                log.info(f"{record.iso3}: redeliberation {redeliberations} with "
+                         f"distinctiveness lenses: {', '.join(lenses)}")
+                rediscovery = self.discovery.discover(
+                    pack, self.ee.build(pack), self._seat_assignments, extra_lenses=lenses)
+                if rediscovery.packs:
+                    discovery = rediscovery
+                    evidence = merge_into_evidence(self.ee.build(pack), discovery.packs)
+                    supporting, counter = build_ledgers(discovery.packs)
+                    disagreement = specialist_disagreement(discovery.assessments)
+                    differentiation = differentiation_check(pack, supporting, counter)
+                    influence_report = self.influence.compute(
+                        pack, discovery.assessments, disagreement, evidence)
+                    influence_by_dim = influence_report.by_dim
+                    recommendation_by_dim = influence_report.recommendation_by_dim
+                    if getattr(self.settings, "enable_adversarial_protocol", True):
+                        specialist_positions = self.adversarial.build_positions(
+                            pack, discovery.assessments, discovery.packs)
             council = self.council.deliberate(pack, evidence)
             metrics.extend(council.metrics)
             integ, m = self.integrator.integrate(
-                pack, council, disagreement.by_dim, influence_by_dim=influence_by_dim)
+                pack, council, disagreement.by_dim, influence_by_dim=influence_by_dim,
+                recommendation_by_dim=recommendation_by_dim)
             metrics.append(m)
             cal = self.calibrator.calibrate(pack, integ.final_scores, existing_vectors)
 
@@ -187,11 +215,10 @@ class CountryProcessor:
         # References
         country_refs = self._collect_references(council)
         verified: list[VerifiedReference] = library.add_records(country_refs)
-        references_ok, _ = check_minimums(country_refs, DataStatus(pack.data_status))
 
         # Judges
         log.info(f"{record.iso3}: judge review...")
-        judge_assessments, jmetrics, approved = self.judges.review(pack, integ, evidence, country_refs)
+        judge_assessments, jmetrics, _approved = self.judges.review(pack, integ, evidence, country_refs)
         metrics.extend(jmetrics)
 
         # Confidence
@@ -205,11 +232,6 @@ class CountryProcessor:
         if effective_diversity is not None:
             conf = self.confidence.apply_provider_diversity_penalty(
                 conf, effective_diversity.confidence_penalty)
-
-        # Rebuilt midpoint detector (confidence-gated, anchor-excluded).
-        midpoint_scores = self.midpoint.evaluate(pack, integ.final_scores, conf, by_dim, evidence)
-        midpoint_needed = any(m.needs_review for m in midpoint_scores)
-        moderate_conflict = self._moderate_framework_conflict(pack)
 
         # Decision intelligence (per dimension) - explains, never changes scores.
         decisions, dmetrics = self.decision.explain(
@@ -225,27 +247,27 @@ class CountryProcessor:
         country_report = report_builder.country_intelligence()
         intelligence_card = report_builder.website_card()
 
-        # Narrative + validation
-        log.info(f"{record.iso3}: narrative generation...")
-        narrative, m = self.narrator.generate(pack, integ, conf, evidence)
+        # Culture-first profile: deterministic fingerprint/council/uniqueness +
+        # one grounded LLM call (themes/observations/drivers/summary/best_for) +
+        # a deterministic grounding filter. Replaces the old narrative engine +
+        # validator (the filter is the hallucination guard now).
+        log.info(f"{record.iso3}: cultural profile generation...")
+        final_scores_int = {d: int(integ.final_scores[d]) for d in DIMENSIONS}
+        cultural_profile, m = self.cultural.generate(
+            pack, final_scores_int, discovery.packs, discovery.assessments)
         metrics.append(m)
-        nvr, m = self.validator.validate(narrative, integ, evidence)
-        metrics.append(m)
+        # Source the public "key cultural drivers" from grounded historical
+        # drivers (not framework names), per the culture-first contract.
+        grounded_drivers = [d.text for d in cultural_profile.historical_drivers if d.text]
+        if grounded_drivers:
+            country_report.key_cultural_drivers = grounded_drivers
 
-        # Severity-tiered human review (only HIGH enters the queue).
-        outcome = self.review.evaluate(
-            cal, judge_assessments, references_ok, nvr.passed,
-            qualitative_only=record.qualitative_only,
-            midpoint_review_needed=midpoint_needed,
-            moderate_framework_conflict=moderate_conflict)
-        requires_review = outcome.requires_human_review
-        reasons = outcome.high_reasons
-        advisory_reasons = outcome.advisory_reasons
-
+        # Fully autonomous: no human-review gate. The judge council and calibration
+        # redeliberation (above) are the automated quality controls; nothing is ever
+        # escalated to a human.
         profile = self._assemble_profile(
-            record, pack, integ, conf, cal, judge_assessments, narrative, nvr,
-            verified, requires_review, reasons, decisions, midpoint_scores,
-            advisory_reasons, outcome.max_severity, discovery, evidence_report,
+            record, pack, integ, conf, cal, judge_assessments, cultural_profile,
+            verified, decisions, discovery, evidence_report,
             country_report, intelligence_card, differentiation, effective_diversity,
             influence_report.records, specialist_positions, specialist_challenges,
             council_diversity_v2)
@@ -253,7 +275,7 @@ class CountryProcessor:
         assert_score_consistency(profile)
         audit = self._assemble_audit(
             record, pack, evidence, council, integ, judge_assessments, cal, conf,
-            verified, requires_review, reasons, redeliberations, decisions, discovery,
+            verified, redeliberations, decisions, discovery,
             effective_diversity, influence_report.records, specialist_positions,
             specialist_challenges, council_diversity_v2)
         profile.audit_trace = audit
@@ -264,11 +286,99 @@ class CountryProcessor:
 
     # ------------------------------------------------------------------ #
     @staticmethod
-    def _moderate_framework_conflict(pack) -> bool:
-        """A non-trivial number of dimensions where frameworks disagree on direction."""
-        conflicted = sum(1 for d in DIMENSIONS
-                         if (sig := pack.framework_signals.get(d)) and sig.conflict_score >= 0.5)
-        return conflicted >= 2
+    def _distinctiveness_lenses(pack, cal) -> list[str]:
+        """Targeted research lenses for a flat/clone redeliberation: push the seats
+        to find what genuinely distinguishes this country from its neighbours and
+        from any country it was flagged as a near-duplicate of."""
+        lenses = [
+            "what most distinguishes this country culturally from its regional neighbours",
+            "strongest distinctive cultural drivers (religion, history, institutions, language)",
+            "where this country deviates from the regional pattern and why",
+        ]
+        for n in pack.neighbours[:3]:
+            lenses.append(f"how this country differs culturally from {n.country}")
+        for flag in (getattr(cal, "discrimination_flags", None) or [])[:2]:
+            other = getattr(flag, "country_b", None) or getattr(flag, "iso3_b", None)
+            if other:
+                lenses.append(f"concrete cultural differences from {other}")
+        return lenses
+
+    @staticmethod
+    def _classify_failure(error: str) -> SeatFailureReason:
+        """Map a free-text seat error into a structured reason (Req 5)."""
+        e = (error or "").lower()
+        if "timeout" in e or "timed out" in e:
+            return SeatFailureReason.PROVIDER_TIMEOUT
+        if "parse" in e or "json" in e or "unparseable" in e or "validation" in e:
+            return SeatFailureReason.PARSING_FAILURE
+        if ("no native web-search" in e or "sdk not installed" in e
+                or "capability" in e or "not available" in e):
+            return SeatFailureReason.CAPABILITY_UNAVAILABLE
+        if "empty" in e or "no evidence" in e:
+            return SeatFailureReason.RESEARCH_FAILURE
+        return SeatFailureReason.UNKNOWN
+
+    def _build_participation(self, iso3: str, discovery) -> list[SpecialistParticipation]:
+        """Per seat x dimension contribution report (Req 4, 5). CONTRIBUTED,
+        ABSTAINED, and FAILED are kept strictly distinct and never merged."""
+        out: list[SpecialistParticipation] = []
+        for a in discovery.assessments:
+            seat = a.seat.value if hasattr(a.seat, "value") else str(a.seat)
+            for d in DIMENSIONS:
+                view = a.dimensions.get(d)
+                if view is None:
+                    out.append(SpecialistParticipation(
+                        iso3=iso3, seat=seat, provider=a.provider, dimension=d,
+                        contribution_status=ContributionStatus.ABSTAINED,
+                        reason="No view produced for this dimension.",
+                        failure_reason=SeatFailureReason.ABSTAINED_INSUFFICIENT_EVIDENCE,
+                    ))
+                    continue
+                ev_count = len(view.supporting_evidence) + len(view.counter_evidence)
+                if view.has_recommendation:
+                    out.append(SpecialistParticipation(
+                        iso3=iso3, seat=seat, provider=a.provider, dimension=d,
+                        contribution_status=ContributionStatus.CONTRIBUTED,
+                        reason="Evidence-backed recommendation provided.",
+                        confidence=view.confidence, evidence_count=ev_count,
+                        recommendation=view.proposed_score,
+                    ))
+                else:
+                    out.append(SpecialistParticipation(
+                        iso3=iso3, seat=seat, provider=a.provider, dimension=d,
+                        contribution_status=ContributionStatus.ABSTAINED,
+                        reason=(view.cultural_rationale
+                                or "Abstained: no citable evidence for this dimension."),
+                        failure_reason=SeatFailureReason.ABSTAINED_INSUFFICIENT_EVIDENCE,
+                        confidence=view.confidence, evidence_count=ev_count,
+                        recommendation=view.proposed_score,
+                    ))
+        for f in getattr(discovery, "failed_seats", []) or []:
+            out.append(SpecialistParticipation(
+                iso3=iso3, seat=f.seat, provider=f.provider, dimension=None,
+                contribution_status=ContributionStatus.FAILED,
+                reason=str(f.error), failure_reason=self._classify_failure(str(f.error)),
+            ))
+        return out
+
+    def _build_independence(self, iso3: str, discovery) -> list[SpecialistIndependenceFinding]:
+        """Independence audit (Req 5): per dimension, flag any seat pair whose
+        backed views share an evidence-id set or identical reasoning - the same
+        reading counted twice. Logs a warning so the cause (e.g. slot fallback to
+        a shared provider) can be traced on the next run."""
+        out: list[SpecialistIndependenceFinding] = []
+        slot_fallback = bool(getattr(self._assignment, "used_slot_fallback", False))
+        for d in DIMENSIONS:
+            for f in independence_findings(discovery.assessments, d):
+                out.append(SpecialistIndependenceFinding(
+                    iso3=iso3, dimension=d, seat_a=f["seat_a"], seat_b=f["seat_b"],
+                    shared_evidence=f["shared_evidence"], identical_text=f["identical_text"]))
+                log.warning(
+                    f"{iso3} {d.value}: specialist seats '{f['seat_a']}' and '{f['seat_b']}' "
+                    f"are NOT independent (shared_evidence={f['shared_evidence']}, "
+                    f"identical_text={f['identical_text']}); collapsed to one vote before "
+                    f"averaging.{' Slot fallback put seats on a shared provider.' if slot_fallback else ''}")
+        return out
 
     def _collect_references(self, council) -> list[ReferenceRecord]:
         seen: dict[str, ReferenceRecord] = {}
@@ -277,9 +387,8 @@ class CountryProcessor:
                 seen.setdefault(r.dedup_key, r)
         return list(seen.values())
 
-    def _assemble_profile(self, record, pack, integ, conf, cal, judges, narrative, nvr,
-                          verified, requires_review, reasons, decisions, midpoint_scores,
-                          advisory_reasons, review_severity, discovery, evidence_report,
+    def _assemble_profile(self, record, pack, integ, conf, cal, judges, cultural_profile,
+                          verified, decisions, discovery, evidence_report,
                           country_report, intelligence_card, differentiation,
                           provider_diversity=None, influence_records=None,
                           specialist_positions=None, specialist_challenges=None,
@@ -309,15 +418,18 @@ class CountryProcessor:
             primary_analogues=integ.primary_analogues,
             adjustment_log=integ.adjustment_log,
             dissent_record=integ.dissent_record,
+            range_diagnostics=integ.range_diagnostics,
             calibration_results=[cal],
             change_conditions=change_conditions,
-            narrative=narrative,
-            narrative_validation=nvr,
+            narrative=None,
+            narrative_validation=None,
+            cultural_profile=cultural_profile,
             references=verified,
             decision_explanations=decisions,
-            midpoint_confidence=midpoint_scores,
             specialist_evidence_packs=discovery.packs,
             specialist_assessments=discovery.assessments,
+            specialist_participation=self._build_participation(record.iso3, discovery),
+            specialist_independence=self._build_independence(record.iso3, discovery),
             evidence_intelligence_report=evidence_report,
             country_intelligence_report=country_report,
             intelligence_card=intelligence_card,
@@ -325,10 +437,6 @@ class CountryProcessor:
             provider_assignment=self._assignment,
             provider_diversity=provider_diversity if provider_diversity is not None
             else self._diversity,
-            requires_human_review=requires_review,
-            review_reasons=reasons,
-            advisory_reasons=advisory_reasons,
-            review_severity=review_severity,
             flags=flags,
             specialist_influence_records=influence_records or [],
             specialist_positions=specialist_positions or [],
@@ -337,7 +445,7 @@ class CountryProcessor:
         )
 
     def _assemble_audit(self, record, pack, evidence, council, integ, judges, cal, conf,
-                        verified, requires_review, reasons, redeliberations, decisions,
+                        verified, redeliberations, decisions,
                         discovery, provider_diversity=None, influence_records=None,
                         specialist_positions=None, specialist_challenges=None,
                         council_diversity_v2=None) -> AuditTrace:
@@ -363,8 +471,6 @@ class CountryProcessor:
             provider_assignment_report=self._assignment,
             provider_diversity_assessment=provider_diversity if provider_diversity is not None
             else self._diversity,
-            human_review_status="queued" if requires_review else "none",
-            review_reasons=reasons,
             final_scores=dict(integ.final_scores),
             redeliberation_count=redeliberations,
             specialist_influence_records=influence_records or [],

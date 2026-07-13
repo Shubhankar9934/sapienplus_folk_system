@@ -40,6 +40,13 @@ class SpecialistInfluenceReport(BaseModel):
         return {r.dimension: r.specialist_influence_weight for r in self.records}
 
     @property
+    def recommendation_by_dim(self) -> dict[Dimension, float]:
+        """Per-dimension evidence-backed specialist recommendation (placement
+        target). Abstained dimensions (no recommendation) are omitted."""
+        return {r.dimension: r.specialist_recommendation for r in self.records
+                if r.specialist_recommendation is not None}
+
+    @property
     def mean_weight(self) -> float:
         if not self.records:
             return 0.0

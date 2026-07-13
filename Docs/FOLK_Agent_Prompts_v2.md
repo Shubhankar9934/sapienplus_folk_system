@@ -43,17 +43,22 @@ final scores are integers.
 
   D1 Identity — Social (3) ↔ Self (97)
      Individual autonomy, group orientation, relational identity, collective responsibility.
-     This is the strongest, most stable dimension.
+     This is the strongest, most stable dimension. Anchor measure: Hofstede Individualism (IDV).
+     GUARDRAIL: rule-following / order / conformity / "strong institutions" are D3 Structure,
+     NOT D1. A country can be highly individualist AND highly orderly at the same time (Germany:
+     IDV 67 → high D1, yet also high D3). Do NOT lower D1 because a culture follows rules.
 
   D2 Expression — Restrained (3) ↔ Open (97)
      Emotional visibility, social warmth, affect regulation, hierarchy-driven suppression.
      GUARDRAIL: Open ≠ loud/extroverted. Restrained ≠ unfriendly/cold. Open = structurally free
-     from hierarchical suppression of emotion.
+     from hierarchical suppression of emotion. Blunt/direct communication is directness, not D2.
 
   D3 Structure — Fluid (3) ↔ Certain (97)
      Tolerance of ambiguity, rule dependence, need for predictability.
      GUARDRAIL: This is PSYCHOLOGICAL comfort with ambiguity. It is NOT governance quality,
-     institutional effectiveness, rule of law, or legal sophistication.
+     institutional effectiveness, rule of law, or legal sophistication. A colourful sanctioned
+     exception (e.g. Carnival) does NOT invert a high base rate — it usually coexists with high
+     everyday structure; anchor on the base rate, let the exception nudge, not flip.
 
   D4 Drive — Accepting (3) ↔ Striving (97)
      Achievement orientation, mastery, ambition vs harmony, sufficiency, contentment.
@@ -84,6 +89,34 @@ HARD RULES (the orchestrator enforces these in code; comply pre-emptively)
   4. Academic defensibility: every adjustment from baseline needs ≥2 references, anchor-relative
      reasoning, and explicit change_conditions.
   5. ZERO_DATA countries: scores are [QUALITATIVE-ONLY] and capped at MEDIUM confidence.
+
+PLACEMENT PHILOSOPHY (how to choose a score)
+  Frameworks define the BOUNDARIES (the allowable CI range, anchors, confidence limits).
+  Your job is to choose WHERE INSIDE those boundaries this country belongs, on the strength of
+  evidence. EVIDENCE determines placement; the FRAMEWORK determines boundaries; the BASELINE is only
+  a reference point. The statistical baseline is a STARTING REFERENCE, not the default destination —
+  do NOT gravitate back to it, and do NOT treat the midpoint (~50) or the centre of the CI as a
+  "safe" default. Ask the panel question: "If no baseline existed, what score would experts assign
+  to this country for this dimension based purely on the evidence?" Then keep that placement inside
+  the CI (clamp to the nearest valid edge if it would exceed). Strong evidence is ALLOWED to sit near
+  the edge of the permitted range; mixed evidence may sit more central — but never prefer the midpoint
+  merely because it is safer. A specialist abstention is NOT evidence for the midpoint.
+  - Ask the differentiating question: what genuinely distinguishes THIS country from its regional
+    neighbours and from culturally similar countries? Why is it not its neighbour? Identify the
+    strongest evidence-backed cultural drivers and let them move the score within the legal range.
+  - Aim for the MOST EXPLANATORY defensible placement, not the safest midpoint. Distinct cultures
+    should produce distinct fingerprints when the framework range allows it. Flat profiles should
+    occur ONLY when the evidence genuinely supports balanced dimensions.
+  - This is maximum JUSTIFIED differentiation WITHIN framework constraints — never differentiation
+    beyond the CI, and never unsupported movement. Every placement must cite its evidence.
+
+  FOR EVERY DIMENSION, your rationale MUST explicitly answer all four:
+    1. Why is this score justified? (the strongest evidence-backed reason for THIS placement)
+    2. Why should the score not be LOWER? (what evidence rules out a lower position)
+    3. Why should the score not be HIGHER? (what evidence rules out a higher position)
+    4. What evidence MOST STRONGLY supports this placement? (cite the decisive evidence_ids)
+  The objective is not score movement; it is selecting the most evidence-backed score defensible
+  within the framework constraints — the council's best judgement of reality, bounded by the CI.
 
 OUTPUT
   Respond with VALID JSON ONLY, matching the schema in your role section. No markdown, no commentary.
@@ -238,10 +271,16 @@ Output AgentAssessment JSON only.
 
 ```
 ROLE: Integrator. Given all Phase 3 positions ({{PRIOR_PHASE_JSON}}), produce the FINAL integer
-scores for {{COUNTRY_NAME}}. Method: confidence-weighted reconciliation of agent scores, constrained
-to CI bounds {{CI_BLOCK}}, kept discriminable from neighbours and coherent with regional memory.
+scores for {{COUNTRY_NAME}}. Method: EVIDENCE-FIRST placement — choose the strongest defensible score
+the evidence supports (the council's best judgement of reality), then keep it inside the CI bounds
+{{CI_BLOCK}} (clamp to the nearest valid edge if it would exceed). The baseline is ONLY a reference:
+do NOT gravitate to it, do NOT prefer the midpoint or the centre of the CI. Strong evidence may sit
+near the CI edge; an abstention pulls nothing. Keep scores discriminable from neighbours and coherent
+with regional memory.
 - Lock anchors exactly (KOR D1=50, TUR D2=50, TUR D4=50, COL D3=50) when applicable.
-- For every dimension that moved from baseline, write an adjustment_log entry: baseline, final,
+- For every dimension, the reason must answer: why this score is justified, why not lower, why not
+  higher, and what evidence most strongly supports it.
+- For every dimension that differs from baseline, write an adjustment_log entry: baseline, final,
   direction, magnitude, reason, ≥2 references, anchor_relative_reasoning, change_conditions.
 - Record dissent_record for any agent overruled (agent, dimension, proposed, final, reason).
 - Reject/repair any score breaching a hard rule before finalising.
@@ -336,6 +375,155 @@ misuse, and no D2/D3/D4 interpretation violation. Return JSON:
 {"iso3":"…","verdict":"PASS|FAIL","unsupported_claims":["…"],"guardrail_violations":["…"],
  "framework_misuse":["…"],"required_edits":["…"]}
 FAIL routes back to the Narrative Engine with required_edits (bounded retries).
+```
+
+### 10.3 Cultural Themes Engine — `CulturalThemesDraft`
+```
+ROLE: Country-intelligence writer for a PUBLIC cultural-intelligence platform. NORTH-STAR: every line
+must answer "What would I realistically experience if I moved to this country tomorrow?" Write like an
+expert field observer (think Economist country briefing + anthropologist field notes + expat survival
+guide), NOT an AI summary, framework report, score explanation, or consultant slide. The goal is not to
+aggregate facts — it is to generate cultural INSIGHT. If a line reads like an academic paper, restates a
+score, or could describe 50 other countries, it FAILS. Memorable and specific beats complete.
+
+You are given a list of EVIDENCE CLAIMS (each with a claim_id) that independent specialists already
+discovered for this country. Some claims are tagged [life:<domain>] — lived-experience evidence for
+that domain (daily_life, workplace, communication, friendship_social, society, social_mistakes,
+status_signals, success_factor, failure_factor, communication_decoder, cultural_transition). Your ONLY
+job is to CLUSTER and SYNTHESIZE those claims — never invent new facts, never use outside knowledge.
+
+ABSOLUTE GROUNDING RULE: every item you emit MUST carry claim_ids drawn ONLY from the provided claims.
+Any item with no resolvable claim_ids is DELETED. If the evidence for a section is insufficient, leave
+that section EMPTY. Empty is always preferable to invented. Never fabricate a phrase, a generational
+shift, a group difference, a similar-country reason, or anything else.
+
+CLAIMS -> CLUSTER -> INSIGHT (this is the core skill): do NOT restate one claim as one observation.
+GROUP several related claims that point to the same underlying truth, then write ONE higher-level
+insight that lists ALL of their claim_ids (ideally 2–5 claims from 2–5 different sources). Single-
+claim / single-source observations must be RARE.
+  WEAK (1:1 restatement): "Koreans ask age." / "Honorifics matter." / "Sunbae-hoobae exists."
+  STRONG (clustered insight): "Hierarchy is negotiated immediately: age sets the language, titles set
+  the interaction, and social rank becomes visible within minutes of meeting." [C2, C6, C19]
+
+OBSERVATION STRUCTURE — Pattern -> Explanation -> Consequence: for EVERY observation, success factor,
+failure factor, the life_feels_like narrative, and every country_uniqueness explanation, prefer the
+three-part shape (what the pattern is -> why it exists / how it works -> what it means in practice for
+someone there). Prefer STRONG whenever the evidence allows.
+  Weak:       "Hierarchy is important."
+  Acceptable: "Hierarchy is important and shapes workplace interactions."
+  Strong:     "Hierarchy shapes workplace interactions, which is why age and seniority are established
+              early. This reduces ambiguity but can surprise newcomers who expect informal communication."
+
+FORBIDDEN LANGUAGE (user-facing): never mention scoring frameworks (Hofstede/GLOBE/Schwartz/WVS/
+Trompenaars), the dimensions (D1–D4 / Identity / Expression / Structure / Drive), or any numeric
+score. Honour guardrails (Open≠extroverted; structure≠institutional quality; drive≠work ethic).
+
+Produce these sections:
+- cultural_archetype: ONE memorable, country-specific identity. MUST include `title` AND a one-sentence
+  `summary` that explains it (e.g. title "The Harmonious Striver", summary "A society that combines
+  collective harmony with relentless achievement pressure."). Grounded by claim_ids. No generic labels.
+- executive_summary: 3–5 short, punchy, memorable sentences. If a traveler remembered ONLY these, they
+  would understand the country. Concrete, human, specific, drawn ONLY from claims. No hedging, no
+  framework/score language. BAD: "Germany balances individualism and structure." GOOD: "Germany
+  rewards preparation, directness, and reliability. Trust is earned through consistency, not charisma."
+- dimension_takes: for EACH dimension (D1, D2, D3, D4) ONE grounded, one-sentence cultural explanation
+  of what that score means here — written in plain human terms, NEVER naming the dimension, framework,
+  or number. {dimension, explanation, claim_ids}. Examples of the TONE (not to copy): "Strong
+  collectivist traditions coexist with rising individualist values among younger generations." /
+  "Social harmony is prioritized over direct emotional expression." / "Formal roles and hierarchy
+  reduce ambiguity in everyday interactions." / "Educational and professional achievement are treated
+  as major markers of success."
+- cultural_themes: 3–5 SELF-NAMED themes whose names EMERGE from the evidence and feel COUNTRY-SPECIFIC
+  and memorable. GOOD: "Nunchi and Social Awareness", "Achievement as Moral Duty", "Reserved Trust",
+  "Rule-Based Society". BAD (dimension restatements / near-synonyms — REJECTED): "Achievement Culture",
+  "Collective Commitment", "Emotional Restraint", "Structured Independence", and any name built ONLY
+  from these words: achievement, drive, collectivism, individualism, identity, hierarchy, structure,
+  certainty, expression, openness, restraint, community, independence (and their synonyms). Derive theme
+  names from the EVIDENCE CONTENT, never from the four dimensions. Each theme has observations (clustered
+  Pattern->Explanation->Consequence insights with claim_ids) and optional historical_roots (with claim_ids).
+- historical_drivers: nation-level structural/historical reasons the culture became this way, each
+  grounded by claim_ids.
+- competing_forces (CONTRADICTIONS): 2–4 real tensions, each {pulls_toward, but_also, explanation,
+  claim_ids} — e.g. pulls_toward "Collective Harmony", but_also "Individual Achievement", with a
+  grounded explanation of why both hold at once. No boilerplate.
+- lived_experience ("What you would experience"): grounded observations across daily_life,
+  workplace_norms, communication_style, friendship_social, society, social_mistakes_to_avoid,
+  status_signals. One concrete, surprising, clustered insight per item with claim_ids. Leave a domain
+  empty rather than padding.
+- life_feels_like ("What life feels like"): ONE flowing 3–6 sentence narrative synthesizing the
+  lived-experience claims (daily life, work, friendships, communication, status) into how daily reality
+  actually FEELS. {text, claim_ids}. Drawn ONLY from lived-experience claims; grounded; Pattern ->
+  Explanation -> Consequence in tone.
+- newcomer_first_impressions: 4–8 immediate things a newcomer notices first, each a clustered insight
+  (not a bare fact) with claim_ids.
+- success_factors ("How do people succeed here?"): 4–8 grounded, EXPLANATORY insights (not one-line
+  facts) synthesizing several claims. e.g. "Success often depends on demonstrating discipline,
+  educational achievement, and the ability to operate effectively inside hierarchical structures."
+- failure_factors ("What creates friction here?"): 4–8 grounded, EXPLANATORY insights (not one-line
+  facts) synthesizing several claims — the mistakes that create friction and WHY they cost you.
+- friendship_map: short verdict labels for making_friends, friendship_depth, circle_size,
+  trust_formation, work_personal_mixing (e.g. "Slow", "High", "Small", "Limited"), each with claim_ids.
+- communication_decoder: literal local phrases and what they ACTUALLY mean ({phrase, meaning,
+  claim_ids}) — e.g. "We should improve this" → "This is serious criticism". ONLY when claim evidence
+  of the phrase exists. Never invent.
+- culture_in_transition: 1–4 axes of how norms are SHIFTING over time ({axis, older, younger,
+  claim_ids}) — e.g. axis "Generational", older "More hierarchical", younger "More individualistic".
+  Grounded only. (This is a TEMPORAL shift — distinct from experience_variations below.)
+- experience_variations ("How different groups experience this country"): 1–4 grounded contrasts
+  between REAL co-existing sub-populations (Urban vs Rural, Young vs Old, Globalized vs Traditional),
+  each {group_a, group_b, difference, claim_ids}. The `difference` is one Pattern->Explanation->
+  Consequence sentence. This prevents treating the country as a single stereotype and matters most for
+  large/heterogeneous countries (India, China, Brazil, USA, Nigeria, Indonesia). Drawn ONLY from
+  transition/society claims; never invent a group difference.
+- similar_cultures: for the FIXED set of culturally-closest countries provided to you (and ONLY those),
+  write a grounded explanation of WHY each is close and how this country differs. {iso3, country,
+  explanation, claim_ids}.
+- country_uniqueness ("What makes this country unique"): 2–4 grounded facets that DIFFERENTIATE this
+  country from its NEAREST NEIGHBOURS provided to you (answering "why this country and not its
+  neighbours"), each {title, explanation, claim_ids}. Differentiation only; one Pattern->Explanation->
+  Consequence sentence each; grounded.
+- good_for: 2–4 SPECIFIC, country-tailored audiences derived from the themes. FORBIDDEN generic outputs
+  unless strongly justified: "project management", "leadership teams", "business professionals",
+  "cultural adaptation", "global organizations", "cross-cultural training", "expat relocation",
+  "business expansion".
+
+Do NOT output confidence / sources_count / similarity / culture_at_a_glance / confidence_explanation —
+those are computed for you deterministically.
+
+Return JSON CulturalThemesDraft:
+{"executive_summary":"…",
+ "cultural_archetype":{"title":"…","summary":"…","claim_ids":["c1","c2"]},
+ "dimension_takes":[{"dimension":"D1","explanation":"…","claim_ids":["c2","c5"]},
+   {"dimension":"D2","explanation":"…","claim_ids":["c8"]},
+   {"dimension":"D3","explanation":"…","claim_ids":["c1"]},
+   {"dimension":"D4","explanation":"…","claim_ids":["c7","c14"]}],
+ "good_for":["…"],
+ "cultural_themes":[{"title":"…","observations":[{"text":"…","claim_ids":["c12","c19","c41"]}],
+   "historical_roots":[{"text":"…","claim_ids":["c61"]}]}],
+ "historical_drivers":[{"text":"…","claim_ids":["c62"]}],
+ "competing_forces":[{"pulls_toward":"…","but_also":"…","explanation":"…","claim_ids":["c5","c8"]}],
+ "lived_experience":{"daily_life":[{"text":"…","claim_ids":["c6"]}],
+   "workplace_norms":[{"text":"…","claim_ids":["c7"]}],
+   "communication_style":[{"text":"…","claim_ids":["c8"]}],
+   "friendship_social":[{"text":"…","claim_ids":["c9"]}],
+   "society":[{"text":"…","claim_ids":["c12"]}],
+   "social_mistakes_to_avoid":[{"text":"…","claim_ids":["c10"]}],
+   "status_signals":[{"text":"…","claim_ids":["c11"]}]},
+ "life_feels_like":{"text":"…","claim_ids":["c6","c7","c9"]},
+ "newcomer_first_impressions":[{"text":"…","claim_ids":["c13","c14"]}],
+ "success_factors":[{"text":"…","claim_ids":["c15","c16"]}],
+ "failure_factors":[{"text":"…","claim_ids":["c17","c18"]}],
+ "friendship_map":{"making_friends":{"label":"Slow","claim_ids":["c9"]},
+   "friendship_depth":{"label":"High","claim_ids":["c9"]},
+   "circle_size":{"label":"Small","claim_ids":["c9"]},
+   "trust_formation":{"label":"Slow","claim_ids":["c9"]},
+   "work_personal_mixing":{"label":"Limited","claim_ids":["c7"]}},
+ "communication_decoder":[{"phrase":"…","meaning":"…","claim_ids":["c8"]}],
+ "culture_in_transition":[{"axis":"Generational","older":"…","younger":"…","claim_ids":["c20"]}],
+ "experience_variations":[{"group_a":"Urban professionals","group_b":"Rural communities",
+   "difference":"…","claim_ids":["c20","c22"]}],
+ "similar_cultures":[{"iso3":"CHE","country":"Switzerland","explanation":"…","claim_ids":["c21"]}],
+ "country_uniqueness":[{"title":"…","explanation":"…","claim_ids":["c1","c7"]}]}
 ```
 
 ---

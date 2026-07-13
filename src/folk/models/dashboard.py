@@ -6,7 +6,6 @@ pass/fail against the success targets:
   - reasoning diversity > 0.5
   - external validation available
   - council value measurable
-  - review queue < 10%
 """
 
 from __future__ import annotations
@@ -25,7 +24,6 @@ class CouncilQualityDashboard(BaseModel):
     reasoning_diversity: float = 0.0        # 0-1 mean reasoning diversity
     council_value_score: float = 0.0        # measurable value added by the council
     external_validation_score: float | None = None  # mean |pearson| or None
-    review_queue_pct: float = 0.0           # % of countries in the human review queue
 
     targets_met: dict[str, bool] = Field(default_factory=dict)
     all_targets_met: bool = False

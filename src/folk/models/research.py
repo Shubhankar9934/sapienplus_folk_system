@@ -10,13 +10,17 @@ provider's response - no cross-provider retrieval, no shared search backend.
 
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
+from uuid import uuid4
 
 from pydantic import BaseModel, Field, model_validator
 
 from folk.models.enums import (
+    ContributionStatus,
     Dimension,
     EvidenceVerificationStatus,
+    SeatFailureReason,
     SourceCategory,
     SourceType,
     SpecialistSeat,
@@ -88,6 +92,32 @@ def normalize_source_category(value) -> SourceCategory:
         return _SOURCE_CATEGORY_SYNONYMS.get(key, SourceCategory.EXPERT_COMMENTARY)
 
 
+def _coerce_year(value) -> int | None:
+    """Coerce a provider-supplied publication year into an int or None.
+
+    Providers frequently emit non-numeric placeholders such as ``"unspecified"``,
+    ``"n/a"`` or ``""`` instead of omitting the field. Rather than aborting an
+    entire country run on one odd value, extract the first 4-digit year if
+    present, otherwise fall back to None.
+    """
+    if value is None or isinstance(value, bool):
+        return None
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return int(value)
+    text = str(value).strip()
+    if not text:
+        return None
+    match = re.search(r"\d{4}", text)
+    if match:
+        return int(match.group())
+    try:
+        return int(text)
+    except (TypeError, ValueError):
+        return None
+
+
 # --------------------------------------------------------------------------- #
 # Evidence primitives
 # --------------------------------------------------------------------------- #
@@ -122,6 +152,8 @@ class EvidenceSource(BaseModel):
                 break
         if data.get("title") is None:
             data["title"] = str(data.get("name") or data.get("source") or "")
+        if "publication_year" in data:
+            data["publication_year"] = _coerce_year(data.get("publication_year"))
         for k in ("source_category", "category"):
             if data.get(k) is not None:
                 data["source_category"] = normalize_source_category(data[k])
@@ -150,12 +182,27 @@ class EvidenceClaim(BaseModel):
     supporting_dimension: Dimension | None = None
     support_direction: str = "neutral"     # supports_high | supports_low | neutral
     confidence: float = 0.5                # 0-1 specialist confidence in the claim
+    # Optional lived-experience tag: which everyday life domain this claim speaks
+    # to (workplace | communication | friendship_social | social_mistakes |
+    # status_signals). ``None`` = not a lived-experience claim.
+    life_domain: str | None = None
 
     @model_validator(mode="before")
     @classmethod
     def _coalesce(cls, data):
         if not isinstance(data, dict):
             return data
+        # Repair keys corrupted by slightly-malformed model JSON (e.g. a stray
+        # '{"' fused onto the first key) by stripping wrapping braces/quotes, so
+        # one sloppy claim never sinks an entire country's run.
+        cleaned = {}
+        for k, v in data.items():
+            if isinstance(k, str):
+                nk = k.strip().strip("{}[]").strip().strip("\"'").strip()
+                cleaned[nk or k] = v
+            else:
+                cleaned[k] = v
+        data = cleaned
         if not data.get("claim"):
             for k in ("claim", "statement", "excerpt", "text", "finding"):
                 if data.get(k):
@@ -163,7 +210,25 @@ class EvidenceClaim(BaseModel):
                     break
         dim = data.get("supporting_dimension") or data.get("dimension")
         if isinstance(dim, str):
-            data["supporting_dimension"] = dim.upper()
+            dim_u = dim.strip().upper()
+            # The framework has exactly four dimensions; coerce anything the
+            # model invents (e.g. "D5") to None rather than raising.
+            data["supporting_dimension"] = dim_u if dim_u in {"D1", "D2", "D3", "D4"} else None
+        sd = data.get("support_direction")
+        if isinstance(sd, str):
+            data["support_direction"] = sd.strip().lower().replace(" ", "_").replace("-", "_") or "neutral"
+        elif sd is None:
+            data["support_direction"] = "neutral"
+        ld = data.get("life_domain")
+        if isinstance(ld, str):
+            ld = ld.strip().lower().replace(" ", "_").replace("-", "_")
+            data["life_domain"] = ld or None
+        # Guarantee the required identifiers exist; a single claim with a
+        # missing/corrupted id should degrade gracefully, not fail validation.
+        if not data.get("claim_id"):
+            data["claim_id"] = f"auto_{uuid4().hex[:10]}"
+        if not data.get("source_id"):
+            data["source_id"] = ""
         return data
 
 
@@ -185,14 +250,32 @@ class EvidenceCitation(BaseModel):
 # Specialist outputs (single-origin)
 # --------------------------------------------------------------------------- #
 class SpecialistDimensionView(BaseModel):
-    """One seat's evidence-grounded position on one dimension."""
+    """One seat's evidence-grounded position on one dimension.
+
+    ``proposed_score`` is ``None`` when the seat ABSTAINS (no citable evidence for
+    this dimension). An abstention is NOT a midpoint: it must be excluded from
+    recommendation aggregation so silent seats never pull a country to the centre.
+    """
 
     dimension: Dimension
-    proposed_score: float = 50.0
+    proposed_score: float | None = None
+    abstained: bool = False
     supporting_evidence: list[str] = Field(default_factory=list)  # claim_ids
     counter_evidence: list[str] = Field(default_factory=list)     # claim_ids
     cultural_rationale: str = ""
     confidence: float = 0.5
+    # Self-consistency signal (set post-hoc, not by the model): False when the
+    # score sits on the opposite side of 50 from the direction its own cited
+    # evidence points (e.g. cites individualist evidence, scores collectivist).
+    self_consistent: bool = True
+    consistency_note: str = ""
+
+    @property
+    def has_recommendation(self) -> bool:
+        """A usable, evidence-backed recommendation (not an abstention)."""
+        return (not self.abstained
+                and self.proposed_score is not None
+                and bool(self.supporting_evidence or self.counter_evidence))
 
     @model_validator(mode="before")
     @classmethod
@@ -202,11 +285,24 @@ class SpecialistDimensionView(BaseModel):
         dim = data.get("dimension")
         if isinstance(dim, str):
             data["dimension"] = dim.upper()
+        # LLMs frequently emit ``null`` for empty evidence lists; treat a null (or a
+        # bare string) as an empty/singleton list so an otherwise-valid, evidence-backed
+        # view is never discarded (a dropped view becomes a false abstention).
+        for k in ("supporting_evidence", "counter_evidence"):
+            v = data.get(k)
+            if v is None:
+                data[k] = []
+            elif isinstance(v, str):
+                data[k] = [v] if v else []
         if data.get("proposed_score") is None:
             for k in ("score", "value", "proposed"):
                 if data.get(k) is not None:
                     data["proposed_score"] = data[k]
                     break
+        # An explicit abstain flag, or a genuinely null score, means "no
+        # recommendation" - never silently coerce it to a midpoint default.
+        if data.get("proposed_score") is None:
+            data["abstained"] = True
         return data
 
 
@@ -245,6 +341,36 @@ class SpecialistAssessment(BaseModel):
     provider: str
     dimensions: dict[Dimension, SpecialistDimensionView] = Field(default_factory=dict)
     summary: str = ""
+
+
+class SpecialistParticipation(BaseModel):
+    """Auditable record (Req 4, 5) of whether one seat contributed, abstained, or
+    failed for one dimension. ``dimension`` is None for a seat-level FAILED row
+    (the whole seat call failed, so no per-dimension view exists)."""
+
+    iso3: str
+    seat: str
+    provider: str = ""
+    dimension: Dimension | None = None
+    contribution_status: ContributionStatus = ContributionStatus.CONTRIBUTED
+    reason: str = ""
+    failure_reason: SeatFailureReason | None = None
+    confidence: float = 0.0
+    evidence_count: int = 0
+    recommendation: float | None = None
+
+
+class SpecialistIndependenceFinding(BaseModel):
+    """Auditable record (Req 5) that two seats' backed views for a dimension were
+    NOT independent - they share an evidence-id set or use identical reasoning, so
+    the same reading was effectively counted twice before being collapsed."""
+
+    iso3: str
+    dimension: Dimension
+    seat_a: str
+    seat_b: str
+    shared_evidence: bool = False
+    identical_text: bool = False
 
 
 # --------------------------------------------------------------------------- #

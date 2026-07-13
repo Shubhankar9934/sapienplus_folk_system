@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-ink antialiased;
+  background-image: radial-gradient(
+       circle at 15% -10%,
+      rgba(91, 141, 239, 0.08),
+      transparent 40%
+    ),
+    radial-gradient(circle at 90% 0%, rgba(52, 211, 153, 0.05), transparent 35%);
+  background-attachment: fixed;
+}
+
+/* Thin custom scrollbar for the terminal aesthetic. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2b3a;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3a4d;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* MapLibre popup theming */
+.maplibregl-popup-content {
+  background: #121b27 !important;
+  color: #e6edf3 !important;
+  border: 1px solid #1e2b3a;
+  border-radius: 8px;
+  font-family: var(--font-sans);
+}
+.maplibregl-popup-tip {
+  border-top-color: #121b27 !important;
+  border-bottom-color: #121b27 !important;
+}

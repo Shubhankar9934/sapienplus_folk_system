@@ -31,8 +31,6 @@ class ResearchQualityAnalyzer:
         s = self.settings
         total = max(1, len(profiles))
 
-        human_pct = round(len(report.human_review_queue) / total * 100, 2)
-        midpoint_pct = round(len(report.midpoint_reviews) / total * 100, 2)
         narrative_pct = round(self._narrative_failures(profiles) / total * 100, 2)
         judge_pct = round(self._judge_disagreements(profiles) / total * 100, 2)
         agent_variance = self._agent_variance(profiles)
@@ -47,8 +45,6 @@ class ResearchQualityAnalyzer:
         council_impact_score = impact.average_adjustment if impact else 0.0
 
         targets = {
-            "human_review_under_target": human_pct < s.target_human_review_pct,
-            "midpoint_review_under_target": midpoint_pct < s.target_midpoint_review_pct,
             "narrative_failure_under_target": narrative_pct < s.target_narrative_failure_pct,
             "judge_disagreement_under_target": judge_pct < s.target_judge_disagreement_pct,
         }
@@ -57,8 +53,6 @@ class ResearchQualityAnalyzer:
 
         return ResearchQualityReport(
             total_countries=len(profiles),
-            human_review_pct=human_pct,
-            midpoint_review_pct=midpoint_pct,
             narrative_failure_pct=narrative_pct,
             judge_disagreement_pct=judge_pct,
             agent_variance=agent_variance,
@@ -118,16 +112,18 @@ class ResearchQualityAnalyzer:
 
     @staticmethod
     def _grade(targets: dict, anchor_pct: float, mean_pearson, calibration_pct: float):
+        total = len(targets)
         met = sum(1 for v in targets.values() if v)
         notes: list[str] = []
         strong_external = mean_pearson is not None and mean_pearson >= 0.5
-        if met == 4 and anchor_pct >= 100.0 and strong_external and calibration_pct >= 90.0:
+        all_met = met == total
+        if all_met and anchor_pct >= 100.0 and strong_external and calibration_pct >= 90.0:
             grade = "A+"
-        elif met == 4 and anchor_pct >= 100.0:
+        elif all_met and anchor_pct >= 100.0:
             grade = "A"
             if not strong_external:
                 notes.append("External correlation below 0.5 caps the grade at A.")
-        elif met >= 2:
+        elif total and met >= max(1, total // 2):
             grade = "B"
         else:
             grade = "C"

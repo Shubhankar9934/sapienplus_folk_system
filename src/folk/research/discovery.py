@@ -59,9 +59,16 @@ class EvidenceDiscoveryEngine:
         pack: CountryKnowledgePack,
         evidence: dict[Dimension, DimensionEvidence],
         assignments: list[SeatAssignment],
+        extra_lenses: list[str] | None = None,
     ) -> DiscoveryResult:
         anti_flatline = pack.iso3 in set(getattr(self.settings, "anti_flatline_isos", []))
-        lenses = list(DIFFERENTIATION_LENSES) if anti_flatline else None
+        lenses = list(DIFFERENTIATION_LENSES) if anti_flatline else []
+        # Distinctiveness lenses injected on a flat/clone redeliberation pass so
+        # the re-run actively searches for genuine differentiation rather than
+        # repeating the same compressed evidence.
+        if extra_lenses:
+            lenses += [l for l in extra_lenses if l not in lenses]
+        lenses = lenses or None
 
         result = DiscoveryResult()
         n = len(assignments)

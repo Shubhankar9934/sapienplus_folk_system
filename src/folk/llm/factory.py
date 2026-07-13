@@ -22,6 +22,7 @@ ROLE_PROVIDER: dict[str, str] = {
     JudgeRole.CULTURAL_VALIDITY.value: "openai",
     "narrative": "openai",
     "narrative_validator": "anthropic",
+    "cultural": "openai",
 }
 
 ROLE_TEMPERATURE: dict[str, float] = {AgentRole.DEVILS_ADVOCATE.value: 0.4}

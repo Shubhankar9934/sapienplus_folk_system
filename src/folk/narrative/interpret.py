@@ -35,6 +35,39 @@ def leaning(dim: Dimension, score: int) -> str:
     return dim.high_pole if score > 57 else dim.low_pole
 
 
+# One-word, human-readable Cultural Fingerprint readings per band, honouring the
+# guardrails (D2 = emotional expression, not sociability; D3 = comfort with
+# ambiguity, not institutional quality; D4 = what is prized, not work ethic).
+# (low_strong, low_moderate, balanced, high_moderate, high_strong)
+_SNAPSHOT_READINGS: dict[Dimension, tuple[str, str, str, str, str]] = {
+    Dimension.D1: ("Community-first", "Group-oriented", "Balanced",
+                   "Independent", "Strongly independent"),
+    Dimension.D2: ("Reserved", "Understated", "Even-keeled",
+                   "Expressive", "Highly expressive"),
+    Dimension.D3: ("Flexible", "Adaptable", "Balanced",
+                   "Structured", "Highly structured"),
+    Dimension.D4: ("Easygoing", "Relaxed", "Balanced",
+                   "Achievement-oriented", "Strongly achievement-oriented"),
+}
+
+
+def snapshot_reading(dim: Dimension, score: int) -> str:
+    """A short, plain reading of a dimension score for the Cultural Fingerprint.
+
+    Deterministic: no LLM. e.g. D1 95 -> 'Strongly independent', D2 40 ->
+    'Understated', D3 63 -> 'Structured'."""
+    low_s, low_m, bal, high_m, high_s = _SNAPSHOT_READINGS[dim]
+    if score >= 70:
+        return high_s
+    if score >= 58:
+        return high_m
+    if 43 <= score <= 57:
+        return bal
+    if score >= 31:
+        return low_m
+    return low_s
+
+
 def interpret(dim: Dimension, score: int) -> str:
     lean = leaning(dim, score)
     if lean == "balanced":

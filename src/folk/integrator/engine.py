@@ -28,6 +28,12 @@ from folk.scoring import clamp_to_ci_int
 
 DISSENT_THRESHOLD = 3.0
 
+# Baseline is only a *reference*, never a gravitational center. Its weight in the
+# provisional placement is BASELINE_REF_WEIGHT * (1 - credibility): it vanishes as
+# evidence credibility rises and is capped low even when evidence is absent, so the
+# council's evidence-based consensus - not the statistical baseline - leads.
+BASELINE_REF_WEIGHT = 0.25
+
 
 class Integrator:
     def __init__(self, factory: ProviderFactory | None = None, prompts: PromptLibrary | None = None) -> None:
@@ -40,10 +46,12 @@ class Integrator:
         self, pack: CountryKnowledgePack, council: CouncilResult,
         disagreement_by_dim: dict[Dimension, float] | None = None,
         influence_by_dim: dict[Dimension, float] | None = None,
+        recommendation_by_dim: dict[Dimension, float] | None = None,
     ) -> tuple[IntegratorOutput, CallMetric]:
         eff = {d: self._effective_influence(d, disagreement_by_dim, influence_by_dim)
                for d in DIMENSIONS}
-        hint = self._compute(pack, council, eff)
+        rec = recommendation_by_dim or {}
+        hint = self._compute(pack, council, eff, rec)
         system = self.prompts.preamble()
         user = self.prompts.agent_prompt(AgentRole.INTEGRATOR, 1) + f"\nCOUNTRY: {pack.iso3}"
         out, metric = self.provider.generate_structured(
@@ -52,7 +60,7 @@ class Integrator:
             temperature=self.factory.temperature_for(AgentRole.INTEGRATOR.value),
             role=AgentRole.INTEGRATOR.value, iso3=pack.iso3, phase="integration",
         )
-        return self._enforce_invariants(out, hint, pack, council, eff), metric
+        return self._enforce_invariants(out, hint, pack, council, eff, rec), metric
 
     def _effective_influence(
         self, d: Dimension,
@@ -81,6 +89,7 @@ class Integrator:
     def _enforce_invariants(
         self, out: IntegratorOutput, hint: IntegratorOutput, pack: CountryKnowledgePack,
         council: CouncilResult, eff: dict[Dimension, float] | None = None,
+        rec: dict[Dimension, float] | None = None,
     ) -> IntegratorOutput:
         """Re-apply the deterministic guarantees the LLM is not allowed to break:
         every dimension present, anchor locks honoured, and scores clamped inside
@@ -95,21 +104,35 @@ class Integrator:
         locks = locks_for(pack.iso3)
         out.iso3 = pack.iso3
         fixed: dict[Dimension, int] = {}
+        # LLM's proposed score per dimension, captured pre-clamp (Req 2). In
+        # deterministic/mock mode the LLM returns the hint unchanged, so this
+        # equals the integrator recommendation - which is exactly what makes
+        # "did the LLM change the placement?" auditable.
+        llm_recs: dict[Dimension, float] = {}
         for d in DIMENSIONS:
             if d in locks:
                 fixed[d] = int(locks[d])
+                llm_recs[d] = float(locks[d])
                 continue
             raw = out.final_scores.get(d, hint.final_scores.get(d, 50))
             try:
                 raw = float(raw)
             except (TypeError, ValueError):
                 raw = float(hint.final_scores.get(d, 50))
+            llm_recs[d] = round(raw, 2)
             fixed[d] = self._clamp(raw, pack, d)
         out.final_scores = fixed
+        # Carry the deterministic pre-clamp recommendations through enforcement
+        # (the LLM is never trusted to set these) and record the LLM's proposals.
+        out.integrator_recommendations = dict(hint.integrator_recommendations)
+        out.llm_recommendations = llm_recs
         # Recompute provenance from the enforced scores so they stay consistent.
         out.anchor_positions = self._anchor_positions(pack, fixed)
         out.adjustment_log = self._adjustments(pack, fixed, eff)
         out.dissent_record = self._dissent(council.final_positions, fixed)
+        out.range_diagnostics = self._range_diagnostics(
+            pack, council, fixed, eff or {}, rec or {},
+            hint.integrator_recommendations, llm_recs)
         return out
 
     # ------------------------------------------------------------------ #
@@ -117,42 +140,169 @@ class Integrator:
         return clamp_to_ci_int(value, self.settings.score_min, self.settings.score_max,
                                pack.confidence_intervals.get(dim))
 
+    @staticmethod
+    def _consensus(council: CouncilResult, d: Dimension) -> float | None:
+        """Confidence-weighted mean of the council's final positions on ``d``."""
+        pairs = [(a.scores[d].value, a.scores[d].confidence_self)
+                 for a in council.final_positions.values() if d in a.scores]
+        if not pairs:
+            return None
+        wsum = sum(w for _, w in pairs) or len(pairs)
+        return round(sum(v * w for v, w in pairs) / wsum, 2)
+
+    def _framework_bounds(self, pack: CountryKnowledgePack, d: Dimension) -> tuple[float, float]:
+        """The effective framework range used by the CI clamp (the hard boundary)."""
+        lo, hi = float(self.settings.score_min), float(self.settings.score_max)
+        ci = pack.confidence_intervals.get(d)
+        if ci is not None:
+            lo, hi = max(lo, ci.lo), min(hi, ci.hi)
+        return round(lo, 2), round(hi, 2)
+
+    def _range_diagnostics(
+        self, pack: CountryKnowledgePack, council: CouncilResult,
+        final: dict[Dimension, int], eff: dict[Dimension, float],
+        rec: dict[Dimension, float],
+        integ_rec: dict[Dimension, float] | None = None,
+        llm_rec: dict[Dimension, float] | None = None,
+    ) -> list["RangeDiagnostic"]:
+        """Internal diagnostics (Req 6, 7): for each dimension record the framework
+        bounds, baseline, specialist recommendation, council consensus, the
+        pre-clamp integrator + LLM recommendations, final, and derived
+        range-utilization / clamp diagnostics + a human-readable movement_reason.
+        Together these are the machine-readable provenance of the published score."""
+        from folk.models.council import RangeDiagnostic
+
+        integ_rec = integ_rec or {}
+        llm_rec = llm_rec or {}
+        out: list[RangeDiagnostic] = []
+        for d in DIMENSIONS:
+            lo, hi = self._framework_bounds(pack, d)
+            baseline = pack.baselines[d].baseline if d in pack.baselines else None
+            spec_rec = rec.get(d)
+            consensus = self._consensus(council, d)
+            value = int(final.get(d, 0))
+            span = hi - lo
+            util = int(round(100.0 * (value - lo) / span)) if span > 0 else 0
+            util = max(0, min(100, util))
+            dist = round(value - baseline, 2) if baseline is not None else 0.0
+            integrator_recommendation = integ_rec.get(d)
+            llm_recommendation = llm_rec.get(d)
+            # Clamp diagnostics: did the framework range constrain the placement?
+            clamp_adjustment = (round(value - integrator_recommendation, 2)
+                                if integrator_recommendation is not None else 0.0)
+            was_clamped = False
+            clamp_direction = "NONE"
+            if integrator_recommendation is not None:
+                if integrator_recommendation > hi + 1e-9:
+                    was_clamped, clamp_direction = True, "UPPER"
+                elif integrator_recommendation < lo - 1e-9:
+                    was_clamped, clamp_direction = True, "LOWER"
+            out.append(RangeDiagnostic(
+                dimension=d, framework_lo=lo, baseline=baseline, framework_hi=hi,
+                specialist_recommendation=spec_rec, council_consensus=consensus,
+                integrator_recommendation=integrator_recommendation,
+                llm_recommendation=llm_recommendation,
+                final=value, available_range=round(span, 2),
+                distance_from_baseline=dist, range_utilization=util,
+                clamp_adjustment=clamp_adjustment, was_clamped=was_clamped,
+                clamp_direction=clamp_direction,
+                distance_from_lower=round(value - lo, 2),
+                distance_from_upper=round(hi - value, 2),
+                movement_reason=self._movement_reason(
+                    d, baseline, spec_rec, consensus, value, eff.get(d), lo, hi),
+            ))
+        return out
+
+    @staticmethod
+    def _movement_reason(
+        d: Dimension, baseline: float | None, spec_rec: float | None,
+        consensus: float | None, final: int, influence: float | None,
+        lo: float, hi: float,
+    ) -> str:
+        """Human-readable account of the evidence-first placement: which evidence
+        determined the position and how the baseline reference figured in - not a
+        "moved from baseline" narrative. Baseline is a reference, not a target."""
+        cred = f" (evidence credibility {influence:.2f})" if influence is not None else ""
+        at_bound = ""
+        if final <= lo + 0.5:
+            at_bound = " Placement sits at the framework lower bound (CI floor)."
+        elif final >= hi - 0.5:
+            at_bound = " Placement sits at the framework upper bound (CI ceiling)."
+        base_ref = (f" baseline reference {baseline:.1f}" if baseline is not None else " no baseline")
+        if spec_rec is None:
+            return (f"No evidence-backed specialist recommendation for {d.label} (seats abstained, "
+                    f"zero specialist influence); placement is the council's evidence-based "
+                    f"consensus {consensus if consensus is not None else 'n/a'}, with"
+                    f"{base_ref} held only as a reference.{at_bound}")
+        return (f"Evidence-first placement of {d.label} at {final}{cred}: specialist recommendation "
+                f"{spec_rec} blended with council consensus {consensus}, with{base_ref} weighted "
+                f"only as a decaying reference (not a target).{at_bound}")
+
     def _compute(self, pack: CountryKnowledgePack, council: CouncilResult,
-                 eff: dict[Dimension, float] | None = None) -> IntegratorOutput:
+                 eff: dict[Dimension, float] | None = None,
+                 rec: dict[Dimension, float] | None = None) -> IntegratorOutput:
         final_positions = council.final_positions
         locks = locks_for(pack.iso3)
         eff = eff or {}
+        rec = rec or {}
         final: dict[Dimension, int] = {}
+        # Pre-clamp deterministic placement per dimension (Req 1): the exact score
+        # the integrator recommends before any framework constraint is applied.
+        integrator_recs: dict[Dimension, float] = {}
 
         for d in DIMENSIONS:
             pairs = [(a.scores[d].value, a.scores[d].confidence_self)
                      for a in final_positions.values() if d in a.scores]
             if not pairs:
+                integrator_recs[d] = 50.0
                 final[d] = self._clamp(50, pack, d)
                 continue
             wsum = sum(w for _, w in pairs) or len(pairs)
             consensus = sum(v * w for v, w in pairs) / wsum
-            # Dynamic, disagreement-scaled blend toward the quantitative baseline.
+            cred = eff.get(d, getattr(self.settings, "base_influence", 0.4))
+
+            # Evidence-first placement ("if no baseline existed, what would experts
+            # assign?"). The evidence-backed specialist recommendation and the council
+            # consensus determine WHERE inside the framework range the country sits;
+            # ``cred`` is the credibility of the specialist evidence (0..1). A higher
+            # credibility lets the recommendation dominate. An abstained dimension has
+            # cred==0 (no recommendation), so the council consensus decides and the
+            # specialist contributes nothing - an abstention is never a midpoint.
+            spec_rec = rec.get(d)
+            if spec_rec is not None:
+                evidence_target = cred * spec_rec + (1.0 - cred) * consensus
+            else:
+                evidence_target = consensus
+
+            # The baseline is ONLY a reference: its pull decays as evidence credibility
+            # rises and is capped low even at cred==0, so strong evidence can sit at the
+            # CI edge while weak/abstained evidence rests on the council consensus near a
+            # mild reference - not the statistical baseline.
             baseline = pack.baselines[d].baseline if d in pack.baselines else None
             if baseline is None:
-                blended = consensus
+                provisional = evidence_target
             else:
-                influence = eff.get(d, getattr(self.settings, "base_influence", 0.4))
-                blended = baseline + influence * (consensus - baseline)
-            value = self._clamp(blended, pack, d)
+                w_ref = BASELINE_REF_WEIGHT * (1.0 - cred)
+                provisional = (1.0 - w_ref) * evidence_target + w_ref * baseline
+            value = self._clamp(provisional, pack, d)
             if d in locks:  # immutable anchor
                 value = int(locks[d])
+                integrator_recs[d] = float(locks[d])
+            else:
+                integrator_recs[d] = round(provisional, 2)
             final[d] = value
 
         return IntegratorOutput(
             iso3=pack.iso3,
             final_scores=final,
+            integrator_recommendations=integrator_recs,
             anchor_positions=self._anchor_positions(pack, final),
             adjustment_log=self._adjustments(pack, final, eff),
             dissent_record=self._dissent(final_positions, final),
             constructed_ci=self._constructed_ci(pack, council),
             primary_analogues=self._primary_analogues(pack),
-            notes="Integrator synthesis: disagreement-scaled specialist influence within legal range.",
+            notes="Integrator synthesis: evidence-first placement (specialist recommendation + "
+                  "council consensus) with baseline as a decaying reference, clamped to the legal range.",
         )
 
     def _dissent(self, phase3, final: dict[Dimension, int]) -> list[DissentRecord]:

@@ -64,7 +64,5 @@ class AuditTrace(BaseModel):
     provider_assignment_report: ProviderAssignmentReport | None = None
     provider_diversity_assessment: ProviderDiversityAssessment | None = None
 
-    human_review_status: str = "none"  # none | queued | cleared
-    review_reasons: list[str] = Field(default_factory=list)
     final_scores: dict[Dimension, int] = Field(default_factory=dict)
     redeliberation_count: int = 0

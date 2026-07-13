@@ -37,7 +37,6 @@ class ProfileORM(Base):
     d2: Mapped[int | None] = mapped_column(Integer, nullable=True)
     d3: Mapped[int | None] = mapped_column(Integer, nullable=True)
     d4: Mapped[int | None] = mapped_column(Integer, nullable=True)
-    requires_human_review: Mapped[bool] = mapped_column(Boolean, default=False, index=True)
     payload: Mapped[dict] = mapped_column(JSON)
 
 

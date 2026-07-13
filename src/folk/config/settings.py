@@ -58,17 +58,25 @@ class Settings(BaseSettings):
     max_retries: int = 3
     backoff_base_seconds: float = 1.0
     backoff_cap_seconds: float = 60.0
+    # Hard per-request wall-clock ceiling for a single LLM HTTP call. Without this
+    # a stalled socket relies on the SDK's ~10-min default and double-retries,
+    # which can compound into an hour-plus hang. SDK-internal retries are disabled
+    # (max_retries=0) so our own backoff loop is the single retry authority.
+    llm_timeout_seconds: float = Field(default=120.0, alias="FOLK_LLM_TIMEOUT_SECONDS")
     max_redeliberations: int = 2
     max_narrative_retries: int = 2
 
-    # --- Phase 2: midpoint detector (rebuild) ---
-    midpoint_band: float = 10.0            # |score-50| <= band counts as "near 50"
-    midpoint_agreement_max: float = 0.5    # framework agreement below this = "low"
-    midpoint_variance_min: float = 4.0     # agent score std above this = unsettled
+    # --- Adaptive council: skip the cross-critique + revision rounds when the
+    # Phase-1 positions already agree. Set the threshold to 0 to always run all
+    # four phases (full debate for every country). ---
+    council_adaptive: bool = True
+    council_disagreement_threshold: float = 6.0   # max per-dim std to treat as "agreed"
+
+    # --- Full exports: write the legacy aggregate JSON/Excel deliverables. Off by
+    # default; a normal run writes only per-country docs + index.json. ---
+    full_exports: bool = Field(default=False, alias="FOLK_FULL_EXPORTS")
 
     # --- Phase 2: research-quality grade boundaries (success criteria) ---
-    target_human_review_pct: float = 10.0
-    target_midpoint_review_pct: float = 15.0
     target_narrative_failure_pct: float = 3.0
     target_judge_disagreement_pct: float = 5.0
 
@@ -76,16 +84,31 @@ class Settings(BaseSettings):
     enable_url_verification: bool = Field(default=False, alias="FOLK_ENABLE_URL_VERIFICATION")
     research_max_uses: int = 5              # native web-search calls per seat
     research_timeout_seconds: float = 30.0
+    # Wall-clock ceiling for a single live research HTTP call. Web-search seats are
+    # legitimately slow (multi-search + long synthesis, ~150s observed), so this is
+    # far more generous than the council ceiling; it only catches genuine stalls.
+    research_call_timeout_seconds: float = Field(
+        default=300.0, alias="FOLK_RESEARCH_CALL_TIMEOUT_SECONDS")
+    # Output-token budget for live research calls. Must be generous: web-research
+    # responses emit sources + claims + the per-dimension scoring block, and a low
+    # cap truncates the (last-emitted) dimensions array, silently zeroing a seat.
+    research_max_tokens: int = Field(default=8000, alias="FOLK_RESEARCH_MAX_TOKENS")
     deepseek_anthropic_base_url: str = Field(
         default="https://api.deepseek.com/anthropic", alias="DEEPSEEK_ANTHROPIC_BASE_URL")
 
     # Dynamic, disagreement-scaled specialist influence (within the legal range).
-    base_influence: float = 0.4
+    # ``base_influence`` is the credibility fallback when no specialist weight is
+    # available; raised so evidence - not the baseline - leads placement.
+    base_influence: float = 0.6
     specialist_bonus: float = 0.4
-    council_influence_max: float = 0.75
+    council_influence_max: float = 0.9
 
     # Council intelligence upgrade: SpecialistInfluenceEngine cap + adversarial flag.
-    specialist_influence_max: float = 0.50      # hard cap on specialist_influence_weight
+    # The cap is the credibility ceiling on the evidence target: strongly-backed
+    # dimensions let the specialist recommendation dominate placement, while the CI
+    # remains the hard boundary. Raised from 0.50 to free strong evidence from
+    # baseline gravity (the CI/anchor clamp is still the only hard limit).
+    specialist_influence_max: float = 0.85      # credibility ceiling on the evidence target
     enable_adversarial_protocol: bool = True    # build specialist positions + critiques
 
     # Provider-diversity penalty: applied when < 3 unique providers fill the seats.

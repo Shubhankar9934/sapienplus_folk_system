@@ -9,18 +9,20 @@ from pydantic import BaseModel, Field
 from folk.models.adversarial import SpecialistChallengeRecord, SpecialistPosition
 from folk.models.audit import AuditTrace
 from folk.models.calibration import CalibrationResult
+from folk.models.cultural import CulturalProfile
 from folk.models.council import (
     AdjustmentLog,
     AnchorPosition,
     ConstructedCI,
     DissentRecord,
     PrimaryAnalogue,
+    RangeDiagnostic,
 )
 from folk.models.diversity import CouncilDiversityV2
 from folk.models.influence import SpecialistInfluenceRecord
 from folk.models.country import ConfidenceInterval
 from folk.models.decision import DecisionExplanation
-from folk.models.enums import ConfidenceLevel, DataStatus, Dimension, RecordType, ReviewSeverity
+from folk.models.enums import ConfidenceLevel, DataStatus, Dimension, RecordType
 from folk.models.knowledge import NeighbourScore
 from folk.models.narrative import CountryNarrative, NarrativeValidationReport
 from folk.models.reference import VerifiedReference
@@ -33,8 +35,9 @@ from folk.models.research import (
     ProviderDiversityAssessment,
     SpecialistAssessment,
     SpecialistEvidencePack,
+    SpecialistIndependenceFinding,
+    SpecialistParticipation,
 )
-from folk.models.review import MidpointConfidenceScore
 
 
 class FinalScore(BaseModel):
@@ -66,6 +69,7 @@ class CountryProfile(BaseModel):
     primary_analogues: list[PrimaryAnalogue] = Field(default_factory=list)
     adjustment_log: list[AdjustmentLog] = Field(default_factory=list)
     dissent_record: list[DissentRecord] = Field(default_factory=list)
+    range_diagnostics: list[RangeDiagnostic] = Field(default_factory=list)
     calibration_results: list[CalibrationResult] = Field(default_factory=list)
     change_conditions: str | None = None
 
@@ -74,9 +78,11 @@ class CountryProfile(BaseModel):
     narrative_validation: NarrativeValidationReport | None = None
     references: list[VerifiedReference] = Field(default_factory=list)
 
+    # --- Culture-first profile (the public, human-readable contract) ---
+    cultural_profile: CulturalProfile | None = None
+
     # --- Decision intelligence (Phase 2) ---
     decision_explanations: list[DecisionExplanation] = Field(default_factory=list)
-    midpoint_confidence: list[MidpointConfidenceScore] = Field(default_factory=list)
 
     # --- Council intelligence upgrade ---
     specialist_influence_records: list[SpecialistInfluenceRecord] = Field(default_factory=list)
@@ -87,6 +93,8 @@ class CountryProfile(BaseModel):
     # --- Web-enabled specialist research (Phase 3) ---
     specialist_evidence_packs: list[SpecialistEvidencePack] = Field(default_factory=list)
     specialist_assessments: list[SpecialistAssessment] = Field(default_factory=list)
+    specialist_participation: list[SpecialistParticipation] = Field(default_factory=list)
+    specialist_independence: list[SpecialistIndependenceFinding] = Field(default_factory=list)
     evidence_intelligence_report: EvidenceIntelligenceReport | None = None
     country_intelligence_report: CountryIntelligenceReport | None = None
     intelligence_card: CountryIntelligenceCard | None = None
@@ -94,10 +102,6 @@ class CountryProfile(BaseModel):
     provider_assignment: ProviderAssignmentReport | None = None
     provider_diversity: ProviderDiversityAssessment | None = None
 
-    # --- Audit & review ---
+    # --- Audit ---
     audit_trace: AuditTrace | None = None
-    requires_human_review: bool = False
-    review_reasons: list[str] = Field(default_factory=list)
-    advisory_reasons: list[str] = Field(default_factory=list)
-    review_severity: ReviewSeverity = ReviewSeverity.LOW
     flags: list[str] = Field(default_factory=list)

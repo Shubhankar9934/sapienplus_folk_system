@@ -6,7 +6,6 @@ scorecard and evaluates the success targets:
   - reasoning diversity > 0.5
   - external validation available
   - council value measurable
-  - review queue < 10%
 """
 
 from __future__ import annotations
@@ -26,8 +25,6 @@ class CouncilQualityDashboardBuilder:
     def build(
         self, report: ValidationReport, profiles: list[CountryProfile]
     ) -> CouncilQualityDashboard:
-        total = max(1, len(profiles))
-
         influence_weights = [r.specialist_influence_weight
                              for p in profiles for r in p.specialist_influence_records]
         influence_pct = round(statistics.mean(influence_weights) * 100, 2) if influence_weights else 0.0
@@ -50,8 +47,6 @@ class CouncilQualityDashboardBuilder:
         elif report.external_validation is not None:
             external_score = report.external_validation.mean_abs_pearson
 
-        review_queue_pct = round(len(report.human_review_queue) / total * 100, 2)
-
         dashboard = CouncilQualityDashboard(
             total_countries=len(profiles),
             specialist_influence_pct=influence_pct,
@@ -62,7 +57,6 @@ class CouncilQualityDashboardBuilder:
             reasoning_diversity=round(statistics.mean(reasoning_divs), 4) if reasoning_divs else 0.0,
             council_value_score=round(council_value, 4),
             external_validation_score=external_score,
-            review_queue_pct=review_queue_pct,
         )
 
         external_available = (report.external_validation_v2 is not None
@@ -73,7 +67,6 @@ class CouncilQualityDashboardBuilder:
             "reasoning_diversity_over_0_5": dashboard.reasoning_diversity > 0.5,
             "external_validation_available": external_available,
             "council_value_measurable": council_value_measurable,
-            "review_queue_under_10pct": review_queue_pct < 10.0,
         }
         dashboard.targets_met = targets
         dashboard.all_targets_met = all(targets.values())

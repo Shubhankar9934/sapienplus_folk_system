@@ -76,7 +76,13 @@ class CountryCalibrator:
         if disc_flags:
             flags.append(f"low_discrimination:{len(disc_flags)}")
 
-        requires_redeliberation = bool(anchor_violations or ci_violations)
+        # Re-deliberate on hard violations (anchor/CI) AND on lost-differentiation
+        # signals: a flat profile or a near-duplicate of an already-finalised
+        # country means evidence-backed distinctions may have been compressed away.
+        # The processor caps retries via ``max_redeliberations`` and injects
+        # distinctiveness lenses on the retry so the re-run is not a no-op.
+        requires_redeliberation = bool(
+            anchor_violations or ci_violations or flat or disc_flags)
 
         return CalibrationResult(
             scope="country", iso3=pack.iso3, checks=checks, flags=flags,

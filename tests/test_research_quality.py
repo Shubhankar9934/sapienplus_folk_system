@@ -27,7 +27,7 @@ def test_quality_report_present(report):
 
 def test_percentages_in_range(report):
     q = report.research_quality
-    for pct in (q.human_review_pct, q.midpoint_review_pct, q.narrative_failure_pct,
+    for pct in (q.narrative_failure_pct,
                 q.judge_disagreement_pct, q.calibration_pass_pct, q.anchor_compliance_pct):
         assert 0.0 <= pct <= 100.0
 
@@ -35,7 +35,6 @@ def test_percentages_in_range(report):
 def test_targets_tracked(report):
     q = report.research_quality
     assert set(q.targets_met.keys()) == {
-        "human_review_under_target", "midpoint_review_under_target",
         "narrative_failure_under_target", "judge_disagreement_under_target",
     }
 

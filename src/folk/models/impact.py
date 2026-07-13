@@ -65,6 +65,5 @@ class CouncilImpactV2(BaseModel):
     outlier_reduction: int = 0                    # baseline outliers removed by the council
     regional_coherence_improvement: float = 0.0   # delta in regional-coherence fraction
     framework_conflict_reduction: float = 0.0     # delta in framework-conflict rate
-    review_queue_reduction: int = 0               # baseline review items removed
     council_value_score: float = 0.0              # 0-1 composite value indicator
     verdict: str = ""

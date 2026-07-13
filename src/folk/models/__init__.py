@@ -67,7 +67,6 @@ from folk.models.enums import (
     Polarity,
     RecordType,
     ResearchProviderName,
-    ReviewSeverity,
     SourceCategory,
     SourceType,
     SparsityTier,
@@ -128,14 +127,8 @@ from folk.models.research import (
     SupportingEvidence,
 )
 from folk.models.reference import ReferenceRecord, VerifiedReference
-from folk.models.review import (
-    MidpointConfidenceScore,
-    ReviewFlag,
-    ReviewOutcome,
-)
 from folk.models.validation import (
     CalibrationRunResult,
-    HumanReviewItem,
     ValidationReport,
 )
 
@@ -227,12 +220,10 @@ __all__ = [
     "FrameworkContribution",
     "FrameworkScores",
     "FrameworkSignal",
-    "HumanReviewItem",
     "IntegratorOutput",
     "JudgeAssessment",
     "JudgeIssue",
     "JudgeRole",
-    "MidpointConfidenceScore",
     "NarrativeValidationReport",
     "NarrativeVerdict",
     "NeighbourScore",
@@ -243,9 +234,6 @@ __all__ = [
     "RegionalCalibrationMemory",
     "RegionalContext",
     "ResearchQualityReport",
-    "ReviewFlag",
-    "ReviewOutcome",
-    "ReviewSeverity",
     "RunMetrics",
     "SourceType",
     "SparsityTier",
