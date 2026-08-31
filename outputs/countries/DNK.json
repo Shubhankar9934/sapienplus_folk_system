@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 89,
-        "reading": "Strongly independent",
-        "explanation": "Denmark's high individualism reflects a society where personal responsibility and independence are paramount, yet this is balanced by a strong sense of community."
+        "score": 84,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal autonomy and responsibility are prized, yet inside a strong trust-and-consensus society, so 'made for you' works alongside a fair, we're-all-in-this tone."
       },
       {
         "dimension": "D2",
-        "score": 63,
-        "reading": "Expressive",
-        "explanation": "Public emotional expression is restrained, with a cultural preference for understatement and modesty."
+        "score": 55,
+        "reading": "Open",
+        "explanation": "Moderately expressive but understated: warmth is real but low-key and irony-tinged, so honest, modest, no-hype framing beats a loud approach."
       },
       {
         "dimension": "D3",
         "score": 46,
         "reading": "Balanced",
-        "explanation": "Denmark's low need for formal rules and high tolerance for ambiguity reflect a flexible and adaptive cultural mindset."
+        "explanation": "Middle-flexible: high trust means fewer rigid controls and easy, informal dealing, so clear terms plus a relaxed, trusting style reassure."
       },
       {
         "dimension": "D4",
         "score": 37,
-        "reading": "Relaxed",
-        "explanation": "Quality of life and cooperation are prioritized over competition and material achievement, reflecting a culture that values balance and contentment."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: hygge, balance and well-being beat status and hustle, so comfort, design and everyday pleasure land over flash."
       }
     ],
-    "executive_summary": "Denmark is a land of individualists who thrive within a collective framework. The Danes value independence and personal responsibility, yet they also cherish social cohesion and consensus. Emotional expression is reserved, with a preference for understated communication. Work-life balance is prioritized, reflecting a culture that values quality of life over aggressive ambition.",
+    "executive_summary": "Denmark is a nation of individualists who somehow thrive inside a tight collective. People prize independence and personal responsibility, and they also cherish social harmony and reaching agreement together. Feelings are kept low and the talk stays understated. A balanced life beats hard ambition here.",
     "cultural_archetype": {
-      "title": "The Independent Collaborator",
-      "summary": "A society that balances personal independence with strong communal ties.",
+      "title": "Relaxed Individualists",
+      "summary": "Independent people who trust each other, and defend the cosy evening.",
       "claim_ids": [
         "c1",
         "C01",
@@ -168,18 +168,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The historical 19th‑century Danish cooperative movement, while collective in form, was built on individual farmers’ voluntary association and fostered a strong sense of personal independence and responsibility.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "An early and comprehensive welfare state made independence affordable, pushing Identity to one of the highest scores while preserving collective responsibility."
       },
       {
-        "text": "The influence of 18th‑century Lutheran pietism in Denmark promoted emotional control, modesty, and a subdued public demeanour, which persisted into secular times.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "The Law of Jante, articulated in 1933 but describing an older norm, discourages standing above the group and keeps status flat."
+      },
+      {
+        "text": "High social trust, among the highest measured anywhere, allows light rules and informal dealing."
       }
     ],
     "competing_forces": [
@@ -274,7 +269,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Denmark feels balanced between independence and community. While personal responsibility is highly valued, there is a strong sense of belonging to a collective. Public interactions are reserved, but private gatherings are warm and convivial, thanks to the cultural concept of 'hygge'. The work environment emphasizes trust and individual responsibility, yet decisions are often reached through consensus. This creates a harmonious blend of personal freedom and social cohesion.",
+      "text": "It feels balanced between independence and belonging. Personal responsibility is prized, yet there is a strong sense of the collective. Public life is reserved, but private gatherings are warm and cozy, helped along by hygge, the Danish knack for snug, contented togetherness. Work runs on trust and personal responsibility, while decisions are still reached by consensus.",
       "claim_ids": [
         "c2",
         "C04",
@@ -285,12 +280,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Danes value punctuality and clear agendas, which are seen as signs of respect and efficiency in both social and business settings.",
-        "claim_ids": [
-          "c7",
-          "C22"
-        ],
-        "sources_count": 2
+        "text": "The trust between strangers is unusual and immediately visible."
+      },
+      {
+        "text": "Hierarchy is almost invisible in workplaces."
+      },
+      {
+        "text": "Cycling organises the city and the day."
       }
     ],
     "success_factors": [
@@ -437,7 +433,7 @@
         "iso3": "FIN",
         "country": "Finland",
         "similarity": 87,
-        "explanation": "Denmark and Finland both emphasize education and innovation, but Denmark's cultural emphasis on 'hygge' creates a distinct social atmosphere.",
+        "explanation": "Denmark and Finland both stress education and innovation, but Denmark's cultural emphasis on 'hygge' creates a distinct social atmosphere.",
         "claim_ids": [
           "c6",
           "c12"
@@ -563,7 +559,12 @@
           "suggested_score": 48
         }
       ]
-    }
+    },
+    "best_for": [
+      "Collaborative teams",
+      "Work-life balance seekers",
+      "Innovation-driven sectors"
+    ]
   },
   "sources": [
     {
@@ -900,11 +901,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 89,
+        "score": 84,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 63,
+        "score": 55,
         "confidence": "HIGH"
       },
       "D3": {

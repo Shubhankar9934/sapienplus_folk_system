@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 45,
-        "reading": "Balanced",
-        "explanation": "Costa Rica is deeply collectivist, with family and community ties at the heart of social identity."
+        "score": 31,
+        "reading": "Social",
+        "explanation": "Community-first: family and community are central, so belonging, reputation and personal ties drive choices over a cold approach."
       },
       {
         "dimension": "D2",
         "score": 59,
-        "reading": "Expressive",
-        "explanation": "Emotional expression in Costa Rica is warm and positive, though indirect communication is used to maintain harmony."
+        "reading": "Open",
+        "explanation": "Moderately expressive but polite: warm and touch-friendly, yet indirect to keep harmony, so friendly, relationship-led, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
         "score": 65,
-        "reading": "Structured",
-        "explanation": "A strong preference for structure and predictability is evident in Costa Rica's formal procedures and bureaucratic systems."
+        "reading": "Certain",
+        "explanation": "Structured: a strong liking for rules, formal procedure and predictability sits under the laid-back surface, so clear terms and proper process reassure, even if patience is needed."
       },
       {
         "dimension": "D4",
-        "score": 35,
-        "reading": "Relaxed",
-        "explanation": "Costa Rica prioritizes quality of life and nurturing relationships over competitive achievement."
+        "score": 33,
+        "reading": "Accepting",
+        "explanation": "Strongly quality-of-life: 'Pura Vida' puts well-being, ease and relationships over competition, so comfort, wellness and enjoyment land far better than status and hustle."
       }
     ],
-    "executive_summary": "Costa Rica is a place where community and family are central, and where 'Pura Vida' reflects a relaxed, positive outlook on life. Relationships are prioritized over tasks, and indirect communication helps maintain social harmony. Despite a relaxed exterior, the culture values structure and predictability, with a strong emphasis on rules and formal procedures. The focus on quality of life over competition makes Costa Rica one of the most nurturing societies in Latin America.",
+    "executive_summary": "Costa Rica puts community and family first and lives by Pura Vida, literally pure life, a settled, sunny outlook that shrugs off the small stuff. Relationships come before tasks, and people speak indirectly to keep things smooth. Under the easygoing surface, though, they like their rules and their formal procedures. Choosing quality of life over competition makes this one of the gentlest societies in Latin America.",
     "cultural_archetype": {
-      "title": "The Pura Vida Harmonist",
-      "summary": "A society that embraces relaxation and community, valuing social harmony and quality of life over competition.",
+      "title": "Serene Communities",
+      "summary": "Community and ease come first — pura vida is meant literally.",
       "claim_ids": [
         "c1",
         "c2",
@@ -172,11 +172,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Costa Rica's development as a society of small, independent farmers fostered a culture of egalitarianism and family-centered cooperation.",
-        "claim_ids": [
-          "claim2"
-        ],
-        "sources_count": 1
+        "text": "A settlement history of smallholders without a large landed aristocracy built an unusually egalitarian society."
+      },
+      {
+        "text": "Abolition of the army in 1948 and sustained investment in health and education elevated well-being over growth, holding Drive low."
+      },
+      {
+        "text": "A formal Spanish legal and administrative inheritance produced the bureaucracy that sits beneath the relaxed surface."
       }
     ],
     "competing_forces": [
@@ -271,7 +273,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "In Costa Rica, life revolves around community and relaxation. The 'Pura Vida' ethos is evident in the laid-back approach to time and planning, where social bonds are prioritized over strict schedules. Relationships are central, and warmth is expressed through touch-based greetings and indirect communication. Navigating the formal bureaucratic systems requires patience, but the overall atmosphere is one of positivity and acceptance.",
+      "text": "Life is community and ease. The Pura Vida spirit shows in the relaxed handling of time and plans, where bonds come before schedules. Warmth arrives through touch-based greetings and gentle, indirect talk. The paperwork takes patience, but the mood over all of it is positive and accepting.",
       "claim_ids": [
         "c9",
         "C03",
@@ -282,28 +284,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The relaxed pace of life, embodied by 'Tico Time', is immediately noticeable, with a flexible attitude towards punctuality.",
-        "claim_ids": [
-          "c7",
-          "C21"
-        ],
-        "sources_count": 2
+        "text": "Everyone is friendly and nothing is rushed."
       },
       {
-        "text": "Indirect communication is prevalent, with a focus on maintaining social harmony and avoiding confrontation.",
-        "claim_ids": [
-          "c4",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "The bureaucracy is heavier than the relaxed manner suggests."
       },
       {
-        "text": "The emphasis on family and community is evident, with social interactions often centered around these ties.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "Confrontation is avoided almost entirely."
       }
     ],
     "success_factors": [
@@ -430,7 +417,7 @@
         "iso3": "BLZ",
         "country": "Belize",
         "similarity": 90,
-        "explanation": "Both Costa Rica and Belize emphasize relaxation and quality of life, but Belize has a more multicultural society.",
+        "explanation": "Both Costa Rica and Belize stress relaxation and quality of life, but Belize has a more multicultural society.",
         "claim_ids": [
           "c9",
           "C10"
@@ -588,7 +575,12 @@
           "suggested_score": 25
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Relationship-driven businesses",
+      "Quality of life seekers"
+    ]
   },
   "sources": [
     {
@@ -991,7 +983,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 45,
+        "score": 31,
         "confidence": "HIGH"
       },
       "D2": {
@@ -1003,7 +995,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 35,
+        "score": 33,
         "confidence": "MEDIUM"
       }
     },

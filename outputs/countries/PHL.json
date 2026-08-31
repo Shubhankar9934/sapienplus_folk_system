@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 36,
-        "reading": "Group-oriented",
-        "explanation": "Identity in the Philippines is deeply rooted in collective belonging, with family and community at the core."
+        "score": 29,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and community, the ethic of 'kapwa' (shared self), come first, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 46,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression is often indirect, with cultural norms favoring harmony and face-saving."
+        "score": 43,
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: indirect, smooth, face-saving talk, and 'pakikisama' (getting along), keeps harmony, so gentle, warm, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
-        "score": 31,
-        "reading": "Adaptable",
-        "explanation": "Filipinos exhibit a relaxed approach to structure, showing comfort with ambiguity and flexibility in daily life."
+        "score": 36,
+        "reading": "Fluid",
+        "explanation": "Flexible: a relaxed sense of time and adaptable, relationship-first dealing keep things loose, so a human touch and give beat rigid process."
       },
       {
         "dimension": "D4",
-        "score": 47,
+        "score": 52,
         "reading": "Balanced",
-        "explanation": "There is a strong drive for achievement, particularly in education and economic advancement, balanced by communal values."
+        "explanation": "Balanced: a real drive to provide and get ahead, often via overseas work, sits inside communal values, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "In the Philippines, family and community ties are paramount, shaping a deeply collectivist society. Emotional expression is often indirect, with a cultural emphasis on harmony and face-saving. The workplace reflects a blend of hierarchy and relational loyalty, where group interests often take precedence over individual ambition. Life is marked by adaptability and a relaxed approach to time, with a strong drive for achievement balanced by communal values.",
+    "executive_summary": "In the Philippines family and community come first, in a deeply collective society. Feeling is often shown indirectly, with a heavy stress on harmony and face. The workplace mixes hierarchy with a loyalty built on relationships, where the group's interests tend to outrank individual ambition. Life runs on adaptability and an easy sense of time, with a real drive to achieve held in balance by communal values.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where adaptability and collective belonging define everyday life.",
+      "title": "Cheerful Families",
+      "summary": "The self is understood through others, and everything is kept pleasant.",
       "claim_ids": [
         "claim1",
         "C01"
@@ -214,11 +214,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The influence of Spanish and American colonization has left a lasting impact on Filipino values, particularly in terms of family structure and community orientation.",
-        "claim_ids": [
-          "claim_d1_3"
-        ],
-        "sources_count": 1
+        "text": "Kapwa, the ethic of shared identity, makes the self relational rather than separate."
+      },
+      {
+        "text": "Pakikisama, the norm of smooth relations, and hiya keep confrontation rare and expression indirect."
+      },
+      {
+        "text": "Mass overseas labour migration made family provision the organising economic fact, with remittances funding much of household consumption."
       }
     ],
     "competing_forces": [
@@ -327,7 +329,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in the Philippines feels like a dance of community and adaptability. Everyday interactions are marked by a strong sense of belonging, where family and community ties are paramount. Emotional expression is often indirect, with a cultural emphasis on harmony and face-saving. The workplace reflects a blend of hierarchy and relational loyalty, where group interests often take precedence over individual ambition. Life is marked by adaptability and a relaxed approach to time, with a strong drive for achievement balanced by communal values.",
+      "text": "It feels like a dance of community and adaptability. Everyday dealings carry a strong sense of belonging, where family and community come first. Feeling is shown indirectly, minding harmony and face. Work blends rank and relational loyalty, the group ahead of the individual, and the whole thing moves at a relaxed pace with achievement and community held together.",
       "claim_ids": [
         "claim5",
         "C08",
@@ -337,39 +339,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The traditional practice of sosyudad exemplifies egalitarian fellowship and mutual assistance among small groups, stressing collective belonging over individual identity.",
-        "claim_ids": [
-          "claim2"
-        ],
-        "sources_count": 1
+        "text": "The friendliness and humour are immediate."
       },
       {
-        "text": "Filipinos suppress emotional expression with outsiders and regulate emotions through hiya and kapwa, showing behavioral restraint in emotional openness.",
-        "claim_ids": [
-          "claim3"
-        ],
-        "sources_count": 1
+        "text": "Family obligation is wide and openly acknowledged."
       },
       {
-        "text": "Philippine teleseryes depict male vulnerability as only legitimate when moralized, reflecting cultural expectation of affective silencing rather than open emotional expression.",
-        "claim_ids": [
-          "claim4"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Sosyudad mobilizes mutual care in everyday life but does not reflect rigid rule‑based order; it is contingent and flexible, suggesting neither extreme certainty nor fluidity dominance.",
-        "claim_ids": [
-          "claim5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Filipino workplace culture leans toward collectivism, where the group comes before individual interests, influencing communication, decision-making, and loyalty at work.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
+        "text": "Hierarchy is respected through titles and manner."
       }
     ],
     "success_factors": [
@@ -512,7 +488,7 @@
         "iso3": "KHM",
         "country": "Cambodia",
         "similarity": 90,
-        "explanation": "Cambodia and the Philippines both emphasize family and community, but Cambodia's recent history has led to different social dynamics.",
+        "explanation": "Cambodia and the Philippines both stress family and community, but Cambodia's recent history has led to different social dynamics.",
         "claim_ids": [
           "claim1"
         ],
@@ -634,7 +610,11 @@
           "suggested_score": 65
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community-driven projects"
+    ]
   },
   "sources": [
     {
@@ -982,19 +962,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 36,
+        "score": 29,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 46,
+        "score": 43,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 31,
+        "score": 36,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 47,
+        "score": 52,
         "confidence": "MEDIUM"
       }
     },

@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 30,
-        "reading": "Community-first",
-        "explanation": "Lesotho's identity is deeply rooted in clan and family ties, with personal identity heavily embedded in lineage and collective belonging."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: extended family and clan, and the ethic of botho, anchor identity, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 41,
-        "reading": "Understated",
-        "explanation": "Respect and indirect communication are valued, with emotional expression often suppressed in hierarchical contexts, yet allowed during traditional ceremonies."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: measured, respectful talk in daily life gives way to loud expression at ceremonies of joy and grief, so warm-but-respectful approaches work."
       },
       {
         "dimension": "D3",
         "score": 55,
-        "reading": "Balanced",
-        "explanation": "Lesotho's societal structure values procedural predictability and hierarchy, with customary courts and chieftainship providing stability."
+        "reading": "Certain",
+        "explanation": "Structured: respect for hierarchy, chiefs and tradition gives a firm frame, so standing and the known way carry weight."
       },
       {
         "dimension": "D4",
         "score": 38,
-        "reading": "Relaxed",
-        "explanation": "While traditional values emphasize community and harmony, education and labor migration introduce elements of individual aspiration and achievement."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community harmony comes first, though labor migration and cities seed individual aspiration, so practical, communal goods lead."
       }
     ],
-    "executive_summary": "Lesotho's cultural landscape is deeply rooted in community and tradition, with a strong emphasis on family ties and collective identity. Respect for hierarchy and elders is paramount, shaping both social and workplace interactions. While traditional values dominate rural areas, urbanization and labor migration are introducing more individualistic tendencies among younger generations.",
+    "executive_summary": "Lesotho is rooted in community and tradition, with a heavy weight on family ties and collective identity. Respect for rank and for elders shapes both social life and work. The old values rule the countryside, while city life and labor migration are seeding a more individual streak in the young.",
     "cultural_archetype": {
-      "title": "The Communal Builder",
-      "summary": "A society where community ties and collective identity are foundational, yet modern influences are gradually reshaping individual aspirations.",
+      "title": "Respectful Communities",
+      "summary": "Clan and chief hold authority, with respect owed to everyone.",
       "claim_ids": [
         "c1",
         "C01",
@@ -159,18 +159,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Long-standing patterns of labour migration from Lesotho to South African mines have shaped Basotho society — individual men independently seeking wage employment abroad represents a degree of autonomous individual economic agency that partially offsets the collective identity baseline.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
+        "text": "Clan loyalty and allegiance to the chief remain the organising structure of Basotho social life."
       },
       {
-        "text": "Lesotho's governance challenges and political instability explicitly set it apart from other countries in the region; chronic political volatility — coups, electoral crises, fragile coalitions — creates a structurally unpredictable institutional environment.",
-        "claim_ids": [
-          "C27"
-        ],
-        "sources_count": 1
+        "text": "Botho, the philosophy of respect and shared humanity, governs conduct in work and community alike."
+      },
+      {
+        "text": "Labour migration to South African mines split families for generations while keeping remittance obligations central."
       }
     ],
     "competing_forces": [
@@ -300,7 +295,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Lesotho revolves around strong community ties and respect for tradition. The extended family is central, with clan affiliations deeply influencing social identity. Workplaces emphasize collective harmony and respect for hierarchy, while social gatherings allow for vibrant expressions of joy and grief. The balance between traditional values and emerging individualistic aspirations creates a unique cultural rhythm.",
+      "text": "Life turns on community and respect for tradition. The extended family is central, and clan ties run deep in a person's sense of self. Workplaces stress collective harmony and respect for rank, while gatherings give room for loud expressions of both joy and grief. Old values and new individual hopes make the particular rhythm.",
       "claim_ids": [
         "c1",
         "C04",
@@ -310,39 +305,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Returned migrants and new urban dwellers sometimes prioritize nuclear family and personal career advancement over extended clan obligations.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Greetings are formal and always come first."
       },
       {
-        "text": "Basotho culture emphasizes 'hlompho' (respect) in interpersonal interactions, especially toward elders and those of higher status, which suppresses open emotional display in hierarchical encounters.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "Respect for elders orders every conversation."
       },
       {
-        "text": "Initiation rites (lebollo) and life-passage ceremonies are occasions where open emotional expression is culturally sanctioned, allowing for cathartic displays of joy or grief.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The Basotho placed strong emphasis on kinship and lineage as central to identity and social cohesion; clans (lithoko) composed of extended families sharing a common ancestor formed the backbone of social structure.",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "At the heart of Lesotho's work culture is Botho, a philosophy emphasising respect, humility, and community. Basotho teams prioritise collective agreement over individual assertion; pushing too hard for one's own idea is seen as disruptive even if the idea is correct.",
-        "claim_ids": [
-          "C04"
-        ],
-        "sources_count": 1
+        "text": "Decisions are reached slowly and together."
       }
     ],
     "success_factors": [
@@ -445,7 +414,7 @@
         "iso3": "MWI",
         "country": "Malawi",
         "similarity": 93,
-        "explanation": "Lesotho and Malawi both emphasize strong community ties and collective identity, with a shared regional ethic of care for others.",
+        "explanation": "Lesotho and Malawi both stress strong community ties and collective identity, with a shared regional ethic of care for others.",
         "claim_ids": [
           "C08"
         ],
@@ -557,6 +526,18 @@
           "suggested_score": 35
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression in Lesotho is structurally restrained by hierarchical suppression: junior employees defer to seniors before speaking in meetings, direct challenge to a superior in public is explicitly frowned upon, and indirect communication is the norm for sensitive topics to preserve harmony and respect hierarchy. The phrase 'I'll try' is documented as often meaning 'no' — a classic high-context, face-saving indirection. The Botho philosophy reinforces humility and restraint. However, Lesotho is not fully suppressed: communal celebrations (traditional beer ceremonies, initiation rites, festivals) are expressively vibrant, and the greeting culture ('Khotso' — Peace) is warm and socially open. Religious expression through active church participation is widespread. The restraint is therefore primarily hierarchical and conflict-avoidance oriented, not a blanket suppression of all emotional display. This places Lesotho in a moderately restrained range — not the lowest (that would be societies with near-total emotional flattening), but clearly below the midpoint. Score: 35 (moderately Restrained, with communal warmth as counter-signal).",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Basotho culture historically places high value on respectful reserve, especially toward elders and chiefs; direct emotional expression is often suppressed in hierarchical contexts. However, life-passage rituals and communal celebrations (e.g., initiation schools, harvest festivals) allow for open emotional release. In everyday life, communication is indirect and formal with strangers but can become warm and expressive among kin. The score of 45 reflects a moderately restrained culture that is not as emotionally open as some neighboring southern African societies (e.g., South African townships) but not as reserved as, say, highland Ethiopia.",
+          "suggested_score": 45
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -590,20 +571,13 @@
           "reasoning": "Basotho society historically valued subsistence agriculture and livestock as markers of success; competition for wealth was tempered by communal redistribution expectations. The labor migration system (to South African mines) introduced a strong achievement orientation—men prided themselves on sending remittances and building houses. However, contemporary youth face high unemployment (around 25-30%), which dampens overt striving. The score of 50 reflects a society that is not as intensely competitive as, say, the US, but where personal achievement (education, formal employment, house ownership) is increasingly valued alongside traditional norms of sharing.",
           "suggested_score": 50
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Expression in Lesotho is structurally restrained by hierarchical suppression: junior employees defer to seniors before speaking in meetings, direct challenge to a superior in public is explicitly frowned upon, and indirect communication is the norm for sensitive topics to preserve harmony and respect hierarchy. The phrase 'I'll try' is documented as often meaning 'no' — a classic high-context, face-saving indirection. The Botho philosophy reinforces humility and restraint. However, Lesotho is not fully suppressed: communal celebrations (traditional beer ceremonies, initiation rites, festivals) are expressively vibrant, and the greeting culture ('Khotso' — Peace) is warm and socially open. Religious expression through active church participation is widespread. The restraint is therefore primarily hierarchical and conflict-avoidance oriented, not a blanket suppression of all emotional display. This places Lesotho in a moderately restrained range — not the lowest (that would be societies with near-total emotional flattening), but clearly below the midpoint. Score: 35 (moderately Restrained, with communal warmth as counter-signal).",
-          "suggested_score": 35
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Basotho culture historically places high value on respectful reserve, especially toward elders and chiefs; direct emotional expression is often suppressed in hierarchical contexts. However, life-passage rituals and communal celebrations (e.g., initiation schools, harvest festivals) allow for open emotional release. In everyday life, communication is indirect and formal with strangers but can become warm and expressive among kin. The score of 45 reflects a moderately restrained culture that is not as emotionally open as some neighboring southern African societies (e.g., South African townships) but not as reserved as, say, highland Ethiopia.",
-          "suggested_score": 45
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community-focused initiatives",
+      "Cultural immersion programs"
+    ]
   },
   "sources": [
     {

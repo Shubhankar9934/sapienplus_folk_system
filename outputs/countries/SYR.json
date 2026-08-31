@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 29,
-        "reading": "Community-first",
-        "explanation": "Syrian identity is deeply rooted in family, clan, and communal ties, with personal identity intertwined with social and familial obligations."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and community are the core of identity, with strong kinship ties, so belonging, reputation and a trusted tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 53,
-        "reading": "Even-keeled",
-        "explanation": "While Syrians are emotionally expressive within close circles, public communication often involves indirectness and restraint to maintain social harmony."
+        "reading": "Balanced",
+        "explanation": "Expressive but publicly careful: lively and animated among your own, guarded in formal or public settings, so warm-private, dignified-public approaches work."
       },
       {
         "dimension": "D3",
         "score": 56,
-        "reading": "Balanced",
-        "explanation": "Despite a preference for structure and predictability, Syrians approach daily life with a relaxed pace and flexible scheduling."
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy and social obligation give a firm frame, though the pace stays flexible, so standing and a trusted contact reassure."
       },
       {
         "dimension": "D4",
         "score": 45,
-        "reading": "Balanced",
-        "explanation": "Achievement in Syria is often measured through educational attainment and social connections, with a strong emphasis on family reputation."
+        "reading": "Accepting",
+        "explanation": "Balanced: education and family standing drive real effort, so both aspiration and communal belonging drive choices."
       }
     ],
-    "executive_summary": "In Syria, family and community are central to identity, with strong kinship ties shaping daily life. Emotional expression is vibrant and animated, yet public restraint is common in formal settings. Structure is valued, but life is approached with a flexible pace. Success often hinges on relationships and educational achievements.",
+    "executive_summary": "In Syria family and community are the center of who you are, with strong kinship ties shaping the everyday. Feeling runs lively and animated, though people hold it back in formal, public settings. Structure is valued, but life is taken at a flexible pace. Getting ahead tends to rest on relationships and on schooling.",
     "cultural_archetype": {
-      "title": "The Communal Anchor",
-      "summary": "A society where family and community form the core of individual identity, guiding social and professional interactions.",
+      "title": "Expressive Families",
+      "summary": "Family and clan are the core, with education as the route up.",
       "claim_ids": [
         "c1",
         "c2",
@@ -189,19 +189,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Syrian collectivism is rooted in historical social structures like 'asabiyya and the Ottoman millet system, which continue to influence social identity.",
-        "claim_ids": [
-          "claim-d1-3"
-        ],
-        "sources_count": 1
+        "text": "Clan and extended family networks are the reliable unit, a pattern deepened by war and displacement."
       },
       {
-        "text": "The Syrian civil war has disrupted traditional social structures, leading to shifts in identity and community organization.",
-        "claim_ids": [
-          "claim-d1-2",
-          "claim-d3-3"
-        ],
-        "sources_count": 1
+        "text": "Ottoman and later Ba'athist administration left hierarchical structures and formal social obligation."
+      },
+      {
+        "text": "A strong pre-war educational tradition made schooling and professional standing the recognised markers of status."
       }
     ],
     "competing_forces": [
@@ -308,7 +302,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Syria revolves around family and community, with a strong sense of belonging and support from extended kin networks. Daily interactions are lively and expressive, yet public communication often requires careful navigation to maintain social harmony. The pace of life is relaxed, allowing for personal connections to flourish, while success is often measured through educational achievements and social networks.",
+      "text": "Life revolves around family and community, with a strong sense of belonging held up by extended kin. Everyday talk is lively and expressive, though public communication asks for care, to keep the social peace. The pace is relaxed, which lets personal connections grow, while success is measured through education and social networks.",
       "claim_ids": [
         "c3",
         "C07",
@@ -319,20 +313,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The centrality of family and community is immediately apparent, with extended households and strong kinship ties shaping daily life.",
-        "claim_ids": [
-          "c3",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "Hospitality arrives before anything else."
       },
       {
-        "text": "Public communication often involves indirectness and restraint to avoid conflict and maintain social harmony.",
-        "claim_ids": [
-          "C17",
-          "C18"
-        ],
-        "sources_count": 2
+        "text": "Family background is established early."
+      },
+      {
+        "text": "Resilience shows in everyday arrangements."
       }
     ],
     "success_factors": [
@@ -489,7 +476,7 @@
         "iso3": "PSE",
         "country": "Palestine",
         "similarity": 90,
-        "explanation": "Syria and Palestine both emphasize family and community, but Syria's communication style is more expressive and animated.",
+        "explanation": "Syria and Palestine both stress family and community, but Syria's communication style is more expressive and animated.",
         "claim_ids": [
           "C15",
           "C16"
@@ -575,6 +562,18 @@
           "suggested_score": 38
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Syria sits above the midpoint on D2 (Expression: Open). Emotional display is structurally unrestrained: raised voices are not interpreted as aggression, Syrians use extensive gestures, animated facial expressions, and loud conversational energy (Cultural Atlas, Canadian government cultural brief). Business meetings involve multiple simultaneous conversations and animated interruptions. Humour, banter, and witty verbal sparring are common social lubricants. However, expression is selectively suppressed: honour culture requires concealing personal struggles, criticism is almost never delivered directly, disagreement with elders is carefully muted, and political topics are firmly avoided. The suppression is domain-specific (conflict/shame/politics) rather than a general emotional restraint, distinguishing Syria from genuinely restrained cultures. Net result: emotionally open in social/expressive register, but with specific honour-governed suppression channels. Score: 62.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Syrian expression is moderate. Emotion is freely displayed among in-group members (family, close friends) in a warm, expressive manner; but in hierarchical public contexts, expression is restrained by patriarchal authority and Ba'athist-era social control. The war intensified both polarities: trauma increases expression in private safety, but fear in public settings. Hofstede's Uncertainty Avoidance (UAI ~60) is relevant but not directly D2.",
+          "suggested_score": 55
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -592,18 +591,6 @@
           "suggested_score": 70
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Syria sits above the midpoint on D2 (Expression: Open). Emotional display is structurally unrestrained: raised voices are not interpreted as aggression, Syrians use extensive gestures, animated facial expressions, and loud conversational energy (Cultural Atlas, Canadian government cultural brief). Business meetings involve multiple simultaneous conversations and animated interruptions. Humour, banter, and witty verbal sparring are common social lubricants. However, expression is selectively suppressed: honour culture requires concealing personal struggles, criticism is almost never delivered directly, disagreement with elders is carefully muted, and political topics are firmly avoided. The suppression is domain-specific (conflict/shame/politics) rather than a general emotional restraint, distinguishing Syria from genuinely restrained cultures. Net result: emotionally open in social/expressive register, but with specific honour-governed suppression channels. Score: 62.",
-          "suggested_score": 62
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Syrian expression is moderate. Emotion is freely displayed among in-group members (family, close friends) in a warm, expressive manner; but in hierarchical public contexts, expression is restrained by patriarchal authority and Ba'athist-era social control. The war intensified both polarities: trauma increases expression in private safety, but fear in public settings. Hofstede's Uncertainty Avoidance (UAI ~60) is relevant but not directly D2.",
-          "suggested_score": 55
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -616,7 +603,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Educational initiatives",
+      "Community-based projects"
+    ]
   },
   "sources": [
     {

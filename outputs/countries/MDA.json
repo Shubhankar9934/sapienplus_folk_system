@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 43,
-        "reading": "Balanced",
-        "explanation": "Moldova's collectivist society is deeply rooted in family and community ties, with personal identity often defined by these relationships."
+        "score": 42,
+        "reading": "Social",
+        "explanation": "Balanced, tilting communal: tradition, family and community ties run deep while the young reach for individualism, so trusted networks and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 42,
-        "reading": "Understated",
-        "explanation": "Public emotional expression in Moldova is generally restrained, with stoic endurance being a cultural norm, especially in rural areas."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: public restraint with abundant private warmth and hospitality, so sincere, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 64,
-        "reading": "Structured",
-        "explanation": "Moldova's preference for structured social order is evident in its high uncertainty avoidance, reflecting a need for clear rules and predictability."
+        "reading": "Certain",
+        "explanation": "Structured: a strong preference for clear rules, order and predictability, framed by the Orthodox calendar and kin duty, so process and standing reassure, though informal favors also grease things."
       },
       {
         "dimension": "D4",
         "score": 41,
-        "reading": "Relaxed",
-        "explanation": "Moldova values quality of life and relational harmony over competitive achievement, with a cultural emphasis on maintaining social bonds."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: family, land and getting by come before competition, so practical, communal goods matter most."
       }
     ],
-    "executive_summary": "Moldova is a land where tradition and collectivism deeply influence daily life, yet younger generations are embracing individualism. The society values structure and predictability, with a strong preference for clear rules and procedures. While public emotional expression is restrained, warmth and hospitality are abundant in private settings.",
+    "executive_summary": "Moldova is steeped in tradition and collective habit, though the young are taking up individualism. The society likes structure and predictability, with a strong preference for clear rules and procedures. Public feeling is held back, while warmth and hospitality pour out in private.",
     "cultural_archetype": {
-      "title": "The Stoic Host",
-      "summary": "A society that balances stoic endurance with warm hospitality in personal circles.",
+      "title": "Steady Households",
+      "summary": "Reserved in public, generous at home, and steady in hard times.",
       "claim_ids": [
         "c1",
         "c2"
@@ -126,20 +126,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Soviet era's policies of collectivisation and suppression of public emotional expression have left a lasting impact on Moldova's cultural norms.",
-        "claim_ids": [
-          "c2",
-          "C14"
-        ],
-        "sources_count": 2
+        "text": "Rural Orthodox village tradition and godparent obligation keep kin duty central to the calendar."
       },
       {
-        "text": "Moldova's Orthodox traditions and the role of the church have historically anchored community identity and social order.",
-        "claim_ids": [
-          "C08",
-          "C21"
-        ],
-        "sources_count": 2
+        "text": "Soviet administration left both a taste for order and a habit of informal favours to move around it."
+      },
+      {
+        "text": "Europe's lowest incomes and heavy labour emigration keep ambition practical and family-directed."
       }
     ],
     "competing_forces": [
@@ -249,7 +242,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Moldova means navigating a society where family and community ties are paramount, yet informal practices like petty corruption are commonplace. The Orthodox calendar and kinship obligations structure daily life, while hospitality and warmth are reserved for trusted circles.",
+      "text": "It means moving through a society where family and community ties are everything, and where informal shortcuts like petty bribery are common. The Orthodox calendar and kin obligations shape the days, while warmth and hospitality are saved for the trusted circle.",
       "claim_ids": [
         "c9",
         "C01",
@@ -259,12 +252,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Newcomers to Moldova will notice the strong emphasis on family and community ties, with social interactions often revolving around these networks.",
-        "claim_ids": [
-          "c1",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "The hospitality is immediate and insistent."
+      },
+      {
+        "text": "Public manner is reserved."
+      },
+      {
+        "text": "Rural and urban life differ sharply."
       }
     ],
     "success_factors": [
@@ -398,7 +392,7 @@
         "iso3": "ARM",
         "country": "Armenia",
         "similarity": 89,
-        "explanation": "Moldova and Armenia both emphasize family and community ties, rooted in Orthodox traditions, though Armenia's mountainous geography and history of conflict shape a distinct national character.",
+        "explanation": "Moldova and Armenia both stress family and community ties, rooted in Orthodox traditions, though Armenia's mountainous geography and history of conflict shape a distinct national character.",
         "claim_ids": [
           "C08",
           "C21"
@@ -521,7 +515,12 @@
           "suggested_score": 25
         }
       ]
-    }
+    },
+    "best_for": [
+      "Long-term relationship building",
+      "Structured project management",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {
@@ -847,7 +846,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 43,
+        "score": 42,
         "confidence": "MEDIUM"
       },
       "D2": {

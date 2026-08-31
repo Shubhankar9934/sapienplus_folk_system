@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 38,
-        "reading": "Group-oriented",
-        "explanation": "Mauritius balances individual achievement with strong community and ethnic ties, creating a unique blend of self-reliance and group identity."
+        "score": 47,
+        "reading": "Balanced",
+        "explanation": "Balanced, tilting communal: multi-ethnic family and community ties anchor identity while individual achievement is celebrated within the group, so belonging and personal success both drive choices."
       },
       {
         "dimension": "D2",
-        "score": 48,
-        "reading": "Even-keeled",
-        "explanation": "Social harmony is prioritized, with indirect communication and non-confrontational values shaping interactions."
+        "score": 50,
+        "reading": "Balanced",
+        "explanation": "Middle: warm, festival-rich sociability with indirect, harmony-keeping talk at work, so warm-but-correct, relationship-led approaches work."
       },
       {
         "dimension": "D3",
-        "score": 55,
-        "reading": "Balanced",
-        "explanation": "A preference for structure is evident in the formalized legal and bureaucratic systems, reflecting a desire for predictability."
+        "score": 59,
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy, order and institutional stability give a firm frame, so process, credentials and reliability reassure."
       },
       {
         "dimension": "D4",
-        "score": 58,
-        "reading": "Achievement-oriented",
-        "explanation": "Achievement is highly valued, driven by a strong education system and entrepreneurial spirit, particularly among Indo-Mauritians."
+        "score": 59,
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: a prosperous, aspiring, education-and-business-minded society, so aspirational and quality goods land within a communal frame."
       }
     ],
-    "executive_summary": "Mauritius is a vibrant blend of ethnic diversity and cultural harmony, where community ties are strong, and individual achievement is celebrated within groups. The island's workplaces reflect a respect for hierarchy and a preference for indirect communication, while social life is marked by lively festivals and a warm, welcoming atmosphere.",
+    "executive_summary": "Mauritius is a lively blend of ethnic diversity and hard-won harmony, where community ties are strong and individual achievement is celebrated within the group. Workplaces respect rank and prefer to speak indirectly, while social life is full of festivals and an easy warmth.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where individual success is pursued within the framework of strong community bonds and cultural diversity.",
+      "title": "Plural Achievers",
+      "summary": "Several communities sharing one calendar, with education as the route up.",
       "claim_ids": [
         "c1",
         "c2",
@@ -122,12 +122,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Mauritius' colonial history has left a legacy of structured legal and bureaucratic systems, influencing its current preference for order and predictability.",
-        "claim_ids": [
-          "c8",
-          "C22"
-        ],
-        "sources_count": 2
+        "text": "Indentured and enslaved migration built a multi-ethnic society where inter-communal harmony is actively maintained."
+      },
+      {
+        "text": "Stable institutions and an unbroken democratic record since 1968 built genuine trust in formal process."
+      },
+      {
+        "text": "A successful pivot from sugar to textiles, finance and tourism made education and enterprise the recognised route up."
       }
     ],
     "competing_forces": [
@@ -227,7 +228,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Mauritius means navigating a rich tapestry of cultural diversity, where family and community ties are deeply valued, and social harmony is a priority. Work environments are structured and hierarchical, yet social life is vibrant and expressive, with festivals and communal gatherings bringing people together.",
+      "text": "It means moving through a rich mix of cultures, where family and community ties are prized and social harmony comes first. Work is structured and hierarchical, while the social side is lively and expressive, with festivals and communal gatherings bringing everyone together.",
       "claim_ids": [
         "c3",
         "C01",
@@ -238,39 +239,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Ethnic pluralism in Mauritius (Indo-Mauritian, Creole, Sino-Mauritian, Franco-Mauritian) fosters a competitive, self-reliant identity where individual achievement within one's community is paramount.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "The ethnic and religious mix is visible everywhere."
       },
       {
-        "text": "Family and community ties remain strong in Mauritius, with extended families often living nearby and mutual support being expected, which tempers extreme individualism.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "Business is orderly and formal."
       },
       {
-        "text": "Mauritian workplaces exhibit clear hierarchical structures with respect for seniority deeply ingrained; decisions flow from the top down and employees are expected to follow directives from superiors.",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Most marriages in Mauritius occur within the same ethnic group (only ~8% are interethnic); ethnic identification is considered more important than class and is the single most examined factor in selecting a mate.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Mauritians value harmony in social interactions, preferring gentle disagreement over confrontation; aggressive gestures or raising one's voice in public are considered inappropriate social mistakes.",
-        "claim_ids": [
-          "C16"
-        ],
-        "sources_count": 1
+        "text": "Several languages are used interchangeably."
       }
     ],
     "success_factors": [
@@ -537,7 +512,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Entrepreneurs seeking diverse markets",
+      "Professionals valuing structured environments",
+      "Cultural enthusiasts interested in vibrant festivals"
+    ]
   },
   "sources": [
     {
@@ -863,19 +843,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 38,
+        "score": 47,
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 48,
+        "score": 50,
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 55,
+        "score": 59,
         "confidence": "LOW"
       },
       "D4": {
-        "score": 58,
+        "score": 59,
         "confidence": "LOW"
       }
     },

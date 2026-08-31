@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 43,
-        "reading": "Balanced",
-        "explanation": "Turkey's society is deeply collectivist, with strong family and group loyalty shaping personal identity."
+        "score": 35,
+        "reading": "Social",
+        "explanation": "Community-first: family and group loyalty are paramount, so belonging, reputation and a trusted tie drive choices more than an unsolicited approach."
       },
       {
         "dimension": "D2",
         "score": 50,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression in Turkey is context-dependent, with warmth in private settings and restraint in public to maintain social harmony."
+        "reading": "Balanced",
+        "explanation": "Middle: warm and sincere in private, more reserved in formal public settings, so warm-but-correct, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 68,
-        "reading": "Structured",
-        "explanation": "Turkey's culture has a strong preference for predictability and structure, with a high emphasis on rules and regulations."
+        "score": 70,
+        "reading": "Strongly Certain",
+        "explanation": "Structured: a preference for rules, hierarchy and predictability gives a firm frame, so process and standing reassure, though relationships and trust move things."
       },
       {
         "dimension": "D4",
         "score": 50,
         "reading": "Balanced",
-        "explanation": "While Turkey values consensus and collaboration, personal relationships and social trust often drive success over pure competition."
+        "explanation": "Balanced: success is built on personal relationships and social trust more than pure merit, so aspirational goods land within a networked, family-standing frame."
       }
     ],
-    "executive_summary": "Turkey's culture is deeply rooted in collectivism, where family and group loyalty are paramount. Emotional expression is context-dependent, with warmth and sincerity in private settings but restraint in public. The society values predictability and structure, with a strong preference for rules and regulations. Success is often built on personal relationships and social trust rather than pure meritocracy.",
+    "executive_summary": "Turkey is deeply collective, where family and group loyalty come first. Feeling depends on the setting, warm and sincere in private and restrained in public. The society values predictability and structure, with a strong liking for rules. Success tends to be built on personal relationships and trust rather than pure merit.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where group loyalty and personal relationships drive success and social cohesion.",
+      "title": "Loyal Formalists",
+      "summary": "Family loyalty and personal relationships decide, inside a formal order.",
       "claim_ids": [
         "c1",
         "C01",
@@ -96,12 +96,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Ottoman Empire's hierarchical and bureaucratic systems have deeply influenced Turkish cultural norms, emphasizing family loyalty, emotional restraint, and structured predictability.",
-        "claim_ids": [
-          "claim_6",
-          "claim_15"
-        ],
-        "sources_count": 1
+        "text": "Family and in-group loyalty, reinforced by rapid rural-to-urban migration that moved whole kin networks together, keeps Identity communal."
+      },
+      {
+        "text": "Ottoman administrative tradition and the centralised republican state built a strong preference for rules and hierarchy."
+      },
+      {
+        "text": "Business and public life run on trust and personal relationships rather than pure merit, which shapes how ambition is realised."
       }
     ],
     "competing_forces": [
@@ -203,7 +204,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Turkey is a blend of intense emotional connections in private settings and structured predictability in public life. The warmth of Turkish hospitality is palpable, yet interactions are guided by a deep respect for hierarchy and social harmony. Personal relationships form the backbone of social and professional success, where trust and loyalty are paramount.",
+      "text": "Life mixes intense private warmth with public order and predictability. Turkish hospitality is unmistakable, and yet dealings run on a deep respect for rank and social harmony. Personal relationships are the backbone of both social and professional success, where trust and loyalty are everything.",
       "claim_ids": [
         "c3",
         "C04",
@@ -214,36 +215,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Turkish hospitality is striking, with elaborate rituals and sincere warmth evident in social interactions.",
-        "claim_ids": [
-          "C12",
-          "C13"
-        ],
-        "sources_count": 2
+        "text": "Hospitality is immediate and insistent."
       },
       {
-        "text": "Emotional expression is context-dependent, with warmth in private settings and restraint in public.",
-        "claim_ids": [
-          "c3",
-          "C10"
-        ],
-        "sources_count": 2
+        "text": "Business follows relationship."
       },
       {
-        "text": "There is a noticeable preference for structure and predictability, with rules and regulations guiding daily life.",
-        "claim_ids": [
-          "C17",
-          "C18"
-        ],
-        "sources_count": 2
-      },
-      {
-        "text": "Status and authority are visibly respected, with titles and formalities playing a key role in professional settings.",
-        "claim_ids": [
-          "C29",
-          "C32"
-        ],
-        "sources_count": 2
+        "text": "Formality gives way quickly once trust is there."
       }
     ],
     "success_factors": [
@@ -372,7 +350,7 @@
         "iso3": "ARE",
         "country": "United Arab Emirates",
         "similarity": 93,
-        "explanation": "Both Turkey and the United Arab Emirates emphasize strong family ties and social harmony, but Turkey's historical influences create a unique blend of collectivism and individual ambition.",
+        "explanation": "Both Turkey and the United Arab Emirates stress strong family ties and social harmony, but Turkey's historical influences create a unique blend of collectivism and individual ambition.",
         "claim_ids": [
           "c1",
           "C01",
@@ -536,7 +514,11 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business environments",
+      "Long-term strategic planning"
+    ]
   },
   "sources": [
     {
@@ -983,7 +965,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 43,
+        "score": 35,
         "confidence": "HIGH"
       },
       "D2": {
@@ -991,7 +973,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 68,
+        "score": 70,
         "confidence": "MEDIUM"
       },
       "D4": {

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 30,
-        "reading": "Community-first",
-        "explanation": "Strong collectivist traditions coexist with rising individualist values among younger generations."
+        "score": 33,
+        "reading": "Social",
+        "explanation": "Community-first: strong family bonds and community anchor identity, with room for individual enterprise (notably among women), so belonging and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 64,
-        "reading": "Expressive",
-        "explanation": "Social harmony is prioritized over direct emotional expression, though expressive cultural forms are central to society."
+        "reading": "Open",
+        "explanation": "Expressive: music, dance and warm sociability are woven into daily life, so lively, warm, participatory branding connects."
       },
       {
         "dimension": "D3",
         "score": 38,
-        "reading": "Adaptable",
-        "explanation": "The informal sector thrives amidst weak formal institutions, reflecting a comfort with ambiguity and flexible arrangements."
+        "reading": "Fluid",
+        "explanation": "Flexible: weak institutions and an informal economy make dealing adaptable, so a human touch and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 35,
-        "reading": "Relaxed",
-        "explanation": "While subsistence and community harmony are valued, there is room for individual enterprise, particularly among women in business."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community, expression and getting by come before competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Sao Tome and Principe is a vibrant blend of communal living and expressive culture, where music and dance are integral to daily life. The society values strong family bonds and hospitality, yet allows for individual enterprise, especially among women. Despite institutional weaknesses, the informal sector thrives with adaptability and innovation.",
+    "executive_summary": "Sao Tome and Principe is a lively blend of communal living and expressive culture, where music and dance are woven into daily life. The society prizes strong family bonds and hospitality, and still makes room for individual enterprise, especially among women. For all the weak institutions, the informal sector thrives on adaptability and invention.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where community bonds and expressive traditions meet entrepreneurial flexibility.",
+      "title": "Lively Communities",
+      "summary": "Community, music and improvisation, on islands that run informally.",
       "claim_ids": [
         "C01",
         "C06",
@@ -164,12 +164,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Portuguese colonial legacies and the Catholic Church have instilled a degree of individualism and personal achievement, distinguishing STP from its West African neighbors.",
-        "claim_ids": [
-          "c2",
-          "C34"
-        ],
-        "sources_count": 2
+        "text": "Small island society built on plantation history keeps extended family the practical support system."
+      },
+      {
+        "text": "Music, dance and festivals such as the Auto de Floripes established public expression as ordinary."
+      },
+      {
+        "text": "Close to ninety per cent of work is informal, which makes flexibility the working condition."
       }
     ],
     "competing_forces": [
@@ -285,7 +286,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Sao Tome and Principe is a tapestry of community bonds, expressive traditions, and flexible work arrangements. The rural population maintains strong family ties, while women engage in independent business ventures. Dance societies and musical rhythms infuse daily life with vibrant energy, making expression a participatory norm.",
+      "text": "Life mixes community bonds, expressive tradition, and flexible work. The rural population keeps strong family ties, while women run independent little businesses. Dance societies and musical rhythms fill the days with energy, making expression a thing everybody joins in.",
       "claim_ids": [
         "C04",
         "C08",
@@ -296,32 +297,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The societal structure is strongly community-oriented, with extended family networks playing a vital role in social support.",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
+        "text": "The pace is very relaxed."
       },
       {
-        "text": "Dance forms such as the bulaweh and pwita are organized and performed by dedicated dance societies, embodying group-belonging as a social value.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
+        "text": "Music is everywhere."
       },
       {
-        "text": "Communication is characterized by warmth, respect, and hospitality, with greetings and pleasantries forming important social rituals.",
-        "claim_ids": [
-          "C11"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "On an island with no locally produced consumer goods, status is signaled by travel, access to the outside world, and educating children in Lisbon.",
-        "claim_ids": [
-          "C26"
-        ],
-        "sources_count": 1
+        "text": "Community ties are visible."
       }
     ],
     "success_factors": [
@@ -442,7 +424,7 @@
         "iso3": "SEN",
         "country": "Senegal",
         "similarity": 94,
-        "explanation": "Both Sao Tome and Principe and Senegal emphasize community solidarity and have vibrant musical traditions, though STP has a more pronounced informal sector.",
+        "explanation": "Both Sao Tome and Principe and Senegal stress community solidarity and have lively musical traditions, though STP has a more pronounced informal sector.",
         "claim_ids": [
           "C01",
           "c4"
@@ -583,7 +565,11 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Open, expressive teams"
+    ]
   },
   "sources": [
     {
@@ -931,7 +917,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 30,
+        "score": 33,
         "confidence": "MEDIUM"
       },
       "D2": {

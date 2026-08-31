@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 52,
-        "reading": "Balanced",
-        "explanation": "Serbia's strong collectivist identity is evident in its emphasis on family and community ties."
+        "score": 39,
+        "reading": "Social",
+        "explanation": "Community-leaning: family and community are at the heart of life while urban youth take up individualism, so belonging and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 47,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression in Serbia is open and vibrant, with public displays of emotion being a cultural norm."
+        "score": 53,
+        "reading": "Balanced",
+        "explanation": "Expressive: warm, open, kafana-and-gathering sociability, so lively, warm branding connects."
       },
       {
         "dimension": "D3",
-        "score": 72,
-        "reading": "Highly structured",
-        "explanation": "Serbia's high preference for structure is reflected in its respect for hierarchy and formal workplace norms."
+        "score": 70,
+        "reading": "Strongly Certain",
+        "explanation": "Structured: respect for hierarchy, authority and seniority (especially at work) gives a firm frame, so process and standing reassure."
       },
       {
         "dimension": "D4",
-        "score": 51,
+        "score": 53,
         "reading": "Balanced",
-        "explanation": "While Serbia values harmony, there is a growing drive for individual achievement, especially among the youth."
+        "explanation": "Balanced-to-driven: a real competitive, merit-minded streak in the young sits beside strong community ties, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "In Serbia, social bonds are paramount, with family and community at the heart of daily life. Emotional expression is open and vibrant, often playing out in the lively atmosphere of kafanas. Hierarchical structures are respected, especially in workplaces, where authority and seniority guide interactions. While traditional values persist, urban youth are increasingly embracing individualism and merit-based success.",
+    "executive_summary": "In Serbia social bonds come first, with family and community at the heart of the day. Feeling is open and lively, often playing out in the kafana, the traditional tavern where people eat, drink, and talk for hours. Hierarchies are respected, especially at work, where authority and seniority guide things. The old values hold, while urban youth increasingly take up individualism and merit-based success.",
     "cultural_archetype": {
-      "title": "The Expressive Traditionalist",
-      "summary": "A society where deep-rooted traditions coexist with vibrant emotional expression and emerging individualism.",
+      "title": "Formal Socials",
+      "summary": "Tradition and rank respected, with the real business done at the table.",
       "claim_ids": [
         "claim1",
         "C09",
@@ -96,18 +96,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Ottoman millet system and later socialist Yugoslavia fostered multi-ethnic identities alongside Serbian national identity, embedding collectivism in the cultural fabric.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Family and close friendship networks became the safety net through the Yugoslav collapse, sanctions and conflict."
       },
       {
-        "text": "The historical zadruga system emphasized extended family identity and collective property, reflecting deep-rooted collectivist values.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "An Orthodox and Ottoman-era inheritance of hierarchy and seniority still governs workplaces."
+      },
+      {
+        "text": "The kafana tradition of long hours at the table makes sociability the setting for both friendship and business."
       }
     ],
     "competing_forces": [
@@ -206,7 +201,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Serbia is vibrant and expressive, with open emotional interactions and strong community ties shaping daily experiences. Workplaces blend personal and professional life, while leisure time is spent reinforcing social bonds. The lively atmosphere of kafanas reflects the cultural norm of emotional openness, making life in Serbia both engaging and socially rich.",
+      "text": "Life is lively and expressive, with open feeling and strong community ties shaping the everyday. Workplaces blend the personal and the professional, while leisure time goes to strengthening social bonds. The warm buzz of the kafana reflects the cultural ease with open feeling, making life in Serbia rich and sociable.",
       "claim_ids": [
         "C09",
         "C03",
@@ -217,33 +212,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Workplaces feel like extended social circles, with colleagues treated as friends and personal life blending into the professional sphere.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is generous and insistent."
       },
       {
-        "text": "Family and community gatherings are frequent, reflecting the importance of social bonds in Serbian life.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
+        "text": "Long hours at the table are normal."
       },
       {
-        "text": "Serbians communicate directly and expressively, often speaking loudly as a sign of confidence.",
-        "claim_ids": [
-          "C08",
-          "C14"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Kafanas are lively hubs of emotional expression and social interaction, embodying the open emotional culture of Serbia.",
-        "claim_ids": [
-          "C12"
-        ],
-        "sources_count": 1
+        "text": "Warmth follows an initial formality."
       }
     ],
     "success_factors": [
@@ -460,6 +435,18 @@
           "suggested_score": 25
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Multiple independent sources converge on Serbia as an emotionally expressive, openly communicative society. The Belgrade Language School explicitly states 'Serbs are highly expressive people — there's no such thing as hiding emotions around Serbs.' AFS-USA notes Serbs 'openly express their opinions and disagreement' and that speaking loudly is the norm. The kafana institution — recognised as part of Serbia's intangible cultural heritage — is described as a space where 'every emotion finds its voice,' where guests sing, cry, and debate openly. Momo Kapor's cultural guide describes Serbian art and social life as requiring emotions to be 'felt fully and expressed dramatically.' Hofstede's Indulgence score for Serbia is reported at approximately 28 (restrained), which at first appears contradictory; however, Hofstede's Indulgence dimension measures hedonic freedom/gratification rather than emotional expressiveness per se — a collectivist society can be emotionally expressive within group settings without being hedonistically indulgent. Expression (D2) measures freedom from hierarchical suppression of emotion, not individual pleasure-seeking. In Serbia's case, expression is strongly structurally enabled within social/group contexts even if formal-hierarchical settings constrain it somewhat. Counter-evidence: formal workplace settings show some suppression of open disagreement upward (collectivist in-group deference), and initial interactions with strangers maintain formality. These depress the score modestly from a ceiling. Net score: 75.",
+          "suggested_score": 75
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Serbia exhibits a moderate level of emotional expression, less restrained than East Asian cultures but more reserved than Latin or Mediterranean ones. Ethnographic accounts describe open emotionality within the in-group but formal restraint with strangers. The kafana tradition allows for emotional release, but social hierarchy (especially age and gender) suppresses free expression in many contexts. Score is set slightly below the midpoint to reflect the balance of restraint and openness.",
+          "suggested_score": 45
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -493,20 +480,13 @@
           "reasoning": "Hofstede's Masculinity score for Serbia is 43, but this understates the strong achievement orientation seen in competitive education, sports, and the drive for social mobility. Historical scholarship on Yugoslav-era social mobility and post-socialist entrepreneurialism shows high striving, while the kafana culture and preference for leisure present counter-evidence. Score adjusted upward from the baseline of 43 to reflect strong evidence of achievement culture, especially in urban and younger cohorts.",
           "suggested_score": 70
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Multiple independent sources converge on Serbia as an emotionally expressive, openly communicative society. The Belgrade Language School explicitly states 'Serbs are highly expressive people — there's no such thing as hiding emotions around Serbs.' AFS-USA notes Serbs 'openly express their opinions and disagreement' and that speaking loudly is the norm. The kafana institution — recognised as part of Serbia's intangible cultural heritage — is described as a space where 'every emotion finds its voice,' where guests sing, cry, and debate openly. Momo Kapor's cultural guide describes Serbian art and social life as requiring emotions to be 'felt fully and expressed dramatically.' Hofstede's Indulgence score for Serbia is reported at approximately 28 (restrained), which at first appears contradictory; however, Hofstede's Indulgence dimension measures hedonic freedom/gratification rather than emotional expressiveness per se — a collectivist society can be emotionally expressive within group settings without being hedonistically indulgent. Expression (D2) measures freedom from hierarchical suppression of emotion, not individual pleasure-seeking. In Serbia's case, expression is strongly structurally enabled within social/group contexts even if formal-hierarchical settings constrain it somewhat. Counter-evidence: formal workplace settings show some suppression of open disagreement upward (collectivist in-group deference), and initial interactions with strangers maintain formality. These depress the score modestly from a ceiling. Net score: 75.",
-          "suggested_score": 75
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Serbia exhibits a moderate level of emotional expression, less restrained than East Asian cultures but more reserved than Latin or Mediterranean ones. Ethnographic accounts describe open emotionality within the in-group but formal restraint with strangers. The kafana tradition allows for emotional release, but social hierarchy (especially age and gender) suppresses free expression in many contexts. Score is set slightly below the midpoint to reflect the balance of restraint and openness.",
-          "suggested_score": 45
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Building long-term relationships",
+      "Navigating hierarchical workplaces",
+      "Engaging in emotional and social settings"
+    ]
   },
   "sources": [
     {
@@ -777,19 +757,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 52,
+        "score": 39,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 47,
+        "score": 53,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 72,
+        "score": 70,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 51,
+        "score": 53,
         "confidence": "MEDIUM"
       }
     },

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 25,
-        "reading": "Community-first",
-        "explanation": "Nigeria's collectivist culture is deeply rooted in loyalty to extended family and groups, with societal norms prioritizing communal identity over individual aspirations."
+        "score": 33,
+        "reading": "Social",
+        "explanation": "Community-first: belonging to extended family and ethnic community comes first, so elder approval, reputation and word-of-mouth drive choices, with a visible individual hustle rising."
       },
       {
         "dimension": "D2",
         "score": 65,
-        "reading": "Expressive",
-        "explanation": "Nigeria's high score on Hofstede's Indulgence dimension reflects a cultural willingness to express emotions and enjoy life, with social interactions often being warm and expansive."
+        "reading": "Open",
+        "explanation": "Very expressive: loud, warm, vivid greetings and open feeling, so bold, energetic, aspirational branding connects."
       },
       {
         "dimension": "D3",
-        "score": 35,
-        "reading": "Adaptable",
-        "explanation": "Nigerian society exhibits a fluid approach to rules and traditions, with individuals often navigating between traditional values and modern pressures depending on the context."
+        "score": 43,
+        "reading": "Fluid",
+        "explanation": "Flexible: a big informal economy and relationship-first, improvising dealing keep things loose, so a human touch and give beat rigid process."
       },
       {
         "dimension": "D4",
-        "score": 55,
-        "reading": "Balanced",
-        "explanation": "Nigeria's moderate masculinity score indicates a cultural emphasis on achievement and visible success, with material wealth and status symbols being key indicators of personal success."
+        "score": 61,
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: a visible, celebrated drive for success and status, the 'hustle' and 'making it,' so aspirational and status goods carry real weight."
       }
     ],
-    "executive_summary": "Nigeria is a vibrant tapestry of collectivism and expressive openness, where community ties and emotional expressiveness shape daily interactions. The culture is marked by a strong sense of belonging and a visible drive for achievement. Newcomers will notice the importance of social rituals, the warmth of greetings, and the balance between traditional and modern influences.",
+    "executive_summary": "Nigeria is a lively mix of collectivism and open expression, where community ties and big feeling shape the everyday. There is a strong sense of belonging and a visible hunger to achieve. A newcomer notices the weight of social ritual, the warmth of a greeting, and the constant balance between traditional and modern ways.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society that harmonizes strong community bonds with a visible drive for personal success.",
+      "title": "Energetic Communities",
+      "summary": "Belonging comes first, and success is celebrated out loud.",
       "claim_ids": [
         "claim1",
         "claim2"
@@ -167,11 +167,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Nigeria's collectivist culture is historically rooted in extended family structures and communal living, essential for survival and social cohesion.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "Extended family and ethnic community belonging, across more than two hundred and fifty groups, is the base of identity and obligation."
+      },
+      {
+        "text": "A vast informal economy and unreliable public services made the 'hustle' both necessary and admired, lifting Drive."
+      },
+      {
+        "text": "An elaborate greeting and title tradition, combined with Nollywood and Afrobeats, keeps public expression loud and outward."
       }
     ],
     "competing_forces": [
@@ -287,7 +289,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Nigeria feels like navigating a vibrant tapestry of communal ties and expressive openness. Daily interactions are marked by warm greetings and emotive expressions, while personal success is visibly celebrated. The balance between traditional values and modern influences creates a dynamic and adaptable social environment.",
+      "text": "It feels like moving through a lively mix of communal ties and open expression. Daily exchanges come with warm greetings and vivid feeling, while personal success is celebrated out loud. The balance of old values and modern influence makes a dynamic, adaptable social world.",
       "claim_ids": [
         "claim4",
         "C14",
@@ -297,32 +299,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Emotive interjections like 'haba', 'chei', 'kai' convey strong emotional states in everyday language, reflecting emotional expressiveness.",
-        "claim_ids": [
-          "claim4"
-        ],
-        "sources_count": 1
+        "text": "The energy and volume are immediate."
       },
       {
-        "text": "Silence is communicatively valued and normative across Nigerian cultures, indicating structured restraint in expression.",
-        "claim_ids": [
-          "claim5"
-        ],
-        "sources_count": 1
+        "text": "Greetings and titles matter enormously."
       },
       {
-        "text": "Traditional Nigerian greetings can extend two to three minutes as speakers enquire about each other's health, family members, and work.",
-        "claim_ids": [
-          "C14"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Nigerians tend to evaluate individual success primarily upon material assets — a strong achievement orientation anchored to visible wealth and status.",
-        "claim_ids": [
-          "C25"
-        ],
-        "sources_count": 1
+        "text": "Enterprise is everywhere and visible."
       }
     ],
     "success_factors": [
@@ -416,7 +399,7 @@
         "iso3": "GHA",
         "country": "Ghana",
         "similarity": 91,
-        "explanation": "Nigeria and Ghana share strong collectivist values and expressive social interactions, yet Nigeria's larger population and diverse ethnic groups create a more complex social tapestry.",
+        "explanation": "Nigeria and Ghana share strong collectivist values and expressive social interactions, yet Nigeria's larger population and diverse ethnic groups create a more complex social mix.",
         "claim_ids": [
           "claim1",
           "C11"
@@ -427,7 +410,7 @@
         "iso3": "SLE",
         "country": "Sierra Leone",
         "similarity": 89,
-        "explanation": "Both Nigeria and Sierra Leone exhibit strong community ties and a vibrant social life, though Nigeria's economic scale and urbanization introduce more pronounced individualistic trends.",
+        "explanation": "Both Nigeria and Sierra Leone exhibit strong community ties and a lively social life, though Nigeria's economic scale and urbanization introduce more pronounced individualistic trends.",
         "claim_ids": [
           "claim1",
           "C09"
@@ -449,7 +432,7 @@
         "iso3": "MLI",
         "country": "Mali",
         "similarity": 86,
-        "explanation": "Nigeria and Mali both value communal relationships, yet Nigeria's cultural diversity and urban dynamics foster a unique blend of traditional and modern influences.",
+        "explanation": "Nigeria and Mali both value communal relationships, yet Nigeria's cultural diversity and urban dynamics build a unique blend of traditional and modern influences.",
         "claim_ids": [
           "claim1",
           "C20"
@@ -584,7 +567,11 @@
           "suggested_score": 88
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Open, expressive teams"
+    ]
   },
   "sources": [
     {
@@ -932,7 +919,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 25,
+        "score": 33,
         "confidence": "HIGH"
       },
       "D2": {
@@ -940,11 +927,11 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 35,
+        "score": 43,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 55,
+        "score": 61,
         "confidence": "MEDIUM"
       }
     },

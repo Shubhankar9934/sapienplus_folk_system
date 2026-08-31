@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 33,
-        "reading": "Group-oriented",
-        "explanation": "El Salvador's society is highly collectivist, with identity strongly tied to family and community."
+        "score": 31,
+        "reading": "Social",
+        "explanation": "Community-first: family and community bonds are paramount, so belonging, reputation and a personal tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 70,
-        "reading": "Highly expressive",
-        "explanation": "Emotional expression is openly encouraged in social settings, creating a warm and engaging atmosphere."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, open, especially at social and festive occasions, so lively, warm, family-first branding connects."
       },
       {
         "dimension": "D3",
         "score": 69,
-        "reading": "Structured",
-        "explanation": "El Salvador's preference for clear rules and formal structures is evident in its strong hierarchical norms."
+        "reading": "Certain",
+        "explanation": "Structured: respect for hierarchy and clear roles gives a firm frame, so standing and the proper way carry weight, softened by relationships."
       },
       {
         "dimension": "D4",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "While Salvadorans value quality of life and relationships, there is also a significant drive for economic improvement through family-oriented efforts."
+        "explanation": "Balanced, leaning communal: economic improvement is sought for the family's well-being over individual ambition, so practical, family-first goods lead."
       }
     ],
-    "executive_summary": "El Salvador is a society deeply rooted in collectivism, where family and community bonds are paramount. Emotional expression is open and vibrant, especially in social and festive contexts. Hierarchical structures are respected, with clear roles and expectations in both social and professional settings. The drive for economic improvement often prioritizes family well-being over individual ambition.",
+    "executive_summary": "El Salvador is deeply collective, where family and community bonds come first. Feeling is open and lively, especially at social and festive occasions. Hierarchies are respected, with clear roles in both social and working life. The push for a better living tends to favor the family's well-being over one person's ambition.",
     "cultural_archetype": {
-      "title": "The Communal Nurturer",
-      "summary": "A society where collective well-being and emotional expressiveness are central to daily life.",
+      "title": "Warm Formal Families",
+      "summary": "Family well-being is the motive, and warmth is the manner.",
       "claim_ids": [
         "c01",
         "c02",
@@ -123,11 +123,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "El Salvador's colonial history has instilled a strong sense of hierarchy and formality, which persists in contemporary social and professional interactions.",
-        "claim_ids": [
-          "claim_11"
-        ],
-        "sources_count": 1
+        "text": "Family and community bonds became the safety net through civil war, mass emigration and gang violence."
+      },
+      {
+        "text": "Catholic and Latin tradition keeps expression warm and open, particularly at social and festive occasions."
+      },
+      {
+        "text": "Remittances from the United States, a large share of national income, make family provision the organising economic fact."
       }
     ],
     "competing_forces": [
@@ -211,7 +213,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in El Salvador is characterized by warm social interactions and a strong sense of community. While time is treated flexibly, the importance of family and community is ever-present, with vibrant public celebrations and a deep respect for hierarchical structures shaping daily experiences.",
+      "text": "Life is warm company and a strong sense of community. Time is treated loosely, but family and community are always front and center, with lively public celebrations and a deep respect for rank shaping the everyday.",
       "claim_ids": [
         "c4",
         "c6",
@@ -221,12 +223,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Hierarchical structures are respected, with clear roles and expectations in both social and professional settings.",
-        "claim_ids": [
-          "c7",
-          "c19"
-        ],
-        "sources_count": 2
+        "text": "The warmth is immediate."
+      },
+      {
+        "text": "Family obligation is central."
+      },
+      {
+        "text": "Hierarchy is observed in formal settings."
       }
     ],
     "success_factors": [
@@ -336,7 +339,7 @@
         "iso3": "MEX",
         "country": "Mexico",
         "similarity": 93,
-        "explanation": "Both countries share a vibrant cultural expression and strong family ties, yet El Salvador's hierarchical structures are more pronounced.",
+        "explanation": "Both countries share a lively cultural expression and strong family ties, yet El Salvador's hierarchical structures are more pronounced.",
         "claim_ids": [
           "c7",
           "c10"
@@ -358,7 +361,7 @@
         "iso3": "NIC",
         "country": "Nicaragua",
         "similarity": 89,
-        "explanation": "El Salvador and Nicaragua both emphasize family and community, but El Salvador exhibits a higher degree of emotional expressiveness.",
+        "explanation": "El Salvador and Nicaragua both stress family and community, but El Salvador exhibits a higher degree of emotional expressiveness.",
         "claim_ids": [
           "c10"
         ],
@@ -483,7 +486,12 @@
           "suggested_score": 42
         }
       ]
-    }
+    },
+    "best_for": [
+      "Building personal relationships",
+      "Community-focused projects",
+      "Family-oriented initiatives"
+    ]
   },
   "sources": [
     {
@@ -743,7 +751,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 33,
+        "score": 31,
         "confidence": "HIGH"
       },
       "D2": {

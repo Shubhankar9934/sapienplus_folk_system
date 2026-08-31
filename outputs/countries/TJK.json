@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 28,
-        "reading": "Community-first",
-        "explanation": "Tajikistan's identity is deeply rooted in collective affiliations, where kinship and community networks define social life."
+        "score": 25,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: kinship and collective identity are the base (the mahalla and avlod), so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 33,
-        "reading": "Understated",
-        "explanation": "Emotional expression in Tajikistan is often indirect, with a preference for maintaining harmony over confrontation."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, harmony-keeping talk and respect for rank govern, so gentle, warm, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 45,
-        "reading": "Balanced",
-        "explanation": "Social interactions are governed by strict hierarchical rules, providing a sense of predictability and order."
+        "reading": "Fluid",
+        "explanation": "Middle-flexible: hierarchy gives a soft frame while trust and relationships beat formal agreements, so a personal tie and give matter most."
       },
       {
         "dimension": "D4",
         "score": 36,
-        "reading": "Relaxed",
-        "explanation": "Economic striving is driven by necessity, with remittances playing a crucial role in sustaining families."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning, with migration-driven necessity: getting by and family come first, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "In Tajikistan, life revolves around community and collective identity, with personal relationships often resembling kinship ties. Hierarchical structures dictate social interactions, while indirect communication helps maintain harmony. Despite a strong sense of community, economic necessity drives many to seek opportunities abroad, creating a unique balance between collective and individual aspirations.",
+    "executive_summary": "In Tajikistan life revolves around community and collective identity, where even friendships take on the feel of kinship. Hierarchies set the terms of social dealings, and indirect talk keeps the harmony. For all the strong sense of community, economic need drives many to look for work abroad, making a particular balance between collective belonging and individual striving.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective identity and adaptability coexist, shaped by deep-rooted traditions and modern challenges.",
+      "title": "Neighbourhood Kin",
+      "summary": "The neighbourhood and kin group set obligations, funded from work abroad.",
       "claim_ids": [
         "c1",
         "C06",
@@ -171,20 +171,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The introduction and persistence of Islam since the 8th century have provided a comprehensive normative framework that continues to influence Tajik social order.",
-        "claim_ids": [
-          "C18",
-          "C22"
-        ],
-        "sources_count": 1
+        "text": "The mahalla neighbourhood and the avlod kin group organise obligation and identity."
       },
       {
-        "text": "The Soviet era's impact on Tajikistan included attempts to erode traditional structures, yet these persisted, reinforcing collective norms.",
-        "claim_ids": [
-          "C04",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "Civil war in the 1990s and weak institutions since left family networks as the practical safety net."
+      },
+      {
+        "text": "Mass labour migration to Russia, with remittances a large share of national income, makes provision for kin the organising economic fact."
       }
     ],
     "competing_forces": [
@@ -395,7 +388,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Day-to-day life in Tajikistan is deeply embedded in collective structures like the mahalla and avlod, which govern social interactions and obligations. Despite this, economic necessity drives many to seek opportunities abroad, creating a unique balance between collective and individual aspirations. Friendships often resemble kinship ties, with identity shaped by group affiliations rather than individual autonomy. These patterns set the rhythm a newcomer adjusts to first.",
+      "text": "Daily life is embedded in collective structures like the mahalla, the neighborhood community, and the avlod, the extended kin group, which govern obligations and dealings. And yet economic need sends many abroad for work, balancing collective belonging against individual striving. Friendships often resemble kinship, and identity is shaped by group ties rather than by standing alone.",
       "claim_ids": [
         "C08",
         "C06",
@@ -405,53 +398,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Friendships in Tajikistan often take forms equivalent to kinship, reflecting that identity is shaped by group affiliations rather than individual autonomy.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is generous and expected."
       },
       {
-        "text": "Individualism is still an alien concept to Tajik society, with community and collectivism as cultural hallmarks.",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
+        "text": "Community structures are visible in daily life."
       },
       {
-        "text": "Social and political networks draw on layered loyalties, with group obligations influencing workplace dynamics.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "In rural districts, the mahalla and gashtak structures extend kinship governance, emphasizing collective over individual autonomy.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Tajiks prefer indirect communication to maintain harmony, avoiding direct confrontation in social and workplace settings.",
-        "claim_ids": [
-          "C11"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Strict rules govern social interactions, with formal address norms applied universally, signaling high need for structural certainty.",
-        "claim_ids": [
-          "C20"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Remittance-funded consumerism has introduced competitive status striving, particularly among younger men.",
-        "claim_ids": [
-          "cl14"
-        ],
-        "sources_count": 1
+        "text": "Public manner is reserved."
       }
     ],
     "success_factors": [
@@ -747,7 +700,12 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion enthusiasts",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {
@@ -1139,7 +1097,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 28,
+        "score": 25,
         "confidence": "MEDIUM"
       },
       "D2": {

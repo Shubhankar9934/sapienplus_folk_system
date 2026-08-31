@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 22,
-        "reading": "Community-first",
-        "explanation": "Community-first"
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: lineage and clan (the mila) define identity and standing, and personal achievement runs second to the family line, so belonging and reputation drive everything."
       },
       {
         "dimension": "D2",
         "score": 34,
-        "reading": "Understated",
-        "explanation": "Understated"
+        "reading": "Restrained",
+        "explanation": "Reserved: Islamic modesty holds public feeling in check, with the great exception of the grand marriage, so understated, dignified, respectful framing works day to day."
       },
       {
         "dimension": "D3",
         "score": 62,
-        "reading": "Structured",
-        "explanation": "Structured"
+        "reading": "Certain",
+        "explanation": "Structured: clan roles, Islamic norms and the ordered path of the grand marriage give a firm, predictable frame, so the proper way and social standing carry weight."
       },
       {
         "dimension": "D4",
         "score": 39,
-        "reading": "Relaxed",
-        "explanation": "Relaxed"
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning but status-marked: ambition is channeled into the grand marriage, the lavish rite that cements a man's standing, so communal status goods matter more than personal-career flash."
       }
     ],
-    "executive_summary": "Comoros is a place where community ties and traditional values shape daily life. Social roles are defined by lineage and clan, while public expression is restrained by Islamic norms. The grand marriage ceremony is a vibrant exception to the otherwise modest public life, showcasing the importance of status and community celebration.",
+    "executive_summary": "In the Comoros your place is set by lineage and clan, and personal achievement matters less than the family line. Public life is modest, held in by Islamic custom. The great exception is the grand marriage, the ada, an enormous two-week celebration of gold and feasting that announces a man's standing to the whole community.",
     "cultural_archetype": {
-      "title": "The Communal Architect",
-      "summary": "A society where lineage and community define identity, with a focus on maintaining harmony and tradition.",
+      "title": "Lineage Circles",
+      "summary": "Lineage decides a person's place, and the grand marriage announces it.",
       "claim_ids": [
         "c1",
         "c2",
@@ -130,11 +130,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The clan system, predating Arab influence, has been a persistent social structure, shaping identity and social roles.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
+        "text": "Identity rooted in the mila, the extended family, and the village clan makes lineage rather than achievement the source of standing."
+      },
+      {
+        "text": "Islamic custom and customary law together define public obligation and keep expression modest."
+      },
+      {
+        "text": "The grand marriage, the ada, channels a lifetime of saving into communal status rather than private accumulation."
       }
     ],
     "competing_forces": [
@@ -307,7 +309,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Day to day, life in Comoros is shaped by how Comorian identity is rooted in extended family (mila) and village clans; personal achievement is secondary to lineage; internal politics are often dominated by personality and family networks, and patronage is persistent — public life is organised through kin and clan, not impersonal individual competition; the hallmarks of the grand marriage (ada) are dazzling gold jewellery, two weeks of celebration and an enormous bridal dowry — a highly expressive, public, and exuberant communal event lasting a fortnight. Together these patterns set the rhythm a newcomer adjusts to first.",
+      "text": "Identity here is rooted in the extended family, the mila, and the village clan, with personal achievement running second to lineage. Daily affairs move through personality and family networks, and patronage runs deep. Public life is organized through kin and clan rather than lone competition. The grand marriage, the ada, is the great exception: dazzling gold, an enormous dowry, and two weeks of celebration, a loud and joyful communal event.",
       "claim_ids": [
         "c1",
         "C06",
@@ -317,53 +319,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Comorian identity is rooted in extended family (mila) and village clans; personal achievement is secondary to lineage.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Public life is modest and quiet."
       },
       {
-        "text": "Islamic community (umma) and customary law define social obligations more than individual preference.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Family lineage is established early in any conversation."
       },
       {
-        "text": "Public emotional display is restrained; greetings are elaborate and indirect, especially between genders.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Islamic modesty norms suppress open expression of anger or affection in public; women's voices are particularly modulated.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Internal politics are often dominated by personality and family networks, and patronage is persistent — public life is organised through kin and clan, not impersonal individual competition.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The hallmarks of the grand marriage (ada) are dazzling gold jewellery, two weeks of celebration and an enormous bridal dowry — a highly expressive, public, and exuberant communal event lasting a fortnight.",
-        "claim_ids": [
-          "C16"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Status in Comoros is derived from age, piety, and generosity (hospitality) rather than wealth accumulation or competitive success.",
-        "claim_ids": [
-          "c12"
-        ],
-        "sources_count": 1
+        "text": "Ceremony, when it comes, is on an extraordinary scale."
       }
     ],
     "success_factors": [
@@ -478,7 +440,7 @@
         "iso3": "ETH",
         "country": "Ethiopia",
         "similarity": 92,
-        "explanation": "Comoros and Ethiopia share a deep connection to Islamic traditions and community-oriented living, where social obligations often outweigh individual preferences.",
+        "explanation": "Comoros and Ethiopia share a deep connection to Islamic traditions and community-first living, where social obligations often outweigh individual preferences.",
         "claim_ids": [
           "c2",
           "C11"
@@ -584,6 +546,18 @@
           "suggested_score": 25
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Comoros is moderately restrained on D2. The Islamic constitutional framework enforces conformity in public expression: non-Sunni religious expression is criminalised, minorities self-censor, dress is modestly regulated, and the ada customary law (ada na mila) includes shaming penalties for public deviance. Hierarchical suppression of expression is structurally embedded — a man below the ada rank cannot speak publicly in village assemblies. These are D2 signals (hierarchical suppression of expression). Counter-evidence: the ada wedding itself is a two-week, exuberant communal celebration with music, dancing, and public display — but this is a *sanctioned* release valve (like Carnival in Catholic societies), not evidence of structurally free expression. Public male conversation is culturally valued. The balance is restrained-leaning, but not at the extreme end, given the richness of communal ceremonial life.",
+          "suggested_score": 32
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Comoros is restrained. Social hierarchy and Islamic modesty discourage open emotional display in public, especially for women. Greetings are formal and indirect; disagreement is often masked. Counter-evidence from the 'grand marriage' (anda) festival shows sanctioned emotional release, but this is a bounded ritual, not daily norm. Compared to Tanzania (more open) or Kenya (expressive in some ethnicities), Comoros is notably reserved.",
+          "suggested_score": 30
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -617,20 +591,12 @@
           "reasoning": "Drive is moderate-low. The culture values harmony, hospitality (ukarimu), and religious piety over competitive achievement. The concept of 'sawa sawa' (things are fine) reflects acceptance. Status comes from age, piety, and family name rather than wealth accumulation. Counter-evidence from the diaspora (especially in Marseille) shows a striving orientation in migration, and the 'grand marriage' competition drives economic striving. Overall, baseline is accepting.",
           "suggested_score": 40
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Comoros is moderately restrained on D2. The Islamic constitutional framework enforces conformity in public expression: non-Sunni religious expression is criminalised, minorities self-censor, dress is modestly regulated, and the ada customary law (ada na mila) includes shaming penalties for public deviance. Hierarchical suppression of expression is structurally embedded — a man below the ada rank cannot speak publicly in village assemblies. These are D2 signals (hierarchical suppression of expression). Counter-evidence: the ada wedding itself is a two-week, exuberant communal celebration with music, dancing, and public display — but this is a *sanctioned* release valve (like Carnival in Catholic societies), not evidence of structurally free expression. Public male conversation is culturally valued. The balance is restrained-leaning, but not at the extreme end, given the richness of communal ceremonial life.",
-          "suggested_score": 32
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression in Comoros is restrained. Social hierarchy and Islamic modesty discourage open emotional display in public, especially for women. Greetings are formal and indirect; disagreement is often masked. Counter-evidence from the 'grand marriage' (anda) festival shows sanctioned emotional release, but this is a bounded ritual, not daily norm. Compared to Tanzania (more open) or Kenya (expressive in some ethnicities), Comoros is notably reserved.",
-          "suggested_score": 30
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Cultural preservation projects"
+    ]
   },
   "sources": [
     {

@@ -14,31 +14,31 @@
         "dimension": "D1",
         "score": 50,
         "reading": "Balanced",
-        "explanation": "South Korea is a highly collectivist society where identity is group-based and relationships are structured by age and context."
+        "explanation": "Balanced and group-attuned: a keen awareness of the group, hierarchy and reputation (chemyon, face) shapes behavior, so belonging, consensus and standing drive choices even as individualism rises."
       },
       {
         "dimension": "D2",
-        "score": 36,
-        "reading": "Understated",
-        "explanation": "Public emotional expression is restrained to maintain harmony and respect hierarchy, with indirect communication being the norm."
+        "score": 30,
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: composure, indirectness and face-saving keep feeling in check publicly, so understated, respectful, polished framing works and overt emotion jars."
       },
       {
         "dimension": "D3",
-        "score": 64,
-        "reading": "Structured",
-        "explanation": "South Korea's cultural preference for rules and predictability is reflected in its high uncertainty avoidance and structured environments."
+        "score": 76,
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: strict hierarchy by age and rank, plus rules and precision, gives a firm frame, so proper process, credentials and quality strongly reassure."
       },
       {
         "dimension": "D4",
-        "score": 76,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "Despite a low masculinity score, South Korea exhibits a strong drive for achievement through intense educational and work pressures."
+        "score": 63,
+        "reading": "Striving",
+        "explanation": "Achievement-driven: fierce education and career competition and visible status (brands matter intensely), so aspirational, premium and status goods carry real weight."
       }
     ],
-    "executive_summary": "South Korea is a nation where collective harmony and social order are deeply ingrained, yet a drive for personal achievement and modernity is evident. Relationships are guided by hierarchical norms, while public emotional expression is restrained. The culture values precision and predictability, making it a place where rules and structure are paramount.",
+    "executive_summary": "South Korea runs deep on collective harmony and social order, and yet a hard drive for personal achievement and modern life runs right beside it. Relationships follow hierarchical rules, and public feeling is kept restrained. The culture prizes precision and predictability, so rules and structure carry real weight.",
     "cultural_archetype": {
-      "title": "The Harmonious Striver",
-      "summary": "A society that balances collective harmony with a relentless drive for achievement.",
+      "title": "Intense Achievers",
+      "summary": "Harmony kept publicly, while everyone competes at full stretch.",
       "claim_ids": [
         "c1",
         "C01",
@@ -63,12 +63,13 @@
     "cultural_themes": [],
     "historical_drivers": [
       {
-        "text": "Confucianism has historically influenced Korean society, embedding values of filial piety, loyalty, and social harmony.",
-        "claim_ids": [
-          "c-2",
-          "C06"
-        ],
-        "sources_count": 2
+        "text": "Confucian hierarchy made age and rank the organising principle of social life, built into the language itself."
+      },
+      {
+        "text": "Compressed industrialisation after 1953 tied family honour to educational and career success, producing the hagwon system and a high Drive score."
+      },
+      {
+        "text": "Chemyon, the concern for face and standing, keeps public expression contained and appearance consequential."
       }
     ],
     "competing_forces": [
@@ -155,7 +156,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in South Korea means navigating a society where indirect communication and harmony preservation are key. Despite a focus on emotional restraint, the drive for personal achievement is evident in long work hours and intense educational pressures. Relationships are deeply structured by age and context, creating a rhythm of life that newcomers must adjust to.",
+      "text": "It means moving through a society where indirect talk and keeping the harmony are everything. For all the restraint, the push to achieve shows in long work hours and fierce schooling pressure. Relationships are strictly ordered by age and context, making a rhythm a newcomer has to adjust to.",
       "claim_ids": [
         "c5",
         "c10",
@@ -165,28 +166,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Public emotional expression is restrained, with indirect communication preserving harmony.",
-        "claim_ids": [
-          "c5",
-          "c4"
-        ],
-        "sources_count": 2
+        "text": "The pace of work and study is intense."
       },
       {
-        "text": "Workplaces are highly structured, with long hours and competitive pressures reflecting a drive for achievement.",
-        "claim_ids": [
-          "c10",
-          "C29"
-        ],
-        "sources_count": 2
+        "text": "Hierarchy is established immediately by age."
       },
       {
-        "text": "The emphasis on group identity and cohesion is evident in social interactions and workplace dynamics.",
-        "claim_ids": [
-          "C06",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Everything is fast, connected and delivered."
       }
     ],
     "success_factors": [
@@ -467,7 +453,13 @@
           "suggested_score": 39
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Long-term planners",
+      "Structured operations",
+      "Cultural enthusiasts"
+    ]
   },
   "sources": [
     {
@@ -786,15 +778,15 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 36,
+        "score": 30,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 64,
+        "score": 76,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 76,
+        "score": 63,
         "confidence": "MEDIUM"
       }
     },

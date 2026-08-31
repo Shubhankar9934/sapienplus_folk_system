@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 40,
-        "reading": "Group-oriented",
-        "explanation": "Ukraine's collectivist roots are strong, yet there's a growing individualistic trend, especially among the youth."
+        "reading": "Social",
+        "explanation": "Community-leaning: family and community ties run deep while individualism rises, so belonging, reputation and a trusted tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 48,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression is valued, yet formal settings often require restraint, reflecting a complex communication dynamic."
+        "reading": "Balanced",
+        "explanation": "Middle: sincere and warm in private, more restrained in formal settings, so sincere, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 71,
-        "reading": "Highly structured",
-        "explanation": "A high need for structure and predictability is evident in Ukrainian society, with clear authority and defined roles."
+        "score": 73,
+        "reading": "Strongly Certain",
+        "explanation": "Structured: a preference for order, hierarchy and predictability gives a firm frame, so process and standing reassure, though informal favors also grease things."
       },
       {
         "dimension": "D4",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "While relationship quality is prioritized, there is a competitive streak in education and professional settings."
+        "reading": "Accepting",
+        "explanation": "Balanced: family and community weigh against a growing individual ambition, so both practical value and aspiration drive choices."
       }
     ],
-    "executive_summary": "In Ukraine, the balance between collectivist traditions and emerging individualism is palpable. Emotional expression is valued, yet formal settings demand restraint. Hierarchical structures dominate workplaces, reflecting a need for order and predictability. Relationships and family ties are deeply ingrained, influencing both personal and professional interactions.",
+    "executive_summary": "In Ukraine the balance between collectivist habit and a rising individualism is easy to feel. Feeling is valued, and yet formal settings ask for restraint. Hierarchies run the workplace, out of a need for order and predictability. Relationships and family ties are deeply set, coloring both private and working life.",
     "cultural_archetype": {
-      "title": "The Communal Striver",
-      "summary": "A society that values deep social bonds and collective identity, while navigating a growing desire for individual autonomy.",
+      "title": "Guarded Families",
+      "summary": "Deep social bonds and plain sincerity, inside a formal hierarchy.",
       "claim_ids": [
         "cl1",
         "C01",
@@ -143,18 +143,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The legacy of serfdom and Soviet collectivization has deeply influenced Ukrainian social structures, fostering a culture of mutual aid and collective identity.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "Kumivstvo, ritual godparenthood, and strong family obligation make kin networks the reliable support."
       },
       {
-        "text": "The Soviet system's emphasis on equality and discouragement of individual ambition has contributed to a culture that values harmony and collective well-being over competitive achievement.",
-        "claim_ids": [
-          "c19"
-        ],
-        "sources_count": 1
+        "text": "Soviet-era bureaucracy left a hierarchical formal order that still governs workplaces."
+      },
+      {
+        "text": "A tradition of plain sincerity in private life contrasts with guarded public conduct."
       }
     ],
     "competing_forces": [
@@ -249,7 +244,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Ukraine is a blend of deep social connections and structured hierarchies. While informal payments and corruption are common, the warmth of personal relationships and the sincerity of communication create a unique social fabric. Newcomers will notice the importance of family and community, alongside a growing individualistic streak among the younger generation.",
+      "text": "Life blends deep social connection with structured hierarchy. Informal payments and corruption are common, but the warmth of personal relationships and the sincerity of talk make a particular social fabric. A newcomer notices the weight of family and community, alongside a growing individualist streak in the young.",
       "claim_ids": [
         "c13",
         "cl2",
@@ -259,20 +254,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Ukrainian communication is direct and emotionally expressive, with sincerity and authenticity being highly valued.",
-        "claim_ids": [
-          "C10",
-          "c8"
-        ],
-        "sources_count": 2
+        "text": "The sincerity in conversation is striking."
       },
       {
-        "text": "The hierarchical nature of workplaces is evident, with clear authority structures and a preference for defined roles.",
-        "claim_ids": [
-          "C19",
-          "C20"
-        ],
-        "sources_count": 2
+        "text": "Public manner is more reserved than private."
+      },
+      {
+        "text": "Hospitality is generous."
       }
     ],
     "success_factors": [
@@ -540,7 +528,11 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business environments",
+      "Long-term strategic planning"
+    ]
   },
   "sources": [
     {
@@ -885,7 +877,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 71,
+        "score": 73,
         "confidence": "MEDIUM"
       },
       "D4": {

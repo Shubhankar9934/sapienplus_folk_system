@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 27,
-        "reading": "Community-first",
-        "explanation": "Iraqis prioritize family and tribal loyalties, which shape their social identity and obligations."
+        "score": 25,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family and tribal ties set identity and loyalty over individual goals, so belonging, honor and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 43,
-        "reading": "Even-keeled",
-        "explanation": "Public expression is often restrained to maintain honor, but emotions are freely shared within trusted groups."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: warmth and empathy flow among your own while public feeling is held to protect honor, so dignified, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 57,
-        "reading": "Balanced",
-        "explanation": "Iraqi society is characterized by hierarchical structures and a preference for order, though flexibility is practiced in daily life."
+        "reading": "Certain",
+        "explanation": "Structured: tribal law, religious custom and hierarchy give a firm frame even where the state is shaky, so the known way, standing and a trusted contact carry weight."
       },
       {
         "dimension": "D4",
         "score": 53,
         "reading": "Balanced",
-        "explanation": "Achievement is valued, but success is often measured by one's ability to build and maintain strong relationships."
+        "explanation": "Balanced: rebuilding, providing and family standing drive real effort, so goods that signal provision and standing matter alongside practical value."
       }
     ],
-    "executive_summary": "In Iraq, family and tribal ties shape daily life, with loyalty often prioritized over individual goals. While social interactions are warm and empathetic, public expression is restrained to maintain honor. Hierarchical structures dominate workplaces, yet flexibility can be found in daily routines. Success is built on relationships and trust, not just personal achievement.",
+    "executive_summary": "In Iraq family and tribe shape the day, and loyalty usually comes before a person's own goals. People are warm and empathetic with each other, though public feeling is held back to protect honor. Offices run by rank, even as daily routines leave room to bend. Success is built on relationships and trust, not on achievement alone.",
     "cultural_archetype": {
-      "title": "The Communal Guardian",
-      "summary": "A society where family and tribal loyalties guide identity and social interactions.",
+      "title": "Tribal Households",
+      "summary": "Family and tribe set loyalty, and honour governs what may be shown.",
       "claim_ids": [
         "claim1",
         "d1-c2",
@@ -186,20 +186,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The tribal and family structures that dominate Iraqi society have historical roots in the need for collective security and identity in a region marked by conflict and shifting political landscapes.",
-        "claim_ids": [
-          "d1-c3",
-          "claim-1"
-        ],
-        "sources_count": 2
+        "text": "Tribal and family loyalty, hardened by decades of war, sanctions and occupation, is the only consistent safety net."
       },
       {
-        "text": "Iraq's emphasis on honor and indirect communication stems from a long history of maintaining social harmony and avoiding public shame, which are deeply embedded in cultural and religious practices.",
-        "claim_ids": [
-          "d2-c5",
-          "claim-5"
-        ],
-        "sources_count": 2
+        "text": "Tribal custom and religious law supply order where the state has repeatedly failed, holding Structure on the structured side."
+      },
+      {
+        "text": "A code of honour governs what may be shown in public while warmth flows within the group."
       }
     ],
     "competing_forces": [
@@ -341,7 +334,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Iraq is a tapestry of communal support and structured routines. Acts of kindness and mutual aid are everyday occurrences, reflecting a deeply ingrained sense of community. Family loyalty often dictates workplace dynamics, where trust and relationships are paramount. While public expression is restrained, in-group settings allow for more open emotional displays, creating a complex social fabric that newcomers must navigate.",
+      "text": "It is communal support and structured routine together. Small acts of kindness and mutual aid happen all the time, out of a deep sense of community. Family loyalty often sets the tone at work, where trust and relationships come first. Public feeling stays restrained, but among your own the emotions come out, a complex social fabric a newcomer learns to read.",
       "claim_ids": [
         "d2-c2",
         "d1-c6",
@@ -351,39 +344,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of community is immediately noticeable, with acts of kindness and mutual support being common in daily interactions.",
-        "claim_ids": [
-          "claim2"
-        ],
-        "sources_count": 1
+        "text": "Hospitality arrives before anything else."
       },
       {
-        "text": "Family and tribal loyalties are evident in social and professional settings, often taking precedence over individual pursuits.",
-        "claim_ids": [
-          "d1-c2"
-        ],
-        "sources_count": 1
+        "text": "Family and tribal identity are established early."
       },
       {
-        "text": "In business, establishing trust through direct and probing questions is a common practice, reflecting the importance of credibility.",
-        "claim_ids": [
-          "d2-c4"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Hierarchical structures are clear in workplaces, where managers expect adherence to established procedures.",
-        "claim_ids": [
-          "d3-c4"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Public expression is often restrained, with indirect communication being the norm to avoid shaming others.",
-        "claim_ids": [
-          "d2-c6"
-        ],
-        "sources_count": 1
+        "text": "Public manner is guarded; private welcome is not."
       }
     ],
     "success_factors": [
@@ -535,7 +502,7 @@
         "iso3": "KWT",
         "country": "Kuwait",
         "similarity": 90,
-        "explanation": "Both Iraq and Kuwait emphasize family and tribal loyalties, but Iraq's social fabric is more influenced by its diverse ethnic and religious groups.",
+        "explanation": "Both Iraq and Kuwait stress family and tribal loyalties, but Iraq's social fabric is more influenced by its diverse ethnic and religious groups.",
         "claim_ids": [
           "d1-c4",
           "claim-3"
@@ -655,7 +622,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community-focused initiatives",
+      "Cultural diplomacy"
+    ]
   },
   "sources": [
     {
@@ -1014,7 +986,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 27,
+        "score": 25,
         "confidence": "HIGH"
       },
       "D2": {

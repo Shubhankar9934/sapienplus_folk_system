@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 60,
-        "reading": "Independent",
-        "explanation": "Lithuania values personal achievement and responsibility, yet family and social networks remain important."
+        "reading": "Self",
+        "explanation": "Individual-leaning: personal achievement and privacy are valued, though family and social networks still matter, so personalization works alongside quiet in-group trust."
       },
       {
         "dimension": "D2",
         "score": 34,
-        "reading": "Understated",
-        "explanation": "Public emotional restraint is a norm, but Lithuanians are socially expressive within trusted circles."
+        "reading": "Restrained",
+        "explanation": "Very reserved: public restraint and understatement, with warmth in private, so sincere, low-hype, competence-first framing works."
       },
       {
         "dimension": "D3",
         "score": 66,
-        "reading": "Structured",
-        "explanation": "Lithuania prefers structured environments and predictability, reflecting a legacy of Soviet influence."
+        "reading": "Certain",
+        "explanation": "Structured: order and predictability, a Soviet-era legacy, plus a modern efficiency drive give a firm frame, so clarity, guarantees and reliability reassure."
       },
       {
         "dimension": "D4",
         "score": 48,
         "reading": "Balanced",
-        "explanation": "Economic success and educational attainment are highly valued, reflecting a strong achievement orientation."
+        "explanation": "Balanced-to-driven: education, entrepreneurship and economic success as status markers, so aspirational and quality goods land, tempered by reserve."
       }
     ],
-    "executive_summary": "Lithuania is a blend of individualism and collective values, where personal achievement is highly prized, yet family and social networks play a crucial role. The culture is marked by emotional restraint in public, but warmth and expressiveness in private settings. Structured environments and predictability are preferred, reflecting a legacy of Soviet influence. Economic success is a significant status symbol, driven by a strong emphasis on education and entrepreneurship.",
+    "executive_summary": "Lithuania mixes the individual and the collective. Personal achievement is prized, and yet family and social networks matter a great deal. People are reserved in public and warm in private. They like structure and predictability, a habit left over from Soviet years. Money is a real status marker, pushed along by a strong faith in education and enterprise.",
     "cultural_archetype": {
-      "title": "The Independent Builder",
-      "summary": "A society that values personal achievement and self-reliance, yet remains deeply connected to family and social networks.",
+      "title": "Quiet Strivers",
+      "summary": "Reserved in public and warm in private, with education as the route up.",
       "claim_ids": [
         "C01",
         "C02",
@@ -190,12 +190,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Lithuania's post-Soviet transition fostered a rise in individualism, as younger generations embraced Western consumer culture and self-reliance.",
-        "claim_ids": [
-          "c2",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "A history of partition and occupation, and a proud national revival, bred a private, self-reliant individualism."
+      },
+      {
+        "text": "Soviet-era bureaucracy left a discomfort with improvisation and a preference for defined process."
+      },
+      {
+        "text": "Rapid post-independence growth made education and enterprise the recognised status markers."
       }
     ],
     "competing_forces": [
@@ -308,7 +309,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Lithuania feels like a dance between tradition and modernity. The reserved public demeanor gives way to warmth and expressiveness in trusted circles. Structured environments provide predictability, while personal achievement is celebrated. Family ties remain strong, yet individual aspirations are increasingly prioritized.",
+      "text": "It feels like a dance between tradition and modern life. The reserved public face gives way to warmth among trusted people. Structure keeps things predictable, while personal achievement is celebrated. Family ties stay strong, even as individual ambition takes more of the lead.",
       "claim_ids": [
         "c3",
         "c6",
@@ -319,28 +320,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Lithuania's restrained public demeanor may initially seem standoffish, but warmth emerges in private settings.",
-        "claim_ids": [
-          "c4",
-          "C15"
-        ],
-        "sources_count": 2
+        "text": "The reserve at first meeting is standard."
       },
       {
-        "text": "The strong preference for structured environments and predictability is evident in both social and professional settings.",
-        "claim_ids": [
-          "c7",
-          "c8"
-        ],
-        "sources_count": 2
+        "text": "Warmth appears only after trust."
       },
       {
-        "text": "Material success and educational attainment are highly valued, signaling a culture that prizes achievement.",
-        "claim_ids": [
-          "c10",
-          "c11"
-        ],
-        "sources_count": 2
+        "text": "Everything official runs to procedure."
       }
     ],
     "success_factors": [
@@ -605,7 +591,12 @@
           "suggested_score": 66
         }
       ]
-    }
+    },
+    "best_for": [
+      "Entrepreneurs seeking a structured environment",
+      "Long-term planners who value predictability",
+      "Professionals valuing educational achievement"
+    ]
   },
   "sources": [
     {

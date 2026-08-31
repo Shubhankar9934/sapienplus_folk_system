@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 40,
-        "reading": "Group-oriented",
-        "explanation": "Guatemala's identity is deeply rooted in collectivism, with family and community at the core of personal identity."
+        "score": 28,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family and community bonds are paramount, with deep indigenous Maya roots, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 62,
-        "reading": "Expressive",
-        "explanation": "Emotional expression in Guatemala is context-dependent, with openness in personal circles but restraint in public settings."
+        "score": 55,
+        "reading": "Open",
+        "explanation": "Moderately expressive but context-bound: warm and open among your own, more guarded and indirect in mixed or formal settings, so friendly, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 65,
-        "reading": "Structured",
-        "explanation": "Guatemalan society values predictability and order, with a high aversion to uncertainty."
+        "reading": "Certain",
+        "explanation": "Structured, on 'manana' time: people like order and clear roles yet keep a relaxed, flexible clock, so clear terms plus patience and a human touch reassure."
       },
       {
         "dimension": "D4",
         "score": 46,
         "reading": "Balanced",
-        "explanation": "Cooperation and harmony are prioritized over competitive achievement, reflecting a feminine cultural orientation."
+        "explanation": "Balanced, leaning to quality of life: cooperation and harmony beat competition, so practical, communal, family-first goods matter more than status."
       }
     ],
-    "executive_summary": "Guatemala is a deeply collectivist society where family and community bonds are paramount. Emotional expression is context-dependent, with warmth and openness in personal settings. The culture values predictability and order, yet operates on a flexible 'mañana' time schedule. Cooperation and harmony are prioritized over competitive achievement.",
+    "executive_summary": "Guatemala is a deeply collective society, with family and community above all. Feeling depends on the setting, warm and open among your own. People like order and predictability, yet they run on manana time, where things happen when they happen. Cooperation and harmony matter more than beating the next person.",
     "cultural_archetype": {
-      "title": "The Communal Guardian",
-      "summary": "A society where family and community ties define personal identity, balancing tradition with emerging global influences.",
+      "title": "Ordered Families",
+      "summary": "Family and community define a person, on a clock that answers to nobody.",
       "claim_ids": [
         "C1",
         "C2",
@@ -140,12 +140,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Guatemala's cultural emphasis on collectivism and community ties is rooted in its historical reliance on extended family networks and communal support systems.",
-        "claim_ids": [
-          "C6",
-          "C7"
-        ],
-        "sources_count": 2
+        "text": "Indigenous Maya community structures, still the majority inheritance, make the group the base of identity."
+      },
+      {
+        "text": "Thirty-six years of civil war and deep inequality made trust local and family-bound."
+      },
+      {
+        "text": "Spanish colonial administration and Catholic hierarchy left a formal order that sits above a flexible everyday clock."
       }
     ],
     "competing_forces": [
@@ -237,7 +238,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Guatemala feels deeply connected to family and community, with a rhythm that balances structured predictability with a relaxed approach to time. Social interactions are warm and expressive, yet guided by traditional norms and values.",
+      "text": "It feels tied to family and community, with a rhythm that balances a liking for order against an easy way with time. Social life is warm and expressive, guided all the while by traditional norms and values.",
       "claim_ids": [
         "claim_1",
         "claim_5",
@@ -248,12 +249,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Emotional expression is context-dependent, with a noticeable difference between public restraint and private warmth.",
-        "claim_ids": [
-          "claim_3",
-          "C14"
-        ],
-        "sources_count": 2
+        "text": "The indigenous presence in daily commerce is immediate."
+      },
+      {
+        "text": "Politeness is formal and confrontation avoided."
+      },
+      {
+        "text": "Punctuality is treated flexibly."
       }
     ],
     "success_factors": [
@@ -360,7 +362,7 @@
         "iso3": "PAN",
         "country": "Panama",
         "similarity": 94,
-        "explanation": "Both Guatemala and Panama emphasize strong family and community ties, but Guatemala's cultural expressions are more context-dependent.",
+        "explanation": "Both Guatemala and Panama stress strong family and community ties, but Guatemala's cultural expressions are more context-dependent.",
         "claim_ids": [
           "claim_1",
           "claim_3"
@@ -513,7 +515,12 @@
           "suggested_score": 31
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven initiatives",
+      "Cultural immersion experiences",
+      "Family-oriented projects"
+    ]
   },
   "sources": [
     {
@@ -894,11 +901,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 40,
+        "score": 28,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 62,
+        "score": 55,
         "confidence": "HIGH"
       },
       "D3": {

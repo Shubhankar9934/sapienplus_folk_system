@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 33,
-        "reading": "Group-oriented",
-        "explanation": "Haiti's collectivist culture is deeply rooted in family and community, where personal identity is intertwined with group identity."
+        "score": 31,
+        "reading": "Social",
+        "explanation": "Community-first: family and the lakou compound anchor identity and mutual support, so belonging, trust and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 70,
-        "reading": "Highly expressive",
-        "explanation": "Haitians are known for their expressive culture, with festivals and social gatherings serving as outlets for emotional and political expression."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: Rara, Carnival, animated talk and public feeling run high, so bold, lively, story-rich branding connects."
       },
       {
         "dimension": "D3",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "A flexible approach to time and structure is common, with a cultural emphasis on adaptability and resilience."
+        "reading": "Fluid",
+        "explanation": "Flexible: weak institutions make debouya, the art of resourceful getting-by, a way of life, so relationships and improvisation beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 41,
-        "reading": "Relaxed",
-        "explanation": "Community and relationships are prioritized over competitive achievement, reflecting a harmony-oriented cultural outlook."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: survival, family and community come before ambition, so affordable, practical, everyday goods matter most."
       }
     ],
-    "executive_summary": "In Haiti, life revolves around community and family, with a strong emphasis on collective identity and mutual support. Expressive festivals like Rara and Carnival highlight the vibrant cultural spirit, where emotion and politics intermingle in public displays. The workplace and social interactions prioritize personal relationships over formal contracts, reflecting a deep-seated reliance on trust and networks. Despite a relaxed approach to time and structure, the Haitian spirit of 'debouya' underscores a resourceful adaptability to life's challenges.",
+    "executive_summary": "In Haiti life runs on community and family, with collective identity and mutual support at the core. Festivals like Rara and Carnival show the loud cultural spirit, where feeling and politics mix in the open. Work and friendship lean on personal relationships rather than formal contracts, resting on trust and networks. And for all the loose sense of time, the Haitian knack called debouya is a real resourcefulness for getting by.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where community ties and adaptability define everyday life.",
+      "title": "Resourceful Socials",
+      "summary": "Community holds people up, and resourcefulness does the rest.",
       "claim_ids": [
         "c1",
         "c3",
@@ -163,11 +163,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Haitian Revolution of 1804 established a strong sense of national identity and collective solidarity.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
+        "text": "The lakou, the extended-family compound, and a tradition of mutual aid rooted in the world's only successful slave revolution keep identity communal."
+      },
+      {
+        "text": "Two centuries of isolation, debt and institutional collapse made debouya, resourceful improvisation, the everyday method."
+      },
+      {
+        "text": "Vodou ritual and the Rara and Carnival traditions established public expression as both release and commentary."
       }
     ],
     "competing_forces": [
@@ -283,7 +285,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Haiti is deeply communal, with the 'lakou' system reinforcing family bonds as the core of social identity. Business and social interactions rely on personal relationships, with a flexible approach to time and structure. Expressive festivals and animated conversations reflect a vibrant cultural spirit, while the concept of 'debouya' highlights a resourceful adaptability to everyday challenges.",
+      "text": "It is deeply communal, with the lakou, the traditional family compound, holding kin at the center of who you are. Business and social life run on personal relationships and a flexible sense of time. The expressive festivals and animated talk carry a lively spirit, while debouya names the everyday art of making do.",
       "claim_ids": [
         "c3",
         "c4",
@@ -294,28 +296,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The collectivist nature of Haitian society is immediately apparent, with family and community at the heart of social interactions.",
-        "claim_ids": [
-          "c1",
-          "c3"
-        ],
-        "sources_count": 2
+        "text": "The energy and noise are immediate."
       },
       {
-        "text": "Business dealings are personal and trust-based, often starting with relationship-building rather than formal contracts.",
-        "claim_ids": [
-          "c4",
-          "d2-c6"
-        ],
-        "sources_count": 2
+        "text": "Improvisation is visible everywhere."
       },
       {
-        "text": "Social gatherings are lively and expressive, with a preference for oral communication and animated conversations.",
-        "claim_ids": [
-          "d2-c3",
-          "c15"
-        ],
-        "sources_count": 2
+        "text": "Community ties are strong and openly relied on."
       }
     ],
     "success_factors": [
@@ -429,7 +416,7 @@
         "iso3": "BHS",
         "country": "Bahamas",
         "similarity": 93,
-        "explanation": "Both Haiti and the Bahamas are part of the Caribbean, sharing a vibrant cultural scene and a reliance on community, though Haiti's historical context adds a unique dimension.",
+        "explanation": "Both Haiti and the Bahamas are part of the Caribbean, sharing a lively cultural scene and a reliance on community, though Haiti's historical context adds a unique dimension.",
         "claim_ids": [
           "d2-c1",
           "d2-c2"
@@ -451,7 +438,7 @@
         "iso3": "TTO",
         "country": "Trinidad And Tobago",
         "similarity": 88,
-        "explanation": "Both countries celebrate vibrant festivals that reflect their cultural diversity and expressive spirit, though Haiti's emphasis on community and family is more pronounced.",
+        "explanation": "Both countries celebrate lively festivals that reflect their cultural diversity and expressive spirit, though Haiti's emphasis on community and family is more pronounced.",
         "claim_ids": [
           "d2-c1",
           "c3"
@@ -526,6 +513,18 @@
           "suggested_score": 25
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Haiti scores high on expressive openness across multiple independent domains. The Rara festival — documented in McAlister (2002, UC Press), the University of Toronto Caribbean Quarterly, and Haïti Wonderland — is a six-week national street festival fusing Vodou ritual, political commentary, dance, and collective emotional release; its very existence as a structurally sanctioned public-expression vehicle signals a culture where emotional and political expression is not hierarchically suppressed but actively institutionalised. The CIRRIE cultural guide (Univ. of Buffalo) documents a strong preference for oral, animated, communal communication (teledjòl) over written register. Rivermate's cross-cultural workplace guide independently notes that Haitians are known for warmth and hospitality, with meetings beginning with expressive personal exchanges. The Vodou vèvè UNESCO submission (Haitian Times 2026) further evidences a culture that formally champions its richest expressive traditions at the highest international level. Countervailing evidence exists: face-maintenance norms and avoidance of direct confrontation (Rivermate) indicate that expression is contextually modulated — disagreement is often indirect. This nudges the score down from a maximum but does not flip the direction. Score: 74 (Open, with face-saving modulation in formal/hierarchical contexts).",
+          "suggested_score": 74
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Haitian expression is generally open and emotionally expressive, especially in religious contexts (Vodou ceremonies with possession and song) and public celebrations (Rara festivals, carnival). There is a low hierarchy of suppression: even the poorest individuals voice opinions loudly in public spaces. However, there is a layer of social restraint in formal or hierarchical settings (e.g., showing respect to elders with specific language and gestures). Also, direct emotional confrontation can be avoided in favor of indirect communication to preserve face. On balance, the baseline is openness, with some restraint in specific contexts.",
+          "suggested_score": 80
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -559,20 +558,14 @@
           "reasoning": "Haiti's drive is moderate, leaning toward acceptance. Survival is a daily struggle, but the ideal is often 'debouya' (resourceful getting by) rather than systematic achievement. Hofstede Masculinity is 41, indicating a tendency toward quality of life and harmony over competition. The strong emphasis on community and family harmony dampens competitive striving. However, there is a strong drive for educational and professional advancement among the aspiring middle class, and the diaspora is highly driven. Remittances (25%+ of GDP) reflect this striving. Overall, the baseline is more accepting than striving.",
           "suggested_score": 40
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Haiti scores high on expressive openness across multiple independent domains. The Rara festival — documented in McAlister (2002, UC Press), the University of Toronto Caribbean Quarterly, and Haïti Wonderland — is a six-week national street festival fusing Vodou ritual, political commentary, dance, and collective emotional release; its very existence as a structurally sanctioned public-expression vehicle signals a culture where emotional and political expression is not hierarchically suppressed but actively institutionalised. The CIRRIE cultural guide (Univ. of Buffalo) documents a strong preference for oral, animated, communal communication (teledjòl) over written register. Rivermate's cross-cultural workplace guide independently notes that Haitians are known for warmth and hospitality, with meetings beginning with expressive personal exchanges. The Vodou vèvè UNESCO submission (Haitian Times 2026) further evidences a culture that formally champions its richest expressive traditions at the highest international level. Countervailing evidence exists: face-maintenance norms and avoidance of direct confrontation (Rivermate) indicate that expression is contextually modulated — disagreement is often indirect. This nudges the score down from a maximum but does not flip the direction. Score: 74 (Open, with face-saving modulation in formal/hierarchical contexts).",
-          "suggested_score": 74
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Haitian expression is generally open and emotionally expressive, especially in religious contexts (Vodou ceremonies with possession and song) and public celebrations (Rara festivals, carnival). There is a low hierarchy of suppression: even the poorest individuals voice opinions loudly in public spaces. However, there is a layer of social restraint in formal or hierarchical settings (e.g., showing respect to elders with specific language and gestures). Also, direct emotional confrontation can be avoided in favor of indirect communication to preserve face. On balance, the baseline is openness, with some restraint in specific contexts.",
-          "suggested_score": 80
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Open, expressive teams",
+      "Cultural festivals and events",
+      "Community development projects"
+    ]
   },
   "sources": [
     {
@@ -909,7 +902,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 33,
+        "score": 31,
         "confidence": "MEDIUM"
       },
       "D2": {

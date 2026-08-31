@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 27,
-        "reading": "Community-first",
-        "explanation": "Identity is deeply rooted in matrilineal clan membership and collective responsibility, rather than individual pursuits."
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: matrilineal clans and collective responsibility set identity, so belonging, clan standing and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 55,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression is subtle and indirect, with a strong emphasis on maintaining social harmony and respect."
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Middle: warmth within the community, tempered by respect and subtlety, so warm-but-respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 59,
-        "reading": "Structured",
-        "explanation": "While social roles are clearly defined, there is a flexible approach to planning and adaptation, especially in response to existential threats."
+        "reading": "Certain",
+        "explanation": "Structured: clan roles and matrilineal custom give a firm social frame, adaptable on 'island time,' so the known way and standing carry weight."
       },
       {
         "dimension": "D4",
         "score": 32,
-        "reading": "Relaxed",
-        "explanation": "Community contributions are valued over individual achievements, with a focus on collective success."
+        "reading": "Accepting",
+        "explanation": "Strongly quality-of-life: collective contribution over individual achievement and an unhurried island life, so practical, communal goods matter most."
       }
     ],
-    "executive_summary": "In the Marshall Islands, life revolves around community and kinship, where identity is deeply tied to matrilineal clans and collective responsibility. Social interactions are guided by respect for hierarchy and subtle communication, while the society balances traditional customs with emerging individualistic influences. The islands' relaxed 'island time' contrasts with the structured social roles and expectations rooted in clan membership.",
+    "executive_summary": "In the Marshall Islands life revolves around community and kinship, where who you are is tied to matrilineal clans, meaning lineage traced through the mother, and to shared responsibility. Dealings are shaped by respect for rank and by subtle talk, while the society balances old custom against creeping individualism. The relaxed island time runs against the firm social roles that clan membership hands you.",
     "cultural_archetype": {
-      "title": "The Communal Navigator",
-      "summary": "A society where identity and success are navigated through clan ties and collective harmony.",
+      "title": "Island Households",
+      "summary": "Clan and the mother's line set land and standing, on island time.",
       "claim_ids": [
         "c1",
         "c5",
@@ -165,11 +165,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Colonial influences and the integration of Western bureaucratic structures have shaped modern Marshallese society, merging traditional authority with formal governance.",
-        "claim_ids": [
-          "claim-11"
-        ],
-        "sources_count": 1
+        "text": "Matrilineal clans, through which land rights and standing descend, make the group the base of identity."
+      },
+      {
+        "text": "Small, resource-scarce atolls made cooperation and sharing survival requirements."
+      },
+      {
+        "text": "Nuclear testing, displacement and now rising seas have made adaptation and collective response a continuing necessity."
       }
     ],
     "competing_forces": [
@@ -376,7 +378,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in the Marshall Islands is a dance of tradition and adaptation. Identity is anchored in matrilineal clans and communal living, where respect and subtlety guide communication. The relaxed pace of 'island time' contrasts with the structured social roles, creating a unique blend of predictability and flexibility. Newcomers quickly learn the importance of fitting into the community fabric, where success is measured by collective contribution rather than individual achievement.",
+      "text": "It is tradition and adaptation in one dance. Identity is anchored in the matrilineal clans and communal living, where respect and subtlety guide talk. The relaxed island time runs against the structured social roles, making a mix of predictability and flexibility. Newcomers learn fast that success is measured by what you give the community, not by standing out.",
       "claim_ids": [
         "c1",
         "C08",
@@ -386,53 +388,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Identity is deeply tied to matrilineal clans, with extended family and clan interdependence shaping social structure.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Clan and family are established immediately."
       },
       {
-        "text": "People identify strongly by atoll membership, and active participation in land-based, clan, atoll groups reinforces identity.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "The pace is unhurried."
       },
       {
-        "text": "The saying “He who gets mad, loses” indicates that anger is culturally inappropriate, and amiability is highly respected.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Marshallese society is matrilineal, with chiefs (Iroij), nobles (Alap), and laborers (Rijerbal); land belongs to clan and status is structured.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Social classes of chiefs and commoners persist, and land inheritance through maternal line binds people into predictable hierarchy.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Local employers value candidates who respect cultural codes and fit into the communal logic; job interviews do not just assess technical skills but seek a profile that 'strengthens the community fabric.'",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Marshallese communication layers respect through subtle non-verbal cues: pauses show contemplation, prolonged direct eye contact feels aggressive, and occasional downward glances signal deference—expression is structurally suppressed by hierarchy.",
-        "claim_ids": [
-          "C14"
-        ],
-        "sources_count": 1
+        "text": "Community obligation is heavier than expected."
       }
     ],
     "success_factors": [
@@ -734,7 +696,12 @@
           "suggested_score": 34
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven initiatives",
+      "Cultural exchange programs",
+      "Collaborative projects"
+    ]
   },
   "sources": [
     {
@@ -1185,7 +1152,7 @@
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 55,
+        "score": 46,
         "confidence": "MEDIUM"
       },
       "D3": {

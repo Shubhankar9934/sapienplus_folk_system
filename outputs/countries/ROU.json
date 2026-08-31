@@ -14,31 +14,31 @@
         "dimension": "D1",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "Romanian society is deeply collectivist, with strong family ties and community networks shaping social interactions."
+        "explanation": "Balanced, tilting communal: family is the cornerstone while urban youth take up individualism, so belonging and reputation drive choices with room for the individual."
       },
       {
         "dimension": "D2",
         "score": 42,
-        "reading": "Understated",
-        "explanation": "While Romanian communication is lively and expressive, strong social norms guide emotional expression, reflecting a balance between openness and restraint."
+        "reading": "Restrained",
+        "explanation": "Middle: warm and expressive in private, more reserved in public and professional settings, so warm-but-correct, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 65,
-        "reading": "Structured",
-        "explanation": "Romanians prefer stability and predictability, often relying on hierarchical structures and established procedures."
+        "reading": "Certain",
+        "explanation": "Structured: a preference for stability, hierarchy and clear roles gives a firm frame, so process and standing reassure."
       },
       {
         "dimension": "D4",
         "score": 57,
-        "reading": "Balanced",
-        "explanation": "Romania's focus on quality of life over relentless achievement reflects a more harmonious and balanced approach to work and life."
+        "reading": "Striving",
+        "explanation": "Balanced-to-driven: real ambition, especially among the young, sits beside a value on family and stability, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "In Romania, family is the cornerstone of life, influencing both personal and professional spheres. The culture values strong interpersonal bonds and a preference for stability, often prioritizing harmony over ambition. Communication is expressive and lively, reflecting a blend of Latin and Eastern European influences. Despite a collectivist foundation, younger generations are increasingly embracing individualistic values, particularly in urban areas.",
+    "executive_summary": "In Romania family is the cornerstone, touching both private and working life. The culture prizes strong personal bonds and a taste for stability, often putting harmony ahead of ambition. Talk is expressive and lively, a blend of Latin and Eastern European. For all the collectivist base, the young, especially in the cities, are taking up individual values.",
     "cultural_archetype": {
-      "title": "The Familial Networker",
-      "summary": "A society where family ties and social networks are paramount, shaping interactions and decision-making.",
+      "title": "Familial Planners",
+      "summary": "Family and networks are everything, warm in private and formal at work.",
       "claim_ids": [
         "C01",
         "C03",
@@ -162,12 +162,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Romania's collectivist society is shaped by its historical reliance on family and community networks for support and decision-making.",
-        "claim_ids": [
-          "C01",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "Family is the primary support system, a pattern reinforced by the deprivations of the Ceausescu era."
+      },
+      {
+        "text": "Latin cultural inheritance keeps conversation energetic and emotionally visible in private settings."
+      },
+      {
+        "text": "Communist-era institutions left hierarchical firms and a preference for formal channels."
       }
     ],
     "competing_forces": [
@@ -275,7 +276,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Romania revolves around family and community, with social interactions often taking place in lively, expressive settings. The workplace mirrors this collectivist ethos, emphasizing strong interpersonal bonds and hierarchical structures. While personal relationships are warm and open, public and professional settings may appear more reserved. Newcomers may find the balance between tradition and emerging individualism intriguing yet challenging.",
+      "text": "Life revolves around family and community, with the social world often lively and expressive. The workplace mirrors that collectivist streak, stressing strong personal bonds and hierarchy. Private life is warm and open, while public and professional settings can seem more reserved. A newcomer finds the balance of tradition and rising individualism both intriguing and tricky.",
       "claim_ids": [
         "C03",
         "C05",
@@ -287,39 +288,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family is described as the most important aspect of life for Romanians; relatives provide emotional and financial support and spend much of their free time socialising together.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "The expressiveness surprises those expecting Eastern European reserve."
       },
       {
-        "text": "Romanian mothers place a higher emphasis on interdependence compared to mothers from individualistic cultures, consistent with collectivist identity formation from childhood.",
-        "claim_ids": [
-          "C04"
-        ],
-        "sources_count": 1
+        "text": "Family obligation is strong."
       },
       {
-        "text": "In Romanian collectivist culture, employer–employee relationships are perceived in moral terms like a family link, and hiring and promotion decisions take account of the employee's in-group.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Romanian communication reflects a Latin cultural character — conversation is energetic and emotionally visible, with people speaking loudly, using strong gestures, interrupting, and talking over one another when engaged in discussion.",
-        "claim_ids": [
-          "C12"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "A conversation that sounds like an argument to outsiders may simply be a normal exchange of views; Romanian expressiveness signals involvement rather than hostility.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
+        "text": "Bureaucracy requires patience."
       }
     ],
     "success_factors": [
@@ -442,7 +417,7 @@
         "iso3": "POL",
         "country": "Poland",
         "similarity": 94,
-        "explanation": "Both Romania and Poland emphasize family and community, but Romania's expressive communication style sets it apart.",
+        "explanation": "Both Romania and Poland stress family and community, but Romania's expressive communication style sets it apart.",
         "claim_ids": [
           "C01",
           "C12"
@@ -453,7 +428,7 @@
         "iso3": "BGR",
         "country": "Bulgaria",
         "similarity": 94,
-        "explanation": "Romania and Bulgaria share a similar collectivist culture, though Romania's Latin roots contribute to a more vibrant communication style.",
+        "explanation": "Romania and Bulgaria share a similar collectivist culture, though Romania's Latin roots contribute to a more lively communication style.",
         "claim_ids": [
           "C01",
           "C12"
@@ -558,7 +533,12 @@
           "suggested_score": 62
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business strategies",
+      "Community-focused initiatives",
+      "Long-term partnerships"
+    ]
   },
   "sources": [
     {

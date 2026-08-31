@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 60,
-        "reading": "Independent",
-        "explanation": "Argentina balances individualism with strong family and social ties, creating a unique blend of personal autonomy and collective identity."
+        "score": 56,
+        "reading": "Self",
+        "explanation": "Tips slightly to the individual, but family is still central; people prize personal opinion and self-expression while leaning on tight family and friend networks, so a personal tie often beats a rule and word-of-mouth within the circle drives choices."
       },
       {
         "dimension": "D2",
-        "score": 85,
-        "reading": "Highly expressive",
-        "explanation": "Argentines are highly expressive, valuing open emotional communication and lively interactions."
+        "score": 81,
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, dramatic, physically affectionate, full of talk and passion, so bold, emotional, story-rich branding and shareable experiences thrive while understatement reads as cold."
       },
       {
         "dimension": "D3",
-        "score": 71,
-        "reading": "Highly structured",
-        "explanation": "Argentines prefer predictability and structure but are also adept at improvisation when needed."
+        "score": 62,
+        "reading": "Certain",
+        "explanation": "Somewhat structured but improvised: people like rules in theory yet have learned to bend and work around them through repeated crises, so flexibility, human contact and clever workarounds build trust more than rigid terms."
       },
       {
         "dimension": "D4",
         "score": 52,
         "reading": "Balanced",
-        "explanation": "While Argentina shows a moderate drive for achievement, personal relationships and social networks often play a more crucial role than individual competition."
+        "explanation": "Balanced: ambition coexists with a strong love of leisure, friends and football, so things that promise enjoyment and belonging matter alongside aspiration, and 'all work, no play' framing falls flat."
       }
     ],
-    "executive_summary": "Argentina is a vibrant blend of expressive communication and strong family ties, where personal relationships often trump formal structures. The culture values both individual achievement and collective identity, creating a unique social fabric. Despite a preference for stability, Argentines are known for their adaptability and improvisation in the face of uncertainty.",
+    "executive_summary": "Argentina talks with its hands and its heart, loud and warm, and it leans hard on family. When the rulebook and a friendship disagree, the friendship usually wins. People here want to make something of themselves and belong to the group at the same time. They would prefer things stable, but life keeps them improvising, and they have gotten very good at it.",
     "cultural_archetype": {
-      "title": "The Expressive Individualist",
-      "summary": "A culture that balances personal expression with strong familial and social connections.",
+      "title": "Expressive Talkers",
+      "summary": "Loud, warm and opinionated, with family and friends holding everything together.",
       "claim_ids": [
         "c1",
         "c2",
@@ -153,18 +153,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The influence of Italian and Spanish immigration has deeply embedded the value of family networks and personal relationships in Argentine culture.",
-        "claim_ids": [
-          "c1_2"
-        ],
-        "sources_count": 1
+        "text": "Mass Italian and Spanish immigration between 1880 and 1930 rebuilt the population and brought a café-and-plaza sociability that keeps Expression among the highest anywhere."
       },
       {
-        "text": "Argentina's political history of instability has fostered a cultural preference for certainty and predictability, yet also a capacity for flexibility and improvisation.",
-        "claim_ids": [
-          "C20"
-        ],
-        "sources_count": 1
+        "text": "Repeated currency collapses, defaults and inflationary decades taught people to distrust fixed plans and rely on personal networks."
+      },
+      {
+        "text": "European inheritance and high urban literacy produced a strong individual voice alongside those family networks."
       }
     ],
     "competing_forces": [
@@ -317,7 +312,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Argentina means embracing a culture where expressive communication and strong family ties are at the forefront. Professional life is warm and lively, with personal relationships often taking precedence over formal structures. Despite a preference for stability, Argentines are known for their adaptability and improvisation, making life here both predictable and flexible.",
+      "text": "Living here means big, expressive talk and family close by. Work is warm, and a personal tie will carry you further than any form. Argentines like stability in theory, but they have learned to bend and invent when things wobble, which is often.",
       "claim_ids": [
         "C12",
         "C06",
@@ -329,32 +324,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Argentines communicate with expressive gestures and emotional intensity, indicating a culture of high expressivity.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "The warmth is immediate and physical — kissing on greeting is standard."
       },
       {
-        "text": "Family relationships and extended family connections constitute an important source of power and influence in Argentina; identity is substantially constituted through family network.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "Everyone has an opinion and expects you to have one too."
       },
       {
-        "text": "Business relationships in Argentina exist between people, not between companies; once a personal relationship is established, loyalty is to the individual not the organisation — reflecting a person-centred, not group/clan-centred, identity logic.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Therapy in Buenos Aires is seen as a tool for self-growth, refinement, and social status — not a sign of weakness — reflecting a structurally high tolerance for emotional openness.",
-        "claim_ids": [
-          "C14"
-        ],
-        "sources_count": 1
+        "text": "Arrangements change late and nobody treats it as a crisis."
       }
     ],
     "success_factors": [
@@ -446,7 +422,7 @@
         "iso3": "BRA",
         "country": "Brazil",
         "similarity": 90,
-        "explanation": "Both Argentina and Brazil share a vibrant culture with expressive communication and strong social networks, though Argentina tends to be more structured.",
+        "explanation": "Both Argentina and Brazil share a lively culture with expressive communication and strong social networks, though Argentina tends to be more structured.",
         "claim_ids": [
           "c3",
           "C03"
@@ -614,7 +590,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Expressive communicators",
+      "Relationship-driven networking",
+      "Adaptable planners"
+    ]
   },
   "sources": [
     {
@@ -929,15 +910,15 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 60,
+        "score": 56,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 85,
+        "score": 81,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 71,
+        "score": 62,
         "confidence": "MEDIUM"
       },
       "D4": {

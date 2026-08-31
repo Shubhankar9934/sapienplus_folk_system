@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 26,
-        "reading": "Community-first",
-        "explanation": "Collective identity and clan affiliations dominate personal and social life, with individual autonomy often secondary."
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: the clan shapes identity, roles and even land, so belonging, elder approval and reputation drive every choice."
       },
       {
         "dimension": "D2",
-        "score": 62,
-        "reading": "Expressive",
-        "explanation": "Indirect communication and respect for hierarchy are central, with emotional expression often restrained to maintain harmony."
+        "score": 39,
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, respectful, harmony-keeping talk is the norm, so gentle, relationship-first, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
-        "score": 40,
-        "reading": "Adaptable",
-        "explanation": "A flexible approach to time and rules reflects a low certainty preference, with local negotiation often guiding decisions."
+        "score": 55,
+        "reading": "Certain",
+        "explanation": "Middle, tilting structured: clan roles and custom give a firm social frame while the pace of time stays loose, so the known way and standing matter more than formal rules."
       },
       {
         "dimension": "D4",
-        "score": 38,
-        "reading": "Relaxed",
-        "explanation": "Community sharing and subsistence living prioritize harmony over competitive individual achievement."
+        "score": 28,
+        "reading": "Strongly Accepting",
+        "explanation": "Strongly quality-of-life: community over individual achievement and an unhurried island life, so practical, communal, everyday goods matter most and status pitches miss."
       }
     ],
-    "executive_summary": "Micronesia (Fed. States) is a place where community and clan ties shape every aspect of life, from social roles to land ownership. Communication is indirect and respectful, prioritizing harmony over confrontation. The society is deeply rooted in tradition, yet flexible with time and structure, fostering a relaxed and adaptable lifestyle.",
+    "executive_summary": "In Micronesia the clan shapes nearly everything, from your social role to who owns the land. People speak indirectly and respectfully, choosing harmony over confrontation. The society is deeply traditional, yet easy about time and structure, which makes for a relaxed, adaptable way of living.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where communal bonds and adaptability define daily life.",
+      "title": "Island Kin",
+      "summary": "The clan decides land, work and marriage, and time is nobody's master.",
       "claim_ids": [
         "c1",
         "c2",
@@ -147,12 +147,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Micronesia's historical reliance on clan systems and subsistence lifestyles has shaped its communal values and flexible approach to time and structure.",
-        "claim_ids": [
-          "C02",
-          "C28"
-        ],
-        "sources_count": 2
+        "text": "Clan ownership of land and social roles makes the group the basis of security, holding Identity far to the community end."
+      },
+      {
+        "text": "Small, remote islands with limited resources made cooperation compulsory and competition pointless."
+      },
+      {
+        "text": "Custom and rank supply a firm social frame even where formal institutions are thin."
       }
     ],
     "competing_forces": [
@@ -240,7 +241,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Micronesia is deeply communal, with clan ties shaping personal identity and social roles. Communication is indirect and respectful, maintaining harmony and avoiding confrontation. Time moves at a relaxed pace, with flexibility in schedules and a focus on community over individual achievement.",
+      "text": "Life is deeply communal, with clan ties setting personal identity and social roles. Talk is indirect and respectful, keeping the peace and dodging confrontation. Time moves slow, schedules bend, and the community comes before any one person's achievement.",
       "claim_ids": [
         "c2",
         "C14",
@@ -250,20 +251,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of community and clan affiliation is immediately evident, with social roles and identities deeply tied to family and lineage.",
-        "claim_ids": [
-          "c2",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "Island time governs completely."
       },
       {
-        "text": "Indirect communication and respect for hierarchy are prevalent, with deference to elders and chiefs shaping interactions.",
-        "claim_ids": [
-          "c4",
-          "C14"
-        ],
-        "sources_count": 2
+        "text": "Clan and family are established immediately."
+      },
+      {
+        "text": "Public expression is measured and quiet."
       }
     ],
     "success_factors": [
@@ -356,7 +350,7 @@
         "iso3": "FJI",
         "country": "Fiji",
         "similarity": 86,
-        "explanation": "Both Micronesia and Fiji emphasize community and tradition, but Micronesia's clan systems are more deeply integrated into daily life.",
+        "explanation": "Both Micronesia and Fiji stress community and tradition, but Micronesia's clan systems are more deeply integrated into daily life.",
         "claim_ids": [
           "c1",
           "C03"
@@ -462,6 +456,18 @@
           "suggested_score": 35
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression is structurally suppressed across all FSM cultures. Indirect communication, silence, avoidance of direct confrontation, and verbal deference to higher-status persons are documented pan-FSM norms (Habele Institute, jarniascyril.com, everyculture.com, JSTOR/Micronesian Seminar). 'Making Sense of Micronesia' (Micronesian Seminar) specifically identifies 'emotional expression and its restraints' as a defining cultural feature. Hierarchy governs when and how emotion may surface: lower-ranked individuals physically and verbally defer; speaking assertively in public settings is considered disrespectful. The hierarchical suppression of expression is the D2-relevant signal. Counter: Chuukese culture is explicitly described as built on emotional bonds and family loyalty (Habele), and Chuukese laughter at others' embarrassment is documented as culturally sanctioned — small upward nudge, but does not flip the direction. Score: 16 (strongly Restrained).",
+          "suggested_score": 16
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is restrained in public and hierarchical contexts, with emotional suppression expected in formal settings; however, community festivals allow open emotion, preventing a fully restrained score.",
+          "suggested_score": 30
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -495,20 +501,12 @@
           "reasoning": "FSM is overwhelmingly accepting/quality-of-life oriented. Subsistence and relational harmony take priority over competitive achievement. The traditional value of sharing and disdain for conspicuous accumulation suppress striving.",
           "suggested_score": 20
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Expression is structurally suppressed across all FSM cultures. Indirect communication, silence, avoidance of direct confrontation, and verbal deference to higher-status persons are documented pan-FSM norms (Habele Institute, jarniascyril.com, everyculture.com, JSTOR/Micronesian Seminar). 'Making Sense of Micronesia' (Micronesian Seminar) specifically identifies 'emotional expression and its restraints' as a defining cultural feature. Hierarchy governs when and how emotion may surface: lower-ranked individuals physically and verbally defer; speaking assertively in public settings is considered disrespectful. The hierarchical suppression of expression is the D2-relevant signal. Counter: Chuukese culture is explicitly described as built on emotional bonds and family loyalty (Habele), and Chuukese laughter at others' embarrassment is documented as culturally sanctioned — small upward nudge, but does not flip the direction. Score: 16 (strongly Restrained).",
-          "suggested_score": 16
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression is restrained in public and hierarchical contexts, with emotional suppression expected in formal settings; however, community festivals allow open emotion, preventing a fully restrained score.",
-          "suggested_score": 30
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {
@@ -816,15 +814,15 @@
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 62,
+        "score": 39,
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 40,
+        "score": 55,
         "confidence": "LOW"
       },
       "D4": {
-        "score": 38,
+        "score": 28,
         "confidence": "LOW"
       }
     },

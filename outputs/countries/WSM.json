@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 21,
-        "reading": "Community-first",
-        "explanation": "Samoan identity is deeply rooted in the 'aiga and the matai system, emphasizing group-based identity over individualism."
+        "reading": "Strongly Social",
+        "explanation": "Extremely community-first: the 'matai' (chiefly title) system and family govern identity and roles, so belonging, rank and reputation drive everything."
       },
       {
         "dimension": "D2",
-        "score": 68,
-        "reading": "Expressive",
-        "explanation": "Respect and indirect communication are central, with emotions often suppressed to maintain social harmony."
+        "score": 51,
+        "reading": "Balanced",
+        "explanation": "Middle: respectful, indirect communication with expressive communal ritual, so warm-but-respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 63,
-        "reading": "Structured",
-        "explanation": "The fa'a Samoa system provides a detailed code of conduct, creating a highly structured society with clear roles and rituals."
+        "score": 70,
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: the matai system and custom give a firm, predictable social frame, so rank and the known way carry weight."
       },
       {
         "dimension": "D4",
         "score": 38,
-        "reading": "Relaxed",
-        "explanation": "While traditional values prioritize community over competition, education and sports achievements are highly valued, especially abroad."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community and family over individual desire, so practical, communal goods matter most."
       }
     ],
-    "executive_summary": "In Samoa, community and family take precedence over individual desires, creating a deeply collectivist society. Communication is respectful and indirect, with a strong emphasis on maintaining harmony. The structured matai system governs social roles, ensuring predictability and stability. While traditional values dominate, younger generations are increasingly influenced by Western individualism.",
+    "executive_summary": "In Samoa community and family come before individual desire, in a deeply collective society. Talk is respectful and indirect, with a heavy stress on keeping harmony. The matai system, the chiefly titles that govern families and villages, sets the social roles and keeps things predictable and stable. Tradition dominates, though the young are increasingly pulled by Western individualism.",
     "cultural_archetype": {
-      "title": "The Communal Guardian",
-      "summary": "A society where the collective well-being and traditional values are prioritized over individual ambitions.",
+      "title": "Chiefly Households",
+      "summary": "The matai system orders family and village, and the community comes first.",
       "claim_ids": [
         "c1",
         "C01",
@@ -131,12 +131,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The matai system and fa'a Samoa have historically structured Samoan society, emphasizing collective responsibilities and social stability.",
-        "claim_ids": [
-          "c1",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "The matai chiefly title system organises family and village and assigns roles, producing one of the lowest Identity scores."
+      },
+      {
+        "text": "Fa'a Samoa, the Samoan way, supplies a detailed customary order that operates alongside the state."
+      },
+      {
+        "text": "Church obligation and remittances from abroad shape both the social calendar and the household economy."
       }
     ],
     "competing_forces": [
@@ -216,7 +217,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Samoa revolves around community and family, with social interactions governed by respect and indirect communication. Traditional values dominate everyday life, but younger generations are increasingly influenced by individualistic ideals, creating a dynamic cultural landscape.",
+      "text": "Life revolves around community and family, with dealings governed by respect and indirect talk. Traditional values dominate the everyday, but younger generations are increasingly drawn to individualist ideals, making a shifting cultural scene.",
       "claim_ids": [
         "c1",
         "c5",
@@ -227,20 +228,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of community and family is immediately evident, with social interactions centered around respect and harmony.",
-        "claim_ids": [
-          "c1",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "The matai system structures everything."
       },
       {
-        "text": "Public speech is soft and indirect, with humour used to navigate conflicts and maintain harmony.",
-        "claim_ids": [
-          "c6",
-          "C16"
-        ],
-        "sources_count": 2
+        "text": "Church shapes the week."
+      },
+      {
+        "text": "Respect is shown through manner and language."
       }
     ],
     "success_factors": [
@@ -329,7 +323,7 @@
         "iso3": "FSM",
         "country": "Micronesia (Fed. States)",
         "similarity": 87,
-        "explanation": "Both Samoa and Micronesia emphasize strong community ties and traditional governance systems, though Samoa's matai system is more pronounced.",
+        "explanation": "Both Samoa and Micronesia stress strong community ties and traditional governance systems, though Samoa's matai system is more pronounced.",
         "claim_ids": [
           "c1",
           "C01"
@@ -497,7 +491,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-oriented projects",
+      "Cultural immersion experiences",
+      "Collaborative team environments"
+    ]
   },
   "sources": [
     {
@@ -761,11 +760,11 @@
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 68,
+        "score": 51,
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 63,
+        "score": 70,
         "confidence": "MEDIUM"
       },
       "D4": {

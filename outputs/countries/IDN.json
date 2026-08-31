@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 32,
-        "reading": "Group-oriented",
-        "explanation": "Identity in Indonesia is deeply tied to communal and customary groups, with a strong emphasis on collective belonging over individual traits."
+        "score": 25,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: belonging, harmony and the group ethic of gotong royong (mutual help) come first, so elder and group approval and word-of-mouth drive choices."
       },
       {
         "dimension": "D2",
-        "score": 25,
-        "reading": "Reserved",
-        "explanation": "Social norms in Indonesia favor restraint, with a cultural tendency towards emotional control and indirect communication."
+        "score": 27,
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: indirect, smile-and-soften talk keeps harmony and face, so gentle, warm, non-confrontational approaches work and directness offends."
       },
       {
         "dimension": "D3",
-        "score": 35,
-        "reading": "Adaptable",
-        "explanation": "While Indonesia has structured hierarchies, there is a notable tolerance for ambiguity and reliance on interpersonal relationships over strict rules."
+        "score": 45,
+        "reading": "Fluid",
+        "explanation": "Middle-flexible: a loose sense of time (jam karet, 'rubber time') and relationship-first dealing keep things adaptable, so patience and a human touch beat rigid schedules."
       },
       {
         "dimension": "D4",
-        "score": 40,
-        "reading": "Relaxed",
-        "explanation": "The culture leans towards valuing quality of life and social harmony over aggressive competition, reflecting a more feminine orientation."
+        "score": 39,
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: harmony, community and contentment beat competition, so practical, communal, everyday goods matter most, with rising urban aspiration."
       }
     ],
-    "executive_summary": "Indonesia is a tapestry of communal values, where group belonging and social harmony are paramount. The culture emphasizes adaptability, with a relaxed approach to time and indirect communication. While deeply rooted in collectivism, urban areas are seeing a shift towards individualism among younger generations.",
+    "executive_summary": "Indonesia is a communal place, where belonging to the group and keeping social harmony come first. People value adaptability, an easy sense of time, and a way of speaking that hints rather than states. The roots are deeply collective, though the cities are tilting the young toward individualism.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective belonging guides identity, yet flexibility and adaptability are key to navigating daily life.",
+      "title": "Quiet Communities",
+      "summary": "Belonging and harmony come first, and time stretches to fit.",
       "claim_ids": [
         "C2",
         "C01"
@@ -168,12 +168,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Indonesia's collectivist culture is rooted in agrarian traditions and communal resilience, reinforced by the national ideology of Pancasila.",
-        "claim_ids": [
-          "C07",
-          "c3"
-        ],
-        "sources_count": 2
+        "text": "Gotong royong, the ethic of mutual help, and village adat make the community the base of identity, producing one of the lowest scores measured."
+      },
+      {
+        "text": "An archipelago of hundreds of ethnic groups values harmony and face-saving as the means of holding together, keeping Expression among the most restrained."
+      },
+      {
+        "text": "Jam karet, rubber time, and a large informal economy keep schedules and rules flexible."
       }
     ],
     "competing_forces": [
@@ -267,7 +268,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Indonesia feels like a blend of communal belonging and flexible routines. Meetings may start late, and interactions are guided by indirect communication, with a strong emphasis on maintaining harmony. While verbal hospitality is common, deeper emotional connections may take time to develop.",
+      "text": "It feels like communal belonging inside flexible routines. Meetings may start late, and exchanges run on indirect talk with a strong eye on keeping harmony. Hospitality in words comes easily, while deeper emotional bonds can take their time to form.",
       "claim_ids": [
         "C25",
         "C1",
@@ -277,20 +278,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of hierarchy and respect for seniority is evident in workplace interactions.",
-        "claim_ids": [
-          "C26",
-          "C27"
-        ],
-        "sources_count": 2
+        "text": "The politeness is constant and the smiling universal."
       },
       {
-        "text": "Indirect communication is prevalent, with nonverbal cues and politeness often masking true feelings.",
-        "claim_ids": [
-          "C15",
-          "c7"
-        ],
-        "sources_count": 2
+        "text": "Nothing runs precisely to time."
+      },
+      {
+        "text": "Direct disagreement is almost never heard."
       }
     ],
     "success_factors": [
@@ -402,7 +396,7 @@
         "iso3": "VNM",
         "country": "Vietnam",
         "similarity": 94,
-        "explanation": "Both Indonesia and Vietnam share strong collectivist values and emphasize social harmony, but Indonesia's approach to time and communication may feel more relaxed.",
+        "explanation": "Both Indonesia and Vietnam share strong collectivist values and stress social harmony, but Indonesia's approach to time and communication may feel more relaxed.",
         "claim_ids": [
           "C1",
           "C25"
@@ -570,7 +564,12 @@
           "suggested_score": 40
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural adaptation",
+      "Community-driven projects"
+    ]
   },
   "sources": [
     {
@@ -896,19 +895,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 32,
-        "confidence": "HIGH"
-      },
-      "D2": {
         "score": 25,
         "confidence": "HIGH"
       },
+      "D2": {
+        "score": 27,
+        "confidence": "HIGH"
+      },
       "D3": {
-        "score": 35,
+        "score": 45,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 40,
+        "score": 39,
         "confidence": "MEDIUM"
       }
     },

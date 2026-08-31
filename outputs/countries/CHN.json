@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 34,
-        "reading": "Group-oriented",
-        "explanation": "China's culture is deeply rooted in collectivism, where group identity and social harmony take precedence over individual pursuits."
+        "score": 32,
+        "reading": "Social",
+        "explanation": "Community-first: family, in-group and the web of relationships known as guanxi set identity, and face binds the group, so trust, reputation and personal networks drive choices far more than cold appeals."
       },
       {
         "dimension": "D2",
-        "score": 8,
-        "reading": "Reserved",
-        "explanation": "Emotional expression is often restrained, with social norms emphasizing the importance of maintaining face and harmony in interactions."
+        "score": 21,
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: composure and face-saving keep feeling in check, so understated, credibility-led, respectful framing works while loud emotion reads as loss of control, though festivals and online life open a valve."
       },
       {
         "dimension": "D3",
-        "score": 18,
-        "reading": "Flexible",
-        "explanation": "While structured environments are valued, the gap between formal rules and their enforcement introduces a level of unpredictability."
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Middle: rules and hierarchy matter, yet people improvise and pull strings through relationships, so official structure plus a trusted connection is how things actually move."
       },
       {
         "dimension": "D4",
-        "score": 97,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "China's culture is characterized by a strong drive for achievement, with competitive education and work environments reflecting this value."
+        "score": 80,
+        "reading": "Strongly Striving",
+        "explanation": "Very high: education and success are the family's ladder and status is displayed, so aspirational, premium and status goods carry real weight, and visible upgrade beats mere low price."
       }
     ],
-    "executive_summary": "In China, the collective often takes precedence over the individual, with a strong emphasis on maintaining harmony and achieving success. Emotional expression is reserved, and social networks are pivotal for navigating both personal and professional life. The drive for achievement is intense, fueled by a competitive educational system and cultural values that prioritize hard work.",
+    "executive_summary": "In China the group usually comes before the individual, and two things are held high: harmony and success. Feelings are kept reserved, and much of life runs through personal networks, the web of relationships and favors known as guanxi. The drive to achieve is fierce, fed by a brutally competitive school system and an old respect for hard work.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where collective harmony and relentless pursuit of success coexist.",
+      "title": "Striving Collective",
+      "summary": "Harmony is kept on the surface while everyone competes hard underneath.",
       "claim_ids": [
         "c1",
         "c15",
@@ -102,12 +102,16 @@
     ],
     "historical_drivers": [
       {
-        "text": "China's long history of Confucianism has deeply influenced its cultural values, emphasizing family, hierarchy, and social harmony.",
-        "claim_ids": [
-          "c5",
-          "c12"
-        ],
-        "sources_count": 2
+        "text": "A Confucian legacy of filial duty, hierarchy and ritual propriety made the family and its harmony the base of identity."
+      },
+      {
+        "text": "Face culture, sharpened by dense rice-farming villages where cooperation was compulsory, keeps public expression among the most restrained measured."
+      },
+      {
+        "text": "The imperial examination system and its modern descendant, the gaokao, tied family honour to a child's results."
+      },
+      {
+        "text": "Reform and opening after 1978 lifted hundreds of millions out of poverty within a generation, making visible success the proof of arrival and pushing Drive to the top of the range."
       }
     ],
     "competing_forces": [
@@ -240,7 +244,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Navigating life in China involves balancing the demands of a collectivist society with the intense drive for personal success. Confucian values shape social interactions, emphasizing harmony and respect for hierarchy. While emotional expression is often restrained, festivals and social media offer outlets for more open expression. The pressure to succeed is palpable, with education and career advancement taking center stage in many people's lives.",
+      "text": "It means balancing what the group expects against a hard push for personal success. Confucian habits shape the manners, all harmony and respect for rank. Feelings stay held in most of the time, though festivals and social media open a valve. The pressure to get ahead is real, and school and career sit at the center of many lives.",
       "claim_ids": [
         "c5",
         "c6",
@@ -252,39 +256,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Hierarchical social structures (age, rank, status) suppress open emotional expression in public and institutional settings; maintaining face (mianzi) requires emotional restraint.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
+        "text": "The pace and scale of commerce is startling."
       },
       {
-        "text": "Confucian family ideology persists – patrilineal lineage and filial piety continue to anchor individual identity within the family group, especially in rural areas.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "Indirect refusal is common, and a yes may not be one."
       },
       {
-        "text": "Emotion work in Chinese workplaces emphasizes harmony and suppression of negative feelings; open anger or enthusiasm is often viewed as immature or face-threatening.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The gap between formal law and actual enforcement (i.e., rule by law rather than rule of law) produces unpredictability and locally variable enforcement – countervailing the high-Structure impulse.",
-        "claim_ids": [
-          "c13"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Confucian workplace values around duty, loyalty, and respect underpin a culture where professional performance and status achievement are central to social identity and reputation.",
-        "claim_ids": [
-          "c27"
-        ],
-        "sources_count": 1
+        "text": "Payment, ordering and daily life run through the phone entirely."
       }
     ],
     "success_factors": [
@@ -412,7 +390,7 @@
         "iso3": "HKG",
         "country": "Hong Kong",
         "similarity": 75,
-        "explanation": "Both China and Hong Kong share Confucian values, emphasizing family ties and social harmony, but Hong Kong's colonial history introduces a more pronounced Western influence.",
+        "explanation": "Both China and Hong Kong share Confucian values, stressing family ties and social harmony, but Hong Kong's colonial history introduces a more pronounced Western influence.",
         "claim_ids": [
           "c1",
           "c5"
@@ -423,7 +401,7 @@
         "iso3": "KOR",
         "country": "South Korea",
         "similarity": 68,
-        "explanation": "China and South Korea both emphasize Confucian values and hierarchical social structures, but South Korea exhibits a more homogeneous society with a stronger emphasis on rapid modernization.",
+        "explanation": "China and South Korea both stress Confucian values and hierarchical social structures, but South Korea exhibits a more homogeneous society with a stronger emphasis on rapid modernization.",
         "claim_ids": [
           "c1",
           "c6"
@@ -580,7 +558,12 @@
           "suggested_score": 75
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Relationship-led business",
+      "Cultural enthusiasts interested in Confucian values"
+    ]
   },
   "sources": [
     {
@@ -796,19 +779,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 34,
+        "score": 32,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 8,
+        "score": 21,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 18,
+        "score": 46,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 97,
+        "score": 80,
         "confidence": "MEDIUM"
       }
     },

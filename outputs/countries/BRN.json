@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 32,
-        "reading": "Group-oriented",
-        "explanation": "Brunei is one of the most collectivist societies, where loyalty to family and community is paramount."
+        "score": 31,
+        "reading": "Social",
+        "explanation": "Community-first: family, community and a Malay Islamic identity set who you are, so belonging, conformity and reputation drive choices more than individual appeals."
       },
       {
         "dimension": "D2",
         "score": 32,
-        "reading": "Understated",
-        "explanation": "Public emotional expression is restrained, with a cultural emphasis on modesty and respect."
+        "reading": "Restrained",
+        "explanation": "Reserved: restraint, modesty and respect for rank govern public life, so understated, dignified, respectful framing works and loudness offends."
       },
       {
         "dimension": "D3",
         "score": 68,
-        "reading": "Structured",
-        "explanation": "Brunei's society is highly structured, with clear rules and expectations guided by the MIB ideology."
+        "reading": "Certain",
+        "explanation": "Strongly structured: a wealthy, orderly monarchy where loyalty, rules and predictability are prized, so the proper channel, established names and reliability reassure."
       },
       {
         "dimension": "D4",
         "score": 40,
-        "reading": "Relaxed",
-        "explanation": "While there is a moderate achievement orientation, societal values emphasize contentment and security over competitive striving."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: with oil wealth and security guaranteed, comfort, stability and a steady government job beat competitive striving, so ease and reliable quality land over status."
       }
     ],
-    "executive_summary": "Brunei's culture is deeply rooted in collectivism, with strong ties to family and community. Public life is marked by a sense of restraint and respect for hierarchy, influenced by Islamic and Malay traditions. The society operates within a structured framework, where loyalty and conformity are valued over individual expression. Economic security is prioritized, with a preference for stable public sector jobs over entrepreneurial pursuits.",
+    "executive_summary": "Brunei is a country of the group, tied close to family and community and shaped by Islamic and Malay tradition. Public life is restrained and respectful of rank, and loyalty and fitting in count for more than standing out. People favor a sure thing, which is why a steady government job beats the gamble of starting your own.",
     "cultural_archetype": {
-      "title": "The Communal Guardian",
-      "summary": "A society where community loyalty and structured living are paramount, underpinned by Malay Islamic values.",
+      "title": "Devout Households",
+      "summary": "Security is chosen over risk, in a quiet country ordered by faith and monarchy.",
       "claim_ids": [
         "C01",
         "C05"
@@ -94,12 +94,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Melayu Islam Beraja (MIB) ideology has been a cornerstone of Brunei's national identity, shaping its collectivist and structured society.",
-        "claim_ids": [
-          "C03",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "Oil and gas wealth from the 1920s underwrote cradle-to-grave security, which makes a safe path preferable to enterprise and holds Drive low."
+      },
+      {
+        "text": "The state ideology of Malay Islamic Monarchy fuses religion, tradition and loyalty into a single order, pushing Structure high."
+      },
+      {
+        "text": "A very small population under an absolute monarchy makes conformity and public modesty the norm."
       }
     ],
     "competing_forces": [
@@ -177,7 +178,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Brunei is characterized by a strong sense of community and respect for tradition. Public interactions are marked by restraint and formality, while private life offers warmth and relaxation. The structured environment provides stability, but may feel restrictive to those accustomed to more individualistic cultures.",
+      "text": "There is a strong sense of community and a deep respect for tradition. In public people are reserved and formal; in private there is warmth and ease. The orderly setup gives real stability, though it can feel tight to anyone raised on going it alone.",
       "claim_ids": [
         "C12",
         "C10",
@@ -187,28 +188,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of community and loyalty is immediately evident in Brunei's social interactions.",
-        "claim_ids": [
-          "C01",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "Public life is quiet and orderly to an unusual degree."
       },
       {
-        "text": "Public life is marked by modesty and respect, with a noticeable emphasis on Islamic values.",
-        "claim_ids": [
-          "C12",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "Religion structures the working week."
       },
       {
-        "text": "Communication is indirect and respectful, prioritizing harmony over directness.",
-        "claim_ids": [
-          "C09",
-          "c5"
-        ],
-        "sources_count": 2
+        "text": "Warmth appears in private, once the formal setting is left behind."
       }
     ],
     "success_factors": [
@@ -325,7 +311,7 @@
         "iso3": "VNM",
         "country": "Vietnam",
         "similarity": 84,
-        "explanation": "Both countries emphasize community and hierarchy, but Brunei's societal structure is more influenced by Islamic and Malay traditions.",
+        "explanation": "Both countries stress community and hierarchy, but Brunei's societal structure is more influenced by Islamic and Malay traditions.",
         "claim_ids": [
           "c1",
           "C03"
@@ -471,7 +457,11 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Structured environments"
+    ]
   },
   "sources": [
     {
@@ -698,7 +688,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 32,
+        "score": 31,
         "confidence": "MEDIUM"
       },
       "D2": {

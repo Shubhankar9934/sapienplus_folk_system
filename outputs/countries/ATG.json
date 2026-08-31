@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 40,
-        "reading": "Group-oriented",
-        "explanation": "Antiguans value personal independence and self-reliance, yet family and community ties remain central, creating a balance between individualism and collectivism."
+        "score": 42,
+        "reading": "Social",
+        "explanation": "Balanced, tilting communal: strong family and church networks anchor identity, but an independent, self-reliant streak from a history of small landholders keeps room for the individual; community endorsement still decides what gets bought."
       },
       {
         "dimension": "D2",
-        "score": 65,
-        "reading": "Expressive",
-        "explanation": "Festivals and social gatherings are lively and expressive, highlighting a culture that embraces emotional openness in communal settings."
+        "score": 63,
+        "reading": "Open",
+        "explanation": "Expressive: Carnival, music and warm, open sociability are the everyday register, so lively, colorful, shareable branding connects and stiff formality falls flat."
       },
       {
         "dimension": "D3",
-        "score": 43,
-        "reading": "Balanced",
-        "explanation": "A flexible approach to time and informal economy practices reflect a high tolerance for ambiguity and a fluid social structure."
+        "score": 40,
+        "reading": "Fluid",
+        "explanation": "Flexible: an easy island pace where relationships and trust outrank rigid schedules, so people expect give, informality and a handshake over fine print."
       },
       {
         "dimension": "D4",
-        "score": 50,
+        "score": 46,
         "reading": "Balanced",
-        "explanation": "While tourism drives economic activity, the emphasis on quality of life and community over competitive achievement defines the cultural drive."
+        "explanation": "Balanced, leaning to quality of life: getting ahead matters, often through education and migration, but the relaxed pace and enjoyment come first, so comfort and belonging matter alongside aspiration."
       }
     ],
-    "executive_summary": "Antigua and Barbuda is a vibrant blend of community and individualism, where personal independence coexists with strong family and church networks. Festivals like Carnival showcase the island's expressive culture, while daily life balances a relaxed pace with an emphasis on personal relationships. In the workplace, trust and harmony are prioritized over rigid structures, reflecting a unique Caribbean business ethos.",
+    "executive_summary": "Antigua and Barbuda stands on its own two feet and still leans on family and church. That independent streak goes back to small farmers working their own plots, with no lords standing over them. Carnival, the yearly street festival of costume and music, shows the loud and joyful side; the rest of the week runs slow and personal. At work, trust and getting along beat rigid rules, which is the Caribbean way of doing business.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society that harmonizes individual initiative with deep-rooted community ties.",
+      "title": "Self-reliant Talkers",
+      "summary": "Self-reliant islanders held together by family, church and a slow clock.",
       "claim_ids": [
         "c1",
         "c3",
@@ -147,11 +147,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "British colonial influence has shaped the legal system, education, and cultural practices of Antigua and Barbuda, embedding a strong rule-based institutional framework.",
-        "claim_ids": [
-          "C20"
-        ],
-        "sources_count": 1
+        "text": "Emancipation produced a society of smallholders with no landed aristocracy, breeding self-reliance that softens the communal pull."
+      },
+      {
+        "text": "Church and extended-family networks became the social infrastructure after slavery, and still decide reputation."
+      },
+      {
+        "text": "A tourism-and-service economy on a small island rewards relationships and an unhurried pace over rigid procedure."
       }
     ],
     "competing_forces": [
@@ -382,7 +384,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Day to day, life in Antigua and Barbuda is shaped by how antiguans value personal independence and self-reliance, a legacy of small-plot farming and the absence of a landed aristocracy; the business environment in Antigua and Barbuda retains distinct Caribbean characteristics centered around personal relationships; building trust and demonstrating genuine interest in local customs are key to successful long-term partnerships; family and church networks form the core of social identity, with strong obligations to kin and godchildren, indicating collectivist features. Together these patterns set the rhythm a newcomer adjusts to first.",
+      "text": "People here prize standing on their own, a habit left over from farming small plots with no aristocracy above them. But nobody is truly alone: family, church, and godchildren all come with real obligations. Business gets built on personal trust and a genuine interest in local ways, not on paperwork. Learn the easy rhythm and the loyalties underneath it, and you are halfway home.",
       "claim_ids": [
         "c1",
         "C03",
@@ -392,53 +394,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Antiguans value personal independence and self-reliance, a legacy of small-plot farming and the absence of a landed aristocracy.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Island time is real, and schedules are approximate."
       },
       {
-        "text": "Family and church networks form the core of social identity, with strong obligations to kin and godchildren, indicating collectivist features.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "Everyone seems to know everyone, and word travels in a day."
       },
       {
-        "text": "Community and extended family are central; individual success is often expected to be shared with the group, reflecting moderate collectivism.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Historical accounts note Antiguans as good-humoured and sociable, freely expressing emotions in community life.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Politeness and deference to elders and authority figures are valued, limiting spontaneous emotional display in formal interactions.",
-        "claim_ids": [
-          "c8"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The business environment in Antigua and Barbuda retains distinct Caribbean characteristics centered around personal relationships; building trust and demonstrating genuine interest in local customs ar",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "As one moves up the class hierarchy in Antigua and Barbuda, there is a gradual shift from Creole to standard English as the first language — language register signals social status, making linguistic ",
-        "claim_ids": [
-          "C34"
-        ],
-        "sources_count": 1
+        "text": "Warmth is genuine but the social circles take a while to enter."
       }
     ],
     "success_factors": [
@@ -695,7 +657,13 @@
           "suggested_score": 42
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural festivals",
+      "Community-focused initiatives",
+      "Relaxed lifestyle seekers"
+    ]
   },
   "sources": [
     {
@@ -1109,19 +1077,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 40,
+        "score": 42,
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 65,
+        "score": 63,
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 43,
+        "score": 40,
         "confidence": "LOW"
       },
       "D4": {
-        "score": 50,
+        "score": 46,
         "confidence": "LOW"
       }
     },

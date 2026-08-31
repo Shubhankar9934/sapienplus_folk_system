@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 70,
-        "reading": "Strongly independent",
-        "explanation": "Belgium's high individualism reflects a society where personal responsibility and self-reliance are highly valued, with a strong emphasis on individual achievement."
+        "reading": "Strongly Self",
+        "explanation": "Individual-leaning: people mind their own affairs and prize privacy, though within a strong civic frame, so personalization and discretion work while pushy communal appeals do not."
       },
       {
         "dimension": "D2",
-        "score": 50,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression in Belgium is typically restrained, with a preference for subtlety and indirect communication over direct confrontation."
+        "score": 49,
+        "reading": "Balanced",
+        "explanation": "Middle and understated: feeling is kept low and things said with a light touch, so subtle, proof-led, modest framing beats hype."
       },
       {
         "dimension": "D3",
         "score": 80,
-        "reading": "Highly structured",
-        "explanation": "Belgium's strong preference for structure and predictability is evident in its high Uncertainty Avoidance Index, reflecting a cultural emphasis on rules and order."
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: rules, procedures and predictability are taken seriously, with a knack for pragmatic compromise, so guarantees, standards and clear terms strongly reassure."
       },
       {
         "dimension": "D4",
         "score": 56,
-        "reading": "Balanced",
-        "explanation": "While Belgians value achievement and personal success, there is also a strong emphasis on maintaining a balanced quality of life."
+        "reading": "Striving",
+        "explanation": "Balanced: quiet ambition coexists with a real guard on private life and comfort, so quality and reliability matter more than status or flash."
       }
     ],
-    "executive_summary": "Belgium's culture is a blend of independence and structure, where individualism is highly valued, yet social harmony and order are equally important. Emotional expression is typically restrained, with a preference for subtlety over directness. The society is characterized by a strong sense of structure and predictability, with a high value placed on rules and procedures. Despite this, Belgians are known for their resourcefulness and ability to adapt, often finding practical compromises in complex situations.",
+    "executive_summary": "Belgium prizes the individual but insists on order, everyone minding their own business inside a very tidy system. Feelings are kept low, and things get said with a light touch instead of bluntly. Rules and procedures are taken seriously, and predictability is a comfort. Yet Belgians are quietly practical, forever finding the workable compromise in a tangled situation.",
     "cultural_archetype": {
-      "title": "The Independent Achiever",
-      "summary": "A society that values individual responsibility and achievement while maintaining a strong sense of order and structure.",
+      "title": "Procedural Individualists",
+      "summary": "People keep to themselves inside a system of rules that everyone actually follows.",
       "claim_ids": [
         "C01",
         "C02",
@@ -104,18 +104,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Belgium's history of pillarisation has fostered strong group identities and a balance between individualism and collectivism.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "A small, linguistically divided state has survived by negotiated compromise, producing the dense proceduralism that puts Structure among the highest scores."
       },
       {
-        "text": "The country's complex bureaucracy and emphasis on legal frameworks have historically reinforced its structured societal norms.",
-        "claim_ids": [
-          "c10"
-        ],
-        "sources_count": 1
+        "text": "A long history as a trading crossroads under successive foreign rulers bred pragmatism and a private, mind-your-own-business individualism."
+      },
+      {
+        "text": "Early industrialisation and strong institutions built prosperity that is now guarded quietly rather than displayed."
       }
     ],
     "competing_forces": [
@@ -236,7 +231,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Belgium means navigating a society that values individual responsibility and achievement while maintaining a strong sense of order and structure. Emotional expression tends to be restrained, yet Belgians are known for their warmth and hospitality in private settings. The emphasis on rules and predictability provides a sense of stability, but there's also room for pragmatic flexibility and compromise.",
+      "text": "Living here means running your own life within a well-run system. People are restrained in public and warm once the door is closed. The rules give a steadying floor, but there is room to bend them sensibly when a compromise is called for.",
       "claim_ids": [
         "claim_04",
         "claim_08",
@@ -247,36 +242,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Belgium's blend of individualism and collective identity is immediately apparent, with strong regional influences shaping social interactions.",
-        "claim_ids": [
-          "claim_01",
-          "claim_02"
-        ],
-        "sources_count": 2
+        "text": "The bureaucracy is real and best approached patiently."
       },
       {
-        "text": "The restrained emotional expression and preference for subtlety in communication can be surprising to those expecting more direct interactions.",
-        "claim_ids": [
-          "claim_04",
-          "C12"
-        ],
-        "sources_count": 2
+        "text": "People are reserved in public and hospitable once inside the home."
       },
       {
-        "text": "The emphasis on structure and predictability is evident in both personal and professional settings, with clear guidelines and conformity valued.",
-        "claim_ids": [
-          "claim_06",
-          "claim_07"
-        ],
-        "sources_count": 2
-      },
-      {
-        "text": "Belgians' warmth and hospitality shine through once trust is established, challenging initial perceptions of reservedness.",
-        "claim_ids": [
-          "C17",
-          "C19"
-        ],
-        "sources_count": 2
+        "text": "Understatement is the register — enthusiasm can read as suspicious."
       }
     ],
     "success_factors": [
@@ -576,7 +548,12 @@
           "suggested_score": 50
         }
       ]
-    }
+    },
+    "best_for": [
+      "Long-term planning and operations",
+      "Structured project management",
+      "Entrepreneurial ventures"
+    ]
   },
   "sources": [
     {
@@ -1005,7 +982,7 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 50,
+        "score": 49,
         "confidence": "MEDIUM"
       },
       "D3": {

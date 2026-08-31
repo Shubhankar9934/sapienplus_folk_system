@@ -17,7 +17,7 @@ export function ScorePoleBar({
   const pos = (v: number) => `${((v - 3) / 94) * 100}%`;
   return (
     <div>
-      <div className="flex justify-between text-[11px] text-ink-dim mb-1">
+      <div className="mb-1 flex justify-between text-[11px] text-ink/60 dark:text-white/50">
         <span>{meta.low}</span>
         <span>{meta.high}</span>
       </div>

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 63,
-        "reading": "Independent",
-        "explanation": "Hungarian society is a complex interplay of individualism and collectivism, with a strong emphasis on national identity and family networks."
+        "score": 55,
+        "reading": "Self",
+        "explanation": "Balanced: personal achievement and a proud individual streak sit beside strong family and in-group ties, so personalization and reputation both drive choices."
       },
       {
         "dimension": "D2",
-        "score": 47,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression in Hungary is often restrained, with a cultural tendency towards pessimism and controlled gratification."
+        "score": 41,
+        "reading": "Restrained",
+        "explanation": "Reserved: everyday dealings are measured and formal, with warmth in private and exuberance at festivals, so sincere, correct, low-hype framing works."
       },
       {
         "dimension": "D3",
         "score": 72,
-        "reading": "Highly structured",
-        "explanation": "Hungarian culture values structure and predictability, with a strong preference for rules and detailed planning."
+        "reading": "Strongly Certain",
+        "explanation": "Structured: order, punctuality, planning and formal procedure give a firm frame, so clear terms, guarantees and process reassure."
       },
       {
         "dimension": "D4",
         "score": 64,
-        "reading": "Achievement-oriented",
-        "explanation": "Hungary's culture is highly competitive and achievement-oriented, placing a strong emphasis on performance and success."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: real competitiveness and pride in accomplishment, so aspirational and quality goods land, balanced by a value on family time."
       }
     ],
-    "executive_summary": "Hungary's culture is a blend of individualism and collectivism, deeply rooted in historical experiences. Emotional expression is often restrained, but festivals reveal a more exuberant side. The workplace is structured and competitive, valuing punctuality and detailed planning. Social interactions are marked by a preference for direct communication and respect for hierarchy.",
+    "executive_summary": "Hungary mixes the individual and the collective, in a way shaped hard by its history. Feeling is usually held back, though the festivals show a more exuberant side. Work is structured and competitive, with a real value on punctuality and careful planning. People speak directly, and they respect the hierarchy.",
     "cultural_archetype": {
-      "title": "The Reserved Competitor",
-      "summary": "A society that balances emotional restraint with a strong drive for achievement and competitiveness.",
+      "title": "Competitive Planners",
+      "summary": "Reserved in manner and competitive in ambition, with order taken seriously.",
       "claim_ids": [
         "c4",
         "c10",
@@ -119,11 +119,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Hungarian society is deeply influenced by historical events such as the Trianon Treaty and the 1956 revolution, which have fostered a strong national identity and a collective memory of shared trauma.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "A history of partition, occupation and defeat between larger powers bred a proud, guarded individualism."
+      },
+      {
+        "text": "Habsburg and later socialist administration left a strong taste for order, planning and formal procedure."
+      },
+      {
+        "text": "A competitive education tradition, with unusual success in mathematics and science, ties standing to demonstrated achievement."
       }
     ],
     "competing_forces": [
@@ -213,7 +215,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Hungary means navigating a culture that values both individual achievement and collective identity. While public interactions may feel reserved, there's a vibrant energy during festivals and social gatherings. The workplace is structured and competitive, with a strong emphasis on punctuality and planning. Overall, life in Hungary is a balance of striving for success and enjoying moments of peace and family time.",
+      "text": "It means living in a culture that prizes both personal achievement and a shared identity. Public dealings can feel reserved, but the festivals and gatherings bring a lively energy. Work is orderly and competitive, big on being on time and planning ahead. It is a balance of striving and quiet family time.",
       "claim_ids": [
         "c5",
         "c6",
@@ -224,12 +226,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of punctuality and structured agendas in the workplace may stand out, reflecting a cultural preference for order and predictability.",
-        "claim_ids": [
-          "C18",
-          "c8"
-        ],
-        "sources_count": 2
+        "text": "The reserve at first meeting is normal."
+      },
+      {
+        "text": "The language is unlike its neighbours and people know it."
+      },
+      {
+        "text": "Formality precedes friendship."
       }
     ],
     "success_factors": [
@@ -453,23 +456,6 @@
           "suggested_score": 20
         }
       ],
-      "D4": [
-        {
-          "specialist": "Cultural Anthropologist",
-          "reasoning": "Evidence on competition and ambition is mixed. Gender-egalitarian society perhaps dampens competitive norms, yet rising importance of friendships and emotional support may reflect harmony orientation. Starting from mid (50) seems appropriate.",
-          "suggested_score": 50
-        },
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Hofstede MAS=88 is the primary anchor, placing Hungary among the highest-scoring countries globally on the masculinity (achievement/competition) dimension — comparable to Japan and Austria. This is corroborated by the OpenStax management textbook identifying Hungary as a paradigm case of a masculine culture valuing 'achievement, competitiveness, and acquisition'; the Understanding Magyar analysis (people 'live in order to work', managers decisive and assertive, emphasis on equity, competition, performance, conflicts resolved by fighting them out); and the GLOBE study finding Hungarians 'competitive' with low human orientation. Corporate culture sources (Jarniascyril.com) note that long working hours are a sign of commitment and results-focus is dominant. Counter-evidence: the 2022 arxiv replication study found MAS=33, a 55-point gap — the largest discrepancy they found — arguing Hungary has become more quality-of-life oriented. Hungarian narratives in one study emphasised 'relationship orientation and emotional coping' over achievement. These counter-signals are the strongest in the dataset and cannot be ignored. They prevent a score near the ceiling but the canonical Hofstede anchor plus multiple corroborating sources keep the score clearly in the striving range. Score: 74 — high Striving, adjusted downward from the raw 88 ceiling to reflect serious modern replication evidence.",
-          "suggested_score": 74
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Hungarians are moderately competitive and achievement-oriented, especially in business and education, but also value work-life balance and social harmony. Hofstede's Masculinity score (88) suggests high drive, but historical accounts and ethnographic work (e.g., Béla Tomka, 2013) show that socialist-era forced egalitarianism and recent emphasis on 'Béke és Nyugalom' (peace and quiet) moderate the striving. Urban youth, however, are increasingly ambitious.",
-          "suggested_score": 55
-        }
-      ],
       "D2": [
         {
           "specialist": "Institutional Analyst",
@@ -493,8 +479,29 @@
           "reasoning": "Hungarian culture maintains strong preference for rules, punctuality, and predictability in public and business life, though less rigid than German-speaking neighbours. Hofstede's Uncertainty Avoidance for Hungary is high (80+), indicating need for structure. Counter-evidence from corruption and bureaucratic unpredictability (Transparency International, 2020) shows the system often fails to deliver certainty, but psychological need for structure remains high.",
           "suggested_score": 65
         }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence on competition and ambition is mixed. Gender-egalitarian society perhaps dampens competitive norms, yet rising importance of friendships and emotional support may reflect harmony orientation. Starting from mid (50) seems appropriate.",
+          "suggested_score": 50
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede MAS=88 is the primary anchor, placing Hungary among the highest-scoring countries globally on the masculinity (achievement/competition) dimension — comparable to Japan and Austria. This is corroborated by the OpenStax management textbook identifying Hungary as a paradigm case of a masculine culture valuing 'achievement, competitiveness, and acquisition'; the Understanding Magyar analysis (people 'live in order to work', managers decisive and assertive, emphasis on equity, competition, performance, conflicts resolved by fighting them out); and the GLOBE study finding Hungarians 'competitive' with low human orientation. Corporate culture sources (Jarniascyril.com) note that long working hours are a sign of commitment and results-focus is dominant. Counter-evidence: the 2022 arxiv replication study found MAS=33, a 55-point gap — the largest discrepancy they found — arguing Hungary has become more quality-of-life oriented. Hungarian narratives in one study emphasised 'relationship orientation and emotional coping' over achievement. These counter-signals are the strongest in the dataset and cannot be ignored. They prevent a score near the ceiling but the canonical Hofstede anchor plus multiple corroborating sources keep the score clearly in the striving range. Score: 74 — high Striving, adjusted downward from the raw 88 ceiling to reflect serious modern replication evidence.",
+          "suggested_score": 74
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Hungarians are moderately competitive and achievement-oriented, especially in business and education, but also value work-life balance and social harmony. Hofstede's Masculinity score (88) suggests high drive, but historical accounts and ethnographic work (e.g., Béla Tomka, 2013) show that socialist-era forced egalitarianism and recent emphasis on 'Béke és Nyugalom' (peace and quiet) moderate the striving. Urban youth, however, are increasingly ambitious.",
+          "suggested_score": 55
+        }
       ]
-    }
+    },
+    "best_for": [
+      "Structured project management",
+      "Competitive business environments"
+    ]
   },
   "sources": [
     {
@@ -743,11 +750,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 63,
+        "score": 55,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 47,
+        "score": 41,
         "confidence": "HIGH"
       },
       "D3": {

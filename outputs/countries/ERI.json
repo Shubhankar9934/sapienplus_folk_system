@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 32,
-        "reading": "Group-oriented",
-        "explanation": "Eritrean society is deeply rooted in collective identity, with kinship networks and national unity shaping social interactions."
+        "score": 36,
+        "reading": "Social",
+        "explanation": "Community-first: kinship networks and a strong collective identity set who you are, so belonging, trust and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 40,
-        "reading": "Understated",
-        "explanation": "Public expression in Eritrea is restrained, with indirect communication and a focus on harmony prevailing."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, harmony-minded talk and tight state control keep public feeling in check, so measured, relationship-led approaches work."
       },
       {
         "dimension": "D3",
-        "score": 45,
+        "score": 48,
         "reading": "Balanced",
-        "explanation": "Eritrea's social and political structures are highly ordered, with national service and state control imposing a rigid framework."
+        "explanation": "Middle, tilting structured: clan custom plus rigid national service and heavy state control give a firm frame, so the known way and standing carry weight."
       },
       {
         "dimension": "D4",
-        "score": 33,
-        "reading": "Relaxed",
-        "explanation": "The culture values resilience and endurance, with a focus on collective achievement and national pride."
+        "score": 43,
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: relationships, faith and getting through come before competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Eritrea is a land where collective identity and kinship networks define social life, while national service and state control impose a rigid structure. Communication is indirect and harmony-focused, with public expression tightly controlled. Despite these constraints, Eritrean culture is rich in hospitality, storytelling, and community celebrations.",
+    "executive_summary": "Eritrea is held together by kinship and a strong collective identity, while compulsory national service and heavy state control lay a rigid frame over it. People talk indirectly and aim for harmony, and public expression is kept on a tight leash. Even so, the culture is rich with hospitality, storytelling, and community celebration.",
     "cultural_archetype": {
-      "title": "The Collective Custodian",
-      "summary": "A society deeply rooted in kinship and collective identity, where community bonds and national unity are paramount.",
+      "title": "Guarded Communities",
+      "summary": "Kinship holds people together under a state that leaves little room.",
       "claim_ids": [
         "C1",
         "C3",
@@ -136,18 +136,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Eritrea's 30-year liberation struggle forged a strong pan-Eritrean national identity, shaping collective consciousness and suppressing sub-national identities.",
-        "claim_ids": [
-          "d1-cnt1"
-        ],
-        "sources_count": 1
+        "text": "A thirty-year liberation war made collective solidarity a survival requirement and still shapes national identity."
       },
       {
-        "text": "The Gezauti lineage system in highland Eritrea interlinks individuals and villages into an intricate kinship network, emphasizing collective identity.",
-        "claim_ids": [
-          "C1"
-        ],
-        "sources_count": 1
+        "text": "Indefinite national service and pervasive state control lay a rigid frame over public life and constrain expression."
+      },
+      {
+        "text": "Highland village and lineage structures remain the practical support system where the state provides little."
       }
     ],
     "competing_forces": [
@@ -356,7 +351,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Day to day, life in Eritrea is shaped by how eritrean unaccompanied refugee minors emphasize relationships, spirituality and daily integration rather than achievement or competition; the Tigrinya concept of community (meetse/gheez) shapes Eritrean workplaces: team cohesion often trumps individualism, and interviewers probe collaborative skills rather than individual achievement; eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity. Together these patterns set the rhythm a newcomer adjusts to first.",
+      "text": "Relationships, faith, and getting through the day count for more here than winning or competing. A Tigrinya idea of community shapes the workplace: the team's cohesion tends to beat individual ambition, and people look for how well you work with others. Even far from home, Eritreans tend to keep their friendships among fellow Eritreans, which reinforces the group's sense of itself.",
       "claim_ids": [
         "C8",
         "d1-c5",
@@ -366,46 +361,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Eritrean diaspora respondents describe friendships and social circles almost entirely focused on fellow Eritreans, reinforcing group-based identity.",
-        "claim_ids": [
-          "C2"
-        ],
-        "sources_count": 1
+        "text": "Public life is quiet and watchful."
       },
       {
-        "text": "Eritrean greeting rituals are elaborate and emotionally expressive—ululation, hugging, kissing and tears feature prominently in social greetings.",
-        "claim_ids": [
-          "C5"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is genuine and carefully observed."
       },
       {
-        "text": "Eritrean unaccompanied refugee minors emphasize relationships, spirituality and daily integration rather than achievement or competition.",
-        "claim_ids": [
-          "C8"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The lineage and/or clan hold an organising function in terms of social duties and obligations and as a level of identity across Eritrea's ethnic groups.",
-        "claim_ids": [
-          "d1-c1"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The Tigrinya concept of community (meetse/gheez) shapes Eritrean workplaces: team cohesion often trumps individualism, and interviewers probe collaborative skills rather than individual achievement.",
-        "claim_ids": [
-          "d1-c5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Communication in Eritrea is indirect, focusing on harmony and avoiding confrontation—a pattern that diffuses tension and prioritises collective harmony over direct individual expression.",
-        "claim_ids": [
-          "d2-c2"
-        ],
-        "sources_count": 1
+        "text": "The coffee ceremony takes as long as it takes."
       }
     ],
     "success_factors": [
@@ -691,7 +653,12 @@
           "suggested_score": 65
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Cultural preservation projects",
+      "Humanitarian efforts"
+    ]
   },
   "sources": [
     {
@@ -1105,7 +1072,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 32,
+        "score": 36,
         "confidence": "MEDIUM"
       },
       "D2": {
@@ -1113,11 +1080,11 @@
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 45,
+        "score": 48,
         "confidence": "LOW"
       },
       "D4": {
-        "score": 33,
+        "score": 43,
         "confidence": "LOW"
       }
     },

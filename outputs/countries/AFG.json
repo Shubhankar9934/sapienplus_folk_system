@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 30,
-        "reading": "Community-first",
-        "explanation": "Afghan identity is deeply rooted in tribal and familial loyalties, with personal identity closely tied to these collective structures."
+        "score": 24,
+        "reading": "Strongly Social",
+        "explanation": "Sits far on the community side: a person is first a member of a family, clan and tribe, and honor is collective, so pride or shame falls on the whole group. Commitments and purchases are cleared through elders and kin, and a trusted introduction opens doors that advertising never will."
       },
       {
         "dimension": "D2",
         "score": 38,
-        "reading": "Understated",
-        "explanation": "Public emotional expression is restrained, with indirect communication used to maintain dignity and honor."
+        "reading": "Restrained",
+        "explanation": "Leans reserved. Feeling is guarded and hard things are said gently to protect everyone's dignity, so a blunt or pushy approach reads as disrespect; warmth is shown through hospitality (tea, food, time) rather than open declaration."
       },
       {
         "dimension": "D3",
-        "score": 62,
-        "reading": "Structured",
-        "explanation": "Despite a high tolerance for ambiguity, Afghan society relies on traditional codes like Pashtunwali to provide structure in the absence of a strong state."
+        "score": 57,
+        "reading": "Certain",
+        "explanation": "Tilts to structure through custom, not paperwork: the Pashtunwali honor code and religious rule give life a firm, predictable frame even where the state is weak, so people trust the known way and the word of a respected man over a printed contract."
       },
       {
         "dimension": "D4",
-        "score": 35,
-        "reading": "Relaxed",
-        "explanation": "The pursuit of honor and status through competitive displays is a key driver in Afghan society, reflecting a strong achievement orientation."
+        "score": 51,
+        "reading": "Balanced",
+        "explanation": "Balanced. Providing for and protecting the family matters more than personal glory, so goods that signal you can provide and safeguard your people land better than pure self-advancement."
       }
     ],
-    "executive_summary": "Afghanistan is a place where community bonds are paramount, emotional expression is reserved, and life is navigated through a complex web of tribal and familial loyalties. Newcomers will notice the importance of honor and hospitality, as well as the indirect communication style that preserves dignity.",
+    "executive_summary": "In Afghanistan you belong to your family and your tribe first, and to yourself somewhere after that. People keep their feelings to themselves and say hard things gently, so that nobody loses face. Honor matters here, and so does hospitality: a guest gets fed and protected, no questions asked. A newcomer learns fast that who you are related to is the map to everything else.",
     "cultural_archetype": {
-      "title": "The Tribal Guardian",
-      "summary": "A society deeply rooted in tribal customs and collective honor, where personal identity is intertwined with family and community.",
+      "title": "Tribal Families",
+      "summary": "Family, clan and tribe come first, and honour belongs to the whole group rather than the person.",
       "claim_ids": [
         "c1",
         "c3",
@@ -95,11 +95,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Decades of endemic armed conflict, state collapse, and mass displacement have forced Afghans to operate in conditions of extreme practical uncertainty—suggesting lived tolerance for fluid, unpredictable environments.",
-        "claim_ids": [
-          "C22"
-        ],
-        "sources_count": 1
+        "text": "Decades of invasion, civil war and state collapse left family, clan and tribe as the only institution that ever paid out, holding Identity at the community end."
+      },
+      {
+        "text": "The Pashtunwali honour code, carried orally through generations, supplies the order a weak state does not, which is why Structure sits on the structured side despite the absence of working institutions."
+      },
+      {
+        "text": "A subsistence economy with little formal employment channels effort into providing for kin rather than personal advancement."
       }
     ],
     "competing_forces": [
@@ -229,7 +231,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Afghanistan revolves around family and community, where personal interests are often secondary to the collective. The importance of honor and hospitality is ever-present, and communication is nuanced and indirect to maintain dignity. This creates a social fabric that is both tightly knit and complex, requiring newcomers to navigate relationships with care.",
+      "text": "Day to day, the family and the tribe come first, and whatever you personally want tends to wait its turn. Honor and hospitality run through all of it. People speak around a thing rather than straight at it, to keep everyone's dignity in one piece. It makes for a tight, complicated web of loyalties, and a stranger has to step through it carefully.",
       "claim_ids": [
         "C04",
         "c5",
@@ -239,28 +241,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of family and tribal loyalties is immediately apparent, as personal identity is closely tied to these groups rather than the nation-state.",
-        "claim_ids": [
-          "c1",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "The first thing a stranger notices is how quickly the question turns to who your people are."
       },
       {
-        "text": "Public emotional expression is restrained, especially for women, which can make interactions seem formal or reserved.",
-        "claim_ids": [
-          "c5",
-          "c6"
-        ],
-        "sources_count": 2
+        "text": "Nothing is settled in one meeting; trust is built slowly and in person."
       },
       {
-        "text": "Hospitality is a cornerstone of Afghan culture, with generous welcomes and an emphasis on honor and respect.",
-        "claim_ids": [
-          "c3",
-          "C16"
-        ],
-        "sources_count": 2
+        "text": "Feeling is kept folded away, and hard things are said gently."
       }
     ],
     "success_factors": [
@@ -542,7 +529,11 @@
           "suggested_score": 69
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Relationship-driven diplomacy"
+    ]
   },
   "sources": [
     {
@@ -835,7 +826,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 30,
+        "score": 24,
         "confidence": "MEDIUM"
       },
       "D2": {
@@ -843,11 +834,11 @@
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 62,
+        "score": 57,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 35,
+        "score": 51,
         "confidence": "MEDIUM"
       }
     },

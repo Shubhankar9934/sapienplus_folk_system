@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 49,
-        "reading": "Balanced",
-        "explanation": "Collectivist values prioritize group loyalty and personal relationships over individual achievements."
+        "score": 41,
+        "reading": "Social",
+        "explanation": "Balanced, tilting communal: personal relationships and group loyalty run deep while urban individualism rises, so trusted networks and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 38,
-        "reading": "Understated",
-        "explanation": "Emotional expression is restrained, with public displays often seen as inappropriate, reflecting a serious cultural demeanor."
+        "reading": "Restrained",
+        "explanation": "Reserved: public restraint (a smile without reason is suspect) with deep, expressive private warmth, so sincere, low-hype, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 81,
-        "reading": "Highly structured",
-        "explanation": "A strong preference for rules and predictability manifests in a highly bureaucratic culture."
+        "score": 82,
+        "reading": "Strongly Certain",
+        "explanation": "Very highly structured: a heavy bureaucracy and a strong preference for order and predictability give a firm frame, so official process plus a trusted contact is how things move."
       },
       {
         "dimension": "D4",
-        "score": 52,
+        "score": 48,
         "reading": "Balanced",
-        "explanation": "While relationships and quality of life are prioritized over competition, achievement in education and career is still highly valued."
+        "explanation": "Balanced: education and career are prized, especially in the cities, while competition is played down, so aspiration and quality goods land within a networked frame."
       }
     ],
-    "executive_summary": "In Russia, personal relationships and group loyalty often take precedence over individual achievement, reflecting a deeply ingrained collectivist orientation. Emotional expression is restrained, with public displays of emotion often seen as inappropriate. The culture values structure and predictability, leading to a highly bureaucratic environment. Despite a low emphasis on competition, achievement in education and career is highly valued, especially in urban areas.",
+    "executive_summary": "In Russia personal relationships and group loyalty tend to outweigh individual achievement, out of a deep collectivist streak. Feeling is held back, since a public show of emotion is often thought improper. The culture loves structure and predictability, which breeds a heavily bureaucratic world. Competition is played down, yet doing well in school and career is prized, especially in the cities.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where group loyalty coexists with a drive for personal success, particularly in education and career.",
+      "title": "Guarded Circles",
+      "summary": "Closed in public, unstinting in private, and heavy with procedure.",
       "claim_ids": [
         "claim1",
         "claim7"
@@ -216,18 +216,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Historical serfdom and the mir institutionalized collective decision-making and dependency on the group, shaping a social identity where the individual is embedded in the collective.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "A collectivist village and later Soviet tradition made group loyalty and personal trust networks the reliable unit."
       },
       {
-        "text": "Soviet-era collectivism reinforced group-centered identity and emotional restraint, punishing deviation from group norms.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "An enormous and enduring state bureaucracy, from tsarist through Soviet to present administration, produced the highest Structure score in the set."
+      },
+      {
+        "text": "A long-standing distinction between guarded public conduct and unstinting private hospitality shapes how expression is read."
       }
     ],
     "competing_forces": [
@@ -335,7 +330,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Russia is characterized by a balance of collectivist values and rising individualism. Public emotional restraint contrasts with private expressiveness among friends. Business relies on personal trust and reciprocal favors, while the cultural preference for order manifests in a highly structured environment. Despite the emphasis on relationships, achievement in education and career is a central goal, especially in urban areas.",
+      "text": "Life mixes collectivist habit with a rising individualism. Public restraint gives way to real expressiveness among friends. Business runs on personal trust and traded favors, while the love of order shows in a highly structured world. For all the weight on relationships, getting ahead in school and career is a central goal, especially in the cities.",
       "claim_ids": [
         "C13",
         "C03",
@@ -345,32 +340,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Emotional expression is restrained in public, with displays often seen as inappropriate, reflecting a serious cultural demeanor.",
-        "claim_ids": [
-          "claim4"
-        ],
-        "sources_count": 1
+        "text": "Smiling at strangers is unusual and its absence is not hostility."
       },
       {
-        "text": "Reciprocal favors and interdependence are integral to Russian business, with deep personal trust governing relationships.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "The shift from public to private manner is dramatic."
       },
       {
-        "text": "Despite declared collectivist values, actual behavior often reflects individualism, especially in urban areas and among younger generations.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The cultural keyword 'порядок' (order) reflects a deep psychological preference for structure and predictability.",
-        "claim_ids": [
-          "c11"
-        ],
-        "sources_count": 1
+        "text": "Paperwork is extensive."
       }
     ],
     "success_factors": [
@@ -644,7 +620,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Long-term planning and operations",
+      "Relationship-led business",
+      "Structured environments"
+    ]
   },
   "sources": [
     {
@@ -1025,7 +1006,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 49,
+        "score": 41,
         "confidence": "HIGH"
       },
       "D2": {
@@ -1033,11 +1014,11 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 81,
+        "score": 82,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 52,
+        "score": 48,
         "confidence": "MEDIUM"
       }
     },

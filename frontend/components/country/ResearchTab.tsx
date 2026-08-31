@@ -1,14 +1,31 @@
 "use client";
 
-import { Card, SectionTitle, Meter, Spinner, Badge } from "@/components/ui";
+import { Spinner } from "@/components/ui";
 import { DIMENSIONS, DIM_BY_CODE, type DimCode } from "@/lib/dimensions";
 import { useDimension, type CountryProfile, type CouncilView } from "@/lib/api";
 
-function verdictColor(v: string | null) {
-  if (!v) return "#9fb0c0";
-  if (v.includes("Strong")) return "#34d399";
-  if (v.includes("Moderate")) return "#f0b429";
-  return "#f87171";
+function Hairline() {
+  return <div className="h-px w-full bg-ink/10 dark:bg-white/8" />;
+}
+
+function EditorialHeading({ children }: { children: React.ReactNode }) {
+  return (
+    <h2 className="font-display text-[1.6rem] uppercase leading-[0.9] tracking-[-0.01em] text-ink dark:text-white">
+      {children}
+    </h2>
+  );
+}
+
+function ScoreBar({ value }: { value: number }) {
+  const pct = Math.max(0, Math.min(100, value));
+  return (
+    <div className="relative h-px w-full bg-ink/12 dark:bg-white/10">
+      <div
+        className="absolute left-0 top-0 h-full bg-coral-strong dark:bg-[#E14B3C]"
+        style={{ width: `${pct}%` }}
+      />
+    </div>
+  );
 }
 
 function CouncilReasoning({ profile }: { profile: CountryProfile }) {
@@ -16,37 +33,35 @@ function CouncilReasoning({ profile }: { profile: CountryProfile }) {
   const hasAny = DIMENSIONS.some((d) => (views[d.code] ?? []).length > 0);
   if (!hasAny) return null;
   return (
-    <Card className="p-6">
-      <SectionTitle
-        title="How the council read each dimension"
-        subtitle="Each specialist's reasoning — before the score they proposed"
-      />
-      <div className="space-y-6">
+    <div>
+      <div className="flex items-baseline justify-between">
+        <EditorialHeading>How the council read each dimension</EditorialHeading>
+        <span className="text-[11px] text-ink/40 dark:text-white/30 hidden sm:block">
+          Each specialist&apos;s reasoning
+        </span>
+      </div>
+      <Hairline />
+      <div className="mt-0 space-y-8 divide-y divide-ink/8 dark:divide-white/8">
         {DIMENSIONS.map((d) => {
           const list: CouncilView[] = views[d.code] ?? [];
           if (list.length === 0) return null;
           return (
-            <div key={d.code}>
-              <div className="text-sm font-medium mb-2" style={{ color: d.color }}>
-                {d.label}
-              </div>
-              <div className="space-y-2">
+            <div key={d.code} className="pt-6 first:pt-4">
+              <p className="mb-4 text-[9px] font-bold uppercase tracking-[0.24em] text-ink/40 dark:text-white/30">
+                {d.code} · {d.label}
+              </p>
+              <div className="space-y-4">
                 {list.map((v, i) => (
-                  <div
-                    key={i}
-                    className="rounded-lg border border-line bg-bg-soft p-3"
-                  >
-                    <div className="flex items-start justify-between gap-3">
-                      <span className="text-sm text-ink-soft leading-relaxed">
-                        <span className="font-medium text-ink">{v.specialist}:</span>{" "}
-                        {v.reasoning}
-                      </span>
-                      <span
-                        className="shrink-0 rounded-md border border-line px-2 py-1 text-xs tabular-nums text-ink"
-                      >
-                        {v.suggested_score}
-                      </span>
-                    </div>
+                  <div key={i} className="flex items-start justify-between gap-6">
+                    <p className="text-[13px] leading-relaxed text-ink/70 dark:text-white/60">
+                      <span className="font-semibold text-ink dark:text-white">
+                        {v.specialist}:
+                      </span>{" "}
+                      {v.reasoning}
+                    </p>
+                    <span className="shrink-0 border border-ink/18 dark:border-white/15 px-2.5 py-1 text-[12px] tabular-nums font-semibold text-ink dark:text-white rounded-sm">
+                      {v.suggested_score}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -54,7 +69,7 @@ function CouncilReasoning({ profile }: { profile: CountryProfile }) {
           );
         })}
       </div>
-    </Card>
+    </div>
   );
 }
 
@@ -62,41 +77,49 @@ function CouncilAgreementVisual({ profile }: { profile: CountryProfile }) {
   const a = profile.council_agreement;
   if (a.overall == null) return null;
   return (
-    <Card className="p-6">
-      <div className="flex items-center justify-between mb-4">
-        <SectionTitle title="Council agreement" subtitle="Did the specialists agree?" className="mb-0" />
-        <div className="text-right">
-          <div className="text-2xl font-bold tabular-nums" style={{ color: verdictColor(a.verdict) }}>
-            {a.overall}%
-          </div>
-          <div className="text-xs" style={{ color: verdictColor(a.verdict) }}>
-            {a.verdict}
-          </div>
-        </div>
+    <div>
+      <div className="flex items-baseline justify-between">
+        <EditorialHeading>Council agreement</EditorialHeading>
+        <span className="font-display text-[2rem] tabular-nums leading-none text-coral-strong dark:text-[#E14B3C]">
+          {a.overall}%
+        </span>
       </div>
-      <div className="space-y-3">
+      {a.verdict && (
+        <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">{a.verdict}</p>
+      )}
+      <Hairline />
+      <div className="mt-0 divide-y divide-ink/8 dark:divide-white/8">
         {DIMENSIONS.map((d) => {
           const dim = a.per_dimension[d.code];
           if (!dim) return null;
           return (
-            <div key={d.code}>
-              <div className="flex items-center justify-between text-sm mb-1">
-                <span className="text-ink-soft">{d.label}</span>
-                <span className="tabular-nums text-ink-dim">{dim.agreement}% agreement</span>
+            <div key={d.code} className="py-4">
+              <div className="mb-2 flex items-center justify-between">
+                <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-ink/40 dark:text-white/30">
+                  {d.code} · {d.label}
+                </span>
+                <span className="text-[12px] tabular-nums font-semibold text-ink dark:text-white">
+                  {dim.agreement}%
+                </span>
               </div>
-              <Meter value={dim.agreement} color={d.color} />
+              <ScoreBar value={dim.agreement} />
             </div>
           );
         })}
       </div>
-    </Card>
+    </div>
   );
 }
 
 function ConfidenceBreakdown({
   breakdown,
 }: {
-  breakdown: { coverage?: number; agreement?: number; evidence?: number; stability?: number; final?: number };
+  breakdown: {
+    coverage?: number;
+    agreement?: number;
+    evidence?: number;
+    stability?: number;
+  };
 }) {
   const rows: [string, number | undefined][] = [
     ["Coverage", breakdown.coverage],
@@ -106,16 +129,22 @@ function ConfidenceBreakdown({
   ];
   if (rows.every(([, v]) => v == null)) return null;
   return (
-    <div className="rounded-lg border border-line bg-bg-soft p-4">
-      <div className="text-sm font-medium mb-3">Confidence breakdown</div>
-      <div className="space-y-2.5">
+    <div>
+      <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-ink/35 dark:text-white/30">
+        Confidence breakdown
+      </p>
+      <div className="space-y-3">
         {rows.map(([label, v]) => (
-          <div key={label} className="grid grid-cols-[90px_1fr_40px] items-center gap-3">
-            <span className="text-xs text-ink-soft">{label}</span>
-            <Meter value={v ?? 0} />
-            <span className="text-xs tabular-nums text-ink-dim text-right">
-              {v != null ? Math.round(v) : "—"}
-            </span>
+          <div key={label}>
+            <div className="mb-1.5 flex items-center justify-between">
+              <span className="text-[10px] uppercase tracking-[0.12em] text-ink/40 dark:text-white/30">
+                {label}
+              </span>
+              <span className="text-[11px] tabular-nums text-ink/55 dark:text-white/45">
+                {v != null ? Math.round(v) : "—"}
+              </span>
+            </div>
+            <ScoreBar value={v ?? 0} />
           </div>
         ))}
       </div>
@@ -126,41 +155,58 @@ function ConfidenceBreakdown({
 function CouncilImpact({
   impact,
 }: {
-  impact: { baseline?: number | null; final?: number | null; change?: number | null; adjustment_type?: string | null; reason?: string | null };
+  impact: {
+    baseline?: number | null;
+    final?: number | null;
+    change?: number | null;
+    adjustment_type?: string | null;
+    reason?: string | null;
+  };
 }) {
   if (impact.baseline == null && impact.final == null) return null;
   const change = impact.change ?? 0;
   return (
-    <div className="rounded-lg border border-line bg-bg-soft p-4">
-      <div className="text-sm font-medium mb-3">Score formation</div>
-      <div className="flex items-center gap-4">
-        <div className="text-center">
-          <div className="text-xs text-ink-dim">Baseline</div>
-          <div className="text-xl font-semibold tabular-nums">{impact.baseline ?? "—"}</div>
+    <div>
+      <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-ink/35 dark:text-white/30">
+        Score formation
+      </p>
+      <div className="flex items-end gap-6">
+        <div>
+          <p className="text-[9px] uppercase tracking-[0.14em] text-ink/30 dark:text-white/25">
+            Baseline
+          </p>
+          <p className="font-display text-2xl tabular-nums text-ink dark:text-white">
+            {impact.baseline ?? "—"}
+          </p>
         </div>
-        <div className="text-ink-dim">&rarr;</div>
-        <div className="text-center">
-          <div className="text-xs text-ink-dim">Final</div>
-          <div className="text-xl font-semibold tabular-nums">{impact.final ?? "—"}</div>
+        <span className="mb-1 text-[11px] text-ink/25 dark:text-white/20">→</span>
+        <div>
+          <p className="text-[9px] uppercase tracking-[0.14em] text-ink/30 dark:text-white/25">
+            Final
+          </p>
+          <p className="font-display text-2xl tabular-nums text-ink dark:text-white">
+            {impact.final ?? "—"}
+          </p>
         </div>
-        <div className="text-center">
-          <div className="text-xs text-ink-dim">Change</div>
-          <div
-            className="text-xl font-semibold tabular-nums"
-            style={{ color: change >= 0 ? "#34d399" : "#f87171" }}
+        <div>
+          <p className="text-[9px] uppercase tracking-[0.14em] text-ink/30 dark:text-white/25">
+            Change
+          </p>
+          <p
+            className="font-display text-2xl tabular-nums"
+            style={{
+              color: change >= 0 ? "#34d399" : "#f87171",
+            }}
           >
             {change > 0 ? "+" : ""}
             {change}
-          </div>
+          </p>
         </div>
-        {impact.adjustment_type && (
-          <span className="ml-auto text-xs text-ink-dim border border-line rounded px-2 py-1">
-            {impact.adjustment_type}
-          </span>
-        )}
       </div>
       {impact.reason && (
-        <p className="mt-3 text-xs text-ink-soft leading-relaxed">{impact.reason}</p>
+        <p className="mt-3 text-[12px] leading-relaxed text-ink/55 dark:text-white/45">
+          {impact.reason}
+        </p>
       )}
     </div>
   );
@@ -170,29 +216,38 @@ function DimensionMethodology({ iso3, code }: { iso3: string; code: DimCode }) {
   const { data, isLoading } = useDimension(iso3, code);
   const meta = DIM_BY_CODE[code];
   return (
-    <Card className="p-6">
-      <div className="flex items-center justify-between">
-        <h3 className="text-lg font-semibold">
-          {meta.label}{" "}
-          <span className="tabular-nums" style={{ color: meta.color }}>
-            {data?.score ?? ""}
+    <div className="py-6 border-b border-ink/8 dark:border-white/8">
+      <div className="flex items-baseline justify-between mb-4">
+        <div>
+          <p className="text-[9px] font-bold uppercase tracking-[0.22em] text-ink/35 dark:text-white/30">
+            {meta.code}
+          </p>
+          <h3 className="font-display text-xl uppercase text-ink dark:text-white">
+            {meta.label}
+          </h3>
+        </div>
+        {data?.score != null && (
+          <span className="font-display text-[2rem] tabular-nums leading-none text-coral-strong dark:text-[#E14B3C]">
+            {data.score}
           </span>
-        </h3>
-        <span className="text-xs text-ink-dim">
-          {meta.low} &harr; {meta.high}
-        </span>
+        )}
       </div>
+      <p className="mb-4 text-[10px] uppercase tracking-[0.14em] text-ink/35 dark:text-white/30">
+        {meta.low} ↔ {meta.high}
+      </p>
       {isLoading ? (
         <Spinner />
       ) : !data ? (
-        <p className="text-sm text-ink-dim mt-3">No methodology available.</p>
+        <p className="text-[13px] text-ink/40 dark:text-white/30">
+          No methodology available.
+        </p>
       ) : (
-        <div className="mt-4 grid gap-4 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           <ConfidenceBreakdown breakdown={data.confidence_breakdown} />
           <CouncilImpact impact={data.council_impact} />
         </div>
       )}
-    </Card>
+    </div>
   );
 }
 
@@ -200,32 +255,48 @@ function CalibrationAnchors({ profile }: { profile: CountryProfile }) {
   const anchors = profile.anchor_positions ?? [];
   if (anchors.length === 0) return null;
   return (
-    <Card className="p-6">
-      <SectionTitle title="Anchor calibration" subtitle="Position relative to fixed global reference points" />
-      <div className="space-y-2">
+    <div>
+      <EditorialHeading>Anchor calibration</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">
+        Position relative to fixed global reference points
+      </p>
+      <Hairline />
+      <div className="mt-0 divide-y divide-ink/8 dark:divide-white/8">
         {anchors.map((a, i) => {
-          const dimMeta = DIM_BY_CODE[a.dimension as keyof typeof DIM_BY_CODE];
+          const dimMeta =
+            DIM_BY_CODE[a.dimension as keyof typeof DIM_BY_CODE];
           return (
-            <div key={i} className="flex items-center gap-3 text-sm">
-              <Badge color={dimMeta?.color}>{dimMeta?.label ?? a.dimension}</Badge>
-              <span className="text-ink-soft">{a.reason}</span>
+            <div key={i} className="flex items-start gap-4 py-4">
+              <span className="shrink-0 text-[9px] font-bold uppercase tracking-[0.18em] text-ink/40 dark:text-white/30 pt-0.5 w-14">
+                {dimMeta?.label ?? a.dimension}
+              </span>
+              <p className="text-[13px] leading-relaxed text-ink/65 dark:text-white/55">
+                {a.reason}
+              </p>
             </div>
           );
         })}
       </div>
-    </Card>
+    </div>
   );
 }
 
 export function ResearchTab({ profile }: { profile: CountryProfile }) {
   return (
-    <div className="space-y-6">
+    <div className="space-y-14">
       <CouncilReasoning profile={profile} />
       <CouncilAgreementVisual profile={profile} />
-      <div className="space-y-6">
-        {DIMENSIONS.map((d) => (
-          <DimensionMethodology key={d.code} iso3={profile.iso3} code={d.code} />
-        ))}
+      <div>
+        <EditorialHeading>Dimension methodology</EditorialHeading>
+        <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">
+          How each score was formed
+        </p>
+        <Hairline />
+        <div>
+          {DIMENSIONS.map((d) => (
+            <DimensionMethodology key={d.code} iso3={profile.iso3} code={d.code} />
+          ))}
+        </div>
       </div>
       <CalibrationAnchors profile={profile} />
     </div>

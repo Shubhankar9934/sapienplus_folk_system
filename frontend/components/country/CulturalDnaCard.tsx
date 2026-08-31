@@ -15,7 +15,10 @@ export function CulturalDnaCard({ profile }: { profile: CountryProfile }) {
     if (!cardRef.current) return;
     setBusy(true);
     try {
-      const url = await toPng(cardRef.current, { pixelRatio: 2, cacheBust: true });
+      const url = await toPng(cardRef.current, {
+        pixelRatio: 2,
+        cacheBust: true,
+      });
       const a = document.createElement("a");
       a.href = url;
       a.download = `folk-${profile.iso3}-cultural-dna.png`;
@@ -31,7 +34,8 @@ export function CulturalDnaCard({ profile }: { profile: CountryProfile }) {
         ref={cardRef}
         className="rounded-2xl p-6 w-full"
         style={{
-          background: "linear-gradient(150deg, #0f1620 0%, #121b27 60%, #16202c 100%)",
+          background:
+            "linear-gradient(150deg, #0f1620 0%, #121b27 60%, #16202c 100%)",
           border: "1px solid #1e2b3a",
         }}
       >
@@ -44,7 +48,9 @@ export function CulturalDnaCard({ profile }: { profile: CountryProfile }) {
             </div>
           </div>
           <div className="text-right">
-            <div className="text-[10px] uppercase tracking-widest text-accent">FOLK</div>
+            <div className="text-[10px] uppercase tracking-widest text-accent">
+              FOLK
+            </div>
             <div className="text-[10px] text-ink-dim">Cultural DNA</div>
           </div>
         </div>
@@ -56,11 +62,18 @@ export function CulturalDnaCard({ profile }: { profile: CountryProfile }) {
             return (
               <div key={d.code} className="flex items-center gap-3">
                 <div className="w-20 text-xs text-ink-soft">{d.label}</div>
-                <div className="font-mono text-sm tracking-tight" style={{ color: d.color }}>
+                <div
+                  className="font-mono text-sm tracking-tight"
+                  style={{ color: d.color }}
+                >
                   {"█".repeat(filled)}
-                  <span className="text-ink-dim">{"░".repeat(10 - filled)}</span>
+                  <span className="text-ink-dim">
+                    {"░".repeat(10 - filled)}
+                  </span>
                 </div>
-                <div className="ml-auto text-sm font-semibold tabular-nums">{score}</div>
+                <div className="ml-auto text-sm font-semibold tabular-nums">
+                  {score}
+                </div>
               </div>
             );
           })}

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 23,
-        "reading": "Community-first",
-        "explanation": "Swazi identity is deeply rooted in clan allegiance and traditional authority, emphasizing collective over individual goals."
+        "score": 22,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: clan-based identity and the dual monarchy give strong belonging and loyalty, so group standing and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 51,
-        "reading": "Even-keeled",
-        "explanation": "Hierarchical respect and indirect communication are key in maintaining social harmony, with emotional expression varying by context."
+        "score": 41,
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: respectful, indirect talk keeps harmony, so warm-but-respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 62,
-        "reading": "Structured",
-        "explanation": "Eswatini's cultural landscape is characterized by a preference for ritual order and predictability, reinforced by traditional ceremonies and social structures."
+        "score": 67,
+        "reading": "Certain",
+        "explanation": "Structured: the monarchy, clan hierarchy and ritual order give a firm, predictable frame, so standing and the known way carry weight."
       },
       {
         "dimension": "D4",
         "score": 39,
-        "reading": "Relaxed",
-        "explanation": "While traditional values emphasize community and quality of life, urban youth face competitive pressures due to high unemployment."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community and tradition come before competition, though urban youth take up global trends, so practical, communal goods lead."
       }
     ],
-    "executive_summary": "Eswatini is a nation deeply rooted in collectivism, where community and tradition take precedence over individual pursuits. The dual monarchy and clan-based identity create a strong sense of belonging and loyalty. Hierarchical respect and indirect communication are key in maintaining social harmony. While traditional values dominate, urban youth are increasingly influenced by global trends, leading to subtle shifts in cultural norms.",
+    "executive_summary": "Eswatini is deeply collective, where community and tradition come before individual pursuits. The dual monarchy, the king ruling alongside the queen mother, and a clan-based identity make a strong sense of belonging and loyalty. Respect for rank and indirect talk keep the social peace. The old values dominate, though urban youth are increasingly pulled by global trends, shifting the norms a little.",
     "cultural_archetype": {
-      "title": "The Communal Custodian",
-      "summary": "A society where collective identity and traditional values are paramount, yet modern influences are gradually reshaping the cultural landscape.",
+      "title": "Ceremonial Clans",
+      "summary": "Clan and monarchy anchor identity, and ceremony keeps the year in order.",
       "claim_ids": [
         "c1",
         "c2",
@@ -165,12 +165,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The dual monarchy and clan-based social structure have historically reinforced a strong sense of collective identity and loyalty, shaping the Swazi cultural landscape.",
-        "claim_ids": [
-          "c2",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Clan identity and the dual monarchy of king and queen mother build strong belonging and loyalty."
+      },
+      {
+        "text": "The hlonipha code of respect requires indirect speech toward elders and shapes everyday conduct."
+      },
+      {
+        "text": "The Incwala and Umhlanga ceremonies follow an unvarying annual calendar, giving ritual order to the year."
       }
     ],
     "competing_forces": [
@@ -294,7 +295,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Eswatini revolves around community and tradition, with the dual monarchy and clan-based identity fostering a strong sense of belonging. Daily interactions are guided by respect for hierarchy and indirect communication, while communal activities and ceremonies reinforce social bonds. Despite this, urban youth are increasingly adopting individualistic values, creating a dynamic cultural landscape.",
+      "text": "Life revolves around community and tradition, with the dual monarchy and clan identity building a strong sense of belonging. Daily dealings run on respect for rank and indirect talk, while communal activities and ceremonies keep the social bonds tight. Even so, the urban young are taking up more individual values, making a shifting cultural scene.",
       "claim_ids": [
         "c1",
         "c2",
@@ -305,39 +306,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The hlonipha system demands that junior persons speak indirectly and avoid direct eye contact or questioning of elders. This suppresses open emotional expression in hierarchical interactions.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Deference to elders and rank is immediate."
       },
       {
-        "text": "The Incwala ceremony, a national first-fruits ritual, is a highly regulated, staged display of royal authority, not a carnival-like release. Participants follow strict scripted roles with no room for individual emotional display.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "Ceremony is central to the calendar."
       },
       {
-        "text": "Among age-mates and in village beer-drinking gatherings, Swazi people can be warmly expressive, laughing and joking freely, showing that restraint is context-dependent, not a permanent cultural trait.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The Incwala and Umhlanga ceremonies are meticulously scripted by the royal council and follow an unvarying annual calendar, demonstrating the culture's need for ritual order and predictability.",
-        "claim_ids": [
-          "c8"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "African ethics in Eswatini are explicitly founded on Ubuntu philosophy, which is applied at all levels of social interaction — family, supervisory, administrative — emphasizing each person's responsibility to look after others.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
+        "text": "Traditional authority is visible alongside the modern state."
       }
     ],
     "success_factors": [
@@ -457,7 +432,7 @@
         "iso3": "ZMB",
         "country": "Zambia",
         "similarity": 88,
-        "explanation": "Both Eswatini and Zambia emphasize community and traditional values, but Zambia has a more diverse ethnic composition influencing its cultural practices.",
+        "explanation": "Both Eswatini and Zambia stress community and traditional values, but Zambia has a more diverse ethnic composition influencing its cultural practices.",
         "claim_ids": [
           "c1",
           "C05"
@@ -614,7 +589,12 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven initiatives",
+      "Cultural heritage preservation",
+      "Relationship-based business ventures"
+    ]
   },
   "sources": [
     {
@@ -907,15 +887,15 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 23,
+        "score": 22,
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 51,
+        "score": 41,
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 62,
+        "score": 67,
         "confidence": "LOW"
       },
       "D4": {

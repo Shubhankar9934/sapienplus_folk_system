@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 42,
-        "reading": "Group-oriented",
-        "explanation": "Singapore's collectivist values are deeply rooted, prioritizing group loyalty and community over individual desires."
+        "score": 32,
+        "reading": "Social",
+        "explanation": "Community-first: family, ethnic-community and social harmony come first, so belonging, reputation and a trusted tie drive choices, alongside a meritocratic personal push."
       },
       {
         "dimension": "D2",
         "score": 28,
-        "reading": "Reserved",
-        "explanation": "Indirect communication and emotional restraint are cultural norms, ensuring social harmony and face-saving."
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: composure, face and indirect talk keep harmony across communities, so understated, credible, efficient framing works."
       },
       {
         "dimension": "D3",
-        "score": 21,
-        "reading": "Flexible",
-        "explanation": "Despite low uncertainty avoidance, rules are followed to maintain structure and authority, not out of a need to reduce ambiguity."
+        "score": 40,
+        "reading": "Fluid",
+        "explanation": "Middle-flexible: strict public rules sit over a pragmatic, get-it-done business culture, so clarity and efficiency plus a trusted contact move things."
       },
       {
         "dimension": "D4",
-        "score": 62,
-        "reading": "Achievement-oriented",
-        "explanation": "A meritocratic culture drives competitiveness and achievement, though it is balanced by emerging values of work-life balance."
+        "score": 68,
+        "reading": "Striving",
+        "explanation": "Very high: a fierce, meritocratic drive sharpened by 'kiasu' (fear of losing out), so aspirational, premium and status goods carry real weight and getting-ahead framing wins."
       }
     ],
-    "executive_summary": "Singapore is a melting pot of cultures where collectivism and meritocracy coexist. The society values group harmony and indirect communication, while also fostering a competitive spirit driven by 'kiasu'—the fear of losing out. Newcomers will notice a blend of traditional values and modern influences, with a strong emphasis on social harmony and achievement.",
+    "executive_summary": "Singapore is a melting pot where collectivism and meritocracy somehow coexist. The society prizes group harmony and indirect talk, while breeding a competitive edge driven by kiasu, literally the fear of losing out. A newcomer sees old values and modern influence mixed, with a heavy stress on social harmony and getting ahead.",
     "cultural_archetype": {
-      "title": "The Harmonious Competitor",
-      "summary": "Singapore balances collectivist harmony with a strong drive for competitive success.",
+      "title": "Composed Meritocrats",
+      "summary": "Harmony maintained deliberately, over a quiet fear of falling behind.",
       "claim_ids": [
         "C01",
         "C22",
@@ -190,11 +190,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Singapore's development was heavily influenced by Confucian values, promoting family, community, and social harmony over individual rights.",
-        "claim_ids": [
-          "claim_2"
-        ],
-        "sources_count": 1
+        "text": "A multi-ethnic society assembled deliberately after 1965 made harmony between communities a matter of state policy."
+      },
+      {
+        "text": "A meritocratic nation-building project tied advancement to examination results, producing the kiasu fear of losing out and a high Drive score."
+      },
+      {
+        "text": "A pragmatic trade-and-finance economy values efficiency and results over procedural formality."
       }
     ],
     "competing_forces": [
@@ -282,7 +284,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Singapore is a delicate balance of maintaining harmony and striving for success. The emphasis on collectivism means that social interactions are often indirect and reserved, while the meritocratic drive fosters a competitive environment. Despite strict rules, there's a dynamic interplay between formal order and informal practices, creating a unique and vibrant society.",
+      "text": "Life is a fine balance between keeping the harmony and chasing success. The collectivist streak makes social dealings indirect and reserved, while the meritocratic push breeds real competition. For all the strict rules, there is a lively interplay between formal order and informal practice, making a particular and busy society.",
       "claim_ids": [
         "C09",
         "C06",
@@ -293,32 +295,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Singapore's ethnic diversity is managed through both government intervention and voluntary interethnic friendships, creating a unique social fabric.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Everything works and works quickly."
       },
       {
-        "text": "The society's collectivist nature is evident in the strong emphasis on group loyalty and family ties over individual desires.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "Rules are visible and observed."
       },
       {
-        "text": "Indirect communication is prevalent, with Singaporeans avoiding direct confrontation to maintain social harmony.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The concept of 'kiasu' influences behavior, driving competitiveness and a fear of losing out, which is both admired and criticized.",
-        "claim_ids": [
-          "C31"
-        ],
-        "sources_count": 1
+        "text": "Several cultures share one orderly system."
       }
     ],
     "success_factors": [
@@ -440,7 +423,7 @@
         "iso3": "VNM",
         "country": "Vietnam",
         "similarity": 87,
-        "explanation": "Both Singapore and Vietnam emphasize collectivist values and social harmony, though Singapore incorporates a stronger meritocratic drive.",
+        "explanation": "Both Singapore and Vietnam stress collectivist values and social harmony, though Singapore incorporates a stronger meritocratic drive.",
         "claim_ids": [
           "C01",
           "C22"
@@ -584,7 +567,12 @@
           "suggested_score": 80
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Relationship-led business",
+      "Cultural explorers"
+    ]
   },
   "sources": [
     {
@@ -954,7 +942,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 42,
+        "score": 32,
         "confidence": "HIGH"
       },
       "D2": {
@@ -962,11 +950,11 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 21,
+        "score": 40,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 62,
+        "score": 68,
         "confidence": "MEDIUM"
       }
     },

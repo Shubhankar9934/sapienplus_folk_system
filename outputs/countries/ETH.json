@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 26,
-        "reading": "Community-first",
-        "explanation": "Ethiopian society is strongly collectivist, with identity closely linked to family and ethnic groups."
+        "score": 24,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family, community and a proud collective identity come first, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 32,
-        "reading": "Understated",
-        "explanation": "Emotional expression in Ethiopia is context-dependent, with vibrant displays during festivals and reserved communication in formal settings."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, hierarchy-respecting talk keeps harmony in daily life, though festivals blaze with feeling, so gentle, respectful, relationship-led approaches work."
       },
       {
         "dimension": "D3",
-        "score": 53,
-        "reading": "Balanced",
-        "explanation": "Despite political instability, Ethiopians maintain a high need for order and structure in interpersonal relations."
+        "score": 55,
+        "reading": "Certain",
+        "explanation": "Structured: deep hierarchy, tradition and an ancient state and church give a firm frame, so respect for rank and the proper way carry weight."
       },
       {
         "dimension": "D4",
-        "score": 51,
+        "score": 50,
         "reading": "Balanced",
-        "explanation": "Ethiopia's culture values achievement and competitiveness, evident in its high masculinity score."
+        "explanation": "Balanced, with rising ambition: an entrepreneurial, achievement streak sits beside communal duty, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "Ethiopia is a land where communal bonds and hierarchy shape daily life, yet a spirit of entrepreneurship and achievement thrives. Social interactions are marked by indirect communication and deep-rooted traditions. Emotional expression is vibrant during festivals, contrasting with the reserved nature of formal settings.",
+    "executive_summary": "Ethiopia is shaped by communal bonds and hierarchy, and still an entrepreneurial, achieving spirit runs through it. People speak indirectly and hold to deep traditions. Feeling comes out loud at festivals and stays reserved in formal settings.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "Ethiopia balances strong communal ties with a drive for personal achievement.",
+      "title": "Ranked Families",
+      "summary": "Ancient hierarchy and community, with a sharp new entrepreneurial edge.",
       "claim_ids": [
         "c1",
         "c10",
@@ -177,12 +177,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Ethiopia's historical experiences with political instability and regime changes have fostered a culture of resilience and adaptability.",
-        "claim_ids": [
-          "c25",
-          "c26"
-        ],
-        "sources_count": 2
+        "text": "An ancient state and an autocephalous church, never colonised, built deep hierarchy and a proud collective identity."
+      },
+      {
+        "text": "Age and rank order social life, which keeps everyday expression indirect while festivals such as Timkat carry the feeling."
+      },
+      {
+        "text": "Extended kinship and patron-client relationships remain the practical safety net."
       }
     ],
     "competing_forces": [
@@ -292,7 +293,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Ethiopia is a tapestry of vibrant festivals, deep-rooted community ties, and a complex hierarchy that guides social interactions. While public celebrations are filled with emotional expression, everyday life is marked by indirect communication and structured social roles. This balance of community and individual aspiration creates a unique rhythm that newcomers must adjust to.",
+      "text": "It is lively festivals, deep community ties, and a complex hierarchy that steers how people deal with each other. Public celebrations spill over with feeling, while everyday life runs on indirect talk and settled social roles. Community and personal ambition share the rhythm a newcomer learns.",
       "claim_ids": [
         "c5",
         "c19",
@@ -303,12 +304,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Communication is indirect and often relies on context and non-verbal cues.",
-        "claim_ids": [
-          "c4",
-          "c14"
-        ],
-        "sources_count": 2
+        "text": "The calendar and clock differ from the international ones."
+      },
+      {
+        "text": "Deference to elders is immediate and expected."
+      },
+      {
+        "text": "Hospitality is generous and ceremonial."
       }
     ],
     "success_factors": [
@@ -456,7 +458,7 @@
         "iso3": "MDG",
         "country": "Madagascar",
         "similarity": 90,
-        "explanation": "Ethiopia and Madagascar both have rich cultural traditions and community-oriented societies, yet Ethiopia's hierarchical structures are more pronounced.",
+        "explanation": "Ethiopia and Madagascar both have rich cultural traditions and community-first societies, yet Ethiopia's hierarchical structures are more pronounced.",
         "claim_ids": [
           "c1",
           "c22"
@@ -593,7 +595,12 @@
           "suggested_score": 65
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Community-driven projects"
+    ]
   },
   "sources": [
     {
@@ -908,7 +915,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 26,
+        "score": 24,
         "confidence": "HIGH"
       },
       "D2": {
@@ -916,11 +923,11 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 53,
+        "score": 55,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 51,
+        "score": 50,
         "confidence": "MEDIUM"
       }
     },

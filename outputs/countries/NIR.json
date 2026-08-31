@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 60,
-        "reading": "Independent",
-        "explanation": "The Republic of Ireland scores 70 on Hofstede's Individualism dimension, classifying it as an individualist culture where employees are expected to be self-reliant and display initiative."
+        "reading": "Self",
+        "explanation": "Individual-leaning but community-rooted: personal aspiration sits beside a strong, sometimes divided, communal identity, so both personalization and community belonging drive choices."
       },
       {
         "dimension": "D2",
         "score": 55,
-        "reading": "Even-keeled",
-        "explanation": "With a Hofstede Indulgence score of 65, the Republic of Ireland is considered an indulgent society allowing relatively free gratification of basic and natural human desires related to enjoying life and having fun."
+        "reading": "Open",
+        "explanation": "Middle: public restraint and order, a legacy of the Troubles, with warm, humorous private life, so warm-but-measured, witty framing works."
       },
       {
         "dimension": "D3",
         "score": 63,
-        "reading": "Structured",
-        "explanation": "The Northern Ireland Life and Times Survey documents public attitudes in a society coming out of conflict, where centuries of ethno-religious and national identity conflict have produced highly structured, rule-governed community boundaries."
+        "reading": "Certain",
+        "explanation": "Structured: a preference for order and restraint in public gives a firm frame, so clear process and reliability reassure."
       },
       {
         "dimension": "D4",
         "score": 57,
-        "reading": "Balanced",
-        "explanation": "The Republic of Ireland scores 68 on Hofstede's Masculinity (Drive) dimension, indicating a society driven by competition, achievement and success, with success defined by the winner/best in field."
+        "reading": "Striving",
+        "explanation": "Balanced-to-driven: personal ambition sits alongside deep community ties, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "Northern Ireland is a land of contrasts, where communal identity and individual aspirations coexist. The legacy of the Troubles shapes public life, with a preference for order and restraint in public spaces. In private, however, warmth and humor are abundant, especially in familiar settings. Success often hinges on navigating these dualities, balancing personal ambition with community ties.",
+    "executive_summary": "Northern Ireland is a place of contrasts, where a strong communal identity lives beside individual ambition. The legacy of the Troubles, the decades of sectarian conflict, still shapes public life, with a preference for order and restraint out in the open. In private, though, warmth and humor flow freely, especially among familiars. Getting on often means handling that double life, balancing personal ambition with community ties.",
     "cultural_archetype": {
-      "title": "The Dual Identity Navigator",
-      "summary": "A society where communal identity and personal ambition are delicately balanced.",
+      "title": "Divided Individualists",
+      "summary": "Two communities, careful in public and warm behind the door.",
       "claim_ids": [
         "c1",
         "C03",
@@ -129,12 +129,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Troubles, a period of conflict from the late 1960s to 1998, deeply impacted Northern Irish society, embedding communal divisions and shaping public life.",
-        "claim_ids": [
-          "c1",
-          "C30"
-        ],
-        "sources_count": 2
+        "text": "The Troubles and the divided settlement that followed produced two strongly communal identities and a public reserve designed to avoid offence."
+      },
+      {
+        "text": "Presbyterian and Catholic traditions both emphasise family, community and hard work."
+      },
+      {
+        "text": "British administrative structures supply the formal order beneath that divide."
       }
     ],
     "competing_forces": [
@@ -222,7 +223,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Northern Ireland is a tapestry of contrasts. Public spaces are marked by restraint and order, yet private gatherings are filled with warmth and humor. The legacy of conflict is ever-present, influencing social interactions and community dynamics. Success requires navigating these dualities, balancing personal ambition with deep-rooted communal ties.",
+      "text": "It is a life of contrasts. Public spaces run to restraint and order, while private gatherings are warm and full of humor. The legacy of the conflict is always there, coloring how people deal with each other. Success asks you to handle those two sides, holding personal ambition together with deep communal ties.",
       "claim_ids": [
         "c8",
         "c6",
@@ -232,25 +233,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong communal identity is immediately noticeable, with clear divisions along religious and political lines.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "The friendliness is genuine and the caution real."
       },
       {
-        "text": "Public spaces are orderly and polite, reflecting a restrained emotional culture.",
-        "claim_ids": [
-          "c8"
-        ],
-        "sources_count": 1
+        "text": "Certain topics are steered around instinctively."
       },
       {
-        "text": "In familiar settings, people are warm and humorous, contrasting with the public restraint.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
+        "text": "Humour is constant and sharp."
       }
     ],
     "success_factors": [
@@ -503,7 +492,11 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven initiatives",
+      "Conflict resolution projects"
+    ]
   },
   "sources": [
     {

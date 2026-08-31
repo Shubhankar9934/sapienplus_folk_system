@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 44,
-        "reading": "Balanced",
-        "explanation": "Clan and language group loyalty define identity, with obligations to kin overriding individual goals."
+        "score": 34,
+        "reading": "Social",
+        "explanation": "Community-first: clan loyalty and the 'wantok' (one-language) network define identity and obligation, so belonging, reciprocity and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 60,
-        "reading": "Expressive",
-        "explanation": "Emotional expression is channeled through culturally sanctioned events, maintaining everyday restraint."
+        "reading": "Open",
+        "explanation": "Expressive: vivid ceremony and gesture within cultural settings, so bold, culturally-rooted branding connects, tempered by high-context indirectness."
       },
       {
         "dimension": "D3",
         "score": 42,
-        "reading": "Adaptable",
-        "explanation": "A high tolerance for ambiguity is evident, with reliance on personal networks over formal institutions."
+        "reading": "Fluid",
+        "explanation": "Flexible: reciprocity, custom and relationships, not formal rules, organize life, so a personal tie and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "The 'Big Man' system reflects a striving orientation within a collectivist framework, emphasizing communal achievement."
+        "explanation": "Balanced: the 'Big Man' model earns status by giving wealth away, so both communal reciprocity and status-through-generosity drive choices."
       }
     ],
-    "executive_summary": "Papua New Guinea is a land where clan loyalty and communal obligations shape everyday life. The 'wantok' system defines social interactions, while the 'Big Man' model influences status and achievement. Communication is indirect and high-context, with emotional expression reserved for specific cultural settings. Urban migration is introducing individualistic tendencies among younger generations, creating a dynamic cultural landscape.",
+    "executive_summary": "Papua New Guinea runs on clan loyalty and communal obligation. The wantok system, literally one talk, the bond among people who share a language, defines social life, while the Big Man model, where status is earned by giving wealth away, shapes achievement. Talk is indirect and high-context, with feeling saved for particular cultural settings. City migration is seeding individualism in the young, making a shifting cultural scene.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where communal ties and adaptability define social and economic interactions.",
+      "title": "Clan Socials",
+      "summary": "The wantok network is the whole system, and status comes from giving away.",
       "claim_ids": [
         "c1",
         "c2",
@@ -224,13 +224,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Papua New Guinea's cultural landscape is shaped by its diverse linguistic and clan-based society, colonial history, and the influence of globalisation.",
-        "claim_ids": [
-          "C01",
-          "C13",
-          "C22"
-        ],
-        "sources_count": 3
+        "text": "The wantok system, obligation to those who share your language, makes the clan the basic unit of economic and social life."
+      },
+      {
+        "text": "The Big Man model earns status by accumulating wealth and giving it away, which shapes ambition as generosity rather than accumulation."
+      },
+      {
+        "text": "Extreme linguistic diversity, over eight hundred languages, kept custom local and formal institutions weak."
       }
     ],
     "competing_forces": [
@@ -404,7 +404,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Papua New Guinea revolves around clan loyalty and communal obligations. The wantok system ensures that social and economic interactions are grounded in group membership, with reciprocity at the heart of social life. In the workplace, relationships and community take precedence over Western business norms, with age and seniority respected. Communication is indirect and high-context, preserving harmony while allowing for expressive gestures. Urban areas are seeing a shift towards individualistic attitudes, but traditional values remain strong, creating a dynamic cultural landscape.",
+      "text": "Life revolves around clan loyalty and communal duty. The wantok system grounds social and economic dealings in group membership, with reciprocity at the heart of it. At work, relationships and community come before imported business norms, and age and seniority are respected. Talk is indirect and high-context, keeping the harmony while leaving room for expressive gesture. The cities are tilting toward individualism, but the old values hold, making a lively, shifting mix.",
       "claim_ids": [
         "c1",
         "c2",
@@ -418,53 +418,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family and clan loyalty is the primary unit of identity in PNG; children are raised with strong emphasis on group membership and interdependence, not individual autonomy.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Linguistic diversity is extraordinary."
       },
       {
-        "text": "Communication in Melanesia is high-context and indirect to preserve face and group harmony, but emotions are expressed freely in culturally regulated contexts like ceremonies (sing-sing) and mourning, indicating a Restrained base with channeled Openness.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Wantok obligations reach further than expected."
       },
       {
-        "text": "Sing-sing festivals and ritual events involve loud, energetic, emotionally charged performances that are sanctioned displays of expression, contrasting with everyday restraint.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "In hierarchical encounters (junior to senior, woman to man, commoner to big-man), public emotional expression is suppressed; contradiction or open disagreement is avoided.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Reciprocity is central to PNG social life: assistance to others comes with the expectation that equal value will be returned; those who fail to reciprocate are socially sanctioned — reinforcing group-over-individual orientation.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The 'Big Man' system is deeply embedded in PNG's social fabric: power and material wealth carry a responsibility to redistribute goods among one's wantok — status is earned through communal generosity, not individual accumulation.",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "PNG business people prioritise their kin group even at significant personal loss; nepotism is a widely accepted practice reflecting that loyalty is first and foremost towards one's wantok — workplace identity is group-defined.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
+        "text": "Custom governs where formal law does not."
       }
     ],
     "success_factors": [
@@ -738,7 +698,13 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural adaptability",
+      "Community-driven projects",
+      "Expressive team environments"
+    ]
   },
   "sources": [
     {
@@ -1163,7 +1129,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 44,
+        "score": 34,
         "confidence": "MEDIUM"
       },
       "D2": {

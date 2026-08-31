@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 31,
-        "reading": "Group-oriented",
-        "explanation": "Pakistan's identity is deeply rooted in collectivism, where family and community ties define personal identity and social roles."
+        "score": 23,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family, clan (biradari) and community set identity and honor, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 34,
-        "reading": "Understated",
-        "explanation": "Emotional expression in Pakistan is generally restrained, with public displays of emotion often considered inappropriate."
+        "reading": "Restrained",
+        "explanation": "Reserved in public, lively in private: formal, hierarchy-respecting talk outside; warm, expressive gatherings inside, so dignified public framing plus warm private relationships work."
       },
       {
         "dimension": "D3",
-        "score": 58,
-        "reading": "Structured",
-        "explanation": "Pakistan values structured social norms and rules, which provide a sense of security and predictability in daily life."
+        "score": 66,
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy, tradition and social obligation give a firm frame, so standing, the proper channel and a trusted contact reassure."
       },
       {
         "dimension": "D4",
         "score": 53,
         "reading": "Balanced",
-        "explanation": "While Pakistan shows a balanced approach to achievement, educational success and personal networks are key drivers of social mobility."
+        "explanation": "Balanced-to-driven: education and networks are the route up and family standing matters, so aspirational and status goods land, tied to family betterment."
       }
     ],
-    "executive_summary": "Pakistan is a land where family and community ties shape identity, and social norms are deeply rooted in tradition. While public life is marked by formality and hierarchy, private gatherings can be vibrant and expressive. Success often hinges on educational achievement and strong networks, but navigating societal expectations requires tact and adaptability.",
+    "executive_summary": "Pakistan is a place where family and community ties set your identity, and social norms are rooted deep in tradition. Public life runs on formality and rank, while private gatherings can be lively and expressive. Success tends to rest on education and strong networks, though handling everyone's expectations takes tact and adaptability.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where collective identity and personal success are intertwined, with social harmony and achievement both holding significant value.",
+      "title": "Honour Families",
+      "summary": "Family and biradari set the terms, and honour governs the rest.",
       "claim_ids": [
         "c1",
         "c14",
@@ -129,13 +129,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Pakistan's cultural landscape has been shaped by its colonial past, religious influences, and the partition of India, which have all contributed to its strong sense of community and structured social norms.",
-        "claim_ids": [
-          "c1",
-          "c2",
-          "c10"
-        ],
-        "sources_count": 3
+        "text": "Biradari, the clan network, and a code of family honour make the group the base of identity and reputation."
+      },
+      {
+        "text": "Islamic law and inherited social hierarchy supply a firm structure that holds despite institutional weakness."
+      },
+      {
+        "text": "Scarce formal opportunity makes education and strong networks the recognised route up, which families invest in heavily."
       }
     ],
     "competing_forces": [
@@ -226,7 +226,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Pakistan revolves around community and family, where social bonds are strong and collective identity is paramount. Navigating daily life requires a blend of adherence to social norms and creative problem-solving, especially in the face of institutional challenges. Emotional expression is often reserved for private settings, with public life demanding a composed and respectful demeanor.",
+      "text": "Life revolves around community and family, where social bonds are strong and the collective comes first. Getting through the day mixes obedience to social norms with creative problem-solving, especially where the institutions fall short. Feeling is mostly saved for private settings, while public life asks for a composed, respectful bearing.",
       "claim_ids": [
         "c1",
         "c12",
@@ -237,20 +237,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Newcomers quickly notice the importance of family and community in shaping social interactions and personal identity.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "Hospitality is immediate and insistent."
       },
       {
-        "text": "The formality and respect for hierarchy in professional and social settings stand out, requiring careful navigation of social cues.",
-        "claim_ids": [
-          "c7",
-          "c31"
-        ],
-        "sources_count": 2
+        "text": "Family and connections come up early."
+      },
+      {
+        "text": "Public and private manners differ sharply."
       }
     ],
     "success_factors": [
@@ -381,7 +374,7 @@
         "iso3": "BGD",
         "country": "Bangladesh",
         "similarity": 89,
-        "explanation": "Both Pakistan and Bangladesh have rich cultural traditions that emphasize family ties and social harmony, although Pakistan tends to have stricter gender norms.",
+        "explanation": "Both Pakistan and Bangladesh have rich cultural traditions that stress family ties and social harmony, although Pakistan tends to have stricter gender norms.",
         "claim_ids": [
           "c1",
           "c10"
@@ -519,7 +512,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Educational initiatives",
+      "Cultural diplomacy"
+    ]
   },
   "sources": [
     {
@@ -735,7 +733,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 31,
+        "score": 23,
         "confidence": "HIGH"
       },
       "D2": {
@@ -743,7 +741,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 58,
+        "score": 66,
         "confidence": "MEDIUM"
       },
       "D4": {

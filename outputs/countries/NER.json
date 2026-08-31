@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 35,
-        "reading": "Group-oriented",
-        "explanation": "Identity in Niger is deeply rooted in ethnic and familial connections, with extended family and clan affiliations playing a central role."
+        "reading": "Social",
+        "explanation": "Community-first: communal ties and collective identity, Hausa, Tuareg and others, come before individual competition, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 42,
-        "reading": "Understated",
-        "explanation": "While public emotional expression is generally restrained, communal events allow for open displays of emotion."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: warm within the group, measured in public, so warm-but-respectful, relationship-first approaches work; the 'fada' gatherings give a space to talk freely."
       },
       {
         "dimension": "D3",
         "score": 49,
         "reading": "Balanced",
-        "explanation": "Despite a high tolerance for ambiguity, traditional practices and religious rituals provide structure and predictability."
+        "explanation": "Middle-flexible: a relaxed sense of time and reliance on family and tradition keep dealing adaptable amid a thin state."
       },
       {
         "dimension": "D4",
         "score": 34,
-        "reading": "Relaxed",
-        "explanation": "Cultural success is measured by social harmony and communal well-being rather than individual achievement."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: social harmony, community and getting by come before competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Niger's culture is deeply rooted in communal ties and collective identity, with ethnic groups like the Hausa and Tuareg shaping social norms. The society values harmony and social relationships over individual competition, and life is characterized by a relaxed approach to time and scheduling. While traditional practices dominate, urban youth are increasingly influenced by individualistic aspirations.",
+    "executive_summary": "Niger's culture is deeply rooted in communal ties and collective identity, with ethnic groups like the Hausa and Tuareg shaping the norms. The society values harmony and relationships over competition, and life runs on a relaxed sense of time. Tradition dominates, though urban youth are catching the pull of individual ambition.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where communal ties and adaptability define daily life and identity.",
+      "title": "Village Kin",
+      "summary": "Extended family carries people through hard seasons in a hard place.",
       "claim_ids": [
         "c1",
         "c2",
@@ -129,19 +129,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Niger's ethnic and clan-based social structure has been shaped by historical alliances and exchanges among groups like the Woɗaaɓe Fulɓe.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Extended family and ethnic solidarity, among Hausa, Tuareg and others, is the only insurance in one of the world's poorest economies."
       },
       {
-        "text": "The influence of Islam and traditional practices has historically reinforced social norms and collective identity.",
-        "claim_ids": [
-          "C17",
-          "C19"
-        ],
-        "sources_count": 2
+        "text": "Recurrent Sahel drought and food insecurity keep ambition focused on getting through the season."
+      },
+      {
+        "text": "The fada, the informal street-corner discussion group, gives young men a space to speak freely within a deferential society."
       }
     ],
     "competing_forces": [
@@ -223,7 +217,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Niger is a blend of communal living and adaptive resilience. Extended families provide a strong support network, while social activities like 'fadas' offer a sense of inclusion and freedom of expression. The relaxed approach to time and scheduling reflects a high tolerance for ambiguity, and traditional practices provide structure amidst environmental and economic uncertainties.",
+      "text": "It is communal living and make-do resilience. Extended families give a strong safety net, while gatherings called fadas, the informal street-corner discussion groups especially of young men, offer a place to belong and to speak freely. The easy way with time reflects a high tolerance for uncertainty, and traditional practices give structure against the environmental and economic hardships.",
       "claim_ids": [
         "C05",
         "C23",
@@ -233,25 +227,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The communal nature of society is immediately evident, with extended families living together and social activities centered around group participation.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
+        "text": "Greetings are extended and matter."
       },
       {
-        "text": "Social interactions are marked by a relaxed approach to time, with events often starting late and schedules being flexible.",
-        "claim_ids": [
-          "C9"
-        ],
-        "sources_count": 1
+        "text": "Community obligation is wide."
       },
       {
-        "text": "The influence of Islam is prominent in daily life, with prayer times and religious practices providing a rhythm to the day.",
-        "claim_ids": [
-          "C11"
-        ],
-        "sources_count": 1
+        "text": "The pace is unhurried."
       }
     ],
     "success_factors": [
@@ -354,7 +336,7 @@
         "iso3": "BEN",
         "country": "Benin",
         "similarity": 92,
-        "explanation": "Niger and Benin share similar ethnic compositions and cultural practices, with both societies emphasizing communal ties and collective identity.",
+        "explanation": "Niger and Benin share similar ethnic compositions and cultural practices, with both societies stressing communal ties and collective identity.",
         "claim_ids": [
           "c1",
           "c2"
@@ -376,7 +358,7 @@
         "iso3": "MLI",
         "country": "Mali",
         "similarity": 91,
-        "explanation": "Niger and Mali share a history of ethnic diversity and communal living, with both cultures emphasizing adaptability and resilience.",
+        "explanation": "Niger and Mali share a history of ethnic diversity and communal living, with both cultures stressing adaptability and resilience.",
         "claim_ids": [
           "C23",
           "C20"
@@ -387,7 +369,7 @@
         "iso3": "LBR",
         "country": "Liberia",
         "similarity": 90,
-        "explanation": "Niger and Liberia both navigate high levels of environmental and economic uncertainty, fostering a culture of resilience and adaptability.",
+        "explanation": "Niger and Liberia both handle high levels of environmental and economic uncertainty, building a culture of resilience and adaptability.",
         "claim_ids": [
           "C20",
           "C23"
@@ -513,7 +495,12 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven initiatives",
+      "Cultural exchange programs",
+      "Social entrepreneurship"
+    ]
   },
   "sources": [
     {

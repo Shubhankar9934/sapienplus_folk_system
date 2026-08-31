@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 27,
-        "reading": "Community-first",
-        "explanation": "Djibouti's identity is deeply tied to clan and community, with personal identity often secondary to group affiliations."
+        "score": 24,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: clan loyalty and family bonds set identity in a small, kin-based society, so belonging, trust and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 39,
-        "reading": "Understated",
-        "explanation": "Communication is respectful and indirect, emphasizing deference and social harmony over directness."
+        "reading": "Restrained",
+        "explanation": "Reserved: respectful, measured communication keeps harmony, so dignified, relationship-first approaches work and directness can offend."
       },
       {
         "dimension": "D3",
         "score": 57,
-        "reading": "Balanced",
-        "explanation": "Social norms are structured by a blend of Islamic and customary laws, providing a predictable framework for behavior."
+        "reading": "Certain",
+        "explanation": "Structured: clan hierarchy, Islamic norms and a French administrative legacy give a firm frame, so the proper channel and standing carry weight."
       },
       {
         "dimension": "D4",
         "score": 37,
-        "reading": "Relaxed",
-        "explanation": "While traditional values prioritize community and harmony, there is a growing aspiration for personal achievement among the educated youth."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning, with a rising educated class: survival, family and stability come first, though ambition grows among the young, so practical value leads and aspiration is emerging."
       }
     ],
-    "executive_summary": "Djibouti is a tapestry of clan loyalties, Islamic traditions, and French colonial influences, creating a unique blend of communal and individual identities. Respectful communication and deep-rooted family structures define daily interactions, while a burgeoning educated class hints at aspirations beyond traditional roles. The country's social fabric is woven with a strong sense of community, yet it navigates the tensions of modernity and tradition.",
+    "executive_summary": "Djibouti is clan loyalty, Islamic tradition, and a French colonial past, mixed into something of its own. Respectful talk and deep family structures shape the everyday, while a growing educated class hints at ambitions beyond the old roles. The sense of community runs strong even as modern life and tradition pull against each other.",
     "cultural_archetype": {
-      "title": "The Community Navigator",
-      "summary": "In Djibouti, life revolves around navigating complex social networks where clan, family, and tradition guide personal and professional interactions.",
+      "title": "Clan Households",
+      "summary": "Clan and family are the map, and everything moves through them.",
       "claim_ids": [
         "C1",
         "C2",
@@ -186,13 +186,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Djibouti's strategic location as a port and its colonial history under French rule have significantly influenced its cultural and social structures, blending traditional clan systems with Western administrative practices.",
-        "claim_ids": [
-          "C8",
-          "C10",
-          "c7"
-        ],
-        "sources_count": 3
+        "text": "A small society organised by Somali and Afar clans, where clan affiliation determines standing and access."
+      },
+      {
+        "text": "Islamic custom and French colonial administration together supply the structured frame of public life."
+      },
+      {
+        "text": "A port-and-transit economy concentrated in one city keeps trade personal and relationship-based."
       }
     ],
     "competing_forces": [
@@ -286,7 +286,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Djibouti is a dance of tradition and modernity, where clan loyalty and family bonds guide daily interactions, yet an undercurrent of aspiration and individual achievement is palpable among the youth. The rhythm of life is set by communal gatherings, respectful communication, and a deep respect for tradition.",
+      "text": "It is tradition and modern life in a slow dance, where clan loyalty and family bonds steer the day, and yet an undercurrent of personal ambition runs through the young. Communal gatherings, respectful speech, and a deep regard for tradition set the rhythm.",
       "claim_ids": [
         "C03",
         "C11",
@@ -296,20 +296,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Respectful and indirect communication is the norm, with deference to elders and avoidance of confrontation being key.",
-        "claim_ids": [
-          "C4",
-          "C12"
-        ],
-        "sources_count": 2
+        "text": "The heat organises the working day."
       },
       {
-        "text": "The blend of traditional and modern influences is apparent, particularly in the aspirations of the educated youth.",
-        "claim_ids": [
-          "C11",
-          "c4"
-        ],
-        "sources_count": 2
+        "text": "Clan and family are established early in any conversation."
+      },
+      {
+        "text": "Business is relationship-first and unhurried."
       }
     ],
     "success_factors": [
@@ -591,7 +584,12 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {
@@ -1038,7 +1036,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 27,
+        "score": 24,
         "confidence": "MEDIUM"
       },
       "D2": {

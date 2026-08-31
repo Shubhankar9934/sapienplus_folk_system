@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 30,
-        "reading": "Community-first",
-        "explanation": "Collective identity and kinship networks are central, with individual autonomy often subordinated to family and community consensus."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: kinship and collective responsibility are the base, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 53,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression is culturally accepted, especially in communal settings, but restraint is expected in hierarchical interactions."
+        "reading": "Balanced",
+        "explanation": "Expressive but indirect: warm and sociable while valuing indirectness to keep harmony, so warm, relationship-led, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
         "score": 49,
         "reading": "Balanced",
-        "explanation": "While traditional structures provide social order, weak state institutions and historical instability create a fluid and unpredictable environment."
+        "explanation": "Middle-flexible: urban 'hustling' and reliance on relationships keep things adaptable, while respect for elders gives a soft frame."
       },
       {
         "dimension": "D4",
         "score": 48,
         "reading": "Balanced",
-        "explanation": "The culture values relational harmony over competitive achievement, yet there is a growing drive for individual success among urban youth."
+        "explanation": "Balanced: survival and getting-by 'hustle' sit beside communal duty, so both practical value and modest aspiration drive choices."
       }
     ],
-    "executive_summary": "In Liberia, community and kinship define daily life, with a strong emphasis on collective responsibility and social harmony. Urban areas showcase a blend of traditional values and adaptive 'hustling' for economic survival. Communication is warm and expressive, yet indirectness is valued to maintain harmony. Success often hinges on building personal relationships and respecting elders, while directness can lead to misunderstandings.",
+    "executive_summary": "In Liberia community and kinship set the day, with a strong sense of shared responsibility and of keeping the peace. In the cities, old values mix with hustling, the improvised scramble to make a living. People are warm and expressive, but they value indirectness to hold the harmony. You get ahead by building relationships and respecting elders, and being too blunt only causes trouble.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective responsibility meets adaptive survival in a fluid environment.",
+      "title": "Improvising Kin",
+      "summary": "Shared responsibility and constant hustling, in a country still rebuilding.",
       "claim_ids": [
         "c1",
         "c7"
@@ -138,13 +138,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Liberia's history of Americo-Liberian settlement and subsequent civil wars has shaped a society that balances Western influences with indigenous traditions, creating a unique blend of individualist and collectivist values.",
-        "claim_ids": [
-          "c4",
-          "C09",
-          "C24"
-        ],
-        "sources_count": 3
+        "text": "Kinship networks and communal child-rearing remain the practical support system."
+      },
+      {
+        "text": "Two civil wars and institutional collapse made urban 'hustling' and relationships essential to survival."
+      },
+      {
+        "text": "Poro and Sande initiation societies still enforce norms and carry tradition."
       }
     ],
     "competing_forces": [
@@ -379,7 +379,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Liberia is a tapestry of communal responsibility and adaptive resilience. The communal approach to parenting and caregiving fosters a strong sense of belonging, while urban areas are marked by 'hustling' and relationship-building as essential survival skills. Social interactions are warm and expressive, yet indirectness is valued to maintain harmony. The rhythm of life is shaped by a blend of traditional values and the need to navigate uncertainty with flexibility and improvisation.",
+      "text": "It is communal responsibility and make-do resilience. Raising children is a shared job, which deepens the sense of belonging, while in the cities hustling and relationship-building are survival skills. Talk is warm and expressive, yet indirect, to keep things smooth. The rhythm mixes old values with the need to meet uncertainty by improvising.",
       "claim_ids": [
         "c1",
         "c7",
@@ -389,53 +389,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Parenting and caregiving in Liberia continues to be a communal responsibility; extended family, neighbours, teachers and community members are expected to discipline children regardless of familial connection.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Greetings and small talk come first."
       },
       {
-        "text": "Traditional Poro and Sande secret societies initiate youth into adulthood, teaching cultural norms, conflict resolution and practical skills, embedding identity in group affiliation.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Family obligation is wide."
       },
       {
-        "text": "Ethnographic fieldwork in Nimba County shows social idioms of belonging framed by landlord‑stranger reciprocity and secrecy, emphasizing group‑defined belonging.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "In urban Liberia, people engage in informal ‘hustling’ and maintaining social ties with influential persons to navigate an insecure, unpredictable setting, showing adaptation and flexibility.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Liberian culture values harmony, peace and living in harmony with nature over competitive performance.",
-        "claim_ids": [
-          "c8"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Communication in the Liberian workplace tends to be more indirect than in Western cultures, particularly when addressing sensitive topics or superiors — direct confrontation is avoided to maintain harmony.",
-        "claim_ids": [
-          "C17"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Liberia is a patriarchal society where men are often expected to demonstrate provider success — gendered status expectations create a male-achievement dimension that modestly elevates D4 Drive above the most accepting-culture floor.",
-        "claim_ids": [
-          "C35"
-        ],
-        "sources_count": 1
+        "text": "Improvisation is the working method."
       }
     ],
     "success_factors": [
@@ -683,6 +643,18 @@
           "suggested_score": 20
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 (Expression: Restrained <-> Open) is genuinely mixed in Liberia, producing a mid-range score. On the open side: Liberians are described across multiple sources as notably warm and hospitable; greetings are elaborate, relational, and emotionally engaged; communal gatherings and church worship are expressively celebratory; music, dance, and storytelling are important public outlets; and Liberian English itself is lively and metaphor-rich. Religious life (Pentecostalism, revival services, gospel) provides a structurally sanctioned, high-emotional-expression outlet that is very public. Against open expression: the workplace and hierarchical contexts impose clear restraint — indirect communication is normative with superiors, critical feedback is always softened, and direct confrontation is actively avoided to maintain harmony ('the Liberian pause'). Emotional display that challenges senior authority is suppressed. The dual register — expressive in social/religious life, restrained in hierarchical professional life — is well-documented. This mirrors the general West African pattern but Liberia's specific American Protestant heritage adds a particular Pentecostal-expressiveness that is distinctive from more Muslim-majority neighbours. Balancing these, a score near the midpoint (55) with a slight lean toward Open best captures the pattern: more openly expressive in daily social life than restrained, but structurally constrained in formal contexts.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Liberia is relatively emotionally open in daily life, with expressive greetings, public discussion, and communal festivals, but there is hierarchical restraint, especially around elders and authority figures. The baseline for West Africa is moderately open, and Liberia fits this profile.",
+          "suggested_score": 55
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -716,20 +688,12 @@
           "reasoning": "Liberia shows high Drive: the legacy of freed American slaves and the 'right to rise' ideology, combined with contemporary hustle culture and elite competition for education and jobs. A strong achievement orientation is visible in urban and diaspora communities, though rural areas emphasize subsistence and community harmony.",
           "suggested_score": 70
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "D2 (Expression: Restrained <-> Open) is genuinely mixed in Liberia, producing a mid-range score. On the open side: Liberians are described across multiple sources as notably warm and hospitable; greetings are elaborate, relational, and emotionally engaged; communal gatherings and church worship are expressively celebratory; music, dance, and storytelling are important public outlets; and Liberian English itself is lively and metaphor-rich. Religious life (Pentecostalism, revival services, gospel) provides a structurally sanctioned, high-emotional-expression outlet that is very public. Against open expression: the workplace and hierarchical contexts impose clear restraint — indirect communication is normative with superiors, critical feedback is always softened, and direct confrontation is actively avoided to maintain harmony ('the Liberian pause'). Emotional display that challenges senior authority is suppressed. The dual register — expressive in social/religious life, restrained in hierarchical professional life — is well-documented. This mirrors the general West African pattern but Liberia's specific American Protestant heritage adds a particular Pentecostal-expressiveness that is distinctive from more Muslim-majority neighbours. Balancing these, a score near the midpoint (55) with a slight lean toward Open best captures the pattern: more openly expressive in daily social life than restrained, but structurally constrained in formal contexts.",
-          "suggested_score": 55
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Liberia is relatively emotionally open in daily life, with expressive greetings, public discussion, and communal festivals, but there is hierarchical restraint, especially around elders and authority figures. The baseline for West Africa is moderately open, and Liberia fits this profile.",
-          "suggested_score": 55
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural adaptability training"
+    ]
   },
   "sources": [
     {

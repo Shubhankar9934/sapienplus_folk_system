@@ -29,7 +29,7 @@ export function Tabs({
             onClick={() => setActive(t.id)}
             className={cn(
               "relative px-4 py-2.5 text-sm font-medium whitespace-nowrap transition-colors",
-              active === t.id ? "text-ink" : "text-ink-dim hover:text-ink-soft"
+              active === t.id ? "text-ink" : "text-ink-dim hover:text-ink-soft",
             )}
           >
             {t.label}

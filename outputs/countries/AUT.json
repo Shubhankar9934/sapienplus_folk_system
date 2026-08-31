@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 83,
-        "reading": "Strongly independent",
-        "explanation": "Austria values individual achievement and self-reliance, yet social connections and family ties remain integral to personal identity."
+        "score": 74,
+        "reading": "Strongly Self",
+        "explanation": "Individual-leaning with strong family and community roots; people value personal achievement and privacy but keep tight, long-held circles, so personalization works alongside proof of reputation and belonging."
       },
       {
         "dimension": "D2",
-        "score": 69,
-        "reading": "Expressive",
-        "explanation": "Emotional expression in Austria is modest and often indirect, with a preference for maintaining respect and avoiding public displays."
+        "score": 59,
+        "reading": "Open",
+        "explanation": "Moderately expressive but formally reserved at first: warmth arrives after trust, so correct, courteous, quality-first communication opens doors while over-familiarity closes them."
       },
       {
         "dimension": "D3",
         "score": 76,
-        "reading": "Highly structured",
-        "explanation": "Austrians prefer structured environments with clear rules and guidelines, reflecting a strong cultural preference for predictability."
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: order, rules, credentials and punctuality are prized and predictability is a comfort, so certifications, guarantees, established names and precise, reliable service strongly reassure."
       },
       {
         "dimension": "D4",
-        "score": 73,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "Austria is highly achievement-oriented, valuing performance and competition, but balances this with an emphasis on quality of life."
+        "score": 66,
+        "reading": "Striving",
+        "explanation": "Achievement-oriented but balanced by a real love of quality of life (leisure, culture, the outdoors), so premium, well-made goods land when framed around lasting quality rather than flash."
       }
     ],
-    "executive_summary": "Austria is a blend of individualism and social cohesion, where personal achievement is celebrated alongside strong family ties. Austrians value structured environments and clear guidelines, yet they also cherish a quality of life that balances work and leisure. Emotional expression is often reserved, but warmth and hospitality are extended once personal connections are established.",
+    "executive_summary": "Austria lets a person chase their own success while keeping the family and the community close by. People like their world orderly, with clear rules and no surprises. They also guard their free time and their pleasures, because work is not the whole of a life. Feelings stay reserved at first; get past that and you find real warmth and hospitality.",
     "cultural_archetype": {
-      "title": "The Independent Achiever",
-      "summary": "A society that values personal achievement within a framework of strong social connections and structured living.",
+      "title": "Formal Individualists",
+      "summary": "Personal ambition pursued precisely, inside a well-ordered life with the weekend protected.",
       "claim_ids": [
         "C01",
         "C02",
@@ -138,11 +138,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Austria's cultural traits are influenced by its historical Catholic corporatism and the legacy of the Habsburg Empire, fostering a collectivist orientation and strong reliance on social partnerships.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Centuries of Habsburg administration left a bureaucratic tradition of titles, formal procedure and correct process that still governs public life."
+      },
+      {
+        "text": "A guild and craft inheritance ties standing to demonstrable skill, which shapes Drive toward quality rather than display."
+      },
+      {
+        "text": "Alpine geography and a strong post-war social settlement made leisure and the weekend a protected part of life."
       }
     ],
     "competing_forces": [
@@ -263,7 +265,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Austria is a harmonious blend of individual ambition and social cohesion. Austrians value personal achievement, yet cherish strong family ties and social networks. Daily life is structured and predictable, but warmth and hospitality are extended once personal connections are established. This balance between work and leisure, structure and openness, defines the Austrian experience.",
+      "text": "It is a balance of personal ambition and a tight social fabric. The days are structured and predictable, the way people like them. Austrians can seem cool until you are in, and then they are generous hosts. Work and leisure, order and openness, that is the shape of it.",
       "claim_ids": [
         "claim_d1_1",
         "claim_d1_3",
@@ -274,28 +276,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The Austrian preference for structured environments is evident in their adherence to rules and social norms.",
-        "claim_ids": [
-          "claim_d3_1",
-          "C16"
-        ],
-        "sources_count": 2
+        "text": "The formality of first contact surprises people, and the warmth afterwards surprises them more."
       },
       {
-        "text": "Emotional expression in Austria is often modest and indirect, with a strong emphasis on respect and authority.",
-        "claim_ids": [
-          "claim_d2_1",
-          "C12"
-        ],
-        "sources_count": 2
+        "text": "Everything runs to time, including the trains."
       },
       {
-        "text": "In informal settings, Austrians can be expressive and open, especially among friends, once trust is established.",
-        "claim_ids": [
-          "claim_d2_2",
-          "C10"
-        ],
-        "sources_count": 2
+        "text": "Sunday is genuinely closed."
       }
     ],
     "success_factors": [
@@ -576,7 +563,13 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Long-term planning and operations",
+      "Quality of life seekers",
+      "Structured work environments"
+    ]
   },
   "sources": [
     {
@@ -957,11 +950,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 83,
+        "score": 74,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 69,
+        "score": 59,
         "confidence": "HIGH"
       },
       "D3": {
@@ -969,7 +962,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 73,
+        "score": 66,
         "confidence": "MEDIUM"
       }
     },

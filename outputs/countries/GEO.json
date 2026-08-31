@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 38,
-        "reading": "Group-oriented",
-        "explanation": "A 2024 empirical study in Georgian cities using Hofstede’s model confirms Georgia’s individualistic tendencies."
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Community-leaning: family, guests and the wider network are central, and the supra feast binds them, so trust, hospitality and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 52,
-        "reading": "Even-keeled",
-        "explanation": "Even-keeled"
+        "score": 48,
+        "reading": "Balanced",
+        "explanation": "Middle-warm: hospitality and toasting bring out real expression while everyday public life is more measured, so warm, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 55,
+        "score": 46,
         "reading": "Balanced",
-        "explanation": "Russia (a close historical and cultural neighbor of Georgia) scores 95 on Power Distance and is mid-range on individualism; East European countries in Hofstede's model tend toward higher uncertainty avoidance — providing a regional structural baseline."
+        "explanation": "Middle: tradition and hierarchy give a frame while dealings run on personal trust more than rigid rules, so a trusted contact plus clear terms reassure."
       },
       {
         "dimension": "D4",
-        "score": 42,
-        "reading": "Relaxed",
-        "explanation": "The WVS Inglehart cultural map consistently places Georgia and neighboring Caucasian countries in the 'traditional/survival values' cluster — a cultural orientation associated with acceptance, security-seeking, and lower achievement-competition drive."
+        "score": 45,
+        "reading": "Accepting",
+        "explanation": "Balanced: getting on matters, tempered by a strong pull of hospitality, leisure and the good table, so both aspiration and enjoyment drive choices."
       }
     ],
-    "executive_summary": "Georgia is a land where tradition and modernity dance together, with deep respect for family and community. The supra, a traditional feast, is a cornerstone of social life, emphasizing hospitality and emotional expression. Business culture is relationship-driven, with personal trust taking precedence over transactional efficiency. Despite a hierarchical society, there is a growing embrace of individualism among younger generations.",
+    "executive_summary": "Georgia dances tradition and modern life together, with a deep respect for family and community. The supra, the traditional feast with its toasts and long tables, is the heart of social life, all hospitality and open feeling. Business runs on relationships, where personal trust beats efficiency. The society is hierarchical, though the young are warming to individualism.",
     "cultural_archetype": {
-      "title": "The Supra Society",
-      "summary": "A culture where communal gatherings and emotional expression are central to identity.",
+      "title": "Hospitable Balancers",
+      "summary": "Life gathers around the table, where hospitality, trust and business all happen at once.",
       "claim_ids": [
         "C06",
         "C10",
@@ -161,11 +161,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Despite repeated invasions and Soviet occupation, Georgia preserved its culture and collective traditions; scholar Darra Goldstein (Williams College) attributes this to the supra's role in reinforcing community identity — group continuity over individual disruption.",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
+        "text": "The supra, the ritual feast with its ordered toasts, makes hospitality and shared obligation the setting for trust and business."
+      },
+      {
+        "text": "A small nation at a crossroads of empires learned to rely on family and personal networks rather than institutions."
+      },
+      {
+        "text": "Orthodox tradition and respect for elders sustain hierarchy alongside that warmth."
       }
     ],
     "competing_forces": [
@@ -400,7 +402,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Georgia revolves around the supra, where hospitality and emotional expression are celebrated. Relationships are the cornerstone of both personal and professional life, with trust and respect deeply ingrained in social interactions. The rhythm of life is guided by tradition, yet there is a palpable shift towards individualism among the younger generation, creating a dynamic blend of old and new.",
+      "text": "Life revolves around the supra, where hospitality and feeling are celebrated. Relationships are the cornerstone of both private and working life, built on deep trust and respect. Tradition sets the rhythm, and yet you can feel the young shifting toward the individual, old and new mixed together.",
       "claim_ids": [
         "C06",
         "C01",
@@ -411,53 +413,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Georgian business culture is explicitly relationship-oriented: professionals want to know who they are dealing with before serious business, and hospitality/personal trust take precedence over transactional efficiency.",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
+        "text": "The hospitality is overwhelming and non-negotiable."
       },
       {
-        "text": "Namusi (dignity/honor/virtue) shapes the importance of reputation, public respect, and family image — identity is constituted through collective honor rather than individual standing alone.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "Toasting has an order and a purpose."
       },
       {
-        "text": "Pativi (honor/respect) is shown through greetings, titles, seating, toasts, and treatment of senior people — social roles and hierarchy define relational identity in Georgian interaction.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Respect for elders and lineage is engrained throughout Georgian wedding traditions; the supra functions as a moral institution teaching generosity, patience, and respect — collective lineage frames individual identity.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The tamada honors the efforts of parents and grandparents; hospitality and the supra are reflections of deep respect toward the family — family as the primary unit of identity.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Although drunken behavior at a supra would be considered shameful — implying that emotional display has social limits and that expressive norm-violation carries reputational consequences.",
-        "claim_ids": [
-          "C17"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Georgia's hospitality culture is described as treating guests as 'gifts from God' — the host's social status rises through generosity, not personal accumulation, signaling status through relational giving rather than competitive acquisition.",
-        "claim_ids": [
-          "C33"
-        ],
-        "sources_count": 1
+        "text": "Personal relationships precede all business."
       }
     ],
     "success_factors": [
@@ -722,7 +684,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion enthusiasts",
+      "Hospitality-focused industries"
+    ]
   },
   "sources": [
     {
@@ -1158,19 +1125,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 38,
+        "score": 46,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 52,
+        "score": 48,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 55,
+        "score": 46,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 42,
+        "score": 45,
         "confidence": "MEDIUM"
       }
     },

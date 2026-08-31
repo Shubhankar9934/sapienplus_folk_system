@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 91,
-        "reading": "Strongly independent",
-        "explanation": "Sweden's culture emphasizes personal achievements and rights, supported by a welfare state that reduces reliance on family, reinforcing individual autonomy."
+        "score": 87,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal autonomy is prized, supported by a strong welfare state, so 'made for you' works alongside a fair, collective-responsibility tone."
       },
       {
         "dimension": "D2",
-        "score": 67,
-        "reading": "Expressive",
-        "explanation": "Emotional expression in Sweden is often restrained, with indirect communication styles that prioritize harmony over confrontation."
+        "score": 50,
+        "reading": "Balanced",
+        "explanation": "Middle and restrained: emotional restraint and indirect, consensus-minded talk govern, so understated, honest, low-hype framing works."
       },
       {
         "dimension": "D3",
         "score": 57,
-        "reading": "Balanced",
-        "explanation": "While formal rules are minimal, Swedes adhere to informal social norms like punctuality and planning, reflecting a structured approach to daily life."
+        "reading": "Certain",
+        "explanation": "Middle-structured: order and process with a strong consensus-seeking flexibility (lagom, just enough), so clarity plus balance reassure."
       },
       {
         "dimension": "D4",
         "score": 25,
-        "reading": "Easygoing",
-        "explanation": "Sweden values work-life balance and quality of life over competition, with a cultural emphasis on moderation and collective success."
+        "reading": "Strongly Accepting",
+        "explanation": "Strongly quality-of-life: 'lagom' moderation, balance and well-being beat status and hustle, so comfort, design and understatement land over flash."
       }
     ],
-    "executive_summary": "In Sweden, individual autonomy is celebrated within a framework of social welfare, creating a unique blend of independence and collective responsibility. Emotional restraint and indirect communication are norms, fostering a harmonious but sometimes ambiguous social environment. The 'lagom' philosophy of moderation permeates daily life, balancing work and leisure. Despite a low drive for personal achievement, Sweden excels in innovation and global competitiveness.",
+    "executive_summary": "In Sweden individual autonomy is celebrated inside a strong welfare state, making a particular mix of independence and collective responsibility. Emotional restraint and indirect talk are the norm, which keeps things harmonious but sometimes hard to read. The idea of lagom, just the right amount, not too much and not too little, runs through daily life, balancing work and leisure. For all the low push toward personal glory, Sweden is a powerhouse of innovation.",
     "cultural_archetype": {
-      "title": "The Balanced Individualist",
-      "summary": "A society that harmonizes personal autonomy with collective well-being, embracing moderation and emotional restraint.",
+      "title": "Quiet Egalitarians",
+      "summary": "Independent people inside a collective system, with lagom keeping everything level.",
       "claim_ids": [
         "c1",
         "c02"
@@ -125,11 +125,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Sweden's welfare state model has historically reinforced individual autonomy by providing universal services, reducing reliance on family or social networks.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "An early and comprehensive welfare state made personal autonomy affordable, producing one of the highest Identity scores while preserving collective responsibility."
+      },
+      {
+        "text": "Lagom, the ethic of just the right amount, discourages excess and holds Drive near the bottom of the range."
+      },
+      {
+        "text": "A long consensus tradition in politics and work makes agreement-seeking the normal way decisions are reached."
       }
     ],
     "competing_forces": [
@@ -244,7 +246,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Sweden feels balanced and harmonious, with a strong emphasis on individual autonomy supported by a robust welfare state. The 'lagom' philosophy permeates daily life, encouraging moderation and flexibility. Social interactions are marked by emotional restraint and indirect communication, fostering a peaceful but sometimes ambiguous environment. Celebrations like Midsummer offer a joyful contrast to the usual restraint, allowing for uninhibited expression.",
+      "text": "Life feels balanced and harmonious, with strong individual autonomy held up by a generous welfare state. The lagom philosophy runs through the everyday, urging moderation and give. Social dealings run on restraint and indirect talk, making a peaceful but sometimes ambiguous world. Celebrations like Midsummer offer a joyful break from the usual reserve, a night for letting go.",
       "claim_ids": [
         "c2",
         "c4",
@@ -256,28 +258,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of individualism, supported by a comprehensive welfare state, is immediately noticeable in Sweden.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "The reserve in public is standard and not coldness."
       },
       {
-        "text": "Swedes' preference for emotional restraint and indirect communication can initially seem reserved to newcomers.",
-        "claim_ids": [
-          "c4",
-          "c5"
-        ],
-        "sources_count": 2
+        "text": "Hierarchy is nearly invisible."
       },
       {
-        "text": "Punctuality and planning are highly valued, reflecting a structured approach to everyday life.",
-        "claim_ids": [
-          "c7",
-          "c21"
-        ],
-        "sources_count": 2
+        "text": "Fika — the coffee break — is a real institution."
       }
     ],
     "success_factors": [
@@ -424,7 +411,7 @@
         "iso3": "FIN",
         "country": "Finland",
         "similarity": 87,
-        "explanation": "While both Sweden and Finland prioritize education and innovation, Sweden's 'lagom' approach to life offers a unique cultural flavor.",
+        "explanation": "While both Sweden and Finland favor education and innovation, Sweden's 'lagom' approach to life offers a unique cultural flavor.",
         "claim_ids": [
           "c11",
           "c12"
@@ -550,7 +537,11 @@
           "suggested_score": 32
         }
       ]
-    }
+    },
+    "best_for": [
+      "Teams valuing consensus and balance",
+      "Organizations focused on sustainability and innovation"
+    ]
   },
   "sources": [
     {
@@ -810,11 +801,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 91,
+        "score": 87,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 67,
+        "score": 50,
         "confidence": "HIGH"
       },
       "D3": {

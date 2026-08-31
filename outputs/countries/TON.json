@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 24,
-        "reading": "Community-first",
-        "explanation": "Community-first"
+        "score": 30,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and community come before the individual, so belonging, rank and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 43,
-        "reading": "Even-keeled",
-        "explanation": "Even-keeled"
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: everyday restraint with expressive release at church and communal ritual, so warm-but-respectful approaches work."
       },
       {
         "dimension": "D3",
-        "score": 65,
-        "reading": "Structured",
-        "explanation": "Structured"
+        "score": 71,
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: strong hierarchy, tradition and religion (and the faka Tonga way) give a firm frame, so rank and the known way carry weight."
       },
       {
         "dimension": "D4",
-        "score": 37,
-        "reading": "Relaxed",
-        "explanation": "The broader Pacific region (e.g., Samoa, Fiji) scores very low on Masculinity (Drive), emphasising quality of life and relationships over competition."
+        "score": 39,
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: collective well-being over individual ambition, so practical, communal goods matter most."
       }
     ],
-    "executive_summary": "Tonga is a place where community and family take precedence over the individual. The society is structured with a strong emphasis on respect and hierarchy, influenced by traditional and religious values. While emotional restraint is common in daily life, communal events like church services and funerals allow for expressive emotional release. The younger generation is beginning to embrace more individualistic values, creating a dynamic cultural landscape.",
+    "executive_summary": "Tonga puts community and family before the individual. The society is structured, with a heavy stress on respect and rank, shaped by tradition and religion. Feeling is usually held back in daily life, but communal events like church services and funerals give it a loud release. The young are beginning to take up more individual values, shifting the scene.",
     "cultural_archetype": {
-      "title": "The Communal Guardian",
-      "summary": "A society deeply rooted in family and community, where collective well-being is prioritized over individual ambition.",
+      "title": "Ranked Households",
+      "summary": "Family, church and rank order everything, with the community first.",
       "claim_ids": [
         "c1",
         "C06",
@@ -162,13 +162,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Tonga's history as a constitutional monarchy with a hereditary nobility has created a structured social hierarchy that influences contemporary social interactions and communication.",
-        "claim_ids": [
-          "c11",
-          "C20",
-          "C26"
-        ],
-        "sources_count": 3
+        "text": "The extended family under its head, and a hereditary noble system, order social life and obligation."
+      },
+      {
+        "text": "A constitutional monarchy with hereditary nobility gives one of the region's most formally ranked structures."
+      },
+      {
+        "text": "Church activity and communal ritual, alongside heavy emigration and remittances, organise both the calendar and the household economy."
       }
     ],
     "competing_forces": [
@@ -368,7 +368,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Tonga is deeply intertwined with family and community, where the 'ulumotu'a system ensures collective decision-making. Emotional restraint is common, but communal rituals offer outlets for expression. Respect and hierarchy shape interactions, and the traditional way of life — faka Tonga — is ever-present. The balance of these elements creates a rhythm of life that newcomers must adapt to.",
+      "text": "Life is bound tight to family and community, where the ulumotua, the head of the extended family, leads collective decisions. Restraint is common, but communal rituals give feeling its outlet. Respect and rank shape every dealing, and the traditional way of life, faka Tonga, is always present. Balancing all this makes a rhythm a newcomer has to learn.",
       "claim_ids": [
         "c4",
         "c6",
@@ -378,46 +378,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Traditional Tongan society is structured around extended family (kāinga) and loyalty to the group, with individual identity subordinated to family and community.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Church shapes the week entirely."
       },
       {
-        "text": "The 'ulumotu'a (senior family head) system demands collective decision-making, and individual achievement is often attributed to the family or village.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Rank and respect order every exchange."
       },
       {
-        "text": "The concept of 'faka‘apa‘apa' (respect) governs emotional displays: one must not show anger or disagreement with a superior in public; open emotion is seen as a loss of control.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Tongan funerals involve wailing and public grief, which is culturally sanctioned and contrasts with the everyday emotional restraint.",
-        "claim_ids": [
-          "c10"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The bedrock of Tongan social structure is the traditional way of life — faka Tonga — and the extended family; parents, grandparents, children, aunts, uncles, cousins, nieces, and nephews all share the same sense of obligation to each other.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Direct confrontation or blunt statements are generally avoided to maintain social harmony; negative feedback or requests that challenge authority are conveyed subtly rather than directly.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
+        "text": "Family obligation is extensive."
       }
     ],
     "success_factors": [
@@ -701,7 +668,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Cultural immersion experiences",
+      "Family-oriented projects"
+    ]
   },
   "sources": [
     {
@@ -1093,7 +1065,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 24,
+        "score": 30,
         "confidence": "MEDIUM"
       },
       "D2": {
@@ -1101,11 +1073,11 @@
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 65,
+        "score": 71,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 37,
+        "score": 39,
         "confidence": "LOW"
       }
     },

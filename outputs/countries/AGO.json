@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 29,
-        "reading": "Community-first",
-        "explanation": "Community-first"
+        "reading": "Strongly Social",
+        "explanation": "Community-first, shaped by the Ubuntu idea that a person exists through others; the extended family and neighbors are the real safety net, so decisions are talked through the group and word-of-mouth and family approval drive what gets bought."
       },
       {
         "dimension": "D2",
         "score": 55,
-        "reading": "Even-keeled",
-        "explanation": "Even-keeled"
+        "reading": "Open",
+        "explanation": "Moderately expressive: music, dance and warm greeting are the everyday language and celebration is public and shared, so lively, joyful, shareable brands connect while cold, clinical ones fall flat."
       },
       {
         "dimension": "D3",
         "score": 53,
         "reading": "Balanced",
-        "explanation": "Balanced"
+        "explanation": "Middling structure. Rank is respected on paper, but a loose sense of time and constant improvisation run underneath, so people expect flexibility and read rigid schedules or fine print as mistrust."
       },
       {
         "dimension": "D4",
         "score": 36,
-        "reading": "Relaxed",
-        "explanation": "Relaxed"
+        "reading": "Accepting",
+        "explanation": "Leans to quality of life over striving: relationships, family time and enjoyment come before the climb, so comfort, togetherness and everyday pleasure matter more than status and hustle."
       }
     ],
-    "executive_summary": "Angola is a tapestry of communal values and vibrant expression, where relationships and collective identity are paramount. The influence of Ubuntu philosophy is palpable, fostering a society that prioritizes community over individual achievement. Despite a relaxed approach to time, formal hierarchies and indirect communication guide professional interactions. Urban areas are seeing a shift towards individualism, driven by younger generations and economic changes.",
+    "executive_summary": "Angola runs on the old idea of Ubuntu, the belief that a person becomes a person through other people, so the group comes before the single ambitious soul. It is a warm, expressive place, full of music and talk, but the workplace still runs on rank and on saying things sideways instead of straight. Nobody is in a hurry here; the clock is a suggestion. In the cities the young are starting to strike out on their own, pushed along by money and change.",
     "cultural_archetype": {
-      "title": "The Communal Harmonist",
-      "summary": "A society deeply rooted in collective values and expressive traditions, balancing community needs with emerging individual aspirations.",
+      "title": "Warm Communities",
+      "summary": "The community carries people, and music and celebration are how it says what it feels.",
       "claim_ids": [
         "c1",
         "c2",
@@ -151,13 +151,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The legacy of Portuguese colonialism and the civil war have left a mark on Angola's cultural and institutional structures, shaping its collectivist and hierarchical tendencies.",
-        "claim_ids": [
-          "claim_3",
-          "claim_11",
-          "claim_13"
-        ],
-        "sources_count": 2
+        "text": "Ubuntu tradition and long village life made the extended family the unit of survival, anchoring Identity at the community end."
+      },
+      {
+        "text": "Portuguese colonial rule layered Catholic ceremony onto local ritual, leaving a public culture where music and celebration carry feeling."
+      },
+      {
+        "text": "Twenty-seven years of civil war destroyed formal systems and taught improvisation, which keeps Structure mid rather than high despite an oil-funded bureaucracy."
       }
     ],
     "competing_forces": [
@@ -365,7 +365,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Angola is a vibrant mix of communal gatherings, expressive arts, and strong family ties. Dance and music are integral to social life, providing a platform for community expression and cohesion. Family obligations often take precedence over work, reflecting the deep-seated value placed on relationships. Despite formal hierarchies in the workplace, interactions are warm and indirect, prioritizing harmony over confrontation. The relaxed approach to time and schedules may surprise newcomers accustomed to strict punctuality.",
+      "text": "Life here is gatherings, music, dance, and family. The dancing and singing are not decoration. They are how the community holds itself together. When family calls, work waits, because that is the order of things. The office has its hierarchy, but people stay warm inside it and keep the peace by hinting rather than confronting. If you arrive expecting everyone to be on time, you will be surprised.",
       "claim_ids": [
         "c7",
         "c5",
@@ -377,28 +377,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The influence of Ubuntu philosophy is immediately evident, with community and family playing central roles in daily life and social interactions.",
-        "claim_ids": [
-          "c2",
-          "c3"
-        ],
-        "sources_count": 2
+        "text": "Greetings are long and warm, and skipping them reads as rudeness."
       },
       {
-        "text": "Formal hierarchies and indirect communication styles are prevalent in professional settings, emphasizing harmony and relationship-building over direct confrontation.",
-        "claim_ids": [
-          "c6",
-          "c15"
-        ],
-        "sources_count": 2
+        "text": "Life is louder and more public than newcomers expect."
       },
       {
-        "text": "Titles and formal addresses are important social signals, reflecting the status-conscious nature of Angolan society.",
-        "claim_ids": [
-          "c30",
-          "c31"
-        ],
-        "sources_count": 2
+        "text": "Plans are held loosely; the day rearranges itself as it goes."
       }
     ],
     "success_factors": [
@@ -642,6 +627,18 @@
           "suggested_score": 27
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Angola exhibits moderate-to-open expression. Its rich tradition of semba music, energetic communal dance, oral storytelling, and elaborate life-cycle ceremonies signals a culture where emotional and social expression are structurally free and socially valued. Akteos notes 'the emphasis on verbal communication' and a 'significant musical and artistic tradition' as core cultural features. The Grokipedia culture overview documents expressive communal dances across all major ethnic groups as central social practice. However, in hierarchical and formal workplace settings, indirect communication is preferred to maintain harmony — specifically, avoiding direct public criticism. This is a context-modulated restraint rooted in hierarchy (D3), not a structural suppression of expression. The overall base rate is expressive, with the formal restraint being a contextual overlay. Score placed above midpoint reflecting genuine openness in daily and social life, pulled slightly back by formal-setting indirectness.",
+          "suggested_score": 63
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Angola is relatively restrained. The historical legacy of the Portuguese Estado Novo and the Marxist‑Leninist MPLA one‑party state suppressed open emotional expression for decades. Public life in Luanda and rural areas favours decorum, indirect criticism, and controlled affect. However, vibrant music (semba, kuduro), religious ceremonies (especially in independent churches), and the 'jangos' (improvised social gatherings) provide sanctioned outlets. The 2017–2022 political opening saw slightly more expressive discourse, but the core remains restrained.",
+          "suggested_score": 35
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -675,20 +672,13 @@
           "reasoning": "Angola is moderate, leaning slightly towards accepting (low Drive). The Hofstede Masculinity score is around 40–45, indicating a balance between achievement and quality of life. The long civil war and economic collapse created a survival orientation where hustling (kupapelar) is necessary, but the ultimate goal is often harmony within the extended family and community rather than individual career success. The oil‑boom generation (2002–2014) created pockets of strong striving behaviour in Luanda's business class, but rural and peri‑urban populations continue to prioritise relationships and leisure (e.g., the late afternoon 'lanche' ritual). The score reflects this ambivalence.",
           "suggested_score": 45
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Angola exhibits moderate-to-open expression. Its rich tradition of semba music, energetic communal dance, oral storytelling, and elaborate life-cycle ceremonies signals a culture where emotional and social expression are structurally free and socially valued. Akteos notes 'the emphasis on verbal communication' and a 'significant musical and artistic tradition' as core cultural features. The Grokipedia culture overview documents expressive communal dances across all major ethnic groups as central social practice. However, in hierarchical and formal workplace settings, indirect communication is preferred to maintain harmony — specifically, avoiding direct public criticism. This is a context-modulated restraint rooted in hierarchy (D3), not a structural suppression of expression. The overall base rate is expressive, with the formal restraint being a contextual overlay. Score placed above midpoint reflecting genuine openness in daily and social life, pulled slightly back by formal-setting indirectness.",
-          "suggested_score": 63
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Angola is relatively restrained. The historical legacy of the Portuguese Estado Novo and the Marxist‑Leninist MPLA one‑party state suppressed open emotional expression for decades. Public life in Luanda and rural areas favours decorum, indirect criticism, and controlled affect. However, vibrant music (semba, kuduro), religious ceremonies (especially in independent churches), and the 'jangos' (improvised social gatherings) provide sanctioned outlets. The 2017–2022 political opening saw slightly more expressive discourse, but the core remains restrained.",
-          "suggested_score": 35
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion enthusiasts",
+      "Community-focused initiatives"
+    ]
   },
   "sources": [
     {

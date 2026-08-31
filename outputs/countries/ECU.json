@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 31,
-        "reading": "Group-oriented",
-        "explanation": "Ecuador's society is deeply collectivist, with family and community ties shaping personal identity and social interactions."
+        "score": 28,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and community ties run deep, so belonging, reputation and a warm introduction drive choices over a cold approach."
       },
       {
         "dimension": "D2",
         "score": 62,
-        "reading": "Expressive",
-        "explanation": "Social gatherings in Ecuador are expressive and lively, but formal settings often require restraint and adherence to hierarchy."
+        "reading": "Open",
+        "explanation": "Expressive in private, reined in formally: gatherings are warm and loud while formal settings keep the hierarchy, so friendly, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 55,
-        "reading": "Balanced",
-        "explanation": "While there is a need for order and predictability, Ecuadorians often adapt flexibly in informal contexts, showing a balance between structure and fluidity."
+        "reading": "Certain",
+        "explanation": "Middle: people want order yet keep a flexible, relaxed hand on time, so clear terms plus patience and a human touch reassure."
       },
       {
         "dimension": "D4",
         "score": 51,
         "reading": "Balanced",
-        "explanation": "Quality of life and relationships are prioritized over competition, with a cultural emphasis on living well rather than striving for individual achievement."
+        "explanation": "Balanced: relationships and a good life weigh against real ambition, so both aspiration and enjoyment drive choices."
       }
     ],
-    "executive_summary": "Ecuador is a country where familial and community ties run deep, creating a strong sense of belonging and collectivism. While social gatherings are lively and expressive, formal settings often adhere to hierarchical norms, suppressing open expression. The culture values relationships and quality of life over competition, with a flexible approach to time and commitments. Newcomers will notice the warmth and politeness of Ecuadorians, as well as their relaxed attitude towards punctuality.",
+    "executive_summary": "In Ecuador family and community run deep, giving a strong sense of belonging. Social gatherings are loud and warm, but formal settings keep to the hierarchy and rein feeling in. People value relationships and a good life over competition, and they keep a loose hold on the clock. What strikes a newcomer is the warmth, the politeness, and the easy way with time.",
     "cultural_archetype": {
-      "title": "The Communal Connector",
-      "summary": "A society where relationships and community bonds are the foundation of social and professional life.",
+      "title": "Familial Socials",
+      "summary": "Several generations under one roof, and relationships ahead of the schedule.",
       "claim_ids": [
         "C01",
         "C02",
@@ -164,13 +164,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Ecuador's cultural landscape has been shaped by a mix of indigenous traditions and Spanish colonial influence, which introduced hierarchical structures and reinforced the importance of family and community.",
-        "claim_ids": [
-          "C01",
-          "C02",
-          "C18"
-        ],
-        "sources_count": 3
+        "text": "Indigenous Andean community tradition and Catholic family structure made several generations under one roof the norm."
+      },
+      {
+        "text": "A history of hierarchy and uneven institutions kept formal life ranked while everyday dealing stayed relationship-based."
+      },
+      {
+        "text": "Coastal and highland cultures with different tempers produce a society that is expressive in company and formal at work."
       }
     ],
     "competing_forces": [
@@ -375,7 +375,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Ecuador is a blend of warmth and community, where relationships take precedence over rigid schedules. In urban areas, there's a sense of order, but flexibility prevails, especially in informal settings. Social gatherings are lively and expressive, often lasting into the early hours, while formal environments maintain a sense of hierarchy and restraint. This creates a unique rhythm that newcomers quickly adapt to, balancing structure with spontaneity.",
+      "text": "It is warmth and community, where the relationship beats the schedule. The cities have some order, but flexibility wins, especially in casual settings. Gatherings run late and expressive, while formal places keep their rank and restraint, a rhythm of structure and spontaneity a newcomer soon picks up.",
       "claim_ids": [
         "claim_006",
         "claim_005",
@@ -388,53 +388,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Ecuador has strong familial and community ties, reflecting a collectivist culture.",
-        "claim_ids": [
-          "claim_001"
-        ],
-        "sources_count": 1
+        "text": "Coastal and highland manners differ noticeably."
       },
       {
-        "text": "In formal settings, expression is often suppressed by hierarchical norms.",
-        "claim_ids": [
-          "claim_005"
-        ],
-        "sources_count": 1
+        "text": "Greetings are warm and physical."
       },
       {
-        "text": "Ecuadorians value order and predictability in daily life, especially in urban areas.",
-        "claim_ids": [
-          "claim_006"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Social gatherings in Ecuador are energetic and extended: parties may not end until 4:00 or 5:00 a.m., sometimes with breakfast served before guests leave — there is no such thing as a party without dancing.",
-        "claim_ids": [
-          "C10"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Ecuadorians view blunt communication as extremely rude; if they want someone to do something, they will flatter rather than ask directly, making it difficult to refuse.",
-        "claim_ids": [
-          "C14"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Raising one's voice or becoming visibly upset in public is deeply frowned upon in Ecuador; giving someone 'a piece of your mind' does not work and is socially counterproductive.",
-        "claim_ids": [
-          "C17"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Business attire in Ecuador is European and conservative; dark suits and ties are expected for formal meetings, signaling status consciousness and achievement-display through professional presentation.",
-        "claim_ids": [
-          "C26"
-        ],
-        "sources_count": 1
+        "text": "Punctuality is treated flexibly."
       }
     ],
     "success_factors": [
@@ -739,7 +699,13 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Open, expressive teams",
+      "Community-focused projects",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {
@@ -1208,7 +1174,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 31,
+        "score": 28,
         "confidence": "HIGH"
       },
       "D2": {

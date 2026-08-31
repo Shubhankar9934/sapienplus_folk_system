@@ -14,31 +14,31 @@
         "dimension": "D1",
         "score": 46,
         "reading": "Balanced",
-        "explanation": "Barbados balances individualism and collectivism, valuing both personal achievements and community ties."
+        "explanation": "Balanced: strong family and community ties anchor identity while a real personal ambition, especially through education, leaves room for the individual, so community reputation and personal achievement both drive choices."
       },
       {
         "dimension": "D2",
-        "score": 65,
-        "reading": "Expressive",
-        "explanation": "Barbados embraces spontaneous social interactions and open emotional expression in informal settings."
+        "score": 62,
+        "reading": "Open",
+        "explanation": "Expressive: warm, sociable and festival-loving off the clock, though more formal at work, so lively branding connects socially while business wants correctness."
       },
       {
         "dimension": "D3",
         "score": 57,
-        "reading": "Balanced",
-        "explanation": "Barbados maintains a structured approach in formal settings, influenced by its British colonial history."
+        "reading": "Certain",
+        "explanation": "Middle-structured: orderly and institution-respecting, a Little-England legacy, yet relationship-driven underneath, so process reassures while a personal tie smooths it."
       },
       {
         "dimension": "D4",
         "score": 52,
         "reading": "Balanced",
-        "explanation": "Education and personal achievement are highly valued, reflecting a culture that strives for success."
+        "explanation": "Balanced, tilting to achievement: education and getting ahead are prized and a good reputation matters, so aspirational, education- and status-linked goods land."
       }
     ],
-    "executive_summary": "Barbados is a society where individualism and collectivism coexist, creating a unique blend of community spirit and personal ambition. Social interactions are often spontaneous and relaxed, yet the workplace maintains a formal and structured approach. Education is highly valued, reflecting a strong drive for personal achievement. Newcomers may find the social circles hard to penetrate, but once accepted, they will experience deep and lasting friendships.",
+    "executive_summary": "Barbados runs on two engines at once: a real community spirit and a real personal ambition. Off the clock, people are easy and spontaneous; on the clock, the workplace is formal and buttoned up. Schooling is prized, because that is how you get ahead. A newcomer may find the social circles hard to crack, but once you are let in, the friendships are deep and they last.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "Barbados blends strong community ties with a drive for personal success.",
+      "title": "Sociable Planners",
+      "summary": "Community and reputation matter, and education is how a family moves up.",
       "claim_ids": [
         "c1",
         "c3"
@@ -171,20 +171,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Barbados' dual culture is a result of its colonial history, which instilled both individualistic and collectivist values.",
-        "claim_ids": [
-          "c1",
-          "C4"
-        ],
-        "sources_count": 2
+        "text": "Emancipation into smallholding without a landed aristocracy bred self-reliance alongside strong family ties."
       },
       {
-        "text": "The island's educational achievements are rooted in a long-standing commitment to learning and personal development.",
-        "claim_ids": [
-          "C15",
-          "C30"
-        ],
-        "sources_count": 2
+        "text": "A long British institutional legacy, including one of the world's older parliaments and a heavy investment in schooling, made education the route up and order the norm."
+      },
+      {
+        "text": "Sugar-plantation history left community and reputation as the mechanisms that regulate behaviour."
       }
     ],
     "competing_forces": [
@@ -278,7 +271,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Barbados feels like a harmonious blend of community and personal ambition. Family and social connections are central, often dictating the rhythm of daily life. While social gatherings are relaxed and spontaneous, the workplace remains formal and structured, reflecting a balance between flexibility and discipline. Education is a key driver of success, and maintaining a good reputation is essential for navigating social networks.",
+      "text": "Family and social ties set the rhythm of the day. Gatherings are relaxed and unplanned, while work stays formal and orderly, so flexibility and discipline share the week. Education is the road to success, and keeping a good name is how you move through the social web.",
       "claim_ids": [
         "C03",
         "C05",
@@ -290,28 +283,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The centrality of family and community spirit is immediately noticeable, with strong bonds among extended family members.",
-        "claim_ids": [
-          "C02",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "The formality at work contrasts sharply with the ease outside it."
       },
       {
-        "text": "The emphasis on formal etiquette in the workplace reflects the island's British colonial influence.",
-        "claim_ids": [
-          "C19",
-          "C7"
-        ],
-        "sources_count": 2
+        "text": "Everyone is connected to everyone, and discretion matters."
       },
       {
-        "text": "The relaxed and spontaneous nature of social gatherings, known as 'liming,' offers a unique cultural experience.",
-        "claim_ids": [
-          "C14",
-          "C35"
-        ],
-        "sources_count": 2
+        "text": "The pace is unhurried without being unproductive."
       }
     ],
     "success_factors": [
@@ -428,7 +406,7 @@
         "iso3": "HTI",
         "country": "Haiti",
         "similarity": 88,
-        "explanation": "Barbados and Haiti both emphasize strong community ties, but Barbados places a higher value on formal education and structured environments.",
+        "explanation": "Barbados and Haiti both stress strong community ties, but Barbados places a higher value on formal education and structured environments.",
         "claim_ids": [
           "C02",
           "C15"
@@ -570,7 +548,11 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Open, expressive teams"
+    ]
   },
   "sources": [
     {
@@ -933,7 +915,7 @@
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 65,
+        "score": 62,
         "confidence": "MEDIUM"
       },
       "D3": {

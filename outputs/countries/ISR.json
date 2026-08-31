@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 72,
-        "reading": "Strongly independent",
-        "explanation": "Israeli society blends individualism with strong communal bonds, reflecting both personal autonomy and a deep sense of group identity."
+        "score": 57,
+        "reading": "Self",
+        "explanation": "Balanced: a strong individual, opinionated streak sits inside deep family, community and national solidarity, so both personal voice and in-group belonging drive choices."
       },
       {
         "dimension": "D2",
         "score": 73,
-        "reading": "Highly expressive",
-        "explanation": "Emotional expression in Israel is open and direct, with lively discussions and a free exchange of emotions being the norm."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive and direct: blunt, warm and argumentative, where chutzpah is a virtue, so honest, bold, no-nonsense framing lands and polished vagueness reads as evasive."
       },
       {
         "dimension": "D3",
-        "score": 44,
+        "score": 50,
         "reading": "Balanced",
-        "explanation": "Despite a high need for structure, Israelis adapt to uncertainty with pragmatism and a tolerance for improvisation."
+        "explanation": "Middle: rules exist but improvisation and 'we'll figure it out' win, so flexibility, speed and a can-do fix beat rigid procedure."
       },
       {
         "dimension": "D4",
         "score": 55,
-        "reading": "Balanced",
-        "explanation": "While Israel values cooperation and quality of life, its 'Startup Nation' ethos underscores a strong drive for innovation and achievement."
+        "reading": "Striving",
+        "explanation": "Balanced-to-driven: a real innovation-and-achievement energy sits beside strong family and community life, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "Israel is a land of contrasts, where audacity meets tradition, and innovation thrives alongside deep-rooted communal bonds. The culture is marked by direct communication, a high value on family and community, and a strong drive for achievement. Newcomers will quickly notice the lively social atmosphere and the informal, yet intensely driven work environment.",
+    "executive_summary": "Israel is a country of contrasts, where nerve meets tradition and cutting-edge innovation sits next to tight communal bonds. People say what they think, straight out, and there is even a word for that brash confidence, chutzpah. They hold family and community high while pushing hard to achieve. Newcomers notice the loud social warmth and the informal but intensely driven way of working.",
     "cultural_archetype": {
-      "title": "The Bold Innovator",
-      "summary": "A society that embraces audacity and innovation while cherishing deep communal ties.",
+      "title": "Direct Improvisers",
+      "summary": "Blunt, improvising and inventive, held together by strong family and national ties.",
       "claim_ids": [
         "claim_7",
         "C34",
@@ -225,12 +225,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The historical experience of conflict and the necessity of rapid decision-making in the IDF have shaped a culture that values speed, pragmatism, and adaptability.",
-        "claim_ids": [
-          "C21",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "A migrant society built by people who left everything behind, combined with existential pressure, produced both fierce individual opinion and deep collective solidarity."
+      },
+      {
+        "text": "Universal military service and a founding communal tradition keep family and nation central to personal identity."
+      },
+      {
+        "text": "A survival-and-improvisation history rewards the quick fix, and the dugri speech norm prizes bluntness over politeness."
       }
     ],
     "competing_forces": [
@@ -417,7 +418,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Israel feels vibrant and dynamic, with a strong emphasis on family and community. The atmosphere is lively, with open emotional expression and a direct communication style that can be surprising to newcomers. The work environment is informal yet driven, with a high value placed on innovation and personal initiative. Despite a formal need for structure, there's a cultural acceptance of improvisation and flexibility, making everyday life feel both structured and spontaneous.",
+      "text": "It feels lively and charged, with family and community at the heart of it. The mood is loud, with open feeling and a directness that can startle a newcomer. Work is informal yet driven, prizing innovation and personal initiative. For all the official need for structure, improvisation is accepted, so life feels both ordered and spontaneous.",
       "claim_ids": [
         "claim_1",
         "claim_3",
@@ -429,32 +430,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Israeli society places a high value on family and communal bonds, often prioritizing group identity over individual pursuits.",
-        "claim_ids": [
-          "claim_1"
-        ],
-        "sources_count": 1
+        "text": "The bluntness is immediate and not hostile."
       },
       {
-        "text": "Emotional expression in Israel is generally open, with people feeling comfortable sharing their feelings openly.",
-        "claim_ids": [
-          "claim_3"
-        ],
-        "sources_count": 1
+        "text": "Queues and formalities are treated loosely."
       },
       {
-        "text": "Israeli social norms tend to be informal, allowing for flexibility in everyday life rather than strict adherence to rules.",
-        "claim_ids": [
-          "claim_5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "In certain sectors, such as the military, there is a stronger emphasis on order and predictability.",
-        "claim_ids": [
-          "claim_6"
-        ],
-        "sources_count": 1
+        "text": "Strangers involve themselves in your business freely."
       }
     ],
     "success_factors": [
@@ -741,7 +723,12 @@
           "suggested_score": 74
         }
       ]
-    }
+    },
+    "best_for": [
+      "Innovative startups",
+      "Open, expressive teams",
+      "Cultural explorers"
+    ]
   },
   "sources": [
     {
@@ -1144,7 +1131,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 72,
+        "score": 57,
         "confidence": "HIGH"
       },
       "D2": {
@@ -1152,7 +1139,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 44,
+        "score": 50,
         "confidence": "MEDIUM"
       },
       "D4": {

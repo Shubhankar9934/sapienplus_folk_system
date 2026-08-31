@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 59,
-        "reading": "Independent",
-        "explanation": "Spain's social fabric is woven from both individualist and collectivist threads, reflecting a balance that values personal autonomy within strong group affiliations."
+        "score": 57,
+        "reading": "Self",
+        "explanation": "Tips slightly individual, but family and old friend circles are central, so a personal tie often beats a rule and word-of-mouth within long-held networks drives choices, which outsiders find hard to enter."
       },
       {
         "dimension": "D2",
         "score": 71,
-        "reading": "Highly expressive",
-        "explanation": "Spanish culture embraces emotional expression, evident in public celebrations and everyday interactions, though professional settings may temper this openness."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, loud, physically affectionate and quick to socialize, so bold, lively, story-rich branding and shared experiences thrive."
       },
       {
         "dimension": "D3",
-        "score": 81,
-        "reading": "Highly structured",
-        "explanation": "Spain's high need for structure and predictability is evident in its bureaucratic systems and workplace hierarchies, despite a cultural tolerance for social flexibility."
+        "score": 68,
+        "reading": "Certain",
+        "explanation": "Structured: formal hierarchy, rules and predictability give a frame, softened by personal warmth, so clear process plus a personal tie reassure."
       },
       {
         "dimension": "D4",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "Spain values quality of life and social harmony over competitive achievement, fostering a culture where personal well-being and community are prioritized."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: leisure, family, food and the long evening beat the climb, so enjoyment, belonging and lifestyle land over status and hustle."
       }
     ],
-    "executive_summary": "Spain is a land of vibrant expression and deep-rooted traditions. Social connections are cherished, often forming around long-standing networks that newcomers may find difficult to penetrate. The workplace balances formal hierarchy with personal warmth, and while rules and predictability are valued, there's a cultural embrace of spontaneity and leisure. Life here is about savoring moments, not rushing through them.",
+    "executive_summary": "Spain is loud, expressive, and deeply traditional. People cherish their social ties, which often run through long-standing circles a newcomer can find hard to break into. Work mixes a formal hierarchy with personal warmth, and though rules and predictability are valued, so are spontaneity and leisure. The idea is to savor the moment, not race through it.",
     "cultural_archetype": {
-      "title": "The Expressive Traditionalist",
-      "summary": "A society that thrives on emotional openness and deep-rooted social bonds while valuing structure and predictability.",
+      "title": "Sociable Traditionalists",
+      "summary": "Long friendships, longer meals, and a life that refuses to be rushed by work.",
       "claim_ids": [
         "claim2",
         "C10",
@@ -126,19 +126,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Spain's history of regional identities and the post-Franco democratic transition have shaped its current balance of individualism and collectivism.",
-        "claim_ids": [
-          "claim_2",
-          "claim_3"
-        ],
-        "sources_count": 2
+        "text": "Catholic tradition, strong regional identities and the cuadrilla, the lifelong friend group, keep close networks central."
       },
       {
-        "text": "Catholic values have historically promoted communal and non-materialistic ideals, influencing Spain's cultural emphasis on quality of life over competitive achievement.",
-        "claim_ids": [
-          "claim_20"
-        ],
-        "sources_count": 1
+        "text": "Franco-era centralism followed by rapid democratisation left formal hierarchy alongside a strong appetite for public life."
+      },
+      {
+        "text": "A Mediterranean climate and the plaza-and-fiesta calendar made leisure and the long evening structural, holding Drive at the accepting end."
       }
     ],
     "competing_forces": [
@@ -279,7 +273,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Spain is a vibrant tapestry of expressive public celebrations and deeply rooted social networks. While work environments respect hierarchy, they are also infused with personal warmth and informality. The emphasis on work-life balance is palpable, with leisure and family time being integral parts of the daily routine. Navigating social circles may require patience, as friendships are often long-standing and not easily extended to newcomers.",
+      "text": "It is expressive public celebration wrapped around old, close-knit networks. Workplaces respect rank but stay warm and informal. The balance of work and life is real, with leisure and family time built into the day. Cracking the social circles can take patience, since friendships here are long-standing and not handed out quickly.",
       "claim_ids": [
         "claim4",
         "C04",
@@ -290,32 +284,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Spain is characterized by exuberant public displays of emotion, particularly in festive and public contexts.",
-        "claim_ids": [
-          "claim4"
-        ],
-        "sources_count": 1
+        "text": "The day runs later than newcomers expect at both ends."
       },
       {
-        "text": "Newcomers report that Spanish social life is built around long-standing closed friendship networks that don’t easily extend to outsiders.",
-        "claim_ids": [
-          "claim3"
-        ],
-        "sources_count": 1
+        "text": "People stand close and touch while talking."
       },
       {
-        "text": "Business communication in Spain takes place on an equal peer level despite the hierarchical structure, and meetings frequently include personal/family topics.",
-        "claim_ids": [
-          "C04"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "There is a growing culture of 'presentismo' (presenteeism) in Spanish workplaces — the idea that long hours at the desk signals commitment and seriousness.",
-        "claim_ids": [
-          "C26"
-        ],
-        "sources_count": 1
+        "text": "Regional identity is strongly felt."
       }
     ],
     "success_factors": [
@@ -589,7 +564,11 @@
           "suggested_score": 38
         }
       ]
-    }
+    },
+    "best_for": [
+      "Socially driven projects",
+      "Long-term relationship building"
+    ]
   },
   "sources": [
     {
@@ -981,7 +960,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 59,
+        "score": 57,
         "confidence": "HIGH"
       },
       "D2": {
@@ -989,7 +968,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 81,
+        "score": 68,
         "confidence": "MEDIUM"
       },
       "D4": {

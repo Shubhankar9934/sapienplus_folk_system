@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 31,
-        "reading": "Group-oriented",
-        "explanation": "Sri Lanka's collectivist society emphasizes loyalty to family and group, with strong communal ties shaping social interactions."
+        "reading": "Social",
+        "explanation": "Community-first: group loyalty and family ties are central, shaped by Buddhist tradition, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 38,
-        "reading": "Understated",
-        "explanation": "Emotional restraint and harmony are valued, particularly in hierarchical contexts, reflecting Buddhist influences."
+        "reading": "Restrained",
+        "explanation": "Reserved: emotional restraint and harmony, especially before rank, keep feeling measured, so gentle, respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 51,
         "reading": "Balanced",
-        "explanation": "While there is a preference for rules and predictability, there is also cultural acceptance of ambiguity and flexibility in informal settings."
+        "explanation": "Middle: paternalistic hierarchy and tradition give a soft frame while dealing stays relationship-based, so respect for rank plus a trusted tie reassure."
       },
       {
         "dimension": "D4",
         "score": 36,
-        "reading": "Relaxed",
-        "explanation": "Sri Lanka's cultural orientation prioritizes harmony and relationships over assertiveness and material achievement."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: harmony and contentment over competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Sri Lanka is a nation where group loyalty and communal ties are paramount, deeply influenced by its Buddhist traditions. Emotional restraint and harmony are valued, especially in hierarchical settings. The workplace reflects a blend of collectivist and paternalistic values, with a focus on group harmony over individual achievement.",
+    "executive_summary": "Sri Lanka puts group loyalty and communal ties first, shaped deeply by its Buddhist tradition. People value emotional restraint and harmony, especially where rank is involved. The workplace mixes collectivist and paternalistic habits, keeping the group's harmony ahead of any one person's achievement.",
     "cultural_archetype": {
-      "title": "The Communal Harmonist",
-      "summary": "A society where communal ties and emotional restraint shape everyday interactions.",
+      "title": "Quiet Kin",
+      "summary": "Communal ties and quiet restraint, shaped by Buddhist habit.",
       "claim_ids": [
         "c01",
         "c04",
@@ -128,12 +128,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Sri Lanka's colonial past and the introduction of British administrative systems have left a lasting impact on its social and institutional structures.",
-        "claim_ids": [
-          "c2",
-          "c22"
-        ],
-        "sources_count": 2
+        "text": "Theravada Buddhist practice makes restraint and harmony everyday values, keeping Expression reserved."
+      },
+      {
+        "text": "A paternalistic hierarchical tradition, reinforced under colonial administration, still shapes workplaces."
+      },
+      {
+        "text": "Family and community remain the reliable unit after decades of civil conflict."
       }
     ],
     "competing_forces": [
@@ -226,7 +227,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "In Sri Lanka, life revolves around communal ties and a relaxed approach to daily routines. The influence of Buddhism encourages emotional restraint and harmony, creating a peaceful yet structured environment. Workplaces reflect a blend of collectivist values and paternalistic management, where group harmony is prioritized over individual achievement.",
+      "text": "Life circles around communal ties and an easy daily rhythm. Buddhism encourages restraint and harmony, making a peaceful but ordered world. Workplaces blend collectivist values with a fatherly kind of management, where the group's harmony comes before individual success.",
       "claim_ids": [
         "c01",
         "c04",
@@ -237,20 +238,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of community and group loyalty is immediately noticeable.",
-        "claim_ids": [
-          "c01",
-          "c03"
-        ],
-        "sources_count": 2
+        "text": "The politeness is constant and gentle."
       },
       {
-        "text": "Buddhist influences are evident in the emphasis on harmony and emotional restraint.",
-        "claim_ids": [
-          "c4",
-          "c15"
-        ],
-        "sources_count": 2
+        "text": "Deference to age and status is immediate."
+      },
+      {
+        "text": "The pace is unhurried."
       }
     ],
     "success_factors": [
@@ -360,7 +354,7 @@
         "iso3": "BTN",
         "country": "Bhutan",
         "similarity": 94,
-        "explanation": "Both Sri Lanka and Bhutan share Buddhist influences that emphasize harmony and community, though Bhutan's Vajrayana Buddhism introduces different spiritual practices.",
+        "explanation": "Both Sri Lanka and Bhutan share Buddhist influences that stress harmony and community, though Bhutan's Vajrayana Buddhism introduces different spiritual practices.",
         "claim_ids": [
           "c31"
         ],
@@ -392,7 +386,7 @@
         "iso3": "NPL",
         "country": "Nepal",
         "similarity": 89,
-        "explanation": "Nepal and Sri Lanka both emphasize community, but Nepal's Hindu majority offers a different cultural framework compared to Sri Lanka's Buddhist orientation.",
+        "explanation": "Nepal and Sri Lanka both stress community, but Nepal's Hindu majority offers a different cultural framework compared to Sri Lanka's Buddhist orientation.",
         "claim_ids": [
           "c01",
           "c31"
@@ -467,6 +461,18 @@
           "suggested_score": 30
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Sri Lanka displays structurally restrained emotional expression in formal and hierarchical settings. Workplace communication is explicitly indirect; direct confrontation is avoided to maintain face and harmony. Subordinates do not openly challenge superiors even when they disagree. The Buddhist cultural ethic of not 'feeding the mind's heat' reinforces emotional modulation. Non-verbal cues (polite smiles, nods) routinely mask disagreement. High power distance (PDI=80) compounds hierarchical suppression of open expression. Counter-evidence: Sri Lanka has vibrant festival life (Poya days, Sinhala-Tamil New Year, Vesak) and warm interpersonal hospitality, suggesting context-specific expressiveness. However, those are sanctioned social occasions, not evidence of freedom from hierarchical suppression of expression in general. Overall, the structural-institutional picture is one of restrained expression. Score: 28.",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Emotional expression is modulated by hierarchical respect and Buddhist non-confrontation values, but festive and religious contexts allow openness; not strongly open nor fully restrained.",
+          "suggested_score": 45
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -484,18 +490,6 @@
           "suggested_score": 70
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Sri Lanka displays structurally restrained emotional expression in formal and hierarchical settings. Workplace communication is explicitly indirect; direct confrontation is avoided to maintain face and harmony. Subordinates do not openly challenge superiors even when they disagree. The Buddhist cultural ethic of not 'feeding the mind's heat' reinforces emotional modulation. Non-verbal cues (polite smiles, nods) routinely mask disagreement. High power distance (PDI=80) compounds hierarchical suppression of open expression. Counter-evidence: Sri Lanka has vibrant festival life (Poya days, Sinhala-Tamil New Year, Vesak) and warm interpersonal hospitality, suggesting context-specific expressiveness. However, those are sanctioned social occasions, not evidence of freedom from hierarchical suppression of expression in general. Overall, the structural-institutional picture is one of restrained expression. Score: 28.",
-          "suggested_score": 28
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Emotional expression is modulated by hierarchical respect and Buddhist non-confrontation values, but festive and religious contexts allow openness; not strongly open nor fully restrained.",
-          "suggested_score": 45
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -508,7 +502,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Collaborative projects"
+    ]
   },
   "sources": [
     {

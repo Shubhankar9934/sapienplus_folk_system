@@ -5,13 +5,39 @@ import maplibregl from "maplibre-gl";
 import { useRouter } from "next/navigation";
 import { colorForScore, type DimCode } from "@/lib/dimensions";
 import type { MapItem } from "@/lib/api";
+import { useIsDark } from "@/hooks/use-theme";
 
-const EMPTY_COLOR = "#16202c";
+function createGraticuleGeoJSON() {
+  const features: any[] = [];
+  // Latitude lines every 30 degrees
+  for (let lat = -60; lat <= 60; lat += 30) {
+    const coords: [number, number][] = [];
+    for (let lng = -180; lng <= 180; lng += 5) {
+      coords.push([lng, lat]);
+    }
+    features.push({
+      type: "Feature",
+      geometry: { type: "LineString", coordinates: coords },
+    });
+  }
+  // Longitude lines every 30 degrees
+  for (let lng = -150; lng <= 150; lng += 30) {
+    const coords: [number, number][] = [];
+    for (let lat = -85; lat <= 85; lat += 5) {
+      coords.push([lng, lat]);
+    }
+    features.push({
+      type: "Feature",
+      geometry: { type: "LineString", coordinates: coords },
+    });
+  }
+  return { type: "FeatureCollection", features };
+}
 
 export function WorldMap({
   data,
   dim,
-  height = 460,
+  height = 560,
   onSelect,
 }: {
   data: MapItem[];
@@ -23,15 +49,26 @@ export function WorldMap({
   const mapRef = useRef<maplibregl.Map | null>(null);
   const loadedRef = useRef(false);
   const router = useRouter();
+  const isDark = useIsDark();
+
   const dataRef = useRef(data);
   const dimRef = useRef(dim);
+  const isDarkRef = useRef(isDark);
+
   dataRef.current = data;
   dimRef.current = dim;
+  isDarkRef.current = isDark;
 
-  // Apply per-country feature-state colors for the active dimension.
   function applyColors() {
     const map = mapRef.current;
     if (!map || !loadedRef.current) return;
+
+    try {
+      map.setPaintProperty("bg", "background-color", isDarkRef.current ? "#06080c" : "#f8fafc");
+      map.setPaintProperty("country-line", "line-color", isDarkRef.current ? "#06080c" : "#ffffff");
+      map.setPaintProperty("graticule-line", "line-color", isDarkRef.current ? "#ffffff" : "#000000");
+    } catch {}
+
     for (const item of dataRef.current) {
       const score = item.scores[dimRef.current];
       try {
@@ -40,7 +77,7 @@ export function WorldMap({
           { color: colorForScore(dimRef.current, score), hasData: score != null }
         );
       } catch {
-        /* feature not present in geometry; ignore */
+        /* feature not present in geometry */
       }
     }
   }
@@ -54,7 +91,7 @@ export function WorldMap({
         version: 8,
         sources: {},
         layers: [
-          { id: "bg", type: "background", paint: { "background-color": "#0a0e14" } },
+          { id: "bg", type: "background", paint: { "background-color": isDark ? "#06080c" : "#f8fafc" } },
         ],
       },
       center: [12, 28],
@@ -68,11 +105,30 @@ export function WorldMap({
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
 
     map.on("load", async () => {
+      // Add Graticule Grid Lines
+      map.addSource("graticules", {
+        type: "geojson",
+        data: createGraticuleGeoJSON() as any,
+      });
+
+      map.addLayer({
+        id: "graticule-line",
+        type: "line",
+        source: "graticules",
+        paint: {
+          "line-color": isDark ? "#ffffff" : "#000000",
+          "line-opacity": isDark ? 0.08 : 0.12,
+          "line-width": 1,
+          "line-dasharray": [2, 2],
+        },
+      });
+
       map.addSource("countries", {
         type: "geojson",
         data: "/world.geojson",
         promoteId: "ISO_A3_EH",
       });
+
       map.addLayer({
         id: "country-fill",
         type: "fill",
@@ -81,22 +137,24 @@ export function WorldMap({
           "fill-color": [
             "coalesce",
             ["feature-state", "color"],
-            EMPTY_COLOR,
+            isDark ? "#374151" : "#cbd5e1",
           ],
           "fill-opacity": 0.9,
         },
       });
+
       map.addLayer({
         id: "country-line",
         type: "line",
         source: "countries",
-        paint: { "line-color": "#0a0e14", "line-width": 0.5 },
+        paint: { "line-color": isDark ? "#06080c" : "#ffffff", "line-width": 0.5 },
       });
+
       map.addLayer({
         id: "country-hover",
         type: "line",
         source: "countries",
-        paint: { "line-color": "#e6edf3", "line-width": 1.5 },
+        paint: { "line-color": isDark ? "#ffffff" : "#000000", "line-width": 1.5 },
         filter: ["==", ["get", "ISO_A3_EH"], ""],
       });
 
@@ -120,9 +178,9 @@ export function WorldMap({
           popup
             .setLngLat(e.lngLat)
             .setHTML(
-              `<div style="font-size:12px"><strong>${item.country}</strong><br/>${
+              `<div style="font-size:12px; padding:2px"><strong>${item.country}</strong><br/>${
                 dimRef.current
-              }: ${score ?? "—"}</div>`
+              }: ${score !== null && score !== undefined ? Math.round(score) : "—"}</div>`
             )
             .addTo(map);
         } else {
@@ -153,17 +211,18 @@ export function WorldMap({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Recolor when the data or dimension changes.
+  // Recolor when data, dimension, or theme changes.
   useEffect(() => {
     applyColors();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data, dim]);
+  }, [data, dim, isDark]);
 
   return (
     <div
       ref={containerRef}
       style={{ height }}
-      className="w-full overflow-hidden rounded-xl border border-line"
+      className="w-full overflow-hidden rounded-2xl"
     />
   );
 }
+

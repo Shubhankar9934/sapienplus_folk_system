@@ -10,8 +10,8 @@ export function Card({
   return (
     <div
       className={cn(
-        "rounded-xl border border-line bg-bg-card/70 backdrop-blur-sm",
-        className
+        "rounded-xl border border-ink/10 bg-white dark:border-white/10 dark:bg-[#1a1d21]",
+        className,
       )}
       {...props}
     >
@@ -30,9 +30,9 @@ export function SectionTitle({
   className?: string;
 }) {
   return (
-    <div className={cn("mb-4", className)}>
-      <h2 className="text-lg font-semibold tracking-tight text-ink">{title}</h2>
-      {subtitle && <p className="text-sm text-ink-soft mt-0.5">{subtitle}</p>}
+    <div className={cn("mb-6", className)}>
+      <h2 className="font-display text-2xl uppercase tracking-tight text-ink dark:text-white">{title}</h2>
+      {subtitle && <p className="mt-1 text-sm text-ink/60 dark:text-white/50">{subtitle}</p>}
     </div>
   );
 }
@@ -50,7 +50,7 @@ export function Badge({
     <span
       className={cn(
         "inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium",
-        className
+        className,
       )}
       style={
         color
@@ -80,7 +80,13 @@ export function ConfidenceBadge({ level }: { level: string | null }) {
 export function GradeBadge({ grade }: { grade: string | null }) {
   if (!grade) return null;
   const color =
-    grade === "A" ? "#34d399" : grade === "B" ? "#f0b429" : grade === "C" ? "#fb923c" : "#f87171";
+    grade === "A"
+      ? "#34d399"
+      : grade === "B"
+        ? "#f0b429"
+        : grade === "C"
+          ? "#fb923c"
+          : "#f87171";
   return <Badge color={color}>Research grade {grade}</Badge>;
 }
 
@@ -95,9 +101,15 @@ export function Meter({
   color?: string;
   className?: string;
 }) {
-  const pct = value == null ? 0 : Math.max(0, Math.min(100, (value / max) * 100));
+  const pct =
+    value == null ? 0 : Math.max(0, Math.min(100, (value / max) * 100));
   return (
-    <div className={cn("h-2 w-full rounded-full bg-bg-hover overflow-hidden", className)}>
+    <div
+      className={cn(
+        "h-2 w-full rounded-full bg-bg-hover overflow-hidden",
+        className,
+      )}
+    >
       <div
         className="h-full rounded-full transition-all duration-700"
         style={{ width: `${pct}%`, backgroundColor: color }}
@@ -117,7 +129,9 @@ export function Stat({
 }) {
   return (
     <div>
-      <div className="text-xs uppercase tracking-wide text-ink-dim">{label}</div>
+      <div className="text-xs uppercase tracking-wide text-ink-dim">
+        {label}
+      </div>
       <div className="text-2xl font-semibold text-ink mt-0.5">{value}</div>
       {hint && <div className="text-xs text-ink-soft mt-0.5">{hint}</div>}
     </div>
@@ -142,8 +156,8 @@ export function EmptyState({
 }) {
   return (
     <Card className="p-8 text-center">
-      <p className="font-medium text-ink">{title}</p>
-      <p className="text-sm text-ink-soft mt-1">{message}</p>
+      <p className="font-medium text-ink dark:text-white">{title}</p>
+      <p className="mt-1 text-sm text-ink/60 dark:text-white/50">{message}</p>
     </Card>
   );
 }

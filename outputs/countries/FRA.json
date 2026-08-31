@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 73,
-        "reading": "Strongly independent",
-        "explanation": "France's culture is characterized by strong individualism, with a focus on personal autonomy and immediate family ties."
+        "reading": "Strongly Self",
+        "explanation": "Individual-leaning: personal opinion, taste and privacy are prized, within a strong civic and intellectual frame, so personalization and a sense of distinction work while pushy communal appeals do not."
       },
       {
         "dimension": "D2",
         "score": 56,
-        "reading": "Even-keeled",
-        "explanation": "While formal communication is the norm, French culture allows for expressive and passionate debate, particularly in intellectual contexts."
+        "reading": "Open",
+        "explanation": "Moderately expressive and articulate: debate, wit and cultivated taste are valued, so intelligent, aesthetic, well-argued framing beats crude hard land."
       },
       {
         "dimension": "D3",
         "score": 80,
-        "reading": "Highly structured",
-        "explanation": "French society exhibits a strong preference for structure and predictability, with a high degree of rule orientation and planning."
+        "reading": "Strongly Certain",
+        "explanation": "Very highly structured: formal hierarchy, rules, credentials and the proper procedure give a firm frame, so pedigree, standards and correct process reassure."
       },
       {
         "dimension": "D4",
         "score": 40,
-        "reading": "Relaxed",
-        "explanation": "France places a high value on quality of life, with cultural norms that emphasize balance over relentless achievement."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: leisure, food, culture and the guarded private life beat the climb, so taste, pleasure and lifestyle land over status and hustle."
       }
     ],
-    "executive_summary": "France is a nation where individualism is deeply ingrained, yet social connections are highly valued, creating a unique balance. The French prioritize quality of life, evident in their work-life balance and cultural norms. Hierarchical structures and formal communication are the norms in professional settings, but personal expression and debate are encouraged. The blend of tradition and modernity is palpable in daily life, making France a fascinating place to navigate.",
+    "executive_summary": "France runs deep on individualism and yet sets a high value on social connection, a particular balance. People guard their quality of life, and it shows in how they hold work and leisure apart. Offices are hierarchical and formal, but personal expression and a good argument are welcome. Tradition and modern life sit close together in the everyday.",
     "cultural_archetype": {
-      "title": "The Independent Connector",
-      "summary": "A society that values individual autonomy while fostering strong social networks.",
+      "title": "Codified Individualists",
+      "summary": "Strong opinions and private lives, inside a very formal system.",
       "claim_ids": [
         "c1",
         "c2"
@@ -124,18 +124,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Napoleonic Code established a comprehensive legal system, reinforcing a rule-oriented culture.",
-        "claim_ids": [
-          "c12"
-        ],
-        "sources_count": 1
+        "text": "Centralised monarchy followed by a centralised Republic built the codified bureaucracy that puts Structure among the highest scores."
       },
       {
-        "text": "Existentialism, led by Sartre and Camus, promoted personal freedom and meaning-seeking, influencing French individualism.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "Enlightenment thought and a strong intellectual tradition made the individual mind and articulate argument central."
+      },
+      {
+        "text": "Hard-won labour settlements, including the short working week and long holidays, made leisure a defended right rather than a reward."
       }
     ],
     "competing_forces": [
@@ -229,7 +224,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in France feels like a balance between enjoying a high quality of life and navigating structured social and professional environments. The emphasis on personal connections and articulate expression creates a vibrant social scene, while the strong individualistic ethos allows for personal freedom and autonomy.",
+      "text": "It feels like enjoying a high quality of life while moving through structured social and work settings. The weight put on personal connection and articulate talk makes for a lively social scene, and the strong individualism leaves plenty of room for personal freedom.",
       "claim_ids": [
         "C22",
         "C06",
@@ -239,20 +234,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The French appreciation for articulate debate and intellectual conversation is evident in both social and professional settings.",
-        "claim_ids": [
-          "C09",
-          "C10"
-        ],
-        "sources_count": 2
+        "text": "The formality of address matters and is noticed."
       },
       {
-        "text": "France's structured work environment, with its emphasis on hierarchy and formal communication, stands out to newcomers.",
-        "claim_ids": [
-          "C12",
-          "C18"
-        ],
-        "sources_count": 2
+        "text": "Shops and offices close for lunch and August."
+      },
+      {
+        "text": "Directness in argument is not hostility."
       }
     ],
     "success_factors": [
@@ -374,7 +362,7 @@
         "iso3": "NIR",
         "country": "NIR",
         "similarity": 84,
-        "explanation": "France and Northern Ireland both have strong cultural identities, but France's emphasis on individualism contrasts with Northern Ireland's community-oriented culture.",
+        "explanation": "France and Northern Ireland both have strong cultural identities, but France's emphasis on individualism contrasts with Northern Ireland's community-first culture.",
         "claim_ids": [
           "c1"
         ],
@@ -493,7 +481,8 @@
           "suggested_score": 43
         }
       ]
-    }
+    },
+    "best_for": []
   },
   "sources": [
     {

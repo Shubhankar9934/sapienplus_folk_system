@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 35,
-        "reading": "Group-oriented",
-        "explanation": "Macedonian society is deeply collectivist, with family and community ties forming the core of social identity."
+        "reading": "Social",
+        "explanation": "Community-first: family and social connections are paramount, so belonging, reputation and a trusted tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 50,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression is vibrant and open among friends and family, yet formal settings demand reserve and politeness."
+        "reading": "Balanced",
+        "explanation": "Middle: warm and spontaneous among your own, more reserved and polite formally, so warm-but-correct, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 60,
-        "reading": "Structured",
-        "explanation": "Predictability and structure are valued, with a preference for following established procedures and hierarchical decision-making."
+        "reading": "Certain",
+        "explanation": "Structured: a preference for predictability and order gives a firm frame, softened by relationships, so clear process plus a personal tie reassure."
       },
       {
         "dimension": "D4",
         "score": 45,
-        "reading": "Balanced",
-        "explanation": "While collective well-being is prioritized over competitive achievement, there is a growing ambition among the younger generation."
+        "reading": "Accepting",
+        "explanation": "Balanced, leaning communal: relationships and belonging come before individual pursuit, so practical, communal goods lead with modest aspiration."
       }
     ],
-    "executive_summary": "Macedonia is a land where community ties run deep, and family and social connections are paramount. Emotional expression is vibrant in personal settings, yet formal interactions remain reserved and polite. The culture values predictability and structure, with a strong emphasis on relationship-building in both personal and professional spheres.",
+    "executive_summary": "Macedonia is a place where community ties run deep and family and social connections come first. Feeling is lively among your own, while formal dealings stay reserved and polite. The culture likes predictability and structure, with relationship-building at the center of both private and working life.",
     "cultural_archetype": {
-      "title": "The Communal Connector",
-      "summary": "A society deeply rooted in family and community, where relationships are the cornerstone of both personal and professional life.",
+      "title": "Close Households",
+      "summary": "Family and connections are the cornerstone, inside a formal order.",
       "claim_ids": [
         "c1",
         "C01",
@@ -147,12 +147,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Ottoman Empire's influence on Macedonia's social and family structures has left a lasting legacy of collectivism and community orientation.",
-        "claim_ids": [
-          "C01",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "Ottoman rule and a multi-ethnic settlement made family and community the reliable unit."
+      },
+      {
+        "text": "A Balkan hospitality tradition, centred on long hours at the table, keeps warmth central within the circle."
+      },
+      {
+        "text": "Yugoslav-era administration left a preference for defined structure and known procedure."
       }
     ],
     "competing_forces": [
@@ -240,7 +241,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Macedonia feels like being part of an extended family, where social interactions are warm and spontaneous, yet formal settings demand respect and politeness. The rhythm of life is marked by communal gatherings and a strong sense of belonging, with personal relationships taking precedence over individual pursuits.",
+      "text": "It feels like being part of an extended family, where the social world is warm and spontaneous, and formal settings ask for respect and politeness. The rhythm is set by communal gatherings and a strong sense of belonging, with personal relationships coming before individual pursuits.",
       "claim_ids": [
         "C01",
         "C03",
@@ -251,12 +252,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Newcomers to Macedonia are struck by the warmth and hospitality of the people, who value family and community connections above all.",
-        "claim_ids": [
-          "C03",
-          "C12"
-        ],
-        "sources_count": 2
+        "text": "Hospitality is generous and immediate."
+      },
+      {
+        "text": "Coffee is a social institution."
+      },
+      {
+        "text": "Formality gives way quickly once you are known."
       }
     ],
     "success_factors": [
@@ -388,7 +390,7 @@
         "iso3": "HRV",
         "country": "Croatia",
         "similarity": 89,
-        "explanation": "Macedonia and Croatia share cultural traditions that emphasize family and community, though Croatia exhibits more Western influences.",
+        "explanation": "Macedonia and Croatia share cultural traditions that stress family and community, though Croatia exhibits more Western influences.",
         "claim_ids": [
           "c1",
           "C01"
@@ -399,7 +401,7 @@
         "iso3": "MNE",
         "country": "Montenegro",
         "similarity": 86,
-        "explanation": "Macedonia and Montenegro both prioritize family and community, with similar social norms and values.",
+        "explanation": "Macedonia and Montenegro both favor family and community, with similar social norms and values.",
         "claim_ids": [
           "c1",
           "C01"
@@ -484,6 +486,18 @@
           "suggested_score": 40
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Macedonians display a structurally open expressive style: Cultural Atlas documents a direct communication norm where people speak up readily, correct mistakes immediately, and draw out points at length—hallmarks of expressively open cultures. Hospitality is intense and emotionally warm; neighbours visit spontaneously; family-related topics are discussed with visible emotion. Workplace guidance (Rivermate) notes that non-verbal cues are rich and meaningful, and social-emotional bonding must precede business. The partial counter-evidence is the hierarchical constraint on emotion in formal/upward workplace communication—employees are expected to be formally respectful toward superiors—which structurally suppresses expression in that domain. Balancing robust daily expressiveness against workplace hierarchy suppression, a score of 62 (moderately open) is appropriate.",
+          "suggested_score": 62
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is moderately open. Macedonian culture permits emotional display especially in informal settings and celebrations (e.g., lively café culture, weddings). Yet there is a reserved formality with strangers and in hierarchical contexts, pulling back from very high openness. The balance gives a score near the midpoint but tilted open.",
+          "suggested_score": 55
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -517,20 +531,13 @@
           "reasoning": "Drive is moderately accepting. The culture values relationships and quality of life (e.g., long coffee breaks, leisurely meal times) over aggressive achievement. The Hofstede Masculinity score for Macedonia (historical data, e.g., from Hofstede or similar databases) is around 40–45, indicating a tendency toward nurturing, work-life balance, and not prioritizing competition above all. Nevertheless, ambition and striving exist, especially among younger urban professionals, but the dominant orientation leans accepting.",
           "suggested_score": 40
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Macedonians display a structurally open expressive style: Cultural Atlas documents a direct communication norm where people speak up readily, correct mistakes immediately, and draw out points at length—hallmarks of expressively open cultures. Hospitality is intense and emotionally warm; neighbours visit spontaneously; family-related topics are discussed with visible emotion. Workplace guidance (Rivermate) notes that non-verbal cues are rich and meaningful, and social-emotional bonding must precede business. The partial counter-evidence is the hierarchical constraint on emotion in formal/upward workplace communication—employees are expected to be formally respectful toward superiors—which structurally suppresses expression in that domain. Balancing robust daily expressiveness against workplace hierarchy suppression, a score of 62 (moderately open) is appropriate.",
-          "suggested_score": 62
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression is moderately open. Macedonian culture permits emotional display especially in informal settings and celebrations (e.g., lively café culture, weddings). Yet there is a reserved formality with strangers and in hierarchical contexts, pulling back from very high openness. The balance gives a score near the midpoint but tilted open.",
-          "suggested_score": 55
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business ventures",
+      "Community-focused initiatives",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {

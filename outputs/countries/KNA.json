@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 38,
-        "reading": "Group-oriented",
-        "explanation": "Strong collectivist traditions are evident, with family and community ties taking precedence over individual pursuits."
+        "score": 33,
+        "reading": "Social",
+        "explanation": "Community-first: family reputation and community ties shape identity, so belonging, good name and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 65,
-        "reading": "Expressive",
-        "explanation": "Emotional expression is embraced during festivities, but everyday interactions are guided by norms of politeness and respectability."
+        "score": 63,
+        "reading": "Open",
+        "explanation": "Expressive: warm, festival-and-cookout sociability runs high, tempered by respectability norms, so lively but respectable branding connects."
       },
       {
         "dimension": "D3",
-        "score": 48,
+        "score": 53,
         "reading": "Balanced",
-        "explanation": "A formal legal and institutional framework inherited from colonial times provides structure, while social life remains flexible and adaptive."
+        "explanation": "Middle: institutions and a Protestant work ethic give a frame while the island pace and relationships keep it flexible, so clear process plus a human touch reassure."
       },
       {
         "dimension": "D4",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "While education and economic striving are valued, the emphasis on family and leisure tempers the drive for achievement."
+        "explanation": "Balanced: diligence and education-driven mobility matter, balanced by an easy pace, so aspiration and enjoyment both drive choices."
       }
     ],
-    "executive_summary": "In Saint Kitts and Nevis, community ties and family reputation shape social interactions, while a laid-back lifestyle coexists with formal institutional structures. Emotional expression is embraced during festivities but tempered by respectability norms in daily life. Education is a key driver of social mobility, reflecting a balance between collective values and individual aspirations.",
+    "executive_summary": "In Saint Kitts and Nevis community ties and a family's reputation shape how people deal with each other, while an easygoing lifestyle sits inside formal institutions. Feeling comes out at the festivals but gets held to respectability the rest of the week. Education is the main road up, striking a balance between collective values and personal ambition.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society that values familial bonds and community support while adapting flexibly to life's uncertainties.",
+      "title": "Convivial Households",
+      "summary": "Family and reputation matter, at a pace nobody hurries.",
       "claim_ids": [
         "c1",
         "c2",
@@ -100,11 +100,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Protestant work ethic, historically promoted by Methodist and Anglican churches, encourages diligence and economic striving.",
-        "claim_ids": [
-          "c11"
-        ],
-        "sources_count": 1
+        "text": "Small-island family networks and concern for family reputation regulate behaviour."
+      },
+      {
+        "text": "A Protestant work ethic and British institutional inheritance made education the recognised route up."
+      },
+      {
+        "text": "Carnival and village cookouts established the sanctioned occasions for public expression."
       }
     ],
     "competing_forces": [
@@ -205,7 +207,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Saint Kitts and Nevis is a blend of warm community interactions and a relaxed pace, where family ties and communal gatherings are central. The Protestant work ethic underscores diligence, while social events like village cookouts and Carnival allow for expressive release. This balance of structure and flexibility shapes a unique rhythm that newcomers quickly adapt to.",
+      "text": "It is warm community life at a relaxed pace, with family ties and communal gatherings at the center. A Protestant work ethic keeps people diligent, while village cookouts and Carnival give feeling its release. That balance of structure and flexibility makes a rhythm a newcomer soon settles into.",
       "claim_ids": [
         "c2",
         "c11",
@@ -215,25 +217,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Carnival and festive events in St. Kitts and Nevis feature open emotional expression, music, and public celebration, indicating comfort with emotional display.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Everyone knows everyone."
       },
       {
-        "text": "In everyday conversation, Kittitians and Nevisians use lively storytelling, laughter, and emphasize warmth in greetings, indicating moderate openness in expression.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "The welcome is warm and unhurried."
       },
       {
-        "text": "Kinship and community obligations dominate social life in St. Kitts and Nevis, with extended family networks providing material and emotional support, reflecting collectivist values.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Formality at work sits beside ease outside it."
       }
     ],
     "success_factors": [
@@ -325,7 +315,7 @@
         "iso3": "DOM",
         "country": "Dominican Republic",
         "similarity": 95,
-        "explanation": "Both Saint Kitts and Nevis and the Dominican Republic share strong community ties and a vibrant culture of music and dance, though Saint Kitts and Nevis maintains a more relaxed pace of life.",
+        "explanation": "Both Saint Kitts and Nevis and the Dominican Republic share strong community ties and a lively culture of music and dance, though Saint Kitts and Nevis maintains a more relaxed pace of life.",
         "claim_ids": [
           "c1",
           "c4"
@@ -336,7 +326,7 @@
         "iso3": "HTI",
         "country": "Haiti",
         "similarity": 95,
-        "explanation": "Saint Kitts and Nevis and Haiti both emphasize community and familial bonds, but Saint Kitts and Nevis has a more structured approach to social order.",
+        "explanation": "Saint Kitts and Nevis and Haiti both stress community and familial bonds, but Saint Kitts and Nevis has a more structured approach to social order.",
         "claim_ids": [
           "c1",
           "c21"
@@ -358,7 +348,7 @@
         "iso3": "PRI",
         "country": "Puerto Rico",
         "similarity": 89,
-        "explanation": "Puerto Rico and Saint Kitts and Nevis both have vibrant cultures with expressive traditions, but Saint Kitts and Nevis places more emphasis on community support and family reputation.",
+        "explanation": "Puerto Rico and Saint Kitts and Nevis both have lively cultures with expressive traditions, but Saint Kitts and Nevis places more emphasis on community support and family reputation.",
         "claim_ids": [
           "c1",
           "c14"
@@ -442,6 +432,18 @@
           "suggested_score": 20
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "KNA sits near the middle on expression but with a slight open lean. The festive culture is genuinely expressive: Carnival, Culturama, the St Kitts Music Festival, calypso and soca traditions with pointed social commentary, communal village cookouts, and warm greeting norms all represent structurally sanctioned emotional openness. Kittitians and Nevisians are consistently described as warm and friendly. At the same time, the dominant Protestant tradition (Anglican and Methodist, ~95%) historically prizes 'respectability' — a set of norms that moderate public displays of emotion, require conservative dress in religious and formal contexts, and discourage discussion of politics or personal income in public. This Protestant restraint distinguishes KNA from more Catholic or syncretic neighbours (Dominican Republic, Haiti) and aligns it with Barbados and Antigua. The balance of strong communal expressivity through sanctioned festivals against Protestant-inflected daily restraint produces a score just above the midpoint.",
+          "suggested_score": 54
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Kittitian and Nevisian communication is relatively open in emotional expression, with lively storytelling, laughter, and direct emotional displays in familiar or carnival contexts. However, there is a veneer of politeness and indirectness with strangers (e.g., avoidance of direct confrontation in public, use of euphemism). This places the culture moderately open, scored near the regional average for the English-speaking Caribbean.",
+          "suggested_score": 65
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -475,20 +477,12 @@
           "reasoning": "Moderate achievement orientation. There is strong value placed on education, land ownership, and small business success, but also a pervasive emphasis on family harmony and leisure (especially in rural settings). The Protestant work ethic from Methodist and Anglican traditions is present, but not as intense as in more competitive Caribbean societies like Trinidad or Barbados. The score is slightly above midpoint, reflecting a balance of striving and acceptance.",
           "suggested_score": 55
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "KNA sits near the middle on expression but with a slight open lean. The festive culture is genuinely expressive: Carnival, Culturama, the St Kitts Music Festival, calypso and soca traditions with pointed social commentary, communal village cookouts, and warm greeting norms all represent structurally sanctioned emotional openness. Kittitians and Nevisians are consistently described as warm and friendly. At the same time, the dominant Protestant tradition (Anglican and Methodist, ~95%) historically prizes 'respectability' — a set of norms that moderate public displays of emotion, require conservative dress in religious and formal contexts, and discourage discussion of politics or personal income in public. This Protestant restraint distinguishes KNA from more Catholic or syncretic neighbours (Dominican Republic, Haiti) and aligns it with Barbados and Antigua. The balance of strong communal expressivity through sanctioned festivals against Protestant-inflected daily restraint produces a score just above the midpoint.",
-          "suggested_score": 54
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Kittitian and Nevisian communication is relatively open in emotional expression, with lively storytelling, laughter, and direct emotional displays in familiar or carnival contexts. However, there is a veneer of politeness and indirectness with strangers (e.g., avoidance of direct confrontation in public, use of euphemism). This places the culture moderately open, scored near the regional average for the English-speaking Caribbean.",
-          "suggested_score": 65
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {
@@ -704,15 +698,15 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 38,
+        "score": 33,
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 65,
+        "score": 63,
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 48,
+        "score": 53,
         "confidence": "LOW"
       },
       "D4": {

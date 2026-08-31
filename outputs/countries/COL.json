@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 44,
-        "reading": "Balanced",
-        "explanation": "Colombia is one of the most collectivist societies globally, where group membership and loyalty are paramount."
+        "score": 31,
+        "reading": "Social",
+        "explanation": "Community-first: family and social networks are the foundation, so a personal tie and word-of-mouth drive choices far more than an unsolicited approach."
       },
       {
         "dimension": "D2",
-        "score": 88,
-        "reading": "Highly expressive",
-        "explanation": "Colombians are known for their open emotional expression, celebrated through vibrant festivals and social interactions."
+        "score": 77,
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, emotional and celebratory, so bold, joyful, music-rich branding and shareable experiences thrive while cold formality falls flat."
       },
       {
         "dimension": "D3",
         "score": 50,
         "reading": "Balanced",
-        "explanation": "Colombians prefer clear rules and structure to reduce uncertainty, yet exhibit flexibility in time management."
+        "explanation": "Middle: people want certainty and rules yet keep a flexible, elastic hand on time, so clear guarantees plus a human, adaptable touch reassure."
       },
       {
         "dimension": "D4",
-        "score": 72,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "Colombia exhibits a strong drive for competition and achievement, particularly in business and urban contexts."
+        "score": 63,
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: real ambition and a hustle to rise sit alongside the warmth, so aspirational and status goods land, especially when tied to family betterment."
       }
     ],
-    "executive_summary": "Colombia thrives on vibrant expressions of emotion and community, where family ties and social networks are paramount. The society balances a strong collectivist identity with a noticeable drive for success and achievement. Despite a high need for certainty, Colombians exhibit flexibility in time management and a lively approach to life.",
+    "executive_summary": "Colombia runs warm and loud, on family and on the social network. The group matters, and so does a clear wish to succeed. People like certainty, and yet they keep an easy, elastic relationship with the clock. Feeling gets shown openly, which puts color into everything.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society that harmonizes strong communal bonds with a drive for personal and collective success.",
+      "title": "Exuberant Strivers",
+      "summary": "Warmth, family and a real hunger to get ahead, all at full volume.",
       "claim_ids": [
         "C1",
         "C25",
@@ -198,12 +198,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Colombia's collectivist culture is deeply rooted in its colonial history and the influence of Catholicism, which emphasizes family values and community support.",
-        "claim_ids": [
-          "C1",
-          "C2"
-        ],
-        "sources_count": 2
+        "text": "Family and social networks became the safety net through decades of internal conflict and uneven state reach."
+      },
+      {
+        "text": "A Caribbean and Andean festival tradition, with regional carnivals as major public events, keeps Expression among the highest."
+      },
+      {
+        "text": "A long entrepreneurial and trading history, and pride in resilience, drives ambition toward family betterment."
       }
     ],
     "competing_forces": [
@@ -335,7 +336,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Colombia is a vibrant tapestry of family gatherings, festive celebrations, and community connections. The rhythm of daily life is shaped by strong family ties and a flexible approach to time, where social networks play a crucial role in both personal and professional realms. Emotions are expressed openly, adding warmth and color to interactions, while a collective spirit coexists with a drive for personal achievement.",
+      "text": "The day is family gatherings, celebrations, and community. Strong family ties and a loose sense of time set the pace, and who you know matters at home and at work. Emotions come out in the open, warm and bright, while the collective spirit shares the room with personal ambition.",
       "claim_ids": [
         "c4",
         "C5",
@@ -346,39 +347,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Colombian families are tightly knit with strong intergenerational solidarity; extended family remains the primary support network.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "The friendliness is immediate and unfeigned."
       },
       {
-        "text": "Colombia's major carnivals are public, vibrant demonstrations of emotional and artistic expression that the entire society celebrates.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Everything is discussed at volume and with feeling."
       },
       {
-        "text": "In formal or first-encounter settings, Colombians often maintain a reserved, polite demeanor; emotional expression is more guarded with strangers.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "In Colombia, 'who you know' is often more important than 'what you know' — social networks and in-group relationships define access to opportunity.",
-        "claim_ids": [
-          "C5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Colombians seek membership in groups that will 'reap the highest rewards', finding social status of particular importance.",
-        "claim_ids": [
-          "C29"
-        ],
-        "sources_count": 1
+        "text": "Regional identity matters as much as national identity."
       }
     ],
     "success_factors": [
@@ -481,7 +456,7 @@
         "iso3": "VEN",
         "country": "Venezuela",
         "similarity": 92,
-        "explanation": "Colombia and Venezuela share a strong collectivist orientation and vibrant cultural expressions, but Colombia places a stronger emphasis on achievement and competition.",
+        "explanation": "Colombia and Venezuela share a strong collectivist orientation and lively cultural expressions, but Colombia places a stronger emphasis on achievement and competition.",
         "claim_ids": [
           "C1",
           "C25"
@@ -514,7 +489,7 @@
         "iso3": "BRA",
         "country": "Brazil",
         "similarity": 84,
-        "explanation": "Colombia and Brazil both celebrate vibrant cultural expressions and have a collectivist orientation, but Colombia places a greater emphasis on social networks and family ties.",
+        "explanation": "Colombia and Brazil both celebrate lively cultural expressions and have a collectivist orientation, but Colombia places a greater emphasis on social networks and family ties.",
         "claim_ids": [
           "C1",
           "c4"
@@ -649,7 +624,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Relationship-led business",
+      "Open, expressive teams"
+    ]
   },
   "sources": [
     {
@@ -975,11 +955,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 44,
+        "score": 31,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 88,
+        "score": 77,
         "confidence": "HIGH"
       },
       "D3": {
@@ -987,7 +967,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 72,
+        "score": 63,
         "confidence": "MEDIUM"
       }
     },

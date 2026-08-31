@@ -2,55 +2,164 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Design Tokens (world-blend palette) ───────────────────────────────── */
 :root {
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Anton", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Canvas */
+  --background: oklch(0.965 0.003 200);
+  --foreground: oklch(0.18 0.02 250);
+  --ink: oklch(0.18 0.02 250);
+
+  /* Coral accent */
+  --coral: oklch(0.82 0.09 25);
+  --coral-strong: oklch(0.72 0.16 25);
+
+  /* Surfaces */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 250);
+  --muted: oklch(0.93 0.005 200);
+  --muted-foreground: oklch(0.5 0.01 250);
+  --border: oklch(0.88 0.005 200);
+
+  /* Data colours */
+  --nodata: oklch(0.82 0.01 250);
+  --purple: oklch(0.52 0.13 300);
+  --purple-light: oklch(0.62 0.11 300);
+  --charcoal: oklch(0.24 0.01 250);
+  --editorial-black: oklch(0.12 0.01 250);
 }
 
+/* ─── Base ───────────────────────────────────────────────────────────────── */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  @apply bg-bg text-ink antialiased;
-  background-image: radial-gradient(
-       circle at 15% -10%,
-      rgba(91, 141, 239, 0.08),
-      transparent 40%
-    ),
-    radial-gradient(circle at 90% 0%, rgba(52, 211, 153, 0.05), transparent 35%);
-  background-attachment: fixed;
+  @apply antialiased;
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
-/* Thin custom scrollbar for the terminal aesthetic. */
+.dark body {
+  background-color: #0e0e10;
+  color: #ffffff;
+}
+
+/* ─── Noise Texture Utilities ────────────────────────────────────────────── */
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+  }
+
+  .noise-light {
+    position: relative;
+  }
+  .noise-light::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.22;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='white' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .noise-dark {
+    position: relative;
+  }
+  .noise-dark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.28;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='white' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .noise-paper {
+    position: relative;
+  }
+  .noise-paper::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.09;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' fill='black' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .grid-overlay {
+    position: relative;
+  }
+  .grid-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.06;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.35) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.35) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ─── MapLibre popup theming ─────────────────────────────────────────────── */
+.maplibregl-popup-content {
+  background: #0e0e10 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  font-family: var(--font-sans);
+}
+.maplibregl-popup-tip {
+  border-top-color: #0e0e10 !important;
+  border-bottom-color: #0e0e10 !important;
+}
+
+/* ─── Custom scrollbar ───────────────────────────────────────────────────── */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0e14;
+  background: #0e0e10;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1e2b3a;
+  background: oklch(0.3 0.01 250);
   border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2a3a4d;
-}
-
-.text-balance {
-  text-wrap: balance;
-}
-
-/* MapLibre popup theming */
-.maplibregl-popup-content {
-  background: #121b27 !important;
-  color: #e6edf3 !important;
-  border: 1px solid #1e2b3a;
-  border-radius: 8px;
-  font-family: var(--font-sans);
-}
-.maplibregl-popup-tip {
-  border-top-color: #121b27 !important;
-  border-bottom-color: #121b27 !important;
+  background: oklch(0.4 0.01 250);
 }

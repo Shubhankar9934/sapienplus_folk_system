@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 40,
-        "reading": "Group-oriented",
-        "explanation": "Hofstede's Individualism scores for the wider Caribbean (including Trinidad and Jamaica, often used as proxies for Grenada) range from 30-60, placing it moderately individualist, with high value placed on personal achievement."
+        "score": 41,
+        "reading": "Social",
+        "explanation": "Balanced, tilting communal: strong family and church networks anchor identity while an expressive individual streak (Carnival) leaves room for the self, so community endorsement still drives choices."
       },
       {
         "dimension": "D2",
         "score": 70,
-        "reading": "Highly expressive",
-        "explanation": "Highly expressive"
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: Carnival, music, storytelling and laughter are the everyday register, so lively, colorful, shareable branding connects."
       },
       {
         "dimension": "D3",
         "score": 48,
         "reading": "Balanced",
-        "explanation": "Grenada enacted the Fiscal Responsibility Act (2015), later replaced by the Fiscal Resilience Act (2023), underpinning consistent fiscal discipline — indicating a government and institutional culture that values structured, rule-based frameworks."
+        "explanation": "Middle-flexible: relationships and a relaxed clock come before rigid procedure, so people expect give and a human touch, with community ritual often before productivity."
       },
       {
         "dimension": "D4",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "Grenada outperformed its Eastern Caribbean counterparts with an average annual GDP growth rate of 3.9% between 2015 and 2019, while maintaining relatively low public debt — indicating institutional achievement orientation and economic ambition at a national level."
+        "explanation": "Balanced, leaning to quality of life: getting ahead matters, often via education and migration, but the easy pace and enjoyment come first."
       }
     ],
-    "executive_summary": "Grenada is a vibrant blend of community-oriented values and expressive traditions. The island's social fabric is woven with strong family ties and a relaxed approach to time, yet it also embraces individual expression through events like Carnival. Despite its small size, Grenada's culture is a dynamic mix of conservatism and openness, where community rituals often take precedence over productivity. Newcomers will find a society that values belonging and personal connections as much as personal ambition.",
+    "executive_summary": "Grenada blends a community-minded warmth with a love of expression. Strong family ties and a relaxed clock sit beside a real appetite for individual display, as at Carnival. For a small island it holds both conservatism and openness, and community ritual often comes before productivity. Belonging and personal connection matter here as much as personal ambition.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society that balances strong community ties with vibrant individual expression.",
+      "title": "Carnival Communities",
+      "summary": "Community first, with Carnival as the year's great release.",
       "claim_ids": [
         "claim2",
         "claim6",
@@ -166,11 +166,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Grenada's history of African communalism and the plantation system has shaped its dual identity of collectivism and individualism.",
-        "claim_ids": [
-          "claim6"
-        ],
-        "sources_count": 1
+        "text": "Small-island family and church networks supply the social infrastructure and regulate reputation."
+      },
+      {
+        "text": "Spicemas, rooted in emancipation celebrations, established Carnival as the year's sanctioned release."
+      },
+      {
+        "text": "An agricultural and tourism economy with heavy emigration keeps the pace relaxed and ambition family-directed."
       }
     ],
     "competing_forces": [
@@ -350,7 +352,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Grenada feels like a harmonious blend of community and individual expression. Children are raised in a nurturing environment where family and community play a significant role. The workplace reflects these values, with flexibility to accommodate family obligations and a welcoming communication style. Social interactions are warm and expressive, with storytelling and laughter being common. Despite a relaxed pace, there is a strong emphasis on family and community ties, making Grenada a place where quality of life is prioritized over relentless striving.",
+      "text": "It feels like community and self-expression in balance. Children grow up held by family and neighbors. Work carries the same values, bending to make room for family duties, with a warm and welcoming way of talking. Social life is expressive, full of storytelling and laughter. The pace is relaxed, and quality of life comes before relentless striving.",
       "claim_ids": [
         "c1",
         "C05",
@@ -362,46 +364,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Children are primarily raised by the mother but other family members and even the community participate in their upbringing and engage in teaching them social values and etiquettes.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Everyone is connected and word travels fast."
       },
       {
-        "text": "Emic perception that Grenadians have a weak national identity indicates less group‑defined self, countering strong collectivist identity.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "The welcome is warm and unhurried."
       },
       {
-        "text": "Grenadian culture is characterized by strong family ties, which often necessitate flexibility in the workplace to accommodate family obligations — and the importance of church and community activities is significant, with employers allowing participation outside core business hours.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Grenadian communication is described as friendly and personable — people often begin with greetings and small talk before getting down to business, and the country maintains a strong culture of hospitality.",
-        "claim_ids": [
-          "C11"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Social attitudes in Grenada tend to be conservative, particularly around public displays of affection and LGBTQ+ issues — indicating that emotional expression operates within socially bounded limits.",
-        "claim_ids": [
-          "C14"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Family and community networks are extremely important in Grenada, with extended family obligations and communal support (e.g., for child-rearing) being the norm, especially in rural areas.",
-        "claim_ids": [
-          "claim4"
-        ],
-        "sources_count": 1
+        "text": "Nothing is rushed."
       }
     ],
     "success_factors": [
@@ -672,6 +641,18 @@
           "suggested_score": 65
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Grenada scores moderately-to-strongly Open on expression (D2). The primary signal is the massive, institutionally embedded Spicemas/Carnival tradition — a 10-day public celebration described as 'freedom of expression, creativity, and just letting loose,' with the Jab Jab masquerade explicitly framed as a ceremony of communal emotional liberation. Multiple independent sources (Sandals, Caribbean Authority, Okayplayer, Travel Noire) corroborate the deeply expressive, high-energy festival culture. Daily communication is described as 'friendly and personable' with small talk and warmth embedded as norms (Expatriate Travel, Rivermate). Workplace culture 'values humor' and 'balances directness with politeness' (ClickUp). The counter-evidence is real: conservative social attitudes around LGBTQ+ issues and public displays of affection (Expatriate Travel) and an indirect communication preference to 'maintain harmony' (ResumeFlex) indicate that expression is NOT unconditional — it operates within community-defined boundaries. This makes Grenada Open but not maximally so; 72 reflects strong expressiveness with a meaningful conservative/harmony-seeking restraint layer.",
+          "suggested_score": 72
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is open: emotional display is free and encouraged, as seen in carnival, calypso, and everyday warmth. However, hierarchical deference (e.g. age/status) can suppress direct criticism in formal settings, providing a moderate counterbalance.",
+          "suggested_score": 75
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -689,18 +670,6 @@
           "suggested_score": 45
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Grenada scores moderately-to-strongly Open on expression (D2). The primary signal is the massive, institutionally embedded Spicemas/Carnival tradition — a 10-day public celebration described as 'freedom of expression, creativity, and just letting loose,' with the Jab Jab masquerade explicitly framed as a ceremony of communal emotional liberation. Multiple independent sources (Sandals, Caribbean Authority, Okayplayer, Travel Noire) corroborate the deeply expressive, high-energy festival culture. Daily communication is described as 'friendly and personable' with small talk and warmth embedded as norms (Expatriate Travel, Rivermate). Workplace culture 'values humor' and 'balances directness with politeness' (ClickUp). The counter-evidence is real: conservative social attitudes around LGBTQ+ issues and public displays of affection (Expatriate Travel) and an indirect communication preference to 'maintain harmony' (ResumeFlex) indicate that expression is NOT unconditional — it operates within community-defined boundaries. This makes Grenada Open but not maximally so; 72 reflects strong expressiveness with a meaningful conservative/harmony-seeking restraint layer.",
-          "suggested_score": 72
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression is open: emotional display is free and encouraged, as seen in carnival, calypso, and everyday warmth. However, hierarchical deference (e.g. age/status) can suppress direct criticism in formal settings, providing a moderate counterbalance.",
-          "suggested_score": 75
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -713,7 +682,13 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Open, expressive teams",
+      "Community-focused projects",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {
@@ -1193,7 +1168,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 40,
+        "score": 41,
         "confidence": "MEDIUM"
       },
       "D2": {

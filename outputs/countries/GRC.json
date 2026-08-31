@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 56,
+        "score": 47,
         "reading": "Balanced",
-        "explanation": "Greece is a collectivist society with strong family ties and group loyalty."
+        "explanation": "Community-leaning: family and the personal network (parea) are central and drive both life and business, so a trusted tie and reputation beat a cold approach."
       },
       {
         "dimension": "D2",
-        "score": 58,
-        "reading": "Expressive",
-        "explanation": "Greek communication is characterized by emotional expressiveness and directness, with low hierarchical inhibition."
+        "score": 65,
+        "reading": "Open",
+        "explanation": "Very expressive: warm, loud, direct and passionate, so bold, lively, emotionally-rich branding and shared experiences thrive."
       },
       {
         "dimension": "D3",
-        "score": 82,
-        "reading": "Highly structured",
-        "explanation": "Greece has a strong preference for rules and predictability, with a low tolerance for ambiguity."
+        "score": 73,
+        "reading": "Strongly Certain",
+        "explanation": "Structured: formal hierarchy, rules and a heavy bureaucracy give the frame, though personal networks are how things really move, so clear terms plus a trusted contact reassure."
       },
       {
         "dimension": "D4",
-        "score": 82,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "Greece has a moderate emphasis on achievement and performance, balanced by a strong focus on relationships."
+        "score": 68,
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: real ambition and pride in success sit beside deep family loyalty, so aspirational and status goods land, tied to family standing."
       }
     ],
-    "executive_summary": "In Greece, life revolves around strong family ties and social networks, where personal relationships often drive both daily life and business. Greeks are known for their expressive communication style, which is direct and energetic, yet they place a high value on maintaining harmony. The culture is deeply rooted in tradition, with a strong preference for stability and predictability, yet younger generations are increasingly embracing individualistic values.",
+    "executive_summary": "In Greece life revolves around family and the social network, and a personal relationship tends to drive both the day and the deal. Greeks are expressive, direct and full of energy, yet they set real store by keeping the peace. The culture is deeply traditional and fond of stability, even as the young take on more individual ways.",
     "cultural_archetype": {
-      "title": "The Loyal Networker",
-      "summary": "A society where personal connections and family loyalty underpin both social and professional life.",
+      "title": "Loyal Strivers",
+      "summary": "Family and the close circle run everything, loudly and with real feeling.",
       "claim_ids": [
         "claim1",
         "C03",
@@ -158,18 +158,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Greece's collectivist culture is deeply rooted in its historical emphasis on family and community as central social units.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "Family and the parea, the lifelong friend circle, became the safety net through occupation, civil war and repeated economic crisis."
       },
       {
-        "text": "The country's turbulent history has contributed to its high uncertainty avoidance, as stability and predictability became culturally valued.",
-        "claim_ids": [
-          "C17"
-        ],
-        "sources_count": 1
+        "text": "A heavy bureaucratic inheritance from Ottoman and later state administration produced formal structure worked through personal contacts."
+      },
+      {
+        "text": "A Mediterranean tradition of the taverna and public sociability keeps expression high and direct."
       }
     ],
     "competing_forces": [
@@ -264,7 +259,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Greece is deeply intertwined with personal relationships and social networks, where family and friends play a central role in daily activities. The expressive nature of Greek communication adds vibrancy to interactions, although maintaining harmony is key, especially in professional settings. While tradition and stability are valued, younger generations are slowly embracing more individualistic values, creating a dynamic cultural landscape.",
+      "text": "Family and friends sit at the center of daily life. The expressive Greek manner puts color into everything, though harmony matters, especially at work. Tradition and stability are valued, while the young slowly take up more individual values, a culture in motion.",
       "claim_ids": [
         "C03",
         "C10",
@@ -275,32 +270,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong emphasis on family and social connections is immediately noticeable, with personal relationships often driving interactions.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "The volume of ordinary conversation surprises people."
       },
       {
-        "text": "Greek communication is lively and expressive, characterized by direct eye contact and animated gestures.",
-        "claim_ids": [
-          "C10"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is immediate and generous."
       },
       {
-        "text": "There is a noticeable preference for maintaining harmony and avoiding public shaming in professional settings.",
-        "claim_ids": [
-          "C15"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The importance of honour and reputation is evident, with status often signalled through influential contacts.",
-        "claim_ids": [
-          "C27"
-        ],
-        "sources_count": 1
+        "text": "Paperwork requires patience and someone who knows the way."
       }
     ],
     "success_factors": [
@@ -427,7 +403,7 @@
         "iso3": "PRT",
         "country": "Portugal",
         "similarity": 86,
-        "explanation": "Both Greece and Portugal emphasize family and social networks, with a shared cultural appreciation for expressive communication and hospitality.",
+        "explanation": "Both Greece and Portugal stress family and social networks, with a shared cultural appreciation for expressive communication and hospitality.",
         "claim_ids": [
           "C03",
           "C10"
@@ -533,6 +509,18 @@
           "suggested_score": 80
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Evidence consistently characterises Greek communication as expressive, animated, and emotionally free: direct eye contact, gestures, overlapping speech, lively debate, and a culturally sanctioned norm of displaying emotion openly — all point toward the Open end of D2. The Hofstede Insights own commentary on Greece explicitly notes Greeks are known for emotional display via body language and facial expressions. This is structurally enabled: unlike East Asian high-context cultures where hierarchical suppression of emotion is strong, Greek hierarchy coexists with emotional expressiveness (hierarchy is a D3/D1 signal, not a suppressor of D2 here). The counter is that Greek hierarchy (PDI 60) introduces some restraint in formal settings — subordinates wait their turn in meetings and formal address is used until rapport is established — which is a mild downward nudge from a theoretical maximum. Score 78 reflects clearly Open culture with mild formal-context restraint.",
+          "suggested_score": 78
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Greek communication is emotionally open, with high expressiveness in public and private. Criticism may be direct but is not suppressed by hierarchy; there is low power distance (Hofstede PDI 60) which allows free emotional expression. However, formality with strangers tempers openness in initial encounters.",
+          "suggested_score": 70
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -566,20 +554,13 @@
           "reasoning": "Greece is moderately Accepting: work-life balance and enjoyment of life (philotimo, philoxenia) are strong, while economic pressures create a pragmatic striving. Hofstede Masculinity is 57 (moderate) but the cultural emphasis on relationships tempers pure achievement orientation.",
           "suggested_score": 45
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Evidence consistently characterises Greek communication as expressive, animated, and emotionally free: direct eye contact, gestures, overlapping speech, lively debate, and a culturally sanctioned norm of displaying emotion openly — all point toward the Open end of D2. The Hofstede Insights own commentary on Greece explicitly notes Greeks are known for emotional display via body language and facial expressions. This is structurally enabled: unlike East Asian high-context cultures where hierarchical suppression of emotion is strong, Greek hierarchy coexists with emotional expressiveness (hierarchy is a D3/D1 signal, not a suppressor of D2 here). The counter is that Greek hierarchy (PDI 60) introduces some restraint in formal settings — subordinates wait their turn in meetings and formal address is used until rapport is established — which is a mild downward nudge from a theoretical maximum. Score 78 reflects clearly Open culture with mild formal-context restraint.",
-          "suggested_score": 78
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Greek communication is emotionally open, with high expressiveness in public and private. Criticism may be direct but is not suppressed by hierarchy; there is low power distance (Hofstede PDI 60) which allows free emotional expression. However, formality with strangers tempers openness in initial encounters.",
-          "suggested_score": 70
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-oriented professionals",
+      "Those valuing family and social ties",
+      "People comfortable with expressive communication"
+    ]
   },
   "sources": [
     {
@@ -817,19 +798,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 56,
+        "score": 47,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 58,
+        "score": 65,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 82,
+        "score": 73,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 82,
+        "score": 68,
         "confidence": "MEDIUM"
       }
     },

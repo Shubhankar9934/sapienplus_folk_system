@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 27,
-        "reading": "Community-first",
-        "explanation": "Tribal belonging remains a central identity reference and exerts control over members, evidencing group‑level identity."
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: tribe and family dominate social and political life and are the only reliable safety net, so belonging, honor and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 43,
-        "reading": "Even-keeled",
-        "explanation": "Public expression in Libya is conservative, with norms around emotional restraint, particularly for women."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: warmth flows within kin while public feeling is guarded amid instability, so dignified, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "Tribal systems provide enduring social structures that guide behavior, indicative of certainty."
+        "explanation": "Middle-flexible: with the state collapsed, tribal structures and personal networks, not formal rules, provide order, so a trusted contact and standing are how things move."
       },
       {
         "dimension": "D4",
         "score": 52,
         "reading": "Balanced",
-        "explanation": "Collective identity emerged amid institutional chaos within women’s rights movements, showing resilience and collective action rooted in social harmony rather than competition."
+        "explanation": "Balanced: providing, rebuilding and family standing drive real effort, with a rising individualism in urban youth, so practical value and standing goods land."
       }
     ],
-    "executive_summary": "In Libya, tribal affiliations dominate social and political life, creating a strong sense of community and belonging. The absence of a stable national identity and institutional framework has led to a reliance on tribal structures for social order. Despite this, there is a growing movement towards individualism, particularly among the younger urban population. Navigating Libyan society requires understanding the importance of relationships and respect for hierarchy.",
+    "executive_summary": "In Libya tribe dominates social and political life, giving a strong sense of belonging. With no stable national identity or institutions to lean on, people have fallen back on tribal structures for order. Even so, a move toward individualism is growing, especially among the young in the cities. To find your way you have to grasp the weight of relationships and of rank.",
     "cultural_archetype": {
-      "title": "The Tribal Navigator",
-      "summary": "A society where tribal affiliations and relationships guide social and political life.",
+      "title": "Tribal Kin",
+      "summary": "Tribe supplies the order that the state does not.",
       "claim_ids": [
         "c1",
         "c2",
@@ -165,19 +165,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Libya's colonial past, particularly under Italian rule, left it without strong civic institutions, reinforcing tribal structures as the primary social framework.",
-        "claim_ids": [
-          "C08",
-          "C31"
-        ],
-        "sources_count": 1
+        "text": "Tribal belonging, deliberately reinforced under Gaddafi as an instrument of rule, remains the base of identity."
       },
       {
-        "text": "The discovery of oil and the resulting economic shifts have encouraged some movement away from traditional tribal structures.",
-        "claim_ids": [
-          "C10"
-        ],
-        "sources_count": 1
+        "text": "State collapse after 2011 removed formal institutions entirely, leaving tribal structures and personal networks to supply order."
+      },
+      {
+        "text": "A code of honour keeps public expression guarded amid continuing insecurity."
       }
     ],
     "competing_forces": [
@@ -281,7 +275,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Libya means navigating a complex web of tribal affiliations and social hierarchies. Daily life is deeply influenced by family and clan ties, which dictate social standing and political allegiance. Despite the challenges posed by institutional collapse, Libyans have developed a resilience and adaptability, relying on informal networks and personal relationships to navigate uncertainty. Younger generations, particularly in urban areas, are beginning to challenge traditional norms, seeking more individual autonomy.",
+      "text": "It means moving through a tangle of tribal loyalties and social hierarchies. Daily life is shaped by family and clan, which set your standing and your politics. For all the institutional collapse, Libyans have grown resilient and adaptable, leaning on informal networks and personal ties to get through the uncertainty. The young, especially in the cities, are starting to push against the old norms for more room of their own.",
       "claim_ids": [
         "claim_2",
         "C23",
@@ -291,20 +285,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of tribal affiliations in Libyan society is immediately apparent, as they dictate social and political interactions.",
-        "claim_ids": [
-          "C02",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "Tribal and family background is established early."
       },
       {
-        "text": "Libyan workplaces are characterized by a strong emphasis on collectivism and respect for hierarchy, which can be surprising for those used to more individualistic environments.",
-        "claim_ids": [
-          "C01",
-          "C12"
-        ],
-        "sources_count": 2
+        "text": "Hospitality is generous despite conditions."
+      },
+      {
+        "text": "Nothing official moves without a contact."
       }
     ],
     "success_factors": [
@@ -512,6 +499,18 @@
           "suggested_score": 28
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 measures freedom of emotional/social expression from hierarchical suppression — not loudness or directness. Libya sits in a moderately restrained position for several corroborated reasons. First, hierarchy is steep: Commisceo Global and Rivermate both document that communication should be directed to the highest-ranking person, and deference to seniors structurally suppresses lateral or upward emotional expression. Second, Islamic conservatism (strengthened since 2011 by Salafi penetration of government institutions) creates normative pressure against public emotional display, especially for women. Third, indirect communication is explicitly documented as the workplace norm. Counter-evidence: Libyans are described as warm and hospitality-driven, with social interactions during work, an open-door policy in meetings, and willingness to engage in expressive negotiation. The Commisceo guide notes smiling and direct eye contact are important. This warmth in social settings partially offsets structural suppression, placing Libya in the restrained-to-middle range rather than extreme restraint. Score: 38 — moderately restrained, below the midpoint, but not minimally expressive.",
+          "suggested_score": 38
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Libyans are often direct and emotionally expressive among in‐group members, yet public expression, especially by women, is restrained by conservative social norms. The overall score reflects a moderate openness, tempered by gender and context.",
+          "suggested_score": 55
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -545,20 +544,13 @@
           "reasoning": "Libyan culture places a premium on honour, reputation, and entrepreneurial hustle (‘hanta’). The absence of a welfare state encourages self‐reliance and striving, though traditional values also emphasise acceptance of fate. The score leans toward striving.",
           "suggested_score": 70
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "D2 measures freedom of emotional/social expression from hierarchical suppression — not loudness or directness. Libya sits in a moderately restrained position for several corroborated reasons. First, hierarchy is steep: Commisceo Global and Rivermate both document that communication should be directed to the highest-ranking person, and deference to seniors structurally suppresses lateral or upward emotional expression. Second, Islamic conservatism (strengthened since 2011 by Salafi penetration of government institutions) creates normative pressure against public emotional display, especially for women. Third, indirect communication is explicitly documented as the workplace norm. Counter-evidence: Libyans are described as warm and hospitality-driven, with social interactions during work, an open-door policy in meetings, and willingness to engage in expressive negotiation. The Commisceo guide notes smiling and direct eye contact are important. This warmth in social settings partially offsets structural suppression, placing Libya in the restrained-to-middle range rather than extreme restraint. Score: 38 — moderately restrained, below the midpoint, but not minimally expressive.",
-          "suggested_score": 38
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Libyans are often direct and emotionally expressive among in‐group members, yet public expression, especially by women, is restrained by conservative social norms. The overall score reflects a moderate openness, tempered by gender and context.",
-          "suggested_score": 55
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural adaptability",
+      "Community-focused initiatives"
+    ]
   },
   "sources": [
     {

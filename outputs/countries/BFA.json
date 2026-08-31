@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 27,
-        "reading": "Community-first",
-        "explanation": "Collectivism is deeply ingrained, with personal identity closely tied to family and community, emphasizing loyalty and group cohesion."
+        "score": 23,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family and village solidarity are the safety net in a poor, agrarian land, so group approval, reputation and word-of-mouth decide everything."
       },
       {
         "dimension": "D2",
         "score": 35,
-        "reading": "Understated",
-        "explanation": "Emotional expression is restrained, with public displays of emotion often limited to ritual contexts, reflecting a preference for controlled interactions."
+        "reading": "Restrained",
+        "explanation": "Reserved: restraint and calm are valued and feeling is held for festivals rather than daily talk, so sincere, patient, low-key approaches work."
       },
       {
         "dimension": "D3",
         "score": 54,
         "reading": "Balanced",
-        "explanation": "While tradition and hierarchy provide structure, the culture also exhibits flexibility and adaptability, especially in informal settings."
+        "explanation": "Middle, tilting structured through custom: hierarchy, respect for elders and ritual order give life a firm frame more than formal rules do."
       },
       {
         "dimension": "D4",
         "score": 37,
-        "reading": "Relaxed",
-        "explanation": "There is a balance between striving for achievement and valuing harmony, with traditional values often prioritizing communal well-being over competition."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: harmony, community well-being and patience come before competition, so affordable, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Burkina Faso is a society deeply rooted in collectivism, where community and family ties are paramount. Public expression is often reserved, with emotional restraint valued in everyday interactions. The culture balances tradition with a growing entrepreneurial spirit among urban youth. Social harmony and respect for hierarchy guide both personal and professional relationships.",
+    "executive_summary": "Burkina Faso is deeply a place of the group, with family and community set above the single person. People keep their feelings in check in public and put a high value on staying calm. Tradition runs the show, though the young in the cities are catching an entrepreneurial itch. Harmony and respect for rank guide how people deal with one another.",
     "cultural_archetype": {
-      "title": "The Communal Custodian",
-      "summary": "A society where community bonds and traditional values guide daily life and social interactions.",
+      "title": "Measured Villages",
+      "summary": "Village and family solidarity carry people, with feeling saved for the festival.",
       "claim_ids": [
         "c1",
         "c2",
@@ -166,20 +166,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Mossi kingdom's historical dominance has deeply influenced the hierarchical and collectivist nature of Burkinabé society.",
-        "claim_ids": [
-          "c2",
-          "C24"
-        ],
-        "sources_count": 2
+        "text": "Subsistence farming in a harsh Sahel made village solidarity a survival requirement, pushing Identity to one of the lowest scores."
       },
       {
-        "text": "Sankara's revolutionary policies in the 1980s promoted national pride and civic responsibility, fostering a sense of collective achievement.",
-        "claim_ids": [
-          "C10",
-          "C33"
-        ],
-        "sources_count": 1
+        "text": "Chiefly authority and elder councils supply the order the state cannot, which is why Structure holds despite thin institutions."
+      },
+      {
+        "text": "Recurrent drought and scarcity keep ambition modest and directed at community well-being."
       }
     ],
     "competing_forces": [
@@ -355,7 +348,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Burkina Faso is deeply communal, with everyday interactions reflecting a strong sense of belonging and respect for tradition. Public expression is often reserved, but festivals provide vibrant outlets for creativity and joy. In the workplace, community well-being is prioritized, and patience is valued over strict adherence to schedules. Relationships are built on trust and mutual respect, with hospitality being a cornerstone of social life. Navigating this culture requires understanding the nuances of hierarchy and the importance of maintaining harmony.",
+      "text": "Daily life is communal and built on belonging and respect for the old ways. Public feeling stays reserved, but festivals throw the doors open for joy and color. At work, the community's well-being comes first and patience beats the clock. Trust, respect, and hospitality hold it together, and you get along by honoring the hierarchy and keeping the peace.",
       "claim_ids": [
         "c5",
         "c6",
@@ -366,20 +359,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of community and collectivism is immediately apparent, with personal identity closely tied to family and social groups.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "Greetings are extended and genuinely important."
       },
       {
-        "text": "Social interactions are marked by politeness and indirect communication, with lengthy greetings setting the tone for conversations.",
-        "claim_ids": [
-          "c4",
-          "C14"
-        ],
-        "sources_count": 2
+        "text": "Public manner is calm, and raised voices are startling."
+      },
+      {
+        "text": "Community obligation takes precedence over the individual plan."
       }
     ],
     "success_factors": [
@@ -512,7 +498,7 @@
         "iso3": "GIN",
         "country": "Guinea",
         "similarity": 89,
-        "explanation": "Guinea and Burkina Faso both emphasize community and family ties, yet Burkina Faso's cultural landscape is more influenced by its historical kingdoms and diverse ethnic groups.",
+        "explanation": "Guinea and Burkina Faso both stress community and family ties, yet Burkina Faso's cultural landscape is more influenced by its historical kingdoms and diverse ethnic groups.",
         "claim_ids": [
           "c1",
           "C03",
@@ -536,7 +522,7 @@
         "iso3": "SLE",
         "country": "Sierra Leone",
         "similarity": 87,
-        "explanation": "Sierra Leone and Burkina Faso share a focus on community solidarity, but Burkina Faso's cultural expression is more restrained in everyday life, with vibrant festivals as outlets.",
+        "explanation": "Sierra Leone and Burkina Faso share a focus on community solidarity, but Burkina Faso's cultural expression is more restrained in everyday life, with lively festivals as outlets.",
         "claim_ids": [
           "c1",
           "c5",
@@ -663,7 +649,12 @@
           "suggested_score": 30
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Cultural exchange programs",
+      "Relationship-led business"
+    ]
   },
   "sources": [
     {
@@ -1077,7 +1068,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 27,
+        "score": 23,
         "confidence": "MEDIUM"
       },
       "D2": {

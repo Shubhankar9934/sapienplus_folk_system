@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 29,
-        "reading": "Community-first",
-        "explanation": "Algerian society is deeply collectivist, with individuals defining themselves through their group memberships such as family and community."
+        "score": 28,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family, community and collective identity come first, rooted in tradition and faith, so belonging, trust and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 37,
-        "reading": "Understated",
-        "explanation": "Public emotional expression is restrained, with emotions often conveyed through actions rather than words."
+        "reading": "Restrained",
+        "explanation": "Reserved: feeling is shown through action more than open declaration and public restraint is valued, so understated, credible, relationship-led framing works."
       },
       {
         "dimension": "D3",
         "score": 59,
-        "reading": "Structured",
-        "explanation": "Algeria's preference for established procedures and extensive bureaucracy reflects a structured approach to life."
+        "reading": "Certain",
+        "explanation": "Structured: a formal, hierarchical, rule-bound official system gives the frame, while a huge informal economy runs on trust underneath, so official process plus a trusted contact is how things move."
       },
       {
         "dimension": "D4",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "While there is a moderate preference for achievement, the reliance on state resources and personal connections often tempers competitive drive."
+        "reading": "Accepting",
+        "explanation": "Balanced: getting on matters, but through networks and family standing more than open competition, so practical value and quiet upgrade land."
       }
     ],
-    "executive_summary": "Algeria is a land where community bonds and collective identity are paramount. The culture is deeply rooted in tradition and religion, shaping a society that values group harmony over individual expression. While the informal economy thrives, the formal structures remain hierarchical and rule-bound. Success often hinges on personal connections and navigating the intricate social networks.",
+    "executive_summary": "Algeria puts community and collective identity first, rooted deep in tradition and faith, and it prizes the group's harmony over any one person's self-expression. The formal side of things is hierarchical and rule-bound, while a huge informal economy hums alongside it. Getting anywhere depends on personal connections and knowing how to work the social web.",
     "cultural_archetype": {
-      "title": "The Communal Harmonizer",
-      "summary": "A society where collective identity and social harmony are prioritized, with an emphasis on maintaining group cohesion.",
+      "title": "Composed Communities",
+      "summary": "Community and faith set the frame, while the real economy runs on trust.",
       "claim_ids": [
         "C1",
         "C2",
@@ -63,18 +63,13 @@
     "cultural_themes": [],
     "historical_drivers": [
       {
-        "text": "The Algerian War of Independence forged a strong national identity based on collective sacrifice, influencing the current emphasis on group cohesion.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Islam, tribal-family tradition and a hard eight-year war of independence made community and collective identity the base."
       },
       {
-        "text": "Post-independence Arabization policies reinforced a unified Arab-Muslim identity, downplaying individual ethnic differences.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "A large state-and-oil bureaucracy inherited from French administration produced a formal, rule-bound official system."
+      },
+      {
+        "text": "A vast informal economy running on personal trust operates alongside that system, which is why connections decide outcomes."
       }
     ],
     "competing_forces": [
@@ -166,7 +161,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Algeria means navigating a society where family and community bonds are central, and public life is guided by a collective sense of identity. While the formal structures are hierarchical, the informal economy thrives, offering a dynamic contrast. Emotional expression is subtle, often conveyed through actions rather than words.",
+      "text": "It means living where family and community are central and public life runs on a shared sense of identity. The official structures are ranked and rigid, but the informal economy is lively, a constant contrast. Feeling is shown quietly, more in what people do than in what they say.",
       "claim_ids": [
         "C3",
         "c07",
@@ -177,20 +172,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Public emotional expression is restrained, with emotions often conveyed through actions rather than words.",
-        "claim_ids": [
-          "C4",
-          "C5"
-        ],
-        "sources_count": 2
+        "text": "Public manner is reserved and private welcome is not."
       },
       {
-        "text": "The hierarchical nature of Algerian society is evident, with respect for authority and established roles being prominent.",
-        "claim_ids": [
-          "c11",
-          "c22"
-        ],
-        "sources_count": 2
+        "text": "Bureaucracy requires patience and a contact."
+      },
+      {
+        "text": "Family is established in conversation early."
       }
     ],
     "success_factors": [
@@ -308,7 +296,7 @@
         "iso3": "LBY",
         "country": "Libya",
         "similarity": 92,
-        "explanation": "Algeria and Libya share similar hierarchical structures and a reliance on personal connections to navigate social and business networks.",
+        "explanation": "Algeria and Libya share similar hierarchical structures and a reliance on personal connections to handle social and business networks.",
         "claim_ids": [
           "c03",
           "c04"
@@ -319,7 +307,7 @@
         "iso3": "SDN",
         "country": "Sudan",
         "similarity": 88,
-        "explanation": "Both Algeria and Sudan emphasize collective identity and have strong religious influences shaping their cultural norms.",
+        "explanation": "Both Algeria and Sudan stress collective identity and have strong religious influences shaping their cultural norms.",
         "claim_ids": [
           "c05",
           "c08"
@@ -454,7 +442,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Building strong community ties",
+      "Navigating complex social networks",
+      "Long-term strategic planning"
+    ]
   },
   "sources": [
     {
@@ -758,7 +751,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 29,
+        "score": 28,
         "confidence": "MEDIUM"
       },
       "D2": {

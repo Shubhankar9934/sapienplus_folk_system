@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 35,
-        "reading": "Group-oriented",
-        "explanation": "India's identity is a complex interplay of collectivist and individualist traits, deeply rooted in family and community yet increasingly influenced by personal aspirations."
+        "reading": "Social",
+        "explanation": "Sits on the community side because the joint family, caste and jati networks, and lifelong duty to kin make a person act as part of a household, not a free agent. A big buy (a phone, a scooter, gold, a wedding) is a family decision weighed for how it reflects on everyone, so referrals, elder approval and family-sized offers carry far more weight than 'express yourself' pitches."
       },
       {
         "dimension": "D2",
-        "score": 24,
-        "reading": "Reserved",
-        "explanation": "Emotional expression in India is context-dependent, balancing openness with restraint to maintain harmony and respect for hierarchy."
+        "score": 34,
+        "reading": "Restrained",
+        "explanation": "Reads reserved because rank and relationship govern what can be said to whom; disagreement is softened and a polite 'yes' can just mean 'I heard you.' Warmth comes out through hospitality, food and festival rather than blunt talk, so a anything that plays generous host outperforms one that shouts."
       },
       {
         "dimension": "D3",
-        "score": 25,
-        "reading": "Flexible",
-        "explanation": "India's cultural fluidity and low need for certainty foster a flexible approach to life's challenges, embracing ambiguity and change."
+        "score": 39,
+        "reading": "Fluid",
+        "explanation": "Flexible, thanks to jugaad, the everyday genius for the workaround, where rules bend, timelines stretch and people improvise around scarcity and slow bureaucracy. Shoppers haggle, expect exceptions and trust a person over a policy, so fixed prices, rigid terms and 'no returns' feel hostile while flexibility and a human contact build trust."
       },
       {
         "dimension": "D4",
-        "score": 83,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "India's strong achievement orientation is reflected in its competitive educational and professional environments, where success is often validated by material gains."
+        "score": 71,
+        "reading": "Strongly Striving",
+        "explanation": "High and rising: education is the family's ladder up, and success is meant to be seen (a good match, a foreign degree, a brand others recognize). Aspirational and status goods carry real weight, instalments and upgrades matter, and 'value for money' means a visible step up, not just the lowest price."
       }
     ],
-    "executive_summary": "India is a land where community ties and personal achievement coexist, creating a unique social fabric. Hierarchy and respect for tradition shape interactions, while a competitive spirit drives professional and educational pursuits. Emotional expression varies with context, often balancing openness with restraint. Flexibility and adaptability are key traits, reflecting a low need for certainty in everyday life.",
+    "executive_summary": "India holds community ties and personal achievement together, making a social fabric all its own. Hierarchy and respect for tradition shape how people deal with each other, while a fierce competitiveness drives school and career. Feeling comes out or stays in depending on the setting. Flexibility and adaptability are prized, because people here are easy with uncertainty.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where community bonds and personal success are intertwined, fostering both collective and individual growth.",
+      "title": "Aspirational Families",
+      "summary": "You strive for the family, and the family keeps score.",
       "claim_ids": [
         "C1",
         "C2",
@@ -164,12 +164,16 @@
     ],
     "historical_drivers": [
       {
-        "text": "India's historical caste system and social stratification have deeply influenced its societal structures, creating a complex interplay of hierarchy and community.",
-        "claim_ids": [
-          "C23",
-          "c15"
-        ],
-        "sources_count": 2
+        "text": "Thousands of years of village agriculture organised around caste and the joint family made the group the unit of survival."
+      },
+      {
+        "text": "A layered social order of religion, region, language and jati rewards reading the room and speaking with care."
+      },
+      {
+        "text": "British colonial bureaucracy, designed to extract rather than serve, taught people to route around slow systems through contacts and jugaad."
+      },
+      {
+        "text": "The 1991 liberalisation minted a vast aspirational middle class within a generation, making education and branded consumption the proof of arrival."
       }
     ],
     "competing_forces": [
@@ -281,7 +285,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in India feels like a balancing act between tradition and modernity, where community ties and personal ambitions coexist. The rhythm of daily life is shaped by a respect for hierarchy and a flexible approach to challenges. Relationships are central, and success is often measured by both personal achievements and the strength of one's social network.",
+      "text": "It feels like a balancing act between tradition and modern life, where community ties and personal ambition live side by side. The day is set by respect for rank and a flexible way with problems. Relationships are central, and success gets measured both by what you achieve and by the strength of your network.",
       "claim_ids": [
         "claim_001",
         "claim_008",
@@ -292,39 +296,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family and community play a significant role in shaping personal identity in India.",
-        "claim_ids": [
-          "claim_001"
-        ],
-        "sources_count": 1
+        "text": "The density, noise and variety are immediate."
       },
       {
-        "text": "Emotional expression in India can be both open and reserved depending on context and hierarchy.",
-        "claim_ids": [
-          "claim_004"
-        ],
-        "sources_count": 1
+        "text": "Family reaches into decisions a newcomer would consider private."
       },
       {
-        "text": "Indian society values order and respect for rules, reflected in its community rituals.",
-        "claim_ids": [
-          "claim_006"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "India has a competitive spirit, particularly in education and business.",
-        "claim_ids": [
-          "claim_008"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "While achievement is valued, Indian culture also emphasizes maintaining relationships.",
-        "claim_ids": [
-          "claim_009"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is insistent and generous."
       }
     ],
     "success_factors": [
@@ -603,7 +581,13 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Relationship-led business",
+      "Flexible entrepreneurs",
+      "Culturally adaptive travelers"
+    ]
   },
   "sources": [
     {
@@ -966,15 +950,15 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 24,
+        "score": 34,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 25,
+        "score": 39,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 83,
+        "score": 71,
         "confidence": "MEDIUM"
       }
     },

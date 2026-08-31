@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 41,
-        "reading": "Group-oriented",
-        "explanation": "Taiwan's society is rooted in collectivist values, with strong family ties and social networks influencing personal and professional life."
+        "score": 38,
+        "reading": "Social",
+        "explanation": "Community-leaning: family and face and relationship networks (guanxi) shape behavior while individual ambition rises, so belonging and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 29,
-        "reading": "Reserved",
-        "explanation": "Emotional expression is carefully managed to maintain harmony, with indirect communication being the norm."
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: composure, indirectness and face-saving keep feeling in check, so understated, credible, respectful framing works."
       },
       {
         "dimension": "D3",
         "score": 66,
-        "reading": "Structured",
-        "explanation": "Taiwanese culture values predictability and structure, with a strong preference for rules and planning to manage uncertainty."
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy and order give a firm frame, with flexibility inside trusted relationships, so process plus a trusted contact reassure."
       },
       {
         "dimension": "D4",
         "score": 60,
-        "reading": "Achievement-oriented",
-        "explanation": "Achievement and hard work are central to Taiwanese culture, with success often measured by educational and career accomplishments."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: education and career success are prized (hard work and discipline central), so aspirational, quality and status goods land."
       }
     ],
-    "executive_summary": "Taiwan is a society where collective values and individual ambitions coexist, creating a unique blend of tradition and modernity. The importance of 'face' and relationship networks like guanxi shape both personal and professional interactions. While rules and structure are valued, there is room for flexibility within trusted relationships. Achievement and hard work are highly prized, with a strong emphasis on education and career success.",
+    "executive_summary": "Taiwan holds collective values and individual ambition together, a blend of tradition and modern life. Face and relationship networks, the web of personal connection known as guanxi, shape both private and working dealings. Rules and structure are valued, but there is give within trusted relationships. Achievement and hard work are prized, with a heavy stress on schooling and career.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society that balances collective harmony with a strong drive for individual success.",
+      "title": "Disciplined Strivers",
+      "summary": "Face and connections keep things smooth, over a hard drive to achieve.",
       "claim_ids": [
         "C1",
         "C2",
@@ -167,12 +167,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Taiwan's historical experience under martial law has left a legacy of cautious communication and a preference for indirect expression.",
-        "claim_ids": [
-          "c5",
-          "c11"
-        ],
-        "sources_count": 2
+        "text": "A Confucian family-and-face tradition keeps identity relationship-based and public expression restrained."
+      },
+      {
+        "text": "Guanxi networks provide flexibility within an otherwise ordered and hierarchical system."
+      },
+      {
+        "text": "Export-led industrialisation from the 1960s tied family standing to educational and career achievement."
       }
     ],
     "competing_forces": [
@@ -266,7 +267,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Taiwan is a blend of tradition and modernity, where collective values coexist with individual ambitions. Daily interactions are guided by a respect for hierarchy and indirect communication, yet there are vibrant spaces for emotional expression. Success is often measured by educational and career achievements, making hard work and discipline central to the Taiwanese experience.",
+      "text": "Life is tradition and modernity mixed, where collective values live beside personal ambition. Everyday dealings run on respect for rank and indirect talk, and yet there are lively spaces for feeling. Success is measured by school and career, making hard work and discipline central to the Taiwanese experience.",
       "claim_ids": [
         "c2",
         "c3",
@@ -277,20 +278,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of guanxi and face is immediately apparent in both social and business settings, influencing how relationships are built and maintained.",
-        "claim_ids": [
-          "C3",
-          "C4"
-        ],
-        "sources_count": 2
+        "text": "The politeness and orderliness are immediate."
       },
       {
-        "text": "Taiwanese society's respect for hierarchy and structure is evident in the workplace and daily interactions, where punctuality and adherence to rules are valued.",
-        "claim_ids": [
-          "C19",
-          "C20"
-        ],
-        "sources_count": 2
+        "text": "Food culture is constant and taken seriously."
+      },
+      {
+        "text": "Business is efficient and relationship-aware."
       }
     ],
     "success_factors": [
@@ -388,7 +382,7 @@
         "iso3": "KOR",
         "country": "South Korea",
         "similarity": 89,
-        "explanation": "Both Taiwan and South Korea share Confucian values that emphasize collectivism, hierarchy, and the importance of education.",
+        "explanation": "Both Taiwan and South Korea share Confucian values that stress collectivism, hierarchy, and the importance of education.",
         "claim_ids": [
           "C1",
           "C2",
@@ -506,6 +500,18 @@
           "suggested_score": 70
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 measures freedom of emotional and expressive display from hierarchical suppression—not mere loudness. Taiwan's communication norms are consistently documented as indirect, harmony-preserving, and emotion-suppressive in formal/hierarchical contexts. Mianzi drives people to avoid exposing personal feelings or dissenting emotions publicly. Confucian emotional regulation—suppressing negative affect and dissent to preserve group harmony—is corroborated by multiple independent sources (workplace guides, Confucian cultural studies, expat institutional sources). Post-work 'release valve' drinking (noted by Hofstede's own institute) is a structurally constrained outlet, not evidence of general expressivity—consistent with high everyday restraint. Counter-evidence: Taiwan's night-market street culture, religious festivals (Ghost Festival, Mazu pilgrimages), and vibrant pop-culture scene show contextual expressiveness. These are sanctioned release spaces and do not overturn the base institutional/hierarchical suppression of expression. Score 24 reflects strong restraint with a small upward nudge for festive/informal expressiveness.",
+          "suggested_score": 24
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Taiwanese expression is restrained: emotional display is suppressed in hierarchical settings (face concern, modesty), direct disagreement is avoided, and public emotion is subdued. The score is low but not extreme because there are some contexts where expressiveness emerges (e.g., night markets, temple festivals), but these are circumscribed release valves. Historical suppression under authoritarian rule (martial law 1949–1987) institutionalized restraint.",
+          "suggested_score": 35
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -539,20 +545,13 @@
           "reasoning": "Taiwan is highly striving: strong work ethic, intense educational competition (cram schools, high-stakes exams), and career achievement as a key marker of success. Hofstede MAS is about 45 (moderate masculine), but the achievement drive is amplified by status competition and family pressure. The score is set moderately high based on evidence of extreme academic and professional drive, though quality of life concern is also emerging among younger generations.",
           "suggested_score": 75
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "D2 measures freedom of emotional and expressive display from hierarchical suppression—not mere loudness. Taiwan's communication norms are consistently documented as indirect, harmony-preserving, and emotion-suppressive in formal/hierarchical contexts. Mianzi drives people to avoid exposing personal feelings or dissenting emotions publicly. Confucian emotional regulation—suppressing negative affect and dissent to preserve group harmony—is corroborated by multiple independent sources (workplace guides, Confucian cultural studies, expat institutional sources). Post-work 'release valve' drinking (noted by Hofstede's own institute) is a structurally constrained outlet, not evidence of general expressivity—consistent with high everyday restraint. Counter-evidence: Taiwan's night-market street culture, religious festivals (Ghost Festival, Mazu pilgrimages), and vibrant pop-culture scene show contextual expressiveness. These are sanctioned release spaces and do not overturn the base institutional/hierarchical suppression of expression. Score 24 reflects strong restraint with a small upward nudge for festive/informal expressiveness.",
-          "suggested_score": 24
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Taiwanese expression is restrained: emotional display is suppressed in hierarchical settings (face concern, modesty), direct disagreement is avoided, and public emotion is subdued. The score is low but not extreme because there are some contexts where expressiveness emerges (e.g., night markets, temple festivals), but these are circumscribed release valves. Historical suppression under authoritarian rule (martial law 1949–1987) institutionalized restraint.",
-          "suggested_score": 35
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Long-term planners",
+      "Relationship-focused businesspeople"
+    ]
   },
   "sources": [
     {
@@ -889,7 +888,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 41,
+        "score": 38,
         "confidence": "HIGH"
       },
       "D2": {

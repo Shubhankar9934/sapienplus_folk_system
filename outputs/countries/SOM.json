@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 28,
-        "reading": "Community-first",
-        "explanation": "Clan identity and lineage are central to personal and social identity, overshadowing individual achievements."
+        "score": 24,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: clan defines social, political and economic life, so belonging, clan standing and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 53,
-        "reading": "Even-keeled",
-        "explanation": "Somalis are expressive and direct in communication, yet emotional restraint is practiced in hierarchical settings."
+        "reading": "Balanced",
+        "explanation": "Expressive but rank-aware: open and direct in daily life, with restraint and respect in formal settings, so warm-but-respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 39,
-        "reading": "Adaptable",
-        "explanation": "Somalia operates with a high tolerance for ambiguity, relying on clan-based customary laws over formal institutions."
+        "reading": "Fluid",
+        "explanation": "Flexible: fluid clan alliances and adaptable custom, not formal rules, organize life, so a trusted tie and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 46,
         "reading": "Balanced",
-        "explanation": "Entrepreneurialism and achievement are highly valued, with a strong drive for success evident even in challenging circumstances."
+        "explanation": "Balanced: a strong entrepreneurial, self-reliant streak driven by necessity, so both practical value and real hustle drive choices."
       }
     ],
-    "executive_summary": "Somalia's identity is deeply rooted in clan affiliations, which shape social, political, and economic interactions. Open and direct communication is common, yet respect for hierarchy and emotional restraint is expected in formal settings. The entrepreneurial spirit thrives amidst a backdrop of fluid social alliances and adaptable customs.",
+    "executive_summary": "Somalia's identity is rooted deep in clan, which shapes social, political, and economic life alike. People talk openly and directly, yet respect for rank and a held-in restraint are expected in formal settings. An entrepreneurial spirit thrives against a backdrop of shifting alliances and adaptable custom.",
     "cultural_archetype": {
-      "title": "The Clan Navigator",
-      "summary": "A society where clan ties are the compass for social and economic navigation.",
+      "title": "Clan Traders",
+      "summary": "Clan is the compass, and enterprise is the response to everything else.",
       "claim_ids": [
         "clan_identity_core",
         "C01",
@@ -172,13 +172,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The clan system has been a foundational social structure, shaping Somali identity and governance throughout history.",
-        "claim_ids": [
-          "C07",
-          "C03",
-          "C04"
-        ],
-        "sources_count": 3
+        "text": "Clan lineage is the basis of identity, politics and economic cooperation, and alliances shift within it."
+      },
+      {
+        "text": "State collapse since 1991 left clan structures and personal trust as the only working system, keeping Structure fluid."
+      },
+      {
+        "text": "A long trading and pastoral tradition, and now a large diaspora, feeds a strong entrepreneurial self-reliance."
       }
     ],
     "competing_forces": [
@@ -293,7 +293,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Somalia feels like navigating a complex web of clan ties and social alliances. Communication is open and expressive, yet respect for hierarchy and emotional restraint is expected in formal settings. The entrepreneurial spirit is palpable, driven by necessity and a desire for self-sufficiency.",
+      "text": "Life means moving through a web of clan ties and social alliances. Talk is open and expressive, though rank and restraint are expected when things turn formal. The entrepreneurial streak is unmistakable, driven by necessity and a wish to stand on one's own.",
       "claim_ids": [
         "clan_identity_core",
         "open_direct_communication",
@@ -303,20 +303,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Clan identity is immediately apparent, influencing social interactions and providing a sense of belonging.",
-        "claim_ids": [
-          "clan_identity_core",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "The entrepreneurial energy is immediate."
       },
       {
-        "text": "The absence of strong formal institutions is offset by the presence of clan elders and customary law.",
-        "claim_ids": [
-          "customary_law_xeer",
-          "clan_structured_rules"
-        ],
-        "sources_count": 2
+        "text": "Clan is established early in conversation."
+      },
+      {
+        "text": "Directness among equals is normal."
       }
     ],
     "success_factors": [
@@ -578,7 +571,11 @@
           "suggested_score": 65
         }
       ]
-    }
+    },
+    "best_for": [
+      "Entrepreneurs seeking resilient and adaptable markets",
+      "Cultural researchers interested in clan dynamics"
+    ]
   },
   "sources": [
     {
@@ -992,7 +989,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 28,
+        "score": 24,
         "confidence": "MEDIUM"
       },
       "D2": {

@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 58,
-        "reading": "Independent",
-        "explanation": "Poland's cultural landscape reflects a moderate individualism, where personal responsibility is valued alongside family and community ties."
+        "reading": "Self",
+        "explanation": "Balanced, tilting individual: personal achievement and privacy are valued while family, faith and community stay strong, so both personalization and belonging drive choices."
       },
       {
         "dimension": "D2",
-        "score": 42,
-        "reading": "Understated",
-        "explanation": "Public emotional expression in Poland is restrained, with a cultural emphasis on modesty and control, though warmth is evident in private circles."
+        "score": 44,
+        "reading": "Restrained",
+        "explanation": "Reserved: formal, restrained in public with warm, generous private hospitality, so sincere, correct, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 64,
-        "reading": "Structured",
-        "explanation": "Poland's high need for certainty and structure is evident in its preference for clear rules and predictability in both social and professional settings."
+        "score": 73,
+        "reading": "Strongly Certain",
+        "explanation": "Structured: a strong preference for order, rules and predictability gives a firm frame, so clarity, guarantees and proper process reassure."
       },
       {
         "dimension": "D4",
-        "score": 57,
-        "reading": "Balanced",
-        "explanation": "Achievement and competition are highly valued in Poland, where success is often measured by tangible results and performance."
+        "score": 59,
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: real ambition and a striving, post-transformation drive, so aspirational and quality goods land, tied to getting ahead."
       }
     ],
-    "executive_summary": "Poland is a land where individual achievement meets collective tradition. The Catholic Church and historical movements like Solidarity have instilled a deep sense of community, yet modern influences are nudging the younger generation towards individualism. Emotional expression is often restrained in public, but warmth and hospitality shine in private settings. A strong preference for structure and predictability defines both social and professional life.",
+    "executive_summary": "Poland is where individual achievement meets collective tradition. The Catholic Church and history, movements like Solidarity, the trade union that helped topple communism, planted a deep sense of community, even as modern life nudges the young toward individualism. Feeling is held back in public and pours out warm and hospitable in private. A strong taste for structure and predictability runs through social and working life alike.",
     "cultural_archetype": {
-      "title": "The Independent Achiever",
-      "summary": "A society balancing individual aspirations with deep-rooted collective values.",
+      "title": "Ordered Strivers",
+      "summary": "Faith, family and order, with a striving edge since the transformation.",
       "claim_ids": [
         "c1",
         "c2",
@@ -129,12 +129,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Poland's historical experiences with communism, the Solidarity movement, and the Catholic Church have deeply influenced its collective identity and preference for structure.",
-        "claim_ids": [
-          "c3",
-          "C18"
-        ],
-        "sources_count": 2
+        "text": "The Catholic Church, and Solidarity as the movement that ended communist rule, planted a deep sense of community and shared resilience."
+      },
+      {
+        "text": "Partition and repeated occupation across two centuries bred a preference for order and defined structure."
+      },
+      {
+        "text": "Post-1989 transformation and EU accession created rapid mobility and a striving, entrepreneurial generation."
       }
     ],
     "competing_forces": [
@@ -312,7 +313,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Poland is a blend of tradition and modernity, where the Catholic Church and historical movements like Solidarity continue to shape a strong sense of community. Despite this, younger generations are increasingly embracing individualism, especially in urban areas. Public life is marked by restraint and formality, but warmth and hospitality are evident in private settings. The need for structure and predictability permeates both social and professional spheres, creating an environment where rules and punctuality are highly valued.",
+      "text": "It is tradition and modern life together, where the Catholic Church and the memory of Solidarity keep a strong sense of community alive. Still, the young increasingly take up individualism, especially in the cities. Public life runs to restraint and formality, while private settings show real warmth and hospitality. The need for structure and predictability runs through everything, so rules and punctuality are prized.",
       "claim_ids": [
         "c4",
         "c8",
@@ -323,12 +324,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Polish social hospitality — warmth with guests, expressive family gatherings — provides a contextually bounded counter to the Restrained baseline, visible in friendship and domestic contexts.",
-        "claim_ids": [
-          "c8",
-          "C13"
-        ],
-        "sources_count": 2
+        "text": "Formality precedes warmth."
+      },
+      {
+        "text": "Hospitality at home is unstinting."
+      },
+      {
+        "text": "History is present in ordinary conversation."
       }
     ],
     "success_factors": [
@@ -591,7 +593,12 @@
           "suggested_score": 72
         }
       ]
-    }
+    },
+    "best_for": [
+      "Structured business environments",
+      "Long-term strategic planning",
+      "Community-focused initiatives"
+    ]
   },
   "sources": [
     {
@@ -976,15 +983,15 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 42,
+        "score": 44,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 64,
+        "score": 73,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 57,
+        "score": 59,
         "confidence": "MEDIUM"
       }
     },

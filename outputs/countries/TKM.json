@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 28,
-        "reading": "Community-first",
-        "explanation": "Turkmenistan's society is deeply collectivist, with tribal and clan affiliations shaping personal and social identity."
+        "score": 26,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: clan loyalty and tribal affiliation are the base, so belonging, standing and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 27,
-        "reading": "Reserved",
-        "explanation": "Public expression is tightly controlled, with a strong cultural norm of emotional restraint in formal settings."
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: heavy state control and unwritten rules keep public feeling in check, so composed, correct, conformist presentation is the norm."
       },
       {
         "dimension": "D3",
         "score": 71,
-        "reading": "Highly structured",
-        "explanation": "Life in Turkmenistan is governed by a strong preference for rules and social order, influenced by Soviet-era bureaucracy."
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: clan hierarchy plus a controlling state give a very firm, rule-bound frame, so the official channel and standing dominate."
       },
       {
         "dimension": "D4",
         "score": 36,
-        "reading": "Relaxed",
-        "explanation": "The culture values modesty and harmony over competitive striving, with success often linked to relationship quality."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: harmony, modesty and getting by beat individual ambition, so practical, communal goods matter most."
       }
     ],
-    "executive_summary": "Turkmenistan is a land where clan loyalty and social order are paramount. Public life is marked by restraint and adherence to unwritten rules, while personal relationships are deeply rooted in tribal affiliations. The state exerts significant control over expression, creating a society where harmony and modesty are valued over individual ambition.",
+    "executive_summary": "Turkmenistan is a place where clan loyalty and social order come first. Public life runs on restraint and on unwritten rules, while personal relationships are rooted in tribal affiliation. The state keeps a heavy hand on expression, making a society where harmony and modesty are valued over individual ambition.",
     "cultural_archetype": {
-      "title": "The Clan-Centric Harmonist",
-      "summary": "A society where tribal loyalty and social harmony are the cornerstones of life.",
+      "title": "Controlled Clans",
+      "summary": "Clan loyalty inside a tightly controlled public life.",
       "claim_ids": [
         "c1",
         "c2",
@@ -139,12 +139,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Soviet Union's influence established a bureaucratic system that reinforced collective identity and social order, which persists in modern Turkmenistan.",
-        "claim_ids": [
-          "c5",
-          "C06"
-        ],
-        "sources_count": 2
+        "text": "Clan and tribal affiliation, formally recognised in the state's own structure, remains the base of loyalty."
+      },
+      {
+        "text": "Pervasive state control and restricted information produce one of the lowest Expression scores measured."
+      },
+      {
+        "text": "A gas-funded state-directed economy leaves little room for individual enterprise."
       }
     ],
     "competing_forces": [
@@ -231,7 +232,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "In Turkmenistan, life revolves around a tightly knit social fabric where clan loyalty and social harmony dictate daily interactions. Public life is marked by restraint and adherence to unwritten rules, creating an environment where relationships are paramount and individual ambition takes a back seat.",
+      "text": "Life turns on a tightly knit social fabric, where clan loyalty and harmony dictate the everyday. Public life is marked by restraint and by following the unwritten rules, so relationships come first and individual ambition takes a back seat.",
       "claim_ids": [
         "c6",
         "C07",
@@ -241,28 +242,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of clan and tribal affiliations is immediately evident, influencing social interactions and personal relationships.",
-        "claim_ids": [
-          "c2",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "Public life is quiet and controlled."
       },
       {
-        "text": "Public expression is notably restrained, with a strong emphasis on maintaining social harmony and avoiding conflict.",
-        "claim_ids": [
-          "c3",
-          "C15"
-        ],
-        "sources_count": 2
+        "text": "Hospitality in private is warm."
       },
       {
-        "text": "The society is highly structured, with a clear preference for rules and predictability in daily life.",
-        "claim_ids": [
-          "c5",
-          "c6"
-        ],
-        "sources_count": 2
+        "text": "Formality governs official dealings."
       }
     ],
     "success_factors": [
@@ -408,7 +394,7 @@
         "iso3": "KAZ",
         "country": "Kazakhstan",
         "similarity": 85,
-        "explanation": "Kazakhstan and Turkmenistan both emphasize social harmony and clan identity, but Turkmenistan maintains stricter public conformity.",
+        "explanation": "Kazakhstan and Turkmenistan both stress social harmony and clan identity, but Turkmenistan maintains stricter public conformity.",
         "claim_ids": [
           "c1",
           "c5"
@@ -543,7 +529,12 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {
@@ -902,7 +893,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 28,
+        "score": 26,
         "confidence": "MEDIUM"
       },
       "D2": {

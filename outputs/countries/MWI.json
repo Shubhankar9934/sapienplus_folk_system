@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 30,
-        "reading": "Community-first",
-        "explanation": "Malawi's social fabric is deeply rooted in collectivism, where group loyalty and extended family networks define identity and social obligations."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: extended family and clan define identity, often matrilineal, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 43,
-        "reading": "Even-keeled",
-        "explanation": "Communication in Malawi is indirect and polite, prioritizing harmony and respect over direct expression."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: warm, the warm heart of Africa, yet indirect and polite, so friendly, relationship-led, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
         "score": 45,
-        "reading": "Balanced",
-        "explanation": "While formal structures exist, Malawi's reliance on informal networks and flexible practices reflects a comfort with ambiguity and adaptability."
+        "reading": "Fluid",
+        "explanation": "Middle-flexible: chiefs and elders give a soft frame while daily dealing stays relationship-based and adaptable, so a personal tie and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 45,
-        "reading": "Balanced",
-        "explanation": "Educational attainment and community contributions are valued, with an emerging emphasis on individual achievement in urban areas."
+        "reading": "Accepting",
+        "explanation": "Balanced, leaning communal: community welfare over individual goals, though urban aspiration grows, so practical, communal goods lead."
       }
     ],
-    "executive_summary": "In Malawi, community is the cornerstone of life, where extended families and clans define social identity. Communication is indirect and polite, reflecting a deep respect for hierarchy and harmony. While rural areas maintain traditional collectivist values, urban centers are slowly embracing individualistic career aspirations. Success is often measured by communal contributions rather than personal achievements.",
+    "executive_summary": "In Malawi community is the cornerstone, where extended families and clans set your social identity. People talk indirectly and politely, out of a deep respect for rank and harmony. The countryside keeps the old collectivist values, while the cities are slowly warming to individual career ambitions. Success tends to be measured by what you give the community, not by personal wins.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective identity and flexible adaptation define social and economic interactions.",
+      "title": "Polite Kin",
+      "summary": "Matrilineal kin and long greetings, at a flexible pace.",
       "claim_ids": [
         "c1",
         "c3",
@@ -178,11 +178,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The British established the Central African Protectorate in 1891; the colonial administrative legacy embedded formal procedural institutions and English-language bureaucracy that persist in Malawi's formal sector.",
-        "claim_ids": [
-          "C22"
-        ],
-        "sources_count": 1
+        "text": "Chewa and Yao matrilineal clans make descent through the mother's line the basis of identity and inheritance."
+      },
+      {
+        "text": "Chiefs and headmen remain the practical mechanism for settling disputes where courts are distant."
+      },
+      {
+        "text": "An extended greeting custom, where going straight to business is rude, keeps everyday talk indirect and polite."
       }
     ],
     "competing_forces": [
@@ -369,7 +371,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Malawi revolves around community bonds and collective identity. In villages, chiefs and headmen mediate conflicts, while in cities, the growing urban middle class navigates a blend of traditional values and emerging individualism. The workplace prioritizes community welfare over individual goals, and communication remains indirect and polite, reflecting a deep respect for hierarchy and harmony. These patterns create a rhythm that newcomers must adapt to, balancing communal expectations with personal aspirations.",
+      "text": "Life revolves around community bonds and collective identity. In the villages, chiefs and headmen settle disputes, while in the cities a growing middle class works out a blend of old values and new individualism. The workplace favors the community's welfare over personal goals, and talk stays indirect and polite, out of respect for rank and harmony.",
       "claim_ids": [
         "c3",
         "C05",
@@ -381,53 +383,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Chewa and other Malawian ethnic groups are organized around matrilineal clans that define identity and inheritance, making the extended family the primary unit of social organization.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "The greeting ritual is extended and important."
       },
       {
-        "text": "Village life in rural Malawi is characterized by strong community ties, with chiefs and headmen playing a central role in conflict resolution and resource allocation, reinforcing group identity over individual ambition.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "People are notably warm and polite."
       },
       {
-        "text": "In Malawian society, a person is often introduced by their village and clan before their personal name; the individual self is inseparable from the social group.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Community-oriented decision-making in Malawian business often explicitly outweighs individual goals; companies consult local leaders to assess community impact, reflecting collective identity over individual interest.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Social behaviours in Malawi reflect communal living and respect for elders; family involvement is significant in relationships with elders playing a crucial role in the approval process — self is embedded in the family/community unit.",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Public displays of affection between men and women are unusual in Malawi; husbands and wives do not hold hands or kiss in public, reflecting structural modesty norms that suppress heterosexual emotional display.",
-        "claim_ids": [
-          "C14"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The concept of 'making it' (kupambana) is culturally recognized and praised; it is openly discussed as a goal for youth, especially in urban areas.",
-        "claim_ids": [
-          "c25"
-        ],
-        "sources_count": 1
+        "text": "Confrontation is avoided."
       }
     ],
     "success_factors": [
@@ -567,7 +529,7 @@
         "iso3": "ZMB",
         "country": "Zambia",
         "similarity": 91,
-        "explanation": "Malawi and Zambia both emphasize extended family networks and communal decision-making, though Zambia has a slightly more urbanized population.",
+        "explanation": "Malawi and Zambia both stress extended family networks and communal decision-making, though Zambia has a slightly more urbanized population.",
         "claim_ids": [
           "c1",
           "C05"
@@ -650,6 +612,18 @@
           "suggested_score": 28
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 measures freedom from hierarchical suppression of expression — not volume or extroversion. Malawi presents a moderate-restrained profile. Several structurally corroborated signals point toward restraint: indirect communication is consistently documented across multiple independent workplace and business-culture sources; public displays of heterosexual affection are suppressed by social norm; deference to elders and superiors shapes what can be said and how; strong hierarchical norms constrain expressive candour upward in the chain. These are structural suppressors of expression (D2-relevant). Counter-weighting toward moderate openness: the 'Warm Heart' hospitality norm is genuine — Malawians are documented as emotionally warm and approachable in social settings, communal drumming/dancing/storytelling traditions are vibrant and expressive, and same-sex platonic touch in public is openly accepted (men holding hands). The dual religiosity noted by scholars (Christianity over-layering traditional spirit beliefs) also points to emotionally rich communal ritual life. Net assessment: expression is structurally mediated by hierarchy and indirectness but is NOT cold or suppressed in informal/communal contexts. A mid-point slightly below 50 captures this — restrained in formal/hierarchical contexts, moderately open in communal social life. Score: 42.",
+          "suggested_score": 42
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Malawi is moderately restrained on Expression. The historical legacy of the Chewa Gule Wamkulu (a masked dance cult) and the use of song/dance as village-level emotional outlets suggest some licensed expressiveness, but at the same time, a strong cultural emphasis on respectful reserve (ulemu) towards elders, chiefs, and strangers. Direct emotional confrontation is avoided; polite indirectness and a soft tone are the default. The British colonial mission schools further inculcated Victorian restraint. The counter-evidence from Malawian popular music (e.g., many popular songs express direct personal emotion) shows a genuine release valve, especially in secular youth spaces. Overall, a moderate restraint, but not extreme.",
+          "suggested_score": 45
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -667,18 +641,6 @@
           "suggested_score": 52
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "D2 measures freedom from hierarchical suppression of expression — not volume or extroversion. Malawi presents a moderate-restrained profile. Several structurally corroborated signals point toward restraint: indirect communication is consistently documented across multiple independent workplace and business-culture sources; public displays of heterosexual affection are suppressed by social norm; deference to elders and superiors shapes what can be said and how; strong hierarchical norms constrain expressive candour upward in the chain. These are structural suppressors of expression (D2-relevant). Counter-weighting toward moderate openness: the 'Warm Heart' hospitality norm is genuine — Malawians are documented as emotionally warm and approachable in social settings, communal drumming/dancing/storytelling traditions are vibrant and expressive, and same-sex platonic touch in public is openly accepted (men holding hands). The dual religiosity noted by scholars (Christianity over-layering traditional spirit beliefs) also points to emotionally rich communal ritual life. Net assessment: expression is structurally mediated by hierarchy and indirectness but is NOT cold or suppressed in informal/communal contexts. A mid-point slightly below 50 captures this — restrained in formal/hierarchical contexts, moderately open in communal social life. Score: 42.",
-          "suggested_score": 42
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Malawi is moderately restrained on Expression. The historical legacy of the Chewa Gule Wamkulu (a masked dance cult) and the use of song/dance as village-level emotional outlets suggest some licensed expressiveness, but at the same time, a strong cultural emphasis on respectful reserve (ulemu) towards elders, chiefs, and strangers. Direct emotional confrontation is avoided; polite indirectness and a soft tone are the default. The British colonial mission schools further inculcated Victorian restraint. The counter-evidence from Malawian popular music (e.g., many popular songs express direct personal emotion) shows a genuine release valve, especially in secular youth spaces. Overall, a moderate restraint, but not extreme.",
-          "suggested_score": 45
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -691,7 +653,12 @@
           "suggested_score": 63
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Relationship-led business",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {

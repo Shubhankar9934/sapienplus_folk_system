@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 25,
-        "reading": "Community-first",
-        "explanation": "In Egypt, identity is deeply rooted in family and community, with personal decisions often reflecting collective interests."
+        "score": 30,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family loyalty and collective identity come first, so a personal tie, reputation and family approval drive choices."
       },
       {
         "dimension": "D2",
-        "score": 24,
-        "reading": "Reserved",
-        "explanation": "Emotional expression in Egypt is context-dependent, with warmth expected in personal settings but restraint in public."
+        "score": 33,
+        "reading": "Restrained",
+        "explanation": "Reserved in public, warm in private: composure is kept in formal settings while feeling flows among your own, so dignified, relationship-first framing works, leavened by famous Egyptian humor."
       },
       {
         "dimension": "D3",
-        "score": 48,
-        "reading": "Balanced",
-        "explanation": "Egyptians prefer predictability and structure, yet daily life shows flexibility, balancing rules with social interactions."
+        "score": 61,
+        "reading": "Certain",
+        "explanation": "Structured: a heavy bureaucracy and respect for hierarchy give the official frame, while people improvise and pull strings underneath, so official process plus personal connections is how things move."
       },
       {
         "dimension": "D4",
-        "score": 17,
-        "reading": "Easygoing",
-        "explanation": "While education and career success are valued, personal relationships and social harmony often take precedence over aggressive competition."
+        "score": 39,
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: stability, family and getting by come before competition, though urban youth ambition grows, so practical value leads with aspiration emerging."
       }
     ],
-    "executive_summary": "In Egypt, family loyalty and collective identity are paramount, shaping social and professional interactions. Emotional expression is nuanced, with warmth expected in personal settings but restraint in public. The culture values stability and predictability, yet there's a growing individualistic streak among the urban youth. Success often hinges on relationships and navigating hierarchical structures.",
+    "executive_summary": "In Egypt family loyalty and the collective come first, shaping both friendship and work. Feeling is shown by context, warm in private and held back in public. People value stability and knowing what is coming, though the city's young are growing a more individual streak. Success runs through relationships and through working the hierarchy.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective identity and adaptability coexist, balancing tradition with emerging individualism.",
+      "title": "Patient Families",
+      "summary": "Family comes first, everything runs through someone you know, and humour carries the rest.",
       "claim_ids": [
         "c1",
         "c2",
@@ -193,11 +193,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Colonialism and modernization have shaped a dual identity in Egypt, where traditional family values coexist with a modern, educated middle class that values individual achievement.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Millennia of Nile agriculture organised around the family made the household the unit of survival and identity."
+      },
+      {
+        "text": "An enormous, slow state bureaucracy, layered from Ottoman through British to modern rule, taught reliance on connections to get anything done."
+      },
+      {
+        "text": "Religious custom and a dense urban society keep public conduct composed while warmth is reserved for private life."
       }
     ],
     "competing_forces": [
@@ -297,7 +299,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Egypt revolves around family and community, with a strong emphasis on maintaining social harmony. Workplaces blend structure with flexibility, while social interactions are governed by a nuanced approach to emotional expression. Newcomers will notice a deep-rooted respect for tradition, yet an emerging individualism among the youth.",
+      "text": "Life turns on family and community and on keeping the social peace. Workplaces mix order with some give, while feeling gets shown carefully depending on the room. A newcomer notices the deep respect for tradition, and, underneath it, a young individualism starting to stir.",
       "claim_ids": [
         "c3",
         "c10",
@@ -307,20 +309,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family and community ties are immediately evident, with social interactions often involving extended family members.",
-        "claim_ids": [
-          "c1",
-          "c3"
-        ],
-        "sources_count": 2
+        "text": "Cairo's density and noise dominate first impressions."
       },
       {
-        "text": "Emotional warmth is common in personal interactions, while public expressions are more restrained.",
-        "claim_ids": [
-          "c10",
-          "c7"
-        ],
-        "sources_count": 2
+        "text": "Hospitality is immediate and insistent."
+      },
+      {
+        "text": "Bureaucracy is slow and navigated through people."
       }
     ],
     "success_factors": [
@@ -584,7 +579,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion programs",
+      "Heritage tourism"
+    ]
   },
   "sources": [
     {
@@ -943,19 +943,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 25,
+        "score": 30,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 24,
+        "score": 33,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 48,
+        "score": 61,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 17,
+        "score": 39,
         "confidence": "MEDIUM"
       }
     },

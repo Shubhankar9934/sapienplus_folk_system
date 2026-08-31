@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 86,
-        "reading": "Strongly independent",
-        "explanation": "American culture is deeply rooted in individualism, where personal freedom and self-reliance are core values."
+        "score": 88,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal achievement and self-expression are paramount, so 'made for you,' personal-choice and self-improvement framing win, with pockets of community in immigrant and regional life."
       },
       {
         "dimension": "D2",
         "score": 71,
-        "reading": "Highly expressive",
-        "explanation": "The U.S. is known for its open and direct communication style, where expressing opinions freely is encouraged."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive and direct: open, upbeat, comfortable with self-promotion, so bold, confident, benefit-forward framing lands."
       },
       {
         "dimension": "D3",
-        "score": 22,
-        "reading": "Flexible",
-        "explanation": "Americans are comfortable with ambiguity and change, fostering a culture of innovation and flexibility."
+        "score": 33,
+        "reading": "Fluid",
+        "explanation": "Very flexible: a comfort with ambiguity, risk and reinvention keeps rules light and change welcome, so fast, low-friction, innovative offers fit."
       },
       {
         "dimension": "D4",
-        "score": 61,
-        "reading": "Achievement-oriented",
-        "explanation": "The American Dream fuels a competitive spirit, driving individuals to achieve success through hard work and determination."
+        "score": 71,
+        "reading": "Strongly Striving",
+        "explanation": "Very high: the 'American Dream' fuels a competitive, hard-working drive where success is displayed, so aspirational, status and self-improvement goods carry real weight."
       }
     ],
-    "executive_summary": "The United States thrives on individualism, where personal achievement and self-expression are paramount. Americans are known for their direct communication style and comfort with ambiguity, fostering a culture of innovation and entrepreneurship. The 'American Dream' fuels a competitive spirit, driving people to succeed through hard work and determination. However, this individualistic ethos coexists with pockets of community-oriented values, particularly among immigrant groups and in certain regions.",
+    "executive_summary": "The United States runs on individualism, where personal achievement and self-expression come first. Americans are known for saying things straight and for an ease with ambiguity, which breeds a culture of innovation and enterprise. The American Dream, the promise that anyone can rise through hard work, fuels a competitive streak. Still, that individualist ethos sits beside pockets of community-minded values, especially among immigrant groups and in certain regions.",
     "cultural_archetype": {
-      "title": "The Independent Achiever",
-      "summary": "A society that champions personal freedom and relentless pursuit of success.",
+      "title": "Confident Individualists",
+      "summary": "Personal freedom, plain speech and success worn in the open.",
       "claim_ids": [
         "C01",
         "C02",
@@ -200,12 +200,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The frontier experience and Enlightenment ideals have historically shaped American individualism and self-reliance.",
-        "claim_ids": [
-          "claim_3",
-          "c1"
-        ],
-        "sources_count": 2
+        "text": "A frontier and immigrant history filled the country with people who left kin networks behind, producing the highest Identity score in the set."
+      },
+      {
+        "text": "A risk-tolerant legal and commercial culture, where bankruptcy reads as a fresh start, keeps rules light and reinvention admired."
+      },
+      {
+        "text": "The American Dream ties success to visible personal achievement, which sustains a high Drive alongside open self-promotion."
       }
     ],
     "competing_forces": [
@@ -309,7 +310,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in the United States is a dynamic blend of personal freedom and competitive drive. Individuals navigate a culture that values direct communication and innovation, where success is often measured by personal achievements. Despite the emphasis on individualism, there are pockets of community engagement, reflecting the country's diverse cultural landscape.",
+      "text": "Life is a mix of personal freedom and competitive drive. People move through a culture that prizes direct talk and innovation, where success is often measured by personal wins. For all the individualism, there are pockets of real community engagement, reflecting the country's varied cultural landscape.",
       "claim_ids": [
         "c3",
         "C11",
@@ -319,28 +320,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Newcomers to the U.S. quickly notice the emphasis on individualism, with a strong focus on personal freedom and self-expression.",
-        "claim_ids": [
-          "c1",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "The friendliness is immediate and not necessarily deep."
       },
       {
-        "text": "The direct and open communication style of Americans can be surprising to those from more reserved cultures.",
-        "claim_ids": [
-          "C11",
-          "claim_6"
-        ],
-        "sources_count": 2
+        "text": "Everything is available and fast."
       },
       {
-        "text": "The competitive spirit and drive for success are evident in both personal and professional settings.",
-        "claim_ids": [
-          "C23",
-          "C26"
-        ],
-        "sources_count": 2
+        "text": "Regional differences are larger than expected."
       }
     ],
     "success_factors": [
@@ -554,7 +540,12 @@
           "suggested_score": 75
         }
       ]
-    }
+    },
+    "best_for": [
+      "Entrepreneurs seeking innovation",
+      "Individuals valuing personal freedom",
+      "Professionals in competitive industries"
+    ]
   },
   "sources": [
     {
@@ -935,7 +926,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 86,
+        "score": 88,
         "confidence": "HIGH"
       },
       "D2": {
@@ -943,11 +934,11 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 22,
+        "score": 33,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 61,
+        "score": 71,
         "confidence": "MEDIUM"
       }
     },

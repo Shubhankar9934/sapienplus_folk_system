@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 37,
-        "reading": "Group-oriented",
-        "explanation": "Identity in Mali is deeply tied to group affiliations, such as clan and lineage, which are chosen opportunistically."
+        "reading": "Social",
+        "explanation": "Community-first: lineage and clan often define identity, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 58,
-        "reading": "Expressive",
-        "explanation": "Malian culture embraces expressive communication, as seen in griot performances and sanankuya joking relationships."
+        "reading": "Open",
+        "explanation": "Expressive: joking-relationship banter and the griot storytelling tradition make feeling public and performed, so lively, story-rich, warm branding connects."
       },
       {
         "dimension": "D3",
         "score": 52,
         "reading": "Balanced",
-        "explanation": "While traditional norms provide structure, Mali also exhibits a degree of fluidity in social and legal practices."
+        "explanation": "Middle, tilting structured: Islamic practice, unwritten social codes and respect for elders give a firm frame, adaptable in daily dealing."
       },
       {
         "dimension": "D4",
         "score": 41,
-        "reading": "Relaxed",
-        "explanation": "Cultural emphasis on social harmony and spiritual contentment often outweighs competitive achievement."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: family, community and getting by come before competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "In Mali, social life is deeply rooted in collectivism, with identity often defined by lineage and clan. Expressive communication is a hallmark, with joking relationships and griot performances providing outlets for emotional expression. The culture balances traditional structures with a degree of fluidity, allowing for adaptability in daily interactions. Success often hinges on maintaining strong family ties and navigating social networks.",
+    "executive_summary": "In Mali social life is deeply collective, where lineage and clan often define who you are. Expression is a hallmark: there are joking relationships between certain families, a customary license to tease, and the griots, the hereditary storytellers and musicians who carry the community's memory and its feelings. Tradition holds, but with enough give to adapt day to day, and success rests on strong family ties and a good network.",
     "cultural_archetype": {
-      "title": "The Communal Storyteller",
-      "summary": "A society where collective identity and expressive traditions shape daily life.",
+      "title": "Warm Kin",
+      "summary": "Lineage carries identity, and the griot carries the memory.",
       "claim_ids": [
         "c1",
         "c3",
@@ -128,20 +128,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Mali Empire's emphasis on collective governance and social harmony has left a lasting impact on Malian society.",
-        "claim_ids": [
-          "C06",
-          "C20"
-        ],
-        "sources_count": 1
+        "text": "Lineage and clan, and the griot caste that keeps their history, make belonging inherited and publicly recorded."
       },
       {
-        "text": "Colonial influences and the integration of Islamic and customary laws have shaped Mali's current legal and social systems.",
-        "claim_ids": [
-          "C22",
-          "C24"
-        ],
-        "sources_count": 2
+        "text": "Sanankuya, the customary joking relationship between certain families, licenses blunt teasing and defuses conflict."
+      },
+      {
+        "text": "Islamic practice layered over Mande social codes supplies an ordered frame in a country with a thin state."
       }
     ],
     "competing_forces": [
@@ -243,7 +236,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Mali is a tapestry of collective traditions and expressive interactions. Daily routines are structured by Islamic practices and unwritten social norms, while friendships are often initiated through playful teasing. The importance of family and community is ever-present, with strong kinship bonds maintained across distances. Newcomers quickly notice the vibrant, expressive culture, where respect for elders and social harmony guide interactions.",
+      "text": "It is collective tradition and expressive company. The days are structured by Islamic practice and unwritten social rules, while friendships often begin with a bout of playful teasing. Family and community are ever-present, with kinship bonds kept up across long distances. A newcomer quickly notices the lively, expressive culture, where respect for elders and social harmony guide everything.",
       "claim_ids": [
         "c4",
         "C05",
@@ -253,28 +246,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The vibrant, expressive culture is immediately noticeable, with griot performances and public gatherings showcasing emotional expression.",
-        "claim_ids": [
-          "C12",
-          "C13"
-        ],
-        "sources_count": 2
+        "text": "Greetings are long and essential."
       },
       {
-        "text": "Social interactions are often initiated through sanankuya joking relationships, which may surprise newcomers.",
-        "claim_ids": [
-          "C11",
-          "C32"
-        ],
-        "sources_count": 2
+        "text": "The joking between certain families surprises newcomers."
       },
       {
-        "text": "Respect for elders and social hierarchy is a key aspect of Malian society, influencing both daily life and workplace norms.",
-        "claim_ids": [
-          "C16",
-          "C21"
-        ],
-        "sources_count": 2
+        "text": "Music runs through everything."
       }
     ],
     "success_factors": [
@@ -500,6 +478,18 @@
           "suggested_score": 75
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression in Mali is structurally open in social and public domains. The sanankuya institution codifies ritualized verbal jousting — including mock insults, teasing, and daring jokes — as a civic and social obligation traceable to the founding constitution of the Mali Empire. Griot (jeli) culture licenses loud public performance, praise-singing, and social commentary. Religious mass gatherings (stadiums in Bamako fill for religious rallies) are emotionally expressive. However, hierarchical suppression of expression is real: deference to elders (and increasingly to Islamic clerics) limits direct upward dissent. The combination of open social expressiveness with hierarchical deference in formal settings places Mali moderately above the midpoint — freer than East Asian restraint-cultures but more contextually bounded than southern-European open cultures. Score ~65.",
+          "suggested_score": 65
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Mali displays open emotional expression in public settings (music, festivals, storytelling) but also hierarchical restraint in formal contexts. The griot tradition in Mande culture encourages emotional and verbal expressiveness, yet age and gender hierarchies suppress free expression. Therefore the score is high but not extreme, reflecting a middle position.",
+          "suggested_score": 60
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -517,18 +507,6 @@
           "suggested_score": 40
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Expression in Mali is structurally open in social and public domains. The sanankuya institution codifies ritualized verbal jousting — including mock insults, teasing, and daring jokes — as a civic and social obligation traceable to the founding constitution of the Mali Empire. Griot (jeli) culture licenses loud public performance, praise-singing, and social commentary. Religious mass gatherings (stadiums in Bamako fill for religious rallies) are emotionally expressive. However, hierarchical suppression of expression is real: deference to elders (and increasingly to Islamic clerics) limits direct upward dissent. The combination of open social expressiveness with hierarchical deference in formal settings places Mali moderately above the midpoint — freer than East Asian restraint-cultures but more contextually bounded than southern-European open cultures. Score ~65.",
-          "suggested_score": 65
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Mali displays open emotional expression in public settings (music, festivals, storytelling) but also hierarchical restraint in formal contexts. The griot tradition in Mande culture encourages emotional and verbal expressiveness, yet age and gender hierarchies suppress free expression. Therefore the score is high but not extreme, reflecting a middle position.",
-          "suggested_score": 60
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -541,7 +519,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Cultural immersion experiences",
+      "Community-driven projects",
+      "Expressive arts and storytelling"
+    ]
   },
   "sources": [
     {

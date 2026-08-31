@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 28,
-        "reading": "Community-first",
-        "explanation": "In Togo, extended family networks and lineage ties are central to social identity, emphasizing collective responsibility over individual autonomy."
+        "score": 27,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: extended families are the core of social life, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 43,
-        "reading": "Even-keeled",
-        "explanation": "Public expression in Togo is often restrained by social norms, with indirect communication preferred to maintain harmony, especially in hierarchical settings."
+        "reading": "Restrained",
+        "explanation": "Middle: warm and hospitable, tempered by indirect talk and avoidance of open challenge, so warm-but-indirect, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 45,
-        "reading": "Balanced",
-        "explanation": "Togolese culture is comfortable with fluidity and improvisation, as seen in the informal economy and flexible social interactions."
+        "reading": "Fluid",
+        "explanation": "Middle-flexible: formal hierarchy and informal decision-making mix, and adaptability is prized, so a personal tie and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 40,
-        "reading": "Relaxed",
-        "explanation": "Achievement in Togo is balanced between striving for educational success and maintaining community harmony, reflecting a moderate drive for individual accomplishment."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community harmony and getting by come before competition, though education is valued as a route up."
       }
     ],
-    "executive_summary": "Togo is a tapestry of communal ties and improvisational adaptability, where extended families form the core of social life and fluidity is embraced in daily interactions. The blend of traditional rituals and modern influences creates a unique cultural rhythm that newcomers will find both welcoming and complex. Success is often tied to educational achievement and community harmony, while public expressions of affection and direct challenges are avoided.",
+    "executive_summary": "Togo mixes communal ties with an improvised adaptability, where the extended family is the core of social life and people take the day as it comes. Old rituals and modern influence make a particular rhythm, welcoming and complicated at once. Success ties to education and to community harmony, while public shows of affection and direct challenges are avoided.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective responsibility and adaptability coexist, shaping a unique cultural rhythm.",
+      "title": "Extended Families",
+      "summary": "Extended families share the load, and improvisation fills the gaps.",
       "claim_ids": [
         "c1",
         "c5",
@@ -179,27 +179,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Togo's historical emphasis on extended family structures and communal living has shaped its collective social identity.",
-        "claim_ids": [
-          "C03",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Extended family networks raise children collectively and share the costs of living."
       },
       {
-        "text": "French colonial rule imposed education and legal systems that left formal procedural layers in government and corporate institutions.",
-        "claim_ids": [
-          "C26",
-          "claim_10"
-        ],
-        "sources_count": 2
+        "text": "A large informal economy and decades of one-party rule taught reliance on improvisation over institutions."
       },
       {
-        "text": "Togo's strategic coastal location has historically reinforced its role as a regional trade hub, influencing its cultural adaptability and commercial orientation.",
-        "claim_ids": [
-          "C30"
-        ],
-        "sources_count": 1
+        "text": "Ewe and Kabye lineage traditions, alongside Vodun practice, supply the customary order."
       }
     ],
     "competing_forces": [
@@ -326,7 +312,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Togo is a blend of communal living and individual adaptability. Families often live in extended networks, offering mutual support. The workplace oscillates between formal hierarchy and informal decision-making, while social interactions prioritize harmony and respect. Visitors are greeted with warmth and hospitality, reflecting deep-rooted cultural values.",
+      "text": "Life blends communal living with individual adaptability. Families tend to live in extended networks that offer mutual support. The workplace swings between formal hierarchy and informal decision-making, while social dealings favor harmony and respect. Visitors are met with warmth and hospitality, a reflection of deep-rooted values.",
       "claim_ids": [
         "C01",
         "C12",
@@ -337,20 +323,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The extended family structure is immediately noticeable, with multiple generations often living together and playing a central role in daily life.",
-        "claim_ids": [
-          "C01",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "Greetings come first, always."
       },
       {
-        "text": "The vibrant cultural expressions through music, dance, and Vodun rituals are integral to social gatherings.",
-        "claim_ids": [
-          "C17",
-          "claim_5"
-        ],
-        "sources_count": 2
+        "text": "Family networks are wide."
+      },
+      {
+        "text": "The pace is relaxed."
       }
     ],
     "success_factors": [
@@ -557,6 +536,18 @@
           "suggested_score": 25
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression in Togo is structurally restrained, especially in hierarchical and public-political contexts. Public display of affection is actively discouraged; workplace communication toward superiors defaults to indirectness and harmony-preservation; Freedom House documents widespread self-censorship in political expression; eye contact with superiors is deliberately softened. The dominant D2 signal is one of hierarchically-suppressed expression. Counter-evidence: Vodun ceremonies, traditional music and dance festivals, and the warm hospitality norm (guests offered food and water) show genuine expressive energy in sanctioned ritual and social contexts—but these are permitted release-valve contexts that coexist with everyday restraint, not evidence of structural openness. Score anchors at restrained-moderate.",
+          "suggested_score": 30
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Togo is moderate. Traditional etiquette emphasizes respect for elders and hierarchy (restrained), yet public ceremonies, funerals, and festivals (e.g., Ewe voodoo ceremonies) permit open emotional display. The balance tilts slightly open due to these sanctioned expressive outlets.",
+          "suggested_score": 55
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -574,18 +565,6 @@
           "suggested_score": 60
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Expression in Togo is structurally restrained, especially in hierarchical and public-political contexts. Public display of affection is actively discouraged; workplace communication toward superiors defaults to indirectness and harmony-preservation; Freedom House documents widespread self-censorship in political expression; eye contact with superiors is deliberately softened. The dominant D2 signal is one of hierarchically-suppressed expression. Counter-evidence: Vodun ceremonies, traditional music and dance festivals, and the warm hospitality norm (guests offered food and water) show genuine expressive energy in sanctioned ritual and social contexts—but these are permitted release-valve contexts that coexist with everyday restraint, not evidence of structural openness. Score anchors at restrained-moderate.",
-          "suggested_score": 30
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression in Togo is moderate. Traditional etiquette emphasizes respect for elders and hierarchy (restrained), yet public ceremonies, funerals, and festivals (e.g., Ewe voodoo ceremonies) permit open emotional display. The balance tilts slightly open due to these sanctioned expressive outlets.",
-          "suggested_score": 55
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -598,7 +577,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Community development projects"
+    ]
   },
   "sources": [
     {
@@ -1012,7 +996,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 28,
+        "score": 27,
         "confidence": "MEDIUM"
       },
       "D2": {

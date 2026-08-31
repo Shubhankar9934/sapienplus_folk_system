@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 31,
-        "reading": "Group-oriented",
-        "explanation": "Collectivism dominates, with family and tribe defining identity and social structure."
+        "score": 30,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and tribal ties strongly set identity and standing, so belonging, reputation and wasta (connections) drive choices."
       },
       {
         "dimension": "D2",
         "score": 35,
-        "reading": "Understated",
-        "explanation": "Public emotional expression is restrained, with a preference for politeness and indirect communication."
+        "reading": "Restrained",
+        "explanation": "Reserved: politeness and indirect, harmony-keeping talk govern public life, so dignified, relationship-first approaches work and bluntness offends."
       },
       {
         "dimension": "D3",
-        "score": 31,
-        "reading": "Adaptable",
-        "explanation": "A high need for certainty is evident in the preference for clear rules and hierarchical structures."
+        "score": 49,
+        "reading": "Balanced",
+        "explanation": "Middle: hierarchy and clear roles give a frame while wasta and personal connections move things, so official process plus a trusted contact is how things work."
       },
       {
         "dimension": "D4",
         "score": 51,
         "reading": "Balanced",
-        "explanation": "While education is highly valued, economic success often relies on social networks rather than individual competition."
+        "explanation": "Balanced: education and getting ahead are prized, though advancement often runs through connections, so aspiration and family-standing goods land."
       }
     ],
-    "executive_summary": "Jordanian society is deeply rooted in collectivism, where family and tribal ties strongly influence identity. Public expression is restrained, with a preference for indirect communication and politeness. The workplace is hierarchical, with clear roles and reliance on personal connections (wasta) to navigate bureaucracy. While education is highly valued, wasta often dictates economic advancement, creating tension between merit and connections.",
+    "executive_summary": "Jordanian society is deeply collective, where family and tribe weigh heavily on who you are. Public feeling is restrained, and people prefer to be polite and indirect. The workplace is hierarchical, with clear roles and a heavy reliance on wasta, the pull of personal connections, to move through the bureaucracy. Schooling is prized, but wasta often decides who gets ahead, which sets merit and connections against each other.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where group loyalty and personal ambition coexist, shaped by strong family ties and educational aspirations.",
+      "title": "Networked Families",
+      "summary": "Family and tribe set standing, and connections open what applications cannot.",
       "claim_ids": [
         "C01",
         "c7",
@@ -131,12 +131,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Jordan's tribal and family-based social structures have historically reinforced collectivist values, shaping identity and social interactions.",
-        "claim_ids": [
-          "c1",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "Tribal and Bedouin lineage remains the basis of standing, reinforced by successive waves of refugee settlement that made kin networks essential."
+      },
+      {
+        "text": "Wasta, the use of personal connections, developed as the practical means of navigating a top-heavy administration."
+      },
+      {
+        "text": "Scarce natural resources made education the recognised route up, which families invest in heavily."
       }
     ],
     "competing_forces": [
@@ -242,7 +243,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Jordan is a blend of collective loyalty and personal ambition. Family and tribal ties are central, guiding daily interactions and decisions. Public expression is restrained, with politeness and indirect communication prevailing. The workplace is hierarchical, with decisions made at the top and personal connections (wasta) playing a crucial role in career advancement. Education is highly valued, but economic success often depends more on who you know than what you know.",
+      "text": "Life mixes collective loyalty with personal ambition. Family and tribal ties are central, guiding daily choices. Public expression stays restrained, all politeness and indirect talk. The workplace runs top-down, and wasta, who you know, plays a real part in a career. Education matters, but success often comes down to connections more than credentials.",
       "claim_ids": [
         "c3",
         "c5",
@@ -254,36 +255,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family and tribal ties are visibly strong, with extended families often living together or nearby.",
-        "claim_ids": [
-          "c1",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "Hospitality arrives immediately and insistently."
       },
       {
-        "text": "Public emotional expression is limited, with politeness and indirect communication common.",
-        "claim_ids": [
-          "C10",
-          "C11"
-        ],
-        "sources_count": 2
+        "text": "Family and tribal background come up early."
       },
       {
-        "text": "Hierarchical structures are evident in workplaces, with clear roles and reliance on personal connections.",
-        "claim_ids": [
-          "c5",
-          "C18"
-        ],
-        "sources_count": 2
-      },
-      {
-        "text": "Social gatherings are warm and lively, with hospitality and animated discussions.",
-        "claim_ids": [
-          "c4",
-          "C15"
-        ],
-        "sources_count": 2
+        "text": "Business runs slower and through people."
       }
     ],
     "success_factors": [
@@ -410,7 +388,7 @@
         "iso3": "LBN",
         "country": "Lebanon",
         "similarity": 94,
-        "explanation": "Both Jordan and Lebanon emphasize family and social networks, but Lebanon's more diverse religious landscape adds complexity to its social dynamics.",
+        "explanation": "Both Jordan and Lebanon stress family and social networks, but Lebanon's more diverse religious landscape adds complexity to its social dynamics.",
         "claim_ids": [
           "c1",
           "C05"
@@ -578,7 +556,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Educational initiatives",
+      "Network-based ventures"
+    ]
   },
   "sources": [
     {
@@ -893,7 +876,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 31,
+        "score": 30,
         "confidence": "HIGH"
       },
       "D2": {
@@ -901,7 +884,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 31,
+        "score": 49,
         "confidence": "MEDIUM"
       },
       "D4": {

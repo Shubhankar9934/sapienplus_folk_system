@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 36,
-        "reading": "Group-oriented",
-        "explanation": "Myanmar's society is deeply collectivist, with family and ethnic group affiliations playing a central role in identity."
+        "reading": "Social",
+        "explanation": "Community-first: family, community and collective reputation come before individual ambition, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 33,
-        "reading": "Understated",
-        "explanation": "Communication in Myanmar is indirect and subtle, reflecting a cultural emphasis on harmony and face-saving."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, subtle, face-saving talk keeps harmony, so gentle, warm, non-confrontational approaches work, and friendships form slowly."
       },
       {
         "dimension": "D3",
         "score": 62,
-        "reading": "Structured",
-        "explanation": "Myanmar exhibits high uncertainty avoidance, with a strong preference for stability and clear social hierarchies."
+        "reading": "Certain",
+        "explanation": "Structured: deep hierarchy, deference and Buddhist order give a firm frame, so respect for rank and the known way carry weight."
       },
       {
         "dimension": "D4",
-        "score": 37,
-        "reading": "Relaxed",
-        "explanation": "The cultural focus in Myanmar is more on quality of life and harmony than on competitive achievement."
+        "score": 38,
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: harmony and contentment over competition, so practical, communal, everyday goods matter most, with urban youth ambition rising."
       }
     ],
-    "executive_summary": "Myanmar is a tapestry of ethnic diversity and Buddhist traditions, where collective identity often takes precedence over individual ambition. Hierarchies are respected, and communication is indirect, reflecting a deep cultural emphasis on harmony and face-saving. Despite this, urban areas are seeing a shift towards more individualistic values, especially among the youth.",
+    "executive_summary": "Myanmar mixes ethnic diversity and Buddhist tradition, where the collective usually comes before individual ambition. Rank is respected, and talk stays indirect, out of a deep concern for harmony and face. Still, the cities are moving toward more individual values, especially among the young.",
     "cultural_archetype": {
-      "title": "The Harmonious Collective",
-      "summary": "A society where collective identity and harmony are deeply ingrained, yet evolving with modern influences.",
+      "title": "Deferential Households",
+      "summary": "Harmony and rank shape everything, in a country changing unevenly.",
       "claim_ids": [
         "claim1",
         "claim2",
@@ -146,19 +146,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Myanmar's colonial history and its institutionalization of ethnic categories have deeply influenced its collective identity and social structure.",
-        "claim_ids": [
-          "claim-2"
-        ],
-        "sources_count": 1
+        "text": "Theravada Buddhist values and strong family structures make the group and its harmony the base of identity."
       },
       {
-        "text": "Theravada Buddhism has long shaped Myanmar's cultural values, emphasizing community, karma, and non-attachment.",
-        "claim_ids": [
-          "C09",
-          "claim-10"
-        ],
-        "sources_count": 2
+        "text": "A rigid inherited hierarchy, entrenched by decades of military rule, orders deference in every setting."
+      },
+      {
+        "text": "Isolation until the 2010s preserved traditional social structures while the young now encounter outside influence."
       }
     ],
     "competing_forces": [
@@ -244,7 +238,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Myanmar is deeply rooted in family and community, where collective reputation and harmony guide daily interactions. Workplaces emphasize hierarchy and deference, while communication is marked by subtlety and indirectness. Social warmth is expressed through polite gestures, and friendships develop slowly but deeply.",
+      "text": "Life is rooted in family and community, where the group's reputation and its harmony guide the day. Workplaces stress rank and deference, while communication runs on subtlety and hint. Warmth comes through polite gestures, and friendships form slowly but deeply.",
       "claim_ids": [
         "C03",
         "C13",
@@ -254,12 +248,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Communication is indirect and subtle, with an emphasis on maintaining harmony and saving face.",
-        "claim_ids": [
-          "C10",
-          "C12"
-        ],
-        "sources_count": 2
+        "text": "The politeness is constant and gentle."
+      },
+      {
+        "text": "Deference to seniority is immediate."
+      },
+      {
+        "text": "Change is visible but uneven."
       }
     ],
     "success_factors": [
@@ -404,7 +399,7 @@
         "iso3": "KHM",
         "country": "Cambodia",
         "similarity": 86,
-        "explanation": "Both Myanmar and Cambodia are deeply influenced by Theravada Buddhism, fostering a shared emphasis on community and karma, though Myanmar's ethnic diversity adds complexity to its cultural identity.",
+        "explanation": "Both Myanmar and Cambodia are deeply influenced by Theravada Buddhism, building a shared emphasis on community and karma, though Myanmar's ethnic diversity adds complexity to its cultural identity.",
         "claim_ids": [
           "C09",
           "C05"
@@ -522,7 +517,12 @@
           "suggested_score": 40
         }
       ]
-    }
+    },
+    "best_for": [
+      "Building long-term relationships",
+      "Culturally sensitive business ventures",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {
@@ -849,7 +849,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 37,
+        "score": 38,
         "confidence": "MEDIUM"
       }
     },

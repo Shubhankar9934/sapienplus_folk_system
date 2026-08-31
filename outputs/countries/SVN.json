@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 53,
+        "score": 51,
         "reading": "Balanced",
-        "explanation": "Slovenia balances individual achievement with community ties, fostering a sense of personal responsibility and autonomy."
+        "explanation": "Balanced: personal independence sits beside close-knit community and family circles, so both personalization and belonging drive choices."
       },
       {
         "dimension": "D2",
         "score": 44,
-        "reading": "Even-keeled",
-        "explanation": "Expression in Slovenia is context-dependent, with formal settings favoring restraint while informal gatherings allow for more open emotional expression."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: modest, indirect communication, with deep loyalty once trust is built, so sincere, understated, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 80,
-        "reading": "Highly structured",
-        "explanation": "Slovenia's culture is highly structured, valuing punctuality, order, and clear procedures to reduce ambiguity."
+        "reading": "Strongly Certain",
+        "explanation": "Very highly structured: order, rules, punctuality and reliability give a firm frame, so clarity, guarantees and proper process strongly reassure."
       },
       {
         "dimension": "D4",
         "score": 36,
-        "reading": "Relaxed",
-        "explanation": "Slovenia prioritizes quality of life and cooperation over competition, reflecting a preference for modesty and balance."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: work-life balance, nature and family beat status and hustle, so comfort and dependable quality land over flash."
       }
     ],
-    "executive_summary": "Slovenia is a country where individual achievement coexists with a strong sense of community. Personal independence is highly valued, yet social life revolves around close-knit circles. The culture balances a structured, rule-oriented approach with a relaxed attitude towards work-life balance.",
+    "executive_summary": "Slovenia is a place where individual achievement lives alongside a strong sense of community. Personal independence is prized, yet social life turns on close-knit circles. The culture balances a structured, rule-minded approach with a relaxed attitude toward work-life balance.",
     "cultural_archetype": {
-      "title": "The Harmonious Achiever",
-      "summary": "A society that balances individual success with community ties and a high quality of life.",
+      "title": "Precise Communities",
+      "summary": "Punctual and modest, with small loyal circles and the mountains close.",
       "claim_ids": [
         "c1",
         "c6",
@@ -130,13 +130,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Slovenia's history under Habsburg rule and later as part of Yugoslavia has instilled a strong sense of order and community, while its post-independence economic transformation emphasizes individual achievement.",
-        "claim_ids": [
-          "c2",
-          "c3",
-          "c14"
-        ],
-        "sources_count": 2
+        "text": "Habsburg administrative inheritance built punctuality, procedure and reliability into public life, producing one of the highest Structure scores."
+      },
+      {
+        "text": "Small, close-knit communities and a strong associational tradition keep social circles tight and loyal."
+      },
+      {
+        "text": "Alpine geography and a deep outdoor culture protect leisure, holding Drive at the accepting end."
       }
     ],
     "competing_forces": [
@@ -222,7 +222,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Slovenia feels balanced, with a strong emphasis on personal independence and community ties. The structured environment demands punctuality and adherence to rules, yet there is a relaxed attitude towards work-life balance. Communication is indirect and modest, but once trust is established, friendships are deep and lasting.",
+      "text": "Life feels balanced, with a strong stress on personal independence and community ties both. The structured setting asks for punctuality and following the rules, and yet there is an easy attitude toward work-life balance. Talk is indirect and modest, but once trust is there, the friendships run deep and last.",
       "claim_ids": [
         "c4",
         "c6",
@@ -234,12 +234,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Workplaces are formal and hierarchical, yet teamwork is encouraged when based on skills.",
-        "claim_ids": [
-          "c8",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "Everything runs to time."
+      },
+      {
+        "text": "Modesty is the register."
+      },
+      {
+        "text": "Friendships form slowly and last."
       }
     ],
     "success_factors": [
@@ -363,7 +364,7 @@
         "iso3": "LTU",
         "country": "Lithuania",
         "similarity": 88,
-        "explanation": "Both Slovenia and Lithuania emphasize community and modesty, yet Slovenia exhibits a stronger individualistic streak.",
+        "explanation": "Both Slovenia and Lithuania stress community and modesty, yet Slovenia exhibits a stronger individualistic streak.",
         "claim_ids": [
           "c1",
           "c19"
@@ -520,7 +521,12 @@
           "suggested_score": 56
         }
       ]
-    }
+    },
+    "best_for": [
+      "Work-life balance seekers",
+      "Community-oriented entrepreneurs",
+      "Structured planners"
+    ]
   },
   "sources": [
     {
@@ -769,7 +775,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 53,
+        "score": 51,
         "confidence": "MEDIUM"
       },
       "D2": {

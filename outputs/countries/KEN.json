@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 33,
-        "reading": "Group-oriented",
-        "explanation": "Kenyan society is deeply collectivist, with identity strongly tied to ethnic and clan affiliations."
+        "score": 28,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: extended family, clan and ethnic community are the safety net, so belonging, elder approval and reputation drive choices, with urban individualism rising."
       },
       {
         "dimension": "D2",
         "score": 40,
-        "reading": "Understated",
-        "explanation": "Kenya values indirect communication to maintain social harmony, with expressive traditions in music and dance."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: warm and approachable, yet indirect to keep harmony and respect rank, so friendly, relationship-led approaches work."
       },
       {
         "dimension": "D3",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "While formal settings in Kenya demand structure, everyday life shows a comfort with ambiguity and flexibility."
+        "explanation": "Middle-flexible: a loose sense of time and a big informal 'hustle' economy keep dealing adaptable, while respect for rank gives a soft frame."
       },
       {
         "dimension": "D4",
         "score": 56,
-        "reading": "Balanced",
-        "explanation": "Achievement and entrepreneurial spirit are highly valued, with education seen as a key to success."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: a strong entrepreneurial 'hustle' and aspiration to rise, so both aspiration and practical value drive choices, and mobile-money convenience matters."
       }
     ],
-    "executive_summary": "Kenya is a nation where community ties and group identity are paramount, yet urban areas reveal a budding individualism. Social harmony is maintained through indirect communication, while achievement and entrepreneurship are highly valued. Newcomers will notice a blend of warmth and hierarchy in interactions.",
+    "executive_summary": "Kenya puts community and group identity first, though the cities are budding a new individualism. Harmony is kept through indirect talk, while achievement and entrepreneurship are held in high regard. A newcomer notices both the warmth and the hierarchy in how people deal with each other.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society deeply rooted in collectivism yet increasingly embracing individual aspirations.",
+      "title": "Hustling Communities",
+      "summary": "Community carries people, and everyone has a hustle running.",
       "claim_ids": [
         "C01",
         "c14",
@@ -120,11 +120,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Kenya's collectivist values are deeply influenced by its colonial history and the harambee spirit of communal self-help.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
+        "text": "Extended family and ethnic community remain the safety net where state provision is thin."
+      },
+      {
+        "text": "A large informal 'hustle' economy, and the mobile-money revolution that grew out of it, reward enterprise and adaptability."
+      },
+      {
+        "text": "Respect for elders and harmony-keeping custom keep everyday talk indirect."
       }
     ],
     "competing_forces": [
@@ -223,7 +225,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Kenya is a blend of community ties and entrepreneurial spirit. Extended families provide a support network, while the 'hustle economy' drives many to pursue multiple ventures. Communication is indirect to maintain harmony, and social interactions are warm and approachable. The rhythm of life is shaped by a flexible approach to time and a deep respect for tradition.",
+      "text": "It is community ties and hustle in equal measure. Extended families give a real safety net, while the hustle economy pushes many to run several ventures at once. Talk is indirect, to keep the peace, and people are warm and approachable. The day runs on a flexible sense of time and a deep respect for tradition.",
       "claim_ids": [
         "C31",
         "c14",
@@ -234,32 +236,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of ethnic and clan affiliations is immediately noticeable, shaping social interactions and networks.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Mobile payment is used for everything."
       },
       {
-        "text": "Indirect communication is prevalent, with a focus on maintaining harmony and avoiding direct confrontation.",
-        "claim_ids": [
-          "c9"
-        ],
-        "sources_count": 1
+        "text": "Entrepreneurial energy is visible everywhere."
       },
       {
-        "text": "The warmth and approachability in social interactions stand out, with greetings and rapport-building being key.",
-        "claim_ids": [
-          "C17"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Education and formal qualifications are highly valued, often signaled through smart dress and presentation.",
-        "claim_ids": [
-          "C25"
-        ],
-        "sources_count": 1
+        "text": "Greetings and small talk come first."
       }
     ],
     "success_factors": [
@@ -392,7 +375,7 @@
         "iso3": "RWA",
         "country": "Rwanda",
         "similarity": 95,
-        "explanation": "Kenya and Rwanda both emphasize community and social harmony, but Kenya's urban areas display a growing individualism.",
+        "explanation": "Kenya and Rwanda both stress community and social harmony, but Kenya's urban areas display a growing individualism.",
         "claim_ids": [
           "c1",
           "c4"
@@ -525,7 +508,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Entrepreneurial ventures",
+      "Community-driven projects",
+      "Cultural exchange programs"
+    ]
   },
   "sources": [
     {
@@ -785,7 +773,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 33,
+        "score": 28,
         "confidence": "HIGH"
       },
       "D2": {

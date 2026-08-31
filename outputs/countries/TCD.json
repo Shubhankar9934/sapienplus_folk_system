@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 28,
-        "reading": "Community-first",
-        "explanation": "Chad's social fabric is woven with clan and family ties, making collective identity paramount."
+        "score": 26,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: ethnic and clan affiliation and lineage come before individual pursuits, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 42,
-        "reading": "Understated",
-        "explanation": "Public expression is restrained, with emotional displays reserved for specific communal events."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: calm, respectful greetings and elder deference govern, so warm-but-respectful, relationship-first approaches work, with tea and hospitality central."
       },
       {
         "dimension": "D3",
         "score": 49,
         "reading": "Balanced",
-        "explanation": "Social roles are clearly defined by customary law and hierarchy, providing predictability in interactions."
+        "explanation": "Middle, tilting structured through custom: hierarchy, respect for elders and tradition give a frame amid a thin state."
       },
       {
         "dimension": "D4",
         "score": 33,
-        "reading": "Relaxed",
-        "explanation": "While community and harmony are prioritized, there is an underlying value for individual agency and self-reliance."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community and getting by come before competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Chad is a tapestry of ethnic and clan affiliations, where community and lineage take precedence over individual pursuits. Relationships are built on mutual respect and hospitality, with a strong emphasis on social harmony. Despite the collective focus, younger generations in urban areas are beginning to explore individual paths.",
+    "executive_summary": "Chad is a mix of ethnic and clan affiliation, where community and lineage come before individual pursuits. Relationships are built on mutual respect and hospitality, with a heavy stress on keeping social harmony. For all the collective focus, the young in the cities are starting to explore paths of their own.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective identity and adaptability coexist, fostering strong community bonds while navigating complex social landscapes.",
+      "title": "Lineage Kin",
+      "summary": "Clan and lineage decide belonging, and hospitality opens every conversation.",
       "claim_ids": [
         "c1",
         "C1",
@@ -105,12 +105,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Chad's history of ethnic diversity and colonial influence has shaped a society where clan and regional identities remain dominant.",
-        "claim_ids": [
-          "C3",
-          "C22"
-        ],
-        "sources_count": 2
+        "text": "Ethnic and clan lineage, across more than a hundred groups, makes the group the base of belonging."
+      },
+      {
+        "text": "Recurrent conflict and a thin state leave elders and traditional authority to settle most matters."
+      },
+      {
+        "text": "Sahelian scarcity and pastoral tradition keep hospitality obligatory and ambition modest."
       }
     ],
     "competing_forces": [
@@ -283,7 +284,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Day to day, life in Chad is shaped by how in Chad, good etiquette involves taking time for greetings, showing respect for elders, and speaking calmly; for market interactions, starting with a friendly greeting and taking a moment to chat leads to warmer social outcomes; when entering a meeting in Chad, expect warm greetings — handshakes often come with a friendly pat on the back, signalling trust and camaraderie; hospitality through offering tea or coffee during meetings is a key social signal; hospitality and respect for elders are central to Chadian social norms, with community celebrations, oral storytelling, and music forming expressive communal life. Together these patterns set the rhythm a newcomer adjusts to first.",
+      "text": "Good manners here mean taking time over greetings, showing respect to elders, and speaking calmly. In the market, a friendly greeting and a moment of chat lead to a warmer deal. Walk into a meeting and expect warm greetings, since a handshake often comes with a friendly pat on the back, a sign of trust. Offering tea or coffee is a key social gesture. Hospitality and respect for elders are central, with community celebrations, oral storytelling, and music making an expressive communal life.",
       "claim_ids": [
         "C13",
         "C10",
@@ -293,53 +294,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The framework of clans is of great importance to most Chadians, be they northerners or southerners, and kinship determines people's social and cultural allegiances.",
-        "claim_ids": [
-          "C1"
-        ],
-        "sources_count": 1
+        "text": "Greetings take time and are essential."
       },
       {
-        "text": "When entering a meeting in Chad, expect warm greetings — handshakes often come with a friendly pat on the back, signalling trust and camaraderie; hospitality through offering tea or coffee during meetings is a key social signal.",
-        "claim_ids": [
-          "C10"
-        ],
-        "sources_count": 1
+        "text": "Tea accompanies every discussion."
       },
       {
-        "text": "Hospitality and respect for elders are central to Chadian social norms, with community celebrations, oral storytelling, and music forming expressive communal life.",
-        "claim_ids": [
-          "C11"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "In Chad, good etiquette involves taking time for greetings, showing respect for elders, and speaking calmly; for market interactions, starting with a friendly greeting and taking a moment to chat leads to warmer social outcomes.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Chad is conservative in many regions, so modest behaviour and language are appreciated; jokes about religion or ethnicity are sensitive and to be avoided.",
-        "claim_ids": [
-          "C15"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Avoiding sensitive topics like politics, religion debates, and security is listed as one of the most important Chad dos and don'ts, reflecting a culture of restrained public expression on contested matters.",
-        "claim_ids": [
-          "C16"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Using appropriate titles and a respectful tone with elders or senior professionals is required to earn admiration and trust in Chadian workplaces — status is signalled through deference to hierarchy and formal address.",
-        "claim_ids": [
-          "C29"
-        ],
-        "sources_count": 1
+        "text": "Community obligation is wide."
       }
     ],
     "success_factors": [
@@ -443,7 +404,7 @@
         "iso3": "GNQ",
         "country": "Equatorial Guinea",
         "similarity": 96,
-        "explanation": "Chad and Equatorial Guinea both prioritize collective identity and have diverse ethnic compositions, fostering a similar communal approach to social life.",
+        "explanation": "Chad and Equatorial Guinea both favor collective identity and have diverse ethnic compositions, building a similar communal approach to social life.",
         "claim_ids": [
           "C3",
           "C7"
@@ -519,6 +480,18 @@
           "suggested_score": 20
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Chad shows a dual-register pattern: warm, physically expressive greetings and community-centred hospitality (open/expressive signal) coexist with conservative public comportment, formal verbal restraint in professional settings, and reliance on unspoken cues. Expressive festivals like the Wodaabe Gerewol and multi-ethnic cultural festivals signal communal expressiveness, but these are sanctioned ceremonial contexts rather than everyday emotional openness. Islamic conservatism in the north and the norm of avoiding sensitive topics (religion, politics, security) add structural restraint. The balance yields a moderate-to-restrained score, placed just below the midpoint at 42.",
+          "suggested_score": 42
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Chad is generally restrained due to hierarchical social structures (age, gender, ethnic hierarchies) that suppress open emotional display, especially toward superiors. However, within peer groups and in ritual contexts (e.g., mourning, festivals) emotional openness occurs, pulling the score slightly above the lowest possible. The baseline is moderate restraint.",
+          "suggested_score": 40
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -536,18 +509,6 @@
           "suggested_score": 60
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Chad shows a dual-register pattern: warm, physically expressive greetings and community-centred hospitality (open/expressive signal) coexist with conservative public comportment, formal verbal restraint in professional settings, and reliance on unspoken cues. Expressive festivals like the Wodaabe Gerewol and multi-ethnic cultural festivals signal communal expressiveness, but these are sanctioned ceremonial contexts rather than everyday emotional openness. Islamic conservatism in the north and the norm of avoiding sensitive topics (religion, politics, security) add structural restraint. The balance yields a moderate-to-restrained score, placed just below the midpoint at 42.",
-          "suggested_score": 42
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression in Chad is generally restrained due to hierarchical social structures (age, gender, ethnic hierarchies) that suppress open emotional display, especially toward superiors. However, within peer groups and in ritual contexts (e.g., mourning, festivals) emotional openness occurs, pulling the score slightly above the lowest possible. The baseline is moderate restraint.",
-          "suggested_score": 40
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -560,7 +521,12 @@
           "suggested_score": 30
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community engagement projects",
+      "Cultural exchange programs"
+    ]
   },
   "sources": [
     {
@@ -886,7 +852,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 28,
+        "score": 26,
         "confidence": "MEDIUM"
       },
       "D2": {

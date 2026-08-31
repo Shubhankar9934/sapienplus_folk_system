@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 36,
-        "reading": "Group-oriented",
-        "explanation": "Armenians balance a strong sense of community with individual aspirations, creating a unique blend of collectivism and individualism."
+        "reading": "Social",
+        "explanation": "Community-first: the family is the center of gravity and business is done between people, not companies, so slowly-built trust and personal introductions matter more than any sales approach."
       },
       {
         "dimension": "D2",
         "score": 38,
-        "reading": "Understated",
-        "explanation": "Emotional expression in Armenia is often indirect, with a focus on maintaining harmony and avoiding conflict."
+        "reading": "Restrained",
+        "explanation": "Reserved: warmth is real but shown carefully, and feeling stays measured to keep harmony and respect for rank, so sincere, relationship-first, low-hype approaches land best."
       },
       {
         "dimension": "D3",
         "score": 63,
-        "reading": "Structured",
-        "explanation": "Armenians prefer structured environments with clear rules and hierarchies, reflecting a need for predictability and order."
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy, tradition and a long institutional memory give life a formal frame, so respect for rank, credentials and the proper way of doing things reassures."
       },
       {
         "dimension": "D4",
         "score": 59,
-        "reading": "Achievement-oriented",
-        "explanation": "While traditional values emphasize security and conformity, there is a growing orientation towards achievement, especially among the youth."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: education and personal success are prized as the route up, especially for the family's standing, so aspirational, education- and quality-linked goods are what people reach for."
       }
     ],
-    "executive_summary": "Armenia is a land where traditional values and modern aspirations coexist. The family unit remains central, yet younger generations are embracing individuality. Business interactions prioritize relationships over transactions, and emotional expression is often indirect. Hierarchical structures dominate workplaces, but personal connections are key to success.",
+    "executive_summary": "Armenia keeps one hand on the old ways and one hand reaching for the new. The family is the center of things, though the young are trying individuality on for size. Business is done between people, not between companies, and feelings are shown carefully, around the edges. Offices run by rank, but it is the personal connection that actually gets anything done.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "Armenians balance a strong sense of community with a drive for personal success.",
+      "title": "Formal Families",
+      "summary": "The family is the centre of gravity, and education is how it rises.",
       "claim_ids": [
         "claim1",
         "claim2"
@@ -119,11 +119,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The family unit has been the cornerstone of Armenian society, preserving culture and identity through historical challenges.",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
+        "text": "A small nation repeatedly conquered, and the genocide and dispersal that followed, made family and the global diaspora the only dependable safety net."
+      },
+      {
+        "text": "Soviet institutions layered formal hierarchy onto older tradition, leaving deference to rank in workplaces and public life."
+      },
+      {
+        "text": "With little land and few resources, education became the family's route up, which lifts Drive."
       }
     ],
     "competing_forces": [
@@ -209,7 +211,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Armenia is a blend of deep-rooted traditions and evolving modern values. Family and community are at the heart of everyday interactions, while personal success and achievement are increasingly valued. Relationships are key in both social and professional settings, with a preference for indirect communication to maintain harmony.",
+      "text": "Everyday life mixes deep tradition with a rising taste for personal success. Family and community sit in the middle of it. In work and in friendship, the relationship comes first, and people keep the peace by not saying things too directly.",
       "claim_ids": [
         "C01",
         "C03",
@@ -219,28 +221,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Newcomers to Armenia will notice the strong emphasis on family and community, with traditional values deeply influencing social interactions.",
-        "claim_ids": [
-          "C01",
-          "C06"
-        ],
-        "sources_count": 2
+        "text": "Hospitality arrives before any business is discussed."
       },
       {
-        "text": "Armenian workplaces feel like extended families, where personal relationships and trust are crucial to professional success.",
-        "claim_ids": [
-          "C03",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "People are reserved at first and extremely warm once you are in."
       },
       {
-        "text": "Communication in Armenia is often indirect, with a focus on maintaining harmony and avoiding direct confrontation.",
-        "claim_ids": [
-          "C11",
-          "C12"
-        ],
-        "sources_count": 2
+        "text": "History is present in ordinary conversation in a way newcomers don't expect."
       }
     ],
     "success_factors": [
@@ -360,7 +347,7 @@
         "iso3": "KGZ",
         "country": "Kyrgyzstan",
         "similarity": 91,
-        "explanation": "Both Armenia and Kyrgyzstan emphasize family and community, although Armenia has a more pronounced historical focus on maintaining cultural identity through family structures.",
+        "explanation": "Both Armenia and Kyrgyzstan stress family and community, although Armenia has a more pronounced historical focus on maintaining cultural identity through family structures.",
         "claim_ids": [
           "C01"
         ],
@@ -518,7 +505,12 @@
           "suggested_score": 85
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community-focused initiatives",
+      "Cultural heritage exploration"
+    ]
   },
   "sources": [
     {

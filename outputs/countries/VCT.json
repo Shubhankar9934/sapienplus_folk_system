@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 38,
-        "reading": "Group-oriented",
-        "explanation": "Participants recognize themselves in multiple identities (Afro‑Caribbean, Garifuna, indigenous), indicating identity defined by group affiliations and heritage"
+        "reading": "Social",
+        "explanation": "Community-first: family and social networks are the core, so belonging, reputation and a personal tie drive choices."
       },
       {
         "dimension": "D2",
-        "score": 65,
-        "reading": "Expressive",
-        "explanation": "Expressive"
+        "score": 59,
+        "reading": "Open",
+        "explanation": "Expressive: warm, music-and-festival-loving (Vincy Mas, calypso), so lively, colorful, shareable branding connects."
       },
       {
         "dimension": "D3",
         "score": 49,
         "reading": "Balanced",
-        "explanation": "Balanced"
+        "explanation": "Middle: formal, hierarchical, title-respecting workplaces sit over a relaxed island pace, so clear process plus a human touch reassure."
       },
       {
         "dimension": "D4",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "Balanced"
+        "explanation": "Balanced: an underlying drive for education and achievement (often via migration) sits beside a relaxed pace, so both aspiration and enjoyment drive choices."
       }
     ],
-    "executive_summary": "In Saint Vincent and the Grenadines, life revolves around community and family, with a vibrant culture of music and festivals. Social interactions are warm and expressive, yet the workplace remains formal and hierarchical. Despite a relaxed pace, there is an underlying drive for education and achievement, often pursued through migration.",
+    "executive_summary": "In Saint Vincent and the Grenadines life revolves around community and family, with a lively culture of music and festival. Social dealings are warm and expressive, while the workplace stays formal and hierarchical. For all the relaxed pace, there is an underlying drive for education and achievement, often chased through migration.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society that values collective identity and expressive freedom, while adapting to change with resilience.",
+      "title": "Island Socials",
+      "summary": "Family and village networks, with formality kept for the office.",
       "claim_ids": [
         "c1",
         "c2",
@@ -169,12 +169,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Garifuna and Afro-Caribbean heritage has shaped a strong communal identity, while British colonial influences have instilled formal hierarchical structures.",
-        "claim_ids": [
-          "c2",
-          "claim7"
-        ],
-        "sources_count": 2
+        "text": "Family and village networks are the backbone of social life on a small multi-island state."
+      },
+      {
+        "text": "British administrative inheritance keeps workplaces formal and title-conscious."
+      },
+      {
+        "text": "Vincy Mas and calypso established public celebration as the year's principal outlet."
       }
     ],
     "competing_forces": [
@@ -353,7 +354,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Saint Vincent and the Grenadines is deeply communal, with family and social networks at the core. Expressive traditions like Vincy Mas and calypso music infuse daily life with vibrancy. The workplace is formal and hierarchical, requiring indirect communication and respect for titles. Despite the relaxed pace, there is a drive for education and achievement, often pursued through migration.",
+      "text": "Life is deeply communal, with family and social networks at the core. Expressive traditions like Vincy Mas, the island's Carnival, and calypso music fill the days with color. The workplace is formal and hierarchical, asking for indirect talk and respect for titles. Despite the easy pace, there is a real drive for education and achievement, often pursued abroad.",
       "claim_ids": [
         "c1",
         "C11",
@@ -364,46 +365,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family, friends, and socialization are central to life in SVG, with community taking precedence over material pursuits.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Everyone is connected."
       },
       {
-        "text": "Women in rural villages use verbal artistry to manage reputation, showcasing cultural spaces for expressive freedom.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "Formality at work sits beside ease outside it."
       },
       {
-        "text": "Social capital is crucial for disaster recovery, emphasizing collective reliance and harmony over individual achievement.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Churches are the hub of community activities, reinforcing the importance of religious collectivities in social life.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Workplace communication is indirect, requiring attention to nonverbal cues to preserve harmony.",
-        "claim_ids": [
-          "C16"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Proper use of titles is important in the workplace, with a failure to do so signaling disrespect.",
-        "claim_ids": [
-          "C34"
-        ],
-        "sources_count": 1
+        "text": "The pace is unhurried."
       }
     ],
     "success_factors": [
@@ -517,7 +485,7 @@
         "iso3": "DOM",
         "country": "Dominican Republic",
         "similarity": 95,
-        "explanation": "Both countries share a strong sense of community and vibrant cultural expressions, yet Saint Vincent and the Grenadines maintains a unique blend of Afro-Caribbean and Garifuna influences.",
+        "explanation": "Both countries share a strong sense of community and lively cultural expressions, yet Saint Vincent and the Grenadines maintains a unique blend of Afro-Caribbean and Garifuna influences.",
         "claim_ids": [
           "c1",
           "c2"
@@ -668,7 +636,12 @@
           "suggested_score": 50
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven projects",
+      "Cultural festivals and events",
+      "Education initiatives"
+    ]
   },
   "sources": [
     {
@@ -1042,7 +1015,7 @@
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 65,
+        "score": 59,
         "confidence": "MEDIUM"
       },
       "D3": {

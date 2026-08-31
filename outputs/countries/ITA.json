@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 71,
-        "reading": "Strongly independent",
-        "explanation": "Italy's strong individualism is evident in the emphasis on personal autonomy and achievement, yet local and familial ties remain deeply significant."
+        "score": 72,
+        "reading": "Strongly Self",
+        "explanation": "Individual-leaning but family-anchored: personal style and local pride sit atop deep family loyalty, so personalization and belonging both drive choices, and family opinion shapes big buys."
       },
       {
         "dimension": "D2",
         "score": 71,
-        "reading": "Highly expressive",
-        "explanation": "Emotional expressiveness is a hallmark of Italian communication, characterized by gestures and vocal emotion."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, gestural, aesthetic and vocal, so beautiful, emotional, design-rich branding thrives and dullness dies."
       },
       {
         "dimension": "D3",
-        "score": 77,
-        "reading": "Highly structured",
-        "explanation": "Despite a preference for structure and predictability, Italians often navigate bureaucracy with flexibility and improvisation."
+        "score": 65,
+        "reading": "Certain",
+        "explanation": "Structured but personally routed: formal rules and bureaucracy give a frame that people navigate through relationships, so a trusted contact plus clear quality reassure."
       },
       {
         "dimension": "D4",
         "score": 63,
-        "reading": "Achievement-oriented",
-        "explanation": "Achievement and success are highly valued, with 'bella figura' underscoring the importance of personal presentation and status."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning but leisure-loving: success and la bella figura (looking good) matter, balanced by food, family and the good life, so quality, beauty and status matter alongside enjoyment."
       }
     ],
-    "executive_summary": "Italy is a tapestry of individualism and tradition, where personal achievement and local identity coexist. Expressive communication and a love for leisure define daily life, while a strong sense of family and community underpins social interactions. The Italian workplace balances competition with deep personal connections, making it both dynamic and relational.",
+    "executive_summary": "Italy mixes individualism with tradition, where personal achievement and a fierce local pride live together. Expressive talk and a love of leisure fill the day, while family and community hold the social world up. The Italian workplace balances competition with deep personal connections, which makes it both driven and relational.",
     "cultural_archetype": {
-      "title": "The Expressive Individualist",
-      "summary": "A culture that blends personal autonomy with vibrant emotional expression and deep-rooted family ties.",
+      "title": "Expressive Individualists",
+      "summary": "Personal style and family loyalty together, expressed at full volume.",
       "claim_ids": [
         "c1",
         "c6",
@@ -144,11 +144,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Italy's historical development as a collection of city-states has fostered strong local identities and a reliance on personal networks.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Campanilismo, the fierce attachment to one's own town, and late unification in 1861 kept identity local and personal rather than national."
+      },
+      {
+        "text": "A craft, design and artisan tradition made la bella figura, the well-made and well-presented thing, a genuine social currency."
+      },
+      {
+        "text": "A heavy and slow bureaucracy taught people to route around formal rules through relationships."
       }
     ],
     "competing_forces": [
@@ -255,7 +257,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Italy is an experience of balancing personal ambition with deep-rooted family and local ties. The expressive nature of communication makes interactions vibrant and engaging, while a preference for leisure and enjoyment of the present moment adds a unique rhythm to daily life. Navigating the structured yet flexible societal norms requires adaptability and an appreciation for the nuances of Italian culture.",
+      "text": "It is a matter of balancing personal ambition against deep family and local ties. The expressive way of talking makes every exchange lively, while a taste for leisure and the pleasure of the present sets its own rhythm. The norms are structured but flexible, and getting along means adapting and reading the nuances.",
       "claim_ids": [
         "c6",
         "c4",
@@ -265,28 +267,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The warmth and expressiveness of Italians are immediately noticeable, with gestures and vocal emotion prevalent in interactions.",
-        "claim_ids": [
-          "c6",
-          "c7"
-        ],
-        "sources_count": 2
+        "text": "Gesture carries as much meaning as the words."
       },
       {
-        "text": "Family and local community ties are strong, often taking precedence over broader national identity.",
-        "claim_ids": [
-          "c4",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "Regional identity matters more than the national one."
       },
       {
-        "text": "The importance of personal appearance and making a good impression is evident in both social and professional settings.",
-        "claim_ids": [
-          "c7",
-          "c29"
-        ],
-        "sources_count": 2
+        "text": "Coffee, food and dress are all taken seriously."
       }
     ],
     "success_factors": [
@@ -429,7 +416,7 @@
         "iso3": "MLT",
         "country": "Malta",
         "similarity": 86,
-        "explanation": "Italy and Malta share historical and cultural influences that emphasize family, religion, and expressive social interactions.",
+        "explanation": "Italy and Malta share historical and cultural influences that stress family, religion, and expressive social interactions.",
         "claim_ids": [
           "c4",
           "c6"
@@ -575,7 +562,12 @@
           "suggested_score": 40
         }
       ]
-    }
+    },
+    "best_for": [
+      "Creative industries",
+      "Culinary arts",
+      "Fashion and design"
+    ]
   },
   "sources": [
     {
@@ -780,7 +772,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 71,
+        "score": 72,
         "confidence": "HIGH"
       },
       "D2": {
@@ -788,7 +780,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 77,
+        "score": 65,
         "confidence": "MEDIUM"
       },
       "D4": {

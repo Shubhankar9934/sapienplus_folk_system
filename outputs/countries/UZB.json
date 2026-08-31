@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 29,
-        "reading": "Community-first",
-        "explanation": "Community-first"
+        "score": 24,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: the mahalla (neighborhood community) and family are the base, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 32,
-        "reading": "Understated",
-        "explanation": "Understated"
+        "reading": "Restrained",
+        "explanation": "Reserved: composure and respect in formal settings, with lively warmth and hospitality among your own, so dignified-public, warm-private approaches work."
       },
       {
         "dimension": "D3",
         "score": 63,
-        "reading": "Structured",
-        "explanation": "Structured"
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy, tradition and the mahalla's order give a firm frame, so standing and the proper way carry weight."
       },
       {
         "dimension": "D4",
         "score": 49,
         "reading": "Balanced",
-        "explanation": "Balanced"
+        "explanation": "Balanced: getting ahead matters within a communal frame (reforms and a young population), so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "Uzbekistan is a tapestry of communal bonds and structured hierarchy, where the mahalla plays a pivotal role in daily life. Hospitality and emotional expression are vibrant within close circles, while formal interactions demand respect and restraint. Economic reforms and a young demographic are reshaping traditional norms, creating a dynamic blend of collectivism and individualism.",
+    "executive_summary": "Uzbekistan mixes communal bonds with a structured hierarchy, where the mahalla, the traditional neighborhood community, does real work in daily life. Hospitality and open feeling run high within close circles, while formal dealings ask for respect and restraint. Economic reform and a young population are reshaping the old norms, making a lively blend of collectivism and individualism.",
     "cultural_archetype": {
-      "title": "The Communal Architect",
-      "summary": "A society where community ties and structured interactions build the foundation of daily life.",
+      "title": "Neighbourhood Households",
+      "summary": "The mahalla organises the community, and hospitality is a duty.",
       "claim_ids": [
         "c1",
         "C1",
@@ -152,12 +152,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The mahalla system, deeply rooted in pre-Islamic traditions, has been institutionalized by the state to reinforce community identity and collective responsibility.",
-        "claim_ids": [
-          "C8",
-          "C2"
-        ],
-        "sources_count": 2
+        "text": "The mahalla, the neighbourhood community with more than nine thousand across the country, is the primary unit of collective identity."
+      },
+      {
+        "text": "Soviet administration layered formal hierarchy and procedure onto that older communal structure."
+      },
+      {
+        "text": "Economic reform since 2016 and a young population are opening space for private enterprise."
       }
     ],
     "competing_forces": [
@@ -351,7 +352,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Uzbekistan revolves around the warmth of community and the structure of tradition. The mahalla is the heartbeat of daily interactions, where collective support and shared values create a strong sense of belonging. Hospitality is a vibrant expression of this communal spirit, while formal settings demand respect for hierarchy and restraint. As the country modernizes, a dynamic tension between tradition and individualism emerges, shaping a unique cultural landscape.",
+      "text": "Life revolves around the warmth of community and the structure of tradition. The mahalla is the heartbeat of the everyday, where collective support and shared values build a strong sense of belonging. Hospitality is a lively expression of that communal spirit, while formal settings ask for respect toward rank and restraint. As the country modernizes, a tension between tradition and individualism emerges, shaping a particular scene.",
       "claim_ids": [
         "c4",
         "c6",
@@ -363,39 +364,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Uzbek culture values emotional restraint and proper conduct (odob), particularly in public and with elders and strangers.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "The mahalla is a visible institution."
       },
       {
-        "text": "Hospitality (mehmondo'stlik) in Uzbekistan involves warm, expressive welcome and open emotional display within close in-group circles.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is immediate and generous."
       },
       {
-        "text": "Uzbek society exhibits high power distance and respect for hierarchy, with strong preference for clear rules and planning in formal contexts.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Heavy bureaucracy and procedural rigidity in government and business reflect a cultural need for structure, though often circumvented by informal networks.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The mahalla historically united people of different ethnic and religious groups through a common identity based on shared residence and mutual support, including collective provisioning of chairs, food, and labour for weddings and funerals that no single family could supply alone.",
-        "claim_ids": [
-          "C3"
-        ],
-        "sources_count": 1
+        "text": "Formality governs official dealings."
       }
     ],
     "success_factors": [
@@ -674,7 +649,11 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Culturally sensitive business strategies"
+    ]
   },
   "sources": [
     {
@@ -1011,7 +990,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 29,
+        "score": 24,
         "confidence": "HIGH"
       },
       "D2": {

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 27,
-        "reading": "Community-first",
-        "explanation": "Oman's identity is deeply rooted in tribal and familial affiliations, making it a collectivist society where group identity prevails over individualism."
+        "score": 26,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: tribal affiliation and family ties set identity, so belonging, reputation and a trusted tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 30,
-        "reading": "Reserved",
-        "explanation": "Communication in Oman is indirect and polite, with an emphasis on saving face and maintaining social harmony, which suppresses direct emotional expression."
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: composure, modesty and indirect, harmony-keeping talk govern, so understated, dignified, relationship-first approaches work."
       },
       {
         "dimension": "D3",
-        "score": 58,
-        "reading": "Structured",
-        "explanation": "Oman values structure and predictability, with a high need for rules and careful decision-making to avoid unnecessary risks."
+        "score": 59,
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy and social obligation give a firm frame, though the pace of time stays relaxed, so standing and the proper way carry weight."
       },
       {
         "dimension": "D4",
         "score": 42,
-        "reading": "Relaxed",
-        "explanation": "Omani culture prioritizes cooperation, modesty, and quality of life over competitive achievement, reflecting a more accepting and harmonious drive."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: stability, harmony and hospitality come before competition, so practical, communal, dignified goods matter most."
       }
     ],
-    "executive_summary": "In Oman, communal ties and tribal affiliations shape identity, while indirect communication and a preference for harmony guide social interactions. The culture values structure and predictability, yet there is a relaxed approach to time and deadlines. Hospitality and warmth are extended to guests, reflecting a genuine social expressiveness within in-groups.",
+    "executive_summary": "In Oman communal ties and tribal affiliation shape identity, while indirect talk and a taste for harmony guide how people deal with each other. The culture likes structure and predictability, and yet keeps a relaxed hand on time and deadlines. Hospitality and warmth come out toward guests and inside the group.",
     "cultural_archetype": {
-      "title": "The Communal Navigator",
-      "summary": "A society where tribal affiliations and communal ties guide identity and interactions, with a focus on harmony and indirect communication.",
+      "title": "Quiet Traditionalists",
+      "summary": "Tribe and courtesy order life, quietly and without haste.",
       "claim_ids": [
         "c1",
         "c2",
@@ -171,12 +171,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Oman's maritime trading history and tribal organization have historically shaped its collective identity and adaptability.",
-        "claim_ids": [
-          "c3",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Tribal affiliation and interior imamate tradition make family and tribe the base of identity and standing."
+      },
+      {
+        "text": "Ibadi Islam, which emphasises moderation and consensus, shapes an unusually measured public manner."
+      },
+      {
+        "text": "A long, stable modernisation under Sultan Qaboos built order without the disruption seen elsewhere in the Gulf."
       }
     ],
     "competing_forces": [
@@ -279,7 +280,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Oman feels like a delicate balance between tradition and modernity, where tribal affiliations guide social interactions and indirect communication maintains harmony. The structured yet flexible approach to time and relationships creates a unique rhythm that newcomers must adapt to, as they navigate a society that values collective identity over individualism.",
+      "text": "It feels like a careful balance of tradition and modern life, where tribal ties steer social dealings and indirect talk keeps the harmony. The structured but flexible way with time and relationships makes a particular rhythm, in a society that puts collective identity ahead of the individual.",
       "claim_ids": [
         "c5",
         "C07",
@@ -291,28 +292,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Oman's collectivist society is immediately apparent, with family and tribe shaping identity and social interactions.",
-        "claim_ids": [
-          "c1",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "The courtesy is constant and formal."
       },
       {
-        "text": "The importance of tribal affiliation is evident in social settings, where it influences friendships and status.",
-        "claim_ids": [
-          "c2",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "Business follows relationship."
       },
       {
-        "text": "Indirect communication and a focus on saving face are prevalent, guiding how Omanis interact with each other and newcomers.",
-        "claim_ids": [
-          "c4",
-          "C11"
-        ],
-        "sources_count": 2
+        "text": "Public life is calm and quiet."
       }
     ],
     "success_factors": [
@@ -460,7 +446,7 @@
         "iso3": "PSE",
         "country": "Palestine",
         "similarity": 87,
-        "explanation": "Both Oman and Palestine emphasize family and community ties, but Oman's indirect communication style and maritime influences set it apart.",
+        "explanation": "Both Oman and Palestine stress family and community ties, but Oman's indirect communication style and maritime influences set it apart.",
         "claim_ids": [
           "c1",
           "c4"
@@ -559,6 +545,18 @@
           "suggested_score": 48
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Oman scores firmly Restrained on D2. Communication is universally described as high-context and indirect; feedback is delivered gently; public disagreement and overt confrontation are structurally suppressed by face-saving norms. Ibadi Islam's doctrine of moderation (wasatiyya) and modesty actively dampens expressive assertiveness. Managers do not publicly chastise subordinates; direct 'no' is avoided; 'perhaps' substitutes for rejection. The Hofstede Indulgence vs. Restraint dimension — Arab cluster IVR is low, indicating restrained expression. Hospitality warmth (offering coffee and dates) is relational ritual rather than emotional openness; this is correctly routed to D1/D4 not D2. The counter-signal is genuine warmth in social settings and animated conversation once rapport is established, but this is context-specific and does not indicate structural freedom of emotional expression — it is in-group warmth, not open expressiveness across contexts. Score of 22 is consistent with restrained, high-context Gulf cultures.",
+          "suggested_score": 22
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Oman is restrained, with strong hierarchy-based suppression of emotional display, but not as extreme as in Saudi Arabia. The Hofstede baseline for Arab countries is low on Openness (high Power Distance leads to restrained emotion in public). Omani communication is indirect and polite, but less rigid than in some Gulf states (e.g., tribal councils allow debate).",
+          "suggested_score": 35
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -576,18 +574,6 @@
           "suggested_score": 72
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Oman scores firmly Restrained on D2. Communication is universally described as high-context and indirect; feedback is delivered gently; public disagreement and overt confrontation are structurally suppressed by face-saving norms. Ibadi Islam's doctrine of moderation (wasatiyya) and modesty actively dampens expressive assertiveness. Managers do not publicly chastise subordinates; direct 'no' is avoided; 'perhaps' substitutes for rejection. The Hofstede Indulgence vs. Restraint dimension — Arab cluster IVR is low, indicating restrained expression. Hospitality warmth (offering coffee and dates) is relational ritual rather than emotional openness; this is correctly routed to D1/D4 not D2. The counter-signal is genuine warmth in social settings and animated conversation once rapport is established, but this is context-specific and does not indicate structural freedom of emotional expression — it is in-group warmth, not open expressiveness across contexts. Score of 22 is consistent with restrained, high-context Gulf cultures.",
-          "suggested_score": 22
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression in Oman is restrained, with strong hierarchy-based suppression of emotional display, but not as extreme as in Saudi Arabia. The Hofstede baseline for Arab countries is low on Openness (high Power Distance leads to restrained emotion in public). Omani communication is indirect and polite, but less rigid than in some Gulf states (e.g., tribal councils allow debate).",
-          "suggested_score": 35
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -600,7 +586,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Building long-term relationships",
+      "Culturally sensitive negotiations",
+      "Collaborative projects"
+    ]
   },
   "sources": [
     {
@@ -948,7 +939,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 27,
+        "score": 26,
         "confidence": "MEDIUM"
       },
       "D2": {
@@ -956,7 +947,7 @@
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 58,
+        "score": 59,
         "confidence": "MEDIUM"
       },
       "D4": {

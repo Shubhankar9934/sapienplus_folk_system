@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 28,
-        "reading": "Community-first",
-        "explanation": "Sierra Leone's identity is deeply rooted in kinship and community, with a strong emphasis on collective responsibility."
+        "score": 27,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: kinship and reciprocity define social life, so belonging, elder respect and reputation drive choices, with urban individualism rising."
       },
       {
         "dimension": "D2",
         "score": 53,
-        "reading": "Even-keeled",
-        "explanation": "Public expression is vibrant and open, yet structured rituals impose a layer of control."
+        "reading": "Balanced",
+        "explanation": "Expressive: warm, festival-and-community-loving sociability, so lively, warm branding connects, structured by ritual custom."
       },
       {
         "dimension": "D3",
         "score": 41,
-        "reading": "Adaptable",
-        "explanation": "While secret societies enforce strict rules, everyday life operates with a pragmatic tolerance for ambiguity."
+        "reading": "Fluid",
+        "explanation": "Flexible with a ritual frame: secret-society initiation orders give a structured undercurrent while daily dealing improvises, so a personal tie and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 40,
-        "reading": "Relaxed",
-        "explanation": "Community sharing and generosity are valued over individual competition and achievement."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community and getting by come before competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Sierra Leone is a tapestry of vibrant communal life, where kinship and reciprocity define social interactions. Despite the warmth and expressiveness, structured rituals and secret societies impose a layer of order. Urban areas like Freetown show a shift towards individualism, yet the collective spirit remains strong.",
+    "executive_summary": "Sierra Leone is lively and communal, where kinship and reciprocity set the terms of social life. For all the warmth and expressiveness, structured rituals and the secret societies, the traditional initiation orders like Poro and Sande, lay a layer of order over things. Cities like Freetown show a shift toward individualism, but the collective spirit stays strong.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where kinship and community bonds guide daily life, adapting fluidly to challenges.",
+      "title": "Kin Circles",
+      "summary": "Kinship carries lifelong obligations, alongside societies that guard the norms.",
       "claim_ids": [
         "claim1",
         "claim2",
@@ -188,12 +188,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The legacy of colonial rule has influenced Sierra Leone's legal and social structures, creating a blend of formal and informal systems.",
-        "claim_ids": [
-          "claim-18",
-          "claim-13"
-        ],
-        "sources_count": 1
+        "text": "Kinship networks and reciprocity carry lifelong obligations and remain the practical safety net."
+      },
+      {
+        "text": "Poro and Sande initiation societies enforce norms and mark life passages, giving a structured ritual undercurrent."
+      },
+      {
+        "text": "A decade of civil war and weak formal institutions left everyday dealing improvised and relationship-based."
       }
     ],
     "competing_forces": [
@@ -324,7 +325,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Sierra Leone revolves around community and kinship, where family ties dictate daily interactions and responsibilities. The vibrant social scene, filled with festivals and communal gatherings, contrasts with the structured rituals of secret societies. Navigating this balance requires adaptability and an understanding of both formal and informal social codes.",
+      "text": "Life revolves around community and kinship, where family ties set the day's duties. The lively social scene, full of festivals and gatherings, runs against the structured rituals of the secret societies. Holding that balance takes adaptability and a feel for both the formal and informal codes.",
       "claim_ids": [
         "C03",
         "C13",
@@ -334,28 +335,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of community and kinship is immediately noticeable, with extended families living together and supporting each other.",
-        "claim_ids": [
-          "C03",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Greetings are extended and matter."
       },
       {
-        "text": "The informal nature of the economy and social interactions may surprise those used to more structured environments.",
-        "claim_ids": [
-          "C27",
-          "claim-13"
-        ],
-        "sources_count": 2
+        "text": "Community ties are strong."
       },
       {
-        "text": "The influence of secret societies and their rituals can be intriguing yet puzzling to outsiders.",
-        "claim_ids": [
-          "C16",
-          "claim-17"
-        ],
-        "sources_count": 2
+        "text": "Improvisation is the working method."
       }
     ],
     "success_factors": [
@@ -496,7 +482,7 @@
         "iso3": "GNB",
         "country": "Guinea-Bissau",
         "similarity": 92,
-        "explanation": "Sierra Leone and Guinea-Bissau both emphasize community and reciprocity, but Sierra Leone's secret societies add a unique layer of social structure.",
+        "explanation": "Sierra Leone and Guinea-Bissau both stress community and reciprocity, but Sierra Leone's secret societies add a unique layer of social structure.",
         "claim_ids": [
           "claim1",
           "C16"
@@ -629,7 +615,12 @@
           "suggested_score": 37
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community-focused initiatives",
+      "Cultural festivals and events"
+    ]
   },
   "sources": [
     {
@@ -1087,7 +1078,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 28,
+        "score": 27,
         "confidence": "MEDIUM"
       },
       "D2": {

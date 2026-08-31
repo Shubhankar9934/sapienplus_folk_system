@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 30,
-        "reading": "Community-first",
-        "explanation": "Guinea's identity landscape is fluid and situational, with social and cultural interactions shaping how individuals see themselves and are seen by others."
+        "score": 29,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: ethnic and family ties come before individual wants, so belonging, trust and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 48,
-        "reading": "Even-keeled",
-        "explanation": "While Guinean culture is rich in expressive traditions, personal interactions are often marked by restraint, especially among the Fula, balancing expressive freedom with emotional reserve."
+        "reading": "Balanced",
+        "explanation": "Moderately expressive: warm hospitality and communal performance run high, tempered by restraint and respect for rank, so warm-but-respectful approaches work."
       },
       {
         "dimension": "D3",
         "score": 52,
         "reading": "Balanced",
-        "explanation": "Traditional hierarchies and community structures provide stability and predictability in social interactions, even as the formal institutional environment remains unpredictable."
+        "explanation": "Middle, tilting structured through custom: hierarchy, tradition and reliance on community networks give a firm frame amid a thin state."
       },
       {
         "dimension": "D4",
         "score": 37,
-        "reading": "Relaxed",
-        "explanation": "Guinea prioritizes communal harmony and quality of life over competitive striving, with cultural and religious norms emphasizing patience and acceptance."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community and getting by come before competition, so practical, affordable, everyday goods matter most."
       }
     ],
-    "executive_summary": "Guinea is a tapestry of ethnic identities, where community and tradition take precedence over individual ambitions. Social life revolves around hospitality and expressive cultural performances, yet there's a subtle restraint in personal interactions. The nation's history of political instability has fostered a reliance on traditional structures and community networks.",
+    "executive_summary": "Guinea is a patchwork of ethnic identities, where community and tradition come before individual wants. Social life runs on hospitality and expressive performance, yet personal dealings carry a certain restraint. A long history of political upheaval has taught people to lean on traditional structures and community networks.",
     "cultural_archetype": {
-      "title": "The Communal Harmonizer",
-      "summary": "A society where community bonds and expressive traditions are central, yet personal interactions are guided by restraint and respect.",
+      "title": "Village Communities",
+      "summary": "Community and tradition carry people, with warmth held inside a respectful reserve.",
       "claim_ids": [
         "claim1",
         "claim2",
@@ -130,19 +130,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Guinea's cultural landscape has been shaped by its history of ethnogenesis and fluid identities, allowing for a dynamic and situational approach to identity.",
-        "claim_ids": [
-          "claim1",
-          "claim2"
-        ],
-        "sources_count": 2
+        "text": "A patchwork of ethnic groups with strong lineage structures makes community the reliable unit."
       },
       {
-        "text": "The legacy of Sékou Touré's investment in national culture through expressive performance has left a lasting impact on Guinea's cultural identity.",
-        "claim_ids": [
-          "C12"
-        ],
-        "sources_count": 1
+        "text": "Repeated political instability since independence taught reliance on traditional structures rather than the state."
+      },
+      {
+        "text": "Griot and initiation traditions establish communal performance as the sanctioned outlet for feeling."
       }
     ],
     "competing_forces": [
@@ -238,7 +232,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Guinea is a vibrant experience where community life and expressive traditions are ever-present. Social interactions are warm and welcoming, with a strong emphasis on hospitality and communal performances. However, personal interactions are guided by a sense of restraint and respect for hierarchy, creating a balanced social environment.",
+      "text": "It is a lively place where community life and expressive tradition are always present. People are warm and welcoming, big on hospitality and communal performance. But personal interactions keep a measure of restraint and respect for rank, which balances the whole thing out.",
       "claim_ids": [
         "claim3",
         "claim4",
@@ -248,12 +242,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The vibrant cultural performances, from music to dance, are a hallmark of Guinean society and provide a window into the country's rich cultural heritage.",
-        "claim_ids": [
-          "claim4",
-          "C10"
-        ],
-        "sources_count": 2
+        "text": "Greetings are long and matter."
+      },
+      {
+        "text": "Community obligation is wide."
+      },
+      {
+        "text": "Public manner is respectful and restrained."
       }
     ],
     "success_factors": [
@@ -379,7 +374,7 @@
         "iso3": "GNB",
         "country": "Guinea-Bissau",
         "similarity": 90,
-        "explanation": "Guinea and Guinea-Bissau have similar ethnic diversity and fluid identity dynamics, with both countries navigating complex social landscapes.",
+        "explanation": "Guinea and Guinea-Bissau have similar ethnic diversity and fluid identity dynamics, with both countries handling complex social landscapes.",
         "claim_ids": [
           "claim1",
           "claim2"
@@ -505,7 +500,12 @@
           "suggested_score": 30
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven projects",
+      "Cultural immersion experiences",
+      "Ethnographic studies"
+    ]
   },
   "sources": [
     {
@@ -776,7 +776,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 30,
+        "score": 29,
         "confidence": "MEDIUM"
       },
       "D2": {

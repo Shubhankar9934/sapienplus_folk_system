@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 40,
-        "reading": "Group-oriented",
-        "explanation": "Collective identity is deeply ingrained, with family and ethnic ties often taking precedence over individual pursuits."
+        "score": 37,
+        "reading": "Social",
+        "explanation": "Community-leaning: deep family and community ties, sharpened by a divided recent history, anchor identity, so trusted networks and reputation matter and outsiders are met carefully."
       },
       {
         "dimension": "D2",
         "score": 46,
-        "reading": "Even-keeled",
-        "explanation": "While public emotional expression is restrained, traditional celebrations and close relationships allow for warmth and expressiveness."
+        "reading": "Balanced",
+        "explanation": "Middle: everyday dealings are fairly reserved while celebration and close company bring out warmth, the slow pleasure of cejf, so sincere, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 58,
-        "reading": "Structured",
-        "explanation": "Bosnian society values order and predictability, with a strong preference for structured environments and clear hierarchies."
+        "reading": "Certain",
+        "explanation": "Structured: respect for order, rank and the proper way gives a firm frame, though relationships bend the rules, so clear process plus a personal contact reassure."
       },
       {
         "dimension": "D4",
         "score": 42,
-        "reading": "Relaxed",
-        "explanation": "Educational achievement is highly valued, yet community relationships and quality of life often take precedence over relentless ambition."
+        "reading": "Accepting",
+        "explanation": "Balanced, leaning to quality of life: after hard years people prize peace, family and leisure over competition, so comfort and belonging land over status."
       }
     ],
-    "executive_summary": "Bosniaherz is a land where community ties run deep, shaping both personal and professional interactions. The culture values order and predictability, yet embraces spontaneity and emotional expression in the right contexts. Hierarchical structures are respected, but younger generations are increasingly carving out individual paths. Hospitality and direct communication are hallmarks of daily life.",
+    "executive_summary": "In Bosnia and Herzegovina the community runs deep and colors every dealing. People like order and knowing what comes next, but they also make room for feeling and for the unplanned when the moment is right. Rank is respected, though the young are cutting their own paths. Hospitality is a given, and people tend to say things straight.",
     "cultural_archetype": {
-      "title": "The Communal Custodian",
-      "summary": "A society deeply rooted in collective identity and community loyalty, balancing tradition with emerging individualism.",
+      "title": "Settled Communities",
+      "summary": "Community and coffee hold people together after hard years, with peace valued over ambition.",
       "claim_ids": [
         "C01",
         "C03",
@@ -129,12 +129,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The historical legacy of Yugoslavia, with its emphasis on collectivism and ethnic identity, continues to shape Bosnian society's collective orientation.",
-        "claim_ids": [
-          "C03",
-          "C28"
-        ],
-        "sources_count": 2
+        "text": "The 1990s war and the divided settlement that followed threw people back on family and community for trust and safety."
+      },
+      {
+        "text": "Ottoman and Austro-Hungarian rule left both a respect for formal order and the unhurried sociability captured in the word cejf."
+      },
+      {
+        "text": "Post-war weak institutions made informal networks the practical route to getting things done."
       }
     ],
     "competing_forces": [
@@ -250,7 +251,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Bosniaherz is a blend of collective warmth and structured predictability. Traditional celebrations offer a glimpse into the expressive side of the culture, while everyday interactions are more restrained. Family and community ties are paramount, shaping decisions and social interactions. The relaxed pace of life, characterized by spontaneous 'ćejf', contrasts with the respect for order and hierarchy in public and professional settings.",
+      "text": "It is collective warmth wrapped around a preference for order. The old celebrations show the expressive side; ordinary days are calmer. Family and community steer the decisions. There is a word here, cejf, meaning the art of taking slow, unhurried pleasure in a thing, and it sits right next to a real respect for order and rank.",
       "claim_ids": [
         "claim4",
         "C02",
@@ -260,32 +261,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family and community loyalty are primary aspects of Bosnian identity.",
-        "claim_ids": [
-          "claim1"
-        ],
-        "sources_count": 1
+        "text": "The hospitality is immediate and generous regardless of means."
       },
       {
-        "text": "Group affiliation in Bosnia often outweighs individual pursuits.",
-        "claim_ids": [
-          "claim2"
-        ],
-        "sources_count": 1
+        "text": "Coffee is a social institution, not a drink."
       },
       {
-        "text": "Traditional celebrations in Bosnia allow for open emotional expression, though day-to-day interactions tend to be more restrained.",
-        "claim_ids": [
-          "claim4"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Bosnians favour a direct communication style—questions, offerings, and requests are formulated in a straightforward way; this should not be misinterpreted as impoliteness but as an expectation to state desires bluntly.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
+        "text": "History sits close to the surface of ordinary conversation."
       }
     ],
     "success_factors": [
@@ -421,7 +403,7 @@
         "iso3": "EST",
         "country": "Estonia",
         "similarity": 88,
-        "explanation": "While Estonia shares a preference for structure and predictability, Bosniaherz is more community-oriented with a strong emphasis on ethnic identity.",
+        "explanation": "While Estonia shares a preference for structure and predictability, Bosniaherz is more community-first with a strong emphasis on ethnic identity.",
         "claim_ids": [
           "claim6",
           "C06"
@@ -547,7 +529,12 @@
           "suggested_score": 40
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven projects",
+      "Cultural immersion experiences",
+      "Relationship-focused business ventures"
+    ]
   },
   "sources": [
     {
@@ -873,7 +860,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 40,
+        "score": 37,
         "confidence": "MEDIUM"
       },
       "D2": {

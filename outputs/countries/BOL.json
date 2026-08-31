@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 34,
-        "reading": "Group-oriented",
-        "explanation": "Bolivia's identity is deeply collectivist, with strong community ties and a focus on group membership, yet urban areas are seeing a rise in individual aspirations."
+        "score": 27,
+        "reading": "Strongly Social",
+        "explanation": "Deeply community-first: the indigenous ayllu tradition and the extended family make belonging and group solidarity the base of identity, so kin approval, reciprocity and trusted networks drive choices."
       },
       {
         "dimension": "D2",
         "score": 56,
-        "reading": "Even-keeled",
-        "explanation": "Communication in Bolivia is warm and expressive, yet indirect, reflecting a cultural preference for harmony and relationship preservation."
+        "reading": "Open",
+        "explanation": "Moderately expressive but indirect: warmth is real, yet things are said around the edges to keep harmony and save face, so friendly, relationship-first, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
         "score": 64,
-        "reading": "Structured",
-        "explanation": "Bolivia's high uncertainty avoidance is evident in its need for rules and predictability, though informal networks provide flexibility."
+        "reading": "Certain",
+        "explanation": "Structured, with a big informal underside: people like rules and certainty, yet a huge informal economy runs on trust, so credentials reassure while a personal contact greases everything."
       },
       {
         "dimension": "D4",
         "score": 37,
-        "reading": "Relaxed",
-        "explanation": "While Bolivia's cultural drive is balanced between striving and acceptance, personal networks and trust are crucial for success."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community, reciprocity and getting by come before the climb, so practical, communal and affordable goods matter more than status."
       }
     ],
-    "executive_summary": "In Bolivia, community ties and collective identity are paramount, with a strong emphasis on belonging and group solidarity. Despite a deeply rooted collectivist culture, individual aspirations are emerging, especially in urban areas. Communication is warm and expressive, yet indirect, reflecting a cultural preference for harmony and relationship preservation. The country's high uncertainty avoidance manifests in a need for rules and predictability, while success often hinges on personal networks and trust.",
+    "executive_summary": "In Bolivia you belong to a group before you belong to yourself, and solidarity is the whole point. The cities are growing some personal ambition, but the collective still holds. People are warm and expressive, and yet they talk around the hard things to keep a relationship whole. They also like rules and certainty, and when the official system creaks, trust and personal networks carry the load.",
     "cultural_archetype": {
-      "title": "The Communal Builder",
-      "summary": "A society where collective identity and personal networks form the backbone of social and economic life.",
+      "title": "Reciprocal Households",
+      "summary": "Reciprocity is the rule — you give, and it comes back when you need it.",
       "claim_ids": [
         "c1",
         "c2",
@@ -116,22 +116,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The ayllu system and its emphasis on collective identity have deeply influenced Bolivian society, fostering a strong sense of community and reciprocal obligations.",
-        "claim_ids": [
-          "C03",
-          "C04",
-          "C05"
-        ],
-        "sources_count": 3
+        "text": "The Andean ayllu, the communal kin-and-land unit, and its tradition of reciprocity made the group the base of survival."
       },
       {
-        "text": "Bolivia's turbulent political history and large informal economy have shaped a reliance on personal networks and community ties for security and predictability.",
-        "claim_ids": [
-          "C21",
-          "claim_16",
-          "claim_17"
-        ],
-        "sources_count": 3
+        "text": "Centuries of colonial and mining exploitation bred deep distrust of formal power, which is why so much trade runs on personal trust."
+      },
+      {
+        "text": "Indigenous majority politics and community obligation keep ambition directed at the collective rather than the individual."
       }
     ],
     "competing_forces": [
@@ -243,7 +234,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Bolivia is deeply communal, with meals shared among family and friends, and personal networks playing a crucial role in professional success. Communication is warm and expressive, yet indirect, reflecting a cultural preference for harmony and relationship preservation. Bureaucratic processes are formal, while the informal economy operates on trust networks, creating a unique balance between structure and flexibility.",
+      "text": "Life is shared, from meals with family and friends to a career that moves on who you know. The talk is warm but careful, aimed at keeping the peace. The paperwork is formal and the unofficial economy runs on trust, so structure and flexibility end up braided together.",
       "claim_ids": [
         "C07",
         "C06",
@@ -255,29 +246,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The formal and bureaucratic nature of processes contrasts with the informal economy's reliance on trust networks and internal codes.",
-        "claim_ids": [
-          "claim_14",
-          "claim_16",
-          "claim_17"
-        ],
-        "sources_count": 3
+        "text": "Altitude and pace both take adjusting to."
       },
       {
-        "text": "The importance of community and family is immediately apparent, with shared meals and strong personal networks being central to daily life.",
-        "claim_ids": [
-          "C07",
-          "C06"
-        ],
-        "sources_count": 2
+        "text": "Indigenous tradition is present in daily commerce, not just in ceremony."
       },
       {
-        "text": "Bolivian communication is warm and expressive, yet indirect, with a preference for face-to-face interactions to build trust.",
-        "claim_ids": [
-          "C10",
-          "C11"
-        ],
-        "sources_count": 2
+        "text": "Bureaucracy requires patience and a person on the inside."
       }
     ],
     "success_factors": [
@@ -555,7 +530,12 @@
           "suggested_score": 31
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community-based projects",
+      "Long-term partnerships"
+    ]
   },
   "sources": [
     {
@@ -1035,7 +1015,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 34,
+        "score": 27,
         "confidence": "HIGH"
       },
       "D2": {

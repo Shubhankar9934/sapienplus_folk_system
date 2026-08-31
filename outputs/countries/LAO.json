@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 28,
-        "reading": "Community-first",
-        "explanation": "Social relations and kinship are the foundation of identity, with individual goals often subordinate to group needs."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: village and family solidarity come before the individual, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 32,
-        "reading": "Understated",
-        "explanation": "Communication is indirect and soft-spoken, prioritizing harmony and the preservation of face."
+        "reading": "Restrained",
+        "explanation": "Reserved: soft-spoken, indirect, face-protecting talk keeps harmony, so gentle, warm, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
-        "score": 55,
+        "score": 52,
         "reading": "Balanced",
-        "explanation": "Hierarchy and consensus-based decision-making create a structured social order, with a preference for predictability."
+        "explanation": "Middle, tilting structured: hierarchy, consensus and Buddhist order give a firm social frame while decisions come slowly, so patience and the known way carry weight."
       },
       {
         "dimension": "D4",
-        "score": 30,
-        "reading": "Easygoing",
-        "explanation": "Buddhist principles of contentment and non-materialism foster a non-striving attitude, contrasting with rising consumerism among urban youth."
+        "score": 32,
+        "reading": "Accepting",
+        "explanation": "Strongly quality-of-life: 'bo pen nyang' (never mind, it is fine) sets an easy acceptance, so contentment, community and everyday goods beat status and hustle."
       }
     ],
-    "executive_summary": "Laos is a nation where community bonds and harmony are paramount, shaping a society that values collective identity over individual autonomy. Communication is indirect and soft-spoken, with a strong emphasis on maintaining face and avoiding confrontation. Hierarchy and consensus drive decision-making, creating a predictable social order. The cultural ethos of 'bo pen nyang' reflects a relaxed acceptance of life's uncertainties.",
+    "executive_summary": "Laos puts community and harmony first, valuing the collective over anyone's independence. People speak softly and indirectly, keen to save face and dodge confrontation. Decisions come by rank and by consensus, which makes for a settled, predictable order. There is a phrase for the mood of the place, bo pen nyang, meaning never mind, it is fine, a relaxed way of taking whatever life brings.",
     "cultural_archetype": {
-      "title": "The Harmonious Collective",
-      "summary": "A society deeply rooted in collective identity, harmony, and acceptance.",
+      "title": "Calm Communities",
+      "summary": "Community and harmony first, and never mind about the rest.",
       "claim_ids": [
         "c1",
         "C05",
@@ -186,19 +186,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Theravada Buddhism has historically structured Lao society, reinforcing collectivist values and communal organization.",
-        "claim_ids": [
-          "C03",
-          "C08"
-        ],
-        "sources_count": 2
+        "text": "Village solidarity and Theravada Buddhist practice make the community and its harmony the base of identity."
       },
       {
-        "text": "The LPRP's monopoly on state power and the principle of democratic centralism have reinforced a structured social order.",
-        "claim_ids": [
-          "C24"
-        ],
-        "sources_count": 1
+        "text": "The bo pen nyang ethic, an easygoing acceptance of what cannot be changed, holds Drive at the accepting end."
+      },
+      {
+        "text": "Deference and consensus-based decision-making, reinforced under one-party rule, give the ordered social frame."
       }
     ],
     "competing_forces": [
@@ -407,7 +401,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Day to day, life in Laos is shaped by how cooperative norms in villages reinforce mutual solidarity and shared identity; hierarchical deference, consensus‑based but slow decision‑making in everyday life indicate a preference for order and predictability; lao people 'place a high value on harmony and unity with others, keeping a secure network with their community and relatives' — social network membership, not individual autonomy, defines success and security. Together these patterns set the rhythm a newcomer adjusts to first.",
+      "text": "Village life runs on cooperation and shared identity. Deference to rank and slow, consensus-built decisions show a real preference for order and predictability. People place a high value on harmony with others and on keeping a secure network of community and relatives. Belonging to that network, not standing alone, is what counts as success and safety.",
       "claim_ids": [
         "c2",
         "c6",
@@ -417,46 +411,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Cooperative norms in villages reinforce mutual solidarity and shared identity.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "The pace is gentle and unhurried."
       },
       {
-        "text": "Lao communication is indirect, soft‑spoken, and avoids direct emotional confrontation in public.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Confrontation is entirely avoided."
       },
       {
-        "text": "Hierarchical deference, consensus‑based but slow decision‑making in everyday life indicate a preference for order and predictability.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Preservation of face, harmony, and deliberate presentation of self reflect structured norms and rule‑based social order.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Cultural Atlas (SBS Australia) explicitly identifies a 'collectivistic outlook' as a core national trait: 'many Lao have a collectivistic outlook and seek to maintain harmony and honour among their fa",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Lao people 'place a high value on harmony and unity with others, keeping a secure network with their community and relatives' — social network membership, not individual autonomy, defines success and ",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
+        "text": "Decisions take time and cannot be rushed."
       }
     ],
     "success_factors": [],
@@ -730,7 +691,12 @@
           "suggested_score": 25
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {
@@ -1174,11 +1140,11 @@
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 55,
+        "score": 52,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 30,
+        "score": 32,
         "confidence": "MEDIUM"
       }
     },

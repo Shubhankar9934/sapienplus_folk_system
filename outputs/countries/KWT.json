@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 28,
-        "reading": "Community-first",
-        "explanation": "Kuwait is a strongly collectivist society where group loyalty and family ties dominate personal identity."
+        "score": 26,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: group loyalty and family ties dominate, and the diwaniyya gathering keeps networks tight, so belonging, reputation and wasta (connections) drive choices."
       },
       {
         "dimension": "D2",
-        "score": 50,
-        "reading": "Even-keeled",
-        "explanation": "Public expression is often restrained, with diplomacy and indirect communication highly valued, although emotional openness is permitted in specific social settings."
+        "score": 52,
+        "reading": "Balanced",
+        "explanation": "Middle: warm and sociable among your own, since the diwaniyya is talkative, while public conduct is conservative, so warm-but-respectable, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 60,
-        "reading": "Structured",
-        "explanation": "Kuwaitis show a preference for structured environments and predictability, with a strong adherence to tradition and established norms."
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy, conservative norms and a preference for the proper channel give a firm frame, so standing, credentials and a trusted contact reassure."
       },
       {
         "dimension": "D4",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "Achievement and competitive striving are more pronounced among males, with a societal emphasis on family prestige and entrepreneurial success."
+        "explanation": "Balanced: with oil wealth and security, standing and comfort matter more than the raw competitive climb, so status is shown through family and quality, not hustle."
       }
     ],
-    "executive_summary": "Kuwait is a society deeply rooted in collectivism, where group loyalty and family ties dominate. The diwaniyya serves as a key social institution, reinforcing communal bonds. Hierarchical structures are prevalent, and wasta plays a significant role in personal and professional life. While traditional norms are strong, younger generations are gradually embracing more individualistic lifestyles.",
+    "executive_summary": "Kuwait is deeply collective, ruled by group loyalty and family ties. The diwaniyya, the traditional gathering room where men meet to talk and settle things, keeps the communal bonds strong. Hierarchies run through everything, and wasta, the pull of connections, shapes both personal and working life. The old norms hold firm, even as the young edge toward more individual lives.",
     "cultural_archetype": {
-      "title": "The Communal Connector",
-      "summary": "A society where group loyalty and familial bonds are paramount, shaping both personal identity and social interactions.",
+      "title": "Sociable Households",
+      "summary": "Family loyalty and the diwaniyya network decide most things.",
       "claim_ids": [
         "c1",
         "c2",
@@ -130,12 +130,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Kuwait's tribal history and the influence of Islamic law have shaped its collectivist and hierarchical societal structures.",
-        "claim_ids": [
-          "c17",
-          "c22"
-        ],
-        "sources_count": 2
+        "text": "Tribal and merchant families were the unit of enterprise before oil, and the diwaniyya gathering still maintains those networks."
+      },
+      {
+        "text": "Oil wealth from the 1940s underwrote security, which makes standing and comfort matter more than competitive striving."
+      },
+      {
+        "text": "Conservative Gulf and Islamic norms govern public conduct while private gatherings stay talkative."
       }
     ],
     "competing_forces": [
@@ -242,7 +243,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Kuwait means navigating a society where public behavior is conservative, and group identity often takes precedence over individual merit. The diwaniyya plays a key role in maintaining social networks, while wasta influences both personal and professional interactions. Newcomers quickly learn to adapt to these communal and hierarchical norms.",
+      "text": "It means living where public behavior is conservative and the group's identity often comes before individual merit. The diwaniyya keeps the social networks humming, while wasta colors dealings at work and in life. Newcomers learn fast to move within these communal, hierarchical ways.",
       "claim_ids": [
         "c12",
         "c2",
@@ -252,32 +253,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The diwaniyya is a cornerstone of Kuwaiti identity, where family, tribe, and business networks are maintained.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "The diwaniyya tradition structures social life."
       },
       {
-        "text": "Wasta is a prevalent practice, reflecting a society where group identity is paramount.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Business runs through personal connection."
       },
       {
-        "text": "Diplomacy and indirect communication are highly valued, especially in hierarchical settings.",
-        "claim_ids": [
-          "c11"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Public behavior is conservative, with modest dress and restrained public affection being the norm.",
-        "claim_ids": [
-          "c12"
-        ],
-        "sources_count": 1
+        "text": "Public and private manners differ sharply."
       }
     ],
     "success_factors": [
@@ -391,7 +373,7 @@
         "iso3": "SAU",
         "country": "Saudi Arabia",
         "similarity": 92,
-        "explanation": "Both Kuwait and Saudi Arabia emphasize family and tribal ties, but Kuwait's relatively liberal social policies and economic openness mark a distinction.",
+        "explanation": "Both Kuwait and Saudi Arabia stress family and tribal ties, but Kuwait's relatively liberal social policies and economic openness mark a distinction.",
         "claim_ids": [
           "c1",
           "c4"
@@ -497,6 +479,18 @@
           "suggested_score": 33
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Kuwait is restrained in formal and cross-gender public expression but warm and expressive within sanctioned social spaces. Key signals: public behaviour is conservative — modest dress, restrained public affection, avoidance of direct contradiction before superiors; feedback is delivered indirectly to avoid embarrassment; topics like politics, religion, or sexuality are approached carefully. However, within the diwaniya and same-sex hospitality contexts, Kuwaitis are described as enthusiastic, voluble, and generous hosts — greetings are given 'with enthusiasm and general pleasure'. The hierarchical suppression of expression (especially upward dissent) is the dominant structural force, placing Kuwait on the restrained side. Score of 35: moderately restrained — not as closed as East Asian hierarchical cultures, because the diwaniya and hospitality norms provide recognised channels for expressive social energy; but structurally, the hierarchical and religious framework suppresses free public expression significantly.",
+          "suggested_score": 35
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Kuwait is structurally open. Emotional display, heated debate, and passionate argument are normal in the diwaniyya and in public life. Ghabra notes that the diwaniyya functions as a 'free public sphere' where political critique and emotional expression are institutionally tolerated. Arab cultural norms, as detailed by Al-Omari and Nydell, permit high emotional expressiveness in-ingroup contexts, including hand gestures, raised voices, and direct emotional appeals. The social segregation between genders does not suppress this expressiveness within same-sex spaces; in fact it amplifies it. Counter-evidence of public modesty norms (especially for women) is not about suppression of expression per se but about gender-role performance; the underlying emotional style remains open and unrestrained.",
+          "suggested_score": 92
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -530,20 +524,13 @@
           "reasoning": "Kuwait is moderately-to-strongly striving, especially in its historical mercantile and modern rentier forms. Hofstede's Masculinity (MAS) for Arab countries is around 52, moderate, but Kuwait's specific legacy as a trading port (before oil) and its current 'entrepreneurial state' create a performance-oriented elite. Tetreault and Longva document a culture where business success and family reputation are tightly linked—achievement is a form of social honour. Counter-evidence from the welfare state and the 'rentier mentality'—where government employment and subsidies reduce competitive pressure—lowers the overall drive score compared to truly rugged individualist striving cultures (e.g., USA ~91). Nevertheless, the suq (market) tradition and the high social value placed on entrepreneurial success (especially among the merchant families) keep the culture more striving than accepting.",
           "suggested_score": 75
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Kuwait is restrained in formal and cross-gender public expression but warm and expressive within sanctioned social spaces. Key signals: public behaviour is conservative — modest dress, restrained public affection, avoidance of direct contradiction before superiors; feedback is delivered indirectly to avoid embarrassment; topics like politics, religion, or sexuality are approached carefully. However, within the diwaniya and same-sex hospitality contexts, Kuwaitis are described as enthusiastic, voluble, and generous hosts — greetings are given 'with enthusiasm and general pleasure'. The hierarchical suppression of expression (especially upward dissent) is the dominant structural force, placing Kuwait on the restrained side. Score of 35: moderately restrained — not as closed as East Asian hierarchical cultures, because the diwaniya and hospitality norms provide recognised channels for expressive social energy; but structurally, the hierarchical and religious framework suppresses free public expression significantly.",
-          "suggested_score": 35
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression in Kuwait is structurally open. Emotional display, heated debate, and passionate argument are normal in the diwaniyya and in public life. Ghabra notes that the diwaniyya functions as a 'free public sphere' where political critique and emotional expression are institutionally tolerated. Arab cultural norms, as detailed by Al-Omari and Nydell, permit high emotional expressiveness in-ingroup contexts, including hand gestures, raised voices, and direct emotional appeals. The social segregation between genders does not suppress this expressiveness within same-sex spaces; in fact it amplifies it. Counter-evidence of public modesty norms (especially for women) is not about suppression of expression per se but about gender-role performance; the underlying emotional style remains open and unrestrained.",
-          "suggested_score": 92
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business practices",
+      "Cultural adaptation for collectivist societies",
+      "Understanding hierarchical workplace dynamics"
+    ]
   },
   "sources": [
     {
@@ -737,11 +724,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 28,
+        "score": 26,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 50,
+        "score": 52,
         "confidence": "HIGH"
       },
       "D3": {

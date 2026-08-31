@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 30,
-        "reading": "Community-first",
-        "explanation": "Collective identity is paramount, with ethnic and family ties shaping social structures."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: ethnic and family ties are the backbone of identity and the only reliable safety net, so belonging, trust and word-of-mouth drive everything."
       },
       {
         "dimension": "D2",
         "score": 45,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression is context-dependent, with formality often dictating restraint."
+        "reading": "Restrained",
+        "explanation": "Moderately expressive: communal ceremony, music and warm sociability are the register, though caution shows amid instability, so warm, relationship-led approaches work."
       },
       {
         "dimension": "D3",
         "score": 34,
-        "reading": "Adaptable",
-        "explanation": "Amidst weak formal institutions, traditional hierarchies provide local structure."
+        "reading": "Fluid",
+        "explanation": "Flexible: chronic poverty and instability force constant improvisation, so people trust relationships over fragile institutions and expect give and adaptation."
       },
       {
         "dimension": "D4",
         "score": 41,
-        "reading": "Relaxed",
-        "explanation": "While some sectors value achievement, survival often takes precedence over striving."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: survival, family and getting through come before ambition, so affordable, practical, everyday goods matter most."
       }
     ],
-    "executive_summary": "In the Central African Republic, community ties and ethnic affiliations are the backbone of social identity. While urban areas are seeing a rise in individualistic values, the rural heart remains deeply collectivist. The workplace emphasizes relationships and trust, often prioritizing harmony over individual achievement. Despite the challenges of poverty and instability, the cultural resilience is evident in vibrant community gatherings and the blending of traditional and modern practices.",
+    "executive_summary": "In the Central African Republic your community and your ethnic group are the backbone of who you are. The cities are growing a more me-first streak, but the countryside stays firmly collective. Work runs on relationships and trust, with getting along valued over personal glory. For all the poverty and upheaval, the resilience shows in loud community gatherings and the easy mixing of old ways and new.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society that thrives on collective identity and adaptability amidst uncertainty.",
+      "title": "Improvising Villages",
+      "summary": "Family and community are all there is to rely on, so people improvise the rest.",
       "claim_ids": [
         "claim_1",
         "C05",
@@ -87,12 +87,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The colonial legacy and subsequent state collapse have left CAR with weak formal institutions, necessitating reliance on traditional structures.",
-        "claim_ids": [
-          "C18",
-          "C19"
-        ],
-        "sources_count": 1
+        "text": "Chronic conflict and one of the world's weakest states left ethnic and family ties as the only functioning support."
+      },
+      {
+        "text": "With almost no formal economy, daily survival depends on improvisation, which pushes Structure to the fluid end."
+      },
+      {
+        "text": "Village ceremony and communal gathering remain the calendar even where conditions are hardest."
       }
     ],
     "competing_forces": [
@@ -172,7 +173,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in the Central African Republic is a tapestry of communal bonds and traditional practices. In rural areas, the open village spaces and vibrant ceremonies reflect a deep-seated collectivism. In urban settings, while individual aspirations are emerging, the rhythm of life is still dictated by community and family ties.",
+      "text": "It is communal bonds and old customs. In the villages, open gathering grounds and lively ceremonies carry a deep collectivism. In the cities, personal ambition is stirring, but the day is still set by community and family.",
       "claim_ids": [
         "claim_2",
         "C11",
@@ -182,18 +183,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of ethnic and family ties in defining social identity is immediately evident.",
-        "claim_ids": [
-          "claim_1"
-        ],
-        "sources_count": 1
+        "text": "Ordinary life requires constant improvisation."
       },
       {
-        "text": "The subdued expression of emotions in formal settings might surprise those expecting open displays.",
-        "claim_ids": [
-          "claim_4"
-        ],
-        "sources_count": 1
+        "text": "Community obligation reaches into every decision."
+      },
+      {
+        "text": "Warmth and welcome persist despite hard conditions."
       }
     ],
     "success_factors": [
@@ -300,7 +296,7 @@
         "iso3": "TCD",
         "country": "Chad",
         "similarity": 92,
-        "explanation": "Chad and CAR both navigate ethnic diversity with a collectivist approach, but CAR's reliance on traditional structures is more evident due to its weaker formal institutions.",
+        "explanation": "Chad and CAR both handle ethnic diversity with a collectivist approach, but CAR's reliance on traditional structures is more evident due to its weaker formal institutions.",
         "claim_ids": [
           "claim_1",
           "c5"
@@ -451,7 +447,11 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Community engagement initiatives"
+    ]
   },
   "sources": [
     {

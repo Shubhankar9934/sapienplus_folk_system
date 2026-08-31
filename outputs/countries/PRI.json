@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 42,
-        "reading": "Group-oriented",
-        "explanation": "Puerto Rican identity is socially mediated and collective, with strong ties to family and group membership."
+        "score": 35,
+        "reading": "Social",
+        "explanation": "Community-first: family and collective identity are the core, so belonging, reputation and family approval drive choices over a cold approach."
       },
       {
         "dimension": "D2",
         "score": 78,
-        "reading": "Highly expressive",
-        "explanation": "Puerto Rico is one of the most indulgent cultures globally, with a strong tendency toward enjoying life and expressing emotions openly."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, loud, celebratory and emotionally open, so bold, joyful, music-and-fiesta branding thrives."
       },
       {
         "dimension": "D3",
         "score": 34,
-        "reading": "Adaptable",
-        "explanation": "Puerto Rico's pragmatic culture allows for flexibility and improvisation, with a comfort in adapting to new ideas and situations."
+        "reading": "Fluid",
+        "explanation": "Flexible: a relaxed way with rules and time, dealing routed through relationships, so a human touch and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 54,
         "reading": "Balanced",
-        "explanation": "While achievement is valued, Puerto Rican culture also emphasizes quality of life and relationships, creating a balance between striving and harmony."
+        "explanation": "Balanced, with an indulgent streak: success and family approval matter, but enjoyment and celebration weigh just as much, so both aspiration and pleasure drive choices."
       }
     ],
-    "executive_summary": "Puerto Rico's culture is deeply rooted in family and collective identity, with a vibrant and expressive social life. The island balances a relaxed approach to rules with a strong respect for hierarchy and authority. Success is often tied to personal relationships and familial approval, while the indulgent lifestyle emphasizes enjoyment and celebration.",
+    "executive_summary": "Puerto Rico is rooted in family and collective identity, with a loud, expressive social life. The island holds a relaxed way with rules alongside a real respect for rank and authority. Success ties to personal relationships and family approval, while an indulgent streak keeps enjoyment and celebration front and center.",
     "cultural_archetype": {
-      "title": "The Vibrant Familist",
-      "summary": "A society where family bonds and expressive joy define everyday life.",
+      "title": "Exuberant Families",
+      "summary": "Family at the centre and celebration never far away.",
       "claim_ids": [
         "c1",
         "C2",
@@ -171,11 +171,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The cultural emphasis on familismo has historical roots in Puerto Rican social organization and identity formation.",
-        "claim_ids": [
-          "C33"
-        ],
-        "sources_count": 1
+        "text": "Familismo, the Puerto Rican ethic of family loyalty and mutual obligation, makes the household the unit of decision."
+      },
+      {
+        "text": "Spanish Catholic tradition combined with Caribbean musical culture keeps public expression among the highest measured."
+      },
+      {
+        "text": "Ambiguous political status and repeated economic crisis taught improvisation and reliance on personal networks."
       }
     ],
     "competing_forces": [
@@ -275,7 +277,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Puerto Rico feels vibrant and connected, with family at the heart of social interactions. The culture's indulgent nature fosters a joyful atmosphere, where celebrations and emotional expression are embraced. Personal relationships are key in both social and professional settings, requiring time and trust to build. The flexibility in daily life and work reflects a pragmatic approach, allowing for adaptation and improvisation. Together, these elements create a rich tapestry of communal living and individual expression.",
+      "text": "It feels lively and connected, with family at the heart of every exchange. The indulgent spirit makes a joyful air, where celebration and open feeling are welcome. Personal relationships are the key in life and work, and they take time and trust to build. The flexible hand on daily life and work leaves room to adapt and improvise, making a rich mix of communal living and individual expression.",
       "claim_ids": [
         "C3",
         "C6",
@@ -287,20 +289,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The warmth and expressiveness of Puerto Ricans are immediately noticeable, with open displays of emotion and affection.",
-        "claim_ids": [
-          "claim-4",
-          "C14"
-        ],
-        "sources_count": 2
+        "text": "The volume and warmth are immediate."
       },
       {
-        "text": "The relaxed approach to time and planning can be surprising, with flexibility and improvisation being the norm.",
-        "claim_ids": [
-          "claim-7",
-          "claim-8"
-        ],
-        "sources_count": 2
+        "text": "Celebration seems continuous."
+      },
+      {
+        "text": "Time is approximate."
       }
     ],
     "success_factors": [
@@ -413,7 +408,7 @@
         "iso3": "DOM",
         "country": "Dominican Republic",
         "similarity": 91,
-        "explanation": "Both Puerto Rico and the Dominican Republic share a strong emphasis on family and social connections, with vibrant, expressive cultures.",
+        "explanation": "Both Puerto Rico and the Dominican Republic share a strong emphasis on family and social connections, with lively, expressive cultures.",
         "claim_ids": [
           "C2",
           "C8"
@@ -566,7 +561,11 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Family-oriented social events",
+      "Expressive and open communication"
+    ]
   },
   "sources": [
     {
@@ -991,7 +990,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 42,
+        "score": 35,
         "confidence": "MEDIUM"
       },
       "D2": {

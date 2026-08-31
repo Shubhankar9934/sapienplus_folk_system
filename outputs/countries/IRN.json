@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 33,
-        "reading": "Group-oriented",
-        "explanation": "Collectivist values dominate, with family and group loyalty often outweighing personal autonomy."
+        "reading": "Social",
+        "explanation": "Community-first: family and group loyalty come before individual wants, so a personal tie, reputation and family approval drive choices."
       },
       {
         "dimension": "D2",
-        "score": 33,
-        "reading": "Understated",
-        "explanation": "Emotional expression is restrained and indirect, with a strong emphasis on maintaining social harmony."
+        "score": 32,
+        "reading": "Restrained",
+        "explanation": "Reserved and layered: the ritual courtesy of taarof softens everything and feeling is coded and indirect, so polite, patient, relationship-first approaches work and bluntness misreads."
       },
       {
         "dimension": "D3",
-        "score": 21,
-        "reading": "Flexible",
-        "explanation": "A preference for structure and predictability is evident in both societal norms and workplace hierarchies."
+        "score": 38,
+        "reading": "Fluid",
+        "explanation": "Middle-flexible: heavy formal hierarchy sits over a life full of workarounds and personal exceptions, so official process plus a trusted contact is how things move."
       },
       {
         "dimension": "D4",
-        "score": 34,
-        "reading": "Relaxed",
-        "explanation": "While achievement is valued, there is a cultural emphasis on harmony and contentment over relentless striving."
+        "score": 48,
+        "reading": "Balanced",
+        "explanation": "Balanced: education and success are prized, especially for the family, but contentment and tradition temper the climb, so both aspiration and a good life drive choices."
       }
     ],
-    "executive_summary": "In Iran, social interactions are deeply rooted in collectivist values, where family and group loyalty often take precedence over individual desires. Communication is layered and indirect, with a cultural emphasis on maintaining harmony and face-saving. Hierarchical structures are prevalent, both in society and workplaces, creating a predictable yet rigid environment. While achievement and educational success are valued, there is a strong undercurrent of contentment and tradition, especially among older generations.",
+    "executive_summary": "In Iran social life is grounded in collective values, where family and group loyalty tend to outweigh the individual's wishes. Talk is layered and indirect, wrapped in a ritual courtesy called taarof that saves face and keeps the peace. Hierarchies run through society and the workplace both, making things predictable but rigid. Achievement and schooling are valued, and yet there is a deep vein of contentment and tradition, especially among the old.",
     "cultural_archetype": {
-      "title": "The Harmonious Traditionalist",
-      "summary": "A society where collectivist values, indirect communication, and structured hierarchies coexist with a deep appreciation for tradition and cultural heritage.",
+      "title": "Cultured Traditionalists",
+      "summary": "Family loyalty and elaborate courtesy, with a deep pride in a long culture.",
       "claim_ids": [
         "c1",
         "c2",
@@ -163,18 +163,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Iran's collectivist society is reinforced by a political system that promotes a collective ideological identity through state-controlled media and institutions.",
-        "claim_ids": [
-          "claim3"
-        ],
-        "sources_count": 1
+        "text": "A deep family-centred civilisation with a long poetic tradition makes the group and its honour the base of identity."
       },
       {
-        "text": "The long-standing bureaucratic tradition and legalistic approach in Iran provide a degree of order and predictability in societal structures.",
-        "claim_ids": [
-          "claim12"
-        ],
-        "sources_count": 1
+        "text": "Taarof, the ritual courtesy that governs offer and refusal, keeps meaning indirect and public expression layered."
+      },
+      {
+        "text": "A heavy state bureaucracy compounded by sanctions taught reliance on personal connections and workarounds."
       }
     ],
     "competing_forces": [
@@ -269,7 +264,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Iran involves navigating a complex web of social rituals and hierarchies. While daily interactions are marked by politeness and indirect communication, there is a strong sense of community and belonging. Family and group loyalty are paramount, and personal relationships play a crucial role in both social and professional settings. Despite the structured nature of society, there is a warmth and hospitality that permeates Iranian culture.",
+      "text": "It means moving through a fine web of social rituals and hierarchies. Daily exchanges are polite and indirect, and the sense of community and belonging runs strong. Family and group loyalty come first, and personal relationships matter in work as much as in life. For all the structure, a real warmth and hospitality runs through it.",
       "claim_ids": [
         "c5",
         "C02",
@@ -279,25 +274,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The practice of taʿārof is immediately noticeable, with its emphasis on politeness and maintaining social order.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "The politeness is elaborate and takes learning."
       },
       {
-        "text": "Family and group loyalty are evident in everyday interactions, reflecting the collectivist nature of Iranian society.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is insistent and generous."
       },
       {
-        "text": "Communication is often indirect, requiring newcomers to read between the lines and understand the nuances of taarof.",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
+        "text": "What is said and what is meant can differ."
       }
     ],
     "success_factors": [
@@ -441,7 +424,7 @@
         "iso3": "PSE",
         "country": "Palestine",
         "similarity": 81,
-        "explanation": "While both Iran and Palestine emphasize group loyalty, Iran's Persian language and cultural heritage create a distinct national identity.",
+        "explanation": "While both Iran and Palestine stress group loyalty, Iran's Persian language and cultural heritage create a distinct national identity.",
         "claim_ids": [
           "c1",
           "C33"
@@ -567,7 +550,12 @@
           "suggested_score": 75
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural diplomacy",
+      "Heritage tourism"
+    ]
   },
   "sources": [
     {
@@ -919,15 +907,15 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 33,
+        "score": 32,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 21,
+        "score": 38,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 34,
+        "score": 48,
         "confidence": "MEDIUM"
       }
     },

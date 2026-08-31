@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 32,
-        "reading": "Group-oriented",
-        "explanation": "Morocco is a collectivist society where family and community ties are central, often prioritizing group well-being over individual desires."
+        "score": 30,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and community come before individual pursuits, so belonging, reputation and a trusted tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 37,
-        "reading": "Understated",
-        "explanation": "Emotional expression in Morocco is often indirect, with social norms emphasizing restraint to maintain harmony and avoid confrontation."
+        "reading": "Restrained",
+        "explanation": "Reserved: warm hospitality yet indirect, harmony-keeping talk in public, so warm-but-indirect, relationship-first approaches work, and bargaining is a social ritual."
       },
       {
         "dimension": "D3",
         "score": 59,
-        "reading": "Structured",
-        "explanation": "Morocco's preference for structured environments is supported by religious and legal codes, providing predictability and reducing ambiguity."
+        "reading": "Certain",
+        "explanation": "Structured: religious and legal codes plus hierarchy give a firm frame, so standing, the proper channel and a trusted contact reassure."
       },
       {
         "dimension": "D4",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "While Morocco values achievement and success, traditional values also emphasize contentment and social harmony, creating a balanced cultural drive."
+        "explanation": "Balanced: education and moving up matter, tempered by community and a good life, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "Morocco is a land where family and community ties are paramount, shaping a society that values group cohesion over individual pursuits. Communication is warm yet indirect, with a focus on maintaining harmony and avoiding confrontation. The country's structured environment is underpinned by religious and legal codes, providing predictability amidst a backdrop of traditional values. Success is often linked to education and social mobility, with a competitive edge tempered by a strong sense of community.",
+    "executive_summary": "Morocco puts family and community first, a society that prizes the group over the individual. Talk is warm but indirect, always aimed at keeping harmony and dodging confrontation. Religious and legal codes give the place its structure and predictability. Success ties to education and moving up, though the competitive edge is softened by a strong sense of community.",
     "cultural_archetype": {
-      "title": "The Communal Navigator",
-      "summary": "A society deeply rooted in collective identity and community values, navigating life through strong familial and social bonds.",
+      "title": "Formal Kin",
+      "summary": "Family and faith set the frame, and everything is negotiated in person.",
       "claim_ids": [
         "c1",
         "c2",
@@ -148,12 +148,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Morocco's collectivist culture is deeply influenced by Islamic values and the historical concept of 'Al Assabia', emphasizing group identity.",
-        "claim_ids": [
-          "c3",
-          "c8"
-        ],
-        "sources_count": 2
+        "text": "Family, tribe and Islamic community tradition make the group the base of identity."
+      },
+      {
+        "text": "A monarchy claiming religious authority, combined with codified religious and civil law, supplies a firm and predictable frame."
+      },
+      {
+        "text": "A bargaining commercial culture, centred on the souk, keeps dealing personal and indirect."
       }
     ],
     "competing_forces": [
@@ -264,7 +265,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Morocco means embracing a culture where family and community are at the heart of daily life. The warmth of Moroccan hospitality is palpable, yet interactions are guided by an unspoken code of indirect communication to maintain harmony. While traditional values provide a sense of stability, the vibrant festivals offer a glimpse into the expressive side of Moroccan culture. Navigating the workplace requires an understanding of hierarchical structures, where loyalty and group cohesion are key.",
+      "text": "It means embracing a culture where family and community are the heart of the day. Moroccan hospitality is real and warm, yet exchanges follow an unspoken rule of indirect talk to keep the peace. Tradition steadies things, while the festivals show the expressive side. At work you have to understand the hierarchy, where loyalty and group cohesion are what count.",
       "claim_ids": [
         "c4",
         "c5",
@@ -276,20 +277,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Moroccan communication is warm and expressive, yet indirect, especially when dealing with sensitive topics to maintain social harmony.",
-        "claim_ids": [
-          "c12",
-          "c13"
-        ],
-        "sources_count": 2
+        "text": "The bargaining is expected and enjoyed."
       },
       {
-        "text": "The structured nature of Moroccan society is evident in the adherence to religious and legal codes, providing a sense of predictability.",
-        "claim_ids": [
-          "c19",
-          "c20"
-        ],
-        "sources_count": 2
+        "text": "Hospitality arrives immediately."
+      },
+      {
+        "text": "Several languages mix in one conversation."
       }
     ],
     "success_factors": [
@@ -574,7 +568,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven initiatives",
+      "Culturally sensitive negotiations",
+      "Long-term partnerships"
+    ]
   },
   "sources": [
     {
@@ -955,7 +954,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 32,
+        "score": 30,
         "confidence": "HIGH"
       },
       "D2": {

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 26,
-        "reading": "Community-first",
-        "explanation": "Rwandan identity is deeply collective, reinforced by government initiatives that emphasize national unity over ethnic distinctions."
+        "score": 25,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: community comes before the individual, so belonging, reputation and standing drive choices, with a budding urban individualism."
       },
       {
         "dimension": "D2",
         "score": 26,
-        "reading": "Reserved",
-        "explanation": "Public emotional expression is restrained, with indirect communication and emotional intelligence being highly valued."
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: restraint and composure govern public life, with warmth in trusted circles, so dignified, measured, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 64,
-        "reading": "Structured",
-        "explanation": "Rwanda exhibits a high level of structure and predictability, with a strong preference for clear rules and organized societal norms."
+        "reading": "Certain",
+        "explanation": "Structured: strong hierarchy, order and top-down, disciplined planning give a firm frame, so process, standing and the known way carry weight."
       },
       {
         "dimension": "D4",
-        "score": 40,
-        "reading": "Relaxed",
-        "explanation": "There is a strong drive for collective achievement and material success, supported by national policies promoting entrepreneurship and economic progress."
+        "score": 53,
+        "reading": "Balanced",
+        "explanation": "Balanced-to-rising: structured national progress and personal advancement both drive effort, so practical value and aspiration drive choices."
       }
     ],
-    "executive_summary": "Rwanda is a nation where community takes precedence over the individual, emotional expression is restrained, and social interactions are guided by a strong sense of hierarchy and respect. The country's rapid development is driven by structured, top-down planning that emphasizes collective progress. Despite a collective ethos, there is a budding sense of individualism among the urban elite, reflecting a society in transition.",
+    "executive_summary": "Rwanda puts community before the individual, keeps feeling restrained, and runs on a strong sense of hierarchy and respect. Its fast development is driven by structured, top-down planning aimed at collective progress. Even so, a budding individualism is showing among the urban elite, a society in transition.",
     "cultural_archetype": {
-      "title": "The Communal Builder",
-      "summary": "A society where collective identity and structured progress are paramount, yet individual aspirations are beginning to emerge.",
+      "title": "Composed Collective",
+      "summary": "Composed, orderly and deliberately unified, with plans that run decades.",
       "claim_ids": [
         "c1",
         "c2",
@@ -190,19 +190,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The genocide and its aftermath have profoundly shaped Rwanda's collective identity and emphasis on national unity.",
-        "claim_ids": [
-          "c1",
-          "claim_2"
-        ],
-        "sources_count": 2
+        "text": "A communal ethos, and a deliberate post-1994 project of national unity that replaced older group identities, keeps the collective central."
       },
       {
-        "text": "Pre-colonial hierarchical systems have left a legacy of respect for authority and structured social order.",
-        "claim_ids": [
-          "claim_15"
-        ],
-        "sources_count": 1
+        "text": "Strong, disciplined and top-down governance since the genocide built unusually consistent rule enforcement."
+      },
+      {
+        "text": "Cultural norms of composure and restraint, valued as social maturity, produce one of the lowest Expression scores."
       }
     ],
     "competing_forces": [
@@ -334,7 +328,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Rwanda feels like being part of a community where collective well-being is prioritized, and social interactions are guided by respect and restraint. Public life is structured and orderly, with a strong sense of national identity. However, within trusted circles, there is warmth and expressiveness, creating a balance between public restraint and private warmth.",
+      "text": "It feels like being part of a community where the collective good comes first, and where respect and restraint guide dealings. Public life is orderly and structured, with a strong national identity. Within trusted circles, though, there is warmth and expression, so public restraint and private warmth balance out.",
       "claim_ids": [
         "c4",
         "c06",
@@ -345,46 +339,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Rwandans view public displays of emotion as lacking tact; emotional restraint is valued socially.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "The order and cleanliness are immediately visible."
       },
       {
-        "text": "From childhood, Rwandans are taught to withhold emotional expression; showing emotion publicly is seen as weakness.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "Public manner is measured."
       },
       {
-        "text": "Indirect and non‑expressive communication—including avoiding open disagreement—is the norm and valued, indicating restrained emotional norms.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Traditional norms of respect for authority, dialogue and social justice in Rwandan constitutional culture reflect a stable, normative order.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "In Rwandan business culture, 'community spirit is integral'; decisions 'often prioritize the collective good over individual gain,' and demonstrating commitment to community welfare is a key success factor.",
-        "claim_ids": [
-          "c06"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Greetings in Rwanda are warm and physically demonstrative — 'prolonged hand-holding between women,' 'personal space is minimal and touching is common between same-sex friends' — indicating expressive warmth within trusted ingroup settings.",
-        "claim_ids": [
-          "c16"
-        ],
-        "sources_count": 1
+        "text": "Rules are genuinely enforced."
       }
     ],
     "success_factors": [
@@ -505,7 +466,7 @@
         "iso3": "MDG",
         "country": "Madagascar",
         "similarity": 89,
-        "explanation": "Both Rwanda and Madagascar emphasize community and collective well-being, but Rwanda has a more structured approach to governance and social order.",
+        "explanation": "Both Rwanda and Madagascar stress community and collective well-being, but Rwanda has a more structured approach to governance and social order.",
         "claim_ids": [
           "c01",
           "c02"
@@ -668,7 +629,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-led development projects",
+      "Structured business environments",
+      "Cultural reconciliation initiatives"
+    ]
   },
   "sources": [
     {
@@ -1137,7 +1103,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 26,
+        "score": 25,
         "confidence": "MEDIUM"
       },
       "D2": {
@@ -1149,7 +1115,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 40,
+        "score": 53,
         "confidence": "LOW"
       }
     },

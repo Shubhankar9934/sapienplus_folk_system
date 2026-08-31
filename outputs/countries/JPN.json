@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 64,
-        "reading": "Independent",
-        "explanation": "Japanese culture balances collectivist values with a growing sense of individualism, especially among younger generations."
+        "score": 48,
+        "reading": "Balanced",
+        "explanation": "Balanced and group-attuned: a person acts with keen awareness of the group (family, company, society) and of reading the air (kuuki), so belonging, consensus and reputation drive choices even as private individualism rises."
       },
       {
         "dimension": "D2",
-        "score": 30,
-        "reading": "Reserved",
-        "explanation": "Emotional expression in Japan is often subdued to maintain social harmony, with indirect communication being the norm."
+        "score": 28,
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: composure, indirectness and protecting face keep feeling in check, so understated, meticulous, respectful framing works and overt emotion or hard land jars."
       },
       {
         "dimension": "D3",
-        "score": 66,
-        "reading": "Structured",
-        "explanation": "Japan's society is highly structured, with a strong emphasis on order, predictability, and adherence to norms."
+        "score": 76,
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: order, rules, ritual, precision and predictability are near-sacred, so flawless quality, detail, guarantees and proper process strongly reassure."
       },
       {
         "dimension": "D4",
-        "score": 97,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "A strong work ethic and achievement orientation drive success in Japan, with competitiveness being a key cultural trait."
+        "score": 82,
+        "reading": "Strongly Striving",
+        "explanation": "Very high: a deep work ethic and pursuit of mastery, so premium, exquisitely-made, craft-and-quality goods land, framed by perfection rather than flash."
       }
     ],
-    "executive_summary": "Japan is a land where tradition meets modernity, balancing collectivist values with a growing sense of individualism. The society is highly structured, valuing order and predictability, while emotional expression is often subdued to maintain harmony. Success is driven by a strong work ethic and an emphasis on achievement, yet younger generations are gradually embracing more individualistic traits.",
+    "executive_summary": "Japan holds tradition and modern life together, balancing collective habit against a slowly rising individualism. The society is highly ordered, prizing predictability, while feeling is kept subdued to protect the harmony. Success is driven by a strong work ethic and a focus on achievement, even as the young take on more individual ways.",
     "cultural_archetype": {
-      "title": "The Harmonious Achiever",
-      "summary": "A society that blends collective harmony with a strong drive for success.",
+      "title": "Disciplined Perfectionists",
+      "summary": "Group harmony kept meticulously, alongside an exacting pursuit of mastery.",
       "claim_ids": [
         "claim_jpn_1",
         "claim_jpn_7",
@@ -162,11 +162,16 @@
     ],
     "historical_drivers": [
       {
-        "text": "Postwar reconstruction efforts in Japan emphasized discipline and emotional restraint to rebuild the nation.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
+        "text": "A dense, disaster-prone society where cooperation was compulsory made reading the group and protecting face essential, keeping Expression among the most restrained measured."
+      },
+      {
+        "text": "Earthquake and typhoon exposure turned drills, standards and precision into everyday habits, holding Structure high."
+      },
+      {
+        "text": "The monozukuri craft tradition and post-war industrial reconstruction tied national standing to mastery and quality, producing the highest Drive score in the set."
+      },
+      {
+        "text": "Confucian-influenced hierarchy and duty keep consensus and ritual central to how decisions are made."
       }
     ],
     "competing_forces": [
@@ -239,7 +244,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Japan means navigating a society that values order and predictability, where work ethic is strong and achievement is highly regarded. Emotional expression is often subdued, but there are moments of openness during festivals or private gatherings. These cultural patterns create a unique rhythm that newcomers must adapt to.",
+      "text": "It means moving through a society that values order and knowing what comes next, where the work ethic is strong and achievement is held high. Feeling is usually kept quiet, though it opens up at festivals and in private gatherings, a rhythm a newcomer has to learn.",
       "claim_ids": [
         "claim_jpn_6",
         "claim_jpn_7",
@@ -249,39 +254,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Japanese individuals often define their identities in relation to their social groups such as family and company.",
-        "claim_ids": [
-          "claim_jpn_1"
-        ],
-        "sources_count": 1
+        "text": "Punctuality is absolute, including the trains."
       },
       {
-        "text": "Japanese communication often involves indirect expression and subtlety, favoring restraint to maintain harmony.",
-        "claim_ids": [
-          "claim_jpn_4"
-        ],
-        "sources_count": 1
+        "text": "Direct refusal is almost never heard."
       },
       {
-        "text": "In certain contexts, Japanese people may express emotions openly, such as during festivals or in private settings.",
-        "claim_ids": [
-          "claim_jpn_5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Japanese society values order, predictability, and adherence to norms, leading to a highly structured way of life.",
-        "claim_ids": [
-          "claim_jpn_6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Japan's strong work ethic and achievement orientation encourage striving for success.",
-        "claim_ids": [
-          "claim_jpn_7"
-        ],
-        "sources_count": 1
+        "text": "Service is meticulous and impersonal at once."
       }
     ],
     "success_factors": [
@@ -542,7 +521,12 @@
           "suggested_score": 75
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Long-term planners",
+      "Individuals seeking structured environments"
+    ]
   },
   "sources": [
     {
@@ -747,19 +731,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 64,
+        "score": 48,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 30,
+        "score": 28,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 66,
+        "score": 76,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 97,
+        "score": 82,
         "confidence": "MEDIUM"
       }
     },

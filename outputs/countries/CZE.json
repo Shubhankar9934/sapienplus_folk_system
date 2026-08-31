@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 67,
-        "reading": "Independent",
-        "explanation": "Independent"
+        "score": 64,
+        "reading": "Self",
+        "explanation": "Individual-leaning: personal achievement and privacy are valued, though within tight, slowly-formed circles, so personalization works while warmth must be earned."
       },
       {
         "dimension": "D2",
-        "score": 8,
-        "reading": "Reserved",
-        "explanation": "Reserved"
+        "score": 22,
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: feeling is kept well in check and dry humor and irony do the emotional work, so understated, witty, no-hype framing lands and hard land repels."
       },
       {
         "dimension": "D3",
-        "score": 55,
-        "reading": "Balanced",
-        "explanation": "Balanced"
+        "score": 63,
+        "reading": "Certain",
+        "explanation": "Structured: order, precision and rules are prized and process matters, so clear terms, quality and reliability reassure."
       },
       {
         "dimension": "D4",
-        "score": 15,
-        "reading": "Easygoing",
-        "explanation": "Easygoing"
+        "score": 32,
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: work is taken seriously but leisure, beer, cottages and the good life come first, so comfort and dependable quality land over status and flash."
       }
     ],
-    "executive_summary": "The Czech Republic embodies a blend of individualism and collectivism, where personal achievement is valued alongside community bonds. Emotional expression is reserved, but humor and sarcasm provide an outlet. Workplaces emphasize structure and precision, yet personal relationships develop deeply over time.",
+    "executive_summary": "The Czech Republic values getting ahead on your own and belonging to a community both. Feelings are kept well in check, though a dry humor and sarcasm let off the pressure. Work is structured and precise. The friendships form slowly, but once they form they run deep.",
     "cultural_archetype": {
-      "title": "The Pragmatic Harmonist",
-      "summary": "A society balancing individual ambition with a deep respect for social norms and community ties.",
+      "title": "Private Precisionists",
+      "summary": "Private, precise and dryly funny, with the weekend firmly defended.",
       "claim_ids": [
         "claim_1",
         "C02",
@@ -104,11 +104,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Czech Republic's cultural evolution has been shaped by its Austro-Hungarian and communist past, leading to a strong emphasis on formal hierarchy and respect for officialdom.",
-        "claim_ids": [
-          "C20"
-        ],
-        "sources_count": 1
+        "text": "Habsburg administration and an early industrial and engineering tradition made precision and order everyday expectations."
+      },
+      {
+        "text": "Successive occupations and forty years of communism bred a private, sceptical individualism and a habit of irony."
+      },
+      {
+        "text": "A deep pub and country-cottage culture protects leisure and holds Drive at the accepting end."
       }
     ],
     "competing_forces": [
@@ -313,7 +315,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in the Czech Republic feels like a dance between personal ambition and community ties. While public interactions may seem reserved, family and close friendships reveal a warm, expressive side. Work is structured and precise, yet personal relationships, once formed, are deeply valued and loyal.",
+      "text": "It is a back-and-forth between personal ambition and community ties. Public dealings can seem reserved, but family and close friends bring out a warm, expressive side. Work is orderly and exact, and a friendship, once made, is loyal and lasting.",
       "claim_ids": [
         "claim_3",
         "claim_7",
@@ -323,53 +325,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Czech society emphasizes family and community bonds, reflecting collectivist values.",
-        "claim_ids": [
-          "claim_1"
-        ],
-        "sources_count": 1
+        "text": "The reserve at first meeting is standard and not personal."
       },
       {
-        "text": "Czechs are emotionally expressive within family circles but reserved in public settings.",
-        "claim_ids": [
-          "claim_3"
-        ],
-        "sources_count": 1
+        "text": "Humour is dry and constant."
       },
       {
-        "text": "Czechs value personal achievement but also prioritize leisure and relationships.",
-        "claim_ids": [
-          "claim_7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Czech professionals may appear quiet or reserved at first; Czech communication involves less emotional display than many visitors expect, and a calm, measured tone carries more credibility than enthusiasm.",
-        "claim_ids": [
-          "C10"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Once trust develops, Czech colleagues can become loyal, sincere, and open — indicating that emotional openness is not absent but is structurally deferred until sufficient relationship depth is established.",
-        "claim_ids": [
-          "C14"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Modesty is listed as one of the core Czech workplace values alongside practicality and technical competence, suggesting achievement is tempered by understatement rather than overt competitive display.",
-        "claim_ids": [
-          "C27"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Despite formal rules, 'shy bypass' through personal networks (známosti) is common for navigating bureaucracy, indicating a hidden flexibility.",
-        "claim_ids": [
-          "c11"
-        ],
-        "sources_count": 1
+        "text": "Public life is orderly and quiet."
       }
     ],
     "success_factors": [
@@ -660,7 +622,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Cross-cultural communication training",
+      "Business professionals navigating Czech workplaces",
+      "Expats seeking deep-rooted friendships"
+    ]
   },
   "sources": [
     {
@@ -1085,19 +1052,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 67,
+        "score": 64,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 8,
+        "score": 22,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 55,
+        "score": 63,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 15,
+        "score": 32,
         "confidence": "MEDIUM"
       }
     },

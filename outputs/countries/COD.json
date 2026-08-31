@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 31,
-        "reading": "Group-oriented",
-        "explanation": "Community and family are central to Congolese identity, with individual success often seen as a collective achievement."
+        "score": 28,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and community hold life up and a person's success is felt as the family's, so belonging, trust and reciprocity drive choices."
       },
       {
         "dimension": "D2",
         "score": 48,
-        "reading": "Even-keeled",
-        "explanation": "Public life in the DRC is vibrant and expressive, with music, dance, and fashion playing key roles in cultural expression."
+        "reading": "Balanced",
+        "explanation": "Expressive: music, dance and sharp dress, the flamboyant Sape, make feeling public and outward, so lively, stylish, shareable branding connects."
       },
       {
         "dimension": "D3",
         "score": 43,
-        "reading": "Balanced",
-        "explanation": "Balanced"
+        "reading": "Fluid",
+        "explanation": "Flexible: chronic instability makes debrouillardise, the art of making do, a way of life, so people improvise, trust relationships over fragile institutions, and expect give."
       },
       {
         "dimension": "D4",
         "score": 48,
         "reading": "Balanced",
-        "explanation": "Balanced"
+        "explanation": "Balanced: getting ahead matters and status is displayed, but survival and family come first, so both aspiration and practical value drive choices."
       }
     ],
-    "executive_summary": "In the Democratic Republic of the Congo, community and family ties are the backbone of society, where personal success is often seen as a collective achievement. Expressive public life is vibrant, with music, dance, and fashion playing central roles. However, formal communication and hierarchical structures dominate workplaces, requiring patience and adaptability. The art of 'débrouillardise' reflects the Congolese spirit of improvisation and resilience in navigating daily challenges.",
+    "executive_summary": "In the Democratic Republic of the Congo, community and family hold the place up, and a person's success is felt as the whole family's success. Public life is loud and expressive, full of music, dance, and sharp dress. The offices, though, run formal and by rank, and ask for patience. There is a national art called debrouillardise, the knack of making do and getting by with whatever is at hand.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where community bonds and adaptability define daily life.",
+      "title": "Making-Do Communities",
+      "summary": "Family holds life together, and making do is the everyday skill.",
       "claim_ids": [
         "C1",
         "claim_3"
@@ -165,12 +165,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The DRC's complex ethnic composition and colonial history have reinforced community-based social structures and a reliance on informal networks.",
-        "claim_ids": [
-          "C01",
-          "claim_1"
-        ],
-        "sources_count": 2
+        "text": "Decades of misrule, war and predatory institutions left family and clan as the only support that ever worked."
+      },
+      {
+        "text": "Scarcity made debrouillardise, the art of making do, a national skill and holds Structure at the fluid end."
+      },
+      {
+        "text": "A powerful music, dance and dress tradition, including La Sape, established public display as ordinary."
       }
     ],
     "competing_forces": [
@@ -356,7 +357,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in the Democratic Republic of the Congo is a vibrant tapestry of community bonds and individual expressions. From the communal rhythms of daily life among the Kongo people to the flamboyant self-display of La Sape, the culture thrives on collective participation and personal flair. In business, relationships are nurtured with personal inquiries, and decisions are made through group consensus, reflecting the deep-rooted value of community. Yet, the art of 'débrouillardise' shows a resilient adaptability, as people navigate challenges with creativity and resourcefulness.",
+      "text": "It is community bonds and personal flair at once. From the everyday rhythms of the Kongo people to La Sape, the flamboyant cult of elegant dress, the culture runs on both collective life and individual style. In business, people ask after your family first and decide things together. And debrouillardise, that resourceful improvisation, carries people through the hard patches.",
       "claim_ids": [
         "C03",
         "C07",
@@ -366,53 +367,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Among the Bongando in central Congo, individual subsistence and minimal reliance on lineage in daily activities suggest individual-level autonomy overshadowed by broader community identity structures.",
-        "claim_ids": [
-          "C2"
-        ],
-        "sources_count": 1
+        "text": "Kinshasa's energy and noise are immediate."
       },
       {
-        "text": "The kalinzi institution in Kivu embeds individuals in a hierarchical, rule‑based structure centered on kings, lords, and paternal authorities, indicating high cultural reliance on social order and regulation.",
-        "claim_ids": [
-          "C3"
-        ],
-        "sources_count": 1
+        "text": "Style and self-presentation matter far more than income would suggest."
       },
       {
-        "text": "In DRC business settings, conversations begin with personal inquiries about family and well-being before transitioning to business matters, reflecting collective relational identity.",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Eye contact is often indirect during conversation, with women looking down or away to show respect — a hierarchical suppression of open expression.",
-        "claim_ids": [
-          "C17"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "La Sape (Society of Ambiance-Makers and Elegant People) frames elegance as personal ambition and hardwork: a true sapeur is 'creative and hardworking — someone who can even sell flowers, earn money to buy new clothes, send their children to school.'",
-        "claim_ids": [
-          "C27"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Extended family loyalty is paramount; individual success is seen as family achievement.",
-        "claim_ids": [
-          "claim_2"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Women are expected to show more emotional restraint than men, especially in public.",
-        "claim_ids": [
-          "claim_6"
-        ],
-        "sources_count": 1
+        "text": "Nothing runs to a fixed schedule."
       }
     ],
     "success_factors": [
@@ -517,7 +478,7 @@
         "iso3": "GAB",
         "country": "Gabon",
         "similarity": 95,
-        "explanation": "Gabon and the DRC share cultural similarities in their community-oriented values and expressive public life, though Gabon may exhibit more formal structures in certain contexts.",
+        "explanation": "Gabon and the DRC share cultural similarities in their community-first values and expressive public life, though Gabon may exhibit more formal structures in certain contexts.",
         "claim_ids": [
           "C01",
           "C14"
@@ -528,7 +489,7 @@
         "iso3": "TCD",
         "country": "Chad",
         "similarity": 95,
-        "explanation": "Chad and the DRC both emphasize community and family, though Chad might have more pronounced tribal influences in its social structure.",
+        "explanation": "Chad and the DRC both stress community and family, though Chad might have more pronounced tribal influences in its social structure.",
         "claim_ids": [
           "C01",
           "claim_1"
@@ -593,6 +554,18 @@
           "suggested_score": 25
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression in the DRC is contextually bifurcated. In public cultural life — music, dance, La Sape, communal celebration — expression is intensely vivid and outward: the DRC is the birthplace of Congolese rumba and soukous, boasts an estimated 300 drum types, and hosts a La Sape subculture in which extravagant visible self-presentation is a defining social performance. These are structurally supported, not suppressed, forms of public expression. In formal/hierarchical workplace settings, however, expression is restrained: indirect communication, avoidance of direct confrontation, and harmony-preservation norms all suppress overt disagreement. The two modes coexist — public cultural expressiveness is high; hierarchical-context expressiveness is low. On balance, the structural freedom to express (especially through music, communal ritual, and public life) tilts this dimension toward Open, though well short of full openness. Score: 60.",
+          "suggested_score": 60
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is relatively open: emotional display is common—joy, grief, and anger are shown openly in public, especially in music and dance. Kinshasa's 'sapeur' culture (La Sape) is a celebrated form of flamboyant self-expression. However, respect-based restraint exists in hierarchical contexts (e.g., elders, authority figures), and women may face more pressure for emotional reserve.",
+          "suggested_score": 70
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -610,18 +583,6 @@
           "suggested_score": 30
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Expression in the DRC is contextually bifurcated. In public cultural life — music, dance, La Sape, communal celebration — expression is intensely vivid and outward: the DRC is the birthplace of Congolese rumba and soukous, boasts an estimated 300 drum types, and hosts a La Sape subculture in which extravagant visible self-presentation is a defining social performance. These are structurally supported, not suppressed, forms of public expression. In formal/hierarchical workplace settings, however, expression is restrained: indirect communication, avoidance of direct confrontation, and harmony-preservation norms all suppress overt disagreement. The two modes coexist — public cultural expressiveness is high; hierarchical-context expressiveness is low. On balance, the structural freedom to express (especially through music, communal ritual, and public life) tilts this dimension toward Open, though well short of full openness. Score: 60.",
-          "suggested_score": 60
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression is relatively open: emotional display is common—joy, grief, and anger are shown openly in public, especially in music and dance. Kinshasa's 'sapeur' culture (La Sape) is a celebrated form of flamboyant self-expression. However, respect-based restraint exists in hierarchical contexts (e.g., elders, authority figures), and women may face more pressure for emotional reserve.",
-          "suggested_score": 70
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -634,7 +595,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural festivals",
+      "Community-driven projects"
+    ]
   },
   "sources": [
     {
@@ -1004,7 +970,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 31,
+        "score": 28,
         "confidence": "MEDIUM"
       },
       "D2": {

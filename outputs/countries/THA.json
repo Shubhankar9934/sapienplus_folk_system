@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 38,
-        "reading": "Group-oriented",
-        "explanation": "Thailand's society is deeply collectivist, with a strong emphasis on group identity and loyalty to family and in-groups."
+        "score": 31,
+        "reading": "Social",
+        "explanation": "Community-first: group harmony and belonging come before the individual, so elder and group approval and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 36,
-        "reading": "Understated",
-        "explanation": "Emotional expression in Thailand is nuanced and indirect, with a strong emphasis on maintaining face and social harmony."
+        "score": 33,
+        "reading": "Restrained",
+        "explanation": "Reserved: the 'keep cool, save face' ethic and a ready smile keep feeling in check, so gentle, warm, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
-        "score": 46,
+        "score": 54,
         "reading": "Balanced",
-        "explanation": "Thailand prefers structured environments with clear rules, yet the mai pen rai attitude introduces flexibility in everyday life."
+        "explanation": "Middle, tilting structured: deep hierarchy and deference give a social frame while 'mai pen rai' (never mind) keeps the pace easy, so respect for rank plus flexibility reassure."
       },
       {
         "dimension": "D4",
-        "score": 29,
-        "reading": "Easygoing",
-        "explanation": "The Thai cultural focus is on quality of life and harmony over competitiveness and assertiveness, as reflected in its low masculinity score."
+        "score": 31,
+        "reading": "Accepting",
+        "explanation": "Strongly quality-of-life: 'mai pen rai' and sanuk (fun) put enjoyment and ease over competition, so comfort, fun and everyday goods beat status and hustle."
       }
     ],
-    "executive_summary": "Thailand is a land where group harmony and social cohesion are paramount, with a cultural emphasis on maintaining face and avoiding direct confrontation. The pervasive 'mai pen rai' attitude reflects a laid-back approach to life, prioritizing collective well-being over individual ambition. Despite a strong collectivist tradition, urban youth are gradually embracing more individualistic values. Emotional expression is nuanced, with indirect communication being the norm.",
+    "executive_summary": "Thailand puts group harmony and social cohesion first, with a strong care for face and a habit of avoiding open confrontation. The everywhere phrase mai pen rai, meaning never mind, it is all right, captures a laid-back way of taking life, the collective before individual ambition. For all the collectivist tradition, urban youth are slowly warming to individual values. Feeling is shown carefully, and indirect talk is the norm.",
     "cultural_archetype": {
-      "title": "The Harmonious Navigator",
-      "summary": "A society that values group harmony and indirect communication while navigating life's uncertainties with a relaxed attitude.",
+      "title": "Serene Harmonists",
+      "summary": "Harmony and face are protected, and setbacks are met with never mind.",
       "claim_ids": [
         "C01",
         "C05"
@@ -114,12 +114,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Thailand's cultural emphasis on collectivism and harmony is historically influenced by its Buddhist traditions and agrarian society, which fostered community reliance and social cohesion.",
-        "claim_ids": [
-          "C01",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "Theravada Buddhist practice makes contentment and harmony everyday values, producing one of the lowest Drive scores."
+      },
+      {
+        "text": "A monarchy and a deeply rooted rank system, expressed in language and gesture, order every exchange."
+      },
+      {
+        "text": "The mai pen rai ethic and the value placed on sanuk, enjoyment, keep confrontation rare and the tempo easy."
       }
     ],
     "competing_forces": [
@@ -215,7 +216,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Thailand means embracing a culture of calm and harmony, where social interactions are guided by a deep respect for others' feelings and a relaxed approach to life's uncertainties. The emphasis on group identity and indirect communication creates a supportive yet nuanced social fabric, where relationships are built on mutual respect and understanding.",
+      "text": "It means embracing a culture of calm and harmony, where dealings are guided by a deep respect for others' feelings and an easy way with uncertainty. The stress on group identity and indirect talk makes a supportive but subtle social fabric, where relationships rest on mutual respect and understanding.",
       "claim_ids": [
         "c6",
         "C03",
@@ -225,32 +226,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The collectivist nature of Thai society is immediately apparent, with a strong emphasis on family and group identity.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "The smiling is constant and carries many meanings."
       },
       {
-        "text": "The cultural value of kreng jai is evident in the indirect and considerate communication style, which prioritizes harmony over directness.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "Confrontation is avoided entirely."
       },
       {
-        "text": "Thais maintain a calm and smiling exterior, reflecting the cultural importance of jai yen and emotional restraint.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The mai pen rai attitude is a defining feature of Thai culture, promoting a laid-back and accepting approach to life's challenges.",
-        "claim_ids": [
-          "C22"
-        ],
-        "sources_count": 1
+        "text": "Hierarchy is observed through language and gesture."
       }
     ],
     "success_factors": [
@@ -365,7 +347,7 @@
         "iso3": "MMR",
         "country": "Myanmar (formerly Burma)",
         "similarity": 90,
-        "explanation": "Thailand and Myanmar share a strong emphasis on collectivism and Buddhist cultural influences, fostering similar social dynamics.",
+        "explanation": "Thailand and Myanmar share a strong emphasis on collectivism and Buddhist cultural influences, building similar social dynamics.",
         "claim_ids": [
           "c1",
           "c6"
@@ -387,7 +369,7 @@
         "iso3": "VNM",
         "country": "Vietnam",
         "similarity": 89,
-        "explanation": "Thailand and Vietnam both prioritize social harmony and have a collectivist orientation, though Vietnam may exhibit more direct communication styles.",
+        "explanation": "Thailand and Vietnam both favor social harmony and have a collectivist orientation, though Vietnam may exhibit more direct communication styles.",
         "claim_ids": [
           "c1",
           "c5"
@@ -524,7 +506,12 @@
           "suggested_score": 28
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion enthusiasts",
+      "People seeking a balanced lifestyle"
+    ]
   },
   "sources": [
     {
@@ -828,19 +815,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 38,
+        "score": 31,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 36,
+        "score": 33,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 46,
+        "score": 54,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 29,
+        "score": 31,
         "confidence": "HIGH"
       }
     },

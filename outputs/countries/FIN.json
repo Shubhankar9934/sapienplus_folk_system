@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 81,
-        "reading": "Strongly independent",
-        "explanation": "Finland's culture emphasizes individual autonomy with a blend of communal values, reflecting a society where personal responsibility coexists with a collective spirit."
+        "score": 72,
+        "reading": "Strongly Self",
+        "explanation": "Individual-leaning: self-reliance and personal space are prized, within a high-trust society, so personalization and quiet competence work while pushy social appeals do not."
       },
       {
         "dimension": "D2",
-        "score": 59,
-        "reading": "Expressive",
-        "explanation": "Emotional expression in Finland is understated and private, with silence often used as a form of communication."
+        "score": 42,
+        "reading": "Restrained",
+        "explanation": "Reserved: silence is comfortable and words are chosen carefully, so honest, understated, no-hype framing lands and over-talk repels; sisu, that quiet grit, is the ideal."
       },
       {
         "dimension": "D3",
         "score": 74,
-        "reading": "Highly structured",
-        "explanation": "Finnish society values structure and predictability, with a strong emphasis on rules, punctuality, and planning."
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: order, reliability, punctuality and trust in institutions give a firm frame, so clarity, guarantees and dependable process strongly reassure."
       },
       {
         "dimension": "D4",
         "score": 37,
-        "reading": "Relaxed",
-        "explanation": "Finland prioritizes quality of life and social equality over competitive achievement, with a cultural focus on balance and wellbeing."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: balance, nature, sauna and well-being beat status and hustle, so comfort, durability and everyday quality land over flash."
       }
     ],
-    "executive_summary": "Finland balances independence with a strong sense of community, where silence speaks volumes and emotional expression is reserved. The concept of 'sisu' embodies perseverance and resilience, while a focus on quality of life over competition defines the Finnish approach to work and living.",
+    "executive_summary": "Finland balances independence with a quiet sense of community, in a place where silence says plenty and feeling is kept reserved. There is a word, sisu, for a stubborn, grit-your-teeth perseverance that Finns take pride in. And they choose a good life over competition, at work and at home.",
     "cultural_archetype": {
-      "title": "The Resilient Individualist",
-      "summary": "A society that values personal autonomy while embracing communal resilience and understated emotional expression.",
+      "title": "Quiet Individualists",
+      "summary": "Comfortable in silence, reliable in everything, and stubborn when it counts.",
       "claim_ids": [
         "c1",
         "C02",
@@ -162,12 +162,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Finland's cultural emphasis on resilience and community has been shaped by its historical struggles for independence and survival in a challenging environment.",
-        "claim_ids": [
-          "c2",
-          "c17"
-        ],
-        "sources_count": 1
+        "text": "A harsh climate and a history of subsistence at the northern margin bred self-reliance and the endurance captured in sisu."
+      },
+      {
+        "text": "Six centuries under Sweden and a century under Russia produced a guarded public manner and a habit of saying only what is needed."
+      },
+      {
+        "text": "A Nordic welfare settlement and unusually high institutional trust built reliability into everyday expectations, holding Structure high."
       }
     ],
     "competing_forces": [
@@ -276,7 +277,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Finland is a blend of independence and community, where personal space is respected, and silence is a valued form of communication. The sauna offers a unique space for emotional connection, contrasting with the reserved nature of public interactions. Punctuality and structure are valued, but there's a balance with moments of relaxation and celebration.",
+      "text": "Personal space is respected and silence is a real form of communication. The sauna is where the reserve drops and people actually connect, in contrast to the cool of public life. Punctuality and structure matter, balanced by their own moments of ease and celebration.",
       "claim_ids": [
         "c9",
         "c12",
@@ -287,32 +288,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Newcomers often find Finns reserved and initially distant, but once trust is built, friendships are deep and loyal.",
-        "claim_ids": [
-          "c8"
-        ],
-        "sources_count": 1
+        "text": "The quiet is total and not unfriendly."
       },
       {
-        "text": "Social interaction in Finland is characterized by long pauses, indirect disagreement, and avoidance of confrontation.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
+        "text": "Personal space is wider than most newcomers are used to."
       },
       {
-        "text": "The sauna provides a culturally sanctioned space for open emotional sharing and bonding, particularly among friends and family.",
-        "claim_ids": [
-          "c9"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Festivals like Vappu and Juhannus involve exuberant public celebration, temporarily breaking the reserved norm.",
-        "claim_ids": [
-          "c10"
-        ],
-        "sources_count": 1
+        "text": "What is said is meant literally."
       }
     ],
     "success_factors": [
@@ -444,7 +426,7 @@
         "iso3": "DNK",
         "country": "Denmark",
         "similarity": 84,
-        "explanation": "While both Finland and Denmark prioritize quality of life and social equality, Finland's unique cultural traits like 'sisu' and reserved communication style distinguish it from Denmark's more relaxed social interactions.",
+        "explanation": "While both Finland and Denmark favor quality of life and social equality, Finland's unique cultural traits like 'sisu' and reserved communication style distinguish it from Denmark's more relaxed social interactions.",
         "claim_ids": [
           "c1",
           "C23"
@@ -590,7 +572,12 @@
           "suggested_score": 38
         }
       ]
-    }
+    },
+    "best_for": [
+      "Long-term strategic planning",
+      "Teams valuing work-life balance",
+      "Organizations prioritizing quality of life"
+    ]
   },
   "sources": [
     {
@@ -938,11 +925,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 81,
+        "score": 72,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 59,
+        "score": 42,
         "confidence": "HIGH"
       },
       "D3": {

@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 30,
-        "reading": "Community-first",
-        "explanation": "Gambian society is deeply rooted in collectivism, with extended family and community taking precedence over individual aspirations."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: extended family and community come before individual desire, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 54,
-        "reading": "Even-keeled",
-        "explanation": "While Gambians are warm and welcoming, respect for hierarchy and elders often moderates open emotional expression."
+        "reading": "Balanced",
+        "explanation": "Expressive: warm, welcoming and fond of music and festival, so lively, warm, shareable branding connects."
       },
       {
         "dimension": "D3",
         "score": 46,
         "reading": "Balanced",
-        "explanation": "Gambia embraces a relaxed approach to time and social arrangements, reflecting a comfort with ambiguity and fluidity."
+        "explanation": "Middle-flexible: a loose, fluid sense of time and relationship-first dealing keep things adaptable, while respect for elders gives a soft frame."
       },
       {
         "dimension": "D4",
         "score": 36,
-        "reading": "Relaxed",
-        "explanation": "Despite economic challenges, Gambians prioritize quality of life and relationships over competitive achievement."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: community, hospitality and getting by beat competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Gambian life revolves around extended family and community, where social obligations often trump individual desires. The culture embraces a relaxed approach to time and a deeply ingrained sense of hospitality, making it a welcoming place for newcomers. Hierarchical respect is crucial, especially towards elders, influencing communication and social interactions. Despite economic challenges, Gambians maintain a vibrant cultural life through music, dance, and festivals.",
+    "executive_summary": "Gambian life turns on the extended family and community, where social duty tends to outweigh personal want. The pace is relaxed and the hospitality deep, which makes it an easy place to arrive in. Respect for rank, especially for elders, shapes how people talk and deal with each other. And for all the economic hardship, the cultural life stays rich with music, dance, and festivals.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where community bonds and flexible time dictate the rhythm of life.",
+      "title": "Kinship Circles",
+      "summary": "Extended family sets the obligations, and time is treated as fluid.",
       "claim_ids": [
         "c1",
         "c7",
@@ -169,12 +169,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Since the 1980s, economic deterioration, drought, and high unemployment have driven large-scale emigration from Gambia, with remittances playing a significant role in the economy.",
-        "claim_ids": [
-          "C26",
-          "C27"
-        ],
-        "sources_count": 2
+        "text": "The kabilo, the extended family lineage, remains the primary unit of identity and obligation."
+      },
+      {
+        "text": "Mandinka and Wolof social organisation around communal land reinforced group-based belonging."
+      },
+      {
+        "text": "A rich music and festival tradition keeps expression warm despite one of the region's lowest incomes."
       }
     ],
     "competing_forces": [
@@ -278,7 +279,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Gambia feels like a tapestry of community connections and cultural expressions. The rhythm of daily life is relaxed, with time seen as fluid and flexible. Social interactions are warm and welcoming, with a strong emphasis on family and community ties. Music and dance are ever-present, adding vibrancy to gatherings and celebrations. Hierarchical respect is a constant, especially towards elders, shaping communication and social dynamics.",
+      "text": "It is community connection and cultural expression. The daily rhythm is relaxed, with time treated as fluid. People are warm and welcoming, with family and community at the center. Music and dance are everywhere, and respect for elders runs through every exchange.",
       "claim_ids": [
         "c1",
         "c7",
@@ -288,20 +289,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The warmth and hospitality of Gambians, often referred to as 'Teranga', is immediately noticeable, with strangers being welcomed like family.",
-        "claim_ids": [
-          "C14",
-          "C10"
-        ],
-        "sources_count": 2
+        "text": "The greeting ritual is long and essential."
       },
       {
-        "text": "The importance of family and community is evident in daily interactions and the structure of social life.",
-        "claim_ids": [
-          "c1",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "People are warm and welcoming immediately."
+      },
+      {
+        "text": "Family obligation reaches further than expected."
       }
     ],
     "success_factors": [
@@ -405,7 +399,7 @@
         "iso3": "GNB",
         "country": "Guinea-Bissau",
         "similarity": 91,
-        "explanation": "Gambia and Guinea-Bissau share a strong emphasis on extended family structures and community-oriented lifestyles.",
+        "explanation": "Gambia and Guinea-Bissau share a strong emphasis on extended family structures and community-first lifestyles.",
         "claim_ids": [
           "c1",
           "C01"
@@ -522,6 +516,18 @@
           "suggested_score": 40
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Gambia is structurally expressive in the public and communal sphere. The country is branded 'The Smiling Coast'; music, dance, and griots are institutionally embedded vehicles for emotional and social expression. Hospitality norms (Teranga/welcoming of strangers) create an open affective public register. Communal festivals (Tobaski, Kankurang, naming ceremonies, weddings) involve high-energy collective emotional display. This is freedom-from-suppression expressiveness, not just loudness. Counter-evidence: in hierarchical and workplace settings, formal deference to seniors and indirect communication are expected, which suppresses downward-to-upward expression. Islamic norms also modulate certain forms of mixed-gender expressiveness. These constraints are real but situational — the base-rate of social life is expressively warm and open. Score 68: clearly Open but not maximally so, given hierarchical suppression in formal/vertical contexts.",
+          "suggested_score": 68
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression in Gambia is relatively open: public emotional display, joking, music, and storytelling are common, and hierarchical suppression of expression is weaker than in many neighbouring countries due to a history of decentralised chieftaincies and Islamic brotherhoods that permit lay preaching. There is restraint in formal settings (e.g., respect for elders), but overall the culture is open.",
+          "suggested_score": 65
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -539,18 +545,6 @@
           "suggested_score": 30
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Gambia is structurally expressive in the public and communal sphere. The country is branded 'The Smiling Coast'; music, dance, and griots are institutionally embedded vehicles for emotional and social expression. Hospitality norms (Teranga/welcoming of strangers) create an open affective public register. Communal festivals (Tobaski, Kankurang, naming ceremonies, weddings) involve high-energy collective emotional display. This is freedom-from-suppression expressiveness, not just loudness. Counter-evidence: in hierarchical and workplace settings, formal deference to seniors and indirect communication are expected, which suppresses downward-to-upward expression. Islamic norms also modulate certain forms of mixed-gender expressiveness. These constraints are real but situational — the base-rate of social life is expressively warm and open. Score 68: clearly Open but not maximally so, given hierarchical suppression in formal/vertical contexts.",
-          "suggested_score": 68
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression in Gambia is relatively open: public emotional display, joking, music, and storytelling are common, and hierarchical suppression of expression is weaker than in many neighbouring countries due to a history of decentralised chieftaincies and Islamic brotherhoods that permit lay preaching. There is restraint in formal settings (e.g., respect for elders), but overall the culture is open.",
-          "suggested_score": 65
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -563,7 +557,11 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {

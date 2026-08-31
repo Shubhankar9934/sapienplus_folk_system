@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 74,
-        "reading": "Strongly independent",
-        "explanation": "Ireland's culture emphasizes individual initiative and self-reliance, with a strong focus on personal achievement and merit-based success."
+        "score": 60,
+        "reading": "Self",
+        "explanation": "Individual-leaning but warmly communal: personal achievement sits inside strong community, family and local belonging, so personalization works alongside a friendly, we-all-know-each-other tone."
       },
       {
         "dimension": "D2",
-        "score": 65,
-        "reading": "Expressive",
-        "explanation": "The Irish communication style is indirect and often humorous, avoiding direct confrontation and using storytelling as a key expressive tool."
+        "score": 61,
+        "reading": "Open",
+        "explanation": "Expressive but indirect: warm, witty, story-and-humor-rich talk where a point is made sideways, so charming, funny, understated framing lands and hard land or self-promotion grates."
       },
       {
         "dimension": "D3",
         "score": 39,
-        "reading": "Adaptable",
-        "explanation": "Ireland exhibits a comfort with ambiguity and change, with flexible social norms and a resistance to rigid planning."
+        "reading": "Fluid",
+        "explanation": "Flexible: an easygoing, adaptable, relationship-first style over rigid procedure, so a human touch and reasonable give beat fine print."
       },
       {
         "dimension": "D4",
         "score": 63,
-        "reading": "Achievement-oriented",
-        "explanation": "Achievement and success are highly valued in Ireland, with a strong drive for personal and professional accomplishment."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: a real drive to succeed, and a booming modern economy, sit under a cultural humility that frowns on boasting, so aspirational goods land when framed modestly."
       }
     ],
-    "executive_summary": "Ireland is a land where individual achievement and community spirit coexist, creating a unique balance between personal ambition and social warmth. The Irish are known for their indirect communication style, often using humor and storytelling to express themselves. Despite a strong drive for success, there's a cultural undercurrent of humility, where overt self-promotion is frowned upon. Newcomers will find a society that values flexibility and adaptability, with a deep-seated love for tradition and community gatherings.",
+    "executive_summary": "Ireland balances personal achievement with a warm community spirit. The Irish talk in a roundabout way, leaning on humor and storytelling to make a point. There is a strong drive to succeed, but under it a real humility, since blowing your own trumpet is frowned on. Newcomers find a place that values flexibility and adaptability, with a deep love of tradition and of gathering together.",
     "cultural_archetype": {
-      "title": "The Independent Achiever",
-      "summary": "Ireland is a society that balances individual ambition with a strong sense of community and tradition.",
+      "title": "Easygoing Achievers",
+      "summary": "Ambitious but never boastful, with the point made through a story or a joke.",
       "claim_ids": [
         "C01",
         "C02",
@@ -163,13 +163,16 @@
     ],
     "historical_drivers": [
       {
-        "text": "British colonial rule and the Gaelic clan system have left lasting impacts on Irish cultural identity, balancing individualism with communal ties.",
-        "claim_ids": [
-          "claim2",
-          "claim8",
-          "claim13"
-        ],
-        "sources_count": 3
+        "text": "A tight parish-and-family society, reinforced by Catholic social structure, keeps community central alongside personal ambition."
+      },
+      {
+        "text": "Famine, colonisation and mass emigration bred adaptability and a distrust of rigid systems."
+      },
+      {
+        "text": "A storytelling and oral tradition made indirect speech, humour and understatement the way meaning travels."
+      },
+      {
+        "text": "Rapid modernisation and the tech and pharmaceutical boom since the 1990s lifted Drive without displacing the norm against boasting."
       }
     ],
     "competing_forces": [
@@ -285,7 +288,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Ireland feels like a tapestry of individual ambition woven with communal warmth. The Irish language and cultural symbols are part of everyday life, while social gatherings in pubs and festivals create a vibrant, expressive atmosphere. Workplaces emphasize merit and initiative, yet social interactions remain indirect and nuanced. This blend of personal drive and community spirit defines the rhythm of life in Ireland.",
+      "text": "It feels like personal ambition woven through communal warmth. The Irish language and its symbols are part of the everyday, while the pub and the festival make for a lively, expressive scene. Workplaces reward merit and initiative, yet the talk stays indirect and understated. Drive and community spirit, set to the same rhythm.",
       "claim_ids": [
         "c5",
         "C03",
@@ -296,36 +299,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The Irish language and cultural symbols are deeply embedded in daily life, creating a sense of continuity and identity.",
-        "claim_ids": [
-          "c5",
-          "c6"
-        ],
-        "sources_count": 2
+        "text": "Small talk is extended and genuinely friendly."
       },
       {
-        "text": "Social gatherings in pubs and festivals are central to Irish life, offering newcomers a glimpse into the country's communal spirit.",
-        "claim_ids": [
-          "C07",
-          "claim6"
-        ],
-        "sources_count": 2
+        "text": "Directness arrives wrapped in a joke."
       },
       {
-        "text": "Indirect communication and humor are prevalent, with storytelling often used to convey messages and build connections.",
-        "claim_ids": [
-          "C09",
-          "C14"
-        ],
-        "sources_count": 2
-      },
-      {
-        "text": "Merit-based success and individual initiative are valued in the workplace, reflecting Ireland's individualist orientation.",
-        "claim_ids": [
-          "C03",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Everyone is connected to everyone."
       }
     ],
     "success_factors": [
@@ -483,7 +463,7 @@
         "iso3": "CHE",
         "country": "Switzerland",
         "similarity": 85,
-        "explanation": "While both Ireland and Switzerland value individual achievement and community, Ireland's cultural expression is more open and vibrant, with a focus on storytelling and humor.",
+        "explanation": "While both Ireland and Switzerland value individual achievement and community, Ireland's cultural expression is more open and lively, with a focus on storytelling and humor.",
         "claim_ids": [
           "C23",
           "C13"
@@ -620,7 +600,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Teams valuing adaptability and creativity",
+      "Individuals seeking a balance between work and social life"
+    ]
   },
   "sources": [
     {
@@ -1056,11 +1041,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 74,
+        "score": 60,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 65,
+        "score": 61,
         "confidence": "HIGH"
       },
       "D3": {

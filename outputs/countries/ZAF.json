@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 52,
+        "score": 51,
         "reading": "Balanced",
-        "explanation": "South Africa's cultural identity is a complex interplay of individualistic and collectivist traits, with Ubuntu philosophy deeply influencing community and social interactions."
+        "explanation": "Balanced: individual ambition meets deep communal 'Ubuntu' (I am because we are), so both personalization and community belonging drive choices."
       },
       {
         "dimension": "D2",
-        "score": 48,
-        "reading": "Even-keeled",
-        "explanation": "South Africans value open emotional expression and direct communication, though this is tempered by cultural nuances in hierarchical settings."
+        "score": 54,
+        "reading": "Balanced",
+        "explanation": "Middle: warm and direct, yet culturally shaded and code-switched across communities, so warm, honest, culturally-aware framing works."
       },
       {
         "dimension": "D3",
-        "score": 32,
-        "reading": "Adaptable",
-        "explanation": "South Africans exhibit a flexible approach to rules and planning, with everyday life often requiring improvisation and adaptability."
+        "score": 33,
+        "reading": "Fluid",
+        "explanation": "Flexible: an improvising, make-a-plan adaptability and diversity keep rules loose, so a human touch and give beat rigid process."
       },
       {
         "dimension": "D4",
-        "score": 40,
-        "reading": "Relaxed",
-        "explanation": "Economic inequality and competitive striving are significant drivers in South Africa, with a strong focus on individual achievement and visible success."
+        "score": 49,
+        "reading": "Balanced",
+        "explanation": "Balanced: economic inequality drives real competitive striving alongside a strong communal ethic, so both aspiration and belonging drive choices."
       }
     ],
-    "executive_summary": "South Africa is a land of contrasts, where individual ambition meets collective values. Ubuntu philosophy underscores community and interconnectedness, while economic inequality drives competitive striving. The workplace blends formality with warmth, and communication is direct yet culturally nuanced. Newcomers will find a society that values both tradition and modernity, with a dynamic interplay of individual and group identities.",
+    "executive_summary": "South Africa is a land of contrasts, where individual ambition meets collective values. The philosophy of Ubuntu, I am because we are, holds up community and interconnectedness, while deep economic inequality drives a competitive striving. The workplace blends formality with warmth, and talk is direct yet culturally shaded. A newcomer finds a society that values both tradition and modern life, with a lively interplay of individual and group identities.",
     "cultural_archetype": {
-      "title": "The Ubuntu Achiever",
-      "summary": "A society where collective values coexist with individual ambition, driven by both community spirit and competitive striving.",
+      "title": "Flexible Socials",
+      "summary": "Ubuntu and individual ambition together, in a country that improvises.",
       "claim_ids": [
         "C04",
         "C22",
@@ -168,18 +168,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "After the end of Apartheid, Black and Colored youth exhibited stronger collective South African national identity, more certainty about South African‑ness, and more collective identity than White and Indian youth.",
-        "claim_ids": [
-          "claim2"
-        ],
-        "sources_count": 1
+        "text": "Ubuntu, the principle that a person is a person through other people, keeps community central alongside individual ambition."
       },
       {
-        "text": "African‑language speakers produced more interdependent and concrete self‑descriptions than English speakers, indicating collectivist identity orientations.",
-        "claim_ids": [
-          "claim3"
-        ],
-        "sources_count": 1
+        "text": "Apartheid and its aftermath left the world's highest measured income inequality, which sharpens competitive striving."
+      },
+      {
+        "text": "Eleven official languages and constant code-switching produce a warm but carefully calibrated way of speaking."
       }
     ],
     "competing_forces": [
@@ -303,7 +298,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in South Africa is a blend of improvisation and community, where daily routines are flexible and relationships are grounded in Ubuntu values. Despite economic challenges, the spirit of resilience and interconnectedness prevails, shaping a society that is both dynamic and deeply rooted in collective ethics.",
+      "text": "Life is improvisation and community, where daily routines are flexible and relationships are grounded in Ubuntu. Despite the economic hardship, a spirit of resilience and interconnectedness prevails, making a society both dynamic and deeply rooted in collective ethics.",
       "claim_ids": [
         "claim_12",
         "C04",
@@ -313,32 +308,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The Hofstede IDV score of 65 superficially suggests individualism, but analysts note it reflects the historically Anglo/White sample and contradicts the observable collectivist orientation of the indigenous African majority.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "The diversity of language and culture is immediate."
       },
       {
-        "text": "Ubuntu collective values — compassion, survival, group solidarity, respect and dignity — positively correlate with workplace collectivism and are identified as a unique element of South African cultural management philosophy shaping personal interactions and commitment.",
-        "claim_ids": [
-          "C04"
-        ],
-        "sources_count": 1
+        "text": "Inequality is visible and openly discussed."
       },
       {
-        "text": "South Africans tend to speak in a direct and honest way during business negotiations; any ambiguity may be interpreted as untrustworthiness, indicating high expression of genuine intent and low tolerance for social masking.",
-        "claim_ids": [
-          "C12"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Addressing colleagues with professional titles (Doctor, Professor, Mr., Ms.) and showing deference to seniority are expected social signals in South African workplaces, indicating that formal credentials and rank confer visible status.",
-        "claim_ids": [
-          "C28"
-        ],
-        "sources_count": 1
+        "text": "Improvisation is a point of pride."
       }
     ],
     "success_factors": [
@@ -462,7 +438,7 @@
         "iso3": "NAM",
         "country": "Namibia",
         "similarity": 89,
-        "explanation": "Namibia and South Africa share historical and cultural connections, with similar patterns of community-oriented values and a blend of traditional and modern influences.",
+        "explanation": "Namibia and South Africa share historical and cultural connections, with similar patterns of community-first values and a blend of traditional and modern influences.",
         "claim_ids": [
           "C05",
           "claim_2"
@@ -604,7 +580,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Understanding the balance of individualism and collectivism",
+      "Navigating diverse cultural identities",
+      "Adapting to a dynamic workplace environment"
+    ]
   },
   "sources": [
     {
@@ -963,19 +944,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 52,
+        "score": 51,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 48,
+        "score": 54,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 32,
+        "score": 33,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 40,
+        "score": 49,
         "confidence": "MEDIUM"
       }
     },

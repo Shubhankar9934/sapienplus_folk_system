@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 81,
-        "reading": "Strongly independent",
-        "explanation": "Norwegian culture is highly individualistic, valuing personal autonomy and self-expression within a framework of egalitarianism."
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal autonomy and self-reliance are prized, within a deep egalitarian society, so personalization works alongside a fair, no-one-above-anyone tone."
       },
       {
         "dimension": "D2",
-        "score": 53,
-        "reading": "Even-keeled",
-        "explanation": "Norwegian communication is direct yet emotionally restrained, reflecting a cultural preference for clarity without drama."
+        "score": 49,
+        "reading": "Balanced",
+        "explanation": "Middle and understated: direct but restrained, warmth low-key, so honest, plain, modest framing beats hype."
       },
       {
         "dimension": "D3",
         "score": 60,
-        "reading": "Structured",
-        "explanation": "Norway maintains a balance between structure and flexibility, with a moderate preference for predictability and consensus-driven decision-making."
+        "reading": "Certain",
+        "explanation": "Structured but flexible: order, planning and trust in institutions give a frame applied without rigidity, so clarity and reliability plus an easy style reassure."
       },
       {
         "dimension": "D4",
         "score": 22,
-        "reading": "Easygoing",
-        "explanation": "Norwegian culture prioritizes quality of life and relationships over competition, with a strong emphasis on work-life balance and social welfare."
+        "reading": "Strongly Accepting",
+        "explanation": "Very strongly quality-of-life: balance, nature, family and equality far outweigh status; the Janteloven code frowns on standing out, so comfort and well-being land and flash repels."
       }
     ],
-    "executive_summary": "Norway embodies a blend of individualism and egalitarianism, where personal achievement is valued but modesty is paramount. The society is structured yet flexible, with a strong emphasis on work-life balance. Communication is direct but understated, reflecting a culture that values both clarity and restraint.",
+    "executive_summary": "Norway blends individualism with a fierce equality, where personal achievement is fine but modesty is paramount. There is even an unwritten code, the Janteloven, that frowns on anyone acting better than the rest. The society is structured but flexible, with a heavy stress on balancing work and life. People speak directly but understated, valuing both clarity and restraint.",
     "cultural_archetype": {
-      "title": "The Modest Individualist",
-      "summary": "A society that values personal achievement within an egalitarian framework, discouraging overt displays of success.",
+      "title": "Easygoing Egalitarians",
+      "summary": "Everyone equal, nobody above anyone, and the outdoors above all.",
       "claim_ids": [
         "c1",
         "C01",
@@ -138,11 +138,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The tradition of dugnad (voluntary communal work) reflects Norway's historical emphasis on cooperation and collective well-being, influencing its modern egalitarian values.",
-        "claim_ids": [
-          "c15"
-        ],
-        "sources_count": 1
+        "text": "The Janteloven code, warning against thinking yourself better than others, keeps status flat and produces one of the lowest Drive scores measured."
+      },
+      {
+        "text": "Oil wealth from the 1970s, managed through a sovereign fund, funded a welfare state that made independence affordable without competition."
+      },
+      {
+        "text": "A scattered farming and fishing settlement pattern bred self-reliance alongside strong egalitarian norms."
       }
     ],
     "competing_forces": [
@@ -231,7 +233,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Norway feels like a harmonious blend of independence and community, where personal achievements are pursued quietly and life is enjoyed at a balanced pace. The culture's emphasis on modesty and equality creates a welcoming environment, though newcomers may initially find the reserved communication style and subtle status signals challenging to navigate.",
+      "text": "It feels like independence and community in balance, where personal wins are pursued quietly and life is taken at an even pace. The stress on modesty and equality makes a welcoming place, though a newcomer may find the reserved way of talking and the subtle status signals hard to read at first.",
       "claim_ids": [
         "c5",
         "c4",
@@ -242,36 +244,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Newcomers notice the emphasis on individual autonomy within a supportive community, where personal achievements are valued but modesty is expected.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "The reserve in public is standard."
       },
       {
-        "text": "The reserved communication style may initially seem distant, but it reflects a deep respect for personal space and humility.",
-        "claim_ids": [
-          "c6",
-          "C09"
-        ],
-        "sources_count": 2
+        "text": "Nature is central to how people spend time."
       },
       {
-        "text": "Norway's strong social trust and happiness rankings are evident in the supportive networks and community spirit.",
-        "claim_ids": [
-          "C12",
-          "c15"
-        ],
-        "sources_count": 2
-      },
-      {
-        "text": "Work-life balance is a cultural norm, with flexible working hours and a focus on leisure and nature.",
-        "claim_ids": [
-          "C25",
-          "C26"
-        ],
-        "sources_count": 2
+        "text": "Hierarchy is nearly invisible."
       }
     ],
     "success_factors": [
@@ -570,7 +549,12 @@
           "suggested_score": 40
         }
       ]
-    }
+    },
+    "best_for": [
+      "Work-life balance enthusiasts",
+      "Nature lovers",
+      "Consensus-driven teams"
+    ]
   },
   "sources": [
     {
@@ -900,7 +884,7 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 53,
+        "score": 49,
         "confidence": "MEDIUM"
       },
       "D3": {

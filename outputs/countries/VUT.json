@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 24,
-        "reading": "Community-first",
-        "explanation": "Vanuatu's social identity is defined by family and clan affiliations."
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family and clan affiliation deeply shape identity, so belonging, standing and reputation drive choices."
       },
       {
         "dimension": "D2",
-        "score": 55,
-        "reading": "Even-keeled",
-        "explanation": "Even-keeled"
+        "score": 53,
+        "reading": "Balanced",
+        "explanation": "Expressive but rank-aware: lively and communal, tempered by respect for hierarchy, so warm-but-respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 38,
-        "reading": "Adaptable",
-        "explanation": "Adaptable"
+        "reading": "Fluid",
+        "explanation": "Flexible: custom (kastom) and relationships organize life over rigid rules, so a personal tie and give beat fine print."
       },
       {
         "dimension": "D4",
-        "score": 31,
-        "reading": "Relaxed",
-        "explanation": "Relaxed"
+        "score": 30,
+        "reading": "Strongly Accepting",
+        "explanation": "Strongly quality-of-life: quality of life and community over competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "In Vanuatu, community ties are paramount, with family and clan affiliations deeply influencing social identity. Emotional expression is vibrant and communal, yet respect for hierarchy can temper individual expression. The society values quality of life over competitive achievement, with a flexible approach to time and structure. Traditional customs coexist with emerging individualistic tendencies among younger generations.",
+    "executive_summary": "In Vanuatu community ties come first, with family and clan affiliation deeply shaping who you are. Feeling is lively and communal, though respect for rank tends to temper individual expression. The society favors a good life over competitive achievement, with a loose hand on time and structure. Old custom lives alongside a rising individualism in the young.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where community bonds and flexible social structures guide daily life, balancing tradition with emerging individualism.",
+      "title": "Custom Communities",
+      "summary": "Kastom and kinship run life, and quality of life beats competing.",
       "claim_ids": [
         "claim_id_1",
         "C01",
@@ -176,11 +176,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Vanuatu's social identity has been shaped by its pre-colonial organization around kinship and clan systems, which emphasized collective well-being.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "Family and clan affiliation define identity, with the wantok network ensuring participation and support."
+      },
+      {
+        "text": "Kastom governs land, marriage and dispute resolution rather than codified law, keeping Structure fluid."
+      },
+      {
+        "text": "Kava ceremony and a subsistence economy across eighty islands keep community obligation ahead of competition."
       }
     ],
     "competing_forces": [
@@ -380,7 +382,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Vanuatu is a tapestry of communal bonds and flexible social norms. Emotional expression is open and vibrant, yet respect for hierarchy tempers individual expression. Community solidarity is vital in business, with companies seen as integral parts of the community. Kava ceremonies and storytelling are central to social life, fostering listening and conflict resolution. Together, these elements create a rhythm that newcomers quickly adapt to, where relationships and quality of life are prioritized over competition.",
+      "text": "Life mixes communal bonds with flexible social norms. Feeling is open and lively, yet respect for rank tempers it. Community solidarity matters in business, where a company is seen as part of the community. Kava ceremonies, the sharing of the traditional drink, and storytelling are central to social life, building listening and the settling of disputes. Relationships and a good life come before competition.",
       "claim_ids": [
         "claim_id_4",
         "C08",
@@ -390,46 +392,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Kinship ties are central to identity in Vanuatu, promoting a collectivist orientation.",
-        "claim_ids": [
-          "claim_id_2"
-        ],
-        "sources_count": 1
+        "text": "Kastom governs more than formal law."
       },
       {
-        "text": "Emotional expression within communities in Vanuatu is open and communal.",
-        "claim_ids": [
-          "claim_id_4"
-        ],
-        "sources_count": 1
+        "text": "The pace is unhurried."
       },
       {
-        "text": "Community gatherings often feature vibrant emotional exchanges, signaling openness.",
-        "claim_ids": [
-          "claim_id_5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The concept of 'big men' in Vanuatu ties status to working for the community: chiefs earn power and authority through service and redistribution to the community, not individual accumulation.",
-        "claim_ids": [
-          "C04"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Community solidarity is a pillar of business culture in Vanuatu; companies are seen as integral parts of the community, and success requires engaging with and contributing to the collective.",
-        "claim_ids": [
-          "C08"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Kava ceremonies are integral to welcoming guests, marking village events, and informal gatherings; at village meetings, kava fosters listening and conflict resolution — a structured communal expressive outlet.",
-        "claim_ids": [
-          "C16"
-        ],
-        "sources_count": 1
+        "text": "Community obligation is wide."
       }
     ],
     "success_factors": [
@@ -698,7 +667,12 @@
           "suggested_score": 18
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven projects",
+      "Cultural immersion experiences",
+      "Collaborative business ventures"
+    ]
   },
   "sources": [
     {
@@ -1105,7 +1079,7 @@
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 55,
+        "score": 53,
         "confidence": "MEDIUM"
       },
       "D3": {
@@ -1113,7 +1087,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 31,
+        "score": 30,
         "confidence": "LOW"
       }
     },

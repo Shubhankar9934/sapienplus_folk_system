@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 18,
-        "reading": "Community-first",
-        "explanation": "Kiribati's identity is deeply communal, with strong kinship ties and collective responsibilities overshadowing individualism."
+        "score": 21,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: kinship and community welfare come before individual pursuit, and the bubuti custom means kin can claim what you have, so belonging and reputation drive everything."
       },
       {
         "dimension": "D2",
-        "score": 44,
-        "reading": "Even-keeled",
-        "explanation": "Emotional expression in Kiribati varies by context, with open expression in communal settings and restraint in hierarchical ones."
+        "score": 43,
+        "reading": "Restrained",
+        "explanation": "Middle: feeling flows at gatherings while respect and tradition temper it formally, so warm, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 52,
         "reading": "Balanced",
-        "explanation": "While traditional customs emphasize order, Kiribati displays flexibility in everyday uncertainties, adapting to environmental and social changes."
+        "explanation": "Middle, tilting structured: the maneaba (meeting-house) consensus and respect for elders give a firm social frame, adaptable to a fragile environment."
       },
       {
         "dimension": "D4",
-        "score": 26,
-        "reading": "Easygoing",
-        "explanation": "The culture prioritizes harmony and quality of life over competitive achievement, with success measured by community contribution."
+        "score": 28,
+        "reading": "Strongly Accepting",
+        "explanation": "Strongly quality-of-life: collective welfare and an unhurried island life beat competition, so practical, communal, everyday goods matter most and status pitches miss."
       }
     ],
-    "executive_summary": "Kiribati is a society deeply rooted in communal values, where kinship and community take precedence over individual pursuits. The maneaba system underscores the importance of consensus and respect for elders, while the bubuti system ensures that wealth is shared among extended families. Despite these traditions, younger generations are beginning to explore individual identities through education and urban experiences.",
+    "executive_summary": "Kiribati is deeply communal, where kinship and community come before individual pursuit. The maneaba, the traditional meeting house, carries the value of consensus and respect for elders, while the bubuti system, a custom of sharing what you have when kin ask, keeps wealth moving through the extended family. Even so, the young are starting to explore lives of their own through education and the towns.",
     "cultural_archetype": {
-      "title": "The Communal Custodian",
-      "summary": "A society where collective welfare and kinship bonds guide daily life and decision-making.",
+      "title": "Shared Households",
+      "summary": "Sharing is obligatory, and the meeting house decides together.",
       "claim_ids": [
         "c1",
         "C02",
@@ -140,12 +140,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Kiribati's history of communal living and resource sharing has been shaped by its isolated geography and the need for collective survival strategies.",
-        "claim_ids": [
-          "C21",
-          "C23"
-        ],
-        "sources_count": 2
+        "text": "The bubuti custom, under which kin may claim what you have, makes accumulation difficult and sharing obligatory, producing one of the lowest Identity scores."
+      },
+      {
+        "text": "The maneaba meeting house, where family representatives talk a matter to consensus, is the traditional decision-making institution."
+      },
+      {
+        "text": "Scarce resources on low atolls made collective welfare a survival requirement."
       }
     ],
     "competing_forces": [
@@ -297,7 +298,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Kiribati feels deeply communal, with a strong emphasis on kinship and community welfare. Traditional customs and the bubuti system ensure that wealth and resources are shared, fostering a sense of collective responsibility. While emotions are openly expressed in social gatherings, respect for hierarchy and tradition shapes more formal interactions. This creates a rhythm of life that is both structured and flexible, allowing for adaptation to environmental and social changes.",
+      "text": "It feels deeply communal, with a strong pull toward kinship and the welfare of all. Old customs and the bubuti system keep wealth and resources shared, building a real sense of collective responsibility. Feeling flows freely at gatherings, while respect for rank and tradition shapes the formal moments, a rhythm both structured and flexible, made for adapting to a hard environment.",
       "claim_ids": [
         "c6",
         "C05",
@@ -307,39 +308,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Community and family are central to identity in Kiribati, with individuals often subordinating personal goals to group needs.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Community obligation is heavier than newcomers expect."
       },
       {
-        "text": "In communal settings, Kiribati people express emotions openly, such as during celebrations and family gatherings.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "The pace is unhurried."
       },
       {
-        "text": "In hierarchical settings, expression in Kiribati tends to be more restrained to show respect to elders and authority figures.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Traditional customs in Kiribati emphasize order, with social interactions structured around established community rules.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The bubuti system encodes a 'non-refusable request' from an extended family member in need; non-compliant family members would be shamed and ostracised for lacking compassion.",
-        "claim_ids": [
-          "C04"
-        ],
-        "sources_count": 1
+        "text": "Decisions take as long as consensus takes."
       }
     ],
     "success_factors": [
@@ -466,7 +441,7 @@
         "iso3": "PNG",
         "country": "Papua New Guinea",
         "similarity": 80,
-        "explanation": "Papua New Guinea and Kiribati both emphasize community and kinship, but PNG's cultural diversity and land-based conflicts contrast with Kiribati's more uniform social structure.",
+        "explanation": "Papua New Guinea and Kiribati both stress community and kinship, but PNG's cultural diversity and land-based conflicts contrast with Kiribati's more uniform social structure.",
         "claim_ids": [
           "c1",
           "C21"
@@ -612,7 +587,12 @@
           "suggested_score": 20
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-focused initiatives",
+      "Cultural exchange programs",
+      "Sustainable development projects"
+    ]
   },
   "sources": [
     {
@@ -982,11 +962,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 18,
+        "score": 21,
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 44,
+        "score": 43,
         "confidence": "MEDIUM"
       },
       "D3": {
@@ -994,7 +974,7 @@
         "confidence": "LOW"
       },
       "D4": {
-        "score": 26,
+        "score": 28,
         "confidence": "LOW"
       }
     },

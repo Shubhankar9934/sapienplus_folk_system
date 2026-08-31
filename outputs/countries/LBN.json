@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 34,
-        "reading": "Group-oriented",
-        "explanation": "Lebanon's strong family and sectarian ties emphasize a collectivist identity, where group membership defines social standing."
+        "reading": "Social",
+        "explanation": "Community-first: family and sectarian-community ties are the base, so belonging, reputation and a trusted tie drive choices."
       },
       {
         "dimension": "D2",
-        "score": 51,
-        "reading": "Even-keeled",
-        "explanation": "Lebanese culture is marked by expressive communication and vibrant public discourse, reflecting low hierarchical suppression of expression."
+        "score": 54,
+        "reading": "Balanced",
+        "explanation": "Expressive: warm, talkative, hospitable and stylish, so lively, aspirational, warm branding connects."
       },
       {
         "dimension": "D3",
         "score": 34,
-        "reading": "Adaptable",
-        "explanation": "Despite political instability, Lebanese society shows a high tolerance for ambiguity and flexible rules, adapting to changing circumstances."
+        "reading": "Fluid",
+        "explanation": "Very flexible: with weak, unstable institutions, people improvise and rely on family networks, so relationships and adaptability beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 59,
-        "reading": "Achievement-oriented",
-        "explanation": "Achievement and competition are highly valued, with a strong entrepreneurial spirit driving personal and professional success."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: a famous entrepreneurial, status-and-appearance-conscious drive, so aspirational, premium and stylish goods carry real weight despite economic turmoil."
       }
     ],
-    "executive_summary": "Lebanon's culture is a rich tapestry of collectivism and individual ambition, woven together by strong family ties and a drive for achievement. The Lebanese are known for their expressive communication, adaptability, and a deep sense of hospitality. However, the country's political and economic instability demands a flexible approach to life and work.",
+    "executive_summary": "Lebanon mixes the collective and the ambitious, held together by strong family ties and a real drive to get ahead. People are expressive, adaptable, and deeply hospitable. But the country's political and economic turmoil means you have to hold your plans loosely.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where familial bonds and personal ambition coexist, driving both social cohesion and individual success.",
+      "title": "Enterprising Kin",
+      "summary": "Family and sect hold life together, while enterprise and style carry on regardless.",
       "claim_ids": [
         "c1",
         "c3",
@@ -145,11 +145,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Lebanese diaspora, spanning more than 28 countries, has fostered a global network that influences domestic culture with international perspectives and practices.",
-        "claim_ids": [
-          "C27"
-        ],
-        "sources_count": 1
+        "text": "A confessional system that allocates power by religious community made sect and family the practical safety net."
+      },
+      {
+        "text": "Civil war, repeated crises and a collapsed state left improvisation and family networks as the working system, producing one of the lowest Structure scores."
+      },
+      {
+        "text": "A long trading and diaspora tradition built an entrepreneurial, appearance-conscious culture that survives economic collapse."
       }
     ],
     "competing_forces": [
@@ -242,7 +244,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Lebanon is a blend of familial loyalty and personal ambition, where social interactions are warm and expressive, and flexibility is key in navigating the country's unpredictable landscape. Hospitality and strong personal relationships are central to social and professional success.",
+      "text": "It is family loyalty and personal ambition together, where dealings run warm and expressive and flexibility is everything in an unpredictable place. Hospitality and strong personal relationships are the road to getting anywhere, socially or at work.",
       "claim_ids": [
         "C19",
         "C04",
@@ -252,20 +254,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family ties are immediately evident, with individuals often identified by their family and clan affiliations.",
-        "claim_ids": [
-          "C02",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "The warmth and style are immediate."
       },
       {
-        "text": "The warmth and expressiveness of Lebanese communication stand out, with animated discussions and gestures being common.",
-        "claim_ids": [
-          "C12",
-          "c6"
-        ],
-        "sources_count": 2
+        "text": "Multiple languages mix in one sentence."
+      },
+      {
+        "text": "Improvisation is constant and expert."
       }
     ],
     "success_factors": [
@@ -379,7 +374,7 @@
         "iso3": "JOR",
         "country": "Jordan",
         "similarity": 90,
-        "explanation": "Both Lebanon and Jordan exhibit strong family ties and collectivist values, but Lebanon's vibrant media and expressive communication style set it apart.",
+        "explanation": "Both Lebanon and Jordan exhibit strong family ties and collectivist values, but Lebanon's lively media and expressive communication style set it apart.",
         "claim_ids": [
           "c1",
           "c8"
@@ -412,7 +407,7 @@
         "iso3": "YEM",
         "country": "Yemen",
         "similarity": 85,
-        "explanation": "Lebanon and Yemen both emphasize family and sectarian identity, but Lebanon's cultural openness and adaptability in the face of instability are distinct.",
+        "explanation": "Lebanon and Yemen both stress family and sectarian identity, but Lebanon's cultural openness and adaptability in the face of instability are distinct.",
         "claim_ids": [
           "c1",
           "c12"
@@ -496,23 +491,6 @@
           "suggested_score": 40
         }
       ],
-      "D4": [
-        {
-          "specialist": "Cultural Anthropologist",
-          "reasoning": "Evidence indicates a rising cultural ideal of self‑entrepreneurship and self‑reinvention (e.g., in cosmetic surgery discourse), aligning with a striving, achievement‑oriented drive, especially in neoliberal urban contexts.",
-          "suggested_score": 55
-        },
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Lebanon scores moderately-high on Drive. The empirical cross-cultural study found Lebanon scored higher on masculinity/achievement than England (MF mean 3.22 vs. 2.535), suggesting achievement orientation above the Anglo baseline. The Lebanese diaspora — more than twice the domestic population, spanning 28+ countries — is globally renowned for commercial ambition, deal-making, and achievement across business, politics, and the professions. Multiple sources describe Lebanese entrepreneurs as 'traders, deal-makers, skilled business people' with a natural marketing and PR mentality. Cultural Atlas notes 'the Lebanese are generally hard workers and aim to please in business', with a proverb explicitly valorising work over humiliation. Status is strongly tied to wealth, education, and professional accomplishment. Competition for family prestige is intense. Counter-evidence: relationship-orientation and hospitality create a harmony dimension that partially moderates pure achievement drive, and Lebanon's chronically dysfunctional state infrastructure means many ambitions are frustrated externally. The drive is cultural and individual; its expression is often constrained by structural barriers. Score of 68: clearly Striving, but not extreme, because relationship harmony and family solidarity impose significant moderating forces on pure competitive individualism.",
-          "suggested_score": 68
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Lebanon scores high on Drive, reflecting a strong performance and achievement orientation, rooted in a competitive, entrepreneurial, and education-focused culture. Hofstede's Masculinity score of 65 (above global mean) supports this, along with a \"survival of the fittest\" ethos in business and social mobility. However, there is a counter-current of appreciating leisure, Mediterranean lifestyle, and family time, which tempers the striving dimension somewhat, especially in non-urban areas.",
-          "suggested_score": 75
-        }
-      ],
       "D2": [
         {
           "specialist": "Institutional Analyst",
@@ -536,8 +514,29 @@
           "reasoning": "Lebanon exhibits very low structure, with pervasive ambiguity and weak institutional predictability. The state is dysfunctional, laws are applied inconsistently, and people rely on personal connections (wasta) to navigate uncertainty. Planning is short-term, and punctuality is flexible. This is not a judgment of governance but of the cultural psychological comfort with ambiguity—Lebanese have developed high tolerance for chaos and improvisation. A minority of professional or affluent circles seek order, but the base rate is fluid.",
           "suggested_score": 30
         }
+      ],
+      "D4": [
+        {
+          "specialist": "Cultural Anthropologist",
+          "reasoning": "Evidence indicates a rising cultural ideal of self‑entrepreneurship and self‑reinvention (e.g., in cosmetic surgery discourse), aligning with a striving, achievement‑oriented drive, especially in neoliberal urban contexts.",
+          "suggested_score": 55
+        },
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Lebanon scores moderately-high on Drive. The empirical cross-cultural study found Lebanon scored higher on masculinity/achievement than England (MF mean 3.22 vs. 2.535), suggesting achievement orientation above the Anglo baseline. The Lebanese diaspora — more than twice the domestic population, spanning 28+ countries — is globally renowned for commercial ambition, deal-making, and achievement across business, politics, and the professions. Multiple sources describe Lebanese entrepreneurs as 'traders, deal-makers, skilled business people' with a natural marketing and PR mentality. Cultural Atlas notes 'the Lebanese are generally hard workers and aim to please in business', with a proverb explicitly valorising work over humiliation. Status is strongly tied to wealth, education, and professional accomplishment. Competition for family prestige is intense. Counter-evidence: relationship-orientation and hospitality create a harmony dimension that partially moderates pure achievement drive, and Lebanon's chronically dysfunctional state infrastructure means many ambitions are frustrated externally. The drive is cultural and individual; its expression is often constrained by structural barriers. Score of 68: clearly Striving, but not extreme, because relationship harmony and family solidarity impose significant moderating forces on pure competitive individualism.",
+          "suggested_score": 68
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Lebanon scores high on Drive, reflecting a strong performance and achievement orientation, rooted in a competitive, entrepreneurial, and education-focused culture. Hofstede's Masculinity score of 65 (above global mean) supports this, along with a \"survival of the fittest\" ethos in business and social mobility. However, there is a counter-current of appreciating leisure, Mediterranean lifestyle, and family time, which tempers the striving dimension somewhat, especially in non-urban areas.",
+          "suggested_score": 75
+        }
       ]
-    }
+    },
+    "best_for": [
+      "Entrepreneurs seeking dynamic markets",
+      "Professionals valuing relationship-based business"
+    ]
   },
   "sources": [
     {
@@ -900,7 +899,7 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 51,
+        "score": 54,
         "confidence": "HIGH"
       },
       "D3": {

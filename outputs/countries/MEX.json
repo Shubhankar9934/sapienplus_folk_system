@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 44,
-        "reading": "Balanced",
-        "explanation": "Strong collectivist traditions are evident in the importance of family and social networks, though individualism is rising among younger generations."
+        "score": 35,
+        "reading": "Social",
+        "explanation": "Community-first: family and social bonds are the core, so belonging, reputation and a personal tie drive choices far more than an unsolicited approach."
       },
       {
         "dimension": "D2",
         "score": 72,
-        "reading": "Highly expressive",
-        "explanation": "Mexican culture is highly expressive and warm, with lively communication styles and an emphasis on personal relationships."
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, gestural, celebratory and emotionally open, so bold, joyful, family-and-fiesta branding thrives."
       },
       {
         "dimension": "D3",
-        "score": 71,
-        "reading": "Highly structured",
-        "explanation": "A high need for structure and predictability is balanced by pockets of flexibility and informal communication."
+        "score": 70,
+        "reading": "Strongly Certain",
+        "explanation": "Structured but personally routed: formal hierarchy and rules give a frame that people navigate through personal connections, so a trusted contact plus clear terms reassure."
       },
       {
         "dimension": "D4",
         "score": 55,
-        "reading": "Balanced",
-        "explanation": "Achievement is pursued within the context of family and social obligations, with a focus on relational success."
+        "reading": "Striving",
+        "explanation": "Balanced: real ambition and family betterment sit beside a strong love of family, food and celebration, so both aspiration and enjoyment drive choices."
       }
     ],
-    "executive_summary": "In Mexico, life revolves around strong family ties and vibrant social interactions. The culture is expressive and warm, with an emphasis on personal relationships and social harmony. While deeply rooted in collectivism, there is a growing trend of individualism among younger generations. The workplace reflects a blend of hierarchy and flexibility, where personal connections are key to success.",
+    "executive_summary": "In Mexico life revolves around strong family ties and lively company. The culture is warm and expressive, with a heavy stress on personal relationships and social harmony. The roots are collective, though a more individual streak is growing in the young. The workplace mixes hierarchy with flexibility, where a personal connection is the key to getting things done.",
     "cultural_archetype": {
-      "title": "The Familial Connector",
-      "summary": "A society where personal relationships and family bonds are the foundation of social and professional life.",
+      "title": "Warm Families",
+      "summary": "Family is the whole foundation, and warmth carries every dealing.",
       "claim_ids": [
         "C01",
         "C02",
@@ -145,12 +145,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Mexico's historical emphasis on family and community has shaped its collectivist culture, where personal relationships and social networks are crucial for both personal and professional success.",
-        "claim_ids": [
-          "C01",
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "Catholic family tradition layered onto Mesoamerican community structures makes the extended family the unit of decision and support."
+      },
+      {
+        "text": "Spanish colonial administration left a formal, hierarchical system that people navigate through personal connections."
+      },
+      {
+        "text": "A dense festival calendar, from Day of the Dead to patron-saint fiestas, established public expression as ordinary."
       }
     ],
     "competing_forces": [
@@ -241,7 +242,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Mexico feels vibrant and interconnected, with family and social bonds at the core of daily interactions. The culture's warmth and expressiveness are evident in lively conversations and gestures, while the workplace balances hierarchy with personal connections. Newcomers quickly notice the importance of relationships in both personal and professional realms.",
+      "text": "It feels lively and connected, with family and social bonds at the core of the day. The warmth and expressiveness show in animated talk and gestures, while work balances rank with personal ties. A newcomer quickly sees how much relationships matter, at home and on the job.",
       "claim_ids": [
         "c5",
         "C03",
@@ -251,20 +252,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of family and extended kinship networks is evident in both social and professional settings.",
-        "claim_ids": [
-          "c2",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "The warmth in greeting is immediate and physical."
       },
       {
-        "text": "The workplace environment in Mexico balances formal hierarchy with a friendly and informal communication style.",
-        "claim_ids": [
-          "C12",
-          "C14"
-        ],
-        "sources_count": 2
+        "text": "Family obligations reach into work arrangements."
+      },
+      {
+        "text": "Everything takes longer and involves more people."
       }
     ],
     "success_factors": [
@@ -404,7 +398,7 @@
         "iso3": "BLZ",
         "country": "Belize",
         "similarity": 87,
-        "explanation": "Mexico and Belize share a vibrant social culture, though Belize is more influenced by Caribbean and British traditions.",
+        "explanation": "Mexico and Belize share a lively social culture, though Belize is more influenced by Caribbean and British traditions.",
         "claim_ids": [
           "c1",
           "C02"
@@ -539,7 +533,12 @@
           "suggested_score": 40
         }
       ]
-    }
+    },
+    "best_for": [
+      "Family-oriented living",
+      "Relationship-driven business",
+      "Expressive social environments"
+    ]
   },
   "sources": [
     {
@@ -777,7 +776,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 44,
+        "score": 35,
         "confidence": "HIGH"
       },
       "D2": {
@@ -785,7 +784,7 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 71,
+        "score": 70,
         "confidence": "MEDIUM"
       },
       "D4": {

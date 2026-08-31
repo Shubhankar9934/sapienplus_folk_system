@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 25,
-        "reading": "Community-first",
-        "explanation": "Mozambique's identity is deeply rooted in collective relational networks, where community and kinship ties define individual roles and responsibilities."
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: community and relationships come before individual pursuits, so belonging, trust and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 44,
-        "reading": "Even-keeled",
-        "explanation": "Communication in Mozambique is indirect and polite, prioritising harmony and face-saving, which can mask true feelings and intentions."
+        "reading": "Restrained",
+        "explanation": "Middle: warm sociability with indirect, harmony-keeping talk, so warm, relationship-led, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
         "score": 34,
-        "reading": "Adaptable",
-        "explanation": "Mozambique's culture is relaxed and adaptive, comfortable with ambiguity and improvisation, reflecting a low tolerance for rigid structures."
+        "reading": "Fluid",
+        "explanation": "Flexible: a loose sense of time and reliance on relationships over fragile institutions keep dealing adaptable, so a human touch and give beat rigid process."
       },
       {
         "dimension": "D4",
         "score": 33,
-        "reading": "Relaxed",
-        "explanation": "While traditional values emphasize harmony and contentment, there is a growing trend towards individual achievement and economic striving, particularly in urban areas."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: survival, community and getting by come before ambition, so practical, affordable, everyday goods matter most."
       }
     ],
-    "executive_summary": "Mozambique is a country where community and relationships take precedence over individual pursuits. The culture thrives on adaptability and indirect communication, making it a place where harmony is prioritized over confrontation. The influence of traditional practices and the legacy of colonial rule are evident in daily life and social structures.",
+    "executive_summary": "Mozambique puts community and relationships ahead of individual pursuits. The culture runs on adaptability and indirect talk, a place where harmony beats confrontation. Old traditional practices and the leftover shape of colonial rule both show up in daily life and in how society is arranged.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where community bonds and adaptability are key, with a strong emphasis on relational networks and flexibility.",
+      "title": "Adaptive Communities",
+      "summary": "Community carries people, and little trust is extended to institutions.",
       "claim_ids": [
         "c1",
         "c3",
@@ -198,18 +198,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Four centuries of Portuguese rule left an indelible mark on Mozambique's business etiquette, with steep hierarchies, deference to senior figures, and protocol-conscious communication — the colonial legal-administrative system layered rule-orientation onto indigenous chiefly structure.",
-        "claim_ids": [
-          "C24"
-        ],
-        "sources_count": 1
+        "text": "Extended patrilineal households and lobolo bridewealth practice bind individuals into kinship networks."
       },
       {
-        "text": "After initially suppressing traditional chiefly authority, the Mozambican government reversed course and re-legalised customary leaders (regulos) by 1990 — indicating persistent demand for stable, recognised authority structures.",
-        "claim_ids": [
-          "C22"
-        ],
-        "sources_count": 1
+        "text": "Sixteen years of civil war destroyed infrastructure and left deep distrust of formal institutions, producing one of the lowest Structure scores."
+      },
+      {
+        "text": "Portuguese colonial rule ended abruptly in 1975 with almost no trained administration, reinforcing reliance on personal networks."
       }
     ],
     "competing_forces": [
@@ -342,7 +337,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Mozambique is deeply rooted in community and relationships, where time is flexible and interactions are guided by a sense of duty and obligation. The culture's adaptability and indirect communication style create a harmonious environment, though newcomers may need time to adjust to the subtle cues and slower pace of decision-making.",
+      "text": "Life is rooted in community and relationships, where time is loose and dealings are guided by duty and obligation. The adaptable, indirect way of communicating keeps things harmonious, though a newcomer may need time to pick up the subtle cues and the slow pace of decisions.",
       "claim_ids": [
         "C18",
         "C07",
@@ -352,32 +347,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Mozambicans are described as very relationship-oriented; making a real effort to get to know associates reflects positively — group belonging and relational obligation structure professional as well as personal life.",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
+        "text": "Nothing runs to a fixed schedule."
       },
       {
-        "text": "Mozambican culture places less emphasis on timeliness and more on relationships — low scheduling rigidity reflects a cultural tolerance for ambiguity and a fluid approach to structured time.",
-        "claim_ids": [
-          "C18"
-        ],
-        "sources_count": 1
+        "text": "Refusals are indirect and easily missed."
       },
       {
-        "text": "A sense of respect for seniority characterises business culture in Mozambique — deference to age and positional authority is a cross-cutting status signal distinguishing who holds social standing.",
-        "claim_ids": [
-          "C33"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Mozambican business communication is indirect and polite, prioritising harmony; instead of a direct 'no,' one might see nods or smiles — emotional expression is structurally filtered through face-saving and hierarchy.",
-        "claim_ids": [
-          "C11"
-        ],
-        "sources_count": 1
+        "text": "Community ties are visible everywhere."
       }
     ],
     "success_factors": [
@@ -513,7 +489,7 @@
         "iso3": "LSO",
         "country": "Lesotho",
         "similarity": 87,
-        "explanation": "Lesotho and Mozambique both prioritize community and relational networks, but Mozambique's coastal influences and historical experiences create distinct cultural dynamics.",
+        "explanation": "Lesotho and Mozambique both favor community and relational networks, but Mozambique's coastal influences and historical experiences create distinct cultural dynamics.",
         "claim_ids": [
           "C01",
           "C24"
@@ -597,6 +573,18 @@
           "suggested_score": 30
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Mozambique scores in the Restrained-to-moderate zone on Expression. Multiple independent practitioner and ethnographic sources agree on a core pattern: indirect communication is the dominant mode; disagreement and 'no' are expressed through smiles, nods, silence, or softened formulae ('vamos ver' / 'maybe'), not open confrontation. This structural suppression of emotional expression — rooted in hierarchy-deference norms and conflict-avoidance values — is the definitive D2 signal. Counter-evidence is real: music and dance are considered integral to social events, Mozambicans are described as warm and welcoming, and the Maputo urban scene is cosmopolitan and sociable. However, warmth and sociability are not the same as freedom from hierarchical suppression of expression (per the cheat sheet: Loud ≠ Open). The warmth is expressed within tightly constrained social scripts, not as unfiltered emotional disclosure. Score: 32 — restrained but not maximally so; the festive communal expressiveness and coastal openness provide an upward adjustment from the deep-restraint floor.",
+          "suggested_score": 32
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Mozambique is culturally restrained (low D2) due to the legacy of Portuguese colonial suppression of local expression, the FRELIMO one-party state's control over public discourse, and strong hierarchical deference in rural areas. Emotion is not freely displayed in formal or public settings. Counter-evidence includes vibrant artistic expression in music (marrabenta) and post-war oral poetry, but these are circumscribed, ritualised outlets, not everyday openness.",
+          "suggested_score": 35
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -614,18 +602,6 @@
           "suggested_score": 25
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Mozambique scores in the Restrained-to-moderate zone on Expression. Multiple independent practitioner and ethnographic sources agree on a core pattern: indirect communication is the dominant mode; disagreement and 'no' are expressed through smiles, nods, silence, or softened formulae ('vamos ver' / 'maybe'), not open confrontation. This structural suppression of emotional expression — rooted in hierarchy-deference norms and conflict-avoidance values — is the definitive D2 signal. Counter-evidence is real: music and dance are considered integral to social events, Mozambicans are described as warm and welcoming, and the Maputo urban scene is cosmopolitan and sociable. However, warmth and sociability are not the same as freedom from hierarchical suppression of expression (per the cheat sheet: Loud ≠ Open). The warmth is expressed within tightly constrained social scripts, not as unfiltered emotional disclosure. Score: 32 — restrained but not maximally so; the festive communal expressiveness and coastal openness provide an upward adjustment from the deep-restraint floor.",
-          "suggested_score": 32
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Mozambique is culturally restrained (low D2) due to the legacy of Portuguese colonial suppression of local expression, the FRELIMO one-party state's control over public discourse, and strong hierarchical deference in rural areas. Emotion is not freely displayed in formal or public settings. Counter-evidence includes vibrant artistic expression in music (marrabenta) and post-war oral poetry, but these are circumscribed, ritualised outlets, not everyday openness.",
-          "suggested_score": 35
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -638,7 +614,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural adaptability training",
+      "Community-focused initiatives"
+    ]
   },
   "sources": [
     {

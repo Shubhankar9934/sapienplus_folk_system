@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 30,
-        "reading": "Community-first",
-        "explanation": "Collective identity is deeply rooted in family and community, shaping social roles and responsibilities."
+        "score": 28,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family and community involvement are the core, so belonging, reputation and a personal tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 63,
-        "reading": "Expressive",
-        "explanation": "Emotional expression is open and warm, especially in personal settings, though moderated by respect for hierarchy in formal contexts."
+        "reading": "Open",
+        "explanation": "Very expressive: warm, open, emotionally shared sociability, so lively, warm, family-first branding connects."
       },
       {
         "dimension": "D3",
         "score": 51,
         "reading": "Balanced",
-        "explanation": "While some formal processes are rule-focused, everyday life is characterized by flexibility and improvisation."
+        "explanation": "Middle: respect for hierarchy and social ritual gives a soft frame while the pace stays relaxed, so clear process plus warmth and patience reassure."
       },
       {
         "dimension": "D4",
         "score": 39,
-        "reading": "Relaxed",
-        "explanation": "Quality of life and relationships are prioritized over competitive achievement, though there is a growing drive in certain sectors."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: family, community and an easy pace beat competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "In Nicaragua, life revolves around family and community, with expressive warmth in personal interactions. Professional environments balance respect for hierarchy with a growing competitive edge in some sectors. Social rituals and norms maintain harmony, while the society embraces a relaxed pace and quality of life.",
+    "executive_summary": "In Nicaragua life revolves around family and community, with a warm, expressive way in personal dealings. Work settings balance respect for rank against a growing competitive edge in some sectors. Social rituals keep the harmony, while the society favors a relaxed pace and a good life.",
     "cultural_archetype": {
-      "title": "The Communal Builder",
-      "summary": "Nicaraguan society thrives on strong community ties and expressive warmth, balancing tradition with emerging individualism.",
+      "title": "Open-hearted Families",
+      "summary": "Family and community carry life, warmly and without hurry.",
       "claim_ids": [
         "claim1",
         "claim2",
@@ -150,12 +150,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Nicaragua's history of colonial influence and the strong presence of the Roman Catholic Church have shaped its collective identity and hierarchical social structures.",
-        "claim_ids": [
-          "C19",
-          "C33"
-        ],
-        "sources_count": 2
+        "text": "Family and community involvement became the safety net through revolution, civil war and repeated economic crisis."
+      },
+      {
+        "text": "Catholic and Latin tradition keeps sociability warm, humorous and physically close."
+      },
+      {
+        "text": "Hierarchy inherited from colonial and later political structures still governs formal settings."
       }
     ],
     "competing_forces": [
@@ -251,7 +252,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Nicaragua is marked by strong family ties and community involvement, where emotions are openly shared, creating a warm and inviting atmosphere. While professional settings demand respect for hierarchy, the overall pace is relaxed, with social rituals playing a key role in maintaining harmony.",
+      "text": "It is strong family ties and community involvement, where feelings are shared openly, making a warm and inviting air. Work asks for respect toward rank, but the overall pace is relaxed, and social rituals do their part to keep the peace.",
       "claim_ids": [
         "claim1",
         "claim4",
@@ -261,25 +262,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family and community are central to identity in Nicaragua, with strong bonds influencing personal roles and social standing.",
-        "claim_ids": [
-          "claim1"
-        ],
-        "sources_count": 1
+        "text": "The warmth is immediate."
       },
       {
-        "text": "Emotions are openly expressed among family and friends, though a level of reserve is maintained in public settings.",
-        "claim_ids": [
-          "claim4"
-        ],
-        "sources_count": 1
+        "text": "Family reaches into every arrangement."
       },
       {
-        "text": "In professional environments, expression is more restrained to maintain respect for hierarchy.",
-        "claim_ids": [
-          "claim5"
-        ],
-        "sources_count": 1
+        "text": "The pace is unhurried."
       }
     ],
     "success_factors": [
@@ -418,7 +407,7 @@
         "iso3": "BLZ",
         "country": "Belize",
         "similarity": 89,
-        "explanation": "Belize and Nicaragua both emphasize community and family bonds, but Belize's cultural mix includes a stronger Caribbean influence.",
+        "explanation": "Belize and Nicaragua both stress community and family bonds, but Belize's cultural mix includes a stronger Caribbean influence.",
         "claim_ids": [
           "claim1",
           "claim2"
@@ -555,7 +544,12 @@
           "suggested_score": 30
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Open, expressive teams",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {
@@ -848,7 +842,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 30,
+        "score": 28,
         "confidence": "MEDIUM"
       },
       "D2": {

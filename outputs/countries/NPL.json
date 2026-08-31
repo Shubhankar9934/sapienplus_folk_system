@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 30,
-        "reading": "Community-first",
-        "explanation": "Nepal's identity is deeply tied to collectivism, with family and caste systems playing a central role in defining one's place in society."
+        "score": 29,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: the joint family and caste-community define identity, so belonging, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 35,
-        "reading": "Understated",
-        "explanation": "Emotional expression in Nepal is context-dependent, with restraint being the norm in daily interactions but exuberance allowed during festivals."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, hierarchy-and-age-respecting talk keeps harmony, so gentle, respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 47,
         "reading": "Balanced",
-        "explanation": "Nepalese society is structured and hierarchical, with a strong preference for order and predictability in social and professional settings."
+        "explanation": "Middle: caste and hierarchy give a social frame while a loose sense of time and reliance on relationships keep dealing flexible."
       },
       {
         "dimension": "D4",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "While Nepal values harmony and quality of life, there is also a significant drive for economic advancement, especially through labor migration."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: family, community and getting by come before competition, though urban aspiration grows, so practical, communal goods lead."
       }
     ],
-    "executive_summary": "Nepal is a society deeply rooted in collectivism, where family and community bonds are paramount. Hierarchical structures define social interactions, with respect for age and status shaping communication. While traditional values prevail, urban areas are experiencing a shift towards individualism. Festivals provide a vibrant contrast to everyday restraint, offering a glimpse into the country's rich cultural tapestry.",
+    "executive_summary": "Nepal is deeply collective, where family and community bonds come first. Hierarchies shape how people deal with each other, with respect for age and status setting the tone of talk. The old values rule, though the cities are shifting toward individualism. The festivals are a loud contrast to everyday restraint, a window onto a rich cultural mix.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective bonds are strong, yet adaptability is key in navigating social and professional landscapes.",
+      "title": "Layered Families",
+      "summary": "Family and caste set the roles, and festivals lift the restraint.",
       "claim_ids": [
         "c1",
         "c2",
@@ -150,12 +150,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Nepal's history of caste-based social organization and its geographical isolation have reinforced a collectivist culture with deep-rooted hierarchical structures.",
-        "claim_ids": [
-          "C06",
-          "C19"
-        ],
-        "sources_count": 2
+        "text": "The joint family and caste system prescribes social roles and makes identity inherited."
+      },
+      {
+        "text": "Hierarchy of age, caste and status orders every exchange and keeps talk deferential."
+      },
+      {
+        "text": "Mountain geography and heavy labour migration abroad keep households dependent on kin networks and remittances."
       }
     ],
     "competing_forces": [
@@ -259,7 +260,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Nepal is a tapestry of collective responsibilities and vibrant cultural expressions. The joint family system and caste structures define social roles, while festivals offer a joyful escape from everyday restraint. Navigating social and professional settings requires an understanding of hierarchy and indirect communication, making adaptability a key skill for newcomers.",
+      "text": "It is collective duty and lively celebration. The joint family and the caste structure set social roles, while festivals bring a joyful break from everyday restraint. Getting along in social and working life means understanding hierarchy and indirect talk, so adaptability is a newcomer's key skill.",
       "claim_ids": [
         "c2",
         "c5",
@@ -270,12 +271,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Respect for hierarchy and age is evident in both social and professional interactions.",
-        "claim_ids": [
-          "c4",
-          "c5"
-        ],
-        "sources_count": 2
+        "text": "Deference to elders is immediate."
+      },
+      {
+        "text": "Festivals dominate the calendar."
+      },
+      {
+        "text": "The pace is unhurried."
       }
     ],
     "success_factors": [
@@ -542,7 +544,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Community-driven projects"
+    ]
   },
   "sources": [
     {
@@ -890,7 +897,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 30,
+        "score": 29,
         "confidence": "HIGH"
       },
       "D2": {

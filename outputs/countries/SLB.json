@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 20,
-        "reading": "Community-first",
-        "explanation": "Group affiliation and kinship networks are central to identity, overshadowing individualism."
+        "score": 18,
+        "reading": "Strongly Social",
+        "explanation": "Extremely community-first: the 'wantok' (one-language) network defines identity and access to resources, so group affiliation drives everything."
       },
       {
         "dimension": "D2",
         "score": 46,
-        "reading": "Even-keeled",
-        "explanation": "Expression is restrained in formal settings, with respect for hierarchy and context-sensitive communication."
+        "reading": "Balanced",
+        "explanation": "Middle-reserved: respect for rank and restrained expression govern, so warm-but-respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 61,
-        "reading": "Structured",
-        "explanation": "Customary practices and kinship networks provide a structured and predictable framework for daily life."
+        "reading": "Certain",
+        "explanation": "Structured by custom: customary practice and hierarchy give a firm, predictable social frame, so the known way and standing carry weight."
       },
       {
         "dimension": "D4",
-        "score": 32,
-        "reading": "Relaxed",
-        "explanation": "A subsistence economy and cultural emphasis on harmony over competition lead to a relaxed approach to achievement."
+        "score": 29,
+        "reading": "Strongly Accepting",
+        "explanation": "Strongly quality-of-life: a subsistence economy and communal life, an easy pace over competition, so practical, communal goods matter most."
       }
     ],
-    "executive_summary": "In the Solomon Islands, the wantok system defines social identity and access to resources, making group affiliation paramount. Hierarchical respect and restrained expression shape interactions, while customary practices provide structure and predictability. Economic life is largely subsistence-based, with a relaxed attitude towards competition and achievement.",
+    "executive_summary": "In the Solomon Islands the wantok system, the web of obligation among people who share a language, defines who you are and what resources you can reach, so group affiliation is everything. Respect for rank and a restrained way of expressing feeling shape dealings, while customary practice gives structure and predictability. Life is largely subsistence, with an easy attitude toward competition and achievement.",
     "cultural_archetype": {
-      "title": "The Communal Navigator",
-      "summary": "A society where group identity and mutual support guide daily life and decision-making.",
+      "title": "Kinship Households",
+      "summary": "The wantok network decides who helps whom, and custom settles the rest.",
       "claim_ids": [
         "c1",
         "C01",
@@ -163,12 +163,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The wantok system and kastom have evolved as adaptive strategies in response to colonial rule and economic constraints, reinforcing group identity and social cohesion.",
-        "claim_ids": [
-          "c3",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "The wantok system of obligation among those sharing a language defines identity and access to resources, producing the lowest Identity score in the set."
+      },
+      {
+        "text": "Kastom governs land tenure, marriage and dispute resolution, supplying a firm customary order."
+      },
+      {
+        "text": "A largely subsistence economy across scattered islands keeps competition low and sharing normal."
       }
     ],
     "competing_forces": [
@@ -265,7 +266,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Solomon Islands revolves around the wantok system, where group identity and mutual support guide daily interactions. Hierarchical respect and restrained expression are the norms, while customary practices provide a predictable structure. Economic life is largely subsistence-based, with a relaxed approach to competition and achievement, making life feel communal and steady.",
+      "text": "Life revolves around the wantok system, where group identity and mutual support guide the day. Respect for rank and restrained expression are the norm, while old custom provides a predictable frame. The economy is mostly subsistence, with a relaxed take on competition, so life feels communal and steady.",
       "claim_ids": [
         "c1",
         "C01",
@@ -277,20 +278,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Respect for elders and restrained expression are evident in interactions, with hierarchies shaping communication.",
-        "claim_ids": [
-          "C10",
-          "c6"
-        ],
-        "sources_count": 2
+        "text": "Wantok obligations shape everything."
       },
       {
-        "text": "Customary practices provide a structured framework for daily life, reducing ambiguity and fostering predictability.",
-        "claim_ids": [
-          "C17",
-          "c9"
-        ],
-        "sources_count": 2
+        "text": "The pace is unhurried."
+      },
+      {
+        "text": "Custom governs more than formal law."
       }
     ],
     "success_factors": [
@@ -405,7 +399,7 @@
         "iso3": "FJI",
         "country": "Fiji",
         "similarity": 90,
-        "explanation": "Both Solomon Islands and Fiji emphasize communal living and kinship networks, but Solomon Islands has a stronger focus on customary practices.",
+        "explanation": "Both Solomon Islands and Fiji stress communal living and kinship networks, but Solomon Islands has a stronger focus on customary practices.",
         "claim_ids": [
           "c1",
           "C02"
@@ -427,7 +421,7 @@
         "iso3": "PNG",
         "country": "Papua New Guinea",
         "similarity": 80,
-        "explanation": "Papua New Guinea and Solomon Islands both prioritize clan-based authority and customary practices, but Solomon Islands has a more pronounced wantok system.",
+        "explanation": "Papua New Guinea and Solomon Islands both favor clan-based authority and customary practices, but Solomon Islands has a more pronounced wantok system.",
         "claim_ids": [
           "c1",
           "C02"
@@ -558,7 +552,12 @@
           "suggested_score": 20
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven projects",
+      "Cultural exchange programs",
+      "Social enterprises"
+    ]
   },
   "sources": [
     {
@@ -928,7 +927,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 20,
+        "score": 18,
         "confidence": "MEDIUM"
       },
       "D2": {
@@ -940,7 +939,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 32,
+        "score": 29,
         "confidence": "LOW"
       }
     },

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 26,
-        "reading": "Community-first",
-        "explanation": "North Korean identity is deeply rooted in collectivism, where personal identity is subsumed under the collective and loyalty to the nation and leadership is paramount."
+        "score": 20,
+        "reading": "Strongly Social",
+        "explanation": "Extremely community-first: the collective and the state swallow the individual, so belonging, conformity and standing drive everything, with a hidden private self underneath."
       },
       {
         "dimension": "D2",
-        "score": 24,
-        "reading": "Reserved",
-        "explanation": "Emotional expression in North Korea is highly regulated, with public displays often being coerced and genuine emotions reserved for private settings."
+        "score": 23,
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: public feeling is heavily policed, so composed, correct, conformist presentation is the norm and open emotion is risky."
       },
       {
         "dimension": "D3",
-        "score": 79,
-        "reading": "Highly structured",
-        "explanation": "North Korea operates under a rigid hierarchical system with strict rules and predictable order, leaving little room for ambiguity or deviation."
+        "score": 80,
+        "reading": "Strongly Certain",
+        "explanation": "Very highly structured: rigid hierarchy, control and rules give a near-total frame, so the official channel and standing dominate, while grey-market improvisation runs underneath."
       },
       {
         "dimension": "D4",
         "score": 38,
-        "reading": "Relaxed",
-        "explanation": "While North Korea emphasizes revolutionary achievement and national independence, individual striving is often limited by predetermined social status and systemic constraints."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life-and-survival leaning officially, but a real private hustle: the jangmadang markets drive an entrepreneurial streak, so practical value and quiet advantage matter most."
       }
     ],
-    "executive_summary": "North Korea is a tightly controlled society where collective identity overshadows the individual. Public emotional expression is heavily regulated, and life is organized around rigid hierarchies. Despite this, informal markets and private gatherings reveal a hidden layer of individualism and emotional release.",
+    "executive_summary": "North Korea is a tightly controlled place, where the collective swallows the individual. Public feeling is heavily policed, and life is arranged around rigid hierarchies. And yet the informal markets and private gatherings show a hidden layer of individualism and quiet emotional release.",
     "cultural_archetype": {
-      "title": "The Collective Conformer",
-      "summary": "A society where the collective identity and state control overshadow individual expression and autonomy.",
+      "title": "Regimented Collective",
+      "summary": "The collective and the state take precedence, with a private life kept out of sight.",
       "claim_ids": [
         "c1",
         "c2",
@@ -198,13 +198,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "North Korea's collectivist culture and rigid societal structure are deeply influenced by its Confucian heritage and the totalitarian nature of its political system.",
-        "claim_ids": [
-          "C02",
-          "C03",
-          "C21"
-        ],
-        "sources_count": 3
+        "text": "Total state control and the juche ideology subordinate the individual to the collective, producing the lowest Identity score in the set."
+      },
+      {
+        "text": "The songbun classification system fixes status by inherited political background, creating a rigidly ordered society."
+      },
+      {
+        "text": "The famine of the 1990s spawned the jangmadang grey markets, which introduced private enterprise beneath the official system."
       }
     ],
     "competing_forces": [
@@ -302,7 +302,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in North Korea is a dance between the collective and the individual, where public life is dominated by state control and collectivist norms, yet private moments offer glimpses of personal expression and entrepreneurial spirit. The jangmadang economy provides a space for individual initiative, while friendships offer a rare outlet for genuine emotional connection.",
+      "text": "It is a push and pull between the collective and the individual. Public life is ruled by the state and its collectivist norms, while private moments give glimpses of personal expression and an entrepreneurial streak. The jangmadang, the grey-market stalls that sprang up after the famine years, leave room for individual initiative, and friendships offer a rare outlet for real feeling.",
       "claim_ids": [
         "c2",
         "c5",
@@ -312,20 +312,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The omnipresent state control and emphasis on collective identity are immediately apparent, with public life tightly regulated.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "Public life is uniform and controlled."
       },
       {
-        "text": "Public emotional displays are choreographed and coerced, yet private interactions reveal a more genuine side of human connection.",
-        "claim_ids": [
-          "c8",
-          "c9"
-        ],
-        "sources_count": 2
+        "text": "Private and public conduct differ completely."
+      },
+      {
+        "text": "Informal markets operate beneath the official economy."
       }
     ],
     "success_factors": [
@@ -464,7 +457,7 @@
         "iso3": "KOR",
         "country": "South Korea",
         "similarity": 74,
-        "explanation": "While both Koreas share a common cultural heritage, South Korea's vibrant democracy and global economic integration starkly contrast with North Korea's authoritarian system.",
+        "explanation": "While both Koreas share a common cultural heritage, South Korea's lively democracy and global economic integration starkly contrast with North Korea's authoritarian system.",
         "claim_ids": [
           "C02",
           "C03"
@@ -599,7 +592,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Understanding hierarchical societies",
+      "Studying collectivist cultures",
+      "Exploring controlled emotional expression"
+    ]
   },
   "sources": [
     {
@@ -958,15 +956,15 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 26,
+        "score": 20,
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 24,
+        "score": 23,
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 79,
+        "score": 80,
         "confidence": "MEDIUM"
       },
       "D4": {

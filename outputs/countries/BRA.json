@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 53,
-        "reading": "Balanced",
-        "explanation": "Collectivist values are deeply embedded, with family and group loyalty shaping identity and social interactions."
+        "score": 40,
+        "reading": "Social",
+        "explanation": "Tilts communal: family and a warm circle of personal ties anchor identity, though a rising individualism shows in the young, so a personal relationship beats a rule and word-of-mouth drives choices."
       },
       {
         "dimension": "D2",
-        "score": 71,
-        "reading": "Highly expressive",
-        "explanation": "Expressive communication is common, with open displays of emotion and tactile interactions being typical in social settings."
+        "score": 72,
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, tactile and emotionally open, so bold, joyful, music- and story-rich branding and shareable experiences thrive while cold formality falls flat."
       },
       {
         "dimension": "D3",
-        "score": 64,
-        "reading": "Structured",
-        "explanation": "Despite a strong need for rules and structure, Brazilians often employ creative solutions to navigate around rigid systems."
+        "score": 59,
+        "reading": "Certain",
+        "explanation": "Somewhat structured but worked around: Brazil loves rules and makes many, then invents the jeitinho, the friendly workaround, so flexibility and a human contact build trust while rigid terms invite the runaround."
       },
       {
         "dimension": "D4",
-        "score": 56,
+        "score": 52,
         "reading": "Balanced",
-        "explanation": "A balance between achievement and quality of life is evident, with no strong preference for competition over caring values."
+        "explanation": "Balanced: ambition is real, but leisure, family, football and Carnival weigh just as much, so goods promising enjoyment and belonging matter alongside aspiration."
       }
     ],
-    "executive_summary": "In Brazil, personal relationships are the cornerstone of both social and professional life, with expressive communication and tactile interactions being the norm. While family and group loyalty are paramount, there is a growing trend among younger generations towards individual achievement. Despite a high need for structure and rules, Brazilians often find creative ways to navigate around them, showcasing a unique blend of order and flexibility.",
+    "executive_summary": "In Brazil you do not really deal with a company. You deal with a person, warmly, up close, often with a hand on your arm. Family and the group come first, though the young are chasing their own wins now. The country loves its rules and makes an awful lot of them, and then it invents clever little ways around them. There is even a word for that friendly workaround, the jeitinho. Order and improvisation, living together.",
     "cultural_archetype": {
-      "title": "The Relational Navigator",
-      "summary": "A society where personal connections and expressive interactions guide both social and professional realms, balancing structure with creative flexibility.",
+      "title": "Relational Socials",
+      "summary": "You do business with a person, warmly and slowly, and find a way around the rule.",
       "claim_ids": [
         "c1",
         "c2",
@@ -167,11 +167,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Brazil's colonial past and the influence of Catholicism have shaped its collectivist values and high uncertainty avoidance, emphasizing family, community, and structured social systems.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Slavery, mass immigration and deep racial mixing produced a relational society where warmth and personal ties do the work."
+      },
+      {
+        "text": "A heavy Portuguese bureaucratic inheritance taught people to find the jeitinho, the friendly workaround, rather than confront the rule."
+      },
+      {
+        "text": "A tropical festival calendar and the Carnival tradition made public expression a national habit."
       }
     ],
     "competing_forces": [
@@ -249,7 +251,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Brazil feels vibrant and expressive, with tactile interactions and open displays of emotion being the norm. Family and group loyalty shape social and professional interactions, while creative flexibility allows for navigating rigid structures. Newcomers quickly notice the importance of personal relationships and the expressive nature of communication, which sets the rhythm of daily life.",
+      "text": "It feels warm and loud, full of touch and open feeling. Family and loyalty shape the day, at home and at work, while a talent for the creative workaround keeps rigid rules from getting in the way. What a newcomer notices first is how much the personal relationship matters, and how expressively people say everything.",
       "claim_ids": [
         "c4",
         "c5",
@@ -260,20 +262,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Brazilians' expressive body language and open displays of emotion stand out immediately, creating a warm and welcoming atmosphere.",
-        "claim_ids": [
-          "c4",
-          "c11"
-        ],
-        "sources_count": 2
+        "text": "Physical warmth in greeting is immediate and universal."
       },
       {
-        "text": "The importance of family and group loyalty is evident in both social and professional settings, shaping interactions and decision-making.",
-        "claim_ids": [
-          "c1",
-          "c5"
-        ],
-        "sources_count": 2
+        "text": "Almost nothing runs exactly to the stated time."
+      },
+      {
+        "text": "People talk over each other cheerfully and mean nothing by it."
       }
     ],
     "success_factors": [
@@ -371,7 +366,7 @@
         "iso3": "PER",
         "country": "Peru",
         "similarity": 91,
-        "explanation": "Both Brazil and Peru emphasize family ties and group loyalty, yet Brazil's expressive communication and creative flexibility set it apart.",
+        "explanation": "Both Brazil and Peru stress family ties and group loyalty, yet Brazil's expressive communication and creative flexibility set it apart.",
         "claim_ids": [
           "c1",
           "c2",
@@ -520,7 +515,12 @@
           "suggested_score": 48
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-focused business environments",
+      "Expressive and open communication settings",
+      "Creative problem-solving contexts"
+    ]
   },
   "sources": [
     {
@@ -659,19 +659,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 53,
+        "score": 40,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 71,
+        "score": 72,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 64,
+        "score": 59,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 56,
+        "score": 52,
         "confidence": "MEDIUM"
       }
     },

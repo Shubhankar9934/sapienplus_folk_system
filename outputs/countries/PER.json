@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 38,
-        "reading": "Group-oriented",
-        "explanation": "Peruvian culture is strongly collectivist, with deep family ties and community obligations shaping social identity."
+        "score": 26,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family ties and community obligation shape daily life, so belonging, reputation and a personal tie drive choices."
       },
       {
         "dimension": "D2",
-        "score": 65,
-        "reading": "Expressive",
-        "explanation": "While generally expressive, Peruvians often maintain emotional self-control in formal settings to preserve harmony."
+        "score": 56,
+        "reading": "Open",
+        "explanation": "Expressive in private, reserved formally: warm among friends, respectful and indirect in formal settings, so warm-but-correct, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 61,
-        "reading": "Structured",
-        "explanation": "Peru exhibits a strong preference for order and predictability, reflected in its high need for rules and structure."
+        "reading": "Certain",
+        "explanation": "Structured: respect for hierarchy and formal norms gives a frame while trust and relationships move things, so clear process plus a trusted contact reassure."
       },
       {
         "dimension": "D4",
         "score": 43,
-        "reading": "Balanced",
-        "explanation": "While there is a cultural emphasis on quality of life, there is also a recognition of achievement, especially in urban and entrepreneurial contexts."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: relationships, family and community come before competition, so practical, communal goods lead with modest aspiration."
       }
     ],
-    "executive_summary": "Peru is a society deeply rooted in collectivism, where family ties and community obligations shape daily life. While expressive and warm in personal interactions, formal settings demand respect for hierarchy and structure. This blend of openness and order is reflected in both social and professional contexts, making personal relationships central to success. Newcomers will find a culture that values trust and personal connection over direct confrontation.",
+    "executive_summary": "Peru is deeply collective, where family ties and community obligation shape the everyday. Warm and expressive among friends, people turn respectful of rank and structure in formal settings. That mix of openness and order runs through both social and working life, making personal relationships the key to getting anywhere. A newcomer finds a culture that prizes trust and connection over blunt confrontation.",
     "cultural_archetype": {
-      "title": "The Communal Connector",
-      "summary": "A society where personal relationships and collective identity guide both social and professional interactions.",
+      "title": "Rooted Socials",
+      "summary": "Family unity guides the day, formally at work and warmly outside it.",
       "claim_ids": [
         "c1",
         "c2",
@@ -162,19 +162,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The colonial legacy of social hierarchies and extractive institutions has reinforced a structured approach to social and professional interactions.",
-        "claim_ids": [
-          "claim_13"
-        ],
-        "sources_count": 1
+        "text": "Indigenous Andean community tradition and Catholic family structure make kin obligation the base of daily life."
       },
       {
-        "text": "Indigenous cultural practices emphasize collective identity and community obligations, shaping a deeply rooted collectivist society.",
-        "claim_ids": [
-          "claim_2",
-          "C06"
-        ],
-        "sources_count": 2
+        "text": "A history of hierarchy and centralised administration keeps formal settings ranked and procedural."
+      },
+      {
+        "text": "Sharp coastal, highland and Amazonian differences produce a society expressive among friends and careful in formal company."
       }
     ],
     "competing_forces": [
@@ -269,7 +263,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Peru is a tapestry of vibrant social interactions and deep-rooted family connections. While the warmth and expressiveness of everyday communication create a welcoming atmosphere, the respect for hierarchy and structured norms in professional settings demand adaptability. Trust and personal relationships are central, making social networks a key to navigating both personal and professional landscapes.",
+      "text": "It is lively company and deep family bonds. The warmth of everyday talk makes a welcoming air, while the respect for rank and structured norms at work asks for some adaptability. Trust and personal relationships are central, so the social network is the way through both private and professional life.",
       "claim_ids": [
         "c7",
         "C14",
@@ -279,32 +273,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Peruvians are generally expressive and emotive in everyday communication, with animated body language and emotive tone.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
+        "text": "Coastal, highland and jungle cultures differ markedly."
       },
       {
-        "text": "Family unity is paramount in Peru, often guiding the daily lives of individuals and shaping their identities.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "Formality at work sits beside warmth outside it."
       },
       {
-        "text": "In Peru, networks involve reciprocity and people are expected to utilize their contacts and relationships to help others when called upon.",
-        "claim_ids": [
-          "C05"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Peruvian business culture is hierarchical and relationship-oriented, with managers leading with authority balanced by warmth.",
-        "claim_ids": [
-          "C25"
-        ],
-        "sources_count": 1
+        "text": "Food is a serious matter of national pride."
       }
     ],
     "success_factors": [
@@ -427,7 +402,7 @@
         "iso3": "ECU",
         "country": "Ecuador",
         "similarity": 93,
-        "explanation": "Both Peru and Ecuador emphasize collectivism and have vibrant indigenous cultures that influence their social structures.",
+        "explanation": "Both Peru and Ecuador stress collectivism and have lively indigenous cultures that influence their social structures.",
         "claim_ids": [
           "c1",
           "claim_2"
@@ -578,7 +553,12 @@
           "suggested_score": 40
         }
       ]
-    }
+    },
+    "best_for": [
+      "Building long-term personal and professional relationships",
+      "Navigating structured environments with a personal touch",
+      "Those who value community and familial connections"
+    ]
   },
   "sources": [
     {
@@ -893,11 +873,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 38,
+        "score": 26,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 65,
+        "score": 56,
         "confidence": "HIGH"
       },
       "D3": {

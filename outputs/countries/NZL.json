@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 82,
-        "reading": "Strongly independent",
-        "explanation": "New Zealand is highly individualistic, with a strong emphasis on personal achievement and self-reliance, yet Māori collectivist values provide a counterbalance."
+        "score": 79,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual but community-minded: personal achievement and independence sit beside a strong fairness ethic and Maori communal values, so personalization works alongside an egalitarian, we're-all-equal tone."
       },
       {
         "dimension": "D2",
-        "score": 64,
-        "reading": "Expressive",
-        "explanation": "Emotional expression in New Zealand is open and optimistic, yet often understated, reflecting a balance between indulgence and restraint."
+        "score": 61,
+        "reading": "Open",
+        "explanation": "Expressive but understated: open, friendly and direct, yet modest, so warm, honest, unpretentious framing lands and boasting grates."
       },
       {
         "dimension": "D3",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "New Zealanders value practical solutions and adaptability, with a relaxed approach to uncertainty, yet maintain a structured societal framework."
+        "reading": "Fluid",
+        "explanation": "Flexible: a pragmatic, 'number 8 wire' make-it-work attitude keeps things loose, so practical, low-friction, adaptable offers fit."
       },
       {
         "dimension": "D4",
-        "score": 48,
+        "score": 50,
         "reading": "Balanced",
-        "explanation": "While success and achievement are valued, the cultural norm of modesty and the 'tall poppy syndrome' temper overt displays of ambition."
+        "explanation": "Balanced: real ambition tempered by modesty and work-life balance, so quality and well-being matter alongside understated aspiration."
       }
     ],
-    "executive_summary": "New Zealanders value independence and personal achievement, yet maintain a strong sense of community and belonging. Emotional expression is open yet often understated, reflecting a balance between optimism and restraint. The culture embraces a pragmatic approach to life, valuing practical solutions over rigid structures. While success is celebrated, overt displays of ambition are tempered by a cultural preference for modesty.",
+    "executive_summary": "New Zealanders prize independence and personal achievement, and still keep a strong sense of community and belonging. Feeling is open but usually understated, a balance of optimism and restraint. The culture is pragmatic, with a local pride in the number 8 wire knack of fixing anything with whatever is on hand, valuing practical solutions over rigid structure. Success is welcome, but showing off is tempered by a preference for modesty.",
     "cultural_archetype": {
-      "title": "The Independent Improviser",
-      "summary": "A society that values individual achievement while fostering community ties and pragmatic solutions.",
+      "title": "Warm Individualists",
+      "summary": "Independent and practical, with boasting quietly discouraged.",
       "claim_ids": [
         "C01",
         "C02",
@@ -189,12 +189,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "New Zealand's settler colonial history fostered a culture of self-reliance and individualism, while the Māori influence introduced strong communal values.",
-        "claim_ids": [
-          "claim_2",
-          "claim_4"
-        ],
-        "sources_count": 2
+        "text": "A settler society combined with Māori communal tradition produced high individualism alongside a strong fairness ethic."
+      },
+      {
+        "text": "The tall-poppy reflex, inherited from Australian and British egalitarianism, discourages visible self-promotion."
+      },
+      {
+        "text": "Isolation and small population bred the 'number 8 wire' habit of practical improvisation, keeping Structure flexible."
       }
     ],
     "competing_forces": [
@@ -385,7 +386,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in New Zealand feels like a dance between independence and community. Day-to-day interactions reflect a relaxed yet structured approach, where personal achievements are valued but modesty is expected. Social gatherings and workplace interactions are open and egalitarian, yet emotional expression remains understated. The balance between practical problem-solving and adherence to social norms creates a unique rhythm that newcomers quickly adapt to.",
+      "text": "It feels like a dance between independence and community. Day to day, people are relaxed but organized, valuing personal achievement while expecting modesty. Gatherings and workplaces are open and egalitarian, yet feeling stays understated. The mix of practical problem-solving and social norm makes a rhythm a newcomer picks up fast.",
       "claim_ids": [
         "c2",
         "c5",
@@ -395,46 +396,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Language use in social media shows individuals aligning their lexicon to place identity, reflecting personal identity aligned with locale.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "The informality is immediate and universal."
       },
       {
-        "text": "Imagined communities and shared national identity function through common values and norms reinforcing group belonging.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Understatement is the register."
       },
       {
-        "text": "Study of emotional reactions to scenarios invoking whakamā shows restraint and shame affect expression in Māori and Pākehā contexts.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Pākehā workplace norms in New Zealand are taken-for-granted and only noticed when broken, indicating strong normative structure.",
-        "claim_ids": [
-          "c8"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Social interactions — including post-work Friday drinks and team-building activities — are a key institutionalised part of Kiwi workplace culture, reflecting structurally free social expression.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Tall poppy syndrome is most notably observed in New Zealand, where cultural norms discourage individual distinction in favour of collective modesty — functioning as a documented institutional brake on overt striving and achievement display.",
-        "claim_ids": [
-          "C28"
-        ],
-        "sources_count": 1
+        "text": "Distance and the outdoors shape everything."
       }
     ],
     "success_factors": [
@@ -567,7 +535,7 @@
         "iso3": "FJI",
         "country": "Fiji",
         "similarity": 68,
-        "explanation": "Fiji and New Zealand both emphasize community and hospitality, but New Zealand's individualistic tendencies and pragmatic approach to problem-solving highlight key differences.",
+        "explanation": "Fiji and New Zealand both stress community and hospitality, but New Zealand's individualistic tendencies and pragmatic approach to problem-solving highlight key differences.",
         "claim_ids": [
           "claim_4",
           "claim_13"
@@ -681,7 +649,12 @@
           "suggested_score": 58
         }
       ]
-    }
+    },
+    "best_for": [
+      "Creative problem solvers",
+      "Teams valuing open communication",
+      "Individuals seeking work-life balance"
+    ]
   },
   "sources": [
     {
@@ -1205,11 +1178,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 82,
+        "score": 79,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 64,
+        "score": 61,
         "confidence": "HIGH"
       },
       "D3": {
@@ -1217,7 +1190,7 @@
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 48,
+        "score": 50,
         "confidence": "MEDIUM"
       }
     },

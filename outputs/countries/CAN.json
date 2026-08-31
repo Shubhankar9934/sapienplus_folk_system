@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 86,
-        "reading": "Strongly independent",
-        "explanation": "Canada's individualism is tempered by a sense of community and social responsibility, creating a unique blend of personal autonomy and collective welfare."
+        "score": 85,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal autonomy and choice are prized, balanced by a strong sense of fairness and community, so 'made for you' works alongside an inclusive, we-all-belong tone."
       },
       {
         "dimension": "D2",
-        "score": 83,
-        "reading": "Highly expressive",
-        "explanation": "Canadians express emotions freely but maintain a polite and reserved demeanor, avoiding overt displays of emotion."
+        "score": 73,
+        "reading": "Strongly Open",
+        "explanation": "Expressive but polite: open and friendly, yet reserved and careful not to offend, so warm, considerate, understated framing lands better than aggressive or brash."
       },
       {
         "dimension": "D3",
-        "score": 44,
+        "score": 48,
         "reading": "Balanced",
-        "explanation": "Canada values order and predictability in public life, yet exhibits a comfort with ambiguity and fluid social norms."
+        "explanation": "Middle, tilting flexible: rules and institutions are trusted, but the style is easygoing and accommodating, so clear terms plus friendly flexibility reassure."
       },
       {
         "dimension": "D4",
-        "score": 59,
-        "reading": "Achievement-oriented",
-        "explanation": "While Canadians value achievement and hard work, they also prioritize work-life balance and quality of life."
+        "score": 57,
+        "reading": "Striving",
+        "explanation": "Balanced: personal achievement matters, tempered by a strong work-life balance and modesty, so quality and well-being matter alongside aspiration, without the hard flash."
       }
     ],
-    "executive_summary": "Canada balances individual autonomy with a strong sense of community, creating a unique blend of independence and social responsibility. Canadians value personal expression but maintain a reserved politeness, avoiding overt displays of emotion. While the work culture emphasizes individual initiative and teamwork, there is a strong commitment to work-life balance. The country's multicultural identity fosters tolerance and acceptance, making it a welcoming place for diverse backgrounds.",
+    "executive_summary": "Canada gives the individual plenty of room but expects a sense of responsibility to come with it. People value self-expression and yet keep a reserved politeness, steering clear of big emotional displays. Work rewards personal initiative and teamwork both, and a life outside the job is taken seriously. The country's many cultures have bred a real habit of tolerance.",
     "cultural_archetype": {
-      "title": "The Deferential Individualist",
-      "summary": "Canada combines strong individualist values with a sense of social responsibility and community.",
+      "title": "Polite Individualists",
+      "summary": "People run their own lives while taking fairness and each other seriously.",
       "claim_ids": [
         "c1",
         "c2",
@@ -156,12 +156,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Canada's multicultural policies and social welfare systems have been shaped by its historical commitment to diversity and inclusion, fostering a society that values both individual rights and collective welfare.",
-        "claim_ids": [
-          "c4",
-          "c8"
-        ],
-        "sources_count": 2
+        "text": "A vast country settled by successive waves of immigrants who left kin networks behind produced one of the highest Identity scores recorded."
+      },
+      {
+        "text": "A comprehensive welfare state and public healthcare made independence affordable while creating a shared civic identity."
+      },
+      {
+        "text": "An official multiculturalism policy since 1971 built accommodation and careful politeness into public conduct."
       }
     ],
     "competing_forces": [
@@ -255,7 +256,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Canada feels like balancing personal freedom with a strong sense of community. Canadians enjoy a high degree of personal autonomy while valuing tolerance and equality. The work environment encourages individual initiative and teamwork, and social interactions are marked by politeness and indirect communication. This blend of independence and social responsibility creates a welcoming and inclusive atmosphere.",
+      "text": "It feels like personal freedom braced by a sense of community. People enjoy a lot of autonomy while prizing fairness and equality. Work invites initiative and teamwork, and social life runs on politeness and a soft, indirect way of speaking. The result is welcoming and roomy.",
       "claim_ids": [
         "c2",
         "c3",
@@ -267,25 +268,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Canadians prioritize personal autonomy and self-fulfillment, but also rank 'tolerance' and 'equality' as top societal values – an individualist ethos nested within a social democratic framework.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "The apologising is constant and mostly reflexive."
       },
       {
-        "text": "Canadian workplace culture strongly emphasises teamwork: working well with others, sharing responsibility, and mutual respect are described as core values — signalling that pure self-interest is socially moderated.",
-        "claim_ids": [
-          "c9"
-        ],
-        "sources_count": 1
+        "text": "Direct confrontation is avoided in almost every setting."
       },
       {
-        "text": "Canadians generally avoid controversial topics — politics, religion, money — in everyday casual conversation, treating them as too personal or potentially confrontational; this topic-avoidance moderates emotional openness.",
-        "claim_ids": [
-          "c35"
-        ],
-        "sources_count": 1
+        "text": "Winter shapes the calendar and the spending in it."
       }
     ],
     "success_factors": [
@@ -449,6 +438,18 @@
           "suggested_score": 84
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede's Indulgence score of 68 sets a moderately open baseline. Canada values leisure, personal freedom, and warmth — consistent with moderate-to-open expression. However, the richly documented 'sorry culture', conflict-avoidance, indirect communication in management feedback, the norm of not displaying strong emotion publicly, and the preference for polite reserve with strangers all constitute structural suppression of open emotional display — especially in formal and public contexts. The indulgence score reflects hedonic freedom (leisure, fun) more than uninhibited emotional expression in social hierarchies. The net position is close to midrange, slightly above the midpoint: freer than East Asian restraint, more guarded than Mediterranean or Latin American cultures. Score 52 reflects this genuine tension.",
+          "suggested_score": 52
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Canada scores as moderately open on Hofstede Indulgence (68) generally approving of free emotional expression and leisure. However, this is tempered by a strong norm of politeness, indirectness, and conflict avoidance (the 'Canadian apology reflex'), which suppresses open confrontation. A newcomer finds Canadians warm but reserved; emotional display is permissible but within social boundaries – what Lipset called 'deferential individualism'.",
+          "suggested_score": 75
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -466,18 +467,6 @@
           "suggested_score": 55
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Hofstede's Indulgence score of 68 sets a moderately open baseline. Canada values leisure, personal freedom, and warmth — consistent with moderate-to-open expression. However, the richly documented 'sorry culture', conflict-avoidance, indirect communication in management feedback, the norm of not displaying strong emotion publicly, and the preference for polite reserve with strangers all constitute structural suppression of open emotional display — especially in formal and public contexts. The indulgence score reflects hedonic freedom (leisure, fun) more than uninhibited emotional expression in social hierarchies. The net position is close to midrange, slightly above the midpoint: freer than East Asian restraint, more guarded than Mediterranean or Latin American cultures. Score 52 reflects this genuine tension.",
-          "suggested_score": 52
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Canada scores as moderately open on Hofstede Indulgence (68) generally approving of free emotional expression and leisure. However, this is tempered by a strong norm of politeness, indirectness, and conflict avoidance (the 'Canadian apology reflex'), which suppresses open confrontation. A newcomer finds Canadians warm but reserved; emotional display is permissible but within social boundaries – what Lipset called 'deferential individualism'.",
-          "suggested_score": 75
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -490,7 +479,11 @@
           "suggested_score": 52
         }
       ]
-    }
+    },
+    "best_for": [
+      "Individuals valuing diversity and multicultural environments",
+      "Teams focusing on collaboration and mutual respect"
+    ]
   },
   "sources": [
     {
@@ -739,19 +732,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 86,
+        "score": 85,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 83,
+        "score": 73,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 44,
+        "score": 48,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 59,
+        "score": 57,
         "confidence": "MEDIUM"
       }
     },

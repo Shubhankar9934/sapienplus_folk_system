@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 34,
-        "reading": "Group-oriented",
-        "explanation": "Malaysia's identity is deeply collectivist, with group loyalty and ethnic identity defining the self."
+        "score": 26,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: ethnic-community and family belonging come first, so group harmony, elder approval and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 38,
-        "reading": "Understated",
-        "explanation": "Emotional expression is restrained, with an emphasis on patience and respect in public interactions."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, smile-and-soften, face-protecting talk keeps harmony across communities, so gentle, warm, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
-        "score": 28,
-        "reading": "Flexible",
-        "explanation": "A relaxed approach to time and rules reflects a cultural comfort with ambiguity and low need for strict structure."
+        "score": 39,
+        "reading": "Fluid",
+        "explanation": "Flexible: a relaxed 'tidak apa' (never mind) attitude and relationship-first dealing keep things loose, so patience and a human touch beat rigid schedules."
       },
       {
         "dimension": "D4",
-        "score": 41,
-        "reading": "Relaxed",
-        "explanation": "While some ethnic groups exhibit strong achievement drive, the overall cultural orientation balances striving with quality of life."
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Balanced: getting ahead matters within a communal frame, so both aspiration and belonging drive choices, and multi-ethnic festivals shape shared consumption."
       }
     ],
-    "executive_summary": "Malaysia is a tapestry of ethnic diversity, where collective identity and social harmony are paramount. Emotional restraint and indirect communication are cultural norms, while a relaxed attitude towards time reflects a low need for strict structure. The country's multi-ethnic festivals and communal activities highlight its vibrant social life.",
+    "executive_summary": "Malaysia is a mix of peoples, where collective identity and social harmony come first. Emotional restraint and indirect talk are the norm, and an easy attitude toward time shows a low need for rigid structure. The multi-ethnic festivals and communal life make for a rich social world.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society that thrives on collective identity and flexibility, balancing tradition with modernity.",
+      "title": "Harmonious Kin",
+      "summary": "Harmony between communities is protected, and small imperfections are shrugged off.",
       "claim_ids": [
         "claim1",
         "claim2"
@@ -96,11 +96,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "British colonial policies reinforced ethnic divisions, shaping Malaysia's collective identity and institutional structures.",
-        "claim_ids": [
-          "C28"
-        ],
-        "sources_count": 1
+        "text": "A multi-ethnic settlement of Malay, Chinese and Indian communities makes harmony a practical requirement, keeping Identity communal and Expression restrained."
+      },
+      {
+        "text": "The tidak apa ethic, a shrug at small imperfections, and a large informal sector keep Structure loose."
+      },
+      {
+        "text": "Shared festival calendars across communities established mutual accommodation as ordinary."
       }
     ],
     "competing_forces": [
@@ -198,7 +200,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Malaysia flows at a relaxed pace, with a 'tidak apa' attitude towards time and imperfections. Relationships are central, with trust and personal bonds forming the backbone of both social and professional interactions. Ethnic diversity enriches daily life, with multi-ethnic festivals providing vibrant expressions of cultural identity.",
+      "text": "Life runs at a relaxed pace, with a tidak apa attitude, a shrug at time and at small imperfections. Relationships are central, and trust and personal bonds are the backbone of both social and working life. The ethnic diversity fills the days, with festivals from every community giving color to a shared identity.",
       "claim_ids": [
         "C22",
         "C07",
@@ -208,28 +210,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strategic use of silence and indirect communication can initially confuse newcomers accustomed to directness.",
-        "claim_ids": [
-          "claim6",
-          "C13"
-        ],
-        "sources_count": 2
+        "text": "The multi-ethnic mix shapes food, festival and speech."
       },
       {
-        "text": "The strong emphasis on ethnic and religious identity is immediately noticeable in social and professional settings.",
-        "claim_ids": [
-          "c2",
-          "C06"
-        ],
-        "sources_count": 2
+        "text": "Politeness is constant and indirect."
       },
       {
-        "text": "A relaxed approach to time and rules, embodied by the 'tidak apa' mentality, is evident in daily interactions.",
-        "claim_ids": [
-          "C22",
-          "C23"
-        ],
-        "sources_count": 2
+        "text": "The pace is relaxed."
       }
     ],
     "success_factors": [
@@ -498,7 +485,12 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cross-cultural communication training",
+      "Community-focused initiatives"
+    ]
   },
   "sources": [
     {
@@ -846,7 +838,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 34,
+        "score": 26,
         "confidence": "HIGH"
       },
       "D2": {
@@ -854,11 +846,11 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 28,
+        "score": 39,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 41,
+        "score": 46,
         "confidence": "MEDIUM"
       }
     },

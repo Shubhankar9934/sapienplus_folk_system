@@ -1,27 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import {
-  ChevronDown,
-  ShieldCheck,
-  Sparkles,
-  Star,
-  Quote,
-  TrendingUp,
-  TrendingDown,
-  Eye,
-  Users2,
-  MessageSquare,
-  Crown,
-  GitCompareArrows,
-  Scale,
-  ListChecks,
-  Heart,
-  Fingerprint,
-} from "lucide-react";
-import { useState, type ReactNode } from "react";
-import { Card, SectionTitle, EmptyState } from "@/components/ui";
-import { evidenceRating, confidenceMeta, type ConfidenceLabel } from "@/lib/dimensions";
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
+import { EmptyState } from "@/components/ui";
 import { flagEmoji } from "@/lib/utils";
 import {
   useSimilar,
@@ -38,175 +20,269 @@ import {
   type ExperienceVariation,
 } from "@/lib/api";
 
-function SourcesChip({ count }: { count: number }) {
-  if (!count) return null;
+// ─── Shared primitives ────────────────────────────────────────────────────
+
+function EditorialHeading({ children }: { children: React.ReactNode }) {
   return (
-    <span className="inline-flex items-center gap-1 rounded-full border border-line bg-bg-soft px-2 py-0.5 text-[11px] text-ink-dim">
-      <ShieldCheck className="h-3 w-3 text-pos" />
-      Supported by {count} {count === 1 ? "source" : "sources"}
+    <h2 className="font-display text-[1.6rem] uppercase leading-[0.9] tracking-[-0.01em] text-ink dark:text-white">
+      {children}
+    </h2>
+  );
+}
+
+function SectionLabel({ children }: { children: React.ReactNode }) {
+  return (
+    <p className="text-[9px] font-bold uppercase tracking-[0.26em] text-coral-strong dark:text-[#E14B3C]">
+      {children}
+    </p>
+  );
+}
+
+function Hairline() {
+  return <div className="h-px w-full bg-ink/10 dark:bg-white/8" />;
+}
+
+function ScoreBar({ value }: { value: number }) {
+  const pct = Math.max(0, Math.min(100, value));
+  return (
+    <div className="relative h-px w-full bg-ink/12 dark:bg-white/10">
+      <div
+        className="absolute left-0 top-0 h-full bg-coral-strong dark:bg-[#E14B3C]"
+        style={{ width: `${pct}%` }}
+      />
+    </div>
+  );
+}
+
+function Tag({ children }: { children: React.ReactNode }) {
+  return (
+    <span className="rounded-sm border border-ink/20 px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.1em] text-ink/60 dark:border-white/15 dark:text-white/50">
+      {children}
     </span>
   );
 }
 
-function ObservationRow({ obs }: { obs: Observation }) {
+function BulletRow({ text }: { text: string }) {
   return (
-    <li className="flex items-start gap-2 text-sm text-ink-soft leading-relaxed">
-      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-      <span>
-        {obs.text}
-        {obs.sources_count > 0 && (
-          <span className="ml-2 align-middle">
-            <SourcesChip count={obs.sources_count} />
-          </span>
-        )}
-      </span>
+    <li className="flex items-start gap-3 text-[13px] leading-relaxed text-ink/70 dark:text-white/60">
+      <span className="mt-[0.4em] h-1 w-1 shrink-0 rounded-full bg-coral-strong dark:bg-[#E14B3C]" />
+      <span>{text}</span>
     </li>
   );
 }
 
-function ConfidenceBar({
-  label,
-  value,
-  band,
-}: {
-  label: string;
-  value: number;
-  band: string;
-}) {
-  const color = confidenceMeta(band as ConfidenceLabel).color;
-  return (
-    <div className="flex items-center gap-2">
-      <span className="w-28 shrink-0 text-[10px] uppercase tracking-wide text-ink-dim">
-        {label}
-      </span>
-      <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-bg-soft">
-        <span
-          className="block h-full rounded-full"
-          style={{ width: `${Math.max(0, Math.min(100, value))}%`, backgroundColor: color }}
-        />
-      </span>
-      <span
-        className="w-16 shrink-0 text-right text-[10px] font-medium"
-        style={{ color }}
-      >
-        {band}
-      </span>
-    </div>
-  );
+function ObsRow({ obs }: { obs: Observation }) {
+  return <BulletRow text={obs.text} />;
 }
 
-function ThemeCard({ theme }: { theme: CulturalTheme }) {
-  const rating = evidenceRating(theme.confidence.evidence_strength);
-  return (
-    <Card className="p-5">
-      <div className="flex items-start justify-between gap-3">
-        <h3 className="text-lg font-semibold text-ink">{theme.title}</h3>
-        <div className="flex flex-col items-end">
-          <div className="flex items-center gap-0.5">
-            {[1, 2, 3].map((i) => (
-              <Star
-                key={i}
-                className="h-3.5 w-3.5"
-                style={{ color: i <= rating.stars ? rating.color : "#2a3949" }}
-                fill={i <= rating.stars ? rating.color : "none"}
-              />
-            ))}
-          </div>
-          <span className="mt-0.5 text-[11px]" style={{ color: rating.color }}>
-            {rating.label}
-          </span>
-        </div>
-      </div>
-
-      <div className="mt-3 space-y-1.5 rounded-lg border border-line/60 bg-bg-soft/40 p-3">
-        <ConfidenceBar
-          label="Evidence"
-          value={theme.confidence.evidence_strength}
-          band={theme.confidence.evidence_strength_label}
-        />
-        <ConfidenceBar
-          label="Expert agreement"
-          value={theme.confidence.expert_agreement}
-          band={theme.confidence.expert_agreement_label}
-        />
-        <ConfidenceBar
-          label="Framework agreement"
-          value={theme.confidence.framework_agreement}
-          band={theme.confidence.framework_agreement_label}
-        />
-        {theme.confidence.confidence_explanation && (
-          <p className="pt-1 text-[11px] leading-relaxed text-ink-dim">
-            {theme.confidence.confidence_explanation}
-          </p>
-        )}
-      </div>
-
-      <ul className="mt-4 space-y-2.5">
-        {theme.observations.map((o, i) => (
-          <ObservationRow key={i} obs={o} />
-        ))}
-      </ul>
-
-      {theme.historical_roots.length > 0 && (
-        <div className="mt-4 border-t border-line/60 pt-3">
-          <div className="text-[11px] font-semibold uppercase tracking-wide text-ink-dim mb-2">
-            Why this exists
-          </div>
-          <ul className="space-y-2">
-            {theme.historical_roots.map((r, i) => (
-              <ObservationRow key={i} obs={r} />
-            ))}
-          </ul>
-        </div>
-      )}
-    </Card>
-  );
-}
-
-function CulturalThemes({ profile }: { profile: CountryProfile }) {
-  const themes = [...(profile.cultural_themes ?? [])].sort(
-    (a, b) => b.confidence.evidence_strength - a.confidence.evidence_strength
-  );
-  return (
-    <div>
-      <SectionTitle
-        title="What defines this culture"
-        subtitle={`The themes that emerge from the evidence on ${profile.country}`}
-      />
-      {themes.length === 0 ? (
-        <EmptyState
-          title="Not enough evidence yet"
-          message="No cultural themes met the evidence bar for this country."
-        />
-      ) : (
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-          {themes.map((t, i) => (
-            <ThemeCard key={i} theme={t} />
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
+// ─── Good For tags ────────────────────────────────────────────────────────
 
 function GoodFor({ items }: { items: string[] }) {
   if (!items?.length) return null;
   return (
     <div className="flex flex-wrap items-center gap-2">
-      <span className="text-xs uppercase tracking-wide text-ink-dim">Good for</span>
+      <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-ink/35 dark:text-white/30">
+        Good for
+      </span>
       {items.map((x) => (
-        <span
-          key={x}
-          className="rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-medium text-accent"
-        >
-          {x}
-        </span>
+        <Tag key={x}>{x}</Tag>
       ))}
     </div>
   );
 }
 
-// "What you would experience" — the four lived-experience buckets.
+// ─── Theme card (editorial row style) ────────────────────────────────────
+
+function ThemeCard({ theme, index }: { theme: CulturalTheme; index: number }) {
+  const ev = theme.confidence.evidence_strength ?? 0;
+  const ag = theme.confidence.expert_agreement ?? 0;
+
+  return (
+    <div className="py-5 first:pt-0">
+      {/* Title row */}
+      <div className="flex items-start justify-between gap-4">
+        <h3 className="text-[15px] font-semibold leading-snug text-ink dark:text-white">
+          {theme.title}
+        </h3>
+        <span className="shrink-0 text-[10px] font-bold uppercase tracking-[0.16em] text-coral-strong dark:text-[#E14B3C]">
+          {theme.confidence.evidence_strength_label ?? ""}
+        </span>
+      </div>
+
+      {/* Score bars */}
+      <div className="mt-3 space-y-2">
+        <div className="flex items-center gap-3">
+          <span className="w-32 shrink-0 text-[9px] font-bold uppercase tracking-[0.16em] text-ink/35 dark:text-white/30">
+            Evidence
+          </span>
+          <ScoreBar value={ev} />
+          <span className="w-6 shrink-0 text-right text-[10px] tabular-nums text-ink/50 dark:text-white/40">
+            {Math.round(ev)}
+          </span>
+        </div>
+        <div className="flex items-center gap-3">
+          <span className="w-32 shrink-0 text-[9px] font-bold uppercase tracking-[0.16em] text-ink/35 dark:text-white/30">
+            Expert Agreement
+          </span>
+          <ScoreBar value={ag} />
+          <span className="w-6 shrink-0 text-right text-[10px] tabular-nums text-ink/50 dark:text-white/40">
+            {Math.round(ag)}
+          </span>
+        </div>
+      </div>
+
+      {/* Observations */}
+      {theme.observations.length > 0 && (
+        <ul className="mt-3 space-y-1.5">
+          {theme.observations.map((o, i) => (
+            <ObsRow key={i} obs={o} />
+          ))}
+        </ul>
+      )}
+
+      {/* Historical roots */}
+      {theme.historical_roots.length > 0 && (
+        <div className="mt-3 border-t border-ink/8 pt-3 dark:border-white/8">
+          <p className="mb-2 text-[9px] font-bold uppercase tracking-[0.2em] text-ink/35 dark:text-white/30">
+            Why this exists
+          </p>
+          <ul className="space-y-1.5">
+            {theme.historical_roots.map((r, i) => (
+              <ObsRow key={i} obs={r} />
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CulturalThemes({ profile }: { profile: CountryProfile }) {
+  const themes = [...(profile.cultural_themes ?? [])].sort(
+    (a, b) => b.confidence.evidence_strength - a.confidence.evidence_strength,
+  );
+  if (themes.length === 0) return null;
+
+  return (
+    <div>
+      {/* Section heading */}
+      <div className="mb-1 flex items-baseline justify-between">
+        <EditorialHeading>What defines this culture</EditorialHeading>
+        <span className="text-[11px] text-ink/40 dark:text-white/30">
+          Themes emerging from the evidence on {profile.country}
+        </span>
+      </div>
+      <Hairline />
+
+      {/* Two-column grid */}
+      <div className="mt-0 grid grid-cols-1 gap-x-12 lg:grid-cols-2">
+        {themes.map((t, i) => (
+          <div key={i}>
+            <ThemeCard theme={t} index={i + 1} />
+            <Hairline />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Culture at a glance ─────────────────────────────────────────────────
+
+function CultureAtAGlance({ items }: { items: string[] }) {
+  const bullets = (items ?? []).filter(Boolean);
+  if (bullets.length === 0) return null;
+  return (
+    <div>
+      <div className="mb-4">
+        <SectionLabel>The Essentials</SectionLabel>
+        <EditorialHeading>
+          Culture at
+          <br />
+          a Glance
+        </EditorialHeading>
+      </div>
+      <Hairline />
+      <div className="mt-4 grid grid-cols-1 gap-x-16 gap-y-0 sm:grid-cols-2">
+        {bullets.map((b, i) => (
+          <div key={i} className="py-3 border-b border-ink/8 dark:border-white/8">
+            <div className="flex items-start gap-3">
+              <span className="shrink-0 text-[10px] font-bold tabular-nums text-coral-strong dark:text-[#E14B3C] mt-0.5">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <p className="text-[13px] leading-relaxed text-ink/70 dark:text-white/60">{b}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Life feels like ─────────────────────────────────────────────────────
+
+function LifeFeelsLike({ profile }: { profile: CountryProfile }) {
+  const life = profile.life_feels_like;
+  if (!life || !life.text) return null;
+  return (
+    <div>
+      <p className="text-[15px] leading-[1.75] text-ink/70 dark:text-white/60">
+        {life.text}
+      </p>
+      {life.sources_count > 0 && (
+        <p className="mt-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/30 dark:text-white/25">
+          Based on {life.sources_count} sources
+        </p>
+      )}
+    </div>
+  );
+}
+
+// ─── Executive summary ────────────────────────────────────────────────────
+
+function ExecutiveSummary({ profile }: { profile: CountryProfile }) {
+  if (!profile.executive_summary) return null;
+  return (
+    <div>
+      <p className="text-[15px] leading-[1.75] text-ink/70 dark:text-white/60">
+        {profile.executive_summary}
+      </p>
+      {(profile.good_for ?? profile.best_for)?.length > 0 && (
+        <div className="mt-4 pt-4 border-t border-ink/8 dark:border-white/8">
+          <GoodFor items={profile.good_for ?? profile.best_for} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Contradictions ───────────────────────────────────────────────────────
+
+function ContradictionsSection({ forces }: { forces: CompetingForce[] }) {
+  const items = (forces ?? []).filter((f) => f.pulls_toward && f.but_also);
+  if (items.length === 0) return null;
+  return (
+    <div>
+      <EditorialHeading>Cultural contradictions</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">Tensions this culture holds at once</p>
+      <Hairline />
+      <div className="mt-0 divide-y divide-ink/8 dark:divide-white/8">
+        {items.map((f, i) => (
+          <div key={i} className="py-5 grid grid-cols-[1fr_auto_1fr] items-start gap-4">
+            <p className="text-[13px] leading-relaxed text-ink/75 dark:text-white/65">{f.pulls_toward}</p>
+            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-ink/25 dark:text-white/20 pt-0.5">
+              but
+            </span>
+            <p className="text-[13px] leading-relaxed text-ink/75 dark:text-white/65 text-right">{f.but_also}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Lived experience sections ────────────────────────────────────────────
+
 const EXPERIENCE_SECTIONS: { key: keyof LivedExperience; label: string }[] = [
   { key: "daily_life", label: "Daily life" },
   { key: "workplace_norms", label: "Work" },
@@ -216,94 +292,36 @@ const EXPERIENCE_SECTIONS: { key: keyof LivedExperience; label: string }[] = [
 
 function ExperienceSection({ profile }: { profile: CountryProfile }) {
   const lived = profile.lived_experience;
-  const sections = EXPERIENCE_SECTIONS.filter((s) => (lived?.[s.key]?.length ?? 0) > 0);
+  const sections = EXPERIENCE_SECTIONS.filter(
+    (s) => (lived?.[s.key]?.length ?? 0) > 0,
+  );
   if (sections.length === 0) return null;
   return (
     <div>
-      <SectionTitle
-        title="What you would experience"
-        subtitle={`If you moved to ${profile.country} tomorrow, here is what daily reality looks like`}
-      />
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+      <EditorialHeading>What you would experience</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">
+        If you moved to {profile.country} tomorrow
+      </p>
+      <Hairline />
+      <div className="mt-4 grid grid-cols-1 gap-x-16 sm:grid-cols-2">
         {sections.map((s) => (
-          <Card key={s.key} className="p-5">
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-dim">
+          <div key={s.key} className="py-4 border-b border-ink/8 dark:border-white/8">
+            <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.22em] text-ink/40 dark:text-white/35">
               {s.label}
-            </h3>
-            <ul className="mt-3 space-y-2.5">
+            </p>
+            <ul className="space-y-2">
               {lived[s.key].map((o, i) => (
-                <ObservationRow key={i} obs={o} />
+                <ObsRow key={i} obs={o} />
               ))}
             </ul>
-          </Card>
+          </div>
         ))}
       </div>
     </div>
   );
 }
 
-function ContradictionsSection({ forces }: { forces: CompetingForce[] }) {
-  const items = (forces ?? []).filter((f) => f.pulls_toward && f.but_also);
-  if (items.length === 0) return null;
-  return (
-    <div>
-      <SectionTitle
-        title="Cultural contradictions"
-        subtitle="Tensions this culture holds at once"
-      />
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-        {items.map((f, i) => (
-          <Card key={i} className="p-5">
-            <div className="flex items-center gap-2 text-sm font-semibold">
-              <span className="rounded-md bg-accent/10 px-2 py-1 text-accent">
-                {f.pulls_toward}
-              </span>
-              <span className="text-ink-dim">but</span>
-              <span className="rounded-md bg-[#e879a6]/10 px-2 py-1 text-[#e879a6]">
-                {f.but_also}
-              </span>
-            </div>
-            {f.explanation && (
-              <p className="mt-3 text-sm leading-relaxed text-ink-soft">{f.explanation}</p>
-            )}
-            {f.sources_count > 0 && (
-              <div className="mt-3">
-                <SourcesChip count={f.sources_count} />
-              </div>
-            )}
-          </Card>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function ObservationListSection({
-  title,
-  subtitle,
-  icon,
-  items,
-}: {
-  title: string;
-  subtitle: string;
-  icon: ReactNode;
-  items: Observation[];
-}) {
-  if (!items?.length) return null;
-  return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        {icon}
-        <SectionTitle title={title} subtitle={subtitle} />
-      </div>
-      <ul className="mt-4 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-        {items.map((o, i) => (
-          <ObservationRow key={i} obs={o} />
-        ))}
-      </ul>
-    </Card>
-  );
-}
+// ─── Success / failure ────────────────────────────────────────────────────
 
 function SuccessFailureSection({ profile }: { profile: CountryProfile }) {
   const success = profile.success_factors ?? [];
@@ -312,43 +330,43 @@ function SuccessFailureSection({ profile }: { profile: CountryProfile }) {
   const failureItems = [...failure, ...mistakes];
   if (success.length === 0 && failureItems.length === 0) return null;
   return (
-    <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+    <div className="grid grid-cols-1 gap-x-16 sm:grid-cols-2">
       {success.length > 0 && (
-        <Card className="p-6">
-          <div className="flex items-center gap-2">
-            <TrendingUp className="h-4 w-4 text-pos" />
-            <SectionTitle title="How to succeed here" subtitle="What gets people ahead" />
-          </div>
-          <ul className="mt-4 space-y-2.5">
+        <div>
+          <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.22em] text-ink/40 dark:text-white/35">
+            How to succeed here
+          </p>
+          <ul className="space-y-2">
             {success.map((o, i) => (
-              <ObservationRow key={i} obs={o} />
+              <ObsRow key={i} obs={o} />
             ))}
           </ul>
-        </Card>
+        </div>
       )}
       {failureItems.length > 0 && (
-        <Card className="p-6">
-          <div className="flex items-center gap-2">
-            <TrendingDown className="h-4 w-4 text-neg" />
-            <SectionTitle title="What creates friction" subtitle="Mistakes to avoid" />
-          </div>
-          <ul className="mt-4 space-y-2.5">
+        <div>
+          <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.22em] text-coral-strong dark:text-[#E14B3C]">
+            What creates friction
+          </p>
+          <ul className="space-y-2">
             {failureItems.map((o, i) => (
-              <ObservationRow key={i} obs={o} />
+              <ObsRow key={i} obs={o} />
             ))}
           </ul>
-        </Card>
+        </div>
       )}
     </div>
   );
 }
 
+// ─── Friendship map ───────────────────────────────────────────────────────
+
 const FRIENDSHIP_FACETS: { key: keyof FriendshipMap; label: string }[] = [
   { key: "making_friends", label: "Making friends" },
-  { key: "friendship_depth", label: "Friendship depth" },
+  { key: "friendship_depth", label: "Depth" },
   { key: "circle_size", label: "Circle size" },
-  { key: "trust_formation", label: "Trust formation" },
-  { key: "work_personal_mixing", label: "Work / personal mixing" },
+  { key: "trust_formation", label: "Trust" },
+  { key: "work_personal_mixing", label: "Work / personal" },
 ];
 
 function FriendshipMapSection({ map }: { map: FriendshipMap | null }) {
@@ -356,33 +374,35 @@ function FriendshipMapSection({ map }: { map: FriendshipMap | null }) {
   const facets = FRIENDSHIP_FACETS.filter((f) => map[f.key]?.label);
   if (facets.length === 0) return null;
   return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        <Users2 className="h-4 w-4 text-accent" />
-        <SectionTitle title="Friendship map" subtitle="How relationships work here" />
-      </div>
-      <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+    <div>
+      <EditorialHeading>Friendship map</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">How relationships work here</p>
+      <Hairline />
+      <div className="mt-4 grid grid-cols-2 gap-px bg-ink/8 dark:bg-white/8 sm:grid-cols-3 lg:grid-cols-5">
         {facets.map((f) => {
           const facet = map[f.key];
           return (
-            <div
-              key={f.key}
-              className="rounded-lg border border-line bg-bg-soft p-3 text-center"
-            >
-              <div className="text-[11px] uppercase tracking-wide text-ink-dim">
+            <div key={f.key} className="bg-background px-4 py-4 dark:bg-[#0E0E10]">
+              <p className="text-[9px] font-bold uppercase tracking-[0.18em] text-ink/35 dark:text-white/30">
                 {f.label}
-              </div>
-              <div className="mt-1 text-lg font-semibold text-ink">{facet.label}</div>
+              </p>
+              <p className="mt-1.5 text-[13px] font-semibold text-ink dark:text-white">
+                {facet.label}
+              </p>
               {facet.detail && (
-                <div className="mt-1 text-[11px] text-ink-dim">{facet.detail}</div>
+                <p className="mt-1 text-[11px] leading-snug text-ink/50 dark:text-white/40">
+                  {facet.detail}
+                </p>
               )}
             </div>
           );
         })}
       </div>
-    </Card>
+    </div>
   );
 }
+
+// ─── Communication decoder ────────────────────────────────────────────────
 
 function CommunicationDecoderSection({
   signals,
@@ -395,287 +415,269 @@ function CommunicationDecoderSection({
   const comms = communication ?? [];
   if (decoder.length === 0 && comms.length === 0) return null;
   return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        <MessageSquare className="h-4 w-4 text-accent" />
-        <SectionTitle
-          title="Communication decoder"
-          subtitle="What people say vs what they mean"
-        />
-      </div>
+    <div>
+      <EditorialHeading>Communication decoder</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">What people say vs what they mean</p>
+      <Hairline />
       {decoder.length > 0 && (
-        <div className="mt-4 space-y-3">
+        <div className="mt-0 divide-y divide-ink/8 dark:divide-white/8">
           {decoder.map((s, i) => (
-            <div
-              key={i}
-              className="grid grid-cols-1 gap-1 rounded-lg border border-line bg-bg-soft p-4 sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:gap-3"
-            >
-              <div className="text-sm italic text-ink">&ldquo;{s.phrase}&rdquo;</div>
-              <GitCompareArrows className="hidden h-4 w-4 text-ink-dim sm:block" />
-              <div className="text-sm font-medium text-ink-soft">{s.meaning}</div>
+            <div key={i} className="grid grid-cols-[1fr_auto_1fr] items-start gap-6 py-4">
+              <p className="text-[13px] italic text-ink/70 dark:text-white/60">
+                &ldquo;{s.phrase}&rdquo;
+              </p>
+              <span className="text-[9px] font-bold uppercase tracking-[0.14em] text-ink/25 dark:text-white/20 pt-1">→</span>
+              <p className="text-[13px] text-ink/70 dark:text-white/60">{s.meaning}</p>
             </div>
           ))}
         </div>
       )}
       {comms.length > 0 && (
-        <ul className="mt-4 space-y-2.5">
+        <ul className="mt-4 space-y-2">
           {comms.map((o, i) => (
-            <ObservationRow key={i} obs={o} />
+            <ObsRow key={i} obs={o} />
           ))}
         </ul>
       )}
-    </Card>
+    </div>
   );
 }
+
+// ─── Status signals ───────────────────────────────────────────────────────
 
 function StatusSignalsSection({ items }: { items: Observation[] }) {
   if (!items?.length) return null;
   return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        <Crown className="h-4 w-4 text-[#f0b429]" />
-        <SectionTitle title="Status signals" subtitle="What earns respect here" />
-      </div>
-      <ul className="mt-4 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-        {items.map((o, i) => (
-          <ObservationRow key={i} obs={o} />
-        ))}
-      </ul>
-    </Card>
-  );
-}
-
-function TransitionSection({ axes }: { axes: TransitionAxis[] }) {
-  const items = (axes ?? []).filter((a) => a.axis && (a.older || a.younger));
-  if (items.length === 0) return null;
-  return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        <Scale className="h-4 w-4 text-accent" />
-        <SectionTitle
-          title="Culture in transition"
-          subtitle="How norms are shifting across generations and places"
-        />
-      </div>
-      <div className="mt-4 space-y-3">
-        {items.map((a, i) => (
-          <div key={i} className="rounded-lg border border-line bg-bg-soft p-4">
-            <div className="text-[11px] font-semibold uppercase tracking-wide text-ink-dim">
-              {a.axis}
-            </div>
-            <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
-              <span className="rounded-md bg-bg-hover px-2 py-1 text-ink-soft">{a.older}</span>
-              <TrendingUp className="h-4 w-4 rotate-45 text-ink-dim" />
-              <span className="rounded-md bg-accent/10 px-2 py-1 text-accent">{a.younger}</span>
-            </div>
-          </div>
-        ))}
-      </div>
-    </Card>
-  );
-}
-
-function SimilarCulturesSection({
-  profile,
-}: {
-  profile: CountryProfile;
-}) {
-  const cultures: SimilarCulture[] = profile.similar_cultures ?? [];
-  if (cultures.length === 0) return <SimilarityPanel iso3={profile.iso3} />;
-  return (
-    <Card className="p-6">
-      <SectionTitle
-        title="Similar cultures, explained"
-        subtitle={`Why these countries feel close to ${profile.country} — and how it differs`}
-      />
-      <div className="mt-4 space-y-3">
-        {cultures.map((c) => (
-          <div key={c.iso3} className="rounded-lg border border-line bg-bg-soft p-4">
-            <Link
-              href={`/country/${c.iso3}`}
-              className="flex items-center justify-between hover:opacity-80"
-            >
-              <span className="flex items-center gap-2 text-sm font-medium">
-                <span>{flagEmoji(c.iso3)}</span>
-                {c.country}
-              </span>
-              {c.similarity > 0 && (
-                <span className="text-xs tabular-nums text-ink-soft">{c.similarity}% similar</span>
-              )}
-            </Link>
-            {c.explanation && (
-              <p className="mt-2 text-sm leading-relaxed text-ink-soft">{c.explanation}</p>
-            )}
-          </div>
-        ))}
-      </div>
-    </Card>
-  );
-}
-
-function WhatMakesUnique({ profile }: { profile: CountryProfile }) {
-  const lines = profile.regional_distinctiveness ?? [];
-  if (lines.length === 0) return null;
-  return (
-    <Card className="p-6">
-      <SectionTitle
-        title={`What makes ${profile.country} distinct`}
-        subtitle="Relative to its neighbours"
-      />
-      <div className="flex flex-wrap gap-2">
-        {lines.map((l, i) => (
-          <span
-            key={i}
-            className="rounded-lg border border-line bg-bg-soft px-3 py-1.5 text-sm text-ink-soft"
-          >
-            {l.text}
-          </span>
-        ))}
-      </div>
-    </Card>
-  );
-}
-
-function SimilarityPanel({ iso3 }: { iso3: string }) {
-  const { data } = useSimilar(iso3);
-  if (!data || !data.ready) return null;
-  const Row = ({ c }: { c: { iso3: string; country: string; similarity: number } }) => (
-    <Link
-      href={`/country/${c.iso3}`}
-      className="flex items-center justify-between rounded-lg px-2 py-1.5 hover:bg-bg-hover"
-    >
-      <span className="flex items-center gap-2 text-sm">
-        <span>{flagEmoji(c.iso3)}</span>
-        {c.country}
-      </span>
-      <span className="text-sm tabular-nums text-ink-soft">{c.similarity}%</span>
-    </Link>
-  );
-  return (
-    <Card className="p-6">
-      <SectionTitle title="Closest & most different cultures" />
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        <div>
-          <div className="text-xs uppercase tracking-wide text-pos mb-1">Most similar</div>
-          {data.most_similar.map((c) => <Row key={c.iso3} c={c} />)}
-        </div>
-        <div>
-          <div className="text-xs uppercase tracking-wide text-neg mb-1">Most different</div>
-          {data.most_different.map((c) => <Row key={c.iso3} c={c} />)}
-        </div>
-      </div>
-    </Card>
-  );
-}
-
-function CultureAtAGlance({ items }: { items: string[] }) {
-  const bullets = (items ?? []).filter(Boolean);
-  if (bullets.length === 0) return null;
-  return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        <ListChecks className="h-4 w-4 text-accent" />
-        <SectionTitle title="Culture at a glance" subtitle="The essentials, in a few lines" />
-      </div>
-      <ul className="mt-4 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-        {bullets.map((b, i) => (
-          <li key={i} className="flex items-start gap-2 text-sm text-ink-soft leading-relaxed">
-            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-            <span>{b}</span>
-          </li>
-        ))}
-      </ul>
-    </Card>
-  );
-}
-
-function LifeFeelsLike({ profile }: { profile: CountryProfile }) {
-  const life = profile.life_feels_like;
-  if (!life || !life.text) return null;
-  return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        <Heart className="h-4 w-4 text-[#e879a6]" />
-        <SectionTitle
-          title={`What life feels like in ${profile.country}`}
-          subtitle="The daily texture of being here"
-        />
-      </div>
-      <p className="mt-4 text-[15px] leading-relaxed text-ink-soft">{life.text}</p>
-      {life.sources_count > 0 && (
-        <div className="mt-4">
-          <SourcesChip count={life.sources_count} />
-        </div>
-      )}
-    </Card>
-  );
-}
-
-function ExperienceVariationsSection({ items }: { items: ExperienceVariation[] }) {
-  const variations = (items ?? []).filter((v) => v.group_a && v.group_b && v.difference);
-  if (variations.length === 0) return null;
-  return (
-    <Card className="p-6">
-      <div className="flex items-center gap-2">
-        <Users2 className="h-4 w-4 text-accent" />
-        <SectionTitle
-          title="How different groups experience this country"
-          subtitle="Why there is no single version of this culture"
-        />
-      </div>
-      <div className="mt-4 space-y-3">
-        {variations.map((v, i) => (
-          <div key={i} className="rounded-lg border border-line bg-bg-soft p-4">
-            <div className="flex flex-wrap items-center gap-2 text-sm font-semibold">
-              <span className="rounded-md bg-accent/10 px-2 py-1 text-accent">{v.group_a}</span>
-              <span className="text-ink-dim">vs</span>
-              <span className="rounded-md bg-[#e879a6]/10 px-2 py-1 text-[#e879a6]">
-                {v.group_b}
-              </span>
-            </div>
-            <p className="mt-3 text-sm leading-relaxed text-ink-soft">{v.difference}</p>
-            {v.sources_count > 0 && (
-              <div className="mt-3">
-                <SourcesChip count={v.sources_count} />
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
-    </Card>
-  );
-}
-
-function CountryUniquenessSection({ profile }: { profile: CountryProfile }) {
-  const facets: UniquenessFacet[] = (profile.country_uniqueness ?? []).filter(
-    (f) => f.title && f.explanation
-  );
-  if (facets.length === 0) return null;
-  return (
     <div>
-      <div className="flex items-center gap-2">
-        <Fingerprint className="h-4 w-4 text-accent" />
-        <SectionTitle
-          title={`What makes ${profile.country} unique`}
-          subtitle="How it stands apart from its nearest neighbours"
-        />
-      </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-        {facets.map((f, i) => (
-          <Card key={i} className="p-5">
-            <h3 className="text-sm font-semibold text-ink">{f.title}</h3>
-            <p className="mt-2 text-sm leading-relaxed text-ink-soft">{f.explanation}</p>
-            {f.sources_count > 0 && (
-              <div className="mt-3">
-                <SourcesChip count={f.sources_count} />
-              </div>
-            )}
-          </Card>
+      <EditorialHeading>Status signals</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">What earns respect here</p>
+      <Hairline />
+      <div className="mt-4 grid grid-cols-1 gap-x-16 sm:grid-cols-2">
+        {items.map((o, i) => (
+          <div key={i} className="py-2 border-b border-ink/8 dark:border-white/8">
+            <ObsRow obs={o} />
+          </div>
         ))}
       </div>
     </div>
   );
 }
+
+// ─── Culture in transition ────────────────────────────────────────────────
+
+function TransitionSection({ axes }: { axes: TransitionAxis[] }) {
+  const items = (axes ?? []).filter((a) => a.axis && (a.older || a.younger));
+  if (items.length === 0) return null;
+  return (
+    <div>
+      <EditorialHeading>Culture in transition</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">
+        How norms are shifting across generations
+      </p>
+      <Hairline />
+      <div className="mt-0 divide-y divide-ink/8 dark:divide-white/8">
+        {items.map((a, i) => (
+          <div key={i} className="py-4">
+            <p className="mb-2 text-[9px] font-bold uppercase tracking-[0.18em] text-ink/40 dark:text-white/30">
+              {a.axis}
+            </p>
+            <div className="flex flex-wrap items-center gap-3 text-[13px]">
+              <span className="text-ink/55 dark:text-white/50">{a.older}</span>
+              <span className="text-[10px] text-ink/25 dark:text-white/20">→</span>
+              <span className="font-medium text-ink dark:text-white">{a.younger}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Experience variations ────────────────────────────────────────────────
+
+function ExperienceVariationsSection({ items }: { items: ExperienceVariation[] }) {
+  const variations = (items ?? []).filter(
+    (v) => v.group_a && v.group_b && v.difference,
+  );
+  if (variations.length === 0) return null;
+  return (
+    <div>
+      <EditorialHeading>How different groups experience this</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">Why there is no single version of this culture</p>
+      <Hairline />
+      <div className="mt-0 divide-y divide-ink/8 dark:divide-white/8">
+        {variations.map((v, i) => (
+          <div key={i} className="py-4">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              <span className="text-[12px] font-semibold text-ink dark:text-white">{v.group_a}</span>
+              <span className="text-[9px] text-ink/30 dark:text-white/25">vs</span>
+              <span className="text-[12px] font-semibold text-ink/55 dark:text-white/50">{v.group_b}</span>
+            </div>
+            <p className="text-[13px] leading-relaxed text-ink/65 dark:text-white/55">{v.difference}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── What makes unique ────────────────────────────────────────────────────
+
+function WhatMakesUnique({ profile }: { profile: CountryProfile }) {
+  const lines = profile.regional_distinctiveness ?? [];
+  if (lines.length === 0) return null;
+  return (
+    <div>
+      <EditorialHeading>What makes {profile.country} distinct</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">Relative to its neighbours</p>
+      <Hairline />
+      <div className="mt-4 flex flex-wrap gap-2">
+        {lines.map((l, i) => (
+          <Tag key={i}>{l.text}</Tag>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Country uniqueness ───────────────────────────────────────────────────
+
+function CountryUniquenessSection({ profile }: { profile: CountryProfile }) {
+  const facets: UniquenessFacet[] = (profile.country_uniqueness ?? []).filter(
+    (f) => f.title && f.explanation,
+  );
+  if (facets.length === 0) return null;
+  return (
+    <div>
+      <EditorialHeading>What makes {profile.country} unique</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">How it stands apart from its nearest neighbours</p>
+      <Hairline />
+      <div className="mt-0 grid grid-cols-1 gap-x-16 lg:grid-cols-2 divide-y divide-ink/8 dark:divide-white/8 lg:divide-y-0">
+        {facets.map((f, i) => (
+          <div key={i} className="py-5">
+            <p className="text-[13px] font-semibold text-ink dark:text-white">{f.title}</p>
+            <p className="mt-2 text-[13px] leading-relaxed text-ink/65 dark:text-white/55">
+              {f.explanation}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Similar cultures ─────────────────────────────────────────────────────
+
+function SimilarityPanel({ iso3 }: { iso3: string }) {
+  const { data } = useSimilar(iso3);
+  if (!data || !data.ready) return null;
+  return (
+    <div>
+      <EditorialHeading>Closest &amp; most different cultures</EditorialHeading>
+      <Hairline />
+      <div className="mt-4 grid grid-cols-1 gap-x-16 sm:grid-cols-2">
+        <div>
+          <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-ink/40 dark:text-white/30">
+            Most similar
+          </p>
+          {data.most_similar.map((c) => (
+            <Link
+              key={c.iso3}
+              href={`/country/${c.iso3}`}
+              className="flex items-center justify-between py-2 border-b border-ink/8 dark:border-white/8 hover:opacity-70 transition"
+            >
+              <span className="flex items-center gap-2 text-[13px] text-ink dark:text-white">
+                <span>{flagEmoji(c.iso3)}</span> {c.country}
+              </span>
+              <span className="text-[11px] tabular-nums text-ink/40 dark:text-white/35">
+                {c.similarity}%
+              </span>
+            </Link>
+          ))}
+        </div>
+        <div>
+          <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-coral-strong dark:text-[#E14B3C]">
+            Most different
+          </p>
+          {data.most_different.map((c) => (
+            <Link
+              key={c.iso3}
+              href={`/country/${c.iso3}`}
+              className="flex items-center justify-between py-2 border-b border-ink/8 dark:border-white/8 hover:opacity-70 transition"
+            >
+              <span className="flex items-center gap-2 text-[13px] text-ink dark:text-white">
+                <span>{flagEmoji(c.iso3)}</span> {c.country}
+              </span>
+              <span className="text-[11px] tabular-nums text-ink/40 dark:text-white/35">
+                {c.similarity}%
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SimilarCulturesSection({ profile }: { profile: CountryProfile }) {
+  const cultures: SimilarCulture[] = profile.similar_cultures ?? [];
+  if (cultures.length === 0) return <SimilarityPanel iso3={profile.iso3} />;
+  return (
+    <div>
+      <EditorialHeading>Similar cultures, explained</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">
+        Why these countries feel close to {profile.country}
+      </p>
+      <Hairline />
+      <div className="mt-0 divide-y divide-ink/8 dark:divide-white/8">
+        {cultures.map((c) => (
+          <div key={c.iso3} className="py-4">
+            <Link
+              href={`/country/${c.iso3}`}
+              className="flex items-center justify-between hover:opacity-70 transition"
+            >
+              <span className="flex items-center gap-2 text-[13px] font-medium text-ink dark:text-white">
+                <span>{flagEmoji(c.iso3)}</span> {c.country}
+              </span>
+              {c.similarity > 0 && (
+                <span className="text-[11px] tabular-nums text-ink/40 dark:text-white/35">
+                  {c.similarity}% similar
+                </span>
+              )}
+            </Link>
+            {c.explanation && (
+              <p className="mt-2 text-[13px] leading-relaxed text-ink/60 dark:text-white/50">
+                {c.explanation}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Newcomer impressions ─────────────────────────────────────────────────
+
+function NewcomerSection({ items }: { items: Observation[] }) {
+  if (!items?.length) return null;
+  return (
+    <div>
+      <EditorialHeading>What newcomers notice first</EditorialHeading>
+      <p className="mt-1 text-[11px] text-ink/40 dark:text-white/30">The immediate impressions on arrival</p>
+      <Hairline />
+      <div className="mt-4 grid grid-cols-1 gap-x-16 sm:grid-cols-2">
+        {items.map((o, i) => (
+          <div key={i} className="py-2 border-b border-ink/8 dark:border-white/8">
+            <ObsRow obs={o} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Trust accordion ──────────────────────────────────────────────────────
 
 function TrustSection({ profile }: { profile: CountryProfile }) {
   const [open, setOpen] = useState(false);
@@ -692,70 +694,53 @@ function TrustSection({ profile }: { profile: CountryProfile }) {
       : "Cleared the human-review pipeline",
   ];
   return (
-    <Card className="p-6">
+    <div className="border-t border-ink/10 dark:border-white/8 pt-6">
       <button
         onClick={() => setOpen((o) => !o)}
-        className="flex w-full items-center justify-between"
+        className="flex w-full items-center justify-between text-left"
       >
-        <span className="flex items-center gap-2 font-medium">
-          <ShieldCheck className="h-4 w-4 text-pos" />
+        <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-ink/40 dark:text-white/30">
           Why you should trust this
         </span>
         <ChevronDown
-          className={`h-4 w-4 text-ink-dim transition-transform ${open ? "rotate-180" : ""}`}
+          className={`h-3.5 w-3.5 text-ink/30 dark:text-white/25 transition-transform ${open ? "rotate-180" : ""}`}
         />
       </button>
       {open && (
-        <ul className="mt-4 space-y-2 animate-fade-in">
+        <ul className="mt-4 space-y-2">
           {items.map((x, i) => (
-            <li key={i} className="flex items-start gap-2 text-sm text-ink-soft">
-              <Sparkles className="mt-0.5 h-3.5 w-3.5 shrink-0 text-accent" />
+            <li key={i} className="text-[12px] text-ink/55 dark:text-white/45 flex items-start gap-2">
+              <span className="mt-1 h-1 w-1 shrink-0 rounded-full bg-ink/20 dark:bg-white/20" />
               {x}
             </li>
           ))}
         </ul>
       )}
-    </Card>
+    </div>
   );
 }
 
+// ─── Root export ──────────────────────────────────────────────────────────
+
 export function OverviewTab({ profile }: { profile: CountryProfile }) {
   return (
-    <div className="space-y-6">
-      {profile.executive_summary && (
-        <Card className="p-6">
-          <div className="flex items-start gap-3">
-            <Quote className="h-5 w-5 shrink-0 text-accent" />
-            <p className="text-ink-soft leading-relaxed text-[15px]">
-              {profile.executive_summary}
-            </p>
-          </div>
-          {(profile.good_for ?? profile.best_for)?.length > 0 && (
-            <div className="mt-5 border-t border-line/60 pt-4">
-              <GoodFor items={profile.good_for ?? profile.best_for} />
-            </div>
-          )}
-        </Card>
-      )}
-
+    <div className="space-y-14">
+      <ExecutiveSummary profile={profile} />
       <CultureAtAGlance items={profile.culture_at_a_glance} />
       <LifeFeelsLike profile={profile} />
       <CulturalThemes profile={profile} />
       <ContradictionsSection forces={profile.competing_forces} />
       <ExperienceSection profile={profile} />
-      <ObservationListSection
-        title="What newcomers notice first"
-        subtitle="The immediate impressions on arrival"
-        icon={<Eye className="h-4 w-4 text-accent" />}
-        items={profile.newcomer_first_impressions}
-      />
+      <NewcomerSection items={profile.newcomer_first_impressions} />
       <SuccessFailureSection profile={profile} />
       <FriendshipMapSection map={profile.friendship_map} />
       <CommunicationDecoderSection
         signals={profile.communication_decoder}
         communication={profile.lived_experience?.communication_style ?? []}
       />
-      <StatusSignalsSection items={profile.lived_experience?.status_signals ?? []} />
+      <StatusSignalsSection
+        items={profile.lived_experience?.status_signals ?? []}
+      />
       <TransitionSection axes={profile.culture_in_transition} />
       <ExperienceVariationsSection items={profile.experience_variations} />
       <CountryUniquenessSection profile={profile} />

@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 24,
-        "reading": "Community-first",
-        "explanation": "Honduras is deeply collectivist, with identity and social obligations revolving around family and extended kin."
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family is the cornerstone and the safety net, so kin approval, reputation and word-of-mouth drive choices."
       },
       {
         "dimension": "D2",
         "score": 55,
-        "reading": "Even-keeled",
-        "explanation": "Communication in Honduras is warm and expressive, often marked by physical gestures and a focus on maintaining harmony."
+        "reading": "Open",
+        "explanation": "Expressive: warm, gesture-and-touch-rich sociability is the register, so lively, warm, relationship-led branding connects."
       },
       {
         "dimension": "D3",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "Honduras exhibits a moderate balance between structure and flexibility, with informality in economic and social practices."
+        "reading": "Fluid",
+        "explanation": "Flexible: a large informal economy and a relaxed clock keep dealing adaptable, so people expect give and a human contact over rigid process."
       },
       {
         "dimension": "D4",
         "score": 38,
-        "reading": "Relaxed",
-        "explanation": "The culture prioritizes quality of life and relationships over aggressive achievement, though machismo introduces competitive elements."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: family, cooperation and getting by come before the climb, so practical, affordable, family-first goods matter most."
       }
     ],
-    "executive_summary": "In Honduras, family is the cornerstone of life, shaping both personal identity and social obligations. The culture values warmth and expressiveness, with communication often accompanied by gestures and physical touch. While the society leans towards cooperation and quality of life, the influence of machismo introduces a layer of gender-based hierarchy. The economy is largely informal, reflecting a flexible, adaptive approach to daily life.",
+    "executive_summary": "In Honduras the family is the cornerstone, setting both who you are and what you owe. People are warm and expressive, talking with their hands and a touch on the arm. The lean is toward cooperation and a good life, though machismo, the old code of male dominance, lays a gendered hierarchy over things. The economy is mostly informal, which keeps daily life flexible and improvised.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "Honduras thrives on strong family ties and a flexible approach to life, where community support and adaptability are key.",
+      "title": "Family Circles",
+      "summary": "Family is the safety net, and life is improvised around it.",
       "claim_ids": [
         "claim1",
         "claim2",
@@ -149,20 +149,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Honduras's collectivist identity is deeply rooted in its social and legal structures, emphasizing family unity and interdependence.",
-        "claim_ids": [
-          "claim1",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Family became the economic safety net in an economy dominated by smallholding, plantations and now remittances."
       },
       {
-        "text": "The informal nature of the economy and social practices has evolved due to historical economic challenges and the need for adaptability.",
-        "claim_ids": [
-          "C19",
-          "c9"
-        ],
-        "sources_count": 2
+        "text": "A large informal sector and weak institutions taught improvisation and kept Structure loose."
+      },
+      {
+        "text": "Latin Catholic tradition and machismo shape warm sociability alongside a gendered hierarchy."
       }
     ],
     "competing_forces": [
@@ -267,7 +260,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Honduras is deeply intertwined with family, where social and economic support systems revolve around kinship. The vibrant social scene is marked by expressive communication and a relaxed approach to time. In the workplace, respect and deference are balanced with the flexibility of the informal economy, creating a unique blend of structure and adaptability.",
+      "text": "Life is bound up with family, where the support you count on runs through kin. The social scene is lively, with expressive talk and an easy way with time. At work, respect and deference mix with the give of the informal economy, making a blend of structure and adaptability.",
       "claim_ids": [
         "C02",
         "C10",
@@ -277,28 +270,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Family is the central pillar of society, influencing social interactions and economic support systems.",
-        "claim_ids": [
-          "C01",
-          "C02"
-        ],
-        "sources_count": 2
+        "text": "Family reaches into every arrangement."
       },
       {
-        "text": "Communication is warm and expressive, often accompanied by gestures and physical touch.",
-        "claim_ids": [
-          "C10",
-          "c5"
-        ],
-        "sources_count": 2
+        "text": "The pace is relaxed and plans flexible."
       },
       {
-        "text": "The informal economy and flexible social practices reflect a laid-back, adaptive approach to life.",
-        "claim_ids": [
-          "c9",
-          "C19"
-        ],
-        "sources_count": 2
+        "text": "Warmth is immediate."
       }
     ],
     "success_factors": [
@@ -417,7 +395,7 @@
         "iso3": "NIC",
         "country": "Nicaragua",
         "similarity": 88,
-        "explanation": "Both Honduras and Nicaragua emphasize strong family ties and collectivist values, though Nicaragua may exhibit slightly different social dynamics.",
+        "explanation": "Both Honduras and Nicaragua stress strong family ties and collectivist values, though Nicaragua may exhibit slightly different social dynamics.",
         "claim_ids": [
           "claim1",
           "C01"
@@ -534,6 +512,18 @@
           "suggested_score": 30
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Communication in Honduras is characterised by warmth, expressiveness, strong non-verbal cues (touch, gesture, facial expression), and the simpatía cultural script common across Hispanic Latin America that prizes relational positivity and open affect. Festivals and carnival are described as intrinsic to social life. These are structural indicators of relatively open emotional expression. Counter-evidence: machismo norms impose hierarchical suppression of vulnerability and negative emotion in men, and communication with elders or authority figures becomes markedly more deferential and restrained, suggesting context-specific suppression. On balance, the everyday default leans Open rather than Restrained, but not at the extreme end — the hierarchy-based suppression provides a real downward pull. Score placed moderately above midpoint.",
+          "suggested_score": 63
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Honduran expression is moderately open. In informal settings, people are warm, expressive, and use physical touch (hugs, back-slapping). However, hierarchical deference (especially in workplace and formal contexts) suppresses open disagreement. The baseline is moderate: not as restrained as East Asian cultures, nor as exuberant as many Caribbean or Latin American neighbours. The counter-evidence of reserve in formal situations tempers the openness.",
+          "suggested_score": 55
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -567,20 +557,13 @@
           "reasoning": "Honduras is strongly accepting: quality of life, family time, and personal relationships are valued over competitive achievement. Hofstede Masculinity score is very low (around 21). The US-style 'striving' exists but is secondary to harmony and social ties. In rural areas, subsistence farming and a mañana attitude prevail, while urban formal sectors show some drive but not enough to move the overall score up. Counter-evidence (c15) from competitive business sectors does not override the dominant acceptance orientation.",
           "suggested_score": 25
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Communication in Honduras is characterised by warmth, expressiveness, strong non-verbal cues (touch, gesture, facial expression), and the simpatía cultural script common across Hispanic Latin America that prizes relational positivity and open affect. Festivals and carnival are described as intrinsic to social life. These are structural indicators of relatively open emotional expression. Counter-evidence: machismo norms impose hierarchical suppression of vulnerability and negative emotion in men, and communication with elders or authority figures becomes markedly more deferential and restrained, suggesting context-specific suppression. On balance, the everyday default leans Open rather than Restrained, but not at the extreme end — the hierarchy-based suppression provides a real downward pull. Score placed moderately above midpoint.",
-          "suggested_score": 63
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Honduran expression is moderately open. In informal settings, people are warm, expressive, and use physical touch (hugs, back-slapping). However, hierarchical deference (especially in workplace and formal contexts) suppresses open disagreement. The baseline is moderate: not as restrained as East Asian cultures, nor as exuberant as many Caribbean or Latin American neighbours. The counter-evidence of reserve in formal situations tempers the openness.",
-          "suggested_score": 55
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Family-oriented businesses",
+      "Community-driven projects",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {

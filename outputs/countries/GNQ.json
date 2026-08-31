@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 29,
-        "reading": "Community-first",
-        "explanation": "Hofstede estimates for Equatorial Guinea place its individualism score very low (estimated < 20), reflecting strong group orientation."
+        "reading": "Strongly Social",
+        "explanation": "Community-first: family, ethnic and clan ties set identity and open doors, so belonging, trust and connections drive choices."
       },
       {
         "dimension": "D2",
         "score": 39,
-        "reading": "Understated",
-        "explanation": "Bubi oral traditions include praise poetry and public oratory, indicating some expressive outlets in traditional settings."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, harmony-minded talk keeps the peace, and caution amid a closed political system, so measured, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 46,
         "reading": "Balanced",
-        "explanation": "Hofstede Uncertainty Avoidance for Equatorial Guinea is estimated at ~40–50 (low), indicating comfort with ambiguity and weak formal rules."
+        "explanation": "Middle: clan roles and a Spanish-colonial Catholic legacy give a soft frame while daily dealing improvises, so relationships and standing matter more than formal rules."
       },
       {
         "dimension": "D4",
         "score": 38,
-        "reading": "Relaxed",
-        "explanation": "Hofstede Masculinity estimate for Equatorial Guinea is moderate (~40–50), suggesting balance between achievement and quality of life."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning, with visible wealth on top: oil money shows in the cities, but many lean on traditional family support, so both status display and communal survival drive choices."
       }
     ],
-    "executive_summary": "Equatorial Guinea is a society deeply rooted in collectivism, where family and ethnic ties shape every aspect of life. The influence of Spanish colonial history is evident in the country's language and Catholic traditions. Despite the oil wealth, the nation remains marked by inequality and a lack of transparency. Social harmony is maintained through indirect communication, and personal connections are key to navigating both social and professional landscapes.",
+    "executive_summary": "Equatorial Guinea is deeply collective, where family and ethnic ties shape every part of life. The Spanish colonial past lives on in the language and in Catholic tradition. For all the oil money, the country stays marked by inequality and secrecy. Harmony is kept through indirect talk, and personal connections are how you find your way.",
     "cultural_archetype": {
-      "title": "The Communal Navigator",
-      "summary": "In Equatorial Guinea, life revolves around navigating intricate social networks and maintaining harmony within tightly-knit communities.",
+      "title": "Clan Communities",
+      "summary": "Clan networks open the doors, and appearance is kept up whatever the circumstances.",
       "claim_ids": [
         "c1",
         "c2",
@@ -195,11 +195,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Equatorial Guinea's cultural and political identity is marked by its history as the only Spanish-speaking country in sub-Saharan Africa, a legacy of Spanish colonial rule.",
-        "claim_ids": [
-          "C28"
-        ],
-        "sources_count": 1
+        "text": "Fang lineage and clan structures set social obligation and access to opportunity."
+      },
+      {
+        "text": "Oil wealth captured by a narrow elite made palancas, personal connections, the practical route through the bureaucracy."
+      },
+      {
+        "text": "Spanish colonial rule and Catholic tradition layered formal codes onto that clan structure."
       }
     ],
     "competing_forces": [
@@ -378,7 +380,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Equatorial Guinea is a blend of communal ties and subtle negotiations. The rhythm of daily life is set by flexible schedules and vibrant cultural expressions, such as music and dance at community gatherings. Social interactions are marked by indirect communication and a strong emphasis on maintaining harmony. Navigating the professional landscape requires building personal relationships and understanding the importance of clan affiliations. Despite the visible wealth in urban areas, many rely on traditional family support systems, highlighting the enduring influence of collectivist values.",
+      "text": "It is communal ties and quiet negotiation. The daily rhythm runs on flexible schedules and lively music and dance at community gatherings. People speak indirectly and work hard at harmony. Getting anywhere at work means building personal relationships and understanding clan loyalties. And though the cities show real wealth, many still lean on the old family support systems.",
       "claim_ids": [
         "C21",
         "C03",
@@ -390,46 +392,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Equatorial Guineans identify first with their tribe or ethnic group, second with the nation; the country was formed during Spanish rule linking two culturally distinct territories.",
-        "claim_ids": [
-          "C01"
-        ],
-        "sources_count": 1
+        "text": "The contrast between visible wealth and ordinary life is stark."
       },
       {
-        "text": "Since independence, political and economic power has been held almost exclusively by members of the Esangui clan (a Fang sub-group), making clan affiliation the decisive criterion for access to top positions.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "Formality in dress is striking."
       },
       {
-        "text": "While directness is sometimes present in official matters, indirect communication and non-verbal cues play a significant role in conveying meaning and maintaining harmony in Equatorial Guinea's business environment.",
-        "claim_ids": [
-          "C11"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Key cultural expressions include vibrant music and dance traditions, such as the rhythmic cumbé performed with square drums during communal gatherings and the balélé, suggesting genuine expressive communal outlets within sanctioned contexts.",
-        "claim_ids": [
-          "C15"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Equatorial Guineans do their best to look sharp in public; businessmen wear three-piece pin-striped suits even in extreme heat, reflecting a strong norm of formal public presentation and adherence to appearance codes.",
-        "claim_ids": [
-          "C18"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Meetings often begin late in Equatorial Guinea, so flexibility is key; patience is crucial as rushing is considered impolite—indicating a culturally accepted tolerance for schedule fluidity.",
-        "claim_ids": [
-          "C21"
-        ],
-        "sources_count": 1
+        "text": "Business needs a personal channel."
       }
     ],
     "success_factors": [
@@ -650,6 +619,18 @@
           "suggested_score": 28
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Expression is structurally restrained in Equatorial Guinea. The dominant driver is top-down political suppression: decades of dictatorship under Macías (who banned the Church, closed schools, criminalised journalism) and the continuing Obiang regime have created a culture in which open criticism—of authority, of elders, of employers—is explicitly avoided. Multiple workplace and business-culture sources (rivermate.com, clickup.com) independently confirm that indirect communication is the norm, that open confrontation is avoided to preserve social harmony, and that publicly questioning seniors is considered disrespectful. The Catholic Church itself deliberately avoids direct confrontation with state authorities (BTI 2026). This is not mere 'reserve with strangers'—it is structurally enforced suppression of expression, which is exactly what D2 measures. Counter-evidence includes vibrant communal traditions (cumbé drumming, communal balélé dance), which are genuine expressive outlets, and warm, lengthy greeting rituals—but these are sanctioned release-valve contexts, not evidence of general freedom from hierarchical suppression. Score anchors around 28: significantly restrained, but not at the floor because traditional communal music/dance and hospitality customs provide genuine expressive channels.",
+          "suggested_score": 28
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Expression is restrained due to authoritarian governance. Fear of political repression (Obiang regime since 1979) suppresses open criticism and emotional display in public; self-censorship is widespread. Traditional Fang culture also values indirect communication and respect for elders/authority. However, celebratory events (e.g., Equatorial Guinea's independence day, religious festivals) see temporary openness, and in rural areas, traditional music and dance are expressive outlets. Overall, the structure is Restrained with limited pockets of Openness.",
+          "suggested_score": 35
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -667,18 +648,6 @@
           "suggested_score": 20
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Expression is structurally restrained in Equatorial Guinea. The dominant driver is top-down political suppression: decades of dictatorship under Macías (who banned the Church, closed schools, criminalised journalism) and the continuing Obiang regime have created a culture in which open criticism—of authority, of elders, of employers—is explicitly avoided. Multiple workplace and business-culture sources (rivermate.com, clickup.com) independently confirm that indirect communication is the norm, that open confrontation is avoided to preserve social harmony, and that publicly questioning seniors is considered disrespectful. The Catholic Church itself deliberately avoids direct confrontation with state authorities (BTI 2026). This is not mere 'reserve with strangers'—it is structurally enforced suppression of expression, which is exactly what D2 measures. Counter-evidence includes vibrant communal traditions (cumbé drumming, communal balélé dance), which are genuine expressive outlets, and warm, lengthy greeting rituals—but these are sanctioned release-valve contexts, not evidence of general freedom from hierarchical suppression. Score anchors around 28: significantly restrained, but not at the floor because traditional communal music/dance and hospitality customs provide genuine expressive channels.",
-          "suggested_score": 28
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Expression is restrained due to authoritarian governance. Fear of political repression (Obiang regime since 1979) suppresses open criticism and emotional display in public; self-censorship is widespread. Traditional Fang culture also values indirect communication and respect for elders/authority. However, celebratory events (e.g., Equatorial Guinea's independence day, religious festivals) see temporary openness, and in rural areas, traditional music and dance are expressive outlets. Overall, the structure is Restrained with limited pockets of Openness.",
-          "suggested_score": 35
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -691,7 +660,12 @@
           "suggested_score": 50
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion experiences",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {

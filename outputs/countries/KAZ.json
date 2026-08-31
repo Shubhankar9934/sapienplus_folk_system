@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 46,
-        "reading": "Balanced",
-        "explanation": "Kazakhstan's society is deeply rooted in collectivism, with family and clan ties influencing major life decisions."
+        "score": 45,
+        "reading": "Social",
+        "explanation": "Balanced, tilting communal: clan and family loyalty run deep while urban youth reach for individual success, so trusted networks and reputation drive choices, with rising personal aspiration."
       },
       {
         "dimension": "D2",
         "score": 37,
-        "reading": "Understated",
-        "explanation": "Public emotional expression is restrained, reflecting a culture that values controlled and reserved interactions."
+        "reading": "Restrained",
+        "explanation": "Reserved: public composure and respect for rank keep feeling measured, while hospitality is lavish among your own, so dignified, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 60,
-        "reading": "Structured",
-        "explanation": "Kazakhstan exhibits a preference for hierarchical respect and structured decision-making, though informal networks introduce some fluidity."
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy, deference and a preference for order and long-term relationships give a firm frame, so credentials, the proper channel and a trusted contact reassure."
       },
       {
         "dimension": "D4",
         "score": 53,
         "reading": "Balanced",
-        "explanation": "While traditional values persist, there's a growing emphasis on personal achievement and career success, particularly among the youth."
+        "explanation": "Balanced and rising: getting ahead matters, often through networks and family standing, so both aspiration and communal status drive choices."
       }
     ],
-    "executive_summary": "Kazakhstan is a land where communal ties and individual aspirations coexist. Family and clan loyalties often guide life choices, yet there's a growing push towards personal success and self-expression among the youth. Hierarchical respect and long-term relationships define business interactions, while hospitality and generosity are key social markers. Public emotional restraint contrasts with the warmth shown within close circles.",
+    "executive_summary": "Kazakhstan holds communal ties and personal ambition together. Family and clan loyalty steer life's big choices, and yet the young are pushing toward their own success and self-expression. Business runs on respect for rank and on relationships built for the long haul, while hospitality and generosity are how you read a person. Public reserve gives way to real warmth inside the close circle.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society balancing deep-rooted collectivism with emerging individual aspirations.",
+      "title": "Formal Clans",
+      "summary": "Clan loyalty and formal rank, with the young reaching for something of their own.",
       "claim_ids": [
         "c1",
         "C01",
@@ -112,12 +112,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Kazakhstan's collectivist culture is deeply rooted in its nomadic heritage and the zhuz clan system, which structured social relations and obligations.",
-        "claim_ids": [
-          "claim_4",
-          "C07"
-        ],
-        "sources_count": 2
+        "text": "Nomadic clan tradition made kinship the base of survival on the steppe and still shapes who is trusted."
+      },
+      {
+        "text": "Russian and Soviet rule layered formal hierarchy, deference and administrative order onto that clan structure."
+      },
+      {
+        "text": "Oil and mineral wealth since independence created a young urban class with ambitions of its own."
       }
     ],
     "competing_forces": [
@@ -202,7 +203,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Kazakhstan feels like a balance between collective support and individual aspirations. Emotional restraint is common in public, but within close circles, warmth and loyalty are deeply valued. In the workplace, hierarchical respect and long-term relationships guide interactions, while the younger generation increasingly seeks personal success and self-expression.",
+      "text": "It feels like a balance between the support of the group and personal ambition. In public people are restrained; among their own, warmth and loyalty run deep. At work, respect for rank and long-term relationships guide things, while the young increasingly reach for personal success and self-expression.",
       "claim_ids": [
         "claim_6",
         "C06",
@@ -213,28 +214,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Kazakhstan's society is marked by a strong sense of community and mutual support, with family and clan ties influencing social interactions.",
-        "claim_ids": [
-          "C04",
-          "C07"
-        ],
-        "sources_count": 2
+        "text": "The scale of the country shapes everything."
       },
       {
-        "text": "Public emotional restraint is noticeable, a legacy of Soviet influence, yet within close circles, warmth and hospitality are prominent.",
-        "claim_ids": [
-          "claim_6",
-          "C17"
-        ],
-        "sources_count": 2
+        "text": "Business needs a personal introduction."
       },
       {
-        "text": "In professional settings, hierarchical respect and long-term relationships are prioritized, with decisions often made at the top.",
-        "claim_ids": [
-          "C13",
-          "C30"
-        ],
-        "sources_count": 2
+        "text": "Hospitality is on a large scale."
       }
     ],
     "success_factors": [
@@ -486,7 +472,12 @@
           "suggested_score": 65
         }
       ]
-    }
+    },
+    "best_for": [
+      "Building long-term relationships",
+      "Navigating hierarchical structures",
+      "Community-focused projects"
+    ]
   },
   "sources": [
     {
@@ -779,7 +770,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 46,
+        "score": 45,
         "confidence": "MEDIUM"
       },
       "D2": {

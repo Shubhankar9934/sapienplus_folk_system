@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 21,
-        "reading": "Community-first",
-        "explanation": "Tuvalu's society is deeply rooted in collectivism, with kinship and community ties taking precedence over individual aspirations."
+        "reading": "Strongly Social",
+        "explanation": "Extremely community-first: extended families and island affiliation dominate identity, so belonging and reputation drive everything."
       },
       {
         "dimension": "D2",
-        "score": 62,
-        "reading": "Expressive",
-        "explanation": "While Tuvaluans are expressive during communal events, everyday interactions are marked by restraint and respect for hierarchy."
+        "score": 55,
+        "reading": "Open",
+        "explanation": "Expressive: gatherings are lively and warm while daily dealing respects rank and tradition, so warm-but-respectful, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 58,
-        "reading": "Structured",
-        "explanation": "Social order in Tuvalu is maintained through a predictable framework of traditional customs and community consensus."
+        "reading": "Certain",
+        "explanation": "Structured: custom, tradition and community obligation give a firm social frame, so the known way and standing carry weight."
       },
       {
         "dimension": "D4",
         "score": 31,
-        "reading": "Relaxed",
-        "explanation": "Success in Tuvalu is measured by one's contribution to the community rather than individual achievements."
+        "reading": "Accepting",
+        "explanation": "Strongly quality-of-life: harmony and collective well-being over individual pursuit, an unhurried island life, so practical, communal goods matter most."
       }
     ],
-    "executive_summary": "In Tuvalu, community and kinship dominate daily life, with extended families and island affiliations shaping identity. Social gatherings are lively and expressive, yet daily interactions are guided by respect and tradition. Newcomers will notice the strong emphasis on harmony and collective well-being over individual pursuits.",
+    "executive_summary": "In Tuvalu community and kinship dominate the everyday, with extended families and island affiliations shaping who you are. Gatherings are lively and expressive, while daily dealings run on respect and tradition. A newcomer notices the strong stress on harmony and the collective good over individual pursuits.",
     "cultural_archetype": {
-      "title": "The Communal Guardian",
-      "summary": "A society where kinship and community ties are paramount, guiding social norms and interactions.",
+      "title": "Atoll Households",
+      "summary": "Kinship and community obligation, on islands where everyone is needed.",
       "claim_ids": [
         "claim_001",
         "C01",
@@ -182,12 +182,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Tuvalu's social structure and cultural norms have been shaped by its geographic isolation and reliance on communal living for survival, fostering strong kinship ties and community cooperation.",
-        "claim_ids": [
-          "C05",
-          "C04"
-        ],
-        "sources_count": 2
+        "text": "Extended families and island affiliation dominate identity in a population of around eleven thousand."
+      },
+      {
+        "text": "Custom and community consensus supply the working order on islands with minimal formal administration."
+      },
+      {
+        "text": "The fatele dance and communal gatherings establish shared celebration as central to social life."
       }
     ],
     "competing_forces": [
@@ -287,7 +288,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Tuvalu revolves around community and kinship, with daily activities and social gatherings reflecting a deep sense of belonging. The structured yet expressive social environment offers a unique blend of predictability and cultural vibrancy, where respect for tradition coexists with lively communal celebrations.",
+      "text": "Life revolves around community and kinship, with everyday activities and gatherings carrying a deep sense of belonging. The structured but expressive social world offers a blend of predictability and cultural color, where respect for tradition sits beside lively communal celebration.",
       "claim_ids": [
         "claim_002",
         "C06",
@@ -297,28 +298,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong emphasis on family and community ties is immediately apparent, with extended families and kinship groups playing a central role in social life.",
-        "claim_ids": [
-          "claim_001",
-          "C01"
-        ],
-        "sources_count": 2
+        "text": "Community obligation is central."
       },
       {
-        "text": "Social gatherings are lively and expressive, with traditional dances and communal celebrations highlighting the community's cultural vibrancy.",
-        "claim_ids": [
-          "claim_002",
-          "C13"
-        ],
-        "sources_count": 2
+        "text": "Gatherings are frequent and expressive."
       },
       {
-        "text": "Respect for elders and adherence to traditional customs are evident in both formal and informal interactions, guiding social norms and behaviors.",
-        "claim_ids": [
-          "C06",
-          "C18"
-        ],
-        "sources_count": 2
+        "text": "The scale of the islands shapes everything."
       }
     ],
     "success_factors": [
@@ -419,7 +405,7 @@
         "iso3": "FSM",
         "country": "Micronesia (Fed. States)",
         "similarity": 89,
-        "explanation": "Both Tuvalu and Micronesia emphasize strong kinship ties and community cooperation, with social structures deeply rooted in traditional customs.",
+        "explanation": "Both Tuvalu and Micronesia stress strong kinship ties and community cooperation, with social structures deeply rooted in traditional customs.",
         "claim_ids": [
           "claim_001",
           "C01",
@@ -431,7 +417,7 @@
         "iso3": "FJI",
         "country": "Fiji",
         "similarity": 85,
-        "explanation": "Tuvalu and Fiji share a focus on communal living and vibrant cultural expressions, with both societies valuing collective well-being over individual pursuits.",
+        "explanation": "Tuvalu and Fiji share a focus on communal living and lively cultural expressions, with both societies valuing collective well-being over individual pursuits.",
         "claim_ids": [
           "claim_001",
           "claim_002",
@@ -593,7 +579,12 @@
           "suggested_score": 25
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven projects",
+      "Cultural immersion experiences",
+      "Collaborative endeavors"
+    ]
   },
   "sources": [
     {
@@ -923,7 +914,7 @@
         "confidence": "MEDIUM"
       },
       "D2": {
-        "score": 62,
+        "score": 55,
         "confidence": "MEDIUM"
       },
       "D3": {

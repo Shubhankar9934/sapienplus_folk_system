@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 46,
-        "reading": "Balanced",
-        "explanation": "Venezuelan society is deeply collectivist, with family and group loyalty forming the core of personal identity."
+        "score": 32,
+        "reading": "Social",
+        "explanation": "Community-first: family and social connections are paramount, so belonging, reputation and a personal tie drive choices."
       },
       {
         "dimension": "D2",
-        "score": 88,
-        "reading": "Highly expressive",
-        "explanation": "Expressive communication and emotional warmth are central to Venezuelan interactions, reflecting a culture that values open emotional expression."
+        "score": 80,
+        "reading": "Strongly Open",
+        "explanation": "Very expressive: warm, loud, physically affectionate, so bold, joyful, warm branding connects."
       },
       {
         "dimension": "D3",
-        "score": 64,
-        "reading": "Structured",
-        "explanation": "While Venezuelans prefer predictability and known relationships, they often navigate uncertainty through personal networks rather than formal rules."
+        "score": 51,
+        "reading": "Balanced",
+        "explanation": "Middle: respect for rank sits over a flexible, improvising way of dealing amid instability, so a trusted tie and give beat rigid process."
       },
       {
         "dimension": "D4",
-        "score": 68,
-        "reading": "Achievement-oriented",
-        "explanation": "A strong achievement orientation is evident in Venezuela, where competition and performance are highly valued."
+        "score": 61,
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: real ambition sits beside strong relationship-and-family reliance, so both aspiration and belonging drive choices, though turmoil breeds guardedness."
       }
     ],
-    "executive_summary": "Venezuela is a vibrant, collectivist society where family and social connections are paramount. Communication is expressive and often indirect, with an emphasis on relationships over rules. Despite a strong achievement orientation, everyday life is marked by flexibility and improvisation. Newcomers will notice the warmth and closeness of social interactions, but should be prepared for the challenges of navigating a high power distance culture.",
+    "executive_summary": "Venezuela is a lively, collectivist society where family and social connection come first. Talk is expressive and often indirect, with the relationship weighed above the rule. For all a real drive to achieve, everyday life runs on flexibility and improvisation. A newcomer notices the warmth and closeness of dealings, but should be ready for a culture of high power distance, where rank matters a great deal.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society that balances strong group identity with a competitive drive for success.",
+      "title": "Effusive Strivers",
+      "summary": "Strong family ties and loud warmth, with plans held loosely.",
       "claim_ids": [
         "c1",
         "C01",
@@ -173,12 +173,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Venezuela's collectivist culture is historically rooted in the importance of family and community as primary support networks.",
-        "claim_ids": [
-          "c1",
-          "C05"
-        ],
-        "sources_count": 2
+        "text": "Family and close social networks became the safety net through decades of political and economic crisis."
+      },
+      {
+        "text": "A Caribbean-Latin tradition of physical warmth and loud sociability produces one of the highest Expression scores measured."
+      },
+      {
+        "text": "Institutional collapse and hyperinflation left personal trust standing in for formal process."
       }
     ],
     "competing_forces": [
@@ -285,7 +286,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Venezuela is a tapestry of close-knit family ties and expressive social interactions. Daily life is flexible and improvisational, with a strong reliance on family as a support network. Conversations are lively and warm, often involving physical touch and animated gestures. However, the political climate can lead to guardedness in public discourse, especially around sensitive topics.",
+      "text": "Life is close family ties and expressive company. The everyday is flexible and improvised, leaning hard on family as a safety net. Conversations run lively and warm, full of touch and animated gesture. But the political climate can breed guardedness in public talk, especially around touchy subjects.",
       "claim_ids": [
         "C05",
         "c7",
@@ -296,28 +297,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The warmth and expressiveness of Venezuelan communication is immediately noticeable, with lively gestures and close proximity during conversations.",
-        "claim_ids": [
-          "C08",
-          "c4"
-        ],
-        "sources_count": 2
+        "text": "The warmth and volume are immediate."
       },
       {
-        "text": "Family and group identity are central, with personal identity deeply tied to family networks and social groups.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "Improvisation is constant."
       },
       {
-        "text": "The emphasis on relationships over formal rules is evident in business practices, where personal connections often take precedence.",
-        "claim_ids": [
-          "C04",
-          "C20"
-        ],
-        "sources_count": 2
+        "text": "Public discussion of politics is guarded."
       }
     ],
     "success_factors": [
@@ -470,7 +456,7 @@
         "iso3": "URY",
         "country": "Uruguay",
         "similarity": 83,
-        "explanation": "Both countries have a collectivist orientation and emphasize the importance of social networks.",
+        "explanation": "Both countries have a collectivist orientation and stress the importance of social networks.",
         "claim_ids": [
           "c1",
           "c2"
@@ -590,7 +576,13 @@
           "suggested_score": 41
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business ventures",
+      "Expressive communication teams",
+      "Family-oriented social settings",
+      "Long-term strategic planning"
+    ]
   },
   "sources": [
     {
@@ -894,19 +886,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 46,
+        "score": 32,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 88,
+        "score": 80,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 64,
+        "score": 51,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 68,
+        "score": 61,
         "confidence": "MEDIUM"
       }
     },

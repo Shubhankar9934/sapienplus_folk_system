@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 51,
-        "reading": "Balanced",
-        "explanation": "Chile's society is highly collectivist, with strong ties to family and social networks, where group loyalty often takes precedence over individual goals."
+        "score": 40,
+        "reading": "Social",
+        "explanation": "Tilts communal: family and social networks are the backbone, so a trusted introduction and reputation drive choices more than an unsolicited approach."
       },
       {
         "dimension": "D2",
-        "score": 64,
-        "reading": "Expressive",
-        "explanation": "Chilean communication is characterized by indirectness and a preference for face-saving, reflecting a cultural restraint on open emotional expression."
+        "score": 61,
+        "reading": "Open",
+        "explanation": "Expressive in private, reserved in public: warmth flows among friends while public dealings are careful and face-saving, so friendly, indirect, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 72,
-        "reading": "Highly structured",
-        "explanation": "Chile has a high preference for rules and structure, with a strong reliance on formal procedures and authority figures to maintain order."
+        "reading": "Strongly Certain",
+        "explanation": "Structured: a strong need for order, rules and predictability, unusual for the region, gives a firm frame, so clear terms, guarantees and established names reassure."
       },
       {
         "dimension": "D4",
         "score": 38,
-        "reading": "Relaxed",
-        "explanation": "While Chileans value quality of life and relationships, there's a burgeoning entrepreneurial spirit that reflects a moderate drive for success."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning, with rising ambition: stability and family come first, though urban professionals show a new entrepreneurial edge, so dependable value leads and aspiration is growing."
       }
     ],
-    "executive_summary": "In Chile, family and social networks are the backbone of society, emphasizing collective identity over individual pursuits. The country values indirect communication and face-saving, fostering a culture of harmony and respect. Despite a strong need for structure and predictability, there's a growing entrepreneurial spirit among urban professionals. Chile's history of inequality and centralized authority continues to shape its social and economic landscape.",
+    "executive_summary": "In Chile the family and the social network hold everything up, and the group counts for more than the lone individual. People speak indirectly and work to save face, keeping things harmonious and respectful. They like structure and predictability, though a new entrepreneurial streak is showing among city professionals. A long history of inequality and top-down authority still marks the place.",
     "cultural_archetype": {
-      "title": "The Harmonious Networker",
-      "summary": "A society deeply rooted in family ties and social harmony, where relationships and collective identity are paramount.",
+      "title": "Ordered Socials",
+      "summary": "Family and networks carry people, inside institutions that actually hold.",
       "claim_ids": [
         "c01",
         "c02",
@@ -146,18 +146,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Pinochet dictatorship's suppression of public dissent and emotional political openness created a lasting legacy of caution in public emotional display.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "A history of centralised authority and deep inequality made family and personal networks the safety net."
       },
       {
-        "text": "Chile's centralized state and strong legal-rational authority have historically reinforced a cultural expectation of orderly public life.",
-        "claim_ids": [
-          "c10"
-        ],
-        "sources_count": 1
+        "text": "Comparatively strong and stable institutions, unusual in the region, built genuine trust in rules and formal procedure."
+      },
+      {
+        "text": "Geographic isolation behind the Andes and the Atacama produced a more reserved public manner than its neighbours."
       }
     ],
     "competing_forces": [
@@ -244,7 +239,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Chile revolves around family and social networks, with a strong emphasis on collective identity and harmony. While public interactions are often reserved, private gatherings are filled with warmth and emotion. Navigating social and professional settings requires understanding the importance of indirect communication and personal connections.",
+      "text": "Life turns on family and social networks, with the collective and its harmony out front. In public people are reserved; in private the gatherings are warm and full of feeling. To get along, you learn the weight of indirect talk and personal connections.",
       "claim_ids": [
         "c03",
         "c05",
@@ -255,28 +250,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The importance of family and social networks is immediately evident, with strong ties to group identity and loyalty.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "People are more reserved in public than elsewhere in the region."
       },
       {
-        "text": "Indirect communication and face-saving are prevalent, requiring newcomers to read between the lines in interactions.",
-        "claim_ids": [
-          "c6",
-          "c15"
-        ],
-        "sources_count": 2
+        "text": "Institutions work more predictably than neighbours' do."
       },
       {
-        "text": "A strong preference for rules and structure is noticeable, with a reliance on formal procedures and authority figures.",
-        "claim_ids": [
-          "c8",
-          "c17"
-        ],
-        "sources_count": 2
+        "text": "Friendships form slowly and then last."
       }
     ],
     "success_factors": [
@@ -401,7 +381,7 @@
         "iso3": "URY",
         "country": "Uruguay",
         "similarity": 93,
-        "explanation": "Chile and Uruguay both emphasize strong family ties and social networks, but Chile's history of centralized authority and inequality gives it a unique social dynamic.",
+        "explanation": "Chile and Uruguay both stress strong family ties and social networks, but Chile's history of centralized authority and inequality gives it a unique social dynamic.",
         "claim_ids": [
           "c1",
           "c28"
@@ -569,7 +549,13 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Family-oriented projects",
+      "Relationship-based networking",
+      "Structured business environments",
+      "Entrepreneurial ventures"
+    ]
   },
   "sources": [
     {
@@ -851,11 +837,11 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 51,
+        "score": 40,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 64,
+        "score": 61,
         "confidence": "HIGH"
       },
       "D3": {

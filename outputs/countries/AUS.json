@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 87,
-        "reading": "Strongly independent",
-        "explanation": "Australia's culture is highly individualistic, prioritizing personal achievement and self-reliance over group identity."
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: people run their own lives and prize personal freedom, held together by 'mateship,' a loyalty between equals, so 'made for you' works, but so does an easy, unpretentious, we're-all-equal tone."
       },
       {
         "dimension": "D2",
-        "score": 75,
-        "reading": "Highly expressive",
-        "explanation": "Australians are open in their expressions, enjoying life with a relaxed and informal communication style."
+        "score": 70,
+        "reading": "Strongly Open",
+        "explanation": "Expressive and direct: plain-spoken, humorous and quick to puncture pretension, so honest, funny, no-nonsense branding lands while polished corporate speak grates."
       },
       {
         "dimension": "D3",
-        "score": 36,
-        "reading": "Adaptable",
-        "explanation": "Australia exhibits a balanced tolerance for ambiguity, with a preference for flexible structures and participatory decision-making."
+        "score": 39,
+        "reading": "Fluid",
+        "explanation": "Flexible and informal: fairness and getting on with it matter more than rules, and hierarchy is played down, so easygoing, low-friction, jargon-free offers fit."
       },
       {
         "dimension": "D4",
-        "score": 56,
-        "reading": "Balanced",
-        "explanation": "While Australians value achievement, the cultural norm discourages overt displays of ambition, balancing drive with humility."
+        "score": 59,
+        "reading": "Striving",
+        "explanation": "Moderately striving but capped by 'tall poppy syndrome,' the habit of cutting down anyone who brags, so success is fine if it stays humble; understated quality and work-life balance matter more than loud status."
       }
     ],
-    "executive_summary": "Australia champions individualism with a strong sense of mateship, balancing personal achievement with communal solidarity. Direct communication and a laid-back lifestyle define social interactions, while the tall poppy syndrome tempers overt ambition. Work-life balance is a priority, reflecting a culture that values leisure and personal freedom.",
+    "executive_summary": "Australia is about as individualist as a place can get, but it is held together by mateship, a plain loyalty between equals. People say what they think, straight out, and they do not stand on ceremony. There is a catch on ambition here called tall poppy syndrome: grow too tall or brag too loud, and someone will cut you back down to size. A good life outside of work matters more than the climb.",
     "cultural_archetype": {
-      "title": "The Independent Achiever",
-      "summary": "A society that blends strong individualism with a spirit of camaraderie and egalitarianism.",
+      "title": "Easygoing Individualists",
+      "summary": "Everyone runs their own life, and nobody is allowed to act better than anyone else.",
       "claim_ids": [
         "c1",
         "c2"
@@ -170,11 +170,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Australia's development was shaped by its convict origins and the gold rush era, which instilled values of self-reliance and egalitarianism.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Convict transportation and later free settlement filled the country with people who had left their kin networks behind, which pushes Identity to one of the highest scores recorded."
+      },
+      {
+        "text": "An early labour movement and a self-conscious rejection of British class distinction produced mateship and the tall-poppy reflex that caps visible ambition."
+      },
+      {
+        "text": "Abundant land and a warm climate built an outdoor leisure culture that is defended against work."
       }
     ],
     "competing_forces": [
@@ -271,7 +273,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Australia feels relaxed and balanced, with a strong emphasis on leisure and personal freedom. Workplaces are informal yet driven by individual initiative, and friendships are grounded in the concept of mateship. Direct communication and a preference for egalitarianism shape social interactions, while the tall poppy syndrome ensures a cultural check on overt ambition.",
+      "text": "It feels relaxed and even. Work is informal, but you are expected to pull your weight. Friendships run on mateship, and everyone is meant to be equal, so the show-off gets a ribbing. Leisure and freedom are the point, not the corner office.",
       "claim_ids": [
         "c10",
         "c03",
@@ -282,28 +284,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Australians are notably direct in their communication, often using humor and colloquialisms.",
-        "claim_ids": [
-          "c3",
-          "c4"
-        ],
-        "sources_count": 2
+        "text": "The directness is immediate and not meant unkindly."
       },
       {
-        "text": "Work-life balance is highly valued, with a strong culture of leisure and outdoor activities.",
-        "claim_ids": [
-          "c10",
-          "c27"
-        ],
-        "sources_count": 2
+        "text": "Humour is used to test people and to defuse things."
       },
       {
-        "text": "The tall poppy syndrome discourages overt displays of success, promoting a culture of humility.",
-        "claim_ids": [
-          "c24",
-          "c26"
-        ],
-        "sources_count": 2
+        "text": "Hierarchy is played down, and titles carry little weight."
       }
     ],
     "success_factors": [
@@ -499,6 +486,18 @@
           "suggested_score": 90
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "Hofstede Indulgence = 71, placing Australia clearly in the open/expressive band. This is backed by observational evidence: casual first-name-basis workplaces, humour-infused communication, sport and leisure centrality, and willingness to voice opinions openly. However, D2 measures freedom from hierarchical suppression of expression, not volume. IOR Global Services notes that 'restrained displays of emotion are not common' in Anglo-Australian settings (qualifying against a full-Open score), and the egalitarian norm means exuberant self-promotion is actively suppressed (tall poppy). The dominant signal is Open-leaning, but culturally moderated by understatement and stoic Anglo norms. Score of 68 reflects a genuinely open-expressive culture that stops short of highly effusive emotional display.",
+          "suggested_score": 68
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Australians are relatively open in expression, with a blunt, informal communication style and a cultural preference for 'telling it like it is'. However, there remains a strong cultural norm of modesty and understatement (tall poppy syndrome) that restrains overt self-promotion.",
+          "suggested_score": 60
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -532,20 +531,13 @@
           "reasoning": "Australia shows a moderately striving orientation (Hofstede Masculinity 61). Achievement and competition are valued, especially in sport and business, but this is balanced by a strong emphasis on work-life balance and leisure (the 'weekend warrior' culture).",
           "suggested_score": 65
         }
-      ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "Hofstede Indulgence = 71, placing Australia clearly in the open/expressive band. This is backed by observational evidence: casual first-name-basis workplaces, humour-infused communication, sport and leisure centrality, and willingness to voice opinions openly. However, D2 measures freedom from hierarchical suppression of expression, not volume. IOR Global Services notes that 'restrained displays of emotion are not common' in Anglo-Australian settings (qualifying against a full-Open score), and the egalitarian norm means exuberant self-promotion is actively suppressed (tall poppy). The dominant signal is Open-leaning, but culturally moderated by understatement and stoic Anglo norms. Score of 68 reflects a genuinely open-expressive culture that stops short of highly effusive emotional display.",
-          "suggested_score": 68
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Australians are relatively open in expression, with a blunt, informal communication style and a cultural preference for 'telling it like it is'. However, there remains a strong cultural norm of modesty and understatement (tall poppy syndrome) that restrains overt self-promotion.",
-          "suggested_score": 60
-        }
       ]
-    }
+    },
+    "best_for": [
+      "Teams valuing independence and initiative",
+      "Leisure-focused lifestyle seekers",
+      "Direct communicators"
+    ]
   },
   "sources": [
     {
@@ -798,15 +790,15 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 75,
+        "score": 70,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 36,
+        "score": 39,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 56,
+        "score": 59,
         "confidence": "MEDIUM"
       }
     },

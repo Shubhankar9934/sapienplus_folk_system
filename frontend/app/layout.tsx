@@ -1,13 +1,28 @@
 import type { Metadata } from "next";
+import { Inter, Anton } from "next/font/google";
 import "./globals.css";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Providers } from "./providers";
 import { NavBar } from "@/components/NavBar";
+import { SiteFooter } from "@/components/SiteFooter";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+const anton = Anton({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-display",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "FOLK Cultural Intelligence",
   description:
-    "Understand how cultures differ across the world. 197 countries, 4 dimensions, 5 cultural frameworks, a multi-LLM research council.",
+    "Understand how cultures differ across the world. 197 countries, 4 dimensions — Identity, Expression, Structure, Drive — scored by a multi-LLM research council across 5 academic frameworks.",
 };
 
 export default function RootLayout({
@@ -16,21 +31,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body>
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <body className={`${inter.variable} ${anton.variable}`}>
         <Providers>
-          <NavBar />
-          <main className="min-h-screen">{children}</main>
-          <footer className="border-t border-line mt-20 py-10 text-center text-sm text-ink-dim">
-            <p>
-              FOLK Cultural Intelligence Platform &middot; Evidence-centric
-              cultural scoring across 4 dimensions and 5 frameworks.
-            </p>
-            <p className="mt-1">
-              Scores are calibrated against fixed global reference points and
-              reviewed by a multi-LLM research council.
-            </p>
-          </footer>
+          <div className="flex min-h-screen flex-col">
+            {children}
+          </div>
         </Providers>
       </body>
     </html>

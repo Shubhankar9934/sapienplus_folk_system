@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 88,
-        "reading": "Strongly independent",
-        "explanation": "Switzerland's high individualism is reflected in the strong emphasis on personal responsibility and autonomy."
+        "score": 83,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal responsibility and privacy are prized, within a deep civic-participation frame, so personalization and discretion work alongside trust in the collective system."
       },
       {
         "dimension": "D2",
-        "score": 61,
-        "reading": "Expressive",
-        "explanation": "Emotional expression is restrained, with a cultural preference for measured and analytical communication."
+        "score": 49,
+        "reading": "Balanced",
+        "explanation": "Middle and restrained: composure and understatement are valued and warmth comes slowly, so precise, quality-first, low-key framing beats hype."
       },
       {
         "dimension": "D3",
-        "score": 63,
-        "reading": "Structured",
-        "explanation": "A structured and predictable social order is highly valued, with a strong preference for planning and control."
+        "score": 69,
+        "reading": "Certain",
+        "explanation": "Highly structured: order, precision, punctuality and reliability are near-sacred, so certifications, guarantees, established names and flawless service strongly reassure."
       },
       {
         "dimension": "D4",
         "score": 67,
-        "reading": "Achievement-oriented",
-        "explanation": "Achievement and competition are central, driven by a cultural emphasis on performance and success."
+        "reading": "Striving",
+        "explanation": "Achievement-oriented but quality-capped: success is prized yet expressed through excellence and discretion, not flash, so premium, precise, durable goods land framed as quality."
       }
     ],
-    "executive_summary": "Switzerland embodies a blend of individualism and structured order, with a strong emphasis on achievement and precision. Social interactions are marked by restraint, yet there is a deep commitment to community and civic participation. The Swiss value punctuality and planning, creating a predictable and organized environment.",
+    "executive_summary": "Switzerland pairs a strong independence with a love of order and precision. People hold their feelings back, but they take community and civic life seriously, voting and taking part far more than most. The clock is respected and plans are kept, which makes for a tidy, predictable place.",
     "cultural_archetype": {
-      "title": "The Independent Achiever",
-      "summary": "A society that balances personal autonomy with a drive for excellence and structured order.",
+      "title": "Precise Individualists",
+      "summary": "Independence and precision together, in a country where everything is expected to work.",
       "claim_ids": [
         "c1",
         "C01",
@@ -96,11 +96,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Swiss federalism and strong cantonal identities have historically discouraged a single national group identity, fostering individualism.",
-        "claim_ids": [
-          "claim_3"
-        ],
-        "sources_count": 1
+        "text": "Direct democracy and strong cantonal self-government made the citizen the decision-maker, pushing Identity high while keeping civic duty serious."
+      },
+      {
+        "text": "Watchmaking, precision engineering and banking tied national standing to accuracy and reliability, which holds Structure and Drive high."
+      },
+      {
+        "text": "Neutrality and a multilingual federal settlement bred discretion and restraint as social norms."
       }
     ],
     "competing_forces": [
@@ -177,7 +179,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in Switzerland involves navigating a culture that values both individual autonomy and community participation. Daily life is orderly and predictable, with a strong emphasis on punctuality and planning. Social interactions are marked by restraint, yet there is a deep commitment to maintaining long-term friendships and community ties.",
+      "text": "It means both minding your own affairs and pitching into the community. The days are orderly and punctual, with real weight put on planning. People are reserved, and yet they tend friendships and community ties for the long haul.",
       "claim_ids": [
         "C05",
         "C06",
@@ -187,12 +189,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The restrained and measured communication style may initially seem reserved, but it reflects a cultural preference for precision and clarity.",
-        "claim_ids": [
-          "c4",
-          "C08"
-        ],
-        "sources_count": 2
+        "text": "Everything works, and the standard is assumed rather than praised."
+      },
+      {
+        "text": "Four languages coexist without fuss."
+      },
+      {
+        "text": "Warmth takes time; the first meetings are correct rather than friendly."
       }
     ],
     "success_factors": [
@@ -307,7 +310,7 @@
         "iso3": "AND",
         "country": "Andorra",
         "similarity": 87,
-        "explanation": "Both Switzerland and Andorra emphasize community involvement, but Switzerland's structured order and individualism are more pronounced.",
+        "explanation": "Both Switzerland and Andorra stress community involvement, but Switzerland's structured order and individualism are more pronounced.",
         "claim_ids": [
           "C06",
           "c1"
@@ -453,7 +456,12 @@
           "suggested_score": 75
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Long-term planners",
+      "Structured environments"
+    ]
   },
   "sources": [
     {
@@ -713,15 +721,15 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 88,
+        "score": 83,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 61,
+        "score": 49,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 63,
+        "score": 69,
         "confidence": "MEDIUM"
       },
       "D4": {

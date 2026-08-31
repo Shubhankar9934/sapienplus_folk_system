@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 92,
-        "reading": "Strongly independent",
-        "explanation": "Germany's individualistic culture emphasizes personal achievement and autonomy, with a strong sense of self-reliance."
+        "score": 83,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal responsibility, privacy and a clear line between work and private life are prized, so personalization and discretion work while pushy communal appeals do not."
       },
       {
         "dimension": "D2",
-        "score": 62,
-        "reading": "Expressive",
-        "explanation": "While Germans express emotions like anger more openly than some cultures, public emotional displays are generally restrained."
+        "score": 50,
+        "reading": "Balanced",
+        "explanation": "Middle, direct but reserved: people say things plainly yet keep feeling low, so honest, precise, proof-led framing beats emotional hype."
       },
       {
         "dimension": "D3",
-        "score": 82,
-        "reading": "Highly structured",
-        "explanation": "Germany's preference for order and predictability is reflected in its strong reliance on rules and structured environments."
+        "score": 83,
+        "reading": "Strongly Certain",
+        "explanation": "Very highly structured: rules, planning, punctuality and reliability are near-sacred, so certifications, guarantees, engineering credentials and flawless process strongly reassure and justify a premium."
       },
       {
         "dimension": "D4",
-        "score": 78,
-        "reading": "Strongly achievement-oriented",
-        "explanation": "Achievement and competition are highly valued in German society, with success often measured by material and professional accomplishments."
+        "score": 75,
+        "reading": "Strongly Striving",
+        "explanation": "Strongly striving: success is measured in performance, quality and results, so premium, high-spec, durable goods land, framed around engineering and lasting quality rather than flash."
       }
     ],
-    "executive_summary": "Germany is a land of precision and punctuality, where individual achievement is celebrated, and directness is a cultural norm. The society balances a strong sense of order with a restrained emotional expression, creating a predictable yet reserved environment. Success is often measured by performance and material symbols, reflecting a culture that values hard work and efficiency.",
+    "executive_summary": "Germany runs on precision and punctuality, celebrates the individual's achievement, and says things straight. It pairs a strong sense of order with held-in feelings, which makes for a predictable, reserved place. Success tends to get measured in performance and in the things it buys, by a culture that prizes hard work and efficiency.",
     "cultural_archetype": {
-      "title": "The Structured Achiever",
-      "summary": "A society where order and achievement are paramount, and personal success is a key marker of identity.",
+      "title": "Orderly Individualists",
+      "summary": "Order, precision and results, with private life kept separate and safe.",
       "claim_ids": [
         "claim1",
         "claim2",
@@ -143,11 +143,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The social market economy and strong labor unions embed individuals in collective bargaining and welfare structures, tempering extreme individualism.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "Prussian administrative tradition and a codified legal order made rules, planning and reliability near-absolute, producing one of the highest Structure scores measured."
+      },
+      {
+        "text": "The Mittelstand and the master-craftsman system tied standing to demonstrable technical skill, which lifts Drive."
+      },
+      {
+        "text": "Post-war reconstruction and the social market settlement reinforced order while making privacy and a clean work-home line central."
       }
     ],
     "competing_forces": [
@@ -235,7 +237,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Germany means navigating a society that prizes punctuality and precision. Workplaces are structured and direct, with a clear separation between professional and personal life. Friendships are formed with a sense of individual autonomy, but once established, they are deep and meaningful. Social interactions are marked by a reserved expression of emotions, yet honesty and clarity are valued.",
+      "text": "It means living in a society that prizes being on time and getting it exactly right. Workplaces are structured and direct, with a clean line between the job and private life. Friendships start from a respect for each other's independence, but once made they are deep and real. People keep their emotions reserved, while setting a high value on honesty and clarity.",
       "claim_ids": [
         "claim6",
         "C04",
@@ -246,25 +248,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "German culture values punctuality, timeliness, and clear communication, reflecting strong norms of social order and predictability.",
-        "claim_ids": [
-          "claim6"
-        ],
-        "sources_count": 1
+        "text": "The plainness of speech surprises people, and is not hostility."
       },
       {
-        "text": "Germans are known for their direct and clear communication — they often say exactly what they mean, which some from more indirect cultures can experience as surprisingly open.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
+        "text": "Rules are followed even when nobody is watching."
       },
       {
-        "text": "Status in Germany is often signalled through cars, watches, and technical devices — marking achievement and material success as a key social currency.",
-        "claim_ids": [
-          "C24"
-        ],
-        "sources_count": 1
+        "text": "Sunday closing is absolute."
       }
     ],
     "success_factors": [
@@ -531,7 +521,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Precision-driven industries",
+      "Direct communication styles",
+      "Structured project management"
+    ]
   },
   "sources": [
     {
@@ -791,19 +786,19 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 92,
+        "score": 83,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 62,
+        "score": 50,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 82,
+        "score": 83,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 78,
+        "score": 75,
         "confidence": "MEDIUM"
       }
     },

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 30,
-        "reading": "Community-first",
-        "explanation": "Bahrain's culture is a tapestry of individual initiative within a framework of strong tribal and familial loyalty."
+        "score": 32,
+        "reading": "Social",
+        "explanation": "Community-first: tribal heritage and family ties set identity and standing, so relationships, networks and reputation open doors that advertising cannot."
       },
       {
         "dimension": "D2",
         "score": 44,
-        "reading": "Even-keeled",
-        "explanation": "While Bahrainis value expressive warmth in personal settings, professional communication remains indirect and diplomatic."
+        "reading": "Restrained",
+        "explanation": "Middle-reserved: composure is expected in public while warmth flows in private hospitality, so dignified, relationship-led framing with generous gestures works."
       },
       {
         "dimension": "D3",
         "score": 73,
-        "reading": "Highly structured",
-        "explanation": "A preference for clear hierarchies and established procedures reflects Bahrain's comfort with structured interactions."
+        "reading": "Strongly Certain",
+        "explanation": "Strongly structured: an orderly, hierarchy-and-status-conscious society that likes predictability and the proper channel, so credentials, established names and polished service reassure and justify a premium."
       },
       {
         "dimension": "D4",
         "score": 61,
-        "reading": "Achievement-oriented",
-        "explanation": "Bahrain's drive for economic success is balanced by an emphasis on relational harmony and quality of life."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: a modern, ambitious Gulf economy prizes progress and standing, so aspirational and status goods land, especially when they signal success and modernity."
       }
     ],
-    "executive_summary": "Bahrain blends its rich tribal heritage with modern aspirations, creating a unique cultural tapestry. Relationships and networks are key to success, while a deep respect for hierarchy and tradition shapes social and professional interactions. The country's open business environment is complemented by a strong sense of community and loyalty.",
+    "executive_summary": "Bahrain carries its tribal roots into a modern and ambitious present. Getting anywhere depends on relationships and networks, and everything is shaped by respect for rank and tradition. The business world is open and welcoming, but underneath it runs a strong pull of community and loyalty.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "Bahrain balances deep-rooted tribal loyalties with a forward-looking drive for economic and personal success.",
+      "title": "Ordered Kin",
+      "summary": "Tribal loyalty and a merchant's eye for opportunity, in a country that opened early.",
       "claim_ids": [
         "c1",
         "c2",
@@ -162,11 +162,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Bahrain's strategic location as a trading hub and its early diversification from oil have shaped its open and entrepreneurial economic environment.",
-        "claim_ids": [
-          "C25"
-        ],
-        "sources_count": 1
+        "text": "A pearling and trading island where merchant families were the unit of enterprise made kin networks and reputation the currency of business."
+      },
+      {
+        "text": "Bahrain's oil ran out early, forcing diversification into finance decades before its neighbours and building an entrepreneurial, formally regulated economy."
+      },
+      {
+        "text": "Gulf and Islamic custom keeps public conduct composed while channelling warmth into private hospitality."
       }
     ],
     "competing_forces": [
@@ -284,7 +286,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Bahrain is a dance between individual aspirations and collective responsibilities. The warmth of hospitality and the importance of relationships are ever-present, while the structured hierarchy and indirect communication style require careful navigation. Success hinges on building strong networks and understanding the nuances of social interactions.",
+      "text": "It is a daily balance between what you want and what you owe the group. Hospitality and relationships are everywhere, while the hierarchy and the habit of speaking indirectly ask for a careful step. You succeed by building a real network and learning to read the room.",
       "claim_ids": [
         "c1",
         "C02",
@@ -294,39 +296,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong tribal and familial ties are immediately evident, influencing both social and political dynamics.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "Business is relationship-first and slower to start than expected."
       },
       {
-        "text": "A high degree of collectivism is observed within in-groups, while interactions with out-groups are more formal and distant.",
-        "claim_ids": [
-          "C02"
-        ],
-        "sources_count": 1
+        "text": "The society is more open and mixed than neighbouring markets."
       },
       {
-        "text": "Indirect and polite communication can initially obscure true intentions, making it important to interpret nonverbal cues.",
-        "claim_ids": [
-          "C10"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "The emphasis on face and reputation means that maintaining harmony in relationships is crucial.",
-        "claim_ids": [
-          "C13"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Hospitality and generosity create a welcoming atmosphere, with social interactions characterized by warmth and openness.",
-        "claim_ids": [
-          "C15"
-        ],
-        "sources_count": 1
+        "text": "Indirect speech means the real answer often comes later."
       }
     ],
     "success_factors": [
@@ -430,7 +406,7 @@
         "iso3": "ARE",
         "country": "United Arab Emirates",
         "similarity": 96,
-        "explanation": "Both Bahrain and the UAE share a blend of traditional tribal values and modern economic ambitions, though Bahrain's smaller size fosters a more intimate social environment.",
+        "explanation": "Both Bahrain and the UAE share a blend of traditional tribal values and modern economic ambitions, though Bahrain's smaller size builds a more intimate social environment.",
         "claim_ids": [
           "c1",
           "C23"
@@ -452,7 +428,7 @@
         "iso3": "QAT",
         "country": "Qatar",
         "similarity": 91,
-        "explanation": "Bahrain and Qatar both emphasize tribal loyalty and economic growth, yet Bahrain's historical trade legacy contributes to its unique cultural openness.",
+        "explanation": "Bahrain and Qatar both stress tribal loyalty and economic growth, yet Bahrain's historical trade legacy contributes to its unique cultural openness.",
         "claim_ids": [
           "c2",
           "C25"
@@ -583,7 +559,12 @@
           "suggested_score": 70
         }
       ]
-    }
+    },
+    "best_for": [
+      "Career-driven professionals",
+      "Long-term planning and operations",
+      "Relationship-led business"
+    ]
   },
   "sources": [
     {
@@ -876,7 +857,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 30,
+        "score": 32,
         "confidence": "MEDIUM"
       },
       "D2": {

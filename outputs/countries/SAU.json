@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 28,
-        "reading": "Community-first",
-        "explanation": "Saudi Arabia's society is deeply rooted in collectivism, with family and tribal affiliations taking precedence over individual actions."
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family and tribal ties are paramount, so belonging, honor, reputation and a trusted tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 36,
-        "reading": "Understated",
-        "explanation": "Expression in Saudi Arabia is generally restrained, with communication styles that prioritize harmony and indirectness."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect, harmony-and-subtlety-valuing talk governs public life, with warmth in private, so dignified, relationship-first framing works."
       },
       {
         "dimension": "D3",
-        "score": 74,
-        "reading": "Highly structured",
-        "explanation": "Saudi culture has a high need for order and predictability, with strict rules and codes of belief guiding societal norms."
+        "score": 76,
+        "reading": "Strongly Certain",
+        "explanation": "Highly structured: religious norms, hierarchy and a strong preference for predictability and order give a firm frame, so standing, credentials and the proper way carry weight, though connections grease it."
       },
       {
         "dimension": "D4",
         "score": 57,
-        "reading": "Balanced",
-        "explanation": "Ambition and achievement are highly valued, driven by both religious teachings and national goals like Vision 2030."
+        "reading": "Striving",
+        "explanation": "Achievement-leaning: religious and national goals (and rapid reform) prize ambition and progress, so aspirational and status goods land, tied to family and national standing."
       }
     ],
-    "executive_summary": "Saudi Arabia is a land where family and tribal ties are paramount, shaping a deeply collectivist society. Communication is indirect, valuing harmony and subtlety over bluntness. The culture is highly structured, with a preference for predictability and order. Ambition and achievement are driven by both religious and national goals, reflecting a society in transition.",
+    "executive_summary": "Saudi Arabia is a place where family and tribe come first, in a deeply collective society. Talk is indirect, prizing harmony and subtlety over bluntness. The culture is highly structured, with a strong liking for predictability and order. Ambition and achievement are pushed by both religious and national goals, a society plainly in transition.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where collective identity and ambitious national goals coexist.",
+      "title": "Devout Families",
+      "summary": "Family and faith set the frame, and national ambition is changing it fast.",
       "claim_ids": [
         "C01",
         "C03",
@@ -120,11 +120,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Saudi Arabia's collectivist orientation is deeply rooted in its tribal and Bedouin heritage, where kinship and group loyalty have historically been essential for survival.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Bedouin tribal society and Islamic tradition make family, honour and the group the base of identity."
+      },
+      {
+        "text": "Wahhabi religious norms and a monarchy claiming religious authority supply a firm and detailed public order."
+      },
+      {
+        "text": "Oil wealth and the Vision 2030 reform programme turned national ambition into an explicit project, lifting Drive."
       }
     ],
     "competing_forces": [
@@ -233,7 +235,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Saudi Arabia feels deeply rooted in tradition and community, where family and tribal affiliations are central. Social interactions are warm and expressive within close circles, but public communication remains indirect to maintain harmony. The society is highly structured, valuing predictability, yet personal connections often navigate around formal rules. Ambition is a national duty, driving both individual and collective progress.",
+      "text": "Life feels rooted in tradition and community, where family and tribal ties are central. Among close circles people are warm and expressive, but public talk stays indirect to keep the peace. The society is highly structured and fond of predictability, though personal connections often find their way around the formal rules. Ambition is treated almost as a national duty, driving both individual and collective progress.",
       "claim_ids": [
         "claim_saudi_identity_group_1",
         "C10",
@@ -244,32 +246,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Saudi Arabian society places a strong emphasis on family and group affiliation, reflecting a collectivist orientation.",
-        "claim_ids": [
-          "claim_saudi_identity_group_1"
-        ],
-        "sources_count": 1
+        "text": "The pace of social change is visible."
       },
       {
-        "text": "Saudi culture values order and predictability, with a high need for structure.",
-        "claim_ids": [
-          "claim_saudi_structure_certain_1"
-        ],
-        "sources_count": 1
+        "text": "Hospitality is generous and formal."
       },
       {
-        "text": "Saudi Arabians are generally oriented towards forming and maintaining relationships; personal interactions and face-to-face meetings are valued over digital communication.",
-        "claim_ids": [
-          "C07"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Saudi Arabians generally have an indirect communication style; it is common for people to understate their opinions in an effort to save face and remain polite.",
-        "claim_ids": [
-          "C10"
-        ],
-        "sources_count": 1
+        "text": "Business follows relationship."
       }
     ],
     "success_factors": [
@@ -549,7 +532,12 @@
           "suggested_score": 72
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Long-term strategic planning",
+      "Cultural immersion experiences"
+    ]
   },
   "sources": [
     {
@@ -817,7 +805,7 @@
         "confidence": "MEDIUM"
       },
       "D3": {
-        "score": 74,
+        "score": 76,
         "confidence": "MEDIUM"
       },
       "D4": {

@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 33,
-        "reading": "Group-oriented",
-        "explanation": "Zambians deeply value collective identity, with extended family and clan networks forming the core of social life."
+        "score": 30,
+        "reading": "Strongly Social",
+        "explanation": "Community-first: extended families and clans are the backbone of social life, so belonging, elder respect and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 50,
-        "reading": "Even-keeled",
-        "explanation": "Indirect communication is the norm, with Zambians often using respectful phrasing to avoid confrontation and maintain social harmony."
+        "reading": "Balanced",
+        "explanation": "Middle: warm and sociable, tempered by indirect, harmony-and-face-keeping talk, so warm-but-indirect, relationship-first approaches work."
       },
       {
         "dimension": "D3",
         "score": 42,
-        "reading": "Adaptable",
-        "explanation": "While hierarchical structures are respected, Zambians exhibit a tolerance for ambiguity, reflected in their flexible approach to rules and time."
+        "reading": "Fluid",
+        "explanation": "Flexible: a relaxed sense of time and reliance on relationships keep dealing adaptable, while respect for rank gives a soft frame."
       },
       {
         "dimension": "D4",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "While traditional values emphasize quality of life over competition, urban areas are seeing a rise in aspiration and achievement-oriented behaviors."
+        "reading": "Accepting",
+        "explanation": "Balanced, leaning communal: community and getting by come first, though a growing urban aspiration rises, so practical, communal goods lead."
       }
     ],
-    "executive_summary": "Zambia thrives on collective identity where extended families and clans form the backbone of social life. Communication is indirect, preserving harmony and face, while workplaces reflect hierarchical structures. Despite a relaxed attitude towards time and ambiguity, there is a growing aspiration culture, especially in urban areas.",
+    "executive_summary": "Zambia runs on collective identity, where extended families and clans form the backbone of social life. Talk is indirect, guarding harmony and face, while workplaces keep their hierarchies. For all the relaxed way with time and uncertainty, a growing culture of aspiration is showing, especially in the cities.",
     "cultural_archetype": {
-      "title": "The Communal Improviser",
-      "summary": "A society where collective identity and adaptability coexist, shaping how Zambians navigate everyday life.",
+      "title": "Relaxed Kin",
+      "summary": "Clan and extended family, at an unhurried and adaptable pace.",
       "claim_ids": [
         "claim1",
         "claim2",
@@ -132,19 +132,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Post-independence policies like 'Zambian Humanism' under Kaunda institutionalized collective identity and social justice, reinforcing communal social structures.",
-        "claim_ids": [
-          "C09"
-        ],
-        "sources_count": 1
+        "text": "Extended families and clans are the backbone of social life and the practical safety net."
       },
       {
-        "text": "The coexistence of over 70 ethnic groups and dual legal systems has fostered a culturally embedded tolerance for normative plurality and ambiguity.",
-        "claim_ids": [
-          "C27",
-          "C22"
-        ],
-        "sources_count": 2
+        "text": "A relaxed sense of time and a large informal economy keep rules and schedules flexible."
+      },
+      {
+        "text": "Respectful, indirect speech is the norm for avoiding confrontation, reinforced by a long tradition of political stability."
       }
     ],
     "competing_forces": [
@@ -243,7 +237,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Zambia feels like a warm embrace of community, where extended families and clans form the backbone of social interactions. The rhythm of daily life is relaxed, with time seen as flexible and adaptable to circumstances. Communication is subtle and indirect, preserving harmony and face, while workplaces reflect a balance between collective well-being and hierarchical respect.",
+      "text": "Life feels like a warm embrace of community, where extended families and clans are the backbone of dealings. The daily rhythm is relaxed, with time treated as flexible. Talk is subtle and indirect, preserving harmony and face, while workplaces balance the community's well-being against respect for rank.",
       "claim_ids": [
         "C04",
         "C05",
@@ -254,20 +248,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The warmth and hospitality of Zambians are immediately apparent, with greetings and communal gatherings marked by expressive joy.",
-        "claim_ids": [
-          "c6",
-          "C18"
-        ],
-        "sources_count": 2
+        "text": "The politeness is constant."
       },
       {
-        "text": "A relaxed attitude toward time, known as 'Zambian time,' allows for flexibility and adaptability in daily schedules.",
-        "claim_ids": [
-          "c8",
-          "C28"
-        ],
-        "sources_count": 2
+        "text": "The pace is unhurried."
+      },
+      {
+        "text": "Community ties are wide."
       }
     ],
     "success_factors": [
@@ -405,7 +392,7 @@
         "iso3": "MWI",
         "country": "Malawi",
         "similarity": 96,
-        "explanation": "Zambia and Malawi both prioritize extended family networks and communal responsibilities, fostering similar social dynamics.",
+        "explanation": "Zambia and Malawi both favor extended family networks and communal responsibilities, building similar social dynamics.",
         "claim_ids": [
           "C05",
           "C06"
@@ -514,7 +501,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cross-cultural communication training",
+      "Community development projects"
+    ]
   },
   "sources": [
     {
@@ -895,7 +887,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 33,
+        "score": 30,
         "confidence": "HIGH"
       },
       "D2": {

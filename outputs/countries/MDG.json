@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 35,
-        "reading": "Group-oriented",
-        "explanation": "Identity in Madagascar is deeply tied to ancestry and communal belonging, with a strong emphasis on lineage and land."
+        "score": 38,
+        "reading": "Social",
+        "explanation": "Community-first: ancestral ties and fihavanana (kinship solidarity) anchor identity, so belonging, respect for elders and ancestors, and reputation drive choices."
       },
       {
         "dimension": "D2",
         "score": 40,
-        "reading": "Understated",
-        "explanation": "Communication is indirect and ritualized, with emotional expression often restrained to maintain social harmony."
+        "reading": "Restrained",
+        "explanation": "Reserved: indirect talk and avoidance of public criticism keep harmony, so gentle, warm, non-confrontational approaches work."
       },
       {
         "dimension": "D3",
         "score": 53,
         "reading": "Balanced",
-        "explanation": "A preference for predictability and order is evident in the adherence to local fady and ancestral customs."
+        "explanation": "Middle, tilting structured: fady (taboos), ancestral custom and hierarchy give a firm frame, so the known way and respect for custom carry weight."
       },
       {
         "dimension": "D4",
         "score": 38,
-        "reading": "Relaxed",
-        "explanation": "Community well-being and social harmony take precedence over individual ambition, though status can be achieved through communal contributions."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: harmony, kinship and tradition come before competition, so practical, communal, everyday goods matter most."
       }
     ],
-    "executive_summary": "Madagascar is a tapestry of ancestral ties and communal values, where social harmony and indirect communication are paramount. The island's rich traditions, from fady taboos to the vibrant famadihana ceremonies, create a society deeply rooted in respect and mutual aid. Navigating life here involves understanding the intricate balance between collective belonging and individual expression.",
+    "executive_summary": "Madagascar mixes ancestral bonds and communal values, where social harmony and indirect talk come first. Rich traditions, from fady, the local taboos that forbid certain acts, to the lively famadihana, the ceremony of reburying and honoring the ancestors, make a society deeply built on respect and mutual aid. Living here means feeling out the balance between belonging to the group and expressing yourself.",
     "cultural_archetype": {
-      "title": "The Harmonious Ancestralist",
-      "summary": "A society where ancestral reverence and community cohesion guide daily life.",
+      "title": "Ancestral Communities",
+      "summary": "The ancestors and the kin group decide belonging, and harmony is protected.",
       "claim_ids": [
         "C1",
         "C2",
@@ -147,11 +147,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Austronesian roots of Madagascar's early settlers established clan-based societies where social cohesion was essential for survival.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
+        "text": "Fihavanana, the ethic of kinship solidarity, and veneration of ancestors make belonging inherited rather than chosen."
+      },
+      {
+        "text": "Fady, the system of local taboos, supplies a tradition-bound order distinct from formal law."
+      },
+      {
+        "text": "Austronesian settlement and relative isolation preserved these structures with little outside disruption."
       }
     ],
     "competing_forces": [
@@ -247,7 +249,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Life in Madagascar feels deeply rooted in tradition, with fady and ancestral veneration guiding daily interactions. The emphasis on social harmony means public criticism is avoided, and relationships are nurtured through indirect communication and sincere hospitality. This creates a warm, community-focused atmosphere where newcomers quickly learn to navigate the intricate social fabric.",
+      "text": "It feels rooted in tradition, with fady and the veneration of ancestors guiding the everyday. The stress on harmony means public criticism is avoided, and relationships are tended through indirect talk and sincere hospitality. It makes a warm, community-minded place a newcomer soon learns to read.",
       "claim_ids": [
         "C8",
         "C09",
@@ -257,12 +259,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Kabary oratory and indirect communication styles are prevalent, reflecting a preference for structured expression.",
-        "claim_ids": [
-          "C5",
-          "C13"
-        ],
-        "sources_count": 2
+        "text": "Indirectness is constant and criticism is never public."
+      },
+      {
+        "text": "Ancestral tradition is part of daily life."
+      },
+      {
+        "text": "The pace is unhurried."
       }
     ],
     "success_factors": [
@@ -363,7 +366,7 @@
         "iso3": "RWA",
         "country": "Rwanda",
         "similarity": 90,
-        "explanation": "Both Madagascar and Rwanda emphasize community cohesion and indirect communication, though Madagascar's Austronesian roots add unique cultural layers.",
+        "explanation": "Both Madagascar and Rwanda stress community cohesion and indirect communication, though Madagascar's Austronesian roots add unique cultural layers.",
         "claim_ids": [
           "C1",
           "C2"
@@ -385,7 +388,7 @@
         "iso3": "SSD",
         "country": "South Sudan",
         "similarity": 90,
-        "explanation": "South Sudan and Madagascar both prioritize community well-being, but Madagascar's unique rituals and taboos create distinct social dynamics.",
+        "explanation": "South Sudan and Madagascar both favor community well-being, but Madagascar's unique rituals and taboos create distinct social dynamics.",
         "claim_ids": [
           "C1",
           "C2"
@@ -531,7 +534,12 @@
           "suggested_score": 45
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Cultural immersion enthusiasts",
+      "Community-driven projects"
+    ]
   },
   "sources": [
     {
@@ -890,7 +898,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 35,
+        "score": 38,
         "confidence": "MEDIUM"
       },
       "D2": {

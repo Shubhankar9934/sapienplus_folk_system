@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 48,
-        "reading": "Balanced",
-        "explanation": "Hong Kongers identify strongly with their city, often distinguishing themselves from mainland Chinese, reflecting a robust local identity."
+        "score": 40,
+        "reading": "Social",
+        "explanation": "Community-leaning with a strong local identity: family and relationships matter, though a rising individualism shows in the young, so trusted ties and reputation drive choices alongside personal aspiration."
       },
       {
         "dimension": "D2",
         "score": 28,
-        "reading": "Reserved",
-        "explanation": "Emotional expression is often restrained, with indirect communication styles that prioritize maintaining face and social harmony."
+        "reading": "Strongly Restrained",
+        "explanation": "Very reserved: face and composure keep feeling in check, so understated, credible, efficient framing works and loud emotion reads as loss of control."
       },
       {
         "dimension": "D3",
-        "score": 30,
-        "reading": "Flexible",
-        "explanation": "Hong Kong's culture is characterized by a flexible approach to rules and a comfort with ambiguity, fostering an entrepreneurial spirit."
+        "score": 46,
+        "reading": "Balanced",
+        "explanation": "Middle: a pragmatic, rules-light-when-convenient business culture bends the official frame through relationships and speed, so efficiency plus a trusted contact is how things move."
       },
       {
         "dimension": "D4",
-        "score": 67,
-        "reading": "Achievement-oriented",
-        "explanation": "The city's ethos emphasizes determination and achievement, with long working hours and a competitive environment being the norm."
+        "score": 71,
+        "reading": "Strongly Striving",
+        "explanation": "Very high: a relentless, fast-paced drive to succeed and get ahead in a costly city, so aspirational, premium and status goods carry real weight and time-saving convenience matters."
       }
     ],
-    "executive_summary": "In Hong Kong, a strong sense of local identity coexists with a pragmatic approach to rules and a relentless drive for success. Relationships are paramount, yet there's a growing individualistic streak among the youth. The city's vibrant energy is matched by its emphasis on maintaining face and social harmony.",
+    "executive_summary": "Hong Kong pairs a strong local identity with a practical way around the rules and a relentless push to succeed. Relationships matter above all, though the young are growing more individual. The city's fierce energy comes matched with a careful attention to face and to keeping social harmony.",
     "cultural_archetype": {
-      "title": "The Pragmatic Striver",
-      "summary": "A society that balances strong communal ties with a relentless pursuit of success and adaptability to change.",
+      "title": "Composed Strivers",
+      "summary": "Relentless, efficient and pragmatic, with face carefully kept on all sides.",
       "claim_ids": [
         "c1",
         "c9",
@@ -127,12 +127,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The colonial history and subsequent socio-political developments have shaped a strong local identity distinct from mainland China.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "A dense, high-cost city built on trade and finance produced a relentless competitive drive, among the highest measured."
+      },
+      {
+        "text": "Chinese family and face tradition keeps identity relationship-based and public expression contained."
+      },
+      {
+        "text": "A colonial commercial system with light regulation and fast enforcement bred pragmatism and speed rather than proceduralism."
       }
     ],
     "competing_forces": [
@@ -231,7 +232,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Hong Kong is a blend of high-paced urban living and structured social interactions. The city's dense environment demands adaptability, while the emphasis on maintaining face and indirect communication shapes daily interactions. The relentless drive for success is palpable, yet there's a growing undercurrent of individual aspirations among the younger generation.",
+      "text": "It is fast, dense, urban living inside a frame of careful social manners. The crowded environment demands adaptability, while face and indirect speech shape every exchange. The drive to succeed is everywhere you look, and under it a younger generation's own ambitions are rising.",
       "claim_ids": [
         "c6",
         "c5",
@@ -243,20 +244,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Social interactions are marked by indirect communication and an emphasis on maintaining face, which may initially confuse newcomers.",
-        "claim_ids": [
-          "C09",
-          "C11"
-        ],
-        "sources_count": 2
+        "text": "The pace is relentless and the density extreme."
       },
       {
-        "text": "The strong sense of local identity and pride in being a 'Hongkonger' is evident in everyday conversations and social dynamics.",
-        "claim_ids": [
-          "c1",
-          "c2"
-        ],
-        "sources_count": 2
+        "text": "Everything is transacted by phone."
+      },
+      {
+        "text": "Politeness is efficient rather than warm."
       }
     ],
     "success_factors": [
@@ -536,7 +530,11 @@
           "suggested_score": 90
         }
       ]
-    }
+    },
+    "best_for": [
+      "Entrepreneurs seeking dynamic markets",
+      "Professionals aiming for high achievement"
+    ]
   },
   "sources": [
     {
@@ -851,7 +849,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 48,
+        "score": 40,
         "confidence": "HIGH"
       },
       "D2": {
@@ -859,11 +857,11 @@
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 30,
+        "score": 46,
         "confidence": "MEDIUM"
       },
       "D4": {
-        "score": 67,
+        "score": 71,
         "confidence": "MEDIUM"
       }
     },

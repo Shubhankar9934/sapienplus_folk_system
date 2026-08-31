@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 40,
-        "reading": "Group-oriented",
-        "explanation": "Albania is characterized by strong family loyalty and group identity, where the in-group's needs often take precedence over individual desires."
+        "reading": "Social",
+        "explanation": "Tilts to the group: family and clan loyalty run deep and the guest is close to sacred, so a personal tie or warm introduction carries more weight than any sales approach, and family opinion shapes the big purchases."
       },
       {
         "dimension": "D2",
-        "score": 32,
-        "reading": "Understated",
-        "explanation": "Albanian culture is marked by expressive warmth and hospitality, with open social interactions and a strong emphasis on welcoming guests."
+        "score": 44,
+        "reading": "Restrained",
+        "explanation": "Middle of the road with a warm streak: direct and hospitable among their own, more measured with outsiders, so sincerity and generosity land better than slick performance."
       },
       {
         "dimension": "D3",
         "score": 55,
-        "reading": "Balanced",
-        "explanation": "There is a strong psychological need for structure and predictability in Albanian society, often fulfilled through traditional codes like the Kanun."
+        "reading": "Certain",
+        "explanation": "Somewhat structured: tradition and custom (the old Kanun code still echoes) plus respect for the proper way give life a settled frame, though relationships often bend the formal rules."
       },
       {
         "dimension": "D4",
         "score": 64,
-        "reading": "Achievement-oriented",
-        "explanation": "Achievement and success are highly valued in Albania, with a competitive drive evident in both professional and social settings."
+        "reading": "Striving",
+        "explanation": "Clearly achievement-leaning: a hard-won, striving culture where getting ahead is prized, so aspirational and status-signaling goods, education and visible upgrade are what people reach for."
       }
     ],
-    "executive_summary": "In Albania, family and group loyalty are paramount, deeply influencing social and professional interactions. The culture is expressive and warm, with hospitality as a core value. While traditional values persist, younger generations are increasingly embracing individualism. The workplace is relationship-driven, with a focus on achievement and success.",
+    "executive_summary": "In Albania your family and your circle come first, and that shapes nearly every handshake and every hire. People are warm and say what they mean, and hospitality is close to sacred: a guest is honored. The young are leaning more toward going their own way. Work gets done through relationships, and getting ahead matters a great deal.",
     "cultural_archetype": {
-      "title": "The Communal Achiever",
-      "summary": "A society where group loyalty and personal achievement coexist, driving both social and professional life.",
+      "title": "Hospitable Strivers",
+      "summary": "Family loyalty and a hard appetite for getting ahead run side by side.",
       "claim_ids": [
         "C01",
         "C04",
@@ -161,12 +161,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The Kanun of Lekë Dukagjini has historically provided a comprehensive customary law governing social structures, ensuring that honour, hospitality, and group loyalty remain central to Albanian culture.",
-        "claim_ids": [
-          "C08",
-          "C21"
-        ],
-        "sources_count": 1
+        "text": "Ottoman rule followed by the Hoxha years of near-total isolation threw people back on family and clan, keeping Identity communal."
+      },
+      {
+        "text": "The Kanun, the medieval customary code, made hospitality a moral obligation and still shapes how guests and strangers are treated."
+      },
+      {
+        "text": "Post-communist collapse and mass emigration bred a hungry, remittance-funded striving that pushed Drive to the achievement end."
       }
     ],
     "competing_forces": [
@@ -260,7 +261,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Life in Albania is vibrant and community-centric, with direct communication and expressive social interactions. Hospitality is a cornerstone, making guests feel honored and welcomed. In the workplace, relationships and loyalty are prioritized, while a strong work ethic drives success. Newcomers will notice the balance between traditional values and a growing sense of individualism among the youth.",
+      "text": "It is a lively, close-knit place where people talk plainly and treat guests like gold. At work, loyalty and who you know count for a lot, and so does hard work and the plain wish to succeed. You will notice the old ways and the young restlessness for something more personal sitting right next to each other.",
       "claim_ids": [
         "C4",
         "C02",
@@ -271,25 +272,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Albanians make direct eye contact, and conversations can be loud and animated, with guests treated as sacred through hospitality rooted in honour codes (besa).",
-        "claim_ids": [
-          "C4"
-        ],
-        "sources_count": 1
+        "text": "The hospitality is immediate and can feel overwhelming at first."
       },
       {
-        "text": "In traditional Albanian society, friendship, alliance, and kinship are highly codified and intertwined—friendship is a functional extension of social structure rather than individual sentiment.",
-        "claim_ids": [
-          "C2"
-        ],
-        "sources_count": 1
+        "text": "Who you know matters more than what the rulebook says."
       },
       {
-        "text": "Contemporary deployments of the Kanun and blood feud in northern Albania reflect deeply codified social orders, honour systems, and predictable normative codes shaping social behaviour.",
-        "claim_ids": [
-          "C5"
-        ],
-        "sources_count": 1
+        "text": "Ambition among the young is open and unembarrassed."
       }
     ],
     "success_factors": [
@@ -555,7 +544,12 @@
           "suggested_score": 62
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business ventures",
+      "Cultural enthusiasts seeking rich traditions",
+      "Professionals valuing strong community ties"
+    ]
   },
   "sources": [
     {
@@ -885,7 +879,7 @@
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 32,
+        "score": 44,
         "confidence": "HIGH"
       },
       "D3": {

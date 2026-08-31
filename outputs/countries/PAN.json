@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 26,
-        "reading": "Community-first",
-        "explanation": "Panama's society is deeply collectivist, where family and in-group loyalty are central to personal identity."
+        "score": 24,
+        "reading": "Strongly Social",
+        "explanation": "Very community-first: family and social networks are paramount, so belonging, reputation and a personal tie drive choices."
       },
       {
         "dimension": "D2",
         "score": 60,
-        "reading": "Expressive",
-        "explanation": "Panamanians are generally warm and expressive, valuing open emotional interactions in both public and private settings."
+        "reading": "Open",
+        "explanation": "Expressive: warm, open, emotionally shared, so lively, warm branding connects, tempered by harmony-keeping."
       },
       {
         "dimension": "D3",
         "score": 55,
-        "reading": "Balanced",
-        "explanation": "While formal structures demand adherence to hierarchy and order, everyday life in Panama often embraces flexibility and informal arrangements."
+        "reading": "Certain",
+        "explanation": "Middle: respect for hierarchy and formality in business gives a frame while personal relationships and a relaxed pace keep it flexible, so a trusted contact plus clear terms reassure."
       },
       {
         "dimension": "D4",
         "score": 44,
-        "reading": "Balanced",
-        "explanation": "Despite a strong work ethic in urban centers, Panamanians balance ambition with a cultural emphasis on leisure and family time."
+        "reading": "Accepting",
+        "explanation": "Quality-of-life leaning: 'tranquilidad' and family weigh against a striving professional class, so both enjoyment and modest aspiration drive choices."
       }
     ],
-    "executive_summary": "In Panama, family and social networks are paramount, shaping a deeply collectivist society. Emotional expression is open and warm, yet maintaining harmony is crucial. Hierarchical structures are respected, but personal relationships often guide business dealings. Despite a striving professional class, leisure and 'tranquilidad' are cherished.",
+    "executive_summary": "In Panama family and the social network come first, in a deeply collective society. Feeling is shown openly and warmly, though keeping harmony matters. Rank is respected, but personal relationships tend to steer business. And for all the striving professional class, leisure and tranquilidad, an easy unhurried calm, are held dear.",
     "cultural_archetype": {
-      "title": "The Communal Connector",
-      "summary": "A society where family ties and personal connections are the backbone of social and professional life.",
+      "title": "Connected Families",
+      "summary": "Family and connections at the base, with tranquility genuinely defended.",
       "claim_ids": [
         "C01",
         "C02",
@@ -171,11 +171,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Panama's strategic location and the development of the Canal have historically driven economic growth and influenced its cultural emphasis on international trade and commerce.",
-        "claim_ids": [
-          "C27"
-        ],
-        "sources_count": 1
+        "text": "Extended family and kinship networks are the core of social life, reinforced by a small population."
+      },
+      {
+        "text": "Four centuries as a trade crossroads, and the Canal, built an internationally oriented service economy alongside that base."
+      },
+      {
+        "text": "Tranquilidad, an unhurried calm, is a genuine cultural value that tempers the striving of the capital."
       }
     ],
     "competing_forces": [
@@ -279,7 +281,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "Living in Panama means embracing a culture where family and social connections are central, and emotional expression is a natural part of daily life. The warmth and openness of Panamanians are balanced by a respect for hierarchy and formality in professional settings. Despite the drive for success in urban areas, the pace of life is often relaxed, with 'tranquilidad' and flexibility cherished.",
+      "text": "It means embracing a culture where family and connections are central, and open feeling is part of the day. The warmth of Panamanians is balanced by a respect for rank and formality at work. Despite the push for success in the cities, the pace is often relaxed, with tranquilidad and flexibility cherished.",
       "claim_ids": [
         "c2",
         "c8",
@@ -290,25 +292,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Panamanians display strong in-group collectivism, with loyalty and solidarity to family and close friends being culturally expected.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "The contrast between the banking city and the rest is sharp."
       },
       {
-        "text": "The large informal economy in Panama, where individuals operate independently of formal structures, fosters a degree of individualism and self-reliance.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "The warmth is immediate."
       },
       {
-        "text": "Panama's social structure features relatively closed professional and business circles; entry requires introductions, demonstrated community commitment, and sustained trust-building over time.",
-        "claim_ids": [
-          "C06"
-        ],
-        "sources_count": 1
+        "text": "Time is treated flexibly."
       }
     ],
     "success_factors": [
@@ -583,7 +573,12 @@
           "suggested_score": 67
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-driven business",
+      "Expressive social environments",
+      "Cultural adaptability"
+    ]
   },
   "sources": [
     {
@@ -986,7 +981,7 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 26,
+        "score": 24,
         "confidence": "MEDIUM"
       },
       "D2": {

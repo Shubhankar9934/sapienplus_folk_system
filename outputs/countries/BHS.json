@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 37,
-        "reading": "Group-oriented",
-        "explanation": "The Bahamas is characterized by strong collectivist values, with family and community as central pillars of social identity."
+        "reading": "Social",
+        "explanation": "Tilts communal: family and church put a floor under everyone and belonging comes easily, though an independent streak leaves room for the individual, so community endorsement drives choices."
       },
       {
         "dimension": "D2",
         "score": 62,
-        "reading": "Expressive",
-        "explanation": "Bahamians are expressive and warm, enjoying animated conversations and vibrant public celebrations like Junkanoo."
+        "reading": "Open",
+        "explanation": "Expressive: Junkanoo, music and loud, warm sociability are the everyday register, so colorful, festive, shareable branding connects and stiffness falls flat."
       },
       {
         "dimension": "D3",
         "score": 50,
         "reading": "Balanced",
-        "explanation": "While formal settings in the Bahamas may adhere to structure, everyday life often embraces a relaxed, flexible approach."
+        "explanation": "Middle: institutions are respected but the island pace and personal relationships keep things flexible, so people expect give and a human touch over rigid process."
       },
       {
         "dimension": "D4",
         "score": 49,
         "reading": "Balanced",
-        "explanation": "While achievement and career success are valued, Bahamians also prioritize leisure and quality of life."
+        "explanation": "Balanced: work and getting ahead matter, but leisure, family and enjoyment weigh equally, so comfort and belonging matter alongside aspiration."
       }
     ],
-    "executive_summary": "In the Bahamas, community and family are central, creating a strong sense of belonging. Expressive and vibrant, Bahamians enjoy lively conversations and celebrations like Junkanoo. While work and achievement are valued, leisure and social time are equally important. The cultural landscape is a blend of traditional collectivism with emerging individualism among the younger generation.",
+    "executive_summary": "In the Bahamas, family and church put a floor under everyone, and belonging comes easy. People are loud and lively; Junkanoo, the street parade of costumes and drums, tells you what the culture sounds like. Work matters, but so does time off and time together, in about equal measure. The old togetherness is picking up a streak of individualism in the young.",
     "cultural_archetype": {
-      "title": "The Communal Celebrant",
-      "summary": "A society deeply rooted in community and expressive celebration, yet open to individual aspirations.",
+      "title": "Festive Communities",
+      "summary": "Family and church at the centre, and Junkanoo in the street.",
       "claim_ids": [
         "c1",
         "c6",
@@ -163,12 +163,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "The interactions of British and African traditions, along with the legacy of slavery, have shaped the Bahamas' collectivist and expressive cultural identity.",
-        "claim_ids": [
-          "c3",
-          "C11"
-        ],
-        "sources_count": 2
+        "text": "Small island settlements built social life around family and church, which still decide reputation."
+      },
+      {
+        "text": "Junkanoo, rooted in the slavery era as a sanctioned festival, established public celebration as the outlet for feeling."
+      },
+      {
+        "text": "A tourism economy and an easy climate made leisure and time with people a genuine counterweight to work."
       }
     ],
     "competing_forces": [
@@ -248,7 +249,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "In the Bahamas, life is a vibrant mix of community gatherings, expressive celebrations, and a relaxed approach to time. Family and church are central, creating a strong sense of belonging. While work and achievement are valued, leisure and social time are equally important, reflecting a balance between tradition and modernity.",
+      "text": "The days are full of company, celebration, and an unhurried clock. Family and church hold the center. People value work and getting somewhere, but they value leisure and each other just as much. Tradition and modern life shaking hands.",
       "claim_ids": [
         "C03",
         "c6",
@@ -258,32 +259,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "The strong sense of community and family is immediately noticeable, with extended families often living close together.",
-        "claim_ids": [
-          "C03"
-        ],
-        "sources_count": 1
+        "text": "The friendliness is genuine and immediate."
       },
       {
-        "text": "Junkanoo and other festivals highlight the expressive and vibrant nature of Bahamian culture.",
-        "claim_ids": [
-          "c6"
-        ],
-        "sources_count": 1
+        "text": "Island time is real and applies to almost everything."
       },
       {
-        "text": "Conversations are warm and animated, often infused with humor.",
-        "claim_ids": [
-          "c7"
-        ],
-        "sources_count": 1
-      },
-      {
-        "text": "Social events operate on 'island time,' with a relaxed approach to punctuality.",
-        "claim_ids": [
-          "c14"
-        ],
-        "sources_count": 1
+        "text": "Community and church shape more of life than a visitor expects."
       }
     ],
     "success_factors": [
@@ -401,7 +383,7 @@
         "iso3": "HTI",
         "country": "Haiti",
         "similarity": 93,
-        "explanation": "Haiti and the Bahamas both emphasize community and family as central to social identity, although Haiti's historical context adds unique cultural layers.",
+        "explanation": "Haiti and the Bahamas both stress community and family as central to social identity, although Haiti's historical context adds unique cultural layers.",
         "claim_ids": [
           "c1",
           "C02"
@@ -412,7 +394,7 @@
         "iso3": "CUB",
         "country": "Cuba",
         "similarity": 91,
-        "explanation": "Cuba and the Bahamas share vibrant cultural expressions and a strong sense of community, though Cuba's political history influences its cultural dynamics.",
+        "explanation": "Cuba and the Bahamas share lively cultural expressions and a strong sense of community, though Cuba's political history influences its cultural dynamics.",
         "claim_ids": [
           "c1",
           "C02"
@@ -558,7 +540,11 @@
           "suggested_score": 60
         }
       ]
-    }
+    },
+    "best_for": [
+      "Community-driven projects",
+      "Expressive cultural exchanges"
+    ]
   },
   "sources": [
     {

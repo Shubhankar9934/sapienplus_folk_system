@@ -13,32 +13,32 @@
       {
         "dimension": "D1",
         "score": 32,
-        "reading": "Group-oriented",
-        "explanation": "Collectivism is deeply rooted, with family and in-group loyalty forming the core of Azerbaijani identity."
+        "reading": "Social",
+        "explanation": "Community-first: family loyalty and a web of personal connections set identity, so a relationship or introduction outranks a cold approach and big choices are cleared with kin."
       },
       {
         "dimension": "D2",
         "score": 41,
-        "reading": "Understated",
-        "explanation": "Public expression is restrained, with emotional and opinion expression often suppressed in formal and hierarchical settings."
+        "reading": "Restrained",
+        "explanation": "Reserved in public, warm in private: composure and respect for rank govern public dealings while hospitality is lavish among your own, so dignified, relationship-first framing beats a loud approach."
       },
       {
         "dimension": "D3",
         "score": 64,
-        "reading": "Structured",
-        "explanation": "A high need for certainty and adherence to rules is evident, with structured hierarchies providing stability in both societal and workplace contexts."
+        "reading": "Certain",
+        "explanation": "Structured: hierarchy, deference to authority and a liking for order and certainty run through work and life, so credentials, the proper channel and a reliable known name reassure."
       },
       {
         "dimension": "D4",
         "score": 45,
-        "reading": "Balanced",
-        "explanation": "Azerbaijan balances achievement and cooperation, with success often linked to social networks rather than individual competition."
+        "reading": "Accepting",
+        "explanation": "Balanced: getting on matters, but through networks and family standing rather than open competition, so status shown discreetly and goods that lift the household's position land."
       }
     ],
-    "executive_summary": "In Azerbaijan, family loyalty and community bonds are paramount, shaping a society where relationships often take precedence over formal structures. Hospitality is a cornerstone, with warmth and generosity defining social interactions. However, public expression is restrained, especially in hierarchical settings where authority is respected. Navigating the workplace often involves informal networks and deference to superiors, reflecting a high need for certainty and order.",
+    "executive_summary": "In Azerbaijan the family and the community come first, and a relationship will usually outrank a rulebook. Hospitality is the heart of things, so guests get warmth and plenty. In public, and around anyone senior, people hold back and show respect. Work moves through informal networks and deference to the boss, because folks here like order and like knowing what comes next.",
     "cultural_archetype": {
-      "title": "The Communal Connector",
-      "summary": "A society where familial bonds and social networks are the linchpins of identity and success.",
+      "title": "Deferential Families",
+      "summary": "Family and personal connections decide what happens, under a formal respect for rank.",
       "claim_ids": [
         "C01",
         "C03",
@@ -165,12 +165,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Azerbaijan's collectivist culture is shaped by its historical reliance on extended family and kin networks for social security and identity.",
-        "claim_ids": [
-          "C01",
-          "C03"
-        ],
-        "sources_count": 2
+        "text": "Clan and family networks survived Persian, Russian and Soviet rule as the reliable unit, keeping Identity communal."
+      },
+      {
+        "text": "Soviet administration layered formal hierarchy and deference to office onto that older clan structure."
+      },
+      {
+        "text": "Caspian oil wealth built a state-directed economy where advancement runs through networks rather than open competition."
       }
     ],
     "competing_forces": [
@@ -281,7 +282,7 @@
       ]
     },
     "life_feels_like": {
-      "text": "In Azerbaijan, life revolves around strong family ties and community bonds, with hospitality and warmth being central to social interactions. Navigating the workplace often involves informal networks and deference to authority, reflecting a high need for order and certainty. While public expression is restrained, personal relationships are marked by genuine warmth and generosity.",
+      "text": "Life circles around family and close ties, with hospitality and warmth at the center. At work you get ahead through who you know and by respecting rank, and people prefer things orderly and certain. Public feeling is kept in check, but in private the warmth is real.",
       "claim_ids": [
         "c3",
         "C06",
@@ -291,25 +292,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Azerbaijan's collectivist society places a strong emphasis on family and in-group loyalty.",
-        "claim_ids": [
-          "c1"
-        ],
-        "sources_count": 1
+        "text": "Guests are pressed with food and tea beyond what seems reasonable."
       },
       {
-        "text": "Hospitality is a cornerstone of Azerbaijani culture, with warm and generous interactions being the norm.",
-        "claim_ids": [
-          "c3"
-        ],
-        "sources_count": 1
+        "text": "Business needs a personal introduction before it goes anywhere."
       },
       {
-        "text": "Communication is often indirect and reserved in formal settings, particularly with elders or superiors.",
-        "claim_ids": [
-          "c4"
-        ],
-        "sources_count": 1
+        "text": "Public life is more reserved than the private welcome suggests."
       }
     ],
     "success_factors": [
@@ -426,7 +415,7 @@
         "iso3": "GEO",
         "country": "Georgia",
         "similarity": 92,
-        "explanation": "Both Azerbaijan and Georgia emphasize family loyalty and hospitality, with similar social warmth in personal interactions.",
+        "explanation": "Both Azerbaijan and Georgia stress family loyalty and hospitality, with similar social warmth in personal interactions.",
         "claim_ids": [
           "c3",
           "C14"
@@ -573,7 +562,12 @@
           "suggested_score": 55
         }
       ]
-    }
+    },
+    "best_for": [
+      "Relationship-led business",
+      "Long-term planning and operations",
+      "Community-focused initiatives"
+    ]
   },
   "sources": [
     {

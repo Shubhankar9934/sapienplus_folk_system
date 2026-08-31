@@ -12,33 +12,33 @@
     "snapshot": [
       {
         "dimension": "D1",
-        "score": 92,
-        "reading": "Strongly independent",
-        "explanation": "The Netherlands is highly individualistic, emphasizing personal freedom and self-reliance while integrating consensus-driven approaches in decision-making."
+        "score": 88,
+        "reading": "Strongly Self",
+        "explanation": "Strongly individual: personal freedom, self-direction and privacy are prized, within a strong consensus society, so 'made for you' works alongside a fair, everyone-has-a-say tone."
       },
       {
         "dimension": "D2",
-        "score": 66,
-        "reading": "Expressive",
-        "explanation": "Dutch culture permits open emotional expression and direct communication, free from hierarchical suppression, yet maintains a respect for privacy."
+        "score": 63,
+        "reading": "Open",
+        "explanation": "Expressive and very direct: people say exactly what they think, so honest, plain, no-nonsense framing lands and spin or hard land repels."
       },
       {
         "dimension": "D3",
-        "score": 61,
-        "reading": "Structured",
-        "explanation": "The Dutch prefer structure and planning, but exhibit flexibility in certain social norms, reflecting a moderate approach to uncertainty."
+        "score": 64,
+        "reading": "Certain",
+        "explanation": "Structured but pragmatic: order, planning and rules give a frame, applied with a negotiated flexibility (the 'polder' consensus), so clarity plus reasonableness reassure."
       },
       {
         "dimension": "D4",
         "score": 30,
-        "reading": "Easygoing",
-        "explanation": "The Netherlands values quality of life and consensus over competition, reflecting a feminine culture that prioritizes relationships and well-being."
+        "reading": "Strongly Accepting",
+        "explanation": "Strongly quality-of-life: balance, modesty and acting normal (doe maar gewoon) beat status and hustle, so comfort, value and understatement land over flash."
       }
     ],
-    "executive_summary": "The Netherlands is a land of independence, where personal freedom is cherished, but consensus and modesty are equally valued. Directness in communication is the norm, yet it coexists with a reserved nature that respects privacy. The Dutch balance a structured approach to life with a relaxed attitude towards indulgence, making for a society that is both organized and easygoing.",
+    "executive_summary": "The Netherlands prizes independence and personal freedom, while valuing consensus and modesty just as much, with a real knack for talking things out until everyone agrees. People are famously direct, and yet they respect privacy and personal space. The Dutch balance an organized approach to life with a relaxed attitude toward indulgence, which makes them both orderly and easygoing.",
     "cultural_archetype": {
-      "title": "The Pragmatic Individualist",
-      "summary": "A society that values personal freedom and directness while maintaining a commitment to consensus and modesty.",
+      "title": "Direct Individualists",
+      "summary": "People say exactly what they think, then talk it out until everyone agrees.",
       "claim_ids": [
         "c1",
         "c5",
@@ -186,12 +186,13 @@
     ],
     "historical_drivers": [
       {
-        "text": "Calvinism has left a significant mark on Dutch culture, encouraging modesty, conscientiousness, and a structured approach to life.",
-        "claim_ids": [
-          "C08",
-          "C19"
-        ],
-        "sources_count": 1
+        "text": "Centuries of water management through the polder system required collective agreement across communities, producing a consensus tradition alongside the highest Identity score in the set."
+      },
+      {
+        "text": "A trading and Calvinist inheritance made directness a virtue and boasting suspect."
+      },
+      {
+        "text": "The doe maar gewoon ethic, act normally and that is unusual enough, holds Drive at the accepting end."
       }
     ],
     "competing_forces": [
@@ -290,7 +291,7 @@
       "status_signals": []
     },
     "life_feels_like": {
-      "text": "Living in the Netherlands means navigating a culture that values both personal freedom and community consensus. The Dutch are direct in their communication, yet they respect privacy and personal space. Life is structured and organized, but there's also a relaxed attitude towards certain social norms, creating a balance that newcomers must adapt to.",
+      "text": "It means moving through a culture that values both personal freedom and community consensus. The Dutch say things straight, yet they respect privacy and space. Life is structured and organized, but with a loose hand on certain social norms, a balance a newcomer learns to strike.",
       "claim_ids": [
         "c2",
         "c5",
@@ -302,25 +303,13 @@
     },
     "newcomer_first_impressions": [
       {
-        "text": "Dutch directness is a cultural norm: people say what they think openly, and disagreement is voiced without personal offense. This reflects emotional openness free from hierarchical suppression.",
-        "claim_ids": [
-          "c5"
-        ],
-        "sources_count": 1
+        "text": "The directness is startling at first."
       },
       {
-        "text": "Newcomers observe that Dutch people value privacy and personal space; they keep to themselves in public and expect others to do the same.",
-        "claim_ids": [
-          "c2"
-        ],
-        "sources_count": 1
+        "text": "Everything is scheduled, including friendships."
       },
       {
-        "text": "The Dutch are known for their affinity for organisation and planning; having a well-defined business strategy is considered essential for long-term growth, and meetings are structured with a clear agenda and specific objectives.",
-        "claim_ids": [
-          "C18"
-        ],
-        "sources_count": 1
+        "text": "Cycling organises the city."
       }
     ],
     "success_factors": [
@@ -461,7 +450,7 @@
         "iso3": "CHE",
         "country": "Switzerland",
         "similarity": 80,
-        "explanation": "The Netherlands and Switzerland both emphasize structure and planning, yet the Dutch are more open and less formal in their communication style.",
+        "explanation": "The Netherlands and Switzerland both stress structure and planning, yet the Dutch are more open and less formal in their communication style.",
         "claim_ids": [
           "c8",
           "C16"
@@ -556,6 +545,18 @@
           "suggested_score": 80
         }
       ],
+      "D2": [
+        {
+          "specialist": "Institutional Analyst",
+          "reasoning": "D2 is the most contested dimension for the Netherlands and requires careful routing of evidence. The Dutch are universally described as 'direct' and 'open' in communication — but the cheat sheet flags that directness/bluntness is NOT D2 openness (which measures freedom from hierarchical suppression of emotional display). Routing correctly: (a) Directness → communication style, not emotional display freedom → set aside for D2 scoring. (b) 'Flamboyant behaviour is not appreciated; one should not attract too much attention displaying emotions in public' (Leiden International Centre) → genuine D2 restraint signal. (c) 'Doe maar gewoon, doe maar gewoon, dan doe je al gek genoeg' — the widely documented Dutch modesty norm actively discourages emotional self-promotion and conspicuous expression → D2 restraint signal. (d) Against this: the Calvinist baseline creates emotional sobriety; yet the Dutch score 68 on Hofstede's Indulgence dimension (unverified in these searches but consistently cited in secondary literature), suggesting moderate expressive freedom in leisure contexts. (e) Research on Dutch vs. Iranian display rules (ResearchGate 2009) found Dutch adults showed fewer desires for anger suppression in children relative to collectivist cultures, suggesting some degree of expressive latitude. (f) The Leiden source notes the Dutch are 'quite direct' and use 'ample eye contact,' which implies a degree of interpersonal openness even if not emotional flamboyance. On balance: the Dutch are structurally freer to express opinions and disagreement than many cultures (supports moderate-high D2), but active norms against emotional display, self-promotion, and flamboyance (the modesty/Calvinist baseline) pull toward the restrained side. A near-midpoint score with a slight lean toward restrained (48) captures this: more open than Asian or Middle-Eastern collectivist cultures, but substantially more reserved than Southern European or Latin American ones. The directness evidence has been correctly routed away from this score.",
+          "suggested_score": 48
+        },
+        {
+          "specialist": "Historical-Cultural Analyst",
+          "reasoning": "Netherlands scores moderate-high on expressiveness (Hofstede Indulgence 68). The culture values direct, honest communication (bespreekbaar maken) and emotional expression is not suppressed by hierarchy. However, a Calvinist undercurrent of sobriety and not showing off tempers extreme displays; openness is structurally free but emotionally moderate.",
+          "suggested_score": 70
+        }
+      ],
       "D3": [
         {
           "specialist": "Cultural Anthropologist",
@@ -573,18 +574,6 @@
           "suggested_score": 80
         }
       ],
-      "D2": [
-        {
-          "specialist": "Institutional Analyst",
-          "reasoning": "D2 is the most contested dimension for the Netherlands and requires careful routing of evidence. The Dutch are universally described as 'direct' and 'open' in communication — but the cheat sheet flags that directness/bluntness is NOT D2 openness (which measures freedom from hierarchical suppression of emotional display). Routing correctly: (a) Directness → communication style, not emotional display freedom → set aside for D2 scoring. (b) 'Flamboyant behaviour is not appreciated; one should not attract too much attention displaying emotions in public' (Leiden International Centre) → genuine D2 restraint signal. (c) 'Doe maar gewoon, doe maar gewoon, dan doe je al gek genoeg' — the widely documented Dutch modesty norm actively discourages emotional self-promotion and conspicuous expression → D2 restraint signal. (d) Against this: the Calvinist baseline creates emotional sobriety; yet the Dutch score 68 on Hofstede's Indulgence dimension (unverified in these searches but consistently cited in secondary literature), suggesting moderate expressive freedom in leisure contexts. (e) Research on Dutch vs. Iranian display rules (ResearchGate 2009) found Dutch adults showed fewer desires for anger suppression in children relative to collectivist cultures, suggesting some degree of expressive latitude. (f) The Leiden source notes the Dutch are 'quite direct' and use 'ample eye contact,' which implies a degree of interpersonal openness even if not emotional flamboyance. On balance: the Dutch are structurally freer to express opinions and disagreement than many cultures (supports moderate-high D2), but active norms against emotional display, self-promotion, and flamboyance (the modesty/Calvinist baseline) pull toward the restrained side. A near-midpoint score with a slight lean toward restrained (48) captures this: more open than Asian or Middle-Eastern collectivist cultures, but substantially more reserved than Southern European or Latin American ones. The directness evidence has been correctly routed away from this score.",
-          "suggested_score": 48
-        },
-        {
-          "specialist": "Historical-Cultural Analyst",
-          "reasoning": "Netherlands scores moderate-high on expressiveness (Hofstede Indulgence 68). The culture values direct, honest communication (bespreekbaar maken) and emotional expression is not suppressed by hierarchy. However, a Calvinist undercurrent of sobriety and not showing off tempers extreme displays; openness is structurally free but emotionally moderate.",
-          "suggested_score": 70
-        }
-      ],
       "D4": [
         {
           "specialist": "Institutional Analyst",
@@ -597,7 +586,13 @@
           "suggested_score": 35
         }
       ]
-    }
+    },
+    "best_for": [
+      "Consensus-driven decision making",
+      "Direct communication environments",
+      "Work-life balance seekers",
+      "Cultural explorers valuing openness"
+    ]
   },
   "sources": [
     {
@@ -868,15 +863,15 @@
   "methodology": {
     "final_scores": {
       "D1": {
-        "score": 92,
+        "score": 88,
         "confidence": "HIGH"
       },
       "D2": {
-        "score": 66,
+        "score": 63,
         "confidence": "HIGH"
       },
       "D3": {
-        "score": 61,
+        "score": 64,
         "confidence": "MEDIUM"
       },
       "D4": {
